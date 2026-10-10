@@ -1,0 +1,1236 @@
+{
+  "result": {
+    "build": "BUILD-M",
+    "scenario": "BENCH-LONG",
+    "difficulty": "standard",
+    "outcome": "victory",
+    "rounds": 11,
+    "party_hp": 408,
+    "party_max_hp": 1224,
+    "hp_damage": 2450,
+    "shield_absorbed": 616,
+    "breaks": 1,
+    "aid_used": 2,
+    "focus_spent": 33,
+    "device_damage": 198,
+    "downs": 1,
+    "actions": 40
+  },
+  "scope": {
+    "full_story_balanced": false,
+    "language_calibrated": false,
+    "reference_simulation": "selected_actives_core_passives_fixed_auxiliaries_no_paid_items",
+    "gear_hooks_not_executed": [
+      "WP-04",
+      "AR-05",
+      "all_relics",
+      "all_modules"
+    ],
+    "not_implemented_in_simulator": [
+      "positions_and_range",
+      "companion_milestone_variants",
+      "ordinary_damage_over_time_ticks",
+      "all_status_visuals",
+      "full_core_battle",
+      "world_commit_storage",
+      "real_engine_saving"
+    ]
+  },
+  "log": [
+    {
+      "round": 1,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "压击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M02",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 1,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 26,
+      "added": 26
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M07",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 3
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 143,
+      "absorbed": 0,
+      "raw": 143,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "guard",
+      "target": "heavy",
+      "hp": 87,
+      "absorbed": 0,
+      "raw": 87,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "support",
+      "target": "heavy",
+      "hp": 85,
+      "absorbed": 0,
+      "raw": 85,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 66,
+      "absorbed": 0,
+      "raw": 66,
+      "device": true
+    },
+    {
+      "round": 1,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 26,
+      "added": 0
+    },
+    {
+      "round": 1,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 33,
+      "added": 7
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 135,
+      "absorbed": 33,
+      "raw": 168,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "压击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 2,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "全场脉冲",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M10",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 4
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 112,
+      "absorbed": 0,
+      "raw": 112,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 2,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 54
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "support",
+      "target": "heavy",
+      "hp": 85,
+      "absorbed": 0,
+      "raw": 85,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 10,
+      "absorbed": 54,
+      "raw": 64,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "guard",
+      "hp": 64,
+      "absorbed": 0,
+      "raw": 64,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "support",
+      "hp": 64,
+      "absorbed": 0,
+      "raw": 64,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "全场脉冲",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 3,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "重压",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M04",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 3
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 87,
+      "absorbed": 0,
+      "raw": 87,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2600
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "guard",
+      "target": "heavy",
+      "hp": 87,
+      "absorbed": 0,
+      "raw": 87,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 79,
+      "added": 79
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 77,
+      "absorbed": 79,
+      "raw": 156,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "重压",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 4,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "压击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M02",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 4,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 26,
+      "added": 26
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 124,
+      "absorbed": 0,
+      "raw": 124,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "heavy"
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 4,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 28
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "support",
+      "target": "heavy",
+      "hp": 85,
+      "absorbed": 0,
+      "raw": 85,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 66,
+      "absorbed": 0,
+      "raw": 66,
+      "device": true
+    },
+    {
+      "round": 4,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 54,
+      "added": 0
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 97,
+      "absorbed": 54,
+      "raw": 151,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "压击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 5,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "全场脉冲",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 5,
+      "kind": "aid",
+      "actor": "hero",
+      "target": "hero",
+      "hp": 180
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 124,
+      "absorbed": 0,
+      "raw": 124,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "heavy"
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "guard",
+      "target": "heavy",
+      "hp": 87,
+      "absorbed": 0,
+      "raw": 87,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 79,
+      "added": 79
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 76,
+      "raw": 76,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "guard",
+      "hp": 76,
+      "absorbed": 0,
+      "raw": 76,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "support",
+      "hp": 76,
+      "absorbed": 0,
+      "raw": 76,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "全场脉冲",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 6,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "重压",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M07",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 3
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 143,
+      "absorbed": 0,
+      "raw": 143,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "break",
+      "target": "heavy",
+      "boss": true
+    },
+    {
+      "round": 6,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2600
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 6,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 51
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "support",
+      "target": "heavy",
+      "hp": 103,
+      "absorbed": 0,
+      "raw": 103,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 83,
+      "absorbed": 54,
+      "raw": 137,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "重压",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": true
+    },
+    {
+      "round": 7,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "压击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 7,
+      "kind": "aid",
+      "actor": "hero",
+      "target": "hero",
+      "hp": 212
+    },
+    {
+      "round": 7,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 124,
+      "absorbed": 0,
+      "raw": 124,
+      "device": false
+    },
+    {
+      "round": 7,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "heavy"
+    },
+    {
+      "round": 7,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 7,
+      "kind": "damage",
+      "source": "guard",
+      "target": "heavy",
+      "hp": 87,
+      "absorbed": 0,
+      "raw": 87,
+      "device": false
+    },
+    {
+      "round": 7,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 7,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 79,
+      "added": 79
+    },
+    {
+      "round": 7,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 89,
+      "absorbed": 79,
+      "raw": 168,
+      "device": false
+    },
+    {
+      "round": 7,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "压击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 8,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "全场脉冲",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 8,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M02",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 8,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 26,
+      "added": 26
+    },
+    {
+      "round": 8,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 124,
+      "absorbed": 0,
+      "raw": 124,
+      "device": false
+    },
+    {
+      "round": 8,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "heavy"
+    },
+    {
+      "round": 8,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 8,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 28
+    },
+    {
+      "round": 8,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 8,
+      "kind": "damage",
+      "source": "support",
+      "target": "heavy",
+      "hp": 85,
+      "absorbed": 0,
+      "raw": 85,
+      "device": false
+    },
+    {
+      "round": 8,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 66,
+      "absorbed": 0,
+      "raw": 66,
+      "device": true
+    },
+    {
+      "round": 8,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 54,
+      "added": 0
+    },
+    {
+      "round": 8,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 14,
+      "absorbed": 54,
+      "raw": 68,
+      "device": false
+    },
+    {
+      "round": 8,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "guard",
+      "hp": 76,
+      "absorbed": 0,
+      "raw": 76,
+      "device": false
+    },
+    {
+      "round": 8,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "support",
+      "hp": 76,
+      "absorbed": 0,
+      "raw": 76,
+      "device": false
+    },
+    {
+      "round": 8,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "全场脉冲",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 9,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "重压",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 9,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 124,
+      "absorbed": 0,
+      "raw": 124,
+      "device": false
+    },
+    {
+      "round": 9,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "heavy"
+    },
+    {
+      "round": 9,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2600
+    },
+    {
+      "round": 9,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 9,
+      "kind": "damage",
+      "source": "guard",
+      "target": "heavy",
+      "hp": 87,
+      "absorbed": 0,
+      "raw": 87,
+      "device": false
+    },
+    {
+      "round": 9,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 9,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 79,
+      "added": 79
+    },
+    {
+      "round": 9,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 77,
+      "absorbed": 79,
+      "raw": 156,
+      "device": false
+    },
+    {
+      "round": 9,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "重压",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 10,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "压击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 10,
+      "kind": "damage",
+      "source": "hero",
+      "target": "heavy",
+      "hp": 124,
+      "absorbed": 0,
+      "raw": 124,
+      "device": false
+    },
+    {
+      "round": 10,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "heavy"
+    },
+    {
+      "round": 10,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2600
+    },
+    {
+      "round": 10,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 10,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 54
+    },
+    {
+      "round": 10,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 10,
+      "kind": "damage",
+      "source": "support",
+      "target": "heavy",
+      "hp": 85,
+      "absorbed": 0,
+      "raw": 85,
+      "device": false
+    },
+    {
+      "round": 10,
+      "kind": "damage",
+      "source": "heavy",
+      "target": "hero",
+      "hp": 32,
+      "absorbed": 54,
+      "raw": 124,
+      "device": false
+    },
+    {
+      "round": 10,
+      "kind": "down",
+      "unit": "hero"
+    },
+    {
+      "round": 10,
+      "kind": "enemy_action",
+      "enemy": "heavy",
+      "name": "压击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 11,
+      "kind": "declare",
+      "intents": {
+        "heavy": {
+          "name": "全场脉冲",
+          "target": "all",
+          "units": [
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 11,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "heavy"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 11,
+      "kind": "damage",
+      "source": "guard",
+      "target": "heavy",
+      "hp": 60,
+      "absorbed": 0,
+      "raw": 87,
+      "device": false
+    },
+    {
+      "round": 11,
+      "kind": "down",
+      "unit": "heavy"
+    }
+  ]
+}

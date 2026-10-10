@@ -1,0 +1,44 @@
+{
+  "installed_at_utc": "2026-10-09T09:40:56.793891+00:00",
+  "base": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain",
+  "dotnet": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+  "dotnet_root": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401",
+  "godot": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+  "export_templates": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono",
+  "nuget_packages": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages",
+  "versions": {
+    "godot": "4.7.2",
+    "godot_net_sdk": "4.7.2",
+    "dotnet_sdk": "10.0.401",
+    "sqlite_provider": "10.0.12"
+  },
+  "windows_templates": [
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_debug_x86_64.exe",
+      "sha256": "4526aac3ac47c65de66f99f715f56b35a2e2e4446fcb23e6d280a830cd97fdea"
+    },
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_debug_x86_64_console.exe",
+      "sha256": "f78703ba3a05dd51a3464f8c90d4c72f54f95d5a8669993e7a5c3ce522b30c52"
+    },
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_release_x86_64.exe",
+      "sha256": "16e0ec3cfd398b938f514de95ff2474b532b5061ada78f92226dba3f7584d55d"
+    },
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_release_x86_64_console.exe",
+      "sha256": "7895a7873947deaff6c8c859c1f77be051023413035048e2db74ceba07a65017"
+    }
+  ],
+  "binary_hashes": {
+    "dotnet_sha256": "21a46f1e5235cf4e844b9de5429f0e198b9c97a41f0503a66442f1d639ca3ee6",
+    "godot_sha256": "2445d009a5e0474fc7064b9767100e9d2c09521890ac5625476bfb81cf03f2d4"
+  },
+  "extracted_counts": {
+    "sdk_files": 5577,
+    "editor_files": 82,
+    "template_files": 27
+  },
+  "system_path_modified": false,
+  "old_system_dotnet_modified": false
+}

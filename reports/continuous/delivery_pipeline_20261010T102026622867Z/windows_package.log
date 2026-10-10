@@ -1,0 +1,16 @@
+{"argv": ["D:\\Python312\\python.exe", "-X", "utf8", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\package_windows.py"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1"}
+RUN godot_import
+EXIT 0
+RUN windows_export
+EXIT 0
+RUN bundled_runtime_new_game
+EXIT 5
+Traceback (most recent call last):
+  File "C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\ci\package_windows.py", line 150, in <module>
+    main()
+  File "C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\ci\package_windows.py", line 64, in main
+    first = run("bundled_runtime_new_game", [str(executable), "--headless", "--", "--release-probe"], clean, marker="MISTSEA_RELEASE_PROBE")
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\ci\package_windows.py", line 47, in run
+    raise RuntimeError("Inspect actual command failure: " + str(log))
+RuntimeError: Inspect actual command failure: C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\reports\execution\CX-077\20261010T105734640553Z\bundled_runtime_new_game.log

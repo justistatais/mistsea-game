@@ -1,0 +1,1188 @@
+{
+  "scope": "exact original bytes copied to short task_report source aliases",
+  "files": [
+    {
+      "path": "content/source/R0/production_cards.author_only.md",
+      "sha256": "a0276d40b003462f9aa371bb1deea6418cbfd7ec5afd4e158cf4f5d1c5dd9319",
+      "bytes": 6524,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0001.md",
+      "alias_sha256": "a0276d40b003462f9aa371bb1deea6418cbfd7ec5afd4e158cf4f5d1c5dd9319"
+    },
+    {
+      "path": "content/source/R0/provenance.author_only.json",
+      "sha256": "90cd822d0adb946af6c98c6f5183e0e6b2e5183fc30e1ead2ecf87105ff44c36",
+      "bytes": 19358,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0002.json",
+      "alias_sha256": "90cd822d0adb946af6c98c6f5183e0e6b2e5183fc30e1ead2ecf87105ff44c36"
+    },
+    {
+      "path": "content/source/R1/production_cards.author_only.md",
+      "sha256": "e17f97179fba8243751756eda5799200ca33ad5c9dd2e788f403daff027867b1",
+      "bytes": 8635,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0003.md",
+      "alias_sha256": "e17f97179fba8243751756eda5799200ca33ad5c9dd2e788f403daff027867b1"
+    },
+    {
+      "path": "content/source/R1/provenance.author_only.json",
+      "sha256": "19d7714a4ea1ffc50267e8560fd4882d6bea538da167453d99d3945896355aba",
+      "bytes": 33111,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0004.json",
+      "alias_sha256": "19d7714a4ea1ffc50267e8560fd4882d6bea538da167453d99d3945896355aba"
+    },
+    {
+      "path": "content/source/balance/finale_balance_candidate_v2.author_only.json",
+      "sha256": "41edc1b3e20fcd0b3ba6bde3f755f8d704af5c3b04b7d56997f40ec60204ec90",
+      "bytes": 3509,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0005.json",
+      "alias_sha256": "41edc1b3e20fcd0b3ba6bde3f755f8d704af5c3b04b7d56997f40ec60204ec90"
+    },
+    {
+      "path": "content/source/balance/finale_balance_candidate_v3.author_only.json",
+      "sha256": "b9c4944935349b4227bf21daf97becca30e3b3f5f34be2c8b948d6b4538b2d0b",
+      "bytes": 2157,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0006.json",
+      "alias_sha256": "b9c4944935349b4227bf21daf97becca30e3b3f5f34be2c8b948d6b4538b2d0b"
+    },
+    {
+      "path": "content/source/campaign/first_entry.json",
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052",
+      "bytes": 39309,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0007.json",
+      "alias_sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052"
+    },
+    {
+      "path": "content/source/campaign/production_cards.json",
+      "sha256": "b6be4a3c92fa9feceecdf87782e79d6d9d087e189d3d39a0a1473c7d73965a38",
+      "bytes": 9445,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0008.json",
+      "alias_sha256": "b6be4a3c92fa9feceecdf87782e79d6d9d087e189d3d39a0a1473c7d73965a38"
+    },
+    {
+      "path": "content/source/chapter_five/learner_package.json",
+      "sha256": "8b28847aa98b6cde1881b84404712e9edde05f1a207e16006a83f093f690c7ee",
+      "bytes": 137926,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0009.json",
+      "alias_sha256": "8b28847aa98b6cde1881b84404712e9edde05f1a207e16006a83f093f690c7ee"
+    },
+    {
+      "path": "content/source/chapter_five/production_cards.author_only.md",
+      "sha256": "38690e67b6ff0b6ef53a6b00c959430d88d4a619a18fc0ff0f2fe84aba1d44d7",
+      "bytes": 9525,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0010.md",
+      "alias_sha256": "38690e67b6ff0b6ef53a6b00c959430d88d4a619a18fc0ff0f2fe84aba1d44d7"
+    },
+    {
+      "path": "content/source/chapter_five/provenance.author_only.json",
+      "sha256": "97aa0823211bafe809f326612531c19a15dbac0269b76d3b1d103bba7f434b80",
+      "bytes": 5531,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0011.json",
+      "alias_sha256": "97aa0823211bafe809f326612531c19a15dbac0269b76d3b1d103bba7f434b80"
+    },
+    {
+      "path": "content/source/chapter_four/learner_package.json",
+      "sha256": "a444cde42ad1340f98fb2f243bdbd241a5deb96962e1cc390a9aa846ce3a155e",
+      "bytes": 130548,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0012.json",
+      "alias_sha256": "a444cde42ad1340f98fb2f243bdbd241a5deb96962e1cc390a9aa846ce3a155e"
+    },
+    {
+      "path": "content/source/chapter_four/optional_credit.author_only.md",
+      "sha256": "1263c003f5c6e50c361777690417a22cb653d249498837534e957f0c69b4c8a1",
+      "bytes": 5820,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0013.md",
+      "alias_sha256": "1263c003f5c6e50c361777690417a22cb653d249498837534e957f0c69b4c8a1"
+    },
+    {
+      "path": "content/source/chapter_four/optional_credit.json",
+      "sha256": "75ac26868e11aa3514a9fb695aefc3981701674df190f34654e2030bb2726baf",
+      "bytes": 6140,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0014.json",
+      "alias_sha256": "75ac26868e11aa3514a9fb695aefc3981701674df190f34654e2030bb2726baf"
+    },
+    {
+      "path": "content/source/chapter_four/optional_inquiry.author_only.md",
+      "sha256": "28dec7cfa320b9c594272328b23b5f4ef72da8c77bafe61e32fc62c4f050cc3b",
+      "bytes": 6116,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0015.md",
+      "alias_sha256": "28dec7cfa320b9c594272328b23b5f4ef72da8c77bafe61e32fc62c4f050cc3b"
+    },
+    {
+      "path": "content/source/chapter_four/optional_inquiry.json",
+      "sha256": "377d25c0db6f421bdef0de12bb336f2415f906fd62a69823253a6a6a1321cabe",
+      "bytes": 5614,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0016.json",
+      "alias_sha256": "377d25c0db6f421bdef0de12bb336f2415f906fd62a69823253a6a6a1321cabe"
+    },
+    {
+      "path": "content/source/chapter_four/production_cards.author_only.md",
+      "sha256": "9bf3c496894544120e5cf6fb2b0f92dc4bb4feed82a11d54da104353b0468da3",
+      "bytes": 12314,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0017.md",
+      "alias_sha256": "9bf3c496894544120e5cf6fb2b0f92dc4bb4feed82a11d54da104353b0468da3"
+    },
+    {
+      "path": "content/source/chapter_four/provenance.author_only.json",
+      "sha256": "e083a895a98aa889a169b66a75432683085354f13e33abe1483f9d203ada565a",
+      "bytes": 4070,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0018.json",
+      "alias_sha256": "e083a895a98aa889a169b66a75432683085354f13e33abe1483f9d203ada565a"
+    },
+    {
+      "path": "content/source/chapter_one/chapter_one.json",
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9",
+      "bytes": 13945,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0019.json",
+      "alias_sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9"
+    },
+    {
+      "path": "content/source/chapter_six/AUTHOR_CARD.md",
+      "sha256": "92f07f4db7479d70e77b81b90be6afa1af3a587985f0fdfa8773bc7503b34ac1",
+      "bytes": 3166,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0020.md",
+      "alias_sha256": "92f07f4db7479d70e77b81b90be6afa1af3a587985f0fdfa8773bc7503b34ac1"
+    },
+    {
+      "path": "content/source/chapter_six/learner_package.json",
+      "sha256": "a6800f6c91d6fd4e98686c90ce6a3ed03765863f00cbe076f83b2e1f913276ed",
+      "bytes": 109055,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0021.json",
+      "alias_sha256": "a6800f6c91d6fd4e98686c90ce6a3ed03765863f00cbe076f83b2e1f913276ed"
+    },
+    {
+      "path": "content/source/chapter_six/long_form.author_only.json",
+      "sha256": "f8342d6f676124b5b49168c194460515bc9991c55c75d28a3b906f7c0f922c48",
+      "bytes": 27270,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0022.json",
+      "alias_sha256": "f8342d6f676124b5b49168c194460515bc9991c55c75d28a3b906f7c0f922c48"
+    },
+    {
+      "path": "content/source/chapter_six/provenance.author_only.json",
+      "sha256": "9ffeea7962ed802bb0eeeb08d85e7dd6e4327710ccf05d284087c7ee16cb7496",
+      "bytes": 7439,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0023.json",
+      "alias_sha256": "9ffeea7962ed802bb0eeeb08d85e7dd6e4327710ccf05d284087c7ee16cb7496"
+    },
+    {
+      "path": "content/source/chapter_three/learner_package.json",
+      "sha256": "1193b43a9151a74024f31a7e251e792637562762568f6384bb2eebf334e804a8",
+      "bytes": 210651,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0024.json",
+      "alias_sha256": "1193b43a9151a74024f31a7e251e792637562762568f6384bb2eebf334e804a8"
+    },
+    {
+      "path": "content/source/chapter_three/production_cards.author_only.md",
+      "sha256": "d8e2c605a644bbc2016515747782bab1a9f5decbe8019ebabb7e534f5eed8644",
+      "bytes": 21337,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0025.md",
+      "alias_sha256": "d8e2c605a644bbc2016515747782bab1a9f5decbe8019ebabb7e534f5eed8644"
+    },
+    {
+      "path": "content/source/chapter_three/provenance.author_only.json",
+      "sha256": "36a1e08638a10f59ea9d8a3ce091cc40f32e5e2a23484462e77d2757e008d3b7",
+      "bytes": 13048,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0026.json",
+      "alias_sha256": "36a1e08638a10f59ea9d8a3ce091cc40f32e5e2a23484462e77d2757e008d3b7"
+    },
+    {
+      "path": "content/source/chapter_two/learner_package.json",
+      "sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905",
+      "bytes": 144131,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0027.json",
+      "alias_sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905"
+    },
+    {
+      "path": "content/source/chapter_two/production_cards.author_only.md",
+      "sha256": "d660a9b33a4a3bae0233e3fbb413b22b22c6220a23f32a1865393e44dbed0d34",
+      "bytes": 25602,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0028.md",
+      "alias_sha256": "d660a9b33a4a3bae0233e3fbb413b22b22c6220a23f32a1865393e44dbed0d34"
+    },
+    {
+      "path": "content/source/chapter_two/provenance.author_only.json",
+      "sha256": "be93a666fa0a1b9cce741465ca1a2569d17a4cdbc7b2beb3c255ecd3b96abd49",
+      "bytes": 4332,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0029.json",
+      "alias_sha256": "be93a666fa0a1b9cce741465ca1a2569d17a4cdbc7b2beb3c255ecd3b96abd49"
+    },
+    {
+      "path": "content/source/finale/epilogue_fragments.author_only.md",
+      "sha256": "5d7ae6293d2be76d22749b3af17c77d63b06420b0d590435e2d2b7ed4d79f8f6",
+      "bytes": 3550,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0030.md",
+      "alias_sha256": "5d7ae6293d2be76d22749b3af17c77d63b06420b0d590435e2d2b7ed4d79f8f6"
+    },
+    {
+      "path": "content/source/finale/learner_package.json",
+      "sha256": "c07b8465f973760025c3d14b69f61bb4185dd9cc0676918abbf49d43e1b7eeac",
+      "bytes": 92412,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0031.json",
+      "alias_sha256": "c07b8465f973760025c3d14b69f61bb4185dd9cc0676918abbf49d43e1b7eeac"
+    },
+    {
+      "path": "content/source/finale/production_cards.author_only.md",
+      "sha256": "dd8796c27a5108ce7a6559ce50b38bd1c8c38b804a8a9b547ed4f3880c8aa93e",
+      "bytes": 15386,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0032.md",
+      "alias_sha256": "dd8796c27a5108ce7a6559ce50b38bd1c8c38b804a8a9b547ed4f3880c8aa93e"
+    },
+    {
+      "path": "content/source/finale/provenance.author_only.json",
+      "sha256": "2367072dbdf6bc0a396bc69c4316208118ed4e02b4c8088fe9b3c36e61cfeee2",
+      "bytes": 2750,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0033.json",
+      "alias_sha256": "2367072dbdf6bc0a396bc69c4316208118ed4e02b4c8088fe9b3c36e61cfeee2"
+    },
+    {
+      "path": "content/source/first_approaches/learner_package.json",
+      "sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03",
+      "bytes": 12290,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0034.json",
+      "alias_sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03"
+    },
+    {
+      "path": "content/source/lina_personal/learner_package.json",
+      "sha256": "6b8305b092778dd6b831117585cebb0dcb58c6caea2f8b05b3adc5eb2e54058c",
+      "bytes": 11353,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0035.json",
+      "alias_sha256": "6b8305b092778dd6b831117585cebb0dcb58c6caea2f8b05b3adc5eb2e54058c"
+    },
+    {
+      "path": "content/source/optional_encounter_contracts/cards.author_only.json",
+      "sha256": "233d3845724c2fae348b5691a72afd3381cf2c9c589f668ae66633188daf2b78",
+      "bytes": 10798,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0036.json",
+      "alias_sha256": "233d3845724c2fae348b5691a72afd3381cf2c9c589f668ae66633188daf2b78"
+    },
+    {
+      "path": "content/source/optional_encounter_contracts/learner_package.json",
+      "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1",
+      "bytes": 65228,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0037.json",
+      "alias_sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+    },
+    {
+      "path": "content/source/optional_local_works/field_relay_contract.json",
+      "sha256": "cb06b027843a15779a24ff9f6219ba3fa380fbbabfa742ea9a8df6aa564309f6",
+      "bytes": 4082,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0038.json",
+      "alias_sha256": "cb06b027843a15779a24ff9f6219ba3fa380fbbabfa742ea9a8df6aa564309f6"
+    },
+    {
+      "path": "content/source/optional_local_works/old_city_life_contract.json",
+      "sha256": "f9813eaee805167818cd071185c9678a083cd17476cd4f447b32c66f72b355e6",
+      "bytes": 7632,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0039.json",
+      "alias_sha256": "f9813eaee805167818cd071185c9678a083cd17476cd4f447b32c66f72b355e6"
+    },
+    {
+      "path": "content/source/optional_local_works/settlement_support_contracts.json",
+      "sha256": "b091d3fef85b0547440c9be7347a7aa1982507fc60e60d2bbc60050a019b53f1",
+      "bytes": 10537,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0040.json",
+      "alias_sha256": "b091d3fef85b0547440c9be7347a7aa1982507fc60e60d2bbc60050a019b53f1"
+    },
+    {
+      "path": "content/source/part06-Puzzle_Materials_v0.1.json",
+      "sha256": "44bc61f8f40391e32037e7b1c0fa172215e373982677ea07d3c0d93c5e00f319",
+      "bytes": 16760,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0041.json",
+      "alias_sha256": "44bc61f8f40391e32037e7b1c0fa172215e373982677ea07d3c0d93c5e00f319"
+    },
+    {
+      "path": "content/source/part10-Q102_Material_Reference_v0.1.json",
+      "sha256": "7ae3d513a9a541a7522c680fe945813c65c680c610b3d8ea7e60ac23c752df36",
+      "bytes": 10362,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0042.json",
+      "alias_sha256": "7ae3d513a9a541a7522c680fe945813c65c680c610b3d8ea7e60ac23c752df36"
+    },
+    {
+      "path": "content/source/r1_life/learner_package.json",
+      "sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0",
+      "bytes": 35696,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0043.json",
+      "alias_sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0"
+    },
+    {
+      "path": "content/source/r2_life/learner_contract.json",
+      "sha256": "6e666d58bb2010f91c084aae49bc81a4e796351572d75e1b54a5826d90d15cc7",
+      "bytes": 4755,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0044.json",
+      "alias_sha256": "6e666d58bb2010f91c084aae49bc81a4e796351572d75e1b54a5826d90d15cc7"
+    },
+    {
+      "path": "content/source/r3_shift_work/learner_package.json",
+      "sha256": "c376ed99aa155d59ec1c01d97fd9e9ca7eb5e0fc03d7d8d3ed912b206ce17467",
+      "bytes": 9243,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0045.json",
+      "alias_sha256": "c376ed99aa155d59ec1c01d97fd9e9ca7eb5e0fc03d7d8d3ed912b206ce17467"
+    },
+    {
+      "path": "content/source/r3_shift_work/production_cards.author_only.json",
+      "sha256": "cfe2158c7f7e44fa6d9a36241d7a9a1873f51adc46f6cac8ce0258cff8778100",
+      "bytes": 1112,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0046.json",
+      "alias_sha256": "cfe2158c7f7e44fa6d9a36241d7a9a1873f51adc46f6cac8ce0258cff8778100"
+    },
+    {
+      "path": "content/source/scoped_personal_work/learner_package.json",
+      "sha256": "d968379af19311bdc460e54f1d7c51eb8c75237d8710055041af1bd282048f90",
+      "bytes": 6757,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0047.json",
+      "alias_sha256": "d968379af19311bdc460e54f1d7c51eb8c75237d8710055041af1bd282048f90"
+    },
+    {
+      "path": "content/source/scoped_personal_work/production_cards.author_only.md",
+      "sha256": "469e99cb06518b0786e3c2efbc626e4e5850df23705c5f9ab474d8b3f53f7e90",
+      "bytes": 7602,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0048.md",
+      "alias_sha256": "469e99cb06518b0786e3c2efbc626e4e5850df23705c5f9ab474d8b3f53f7e90"
+    },
+    {
+      "path": "game/Debug/FinaleBattleCandidate.cs",
+      "sha256": "f1dbe6eff11a6c04fed951fe0e0ab4c56f1257a7badde469389cb61f4d75c30c",
+      "bytes": 6832,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0049.cs",
+      "alias_sha256": "f1dbe6eff11a6c04fed951fe0e0ab4c56f1257a7badde469389cb61f4d75c30c"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterFourLocalClientTests.cs",
+      "sha256": "03fad265295c3b322e8e4f1e8a40ed00ebbb44315427f48e0349f344df1c878d",
+      "bytes": 18747,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0050.cs",
+      "alias_sha256": "03fad265295c3b322e8e4f1e8a40ed00ebbb44315427f48e0349f344df1c878d"
+    },
+    {
+      "path": "game/Diagnostics/Root.ScopedPersonalClientTests.cs",
+      "sha256": "b260b04a3f1d1c04c27ebf6ca5568c7419695a853792ec059c5c4d56329edf70",
+      "bytes": 11311,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0051.cs",
+      "alias_sha256": "b260b04a3f1d1c04c27ebf6ca5568c7419695a853792ec059c5c4d56329edf70"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.Audio.cs",
+      "sha256": "4b606519022442a4375708c3a3fd1e27fd97dee5ffb750b7cdbd59417cbc5341",
+      "bytes": 11416,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0052.cs",
+      "alias_sha256": "4b606519022442a4375708c3a3fd1e27fd97dee5ffb750b7cdbd59417cbc5341"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.FirstApproaches.cs",
+      "sha256": "8467c8f01f172c6dc5610134ffd10e7a17f8ebc8d6666dc62016091b12e0dfe6",
+      "bytes": 10578,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0053.cs",
+      "alias_sha256": "8467c8f01f172c6dc5610134ffd10e7a17f8ebc8d6666dc62016091b12e0dfe6"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.Preferences.cs",
+      "sha256": "e25fc7250c0e6bca9f1da5511238cba13bb97e073a787c64c6ba54c916198a7d",
+      "bytes": 1088,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0054.cs",
+      "alias_sha256": "e25fc7250c0e6bca9f1da5511238cba13bb97e073a787c64c6ba54c916198a7d"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.RegionalLearning.cs",
+      "sha256": "f1cc61e5fb4b218778ccc5667a05af6d0e9eb1240981666b18fa3ec93f0f84d0",
+      "bytes": 11765,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0055.cs",
+      "alias_sha256": "f1cc61e5fb4b218778ccc5667a05af6d0e9eb1240981666b18fa3ec93f0f84d0"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.ReleaseProbe.cs",
+      "sha256": "ea375ee69b03102da463bf517070cf595f398f75c1a6164087489cb8e2287d34",
+      "bytes": 4841,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0056.cs",
+      "alias_sha256": "ea375ee69b03102da463bf517070cf595f398f75c1a6164087489cb8e2287d34"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.cs",
+      "sha256": "734e26c44689f13307ac7a609c63f330942bd8f3f78c91eb443a4b24a3673526",
+      "bytes": 34164,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0057.cs",
+      "alias_sha256": "734e26c44689f13307ac7a609c63f330942bd8f3f78c91eb443a4b24a3673526"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFive.cs",
+      "sha256": "7f9b39c684970ac68d2af826e29e6b4b602722f1da73fd36ce100e3069de8d0e",
+      "bytes": 34797,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0058.cs",
+      "alias_sha256": "7f9b39c684970ac68d2af826e29e6b4b602722f1da73fd36ce100e3069de8d0e"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFour.cs",
+      "sha256": "fede179c048207dc9ef365984ca735f3b286cc730cd4fa5d06499e8c75e0462f",
+      "bytes": 39436,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0059.cs",
+      "alias_sha256": "fede179c048207dc9ef365984ca735f3b286cc730cd4fa5d06499e8c75e0462f"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFourCredit.cs",
+      "sha256": "80774fc2ce34938538fc145699c7e1fffb2251d8ad36e81d1dd4dea6c91d2a1b",
+      "bytes": 14307,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0060.cs",
+      "alias_sha256": "80774fc2ce34938538fc145699c7e1fffb2251d8ad36e81d1dd4dea6c91d2a1b"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFourStudy.cs",
+      "sha256": "8385ed256441b0e725385f31aaa2f2d63a3401c8cfb3a9710bf305f422af25f2",
+      "bytes": 14550,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0061.cs",
+      "alias_sha256": "8385ed256441b0e725385f31aaa2f2d63a3401c8cfb3a9710bf305f422af25f2"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterOne.cs",
+      "sha256": "bcfa1255d92d22fe6bcbb322d38aff2b34d32296928966e993d9dae5c3e5622c",
+      "bytes": 15613,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0062.cs",
+      "alias_sha256": "bcfa1255d92d22fe6bcbb322d38aff2b34d32296928966e993d9dae5c3e5622c"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterSix.cs",
+      "sha256": "c9285b754902c3b594a6b9fab3e4f525a3d93fdd69249991a1e005277bad8d07",
+      "bytes": 51266,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0063.cs",
+      "alias_sha256": "c9285b754902c3b594a6b9fab3e4f525a3d93fdd69249991a1e005277bad8d07"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterThree.cs",
+      "sha256": "0836ea18b76bc6fc9db168c944b92424859b2189c0767c458e60a40a60b0a210",
+      "bytes": 38975,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0064.cs",
+      "alias_sha256": "0836ea18b76bc6fc9db168c944b92424859b2189c0767c458e60a40a60b0a210"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterTwo.cs",
+      "sha256": "0b3855a421bae150b8020defe6e6be7339ac8d8b444ff198349bb1b903fc8db2",
+      "bytes": 34236,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0065.cs",
+      "alias_sha256": "0b3855a421bae150b8020defe6e6be7339ac8d8b444ff198349bb1b903fc8db2"
+    },
+    {
+      "path": "game/UI/Shell/Root.Finale.cs",
+      "sha256": "6b17066f0846db6995fdcca777421c192ffe9e15c9f568e5eda876dc1eb8516a",
+      "bytes": 23998,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0066.cs",
+      "alias_sha256": "6b17066f0846db6995fdcca777421c192ffe9e15c9f568e5eda876dc1eb8516a"
+    },
+    {
+      "path": "game/UI/Shell/Root.OldCityLocalLife.cs",
+      "sha256": "2a201e1a536160f7412da5db5d74b9385ca9ea9d86d3f7102d8d2a581ce6192c",
+      "bytes": 17512,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0067.cs",
+      "alias_sha256": "2a201e1a536160f7412da5db5d74b9385ca9ea9d86d3f7102d8d2a581ce6192c"
+    },
+    {
+      "path": "game/UI/Shell/Root.OptionalEncounterContracts.cs",
+      "sha256": "2bb27d2131e3f803c895b5d2e9839b6e3d441cf2289e275a612bd3d3ec15b682",
+      "bytes": 9604,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0068.cs",
+      "alias_sha256": "2bb27d2131e3f803c895b5d2e9839b6e3d441cf2289e275a612bd3d3ec15b682"
+    },
+    {
+      "path": "game/UI/Shell/Root.R3ShiftWork.cs",
+      "sha256": "c984e012f8333f84fabdb7f2f55a81beb4c24001dbcf446cc855c1781ccd8c6e",
+      "bytes": 12904,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0069.cs",
+      "alias_sha256": "c984e012f8333f84fabdb7f2f55a81beb4c24001dbcf446cc855c1781ccd8c6e"
+    },
+    {
+      "path": "game/UI/Shell/Root.ScopedPersonalWorks.cs",
+      "sha256": "418fed00fd6fa78523005012ffa163821a8f055b429c8e88df3cb700e37cd26c",
+      "bytes": 14877,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0070.cs",
+      "alias_sha256": "418fed00fd6fa78523005012ffa163821a8f055b429c8e88df3cb700e37cd26c"
+    },
+    {
+      "path": "game/UI/Shell/Root.SettlementSupport.cs",
+      "sha256": "60b21f3200e4909ae31fe698b4e2a90980825731a4011210836d0121b66bf7db",
+      "bytes": 19185,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0071.cs",
+      "alias_sha256": "60b21f3200e4909ae31fe698b4e2a90980825731a4011210836d0121b66bf7db"
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/full_suite_inventory.json",
+      "sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+      "bytes": 98753,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0072.json",
+      "alias_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a"
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/run_inputs.json",
+      "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+      "bytes": 89502,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0073.json",
+      "alias_sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db"
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/test_results.json",
+      "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+      "bytes": 102628,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0074.json",
+      "alias_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418"
+    },
+    {
+      "path": "reports/content/RF/CP-RF-04.balance_candidate.md",
+      "sha256": "2d1c24f874365ed6020f3ca0985b0a6ca0d849de9c9e281e517a712f0f423b3e",
+      "bytes": 9566,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0075.md",
+      "alias_sha256": "2d1c24f874365ed6020f3ca0985b0a6ca0d849de9c9e281e517a712f0f423b3e"
+    },
+    {
+      "path": "reports/continuous/chapter_acceptance_mapping.author_review.json",
+      "sha256": "a5ae5e2a5df01a84836a039e62df2dee1bdae8c2366ec54cd9ccb8ff763a7454",
+      "bytes": 1435826,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0076.json",
+      "alias_sha256": "a5ae5e2a5df01a84836a039e62df2dee1bdae8c2366ec54cd9ccb8ff763a7454"
+    },
+    {
+      "path": "reports/continuous/finish_chapter_candidates.py",
+      "sha256": "13d04d31c45e3deaf845e4a0de63f158cf5ce48691d2c3dd20eba8874cccd961",
+      "bytes": 44720,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0077.py",
+      "alias_sha256": "13d04d31c45e3deaf845e4a0de63f158cf5ce48691d2c3dd20eba8874cccd961"
+    },
+    {
+      "path": "reports/continuous/semantic_goal_inventory_20261010.author_review.json",
+      "sha256": "c3a9b8e8d44c9258dd9811afe23aced0a3bdeb89fc4192b59b163e8678b89045",
+      "bytes": 290108,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0078.json",
+      "alias_sha256": "c3a9b8e8d44c9258dd9811afe23aced0a3bdeb89fc4192b59b163e8678b89045"
+    },
+    {
+      "path": "src/Mist.Application/Campaign/CampaignService.cs",
+      "sha256": "51e4a7cb9535dd09c96f369871b4bbaa1f9bc9927a6e0187b7fc519446823416",
+      "bytes": 39740,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0079.cs",
+      "alias_sha256": "51e4a7cb9535dd09c96f369871b4bbaa1f9bc9927a6e0187b7fc519446823416"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Encounters.cs",
+      "sha256": "fedb56219229b3b62ea9792c447b16afffdc50cf3dc428c9fa4f00acaf5b74cf",
+      "bytes": 10739,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0080.cs",
+      "alias_sha256": "fedb56219229b3b62ea9792c447b16afffdc50cf3dc428c9fa4f00acaf5b74cf"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Personal.cs",
+      "sha256": "86bab068f0428d838d90442a518aea32e6ad0cd67e10b25100fe2db3ce0b33c5",
+      "bytes": 9588,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0081.cs",
+      "alias_sha256": "86bab068f0428d838d90442a518aea32e6ad0cd67e10b25100fe2db3ce0b33c5"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Stations.cs",
+      "sha256": "fb91735459118a17c5c8047297114fad40ec89c6f162135f15f02c8dbc4c9485",
+      "bytes": 20761,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0082.cs",
+      "alias_sha256": "fb91735459118a17c5c8047297114fad40ec89c6f162135f15f02c8dbc4c9485"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Submissions.cs",
+      "sha256": "95b830b3301cd3658e4e167d35d68869776a2af9c441291c7652bba702a0e2ad",
+      "bytes": 13913,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0083.cs",
+      "alias_sha256": "95b830b3301cd3658e4e167d35d68869776a2af9c441291c7652bba702a0e2ad"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.cs",
+      "sha256": "53c137d9d31d994a029e0aa749e5977ca48ed584fa2ec5652bc1c4b8d6bc8c85",
+      "bytes": 21699,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0084.cs",
+      "alias_sha256": "53c137d9d31d994a029e0aa749e5977ca48ed584fa2ec5652bc1c4b8d6bc8c85"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Encounters.cs",
+      "sha256": "76d7fc0b993ceccd506fc43015c1c54011f21317d399aa434c69a4ba4e402cab",
+      "bytes": 9175,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0085.cs",
+      "alias_sha256": "76d7fc0b993ceccd506fc43015c1c54011f21317d399aa434c69a4ba4e402cab"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Experiments.cs",
+      "sha256": "8d927f9300618277062284cc0f1d5d91529ea4358abf1c06ed7865f4d48648ed",
+      "bytes": 7456,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0086.cs",
+      "alias_sha256": "8d927f9300618277062284cc0f1d5d91529ea4358abf1c06ed7865f4d48648ed"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Stations.cs",
+      "sha256": "99f0c10e50d00af5acfb7e04dacb4ef1fe485e11410d2820d0472e1a83d1a8a5",
+      "bytes": 20568,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0087.cs",
+      "alias_sha256": "99f0c10e50d00af5acfb7e04dacb4ef1fe485e11410d2820d0472e1a83d1a8a5"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Submissions.cs",
+      "sha256": "d118f992f4cc837d8e8f85c6633747b5dd0d61c1ff887db2f4abd2ebffd692e9",
+      "bytes": 12845,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0088.cs",
+      "alias_sha256": "d118f992f4cc837d8e8f85c6633747b5dd0d61c1ff887db2f4abd2ebffd692e9"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.cs",
+      "sha256": "6f4b54bf20ef237485c74b6266c70f1d932c61d227ad6207755cdc9cfff8f45c",
+      "bytes": 21939,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0089.cs",
+      "alias_sha256": "6f4b54bf20ef237485c74b6266c70f1d932c61d227ad6207755cdc9cfff8f45c"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ExhibitionCreditService.Previews.cs",
+      "sha256": "c24c946e23887fd447604461784a8a739c185de2564d2cad99f8341de08b6203",
+      "bytes": 5323,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0090.cs",
+      "alias_sha256": "c24c946e23887fd447604461784a8a739c185de2564d2cad99f8341de08b6203"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ExhibitionCreditService.cs",
+      "sha256": "4184c1f6af65470aab7ad496c31e0a271584eff596b456732e21267570c742f9",
+      "bytes": 15707,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0091.cs",
+      "alias_sha256": "4184c1f6af65470aab7ad496c31e0a271584eff596b456732e21267570c742f9"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/StudyInquiryService.Previews.cs",
+      "sha256": "2e1f95925b351dbadecdd73ee82324fedcb4f07bc1ba64f7075bf15b61bb927a",
+      "bytes": 7919,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0092.cs",
+      "alias_sha256": "2e1f95925b351dbadecdd73ee82324fedcb4f07bc1ba64f7075bf15b61bb927a"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/StudyInquiryService.cs",
+      "sha256": "9e6a3be2289ba9d626d1baea7935c66d9dbc07cbfa24f8dffdd113a2b895ee82",
+      "bytes": 15902,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0093.cs",
+      "alias_sha256": "9e6a3be2289ba9d626d1baea7935c66d9dbc07cbfa24f8dffdd113a2b895ee82"
+    },
+    {
+      "path": "src/Mist.Application/ChapterOne/ChapterOneService.Tidegate.cs",
+      "sha256": "107b90b332d1c24cce5c871b24297ea3fdd30acc1056f89af1a8d9515b742089",
+      "bytes": 14871,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0094.cs",
+      "alias_sha256": "107b90b332d1c24cce5c871b24297ea3fdd30acc1056f89af1a8d9515b742089"
+    },
+    {
+      "path": "src/Mist.Application/ChapterOne/ChapterOneService.cs",
+      "sha256": "9a6daf0f5b4d66b5c1d58f1ba41b926102187a3c5f1dfda5b78ead9e5430d5e8",
+      "bytes": 13983,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0095.cs",
+      "alias_sha256": "9a6daf0f5b4d66b5c1d58f1ba41b926102187a3c5f1dfda5b78ead9e5430d5e8"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs",
+      "sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7",
+      "bytes": 10263,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0096.cs",
+      "alias_sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Engineering.cs",
+      "sha256": "a73117feb6c6cb6dd52553f2f8c730ba79b11a15e787b2ffbeba9bbb081f688a",
+      "bytes": 24084,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0097.cs",
+      "alias_sha256": "a73117feb6c6cb6dd52553f2f8c730ba79b11a15e787b2ffbeba9bbb081f688a"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Stations.cs",
+      "sha256": "3650d174661cfcf9be1529ee27ad21fc39fc7b1f90f572a71aaedfdd4f8dbefa",
+      "bytes": 15430,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0098.cs",
+      "alias_sha256": "3650d174661cfcf9be1529ee27ad21fc39fc7b1f90f572a71aaedfdd4f8dbefa"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Submissions.cs",
+      "sha256": "21c37a6dac3c4cdfaec9b8651968e061fdcafd25b5a4e3bfb80665e3783dc7eb",
+      "bytes": 10296,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0099.cs",
+      "alias_sha256": "21c37a6dac3c4cdfaec9b8651968e061fdcafd25b5a4e3bfb80665e3783dc7eb"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Tess.cs",
+      "sha256": "12ef41961e7fb46ff9a92cc765b1a32ee0c72ee97967ee65bb78639f70b8a119",
+      "bytes": 6338,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0100.cs",
+      "alias_sha256": "12ef41961e7fb46ff9a92cc765b1a32ee0c72ee97967ee65bb78639f70b8a119"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.cs",
+      "sha256": "bab66ac0b609ffdd4cfea4fb8870060cfb18ebac7125340f817eca79667d85a1",
+      "bytes": 24361,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0101.cs",
+      "alias_sha256": "bab66ac0b609ffdd4cfea4fb8870060cfb18ebac7125340f817eca79667d85a1"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/FinaleLaunchService.cs",
+      "sha256": "8364a159b8c101750304060998f96c72eb46d2928b4458a497e3aa9db9f0a8da",
+      "bytes": 12954,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0102.cs",
+      "alias_sha256": "8364a159b8c101750304060998f96c72eb46d2928b4458a497e3aa9db9f0a8da"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Auxiliary.cs",
+      "sha256": "fdabe1fca3e49c2a251cf4de4b96b848e838aee691ccf29138072670a334f71d",
+      "bytes": 9405,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0103.cs",
+      "alias_sha256": "fdabe1fca3e49c2a251cf4de4b96b848e838aee691ccf29138072670a334f71d"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs",
+      "sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54",
+      "bytes": 12493,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0104.cs",
+      "alias_sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Stations.cs",
+      "sha256": "ba0bcd5b6a84967bc66e50c68d1819bea95f7e2f9606787272cbd641d13653b7",
+      "bytes": 20481,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0105.cs",
+      "alias_sha256": "ba0bcd5b6a84967bc66e50c68d1819bea95f7e2f9606787272cbd641d13653b7"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Submissions.cs",
+      "sha256": "a8bbf768b72fe45d727174fecba632539658d0a0dda0c20b9bf1e9a6e5388dc5",
+      "bytes": 14073,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0106.cs",
+      "alias_sha256": "a8bbf768b72fe45d727174fecba632539658d0a0dda0c20b9bf1e9a6e5388dc5"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.cs",
+      "sha256": "302ea283a1bfb1a53b20ab082434fde548297b7c7f1b18259747ed7e3bac7620",
+      "bytes": 24068,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0107.cs",
+      "alias_sha256": "302ea283a1bfb1a53b20ab082434fde548297b7c7f1b18259747ed7e3bac7620"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Encounters.cs",
+      "sha256": "33a6a5d90e719f387fc336559166f16ef257691c4e1373f96f7412074aba6ea5",
+      "bytes": 12019,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0108.cs",
+      "alias_sha256": "33a6a5d90e719f387fc336559166f16ef257691c4e1373f96f7412074aba6ea5"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Stations.cs",
+      "sha256": "2463bbca25069ff75783c46f52ed7bd2a6562496cf22ff7967af33ed8b8df3ce",
+      "bytes": 15299,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0109.cs",
+      "alias_sha256": "2463bbca25069ff75783c46f52ed7bd2a6562496cf22ff7967af33ed8b8df3ce"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Submissions.cs",
+      "sha256": "a2cc5a7fd59175380605c070ac8a88e24508a6b704d6fab24f8071d7cc243cfb",
+      "bytes": 14226,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0110.cs",
+      "alias_sha256": "a2cc5a7fd59175380605c070ac8a88e24508a6b704d6fab24f8071d7cc243cfb"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.cs",
+      "sha256": "7b9f05c5427d5161508039aa988fbc3383019e055d99a3350f1e9e6761ea694f",
+      "bytes": 22393,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0111.cs",
+      "alias_sha256": "7b9f05c5427d5161508039aa988fbc3383019e055d99a3350f1e9e6761ea694f"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Encounters.cs",
+      "sha256": "e1e479f8683eae12a5b6227db2702aa1727af7df2026ef594969bb2d26487ed5",
+      "bytes": 9685,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0112.cs",
+      "alias_sha256": "e1e479f8683eae12a5b6227db2702aa1727af7df2026ef594969bb2d26487ed5"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Epilogue.cs",
+      "sha256": "9d83d648dcf47b5896e339bca4c23b6704b644be801a8972e92ece82cef123c7",
+      "bytes": 10103,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0113.cs",
+      "alias_sha256": "9d83d648dcf47b5896e339bca4c23b6704b644be801a8972e92ece82cef123c7"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.EpilogueFragments.cs",
+      "sha256": "5b8d5878a83ab4bc4882ab6a5e9cb44ae8d03f4968dd2557013eb958157e911e",
+      "bytes": 9981,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0114.cs",
+      "alias_sha256": "5b8d5878a83ab4bc4882ab6a5e9cb44ae8d03f4968dd2557013eb958157e911e"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Stations.cs",
+      "sha256": "4b5c9889ec4454b7fa848edf1c5cfc66ece51a01ef962dfb3286c3b8660ecd95",
+      "bytes": 12014,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0115.cs",
+      "alias_sha256": "4b5c9889ec4454b7fa848edf1c5cfc66ece51a01ef962dfb3286c3b8660ecd95"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Submissions.cs",
+      "sha256": "6a69e11054e20386ee7642945b4f887765b5e88d9adfd5eb7d1f08704cdb6304",
+      "bytes": 8409,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0116.cs",
+      "alias_sha256": "6a69e11054e20386ee7642945b4f887765b5e88d9adfd5eb7d1f08704cdb6304"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.cs",
+      "sha256": "3d3cfb6174bc3b05e74ee07bb88ecc4083b9f4a3ac2d8d96a71f48dc6fa2516a",
+      "bytes": 19859,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0117.cs",
+      "alias_sha256": "3d3cfb6174bc3b05e74ee07bb88ecc4083b9f4a3ac2d8d96a71f48dc6fa2516a"
+    },
+    {
+      "path": "src/Mist.Application/FirstApproaches/FirstApproachService.cs",
+      "sha256": "895b635ff1841b323ffce73057abd05def6dc4fa3142ac8a3b581e3cf90f0904",
+      "bytes": 19007,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0118.cs",
+      "alias_sha256": "895b635ff1841b323ffce73057abd05def6dc4fa3142ac8a3b581e3cf90f0904"
+    },
+    {
+      "path": "src/Mist.Application/LinaPersonalWorks/LinaPersonalWorkService.cs",
+      "sha256": "64ba067c3646a2e62c77f1d5463f3f0c892edf2c471b5e28844c5b4ea60e5f38",
+      "bytes": 21966,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0119.cs",
+      "alias_sha256": "64ba067c3646a2e62c77f1d5463f3f0c892edf2c471b5e28844c5b4ea60e5f38"
+    },
+    {
+      "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+      "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b",
+      "bytes": 22527,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0120.cs",
+      "alias_sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/FieldRelayRepairService.Encounters.cs",
+      "sha256": "ef6f03da03b1e5155a7ae8822064a3d30e2225ae129ce00861d5cec18eed9c8f",
+      "bytes": 8099,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0121.cs",
+      "alias_sha256": "ef6f03da03b1e5155a7ae8822064a3d30e2225ae129ce00861d5cec18eed9c8f"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/FieldRelayRepairService.cs",
+      "sha256": "3002400dcb792192307c5027cdff8cb254b70cb6854bb899a5b372cb4bf1fe08",
+      "bytes": 18117,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0122.cs",
+      "alias_sha256": "3002400dcb792192307c5027cdff8cb254b70cb6854bb899a5b372cb4bf1fe08"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/MusicBoxRepairService.Note.cs",
+      "sha256": "2004ad3d3557a1ad8c582dd5116530cd58a62dc93d4682c8a4aabfe531b23518",
+      "bytes": 5809,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0123.cs",
+      "alias_sha256": "2004ad3d3557a1ad8c582dd5116530cd58a62dc93d4682c8a4aabfe531b23518"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/MusicBoxRepairService.cs",
+      "sha256": "58d3b8f9c9119606a144b007cfc786fd6dce32d95905708e4f9db694b582ce41",
+      "bytes": 17107,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0124.cs",
+      "alias_sha256": "58d3b8f9c9119606a144b007cfc786fd6dce32d95905708e4f9db694b582ce41"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/OldCityLocalLifeService.Property.cs",
+      "sha256": "32e3c33eccad9bed72c373bb4ef3a4954e1cad6521f7ea8cd5f5ad098defcc63",
+      "bytes": 13088,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0125.cs",
+      "alias_sha256": "32e3c33eccad9bed72c373bb4ef3a4954e1cad6521f7ea8cd5f5ad098defcc63"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/OldCityLocalLifeService.cs",
+      "sha256": "957055ed82edec33ac838c2efe5af905803db195270a5ece4058af4cd57d4f6a",
+      "bytes": 17473,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0126.cs",
+      "alias_sha256": "957055ed82edec33ac838c2efe5af905803db195270a5ece4058af4cd57d4f6a"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.Lamp.cs",
+      "sha256": "372d208d24fe530200e3145a642da6c8dfc06b428ccb30e42895af37c01c6573",
+      "bytes": 10003,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0127.cs",
+      "alias_sha256": "372d208d24fe530200e3145a642da6c8dfc06b428ccb30e42895af37c01c6573"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.Press.cs",
+      "sha256": "f22c80d81d6d6516cdbf40d72336097f617d553a26e5f2204c58b18f1ab53838",
+      "bytes": 7667,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0128.cs",
+      "alias_sha256": "f22c80d81d6d6516cdbf40d72336097f617d553a26e5f2204c58b18f1ab53838"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.cs",
+      "sha256": "3d5da51c80cae675e0e2c0fcaaf5e3bb5683be830a1e6049e4244da04d670747",
+      "bytes": 18703,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0129.cs",
+      "alias_sha256": "3d5da51c80cae675e0e2c0fcaaf5e3bb5683be830a1e6049e4244da04d670747"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SideWellObservationService.cs",
+      "sha256": "55e9f1013f06569d59cdb971b10851995eb235de74f8d79bac11ef9aa7b6b0d6",
+      "bytes": 18678,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0130.cs",
+      "alias_sha256": "55e9f1013f06569d59cdb971b10851995eb235de74f8d79bac11ef9aa7b6b0d6"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/TessLocalReceiptBridge.cs",
+      "sha256": "69aea8b5fa5d187e898c4a29acbf7d3e27984d72aa5f669d36e87afa00a45a1b",
+      "bytes": 19696,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0131.cs",
+      "alias_sha256": "69aea8b5fa5d187e898c4a29acbf7d3e27984d72aa5f669d36e87afa00a45a1b"
+    },
+    {
+      "path": "src/Mist.Application/Q102/Q102Service.cs",
+      "sha256": "767745de7b1eea6a60e3efe169a024efbfb2cc7549bba7b1c7b79dbf14635c44",
+      "bytes": 19763,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0132.cs",
+      "alias_sha256": "767745de7b1eea6a60e3efe169a024efbfb2cc7549bba7b1c7b79dbf14635c44"
+    },
+    {
+      "path": "src/Mist.Application/R1Life/R1LifeService.cs",
+      "sha256": "c083756c095e72f89049c258a09b640ac5ced6990c0f74ca6440a1f4465569ea",
+      "bytes": 27515,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0133.cs",
+      "alias_sha256": "c083756c095e72f89049c258a09b640ac5ced6990c0f74ca6440a1f4465569ea"
+    },
+    {
+      "path": "src/Mist.Application/R2Life/R2LifeService.cs",
+      "sha256": "37c689e8fc2ba33d7d94b98769f9d7a45a3258895694047d0ba46f7bb1f5a02f",
+      "bytes": 25517,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0134.cs",
+      "alias_sha256": "37c689e8fc2ba33d7d94b98769f9d7a45a3258895694047d0ba46f7bb1f5a02f"
+    },
+    {
+      "path": "src/Mist.Application/R3ShiftWork/R3ShiftWorkService.cs",
+      "sha256": "49d6201750ebf3100b538310d729b3f1ef658add9640e19d39caf7c8fee3c4a0",
+      "bytes": 21228,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0135.cs",
+      "alias_sha256": "49d6201750ebf3100b538310d729b3f1ef658add9640e19d39caf7c8fee3c4a0"
+    },
+    {
+      "path": "src/Mist.Application/ReleaseReadiness/FinalReadinessService.cs",
+      "sha256": "d468d0b314b4d7b9926d961dc954bdb5866c80e628a1647ce8cb7e2e0ec9914f",
+      "bytes": 17841,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0136.cs",
+      "alias_sha256": "d468d0b314b4d7b9926d961dc954bdb5866c80e628a1647ce8cb7e2e0ec9914f"
+    },
+    {
+      "path": "src/Mist.Application/ReleaseReadiness/WorldPreparationProjection.cs",
+      "sha256": "7b4c39ff53abacf4cd7e0439f696f34f393f79951f189b93141c47701609ba26",
+      "bytes": 13812,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0137.cs",
+      "alias_sha256": "7b4c39ff53abacf4cd7e0439f696f34f393f79951f189b93141c47701609ba26"
+    },
+    {
+      "path": "src/Mist.Application/ScopedPersonalWorks/PersonalProductionRules.cs",
+      "sha256": "854da11f31cacf087166b624bc1c43b18ff5be855b76b8f3e50fbb5c234d8b4c",
+      "bytes": 10435,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0138.cs",
+      "alias_sha256": "854da11f31cacf087166b624bc1c43b18ff5be855b76b8f3e50fbb5c234d8b4c"
+    },
+    {
+      "path": "src/Mist.Application/ScopedPersonalWorks/ScopedPersonalWorksService.Mira.cs",
+      "sha256": "8b3dfbf99212fe06e153dafd7dd184ed7c8f50caa748045bb00f072ccf92523d",
+      "bytes": 10114,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0139.cs",
+      "alias_sha256": "8b3dfbf99212fe06e153dafd7dd184ed7c8f50caa748045bb00f072ccf92523d"
+    },
+    {
+      "path": "src/Mist.Application/ScopedPersonalWorks/ScopedPersonalWorksService.Oren.cs",
+      "sha256": "a8a03ab30d47c88c69a3b3b4209cb933921aa47b381ace58f0ce1411cc14253d",
+      "bytes": 16642,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0140.cs",
+      "alias_sha256": "a8a03ab30d47c88c69a3b3b4209cb933921aa47b381ace58f0ce1411cc14253d"
+    },
+    {
+      "path": "src/Mist.Application/ScopedPersonalWorks/ScopedPersonalWorksService.Readers.cs",
+      "sha256": "18a97e4bb41b9259e5692933c2c2521ceaf41fefdec7ef4403dbd6f101661087",
+      "bytes": 3859,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0141.cs",
+      "alias_sha256": "18a97e4bb41b9259e5692933c2c2521ceaf41fefdec7ef4403dbd6f101661087"
+    },
+    {
+      "path": "src/Mist.Application/ScopedPersonalWorks/ScopedPersonalWorksService.cs",
+      "sha256": "91d8ed7c7b298f77f83d06cdc44a7577a428b52b5b82ef71bea8707cc425b88d",
+      "bytes": 12847,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0142.cs",
+      "alias_sha256": "91d8ed7c7b298f77f83d06cdc44a7577a428b52b5b82ef71bea8707cc425b88d"
+    },
+    {
+      "path": "src/Mist.Core/Assets/CampaignSpeechProjection.cs",
+      "sha256": "791733700e931511a76e5fa87d0a3465071583a2b35d0bef0ce8b5bf4bf7cd1d",
+      "bytes": 799,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0143.cs",
+      "alias_sha256": "791733700e931511a76e5fa87d0a3465071583a2b35d0bef0ce8b5bf4bf7cd1d"
+    },
+    {
+      "path": "src/Mist.Core/Finale/FinaleBattleRules.cs",
+      "sha256": "11e85fb20062f91c25111960416514e3b86269ee3f0dc034ef2ee966deda39ba",
+      "bytes": 15484,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0144.cs",
+      "alias_sha256": "11e85fb20062f91c25111960416514e3b86269ee3f0dc034ef2ee966deda39ba"
+    },
+    {
+      "path": "src/Mist.Core/Finale/FinaleEncounterFactory.cs",
+      "sha256": "4b666d7959c06bb6056e4947ef768be5b0282d7b3b8814b443d036390d86747c",
+      "bytes": 4392,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0145.cs",
+      "alias_sha256": "4b666d7959c06bb6056e4947ef768be5b0282d7b3b8814b443d036390d86747c"
+    },
+    {
+      "path": "src/Mist.Core/ScopedPersonalWorks/ScopedPersonalWorkModels.cs",
+      "sha256": "f54b6aec7c702b1bdb74a0f8961d3a10c0691762fe751ae47bb773f8e89cfcb5",
+      "bytes": 5011,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0146.cs",
+      "alias_sha256": "f54b6aec7c702b1bdb74a0f8961d3a10c0691762fe751ae47bb773f8e89cfcb5"
+    },
+    {
+      "path": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "sha256": "8b667d97e63934be82f63bee4cc1d9e83013f3fbe574f694a43ae918b4367f22",
+      "bytes": 23707,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0147.cs",
+      "alias_sha256": "8b667d97e63934be82f63bee4cc1d9e83013f3fbe574f694a43ae918b4367f22"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFive/ChapterFiveCases.cs",
+      "sha256": "8bd75388f89112148473b7786f69dcd756f0ef7424197e44544778606d6b094d",
+      "bytes": 39824,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0148.cs",
+      "alias_sha256": "8bd75388f89112148473b7786f69dcd756f0ef7424197e44544778606d6b094d"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFour/ChapterFourCases.cs",
+      "sha256": "ec5fd1614964149272a86342b3ea3f840a6a276da40e948b5c77e0ecdcc8fbde",
+      "bytes": 28852,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0149.cs",
+      "alias_sha256": "ec5fd1614964149272a86342b3ea3f840a6a276da40e948b5c77e0ecdcc8fbde"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFour/ExhibitionCreditCases.cs",
+      "sha256": "72960e9dca4f6a67c5fcfec76aa8e5d918e5f3467c2dbd867d9f746b5db32333",
+      "bytes": 9522,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0150.cs",
+      "alias_sha256": "72960e9dca4f6a67c5fcfec76aa8e5d918e5f3467c2dbd867d9f746b5db32333"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFour/StudyInquiryCases.cs",
+      "sha256": "c40450c726855ebf491d9f299c1a5417a2398ab791281fc778d4f472009ef109",
+      "bytes": 9411,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0151.cs",
+      "alias_sha256": "c40450c726855ebf491d9f299c1a5417a2398ab791281fc778d4f472009ef109"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "sha256": "1fb433bd349c245649885dff0ecbd1adb8175069f09b1e121b59fb239d1a2d12",
+      "bytes": 24740,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0152.cs",
+      "alias_sha256": "1fb433bd349c245649885dff0ecbd1adb8175069f09b1e121b59fb239d1a2d12"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterSix/ChapterSixCases.cs",
+      "sha256": "1aefffb7858e217cd082f87b1588899b81cbe943a4fb4c9e73edf6161fe98f18",
+      "bytes": 32956,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0153.cs",
+      "alias_sha256": "1aefffb7858e217cd082f87b1588899b81cbe943a4fb4c9e73edf6161fe98f18"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterThree/ChapterThreeCases.cs",
+      "sha256": "cb29a04df2555dee5c35aca6ebbb7610cd6d3da38a9a9b5d1ec546b3243a4af7",
+      "bytes": 28725,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0154.cs",
+      "alias_sha256": "cb29a04df2555dee5c35aca6ebbb7610cd6d3da38a9a9b5d1ec546b3243a4af7"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterTwo/ChapterTwoCases.cs",
+      "sha256": "41213d6ee1e112f72deb12d16222867ca43f3fa8181ddde8b2a0ba6c82faa01d",
+      "bytes": 21061,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0155.cs",
+      "alias_sha256": "41213d6ee1e112f72deb12d16222867ca43f3fa8181ddde8b2a0ba6c82faa01d"
+    },
+    {
+      "path": "tests/Mist.Tests/Finale/FinaleBattleCases.cs",
+      "sha256": "4401ac326253e9a0d109222a60963b6b4789053a6f730f89ae9e6f575144e960",
+      "bytes": 10969,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0156.cs",
+      "alias_sha256": "4401ac326253e9a0d109222a60963b6b4789053a6f730f89ae9e6f575144e960"
+    },
+    {
+      "path": "tests/Mist.Tests/Finale/FinaleCases.cs",
+      "sha256": "642d939ed1e2829fa322074c90fac58b10d0b131522768c3f225aefa407cfdd7",
+      "bytes": 20119,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0157.cs",
+      "alias_sha256": "642d939ed1e2829fa322074c90fac58b10d0b131522768c3f225aefa407cfdd7"
+    },
+    {
+      "path": "tests/Mist.Tests/LinaPersonalWorks/LinaPersonalWorkCases.cs",
+      "sha256": "21c9140ddb9f8a79e226b53786f5e0a1b5e88ffe386c07776c5af5bcfc0ef82d",
+      "bytes": 9009,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0158.cs",
+      "alias_sha256": "21c9140ddb9f8a79e226b53786f5e0a1b5e88ffe386c07776c5af5bcfc0ef82d"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalEncounterContracts/OptionalEncounterCases.cs",
+      "sha256": "c3497333105968d7dfa2009920d6c05cf1d0103f5556fdb07e2b658e8b5d5f39",
+      "bytes": 21094,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0159.cs",
+      "alias_sha256": "c3497333105968d7dfa2009920d6c05cf1d0103f5556fdb07e2b658e8b5d5f39"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/FieldRelayRepairCases.cs",
+      "sha256": "9daea0efa5e53988b3d1e8b1cd18c276292e67e0fbcffd257b5a6219b028c14c",
+      "bytes": 9216,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0160.cs",
+      "alias_sha256": "9daea0efa5e53988b3d1e8b1cd18c276292e67e0fbcffd257b5a6219b028c14c"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/MusicBoxRepairCases.cs",
+      "sha256": "f214dc4b9a3fad60239214320882c06c5e1ccda08ce1426f3c916f77f8a0f53e",
+      "bytes": 12742,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0161.cs",
+      "alias_sha256": "f214dc4b9a3fad60239214320882c06c5e1ccda08ce1426f3c916f77f8a0f53e"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/OldCityLocalLifeCases.cs",
+      "sha256": "df39095cb2fc0860736aaf63415d3904b5389adcdaa8c760c7366ccbc0caf479",
+      "bytes": 12773,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0162.cs",
+      "alias_sha256": "df39095cb2fc0860736aaf63415d3904b5389adcdaa8c760c7366ccbc0caf479"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/SettlementSupportCases.cs",
+      "sha256": "aa5fc7d64df842946c314448b415026acd4acced1a44fc94d9c09d4e3ec026cb",
+      "bytes": 15141,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0163.cs",
+      "alias_sha256": "aa5fc7d64df842946c314448b415026acd4acced1a44fc94d9c09d4e3ec026cb"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/SideWellObservationCases.cs",
+      "sha256": "102001827094749a009d338a7dd1a550065995223f92722ba9524ce8cb29712c",
+      "bytes": 8754,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0164.cs",
+      "alias_sha256": "102001827094749a009d338a7dd1a550065995223f92722ba9524ce8cb29712c"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/TessLocalReceiptBridgeCases.cs",
+      "sha256": "2384c0f677e4f488d701a9d093a4c0da8b0aabf1358e3df33177260cb452d354",
+      "bytes": 10580,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0165.cs",
+      "alias_sha256": "2384c0f677e4f488d701a9d093a4c0da8b0aabf1358e3df33177260cb452d354"
+    },
+    {
+      "path": "tests/Mist.Tests/R1Life/R1LifeCases.cs",
+      "sha256": "147ec8606050af09fb6a76a7f5461364a9559eb65f6aa76176e09149fa489adb",
+      "bytes": 21977,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0166.cs",
+      "alias_sha256": "147ec8606050af09fb6a76a7f5461364a9559eb65f6aa76176e09149fa489adb"
+    },
+    {
+      "path": "tests/Mist.Tests/R2Life/R2LifeCases.cs",
+      "sha256": "7f5fb12d0712f95372bc0880ea60f93d709c284147aa61c51e09b2f2d266a3f7",
+      "bytes": 25168,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0167.cs",
+      "alias_sha256": "7f5fb12d0712f95372bc0880ea60f93d709c284147aa61c51e09b2f2d266a3f7"
+    },
+    {
+      "path": "tests/Mist.Tests/R3ShiftWork/R3ShiftWorkCases.cs",
+      "sha256": "565dde8e441dd29092b7283d5556e78f392090c4679f345bf97dfe275471be9f",
+      "bytes": 7336,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0168.cs",
+      "alias_sha256": "565dde8e441dd29092b7283d5556e78f392090c4679f345bf97dfe275471be9f"
+    },
+    {
+      "path": "tests/Mist.Tests/ScopedPersonalWorks/ScopedPersonalWorkCases.cs",
+      "sha256": "1c38ecef2c92b2d679050ca8237b3d9965706e62f94c8719e1dd9253fe8d9889",
+      "bytes": 14425,
+      "short_snapshot_alias": "reports/continuous/cps/9955eeec313b/f0169.cs",
+      "alias_sha256": "1c38ecef2c92b2d679050ca8237b3d9965706e62f94c8719e1dd9253fe8d9889"
+    }
+  ]
+}

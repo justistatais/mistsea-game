@@ -1,0 +1,171 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-R2-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 31,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CP-R2-03",
+      "name": "Bare actor R2 scene cannot fabricate physical voyage authority or regional progress",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "Actual Travel sailing precedes R2 initialise; remote material and archive shortcuts are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "Q201 requires three actual porch observations; saved draft and read materials do not award XP",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "Q202 keeps unknown authorisation minute and D-1-only fact, never present mentor state",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "Parallel Q203 before Q202 uses actual three domains and current tower checks without full conversion",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "All four R2 actual tasks reward once, keep protected scrutiny and survive continue",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "Draft CAS and retained read-only preview reject modified writing without issuing archive scope",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "A ready preview remains read-only and becomes stale after a draft change or continuation",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "Individual W04 scope rejects a private address and completes either actual limited-copy path once",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "r2_optional_contract_preserves_original_complete_sources_and_ports_with_pending_human_gates",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "actual_zero_XP_R2_optional_entry_uses_same_GLIMMER_and_landing_without_mainline_or_local_awards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "bare_R2_actor_cannot_fabricate_optional_entry_or_local_quest_instances",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "private_reply_requires_exact_current_person_scope_and_does_not_leak_unread_sources",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "withdrawal_preserves_saved_private_draft_blocks_new_work_and_keeps_safe_exit_open",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "meaning_confirmation_cannot_replace_writer_current_draft_review_or_promise_a_visit",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "old_writer_review_cannot_send_a_new_saved_draft_and_new_review_binds_exact_hash",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "withdrawal_before_ready_confirm_rejects_atomic_private_delivery_without_closing_quest",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "busy_local_writer_and_post_custodian_do_not_clone_roles_or_half_commit_a_letter",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "pause_and_continue_preserve_private_instance_and_require_new_foreground_current_review",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "private_reply_SendShortAcknowledgement_is_once_only_zero_reward_and_separates_custody_from_keep",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "private_reply_KeepRevision_is_once_only_zero_reward_and_separates_custody_from_keep",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "six_bed_layout_rejects_duplicate_unknown_excess_and_unagreed_three_three_arrangements",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "five_inspections_and_saved_note_do_not_replace_six_spaces_grower_approval_or_planting",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "six_bed_2_leaves_actual_planting_keeps_conditional_estimate_out_of_stock_and_rewards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "six_bed_4_leaves_actual_planting_keeps_conditional_estimate_out_of_stock_and_rewards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "changed_layout_invalidates_approval_and_planted_beds_cannot_be_reset_or_counted_twice",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "revision_request_remains_pending_and_five_actual_beds_cannot_submit_a_six_bed_result",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "six_bed_ready_preview_is_read_only_and_rejects_current_draft_edit_or_old_load",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: assertion failed\r\n   at Mist.Tests.TestRegistry.Require(Boolean condition, String message) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 11\r\n   at Mist.Tests.R2Life.R2LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_14() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R2Life\\R2LifeCases.cs:line 133\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "declining_two_optional_stories_preserves_mainline_recruitment_ending_and_legal_vessel",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R2-03",
+      "name": "completed_trial_survives_continue_without_replanting_or_renewing_instances",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

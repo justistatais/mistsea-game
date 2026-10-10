@@ -1,0 +1,28 @@
+[
+  {
+    "argv": [
+      "D:\\Python312\\python.exe",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\audio\\prepare_regional.py"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-066/20261010T044140889322Z/prepare.log"
+  },
+  {
+    "argv": [
+      "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "-NoProfile",
+      "-ExecutionPolicy",
+      "Bypass",
+      "-File",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\audio\\Generate-RegionalSpeech.ps1",
+      "-InputPath",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\content\\source\\audio\\regional_speech_input.json",
+      "-ContentDirectory",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\content"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-066/20261010T044140889322Z/render_or_verify.log"
+  }
+]

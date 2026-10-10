@@ -1,0 +1,16 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R3-03",
+      "name": "Actual regional voyage lands without granting any unvisited record, reward or rescue",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

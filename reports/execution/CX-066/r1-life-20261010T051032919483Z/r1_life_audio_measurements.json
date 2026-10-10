@@ -1,0 +1,50 @@
+{
+  "scope": "actual local SAPI render and WAVE byte/frame inspection; isolated content folder; shared index untouched",
+  "tracks": [
+    {
+      "material_id": "R1-ROOM-L-GUESTS",
+      "source": "content/source/r1_life/learner_package.json",
+      "source_file_sha256": "47813940f5f4414e598331cbe1e075b3bc5c05b641b02694e0acd45d9e380090",
+      "material_version": "R1-LIFE-20261010-v2",
+      "text_sha256": "2d199dea892312eadfc6ef4979ca3821bd291ed2cfc040fe8e759c73aa530b2d",
+      "speech_sha256": "53ed1b221b1bea1006ce45dc304232fd05206000b5af19e104725e18d9e43b41",
+      "audio_sha256": "38003671f856df359ed4abf4b1b65214745d6d150acb41a5486e34cf65da9dee",
+      "bytes": 2455510,
+      "actual_file": "reports/execution/CX-066/r1-life-20261010T051032919483Z/content/audio/regional/R1-ROOM-L-GUESTS-R1-LIFE-20261010-v2-local-tts-1.wav",
+      "target_game_content": "audio/regional/R1-ROOM-L-GUESTS-R1-LIFE-20261010-v2-local-tts-1.wav",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1227732,
+        "duration_seconds": 55.67945578231293
+      }
+    },
+    {
+      "material_id": "R1-SHOW-L-CREW",
+      "source": "content/source/r1_life/learner_package.json",
+      "source_file_sha256": "47813940f5f4414e598331cbe1e075b3bc5c05b641b02694e0acd45d9e380090",
+      "material_version": "R1-LIFE-20261010-v2",
+      "text_sha256": "a73548e5bf1b83731a8d98cdb79fb210440b539fd54bc4445c95ad626113c375",
+      "speech_sha256": "cb15288d2990d84247c250a834f2029cbfd643c39520576766e750ff41beb20c",
+      "audio_sha256": "2476ca9cbbf1b13e5da1b0dda08f7b1563661db2833f91e62068bbf8718e5699",
+      "bytes": 2406332,
+      "actual_file": "reports/execution/CX-066/r1-life-20261010T051032919483Z/content/audio/regional/R1-SHOW-L-CREW-R1-LIFE-20261010-v2-local-tts-1.wav",
+      "target_game_content": "audio/regional/R1-SHOW-L-CREW-R1-LIFE-20261010-v2-local-tts-1.wav",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1203143,
+        "duration_seconds": 54.564308390022674
+      }
+    }
+  ],
+  "count": 2,
+  "human_audition": null,
+  "subtitle_timecodes": null,
+  "alignment": "exact source slices only; no temporal alignment",
+  "distinct_dialogue_voices": "not_produced",
+  "language_calibration": "human_pending",
+  "redistribution_rights": "pending_HV-004"
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-035",
+      "name": "B is not corrected to C; changed draft requires reconfirmation; blank support remains explicit",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

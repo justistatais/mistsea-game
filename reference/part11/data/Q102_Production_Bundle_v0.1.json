@@ -1,0 +1,111 @@
+{
+  "id": "CB-Q102-CANDIDATE-011",
+  "status": "draft",
+  "channel": "internal",
+  "target": {
+    "reference": "IELTS Academic",
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5,
+    "speaking": null,
+    "auto_escalate": false
+  },
+  "assets": [
+    {
+      "id": "Q102-R-NOTICE",
+      "version": "0.1",
+      "hash": "649ab96ad986a42373f11f4f0fdacc150751f423d1cbd6dfd9ee7be07c44d847",
+      "requires_audio": false,
+      "script_hash": null,
+      "audio_status": "not_applicable",
+      "audio_script_hash": null
+    },
+    {
+      "id": "Q102-R-B",
+      "version": "0.1",
+      "hash": "379d8afe48d34cf019c5198b9fa75d738443acf9c9beb6ae45a6e6edfbdc22b3",
+      "requires_audio": false,
+      "script_hash": null,
+      "audio_status": "not_applicable",
+      "audio_script_hash": null
+    },
+    {
+      "id": "Q102-R-VESSEL",
+      "version": "0.1",
+      "hash": "e9d5ff64b01b5fd3a633feaa1180a4ca4e39a0b0126abf895962418250b20748",
+      "requires_audio": false,
+      "script_hash": null,
+      "audio_status": "not_applicable",
+      "audio_script_hash": null
+    },
+    {
+      "id": "Q102-R-BATTERY",
+      "version": "0.1",
+      "hash": "28aea8a9a7ea6fe7a70d031c4e827bfdff291d29df84b4005ace561d290f2702",
+      "requires_audio": false,
+      "script_hash": null,
+      "audio_status": "not_applicable",
+      "audio_script_hash": null
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "version": "0.1",
+      "hash": "cee0b3f65e56ecc477af656159b774ac701dad290b9af9fd389a9159e9fdb5f7",
+      "requires_audio": true,
+      "script_hash": "cee0b3f65e56ecc477af656159b774ac701dad290b9af9fd389a9159e9fdb5f7",
+      "audio_status": "script_only",
+      "audio_script_hash": null
+    }
+  ],
+  "task_rules": "QEV/PZ frozen rules 0.1",
+  "support_contract": "ENG/UI scoped assistance 0.1",
+  "audio_contract": "clean dual-speaker recording pending",
+  "render_contract": "no auto transcript; Chinese UI assist",
+  "test_conditions": "adventure unrestricted pause, explicit aid evidence; independent checks separately declared",
+  "rights": "pending",
+  "blocked_issues": [],
+  "dependencies": {
+    "Q102-R-NOTICE@0.1": [],
+    "Q102-R-B@0.1": [],
+    "Q102-R-VESSEL@0.1": [],
+    "Q102-R-BATTERY@0.1": [],
+    "Q102-L-REVISION@0.1": [],
+    "Q102-W-PLAN@0.1": [],
+    "Q102-RULES@ref04": [
+      "Q102-R-NOTICE@0.1",
+      "Q102-R-B@0.1",
+      "Q102-R-VESSEL@0.1",
+      "Q102-R-BATTERY@0.1",
+      "Q102-L-REVISION@0.1"
+    ],
+    "Q102-AUDIO@pending": [
+      "Q102-L-REVISION@0.1"
+    ],
+    "Q102-SUBTITLES@pending": [
+      "Q102-AUDIO@pending",
+      "Q102-L-REVISION@0.1"
+    ],
+    "Q102-HINTS@pending": [
+      "Q102-RULES@ref04"
+    ],
+    "Q102-CALIBRATION@pending": [
+      "Q102-RULES@ref04",
+      "Q102-W-PLAN@0.1",
+      "Q102-AUDIO@pending",
+      "Q102-SUBTITLES@pending",
+      "Q102-HINTS@pending"
+    ],
+    "Q102-PLAYER-BUNDLE@candidate": [
+      "Q102-CALIBRATION@pending"
+    ],
+    "UI-FONT-TOKENS@cosmetic": []
+  },
+  "unassessed_label": true,
+  "explicit_missing": [
+    "auditioned_audio",
+    "authentic_human_reviews",
+    "target_group_calibration",
+    "production_integration"
+  ],
+  "can_claim_calibrated": false
+}

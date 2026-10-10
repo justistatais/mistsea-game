@@ -1,0 +1,27 @@
+{
+  "scope": "source_only_unreviewed_candidates",
+  "references": [
+    {
+      "path": "docs/baseline/Combat_System_v0.1.md",
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    {
+      "path": "docs/baseline/Quest_Event_System_v0.1.md",
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "content/source/part08.json",
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    }
+  ],
+  "source_version": "FIRST-APPROACHES-20261010-v1",
+  "original_facts": "three ENC identities/parent/scenes/floors/exclusive tower routes and template pressure thresholds",
+  "new_details": "HP/armor/damage/finite outer group, two safe stands, hero-only relay and complete side-gate manual procedure",
+  "human_review": "pending",
+  "engine_tests": "not_run_by_author_agent",
+  "human_play": "not_run"
+}

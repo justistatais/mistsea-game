@@ -1,0 +1,720 @@
+route|A path used to travel between places.|路线
+record|A stored account of an event or observation.|记录
+load|The demand placed on a machine or supply.|负载
+tower|A tall structure carrying signal equipment.|信号塔
+review|A careful examination of information or work.|复核
+public|Available to people generally rather than a private group.|公开的
+safe|Free from the danger relevant to the situation.|安全的
+source|The place or document from which information comes.|来源
+station|A fixed place where a service or operation is performed.|站点
+version|A particular form of a document or design.|版本
+room|An enclosed part of a building.|房间
+inspection|A careful examination to find condition or defects.|检查
+duty|Work that a person is responsible for doing.|职责
+rescue|The act of bringing someone out of danger.|救援
+instrument|A device used to measure or control something.|仪器
+reserve|A supply kept for later or emergency use.|储备
+supply|Resources provided for use.|供应
+condition|A requirement that must be met.|条件
+evidence|Information that supports or challenges a claim.|证据
+control|A device or action that regulates operation.|控制
+policy|An agreed principle used to guide decisions.|政策
+independent|Able to operate or be checked without relying on another part.|独立的
+repair|Work that restores something damaged to usable condition.|修理
+sheet|A single piece of paper carrying information.|单页表
+permission|An agreement allowing a specific action.|许可
+workshop|A place where equipment is made or repaired.|工坊
+signature|A person's written mark confirming a document.|签名
+personal|Connected with one particular person's life or choices.|个人的
+private|Restricted to particular people rather than open to everyone.|私人的
+custodian|A person responsible for keeping something safe.|保管人
+reference|A document or detail used for checking information.|参考
+scope|The range of matters an action or permission covers.|范围
+field|A named category of information in a record.|字段
+acceptance|Formal agreement that work meets specified requirements.|验收
+work|An activity done to achieve a practical result.|工作
+transition|A change from one arrangement or state to another.|过渡
+passage|A route through or between enclosed places.|通道
+support|Help or equipment that makes an activity possible.|支持
+comparison|Examining things together to identify differences.|比较
+purpose|The reason for doing something.|目的
+receipt|A record confirming that a particular transaction occurred.|回执
+machine|A device with parts that perform mechanical work.|机器
+crew|People who operate a vessel or equipment together.|船员或操作班组
+operator|A person who controls working equipment.|操作员
+technical|Related to the practical operation of specialised equipment.|技术的
+mark|A written or visible sign used to identify something.|标记
+shelter|A place providing protection from danger or weather.|庇护处
+commission|A formal instruction authorising a particular piece of work.|委托
+vessel|A boat or ship used for travel on water.|船舶
+issue|A matter requiring attention or a decision.|问题
+archive|A collection of records kept for future reference.|档案
+branch|A separate continuation from a shared earlier state.|分支
+limit|A boundary beyond which something is not permitted or possible.|限制
+channel|A route through which information or a signal passes.|通道或信道
+operation|The act of making equipment or a system work.|运行
+watch|A scheduled period during which someone monitors conditions.|值班
+correction|A change that puts an error right.|更正
+responsibility|The work or consequence for which someone is accountable.|责任
+action|Something a person or system does.|行动
+delivery|The act of bringing goods or information to a recipient.|交付
+package|A group of items supplied together.|包件
+entry|One item entered in a list or record.|条目
+order|An instruction requiring something to be done.|指令
+cargo|Goods carried by a vessel or vehicle.|货物
+design|A plan describing how something is to be made or organised.|设计
+landing|The place or act of arriving on shore.|登陆
+role|A person's function in an arrangement.|角色
+state|The condition of something at a particular time.|状态
+resident|A person who lives in a particular place.|居民
+identity|Information establishing who a person or what an object is.|身份
+inquiry|An organised attempt to discover or verify information.|调查
+facility|A place or system provided for a particular activity.|设施
+physical|Involving actual objects, movement, or bodily presence.|实际物理的
+post|A position where a person performs assigned duties.|岗位
+location|The place where something is situated.|位置
+boundary|The point separating one area or permitted range from another.|边界
+execution|The carrying out of a plan or instruction.|执行
+output|What a machine or process produces.|输出
+destination|The place to which something is being sent.|目的地
+shift|A scheduled period of work for a group of people.|班次
+history|The recorded sequence of earlier events.|历史
+agreement|A decision accepted by the people involved.|协议
+response|An action or statement made after a request or event.|回应
+component|One part of a larger machine or system.|部件
+ending|The final outcome of a sequence of events.|结局
+path|A way along which someone can move.|路径
+reason|An explanation of why something happened or should happen.|理由
+guide|Information or a person that helps someone find or perform something.|指引
+power|Energy supplied to make equipment operate.|动力或电力
+document|A written record containing information.|文件
+transport|The movement of people or goods between places.|运输
+travel|The act of going from one place to another.|旅行
+summary|A short account of the main information.|摘要
+ledger|A book or record listing transactions.|账簿
+table|Information arranged in rows and columns.|表格
+page|One side of a sheet or one section of a document.|页面
+engineering|The practical design and operation of machines and structures.|工程
+allocation|The assignment of available resources to particular uses.|分配
+batch|A group of items made or processed together.|批次
+detention|Keeping someone in a place under imposed restriction.|拘留
+clock|A device or record showing time.|时钟
+risk|The possibility of an unwanted outcome.|风险
+configuration|The way equipment or settings are arranged.|配置
+custody|Responsibility for keeping a person or object secure.|保管或羁押
+capacity|The greatest amount a system can safely handle.|容量
+city|A large organised settlement.|城市
+floor|A level of a building or the surface people stand on.|楼层或地面
+berth|An assigned place for a vessel to lie alongside a shore structure.|泊位
+site|A particular location where work takes place.|现场
+office|A place where administrative work is carried out.|办公室
+temporary|Intended to last for a limited period.|临时的
+scheme|An organised plan for carrying out work.|方案
+guard|A person or device that protects something.|守卫或护罩
+details|The smaller facts that make an account precise.|细节
+opening|A gap through which someone or something can pass.|开口
+supervised|Carried out while a responsible person watches and checks.|受监督的
+observation|Something noticed or measured directly.|观察
+protected|Kept safe from a specified danger or unauthorised use.|受保护的
+available|Present and able to be used when needed.|可用的
+maintenance|Regular work that keeps equipment in usable condition.|维护
+account|An explanation or record of events.|叙述或记录
+complete|Having all the parts required for the stated purpose.|完整的
+request|An expression asking someone to provide or allow something.|请求
+equipment|The tools and devices needed for an activity.|设备
+preparation|Work done before an activity so it can proceed safely.|准备
+access|The ability or permission to enter a place or use information.|访问权限
+handover|The transfer of responsibility or items to another person.|交接
+retain|To keep something rather than remove or surrender it.|保留
+establish|To demonstrate a fact with adequate evidence.|确立或证实
+preserve|To keep something intact and available.|保存
+compare|To examine things together for similarities and differences.|比较
+identify|To recognise and name a person, object, or relevant detail.|识别
+describe|To explain what something is like or what happened.|描述
+declare|To state a decision or fact explicitly.|声明
+accept|To agree to receive or recognise something.|接受
+confirm|To check and state that something is correct or intended.|确认
+require|To make something necessary.|要求
+verify|To check whether a claim or record agrees with evidence.|核实
+inspect|To examine something carefully for condition or accuracy.|检查
+isolate|To disconnect equipment from the source of danger or energy.|隔离
+install|To place and connect equipment so it can be used.|安装
+replace|To put another item in the place of an existing one.|更换
+remove|To take something away from its present position.|移除
+deliver|To take items to the person or place entitled to receive them.|交付
+carry|To hold and move something from one place to another.|搬运
+collect|To bring separate items or information together.|收集
+return|To go or send something back to an earlier place.|返回
+leave|To depart from a place.|离开
+enter|To move into a place or add information to a record.|进入或录入
+reach|To arrive at a place or attain a required state.|到达
+receive|To take possession of something sent or offered.|接收
+transfer|To move an item or responsibility from one holder to another.|转移
+release|To remove a restriction that keeps someone or something held.|释放
+prepare|To make something ready for a later activity.|准备
+choose|To select one option from the available alternatives.|选择
+explain|To make a situation or reason understandable.|解释
+report|To give an account of an event or finding.|报告
+publish|To make information available to an audience.|公布
+sign|To put one's identifying mark on a document.|签署
+permit|To allow a specified action.|准许
+protect|To keep someone or something safe from danger.|保护
+secure|To fasten or safeguard something against movement or loss.|固定或保全
+restore|To return something to an earlier usable condition.|恢复
+reduce|To make an amount or demand smaller.|减少
+continue|To carry on an activity already started.|继续
+stop|To end movement or an activity.|停止
+hold|To keep something in a particular position or state.|保持
+cancel|To formally end a planned action or permission.|取消
+withdraw|To take back an invitation, permission, or commitment.|撤回
+agree|To accept a proposal or share a view.|同意
+decline|To decide not to accept an offer or request.|婉拒
+acknowledge|To show that information or a message has been received.|确认收到
+propose|To offer a plan for consideration.|提出方案
+allocate|To assign resources to particular people or uses.|分配
+register|To enter details in an official or organised record.|登记
+recording|The process of storing an event, measurement, or sound.|记录过程
+measure|To find an amount using a specified method or instrument.|测量
+operate|To make a machine or system work.|操作
+connect|To join parts so that they can work together.|连接
+disconnect|To separate a device from its connection or supply.|断开
+test|To carry out a procedure that checks performance or condition.|测试
+calculate|To work out a quantity from numbers or measurements.|计算
+interpret|To explain the meaning of information in its context.|解释含义
+distinguish|To recognise a difference between things.|区分
+justify|To give reasons that support a decision.|说明理由
+revise|To change a draft or arrangement after examining it.|修订
+follow|To act according to a route or instruction.|遵循
+include|To make something part of a larger group or account.|包括
+exclude|To keep something outside a group or permitted range.|排除
+depend|To require another fact, resource, or action.|依赖
+belong|To be the property or proper part of someone or something.|属于
+remain|To continue in the same place or state.|保持
+prevent|To stop an unwanted event from occurring.|防止
+allow|To give permission or make an action possible.|允许
+provide|To make a needed item or service available.|提供
+requirement|Something that must be present or done.|要求
+choice|One of the possible actions available.|选择
+alternative|A different option that may meet the same need.|替代方案
+failure|An inability to perform the required function.|故障或失败
+fault|A defect that causes incorrect operation.|故障
+damage|Harm that reduces the condition or usefulness of something.|损坏
+hazard|A source of possible harm.|危险源
+danger|The possibility of being harmed.|危险
+emergency|An urgent situation requiring protective action.|紧急情况
+shortage|An amount below what is needed.|短缺
+cost|The resources or effort required by an action.|代价
+resource|An item, supply, or capacity available for use.|资源
+stock|A quantity of supplies kept for distribution or use.|库存
+crate|A strong container used to store or transport goods.|货箱
+part|A separate piece belonging to a larger object.|零件
+tool|An object used to perform practical work.|工具
+battery|A device that stores energy for electrical use.|电池
+pump|A machine that moves liquid through pipes or passages.|泵
+valve|A device that opens, closes, or regulates a flow.|阀门
+bracket|A support that holds a component in position.|支架
+cable|A thick line carrying electricity or a mechanical force.|电缆或缆索
+connector|A part used to join two other parts.|连接件
+relay|A device that passes a signal or controls another circuit.|继电器
+signal|A sign or transmitted message carrying information.|信号
+beacon|A light or signal marking a position for navigation.|信标
+lamp|A device that produces light.|灯
+indicator|A display or part showing a machine's current condition.|指示器
+gauge|An instrument displaying a measured quantity.|仪表
+switch|A control that changes the connection or operating state.|开关
+circuit|A connected path through which electric current can flow.|电路
+socket|A fixed opening into which a connector fits.|插座
+coupler|A component that joins two mechanical or electrical parts.|耦合器
+clamp|A device that grips and holds a part firmly.|夹具
+platform|A raised or level surface used for work or access.|平台
+ladder|A structure with steps used to climb between levels.|梯子
+shaft|A narrow vertical passage or rotating machine rod.|竖井或转轴
+tunnel|An enclosed passage through ground or a structure.|隧道
+corridor|A passage joining rooms or work areas.|走廊
+door|A movable barrier controlling an entrance.|门
+latch|A fastening that keeps a door or cover closed.|锁扣
+rail|A fixed bar guiding a vehicle or protecting an edge.|轨道或栏杆
+track|A prepared route guiding a rail vehicle.|轨道
+conveyor|A mechanism that carries material along a fixed route.|输送机
+lift|A platform or device that raises people or loads.|升降机
+winch|A machine that winds a rope to move a load.|绞车
+anchor|A heavy device holding a vessel or component in place.|锚
+deck|A floor surface on a vessel.|甲板
+compartment|A separate enclosed section of a vessel or container.|舱室
+quay|A solid shore structure where vessels load or unload.|码头
+harbour|A sheltered area where vessels can stay safely.|港口
+shore|The land along the edge of water.|岸
+coast|The land beside the sea.|海岸
+ferry|A vessel regularly carrying people or goods across water.|渡船
+boat|A relatively small vessel for travelling on water.|小船
+ship|A large vessel used on water.|船
+journey|Travel from one place to another.|旅程
+voyage|A journey made by water.|航行
+departure|The act or time of leaving a place.|出发
+arrival|The act or time of reaching a destination.|抵达
+navigation|Finding and following a safe route during travel.|导航
+chart|A map or organised display used to understand an area or pattern.|图表或航图
+map|A representation of places and their positions.|地图
+heading|The direction in which a vessel is pointing or travelling.|航向
+weather|The atmospheric conditions at a particular time.|天气
+storm|A period of severe wind and other dangerous weather.|风暴
+wind|Moving air that can affect travel or structures.|风
+water|The liquid being moved, supplied, or crossed.|水
+drainage|The removal of water from an area.|排水
+pressure|The force exerted over an area.|压力
+tension|A pulling force acting along a rope or part.|张力
+energy|The capacity supplied to perform work.|能量
+fuel|Material used to provide energy.|燃料
+rate|An amount measured for each unit of time or another quantity.|速率
+total|The complete amount obtained by combining parts.|总量
+number|A figure showing an amount or identifying an item.|数值或编号
+period|A length of time with a beginning and end.|时段
+interval|The time or distance between two events or points.|间隔
+deadline|The latest time by which work must be completed.|截止时间
+schedule|An arrangement of activities and their planned times.|日程
+timetable|A list showing the times of planned journeys or activities.|时刻表
+appointment|An agreed time to meet someone.|预约
+invitation|A request asking someone to take part or meet.|邀请
+promise|A commitment that a person says they will keep.|承诺
+consent|A person's freely given agreement to a particular action.|同意许可
+relationship|An ongoing connection between people.|关系
+companion|A person who travels or works alongside another.|同伴
+visitor|Someone who comes to a place temporarily.|访客
+passenger|A traveller being carried by a vehicle or vessel.|乘客
+worker|A person doing assigned practical work.|工人
+technician|A person trained to maintain or operate technical equipment.|技术员
+engineer|A person responsible for technical design or engineering work.|工程师
+clerk|A person who processes records or administrative requests.|办事员
+officer|A person entrusted with an official duty or authority.|官员或执勤人员
+representative|A person authorised to speak or act for a group.|代表
+witness|A person who directly observed an event.|证人
+reviewer|A person who examines work or evidence for a stated purpose.|复核者
+supervisor|A person responsible for overseeing other people's work.|监督者
+mentor|An experienced person who guides another's learning or work.|导师
+owner|The person or entity entitled to possess an item.|所有者
+recipient|The person or organisation to whom something is sent.|接收者
+household|People living together as one domestic unit.|家庭户
+district|A defined area within a town or region.|区域
+town|A settlement smaller than a large city.|城镇
+island|Land surrounded by water.|岛屿
+mine|A place where minerals are extracted from the ground.|矿区
+library|A place or collection where written materials are kept for use.|图书馆
+academy|An institution devoted to study or professional training.|学院
+kitchen|A place where meals are prepared.|厨房
+meal|Food served or eaten at a particular time.|餐食
+bed|A place provided for someone to sleep.|床位
+housing|Places supplied for people to live.|住房
+accommodation|A place arranged for someone to stay.|住宿
+entrance|The place through which someone can enter.|入口
+exit|The route or opening used to leave a place.|出口
+notice|A written announcement supplying instructions or information.|公告
+letter|A written message addressed to a particular recipient.|信件
+message|Information communicated to someone.|消息
+envelope|A paper cover holding a letter or document.|信封
+mail|Letters or other messages handled for delivery.|邮件
+manuscript|An author's written text before or apart from publication.|手稿
+draft|A preliminary version of a piece of writing.|草稿
+paragraph|A group of sentences developing one part of a text.|段落
+sentence|A grammatical unit expressing a statement or question.|句子
+phrase|A small group of words expressing a meaning.|短语
+word|A unit of language carrying meaning.|词
+meaning|What a word, sentence, or statement communicates.|含义
+translation|A rendering of meaning in another language.|翻译
+transcript|A written record of spoken words.|逐字稿
+audio|Recorded or transmitted sound.|音频
+playback|The act of reproducing recorded sound.|播放
+reading|Understanding meaning in written language.|阅读
+writing|Producing words in a written form.|写作
+discussion|An exchange of views about a subject.|讨论
+question|A request for information or explanation.|问题
+answer|A response addressing a question.|回答
+claim|A statement that requires evidence before it is accepted.|主张
+fact|Something established as true by appropriate evidence.|事实
+argument|Reasons offered to support a particular position.|论证
+conclusion|A judgement reached after considering information.|结论
+example|A particular case used to explain a more general point.|例子
+method|An organised way of performing an activity.|方法
+procedure|A defined sequence of actions to follow.|程序
+step|One action within a longer procedure.|步骤
+sequence|The order in which events or actions occur.|顺序
+process|A series of activities producing a result.|过程
+result|The outcome of an action or procedure.|结果
+outcome|The eventual consequence of a sequence of actions.|后果
+success|Achievement of the stated objective.|成功
+progress|Movement towards completing an objective.|进展
+benefit|A useful or favourable result.|益处
+improvement|A change that makes performance or conditions better.|改进
+problem|A difficulty requiring action or explanation.|问题
+option|One choice that is available.|选项
+decision|A choice made after considering possibilities.|决定
+plan|An arrangement describing intended future actions.|计划
+objective|The result an activity is intended to achieve.|目标
+rule|A stated requirement governing what can happen.|规则
+lawful|Permitted under the relevant authority or rules.|合法的
+legal|Concerned with laws or recognised rights.|法律的
+authority|The recognised right to give instructions or permission.|权限或权威
+right|A recognised entitlement to act or receive something.|权利
+ownership|The recognised entitlement to possess an item.|所有权
+contract|An agreement defining obligations between parties.|合同
+commitment|An undertaking that a person is expected to keep.|承诺责任
+obligation|Something a person is required to do.|义务
+accountable|Required to explain and answer for a decision or action.|须负责的
+fair|Giving people's relevant needs and rights due consideration.|公平的
+ordinary|Usual rather than enhanced or exceptional.|普通的
+basic|Containing the essential level of function or provision.|基础的
+essential|Necessary for the stated purpose.|必需的
+necessary|Required for something to happen or be valid.|必要的
+sufficient|Enough to meet a stated need or requirement.|足够的
+limited|Restricted in amount, time, or scope.|有限的
+bounded|Confined within clearly stated limits.|有边界的
+current|Applying at the time being considered.|当前的
+earlier|Occurring before another specified event.|更早的
+later|Occurring after another specified event.|稍后的
+historical|Relating to a past event or condition.|历史的
+original|The source form rather than a copy or later alteration.|原始的
+actual|Existing or occurring in reality.|实际的
+formal|Carried out under a recognised procedure or authority.|正式的
+explicit|Stated directly rather than left to inference.|明确的
+valid|Meeting the conditions required for recognition or use.|有效的
+reliable|Consistently accurate or dependable for a stated purpose.|可靠的
+uncertain|Not established clearly enough to be treated as definite.|不确定的
+unknown|Not currently supported by available knowledge.|未知的
+incomplete|Missing one or more required parts.|不完整的
+separate|Distinct and not automatically treated as one thing.|分开的
+shared|Used or held by more than one person or system.|共享的
+joint|Carried out by several responsible parties together.|共同的
+local|Belonging to the particular area under discussion.|当地的
+regional|Concerned with a larger area made of several local places.|区域性的
+central|Located at or responsible for a system's main coordination point.|中央的
+distributed|Spread across several places or parts.|分布式的
+remote|Situated away from the immediate place of operation.|远程的
+direct|Without an intervening source or indirect inference.|直接的
+stable|Remaining within an acceptable range over time.|稳定的
+usable|Able to be used for the stated purpose.|可使用的
+operational|Able to carry out its intended working function.|可运行的
+damaged|Harmed so that condition or performance is reduced.|已损坏的
+broken|No longer working or physically intact.|损坏的
+missing|Absent from where it is expected or required.|缺失的
+hidden|Kept out of ordinary view.|隐藏的
+visible|Able to be seen in the current view.|可见的
+accessible|Able to be reached or used by the relevant person.|可访问的
+restricted|Allowed only within stated limits or to stated people.|受限的
+unavailable|Unable to be obtained or used at present.|不可用的
+qualified|Having the recognised skill or authority needed for a task.|合格的
+authorised|Allowed by the person or body holding the relevant right.|获授权的
+responsible|Entrusted with a duty and answerable for carrying it out.|负责的
+voluntary|Chosen freely rather than imposed.|自愿的
+compulsory|Required rather than optional.|强制的
+optional|Available by choice rather than required.|可选的
+compatible|Able to be used together without conflicting requirements.|兼容的
+consistent|Agreeing with other relevant information or rules.|一致的
+different|Not the same in a relevant respect.|不同的
+identical|The same in every relevant detail.|相同的
+specific|Limited to a clearly identified item or purpose.|具体的
+general|Applying broadly rather than to one identified case.|一般的
+particular|Referring to one identified person, thing, or case.|特定的
+relevant|Connected to the question or purpose being considered.|相关的
+unrelated|Having no justified connection to the matter being considered.|无关的
+additional|Provided beyond what is already included.|额外的
+auxiliary|Serving as supporting equipment rather than the main system.|辅助的
+spare|Kept available to replace an item when needed.|备用的
+backup|An extra copy or system available if the main one fails.|备份或后备
+replacement|An item used instead of the existing one.|替换件
+renewal|The act of extending or restoring an arrangement.|续期或更新
+upgrade|A change intended to improve equipment or capability.|升级
+revision|A changed version of a document or plan.|修订版
+correspondence|Messages exchanged between people or organisations.|通信
+clarification|Information that makes an unclear point easier to understand.|澄清
+discrepancy|A difference between records that should agree.|差异
+distinction|A relevant difference between two things.|区别
+interpretation|An explanation of what information means.|解释
+uncertainty|The limits of what can currently be established.|不确定性
+verification|Checking a claim against appropriate evidence.|核实
+calibration|Checking or adjusting a measurement against a reference.|校准
+measurement|A value obtained by a defined measuring method.|测量值
+sampling|Selecting a portion of material or observations for examination.|取样
+sample|A selected part used to examine a larger set.|样本
+dataset|An organised collection of related measurements or observations.|数据集
+data|Recorded values or observations used for analysis.|数据
+column|A vertical series of entries in a table.|列
+aggregate|A quantity formed by combining several separate amounts.|汇总量
+denominator|The amount against which a fraction or proportion is compared.|分母
+scale|The range or divisions used to express a measurement.|量表或刻度
+precision|The degree of exactness in a measurement or statement.|精确度
+baseline|The reference condition against which a change is compared.|基线
+threshold|The level at which a rule or response begins to apply.|阈值
+minimum|The least amount needed or allowed.|最小值
+constant|Remaining the same during the relevant period.|恒定的
+interlock|A device or rule preventing operation until required conditions are met.|联锁
+bypass|A route or action avoiding the usual control or procedure.|旁路或绕过
+isolation|Separation from an energy source or unsafe connection.|隔离
+isolator|A device that disconnects equipment from its supply.|隔离器
+brace|A support fitted to resist movement or collapse.|撑架
+coupling|A connection between parts that transmit motion or power.|耦合连接
+mounting|The means by which a component is fixed in position.|安装固定
+fitting|A small part used to connect or install equipment.|配件
+assembly|Several components joined into one working unit.|组件总成
+apparatus|Equipment arranged for a particular technical purpose.|装置
+mechanism|The connected parts or process that produce an effect.|机构
+machinery|Machines considered together as equipment.|机械设备
+device|An object designed to perform a particular function.|装置
+controller|The part or person that regulates a system's operation.|控制器或控制者
+selector|A control used to choose between available settings.|选择器
+console|A panel containing controls and displays.|控制台
+panel|A flat board containing controls or forming part of a structure.|面板
+meter|An instrument measuring an amount or rate.|计量表
+display|A visible presentation of information.|显示
+identifier|A label used to distinguish one item from others.|标识符
+label|A short text attached to identify an object or field.|标签
+stamp|An identifying or authorising mark placed on a document.|印章
+seal|A closure or mark showing that access is controlled or verified.|封印
+certificate|A document formally stating a qualification or verified condition.|证书
+credential|A document or fact showing a person's identity or authority.|凭证
+licence|A formal permission to carry out a regulated activity.|执照
+manifest|A list of goods or people carried on a vessel.|舱单
+dispatch|The act of sending something or someone on an assigned journey.|派遣
+shipment|A consignment of goods sent together.|货运批次
+consignment|Goods entrusted for delivery to a recipient.|托运货物
+freight|Goods carried commercially by a vessel or vehicle.|货运
+logistics|The organisation of movement, storage, and supply.|物流
+inventory|A record of items held and their locations or owners.|库存清单
+depot|A place where supplies or vehicles are kept for distribution.|物资站
+locker|A small secure storage compartment.|储物柜
+cabinet|A storage unit with enclosed shelves or compartments.|柜子
+shelf|A horizontal surface used to store objects.|搁板
+rack|A framework holding or organising items.|架子
+container|An object designed to hold or transport contents.|容器
+contents|The items or information held inside something.|内容物
+holding|The act or condition of retaining an item or person.|持有或留置
+entitlement|A recognised claim to receive or use something.|应有权益
+claimant|A person who asserts a right to an item or benefit.|权利主张人
+deposit|An item or amount left with someone for safe keeping or later use.|寄存物或押金
+voucher|A document showing a right to a specified provision or payment.|凭单
+wage|Payment owed for a person's work.|工资
+currency|The money used within a particular economy.|货币
+fund|Money or resources set aside for a particular purpose.|专项资金
+budget|The amount of money or resources allocated to a purpose.|预算
+quota|A stated limit or allotted amount.|配额
+allowance|An amount permitted or provided for a stated purpose.|额度
+excess|An amount beyond the required or permitted level.|超额
+conservation|Careful use that prevents unnecessary loss of resources.|节约保护
+extraction|The removal of material from its original location.|开采或提取
+mining|The work of extracting minerals from the ground.|采矿
+production|The process of making goods or producing an output.|生产
+manufacture|Making equipment or goods through an organised process.|制造
+retrofit|A change adding new components to an existing installation.|改装
+refill|Adding supplies again to an emptied or reduced container.|补充装填
+replenish|To restore a supply after some has been used.|补充
+consume|To use up a resource so it is no longer available.|消耗
+reusable|Able to be used more than once without being consumed.|可重复使用的
+unallocated|Not yet assigned to any particular recipient or use.|尚未分配的
+pooled|Combined into one supply shared by several contributors.|汇集的
+trade|The exchange of goods or services.|交易
+loan|An item or amount supplied temporarily with an obligation to return it.|借用或借款
+borrow|To receive temporary use of something belonging to another.|借入
+recruitment|The process of inviting and accepting someone into a role.|招募
+employment|An arrangement in which someone works for an employer.|雇佣
+assignment|A defined task or duty given to a person.|任务分派
+appoint|To formally assign someone to a role.|任命
+signatory|A person who has signed a particular agreement or record.|签署人
+oversight|Responsible monitoring of decisions and operations.|监督
+mandate|A formal authority to act for a defined purpose.|授权职责
+govern|To direct a system under recognised rules or authority.|治理
+executive|Concerned with carrying out official decisions.|执行层面的
+administrative|Concerned with organising records, permissions, or services.|行政的
+political|Concerned with public power and collective decisions.|政治的
+civil|Concerned with ordinary public administration or citizens.|民政的
+official|Recognised as coming from an authorised public role.|官方的
+terms|The conditions defining an agreement.|条件条款
+restriction|A limit placed on an action or access.|限制
+discretionary|Left to a person's authorised judgement rather than automatically required.|酌情的
+autonomy|The ability to make decisions within one's own legitimate scope.|自主权
+disagreement|A difference of view between people.|分歧
+dispute|A matter over which parties make conflicting claims.|争议
+compromise|An arrangement in which parties accept limits to resolve a disagreement.|折衷
+cooperation|People working together towards a shared purpose.|合作
+coordination|Organising separate activities so they work together.|协调
+mutual|Shared or exchanged by the people involved.|相互的
+participation|Taking part in an activity or decision.|参与
+contribution|Something a person adds to a shared effort or resource.|贡献
+refusal|A decision not to accept or permit something.|拒绝
+forgiveness|A person's decision to stop holding a wrong against another.|谅解
+reconciliation|Restoring a workable relationship after a disagreement or harm.|和解
+apology|A statement acknowledging wrongdoing and regret.|道歉
+trust|Confidence that someone will act reliably or honestly.|信任
+confidential|Restricted because disclosure requires specific permission.|保密的
+disclosure|Making previously restricted information known.|披露
+redacted|Having sensitive portions removed before sharing.|经删节的
+publication|The act of making a text or findings available to an audience.|发布
+circulation|The movement of documents among permitted recipients.|流通
+reproduction|Making another copy of a document or work.|复制
+copy|A reproduction of a source document or object.|副本
+provenance|The recorded origin and history of an item or source.|来源沿革
+traceable|Able to be followed back to an identified source or action.|可追溯的
+audit|A systematic check of records against stated requirements.|审计
+scrutiny|Close and critical examination.|审查
+assessment|A judgement made using stated evidence and criteria.|评估
+criterion|A stated standard used to judge a case.|判据
+qualification|A recognised condition or ability required for a role.|资质
+recommendation|Advice proposing a course of action.|建议
+proposal|A plan offered for discussion or approval.|提案
+approval|Formal permission or agreement to proceed.|批准
+rejection|A decision not to accept a proposal or item.|驳回
+confirmation|An explicit check or statement that something is accepted or correct.|确认
+acknowledgement|A response showing that a message or delivery has been received.|收到确认
+announcement|A statement made to inform an audience.|公告
+instruction|A direction telling someone what to do.|指示
+guidance|Advice helping someone choose or perform an action.|指导
+protocol|A defined set of procedures for communication or work.|规程
+checklist|A list of required checks used to avoid omissions.|检查清单
+worksheet|A page used to record calculations or organise a task.|工作表
+appendix|Supporting material added at the end of a document.|附录
+attachment|A supplementary item sent with a document or message.|附件
+supplement|Additional material that extends an existing account.|补充材料
+override|To set aside a normal control by a higher-priority instruction.|覆盖正常控制
+substitute|To use one item or method in place of another.|替代
+alteration|A change made to an existing item or arrangement.|变更
+deviation|A difference from the specified route, value, or procedure.|偏差
+exception|A case allowed to depart from a general rule.|例外
+contingency|An arrangement for a possible future difficulty.|应急预案
+fallback|An alternative used when the preferred option cannot work.|后备方案
+interruption|A break in an activity before it is finished.|中断
+outage|A period when a supply or service is unavailable.|停供
+blackout|A loss of light or electrical supply in an area.|断电
+shutdown|The controlled stopping of equipment or a system.|停机
+restart|Beginning operation again after a stop.|重启
+reconnection|Restoring a link that was previously disconnected.|重新连接
+recovery|Returning to usable condition after a failure or loss.|恢复
+restoration|Work that returns an earlier function or condition.|修复恢复
+stability|The ability to remain within acceptable operating limits.|稳定性
+overload|Demand greater than the system can safely handle.|过载
+surge|A sudden rise in a flow or load.|突增
+disturbance|An event that disrupts normal operation.|扰动
+intervention|An action taken to change or stabilise a situation.|干预
+suppression|An action reducing or preventing an effect.|压制
+protection|Measures that reduce a specified danger or harm.|保护措施
+evacuation|Moving people away from danger to a safe place.|疏散
+escort|Accompanying someone along a route to ensure safe arrival.|护送
+stranded|Unable to leave a place without outside help.|被困的
+detained|Kept in custody and prevented from leaving freely.|被拘留的
+released|Freed from a restriction or confinement.|已获释的
+alive|Living at the time being directly checked.|活着的
+whereabouts|The place where a person currently is.|下落
+testimony|A witness's account of what they observed.|证词
+cause|Something that produces or contributes to an event.|原因
+effect|A change produced by an action or event.|影响结果
+hypothesis|A proposed explanation that can be checked against evidence.|假设
+prediction|A statement about an outcome expected under specified conditions.|预测
+forecast|An estimate of future conditions based on available information.|预报
+expectation|An outcome someone considers likely or appropriate.|预期
+unsupported|Lacking relevant evidence for the claim being made.|无证据支持的
+unverified|Not yet checked against adequate sources.|未经核实的
+factual|Concerned with information that can be checked as true or false.|事实性的
+plausible|Appearing possible while still requiring verification.|看似合理的
+testable|Able to be checked by a defined observation or procedure.|可检验的
+reproducible|Able to be obtained again under the stated conditions.|可重复的
+experimental|Carried out as a trial to examine a possibility.|实验性的
+trial|A practical check conducted under stated conditions.|试验
+experiment|A planned procedure testing a proposed explanation or effect.|实验
+simulation|A modelled situation used to examine behaviour.|模拟
+fixture|Explicitly prepared test data or equipment for a bounded check.|工程测试样例
+candidate|A proposed item still requiring relevant review or approval.|候选项
+pending|Waiting for a required action or decision.|待处理的
+immediate|Happening without a significant delay.|立即的
+subsequent|Happening after the event being discussed.|后续的
+simultaneous|Happening at the same time.|同时的
+alternating|Taking turns rather than occurring together.|交替的
+parallel|Proceeding alongside another activity without the same sequence constraint.|并行的
+continuous|Continuing without a relevant interruption.|连续的
+gradual|Changing through small stages over time.|逐渐的
+permanent|Intended to remain without a specified end date.|永久的
+finite|Having a definite limit rather than continuing without bound.|有限的
+unlimited|Having no stated limit in the relevant respect.|无限的
+deferrable|Able to be postponed without removing an essential requirement.|可延后的
+deferred|Moved to a later time by an explicit decision.|已延后的
+postponed|Arranged for a later time than originally planned.|推迟的
+delayed|Occurring later than expected or scheduled.|延迟的
+renewed|Made valid again for another stated period.|续期的
+discarded|Removed from further use or consideration.|丢弃的
+omitted|Left out of an account or procedure.|遗漏的
+revisable|Able to be changed through a later authorised decision.|可修订的
+fragile|Easily damaged or disrupted.|脆弱的
+feasible|Possible with the actual resources and constraints available.|可行的
+workable|Able to function acceptably in the real situation.|可实施的
+practical|Concerned with actual use and available means.|实际可操作的
+appropriate|Suitable for the particular purpose or circumstances.|合适的
+suitable|Meeting the needs of a stated use.|适用的
+insufficient|Below the amount or evidence needed.|不足的
+unnecessary|Not needed for the stated purpose.|不必要的
+enhanced|Increased beyond an ordinary or basic level.|增强的
+intake|An opening or process through which material enters a system.|入口吸入
+outlet|An opening or connection through which material or power leaves.|出口
+ventilation|The circulation of air through a space.|通风
+enclosure|A protective structure surrounding equipment or a space.|围护结构
+debris|Loose remains of damaged structures or materials.|碎片残骸
+obstruction|Something blocking movement or operation.|障碍物
+clearance|The space or permission needed to move or proceed safely.|通行净空或许可
+stair|A step within a set used to move between levels.|楼梯踏步
+walkway|A prepared path on which people can walk.|步道
+footbridge|A bridge intended for people travelling on foot.|人行桥
+gangboard|A board or walkway used for boarding a vessel.|登船踏板
+porch|A sheltered entrance area outside a building.|门廊
+courtyard|An open area enclosed by surrounding buildings.|庭院
+greenhouse|A structure in which plants grow under protected conditions.|温室
+grove|A small group of trees.|树丛
+ridge|A long raised line of land.|山脊
+reef|A shallow underwater formation dangerous to vessels.|礁石
+cliff|A steep exposed face of land.|悬崖
+frontier|The outer boundary of an inhabited or controlled region.|边境
+leeward|On the side sheltered from the wind.|背风的
+grounding|A vessel coming to rest on the bed or shore beneath the water.|搁浅
+draught|The vertical depth of a vessel below the waterline.|吃水
+helmsman|A person who steers a vessel.|舵手
+aboard|On or into a vessel.|在船上
+onward|Continuing towards the next destination.|继续向前的
+outgoing|Leaving a place or being sent to another recipient.|发出的
+recorder|A device that stores sound or measured information.|记录器
+transmitter|A device that sends a signal.|发射器
+receiver|A device or person receiving a signal or delivery.|接收器或接收者
+synchronisation|Bringing separate clocks or processes into agreement.|同步
+countdown|A decreasing count indicating time or actions remaining.|倒计时
+window|A limited period during which an action is allowed or valid.|时间窗口
+turn|One participant's opportunity to act in an ordered sequence.|回合
+round|A complete cycle of participants' turns.|轮次
+slot|A defined place in a sequence or schedule.|行动槽位
+phase|One distinct stage within a longer process.|阶段
+stage|A defined part of a sequence of work.|阶段
+checkpoint|A place or condition where progress or access is checked.|检查点
+gate|A condition that must be met before proceeding.|门槛条件
+commit|To make a complete transaction persistent.|提交事务
+snapshot|A recorded view of state at a particular moment.|快照
+deletion|The removal of stored information.|删除
+duplicate|An additional instance of an item already present.|重复项
+interface|A defined way through which people or systems interact.|接口
+instance|One particular occurrence of a reusable definition.|实例
+family|A group of related materials derived from a shared source or task.|材料族
+independence|The degree to which work is completed without relevant assistance.|独立性
+familiar|Already encountered and recognised.|熟悉的
+timed|Carried out within a stated time period.|限时的
+challenge|A task requiring effort under meaningful constraints.|挑战
+combat|An encounter involving attacks and defensive actions.|战斗
+encounter|A bounded event involving a threat, interaction, or method.|遭遇
+enemy|A participant opposing the player's side in a conflict.|敌人
+ally|A participant working on the same side.|友方
+attack|An action intended to damage or hinder an opponent.|攻击
+defence|An action or capacity protecting against an attack.|防御
+resistance|The capacity to reduce or withstand a specified effect.|抗性
+weakness|A condition making a participant vulnerable to a particular effect.|弱点
+inertia|Resistance to a change in a machine's motion or action state.|惯性
+targeted|Directed at a specified participant or object.|指向明确目标的
+relic|A retained object providing a particular capability.|遗物
+performance|How well a person, system, or activity fulfils its purpose.|表现
+reward|A benefit issued for a completed eligible action.|奖励
+penalty|A specified disadvantage resulting from a rule breach.|惩罚
+entitled|Holding a recognised right to a particular item or benefit.|有权获得的
+eligible|Meeting the stated conditions for a particular opportunity.|符合资格的
+compassionate|Showing concern for a person's suffering or difficult circumstances.|体恤的
+reasonable|Supported by sensible reasons within the known circumstances.|合理的
+justified|Supported by adequate reasons or evidence.|有正当理由的
+misleading|Likely to lead someone to an inaccurate conclusion.|误导的
+contrary|In opposition to the stated expectation or position.|相反的

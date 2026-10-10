@@ -1,0 +1,11 @@
+{
+  "scene_count": 78,
+  "story_nodes": 32,
+  "region_links": 81,
+  "internal_ports": 14,
+  "external_ports": 4,
+  "geometry_points": 36,
+  "abstract_states": 697,
+  "abstract_transitions": 2268,
+  "checks": 12
+}

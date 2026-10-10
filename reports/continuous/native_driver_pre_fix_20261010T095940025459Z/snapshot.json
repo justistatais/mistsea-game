@@ -1,0 +1,22 @@
+{
+  "scope": "actual prior source and managed driver bytes before applying reviewed native diagnostic fixes",
+  "files": [
+    {
+      "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+      "sha256": "7147698b25977b4fbb103568d34a24cfe087aac141846c559ee55fd42fe0f449"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterThreeClientTests.cs",
+      "sha256": "1f8b423e1c7eb114b3d1a590b8db7994005c6bbbd8f2f82f484af7c74ac28426"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterSixClientTests.cs",
+      "sha256": "c97f8fdda2d7e28df0689a1e3ed56a6ee7bbee12f1e22f2e1b5e97ac6c064348"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/MistSea.dll",
+      "sha256": "326df2a2b284a8e36c48e44916a61770403ee0a07b50f7a3fd676672ac894284"
+    }
+  ],
+  "human_signoff": null
+}

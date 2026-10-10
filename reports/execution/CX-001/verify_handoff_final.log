@@ -1,0 +1,88 @@
+{"argv": ["D:\\Python312\\python.exe", "-B", "tools/verify_handoff.py"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1", "started_at": "2026-10-09T15:57:51+08:00", "exit_code": 0}
+[stdout]
+{
+  "scope": "planning_integrity_not_production_game_validation",
+  "check_count": 15,
+  "passed": 15,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "十二规范存在",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "十二规范原字节",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "十源包277文件完整",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "478条原始验收完整映射",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "完整及在线分支DAG与类型约束",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "136卡及8Gate数量",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "独立任务卡和必读源均可访问",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "验收原行与责任卡一致",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "98旧工作包责任索引",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "八章六工序及真人校准",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "执行账无无据完成",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "默认在线两任务显式关闭",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "没有字体二进制",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "整合决定与未完成账",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "交付清单哈希（清单存在时）",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "production_tasks_executed_by_this_command": 0
+}
+
+[stderr]

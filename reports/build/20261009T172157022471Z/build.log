@@ -1,0 +1,16 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "build", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "-c", "Debug", "--no-restore"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+  Mist.Core -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Core\bin\Debug\net10.0\Mist.Core.dll
+  Mist.Assist -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\services\Mist.Assist\bin\Debug\net10.0\Mist.Assist.dll
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\VesselInterior\VesselInteriorService.cs(44,20): error CS0246: 未能找到类型或命名空间名“ActorState”(是否缺少 using 指令或程序集引用?) [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\Mist.Application.csproj]
+  Mist.ContentCli -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\Mist.ContentCli\bin\Debug\net10.0\Mist.ContentCli.dll
+
+生成失败。
+
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\VesselInterior\VesselInteriorService.cs(44,20): error CS0246: 未能找到类型或命名空间名“ActorState”(是否缺少 using 指令或程序集引用?) [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\Mist.Application.csproj]
+    0 个警告
+    1 个错误
+
+已用时间 00:00:04.70
+
+[stderr]

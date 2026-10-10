@@ -1,0 +1,16 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-067",
+      "name": "Projection sends only selected discovered externally authorized source slices and specified draft",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

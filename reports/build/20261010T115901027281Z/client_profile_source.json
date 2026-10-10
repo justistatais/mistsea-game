@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T111545212936Z",
+  "selected_case": {
+    "index": 559,
+    "task": "CP-SETTLEMENT-05",
+    "name": "Actual zero-XP prior chapters and Q603 export a native settlement entry with no local permission, finite stock or completion fixture"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "91e12b6715aba1976b4a4c24cdbf566274b4a059584e4e6dce2c25e19b060e75",
+  "source_active_database": "reports/build/20261010T111545212936Z/case_runs/0559/testdata/settlement-normal-native-entry-0baedfd5-86bc-4ca4-bff1-e573a1336a77/recovery/inventory-v2-cfa8aac2-a903-4f08-a4f1-c9933a065dfa.sqlite",
+  "source_active_database_sha256": "6cb16db507b54ecb5c77a5d40b90e9bc115274679b04ad4ef6c98f8932088fa3",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T111545212936Z",
+  "source": "reports/build/20261010T111545212936Z/case_runs/0559/testdata/settlement-normal-native-entry-0baedfd5-86bc-4ca4-bff1-e573a1336a77/normal-settlement-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 559,
+    "task": "CP-SETTLEMENT-05",
+    "name": "Actual zero-XP prior chapters and Q603 export a native settlement entry with no local permission, finite stock or completion fixture"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "4904e786a44773713adfa570d1148578c7085fbf9b39a541df4a5ecf90773b44",
+  "case_command_sha256": "d99a01215a882d47c8f24dd5a28bb7745e4d4b7483ca8157687f20a09817a1ea",
+  "proof_sha256": "91e12b6715aba1976b4a4c24cdbf566274b4a059584e4e6dce2c25e19b060e75",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "7cfd33a2f568b55549fe685856e2638a9a2cde7e011fbe491f0f82331e9422c2"
+    },
+    {
+      "path": "normal-settlement-native-entry.json",
+      "sha256": "91e12b6715aba1976b4a4c24cdbf566274b4a059584e4e6dce2c25e19b060e75"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "befbe2279202fce29c5a19f05825b56fe6033728b335f5d1bf460afef00ce633"
+    },
+    {
+      "path": "recovery/inventory-v2-cfa8aac2-a903-4f08-a4f1-c9933a065dfa.sqlite",
+      "sha256": "6cb16db507b54ecb5c77a5d40b90e9bc115274679b04ad4ef6c98f8932088fa3"
+    },
+    {
+      "path": "recovery/normal-r2-main.json",
+      "sha256": "9be893884bf77c7a6dcedb22023b81fd4bab8083414964a72254a71773355e9a"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0559/testdata/settlement-normal-native-entry-0baedfd5-86bc-4ca4-bff1-e573a1336a77/control.sqlite",
+      "sha256": "7cfd33a2f568b55549fe685856e2638a9a2cde7e011fbe491f0f82331e9422c2",
+      "copied_before_native_sha256": "7cfd33a2f568b55549fe685856e2638a9a2cde7e011fbe491f0f82331e9422c2"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0559/testdata/settlement-normal-native-entry-0baedfd5-86bc-4ca4-bff1-e573a1336a77/normal-settlement-native-entry.json",
+      "sha256": "91e12b6715aba1976b4a4c24cdbf566274b4a059584e4e6dce2c25e19b060e75",
+      "copied_before_native_sha256": "91e12b6715aba1976b4a4c24cdbf566274b4a059584e4e6dce2c25e19b060e75"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0559/testdata/settlement-normal-native-entry-0baedfd5-86bc-4ca4-bff1-e573a1336a77/profile.sqlite",
+      "sha256": "befbe2279202fce29c5a19f05825b56fe6033728b335f5d1bf460afef00ce633",
+      "copied_before_native_sha256": "befbe2279202fce29c5a19f05825b56fe6033728b335f5d1bf460afef00ce633"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0559/testdata/settlement-normal-native-entry-0baedfd5-86bc-4ca4-bff1-e573a1336a77/recovery/inventory-v2-cfa8aac2-a903-4f08-a4f1-c9933a065dfa.sqlite",
+      "sha256": "6cb16db507b54ecb5c77a5d40b90e9bc115274679b04ad4ef6c98f8932088fa3",
+      "copied_before_native_sha256": "6cb16db507b54ecb5c77a5d40b90e9bc115274679b04ad4ef6c98f8932088fa3"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0559/testdata/settlement-normal-native-entry-0baedfd5-86bc-4ca4-bff1-e573a1336a77/recovery/normal-r2-main.json",
+      "sha256": "9be893884bf77c7a6dcedb22023b81fd4bab8083414964a72254a71773355e9a",
+      "copied_before_native_sha256": "9be893884bf77c7a6dcedb22023b81fd4bab8083414964a72254a71773355e9a"
+    }
+  ]
+}

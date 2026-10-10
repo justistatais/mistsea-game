@@ -1,0 +1,98 @@
+{
+  "package": "Part05_English_Learning_Design_v0.1",
+  "target_band": 6.5,
+  "files": [
+    {
+      "path": "Codex_Handoff_Part05_v0.1.md",
+      "bytes": 2047,
+      "sha256": "2354a5c74ad2ce9ddf7afcdd7c5ecdc8a2cfd406effd9f197721d5101c7d0f59"
+    },
+    {
+      "path": "Difficulty_Baseline_Change_CR-EN-005-001.md",
+      "bytes": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    {
+      "path": "English_Learning_System_v0.1.md",
+      "bytes": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    {
+      "path": "English_Learning_Validation_v0.1.md",
+      "bytes": 793,
+      "sha256": "b77bec396e0c08b6cd9a38e20a67937386ea74014474881cf4474dbfedee4d98"
+    },
+    {
+      "path": "README.md",
+      "bytes": 931,
+      "sha256": "13d7399891f8dd220211114b1c1f64e5a9fd6c5ddb31fb121a8c8661a3cde42b"
+    },
+    {
+      "path": "data/English_Learning_Reference_v0.1.json",
+      "bytes": 62574,
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+    },
+    {
+      "path": "data/Lexical_Seed_v0.1.json",
+      "bytes": 7442,
+      "sha256": "c55ef95aa82d592a2d2b9d9e6209b10b37007cf25c1c6030ccd6c7f281e566a4"
+    },
+    {
+      "path": "data/Original_Materials_v0.1.json",
+      "bytes": 27750,
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+    },
+    {
+      "path": "dependencies/Exploration_Level_Design_v0.1.md",
+      "bytes": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "dependencies/Game_Design_Core_v0.1.md",
+      "bytes": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    {
+      "path": "dependencies/Quest_Event_Reference_v0.1.json",
+      "bytes": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    {
+      "path": "dependencies/Quest_Event_System_v0.1.md",
+      "bytes": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "dependencies/World_Story_Bible_v0.1.md",
+      "bytes": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "materials/Original_Sample_Pack_v0.1.md",
+      "bytes": 17929,
+      "sha256": "05a3a30e273e0c69aae3262beb895b57c468b4f22d7bcb962c99431788bf6198"
+    },
+    {
+      "path": "validation/learning_reference.py",
+      "bytes": 8885,
+      "sha256": "54a28dec7f170c75151c28bff9d30654bde23801fe5d3785bf19b587181f712f"
+    },
+    {
+      "path": "validation/run_log.txt",
+      "bytes": 5851,
+      "sha256": "dd9ccccbe7d3f10aea23980aa307ffe2d886d88fe95d249aee12146fae297a57"
+    },
+    {
+      "path": "validation/validate_design.py",
+      "bytes": 12466,
+      "sha256": "5ae306e957c338e11a5ae33e4889ff9be30764af04504a30a1d785555504ff7b"
+    },
+    {
+      "path": "validation/validation_report.json",
+      "bytes": 574,
+      "sha256": "6530262f48725315f3ee11ff49f4d7cb7db424a67fa5afcfd354642572b91a7d"
+    }
+  ],
+  "calibration_completed": false,
+  "rendered_audio_assets": 0
+}

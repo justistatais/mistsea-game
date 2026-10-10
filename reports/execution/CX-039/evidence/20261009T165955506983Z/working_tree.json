@@ -1,0 +1,857 @@
+{
+  "task_id": "CX-039",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/Directory.Build.props",
+      "sha256": "3ec56ea78dd394617b6cd22bbf36d1d8482fa2519b68b11d8493df90659bebef",
+      "bytes": 313,
+      "source_path_at_execution": "Directory.Build.props"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/Directory.Packages.props",
+      "sha256": "1029c7f73624809b963ad1ef8c327c6432ee48b9566cbbe83900207990c58803",
+      "bytes": 420,
+      "source_path_at_execution": "Directory.Packages.props"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/MistSea.sln",
+      "sha256": "75efbd97b56da0eb8aacf15ead00b729be5317e605d5d1e6365dd34af0fda59f",
+      "bytes": 9777,
+      "source_path_at_execution": "MistSea.sln"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/content/manifests/material_history.json",
+      "sha256": "5049875d2f0ba37c9e2c8b59afd83e86555dc32adaa226549772610e11672ee3",
+      "bytes": 3674,
+      "source_path_at_execution": "content/manifests/material_history.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/content/source/campaign/first_entry.json",
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052",
+      "bytes": 39309,
+      "source_path_at_execution": "content/source/campaign/first_entry.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/content/source/campaign/production_cards.json",
+      "sha256": "b6be4a3c92fa9feceecdf87782e79d6d9d087e189d3d39a0a1473c7d73965a38",
+      "bytes": 9445,
+      "source_path_at_execution": "content/source/campaign/production_cards.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/content/source/chapter_one/chapter_one.json",
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9",
+      "bytes": 13945,
+      "source_path_at_execution": "content/source/chapter_one/chapter_one.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/docs/contracts/Runtime_Contracts.md",
+      "sha256": "ecc21eb0304cbf74a7f16365e2d9015fc93f28d30b72251deee0b1a196e90c92",
+      "bytes": 2927,
+      "source_path_at_execution": "docs/contracts/Runtime_Contracts.md"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/docs/contracts/Storage_Recovery.md",
+      "sha256": "83f10d96978d1c132011830cd1017cf6f95fda9d74ef54812d26b84d544f857e",
+      "bytes": 1492,
+      "source_path_at_execution": "docs/contracts/Storage_Recovery.md"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/Debug/BattleCandidate.cs",
+      "sha256": "4e89405493d86b53b82f6ac1913e2c4ee59503dc990403c185716bc98fb3735b",
+      "bytes": 2434,
+      "source_path_at_execution": "game/Debug/BattleCandidate.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/Debug/Q102RouteCandidate.cs",
+      "sha256": "d8b80fe8b1de2f110e5b9b8c0cf3786b2356b17b76b1ad92ad3d63d2cd5f6ffe",
+      "bytes": 8827,
+      "source_path_at_execution": "game/Debug/Q102RouteCandidate.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/MistSea.csproj",
+      "sha256": "0a57dd309f80858a0a25a77ababe888d826df23b96c53c7f5b048c4accaf4f79",
+      "bytes": 373,
+      "source_path_at_execution": "game/MistSea.csproj"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/Root.cs",
+      "sha256": "f62e7a8405b31af5b2edaa96abca3254b203887df188032c318b5000bf3f9c11",
+      "bytes": 20333,
+      "source_path_at_execution": "game/Root.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Campaign/CampaignClient.cs",
+      "sha256": "2d40a6766aec69f74856e139fdb225dd3691d5ea1a43e47c2f62fae6ba562fec",
+      "bytes": 30329,
+      "source_path_at_execution": "game/UI/Campaign/CampaignClient.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.ChapterOne.cs",
+      "sha256": "d1e40ec036c7889376d1dd1d01fa8252c21bfdf65ff24211a53ec2ed5007314c",
+      "bytes": 15471,
+      "source_path_at_execution": "game/UI/Shell/Root.ChapterOne.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.ClientTests.cs",
+      "sha256": "604bff0115654212ba2179c4ff0da56cf532d0a2a50c154f6252679bc5ffe7fd",
+      "bytes": 7405,
+      "source_path_at_execution": "game/UI/Shell/Root.ClientTests.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.Combat.cs",
+      "sha256": "bde9367968e52fb6740600b2c6c5e9f649dac81aa2522b82e79385bc878bb21f",
+      "bytes": 11241,
+      "source_path_at_execution": "game/UI/Shell/Root.Combat.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.EncounterRoute.cs",
+      "sha256": "4695f1f7f74af9620708201150e0f42196df61fe6234f5d11980aa2150381be9",
+      "bytes": 1270,
+      "source_path_at_execution": "game/UI/Shell/Root.EncounterRoute.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.Party.cs",
+      "sha256": "891f25abc0aa62d36ab083349e789add35594fb0affa700a6b3505c86562605b",
+      "bytes": 10122,
+      "source_path_at_execution": "game/UI/Shell/Root.Party.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.PeopleWork.cs",
+      "sha256": "807827770e94bd7a4d28d0c92b2d7fff36338c78359c420379c57d50fcd33349",
+      "bytes": 7730,
+      "source_path_at_execution": "game/UI/Shell/Root.PeopleWork.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.PuzzleWork.cs",
+      "sha256": "ebce10706687465c764ec27bf69980bb09453f0c2bdbf530b4f17bfb5d85f6f7",
+      "bytes": 6824,
+      "source_path_at_execution": "game/UI/Shell/Root.PuzzleWork.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/UI/Shell/Root.Views.cs",
+      "sha256": "a6663322da7a86ac469a9eb741a47136c28a97d104a23fba8afe25fd4b740649",
+      "bytes": 33085,
+      "source_path_at_execution": "game/UI/Shell/Root.Views.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/World/Movement/WorldCanvas.cs",
+      "sha256": "79a4ab8edd3aed71427f37f733e5dc43c8598e5f5013022a379d5ef69c80c85d",
+      "bytes": 3838,
+      "source_path_at_execution": "game/World/Movement/WorldCanvas.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/content/campaign/first_entry.json",
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052",
+      "bytes": 39309,
+      "source_path_at_execution": "game/content/campaign/first_entry.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/content/chapter_one/chapter_one.json",
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9",
+      "bytes": 13945,
+      "source_path_at_execution": "game/content/chapter_one/chapter_one.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/content/compile_result.json",
+      "sha256": "a7c5ed505d28480e7ba0e7da3c8470e5280d3c984d6bc1fa4015b4de2816883e",
+      "bytes": 392,
+      "source_path_at_execution": "game/content/compile_result.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/content/manifest.json",
+      "sha256": "29622e155c63862a042b3cdf749b8964cc2c1ba5999a4dcf21b2a10274ff55f3",
+      "bytes": 4957,
+      "source_path_at_execution": "game/content/manifest.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/game/content/runtime_catalog.json",
+      "sha256": "0711d49b1be002aa0e302292ff58d46e320772aa544e41653668a0b92614e2ee",
+      "bytes": 488918,
+      "source_path_at_execution": "game/content/runtime_catalog.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/global.json",
+      "sha256": "4e7d5022b2a5a8d02bb951bb264a4c8613eabc332572a0af5f9743d23f23d84e",
+      "bytes": 105,
+      "source_path_at_execution": "global.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163623900984Z/result.json",
+      "sha256": "41375b3b65f053c3caf9949caad3401f761c518188173a2a0ec57c3f24ae1f97",
+      "bytes": 3188,
+      "source_path_at_execution": "reports/build/20261009T163623900984Z/result.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/client_results.json",
+      "sha256": "595e488355f413317c5476c589c1781da5e0e5f60a94f2701e765145b2aa0725",
+      "bytes": 2121,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/client_results.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-battle-BENCH-TOWER-H.json",
+      "sha256": "37eaf01a36da271e147c6e375e63fcd71f8968a481cc4cc3e3136bb1ef9b328f",
+      "bytes": 12655,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-battle-BENCH-TOWER-H.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-battle-BENCH-TOWER-M.json",
+      "sha256": "a77ddf9e58843ebab6c4b9cd9d80c64b13e10595f1877c86bf3df9702aac56d7",
+      "bytes": 13774,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-battle-BENCH-TOWER-M.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-battle-BENCH-TOWER-S.json",
+      "sha256": "62f53fc7a82641827870465ead041b40e139545671f9b604c2abbd38baf4c580",
+      "bytes": 13046,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-battle-BENCH-TOWER-S.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-battle-BENCH-WORKSHOP-H.json",
+      "sha256": "597d876fdd022e981a53ee25753b80d816fac447cda4e8e5d2042aa7197a5145",
+      "bytes": 9273,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-battle-BENCH-WORKSHOP-H.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-battle-BENCH-WORKSHOP-M.json",
+      "sha256": "99d7668ff43d81442a4f415d009737dc40035701394b974ba80b12dee83ff64c",
+      "bytes": 9688,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-battle-BENCH-WORKSHOP-M.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-battle-BENCH-WORKSHOP-S.json",
+      "sha256": "94993b983bb4eb340108e649c1abc8d6efaa02b0485b99a832393761c08b8e43",
+      "bytes": 9980,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-battle-BENCH-WORKSHOP-S.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-route-Focused.json",
+      "sha256": "16fd6c545dea0d48d23c99b8f3b9158eae07a05f48b7a39f7d6d05a6d0855740",
+      "bytes": 17508,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-route-Focused.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-route-Isolated.json",
+      "sha256": "ec33f1f19fab76fff6a80ea98150e63d7379a460b4ca79e393e4b088b3385882",
+      "bytes": 17796,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-route-Isolated.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/godot-route-combat.json",
+      "sha256": "3461067a6d50a064bbe430f22abfb7dc2cf9f96656e0bc4b79c4502b2eacf0eb",
+      "bytes": 225194,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/godot-route-combat.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T163957508304Z/result.json",
+      "sha256": "ccca596e68340da738c7c7f69201e65438007a9a2ddc37a11fa6b604004271e4",
+      "bytes": 2794,
+      "source_path_at_execution": "reports/build/20261009T163957508304Z/result.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T165621386421Z/result.json",
+      "sha256": "10c74884224de91bf0cc7e038f1b548900ae20fce3062504f7013c5d9c25c4ef",
+      "bytes": 2751,
+      "source_path_at_execution": "reports/build/20261009T165621386421Z/result.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/build/20261009T165621386421Z/test_results.json",
+      "sha256": "cb56e77244b4a8746729d3c5d8fca4523ceea3ee6a4cf7fc82b65f40fe2e7dfa",
+      "bytes": 42182,
+      "source_path_at_execution": "reports/build/20261009T165621386421Z/test_results.json"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335,
+      "source_path_at_execution": "reports/continuous/Scope_20261009.md"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/schemas/sql/001_control.sql",
+      "sha256": "d5e2fd89794a45e3bfdb4767e60deaa0b6c237fb772a0317bcda15e8415289ea",
+      "bytes": 1032,
+      "source_path_at_execution": "schemas/sql/001_control.sql"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/schemas/sql/001_profile.sql",
+      "sha256": "686a4fcc0fd2d06d08fc393d12f8c232f36b7c5cc4d6fa6a941618808e65fa95",
+      "bytes": 4788,
+      "source_path_at_execution": "schemas/sql/001_profile.sql"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/schemas/sql/002_inventory.sql",
+      "sha256": "8318e687d95eac3f2f91002bca17001357b0dc1d9ee373b621f69171a56f55e1",
+      "bytes": 628,
+      "source_path_at_execution": "schemas/sql/002_inventory.sql"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Assist/RestrictedAssistanceGateway.cs",
+      "sha256": "b67ba8a577172c522c04516492b62bbd79ff2c445c8b9cc3e7dcfeabd4e082de",
+      "bytes": 14665,
+      "source_path_at_execution": "src/Mist.Application/Assist/RestrictedAssistanceGateway.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Assist/RestrictedDisabledProvider.cs",
+      "sha256": "a76a9a6e3ae8aab96c41cb989e000d3f59862b4e87798a2bfbbd371d8b4a7cc2",
+      "bytes": 1230,
+      "source_path_at_execution": "src/Mist.Application/Assist/RestrictedDisabledProvider.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Assist/RestrictedGatewayContracts.cs",
+      "sha256": "bad28b9dbdc33504aa5030e8496bf273c97edf644911d49f858cda275364a8e2",
+      "bytes": 2737,
+      "source_path_at_execution": "src/Mist.Application/Assist/RestrictedGatewayContracts.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Assistance/DisabledProvider.cs",
+      "sha256": "79698d2f9452eb34da235a8dbd9d4e6039b6ffb491ba7dd61727640925ff89fe",
+      "bytes": 438,
+      "source_path_at_execution": "src/Mist.Application/Assistance/DisabledProvider.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/BuildIdentity.cs",
+      "sha256": "f1c1baf895ff5b32ecf20040f7e89ff341a9889ff2625a383568d1e571aa0160",
+      "bytes": 169,
+      "source_path_at_execution": "src/Mist.Application/BuildIdentity.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Campaign/CampaignService.cs",
+      "sha256": "0c213aafbb6e748a9ba42a5e7f8989109575e71f827c7c32adc9172826a7f060",
+      "bytes": 39554,
+      "source_path_at_execution": "src/Mist.Application/Campaign/CampaignService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/ChapterOne/ChapterOneService.Tidegate.cs",
+      "sha256": "107b90b332d1c24cce5c871b24297ea3fdd30acc1056f89af1a8d9515b742089",
+      "bytes": 14871,
+      "source_path_at_execution": "src/Mist.Application/ChapterOne/ChapterOneService.Tidegate.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/ChapterOne/ChapterOneService.cs",
+      "sha256": "82ddbaa79a9fef0be1cb0fa97be0c8f27fc02d38777c1f1a3f08e95eee16519c",
+      "bytes": 13854,
+      "source_path_at_execution": "src/Mist.Application/ChapterOne/ChapterOneService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/CombatSessions/EncounterService.cs",
+      "sha256": "77f61eec9729f657371a995edc9b7cd0c7eb2277aa11e803cb3b784bc845f207",
+      "bytes": 10554,
+      "source_path_at_execution": "src/Mist.Application/CombatSessions/EncounterService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Commands/BranchOperations.cs",
+      "sha256": "5adcfc535d64b093ecd66c5b60a1b1c3e79e93d556bc007d0fa95a52ee9b2720",
+      "bytes": 2507,
+      "source_path_at_execution": "src/Mist.Application/Commands/BranchOperations.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Commands/Preview.cs",
+      "sha256": "a9c56523e44a6ee387c34713c7215cba9fcf004c2672c63eedaa0464833802fd",
+      "bytes": 1860,
+      "source_path_at_execution": "src/Mist.Application/Commands/Preview.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/CompanionArcs/CompanionArcService.cs",
+      "sha256": "23c613aec33e8b276dd8435ea1aeb96ffabb4af63ec06929360a02299cce40ff",
+      "bytes": 14251,
+      "source_path_at_execution": "src/Mist.Application/CompanionArcs/CompanionArcService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Contracts/Commands.cs",
+      "sha256": "2d8817ff9923d9ea10d1e214411fc0a856e2edb78c0c852d052d03d9f9eaffc3",
+      "bytes": 2344,
+      "source_path_at_execution": "src/Mist.Application/Contracts/Commands.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Disclosure/DisclosureService.cs",
+      "sha256": "757ea970bbc27e668aa9db73d150921fdcaae6ef9d4d60e4a13ecdc1a6ded301",
+      "bytes": 6255,
+      "source_path_at_execution": "src/Mist.Application/Disclosure/DisclosureService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Drafts/DraftEditor.cs",
+      "sha256": "91204e59338f4dc8bff81ec19348d986df38ffa1b9e3cc2a21d713ef9b025089",
+      "bytes": 1518,
+      "source_path_at_execution": "src/Mist.Application/Drafts/DraftEditor.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/EncounterRetry/RetryBoundary.cs",
+      "sha256": "2f4aa778e81a78e3719599e95c404df8472a851a928477ded400f15ddc5d36a5",
+      "bytes": 1138,
+      "source_path_at_execution": "src/Mist.Application/EncounterRetry/RetryBoundary.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/EncounterRetry/RetryPlanFactory.cs",
+      "sha256": "6714d097b910502b24a039327e2608cef21ad86e69c63df8a49258be27a0c4d2",
+      "bytes": 1617,
+      "source_path_at_execution": "src/Mist.Application/EncounterRetry/RetryPlanFactory.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/EventScheduler/EventScheduler.cs",
+      "sha256": "148a92ca19502da3e56d1488314b432a555073076e070635026d656550e2187e",
+      "bytes": 5639,
+      "source_path_at_execution": "src/Mist.Application/EventScheduler/EventScheduler.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Factions/FactionService.cs",
+      "sha256": "12e42139d0d710c283ab824fad8c57df4e5bf1d1de77859e878cabb9b9ae4548",
+      "bytes": 6883,
+      "source_path_at_execution": "src/Mist.Application/Factions/FactionService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Inventory/PartyService.cs",
+      "sha256": "185ea3dd72688f115a7fff319efd163f5f896f4c17af5aa777622e5f425cdc58",
+      "bytes": 15020,
+      "source_path_at_execution": "src/Mist.Application/Inventory/PartyService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Knowledge/KnowledgeService.cs",
+      "sha256": "65ae94106815ff47c0d2debff0b394ad3d99597417c062b584cf5b520455a296",
+      "bytes": 2381,
+      "source_path_at_execution": "src/Mist.Application/Knowledge/KnowledgeService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Learning/LocalWritingFeedback.cs",
+      "sha256": "1fb99bbf63557f38618af6bb2e91e4fee8165b6df8047582dfdf453ee3f659f6",
+      "bytes": 1475,
+      "source_path_at_execution": "src/Mist.Application/Learning/LocalWritingFeedback.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Materials/MaterialJournal.cs",
+      "sha256": "70189122c90ad1dd976d1ff2f2cd286c9d26615a309f4df19ca739e5152bfb56",
+      "bytes": 1730,
+      "source_path_at_execution": "src/Mist.Application/Materials/MaterialJournal.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Mist.Application.csproj",
+      "sha256": "330a351332e72d8933d8c9515204efdbca8c73630368bf305ae0d2eccfc1c43d",
+      "bytes": 131,
+      "source_path_at_execution": "src/Mist.Application/Mist.Application.csproj"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Q102/Q102Service.cs",
+      "sha256": "767745de7b1eea6a60e3efe169a024efbfb2cc7549bba7b1c7b79dbf14635c44",
+      "bytes": 19763,
+      "source_path_at_execution": "src/Mist.Application/Q102/Q102Service.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Relationships/RelationshipService.cs",
+      "sha256": "7a037650d3f28864c1f3ee2b703fa2c82fc29fe417dd484d2e3f735434079873",
+      "bytes": 1650,
+      "source_path_at_execution": "src/Mist.Application/Relationships/RelationshipService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Roster/RosterService.cs",
+      "sha256": "feb6f6e7940cb85fc939e34b7f891eceed37772de0e32936d85fb7dde2f7cbd5",
+      "bytes": 8334,
+      "source_path_at_execution": "src/Mist.Application/Roster/RosterService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Storage/IAdventureRepository.cs",
+      "sha256": "18bbdefe0fbcb4ad443a85c1781b98999e8cd95d52db53ebf8c0f8763184e7fb",
+      "bytes": 369,
+      "source_path_at_execution": "src/Mist.Application/Storage/IAdventureRepository.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Storage/Models.cs",
+      "sha256": "10b9b19c68597154674f571d51cfb0872aee3082643d0fe4642a0940480ca210",
+      "bytes": 2718,
+      "source_path_at_execution": "src/Mist.Application/Storage/Models.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Travel/TravelService.Vessel.cs",
+      "sha256": "ec62d2d2c5fab556d7106a2036210ab3c12e9497128e135272f67f22dae6817f",
+      "bytes": 10144,
+      "source_path_at_execution": "src/Mist.Application/Travel/TravelService.Vessel.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/Travel/TravelService.cs",
+      "sha256": "3c41d1ce36adec157978cf68ef486ac645015b5810bc77d1f359cc86f5bb771f",
+      "bytes": 19372,
+      "source_path_at_execution": "src/Mist.Application/Travel/TravelService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/UI/InputRouting.cs",
+      "sha256": "68bd2a1f68e48cdfe4f9fa86c0e40038e0b91f0178e154be6127066ce1920d84",
+      "bytes": 1131,
+      "source_path_at_execution": "src/Mist.Application/UI/InputRouting.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Application/WorkOrders/WorkOrderService.cs",
+      "sha256": "7df8c0bbbe935a01e638f4a690ee9a4c57c911444f731b29dd22e2cf7a5741b3",
+      "bytes": 14557,
+      "source_path_at_execution": "src/Mist.Application/WorkOrders/WorkOrderService.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Assistance/AssistanceModels.cs",
+      "sha256": "566adf58483a0b3a98798d6abce661cca92075a0dc4fab60d518642f5b1ae527",
+      "bytes": 3149,
+      "source_path_at_execution": "src/Mist.Core/Assistance/AssistanceModels.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Assistance/RestrictedReplyValidator.cs",
+      "sha256": "a7560aefcc41360bf25c882824a8efea0a808b6d7000247bd556803c2a55358f",
+      "bytes": 7060,
+      "source_path_at_execution": "src/Mist.Core/Assistance/RestrictedReplyValidator.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Campaign/CampaignModels.cs",
+      "sha256": "7982d31e2632e94b8c3de45d2d52d9c14cd49be385c1fce88bbe87d01c6aad70",
+      "bytes": 6189,
+      "source_path_at_execution": "src/Mist.Core/Campaign/CampaignModels.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/ChapterOne/ChapterOneModels.cs",
+      "sha256": "5dc3f4f3ec56ee14c6921a4dd67a3293903c81aedc613d0c7da497302a7a12bd",
+      "bytes": 3483,
+      "source_path_at_execution": "src/Mist.Core/ChapterOne/ChapterOneModels.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Combat/BattleEngine.cs",
+      "sha256": "645ab3c1e5258c30828d4262453ace028c0a2a8a71fa7e7c8b90570c924d282e",
+      "bytes": 34887,
+      "source_path_at_execution": "src/Mist.Core/Combat/BattleEngine.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Combat/CombatMath.cs",
+      "sha256": "b6c656cee38e1dd301741e69e368a54ae807a085bf2c69c8e3238a14ed5b1a7b",
+      "bytes": 1247,
+      "source_path_at_execution": "src/Mist.Core/Combat/CombatMath.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Combat/CombatModels.cs",
+      "sha256": "8abca5158dac0d2f5e1960cdd6653010863277ae631118a870600d4e260bf096",
+      "bytes": 13076,
+      "source_path_at_execution": "src/Mist.Core/Combat/CombatModels.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Conditions/Conditions.cs",
+      "sha256": "816600973efa2eeea094cb836b0205f5e0d0e94aef8613ea30d9921e94480e4d",
+      "bytes": 3009,
+      "source_path_at_execution": "src/Mist.Core/Conditions/Conditions.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Content/Catalog.cs",
+      "sha256": "f542faeb7d5a927ed3373df64720f83af6bce08d995b86769a2903bf89e8db9f",
+      "bytes": 2371,
+      "source_path_at_execution": "src/Mist.Core/Content/Catalog.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Contracts/Identity.cs",
+      "sha256": "9f892dc67204e35dcbd9bc4b538d6365b5497e0c6d0d0a5e2a430bdd8149ea9a",
+      "bytes": 4007,
+      "source_path_at_execution": "src/Mist.Core/Contracts/Identity.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Contracts/Quantities.cs",
+      "sha256": "8d40c30c4cf173f4423c81182d489c6ff20cf876f9716fdfd69cc3d31d2978ee",
+      "bytes": 503,
+      "source_path_at_execution": "src/Mist.Core/Contracts/Quantities.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Contracts/StrictJson.cs",
+      "sha256": "734dca5bea7713a5c659718462ba03ff85c11f638ada2777707dab1764fbf983",
+      "bytes": 2602,
+      "source_path_at_execution": "src/Mist.Core/Contracts/StrictJson.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Devices/Q102State.cs",
+      "sha256": "29a0ae2de175123cc79339bb210187f8ca2d4ecd2d6b0632dda17b97104376aa",
+      "bytes": 1600,
+      "source_path_at_execution": "src/Mist.Core/Devices/Q102State.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Engineering/EngineeringRules.cs",
+      "sha256": "b9553b7a4a5935ae94b81d6ddb7c73109a5704b3f86ce9d392f9ecb4d310515b",
+      "bytes": 3105,
+      "source_path_at_execution": "src/Mist.Core/Engineering/EngineeringRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Exploration/Geometry.cs",
+      "sha256": "f5797604713262c28904c3605c3f1c696ca1dc8776e54c30f9caaf1ed39efaf4",
+      "bytes": 4084,
+      "source_path_at_execution": "src/Mist.Core/Exploration/Geometry.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Inventory/ItemDefinitions.cs",
+      "sha256": "76ef34cd2cf5b4af795f8b06db724f68ef3c3647d05827b4a148321d6b82c4f0",
+      "bytes": 2437,
+      "source_path_at_execution": "src/Mist.Core/Inventory/ItemDefinitions.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Learning/EvidenceState.cs",
+      "sha256": "ba6e874605b8d67b2241a3a675b4951009a1e7960aecaa41b83270d1d87a77f8",
+      "bytes": 1691,
+      "source_path_at_execution": "src/Mist.Core/Learning/EvidenceState.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Learning/Observation.cs",
+      "sha256": "6797c056f2a509f84fb5a86a9b09c45c6adf3d4732d0db9d3044601f22f78470",
+      "bytes": 2514,
+      "source_path_at_execution": "src/Mist.Core/Learning/Observation.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Mist.Core.csproj",
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3",
+      "bytes": 36,
+      "source_path_at_execution": "src/Mist.Core/Mist.Core.csproj"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/NPC/KnowledgeProjection.cs",
+      "sha256": "e3c62d8a328e4242fc1fc0c8793060e40c8484744241ffa1adec9ef3b9680572",
+      "bytes": 3510,
+      "source_path_at_execution": "src/Mist.Core/NPC/KnowledgeProjection.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/NPC/Relationships.cs",
+      "sha256": "05c35e89f67192d7c802f1cd7df0e46a4130861ea1ff6cb7c9d1d01e43bc40b2",
+      "bytes": 2281,
+      "source_path_at_execution": "src/Mist.Core/NPC/Relationships.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Progression/ProgressionRules.cs",
+      "sha256": "7b3e9d5960e5e98772af50574a4281a54adc45e3a3493650dec98b6a210dd2a1",
+      "bytes": 3781,
+      "source_path_at_execution": "src/Mist.Core/Progression/ProgressionRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Puzzles/PuzzleWork.cs",
+      "sha256": "a26f6742dc21944e76ef4600fedb82684efb9a7fdaf7a3109d6e16be9dcac031",
+      "bytes": 2171,
+      "source_path_at_execution": "src/Mist.Core/Puzzles/PuzzleWork.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Quests/QuestState.cs",
+      "sha256": "beefa1fd804d64be216a6986b06003bf4714bee5b416071fb7a27d0ef6bdce48",
+      "bytes": 740,
+      "source_path_at_execution": "src/Mist.Core/Quests/QuestState.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Core/Skills/TalentRules.cs",
+      "sha256": "e9e98d62a05bc377e5aea33871add0a15cf821b24e5ade962c022cdcf7cd57dd",
+      "bytes": 2801,
+      "source_path_at_execution": "src/Mist.Core/Skills/TalentRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Content/PackageInstaller.cs",
+      "sha256": "0ae9655d047f6ce44e50c46779b319220406e40879b94355d5124858b65e441a",
+      "bytes": 9792,
+      "source_path_at_execution": "src/Mist.Infrastructure/Content/PackageInstaller.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Mist.Infrastructure.csproj",
+      "sha256": "7d4d73cfd7975616b84c1111f1934949f3faf7ab24b1cf340d39c39f45bd3b2c",
+      "bytes": 297,
+      "source_path_at_execution": "src/Mist.Infrastructure/Mist.Infrastructure.csproj"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Drafts.cs",
+      "sha256": "3bedca99261fcc03f22390b9a7beed7fc550d74ce829d8c85986241e281fad87",
+      "bytes": 3030,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Drafts.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.InventoryMigration.cs",
+      "sha256": "824b71a1de6ba5a30741ef282f163ce6380c00b043751e3e3e42446efce6c847",
+      "bytes": 2471,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.InventoryMigration.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Privacy.cs",
+      "sha256": "758cafbd06ab579d1b81a4129c2138fb67c92bf25c409ffd891940ad0d582cd4",
+      "bytes": 8551,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Privacy.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Recovery.cs",
+      "sha256": "4591b371763ab642d7e515aadcca82ebc9f435472bb75f37c0ebefabe9724e70",
+      "bytes": 6061,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Recovery.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Saves.cs",
+      "sha256": "0ff1fa4dcc1cb61c502fae7cfe6100e4cbdaf7c1049881227c0ec84ab3af4873",
+      "bytes": 9123,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Saves.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Settings.cs",
+      "sha256": "4cf49f161c9b9878f4632ac1dcde5e931316df47a9733efe270b1ad836b8f1fc",
+      "bytes": 2802,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Settings.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.cs",
+      "sha256": "b47dbd544f4bf92f367ce73d765af40127589806bc58da2193f2b2ecc68fcb2c",
+      "bytes": 17533,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/SingleWriter.cs",
+      "sha256": "63fd32c2749b0ae55b1e0ec2dd68067c43a9742582b3a5cf6107a82501ddc793",
+      "bytes": 1519,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/SingleWriter.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/src/Mist.Infrastructure/Storage/SqliteSupport.cs",
+      "sha256": "2f63acdfd42e00005931993021263fdda4e3f3643c35c6b3e39c2395f3976993",
+      "bytes": 2284,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/SqliteSupport.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/AssistSafety/AssistanceSafetyCases.cs",
+      "sha256": "707a1dc95aa2cc4f0b3d64936d0a75d7c580dcc36d01d38d4a5183ac98a35779",
+      "bytes": 28264,
+      "source_path_at_execution": "tests/Mist.Tests/AssistSafety/AssistanceSafetyCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "sha256": "4f738e7ef4e240141ff5bc19e4f790a9e8c85519a89df292385a32bd7d1dfd5c",
+      "bytes": 23329,
+      "source_path_at_execution": "tests/Mist.Tests/Campaign/CampaignCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "sha256": "47db7bcae3c6def3ad2cea2d37bf4033d298b1c63a637b318927249b61826aae",
+      "bytes": 23723,
+      "source_path_at_execution": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Combat/CombatCases.cs",
+      "sha256": "eb60575a6daa0ca3672067ba7f5f1f29fd08d7996b7d79b9a90a19bb8a21c568",
+      "bytes": 14248,
+      "source_path_at_execution": "tests/Mist.Tests/Combat/CombatCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Combat/CombatStoreCases.cs",
+      "sha256": "470a9d879a7d73a0ec6c5c0acd70f6e154eb2116b2c4a2a6f4b209d1fb0fd7a1",
+      "bytes": 14391,
+      "source_path_at_execution": "tests/Mist.Tests/Combat/CombatStoreCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Combat/EffectCases.cs",
+      "sha256": "15ad7bc72410545b89316fc74c15431a94a650d32e5c28f4b6df176ad0e02777",
+      "bytes": 15717,
+      "source_path_at_execution": "tests/Mist.Tests/Combat/EffectCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Combat/TradingCases.cs",
+      "sha256": "b1a4e9a5700cb2817fe9c5aaa822ba249c520789295b9d3bf9e11640f6e4f727",
+      "bytes": 5187,
+      "source_path_at_execution": "tests/Mist.Tests/Combat/TradingCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Combat/VariantAndIntentCases.cs",
+      "sha256": "1c47611101de22fb25e7be83f06a4be2832c29238bb592908af8f7f02812ef32",
+      "bytes": 10810,
+      "source_path_at_execution": "tests/Mist.Tests/Combat/VariantAndIntentCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/CompanionArcs/CompanionArcCases.cs",
+      "sha256": "101c5e277a411f7761a44cc41f444003ead6384d03001dfd0ad5ca6df546ad7b",
+      "bytes": 18872,
+      "source_path_at_execution": "tests/Mist.Tests/CompanionArcs/CompanionArcCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Content/ContentCases.cs",
+      "sha256": "8959cf8d6140d89153fd415f9ed5eecadb04786722627e5318e6650f435c0a2c",
+      "bytes": 11450,
+      "source_path_at_execution": "tests/Mist.Tests/Content/ContentCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Contracts/ContractCases.cs",
+      "sha256": "7efc87bf3abf129f60e65a878a840a0366a5a63efeab0ca6f4b5c83940b88ff4",
+      "bytes": 3551,
+      "source_path_at_execution": "tests/Mist.Tests/Contracts/ContractCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Mist.Tests.csproj",
+      "sha256": "0dfb6d1b549a29009afeb0aca8b23a721c778fa00afb52e51bdb2d09ebaa6fe0",
+      "bytes": 657,
+      "source_path_at_execution": "tests/Mist.Tests/Mist.Tests.csproj"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/NPC/EngineeringCases.cs",
+      "sha256": "bd3708693b00ae73823050ec072a660ee81848a8615f22e59dc3e8b2e28ef26b",
+      "bytes": 10592,
+      "source_path_at_execution": "tests/Mist.Tests/NPC/EngineeringCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/NPC/NpcCases.cs",
+      "sha256": "4ecf3836cbfe235c5c3c788ef768911200cac39b621a96205fa47a1b1384d12a",
+      "bytes": 14984,
+      "source_path_at_execution": "tests/Mist.Tests/NPC/NpcCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Program.cs",
+      "sha256": "75b9d6f443678e40b0158ca095d75e13869e448eadd1d407a84d4c6e762f33b8",
+      "bytes": 872,
+      "source_path_at_execution": "tests/Mist.Tests/Program.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Q102/Q102Cases.cs",
+      "sha256": "e6b80838bb4b536627e1a48e75a556d651a876418edaba71c98ecd3da73d53ee",
+      "bytes": 17167,
+      "source_path_at_execution": "tests/Mist.Tests/Q102/Q102Cases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Storage/StorageCases.cs",
+      "sha256": "bb737fca646f1012a33b7d88e3717e4ca8ede784b42fdf2d58c60017b7a3f0b2",
+      "bytes": 28618,
+      "source_path_at_execution": "tests/Mist.Tests/Storage/StorageCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/TestRegistry.cs",
+      "sha256": "5fa0748f44d9e77cf5067f9ca2dbf4099533d6ba113b14431a506ca662e273d3",
+      "bytes": 1970,
+      "source_path_at_execution": "tests/Mist.Tests/TestRegistry.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Travel/TravelCases.cs",
+      "sha256": "29851c4389a5ab017a3f4e054730291d5fa9a5d2a8a3d5d1c13fec90f203ec5a",
+      "bytes": 17208,
+      "source_path_at_execution": "tests/Mist.Tests/Travel/TravelCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tests/Mist.Tests/Travel/TravelGeometryCases.cs",
+      "sha256": "82ba296e84418187b8949ff555c0b833946d3bc9d062f9e18eea30c324f56d7f",
+      "bytes": 9136,
+      "source_path_at_execution": "tests/Mist.Tests/Travel/TravelGeometryCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tools/Mist.ContentCli/Import/SourceAdapters.cs",
+      "sha256": "3cc2088d8b1437c85b48dd43ea82d137c368054479235a6ad06f43fab0bd1a64",
+      "bytes": 13890,
+      "source_path_at_execution": "tools/Mist.ContentCli/Import/SourceAdapters.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tools/Mist.ContentCli/Mist.ContentCli.csproj",
+      "sha256": "5f925deb88a87f60759af68784572e03b119b7a51d3368437225fafeb7774640",
+      "bytes": 200,
+      "source_path_at_execution": "tools/Mist.ContentCli/Mist.ContentCli.csproj"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tools/Mist.ContentCli/Program.cs",
+      "sha256": "92e5c755f2a48d0746363a39eb90890aab6e105fff89bc05a92ac9a04649ab78",
+      "bytes": 608,
+      "source_path_at_execution": "tools/Mist.ContentCli/Program.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tools/Mist.ContentCli/Validation/ContentCompiler.cs",
+      "sha256": "8d543ba9b5d41d36a5c57a4dfea0b2f6d21c13c60d670bcfc90d6c381bdc3ea5",
+      "bytes": 12704,
+      "source_path_at_execution": "tools/Mist.ContentCli/Validation/ContentCompiler.cs"
+    },
+    {
+      "path": "reports/execution/CX-039/evidence/20261009T165955506983Z/sources/tools/ci/build.py",
+      "sha256": "f3396e645673ddef80723cf9ecc7e1da3ba96b7666c540088c6e5df051fbaa69",
+      "bytes": 6706,
+      "source_path_at_execution": "tools/ci/build.py"
+    }
+  ],
+  "interface_schema_impact": {
+    "storage_schema": 2,
+    "source_scope": "Frozen internal candidate; no formal release claim."
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

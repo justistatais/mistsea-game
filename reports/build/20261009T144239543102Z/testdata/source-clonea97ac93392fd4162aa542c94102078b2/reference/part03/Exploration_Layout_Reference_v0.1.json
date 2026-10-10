@@ -1,0 +1,1888 @@
+{
+  "meta": {
+    "version": "0.1",
+    "kind": "design_reference_not_runtime_schema",
+    "title": "第三部分：探索场景登记与六场景灰盒坐标",
+    "dependencies": [
+      "Game_Design_Core_v0.1.md",
+      "World_Story_Bible_v0.1.md"
+    ],
+    "notes": [
+      "所有尺寸与数量是待验证初值；没有选定游戏引擎。",
+      "连接条件为语义契约，不是可直接执行的表达式。",
+      "六场景之外未提供完整灰盒几何；第十二部分统一运行时数据契约。"
+    ]
+  },
+  "regions": [
+    {
+      "id": "R0",
+      "name": "搁浅海岸",
+      "theme": "短线教学与救援环路",
+      "scenes": [
+        {
+          "id": "R0-S01",
+          "name": "搁浅船舱",
+          "pool": "base",
+          "story_nodes": [
+            "Q-P01"
+          ],
+          "play_actions": "辨认断裂地板；取救援工具；读取船内位置说明"
+        },
+        {
+          "id": "R0-S02",
+          "name": "裂礁浅滩",
+          "pool": "base",
+          "story_nodes": [
+            "Q-P01",
+            "Q-P02"
+          ],
+          "play_actions": "比对潮位说明与地标；设接应点；处理近岸生物"
+        },
+        {
+          "id": "R0-S03",
+          "name": "岸边绞盘",
+          "pool": "base",
+          "story_nodes": [
+            "Q-P02"
+          ],
+          "play_actions": "固定救生索；恢复绞盘；调换接应方向"
+        },
+        {
+          "id": "R0-S04",
+          "name": "避风救援棚",
+          "pool": "base",
+          "story_nodes": [
+            "Q-P02"
+          ],
+          "play_actions": "登记幸存者；提交求援消息；查看接应回执"
+        },
+        {
+          "id": "R0-S05",
+          "name": "海岸中继站",
+          "pool": "base",
+          "story_nodes": [
+            "Q-P03"
+          ],
+          "play_actions": "恢复中继；核对独立记录；取得导师检修邮包"
+        }
+      ],
+      "connections": [
+        {
+          "a": "R0-S01",
+          "b": "R0-S02",
+          "gate_contract": "安全离船通路建立",
+          "return_contract": "回访使用加固后的同一通路"
+        },
+        {
+          "a": "R0-S02",
+          "b": "R0-S03",
+          "gate_contract": "公开通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R0-S03",
+          "b": "R0-S04",
+          "gate_contract": "救援索固定",
+          "return_contract": "固定后保持开放"
+        },
+        {
+          "a": "R0-S03",
+          "b": "R0-S05",
+          "gate_contract": "中继站检修入口已由现场调查识别，基础工具可用",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R0-S04",
+          "b": "R0-S05",
+          "gate_contract": "从中继站打开棚后门",
+          "return_contract": "内侧开门后双向"
+        }
+      ]
+    },
+    {
+      "id": "R1",
+      "name": "盐雾港",
+      "theme": "中心广场、工坊小环路与塔站纵深",
+      "scenes": [
+        {
+          "id": "R1-S01",
+          "name": "接应泊位",
+          "pool": "base",
+          "story_nodes": [
+            "Q-101"
+          ],
+          "play_actions": "接受港口接应；核对入港许可；识别民用渡轮与巡灯船泊位"
+        },
+        {
+          "id": "R1-S02",
+          "name": "渡运广场",
+          "pool": "base",
+          "story_nodes": [
+            "Q-101",
+            "Q-102",
+            "Q-103"
+          ],
+          "play_actions": "查航道公告；查看区域地图；联系接应人员"
+        },
+        {
+          "id": "R1-S03",
+          "name": "调度室",
+          "pool": "base",
+          "story_nodes": [
+            "Q-101",
+            "Q-102",
+            "Q-103"
+          ],
+          "play_actions": "听修订调度录音；查B航道规定；与哈文确认方案"
+        },
+        {
+          "id": "R1-S04",
+          "name": "民用渡轮（停泊态）",
+          "pool": "base",
+          "story_nodes": [
+            "Q-102"
+          ],
+          "play_actions": "查吃水资料；检查导航灯；连接船内备用电池；写撤离指令"
+        },
+        {
+          "id": "R1-S05",
+          "name": "西工坊外场",
+          "pool": "base",
+          "story_nodes": [
+            "Q-102"
+          ],
+          "play_actions": "观察机械与两条入口；查局部检修路线；选择取件方法"
+        },
+        {
+          "id": "R1-S06",
+          "name": "西工坊内场",
+          "pool": "base",
+          "story_nodes": [
+            "Q-102",
+            "Q-103"
+          ],
+          "play_actions": "取替换支架；开启回广场的内闩门；保存未核验工单"
+        },
+        {
+          "id": "R1-S07",
+          "name": "配电检查间",
+          "pool": "base",
+          "story_nodes": [
+            "Q-102"
+          ],
+          "play_actions": "查主发电机隔离牌；操作独立工坊控制器；打开检修侧通道"
+        },
+        {
+          "id": "R1-S08",
+          "name": "记录保管间",
+          "pool": "base",
+          "story_nodes": [
+            "Q-103"
+          ],
+          "play_actions": "比对签发时间、值班记录与测试计划；保留原始版本"
+        },
+        {
+          "id": "R1-S09",
+          "name": "潮门塔基",
+          "pool": "base",
+          "story_nodes": [
+            "Q-104"
+          ],
+          "play_actions": "调查受损入口；安排维修与战前准备；登记返程点"
+        },
+        {
+          "id": "R1-S10",
+          "name": "潮门控制层",
+          "pool": "base",
+          "story_nodes": [
+            "Q-104"
+          ],
+          "play_actions": "处理塔站维护机械；恢复安全运行；核对塔站现场回执"
+        },
+        {
+          "id": "R1-O01",
+          "name": "潮汐旅舍",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "比较重复订房与更正来信；安排住客；听正常闲谈"
+        },
+        {
+          "id": "R1-O02",
+          "name": "废剧场",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "检查设备；安排演出人员与流程；观看恢复后的短场景"
+        }
+      ],
+      "connections": [
+        {
+          "a": "R1-S01",
+          "b": "R1-S02",
+          "gate_contract": "公开通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R1-S02",
+          "b": "R1-S03",
+          "gate_contract": "Q-101公共咨询区可进；受限柜台由委托控制",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R1-S02",
+          "b": "R1-S04",
+          "gate_contract": "临时检修委托；渡轮尚未离港",
+          "return_contract": "离港前双向；离港提交时移回广场"
+        },
+        {
+          "a": "R1-S02",
+          "b": "R1-S05",
+          "gate_contract": "公开外场；内部操作需临时检修委托",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R1-S05",
+          "b": "R1-S07",
+          "gate_contract": "临时检修委托",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R1-S05",
+          "b": "R1-S06",
+          "gate_contract": "机械已隔离/停用，或接受并完成正面遭遇",
+          "return_contract": "隔离/停用后双向；active/focused从内侧走正门也须遭遇确认，不能当作无风险返程"
+        },
+        {
+          "a": "R1-S07",
+          "b": "R1-S06",
+          "gate_contract": "独立控制器使机械处于注意固定/隔离/停用状态",
+          "return_contract": "两侧均受检修门模式联锁；focused/isolated/disabled可通行，active关闭；已开横闩捷径独立保持"
+        },
+        {
+          "a": "R1-S06",
+          "b": "R1-S02",
+          "gate_contract": "工坊内侧打开横闩",
+          "return_contract": "开启后双向；外侧不能先开"
+        },
+        {
+          "a": "R1-S03",
+          "b": "R1-S08",
+          "gate_contract": "有效记录调阅授权，不读取英语分数",
+          "return_contract": "双向；授权不因离开失效"
+        },
+        {
+          "a": "R1-S02",
+          "b": "R1-S09",
+          "gate_contract": "公开塔基；工区告示说明当前限制",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R1-S09",
+          "b": "R1-S10",
+          "gate_contract": "现场检修放行及当前危险处置准备，不以等级锁主线",
+          "return_contract": "完成后双向并可登记控制层安全返程点"
+        },
+        {
+          "a": "R1-S02",
+          "b": "R1-O01",
+          "gate_contract": "已发现旅舍",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R1-O01",
+          "b": "R1-O02",
+          "gate_contract": "演出支线揭示地点；基础路线可达",
+          "return_contract": "可选内容不得锁主线"
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "name": "苔林修院",
+      "theme": "生活支路、档案支路与地下回环",
+      "scenes": [
+        {
+          "id": "R2-S01",
+          "name": "林缘接驳站",
+          "pool": "base",
+          "story_nodes": [
+            "Q-201"
+          ],
+          "play_actions": "登记登陆与返程；查看住地引导；接地区请求"
+        },
+        {
+          "id": "R2-S02",
+          "name": "修院庭院",
+          "pool": "base",
+          "story_nodes": [
+            "Q-201",
+            "Q-204"
+          ],
+          "play_actions": "观察日常生活；联系琼；安排公开或限阅沟通"
+        },
+        {
+          "id": "R2-S03",
+          "name": "临时住地",
+          "pool": "base",
+          "story_nodes": [
+            "Q-201",
+            "Q-202"
+          ],
+          "play_actions": "走访住民；核对口粮与住址；听相互不完全一致的证词"
+        },
+        {
+          "id": "R2-S04",
+          "name": "名册阅览室",
+          "pool": "base",
+          "story_nodes": [
+            "Q-202",
+            "Q-204"
+          ],
+          "play_actions": "比对转移名单；保存D-1交接单；确定身份访问范围"
+        },
+        {
+          "id": "R2-S05",
+          "name": "旧温室",
+          "pool": "base",
+          "story_nodes": [
+            "Q-203"
+          ],
+          "play_actions": "查水路与供给说明；进入地下检修入口；观察恢复效果"
+        },
+        {
+          "id": "R2-S06",
+          "name": "转供站上层",
+          "pool": "base",
+          "story_nodes": [
+            "Q-203"
+          ],
+          "play_actions": "处理根系与积水；辨认旧式控制与新联锁的区别"
+        },
+        {
+          "id": "R2-S07",
+          "name": "转供站机房",
+          "pool": "base",
+          "story_nodes": [
+            "Q-203"
+          ],
+          "play_actions": "恢复有限本地供给；记录负荷边界；打开住地回程检修门"
+        },
+        {
+          "id": "R2-S08",
+          "name": "苔冠塔值守层",
+          "pool": "base",
+          "story_nodes": [
+            "Q-203",
+            "Q-204"
+          ],
+          "play_actions": "完成塔站当前安全核查；登记值守情况；保存后续改造工作点"
+        },
+        {
+          "id": "R2-O01",
+          "name": "回信小屋",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "理解迟到的私人回信；拟写合适回复；尊重访问范围"
+        },
+        {
+          "id": "R2-O02",
+          "name": "冬季试种地",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "比较种植说明、有限资源与记录；提出可执行分配"
+        }
+      ],
+      "connections": [
+        {
+          "a": "R2-S01",
+          "b": "R2-S02",
+          "gate_contract": "接驳通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R2-S02",
+          "b": "R2-S03",
+          "gate_contract": "公开通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R2-S02",
+          "b": "R2-S04",
+          "gate_contract": "基础调阅身份成立；敏感材料单独授权",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R2-S02",
+          "b": "R2-S05",
+          "gate_contract": "公开温室外廊",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R2-S05",
+          "b": "R2-S06",
+          "gate_contract": "现场检修条件成立",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R2-S06",
+          "b": "R2-S07",
+          "gate_contract": "积水与设备危险经过可复位处置",
+          "return_contract": "回程不重做已固定装置"
+        },
+        {
+          "a": "R2-S07",
+          "b": "R2-S03",
+          "gate_contract": "机房内侧打开检修门",
+          "return_contract": "之后双向"
+        },
+        {
+          "a": "R2-S02",
+          "b": "R2-S08",
+          "gate_contract": "本地支站稳定后发放现场工作许可",
+          "return_contract": "塔站稳定后可登记返程"
+        },
+        {
+          "a": "R2-S03",
+          "b": "R2-O01",
+          "gate_contract": "收到回信任务或现场发现",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R2-S05",
+          "b": "R2-O02",
+          "gate_contract": "种植工作公开入口",
+          "return_contract": "双向"
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "name": "沉钟矿区",
+      "theme": "升降纵深、排水环路与地面配给",
+      "scenes": [
+        {
+          "id": "R3-S01",
+          "name": "货运站",
+          "pool": "base",
+          "story_nodes": [
+            "Q-301"
+          ],
+          "play_actions": "登记样本运输；查看矿镇地图；建立返程点"
+        },
+        {
+          "id": "R3-S02",
+          "name": "矿镇广场",
+          "pool": "base",
+          "story_nodes": [
+            "Q-301",
+            "Q-303"
+          ],
+          "play_actions": "会见佩拉；观察住区需求；组织基本安置"
+        },
+        {
+          "id": "R3-S03",
+          "name": "检修工坊",
+          "pool": "base",
+          "story_nodes": [
+            "Q-302"
+          ],
+          "play_actions": "查工坊留存副本；核对奥伦签章；安排可具体补救的工作"
+        },
+        {
+          "id": "R3-S04",
+          "name": "矿井升降站",
+          "pool": "base",
+          "story_nodes": [
+            "Q-301"
+          ],
+          "play_actions": "核对班表与进入条件；建立不依赖电力的撤离通路"
+        },
+        {
+          "id": "R3-S05",
+          "name": "下层轨道",
+          "pool": "base",
+          "story_nodes": [
+            "Q-301",
+            "Q-302"
+          ],
+          "play_actions": "恢复轨道；定位工人；读取旁路与运输标记"
+        },
+        {
+          "id": "R3-S06",
+          "name": "排水泵房",
+          "pool": "base",
+          "story_nodes": [
+            "Q-301"
+          ],
+          "play_actions": "隔离受损装置；排水；开启通向采掘面的安全路线"
+        },
+        {
+          "id": "R3-S07",
+          "name": "采掘面",
+          "pool": "base",
+          "story_nodes": [
+            "Q-301",
+            "Q-302"
+          ],
+          "play_actions": "救援；读取现场仪表；处置失控开采设备；修复返程升降支路"
+        },
+        {
+          "id": "R3-S08",
+          "name": "配给调度所",
+          "pool": "base",
+          "story_nodes": [
+            "Q-303",
+            "Q-304"
+          ],
+          "play_actions": "查看基本需求与余量；确认降载或限期过渡安排"
+        },
+        {
+          "id": "R3-S09",
+          "name": "深井塔控制层",
+          "pool": "base",
+          "story_nodes": [
+            "Q-304"
+          ],
+          "play_actions": "执行有限负荷安排；记录值守；准备技术核验材料"
+        },
+        {
+          "id": "R3-O01",
+          "name": "音乐盒修理铺",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "比对零件说明和私人记忆；修复音乐盒"
+        },
+        {
+          "id": "R3-O02",
+          "name": "观测侧井",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "核对额外环境记录；可选探索与一般奖励"
+        }
+      ],
+      "connections": [
+        {
+          "a": "R3-S01",
+          "b": "R3-S02",
+          "gate_contract": "公开通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R3-S02",
+          "b": "R3-S03",
+          "gate_contract": "检修委托或公开交涉",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R3-S02",
+          "b": "R3-S04",
+          "gate_contract": "矿井安全进入说明已提供；基础装备可领取",
+          "return_contract": "基础撤离路线持续可用"
+        },
+        {
+          "a": "R3-S04",
+          "b": "R3-S05",
+          "gate_contract": "升降或等效检修梯安全",
+          "return_contract": "梯道不因断电失效"
+        },
+        {
+          "a": "R3-S05",
+          "b": "R3-S06",
+          "gate_contract": "公开检修通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R3-S06",
+          "b": "R3-S07",
+          "gate_contract": "局部积水与设备危险处置",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R3-S07",
+          "b": "R3-S04",
+          "gate_contract": "采掘面内侧修复货运升降支路",
+          "return_contract": "快捷回程；原梯道仍在"
+        },
+        {
+          "a": "R3-S02",
+          "b": "R3-S08",
+          "gate_contract": "公开调度区",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R3-S08",
+          "b": "R3-S09",
+          "gate_contract": "基本救援保障成立且获得塔站现场放行",
+          "return_contract": "稳定后登记安全返程点"
+        },
+        {
+          "a": "R3-S02",
+          "b": "R3-O01",
+          "gate_contract": "地方店铺公开入口",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R3-S05",
+          "b": "R3-O02",
+          "gate_contract": "支线观测入口安全；不得放唯一主线证据",
+          "return_contract": "双向"
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "name": "玻璃学城",
+      "theme": "开放庭院、证据支路与试验闭环",
+      "scenes": [
+        {
+          "id": "R4-S01",
+          "name": "学城登陆台",
+          "pool": "base",
+          "story_nodes": [
+            "Q-401"
+          ],
+          "play_actions": "交接样本；辨认机构；登记返程"
+        },
+        {
+          "id": "R4-S02",
+          "name": "学院中庭",
+          "pool": "base",
+          "story_nodes": [
+            "Q-401",
+            "Q-404"
+          ],
+          "play_actions": "会见西安；查看公开活动；进行与沃斯的正式交涉"
+        },
+        {
+          "id": "R4-S03",
+          "name": "公开阅览室",
+          "pool": "base",
+          "story_nodes": [
+            "Q-401"
+          ],
+          "play_actions": "比较地点、负荷与公开数据；形成假设"
+        },
+        {
+          "id": "R4-S04",
+          "name": "报告保管室",
+          "pool": "base",
+          "story_nodes": [
+            "Q-401",
+            "Q-404"
+          ],
+          "play_actions": "比对原稿、发行稿和流转记录；核验导师设施代号"
+        },
+        {
+          "id": "R4-S05",
+          "name": "旧试验厅",
+          "pool": "base",
+          "story_nodes": [
+            "Q-402"
+          ],
+          "play_actions": "复原失败装置；确认反例条件；处理局部危险"
+        },
+        {
+          "id": "R4-S06",
+          "name": "校准间",
+          "pool": "base",
+          "story_nodes": [
+            "Q-402",
+            "Q-403"
+          ],
+          "play_actions": "调整仪器；检验隔离与备用配置；保存试验条件"
+        },
+        {
+          "id": "R4-S07",
+          "name": "孤网试验场",
+          "pool": "base",
+          "story_nodes": [
+            "Q-403"
+          ],
+          "play_actions": "执行有限负荷试验；记录结果与边界；开放后勤回程"
+        },
+        {
+          "id": "R4-S08",
+          "name": "棱镜塔值守厅",
+          "pool": "base",
+          "story_nodes": [
+            "Q-404"
+          ],
+          "play_actions": "完成塔站安全降载；登记准备清单；提交带限制的比较报告"
+        },
+        {
+          "id": "R4-O01",
+          "name": "学生共学室",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "比较课程冲突与通知；写正式询问"
+        },
+        {
+          "id": "R4-O02",
+          "name": "贡献展示室",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "核查署名与贡献证据；提出展签修订"
+        }
+      ],
+      "connections": [
+        {
+          "a": "R4-S01",
+          "b": "R4-S02",
+          "gate_contract": "样本接收通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R4-S02",
+          "b": "R4-S03",
+          "gate_contract": "公共资料区",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R4-S03",
+          "b": "R4-S04",
+          "gate_contract": "记录保管方授予受限调阅，不以观点判定",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R4-S02",
+          "b": "R4-S05",
+          "gate_contract": "现场试验安全许可",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R4-S05",
+          "b": "R4-S06",
+          "gate_contract": "旧设施危险已隔离",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R4-S06",
+          "b": "R4-S07",
+          "gate_contract": "当前试验配置已按确定规则就绪",
+          "return_contract": "试验可在局部复位，不销毁已保存材料"
+        },
+        {
+          "a": "R4-S07",
+          "b": "R4-S02",
+          "gate_contract": "试验后开放后勤门",
+          "return_contract": "之后双向"
+        },
+        {
+          "a": "R4-S02",
+          "b": "R4-S08",
+          "gate_contract": "塔站现场工作许可",
+          "return_contract": "稳定后登记安全返程点"
+        },
+        {
+          "a": "R4-S04",
+          "b": "R4-S08",
+          "gate_contract": "报告提交与核查通路放行",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R4-S02",
+          "b": "R4-O01",
+          "gate_contract": "公开学生工作区",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R4-S03",
+          "b": "R4-O02",
+          "gate_contract": "公开展示入口",
+          "return_contract": "双向"
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "name": "失名旧都",
+      "theme": "新旧地图对照、双路潜入与救援回程",
+      "scenes": [
+        {
+          "id": "R5-S01",
+          "name": "旧城渡口",
+          "pool": "base",
+          "story_nodes": [
+            "Q-501"
+          ],
+          "play_actions": "确认现行地图范围；登记居民接应与返程"
+        },
+        {
+          "id": "R5-S02",
+          "name": "仍有人居住的街区",
+          "pool": "base",
+          "story_nodes": [
+            "Q-501",
+            "Q-503",
+            "Q-504"
+          ],
+          "play_actions": "会见阿妲；核对旧路牌与现实道路；看到街区生活"
+        },
+        {
+          "id": "R5-S03",
+          "name": "断桥检查点",
+          "pool": "base",
+          "story_nodes": [
+            "Q-501"
+          ],
+          "play_actions": "比对沉降记录与当前桥面；选择证件核查或检修路线"
+        },
+        {
+          "id": "R5-S04",
+          "name": "检修隧道",
+          "pool": "base",
+          "story_nodes": [
+            "Q-501",
+            "Q-502"
+          ],
+          "play_actions": "修复通路；处理局部危险；从侧面进入北站"
+        },
+        {
+          "id": "R5-S05",
+          "name": "北站值守厅",
+          "pool": "base",
+          "story_nodes": [
+            "Q-502"
+          ],
+          "play_actions": "核查扣押与交接资料；处理值守阻拦"
+        },
+        {
+          "id": "R5-S06",
+          "name": "北站扣押区",
+          "pool": "base",
+          "story_nodes": [
+            "Q-502"
+          ],
+          "play_actions": "救出玛拉；检查当前状况；打开撤离便道"
+        },
+        {
+          "id": "R5-S07",
+          "name": "旧档案与临时审查厅",
+          "pool": "base",
+          "story_nodes": [
+            "Q-503",
+            "Q-504"
+          ],
+          "play_actions": "交叉核对十八年前签名与新命令；组织可反证审查"
+        },
+        {
+          "id": "R5-S08",
+          "name": "归档塔控制层",
+          "pool": "base",
+          "story_nodes": [
+            "Q-504"
+          ],
+          "play_actions": "稳定塔站；确认临时监督；保存共同处置授权"
+        },
+        {
+          "id": "R5-O01",
+          "name": "旧路牌工坊",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "比较旧名称与住民提案；制作新的公共路牌"
+        },
+        {
+          "id": "R5-O02",
+          "name": "失物保管屋",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "核对物品描述与归属；处理私人记录"
+        }
+      ],
+      "connections": [
+        {
+          "a": "R5-S01",
+          "b": "R5-S02",
+          "gate_contract": "居民接应通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R5-S02",
+          "b": "R5-S03",
+          "gate_contract": "公开街巷",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R5-S03",
+          "b": "R5-S05",
+          "gate_contract": "认可当前检修身份的核查路线；存在基础替代",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R5-S03",
+          "b": "R5-S04",
+          "gate_contract": "基础工具可完成的检修路线，不要求特定同伴",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R5-S04",
+          "b": "R5-S05",
+          "gate_contract": "隧道危险经过可恢复处置",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R5-S05",
+          "b": "R5-S06",
+          "gate_contract": "扣押区现场阻拦已处理",
+          "return_contract": "救援失败返回本段检查点"
+        },
+        {
+          "a": "R5-S06",
+          "b": "R5-S02",
+          "gate_contract": "内侧开出已存在的撤离便道",
+          "return_contract": "导师获救后登记安全回程"
+        },
+        {
+          "a": "R5-S02",
+          "b": "R5-S07",
+          "gate_contract": "救援后启动审查；此前仅能接触不越级的公共部分",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R5-S07",
+          "b": "R5-S08",
+          "gate_contract": "共同现场接管授权",
+          "return_contract": "稳定后登记安全返程点"
+        },
+        {
+          "a": "R5-S02",
+          "b": "R5-O01",
+          "gate_contract": "居民公开店铺",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R5-S02",
+          "b": "R5-O02",
+          "gate_contract": "当地保管方访问规则",
+          "return_contract": "双向"
+        }
+      ]
+    },
+    {
+      "id": "R6",
+      "name": "风暴边境",
+      "theme": "测站支路、分段护送与跨区复访枢纽",
+      "scenes": [
+        {
+          "id": "R6-S01",
+          "name": "风暴锚地",
+          "pool": "base",
+          "story_nodes": [
+            "Q-601",
+            "Q-604"
+          ],
+          "play_actions": "登记航线；与微光号连接；最终起航前确认"
+        },
+        {
+          "id": "R6-S02",
+          "name": "边地集散所",
+          "pool": "base",
+          "story_nodes": [
+            "Q-601",
+            "Q-602"
+          ],
+          "play_actions": "会见芬与泰丝；看人员、运输和设备缺项"
+        },
+        {
+          "id": "R6-S03",
+          "name": "山口通道",
+          "pool": "base",
+          "story_nodes": [
+            "Q-601"
+          ],
+          "play_actions": "依据预报与地标选取可行通道；打开安全返程"
+        },
+        {
+          "id": "R6-S04",
+          "name": "前沿测站",
+          "pool": "base",
+          "story_nodes": [
+            "Q-601"
+          ],
+          "play_actions": "校核仪表；取得当前风险与供给边界"
+        },
+        {
+          "id": "R6-S05",
+          "name": "物资中转棚",
+          "pool": "base",
+          "story_nodes": [
+            "Q-602",
+            "Q-603"
+          ],
+          "play_actions": "核对交付与货载；安排护送步骤；确认备用方案"
+        },
+        {
+          "id": "R6-S06",
+          "name": "风脊外线",
+          "pool": "base",
+          "story_nodes": [
+            "Q-603"
+          ],
+          "play_actions": "在明确行程段中护送设备；处置线路危险与阻拦"
+        },
+        {
+          "id": "R6-S07",
+          "name": "风脊塔机房",
+          "pool": "base",
+          "story_nodes": [
+            "Q-603"
+          ],
+          "play_actions": "维护防线；完成第六塔基础保全；记录实际安装与试运行"
+        },
+        {
+          "id": "R6-S08",
+          "name": "联合通信台",
+          "pool": "base",
+          "story_nodes": [
+            "Q-602",
+            "Q-604"
+          ],
+          "play_actions": "核对六地回执；逐项补缺；确认终章资格与缺项"
+        },
+        {
+          "id": "R6-O01",
+          "name": "外缘聚落甲",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "比较预报与实际需要；安排可选运输支持"
+        },
+        {
+          "id": "R6-O02",
+          "name": "外缘聚落乙",
+          "pool": "optional",
+          "story_nodes": [],
+          "play_actions": "协调共享设备与维护责任；提供后续人情回执"
+        }
+      ],
+      "connections": [
+        {
+          "a": "R6-S01",
+          "b": "R6-S02",
+          "gate_contract": "锚地公开通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R6-S02",
+          "b": "R6-S03",
+          "gate_contract": "任务提供足够进入信息和基础装备",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R6-S03",
+          "b": "R6-S04",
+          "gate_contract": "山口实际危险已处理",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R6-S04",
+          "b": "R6-S02",
+          "gate_contract": "测站内侧开放巡检回程线",
+          "return_contract": "之后双向"
+        },
+        {
+          "a": "R6-S02",
+          "b": "R6-S05",
+          "gate_contract": "公开后勤通路",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R6-S05",
+          "b": "R6-S06",
+          "gate_contract": "本段护送明确确认；不按现实阅读时间推进",
+          "return_contract": "护送任务允许退回上一安全行程段"
+        },
+        {
+          "a": "R6-S06",
+          "b": "R6-S07",
+          "gate_contract": "线路危险处置完成",
+          "return_contract": "完成后可登记返程"
+        },
+        {
+          "a": "R6-S07",
+          "b": "R6-S08",
+          "gate_contract": "塔站安全回执成立",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R6-S02",
+          "b": "R6-S08",
+          "gate_contract": "公开通信区；提交项按事实分别解锁",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R6-S03",
+          "b": "R6-O01",
+          "gate_contract": "额外聚落支线，基础保全不以到访此处为条件",
+          "return_contract": "双向"
+        },
+        {
+          "a": "R6-S05",
+          "b": "R6-O02",
+          "gate_contract": "额外聚落支线，基础保全不以到访此处为条件",
+          "return_contract": "双向"
+        }
+      ]
+    },
+    {
+      "id": "RF",
+      "name": "第七座灯塔",
+      "theme": "双入口、接管—隔离—稳定的顺序纵深",
+      "scenes": [
+        {
+          "id": "RF-S01",
+          "name": "登陆栈桥",
+          "pool": "base",
+          "story_nodes": [
+            "Q-F01"
+          ],
+          "play_actions": "确认进入后的范围；登记终章检查点；观察两种入口"
+        },
+        {
+          "id": "RF-S02",
+          "name": "正式接管通道",
+          "pool": "base",
+          "story_nodes": [
+            "Q-F01"
+          ],
+          "play_actions": "向认可临时授权的值守方交接；形成战术优势"
+        },
+        {
+          "id": "RF-S03",
+          "name": "检修竖井",
+          "pool": "base",
+          "story_nodes": [
+            "Q-F01"
+          ],
+          "play_actions": "使用既有通路与基础工具；处理有限危险；提供始终可行的替代入口"
+        },
+        {
+          "id": "RF-S04",
+          "name": "接管层",
+          "pool": "base",
+          "story_nodes": [
+            "Q-F02"
+          ],
+          "play_actions": "制止鲁克；解除指挥链；核对仍在运行的程序"
+        },
+        {
+          "id": "RF-S05",
+          "name": "继电隔离层",
+          "pool": "base",
+          "story_nodes": [
+            "Q-F03"
+          ],
+          "play_actions": "读自动续启记录；操作有限隔离装置；保存本段状态"
+        },
+        {
+          "id": "RF-S06",
+          "name": "镇潮机组大厅",
+          "pool": "base",
+          "story_nodes": [
+            "Q-F03"
+          ],
+          "play_actions": "以机关与战斗稳定危险循环；建立可选择的安全状态"
+        },
+        {
+          "id": "RF-S07",
+          "name": "中央调度台",
+          "pool": "base",
+          "story_nodes": [
+            "Q-F04",
+            "Q-F05"
+          ],
+          "play_actions": "核对可执行方案；写作并确认最终命令；生成阶段性尾声"
+        }
+      ],
+      "connections": [
+        {
+          "a": "RF-S01",
+          "b": "RF-S02",
+          "gate_contract": "现场值守认可临时授权；不可用时有检修竖井",
+          "return_contract": "双向，不连回终章外"
+        },
+        {
+          "a": "RF-S01",
+          "b": "RF-S03",
+          "gate_contract": "全主线基础检修能力与工具，不读取阵营好感",
+          "return_contract": "双向"
+        },
+        {
+          "a": "RF-S02",
+          "b": "RF-S04",
+          "gate_contract": "通道阻拦已处理",
+          "return_contract": "双向"
+        },
+        {
+          "a": "RF-S03",
+          "b": "RF-S04",
+          "gate_contract": "检修通道危险已处理",
+          "return_contract": "双向"
+        },
+        {
+          "a": "RF-S04",
+          "b": "RF-S05",
+          "gate_contract": "鲁克已被制止且指挥链解除",
+          "return_contract": "不靠杀死角色自动稳定设备"
+        },
+        {
+          "a": "RF-S05",
+          "b": "RF-S06",
+          "gate_contract": "当前隔离条件成立",
+          "return_contract": "本段允许检查点重试"
+        },
+        {
+          "a": "RF-S06",
+          "b": "RF-S07",
+          "gate_contract": "危险循环已稳定",
+          "return_contract": "最终提交前可在终章安全区往返"
+        }
+      ]
+    },
+    {
+      "id": "HUB",
+      "name": "微光号",
+      "theme": "一个共享据点实例，不随港口克隆",
+      "scenes": [
+        {
+          "id": "HUB-S01",
+          "name": "甲板与靠泊口",
+          "pool": "base",
+          "story_nodes": [],
+          "play_actions": "观察当前停靠地；与船员交谈；从已到访安全港出入"
+        },
+        {
+          "id": "HUB-S02",
+          "name": "船舱与档案通信室",
+          "pool": "base",
+          "story_nodes": [],
+          "play_actions": "查看材料；编辑草稿；核对来信；规划航线"
+        },
+        {
+          "id": "HUB-S03",
+          "name": "共享检修舱",
+          "pool": "base",
+          "story_nodes": [],
+          "play_actions": "进行受控装备与船体改造；安排同伴；查看工作单"
+        }
+      ],
+      "connections": [
+        {
+          "a": "HUB-S01",
+          "b": "HUB-S02",
+          "gate_contract": "微光号使用权已取得",
+          "return_contract": "双向"
+        },
+        {
+          "a": "HUB-S02",
+          "b": "HUB-S03",
+          "gate_contract": "微光号使用权已取得；未升级仍保留基础功能",
+          "return_contract": "双向"
+        }
+      ]
+    }
+  ],
+  "slice": {
+    "story_node": "Q-102",
+    "active_scenes": [
+      "R1-S02",
+      "R1-S03",
+      "R1-S04",
+      "R1-S05",
+      "R1-S06",
+      "R1-S07"
+    ],
+    "initial_world": {
+      "temporary_work_permit": true,
+      "ferry_docked": true,
+      "workshop_mode": "active",
+      "bracket_location": "shelf",
+      "battery_charged": true,
+      "battery_connected": false,
+      "beacon_tested": false,
+      "shortcut_unlatched": false,
+      "confirmed_plan": null,
+      "departure_complete": false
+    },
+    "facts": {
+      "A_open": false,
+      "B_open_with_pump": true,
+      "B_max_draught_m": 1.2,
+      "ferry_draught_m": 1.4,
+      "C_open_with_working_beacon": true,
+      "main_generator_safe_to_start": false,
+      "ferry_load_change_allowed_in_this_task": false
+    },
+    "geometry": {
+      "R1-S02": {
+        "walk_rect": [
+          5,
+          22,
+          95,
+          93
+        ],
+        "blocked_rects": [
+          [
+            36,
+            24,
+            50,
+            38
+          ]
+        ],
+        "ports": [
+          {
+            "id": "R1-S02.to.R1-S01",
+            "target_scene": "R1-S01",
+            "target_port": "R1-S01.to.R1-S02",
+            "stand_xy": [
+              48,
+              90
+            ]
+          },
+          {
+            "id": "R1-S02.to.R1-S03",
+            "target_scene": "R1-S03",
+            "target_port": "R1-S03.to.R1-S02",
+            "stand_xy": [
+              23,
+              26
+            ]
+          },
+          {
+            "id": "R1-S02.to.R1-S04",
+            "target_scene": "R1-S04",
+            "target_port": "R1-S04.to.R1-S02",
+            "stand_xy": [
+              88,
+              72
+            ]
+          },
+          {
+            "id": "R1-S02.to.R1-S05",
+            "target_scene": "R1-S05",
+            "target_port": "R1-S05.to.R1-S02",
+            "stand_xy": [
+              8,
+              62
+            ]
+          },
+          {
+            "id": "R1-S02.to.R1-S06",
+            "target_scene": "R1-S06",
+            "target_port": "R1-S06.to.R1-S02",
+            "stand_xy": [
+              8,
+              38
+            ]
+          },
+          {
+            "id": "R1-S02.to.R1-S09",
+            "target_scene": "R1-S09",
+            "target_port": "R1-S09.to.R1-S02",
+            "stand_xy": [
+              75,
+              25
+            ]
+          },
+          {
+            "id": "R1-S02.to.R1-O01",
+            "target_scene": "R1-O01",
+            "target_port": "R1-O01.to.R1-S02",
+            "stand_xy": [
+              92,
+              32
+            ]
+          }
+        ],
+        "spots": [
+          {
+            "id": "R1-S02.bulletin",
+            "stand_xy": [
+              43,
+              42
+            ],
+            "purpose": "A/C航道公告"
+          },
+          {
+            "id": "R1-S02.district_map",
+            "stand_xy": [
+              60,
+              36
+            ],
+            "purpose": "区域位置图，不标正确航道"
+          },
+          {
+            "id": "R1-S02.quay_contact",
+            "stand_xy": [
+              79,
+              64
+            ],
+            "purpose": "接应与离港后回执"
+          }
+        ],
+        "coordinate_system": "0..100; x right; y down; stand points, not illustration bounds",
+        "default_spawns": {
+          "R1-S02.to.R1-S01": [
+            48,
+            90
+          ],
+          "R1-S02.to.R1-S03": [
+            23,
+            26
+          ],
+          "R1-S02.to.R1-S04": [
+            88,
+            72
+          ],
+          "R1-S02.to.R1-S05": [
+            8,
+            62
+          ],
+          "R1-S02.to.R1-S06": [
+            8,
+            38
+          ],
+          "R1-S02.to.R1-S09": [
+            75,
+            25
+          ],
+          "R1-S02.to.R1-O01": [
+            92,
+            32
+          ]
+        }
+      },
+      "R1-S03": {
+        "walk_rect": [
+          6,
+          28,
+          94,
+          92
+        ],
+        "blocked_rects": [
+          [
+            31,
+            35,
+            62,
+            48
+          ]
+        ],
+        "ports": [
+          {
+            "id": "R1-S03.to.R1-S02",
+            "target_scene": "R1-S02",
+            "target_port": "R1-S02.to.R1-S03",
+            "stand_xy": [
+              50,
+              89
+            ]
+          },
+          {
+            "id": "R1-S03.to.R1-S08",
+            "target_scene": "R1-S08",
+            "target_port": "R1-S08.to.R1-S03",
+            "stand_xy": [
+              89,
+              32
+            ]
+          }
+        ],
+        "spots": [
+          {
+            "id": "R1-S03.dispatch_audio",
+            "stand_xy": [
+              69,
+              51
+            ],
+            "purpose": "修订调度录音"
+          },
+          {
+            "id": "R1-S03.route_b_rule",
+            "stand_xy": [
+              27,
+              45
+            ],
+            "purpose": "B航道条件"
+          },
+          {
+            "id": "R1-S03.havel",
+            "stand_xy": [
+              49,
+              54
+            ],
+            "purpose": "哈文工作台及方案确认"
+          }
+        ],
+        "coordinate_system": "0..100; x right; y down; stand points, not illustration bounds",
+        "default_spawns": {
+          "R1-S03.to.R1-S02": [
+            50,
+            89
+          ],
+          "R1-S03.to.R1-S08": [
+            89,
+            32
+          ]
+        }
+      },
+      "R1-S04": {
+        "walk_rect": [
+          9,
+          20,
+          92,
+          90
+        ],
+        "blocked_rects": [
+          [
+            36,
+            42,
+            63,
+            65
+          ]
+        ],
+        "ports": [
+          {
+            "id": "R1-S04.to.R1-S02",
+            "target_scene": "R1-S02",
+            "target_port": "R1-S02.to.R1-S04",
+            "stand_xy": [
+              12,
+              80
+            ]
+          }
+        ],
+        "spots": [
+          {
+            "id": "R1-S04.vessel_spec",
+            "stand_xy": [
+              21,
+              42
+            ],
+            "purpose": "渡轮规定载况与1.4米吃水"
+          },
+          {
+            "id": "R1-S04.beacon",
+            "stand_xy": [
+              74,
+              35
+            ],
+            "purpose": "导航灯检查/支架安装/测试"
+          },
+          {
+            "id": "R1-S04.reserve_battery",
+            "stand_xy": [
+              75,
+              75
+            ],
+            "purpose": "船内充满电的备用电池"
+          },
+          {
+            "id": "R1-S04.writing_desk",
+            "stand_xy": [
+              26,
+              76
+            ],
+            "purpose": "草稿、行动确认与离港申请"
+          }
+        ],
+        "coordinate_system": "0..100; x right; y down; stand points, not illustration bounds",
+        "default_spawns": {
+          "R1-S04.to.R1-S02": [
+            12,
+            80
+          ]
+        }
+      },
+      "R1-S05": {
+        "walk_rect": [
+          5,
+          18,
+          95,
+          94
+        ],
+        "blocked_rects": [
+          [
+            36,
+            34,
+            66,
+            67
+          ]
+        ],
+        "ports": [
+          {
+            "id": "R1-S05.to.R1-S02",
+            "target_scene": "R1-S02",
+            "target_port": "R1-S02.to.R1-S05",
+            "stand_xy": [
+              92,
+              85
+            ]
+          },
+          {
+            "id": "R1-S05.to.R1-S06",
+            "target_scene": "R1-S06",
+            "target_port": "R1-S06.to.R1-S05",
+            "stand_xy": [
+              50,
+              21
+            ]
+          },
+          {
+            "id": "R1-S05.to.R1-S07",
+            "target_scene": "R1-S07",
+            "target_port": "R1-S07.to.R1-S05",
+            "stand_xy": [
+              9,
+              48
+            ]
+          }
+        ],
+        "spots": [
+          {
+            "id": "R1-S05.service_map",
+            "stand_xy": [
+              20,
+              74
+            ],
+            "purpose": "可见的检修入口图"
+          },
+          {
+            "id": "R1-S05.observe_unit",
+            "stand_xy": [
+              73,
+              32
+            ],
+            "purpose": "观察维护机械及正面风险"
+          }
+        ],
+        "coordinate_system": "0..100; x right; y down; stand points, not illustration bounds",
+        "default_spawns": {
+          "R1-S05.to.R1-S02": [
+            92,
+            85
+          ],
+          "R1-S05.to.R1-S06": [
+            50,
+            21
+          ],
+          "R1-S05.to.R1-S07": [
+            9,
+            48
+          ]
+        }
+      },
+      "R1-S06": {
+        "walk_rect": [
+          5,
+          18,
+          95,
+          94
+        ],
+        "blocked_rects": [
+          [
+            37,
+            39,
+            63,
+            64
+          ]
+        ],
+        "danger_rects": [
+          [
+            32,
+            70,
+            70,
+            94
+          ]
+        ],
+        "ports": [
+          {
+            "id": "R1-S06.to.R1-S05",
+            "target_scene": "R1-S05",
+            "target_port": "R1-S05.to.R1-S06",
+            "stand_xy": [
+              50,
+              91
+            ]
+          },
+          {
+            "id": "R1-S06.to.R1-S07",
+            "target_scene": "R1-S07",
+            "target_port": "R1-S07.to.R1-S06",
+            "stand_xy": [
+              8,
+              30
+            ]
+          },
+          {
+            "id": "R1-S06.to.R1-S02",
+            "target_scene": "R1-S02",
+            "target_port": "R1-S02.to.R1-S06",
+            "stand_xy": [
+              8,
+              83
+            ]
+          }
+        ],
+        "spots": [
+          {
+            "id": "R1-S06.spare_bracket",
+            "stand_xy": [
+              82,
+              45
+            ],
+            "purpose": "唯一替换支架的货架"
+          },
+          {
+            "id": "R1-S06.shortcut_latch",
+            "stand_xy": [
+              11,
+              77
+            ],
+            "purpose": "回广场的内侧横闩"
+          },
+          {
+            "id": "R1-S06.work_order",
+            "stand_xy": [
+              79,
+              75
+            ],
+            "purpose": "尚未核验的工单，不直接证明事故责任"
+          }
+        ],
+        "coordinate_system": "0..100; x right; y down; stand points, not illustration bounds",
+        "default_spawns": {
+          "R1-S06.to.R1-S05": [
+            50,
+            91
+          ],
+          "R1-S06.to.R1-S07": [
+            8,
+            30
+          ],
+          "R1-S06.to.R1-S02": [
+            8,
+            83
+          ]
+        }
+      },
+      "R1-S07": {
+        "walk_rect": [
+          6,
+          26,
+          94,
+          94
+        ],
+        "blocked_rects": [
+          [
+            39,
+            36,
+            61,
+            57
+          ]
+        ],
+        "ports": [
+          {
+            "id": "R1-S07.to.R1-S05",
+            "target_scene": "R1-S05",
+            "target_port": "R1-S05.to.R1-S07",
+            "stand_xy": [
+              92,
+              81
+            ]
+          },
+          {
+            "id": "R1-S07.to.R1-S06",
+            "target_scene": "R1-S06",
+            "target_port": "R1-S06.to.R1-S07",
+            "stand_xy": [
+              9,
+              34
+            ]
+          }
+        ],
+        "spots": [
+          {
+            "id": "R1-S07.main_generator_tag",
+            "stand_xy": [
+              73,
+              52
+            ],
+            "purpose": "主发电机仍待隔离"
+          },
+          {
+            "id": "R1-S07.local_controller",
+            "stand_xy": [
+              25,
+              60
+            ],
+            "purpose": "自带储备的工坊控制器"
+          },
+          {
+            "id": "R1-S07.maintenance_note",
+            "stand_xy": [
+              25,
+              81
+            ],
+            "purpose": "工坊停机与检查模式说明"
+          }
+        ],
+        "coordinate_system": "0..100; x right; y down; stand points, not illustration bounds",
+        "default_spawns": {
+          "R1-S07.to.R1-S05": [
+            92,
+            81
+          ],
+          "R1-S07.to.R1-S06": [
+            9,
+            34
+          ]
+        }
+      }
+    },
+    "external_slice_port_policy": "Outside six-room demo: display scoped boundary, do not mark full-game gate solved. Restore registered target ports in full chapter."
+  },
+  "world_travel": [
+    {
+      "from": "R0",
+      "to": "R1",
+      "condition": "序章安全接应完成，剧情船运，不使用微光号"
+    },
+    {
+      "from": "R1",
+      "to": "R2",
+      "condition": "Q-104后有微光号使用权、跨区委托和已获航路"
+    },
+    {
+      "from": "R2",
+      "to": "R3",
+      "condition": "苔林章节出口与检修批次方向成立"
+    },
+    {
+      "from": "R3",
+      "to": "R4",
+      "condition": "矿区章节出口、样本记录与学城核验安排成立"
+    },
+    {
+      "from": "R4",
+      "to": "R5",
+      "condition": "学城章节出口与北站位置核验成立"
+    },
+    {
+      "from": "R5",
+      "to": "R6",
+      "condition": "旧都章节出口与共同处置授权成立"
+    },
+    {
+      "from": "R6",
+      "to": "RF",
+      "condition": "Q-604明确确认；六塔基础保全与终章进入条件成立；保留终章前存档"
+    }
+  ],
+  "guard_bans": [
+    "english_score",
+    "reading_count_quota",
+    "hint_count",
+    "subtitles_enabled",
+    "online_available",
+    "specific_companion_only",
+    "random_drop_only"
+  ]
+}

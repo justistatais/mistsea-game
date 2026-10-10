@@ -1,0 +1,50 @@
+{
+  "error": "{\r\n  \"scope\": \"executed C# code tests\",\r\n  \"executed\": 31,\r\n  \"failed\": 1,\r\n  \"results\": [\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Bare actor R2 scene cannot fabricate physical voyage authority or regional progress\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Actual Travel sailing precedes R2 initialise; remote material and archive shortcuts are rejected\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Q201 requires three actual porch observations; saved draft and read materials do not award XP\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Q202 keeps unknown authorisation minute and D-1-only fact, never present mentor state\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Parallel Q203 before Q202 uses actual three domains and current tower checks without full conversion\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"All four R2 actual tasks reward once, keep protected scrutiny and survive continue\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Draft CAS and retained read-only preview reject modified writing without issuing archive scope\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"A ready preview remains read-only and becomes stale after a draft change or continuation\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Individual W04 scope rejects a private address and completes either actual limited-copy path once\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"r2_optional_contract_preserves_original_complete_sources_and_ports_with_pending_human_gates\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"actual_zero_XP_R2_optional_entry_uses_same_GLIMMER_and_landing_without_mainline_or_local_awards\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"bare_R2_actor_cannot_fabricate_optional_entry_or_local_quest_instances\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"private_reply_requires_exact_current_person_scope_and_does_not_leak_unread_sources\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"withdrawal_preserves_saved_private_draft_blocks_new_work_and_keeps_safe_exit_open\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"meaning_confirmation_cannot_replace_writer_current_draft_review_or_promise_a_visit\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"old_writer_review_cannot_send_a_new_saved_draft_and_new_review_binds_exact_hash\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"withdrawal_before_ready_confirm_rejects_atomic_private_delivery_without_closing_quest\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"busy_local_writer_and_post_custodian_do_not_clone_roles_or_half_commit_a_letter\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"pause_and_continue_preserve_private_instance_and_require_new_foreground_current_review\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"private_reply_SendShortAcknowledgement_is_once_only_zero_reward_and_separates_custody_from_keep\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"private_reply_KeepRevision_is_once_only_zero_reward_and_separates_custody_from_keep\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"six_bed_layout_rejects_duplicate_unknown_excess_and_unagreed_three_three_arrangements\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"five_inspections_and_saved_note_do_not_replace_six_spaces_grower_approval_or_planting\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"six_bed_2_leaves_actual_planting_keeps_conditional_estimate_out_of_stock_and_rewards\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"six_bed_4_leaves_actual_planting_keeps_conditional_estimate_out_of_stock_and_rewards\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"changed_layout_invalidates_approval_and_planted_beds_cannot_be_reset_or_counted_twice\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"revision_request_remains_pending_and_five_actual_beds_cannot_submit_a_six_bed_result\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"six_bed_ready_preview_is_read_only_and_rejects_current_draft_edit_or_old_load\",\r\n      \"result\": \"failed\",\r\n      \"detail\": \"System.InvalidOperationException: assertion failed\\r\\n   at Mist.Tests.TestRegistry.Require(Boolean condition, String message) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\TestRegistry.cs:line 11\\r\\n   at Mist.Tests.R2Life.R2LifeCases.\\u003C\\u003Ec.\\u003CRegister\\u003Eb__13_14() in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\R2Life\\\\R2LifeCases.cs:line 133\\r\\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\TestRegistry.cs:line 27\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"declining_two_optional_stories_preserves_mainline_recruitment_ending_and_legal_vessel\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-R2-03\",\r\n      \"name\": \"completed_trial_survives_continue_without_replanting_or_renewing_instances\",\r\n      \"result\": \"passed\"\r\n    }\r\n  ],\r\n  \"sqlite_version\": \"3.53.3\",\r\n  \"dotnet_runtime\": \"10.0.12\",\r\n  \"process_architecture\": \"X64\",\r\n  \"human_signoff\": null\r\n}\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T053614730742Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--locked-mode"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T053614730742Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "-c",
+        "Debug",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T053614730742Z/build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+        "--task=CP-R2-03"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261010T053614730742Z/tests.log"
+    }
+  ]
+}

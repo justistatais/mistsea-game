@@ -1,0 +1,55 @@
+{
+  "task_id": "CX-016",
+  "scope": "为战前快照和受控局部变量建立恢复边界，不用整库恢复处理战败。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "最新草稿和已得材料保留",
+      "status": "passed",
+      "evidence": "Actual retry transaction preserves latest draft and newly collected material"
+    },
+    {
+      "criterion": "已交付前段运输不退回",
+      "status": "passed",
+      "evidence": "Delivered transport entity remains unchanged in actual retry"
+    },
+    {
+      "criterion": "阶段/加载不补给",
+      "status": "passed",
+      "evidence": "Continue and local retry preserve restored consumption; no load/phase refill operation"
+    },
+    {
+      "criterion": "恢复消耗不能保留成功奖励",
+      "status": "passed",
+      "evidence": "Successful-reward mismatch and settled-encounter guard deny refund-and-reward combination"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-016",
+        "name": "Local retry preserves external state and refuses successful reward rewind",
+        "result": "passed"
+      },
+      {
+        "task": "CX-016",
+        "name": "Actual retry transaction preserves latest draft, collected material and delivered transport",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-015"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

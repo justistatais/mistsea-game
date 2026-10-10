@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-10T10:26:14.038823+00:00",
+  "scope": "Reports-only static finisher review. No finisher, build, Godot, native probe, test, SQLite query or ledger mutation executed.",
+  "human_signoff": null,
+  "formal_acceptance": "pending",
+  "inspected_sources": [
+    {
+      "path": "reports/continuous/finish_chapter_candidates.py",
+      "sha256": "13d04d31c45e3deaf845e4a0de63f158cf5ce48691d2c3dd20eba8874cccd961",
+      "bytes": 44720
+    },
+    {
+      "path": "reports/continuous/finish_current_runtime_candidates.py",
+      "sha256": "f20b2bde8611463bb2c907672cbc86e6b073a5f68a22acd9337dd0efab8bf0ed",
+      "bytes": 31107
+    },
+    {
+      "path": "reports/continuous/finish_release_candidates.py",
+      "sha256": "40b35ab7cc75b38999cc9b40bab8e1e67208bf40bea8d79b0ff7e9951a68f23e",
+      "bytes": 32983
+    },
+    {
+      "path": "reports/continuous/finish_recovery_candidate.py",
+      "sha256": "160f6d9d87064f91e15d639215357778bf84806268199acf0e87d2ce9e84bcfb",
+      "bytes": 16130
+    },
+    {
+      "path": "reports/continuous/task_report.py",
+      "sha256": "b16f3eff7f6e8ae2136dd3539968e03e048674907c74c6fbf3c211ff5f5a6edc",
+      "bytes": 6412
+    },
+    {
+      "path": "tools/ci/sqlite_evidence.py",
+      "sha256": "a5aee2180475eb4b653f8ad348b43c68b4b4ec181b2315a53ce5c4d792ccd0d6",
+      "bytes": 567
+    },
+    {
+      "path": "tools/ci/package_windows.py",
+      "sha256": "4580093d76dba8917e57a99fd4d840102bbb642cdde49df3fb664b61529544b4",
+      "bytes": 11910
+    },
+    {
+      "path": "reports/continuous/run_current_performance.author_only.py",
+      "sha256": "b8ec2151dfcdbc39b8b754b791a44783eeb973108303aa391ae2d592743ca4ae",
+      "bytes": 2245
+    },
+    {
+      "path": "game/Diagnostics/Root.RegionalLearningClientTests.cs",
+      "sha256": "7e6523bb9389a087b471fc12a64b6e24198b1a52a3ac7bf4887437e9ff23f80c",
+      "bytes": 3300
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterFiveClientTests.cs",
+      "sha256": "2278c7812f6e6977402c9fb4b8ed2ffa633d9b0842bff5f6b9ba214e71a1236e",
+      "bytes": 17631
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+      "sha256": "d992cf6dd3e295f72ae6c4348c055ebfa67cc119e2bfd7d62eb16ca27b93029b",
+      "bytes": 19494
+    }
+  ],
+  "actual_read_only_observations": {
+    "selected_suite": "reports/build/20261010T100947135499Z",
+    "registry_case_count": 578,
+    "progress": {
+      "registered": 578,
+      "completed": 552,
+      "failed": 0,
+      "workers": 4
+    },
+    "result_json_exists": false,
+    "test_results_json_exists": false,
+    "current_input_count": 473,
+    "current_inputs_equal_suite_build_inputs": true,
+    "compiled_binary_count": 22,
+    "current_binaries_equal_recorded_compiled_artifacts": true,
+    "required_normal_producer_case_matches": [
+      {
+        "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+        "indices": [
+          223
+        ],
+        "production_test_source": "Campaign/CampaignCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+        "indices": [
+          244
+        ],
+        "production_test_source": "ChapterOne/ChapterOneCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures",
+        "indices": [
+          352
+        ],
+        "production_test_source": "ChapterTwo/ChapterTwoCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+        "indices": [
+          369
+        ],
+        "production_test_source": "ChapterThree/ChapterThreeCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status",
+        "indices": [
+          386
+        ],
+        "production_test_source": "ChapterFour/ChapterFourCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission",
+        "indices": [
+          408
+        ],
+        "production_test_source": "ChapterFive/ChapterFiveCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+        "indices": [
+          425
+        ],
+        "production_test_source": "ChapterSix/ChapterSixCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Actual zero-XP finale H keeps 28-level resources and closes Central once",
+        "indices": [
+          429
+        ],
+        "production_test_source": "Finale/FinaleCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Actual zero-XP finale M keeps 28-level resources and closes Island once",
+        "indices": [
+          430
+        ],
+        "production_test_source": "Finale/FinaleCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Actual zero-XP finale S keeps 28-level resources and closes Distributed once",
+        "indices": [
+          431
+        ],
+        "production_test_source": "Finale/FinaleCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "Actual zero-XP finale Mixed keeps 28-level resources and closes Central once",
+        "indices": [
+          432
+        ],
+        "production_test_source": "Finale/FinaleCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "normal_zero_XP_R1_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+        "indices": [
+          549
+        ],
+        "production_test_source": "OptionalEncounterContracts/OptionalEncounterCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "normal_zero_XP_R2_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+        "indices": [
+          550
+        ],
+        "production_test_source": "OptionalEncounterContracts/OptionalEncounterCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "normal_zero_XP_R3_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+        "indices": [
+          551
+        ],
+        "production_test_source": "OptionalEncounterContracts/OptionalEncounterCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "normal_zero_XP_R4_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+        "indices": [
+          552
+        ],
+        "production_test_source": "OptionalEncounterContracts/OptionalEncounterCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+        "indices": [
+          553
+        ],
+        "production_test_source": "OptionalEncounterContracts/OptionalEncounterCases.cs",
+        "production_test_source_exists": true
+      },
+      {
+        "name": "normal_zero_XP_R6_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+        "indices": [
+          554
+        ],
+        "production_test_source": "OptionalEncounterContracts/OptionalEncounterCases.cs",
+        "production_test_source_exists": true
+      }
+    ],
+    "conservative_CP_snapshot_example_path_chars": 173,
+    "latest_package_descriptor_at_review": "artifacts/windows/MistSea-internal-20261009T175105891139Z",
+    "scope_limit": "Registry existence and current input/DLL equality are file observations, not final full-suite or native passes."
+  },
+  "required_invocation_conditions": [
+    {
+      "id": "complete_final_suite",
+      "requirement": "Wait for selected FINAL100947 result.json verified/test and exact complete test_results.json zero failures. All isolated child reports and commands are rechecked by finishers."
+    },
+    {
+      "id": "chapter_actual_package",
+      "requirement": "Chapter --package accepts only actual exported directory or ZIP within project; it rejects a descriptor JSON. Explicitly use this round package, because package_manifest alone does not bind its version to selected suite. Independently require VERIFICATION.complete_suite_inputs_sha256 equals SHA256 of selected suite build_inputs.json and strict release package validation."
+    },
+    {
+      "id": "chapter_native_selection",
+      "requirement": "Prefer repeated --native arguments for exactly the 29 current result files. Optional --native-root scans reports/build and records invalid/old reports as rejected rather than blocking. Inspect selected_latest_current_native identities/count and rejected reasons before --write-reports; zero or fewer natives is not itself an error."
+    },
+    {
+      "id": "native_current_source",
+      "requirement": "Full-suite-copy native sources must name selected FINAL100947 exact suite and matching source current_path DB, current branch typed zero-XP creation, complete copied files and current input/DLL hashes. Previous 085230 native runs cannot satisfy this selection."
+    },
+    {
+      "id": "runtime_feature_reports",
+      "requirement": "Runtime has repeated --native only, no --native-root or --package. At minimum current chapter_two_client_results.json covers five-channel/volume checks and current chapter_five_client_results.json covers three lexicon checks (VerifyRegionalLearningClientCandidate called from R5 driver). There is no standalone regional_learning_client_results.json. Verify native_features.current_native_features_not_executed_in_supplied_reports is empty."
+    },
+    {
+      "id": "performance_capture",
+      "requirement": "Use run_current_performance.author_only.py --suite FINAL100947 to create before-native input/DLL capture. Pass its returned pre_native_capture as --performance-capture with actual --performance-dir. Native performance producer alone does not provide run_inputs.json; omitted external capture will fail. Historical capture cannot renew old measurement."
+    },
+    {
+      "id": "output_boundary",
+      "requirement": "Use --output under reports/continuous. Both finisher main functions validate this boundary after write_reports; an invalid path with --write-reports may error after ledger writes."
+    }
+  ],
+  "cli_templates_not_executed": {
+    "chapter": "D:/Python312/python.exe -X utf8 reports/continuous/finish_chapter_candidates.py --suite-dir reports/build/20261010T100947135499Z --compiled-build-dir reports/build/20261010T100947135499Z --package <actual_current_export.zip_or_directory> --native <each_current_native_result_file> --output reports/continuous/chapter_preflight_FINAL100947.author_review.json",
+    "runtime": "D:/Python312/python.exe -X utf8 reports/continuous/finish_current_runtime_candidates.py --suite-dir reports/build/20261010T100947135499Z --compiled-build-dir reports/build/20261010T100947135499Z --performance-dir <actual_current_performance_directory> --performance-capture <actual_pre_native_capture.json> --native <current_chapter_two_client_results.json> --native <current_chapter_five_client_results.json> --output reports/continuous/runtime_preflight_FINAL100947.author_review.json",
+    "release": "D:/Python312/python.exe -X utf8 reports/continuous/finish_release_candidates.py reports/build/20261010T100947135499Z --package <current_package_result_descriptor.json> --native-report <each_current_native_result_file> --method-report <current_32_main_method_report.json>",
+    "recovery": "D:/Python312/python.exe -X utf8 reports/continuous/finish_recovery_candidate.py reports/build/20261010T100947135499Z --package <current_package_result_descriptor.json> --native-ux <actual_exported_failure_export_retry_reopen_UI_directory>",
+    "mutation_gate": "Only Root may execute; chapter/runtime preflight first, inspect all native selection/package/source facts, then add --write-reports. release/recovery always write reports/ledger and have no dry-run flag."
+  },
+  "task_report_write_order": {
+    "recommended": [
+      "chapter",
+      "release",
+      "runtime",
+      "recovery"
+    ],
+    "only_overlapping_task": "CX-075",
+    "reason": "Release writes CX-075 with every criterion pending (passed set empty), overwriting runtime current performance evidence if run later. Runtime after release preserves actual nonheadless measurement and retained drafts in final CX-075 report. Other four target sets do not overlap.",
+    "targets": {
+      "chapter": "40 CP-R0..RF-01..05",
+      "release": [
+        "CX-074",
+        "CX-075",
+        "CX-077",
+        "CX-078",
+        "CX-079",
+        "CX-080"
+      ],
+      "runtime": [
+        "CX-066",
+        "CX-070",
+        "CX-071",
+        "CX-075"
+      ],
+      "recovery": [
+        "CX-076"
+      ]
+    },
+    "API_limit": "task_report.finish is per-task rather than atomic across all tasks. A late failure can leave earlier actual partial reports/ledger updates; inspect files/state before rerun. Chapter/runtime preserve accepted history and idempotent matching snapshots; release/recovery do not skip accepted history. At review all target CX states were implemented."
+  },
+  "remaining_evidence_contract_limits": [
+    {
+      "id": "main_SQLite_proof",
+      "detail": "Chapter sqlite_normal_proof permits an obsolete profile.sqlite or any historical branch alongside control-selected generations, unlike strict native proof. Thus its normal producer proof is an actual executed branch proof, not necessarily current profile state; keep this distinction in statements. For final route claims independently inspect current_path/active_branch in exact normal case profiles."
+    },
+    {
+      "id": "package_version",
+      "detail": "Chapter package manifest hashes bytes and rejects obvious private path entries but does not itself verify full package manifest, PCK source semantics or selected-suite binding. Use strict release package checks and package VERIFICATION; current latest descriptor was still 20261009 package at read time."
+    },
+    {
+      "id": "long_paths",
+      "detail": "No current deterministic false rejection found: SQLite uses imported Windows encoded extended-path read-only helper; API source aliases are cps/rt short paths beneath conservative limit. Do not replace source authority with old profile.sqlite to shorten paths."
+    }
+  ],
+  "release_optional_wording_minimal_author_proposal": {
+    "not_applied": true,
+    "old_problem": "coverage.production_budgets.optional_encounter_slots status incomplete and missing first item describe remaining unmade source producers/optional encounters even though twelve candidate contracts and historical named runs exist. Main encounter method checker explicitly excludes optional, so optional evidence needs separate strict binding.",
+    "before_current_final_validation": {
+      "optional_encounter_slots": {
+        "budget": 12,
+        "included_source_candidates": 12,
+        "historical_named_native_slot_count": 12,
+        "current_verified_slot_count": 0,
+        "status": "current_final_validation_pending",
+        "human_acceptance": "pending"
+      },
+      "substantive_puzzles": {
+        "budget": 96,
+        "status": "incomplete",
+        "semantic_inventory_review": "pending",
+        "no_complete_unit_register": true
+      }
+    },
+    "missing_first_item_suggested": "已包含的地区生活任务和十二个独立可选合同仍待本轮完整套件、native 证据绑定验证及人工验收。",
+    "after_actual_current_binding": "Only after canonical twelve IDs each bind current public source/producer hashes, selected suite normal command and actual once zero-reward result, plus current native source/permission/typed target inspection/Continue checks, update current_verified_slot_count to 12 and status to engineering_candidate_verified. Keep human/formal acceptance pending.",
+    "budget_limit": "Six historical optional native JSONs contain 466 check occurrences with repeated preview operations, not 466 independent puzzles or methods. Keep 96 independent-goal/source/solution/hint/recovery/runtime semantic register incomplete; do not infer it from 12 slots or 32 main method families."
+  },
+  "not_run": [
+    "Final finisher preflight",
+    "All 29 current native validations",
+    "Current performance probe",
+    "Windows export and package verification",
+    "Exported EXE UI recovery/reopen",
+    "Task report/ledger writes",
+    "Human story/language/audition/rights/6.5/accessibility/clean-machine acceptance"
+  ]
+}

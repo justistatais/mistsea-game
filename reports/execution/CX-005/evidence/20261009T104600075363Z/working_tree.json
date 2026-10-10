@@ -1,0 +1,94 @@
+{
+  "task_id": "CX-005",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/reports/execution/CX-005/20261009T103714276739Z/result.json",
+      "sha256": "f781b53b0fea6b2c8e60b9ef5d7b679d222387ffab6cb09fee593cfa595b88b3",
+      "bytes": 3094,
+      "source_path_at_execution": "reports/execution/CX-005/20261009T103714276739Z/result.json"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/reports/execution/CX-005/20261009T103725303948Z/export_result.json",
+      "sha256": "aa467d35faeb9ca67fa12e904131ece83ff0ad98a46e3e21d08d00c015bf6b65",
+      "bytes": 55246,
+      "source_path_at_execution": "reports/execution/CX-005/20261009T103725303948Z/export_result.json"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/Candidate.cs",
+      "sha256": "479acdce8a3e5d00f20d27622e3e3bff28c285b0bb8b717905cf459fb88bfb2c",
+      "bytes": 4685,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/Candidate.cs"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/Candidate.cs.uid",
+      "sha256": "6eb18d18aa09fef5d669300b0ebbe37abe959b15c8b7edbb688c15a4becc6924",
+      "bytes": 20,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/Candidate.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/Candidate.tscn",
+      "sha256": "a5a9dd4a14d26b0a3b2c2bb313367c1d6e4b9eee3f64bc5dde74f7e99f73c4d4",
+      "bytes": 155,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/Candidate.tscn"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/OfflineCandidate.csproj",
+      "sha256": "fc02cf7a718219464676df557ba78b1696962b18c594a7b1ba9c4d5f608ff2c8",
+      "bytes": 331,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/OfflineCandidate.csproj"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/OfflineCandidate.sln",
+      "sha256": "b287c13de36ded041b3db5bf423849e6018efd71a45d3731dc8c56247e18b536",
+      "bytes": 1735,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/OfflineCandidate.sln"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/StorageHarness.cs",
+      "sha256": "09719fb2e2ab8678503e5186735c900b8fcdbcec60a83c49b28a338d6a881b00",
+      "bytes": 6233,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/StorageHarness.cs"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/StorageHarness.cs.uid",
+      "sha256": "26e9784152ef9a287577058b530be50df55c00c4abc853dc9d4378093ce67598",
+      "bytes": 20,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/StorageHarness.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/UiProbe.cs",
+      "sha256": "2150a5b57b76073665f0e7934fab73d0453fba01575dca0fd07e4c9d42f5237f",
+      "bytes": 8662,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/UiProbe.cs"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/UiProbe.cs.uid",
+      "sha256": "1f7f3ea69b746849922825bf7f3d10e36ad356cca7f31bae078571646723e6b5",
+      "bytes": 20,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/UiProbe.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/export_presets.cfg",
+      "sha256": "f2499e639e9295f31ed2945c80129ed9fe6c3d2fc8957060eacaf847b79ff086",
+      "bytes": 483,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/export_presets.cfg"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/packages.lock.json",
+      "sha256": "6320b2f345526f50b13cc53a6d3e5e46318cdf6afd1968ce3b24a963b975fc1a",
+      "bytes": 2698,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-005/evidence/20261009T104600075363Z/sources/spikes/exports/OfflineCandidate/project.godot",
+      "sha256": "703a8decef97d17654d6985ff16da077eae12ddd817118ddcfebe799e21dd3ed",
+      "bytes": 568,
+      "source_path_at_execution": "spikes/exports/OfflineCandidate/project.godot"
+    }
+  ],
+  "interface_schema_impact": {
+    "data_migration_needed": false
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

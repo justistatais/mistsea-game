@@ -1,0 +1,76 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-R0-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 12,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CP-R0-03",
+      "name": "All sixteen exits are reciprocal and each stand/interaction can be reached by the shared navigation",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Cabin exit, far pickup and premature mentor-record access preserve the unprepared world",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Changing the receiving direction invalidates its check; unsafe line does not move or lose survivors",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Saving and confirming meaning do not send; wrong rescue scope and a changed draft leave rewards untouched",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Relay reconfiguration invalidates pickup while acquired originals remain; prologue closes from actual rescue",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: \u5148\u5B9E\u9645\u5236\u6B62\u5F53\u524D\u4E2D\u7EE7\u9632\u536B\uFF1B\u9605\u8BFB\u6216\u9694\u79BB\u4E0D\u4F1A\u4EE3\u66FF\u5A01\u80C1\u5904\u7F6E\u3002\r\n   at Mist.Application.Campaign.CampaignService.Require(Boolean condition, String message) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\Campaign\\CampaignService.cs:line 87\r\n   at Mist.Application.Campaign.CampaignService.ExecuteStationAsync(String action) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\Campaign\\CampaignService.cs:line 244\r\n   at Mist.Tests.Storage.StorageCases.Done[T](ValueTask\u00601 value) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Storage\\StorageCases.cs:line 19\r\n   at Mist.Tests.Campaign.CampaignCases.Run.Act(String spot, String action) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Campaign\\CampaignCases.cs:line 48\r\n   at Mist.Tests.Campaign.CampaignCases.\u003C\u003Ec.\u003CRegister\u003Eb__7_6() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Campaign\\CampaignCases.cs:line 161\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 34"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "actual_zero_XP_relay_native_entry_retains_unresolved_defence_at_140XP_without_positive_fixtures",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "first_approach_contract_preserves_registered_ids_template_thresholds_and_original_geometry",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "bare_relay_actor_without_actual_rescue_cannot_acquire_source_or_begin_defence",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "actual_zero_XP_rescue_to_relay_140XP_defence_has_one_hero_and_no_cloned_sheltered_Lina_or_awards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "relay_gate_requires_real_complete_defence_before_seating_lead_and_does_not_restore_by_reading",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "relay_continue_withdraw_retry_preserves_instance_source_and_zero_reward_entry",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "controlled_relay_cannot_reopen_or_withdraw_to_repeat_a_result",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

@@ -1,0 +1,19 @@
+{
+  "version": "r3-r4-voyage-candidate-1",
+  "from": "R3", "to": "R4", "berth_spot": "R4-S01.berth",
+  "source_quest": "Q-304", "source_action": "chapter_three_tower_handover_received",
+  "commission_purpose": "verify_materials_and_signatory_scope", "duty": "R4-LOCAL-BERTH-DUTY",
+  "authority_scope": "public_landing_only", "review_status": "original_unreviewed_human_pending",
+  "sources": [
+    { "path": "reference/part03/Exploration_Level_Design_v0.1.md", "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310", "section": "EXP-03 public travel; R4-S01 academic-city landing; shared Glimmer section 9.9" },
+    { "path": "docs/baseline/World_Story_Bible_v0.1.md", "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d", "section": "R3 Q304 sealed sample and formal inquiry; R4 verification and alternative route" },
+    { "path": "docs/baseline/NPC_Faction_System_v0.1.md", "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325", "section": "functional landing duty; academic review does not erase signatory responsibility" }
+  ],
+  "original_local_details": [
+    "R4-LOCAL-BERTH-DUTY is an original bounded local public landing function, not an operator, recruited character or laboratory permission.",
+    "The chart handoff binds the actual single GLIMMER, Q304 typed mining handover, its MC-2 original source versions and unique carried sealed sample, and the exact formal materials/signatory inquiry.",
+    "Issuance requires the actual source berth, registered three cabins, physical HUB-S02 chart stand and paired safe R4-S01 public route. It adds no weather, tide, distance or invented sailing task.",
+    "Registration grants no laboratory, deposited-sample result, experiment output, current mentor state, reward or future document. Travel sailing, actual arrival and local custody deposit remain separate commands.",
+    "The original handover preserves association requiring verification and unknown current mentor status. Its scope never licenses a favorable experimental conclusion or absolution."
+  ]
+}

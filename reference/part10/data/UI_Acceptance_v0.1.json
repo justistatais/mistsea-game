@@ -1,0 +1,338 @@
+[
+  {
+    "id": "UI-AT-01",
+    "topic": "六入口",
+    "expected": "全局与各任务深链接不产生第二份任务或草稿。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-02",
+    "topic": "同稿多入口",
+    "expected": "材料、人物、任务入口打开同一个草稿；恢复各自来源位置。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-03",
+    "topic": "全键盘",
+    "expected": "从探索到文献、写作、目标选择和结果可用键盘完成。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-04",
+    "topic": "正文按键",
+    "expected": "WASD/MJBCL/数字/空格/Enter在编辑器不触发世界。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-05",
+    "topic": "真实IME",
+    "expected": "中文原生输入法候选、Enter/Esc、焦点切换不误发或丢已提交正文。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-06",
+    "topic": "旧手势",
+    "expected": "长按、重复keydown、跨层pointerup和恢复后旧命令不能执行新按钮。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-07",
+    "topic": "点击穿透",
+    "expected": "工作区/对话/确认覆盖范围不落到背后物品与出口。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-08",
+    "topic": "弹窗焦点",
+    "expected": "取消默认焦点，Tab循环在当前层，关闭返回发起点。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-09",
+    "topic": "失效焦点",
+    "expected": "物件或发起控件已消失时，回合法标题，不跳未来入口。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-10",
+    "topic": "多层暂停",
+    "expected": "关闭词典不解除下层读写的暂停，恢复不补伤害。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-11",
+    "topic": "基准视窗",
+    "expected": "1280×720正文、关键动作和错误可达，不以缩字隐藏溢出。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-12",
+    "topic": "200%字号",
+    "expected": "全页重排，材料与编辑可切换，最后一行和按钮不被覆盖。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-13",
+    "topic": "显示形态",
+    "expected": "1920、16:10、超宽、高DPI/缩放不错误映射场景点击。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-14",
+    "topic": "拖拽等价",
+    "expected": "证据、时间、路线、分配和四站位操作有完整键盘替代。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-15",
+    "topic": "权限先过滤",
+    "expected": "搜索、计数、摘要、缩略图、tooltip和可访问树不泄漏未知内容。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-16",
+    "topic": "材料版本",
+    "expected": "旧引用/改版材料明确版本和恢复范围，不混用新答案旧录音。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-17",
+    "topic": "文字锚点",
+    "expected": "放大/重排后保持段落与选择，含组合字符与中文标点。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-18",
+    "topic": "帮助范围",
+    "expected": "查词、字幕、译文、操作辅助按真实范围记录，不扣冒险奖励。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-19",
+    "topic": "完整提示",
+    "expected": "当前状态帮助不让玩家重新去空货架拿物，不强制先答错。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-20",
+    "topic": "真实播放",
+    "expected": "没有音轨、设备丢失和播放失败不走假进度或记听力完成。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-21",
+    "topic": "字幕与脚本",
+    "expected": "默认遵守用户设置；隐藏脚本不自动读屏；展开后记录真实条件。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-22",
+    "topic": "声音通道",
+    "expected": "词音、读屏和主信息语音不互相覆盖，暂停位置保留。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-23",
+    "topic": "计词范围",
+    "expected": "短文不出完整band；字数为参考，不按关键字判断可行意思。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-24",
+    "topic": "保存版本",
+    "expected": "旧保存确认不标新稿已存；保存序列不旧稿覆盖新稿。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-25",
+    "topic": "保存失败",
+    "expected": "磁盘满/拒写有导出、重试、留在页面；不假称已持久化。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-26",
+    "topic": "退出与崩溃",
+    "expected": "正常退出保存最后已提交编辑；异常损失目标实际测试而非承诺。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-27",
+    "topic": "晚到反馈",
+    "expected": "旧反馈挂旧稿，不抢光标，不执行任务，不回填未来证据。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-28",
+    "topic": "删除代际",
+    "expected": "删除后旧在线结果不能重新写回文本或成绩。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-29",
+    "topic": "多写者冲突",
+    "expected": "同草稿多实例不静默覆盖；接管或冲突副本明确。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-30",
+    "topic": "确认分离",
+    "expected": "保存/语言反馈/意思确认/世界执行明确不同动作。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-31",
+    "topic": "相关失效",
+    "expected": "正文、配置、许可、检查或加载上下文改变使旧预览失效。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-32",
+    "topic": "无关不失效",
+    "expected": "字号、查词、无关来信不使有效预览重置；无现实超时。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-33",
+    "topic": "未知结果",
+    "expected": "提交响应不明先查同一回执，不换ID重扣物/再次发船。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-34",
+    "topic": "单次结算",
+    "expected": "重复通知、重播动画、回档按各分支回执处理，不重复或丢奖励。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-35",
+    "topic": "AP与队伍",
+    "expected": "真实3/2AP、专注、配发与两增强格显示；入口等级不借结算后奖励。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-36",
+    "topic": "锁定方式",
+    "expected": "人物/位置/全场图形与文字一致，换位规则不含糊。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-37",
+    "topic": "回合状态",
+    "expected": "冷却、护盾来源时钟、恢复保护按实际计划槽，不用现实秒数。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-38",
+    "topic": "战斗操作",
+    "expected": "非法目标不扣费；未知效果不报假精确伤害。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-39",
+    "topic": "只读边界",
+    "expected": "不能拖队列、战中洗点或换装刷新效果；看资料不回复资源。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-40",
+    "topic": "战斗恢复",
+    "expected": "失败可整备/重试，材料草稿保留，继续存档不当新遭遇。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-41",
+    "topic": "构筑预览",
+    "expected": "点数、前置、当前校准与技能槽清楚，失败保留旧构筑。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-42",
+    "topic": "唯一实例",
+    "expected": "转移遗物/改件明确从谁卸下，收藏与任务物品不可误卖。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-43",
+    "topic": "交易回执",
+    "expected": "真实数量成本、空间/保管、过期价格和结果不明均处理。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-44",
+    "topic": "工程归属",
+    "expected": "库存、预留、运输、安装、试运行、班组占用不混成完成。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-45",
+    "topic": "六地接受",
+    "expected": "五组织与六地区不同；操作方/代表方和条款版本真实显示。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-46",
+    "topic": "人物关系",
+    "expected": "三个依据视图，无总好感，未认识角色不提前出现在名册。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-47",
+    "topic": "私人发送",
+    "expected": "接收者、字段、用途、版本、正文和撤销均检查，不默认公开。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-48",
+    "topic": "起航边界",
+    "expected": "缺项与不可重访范围提前说明，个人关系不加隐藏资格。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-49",
+    "topic": "学习空值",
+    "expected": "未评估、弃答、失败与零分分开，不根据等级重建成绩。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-50",
+    "topic": "检查条件",
+    "expected": "可选计时/字幕/暂停改变实际条件，不假装官方考试。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-51",
+    "topic": "首次体验",
+    "expected": "跳过诊断、无账号、字幕常开均可开始，不锁主线。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-52",
+    "topic": "继续摘要",
+    "expected": "只取当前分支已知信息，恢复草稿和目标，不生成标准答案。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-53",
+    "topic": "存档管理",
+    "expected": "手动/滚动/保留点区分，坏档有恢复，不误删另一档案。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-54",
+    "topic": "通知安全",
+    "expected": "不打断写作/IME/确认；必要错误留在原处，提示可回看。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-55",
+    "topic": "离线与授权",
+    "expected": "默认本地，线上请求征得选择；无服务也有明确降级。",
+    "production_status": "pending_engine_and_user_validation"
+  },
+  {
+    "id": "UI-AT-56",
+    "topic": "注入与占位",
+    "expected": "正文/模型文本作为数据呈现；未实现功能不造评价与世界成功。",
+    "production_status": "pending_engine_and_user_validation"
+  }
+]

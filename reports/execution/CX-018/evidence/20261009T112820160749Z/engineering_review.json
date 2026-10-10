@@ -1,0 +1,55 @@
+{
+  "task_id": "CX-018",
+  "scope": "记录材料家族、尝试、实际帮助和输入模态；不实现假分数。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "预加载/播放完成不等于理解",
+      "status": "passed",
+      "evidence": "Unsubmitted playback/preload projects not_evidence"
+    },
+    {
+      "criterion": "看字幕不算纯听力",
+      "status": "passed",
+      "evidence": "Subtitle observation excludes independent listening"
+    },
+    {
+      "criterion": "同题重试不算陌生材料",
+      "status": "passed",
+      "evidence": "Previously seen family excludes unfamiliar evidence"
+    },
+    {
+      "criterion": "失败持久化标条件不完整",
+      "status": "passed",
+      "evidence": "PersistenceComplete=false reports conditions_incomplete and writes no observation"
+    },
+    {
+      "criterion": "无世界写权限",
+      "status": "passed",
+      "evidence": "ObservationRules is pure Core code without IWorldCommands; storage observation path writes only observations"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-018",
+        "name": "Playback/subtitles/repeat/support are distinct from independent evidence",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-017"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "scope": "Independent reports-only review; no source, content, CI, ledger edit or engine/build/test/package run by this review",
+  "created_at": "2026-10-10T11:18:29.219691+00:00",
+  "original_failure": {
+    "log": {
+      "path": "reports/execution/CX-077/20261010T105734640553Z/bundled_runtime_new_game.log",
+      "bytes": 930,
+      "sha256": "b0acc5d84baa88e795a11a878230cf4af3027db33b9925f7276245507a5626d4"
+    },
+    "actual_exit": 5,
+    "message": "Original authored WAV is omitted by ordinary wav importer export; source SHA remains correct. Imported .sample is an engine resource, not RIFF WAV."
+  },
+  "actual_assets": {
+    "manifest": {
+      "path": "game/content/manifest.json",
+      "bytes": 25626,
+      "sha256": "4837ccd848773a86bccf1ccf5f52c43b71e339bfeef227ba42f98b66f2fad71a"
+    },
+    "manifest_assets": 80,
+    "manifest_WAV": 50,
+    "regional_WAV": 32,
+    "other_lesson_WAV": 5,
+    "dictionary_WAV": 13,
+    "raw_wave_export": {
+      "path": "reports/execution/CX-077/20261010T111436076548Z/raw_wave_export.json",
+      "bytes": 10580,
+      "sha256": "1496cfdd2cf79d06fe12653ecc3c4d055c0d6bab3b90f2223fd3ec16456cbfaf"
+    },
+    "raw_export_50_unique_exactly_matches_manifest": true,
+    "all_current_original_WAV_SHA_and_bytes_match": true,
+    "Q102_original": {
+      "path": "game/content/audio/Q102-L-REVISION-0.1.wav",
+      "bytes": 4642912,
+      "sha256": "ad91f5a793582cc2460c44aee158fbae000c0d3c1cd28a89026b2627b2515eec"
+    },
+    "Q102_imported_sample": {
+      "path": "game/.godot/imported/Q102-L-REVISION-0.1.wav-447f92a4a506bbfd74d37acfe7ac5c2c.sample",
+      "bytes": 939863,
+      "sha256": "2a3629f7db533b25b3f557b7199c5feeb0963db9fcb73c6de12ad9bab3366d7e"
+    }
+  },
+  "minimal_configuration_fix": {
+    "packaging_CI": {
+      "path": "tools/ci/package_windows.py",
+      "bytes": 13275,
+      "sha256": "89e8e584ff3810126d6f2c02633df482072d5e9198995e2c57cf9a7b74247dd9"
+    },
+    "changed_inputs_since_full100947": [
+      "tools/ci/package_windows.py"
+    ],
+    "temporary_scope": "All50 manifest WAV assets, preserving source paths and authored bytes. Use [remap] importer=\"keep\" only while windows export runs.",
+    "finally": "Temporary metadata writes and export are inside try; finally writes saved exact metadata bytes back, or removes metadata that did not previously exist. Successful runtime probes occur after restoration.",
+    "restored_metadata": [
+      {
+        "path": "game/content/audio/Q102-L-REVISION-0.1.wav.import",
+        "sha256": "d22eef91ebce275351660f286ce12d0369c6ad451b0ae57bcb5204869a4710a3",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/LAB-L-001-0.1.wav.import",
+        "sha256": "4c0933a40dc387d6538bb618974c47453927172342ff8ca8df032c87bce140b1",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/PZHOT-L-AMENDMENT-0.1.wav.import",
+        "sha256": "e0a81101590f9406d86ee31a2605eeca7c6a840fbbd6bad27a8c9ae58bc06eb8",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/PZMAP-L-DIRECTIONS-0.1.wav.import",
+        "sha256": "bff6097dedfd12cb503db868f140f7475333e2c768dd76ba28f13cf130017ae2",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/PZLOAD-L-SEQUENCE-0.1.wav.import",
+        "sha256": "7eedb4bee33f812199c38fdca6bc0173caa72460e6d282c727f4bfdadc300a18",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-draught.wav.import",
+        "sha256": "c458d2569db003711e2f4fdf8d36764922b3633de02593f22f1c43ab6e4519b6",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-draft.wav.import",
+        "sha256": "5b4b9517c9dcc8d2fa5c148b38ea9856e0bfa3780b632ad5d0c3f0cac8e5d401",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-subject.wav.import",
+        "sha256": "8b391c58e4a45f5efc5ab22575911a31aac03744c538ff91b698f7e922ad8b5d",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-bracket.wav.import",
+        "sha256": "fe2fb3ce63e727be49ca0f23d03a66a6050c6cd78f05100a7d9d32e40d82d33e",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-isolate.wav.import",
+        "sha256": "9c4887758f130cfe75c3a5f145716145b704f53b165a619b06885c340ab4be4c",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-isolated.wav.import",
+        "sha256": "35d23b8d9f88bde830770a92aeb3830ec602fd54cc2418453fbf093ce81e7ab5",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-isolation.wav.import",
+        "sha256": "6e91fa94bdca2da4ce1d3ef441a143f258fe1e3e54fa90c2d20d0a08dfb40214",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-operational.wav.import",
+        "sha256": "760a83867c64b5cea2959e104a9c8d1826350895a065ac95bfe823aaf63d21c8",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-supersede.wav.import",
+        "sha256": "7cfd3b00ce37fc51f0cd89d977932f4cdea1723919e3ae3bb5006fb63e705699",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-supersedes.wav.import",
+        "sha256": "bca26c50d9c7aae5cfa9dbd59cf4aede1ef149fb0d67821ec271f49cb9ffb287",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-interlock.wav.import",
+        "sha256": "8d8a3088fd4a7cd6fadf3c3a4c1cd21f1ce9e45c82d25804eace2c0e3aaaa890",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-reserve.wav.import",
+        "sha256": "ac4273d36a50e249e80a157fcb89c996700ad15728957d940698fefb18e464fd",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/dictionary-beacon.wav.import",
+        "sha256": "71b4fe5fda66ca7c79da3b95c224f7cb7380a95b0614660d6a6ad754120eb0b3",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R2-Q201-L-SERVER-r2-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "7c8d80124ff3410f4dc6e6e0c95ad9692bdaeb62dcf88fd99186b9bda35a2b32",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R2-Q201-L-RECEIVER-r2-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "af278d77c690bd2f7891a873436e117667db8307dd215f00566c1fab3ccd9237",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R2-Q202-L-CLERK-r2-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "3fefc00134ce37d7191b170c85ead2c04b7cbfa926ca8fb14d27521d55cf9013",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R2-Q203-L-OPERATOR-r2-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "34b2545eafa238eafc1f3082177ba5b08825d03be81a41a2d71027b289c5821e",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R2-Q204-L-SCOPE-r2-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "d8c285a1cb14728d1c7c450e8e2e4725c9ccc55257074aedac22ed8318fddea1",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/QP02-L-CORRECTION-candidate-1-local-tts-1.wav.import",
+        "sha256": "d9bbcf92d6711eae9a42e23eb63267723668601e05d18e498871e341b97bcc76",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R3-Q301-L-ROUTE-r3-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "ba879c71e3b3b908cac3a7d1132568dc4f3df5de6ea34ae7e102c6def84a9142",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R3-Q301-L-WORKER-r3-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "5ef6ed290f95240930d9e80d6dedd8c06b17867391fa35a60b01d9d3a134f472",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R3-Q302-L-CHECK-r3-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "6c4e4eb8f9c3c355c04c44d95d06bbfd04ffb0b3555700c5b7e762d6774ef5ae",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R3-Q303-L-MEETING-r3-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "12a032be09c7024419f0fdee10bb86393d095f8ba6d47a7084ddb3b402042cd6",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R3-Q304-L-TRANSFER-r3-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "58dbf9b5c07140ca5691b75bcb0116c1028c49b972b7acfbb1d96cf965760db3",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R3-CQOREN02-L-REPAIR-r3-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "27737d8a12b020a6eea8f79e03d5c9706842e9647ebfef0a208c0c7f9e0d673c",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R4-Q401-L-SIAN-r4-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "77ffbd3c9d72762b6e0eeb2cbe49a3906a2e41984281d5345059f6e083d99524",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R4-Q402-L-TECHNICIAN-r4-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "d239424bf08b853edac67775b83a60c618d0725a9a2c427b763d03ea96d77714",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R4-Q403-L-OBSERVER-r4-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "429c766b70f7a606c497dae5981218a749d8b30b9137faa812c3b587ed9ef6bc",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R4-Q404-L-VOSS-r4-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "1810b823297963dca9da82f32e3b3a06b55ceb28a7795b1b78e3a71521086951",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R5-Q501-L-DIRECTIONS-r5-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "18fb7881dfb7b1a6ae3dc2b02053e67a57983069b954b6925c45c3e01a3610c0",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R5-Q502-L-RECEPTION-r5-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "bc0ed9b49fd1ed82bc6635b77766c021e3aae3f9f2b77131b061753df6723d82",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R5-Q503-L-HEARING-r5-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "a3e8c42600811ff5f47e4a597e9e5ef2510c65138259e5042b15f437d168e448",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R5-Q504-L-COUNCIL-r5-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "f670ecf56338ba45e80897f2ab7d292dc0684193233005e1a2af2ccb10df678e",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R6-Q603-L-ESCORT-r6-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "40caecc26626f38dc1f7ab8c96538a06821bde09d798c3da58ade03a989e98e8",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R6-Q603-L-RECEIPT-r6-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "6430decb68d6d0085eccfbf63f6e4d139cd4d2945a8e7aeb8cb9198512f8935f",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R6-Q604-L-HANDOVER-r6-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "13c056533bbb3eba176979c4a0e2a189d9a5b577058fd0d5b775866848a08247",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R6-CQTESS-L-NOTICE-r6-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "9ba74687bfc9a511575d65021065e85a2507a905e9e5d5db6ecbec90c06e258b",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R6-Q601-L-SURVEY-r6-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "f9e2b302c1ac9ca83d6efba8435bc9c1ff7749dcb11dc86ff359b0602b0beab4",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R6-Q602-L-MEETING-r6-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "265394ecc9a59d667f469b6d5ac7f840fabfeb78501475b232b5b08bc308d121",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/RF-QF01-L-DUTY-rf-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "ebd2b0339b20c3ce74e31f68fdf8764f15ddc184485f6bcc104f4a084359b8ed",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/RF-QF02-L-ROOK-rf-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "92268d8240ec50cb8a41874a360d0f904b60fd4ee29744a99e6c9ee32880d7cb",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/RF-QF03-L-OPERATOR-rf-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "293c4671db5cf0003dbcdc2526f51e61e090ca896af87be62bcae82f83f4d15d",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/RF-QF04-L-DISPATCH-rf-author-candidate-1-local-tts-1.wav.import",
+        "sha256": "ff9de74c70012c0d54260561b7e037720817f889eda44f7b11238f84b3854828",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R1-ROOM-L-GUESTS-R1-LIFE-20261010-v2-local-tts-1.wav.import",
+        "sha256": "e8ad386dc8d755af58de5bc5043eb50b053d8bb382d4a98c53bbada91f3c16be",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      },
+      {
+        "path": "game/content/audio/regional/R1-SHOW-L-CREW-R1-LIFE-20261010-v2-local-tts-1.wav.import",
+        "sha256": "28fa41eaa4b5ded3466f9c3e7d30b38b5b712d3a46b4ac1e29f8a6a7a9e82f93",
+        "observed_restored_importer": "wav",
+        "source_cache_md5_matches": true
+      }
+    ],
+    "restoration_evidence_limit": "Observed all50 current importer=wav and exact authored-source MD5 cache matching; code restores captured original bytes. No pre-trial original-import-metadata SHA ledger was recorded, so this review does not assert an independently measured before/after metadata hash pair.",
+    "cache_only_clear": "Insufficient: a ordinary wav reimport will again export .sample; disabling compression still serializes a resource rather than preserving authored RIFF bytes.",
+    "MSBuild_environment": {
+      "MSBUILDDISABLENODEREUSE": "1",
+      "DOTNET_CLI_USE_MSBUILD_SERVER": "0",
+      "scope": "Applied to subprocess environment only; prevents reusable idle build nodes from retaining export output handles. It does not fix WAV content integrity."
+    }
+  },
+  "actual_trial": {
+    "directory": "reports/execution/CX-077/20261010T111436076548Z",
+    "commands": {
+      "path": "reports/execution/CX-077/20261010T111436076548Z/commands.json",
+      "bytes": 2807,
+      "sha256": "b829bf387ff681078ed0a9874b9ddbdc3c0c2f3865cfc31ea1f3d4ae216926f7"
+    },
+    "actual_exit_codes": {
+      "godot_import.log": 0,
+      "windows_export.log": 0,
+      "bundled_runtime_new_game.log": 0,
+      "bundled_runtime_reopen.log": 0,
+      "corrupt_profile_preserved.log": 5
+    },
+    "new_and_reopen_probe_equal": true,
+    "probe": {
+      "release": "mistsea-internal-0.1",
+      "scope": "normal_first_entry_candidate",
+      "scene": "R0-S01",
+      "experience": 0,
+      "marks": 100,
+      "receipt_count": 2,
+      "debug_driver_absent": true,
+      "content": {
+        "manifest_sha256": "4837ccd848773a86bccf1ccf5f52c43b71e339bfeef227ba42f98b66f2fad71a",
+        "verified_assets": 80,
+        "decoded_wave_tracks": 50,
+        "chapter_packages": 8,
+        "regional_voyages": 5,
+        "coverage": "packaged_bytes_and_decode_only"
+      },
+      "online_provider": "disabled",
+      "human_release_approval": "pending"
+    },
+    "corrupt_original_preserved": {
+      "path": "reports/execution/CX-077/20261010T111436076548Z/corrupt_profile/profile.sqlite",
+      "bytes": 44,
+      "sha256": "d1bbc53e7a0871662fe6634935e0405cae6f9ba3dbde02b449819007079baa86"
+    },
+    "corrupt_probe_expected_exit5": true,
+    "failure_after_successful_runtime_probes": {
+      "path": "reports/execution/CX-077/20261010T111436076548Z/failure.json",
+      "bytes": 3159,
+      "sha256": "0d3edbb7eb131b72239c40b25896810a9b8ae818b22d00fec0ba67bfd8626efb"
+    },
+    "refused_stale_full_suite_inputs": true,
+    "package_result_written": false,
+    "latest_update_not_reached_in_code": true
+  },
+  "official_primary_references": [
+    {
+      "url": "https://docs.godotengine.org/en/stable/classes/class_fileaccess.html",
+      "supports": "Original imported source may be absent after export; raw FileAccess needs Keep File."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/godotengine/godot/master/editor/export/editor_export_platform.cpp",
+      "supports": "keep importer branch exports original FileAccess bytes; ordinary import branch replaces by imported paths."
+    }
+  ],
+  "remaining_validation": [
+    "Fresh complete suite with changed packaging CI",
+    "Fresh29 native controls and actual performance",
+    "Final package and its original-byte/decode probes"
+  ],
+  "human_6_5_rights_clean_machine_and_formal_release": "pending; not granted by this engineering trial"
+}

@@ -1,0 +1,70 @@
+{
+  "task_id": "CX-003",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/reports/execution/CX-003/20261009T103510388369Z/result.json",
+      "sha256": "30ae601e8393b981d2f80da1d589857e2c4b381fd9a5a7b89ba568e5186c3d8c",
+      "bytes": 3009,
+      "source_path_at_execution": "reports/execution/CX-003/20261009T103510388369Z/result.json"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/reports/execution/CX-003/native_window_observation.json",
+      "sha256": "44c55eec4f6490f9500ebbb8177284f5aa3b72cf4c14f89338cb8bc1fef6b0e9",
+      "bytes": 1938,
+      "source_path_at_execution": "reports/execution/CX-003/native_window_observation.json"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/README.md",
+      "sha256": "81fb35ffef436012e1543b6f84e92c4ee3427128643e7c7a96b65d841a044cc9",
+      "bytes": 744,
+      "source_path_at_execution": "spikes/ui/README.md"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/UiProbe.cs",
+      "sha256": "c31f6471cf226a2e7612049e9f1cc741c16d231930d43e7a68b0bcedff74746a",
+      "bytes": 8807,
+      "source_path_at_execution": "spikes/ui/UiProbe.cs"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/UiProbe.cs.uid",
+      "sha256": "1e6719bad41f36df574224226e61d23c5bc480ff1fe341cb758a9b83f924689e",
+      "bytes": 20,
+      "source_path_at_execution": "spikes/ui/UiProbe.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/UiProbe.csproj",
+      "sha256": "c9273e3ad1d4232301a186aa62a1b84ad1ca44b71cfa4bb16763ba632eccf149",
+      "bytes": 253,
+      "source_path_at_execution": "spikes/ui/UiProbe.csproj"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/UiProbe.sln",
+      "sha256": "4dca3450f5e4ea5186014e9fdea67a46c492e4a9b049dd91819637f4daa253da",
+      "bytes": 1717,
+      "source_path_at_execution": "spikes/ui/UiProbe.sln"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/UiProbe.tscn",
+      "sha256": "c36507092cb4b3fce287a09cd4864e6b913700692e06261809f5ceb1f5d2522e",
+      "bytes": 255,
+      "source_path_at_execution": "spikes/ui/UiProbe.tscn"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/packages.lock.json",
+      "sha256": "f74d792802ffdd8076e4e84d2d92c195fa29eb509f1d3eaced752bb1cc040090",
+      "bytes": 881,
+      "source_path_at_execution": "spikes/ui/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-003/evidence/20261009T104556767214Z/sources/spikes/ui/project.godot",
+      "sha256": "ae2cd07a17f815a57a5090aacdea76ed6ee3e905e1adcfe0edebe37e18fbfe5e",
+      "bytes": 629,
+      "source_path_at_execution": "spikes/ui/project.godot"
+    }
+  ],
+  "interface_schema_impact": {
+    "data_migration_needed": false
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

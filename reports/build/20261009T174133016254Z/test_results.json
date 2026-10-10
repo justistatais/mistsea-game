@@ -1,0 +1,61 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-066",
+      "name": "Frozen six-turn Q102 original stays exact; raw speaker labels are detected and reviewed regeneration gets explicit source ranges",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Source-range speech rejects removed negation, altered quantities, stale source and masked speaker; Unicode scalar ranges stay exact",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Script-only audio has null hash/bytes/duration; JSON audition claims and invented timecodes cannot certify a recording",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Actual WAVE inspection uses byte frames and rejects truncation/inconsistent headers; parser fixtures do not become narration",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Subtitle validation binds actual measured audio plus full ordered original ranges and rejects overlaps, missing words and stale hashes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Critical listening checklist retains exact negation/quantity anchors and stays pending human full audition",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Rights references and permitted dictionary fields are checked while complete candidate provenance never self-approves voice or publication rights",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Original, audio and subtitle-exposure changes invalidate the actual dependent review set without changing old records or blessing replacements",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Asset graph rejects omitted/stale dependency declarations and cycles; repeated template failures pause batch instead of regenerating",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Existing real Q102 WAVE is audited as raw generation only; new projection export cannot overwrite artifacts or escape output directory",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

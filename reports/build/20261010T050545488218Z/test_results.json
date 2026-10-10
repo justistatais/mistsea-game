@@ -1,0 +1,196 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 37,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-066",
+      "name": "Frozen six-turn Q102 original stays exact; raw speaker labels are detected and reviewed regeneration gets explicit source ranges",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Source-range speech rejects removed negation, altered quantities, stale source and masked speaker; Unicode scalar ranges stay exact",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Script-only audio has null hash/bytes/duration; JSON audition claims and invented timecodes cannot certify a recording",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Actual WAVE inspection uses byte frames and rejects truncation/inconsistent headers; parser fixtures do not become narration",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Subtitle validation binds actual measured audio plus full ordered original ranges and rejects overlaps, missing words and stale hashes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Critical listening checklist retains exact negation/quantity anchors and stays pending human full audition",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Rights references and permitted dictionary fields are checked while complete candidate provenance never self-approves voice or publication rights",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Original, audio and subtitle-exposure changes invalidate the actual dependent review set without changing old records or blessing replacements",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Asset graph rejects omitted/stale dependency declarations and cycles; repeated template failures pause batch instead of regenerating",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Existing real Q102 WAVE is audited as raw generation only; new projection export cannot overwrite artifacts or escape output directory",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Thirty actual campaign and regional WAVE candidates bind exact original speech slices and measured PCM without human approval",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Real rendered candidate rejects changed waveform, wrong source version and spoken role-label reinsertion",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "Actual audio hashes and local voice metadata cannot grant auditioned status or voice redistribution approval",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "lexicon_has_360_core_360_extended_real_unique_source_bound_senses",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "lexicon_all_contexts_match_exact_actual_learner_paragraphs_versions_hashes_and_unicode_coordinates",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "lexicon_unknown_json_fields_and_author_projection_are_rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "lexicon_rejects_mismatched_scalar_excerpt_and_claimed_audio",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "dictionary_draft_shipping_and_prose_senses_share_alias_without_inflating_counts",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "dictionary_future_and_private_source_body_never_leaks_without_current_exact_permission",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "lookup_is_initial_exposure_due_next_real_day_without_world_mutation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "repeated_lookup_does_not_postpone_due_or_grant_new_mastery",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "same_attempt_replay_writes_once_and_different_payload_is_rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "good_self_rating_and_dictionary_help_do_not_advance_unassessed_mastery_schedule",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "production_saves_actual_english_response_without_automatic_grade_or_rewards",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "empty_response_or_invalid_rating_is_not_completed_review",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "defer_is_explicit_bounded_preference_and_survives_reopen",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "default_due_recommendation_is_three_and_never_interrupts_world",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "review_prefers_current_compatible_unseen_family_and_keeps_familiar_label",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "missing_audio_selects_script_reading_and_cannot_be_listening_evidence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "audio_preload_cannot_count_as_listening_and_subtitles_remain_recorded",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "withdrawn_or_changed_source_scope_rejects_review_without_writing",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "changed_world_sequence_invalidates_source_context_even_when_load_same",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "load_checkpoint_rejects_old_view_without_erasing_current_epoch_history",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "learning_erasure_removes_reviews_answers_and_old_backup_cannot_revive_them",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "queued_stale_epoch_append_is_rejected_after_erasure_without_partial_row",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "delete_and_concurrent_local_append_serialize_without_old_epoch_resurrection",
+      "result": "passed"
+    },
+    {
+      "task": "CX-066",
+      "name": "regional_learning_reopen_preserves_due_history_but_never_settings_or_world_rewards",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

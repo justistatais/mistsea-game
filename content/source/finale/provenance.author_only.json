@@ -1,0 +1,41 @@
+{
+  "content_version": "rf-author-candidate-1",
+  "scope": "author_only_production_provenance",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "source_sha256": {
+    "docs/baseline/World_Story_Bible_v0.1.md": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+    "docs/baseline/Exploration_Level_Design_v0.1.md": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+    "docs/baseline/Quest_Event_System_v0.1.md": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33",
+    "docs/baseline/English_Learning_System_v0.1.md": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b",
+    "docs/baseline/Puzzle_System_v0.1.md": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5",
+    "docs/baseline/Character_Progression_v0.1.md": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c",
+    "docs/baseline/Combat_System_v0.1.md": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88",
+    "docs/baseline/NPC_Faction_System_v0.1.md": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+    "docs/baseline/UI_UX_Spec_v0.1.md": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7",
+    "docs/baseline/Content_AI_Pipeline_v0.1.md": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738",
+    "docs/integration/MASTER_GDD_v0.1.md": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768",
+    "docs/integration/Integration_Decisions_v0.1.md": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622",
+    "content/source/part04.json": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7",
+    "content/source/part05.json": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a",
+    "content/source/part06.json": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19",
+    "content/source/part07.json": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6",
+    "content/source/part08.json": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8",
+    "content/source/part09.json": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+  },
+  "learner_sha256": "c07b8465f973760025c3d14b69f61bb4185dd9cc0676918abbf49d43e1b7eeac",
+  "counts": {
+    "scenes": 7,
+    "edges": 7,
+    "paired_ports": 14,
+    "materials": 22,
+    "listening_scripts": 4,
+    "stations": 16,
+    "writing_tasks": 4
+  },
+  "audio_status": "scripts_only_in_source; independent_generated_binding_if_any_is_separate",
+  "engine_execution": "not_performed_by_source_assembler",
+  "native_client_execution": "pending",
+  "human_signoff": "pending",
+  "rights_review": "pending"
+}

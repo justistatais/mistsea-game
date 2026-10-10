@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T100947135499Z",
+  "selected_case": {
+    "index": 523,
+    "task": "CP-R1-03",
+    "name": "actual_zero_XP_tower_base_native_entry_has_real_680XP_permission_supply_and_no_access_or_ship"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "01138d20d2ab8e7878323044f2880cd836c0ad3f9cfc1e5df3b2bdecfd072e30",
+  "source_active_database": "reports/build/20261010T100947135499Z/case_runs/0523/testdata/normal-first-tower-native-entry/recovery/inventory-v2-da636de5-650a-4251-bb51-a80dd8eb902f.sqlite",
+  "source_active_database_sha256": "aed40bd738084cbb3b516a18b44aa2684dbe4f1eaaa8d3a0d96e7f15f4ecbfd4",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T100947135499Z",
+  "source": "reports/build/20261010T100947135499Z/case_runs/0523/testdata/normal-first-tower-native-entry/recovery/normal-first-tower-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 523,
+    "task": "CP-R1-03",
+    "name": "actual_zero_XP_tower_base_native_entry_has_real_680XP_permission_supply_and_no_access_or_ship"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2dc693404ab314119494f2f66eabbac50d0e3b0cd2ccdc00cd5d83858396ef7d",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "8a44fa7949abc1b2f08840838b23d22af60eb9f3613b437ed5542698c99698a8",
+  "case_command_sha256": "957a720af1a1355c5996e270cdd9078b1c366e5f7e4e9d291f1398a950ef8f47",
+  "proof_sha256": "01138d20d2ab8e7878323044f2880cd836c0ad3f9cfc1e5df3b2bdecfd072e30",
+  "copied_profile_files": [
+    {
+      "path": "backups/9165da59-0edc-4de3-9690-2b01f0fef0f3.sqlite",
+      "sha256": "db112091439186481654a4c108b88c285b4cf5f640b9016296f52a4ffc0b341c"
+    },
+    {
+      "path": "control.sqlite",
+      "sha256": "8f7dd90978ec5d709a0427d3fa789a76d92651c54d8ad0bf14f9b2c70d881c79"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "04d1c79fa313625d84b128340dc9a30e6d24b476d1860907dd3f8856fde62f74"
+    },
+    {
+      "path": "recovery/inventory-v2-da636de5-650a-4251-bb51-a80dd8eb902f.sqlite",
+      "sha256": "aed40bd738084cbb3b516a18b44aa2684dbe4f1eaaa8d3a0d96e7f15f4ecbfd4"
+    },
+    {
+      "path": "recovery/normal-first-tower-native-entry.json",
+      "sha256": "01138d20d2ab8e7878323044f2880cd836c0ad3f9cfc1e5df3b2bdecfd072e30"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0523/testdata/normal-first-tower-native-entry/backups/9165da59-0edc-4de3-9690-2b01f0fef0f3.sqlite",
+      "sha256": "db112091439186481654a4c108b88c285b4cf5f640b9016296f52a4ffc0b341c",
+      "copied_before_native_sha256": "db112091439186481654a4c108b88c285b4cf5f640b9016296f52a4ffc0b341c"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0523/testdata/normal-first-tower-native-entry/control.sqlite",
+      "sha256": "8f7dd90978ec5d709a0427d3fa789a76d92651c54d8ad0bf14f9b2c70d881c79",
+      "copied_before_native_sha256": "8f7dd90978ec5d709a0427d3fa789a76d92651c54d8ad0bf14f9b2c70d881c79"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0523/testdata/normal-first-tower-native-entry/profile.sqlite",
+      "sha256": "04d1c79fa313625d84b128340dc9a30e6d24b476d1860907dd3f8856fde62f74",
+      "copied_before_native_sha256": "04d1c79fa313625d84b128340dc9a30e6d24b476d1860907dd3f8856fde62f74"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0523/testdata/normal-first-tower-native-entry/recovery/inventory-v2-da636de5-650a-4251-bb51-a80dd8eb902f.sqlite",
+      "sha256": "aed40bd738084cbb3b516a18b44aa2684dbe4f1eaaa8d3a0d96e7f15f4ecbfd4",
+      "copied_before_native_sha256": "aed40bd738084cbb3b516a18b44aa2684dbe4f1eaaa8d3a0d96e7f15f4ecbfd4"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0523/testdata/normal-first-tower-native-entry/recovery/normal-first-tower-native-entry.json",
+      "sha256": "01138d20d2ab8e7878323044f2880cd836c0ad3f9cfc1e5df3b2bdecfd072e30",
+      "copied_before_native_sha256": "01138d20d2ab8e7878323044f2880cd836c0ad3f9cfc1e5df3b2bdecfd072e30"
+    }
+  ]
+}

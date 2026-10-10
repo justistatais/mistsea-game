@@ -1,0 +1,374 @@
+{
+  "content_version": "r3-author-candidate-1",
+  "scope": "author_only_source_provenance",
+  "player_projection": false,
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "candidate_status": "frozen_author_candidate_not_runtime",
+  "source_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "6b984f6f7fa5ba75b266ebf2fe002d93fb89581f283c4c0ee29e9604731d3335"
+    },
+    {
+      "path": "docs/integration/MASTER_GDD_v0.1.md",
+      "sha256": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768"
+    },
+    {
+      "path": "docs/integration/Integration_Decisions_v0.1.md",
+      "sha256": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622"
+    },
+    {
+      "path": "reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557"
+    },
+    {
+      "path": "planning/tasks/CP-R3-01.md",
+      "sha256": "57ff4d86489003e1363a36564588d3257c4d44877b052467e05400a087ba0d12"
+    },
+    {
+      "path": "planning/tasks/CP-R3-02.md",
+      "sha256": "ac57d8f8e0df9c38837f0685e0a1abe440c7e24708299adcb523c92e813ac2c0"
+    },
+    {
+      "path": "planning/tasks/CP-R3-03.md",
+      "sha256": "663b7960ffd75ad6cfa4ff24b47873c6761b1a7b5c31721a4f6a417b3a80d580"
+    },
+    {
+      "path": "planning/tasks/CP-R3-04.md",
+      "sha256": "a75c07e4f31c431999cdef0062a9ef79dbcfe83d64e7992cc7fc269bc434f7f3"
+    },
+    {
+      "path": "planning/tasks/CP-R3-05.md",
+      "sha256": "00f8333da530c7eec5066c74c789e597e5920362638c2a3d8d73113196862bef"
+    },
+    {
+      "path": "planning/tasks/CP-R3-06.md",
+      "sha256": "9311e67d68d23fde31252b7231c12cee0e7f99520da335464cbd569ea99f263c"
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "docs/baseline/Quest_Event_System_v0.1.md",
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "docs/baseline/English_Learning_System_v0.1.md",
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    {
+      "path": "docs/baseline/Puzzle_System_v0.1.md",
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    {
+      "path": "docs/baseline/Character_Progression_v0.1.md",
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    {
+      "path": "docs/baseline/Combat_System_v0.1.md",
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    {
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+    },
+    {
+      "path": "docs/baseline/UI_UX_Spec_v0.1.md",
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7"
+    },
+    {
+      "path": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+      "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738"
+    },
+    {
+      "path": "reference/part04/data/Quest_Event_Reference_v0.1.json",
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    {
+      "path": "reference/part05/data/English_Learning_Reference_v0.1.json",
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+    },
+    {
+      "path": "reference/part05/data/Original_Materials_v0.1.json",
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+    },
+    {
+      "path": "reference/part06/data/Puzzle_Reference_v0.1.json",
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19"
+    },
+    {
+      "path": "reference/part08/data/Combat_Reference_v0.1.json",
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    {
+      "path": "reference/part09/data/NPC_Faction_Reference_v0.1.json",
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+    },
+    {
+      "path": "reference/part09/materials/NPC-MAT-03_Oren_Repair.md",
+      "sha256": "65d732e417d5cd3e975c3ffb47a6a137469857c9b33b1b197c5fbf033a9f7926"
+    },
+    {
+      "path": "content/source/chapter_two/learner_package.json",
+      "sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "content/source/chapter_three/learner_package.json",
+      "sha256": "1193b43a9151a74024f31a7e251e792637562762568f6384bb2eebf334e804a8"
+    },
+    {
+      "path": "content/source/chapter_three/build.author_only.py",
+      "sha256": "a79a8b320d56fc84f3b08e063c4668161d4dece33ebfdbb052383386b53375f7"
+    },
+    {
+      "path": "content/source/chapter_three/production_cards.author_only.md",
+      "sha256": "d8e2c605a644bbc2016515747782bab1a9f5decbe8019ebabb7e534f5eed8644"
+    },
+    {
+      "path": "content/source/chapter_three/INTEGRATION.author_only.md",
+      "sha256": "b498d8e1a6baa746492fce40c3275467ec49eba71588741ec2fe19228921ded6"
+    }
+  ],
+  "mechanical_authoring_checks": {
+    "unique_ids": true,
+    "paired_ports": 22,
+    "materials_have_complete_bilingual_paragraphs": true,
+    "writing_references_resolve": true,
+    "station_locations_resolve": true,
+    "scope": "executed local static authoring assembly assertions only; not runtime/world/UI tests"
+  },
+  "counts": {
+    "main_scenes": 9,
+    "optional_scenes": 2,
+    "paired_ports": 22,
+    "materials": 35,
+    "extended_readings": 2,
+    "main_listening_scripts": 5,
+    "main_long_listening_scripts": 2,
+    "personal_line_reference_script": 1,
+    "recorded_audio_assets": 0,
+    "full_visual_writing": 1,
+    "full_argument_writing": 1,
+    "all_writing_tasks": 8,
+    "stations": 53,
+    "original_lexical_candidates": 16,
+    "material_english_words": 7972
+  },
+  "per_material_word_counts": {
+    "R3-Q301-R-LANDING": 102,
+    "R3-Q301-R-COMMISSION": 332,
+    "R3-Q301-R-SHIFT": 112,
+    "R3-Q301-R-LADDER": 107,
+    "R3-Q301-R-RAIL": 115,
+    "R3-Q301-R-PUMP": 188,
+    "R3-Q301-R-RESCUE": 120,
+    "R3-Q301-R-ENVIRONMENT": 182,
+    "R3-Q301-L-ROUTE": 182,
+    "R3-Q301-L-WORKER": 168,
+    "R3-Q302-R-RAW": 173,
+    "R3-Q302-R-COPY": 168,
+    "R3-Q302-R-SIGNED": 105,
+    "R3-Q302-R-BATCHES": 173,
+    "R3-Q302-R-STATEMENT": 168,
+    "R3-Q302-R-HISTORY": 731,
+    "R3-Q302-L-CHECK": 731,
+    "R3-Q301-R-BASIC": 118,
+    "R3-Q303-R-DEMAND": 189,
+    "R3-Q303-R-STOCK": 168,
+    "R3-Q303-R-CHOICES": 205,
+    "R3-Q303-R-ESSAY": 847,
+    "R3-Q303-L-MEETING": 749,
+    "R3-Q304-R-SEQUENCE": 160,
+    "R3-Q304-R-LOAD": 172,
+    "R3-Q304-R-DUTY": 115,
+    "R3-Q304-R-HANDOVER": 175,
+    "R3-Q304-R-TOWER": 97,
+    "R3-Q304-L-TRANSFER": 177,
+    "R3-Q304-R-REQUEST": 118,
+    "R3-CQOREN01-R-AUX": 126,
+    "R3-CQOREN02-R-PARTS": 180,
+    "R3-CQOREN02-L-REPAIR": 162,
+    "R3-O01-R-MUSIC": 179,
+    "R3-O02-R-OBSERVE": 178
+  },
+  "original_local_details": [
+    {
+      "material": "R3-Q301-R-LANDING",
+      "details": [
+        "MC-2 alias continues R2-Q204-R-BATCH; no new acceptance finding at landing"
+      ]
+    },
+    {
+      "material": "R3-Q301-R-COMMISSION",
+      "details": [
+        "W1/W2/W3 local rescue group; 12 meal portions, 3 first-aid packs and one-shift local wage cover; not player reward or engineering supply"
+      ]
+    },
+    {
+      "material": "R3-Q301-R-SHIFT",
+      "details": [
+        "Three-worker shift is a new local candidate, not an existing hidden completed-rescue state"
+      ]
+    },
+    {
+      "material": "R3-Q301-R-ENVIRONMENT",
+      "details": [
+        "Local comparative stages A/B/C: extraction1/2/3, indicator4/7/9; descriptive candidate, no causal proof or measured player performance"
+      ]
+    },
+    {
+      "material": "R3-Q301-L-WORKER",
+      "details": [
+        "Worker assistance and shelter dialogue are original local details, no actual audio or human voice rights"
+      ]
+    },
+    {
+      "material": "R3-Q302-R-RAW",
+      "details": [
+        "Six MC2 checks and MC2-05/06 aliases are original local candidate data"
+      ]
+    },
+    {
+      "material": "R3-Q302-R-COPY",
+      "details": [
+        "Copy shares raw source_root; a present repair is a separate dated version"
+      ]
+    },
+    {
+      "material": "R3-Q302-R-SIGNED",
+      "details": [
+        "Formal v3 and checks05/06 are original local aliases of locked unsafe-acceptance fact"
+      ]
+    },
+    {
+      "material": "R3-Q302-R-BATCHES",
+      "details": [
+        "Original visual data: four batches ×6, incomplete0/2/1/0, accepted6/6/5/6; calibration pending"
+      ]
+    },
+    {
+      "material": "R3-Q302-R-STATEMENT",
+      "details": [
+        "New dialogue elaborates locked admission; no recruitment-required evidence"
+      ]
+    },
+    {
+      "material": "R3-Q302-R-HISTORY",
+      "details": [
+        "Original complete essay about record scope; not a new causal or later-chapter finding"
+      ]
+    },
+    {
+      "material": "R3-Q302-L-CHECK",
+      "details": [
+        "Original eight-turn long discussion; three document business versions are visible; no real recording"
+      ]
+    },
+    {
+      "material": "R3-Q301-R-BASIC",
+      "details": [
+        "New local physical basic kit and emergency stock; no unique optional equipment requirement or player-stat bonus"
+      ]
+    },
+    {
+      "material": "R3-Q303-R-DEMAND",
+      "details": [
+        "Original public constraints: capacity10/essential7, six extra kits, shelter>=2 retrofit>=1 production0..3 and sum6"
+      ]
+    },
+    {
+      "material": "R3-Q303-R-STOCK",
+      "details": [
+        "Six local unique package IDs and separate ownership; no new global reward economy"
+      ]
+    },
+    {
+      "material": "R3-Q303-R-CHOICES",
+      "details": [
+        "early_reduce/time_limited_transition and one world-work shift; two distinct duty occupants; close_transition_shift actual handover invalidates old test"
+      ]
+    },
+    {
+      "material": "R3-Q303-R-ESSAY",
+      "details": [
+        "Original complete resource essay; wage cover is task supply not player marks; eligible stances do not select an ending"
+      ]
+    },
+    {
+      "material": "R3-Q303-L-MEETING",
+      "details": [
+        "Original eight-turn long meeting; anonymous duty roles not two copies of one actor; no real audio"
+      ]
+    },
+    {
+      "material": "R3-Q304-R-LOAD",
+      "details": [
+        "Current local load and phase boundary, not six-tower completed engineering flags"
+      ]
+    },
+    {
+      "material": "R3-Q304-R-HANDOVER",
+      "details": [
+        "Academic destination is a next-direction/custody candidate, not arrival or validated technical cause"
+      ]
+    },
+    {
+      "material": "R3-Q304-R-REQUEST",
+      "details": [
+        "Original wording of locked Story6.4 Voss formal verification request; no future motive conclusion or current Mara knowledge"
+      ]
+    },
+    {
+      "material": "R3-CQOREN01-R-AUX",
+      "details": [
+        "A2 two-room auxiliary device, separate from main pump/bypass and protected by withdrawable invitation"
+      ]
+    },
+    {
+      "material": "R3-CQOREN02-R-PARTS",
+      "details": [
+        "AUX-R3-A2 workshop-supplied repair part, two rooms and versioned independent review; decorative tool frame"
+      ]
+    },
+    {
+      "material": "R3-CQOREN02-L-REPAIR",
+      "details": [
+        "Reference English preserved with speaker prefixes; new Chinese translation candidate; only after real auxiliary repair, independent review still pending"
+      ]
+    },
+    {
+      "material": "R3-O01-R-MUSIC",
+      "details": [
+        "Original MBOX12 twelve-tooth vs fourteen-tooth local optional repair; owner consent separate from publication; no rewards registered"
+      ]
+    },
+    {
+      "material": "R3-O02-R-OBSERVE",
+      "details": [
+        "Original optional reading5 at extraction1; contextual comparison not controlled-cause proof; no unique main evidence"
+      ]
+    }
+  ],
+  "not_run": [
+    "runtime_continuous_chapter_playthrough",
+    "native_geometry_collision_and_pathing",
+    "lowest_roster_all_encounters_balance",
+    "real_recording_and_full_audition",
+    "human_story_English_Chinese_review",
+    "Academic_6.5_target_group_calibration",
+    "independent_full_Task1_Task2_assessment",
+    "voice_and_performance_rights",
+    "optional_contract_registration",
+    "later_tower_engineering_completion"
+  ],
+  "human_signoff": null,
+  "release_gate_accepted": false
+}

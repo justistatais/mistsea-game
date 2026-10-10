@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-09",
+  "sources": {
+    "S1": [
+      "https://godotengine.org/download/archive/4.7.2-stable/"
+    ],
+    "S2": [
+      "https://docs.godotengine.org/en/stable/tutorials/scripting/c_sharp/c_sharp_basics.html",
+      "https://www.nuget.org/packages/Godot.NET.Sdk/4.7.2"
+    ],
+    "S3": [
+      "https://dotnet.microsoft.com/en-us/download/dotnet/10.0",
+      "https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core"
+    ],
+    "S4": [
+      "https://www.nuget.org/packages/Microsoft.Data.Sqlite/10.0.12",
+      "https://learn.microsoft.com/en-us/dotnet/standard/data/sqlite/transactions"
+    ],
+    "S5": [
+      "https://learn.microsoft.com/en-us/dotnet/standard/data/sqlite/async"
+    ],
+    "S6": [
+      "https://www.sqlite.org/lang_transaction.html",
+      "https://www.sqlite.org/atomiccommit.html"
+    ],
+    "S7": [
+      "https://www.sqlite.org/backup.html",
+      "https://learn.microsoft.com/en-us/dotnet/standard/data/sqlite/backup"
+    ],
+    "S8": [
+      "https://docs.godotengine.org/en/stable/tutorials/performance/thread_safe_apis.html"
+    ],
+    "S9": [
+      "https://docs.godotengine.org/en/stable/classes/class_textedit.html"
+    ],
+    "S10": [
+      "https://docs.godotengine.org/en/stable/tutorials/io/data_paths.html"
+    ],
+    "S11": [
+      "https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_windows.html"
+    ]
+  }
+}

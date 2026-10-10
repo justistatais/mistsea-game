@@ -1,0 +1,2 @@
+# Preserve original reference and evidence bytes on every checkout.
+* -text -filter

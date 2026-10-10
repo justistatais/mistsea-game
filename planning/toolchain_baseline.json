@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-09",
+  "godot": "4.7.2 .NET",
+  "dotnet_sdk": "10.0.401",
+  "target_framework": "net10.0",
+  "sqlite_provider": "Microsoft.Data.Sqlite 10.0.12",
+  "renderer": "Compatibility",
+  "platform": "Windows x86_64",
+  "verification": "official_version_pages_read_only",
+  "integration_status": "not_built",
+  "lockfile_status": "must_be_produced_by_CX-002",
+  "network_ai_default": "disabled"
+}

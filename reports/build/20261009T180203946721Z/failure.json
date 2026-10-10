@@ -1,0 +1,50 @@
+{
+  "error": "{\r\n  \"scope\": \"executed C# code tests\",\r\n  \"executed\": 14,\r\n  \"failed\": 1,\r\n  \"results\": [\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Actual isolated Windows file DACL denies writes and is restored in finally\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Actual after_commit lost response is resolved by receipt query and exact command retry without another reward\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Actual corrupted registered recovery source SHA refuses pointer replacement\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Read-only upgrade source audit checks actual bytes and refuses an altered source\",\r\n      \"result\": \"failed\",\r\n      \"detail\": \"System.InvalidOperationException: assertion failed\\r\\n   at Mist.Tests.TestRegistry.Require(Boolean condition, String message) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\TestRegistry.cs:line 11\\r\\n   at Mist.Tests.WindowsRecovery.WindowsRecoveryCases.UpgradeSourceAudit() in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\WindowsRecovery\\\\WindowsRecoveryCases.cs:line 309\\r\\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\TestRegistry.cs:line 27\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Failed migration transaction leaves a real migration copy and preserves live original bytes\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Committed invalid migration schema is rejected on a separate copy without promoting original\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Actually missing control file stops writes and restoring that same control retains deletion generation\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Old-generation backup re-applies learning and draft deletions and discards an actual registered late response\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Actual corrupt original recovery reports backup sequence and missing newer draft and observation\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Real child termination before commit preserves saved draft learning checkpoint and original reward\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Real child termination after commit preserves new transaction and retry does not duplicate its reward\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Mismatched content release and newer schema refuse writes without overwriting original database\",\r\n      \"result\": \"passed\"\r\n    }\r\n  ],\r\n  \"sqlite_version\": \"3.53.3\",\r\n  \"dotnet_runtime\": \"10.0.12\",\r\n  \"process_architecture\": \"X64\",\r\n  \"human_signoff\": null\r\n}\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T180203946721Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--locked-mode"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T180203946721Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "-c",
+        "Debug",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T180203946721Z/build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+        "--task=CX-076"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261009T180203946721Z/tests.log"
+    }
+  ]
+}

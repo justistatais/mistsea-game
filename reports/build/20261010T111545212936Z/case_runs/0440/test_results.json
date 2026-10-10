@@ -1,0 +1,16 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-066",
+      "name": "lexicon_v3_keeps_v2_senses_and_binds_actual_lina_shift_optional_settlement_oldcity_and_received_reply_bodies",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

@@ -1,0 +1,288 @@
+{
+  "package": "Part08_Combat_Design_v0.1",
+  "date": "2026-10-09",
+  "main": "Combat_System_v0.1.md",
+  "status": "design_reference_with_bounded_tests_not_complete_engine",
+  "files": [
+    {
+      "path": "Codex_Handoff_Part08_v0.1.md",
+      "bytes": 3920,
+      "sha256": "f789c6e53169094fc699ea194cc557958a65afead94cafc7469bdee4f4a5d16b"
+    },
+    {
+      "path": "Combat_Change_CR-COM-008-001.md",
+      "bytes": 1747,
+      "sha256": "b3c6bbe989ccbc46dc25501ad551f5680e6a94c59eb97d4ff0d3d39d35cc0cb5"
+    },
+    {
+      "path": "Combat_System_v0.1.md",
+      "bytes": 53850,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    {
+      "path": "Combat_Validation_v0.1.md",
+      "bytes": 4170,
+      "sha256": "b3d2d0e8192d128d6e20a8d0b0f84650a9ae1f71b49b436bbcf88e197ce3c327"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1543,
+      "sha256": "a8d54be6a3f6652eb542fd9e8022e4db3c86f827c16c20c2738eaae81e5e6285"
+    },
+    {
+      "path": "data/Character_Progression_Reference_v0.1.json",
+      "bytes": 65966,
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    {
+      "path": "data/Combat_Acceptance_v0.1.json",
+      "bytes": 10850,
+      "sha256": "61abd45679c57cf8dd0a897e9800137e7e2fde58944f002bb13d64d4702e63b2"
+    },
+    {
+      "path": "data/Combat_Reference_v0.1.json",
+      "bytes": 56489,
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    {
+      "path": "dependencies/Character_Progression_v0.1.md",
+      "bytes": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    {
+      "path": "dependencies/English_Learning_System_v0.1.md",
+      "bytes": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    {
+      "path": "dependencies/Exploration_Layout_Reference_v0.1.json",
+      "bytes": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    {
+      "path": "dependencies/Exploration_Level_Design_v0.1.md",
+      "bytes": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "dependencies/Game_Design_Core_v0.1.md",
+      "bytes": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    {
+      "path": "dependencies/Puzzle_System_v0.1.md",
+      "bytes": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    {
+      "path": "dependencies/Quest_Event_System_v0.1.md",
+      "bytes": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "dependencies/World_Story_Bible_v0.1.md",
+      "bytes": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "materials/COM-MAT-01_Workshop_Observation.md",
+      "bytes": 1441,
+      "sha256": "872239e3468666fb1446b19e16261b3cbbffc4b3268e13673adde4a6e42b61ef"
+    },
+    {
+      "path": "materials/COM-MAT-02_Tower_Procedure.md",
+      "bytes": 1448,
+      "sha256": "3af04084dc79d58be6bb68b87187b739b18661d4b5801d645fff4079bb61f9df"
+    },
+    {
+      "path": "materials/COM-MAT-03_Core_Handover_Script.md",
+      "bytes": 1595,
+      "sha256": "a833d56dcbd9e07b358c1270ddf6a7f72d4882bf3a71118cffc852018a75a03f"
+    },
+    {
+      "path": "validation/build_data.py",
+      "bytes": 15384,
+      "sha256": "17add39932306a08922a02651d5f2ca229b9a5838ca972df42927d74dfcb127a"
+    },
+    {
+      "path": "validation/build_documents.py",
+      "bytes": 7500,
+      "sha256": "18ab621a25aced84d026db479b087130ccd769b310678355e4bfd95f0b62f4de"
+    },
+    {
+      "path": "validation/combat_reference.py",
+      "bytes": 31118,
+      "sha256": "6b5689191db497282a6efb565857f2d594679fcdec2974ba58d13724cb2474b0"
+    },
+    {
+      "path": "validation/initial_tower_observation.json",
+      "bytes": 1431,
+      "sha256": "872139f2b9211eabcede74a49621ae146c0bf9dfb6af39e21bd5e790aed498d5"
+    },
+    {
+      "path": "validation/progression_reference.py",
+      "bytes": 9384,
+      "sha256": "60f67f2f08b34945c0e686f044dc3e07374c2cadad1e9952376957c40a6d34cc"
+    },
+    {
+      "path": "validation/run_log.txt",
+      "bytes": 9944,
+      "sha256": "bb674598203c4ec1a9aee10b686677c306fdabb06814c8a4d3db92f4e457e123"
+    },
+    {
+      "path": "validation/run_validation.py",
+      "bytes": 4810,
+      "sha256": "ac9a5fb6de447fe543ffafb0ce5bd2069dd609b5049f96db7c209ce9c6854ae0"
+    },
+    {
+      "path": "validation/test_combat.py",
+      "bytes": 17587,
+      "sha256": "46d369050898f78b2276d07905ebb25b4da567f4453e17c586d357b896811889"
+    },
+    {
+      "path": "validation/tower_parameter_sweep.json",
+      "bytes": 6956,
+      "sha256": "98f10484ba9e85309517e68de900421619829a7acae8ce15785c2a4c09429640"
+    },
+    {
+      "path": "validation/traces/BUILD-HM__BENCH-ELITE__standard.json",
+      "bytes": 14044,
+      "sha256": "77f5c77b5a5cb2f2c14ac8f4c1a4e1b1cac17539cb04ef5a283de345b58e8151"
+    },
+    {
+      "path": "validation/traces/BUILD-HM__BENCH-GROUP__standard.json",
+      "bytes": 12817,
+      "sha256": "cb0bfa2e29f0f18f7a33832a6423cad254016adca4877f0593fc4703053394c8"
+    },
+    {
+      "path": "validation/traces/BUILD-HM__BENCH-LONG__standard.json",
+      "bytes": 24893,
+      "sha256": "51ba3bf1bf819f01785f0c080ded89de5607e83b844349e36821a96c70efeac1"
+    },
+    {
+      "path": "validation/traces/BUILD-H__BENCH-ELITE__standard.json",
+      "bytes": 13084,
+      "sha256": "bf9f4b87800419e0da90f5ac653fd600d8ee8a23c41088f7f34f61a19791caa9"
+    },
+    {
+      "path": "validation/traces/BUILD-H__BENCH-GROUP__standard.json",
+      "bytes": 12521,
+      "sha256": "2e7b4e0b60e4858779d1941d64a9b10d2ed10df0c759ad7f7b2574add6adfd82"
+    },
+    {
+      "path": "validation/traces/BUILD-H__BENCH-LONG__standard.json",
+      "bytes": 21963,
+      "sha256": "9cffb7731d1c421fac205f711c09ad510220bf0097a10e430084d39c72c491b0"
+    },
+    {
+      "path": "validation/traces/BUILD-M__BENCH-ELITE__standard.json",
+      "bytes": 13699,
+      "sha256": "8a03acac86cd284bc0b70d90212a88d3e738f7dd68a957a8a0494718c1ace136"
+    },
+    {
+      "path": "validation/traces/BUILD-M__BENCH-GROUP__standard.json",
+      "bytes": 11913,
+      "sha256": "7b6be15e6fbf09e415ae51ecce0db2f9ea72ee7bf103db131b52d7daeb859a16"
+    },
+    {
+      "path": "validation/traces/BUILD-M__BENCH-LONG__standard.json",
+      "bytes": 21892,
+      "sha256": "cf75d2f3a41cca8789b5f311dc406c9c684e6a5ca2f1f886c94ff41ca82fcbe3"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__challenge.json",
+      "bytes": 9121,
+      "sha256": "37b88c8933c788e5ebce552be5008eea04b10791f10f65f76d784e72097041b9"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__relaxed.json",
+      "bytes": 6204,
+      "sha256": "6cf0785cd18ff6a5e7045f3895f6b467ecb0e734505048b708b631082e68f0ef"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__standard.json",
+      "bytes": 7979,
+      "sha256": "8773c4b1a33f7eac40f1599eaba8d1b4e182ff0a3dff8fe92e0abb3ae77b8e94"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__challenge.json",
+      "bytes": 8013,
+      "sha256": "944eaeacf0e8cbda9151327e3c0d03c17ea2713348239b615f91106be77ae77e"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__relaxed.json",
+      "bytes": 7182,
+      "sha256": "9ac53934d62daf0c2c782eb2a096b93cb343032702b7d54ff3b0d4f1802c3682"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__standard.json",
+      "bytes": 7477,
+      "sha256": "34c02c7bd9a6e20a4fd314a84b606de8fc0d99213575e51e012259a87aa4881d"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__challenge.json",
+      "bytes": 13050,
+      "sha256": "fc7468adc8ecc20b401e102010f5b3e441ae0ee23f99aa7649bef47b62810998"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__relaxed.json",
+      "bytes": 7135,
+      "sha256": "257e7cca085e600f357b9b85fc5ff68b24ce3757cea6a24b1cf5222c5c186872"
+    },
+    {
+      "path": "validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__standard.json",
+      "bytes": 8950,
+      "sha256": "44cbf709b8fe6175e4b93e068ad994748edbd5bbf5dce8b457c65b7d81cad457"
+    },
+    {
+      "path": "validation/traces/BUILD-S-ATTACKBAR__BENCH-ELITE__standard.json",
+      "bytes": 17042,
+      "sha256": "159cca1eacb597d5e302e1e91e7d0ee4af1dc27b2800000ad3d6b536951af006"
+    },
+    {
+      "path": "validation/traces/BUILD-S-ATTACKBAR__BENCH-GROUP__standard.json",
+      "bytes": 14990,
+      "sha256": "f93bce6af675882fc75265943574d8d9ace385a8c65e6928e80ac584f13bc46f"
+    },
+    {
+      "path": "validation/traces/BUILD-S-ATTACKBAR__BENCH-LONG__standard.json",
+      "bytes": 28569,
+      "sha256": "4360debcbe299a249e5b12d1cd3ad19ade8b265627e1ce26bf587dd89dfe1bda"
+    },
+    {
+      "path": "validation/traces/BUILD-S__BENCH-ELITE__standard.json",
+      "bytes": 15503,
+      "sha256": "91fce114e7fa7fc5c6dc47ec416a3217b44390bfd60a0fc53d0c70fb0574ddf3"
+    },
+    {
+      "path": "validation/traces/BUILD-S__BENCH-GROUP__standard.json",
+      "bytes": 18312,
+      "sha256": "f15f77717bfeebe34945ec0c3097cd10b4a2835bc8d5d6a594405f9a4c8159f1"
+    },
+    {
+      "path": "validation/traces/BUILD-S__BENCH-LONG__standard.json",
+      "bytes": 25854,
+      "sha256": "0e5061ab553d3e534b78b6e6d376bda06587686bc40f53a3a3b0e66f07f54560"
+    },
+    {
+      "path": "validation/traces/BUILD-TOWER-H__BENCH-TOWER__standard.json",
+      "bytes": 13033,
+      "sha256": "ec75ab326e493590720c774dd6e9b4d207807091277de539b229b75cd49f1747"
+    },
+    {
+      "path": "validation/traces/BUILD-TOWER-M__BENCH-TOWER__standard.json",
+      "bytes": 13794,
+      "sha256": "c8421e5d84f21a26db4b5c2dac62238649109c7e37fbf2a0749bd3488853db14"
+    },
+    {
+      "path": "validation/traces/BUILD-TOWER-S__BENCH-TOWER__standard.json",
+      "bytes": 15964,
+      "sha256": "dbb415ec3df8f132c380af2ad423d3345faa555705a860fec21a06829eeba1fe"
+    },
+    {
+      "path": "validation/validation_report.json",
+      "bytes": 11620,
+      "sha256": "c2874a4cb284158db5bffc983e8299581efc2bbe3ae0b5d65b316f22d7da0326"
+    }
+  ]
+}

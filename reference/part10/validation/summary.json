@@ -1,0 +1,23 @@
+{
+  "reference_run": 52,
+  "reference_passed": 52,
+  "reference_failures": 0,
+  "reference_errors": 0,
+  "browser_run": 20,
+  "browser_passed": 20,
+  "browser_failed": 0,
+  "browser": "Chromium 144.0.7559.96",
+  "browser_loader": "Playwright set_content; no navigation; opaque origin",
+  "screens": 24,
+  "components": 18,
+  "formal_acceptance": 56,
+  "codex_tasks": 10,
+  "source_paragraphs_unchanged": true,
+  "html_exposes_answer_items": false,
+  "real_engine": false,
+  "real_audio": false,
+  "real_native_ime": false,
+  "screen_reader_tested": false,
+  "real_persistent_origin_tested": false,
+  "human_band_calibration": false
+}

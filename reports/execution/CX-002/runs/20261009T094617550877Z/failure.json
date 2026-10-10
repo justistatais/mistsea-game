@@ -1,0 +1,223 @@
+{
+  "error": "windows_export_runtime failed: Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\n\r\n\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/dotnet_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--info"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/dotnet_info.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--force-evaluate"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+        "-c",
+        "Release",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\bin\\Release\\net10.0\\win-x64\\SqliteProbe.dll",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\sqlite"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_native_probe.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "list",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+        "package",
+        "--vulnerable",
+        "--include-transitive",
+        "--format",
+        "json"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_vulnerability_audit.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke\\GodotSmoke.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--force-evaluate"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke\\GodotSmoke.csproj",
+        "-c",
+        "Debug",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke",
+        "--quit-after",
+        "20"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_csharp_runtime.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "list",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke\\GodotSmoke.csproj",
+        "package",
+        "--vulnerable",
+        "--include-transitive",
+        "--format",
+        "json"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_vulnerability_audit.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\toolchain\\NuGet.offline.config",
+        "--locked-mode",
+        "-p:NuGetAudit=false"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_offline_cached.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke\\GodotSmoke.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\toolchain\\NuGet.offline.config",
+        "--locked-mode",
+        "-p:NuGetAudit=false"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_offline_cached.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\toolchain\\NuGet.offline.config",
+        "--locked-mode",
+        "--force",
+        "--no-cache",
+        "-p:NuGetAudit=false",
+        "-p:MSBuildProjectExtensionsPath=C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\offline_obj\\"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_offline_empty.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "Empty package cache and an explicitly empty source list must report NU1100."
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke",
+        "--export-release",
+        "Windows Desktop",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\export\\MistSeaToolchainSmoke.exe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/windows_export.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\export\\MistSeaToolchainSmoke.exe",
+        "--headless",
+        "--quit-after",
+        "20"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 3221225477,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/windows_export_runtime.log"
+    }
+  ]
+}

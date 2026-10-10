@@ -1,0 +1,16 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R2-03",
+      "name": "six_bed_layout_rejects_duplicate_unknown_excess_and_unagreed_three_three_arrangements",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

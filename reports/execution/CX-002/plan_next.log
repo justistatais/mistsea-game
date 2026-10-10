@@ -1,0 +1,6 @@
+{"argv": ["D:\\Python312\\python.exe", "-B", "-X", "utf8", "tools/plan.py", "next", "--kind", "engineering", "--limit", "1"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+CX-003 | 原生编辑器、焦点和可访问性技术试件 | engineering | planning/tasks/CX-003.md
+此工具只检查计划/证据形式；不证明日志真实或取代真人验收。
+
+[stderr]

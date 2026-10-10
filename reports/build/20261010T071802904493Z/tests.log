@@ -1,0 +1,36 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-SETTLEMENT-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Normal current-stage and earlier southern forecasts require exact finite optional batch and actual new delivery route; preview cancel and once receipt preserve main world",
+      "result": "passed"
+    },
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Real shared press requires separate local posts, dedicated manual reserve and current DRIVE zero; permission withdrawal and Continue reject stale handovers",
+      "result": "passed"
+    },
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Same borrowed lamp cannot expose family note, use another serial or reuse old zero after cleaning; actual return and bounded mutual aid keep original title once",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: assertion failed\r\n   at Mist.Tests.TestRegistry.Require(Boolean condition, String message) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 11\r\n   at Mist.Tests.OptionalLocalWorks.SettlementSupportCases.\u003C\u003Ec.\u003CRegister\u003Eb__6_2() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\OptionalLocalWorks\\SettlementSupportCases.cs:line 39\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 34"
+    },
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Saved optional prose has real CAS and no world execution; changed prose invalidates a delivery confirmation without losing the carried physical packet",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

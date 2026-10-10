@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../../tools/Mist.ContentCli/Mist.ContentCli.csproj" /></ItemGroup>
+  <ItemGroup><Compile Include="../../game/Debug/Q102RouteCandidate.cs" Link="Q102/Q102RouteCandidate.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../../game/Debug/BattleCandidate.cs" Link="Combat/BattleCandidate.cs" /></ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Mist.Application/Mist.Application.csproj" />
+    <ProjectReference Include="../../src/Mist.Infrastructure/Mist.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

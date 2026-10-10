@@ -1,0 +1,4368 @@
+{
+  "generated_utc": "2026-10-10T05:04:36.379526+00:00",
+  "scope": "read_only_source_inventory_not_acceptance_not_a_playthrough",
+  "design": {
+    "spaces": 78,
+    "puzzle_budget": {
+      "main_by_chapter": {
+        "R0": 5,
+        "R1": 9,
+        "R2": 8,
+        "R3": 9,
+        "R4": 9,
+        "R5": 8,
+        "R6": 10,
+        "RF": 6
+      },
+      "main_total": 64,
+      "optional_total": 32,
+      "total": 96,
+      "worked_units_now": 9,
+      "note": "同一模块多方法只算一个；材料、提示、复习变体不独立充数；不表示已制作96个"
+    },
+    "registered_puzzle_reference_units": 9,
+    "encounter_slots": 44,
+    "benchmark_scenarios": 5,
+    "learning_budget": {
+      "extended_readings": 16,
+      "core_listening_assets": 32,
+      "long_listening_assets_within_core": 12,
+      "mainline_visual_writing_units": 6,
+      "mainline_argument_writing_units": 6,
+      "planned_core_lexical_sense_chunks": 360,
+      "extension_lexical_sense_chunks": 360,
+      "provided_original_lexical_entries": 18,
+      "provided_original_reading_materials": 5,
+      "provided_original_audio_scripts": 2,
+      "provided_rendered_audio_assets": 0,
+      "counts_are_authoring_budget_not_completed_content": true
+    }
+  },
+  "geometry": {
+    "authored_candidate_distinct_ids": 78,
+    "candidate_paths_by_id": {
+      "R0-S01": [
+        "content/source/campaign/first_entry.json"
+      ],
+      "R0-S02": [
+        "content/source/campaign/first_entry.json"
+      ],
+      "R0-S03": [
+        "content/source/campaign/first_entry.json"
+      ],
+      "R0-S04": [
+        "content/source/campaign/first_entry.json"
+      ],
+      "R0-S05": [
+        "content/source/campaign/first_entry.json"
+      ],
+      "R1-S01": [
+        "content/source/campaign/first_entry.json"
+      ],
+      "R1-S02": [
+        "content/source/campaign/first_entry.json",
+        "game/content/runtime_catalog.json:q102_geometry_json"
+      ],
+      "R1-S03": [
+        "content/source/campaign/first_entry.json",
+        "game/content/runtime_catalog.json:q102_geometry_json"
+      ],
+      "R5-S01": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-S02": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-S03": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-S04": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-S05": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-S06": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-S07": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-S08": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-O01": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R5-O02": [
+        "content/source/chapter_five/learner_package.json"
+      ],
+      "R4-S01": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-S02": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-S03": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-S04": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-S05": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-S06": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-S07": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-S08": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-O01": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R4-O02": [
+        "content/source/chapter_four/learner_package.json"
+      ],
+      "R1-S08": [
+        "content/source/chapter_one/chapter_one.json"
+      ],
+      "R1-S09": [
+        "content/source/chapter_one/chapter_one.json"
+      ],
+      "R1-S10": [
+        "content/source/chapter_one/chapter_one.json"
+      ],
+      "R6-S01": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-S02": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-S03": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-S04": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-S05": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-S06": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-S07": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-S08": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-O01": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R6-O02": [
+        "content/source/chapter_six/learner_package.json"
+      ],
+      "R3-S01": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S02": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S03": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S04": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S05": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S06": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S07": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S08": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-S09": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-O01": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R3-O02": [
+        "content/source/chapter_three/learner_package.json"
+      ],
+      "R2-S01": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-S02": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-S03": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-S04": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-S05": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-S06": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-S07": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-S08": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-O01": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "R2-O02": [
+        "content/source/chapter_two/learner_package.json"
+      ],
+      "RF-S01": [
+        "content/source/finale/learner_package.json"
+      ],
+      "RF-S02": [
+        "content/source/finale/learner_package.json"
+      ],
+      "RF-S03": [
+        "content/source/finale/learner_package.json"
+      ],
+      "RF-S04": [
+        "content/source/finale/learner_package.json"
+      ],
+      "RF-S05": [
+        "content/source/finale/learner_package.json"
+      ],
+      "RF-S06": [
+        "content/source/finale/learner_package.json"
+      ],
+      "RF-S07": [
+        "content/source/finale/learner_package.json"
+      ],
+      "R1-O01": [
+        "content/source/r1_life/learner_package.json"
+      ],
+      "R1-O02": [
+        "content/source/r1_life/learner_package.json"
+      ],
+      "HUB-S01": [
+        "content/source/vessel/vessel_interior.json"
+      ],
+      "HUB-S02": [
+        "content/source/vessel/vessel_interior.json"
+      ],
+      "HUB-S03": [
+        "content/source/vessel/vessel_interior.json"
+      ],
+      "R1-S04": [
+        "game/content/runtime_catalog.json:q102_geometry_json"
+      ],
+      "R1-S05": [
+        "game/content/runtime_catalog.json:q102_geometry_json"
+      ],
+      "R1-S06": [
+        "game/content/runtime_catalog.json:q102_geometry_json"
+      ],
+      "R1-S07": [
+        "game/content/runtime_catalog.json:q102_geometry_json"
+      ]
+    },
+    "design_ids_without_discovered_geometry": [],
+    "scene_catalogue_ids": 78,
+    "native_completion": "not_inferred_from_catalogue_or_geometry"
+  },
+  "authored_materials": {
+    "distinct_bilingual_ids": 201,
+    "materials": [
+      {
+        "id": "QP01-R-ROUTE",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "96fb403514f0fe5fb485d79757a630ac34e8bb2a12fee2d39540c7bf9402c511",
+        "english_words": 119,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP01-R-LOG",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "fe7033bb728435665072d455b72317ac584f44f6e541e2d3fa4b6270b9c2081e",
+        "english_words": 96,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP02-R-TIDE",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "27e5834cf69159b9ff525def2649777b90320813a2409e722cd915955fb127bd",
+        "english_words": 112,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP02-L-CORRECTION",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "000519eea5003ee6d9fc35eb60c4455980c063c6049ae79eb5ff725efc6b8041",
+        "english_words": 108,
+        "kind": "listening_script",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP02-R-WINCH",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "8848ea11db21e0b8d8d10ac0a9fd015ef1135d99fdb8123b9d63d9b71614c421",
+        "english_words": 192,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP03-R-RELAY",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "1433fd36739a394fc4f223127e548ae29baca66b1ec87b3e4b7e7d15b64806ac",
+        "english_words": 131,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP03-R-RECORDER",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "0c2d1f94335d5ec1f7e1d2c21c5a8bf7d6b34367765cf3abe8dd4da506f4c9ee",
+        "english_words": 98,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP03-R-MAIL",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "cde83af8685ef5b75b2eca9eca50aeea7df387a1cb671fd3e7052f321690fa73",
+        "english_words": 114,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "QP03-R-PICKUP",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "aca5675c8eaa94bb68a3afcb0954dd40fd382285363a96d987e21185245cd77c",
+        "english_words": 87,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q101-R-ARRIVAL",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "11377d6a5efe23caa7113b29c5810ff5f1ecb7ad82ca4b501446ef66162d781e",
+        "english_words": 107,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q101-R-CREDENTIAL",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "05629f29996982902855448bf0bed63bb66f847b7e4f85aade93cb20d62d3d74",
+        "english_words": 95,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q101-R-CLOSURE",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "d3ae66538ed60f1ccb28c501832e65cd5db87099f6a2510b3d9161a364b0619a",
+        "english_words": 116,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q101-R-EXCEPTION",
+        "paths": [
+          "content/source/campaign/first_entry.json"
+        ],
+        "english_sha256": "63a4274cb7c860d4f86924715ce7aee3d0ecd5cf875d40b5b764dd8148d49a8a",
+        "english_words": 116,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "R5-Q501-R-LANDING",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "773f42525c700a1139b1188b260b3f0c2fd77f150d786eeb91654a63e9923f92",
+        "english_words": 98,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q501-R-STREET",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "6468715b3c4453fd47bea6197f86e828b0f04228fd13d402b4cc4da495ce2caf",
+        "english_words": 104,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q501-R-MAP",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "7a8dd788e0ee50885f9890060898b4ee7d9c98f7e4d189d64a2ef117802243ff",
+        "english_words": 103,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q501-R-CREDENTIAL",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "0ffb628633760796e81dbaa1fc8399e90a209d49254de8df2d0bacf23f227e69",
+        "english_words": 83,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q501-R-TUNNEL",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "cb2320e599173a44108afa4b001ce9a774e4a8613c207819ffa89afda1749efb",
+        "english_words": 107,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q501-L-DIRECTIONS",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "40ccac9e197f9f8042d5ad6264059448524b6d63fc5ead6aed95057155d9f2e5",
+        "english_words": 115,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q502-R-DUTY",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "e1820070193bbd658f595c7224ad1293030d8a10d0e86650fb1676f5ba5d621a",
+        "english_words": 110,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q502-R-RESCUE",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "89d9abf1b3cf72a1eb9583efc961db0f4a1334a77675d1a23edef0586b9206f9",
+        "english_words": 111,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q502-L-RECEPTION",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "9820c311c1a5cb0368acb53b2801c303d61655073375684e816f13a0ce642d4e",
+        "english_words": 111,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-R-SCOPE",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "c8490794c4453b7a6340fa1438f37f211037fd633dcaf3267e6a6a08235c5f96",
+        "english_words": 97,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-R-DESIGN",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "46c99c0d8b9b5bab5ac09a5cb2515062e61fb75c577e428553a10bc1c0c81bc4",
+        "english_words": 102,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-R-REVISION",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "1e4b9bdbd81d59fa92e4642f01507553b9610d7041d388aa4eb1e6a366e38921",
+        "english_words": 112,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-R-POLICY",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "8651c9d3831431a5d5e3c2e651a0877fe0eee1db9dd5158d5e3f76c022485e8a",
+        "english_words": 100,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-R-EXECUTION",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "082c2cd31c5861d88d51e3bfa02a34c0bd454357fb7a664eadddf8bd441fb6a4",
+        "english_words": 106,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-R-HEARING",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "77aaa6e79170487715a4b795703885b617b0ded383a9cb88308e01d38a30591c",
+        "english_words": 108,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q501-R-ESSAY",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "807d6ec5358703153896502a22859bd37dbcad7152e463157dca0f91e460afce",
+        "english_words": 654,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-R-ESSAY",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "92dd20397bdb86b8e27920d954ab1dff3fcf027e3cbea92dd3070427f475d556",
+        "english_words": 747,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q504-R-OPTIONS",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "1a6ee0fe8ef601746f06680a6f1df33690e457c2b2e6750726e9c9573937fe5f",
+        "english_words": 107,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q504-R-TOWER",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "d1d9a9f442a6df651d6c9034b5c2a61e12ca954eb73cbb5ce12f072939410381",
+        "english_words": 128,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q504-R-TRANSFER",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "077fa76cd832b4e87ddab13f3b8669b1a56d249cbaffeb9f53821e803397aa85",
+        "english_words": 119,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-CQMIRA03-R-EXERCISE",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "f099c921d770b1bdde826c675519d10c3283187221006fc5734084c21c8a3546",
+        "english_words": 102,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-CQOREN03-R-DUTY",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "29c30208ef045a7fa89f9d18a7b8ae8ffd730ad685178928ef9e5601e5b90b40",
+        "english_words": 110,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-O01-R-SIGN",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "4e3d2e186cd1e67ed57f78455ba3b6836eb5d89adad69890835951f560b32e33",
+        "english_words": 103,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-O02-R-CLAIM",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "f6fe063e40f926cbde16bec56ecdb3c3bcbd0ecee301094191739dcc48549918",
+        "english_words": 101,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q503-L-HEARING",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "5a5b70f052d45bd393f58759e3c23d22f968c5fa680fa7ce3d791b94ba65f5d5",
+        "english_words": 758,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R5-Q504-L-COUNCIL",
+        "paths": [
+          "content/source/chapter_five/learner_package.json"
+        ],
+        "english_sha256": "0a82ca855f4912f15d3f9e25e484d6a99e08eb483616861adadc299cac51af64",
+        "english_words": 772,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-LANDING",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "028e71b582d6249a16098b40111fa96c1c2eaf43e3c7c842848a5340ad768868",
+        "english_words": 111,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-BRIEF",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "3f4da23092e490dc053fcf9c1df81805dde57060b9bce64c14edff49941cd958",
+        "english_words": 200,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-SURVEY-A",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "70b98ab0511e6ce5e60c8db2b7d9fea52026176d7128e47a1e7d70b25e43ae19",
+        "english_words": 199,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-SURVEY-B",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "15de448f0dd998fadcd12f43456e835fd5bdfa138db947fdd77a5f3a32a862fc",
+        "english_words": 172,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-VISUAL",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "081b09e45b10f2022190a507126bbfc5b42ce62e211d6e44f6163f711159fef7",
+        "english_words": 121,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-ACCESS",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "1835cb2dee96ae0b0e6355bdb82e327961cab031af9bec0fe9da2d8a7bb4011b",
+        "english_words": 106,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-MANUSCRIPT",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "d9b2a138ac7fd19cef4ce1d8b0055a3567424986ba4cfa0ca7954ec2a0e3fff8",
+        "english_words": 96,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-ISSUED",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "3d815940c787ac5ad80f0aeecdaa938269c5c9af5098aeb68893d073a31772bb",
+        "english_words": 98,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-R-CIRCULATION",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "d230b4fcfe733f79a78eef215d02f9d758c9e7330697b6a7fede9c1194f3c5ee",
+        "english_words": 99,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q401-L-SIAN",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "198fa4dd7e00dac88658703bcc0e0d0ef1cb916e7580ee58d9c18ea14444bbb0",
+        "english_words": 128,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q402-R-SAFETY",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "45d18d7d7283eeba3f546f702856ad5f65f01f4d26fe1e9b8e3e48b1603bb6a5",
+        "english_words": 200,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q402-R-RECONSTRUCT",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "999f08cc64fb95d6d707dc562ca99fef11101c386d8d63112621c1faaf16c0c4",
+        "english_words": 200,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "PZLAB-R-PROTOCOL",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "1409e52d0b6e266abc7e8bef1d95eeda954a0dea707a9bc61e2ed674dba8a511",
+        "english_words": 170,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q402-R-CALIBRATION",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "3db4142857a3dd13ea44cfb89bde0602fdd9d96420e6cab67ce2220f49d5b595",
+        "english_words": 200,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q402-L-TECHNICIAN",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "26eab3b28e0c4774cac3beb763e77068d3ac6272b4ceee4d71bd4181ec4a8956",
+        "english_words": 119,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q403-R-ISLAND",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "198ed85809f2d5524c4f245599c879f41ab7d10ac1d0c925a7dd64462b6ac34f",
+        "english_words": 203,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q403-R-OUTPUT",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "53e995204e6c931282c29751006298e946d3eed420313b3b9c2e854595700335",
+        "english_words": 192,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q403-L-OBSERVER",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "cf4fc0d71bd28881a5b5058d817ca4bc6325377f0e2f8503fc5e1b335e93ac55",
+        "english_words": 122,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-R-TOWER",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "bb832aa9199406f4ac5c73be5038058c5f730930ffabc2c498fe146d8136cad8",
+        "english_words": 211,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-R-ACCESS",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "76d792afeb060605fd726b1a806515d4e4f6aacc501ec150a1382303c99be20c",
+        "english_words": 101,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-R-LOCATION",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "cf9a8c895eb8c9d04c030a701cdf0a8bc395de7ddc456521e1a18cc2cb21079c",
+        "english_words": 103,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-R-SUPPLY",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "bdf23b91c04afb355347dc2bd11a1794cf69123a855d44354605c6fd6932aceb",
+        "english_words": 101,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-R-GUARD",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "8610053ae8fa6ea8ad3b77a62a2dba13896f9bc14e146e6318e597015380d4df",
+        "english_words": 112,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-R-PREPARATION",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "512b62d92e58a8d639b277104277d79927599cfbc9e01d0e92b2cc1a1dac79c0",
+        "english_words": 179,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-L-VOSS",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "6871f0ca664945e8e6b44ff65dce2a27c61baeef8fdd6d9f1932cdd3fe9e21e9",
+        "english_words": 131,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-Q404-R-ESSAY",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "9bd25b581c26daf35e72f307c31aa55a80bfdb768739c71c3753026b5d33ce01",
+        "english_words": 660,
+        "kind": "extended_reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-CQMIRA02-R-REQUEST",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "a71ef1fe559786b0f02aa39c51b0ba6088150d38cc103b3e7a604209455d23e0",
+        "english_words": 138,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-O01-R-NOTICES",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "6b4c7d836722e4edc1fcd406c049a608884a521c807bcc1b4d9e2f83cfcad66c",
+        "english_words": 143,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R4-O02-R-CONTRIBUTION",
+        "paths": [
+          "content/source/chapter_four/learner_package.json"
+        ],
+        "english_sha256": "8410ce53ac84cf900b67f5722d18166a073bfbf38e4a38b064bd96377d09f4ce",
+        "english_words": 126,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "Q103-R-NOTICE",
+        "paths": [
+          "content/source/chapter_one/chapter_one.json"
+        ],
+        "english_sha256": "bfbb6b2244446d183dd1d8f2e48f9d63d1c55f13cc8a0a6946f807f7d2921f7a",
+        "english_words": 114,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q103-R-TEST",
+        "paths": [
+          "content/source/chapter_one/chapter_one.json"
+        ],
+        "english_sha256": "0ce636fad37c2dc5cab676dd5eb811f7a9649dfb38058c358d0778e17e9b0c70",
+        "english_words": 117,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q103-R-DUTY",
+        "paths": [
+          "content/source/chapter_one/chapter_one.json"
+        ],
+        "english_sha256": "b5a612209c6623ccdce1b6dda5cc006841f117079dbc3629652db2deb137036e",
+        "english_words": 131,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q103-R-CLOCK",
+        "paths": [
+          "content/source/chapter_one/chapter_one.json"
+        ],
+        "english_sha256": "e1e9b820ef71d40970467a8950652121ccafe7731cd8853e01bba3ef48bf5ec4",
+        "english_words": 143,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q104-R-CONTROLS",
+        "paths": [
+          "content/source/chapter_one/chapter_one.json"
+        ],
+        "english_sha256": "791059148ad7c3a47a782f7f97a903943a562d98a8326f3dd2e28043c7a1b290",
+        "english_words": 133,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "Q104-R-HANDOVER",
+        "paths": [
+          "content/source/chapter_one/chapter_one.json"
+        ],
+        "english_sha256": "84f037331359de4c6a7a7d44a000c9caf7776f2506de285bc910a0ffcec1b6a1",
+        "english_words": 135,
+        "kind": "reading",
+        "review": "not_recorded"
+      },
+      {
+        "id": "R6-Q601-R-LANDING",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "d5fd33df040c7b8764421b27b93b8b506d8311620ea5720fb89c84a898a8be76",
+        "english_words": 69,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q601-R-BRIEFING",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "858be33915c2cd0b7c9c718170302e3b8e67cf4fe2b2b4106f8d8327d996d196",
+        "english_words": 68,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q601-R-FORECAST",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "9fe43cc17c6a93eb0cd81d04a67b11af0365c023335cba3945d1de9f3df5602b",
+        "english_words": 78,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q601-R-INSTRUMENT",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "b1cf54b3b1dc74a554f6282d25a328f4a23b02f01d17e45dd4e52ddfa569aa56",
+        "english_words": 90,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q601-R-RETURN",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "2523e5f8d57e6eb456dacbc1f0d84a5ec6102d65ae8288d1eee21434a66624a7",
+        "english_words": 64,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-R-WORKLIST",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "101b0819bc1760e6490ef4c396d2001df114f8dfbee4a4b7d5106382b7113e15",
+        "english_words": 95,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-R-CONTRACTS",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "a80d3b5008daa4e880a9686c05ca639ced26c580f89a18d425ed94d2f8d0d5ee",
+        "english_words": 86,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-R-STEPS",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "4b8b56108db88c90c24f020e9aed8a20921fd1c921c1dea37cbd9dc9eb6588a5",
+        "english_words": 71,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-R-TECHNICAL",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "4202ba57062fe2a34f89c2668ecf68c18026fc0f698e4bbe2f7ce4c4db7ecec5",
+        "english_words": 82,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-R-PROTOCOL",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "d064d805852f06a676299f7991c22bd50093cd96fa1d28858c34b37743ac18a5",
+        "english_words": 76,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-R-OVERVIEW",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "a8b56514cd70d350a9f5ae8a660e47b5d4071a271e61e5ac27aee200c79c98f1",
+        "english_words": 80,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q603-R-MANIFEST",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "4e5743bf8ad912848e8544c4e4e724aa846ea30fe14ba68053dbb815ce803532",
+        "english_words": 73,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q603-R-SEGMENTS",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "06615c08676d37bd55535dab1a4fd1e21e8f29fe61cc38e88641bf6c893e698b",
+        "english_words": 80,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q603-R-PLATFORM",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "f5c383e7bc5e585ec78611875442c010a11930aabd939bb46a92a638b89e9f9b",
+        "english_words": 79,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q603-R-LOCAL",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "a4086bbf3506b3b9d214cea57f2daf26b9d7c8afdff79da376d4f7ba5f41a413",
+        "english_words": 70,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q603-R-LOAD",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "6d98620354be4f477cea4fd24d55093c566c7f5fe77607c644f592161e16c0cc",
+        "english_words": 70,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q604-R-QUALIFICATION",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "b64f5adaa2d7aa1d69e477f92ac06788036c321cdd9eae7951aa23f2b69ae2ad",
+        "english_words": 80,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q604-R-COMMITMENTS",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "cf9de6392c6f25aa78184c6f81e30ffaa841d2b9aced6afe7e3b803453045b99",
+        "english_words": 66,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q604-R-DEPARTURE",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "a3d89417e81da60b00acc7b0517e0b8a33906364f5e06341b7422230a90fbd79",
+        "english_words": 80,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-CQTESS01-R-CONTACTS",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "75ec45396529b9b40cab99acb2c12c2953058cd77ad5b950eda8fd65937ffd36",
+        "english_words": 72,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-CQTESS02-R-TRIPS",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "b4909af94c1df6690b7fa7424228312fb21319ea59d22d6459ce6c83633201bf",
+        "english_words": 61,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-CQTESS03-R-NOTICE",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "c6eedc9fb12722ae16252252f5b52cf8fdbb1f9ab1934b60e2814a046d239a89",
+        "english_words": 67,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-O01-R-NEEDS",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "c9a3c5ac83c07d7428653f4ec4606f4b41b9834349ddbf25933463005c49d6be",
+        "english_words": 47,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-O02-R-MAINTENANCE",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "6f6b4eb15681f0d17a7e5907311b8c3400d83f1794869c0863db9a1843364893",
+        "english_words": 35,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q603-L-ESCORT",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "8844b7b1f9c37ab5ebe9f51956014e0c2326bfd27b6313e06624c9a789a807ad",
+        "english_words": 115,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q603-L-RECEIPT",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "1457464a198840206f4f3854ce455d988d48767bd51740ad017443e702670825",
+        "english_words": 78,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q604-L-HANDOVER",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "bf4f5223011fe4720d386b1634d35d5e9efd7b65f8411767c081446ff9843bdf",
+        "english_words": 91,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-CQTESS-L-NOTICE",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "35cdb10f4988ec04c5f98cec883596376673ae1ebb5a1750fe860daa03cde3c1",
+        "english_words": 53,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q601-R-RISK",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "57494f2f88d57f5671b525b0b6792b7f92509914f0331f3f119b9328e0e37c05",
+        "english_words": 646,
+        "kind": "long_read",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-R-PREPARATION",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "c554d15fad7cec22ace84cf9381e92898887914ccc8afe5b50a06b120b40f9ac",
+        "english_words": 654,
+        "kind": "long_read",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q601-L-SURVEY",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "07d1a8af978221a4a2575e18ae39c240548d00ef5e8c6fcf4d86d1e2555db973",
+        "english_words": 664,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R6-Q602-L-MEETING",
+        "paths": [
+          "content/source/chapter_six/learner_package.json"
+        ],
+        "english_sha256": "929d91c9f8580135be5353e7d5059bf683770ef4775d6d1e1eaff7456401d99d",
+        "english_words": 658,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-LANDING",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "ef88c3dfad274cc8ddc8631e693233c4452b9a41e06b4acdc323a494e12ffa1b",
+        "english_words": 102,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-COMMISSION",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "75d3d111642c17af993b937761b77416e29c4c89d59a11b7734c219ae5f1517e",
+        "english_words": 323,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-SHIFT",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "c3f34ce3776b8969ef1d5aafaa1685ae8ecf0bbf2954276caa2d80677ba34ee5",
+        "english_words": 112,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-LADDER",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "b73c41572b392f2261deb09cd83aa1cca339edbed528b7d5560c327dee9c463e",
+        "english_words": 107,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-RAIL",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "24ed7867f3e00dae7fb076994be63eff0078e7a009b4fca8a85df1e34ecd46f2",
+        "english_words": 115,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-PUMP",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "1079bd001eef17f319640d2313120a019780857001f3e692e175d1e1c99962ae",
+        "english_words": 188,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-RESCUE",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "2833f2abad14a1dffb799d56412f140f957ce14a4099b3d81ded3539b04a9902",
+        "english_words": 120,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-ENVIRONMENT",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "7a7c0ae5632bcfcca498f8e57d05f25c767bd520ef71d12de484c34fd329848c",
+        "english_words": 182,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-L-ROUTE",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "819b885981928719b2c171aefc6ae93626dc9edaf70fe1fb59984d868dba8ad0",
+        "english_words": 182,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-L-WORKER",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "0b16af091f6e604f38cad757f4a06ecdadfe9b1bfce9633c45cb3f8659084084",
+        "english_words": 168,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q302-R-RAW",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "253d4d5485cc3ae4afa6f704188e2a903d129b7ca513f41c43da728d21a34e7e",
+        "english_words": 173,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q302-R-COPY",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "22d13fbe5435c47c0ec5927d82c7d4e2b8cb043636b1bf37b782ad362a3ef663",
+        "english_words": 168,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q302-R-SIGNED",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "b44d4555590a9705f6556620a941d8ab78e6b4ac2b5735a1ffaacf3a9e7b5ddd",
+        "english_words": 105,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q302-R-BATCHES",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "102286f240addfbd4e327abd0142e1e485166b7b22e6d428de72746acb4ad4ab",
+        "english_words": 173,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q302-R-STATEMENT",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "3eda1c1e89a56dbad6dae9b251f0545c6b8cec1ee70b56b4fbed95fa12acb76d",
+        "english_words": 168,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q302-R-HISTORY",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "c8b7bc4596f879a654f94e4c1d8698100ff3561738b085434d8937af21ebf7d2",
+        "english_words": 731,
+        "kind": "extended_reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q302-L-CHECK",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "6b0373c26adb62d414c41911afb211cb7523f3982e74e782dd01d31ef2887d09",
+        "english_words": 731,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q301-R-BASIC",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "f06fded39c75852c010e0cbed0c68e32faca931be42785ec0c9552cc4cc6a0e0",
+        "english_words": 118,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q303-R-DEMAND",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "4d718bcd50e5cc39486ef8c8491d244621b44d4b5f7e54987d7ef212ff3ff68e",
+        "english_words": 189,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q303-R-STOCK",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "048f8614df5bc9385abeca00e28782913456f9b6e526d91378d6f44105918425",
+        "english_words": 168,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q303-R-CHOICES",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "720253eb88410ea1756f2a710204eca5c77cf3f57a74bddad19639d6064bdd8f",
+        "english_words": 200,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q303-R-ESSAY",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "6447061fd354ac607287a1d3f2323256a430c8228d4f413959013d7391cc3934",
+        "english_words": 847,
+        "kind": "extended_reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q303-L-MEETING",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "a99b003721949cc4df4a2066deac0a498ec818eb0b905e4b9d5e3256de6f69ac",
+        "english_words": 749,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q304-R-SEQUENCE",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "d319fbade000ab679ae2df4aaafd264a91fb4915856e87f552354472bb92277e",
+        "english_words": 160,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q304-R-LOAD",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "5805983c9a66a76349329f5e22a7276ec3c07184450a1d3085ca92a4a4e83818",
+        "english_words": 167,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q304-R-DUTY",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "560be53c4b457971cec33d01dc2bd3a8abe6043aec0d3e0b83379e9baea9a02d",
+        "english_words": 115,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q304-R-HANDOVER",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "e0cdfa8b67cc8f7b858aa47b02b22f8636c00a6aa41a06e94b47ff87d0d27dbf",
+        "english_words": 175,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q304-R-TOWER",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "d0514ac4b8f7075d87e634bba9b5e311976ba765ce5d61ea20458302a1f504b6",
+        "english_words": 97,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q304-L-TRANSFER",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "4cf942a10eecabd3bdaa24208d1752c33da7dc9ea03842d0306c21a654c6cebd",
+        "english_words": 177,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-Q304-R-REQUEST",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "38f999e72419203a28269e7c48b5f3a6b99746204e2f37f1fbedd2a3d6023bf6",
+        "english_words": 118,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-CQOREN01-R-AUX",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "9016932546f9494dbfd6965aa1728ddb8070a4bda5b254f56e3213067ea3c669",
+        "english_words": 126,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-CQOREN02-R-PARTS",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "fcd709907ca787bc4fbaef2424b0a6a77236fcf7d7373c073d5a33139fbc5cb0",
+        "english_words": 180,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-CQOREN02-L-REPAIR",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "f0ace0afe8fe917442a3ef5ab749da0cbb62665d35d5690299a7aecb408b7ce8",
+        "english_words": 162,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-O01-R-MUSIC",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "a43d794dd08a2710ce6fd7d92da47c9b7d55f407bf439f51a5f215a98453a159",
+        "english_words": 179,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R3-O02-R-OBSERVE",
+        "paths": [
+          "content/source/chapter_three/learner_package.json"
+        ],
+        "english_sha256": "3294a9470a618e8de35df628fce47377b59d17ab4946e830a6a439494350abef",
+        "english_words": 178,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q201-R-LANDING",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "2de7e576cdc0bf81588275804e14f01b61f579f0eb643d211c4600f034146cfd",
+        "english_words": 128,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q201-R-REQUEST",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "69b86cd3286f13871b0bd408236243190bea21fc8fbb9b981233b3a9defadf7e",
+        "english_words": 243,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q201-R-RATION",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "06e78be1346a5b53bcc6e26093699b7d7776910b8b1525327b32428c0e82d5b0",
+        "english_words": 128,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q201-R-ROOMS",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "351820318b7087896625d0b7928704b4770512c069d33641ea2c0f1fecec8081",
+        "english_words": 136,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q202-R-ACCESS",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "a1412973fd53c5c48db08be3d46775cb49e31b9075e60a97ba1e692a2c841dff",
+        "english_words": 239,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q202-R-D1",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "df44f79a6b68ce43dacb64ed0872f1cedc67952bd61b765327b45f40d5d0865c",
+        "english_words": 247,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q202-R-COHORT",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "fca44aaf91c4cc25482dbded074752a30b4c00dbc9a94ef940b7315e20f82641",
+        "english_words": 135,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q203-R-WATER",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "faec751ac0f39348a7319b1248ffab02364efa048152c5bac31510ef1b57e7eb",
+        "english_words": 244,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q203-R-OLD",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "539fcb9a97042201cfa0898c2820df9a3c9b98c7b7653b1318f9e214b504a210",
+        "english_words": 246,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q203-R-INTERLOCK",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "4fd1e5d0ef118447bb238aecb457fc92ff10d170cf76b0f12a333105a01a8b78",
+        "english_words": 135,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q203-R-PANEL",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "0585826440e864c9b818c3bb7ad6d3828f217a7ae4838c658b9cb1fca412cfa0",
+        "english_words": 258,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q203-R-TOWER",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "fcdcb51b6135e7f2e520d7e368786d1b59fbec352baef1ba570258cad2a0e73e",
+        "english_words": 142,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q204-R-SIGNATURE",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "42505f6c018f212c4fecd009c56c7819ae918e2f98c2746b1867e48dd70db2fb",
+        "english_words": 138,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q204-R-BATCH",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "77915da7517e558737d9ee36da6b8f7bb9cdb5c6d5b4fb2c9c65b78206539e05",
+        "english_words": 117,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "PZTIME-R-ORDER",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "312fd1e115283bb1c12fa7b91b36cc67d3a98126fafcc9aa13ede8c523a0b003",
+        "english_words": 80,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "PZTIME-R-ARRIVAL",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "e5be5f761688e06242cd359939f20ea81c5e38b59258cb2e53e6096df389ef0a",
+        "english_words": 102,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q201-L-SERVER",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "91bcbdd18563c3a3d163eefedbd11d0f4c472be650c07ccb43c5e40d32d3d35c",
+        "english_words": 129,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q201-L-RECEIVER",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "427c1d8a32850134702cb18f71cf6416bb2107aa41e1a8f05d6fe375a900a59c",
+        "english_words": 133,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q202-L-CLERK",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "e2875b2cd5c8c3a648f8d9d3cf00555960b85a9591628af9370ab52ad7392d8e",
+        "english_words": 267,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q203-L-OPERATOR",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "60d065bb96d958005aa5b339d5320a30e5028654ef63051aa22bc0442c896efd",
+        "english_words": 285,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q204-L-SCOPE",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "ed88a1a0f5a02bc35218f1fcf182ade2e16cdfb7196e7e568423121fa47964e5",
+        "english_words": 288,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-CQMIRA01-R-W04",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "c18d06151549eeb2be91ff5886169566a6c7ea7fceb2511f31e6ff7757a16977",
+        "english_words": 137,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q201-R-OFFICIAL",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "e56dc1e4b986e7a89b8f91c76a0d8854e446feaf6448a861f11e1b2459ec6272",
+        "english_words": 123,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q202-R-SENDING",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "ffad62fa764695029582d2d6826829c20b6592af761d98d22679d78b50d077a5",
+        "english_words": 127,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-Q204-R-ESSAY",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "25a8004d7972e2ebaef7fc7e18cb29c6969407f86c39ebfa96423f93aabe2dec",
+        "english_words": 720,
+        "kind": "extended_reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-O01-R-LETTER",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "3310158aa541bf5f6ac1ce931639fe21ce178973bbb7ec930e46e1f10b293a75",
+        "english_words": 218,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "R2-O02-R-SEEDS",
+        "paths": [
+          "content/source/chapter_two/learner_package.json"
+        ],
+        "english_sha256": "11c48076ef001ae1c2b42cfb2d33319294c3cebe7a9ac1fe38319d75e387f959",
+        "english_words": 234,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-R-SCOPE",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "9f069139bb8d65ae076a3b023de7d1d67a2068850efe3b4d1dd795ccad692f29",
+        "english_words": 133,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-R-ROUTES",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "0747e4339411fe67e82706af4d1545285d4a2d4e6e60b39a92264b306b2b05ae",
+        "english_words": 113,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-R-CHECKPOINT",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "be37ae3f3649aab8b422e666fec46b8f01497c347041e29f8583a03d4224bcaf",
+        "english_words": 57,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-L-DUTY",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "cb3feffdd72a82be40a40eded35da8f90e1e5523bfa543c1a0512c9bdbfdeac2",
+        "english_words": 204,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-R-AUTHORITY",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "de6e041247924dcc5bae7b36f75f6d5717c5ff849de4e430bf9ee2936438a289",
+        "english_words": 107,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-R-CORRIDOR",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "bb82966e3e86a8e466bb8d8539df1a85e84875c5f6e8ebc5c00ecf507cdaaba8",
+        "english_words": 60,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-R-SHAFT",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "779c36ee8bfca88038954f94c553062dd37cec6f253959f25be1823cc4f5ee0d",
+        "english_words": 125,
+        "kind": "procedure",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF01-R-COIL",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "86989b7f36427c80096005e0ebe337e3ac49f98abacc10458d9ed4663ed7768d",
+        "english_words": 51,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF02-R-COMMAND",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "54f2212bd299f84560813d2137e7dbe2facbf533c19d1658a728e3e934eb3684",
+        "english_words": 184,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF02-L-ROOK",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "0d79a9a7ee4511eee8412c6cc9c0de043357c71dad8719060ef3925d0264dfad",
+        "english_words": 206,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF02-R-AUDIT",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "b7c2348db179d6091ad06b4d22d0c53a9d9add3bcadf49528953679c2cc3a6ca",
+        "english_words": 56,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF03-R-RESTART",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "8c71e63170c457697698ed430b52dd6d994c10a14f866e70ff7a18e98c59ee9d",
+        "english_words": 120,
+        "kind": "mission_document",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF03-R-ISOLATION",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "9a9dd7fb0527ab043ba51deab4933510399730d954ef0ff53af07acf98ded32d",
+        "english_words": 66,
+        "kind": "procedure",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF03-R-LINK",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "61e63da6d1d3200b7e97265700133ae047aad1375534fb5858a28ce49f0bdbd2",
+        "english_words": 128,
+        "kind": "procedure",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF03-R-RENEWAL",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "f26caf63a25120c2c6292f272ef2e2b5beae8c4e4b2afa5f4115874d945aa452",
+        "english_words": 127,
+        "kind": "procedure",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF03-R-DAMPING",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "8202348cbd6d05daefa3a9a3682cf04e4a38f0ba5b3042b19a7003a842342d33",
+        "english_words": 119,
+        "kind": "procedure",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF03-R-CLOCK",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "1d1f5cdd286b221b4ac076e7c6decbf9df2bdb6c4554190b4474a0bbd5a8f552",
+        "english_words": 63,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF03-L-OPERATOR",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "b3b22cd170af64f3c5954203e0574de5cc20698e81a29f3f2235b3ef4cb22ab3",
+        "english_words": 225,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF04-R-OPTIONS",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "9bf2a9d059bca1d218554c75c6bf9bdead9f42a863f8106bc68e945007af46e1",
+        "english_words": 617,
+        "kind": "extended_reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF04-R-COMMAND",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "e18f3832d6d8103c456db454fd05af9cabd1e522e28330386ad516e8669918d0",
+        "english_words": 59,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF04-L-DISPATCH",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "3d84f6d607854d69fd315208eeadb25901904a612edcd48faaea5a82ad34fae2",
+        "english_words": 218,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "RF-QF05-R-AFTER",
+        "paths": [
+          "content/source/finale/learner_package.json"
+        ],
+        "english_sha256": "3bac4a11aace120e368a171c246a416f0bbbcd1dbc98231ce30e099f8c802253",
+        "english_words": 125,
+        "kind": "short_notice",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-ROOM-R-OLD",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "9e9b292418d7e25a8e2fd2a740185098b6b461afe499f891d77cf180b4c9cd7e",
+        "english_words": 128,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-ROOM-R-AMEND",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "06646b92891ce7d17afa5ba38991351e70ccf90cf224c9cd688069ee07b35fcf",
+        "english_words": 149,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-ROOM-R-SEPARATE",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "61f75679983804250686338d6a31f023067bfabadc3ad32bf79de3aec32f7ab7",
+        "english_words": 125,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-ROOM-L-GUESTS",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "e536ee3f9e4300ae7abced1549cc4ea10f146e39793543983f442ddc68de780a",
+        "english_words": 144,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-ROOM-R-CARDS",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "dbcc8280f8561c211eb952d779870f6572b3ea84d53a6110cdc0846f81175d14",
+        "english_words": 132,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-ROOM-R-DESK",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "61214bf3860aa5bbaa6c0f59bd0374bc758d3f3f292b3c25aced0e36edf8d53c",
+        "english_words": 146,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-SHOW-R-OFFER",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "15deb824d64abf6f3a70a870e07ef323ec4cd55060b7b042fa344506816cb9a5",
+        "english_words": 148,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-SHOW-R-EQUIPMENT",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "f2e1b35faf36e8f8b8115bdf6e99c6d418fe6b40f6a8e763e5ed08fe4c0e4aae",
+        "english_words": 137,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-SHOW-L-CREW",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "e324a5b108ecd8fcac3cd65f89edf8d70d1e7103b6216ec4a5b155b545d1b7c7",
+        "english_words": 152,
+        "kind": "listening_script",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-SHOW-R-STAGE",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "f283c393748fd2dd0287d8f3c9f0b78ebb82bc392ca8279199b6f3ea64f27d32",
+        "english_words": 131,
+        "kind": "reading",
+        "review": "human_pending"
+      },
+      {
+        "id": "R1-SHOW-R-SCENE",
+        "paths": [
+          "content/source/r1_life/learner_package.json"
+        ],
+        "english_sha256": "35b404603393f5856fd3d1b8ac7867eb335a385b3611bd9f10b75abbf6e9fe1b",
+        "english_words": 137,
+        "kind": "reading",
+        "review": "human_pending"
+      }
+    ],
+    "packages": [
+      {
+        "path": "content/source/campaign/first_entry.json",
+        "geometry_candidates": 8,
+        "bilingual_material_candidates": 13,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/chapter_five/learner_package.json",
+        "geometry_candidates": 10,
+        "bilingual_material_candidates": 26,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/chapter_four/learner_package.json",
+        "geometry_candidates": 10,
+        "bilingual_material_candidates": 29,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/chapter_one/chapter_one.json",
+        "geometry_candidates": 3,
+        "bilingual_material_candidates": 6,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/chapter_six/learner_package.json",
+        "geometry_candidates": 10,
+        "bilingual_material_candidates": 32,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/chapter_three/learner_package.json",
+        "geometry_candidates": 11,
+        "bilingual_material_candidates": 35,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/chapter_two/learner_package.json",
+        "geometry_candidates": 10,
+        "bilingual_material_candidates": 27,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/finale/learner_package.json",
+        "geometry_candidates": 7,
+        "bilingual_material_candidates": 22,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/r1_life/learner_package.json",
+        "geometry_candidates": 2,
+        "bilingual_material_candidates": 11,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      },
+      {
+        "path": "content/source/vessel/vessel_interior.json",
+        "geometry_candidates": 3,
+        "bilingual_material_candidates": 0,
+        "formal_runtime_or_human_completion": "not_inferred_from_json"
+      }
+    ],
+    "calibrated_completion": "not_inferred"
+  },
+  "encounters": {
+    "source_literal_ids": [
+      "ENC-R2-01",
+      "ENC-R2-02",
+      "ENC-R2-03",
+      "ENC-R3-01",
+      "ENC-R3-02",
+      "ENC-R3-03",
+      "ENC-R3-04",
+      "ENC-R3-05",
+      "ENC-R4-01",
+      "ENC-R4-02",
+      "ENC-R4-03",
+      "ENC-R4-04",
+      "ENC-R5-01",
+      "ENC-R5-02",
+      "ENC-R5-03",
+      "ENC-R5-04",
+      "ENC-R6-01",
+      "ENC-R6-02",
+      "ENC-R6-03",
+      "ENC-R6-04",
+      "ENC-R6-05",
+      "ENC-RF-01",
+      "ENC-RF-02",
+      "ENC-RF-03",
+      "ENC-RF-04"
+    ],
+    "literal_locations": {
+      "src/Mist.Application/ChapterFive/ChapterFiveService.cs": [
+        "ENC-R5-03",
+        "ENC-R5-04"
+      ],
+      "src/Mist.Application/ChapterFive/ChapterFiveService.Encounters.cs": [
+        "ENC-R5-01",
+        "ENC-R5-02",
+        "ENC-R5-03",
+        "ENC-R5-04"
+      ],
+      "src/Mist.Application/ChapterFive/ChapterFiveService.Stations.cs": [
+        "ENC-R5-01",
+        "ENC-R5-02",
+        "ENC-R5-03",
+        "ENC-R5-04"
+      ],
+      "src/Mist.Application/ChapterFive/ChapterFiveService.Submissions.cs": [
+        "ENC-R5-01",
+        "ENC-R5-02",
+        "ENC-R5-03"
+      ],
+      "src/Mist.Application/ChapterFour/ChapterFourService.cs": [
+        "ENC-R4-01",
+        "ENC-R4-02",
+        "ENC-R4-03",
+        "ENC-R4-04"
+      ],
+      "src/Mist.Application/ChapterFour/ChapterFourService.Encounters.cs": [
+        "ENC-R4-01",
+        "ENC-R4-02",
+        "ENC-R4-03",
+        "ENC-R4-04"
+      ],
+      "src/Mist.Application/ChapterFour/ChapterFourService.Experiments.cs": [
+        "ENC-R4-01",
+        "ENC-R4-02",
+        "ENC-R4-04"
+      ],
+      "src/Mist.Application/ChapterFour/ChapterFourService.Stations.cs": [
+        "ENC-R4-02",
+        "ENC-R4-03",
+        "ENC-R4-04"
+      ],
+      "src/Mist.Application/ChapterFour/ChapterFourService.Submissions.cs": [
+        "ENC-R4-01",
+        "ENC-R4-02",
+        "ENC-R4-03",
+        "ENC-R4-04"
+      ],
+      "src/Mist.Application/ChapterSix/ChapterSixService.cs": [
+        "ENC-R6-01",
+        "ENC-R6-02",
+        "ENC-R6-03",
+        "ENC-R6-04"
+      ],
+      "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs": [
+        "ENC-R6-01",
+        "ENC-R6-02",
+        "ENC-R6-03",
+        "ENC-R6-04",
+        "ENC-R6-05"
+      ],
+      "src/Mist.Application/ChapterSix/ChapterSixService.Stations.cs": [
+        "ENC-R6-01",
+        "ENC-R6-02",
+        "ENC-R6-03",
+        "ENC-R6-04",
+        "ENC-R6-05"
+      ],
+      "src/Mist.Application/ChapterSix/ChapterSixService.Submissions.cs": [
+        "ENC-R6-01",
+        "ENC-R6-02",
+        "ENC-R6-03",
+        "ENC-R6-04",
+        "ENC-R6-05"
+      ],
+      "src/Mist.Application/ChapterSix/ChapterSixService.Tess.cs": [
+        "ENC-R6-03",
+        "ENC-R6-04"
+      ],
+      "src/Mist.Application/ChapterThree/ChapterThreeService.cs": [
+        "ENC-R3-01",
+        "ENC-R3-02",
+        "ENC-R3-03",
+        "ENC-R3-05"
+      ],
+      "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs": [
+        "ENC-R3-01",
+        "ENC-R3-02",
+        "ENC-R3-03",
+        "ENC-R3-04",
+        "ENC-R3-05"
+      ],
+      "src/Mist.Application/ChapterThree/ChapterThreeService.Stations.cs": [
+        "ENC-R3-01",
+        "ENC-R3-02",
+        "ENC-R3-03",
+        "ENC-R3-04",
+        "ENC-R3-05"
+      ],
+      "src/Mist.Application/ChapterThree/ChapterThreeService.Submissions.cs": [
+        "ENC-R3-01",
+        "ENC-R3-02",
+        "ENC-R3-04",
+        "ENC-R3-05"
+      ],
+      "src/Mist.Application/ChapterTwo/ChapterTwoService.cs": [
+        "ENC-R2-01",
+        "ENC-R2-02",
+        "ENC-R2-03"
+      ],
+      "src/Mist.Application/ChapterTwo/ChapterTwoService.Encounters.cs": [
+        "ENC-R2-01",
+        "ENC-R2-02",
+        "ENC-R2-03"
+      ],
+      "src/Mist.Application/ChapterTwo/ChapterTwoService.Stations.cs": [
+        "ENC-R2-01",
+        "ENC-R2-02",
+        "ENC-R2-03"
+      ],
+      "src/Mist.Application/ChapterTwo/ChapterTwoService.Submissions.cs": [
+        "ENC-R2-01",
+        "ENC-R2-02",
+        "ENC-R2-03"
+      ],
+      "src/Mist.Application/Finale/FinaleService.cs": [
+        "ENC-RF-01",
+        "ENC-RF-04"
+      ],
+      "src/Mist.Application/Finale/FinaleService.Encounters.cs": [
+        "ENC-RF-01",
+        "ENC-RF-02",
+        "ENC-RF-03",
+        "ENC-RF-04"
+      ],
+      "src/Mist.Application/Finale/FinaleService.Stations.cs": [
+        "ENC-RF-01",
+        "ENC-RF-02",
+        "ENC-RF-03",
+        "ENC-RF-04"
+      ],
+      "src/Mist.Application/Finale/FinaleService.Submissions.cs": [
+        "ENC-RF-01",
+        "ENC-RF-02",
+        "ENC-RF-03",
+        "ENC-RF-04"
+      ],
+      "src/Mist.Application/Inventory/PartyService.cs": [
+        "ENC-RF-02"
+      ],
+      "src/Mist.Core/Finale/FinaleEncounterFactory.cs": [
+        "ENC-RF-01",
+        "ENC-RF-02",
+        "ENC-RF-03",
+        "ENC-RF-04"
+      ]
+    },
+    "designed_ids_without_literal": [
+      "ENC-R0-01",
+      "ENC-R0-02",
+      "ENC-R1-01",
+      "ENC-R1-02",
+      "ENC-R1-03",
+      "ENC-R1-04",
+      "ENC-R1-O01",
+      "ENC-R1-O02",
+      "ENC-R2-O01",
+      "ENC-R2-O02",
+      "ENC-R3-O01",
+      "ENC-R3-O02",
+      "ENC-R4-O01",
+      "ENC-R4-O02",
+      "ENC-R5-O01",
+      "ENC-R5-O02",
+      "ENC-R6-06",
+      "ENC-R6-O01",
+      "ENC-R6-O02"
+    ],
+    "literal_is_implementation": false,
+    "finished_level_count": null,
+    "reason": "A literal may name a slot, guard or fixture; real scene, mechanism, source, persistence, tests and human QA must be linked separately."
+  },
+  "lexicon": {
+    "lookup_word_forms": [
+      "beacon",
+      "bracket",
+      "draft",
+      "draught",
+      "interlock",
+      "isolate",
+      "isolated",
+      "isolation",
+      "operational",
+      "reserve",
+      "subject",
+      "supersede",
+      "supersedes"
+    ],
+    "lookup_word_form_count": 13,
+    "separate_entries_in_lexicon_directory": 720,
+    "budget": {
+      "core": 360,
+      "extension": 360
+    },
+    "registered_count_is_complete_course": false
+  },
+  "task_status_counts": {
+    "accepted": 5,
+    "verified": 47,
+    "implemented": 26,
+    "not_started": 58
+  },
+  "tasks": [
+    {
+      "id": "CX-001",
+      "kind": "engineering",
+      "title": "接管文档、库存与执行账",
+      "execution_status": "accepted",
+      "report_exists": true,
+      "report": "reports/execution/CX-001.json",
+      "result": "accepted",
+      "not_run": [
+        {
+          "item": "后续工程、章节制作与人工任务",
+          "task_ids": [
+            "CX-002",
+            "CX-003",
+            "CX-004",
+            "CX-005",
+            "CX-006",
+            "CX-007",
+            "CX-008",
+            "CX-009",
+            "CX-010",
+            "CX-011",
+            "CX-012",
+            "CX-013",
+            "CX-014",
+            "CX-015",
+            "CX-016",
+            "CX-017",
+            "CX-018",
+            "CX-019",
+            "CX-020",
+            "CX-021",
+            "CX-022",
+            "CX-023",
+            "CX-024",
+            "CX-025",
+            "CX-026",
+            "CX-027",
+            "CX-028",
+            "CX-029",
+            "CX-030",
+            "CX-031",
+            "CX-032",
+            "CX-033",
+            "CX-034",
+            "CX-035",
+            "CX-036",
+            "CX-037",
+            "CX-038",
+            "CX-039",
+            "CX-040",
+            "CX-041",
+            "CX-042",
+            "CX-043",
+            "CX-044",
+            "CX-045",
+            "CX-046",
+            "CX-047",
+            "CX-048",
+            "CX-049",
+            "CX-050",
+            "CX-051",
+            "CX-052",
+            "CX-053",
+            "CX-054",
+            "CX-055",
+            "CX-056",
+            "CX-057",
+            "CX-058",
+            "CX-059",
+            "CX-060",
+            "CX-061",
+            "CX-062",
+            "CX-063",
+            "CX-064",
+            "CX-065",
+            "CX-066",
+            "CX-067",
+            "CX-068",
+            "CX-069",
+            "CX-070",
+            "CX-071",
+            "CX-072",
+            "CX-073",
+            "CX-074",
+            "CX-075",
+            "CX-076",
+            "CX-077",
+            "CX-078",
+            "CX-079",
+            "CX-080",
+            "CP-R0-01",
+            "CP-R0-02",
+            "CP-R0-03",
+            "CP-R0-04",
+            "CP-R0-05",
+            "CP-R0-06",
+            "CP-R1-01",
+            "CP-R1-02",
+            "CP-R1-03",
+            "CP-R1-04",
+            "CP-R1-05",
+            "CP-R1-06",
+            "CP-R2-01",
+            "CP-R2-02",
+            "CP-R2-03",
+            "CP-R2-04",
+            "CP-R2-05",
+            "CP-R2-06",
+            "CP-R3-01",
+            "CP-R3-02",
+            "CP-R3-03",
+            "CP-R3-04",
+            "CP-R3-05",
+            "CP-R3-06",
+            "CP-R4-01",
+            "CP-R4-02",
+            "CP-R4-03",
+            "CP-R4-04",
+            "CP-R4-05",
+            "CP-R4-06",
+            "CP-R5-01",
+            "CP-R5-02",
+            "CP-R5-03",
+            "CP-R5-04",
+            "CP-R5-05",
+            "CP-R5-06",
+            "CP-R6-01",
+            "CP-R6-02",
+            "CP-R6-03",
+            "CP-R6-04",
+            "CP-R6-05",
+            "CP-R6-06",
+            "CP-RF-01",
+            "CP-RF-02",
+            "CP-RF-03",
+            "CP-RF-04",
+            "CP-RF-05",
+            "CP-RF-06",
+            "HV-001",
+            "HV-002",
+            "HV-003",
+            "HV-004",
+            "HV-005",
+            "HV-006",
+            "HV-007",
+            "HV-008"
+          ],
+          "reason": "启动指令限定只执行CX-001"
+        },
+        {
+          "item": "Godot/.NET安装、C#编译、NuGet还原与锁文件、SQLite原生集成及Windows导出",
+          "reason": "由CX-002及其后续卡实施，本轮只盘点工具环境"
+        },
+        {
+          "item": "真实IME、读屏、音轨审听、真人6.5校准、素材权利与发布签核",
+          "reason": "未执行，不能由本卡工程检查代签"
+        },
+        {
+          "item": "原来源包与deliverables的重建脚本、全部历史参考测试",
+          "reason": "保留来源字节；本卡不要求重建来源"
+        },
+        {
+          "item": "在线模型请求、密钥读取、对外上传或发布、官方工具链页面复核",
+          "reason": "在线功能关闭，CX-001不启用服务或验证候选版本发布状态"
+        },
+        {
+          "item": "在接管后的执行账上重复整套bootstrap测试",
+          "reason": "test_04/test_23/test_32显式依赖未开始且无证据的初始包；改用当前证据与调度检查，未修改tools来源"
+        }
+      ]
+    },
+    {
+      "id": "CX-002",
+      "kind": "engineering",
+      "title": "核实并锁定真实工具链",
+      "execution_status": "accepted",
+      "report_exists": true,
+      "report": "reports/execution/CX-002.json",
+      "result": "accepted",
+      "not_run": [
+        "different clean Windows machine",
+        "native IME",
+        "screen reader",
+        "production persistence tests",
+        "audio listening",
+        "human language calibration",
+        "其余134张任务卡",
+        "完整TECH-AT-01产品验收与G0依赖",
+        "原始计划测试含接管初始状态断言；本轮采用当前账本的证据、调度和冻结来源检查"
+      ]
+    },
+    {
+      "id": "CX-003",
+      "kind": "engineering",
+      "title": "原生编辑器、焦点和可访问性技术试件",
+      "execution_status": "accepted",
+      "report_exists": true,
+      "report": "reports/execution/CX-003.json",
+      "result": "accepted",
+      "not_run": [
+        "真实中文输入法逐步核验",
+        "真实读屏软件及人工验证",
+        "另一台无编辑器/SDK的干净Windows",
+        "产品、语言校准和发布验收"
+      ]
+    },
+    {
+      "id": "CX-004",
+      "kind": "engineering",
+      "title": "SQLite原生集成与事务试件",
+      "execution_status": "accepted",
+      "report_exists": true,
+      "report": "reports/execution/CX-004.json",
+      "result": "accepted",
+      "not_run": [
+        "真实中文输入法逐步核验",
+        "真实读屏软件及人工验证",
+        "另一台无编辑器/SDK的干净Windows",
+        "产品、语言校准和发布验收"
+      ]
+    },
+    {
+      "id": "CX-005",
+      "kind": "engineering",
+      "title": "最小Windows离线导出候选",
+      "execution_status": "accepted",
+      "report_exists": true,
+      "report": "reports/execution/CX-005.json",
+      "result": "accepted",
+      "not_run": [
+        "真实中文输入法逐步核验",
+        "真实读屏软件及人工验证",
+        "另一台无编辑器/SDK的干净Windows",
+        "产品、语言校准和发布验收"
+      ]
+    },
+    {
+      "id": "CX-006",
+      "kind": "engineering",
+      "title": "建立四程序集与组合根",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-006.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-007",
+      "kind": "engineering",
+      "title": "构建、测试与证据命令统一",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-007.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-008",
+      "kind": "engineering",
+      "title": "稳定ID、版本、时钟与命令DTO",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-008.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-009",
+      "kind": "engineering",
+      "title": "九类源适配器与奖励旧名映射",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-009.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-010",
+      "kind": "engineering",
+      "title": "内容编译与内部/正式发布检查",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-010.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-011",
+      "kind": "engineering",
+      "title": "领域查询、动作计划和相关版本读取集",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-011.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-012",
+      "kind": "engineering",
+      "title": "玩家主库与独立控制库schema",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-012.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-013",
+      "kind": "engineering",
+      "title": "单写队列与原子提交",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-013.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-014",
+      "kind": "engineering",
+      "title": "命令去重、工作去重与表现outbox",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-014.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-015",
+      "kind": "engineering",
+      "title": "继续、旧档分支、槽位与检查点",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-015.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-016",
+      "kind": "engineering",
+      "title": "战斗重试与局部回滚范围",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-016.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-017",
+      "kind": "engineering",
+      "title": "规范草稿版本、CAS与多入口",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-017.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-018",
+      "kind": "engineering",
+      "title": "学习观察、帮助与模态账",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-018.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-019",
+      "kind": "engineering",
+      "title": "删除世代、外发许可与晚反馈",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-019.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-020",
+      "kind": "engineering",
+      "title": "一致备份、损坏隔离与迁移副本",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-020.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-021",
+      "kind": "engineering",
+      "title": "精确内容绑定与安全安装器",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-021.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-022",
+      "kind": "engineering",
+      "title": "真实持久化破坏性测试套件",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-022.json",
+      "result": "verified",
+      "not_run": [
+        "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+        "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+        "No real online provider or power-loss experiment"
+      ]
+    },
+    {
+      "id": "CX-023",
+      "kind": "engineering",
+      "title": "Godot应用壳与输入/暂停/焦点",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-023.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Native IME and actual assistive-technology input ownership matrix still requires execution."
+      ]
+    },
+    {
+      "id": "CX-024",
+      "kind": "engineering",
+      "title": "主角移动、相机与可达操作站位",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-024.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Camera, crowd behavior, dangerous-area confirmation and full native viewport matrix are incomplete."
+      ]
+    },
+    {
+      "id": "CX-025",
+      "kind": "engineering",
+      "title": "Q-102六场景与成对出口",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-025.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-026",
+      "kind": "engineering",
+      "title": "拾取、安装与设备归属链",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-026.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-027",
+      "kind": "engineering",
+      "title": "工坊停机、保持检查与侧道",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-027.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-028",
+      "kind": "engineering",
+      "title": "任务生命周期与派生目标",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-028.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "General lifecycle rules exist; later actual chapter producers and derived readiness are incomplete."
+      ]
+    },
+    {
+      "id": "CX-029",
+      "kind": "engineering",
+      "title": "阅读器、词典和分范围帮助",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-029.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Acquired-source projection and text reader exist; actual screen-reader session is pending."
+      ]
+    },
+    {
+      "id": "CX-030",
+      "kind": "engineering",
+      "title": "真实音频、字幕与缺失通路",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-030.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-031",
+      "kind": "engineering",
+      "title": "规范写作工作区与可靠保存提示",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-031.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Real CAS and delayed ACK cases pass; real human IME composition remains untested."
+      ]
+    },
+    {
+      "id": "CX-032",
+      "kind": "engineering",
+      "title": "六类证据与谜题通用控件",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-032.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Acceptance remains incomplete."
+      ]
+    },
+    {
+      "id": "CX-033",
+      "kind": "engineering",
+      "title": "离线学习反馈与证据界面",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-033.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-034",
+      "kind": "engineering",
+      "title": "哈文交谈、提议与临时占用",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-034.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Exclusive NPC leases and explicit promises exist; full normal-campaign dialogue matrix is incomplete."
+      ]
+    },
+    {
+      "id": "CX-035",
+      "kind": "engineering",
+      "title": "意思候选与显式结构化兜底",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-035.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-036",
+      "kind": "engineering",
+      "title": "导航灯当前检查与执行预览",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-036.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-037",
+      "kind": "engineering",
+      "title": "离港原子结果与单次奖励",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-037.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-038",
+      "kind": "engineering",
+      "title": "Q102两条非战斗路线端到端",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-038.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-039",
+      "kind": "engineering",
+      "title": "世界HUD、任务和存档菜单集成",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-039.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Six entry points and branching slots exist; full normal-campaign loading and HUD matrix is incomplete."
+      ]
+    },
+    {
+      "id": "CX-040",
+      "kind": "engineering",
+      "title": "经验、属性、校准和主线奖励",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-040.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Frozen XP, attributes and exact thresholds pass; actual level-28 final chapter is not produced."
+      ]
+    },
+    {
+      "id": "CX-041",
+      "kind": "engineering",
+      "title": "36节点、前置与四主动槽",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-041.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-042",
+      "kind": "engineering",
+      "title": "28收藏、8改件和个人资源账",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-042.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-043",
+      "kind": "engineering",
+      "title": "整队回合、个人计划槽与资源",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-043.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-044",
+      "kind": "engineering",
+      "title": "伤害、护盾、暴露与触发管线",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-044.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-045",
+      "kind": "engineering",
+      "title": "稳定压力、装置、负面和倒地",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-045.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-046",
+      "kind": "engineering",
+      "title": "四站位、目标类型和意图预告",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-046.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-047",
+      "kind": "engineering",
+      "title": "四同伴与两援勤的基础动作",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-047.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-048",
+      "kind": "engineering",
+      "title": "3级工坊实战与方法汇合",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-048.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-049",
+      "kind": "engineering",
+      "title": "5级潮门塔阀门与首领",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-049.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Actual level-5 benchmark and SQLite tower candidate exist; actual human player validation is absent."
+      ]
+    },
+    {
+      "id": "CX-050",
+      "kind": "engineering",
+      "title": "战斗结算、撤回和继续存档",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-050.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-051",
+      "kind": "engineering",
+      "title": "Godot战斗表现与资料往返",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-051.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Native battle and Unicode input evidence exists; final animation/read-screen and current tower UI matrix are incomplete."
+      ]
+    },
+    {
+      "id": "CX-052",
+      "kind": "engineering",
+      "title": "全部天赋、装备、补给触发回归",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-052.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-053",
+      "kind": "engineering",
+      "title": "Q102三方法真实样章内部验收",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-053.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-054",
+      "kind": "engineering",
+      "title": "十三人物与四层知识投影",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-054.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-055",
+      "kind": "engineering",
+      "title": "事件插槽与前景排他调度",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-055.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-056",
+      "kind": "engineering",
+      "title": "招募、拒绝、再邀请与安全离队",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-056.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-057",
+      "kind": "engineering",
+      "title": "关系事件与字段化私人许可",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-057.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-058",
+      "kind": "engineering",
+      "title": "五组织服务与六地区双职能协议",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-058.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-059",
+      "kind": "engineering",
+      "title": "六塔物资守恒与实际派工",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-059.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-060",
+      "kind": "engineering",
+      "title": "世界旅行、快捷返程和共享微光号",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-060.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Actual route proof and safe geometry rules exist; later region producers, three native ship rooms and sailing UI are incomplete."
+      ]
+    },
+    {
+      "id": "CX-061",
+      "kind": "engineering",
+      "title": "事务/协议/准备视图与可见边界",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-061.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Read-only work and agreement views exist; the complete preparation/transaction preview UI is incomplete."
+      ]
+    },
+    {
+      "id": "CX-062",
+      "kind": "engineering",
+      "title": "角色、商店、收藏和重配正式UI",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-062.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-063",
+      "kind": "engineering",
+      "title": "个人线框架与不膨胀奖励",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-063.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-064",
+      "kind": "engineering",
+      "title": "24页面状态矩阵和无障碍联调",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-064.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Headless entry/focus/font checks exist; the full 24-state native accessibility matrix is not executed."
+      ]
+    },
+    {
+      "id": "CX-065",
+      "kind": "engineering",
+      "title": "序章至第一章连续内部集成",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-065.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Normal prologue/first chapter candidate and actual service cases exist; full native continuous player route and human G3 are pending."
+      ]
+    },
+    {
+      "id": "CX-066",
+      "kind": "engineering",
+      "title": "音频/本地化/词典制作工具链",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-066.json",
+      "result": "implemented",
+      "not_run": [
+        "Actual replacement speech track without spoken role labels and human listening/rights review",
+        "Complete 360+360 lexicon, subtitle production and five-channel native volume/localization UI"
+      ]
+    },
+    {
+      "id": "CX-067",
+      "kind": "engineering",
+      "title": "可选帮助网关与DisabledProvider",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-067.json",
+      "result": "implemented",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+        "Disabled gateway and read-only authorization ports exist; production authorization projection and optional native help UI are not connected."
+      ]
+    },
+    {
+      "id": "CX-068",
+      "kind": "engineering",
+      "title": "响应核验、缓存分区和晚到路由",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-068.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-069",
+      "kind": "engineering",
+      "title": "实际供应商候选与回归适配",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CX-069.json"
+    },
+    {
+      "id": "CX-070",
+      "kind": "engineering",
+      "title": "复习调度与同档主题内容索引",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-070.json",
+      "result": "implemented",
+      "not_run": [
+        "Native review/practice entry and actual reviewed full offline material routes",
+        "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+      ]
+    },
+    {
+      "id": "CX-071",
+      "kind": "engineering",
+      "title": "完整读听写检查与校准证据管理",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-071.json",
+      "result": "implemented",
+      "not_run": [
+        "Native review/practice entry and actual reviewed full offline material routes",
+        "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+      ]
+    },
+    {
+      "id": "CX-072",
+      "kind": "engineering",
+      "title": "隐私、注入和世界写权限防线回归",
+      "execution_status": "verified",
+      "report_exists": true,
+      "report": "reports/execution/CX-072.json",
+      "result": "verified",
+      "not_run": [
+        "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+        "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+      ]
+    },
+    {
+      "id": "CX-073",
+      "kind": "engineering",
+      "title": "28级最低路径终章实战调参",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CX-073.json"
+    },
+    {
+      "id": "CX-074",
+      "kind": "engineering",
+      "title": "三种结局与条件非干扰矩阵",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-074.json",
+      "result": "implemented",
+      "not_run": [
+        "actual later chapters and personal story producers",
+        "full native player route",
+        "real input-method and screen-reader acceptance",
+        "editorial, critical audio and target-band review",
+        "rights review and publisher signature",
+        "different clean Windows machine qualification"
+      ]
+    },
+    {
+      "id": "CX-075",
+      "kind": "engineering",
+      "title": "性能、容量和长会话负载",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-075.json",
+      "result": "implemented",
+      "not_run": [
+        "78 playable scenes on-demand loading",
+        "long native NPC lease session",
+        "final release build benchmark",
+        "physical power loss",
+        "human performance acceptance"
+      ]
+    },
+    {
+      "id": "CX-076",
+      "kind": "engineering",
+      "title": "Windows故障、升级与恢复矩阵",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-076.json",
+      "result": "implemented",
+      "not_run": [
+        "Physical power interruption (child process kill is recorded separately)",
+        "Physical system disk-full (the actual SQLite max-page quota failure is a narrower isolated test)",
+        "Complete matrix through the exported executable and native failure UX",
+        "A different clean Windows machine and human recovery/IME/screen-reader validation"
+      ]
+    },
+    {
+      "id": "CX-077",
+      "kind": "engineering",
+      "title": "干净Windows候选包与权利清单",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-077.json",
+      "result": "implemented",
+      "not_run": [
+        "actual later chapters and personal story producers",
+        "full native player route",
+        "real input-method and screen-reader acceptance",
+        "editorial, critical audio and target-band review",
+        "rights review and publisher signature",
+        "different clean Windows machine qualification"
+      ]
+    },
+    {
+      "id": "CX-078",
+      "kind": "engineering",
+      "title": "全量内容与全流程回归执行",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-078.json",
+      "result": "implemented",
+      "not_run": [
+        "actual later chapters and personal story producers",
+        "full native player route",
+        "real input-method and screen-reader acceptance",
+        "editorial, critical audio and target-band review",
+        "rights review and publisher signature",
+        "different clean Windows machine qualification"
+      ]
+    },
+    {
+      "id": "CX-079",
+      "kind": "engineering",
+      "title": "逐项发布门核对与证据汇总",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-079.json",
+      "result": "implemented",
+      "not_run": [
+        "actual later chapters and personal story producers",
+        "full native player route",
+        "real input-method and screen-reader acceptance",
+        "editorial, critical audio and target-band review",
+        "rights review and publisher signature",
+        "different clean Windows machine qualification"
+      ]
+    },
+    {
+      "id": "CX-080",
+      "kind": "engineering",
+      "title": "经批准的本地交付与用户操作说明",
+      "execution_status": "implemented",
+      "report_exists": true,
+      "report": "reports/execution/CX-080.json",
+      "result": "implemented",
+      "not_run": [
+        "actual later chapters and personal story producers",
+        "full native player route",
+        "real input-method and screen-reader acceptance",
+        "editorial, critical audio and target-band review",
+        "rights review and publisher signature",
+        "different clean Windows machine qualification"
+      ]
+    },
+    {
+      "id": "CP-R0-01",
+      "kind": "content_authoring",
+      "title": "序章：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R0-01.json"
+    },
+    {
+      "id": "CP-R0-02",
+      "kind": "content_production",
+      "title": "序章：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R0-02.json"
+    },
+    {
+      "id": "CP-R0-03",
+      "kind": "chapter_integration",
+      "title": "序章：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R0-03.json"
+    },
+    {
+      "id": "CP-R0-04",
+      "kind": "content_integration",
+      "title": "序章：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R0-04.json"
+    },
+    {
+      "id": "CP-R0-05",
+      "kind": "chapter_qa",
+      "title": "序章：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R0-05.json"
+    },
+    {
+      "id": "CP-R0-06",
+      "kind": "human_calibration",
+      "title": "序章：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R0-06.json"
+    },
+    {
+      "id": "CP-R1-01",
+      "kind": "content_authoring",
+      "title": "盐雾港：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R1-01.json"
+    },
+    {
+      "id": "CP-R1-02",
+      "kind": "content_production",
+      "title": "盐雾港：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R1-02.json"
+    },
+    {
+      "id": "CP-R1-03",
+      "kind": "chapter_integration",
+      "title": "盐雾港：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R1-03.json"
+    },
+    {
+      "id": "CP-R1-04",
+      "kind": "content_integration",
+      "title": "盐雾港：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R1-04.json"
+    },
+    {
+      "id": "CP-R1-05",
+      "kind": "chapter_qa",
+      "title": "盐雾港：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R1-05.json"
+    },
+    {
+      "id": "CP-R1-06",
+      "kind": "human_calibration",
+      "title": "盐雾港：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R1-06.json"
+    },
+    {
+      "id": "CP-R2-01",
+      "kind": "content_authoring",
+      "title": "苔林修院：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R2-01.json"
+    },
+    {
+      "id": "CP-R2-02",
+      "kind": "content_production",
+      "title": "苔林修院：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R2-02.json"
+    },
+    {
+      "id": "CP-R2-03",
+      "kind": "chapter_integration",
+      "title": "苔林修院：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R2-03.json"
+    },
+    {
+      "id": "CP-R2-04",
+      "kind": "content_integration",
+      "title": "苔林修院：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R2-04.json"
+    },
+    {
+      "id": "CP-R2-05",
+      "kind": "chapter_qa",
+      "title": "苔林修院：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R2-05.json"
+    },
+    {
+      "id": "CP-R2-06",
+      "kind": "human_calibration",
+      "title": "苔林修院：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R2-06.json"
+    },
+    {
+      "id": "CP-R3-01",
+      "kind": "content_authoring",
+      "title": "沉钟矿区：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R3-01.json"
+    },
+    {
+      "id": "CP-R3-02",
+      "kind": "content_production",
+      "title": "沉钟矿区：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R3-02.json"
+    },
+    {
+      "id": "CP-R3-03",
+      "kind": "chapter_integration",
+      "title": "沉钟矿区：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R3-03.json"
+    },
+    {
+      "id": "CP-R3-04",
+      "kind": "content_integration",
+      "title": "沉钟矿区：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R3-04.json"
+    },
+    {
+      "id": "CP-R3-05",
+      "kind": "chapter_qa",
+      "title": "沉钟矿区：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R3-05.json"
+    },
+    {
+      "id": "CP-R3-06",
+      "kind": "human_calibration",
+      "title": "沉钟矿区：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R3-06.json"
+    },
+    {
+      "id": "CP-R4-01",
+      "kind": "content_authoring",
+      "title": "玻璃学城：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R4-01.json"
+    },
+    {
+      "id": "CP-R4-02",
+      "kind": "content_production",
+      "title": "玻璃学城：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R4-02.json"
+    },
+    {
+      "id": "CP-R4-03",
+      "kind": "chapter_integration",
+      "title": "玻璃学城：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R4-03.json"
+    },
+    {
+      "id": "CP-R4-04",
+      "kind": "content_integration",
+      "title": "玻璃学城：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R4-04.json"
+    },
+    {
+      "id": "CP-R4-05",
+      "kind": "chapter_qa",
+      "title": "玻璃学城：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R4-05.json"
+    },
+    {
+      "id": "CP-R4-06",
+      "kind": "human_calibration",
+      "title": "玻璃学城：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R4-06.json"
+    },
+    {
+      "id": "CP-R5-01",
+      "kind": "content_authoring",
+      "title": "失名旧都：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R5-01.json"
+    },
+    {
+      "id": "CP-R5-02",
+      "kind": "content_production",
+      "title": "失名旧都：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R5-02.json"
+    },
+    {
+      "id": "CP-R5-03",
+      "kind": "chapter_integration",
+      "title": "失名旧都：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R5-03.json"
+    },
+    {
+      "id": "CP-R5-04",
+      "kind": "content_integration",
+      "title": "失名旧都：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R5-04.json"
+    },
+    {
+      "id": "CP-R5-05",
+      "kind": "chapter_qa",
+      "title": "失名旧都：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R5-05.json"
+    },
+    {
+      "id": "CP-R5-06",
+      "kind": "human_calibration",
+      "title": "失名旧都：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R5-06.json"
+    },
+    {
+      "id": "CP-R6-01",
+      "kind": "content_authoring",
+      "title": "风暴边境：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R6-01.json"
+    },
+    {
+      "id": "CP-R6-02",
+      "kind": "content_production",
+      "title": "风暴边境：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R6-02.json"
+    },
+    {
+      "id": "CP-R6-03",
+      "kind": "chapter_integration",
+      "title": "风暴边境：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R6-03.json"
+    },
+    {
+      "id": "CP-R6-04",
+      "kind": "content_integration",
+      "title": "风暴边境：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R6-04.json"
+    },
+    {
+      "id": "CP-R6-05",
+      "kind": "chapter_qa",
+      "title": "风暴边境：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R6-05.json"
+    },
+    {
+      "id": "CP-R6-06",
+      "kind": "human_calibration",
+      "title": "风暴边境：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-R6-06.json"
+    },
+    {
+      "id": "CP-RF-01",
+      "kind": "content_authoring",
+      "title": "第七座灯塔：证据/动作完整制作卡与原创正文",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-RF-01.json"
+    },
+    {
+      "id": "CP-RF-02",
+      "kind": "content_production",
+      "title": "第七座灯塔：中文、词条、音轨与视觉素材生产",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-RF-02.json"
+    },
+    {
+      "id": "CP-RF-03",
+      "kind": "chapter_integration",
+      "title": "第七座灯塔：正式场景、机关与任务逐节点接入",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-RF-03.json"
+    },
+    {
+      "id": "CP-RF-04",
+      "kind": "content_integration",
+      "title": "第七座灯塔：地方/同伴/生活支线与可选预算",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-RF-04.json"
+    },
+    {
+      "id": "CP-RF-05",
+      "kind": "chapter_qa",
+      "title": "第七座灯塔：内部完整章回归、连续过渡与体验采样",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-RF-05.json"
+    },
+    {
+      "id": "CP-RF-06",
+      "kind": "human_calibration",
+      "title": "第七座灯塔：真人审校、审听与6.5条件校准",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/CP-RF-06.json"
+    },
+    {
+      "id": "HV-001",
+      "kind": "human_verification",
+      "title": "原生Windows输入、读屏和干净导出核验",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-001.json"
+    },
+    {
+      "id": "HV-002",
+      "kind": "human_verification",
+      "title": "第一可玩章目标用户可用性核验",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-002.json"
+    },
+    {
+      "id": "HV-003",
+      "kind": "human_verification",
+      "title": "完整候选的干净Windows安装与恢复核验",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-003.json"
+    },
+    {
+      "id": "HV-004",
+      "kind": "human_verification",
+      "title": "素材、声音、字体与发布权利核验",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-004.json"
+    },
+    {
+      "id": "HV-005",
+      "kind": "human_verification",
+      "title": "全游戏6.5覆盖与校准证据复核",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-005.json"
+    },
+    {
+      "id": "HV-006",
+      "kind": "human_verification",
+      "title": "隐私、范围和阻断风险独立复核",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-006.json"
+    },
+    {
+      "id": "HV-007",
+      "kind": "human_verification",
+      "title": "项目负责人作出交付决定",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-007.json"
+    },
+    {
+      "id": "HV-008",
+      "kind": "human_verification",
+      "title": "可选在线模型的真实质量和数据条款核验",
+      "execution_status": "not_started",
+      "report_exists": false,
+      "report": "reports/execution/HV-008.json"
+    }
+  ],
+  "source_snapshot": [
+    {
+      "path": "planning/plan.json",
+      "bytes": 242610,
+      "sha256": "9f5e000cd2298026f0e9189b3cabb2c8b17c6cf51d9ae3057fd9b353b4d54afa"
+    },
+    {
+      "path": "planning/state/execution.json",
+      "bytes": 27029,
+      "sha256": "a45a59c0d89fa0958b0d2c6aca7669b6e0fe86a47efb8b065b7cdc76aa428370"
+    },
+    {
+      "path": "docs/integration/MASTER_GDD_v0.1.md",
+      "bytes": 14508,
+      "sha256": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768"
+    },
+    {
+      "path": "docs/integration/Integration_Decisions_v0.1.md",
+      "bytes": 4447,
+      "sha256": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622"
+    },
+    {
+      "path": "reports/continuous/Scope_20261009.md",
+      "bytes": 1335,
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557"
+    },
+    {
+      "path": "reference/part03/Exploration_Layout_Reference_v0.1.json",
+      "bytes": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    {
+      "path": "reference/part06/data/Puzzle_Reference_v0.1.json",
+      "bytes": 42061,
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19"
+    },
+    {
+      "path": "reference/part08/data/Combat_Reference_v0.1.json",
+      "bytes": 56489,
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    {
+      "path": "src/Mist.Application/Materials/MaterialJournal.cs",
+      "bytes": 1730,
+      "sha256": "70189122c90ad1dd976d1ff2f2cd286c9d26615a309f4df19ca739e5152bfb56"
+    },
+    {
+      "path": "tests/Mist.Tests/Finale/FinaleBattleCases.cs",
+      "bytes": 10743,
+      "sha256": "febe7f850557e82ff0cb093e766f5c513a53bc98b8c493f7853aac5ab4f74a99"
+    }
+  ],
+  "human_gates": "not_self_signed; explicit human reports and applicable versions required"
+}

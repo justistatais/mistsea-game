@@ -1,0 +1,34 @@
+{
+  "Exploration_Layout_Reference_v0.1.json": {
+    "bytes": 51475,
+    "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+  },
+  "Exploration_Level_Design_v0.1.md": {
+    "bytes": 83759,
+    "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+  },
+  "Exploration_Validation_v0.1.md": {
+    "bytes": 3692,
+    "sha256": "17400a8daeab4c29e3e98b0bd5ab5c47215d8fb7df0b184649326fa25256e906"
+  },
+  "README.md": {
+    "bytes": 1495,
+    "sha256": "01f35fb6149ae56497a479b82e52623e29ed701757fdb413f8de6596e37f46a5"
+  },
+  "dependencies/Game_Design_Core_v0.1.md": {
+    "bytes": 36156,
+    "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+  },
+  "dependencies/World_Story_Bible_v0.1.md": {
+    "bytes": 85846,
+    "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+  },
+  "validation/validate_reference.py": {
+    "bytes": 10735,
+    "sha256": "4caecd4061b084643cbe6d081c58d48bc64a67a43f381ad488435ca9aa8a71a0"
+  },
+  "validation/validation_summary.json": {
+    "bytes": 212,
+    "sha256": "55c9e5fd2315b9e9ad6616c95fe962ed162c5f497bd4e002fd610a82866c0804"
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "version": "r0-author-map-20261010-1",
+  "scope": "author_only_source_map_not_player_projection",
+  "player_projection": false,
+  "generated_utc": "2026-10-10T05:03:46.207376+00:00",
+  "source_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "6b984f6f7fa5ba75b266ebf2fe002d93fb89581f283c4c0ee29e9604731d3335",
+      "bytes": 2694
+    },
+    {
+      "path": "docs/integration/MASTER_GDD_v0.1.md",
+      "sha256": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768",
+      "bytes": 14508
+    },
+    {
+      "path": "docs/integration/Integration_Decisions_v0.1.md",
+      "sha256": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622",
+      "bytes": 4447
+    },
+    {
+      "path": "reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+      "bytes": 85846
+    },
+    {
+      "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+      "bytes": 83759
+    },
+    {
+      "path": "docs/baseline/Quest_Event_System_v0.1.md",
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33",
+      "bytes": 64353
+    },
+    {
+      "path": "docs/baseline/English_Learning_System_v0.1.md",
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b",
+      "bytes": 55785
+    },
+    {
+      "path": "docs/baseline/Puzzle_System_v0.1.md",
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5",
+      "bytes": 59878
+    },
+    {
+      "path": "docs/baseline/Character_Progression_v0.1.md",
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c",
+      "bytes": 54639
+    },
+    {
+      "path": "docs/baseline/Combat_System_v0.1.md",
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88",
+      "bytes": 53850
+    },
+    {
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+      "bytes": 56895
+    },
+    {
+      "path": "docs/baseline/UI_UX_Spec_v0.1.md",
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7",
+      "bytes": 53334
+    },
+    {
+      "path": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+      "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738",
+      "bytes": 45924
+    },
+    {
+      "path": "reference/part04/data/Quest_Event_Reference_v0.1.json",
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7",
+      "bytes": 30359
+    },
+    {
+      "path": "reference/part05/data/English_Learning_Reference_v0.1.json",
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a",
+      "bytes": 62574
+    },
+    {
+      "path": "reference/part06/data/Puzzle_Reference_v0.1.json",
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19",
+      "bytes": 42061
+    },
+    {
+      "path": "reference/part08/data/Character_Progression_Reference_v0.1.json",
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6",
+      "bytes": 65966
+    },
+    {
+      "path": "reference/part08/data/Combat_Reference_v0.1.json",
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8",
+      "bytes": 56489
+    },
+    {
+      "path": "reference/part09/data/NPC_Faction_Reference_v0.1.json",
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0",
+      "bytes": 56328
+    },
+    {
+      "path": "content/source/campaign/first_entry.json",
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052",
+      "bytes": 39309
+    },
+    {
+      "path": "content/source/campaign/production_cards.json",
+      "sha256": "b6be4a3c92fa9feceecdf87782e79d6d9d087e189d3d39a0a1473c7d73965a38",
+      "bytes": 9445
+    },
+    {
+      "path": "content/source/chapter_one/chapter_one.json",
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9",
+      "bytes": 13945
+    },
+    {
+      "path": "content/source/part05-Original_Materials_v0.1.json",
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad",
+      "bytes": 27750
+    },
+    {
+      "path": "planning/tasks/CP-R0-01.md",
+      "sha256": "3e397084ad3db0c40f4810188ead6a5cca8d24d8073a9711d0da738dc8b2a19c",
+      "bytes": 2817
+    },
+    {
+      "path": "planning/tasks/CP-R0-02.md",
+      "sha256": "a9c1bc7ae0500b8d999fb2e19bd297a4871eac8402d244fc1aa050403397e70e",
+      "bytes": 2689
+    },
+    {
+      "path": "planning/tasks/CP-R0-03.md",
+      "sha256": "12170ff08940d6a7c6b4364729079c63950cece44a34f438c94751c217bb1ffc",
+      "bytes": 2731
+    },
+    {
+      "path": "planning/tasks/CP-R0-04.md",
+      "sha256": "72d1a43621707643a621390dd33ffd33d89e1d3a3b4416f8c717d0f118fdc4bb",
+      "bytes": 2670
+    },
+    {
+      "path": "planning/tasks/CP-R0-05.md",
+      "sha256": "4fa8b7e50be5115706fd7efa988801425d1c7a059db96c2321170257e2c6c356",
+      "bytes": 2730
+    },
+    {
+      "path": "planning/tasks/CP-R0-06.md",
+      "sha256": "f18bb56dbc97e5757240dab6a8ca5273f52a058b502af522b01af1adf7d04c86",
+      "bytes": 2701
+    },
+    {
+      "path": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "sha256": "4f738e7ef4e240141ff5bc19e4f790a9e8c85519a89df292385a32bd7d1dfd5c",
+      "bytes": 23329
+    },
+    {
+      "path": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "sha256": "e6b80838bb4b536627e1a48e75a556d651a876418edaba71c98ecd3da73d53ee",
+      "bytes": 17167
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "sha256": "47db7bcae3c6def3ad2cea2d37bf4033d298b1c63a637b318927249b61826aae",
+      "bytes": 23723
+    },
+    {
+      "path": "tests/Mist.Tests/Voyage/VoyageCases.cs",
+      "sha256": "102a115f4f20a9cbb10f4de17fdf565d85a88cdb4aed22a1a6b2351e2dd06850",
+      "bytes": 15268
+    },
+    {
+      "path": "content/source/R0/production_cards.author_only.md",
+      "sha256": "a0276d40b003462f9aa371bb1deea6418cbfd7ec5afd4e158cf4f5d1c5dd9319",
+      "bytes": 6524
+    }
+  ],
+  "original_blocks": [
+    {
+      "id": "QP01-R-ROUTE",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "The centre of the cabin floor is cracked. A person may appear to cross it successfully while the damaged boards continue to move underneath. Do not use that as a load test. The emergency cabinet beside the port wall contains a hand tool and a short rescue line; both belong to this vessel's rescue kit. A loose gangboard is stored along the intact side of the cabin. Secure it across the damaged section, keeping its ends on sound supports, before directing anybody towards the shore exit. The reef path begins beyond that exit. This note describes the cabin passage, not the safety of the landing place outside. Check the shore notice before choosing an approach for the rescue boat.",
+      "english_sha256": "96fb403514f0fe5fb485d79757a630ac34e8bb2a12fee2d39540c7bf9402c511",
+      "chinese_sha256": "b5bfff108600bf4967cb5bc433f16c241e4e011878dbe5751c6c16362b48f330",
+      "modality": "reading",
+      "scene": "R0-S01",
+      "spot": "R0-S01.route_note",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP01-R-LOG",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Bridge observation copy — times use the same ship clock. 21:14:10: the tower light disappeared from view while the heading indicator still showed the assigned course. 21:16:00: the helmsman reported a course deviation. 21:17:40: contact with the reef was felt. The entries describe what the crew observed; they do not identify a switch operator or establish the reason for the loss of light. The ship clock has not yet been compared with a shore instrument. Preserve this copy and compare it with an independent record when the rescue work allows it.",
+      "english_sha256": "fe7033bb728435665072d455b72317ac584f44f6e541e2d3fa4b6270b9c2081e",
+      "chinese_sha256": "a53a801f0d03374009ada6823847a4d103038929017889abc9bccf71ca581e4b",
+      "modality": "reading",
+      "scene": "R0-S01",
+      "spot": "R0-S01.ship_log",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP02-R-TIDE",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Two markers are visible from the reef path. The southern marker stands near the broken steps. It identifies the old landing place but does not confirm that the steps remain usable after a surge. The northern reach is beyond the low stone wall. Its approach is narrow, so a rescue boat must wait for a clear signal rather than following the first moving light it sees. The winch line can guide people towards either marker. Choose the receiving direction before loading the line, and repeat the tension check whenever that direction changes. A raised hand lamp may help people find the path; it does not replace the line or repair the steps.",
+      "english_sha256": "27e5834cf69159b9ff525def2649777b90320813a2409e722cd915955fb127bd",
+      "chinese_sha256": "bae863a99b811104bd8b423dc6d6df58c1b7a004fa5634aa6fa562dcb63af0cf",
+      "modality": "reading",
+      "scene": "R0-S02",
+      "spot": "R0-S02.tide_notice",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP02-L-CORRECTION",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Coast team to the stranded crew. We first marked the south steps as a possible receiving point. That instruction is withdrawn: a fresh inspection found the lower steps separated from their support. Use the northern reach beyond the low wall instead. There are four survivors waiting for assistance, apart from the technician carrying this message. Keep the rescue line clear of the broken steps. Once everyone is under shelter, send your position, the number of people needing collection and the approach restriction. Do not ask the boat to follow the southern marker merely because it is easier to see. We will acknowledge the request through the coast relay.",
+      "english_sha256": "000519eea5003ee6d9fc35eb60c4455980c063c6049ae79eb5ff725efc6b8041",
+      "chinese_sha256": "59b080f9bb1d47cb9c9b72603762d4c8ae77fc7f1764ed06946d7022aca74064",
+      "modality": "listening_script",
+      "scene": "R0-S02",
+      "spot": "R0-S02.shore_revision",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP02-R-WINCH",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "The shore winch has its own small reserve; it is not supplied by the harbour generator or by a ship battery. Switch its local power off and isolate the drive before seating the displaced cable. Secure the rescue line at the marked anchor, then set the receiving direction. The cable and line may be prepared in either order while the drive is isolated. Restore local power only after both are secure. Run the tension check with no people on the line. A check belongs to that configuration: moving the receiving direction, reseating the cable or changing power cancels its validity. The nearby animals must be kept away from the receiving path before the line carries people. If a check fails, keep people in the protected assembly area and inspect the preparation again; taking time to read this card does not change the number of survivors. The shelter retains a working short-range distress set for the shore receiving team. It can send the registered rescue request before the separate coast-to-harbour relay is restored. Harbour pickup is confirmed through that relay later; a saved draft at the shelter has not yet sent a request.",
+      "english_sha256": "8848ea11db21e0b8d8d10ac0a9fd015ef1135d99fdb8123b9d63d9b71614c421",
+      "chinese_sha256": "dbcac979c6f8ef3e2393754afcf095eabf195e526632f8ae7331e407f222bf5b",
+      "modality": "reading",
+      "scene": "R0-S03",
+      "spot": "R0-S03.winch_note",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP03-R-RELAY",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "This relay records signals locally even when its outgoing link is unavailable. The independent recorder and the outgoing transmitter are separate parts of the station. Before touching the displaced outgoing lead, switch the local transmitter off and isolate it. Seat the lead, restore the station's own reserve and run a link check. The test confirms this lead and power configuration only. If either changes, repeat it before requesting a boat. A successful link test is not evidence that a distant tower is safe. The postal locker may be opened for the named technician after the shore rescue has been completed. Its contents are correspondence, not a certificate about the sender's present whereabouts. The rear latch can be opened from this room to provide a shorter route back to the rescue shelter.",
+      "english_sha256": "1433fd36739a394fc4f223127e548ae29baca66b1ec87b3e4b7e7d15b64806ac",
+      "chinese_sha256": "7b2d7d0e18c417baaf2f265963b8fab344faa88b99f53da0623316fb0aff8d26",
+      "modality": "reading",
+      "scene": "R0-S05",
+      "spot": "R0-S05.relay_note",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP03-R-RECORDER",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Coast recorder extract. Instrument clock: 21:14:12, light signal lost at the observed tower channel. Further gaps occur in the same recording window, but the extract does not contain a complete network diagnosis. The shore clock and ship clock differ by approximately two seconds in their last routine comparison. Taken with the ship observation copy, this extract supports the order of light loss followed by course deviation. It does not name the person responsible, explain why every gap occurred or establish that the outage was deliberate. Keep the original time labels attached when making a later comparison.",
+      "english_sha256": "0c2d1f94335d5ec1f7e1d2c21c5a8bf7d6b34367765cf3abe8dd4da506f4c9ee",
+      "chinese_sha256": "3585df76d3f2b45869b5179edc733539a47f089b69860accb1c02326597154ab",
+      "modality": "reading",
+      "scene": "R0-S05",
+      "spot": "R0-S05.recorder",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP03-R-MAIL",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "To the new technician, from Mara. If a record is marked for destruction, first ask who issued the instruction, which version it concerns and what other record can be used to check it. A tidy report may leave out the circumstances that made its conclusion seem convincing. I have enclosed a request to compare the public maintenance record with an independent source. Deal with immediate rescue work before following it. This letter was placed in the inspection post before your journey; it cannot tell you where I am when you read it. Do not treat my concerns as proof. Preserve what you actually find, including anything that does not support the explanation you expected.",
+      "english_sha256": "cde83af8685ef5b75b2eca9eca50aeea7df387a1cb671fd3e7052f321690fa73",
+      "chinese_sha256": "a5a579f16af49f555933c924e9edf36350845d752a21febab606c9453f3b1ed0",
+      "modality": "reading",
+      "scene": "R0-S05",
+      "spot": "R0-S05.mailbag",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "QP03-R-PICKUP",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Coast pickup acknowledgement. Four people registered at the sheltered assembly point will be collected, together with the technician. The receiving route is the northern reach; the southern steps remain unavailable. Wait at the shelter's marked boarding point. The receiving crew will carry everyone to the public arrival berth at Saltmist Harbour. This acknowledgement permits that rescue passage only. It is not a general sailing licence, a maintenance commission or the handover of a patrol vessel. Take the coast records with you, keeping their source and time labels.",
+      "english_sha256": "aca5675c8eaa94bb68a3afcb0954dd40fd382285363a96d987e21185245cd77c",
+      "chinese_sha256": "d00bc20edaf5cd91501ea1c2851890d611c2896782437d09b8be3c6446005d05",
+      "modality": "reading",
+      "scene": "R0-S04",
+      "spot": "R0-S04.pickup",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    }
+  ],
+  "canonical_rewards": [
+    {
+      "quest_id": "Q-P01",
+      "title": "断开的航线",
+      "chapter": 0,
+      "entitlement_key": "Q-P01:resolution",
+      "old_reward_ref": "REWARD-Q-P01-TBD",
+      "xp": 100,
+      "marks": 0,
+      "parts": 0,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-P02",
+      "title": "有人还在岸上",
+      "chapter": 0,
+      "entitlement_key": "Q-P02:resolution",
+      "old_reward_ref": "REWARD-Q-P02-TBD",
+      "xp": 40,
+      "marks": 20,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-P03",
+      "title": "第二个记录器",
+      "chapter": 0,
+      "entitlement_key": "Q-P03:resolution",
+      "old_reward_ref": "REWARD-Q-P03-TBD",
+      "xp": 100,
+      "marks": 30,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    }
+  ],
+  "optional_xp": 0,
+  "human_review": "human_pending",
+  "calibration": "not_run",
+  "audio_audition": "not_run_by_author_index",
+  "source_text_changed": false
+}

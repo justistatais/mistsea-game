@@ -1,0 +1,362 @@
+{
+  "materials": [
+    {
+      "id": "PZ102-R-WORKSHOP",
+      "version": "0.1",
+      "title": "West workshop: local maintenance modes",
+      "quest_ref": "Q-102",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZ102-R-WORKSHOP-p01",
+          "text": "The workshop controller and the maintenance unit use a local reserve supply. They do not depend on the harbour main generator, and the ferry battery must remain on the ferry. The test lamp fixed to the workshop frame is part of this local system; it is not the navigation beacon needed for the evacuation."
+        },
+        {
+          "id": "PZ102-R-WORKSHOP-p02",
+          "text": "To use the inspection passage without crossing the front scan area, either isolate the maintenance unit at this controller or select Fixed Inspection. In Fixed Inspection, the unit continues examining the fixed lamp until the operator cancels the mode. There is no automatic return to normal operation. This mode releases the side-door interlock, but it does not make the front scan area safe."
+        },
+        {
+          "id": "PZ102-R-WORKSHOP-p03",
+          "text": "Isolation stops the unit and also releases the side-door interlock. Once the unit has been physically disabled, changing a switch cannot repair it. The inner bolt opens a separate return door to the square; that bolt is independent of the inspection-mode interlock. Leave the harbour generator off while its inspection is incomplete."
+        }
+      ],
+      "primary_goals": [
+        "R03",
+        "R04",
+        "W02"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZ102-LOCAL-PUZZLE",
+      "approx_word_count": 169
+    },
+    {
+      "id": "PZ102-R-PANEL",
+      "version": "0.1",
+      "title": "Main generator inspection tag",
+      "quest_ref": "Q-102",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZ102-R-PANEL-p01",
+          "text": "Inspection incomplete. The flooded cables have not yet been isolated. Do not start the harbour main generator. This restriction does not prevent the use of the workshop’s separate local maintenance controller. For work on the ferry beacon, use the charged battery already recorded on that vessel."
+        }
+      ],
+      "primary_goals": [
+        "R03",
+        "R04"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZ102-LOCAL-PUZZLE",
+      "approx_word_count": 46
+    },
+    {
+      "id": "PZHOT-R-ORIGINAL",
+      "version": "0.1",
+      "title": "Original confirmation: BKG-17",
+      "quest_ref": "SC-R1-001",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZHOT-R-ORIGINAL-p01",
+          "text": "Booking BKG-17 was originally confirmed for two guests arriving on the 16th of the current booking month. The guests requested two separate beds in a quiet room. A copied confirmation is kept with this letter for the accounts desk; it does not represent an additional booking."
+        },
+        {
+          "id": "PZHOT-R-ORIGINAL-p02",
+          "text": "The room request and the arrival date are separate parts of the record. A later amendment may change one without changing the other. Please retain the earlier version so that the change can be checked."
+        }
+      ],
+      "primary_goals": [
+        "R09",
+        "R03"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZHOT-LOCAL-PUZZLE",
+      "approx_word_count": 81
+    },
+    {
+      "id": "PZHOT-L-AMENDMENT",
+      "version": "0.1",
+      "title": "Guest confirmation of the date amendment",
+      "quest_ref": "SC-R1-001",
+      "modality": "listening",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZHOT-L-AMENDMENT-p01",
+          "text": "Clerk: I can see the original letter for the 16th and another confirmation for the 18th. Are these two groups travelling separately?"
+        },
+        {
+          "id": "PZHOT-L-AMENDMENT-p02",
+          "text": "Guest: No. We moved our arrival to the 18th, which is today in your booking register. We are still the same two guests under BKG-17. The revised confirmation replaces the arrival date, not the booking number. We still need separate beds and a quiet room."
+        },
+        {
+          "id": "PZHOT-L-AMENDMENT-p03",
+          "text": "Clerk: Thank you. I will retain the old letter as a previous version rather than enter it as another group. The other arrival, BKG-22, belongs to a different guest."
+        }
+      ],
+      "primary_goals": [
+        "L03",
+        "L05"
+      ],
+      "audio_asset": null,
+      "family_id": "FAM-PZHOT-LOCAL-PUZZLE",
+      "approx_word_count": 96
+    },
+    {
+      "id": "PZHOT-R-ROOMS",
+      "version": "0.1",
+      "title": "Current booking and room inspection sheet",
+      "quest_ref": "SC-R1-001",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZHOT-R-ROOMS-p01",
+          "text": "BKG-22 is an independent booking for one guest arriving on the 18th. The guest requires a room that can be reached without stairs. This booking has not replaced or amended BKG-17. Today’s arrivals are to be checked against booking identities, not the number of pieces of paper on the desk."
+        },
+        {
+          "id": "PZHOT-R-ROOMS-p02",
+          "text": "Room 2 has two separate beds and faces the quiet rear courtyard. A flight of stairs is the only access. Room 5 is a single room on the ground floor, reached without stairs; it faces the public square and is not offered as a quiet room. Both rooms have been inspected and are available for the current stay. The room cards and the current inspection refer to these same rooms."
+        }
+      ],
+      "primary_goals": [
+        "R03",
+        "R09"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZHOT-LOCAL-PUZZLE",
+      "approx_word_count": 120
+    },
+    {
+      "id": "PZTIME-R-ORDER",
+      "version": "0.1",
+      "title": "Transfer M-12: authorisation and movement log",
+      "quest_ref": "Q-202",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZTIME-R-ORDER-p01",
+          "text": "This file concerns transfer M-12, not the detained engineer. Personal names are held in a restricted attachment and are unnecessary for establishing the sequence below. All times on these sheets refer to the same local day."
+        },
+        {
+          "id": "PZTIME-R-ORDER-p02",
+          "text": "The departure officer checked the authorisation before allowing the vehicle to leave at 14:10. The authorisation sheet does not carry a reliable issue time. It establishes that approval existed before departure, but it does not justify assigning an exact minute to that approval."
+        }
+      ],
+      "primary_goals": [
+        "R05",
+        "R09",
+        "D03"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZTIME-LOCAL-PUZZLE",
+      "approx_word_count": 80
+    },
+    {
+      "id": "PZTIME-R-ARRIVAL",
+      "version": "0.1",
+      "title": "Receiving desk: arrival and copying record",
+      "quest_ref": "Q-202",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZTIME-R-ARRIVAL-p01",
+          "text": "The receiving desk recorded the vehicle’s arrival at 14:40. The entry was made by the receiving officer when the vehicle reached the site. At 16:05 the same day, an archive clerk copied the movement and arrival entries into the central ledger. The later ledger stamp marks the copying, not a second journey or a later physical arrival."
+        },
+        {
+          "id": "PZTIME-R-ARRIVAL-p02",
+          "text": "A duplicate of the departure entry was attached to the ledger. It is a copy of the departure officer’s record, not another observer’s account. Nothing in these documents states what the central office knew before departure or why its ledger was updated later."
+        }
+      ],
+      "primary_goals": [
+        "R05",
+        "R09",
+        "D03"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZTIME-LOCAL-PUZZLE",
+      "approx_word_count": 102
+    },
+    {
+      "id": "PZMAP-R-HISTORY",
+      "version": "0.1",
+      "title": "Old city route sheet and current inspection",
+      "quest_ref": "Q-501",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZMAP-R-HISTORY-p01",
+          "text": "The old route sheet shows the main bridge as a direct crossing from the checkpoint towards North Station. That line describes the former route; it is not current permission to cross. The central bridge span is now closed following subsidence."
+        },
+        {
+          "id": "PZMAP-R-HISTORY-p02",
+          "text": "A separate controlled passage through the checkpoint remains available after the traveller’s current inspection credentials have been checked. It does not require crossing the closed span. Travellers unable to use that passage can reach the station through the existing service tunnel once its obstruction and local hazard have been dealt with. The tunnel work can be completed with the basic inspection tools provided for the mission."
+        },
+        {
+          "id": "PZMAP-R-HISTORY-p03",
+          "text": "Both routes reach the station’s duty hall, not the detention rooms. Entering the hall does not itself grant access to the detained people. No current route is made safe merely because it still appears on the older map."
+        }
+      ],
+      "primary_goals": [
+        "R10",
+        "R09",
+        "R03"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZMAP-LOCAL-PUZZLE",
+      "approx_word_count": 144
+    },
+    {
+      "id": "PZMAP-L-DIRECTIONS",
+      "version": "0.1",
+      "title": "Resident’s route clarification",
+      "quest_ref": "Q-501",
+      "modality": "listening",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZMAP-L-DIRECTIONS-p01",
+          "text": "From the ferry landing, follow the inhabited street to the checkpoint. When I say the bridge is closed, I mean the old central crossing shown on the historic sheet, not every entrance at the checkpoint. Have your present inspection credentials checked for the controlled passage, or use the service tunnel after making it passable. Both bring you to the duty hall. Do not mark the detention rooms as accessible just because you have found a way to the station."
+        }
+      ],
+      "primary_goals": [
+        "L04",
+        "L03"
+      ],
+      "audio_asset": null,
+      "family_id": "FAM-PZMAP-LOCAL-PUZZLE",
+      "approx_word_count": 79
+    },
+    {
+      "id": "PZLOAD-R-MANIFEST",
+      "version": "0.1",
+      "title": "Supplementary load: packing list",
+      "quest_ref": "Q-603",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZLOAD-R-MANIFEST-p01",
+          "text": "The essential safety shipment and all supplies reserved for the six-tower programme have already been allocated separately. This plan concerns five additional packages and must not draw on those protected stocks. Each package must travel once, intact, in one of the two supplementary trips."
+        },
+        {
+          "id": "PZLOAD-R-MANIFEST-p02",
+          "text": "The installation-tool crate occupies three cargo spaces, and the mounting kit occupies one. The lighting module occupies four spaces. Weather panels occupy two spaces, as does the archive case. Each trip can carry at most six spaces. These numbers describe declared crate sizes, not weights that the crew may reduce by leaving contents behind."
+        }
+      ],
+      "primary_goals": [
+        "R03",
+        "R10",
+        "W02"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZLOAD-LOCAL-PUZZLE",
+      "approx_word_count": 98
+    },
+    {
+      "id": "PZLOAD-L-SEQUENCE",
+      "version": "0.1",
+      "title": "Installer’s delivery condition",
+      "quest_ref": "Q-603",
+      "modality": "listening",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZLOAD-L-SEQUENCE-p01",
+          "text": "The tools and the mounting kit must arrive on an earlier trip than the lighting module, so that we can prepare the installation position before it gets here. Sending them on the same trip as the module will not meet that requirement. The weather panels and the archive case can go on either trip. Choose which of those two you would prefer to receive earlier, but keep both trips within their capacity. These are additional deliveries; the basic safety work is not waiting for this choice."
+        }
+      ],
+      "primary_goals": [
+        "L08",
+        "L02"
+      ],
+      "audio_asset": null,
+      "family_id": "FAM-PZLOAD-LOCAL-PUZZLE",
+      "approx_word_count": 86
+    },
+    {
+      "id": "PZLAB-R-PROTOCOL",
+      "version": "0.1",
+      "title": "Local-control trial: scope and recorded conditions",
+      "quest_ref": "Q-402",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "originality": "new_original_local_puzzle_draft",
+      "paragraphs": [
+        {
+          "id": "PZLAB-R-PROTOCOL-p01",
+          "text": "These are short local trials of Controller A. Each run lasted ten minutes with the isolation check completed. The reported load is measured in the trial apparatus’s own units; no outside engineering calculation is required. “Stable” means the apparatus met the declared condition for those ten minutes, not that it has been approved for every tower or for permanent use."
+        },
+        {
+          "id": "PZLAB-R-PROTOCOL-p02",
+          "text": "Run T1 used load 40 with the reserve connected and remained stable. T2 used load 70 with the reserve connected and stopped. T3 used load 40 without the reserve and stopped. T4 repeated the T1 configuration and remained stable. No run tested load 55, and none tested full-scale operation across the six regional towers."
+        },
+        {
+          "id": "PZLAB-R-PROTOCOL-p03",
+          "text": "To compare the recorded effect of changing load while holding the listed configuration constant, compare T1 and T2. T1 and T3 address a different change. A careful report should describe which conditions have actually been observed and leave untested combinations open. Further trials and field checks remain necessary before any wider operating proposal can be accepted."
+        }
+      ],
+      "primary_goals": [
+        "R07",
+        "R10",
+        "D03"
+      ],
+      "audio_asset": "not_applicable",
+      "family_id": "FAM-PZLAB-LOCAL-PUZZLE",
+      "approx_word_count": 170
+    }
+  ],
+  "asset_notice": "听力部分仅脚本，本轮没有声音成品；新增局部材料全为6.5目标候选，未实测校准",
+  "upstream_reused_file": "dependencies/Original_Materials_v0.1.json",
+  "upstream_aliases": {
+    "MAT-R1-A-C": [
+      "Q102-R-NOTICE"
+    ],
+    "MAT-R1-CORRECTION": [
+      "Q102-L-REVISION"
+    ],
+    "MAT-R1-B-LIMIT": [
+      "Q102-R-B"
+    ],
+    "MAT-R1-VESSEL": [
+      "Q102-R-VESSEL",
+      "Q102-R-BATTERY"
+    ],
+    "MAT-R1-LOCAL-MODE": [
+      "PZ102-R-WORKSHOP"
+    ],
+    "MAT-R1-GENERATOR": [
+      "PZ102-R-PANEL"
+    ]
+  },
+  "alias_note": "并存制作别名仅在载入层映射，同一信息不复制为新独立学习证据；不得把Q-103待核验工单映射成真相结论"
+}

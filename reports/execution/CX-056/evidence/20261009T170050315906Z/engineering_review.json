@@ -1,0 +1,146 @@
+{
+  "task_id": "CX-056",
+  "scope": "四邀请时点、地方援勤、共享等级与遗物归还，战斗冻结名册。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "莉娜Q104后才正式入队",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-056",
+            "name": "A permanently assigned operator cannot depart, borrow an additional relic or fill assistance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Lina cannot join at Q102, decline permits another invitation, two auxiliaries remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Late tactics use shared level; one borrowed relic returns as the same instance on safe departure",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "无剧情同伴仍有两援助",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-056",
+            "name": "A permanently assigned operator cannot depart, borrow an additional relic or fill assistance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Lina cannot join at Q102, decline permits another invitation, two auxiliaries remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Late tactics use shared level; one borrowed relic returns as the same instance on safe departure",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "离队不丢收藏",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-056",
+            "name": "A permanently assigned operator cannot depart, borrow an additional relic or fill assistance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Lina cannot join at Q102, decline permits another invitation, two auxiliaries remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Late tactics use shared level; one borrowed relic returns as the same instance on safe departure",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "施工者不同时出战",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-056",
+            "name": "A permanently assigned operator cannot depart, borrow an additional relic or fill assistance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Lina cannot join at Q102, decline permits another invitation, two auxiliaries remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-056",
+            "name": "Late tactics use shared level; one borrowed relic returns as the same instance on safe departure",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-056",
+        "name": "A permanently assigned operator cannot depart, borrow an additional relic or fill assistance",
+        "result": "passed"
+      },
+      {
+        "task": "CX-056",
+        "name": "Lina cannot join at Q102, decline permits another invitation, two auxiliaries remain",
+        "result": "passed"
+      },
+      {
+        "task": "CX-056",
+        "name": "Late tactics use shared level; one borrowed relic returns as the same instance on safe departure",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-054",
+    "CX-047",
+    "CX-042"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

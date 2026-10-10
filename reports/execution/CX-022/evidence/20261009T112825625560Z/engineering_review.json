@@ -1,0 +1,62 @@
+{
+  "task_id": "CX-022",
+  "scope": "对真实.NET/SQLite实施子进程终止、双连接争抢和恢复，不只复跑Python模型。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "原状态或完整新状态二选一",
+      "status": "passed",
+      "evidence": "Actual .NET child processes terminated after_balances and after_commit reopen in old/new complete state"
+    },
+    {
+      "criterion": "同请求与工作不重复",
+      "status": "passed",
+      "evidence": "Same-request, semantic and competing-store tests grant once"
+    },
+    {
+      "criterion": "旧档/草稿/删除矩阵成立",
+      "status": "passed",
+      "evidence": "Actual old-checkpoint, draft CAS, deletion-control and restored-backup matrix passes"
+    },
+    {
+      "criterion": "进程终止不宣称断电实验",
+      "status": "passed",
+      "evidence": "Each process_evidence.json records process termination and explicitly excludes power-loss claim"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-022",
+        "name": "Real child process kill before commit recovers original complete state",
+        "result": "passed"
+      },
+      {
+        "task": "CX-022",
+        "name": "Real child process kill after commit recovers new complete state",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-014",
+    "CX-015",
+    "CX-016",
+    "CX-017",
+    "CX-018",
+    "CX-019",
+    "CX-020",
+    "CX-021"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

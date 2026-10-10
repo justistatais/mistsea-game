@@ -1,0 +1,496 @@
+{
+  "task_id": "CX-074",
+  "scope": "验证两条基础路线与五增强条件，政策确认后生成固定分支尾声。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "全部条件提前可见",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-074",
+            "name": "All 32 combinations of five distributed conditions leave the two baseline directions available",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Preparation facts remain unpublished before actual Q404 closure; chapter labels and arbitrary receipts do not unlock",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Actual six-tower baseline work producer and installed supplies satisfy base readiness without enhancement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current tower readiness cannot replace scoped verified work, installed quantities or actual local duties",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current version and appointment instances independently invalidate distributed eligibility without blocking baseline",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Departure requires actual transferred vessel instance and current border work; civil ferry or task labels grant no ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unaccepted optional work does not block departure; accepted onsite work requires safe handover or explicit suspension",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Cargo in transit and an incomplete current risk register are explicit departure blockers",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Sealing requires a genuine protected checkpoint, locks installed quantities and performs no narrative closure or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Checkpoint metadata mismatch or concurrent world change cannot commit preparation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Central stabilization supplies safety only and never selects policy, fabricates final activity or grants a reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Policy confirmation requires current actual final control; prose changes invalidate an old action preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "All three actual SQLite ending commits award once, preserve responsibility and world history, and replay epilogues without assessment",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Frozen agreements survive irrelevant later preferences; sealed material depletion is caught atomically even after preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Revoked actual control between preview and transaction rejects the ending without any partial reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unknown commit outcome retries the identical command and resolves one fixed snapshot and reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Prefinal load starts a different adventure outcome while the original ending remains immutable and old preview is rejected",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    },
+    {
+      "criterion": "英语与同伴偏好不读入资格",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-074",
+            "name": "All 32 combinations of five distributed conditions leave the two baseline directions available",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Preparation facts remain unpublished before actual Q404 closure; chapter labels and arbitrary receipts do not unlock",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Actual six-tower baseline work producer and installed supplies satisfy base readiness without enhancement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current tower readiness cannot replace scoped verified work, installed quantities or actual local duties",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current version and appointment instances independently invalidate distributed eligibility without blocking baseline",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Departure requires actual transferred vessel instance and current border work; civil ferry or task labels grant no ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unaccepted optional work does not block departure; accepted onsite work requires safe handover or explicit suspension",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Cargo in transit and an incomplete current risk register are explicit departure blockers",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Sealing requires a genuine protected checkpoint, locks installed quantities and performs no narrative closure or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Checkpoint metadata mismatch or concurrent world change cannot commit preparation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Central stabilization supplies safety only and never selects policy, fabricates final activity or grants a reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Policy confirmation requires current actual final control; prose changes invalidate an old action preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "All three actual SQLite ending commits award once, preserve responsibility and world history, and replay epilogues without assessment",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Frozen agreements survive irrelevant later preferences; sealed material depletion is caught atomically even after preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Revoked actual control between preview and transaction rejects the ending without any partial reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unknown commit outcome retries the identical command and resolves one fixed snapshot and reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Prefinal load starts a different adventure outcome while the original ending remains immutable and old preview is rejected",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    },
+    {
+      "criterion": "三种结局不抹历史",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-074",
+            "name": "All 32 combinations of five distributed conditions leave the two baseline directions available",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Preparation facts remain unpublished before actual Q404 closure; chapter labels and arbitrary receipts do not unlock",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Actual six-tower baseline work producer and installed supplies satisfy base readiness without enhancement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current tower readiness cannot replace scoped verified work, installed quantities or actual local duties",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current version and appointment instances independently invalidate distributed eligibility without blocking baseline",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Departure requires actual transferred vessel instance and current border work; civil ferry or task labels grant no ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unaccepted optional work does not block departure; accepted onsite work requires safe handover or explicit suspension",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Cargo in transit and an incomplete current risk register are explicit departure blockers",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Sealing requires a genuine protected checkpoint, locks installed quantities and performs no narrative closure or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Checkpoint metadata mismatch or concurrent world change cannot commit preparation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Central stabilization supplies safety only and never selects policy, fabricates final activity or grants a reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Policy confirmation requires current actual final control; prose changes invalidate an old action preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "All three actual SQLite ending commits award once, preserve responsibility and world history, and replay epilogues without assessment",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Frozen agreements survive irrelevant later preferences; sealed material depletion is caught atomically even after preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Revoked actual control between preview and transaction rejects the ending without any partial reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unknown commit outcome retries the identical command and resolves one fixed snapshot and reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Prefinal load starts a different adventure outcome while the original ending remains immutable and old preview is rejected",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    },
+    {
+      "criterion": "最终机组停机不是直接选政策",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-074",
+            "name": "All 32 combinations of five distributed conditions leave the two baseline directions available",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Preparation facts remain unpublished before actual Q404 closure; chapter labels and arbitrary receipts do not unlock",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Actual six-tower baseline work producer and installed supplies satisfy base readiness without enhancement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current tower readiness cannot replace scoped verified work, installed quantities or actual local duties",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Current version and appointment instances independently invalidate distributed eligibility without blocking baseline",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Departure requires actual transferred vessel instance and current border work; civil ferry or task labels grant no ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unaccepted optional work does not block departure; accepted onsite work requires safe handover or explicit suspension",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Cargo in transit and an incomplete current risk register are explicit departure blockers",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Sealing requires a genuine protected checkpoint, locks installed quantities and performs no narrative closure or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Checkpoint metadata mismatch or concurrent world change cannot commit preparation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Central stabilization supplies safety only and never selects policy, fabricates final activity or grants a reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Policy confirmation requires current actual final control; prose changes invalidate an old action preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "All three actual SQLite ending commits award once, preserve responsibility and world history, and replay epilogues without assessment",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Frozen agreements survive irrelevant later preferences; sealed material depletion is caught atomically even after preview",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Revoked actual control between preview and transaction rejects the ending without any partial reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Unknown commit outcome retries the identical command and resolves one fixed snapshot and reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-074",
+            "name": "Prefinal load starts a different adventure outcome while the original ending remains immutable and old preview is rejected",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-074",
+        "name": "All 32 combinations of five distributed conditions leave the two baseline directions available",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Preparation facts remain unpublished before actual Q404 closure; chapter labels and arbitrary receipts do not unlock",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Actual six-tower baseline work producer and installed supplies satisfy base readiness without enhancement",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Current tower readiness cannot replace scoped verified work, installed quantities or actual local duties",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Current version and appointment instances independently invalidate distributed eligibility without blocking baseline",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Departure requires actual transferred vessel instance and current border work; civil ferry or task labels grant no ownership",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Unaccepted optional work does not block departure; accepted onsite work requires safe handover or explicit suspension",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Cargo in transit and an incomplete current risk register are explicit departure blockers",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Sealing requires a genuine protected checkpoint, locks installed quantities and performs no narrative closure or reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Checkpoint metadata mismatch or concurrent world change cannot commit preparation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Central stabilization supplies safety only and never selects policy, fabricates final activity or grants a reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Policy confirmation requires current actual final control; prose changes invalidate an old action preview",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "All three actual SQLite ending commits award once, preserve responsibility and world history, and replay epilogues without assessment",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Frozen agreements survive irrelevant later preferences; sealed material depletion is caught atomically even after preview",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Revoked actual control between preview and transaction rejects the ending without any partial reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Unknown commit outcome retries the identical command and resolves one fixed snapshot and reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-074",
+        "name": "Prefinal load starts a different adventure outcome while the original ending remains immutable and old preview is rejected",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 287,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-073",
+    "CX-061",
+    "CP-RF-03"
+  ],
+  "not_run": [
+    "actual later chapters and personal story producers",
+    "full native player route",
+    "real input-method and screen-reader acceptance",
+    "editorial, critical audio and target-band review",
+    "rights review and publisher signature",
+    "different clean Windows machine qualification"
+  ]
+}

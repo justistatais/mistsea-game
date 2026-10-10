@@ -1,0 +1,61 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R4-03",
+      "name": "Bare R4 actor cannot create actual sample authority, voyage or chapter progress",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "Actual sailing initialises zero new rewards; sample deposit moves the single instance once",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "A comparisons accept both load repetitions and reserve comparison; unknown 55 never produces results",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "Parallel Q402 can close before Q401; actual failed run cannot close the dependent trial report",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "Physical observation records finite five and ten minute steps; retry does not advance time twice",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "Read-only preview and draft CAS reject stale reports without issuing facts or scope",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "Actual C counterexample and stable run persist; local reset invalidates current proof and keeps safe exit",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "Main tasks transfer actual sample, bounded technical findings and exact rewards once; Safe is separate from conversion",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "CQ-MIRA02 requires actual prior limited handoff, private acceptance and derived delivery, without recruitment",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-03",
+      "name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

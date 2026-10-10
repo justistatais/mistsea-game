@@ -1,0 +1,36 @@
+{
+  "version": "r4-study-inquiry-candidate-1",
+  "player_projection": true,
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "original_material": "R4-O01-R-NOTICES",
+  "draft_task": "R4-R4OPTIONALSTUDY-W",
+  "desk": "ROLE-R4-COURSE-DESK",
+  "permit_version": "SC-PUBLIC-01",
+  "materials": [
+    {
+      "id": "R4-O01-STUDY-R-PROCEDURE",
+      "title": "课程台：公共询问受理规程",
+      "version": "r4-study-inquiry-candidate-1",
+      "spot": "R4-O01.inquiry",
+      "source_root": "r4-course-desk-public-inquiry-procedure",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "english": "The course desk accepts a bounded public enquiry about the retained instrument-practice notice and its room correction. Read both notices at the notice board before using this desk. Instrument practice remains at 14:00; its corrected room is Birch. Cedar is reserved for the archive workshop. A room correction does not show that either course has been cancelled, or that a student can attend both simultaneous sessions.\n\nThe desk can clarify the published arrangement, provide a short public outline, or record a request for an alternative practice opportunity. Select the question you want considered. A request for another session remains a request until a separate allocation is announced. Do not include private student records, medical reasons, another person's identity or claims about the trial programme. The desk has no authority over those records.\n\nFor this local enquiry, one sheet is available as desk working stock. Collect that sheet, preserve the original and correction in your comparison, save your own wording and separately confirm the bounded question. Preparing and sealing the same sheet is different from handing it in. Before delivery you can reopen it and revise; after delivery the desk retains that version. This zero-reward activity does not alter course enrolment, main-quest progress or any ending condition.",
+      "chinese": "课程台受理关于留存仪表练习通知及房间更正的有限公共询问。使用台前，先到通知板阅读两件。仪表练习仍在14:00，更正房间为Birch；Cedar留给档案工作坊。更正房间不说明任一课程取消，也不说明学生可以完整参加两场同时课程。\n\n课程台可以澄清已发布安排，给一份简短公开提纲，或登记另一次练习机会的申请。请选择想询问的问题。另一场次须另有分配公告才能成立。不要写私人学生记录、医疗原因、他人身份或试验项目结论；课程台无权处理这些记录。\n\n本项地方询问提供一张工作纸。实际领取同一张纸，比较时保留原通知与更正，保存自己的正文并另行确认有限问题。定稿封口不等于交付；交付前可拆封改写，交付后台前保留那一版本。此零奖励工作不改选课、主线进度或结局条件。"
+    },
+    {
+      "id": "R4-O01-STUDY-R-REPLY-SCOPE",
+      "title": "课程台：答复范围与取件说明",
+      "version": "r4-study-inquiry-candidate-1",
+      "spot": "R4-O01.inquiry",
+      "source_root": "r4-course-desk-public-reply-scope",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "english": "A delivered enquiry is entered once in the local course-desk ledger. The two posted notices remain in the archive. The desk prepares one written reply for that entry; the student must collect and read the actual reply at this desk. A saved draft or an unopened sheet does not count as receipt of an answer.\n\nFor a clarification enquiry, the reply confirms the published room change and explains that the time conflict remains. A public outline describes instrument practice as work with a housing and reference marks, and archive-workshop practice as keeping source documents in order. It is a reading aid, not evidence that either session was attended. An alternative-practice enquiry is registered for later allocation; it creates no new session, seat or attendance certificate now. All three are valid bounded questions. No language score selects which one is accepted.\n\nKeep the enquiry version and the reply. Later edits to your personal draft do not rewrite what was handed in. The local ledger may show that the question was received and its bounded answer collected, while an allocation request is still pending. These are different facts. The reply carries no experience, marks, parts, private-record permission or network-safety approval.",
+      "chinese": "实际交付的询问只登记一次于本地课程台账。两份通知留档。课程台为该条登记准备一份书面答复；学生须在台前实际领取并阅读。保存草稿或未打开的纸件不算已收到答案。\n\n澄清询问的答复确认公开房间更正，并说明时间冲突仍在。公开提纲说明仪表练习使用外壳与参考标，档案工作坊练习保持来源文件次序；提纲只是阅读帮助，不证明上过任何课程。申请另一练习机会会记入待分配事项，现在不生成新场次、席位或出勤证明。三种都属于可受理的有限问题，语言分数不决定受理哪一种。\n\n保留交付版本及答复。以后改个人草稿不会改写已交付文字。台账可以同时显示问题已收、有限答复已取，以及分配申请仍待定；它们是不同事实。答复没有经验、刻币、零件、私人记录许可或网络安全批准。"
+    }
+  ]
+}

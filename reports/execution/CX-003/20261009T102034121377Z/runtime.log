@@ -1,0 +1,7 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe", "--headless", "--path", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\ui", "--", "--ui-test"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+MISTSEA_UI_RESULTS {"scope":"Godot native controls with synthetic event checks","checks":{"3000_word_fixture_loaded":true,"unicode_roundtrip":true,"editing_does_not_trigger_world":true,"synthetic_composition_blocks_scene":true,"last_button_reachable_100":true,"last_button_reachable_200":true,"accessible_names_present":true},"real_ime":"not_run","real_screen_reader":"not_run"}
+
+[stderr]

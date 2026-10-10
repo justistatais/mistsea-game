@@ -1,0 +1,28 @@
+{
+  "task_id": "CX-002",
+  "authorization": "用户本轮明确允许自行安装工具；继续处理已解锁的工具链任务。",
+  "source_scope": [
+    "spikes/",
+    "toolchain/",
+    "reports/",
+    "global.json",
+    "Directory.Packages.props"
+  ],
+  "workflow_metadata_exception": {
+    "path": "planning/state/execution.json",
+    "reason": "共同交付约定要求真实任务状态和证据；只更新CX-002条目与账本说明，不变更计划、依赖或其他任务。"
+  },
+  "external_installations": {
+    "paths": [
+      "%LOCALAPPDATA%/MistSeaToolchain",
+      "%APPDATA%/Godot/export_templates/4.7.2.stable.mono"
+    ],
+    "reason": "用户明确授权的软件安装目录；保留现有系统工具，新增指定版本。"
+  },
+  "evidence_maintenance": {
+    "reason": "将持续更新的执行账产物改为接管时的不可变快照，避免后续合法进度更新使CX-001证据失效。",
+    "snapshot_sha256": "9ee81ac8a170b3c9611a46032907e588d6dcd8b6bd24dbaa9afd74093c9e4bf1",
+    "maintained_at_utc": "2026-10-09T09:37:12.872080+00:00",
+    "original_evidence_content_preserved": true
+  }
+}

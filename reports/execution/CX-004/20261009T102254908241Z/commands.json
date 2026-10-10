@@ -1,0 +1,55 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "new",
+      "sln",
+      "--format",
+      "sln",
+      "--name",
+      "StorageProbe",
+      "--output",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-004/20261009T102254908241Z/solution.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "sln",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.sln",
+      "add",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.csproj"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-004/20261009T102254908241Z/solution_add.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "restore",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.csproj",
+      "--configfile",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-004/20261009T102254908241Z/restore.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "build",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.csproj",
+      "--no-restore",
+      "-c",
+      "Debug"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 1,
+    "output_path": "reports/execution/CX-004/20261009T102254908241Z/build.log"
+  }
+]

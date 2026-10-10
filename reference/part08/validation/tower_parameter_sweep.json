@@ -1,0 +1,330 @@
+{
+  "scope": "matched current reference model and deterministic policy; optional consumables absent",
+  "helper_basic_coefficient_bp": 6500,
+  "results": [
+    {
+      "parameters": {
+        "hp": 420,
+        "damage": [
+          32,
+          58,
+          42
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-H",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "defeat",
+        "rounds": 11,
+        "party_hp": 0,
+        "party_max_hp": 408,
+        "hp_damage": 394,
+        "shield_absorbed": 115,
+        "breaks": 0,
+        "aid_used": 2,
+        "focus_spent": 21,
+        "device_damage": 0,
+        "downs": 4,
+        "actions": 38
+      }
+    },
+    {
+      "parameters": {
+        "hp": 420,
+        "damage": [
+          32,
+          58,
+          42
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-M",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 9,
+        "party_hp": 77,
+        "party_max_hp": 408,
+        "hp_damage": 420,
+        "shield_absorbed": 77,
+        "breaks": 0,
+        "aid_used": 2,
+        "focus_spent": 21,
+        "device_damage": 39,
+        "downs": 1,
+        "actions": 38
+      }
+    },
+    {
+      "parameters": {
+        "hp": 420,
+        "damage": [
+          32,
+          58,
+          42
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-S",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "defeat",
+        "rounds": 14,
+        "party_hp": 0,
+        "party_max_hp": 420,
+        "hp_damage": 405,
+        "shield_absorbed": 258,
+        "breaks": 0,
+        "aid_used": 2,
+        "focus_spent": 30,
+        "device_damage": 0,
+        "downs": 3,
+        "actions": 52
+      }
+    },
+    {
+      "parameters": {
+        "hp": 350,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-H",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 8,
+        "party_hp": 188,
+        "party_max_hp": 408,
+        "hp_damage": 350,
+        "shield_absorbed": 77,
+        "breaks": 0,
+        "aid_used": 2,
+        "focus_spent": 18,
+        "device_damage": 0,
+        "downs": 0,
+        "actions": 32
+      }
+    },
+    {
+      "parameters": {
+        "hp": 350,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-M",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 8,
+        "party_hp": 179,
+        "party_max_hp": 408,
+        "hp_damage": 350,
+        "shield_absorbed": 76,
+        "breaks": 0,
+        "aid_used": 2,
+        "focus_spent": 18,
+        "device_damage": 26,
+        "downs": 0,
+        "actions": 34
+      }
+    },
+    {
+      "parameters": {
+        "hp": 350,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-S",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 10,
+        "party_hp": 182,
+        "party_max_hp": 420,
+        "hp_damage": 350,
+        "shield_absorbed": 136,
+        "breaks": 0,
+        "aid_used": 2,
+        "focus_spent": 24,
+        "device_damage": 0,
+        "downs": 0,
+        "actions": 44
+      }
+    },
+    {
+      "parameters": {
+        "hp": 310,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-H",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 7,
+        "party_hp": 197,
+        "party_max_hp": 408,
+        "hp_damage": 310,
+        "shield_absorbed": 64,
+        "breaks": 0,
+        "aid_used": 1,
+        "focus_spent": 15,
+        "device_damage": 0,
+        "downs": 0,
+        "actions": 27
+      }
+    },
+    {
+      "parameters": {
+        "hp": 310,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-M",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 7,
+        "party_hp": 191,
+        "party_max_hp": 408,
+        "hp_damage": 310,
+        "shield_absorbed": 63,
+        "breaks": 0,
+        "aid_used": 1,
+        "focus_spent": 18,
+        "device_damage": 26,
+        "downs": 0,
+        "actions": 29
+      }
+    },
+    {
+      "parameters": {
+        "hp": 310,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-S",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 8,
+        "party_hp": 201,
+        "party_max_hp": 420,
+        "hp_damage": 310,
+        "shield_absorbed": 109,
+        "breaks": 0,
+        "aid_used": 1,
+        "focus_spent": 20,
+        "device_damage": 0,
+        "downs": 0,
+        "actions": 35
+      }
+    },
+    {
+      "parameters": {
+        "hp": 290,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-H",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 6,
+        "party_hp": 227,
+        "party_max_hp": 408,
+        "hp_damage": 290,
+        "shield_absorbed": 32,
+        "breaks": 0,
+        "aid_used": 1,
+        "focus_spent": 14,
+        "device_damage": 0,
+        "downs": 0,
+        "actions": 25
+      }
+    },
+    {
+      "parameters": {
+        "hp": 290,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-M",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 6,
+        "party_hp": 227,
+        "party_max_hp": 408,
+        "hp_damage": 290,
+        "shield_absorbed": 44,
+        "breaks": 0,
+        "aid_used": 1,
+        "focus_spent": 14,
+        "device_damage": 26,
+        "downs": 0,
+        "actions": 25
+      }
+    },
+    {
+      "parameters": {
+        "hp": 290,
+        "damage": [
+          26,
+          50,
+          34
+        ]
+      },
+      "result": {
+        "build": "BUILD-TOWER-S",
+        "scenario": "BENCH-TOWER",
+        "difficulty": "standard",
+        "outcome": "victory",
+        "rounds": 7,
+        "party_hp": 213,
+        "party_max_hp": 420,
+        "hp_damage": 290,
+        "shield_absorbed": 96,
+        "breaks": 0,
+        "aid_used": 0,
+        "focus_spent": 18,
+        "device_damage": 0,
+        "downs": 0,
+        "actions": 30
+      }
+    }
+  ]
+}

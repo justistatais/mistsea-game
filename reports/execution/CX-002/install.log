@@ -1,0 +1,40 @@
+Downloading the exact SDK, Godot .NET editor and matching export templates.
+{"download": "dotnet-sdk-10.0.401-win-x64.zip", "MiB": 64}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 64}
+{"download": "Godot_v4.7.2-stable_mono_win64.zip", "MiB": 64}
+{"download": "dotnet-sdk-10.0.401-win-x64.zip", "MiB": 128}
+{"downloaded_and_verified": "Godot_v4.7.2-stable_mono_win64.zip", "bytes": 116582061}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 128}
+{"download": "dotnet-sdk-10.0.401-win-x64.zip", "MiB": 192}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 192}
+{"download": "dotnet-sdk-10.0.401-win-x64.zip", "MiB": 256}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 256}
+{"downloaded_and_verified": "dotnet-sdk-10.0.401-win-x64.zip", "bytes": 300608304}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 320}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 384}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 448}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 512}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 576}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 640}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 704}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 768}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 832}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 896}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 960}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 1024}
+{"download": "Godot_v4.7.2-stable_mono_export_templates.tpz", "MiB": 1088}
+{"downloaded_and_verified": "Godot_v4.7.2-stable_mono_export_templates.tpz", "bytes": 1202598411}
+{
+  "installed": true,
+  "versions": {
+    "godot": "4.7.2",
+    "godot_net_sdk": "4.7.2",
+    "dotnet_sdk": "10.0.401",
+    "sqlite_provider": "10.0.12"
+  },
+  "counts": {
+    "sdk_files": 5577,
+    "editor_files": 82,
+    "template_files": 27
+  }
+}

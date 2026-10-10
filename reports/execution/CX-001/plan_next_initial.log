@@ -1,0 +1,6 @@
+{"argv": ["D:\\Python312\\python.exe", "-B", "tools/plan.py", "next", "--limit", "10"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1", "started_at": "2026-10-09T15:47:36+08:00", "exit_code": 0}
+[stdout]
+CX-001 | 接管文档、库存与执行账 | engineering | planning/tasks/CX-001.md
+此工具只检查计划/证据形式；不证明日志真实或取代真人验收。
+
+[stderr]

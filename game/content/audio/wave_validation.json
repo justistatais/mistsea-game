@@ -1,0 +1,40 @@
+{
+  "actual_wav_files": [
+    {
+      "id": "Q102-L-REVISION",
+      "frames": 2321433,
+      "sample_rate": 22050,
+      "channels": 1,
+      "duration_seconds": 105.28
+    },
+    {
+      "id": "LAB-L-001",
+      "frames": 4982872,
+      "sample_rate": 22050,
+      "channels": 1,
+      "duration_seconds": 225.981
+    },
+    {
+      "id": "PZHOT-L-AMENDMENT",
+      "frames": 902223,
+      "sample_rate": 22050,
+      "channels": 1,
+      "duration_seconds": 40.917
+    },
+    {
+      "id": "PZMAP-L-DIRECTIONS",
+      "frames": 633693,
+      "sample_rate": 22050,
+      "channels": 1,
+      "duration_seconds": 28.739
+    },
+    {
+      "id": "PZLOAD-L-SEQUENCE",
+      "frames": 637986,
+      "sample_rate": 22050,
+      "channels": 1,
+      "duration_seconds": 28.934
+    }
+  ],
+  "scope": "file header and duration; not human listening or calibration"
+}

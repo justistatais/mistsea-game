@@ -1,0 +1,2 @@
+test isolation
+Profile saves are preserved. Load requires a compatible repaired package or managed recovery candidate.

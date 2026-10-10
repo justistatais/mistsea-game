@@ -1,0 +1,112 @@
+{
+  "browser": "Chromium 144.0.7559.96",
+  "loader": "Playwright set_content; no navigation; opaque origin",
+  "storage_scope": "Browser storage unavailable at opaque origin; failure UX exercised, real local persistence/reload NOT tested",
+  "native_ime_tested": false,
+  "screen_reader_tested": false,
+  "real_engine_tested": false,
+  "cases": [
+    {
+      "name": "B01 页面装载、六入口、明确非游戏范围",
+      "status": "passed",
+      "seconds": 0.14
+    },
+    {
+      "name": "B02 编辑器字母、数字和回车不导航或执行",
+      "status": "passed",
+      "seconds": 0.244
+    },
+    {
+      "name": "B03 合成输入法事件优先处理Esc和Enter",
+      "status": "passed",
+      "seconds": 0.214
+    },
+    {
+      "name": "B04 受限存储时Ctrl+S明示失败并保留正文",
+      "status": "passed",
+      "seconds": 0.165
+    },
+    {
+      "name": "B05 材料和任务两个入口共用同一草稿",
+      "status": "passed",
+      "seconds": 0.356
+    },
+    {
+      "name": "B06 无音轨不模拟播放，脚本主动展开并记录",
+      "status": "passed",
+      "seconds": 0.178
+    },
+    {
+      "name": "B07 词义弹窗取消焦点与关闭恢复",
+      "status": "passed",
+      "seconds": 0.213
+    },
+    {
+      "name": "B08 准备、方案确认、预览不自动离港",
+      "status": "passed",
+      "seconds": 0.773
+    },
+    {
+      "name": "B09 配置拔插使旧预览失效",
+      "status": "passed",
+      "seconds": 0.65
+    },
+    {
+      "name": "B10 正文修改使旧预览失效",
+      "status": "passed",
+      "seconds": 0.713
+    },
+    {
+      "name": "B11 字号变化不改变合法行动条件",
+      "status": "passed",
+      "seconds": 0.7
+    },
+    {
+      "name": "B12 正常执行只生成一次演示回执",
+      "status": "passed",
+      "seconds": 0.809
+    },
+    {
+      "name": "B13 1280窗口200%字重排且按钮可达",
+      "status": "passed",
+      "seconds": 0.711
+    },
+    {
+      "name": "B14 900窗口材料与编辑切换保留正文",
+      "status": "passed",
+      "seconds": 0.309
+    },
+    {
+      "name": "B15 1920窗口双栏显示且无整体横向溢出",
+      "status": "passed",
+      "seconds": 0.39
+    },
+    {
+      "name": "B16 正文中的HTML不作为脚本执行",
+      "status": "passed",
+      "seconds": 0.319
+    },
+    {
+      "name": "B17 确认弹窗键盘焦点不落入背景",
+      "status": "passed",
+      "seconds": 0.808
+    },
+    {
+      "name": "B18 使用帮助及演示完成后仍不造语言分数",
+      "status": "passed",
+      "seconds": 0.839
+    },
+    {
+      "name": "B19 另一写入者冲突变只读且不覆盖当前稿",
+      "status": "passed",
+      "seconds": 0.237
+    },
+    {
+      "name": "B20 不可行航道不会被非空正文放行",
+      "status": "passed",
+      "seconds": 0.746
+    }
+  ],
+  "passed": 20,
+  "failed": 0
+}

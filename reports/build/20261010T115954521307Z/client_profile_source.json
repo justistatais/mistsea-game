@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T111545212936Z",
+  "selected_case": {
+    "index": 564,
+    "task": "CP-LINA-PERSONAL-05",
+    "name": "actual_zero_XP_Lina_native_entry_without_invitation_private_sources_or_work_result"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "0ff873fe5143ca328652df6c98943a8b1d31b0e693b9754c61dca3ea90bbca13",
+  "source_active_database": "reports/build/20261010T111545212936Z/case_runs/0564/testdata/lina-work-native-entry-092ade8d-6273-4991-81b3-4abf36a3fb6a/recovery/inventory-v2-62a2035a-f4a9-4698-97f6-3a17067d06f8.sqlite",
+  "source_active_database_sha256": "400350877fa6b5079a7c2ec2af7b4ab944584d9be26f510ce023f840656bb65e",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T111545212936Z",
+  "source": "reports/build/20261010T111545212936Z/case_runs/0564/testdata/lina-work-native-entry-092ade8d-6273-4991-81b3-4abf36a3fb6a/normal-lina-personal-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 564,
+    "task": "CP-LINA-PERSONAL-05",
+    "name": "actual_zero_XP_Lina_native_entry_without_invitation_private_sources_or_work_result"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "682c0356bf2a21a5a94e48552bee5cd26084fce86447e9bd3ea30f96881950d5",
+  "case_command_sha256": "b0f18639930cc4dc952a7a7713be9626f825b27e52f7f89408e0bf84248bbed2",
+  "proof_sha256": "0ff873fe5143ca328652df6c98943a8b1d31b0e693b9754c61dca3ea90bbca13",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "b43b044959dbdd30301759f24f1ffb99565bae0fe34e5290ba429333bb7f817c"
+    },
+    {
+      "path": "normal-lina-personal-native-entry.json",
+      "sha256": "0ff873fe5143ca328652df6c98943a8b1d31b0e693b9754c61dca3ea90bbca13"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "d051936ae8e5dced7e9226b464f90d35162491b61e1b0cbf413fea1526d20ee6"
+    },
+    {
+      "path": "recovery/inventory-v2-62a2035a-f4a9-4698-97f6-3a17067d06f8.sqlite",
+      "sha256": "400350877fa6b5079a7c2ec2af7b4ab944584d9be26f510ce023f840656bb65e"
+    },
+    {
+      "path": "recovery/normal-r2-main.json",
+      "sha256": "6bf9206d2c4eb533a9e7d7de78b8f58be14a640a11c12de3fe3b9f3c5134ffbe"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0564/testdata/lina-work-native-entry-092ade8d-6273-4991-81b3-4abf36a3fb6a/control.sqlite",
+      "sha256": "b43b044959dbdd30301759f24f1ffb99565bae0fe34e5290ba429333bb7f817c",
+      "copied_before_native_sha256": "b43b044959dbdd30301759f24f1ffb99565bae0fe34e5290ba429333bb7f817c"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0564/testdata/lina-work-native-entry-092ade8d-6273-4991-81b3-4abf36a3fb6a/normal-lina-personal-native-entry.json",
+      "sha256": "0ff873fe5143ca328652df6c98943a8b1d31b0e693b9754c61dca3ea90bbca13",
+      "copied_before_native_sha256": "0ff873fe5143ca328652df6c98943a8b1d31b0e693b9754c61dca3ea90bbca13"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0564/testdata/lina-work-native-entry-092ade8d-6273-4991-81b3-4abf36a3fb6a/profile.sqlite",
+      "sha256": "d051936ae8e5dced7e9226b464f90d35162491b61e1b0cbf413fea1526d20ee6",
+      "copied_before_native_sha256": "d051936ae8e5dced7e9226b464f90d35162491b61e1b0cbf413fea1526d20ee6"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0564/testdata/lina-work-native-entry-092ade8d-6273-4991-81b3-4abf36a3fb6a/recovery/inventory-v2-62a2035a-f4a9-4698-97f6-3a17067d06f8.sqlite",
+      "sha256": "400350877fa6b5079a7c2ec2af7b4ab944584d9be26f510ce023f840656bb65e",
+      "copied_before_native_sha256": "400350877fa6b5079a7c2ec2af7b4ab944584d9be26f510ce023f840656bb65e"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0564/testdata/lina-work-native-entry-092ade8d-6273-4991-81b3-4abf36a3fb6a/recovery/normal-r2-main.json",
+      "sha256": "6bf9206d2c4eb533a9e7d7de78b8f58be14a640a11c12de3fe3b9f3c5134ffbe",
+      "copied_before_native_sha256": "6bf9206d2c4eb533a9e7d7de78b8f58be14a640a11c12de3fe3b9f3c5134ffbe"
+    }
+  ]
+}

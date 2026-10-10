@@ -1,0 +1,85 @@
+{
+  "task_id": "CX-008",
+  "scope": "定义任务、实例、分支、尝试、命令、工作结算槽、草稿与删除世代，不合并不同身份。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "重复JSON字段与未知关键枚举拒绝",
+      "status": "passed",
+      "evidence": "Duplicate JSON, unknown DTO fields and numeric enum cases reject"
+    },
+    {
+      "criterion": "实时时间不推进剧情危机",
+      "status": "passed",
+      "evidence": "DomainClock test isolates wall time from action/combat clock"
+    },
+    {
+      "criterion": "查询无副作用",
+      "status": "passed",
+      "evidence": "Actual read-only query checks sequence and database byte hash unchanged"
+    },
+    {
+      "criterion": "钱/数量用整数，战斗公式使用约定精确计算",
+      "status": "passed",
+      "evidence": "Reward integers and exact floor basis-point case"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-008",
+        "name": "Duplicate JSON fields are rejected recursively",
+        "result": "passed"
+      },
+      {
+        "task": "CX-008",
+        "name": "Unknown enum and integer enum are rejected",
+        "result": "passed"
+      },
+      {
+        "task": "CX-008",
+        "name": "Typed identity serialization preserves its exact GUID",
+        "result": "passed"
+      },
+      {
+        "task": "CX-008",
+        "name": "Unicode scalar ranges preserve emoji, combining marks and Chinese",
+        "result": "passed"
+      },
+      {
+        "task": "CX-008",
+        "name": "Wall time observations cannot advance action or combat clocks",
+        "result": "passed"
+      },
+      {
+        "task": "CX-008",
+        "name": "Language target cannot silently rise or introduce speaking scores",
+        "result": "passed"
+      },
+      {
+        "task": "CX-008",
+        "name": "Integer rewards use exact floor basis points",
+        "result": "passed"
+      },
+      {
+        "task": "CX-008",
+        "name": "Read-only snapshot query does not write database or advance clock",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-006"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

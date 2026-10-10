@@ -1,0 +1,226 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Production checkpoint envelope v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "profile_id",
+    "campaign_id",
+    "branch_id",
+    "checkpoint_id",
+    "release_id",
+    "rules_version",
+    "state_sequence",
+    "modules",
+    "draft_heads",
+    "checksum"
+  ],
+  "properties": {
+    "profile_id": {
+      "type": "string"
+    },
+    "campaign_id": {
+      "type": "string"
+    },
+    "branch_id": {
+      "type": "string"
+    },
+    "checkpoint_id": {
+      "type": "string"
+    },
+    "release_id": {
+      "type": "string"
+    },
+    "rules_version": {
+      "type": "string"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "state_sequence": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "checksum": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "modules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adventure",
+        "exploration",
+        "combat",
+        "progression",
+        "people",
+        "work_orders",
+        "receipts",
+        "presentation"
+      ],
+      "properties": {
+        "adventure": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        },
+        "exploration": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        },
+        "combat": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        },
+        "progression": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        },
+        "people": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        },
+        "work_orders": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        },
+        "receipts": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        },
+        "presentation": {
+          "type": "object",
+          "required": [
+            "version",
+            "blob_ref"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "blob_ref": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "draft_heads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "task_id",
+          "draft_id",
+          "revision"
+        ],
+        "properties": {
+          "task_id": {
+            "type": "string"
+          },
+          "draft_id": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    }
+  }
+}

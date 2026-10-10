@@ -1,0 +1,200 @@
+{
+  "task_id": "CX-045",
+  "scope": "普通失衡取消与首领削弱区别；装置触发/回收预算；复活次轮行动。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "不永久连控首领",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-045",
+            "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Boss break weakens one attack while interlocks and recovery remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "取消攻击不触发装置",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-045",
+            "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Boss break weakens one attack while interlocks and recovery remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "回收不生免费能量",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-045",
+            "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Boss break weakens one attack while interlocks and recovery remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "全队倒地才失败",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-045",
+            "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Boss break weakens one attack while interlocks and recovery remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "净化不解除剧情机制",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-045",
+            "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Boss break weakens one attack while interlocks and recovery remain",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+            "result": "passed"
+          },
+          {
+            "task": "CX-045",
+            "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-045",
+        "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+        "result": "passed"
+      },
+      {
+        "task": "CX-045",
+        "name": "Boss break weakens one attack while interlocks and recovery remain",
+        "result": "passed"
+      },
+      {
+        "task": "CX-045",
+        "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+        "result": "passed"
+      },
+      {
+        "task": "CX-045",
+        "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-044"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "Cooperative shutdown of idle build servers from this task toolchain after exported files were generated",
+  "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+  "exit_code": 0,
+  "argv": [
+    "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+    "build-server",
+    "shutdown"
+  ],
+  "output": "正在关闭 MSBuild 服务器...\n正在关闭 VB/C# 编译器服务器...\n成功关闭 VB/C# 编译器服务器。\n成功关闭 MSBuild 服务器。",
+  "utc": "2026-10-10T11:05:27.6663843Z"
+}

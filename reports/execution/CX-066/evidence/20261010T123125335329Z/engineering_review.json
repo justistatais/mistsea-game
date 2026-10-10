@@ -1,0 +1,2501 @@
+{
+  "task_id": "CX-066",
+  "scope": "将脚本、音轨、字幕、派生译文与权利记录绑定，管理审核失效而非自动认证。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "只脚本不算音轨",
+      "status": "passed",
+      "evidence": {
+        "actual_current_named_cases": [
+          {
+            "result": {
+              "task": "CX-066",
+              "name": "Script-only audio has null hash/bytes/duration; JSON audition claims and invented timecodes cannot certify a recording",
+              "result": "passed"
+            },
+            "index": 291,
+            "report": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0291/test_results.json",
+              "sha256": "1a06aacca678141401cbfb56e0cfd55817b12b877a4ca30d76efaf559adc9210",
+              "bytes": 422
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0291/command.log",
+              "sha256": "b8fddeaeb743bed936de00c807ba1cec0938115d701a2c44f01de2e0fc7d61bd",
+              "bytes": 889
+            }
+          },
+          {
+            "result": {
+              "task": "CX-066",
+              "name": "missing_audio_selects_script_reading_and_cannot_be_listening_evidence",
+              "result": "passed"
+            },
+            "index": 455,
+            "report": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0455/test_results.json",
+              "sha256": "85a047bf00c3f86d2942053f281d53b3fd2ff2d8faad247cc040b1a23d7400d5",
+              "bytes": 373
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0455/command.log",
+              "sha256": "a8debebdb3eac4ce63e2a2362be66948ccf03fd6824d0638385524e758717ad6",
+              "bytes": 840
+            }
+          }
+        ],
+        "actual_assets": {
+          "learner_source": {
+            "path": "content/source/lexicon/learner_lexicon.json",
+            "sha256": "fc53cec7cd2bbb6d08236f7ca317db6e5bd2180959ee9892cf2f8fe0397ca373",
+            "bytes": 7671126
+          },
+          "installed_learner": {
+            "path": "game/content/lexicon/learner_lexicon.json",
+            "sha256": "fc53cec7cd2bbb6d08236f7ca317db6e5bd2180959ee9892cf2f8fe0397ca373",
+            "bytes": 7671126
+          },
+          "provenance": {
+            "path": "content/source/lexicon/provenance.author_only.json",
+            "sha256": "901d530019d5292c3656eb7ed4880509035668d3b7b68f552679ad7276b20db7",
+            "bytes": 17067
+          },
+          "content_version": "LEX-20261010-v3",
+          "sense_counts": {
+            "core": 360,
+            "extended": 360
+          },
+          "actual_context_count": 4556,
+          "actual_source_documents": [
+            {
+              "path": "content/source/campaign/first_entry.json",
+              "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052",
+              "bytes": 39309
+            },
+            {
+              "path": "content/source/chapter_one/chapter_one.json",
+              "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9",
+              "bytes": 13945
+            },
+            {
+              "path": "content/source/part05-Original_Materials_v0.1.json",
+              "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad",
+              "bytes": 27750
+            },
+            {
+              "path": "content/source/chapter_two/learner_package.json",
+              "sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905",
+              "bytes": 144131
+            },
+            {
+              "path": "content/source/chapter_three/learner_package.json",
+              "sha256": "1193b43a9151a74024f31a7e251e792637562762568f6384bb2eebf334e804a8",
+              "bytes": 210651
+            },
+            {
+              "path": "content/source/chapter_four/learner_package.json",
+              "sha256": "a444cde42ad1340f98fb2f243bdbd241a5deb96962e1cc390a9aa846ce3a155e",
+              "bytes": 130548
+            },
+            {
+              "path": "content/source/chapter_five/learner_package.json",
+              "sha256": "8b28847aa98b6cde1881b84404712e9edde05f1a207e16006a83f093f690c7ee",
+              "bytes": 137926
+            },
+            {
+              "path": "content/source/chapter_six/learner_package.json",
+              "sha256": "a6800f6c91d6fd4e98686c90ce6a3ed03765863f00cbe076f83b2e1f913276ed",
+              "bytes": 109055
+            },
+            {
+              "path": "content/source/finale/learner_package.json",
+              "sha256": "c07b8465f973760025c3d14b69f61bb4185dd9cc0676918abbf49d43e1b7eeac",
+              "bytes": 92412
+            },
+            {
+              "path": "content/source/r1_life/learner_package.json",
+              "sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0",
+              "bytes": 35696
+            },
+            {
+              "path": "content/source/first_approaches/learner_package.json",
+              "sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03",
+              "bytes": 12290
+            },
+            {
+              "path": "content/source/chapter_four/optional_credit.json",
+              "sha256": "75ac26868e11aa3514a9fb695aefc3981701674df190f34654e2030bb2726baf",
+              "bytes": 6140
+            },
+            {
+              "path": "content/source/chapter_four/optional_inquiry.json",
+              "sha256": "377d25c0db6f421bdef0de12bb336f2415f906fd62a69823253a6a6a1321cabe",
+              "bytes": 5614
+            },
+            {
+              "path": "content/source/optional_local_works/field_relay_contract.json",
+              "sha256": "cb06b027843a15779a24ff9f6219ba3fa380fbbabfa742ea9a8df6aa564309f6",
+              "bytes": 4082
+            },
+            {
+              "path": "content/source/lina_personal/learner_package.json",
+              "sha256": "6b8305b092778dd6b831117585cebb0dcb58c6caea2f8b05b3adc5eb2e54058c",
+              "bytes": 11353
+            },
+            {
+              "path": "content/source/r3_shift_work/learner_package.json",
+              "sha256": "c376ed99aa155d59ec1c01d97fd9e9ca7eb5e0fc03d7d8d3ed912b206ce17467",
+              "bytes": 9243
+            },
+            {
+              "path": "content/source/vessel_life/learner_package.json",
+              "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88",
+              "bytes": 64319
+            },
+            {
+              "path": "content/source/optional_encounter_contracts/learner_package.json",
+              "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1",
+              "bytes": 65228
+            },
+            {
+              "path": "content/source/optional_local_works/settlement_support_contracts.json",
+              "sha256": "b091d3fef85b0547440c9be7347a7aa1982507fc60e60d2bbc60050a019b53f1",
+              "bytes": 10537
+            },
+            {
+              "path": "content/source/optional_local_works/old_city_life_contract.json",
+              "sha256": "f9813eaee805167818cd071185c9678a083cd17476cd4f447b32c66f72b355e6",
+              "bytes": 7632
+            },
+            {
+              "path": "content/source/scoped_personal_work/learner_package.json",
+              "sha256": "d968379af19311bdc460e54f1d7c51eb8c75237d8710055041af1bd282048f90",
+              "bytes": 6757
+            }
+          ],
+          "human_sense_review": "human_pending",
+          "empirical_calibration": "not_run",
+          "sense_pronunciation_count": 0,
+          "actual_regional_audio_bindings": {
+            "path": "game/content/audio/regional_generation.json",
+            "sha256": "19e8b78b070bdd2e05e8263873ec15ef3b207bb1cd186efadc906f12729844c8",
+            "bytes": 110574
+          },
+          "actual_rendered_recordings": [
+            {
+              "material": "R2-Q201-L-SERVER",
+              "version": "r2-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R2-Q201-L-SERVER-r2-author-candidate-1-local-tts-1.wav",
+                "sha256": "7e1dda4eece9aa2359b008c7e57f2a95820e4fe6df3c07c78981000c59cd8eba",
+                "bytes": 1887834
+              },
+              "pcm_frames": 943894,
+              "sample_rate": 22050,
+              "duration_seconds": 42.806984126984126,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R2-Q201-L-RECEIVER",
+              "version": "r2-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R2-Q201-L-RECEIVER-r2-author-candidate-1-local-tts-1.wav",
+                "sha256": "c585a2c4b829b0b4f64f2e33ffe3553e895a0f44ecccc538138a72f1595b2a70",
+                "bytes": 1989898
+              },
+              "pcm_frames": 994926,
+              "sample_rate": 22050,
+              "duration_seconds": 45.12136054421769,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R2-Q202-L-CLERK",
+              "version": "r2-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R2-Q202-L-CLERK-r2-author-candidate-1-local-tts-1.wav",
+                "sha256": "9841820d9f104bc9be391ad66e755d0cc8171e977b43a6d3083274311c27ea10",
+                "bytes": 4338192
+              },
+              "pcm_frames": 2169073,
+              "sample_rate": 22050,
+              "duration_seconds": 98.37065759637188,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R2-Q203-L-OPERATOR",
+              "version": "r2-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R2-Q203-L-OPERATOR-r2-author-candidate-1-local-tts-1.wav",
+                "sha256": "185b4b1d9747c9871b6e8e113d4b2310159e09b1ff861297d75bb4f46bb28443",
+                "bytes": 4599418
+              },
+              "pcm_frames": 2299686,
+              "sample_rate": 22050,
+              "duration_seconds": 104.29414965986395,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R2-Q204-L-SCOPE",
+              "version": "r2-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R2-Q204-L-SCOPE-r2-author-candidate-1-local-tts-1.wav",
+                "sha256": "cb4b31c9e75d0e78df39b2db03335c70c4c4f4465512c1e6d69afab9dda0432d",
+                "bytes": 4815008
+              },
+              "pcm_frames": 2407481,
+              "sample_rate": 22050,
+              "duration_seconds": 109.18281179138322,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "QP02-L-CORRECTION",
+              "version": "candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/QP02-L-CORRECTION-candidate-1-local-tts-1.wav",
+                "sha256": "731da25174b60d377a4b057702e22b098cdd51178934392ca9590c49c4ed3a27",
+                "bytes": 1860246
+              },
+              "pcm_frames": 930100,
+              "sample_rate": 22050,
+              "duration_seconds": 42.18140589569161,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R3-Q301-L-ROUTE",
+              "version": "r3-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R3-Q301-L-ROUTE-r3-author-candidate-1-local-tts-1.wav",
+                "sha256": "0eb4f524b0fe39c08966ee5b98a280dca4f4d3484e9f4d1ae5be4ddbf048e7ab",
+                "bytes": 2840872
+              },
+              "pcm_frames": 1420413,
+              "sample_rate": 22050,
+              "duration_seconds": 64.4178231292517,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R3-Q301-L-WORKER",
+              "version": "r3-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R3-Q301-L-WORKER-r3-author-candidate-1-local-tts-1.wav",
+                "sha256": "fc7c3432fd4656a50e385269d1fdae0ed56c2fce055cbc19c1e46ef2379c4fd7",
+                "bytes": 2685436
+              },
+              "pcm_frames": 1342695,
+              "sample_rate": 22050,
+              "duration_seconds": 60.893197278911565,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R3-Q302-L-CHECK",
+              "version": "r3-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R3-Q302-L-CHECK-r3-author-candidate-1-local-tts-1.wav",
+                "sha256": "85b581c47cfb56a4ec8386d531cf2c28ddd43f78a94f2faafe5409190bc13ada",
+                "bytes": 12019614
+              },
+              "pcm_frames": 6009784,
+              "sample_rate": 22050,
+              "duration_seconds": 272.55256235827665,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R3-Q303-L-MEETING",
+              "version": "r3-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R3-Q303-L-MEETING-r3-author-candidate-1-local-tts-1.wav",
+                "sha256": "954edf60e2fece84909eb3996681b625e6776ba71971c614d68b2b0d1accce45",
+                "bytes": 12448576
+              },
+              "pcm_frames": 6224265,
+              "sample_rate": 22050,
+              "duration_seconds": 282.2795918367347,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R3-Q304-L-TRANSFER",
+              "version": "r3-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R3-Q304-L-TRANSFER-r3-author-candidate-1-local-tts-1.wav",
+                "sha256": "3370cab949bce451062ecfebffc7ac0b3cc1ce1147f26559931a2d1cbf245ea8",
+                "bytes": 2990526
+              },
+              "pcm_frames": 1495240,
+              "sample_rate": 22050,
+              "duration_seconds": 67.81133786848072,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R3-CQOREN02-L-REPAIR",
+              "version": "r3-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R3-CQOREN02-L-REPAIR-r3-author-candidate-1-local-tts-1.wav",
+                "sha256": "6819b4c26f68a0e383e03042d399c048546f31cf156e3e6f509232bc90dce6cd",
+                "bytes": 2504872
+              },
+              "pcm_frames": 1252413,
+              "sample_rate": 22050,
+              "duration_seconds": 56.79877551020408,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R4-Q401-L-SIAN",
+              "version": "r4-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R4-Q401-L-SIAN-r4-author-candidate-1-local-tts-1.wav",
+                "sha256": "756b9ccf0f303388241c58a0c67c6c081babf5198e48ca6f2de77785b6565c66",
+                "bytes": 2118620
+              },
+              "pcm_frames": 1059287,
+              "sample_rate": 22050,
+              "duration_seconds": 48.04022675736962,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R4-Q402-L-TECHNICIAN",
+              "version": "r4-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R4-Q402-L-TECHNICIAN-r4-author-candidate-1-local-tts-1.wav",
+                "sha256": "b60eb1f65c5ddfce6c1fb5dbad1d5301a6013e3a0aa71828d4881f59ec788d68",
+                "bytes": 2052720
+              },
+              "pcm_frames": 1026337,
+              "sample_rate": 22050,
+              "duration_seconds": 46.54589569160998,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R4-Q403-L-OBSERVER",
+              "version": "r4-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R4-Q403-L-OBSERVER-r4-author-candidate-1-local-tts-1.wav",
+                "sha256": "ec0b71346ac848e1ce6e22e2a039eca17d51d1cc1371968541417025cb6b3e34",
+                "bytes": 2279358
+              },
+              "pcm_frames": 1139656,
+              "sample_rate": 22050,
+              "duration_seconds": 51.68507936507937,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R4-Q404-L-VOSS",
+              "version": "r4-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R4-Q404-L-VOSS-r4-author-candidate-1-local-tts-1.wav",
+                "sha256": "e9041b909caeee5ea280b8913211cc73624e3f193fde57903f1f88d426eef181",
+                "bytes": 2440688
+              },
+              "pcm_frames": 1220321,
+              "sample_rate": 22050,
+              "duration_seconds": 55.3433560090703,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R5-Q501-L-DIRECTIONS",
+              "version": "r5-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R5-Q501-L-DIRECTIONS-r5-author-candidate-1-local-tts-1.wav",
+                "sha256": "0d2692b98e95d0420ba3ceee95d52d8615b9c0725d551b336f4b28ec720b9ffc",
+                "bytes": 1807588
+              },
+              "pcm_frames": 903771,
+              "sample_rate": 22050,
+              "duration_seconds": 40.98734693877551,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R5-Q502-L-RECEPTION",
+              "version": "r5-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R5-Q502-L-RECEPTION-r5-author-candidate-1-local-tts-1.wav",
+                "sha256": "5857c471e5310c874db560fdc4d08b0615be6aebb4999d1466da44655c2d1faa",
+                "bytes": 1933464
+              },
+              "pcm_frames": 966709,
+              "sample_rate": 22050,
+              "duration_seconds": 43.84167800453515,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R5-Q503-L-HEARING",
+              "version": "r5-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R5-Q503-L-HEARING-r5-author-candidate-1-local-tts-1.wav",
+                "sha256": "8b4f9cdb84b570f8de77a2974602a297ec7620936a8cb100b9513c679a88cab8",
+                "bytes": 12900122
+              },
+              "pcm_frames": 6450038,
+              "sample_rate": 22050,
+              "duration_seconds": 292.51873015873014,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R5-Q504-L-COUNCIL",
+              "version": "r5-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R5-Q504-L-COUNCIL-r5-author-candidate-1-local-tts-1.wav",
+                "sha256": "3da32e0dc90530cf649e79affdfd190e55e2f6b7480efe597c73471cf389f2af",
+                "bytes": 13000820
+              },
+              "pcm_frames": 6500387,
+              "sample_rate": 22050,
+              "duration_seconds": 294.8021315192744,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R6-Q603-L-ESCORT",
+              "version": "r6-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R6-Q603-L-ESCORT-r6-author-candidate-1-local-tts-1.wav",
+                "sha256": "c743c788dbe6372a1248d8856e1439e4216a02965a4b7c6da746ba037234e3b2",
+                "bytes": 1946212
+              },
+              "pcm_frames": 973083,
+              "sample_rate": 22050,
+              "duration_seconds": 44.13074829931973,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R6-Q603-L-RECEIPT",
+              "version": "r6-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R6-Q603-L-RECEIPT-r6-author-candidate-1-local-tts-1.wav",
+                "sha256": "5fe9cd1b923b65c9b021d7c8f1fb0b4c273bcc85cfd1b27f5809c98a76e24a94",
+                "bytes": 1379218
+              },
+              "pcm_frames": 689586,
+              "sample_rate": 22050,
+              "duration_seconds": 31.27374149659864,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R6-Q604-L-HANDOVER",
+              "version": "r6-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R6-Q604-L-HANDOVER-r6-author-candidate-1-local-tts-1.wav",
+                "sha256": "210384a90cbf3313883d6446b1ffa5e01f0737f8ce14c029d24fbdb0461f22b9",
+                "bytes": 1699284
+              },
+              "pcm_frames": 849619,
+              "sample_rate": 22050,
+              "duration_seconds": 38.53147392290249,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R6-CQTESS-L-NOTICE",
+              "version": "r6-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R6-CQTESS-L-NOTICE-r6-author-candidate-1-local-tts-1.wav",
+                "sha256": "4cf6e72452498a6faa1653b5804d7eec4ade15dcfc3d69f9b02afbdebbd9480f",
+                "bytes": 907406
+              },
+              "pcm_frames": 453680,
+              "sample_rate": 22050,
+              "duration_seconds": 20.575056689342404,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R6-Q601-L-SURVEY",
+              "version": "r6-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R6-Q601-L-SURVEY-r6-author-candidate-1-local-tts-1.wav",
+                "sha256": "963a95bb1699fa361ca40721a80be458afb0d3de2c47d91337d8af0ceb9173c8",
+                "bytes": 10908984
+              },
+              "pcm_frames": 5454469,
+              "sample_rate": 22050,
+              "duration_seconds": 247.36820861678004,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R6-Q602-L-MEETING",
+              "version": "r6-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R6-Q602-L-MEETING-r6-author-candidate-1-local-tts-1.wav",
+                "sha256": "ac324e913699bd92d78fbd98c7a0c4c15aea5c60c0f57c69746304889e6b1020",
+                "bytes": 11849058
+              },
+              "pcm_frames": 5924506,
+              "sample_rate": 22050,
+              "duration_seconds": 268.6850793650794,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "RF-QF01-L-DUTY",
+              "version": "rf-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/RF-QF01-L-DUTY-rf-author-candidate-1-local-tts-1.wav",
+                "sha256": "a862fb3714227de199a690f03649e4f330c20d6510f7443bcecb3ce40638fd30",
+                "bytes": 3411296
+              },
+              "pcm_frames": 1705625,
+              "sample_rate": 22050,
+              "duration_seconds": 77.35260770975057,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "RF-QF02-L-ROOK",
+              "version": "rf-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/RF-QF02-L-ROOK-rf-author-candidate-1-local-tts-1.wav",
+                "sha256": "8a1167c5dd8cdd30cc6b9d0370b8d751ffcfd501ff378e861beaa667cf5990fa",
+                "bytes": 3448618
+              },
+              "pcm_frames": 1724286,
+              "sample_rate": 22050,
+              "duration_seconds": 78.19891156462585,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "RF-QF03-L-OPERATOR",
+              "version": "rf-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/RF-QF03-L-OPERATOR-rf-author-candidate-1-local-tts-1.wav",
+                "sha256": "e78e6553e47ede937d7f4cb8c88c4f3e96cbdc8e099d05f9ab60f8fe4a43e8f5",
+                "bytes": 4139580
+              },
+              "pcm_frames": 2069767,
+              "sample_rate": 22050,
+              "duration_seconds": 93.86698412698412,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "RF-QF04-L-DISPATCH",
+              "version": "rf-author-candidate-1",
+              "actual_wave": {
+                "path": "game/content/audio/regional/RF-QF04-L-DISPATCH-rf-author-candidate-1-local-tts-1.wav",
+                "sha256": "bc9d876f13bf4e054e51130118276045bb89f8b5d650e0145c1a41eb957d82f6",
+                "bytes": 3845670
+              },
+              "pcm_frames": 1922812,
+              "sample_rate": 22050,
+              "duration_seconds": 87.20235827664399,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R1-ROOM-L-GUESTS",
+              "version": "R1-LIFE-20261010-v2",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R1-ROOM-L-GUESTS-R1-LIFE-20261010-v2-local-tts-1.wav",
+                "sha256": "38003671f856df359ed4abf4b1b65214745d6d150acb41a5486e34cf65da9dee",
+                "bytes": 2455510
+              },
+              "pcm_frames": 1227732,
+              "sample_rate": 22050,
+              "duration_seconds": 55.67945578231293,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            },
+            {
+              "material": "R1-SHOW-L-CREW",
+              "version": "R1-LIFE-20261010-v2",
+              "actual_wave": {
+                "path": "game/content/audio/regional/R1-SHOW-L-CREW-R1-LIFE-20261010-v2-local-tts-1.wav",
+                "sha256": "2476ca9cbbf1b13e5da1b0dda08f7b1563661db2833f91e62068bbf8718e5699",
+                "bytes": 2406332
+              },
+              "pcm_frames": 1203143,
+              "sample_rate": 22050,
+              "duration_seconds": 54.564308390022674,
+              "review_status": "rendered_candidate_not_auditioned",
+              "rights": "pending_HV-004"
+            }
+          ],
+          "font_binary_scan": {
+            "roots": [
+              "reference",
+              "content/source",
+              "game/content"
+            ],
+            "found": []
+          },
+          "five_channel_ui_source": {
+            "path": "game/UI/Audio/MistAudioChannels.cs",
+            "sha256": "bb5f2fdf381cdc865e89eb312ef02c64dc8e29b13836fa4b48e3be21a143d7a7",
+            "bytes": 3165
+          },
+          "scope": "Actual authored definitions and source contexts, compiled offline package copy and rendered WAV bytes; no automatic semantic, pronunciation or human listening approval."
+        }
+      },
+      "note": "Actual parser/routing refusals plus measured current rendered WAV bytes; scripted reading never becomes an audio/listening claim."
+    },
+    {
+      "criterion": "关键否定/数值逐项核对",
+      "status": "pending",
+      "evidence": {
+        "actual_current_named_cases": [
+          {
+            "result": {
+              "task": "CX-066",
+              "name": "Critical listening checklist retains exact negation/quantity anchors and stays pending human full audition",
+              "result": "passed"
+            },
+            "index": 294,
+            "report": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0294/test_results.json",
+              "sha256": "6867276bf5214b6c26b9ea9a8b0e86ee5004763523ad5ac1ecd907483874ac02",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0294/command.log",
+              "sha256": "9564cfc47ad558111128d3549a6e9ae453927a2c9f5ed41f9a29c243fe4fb959",
+              "bytes": 877
+            }
+          }
+        ]
+      },
+      "note": "Exact source ranges and critical anchors are checked automatically. CAI baseline requires a human to hear the final mix; no audition is self-signed."
+    },
+    {
+      "criterion": "既有原文不被导入润色",
+      "status": "passed",
+      "evidence": {
+        "actual_current_named_cases": [
+          {
+            "result": {
+              "task": "CX-066",
+              "name": "Frozen six-turn Q102 original stays exact; raw speaker labels are detected and reviewed regeneration gets explicit source ranges",
+              "result": "passed"
+            },
+            "index": 289,
+            "report": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0289/test_results.json",
+              "sha256": "3f507a9b8c22d853906ce314051cd37805b29bf119b29dd5979a93bc70c5e7c0",
+              "bytes": 432
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0289/command.log",
+              "sha256": "51b6bfd58c0293c68b0772d4c84a6c27bed83c21ebd1434b6a963659bd951a49",
+              "bytes": 899
+            }
+          },
+          {
+            "result": {
+              "task": "CX-066",
+              "name": "lexicon_all_contexts_match_exact_actual_learner_paragraphs_versions_hashes_and_unicode_coordinates",
+              "result": "passed"
+            },
+            "index": 438,
+            "report": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0438/test_results.json",
+              "sha256": "55adc42fe06c6cbdbe2da7205099117e3df8292ad4b18e1ccb52ed47faaa5709",
+              "bytes": 402
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0438/command.log",
+              "sha256": "915b83aa188e2775e73c2acb2b2236c871c8a4bf72e57bcc484f7669c75c61be",
+              "bytes": 869
+            }
+          }
+        ]
+      },
+      "note": "Actual frozen-original fidelity and all current source-bound contexts pass; speech projection is separately ranged, never an overwrite of the original."
+    },
+    {
+      "criterion": "无字体二进制来自交接包",
+      "status": "passed",
+      "evidence": {
+        "actual_current_named_cases": [],
+        "actual_font_scan": {
+          "roots": [
+            "reference",
+            "content/source",
+            "game/content"
+          ],
+          "found": []
+        }
+      },
+      "note": "Actual reference/source/player-input font scan is recorded. No handover font binary is added to these candidate inputs."
+    }
+  ],
+  "test_results": {
+    "scope": "Current runtime engineering candidates only, no whole-GDD or human acceptance",
+    "executed": 41,
+    "failed": 0,
+    "actual_current_cases": [
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Frozen six-turn Q102 original stays exact; raw speaker labels are detected and reviewed regeneration gets explicit source ranges",
+          "result": "passed"
+        },
+        "index": 289,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0289/test_results.json",
+          "sha256": "3f507a9b8c22d853906ce314051cd37805b29bf119b29dd5979a93bc70c5e7c0",
+          "bytes": 432
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0289/command.log",
+          "sha256": "51b6bfd58c0293c68b0772d4c84a6c27bed83c21ebd1434b6a963659bd951a49",
+          "bytes": 899
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Source-range speech rejects removed negation, altered quantities, stale source and masked speaker; Unicode scalar ranges stay exact",
+          "result": "passed"
+        },
+        "index": 290,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0290/test_results.json",
+          "sha256": "45545a31fb839644f737c7d525a7c12c07353978ce0ed1aa6d344089d2ee741f",
+          "bytes": 435
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0290/command.log",
+          "sha256": "5ec2d4bdb3326f9a86c25f4893a941867cb565a00f84308d05ce25a0debab226",
+          "bytes": 902
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Script-only audio has null hash/bytes/duration; JSON audition claims and invented timecodes cannot certify a recording",
+          "result": "passed"
+        },
+        "index": 291,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0291/test_results.json",
+          "sha256": "1a06aacca678141401cbfb56e0cfd55817b12b877a4ca30d76efaf559adc9210",
+          "bytes": 422
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0291/command.log",
+          "sha256": "b8fddeaeb743bed936de00c807ba1cec0938115d701a2c44f01de2e0fc7d61bd",
+          "bytes": 889
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Actual WAVE inspection uses byte frames and rejects truncation/inconsistent headers; parser fixtures do not become narration",
+          "result": "passed"
+        },
+        "index": 292,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0292/test_results.json",
+          "sha256": "d8841fa0342d6be9ac15d0669d54856b4b43d81fedb0fe3b95800b8b076ffe36",
+          "bytes": 428
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0292/command.log",
+          "sha256": "3037598e228162ee9146166e4f251d935f84232dec2124e977f59c121036ad15",
+          "bytes": 895
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Subtitle validation binds actual measured audio plus full ordered original ranges and rejects overlaps, missing words and stale hashes",
+          "result": "passed"
+        },
+        "index": 293,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0293/test_results.json",
+          "sha256": "20fd33754612141b91052645142b87d8bbba20f427e78e3835b5af103210e57b",
+          "bytes": 438
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0293/command.log",
+          "sha256": "c34ea6bc1e4ed2b15ea558391620befbad5d26cef77457673c3762614330abbb",
+          "bytes": 905
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Critical listening checklist retains exact negation/quantity anchors and stays pending human full audition",
+          "result": "passed"
+        },
+        "index": 294,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0294/test_results.json",
+          "sha256": "6867276bf5214b6c26b9ea9a8b0e86ee5004763523ad5ac1ecd907483874ac02",
+          "bytes": 410
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0294/command.log",
+          "sha256": "9564cfc47ad558111128d3549a6e9ae453927a2c9f5ed41f9a29c243fe4fb959",
+          "bytes": 877
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Rights references and permitted dictionary fields are checked while complete candidate provenance never self-approves voice or publication rights",
+          "result": "passed"
+        },
+        "index": 295,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0295/test_results.json",
+          "sha256": "5d1cc47c9f936722588d828560ef9e88c601008179cc194e383fbce56104c79c",
+          "bytes": 449
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0295/command.log",
+          "sha256": "0d63b88ee17191de9efc002234c264a3b4f1d44677d9e18d07dfb8eb7f5d477e",
+          "bytes": 916
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Original, audio and subtitle-exposure changes invalidate the actual dependent review set without changing old records or blessing replacements",
+          "result": "passed"
+        },
+        "index": 296,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0296/test_results.json",
+          "sha256": "ad5a5d35ab2fb7a6c722d594d7914f0d49bd57d086ddd3ae8451c281bf3218c8",
+          "bytes": 446
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0296/command.log",
+          "sha256": "8b2e99a90e4dfd0d7d2571de9748a0f71e60aa90406ed95eddad82b0808ed422",
+          "bytes": 913
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Asset graph rejects omitted/stale dependency declarations and cycles; repeated template failures pause batch instead of regenerating",
+          "result": "passed"
+        },
+        "index": 297,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0297/test_results.json",
+          "sha256": "d2d7677a4740fe70a081d17fc7cbaf16b2b0b9ee0bf4106ff8705ea848066ef1",
+          "bytes": 436
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0297/command.log",
+          "sha256": "108251c0a268e97ec0c51a400d7380c661f9be133bef7cc2444e54af922fdb60",
+          "bytes": 903
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Existing real Q102 WAVE is audited as raw generation only; new projection export cannot overwrite artifacts or escape output directory",
+          "result": "passed"
+        },
+        "index": 298,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0298/test_results.json",
+          "sha256": "4feb4e27751cd89c73f75835ca5bcd528978614bf87cde3c66390fcb3c1f8789",
+          "bytes": 438
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0298/command.log",
+          "sha256": "fac88390891d5d827ba60612c20c0ebe3c19a29b47f1aed33894011daabeea0b",
+          "bytes": 905
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Thirty-two actual campaign and regional WAVE candidates bind exact original speech slices and measured PCM without human approval",
+          "result": "passed"
+        },
+        "index": 299,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0299/test_results.json",
+          "sha256": "6249a2d824857e0d71154b44bbc12b4f207fdde7ffcfef8a93ef18f718ce969e",
+          "bytes": 433
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0299/command.log",
+          "sha256": "e8c05d2d347a5603bc48f05803f32e9f430d80bf9896d4ff9e1c1802a14ee45d",
+          "bytes": 900
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Real rendered candidate rejects changed waveform, wrong source version and spoken role-label reinsertion",
+          "result": "passed"
+        },
+        "index": 300,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0300/test_results.json",
+          "sha256": "fd94564e7c7f2380df9332b170ebb6e12a26ffa0ddf38fc2b40cd232c6e30bf6",
+          "bytes": 408
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0300/command.log",
+          "sha256": "0b52920be46d913cf0799db1cf78b84c4b9044b328abed2d98e50efd5f28da66",
+          "bytes": 875
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Actual audio hashes and local voice metadata cannot grant auditioned status or voice redistribution approval",
+          "result": "passed"
+        },
+        "index": 301,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0301/test_results.json",
+          "sha256": "20788ce3afa76387c5b707d14845483ad7796516c1b7a911af3b1f61a0b96e82",
+          "bytes": 412
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0301/command.log",
+          "sha256": "4ec4ee177685897ff924c301a7e0e9b4d8c285b925d9d3a6af5522e634e8cafd",
+          "bytes": 879
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "Multi-role local recordings reject dropped turns, changed offsets, arbitrary speaker labels and reordered original paragraphs",
+          "result": "passed"
+        },
+        "index": 302,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0302/test_results.json",
+          "sha256": "375eb42efe233dc09bd3f143999ae28377de55e209fd36d89f83b385d1ac0e46",
+          "bytes": 429
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0302/command.log",
+          "sha256": "0e25e9e1ff97d01fae2b6f4915f58b18bbca0f0cb2e33db1e26e5223c32d60b7",
+          "bytes": 896
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lexicon_has_360_core_360_extended_real_unique_source_bound_senses",
+          "result": "passed"
+        },
+        "index": 437,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0437/test_results.json",
+          "sha256": "cd0e0e8b396076e957de652044254919f2e716c212a65547a60c8fdcaa09b90c",
+          "bytes": 369
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0437/command.log",
+          "sha256": "8f28b85e26aee770b7289b1a148a536352571d1eea3a01c16214a5b7be409255",
+          "bytes": 836
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lexicon_all_contexts_match_exact_actual_learner_paragraphs_versions_hashes_and_unicode_coordinates",
+          "result": "passed"
+        },
+        "index": 438,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0438/test_results.json",
+          "sha256": "55adc42fe06c6cbdbe2da7205099117e3df8292ad4b18e1ccb52ed47faaa5709",
+          "bytes": 402
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0438/command.log",
+          "sha256": "915b83aa188e2775e73c2acb2b2236c871c8a4bf72e57bcc484f7669c75c61be",
+          "bytes": 869
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lexicon_existing_senses_include_actual_life_first_field_credit_study_source_bodies_without_new_senses_or_permission",
+          "result": "passed"
+        },
+        "index": 439,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0439/test_results.json",
+          "sha256": "9f2c118983995317b3921caaa3f69f07b7f823161e4bdfc2d33e5ef26efe0cfa",
+          "bytes": 419
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0439/command.log",
+          "sha256": "3785c9a7b61524bfd32f937f845d6aceddaca22303c1f0f0f6de2664156d5588",
+          "bytes": 886
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lexicon_v3_keeps_v2_senses_and_binds_actual_lina_shift_optional_settlement_oldcity_and_received_reply_bodies",
+          "result": "passed"
+        },
+        "index": 440,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0440/test_results.json",
+          "sha256": "8eae854367bfa8f45aca40e878750af5dbb010d8c80638dc2891439b71f00b45",
+          "bytes": 412
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0440/command.log",
+          "sha256": "63a5f58c78722d6f88b4e6538f248cc26d85d2596a737f57c7b73f3a8112b271",
+          "bytes": 879
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lexicon_npc_current_turn_scope_never_opens_future_turn_or_completed_replay",
+          "result": "passed"
+        },
+        "index": 441,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0441/test_results.json",
+          "sha256": "b340e38280e5e4a155fffd39007692ac97a74405805fe9a4d980675a98a1a84e",
+          "bytes": 378
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0441/command.log",
+          "sha256": "e6d5d66141431820251cef225fe0ed1dca9f452ae094bd00eedba4df5481faa4",
+          "bytes": 845
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lexicon_unknown_json_fields_and_author_projection_are_rejected",
+          "result": "passed"
+        },
+        "index": 442,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0442/test_results.json",
+          "sha256": "fc7df019e708f175fa507790cb113e4c551ce16c4361761c2f913b410d79043d",
+          "bytes": 366
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0442/command.log",
+          "sha256": "8ef646d62644b50206156c9c9aff600f7705670acb7bf5f6ca21e46ac70c7147",
+          "bytes": 833
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lexicon_rejects_mismatched_scalar_excerpt_and_claimed_audio",
+          "result": "passed"
+        },
+        "index": 443,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0443/test_results.json",
+          "sha256": "2342f67493a92981a11ef6dc23030bb051df8119b05a02138736c54762574b02",
+          "bytes": 363
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0443/command.log",
+          "sha256": "b4c4996f6d632396178b62325903913d8298e834e1d5df6acc20e169f4150da4",
+          "bytes": 830
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "dictionary_draft_shipping_and_prose_senses_share_alias_without_inflating_counts",
+          "result": "passed"
+        },
+        "index": 444,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0444/test_results.json",
+          "sha256": "8d099e4e1a0014ea887cf9a85e381333701854280ea4aa00198e4e30529ca3f9",
+          "bytes": 383
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0444/command.log",
+          "sha256": "5d42076499df7f8591cb023c909fdd5cf4c58a15f243589223b5140f7c7ca67a",
+          "bytes": 850
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "dictionary_future_and_private_source_body_never_leaks_without_current_exact_permission",
+          "result": "passed"
+        },
+        "index": 445,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0445/test_results.json",
+          "sha256": "7a693ba1d03d407b6fdd6628283ba81e240ea02866d3395bf6a608df74a80848",
+          "bytes": 390
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0445/command.log",
+          "sha256": "b40e77eae7c09f9aa5981cfd1d75b4ce53ed720c80bb5413645051484e0ea9cb",
+          "bytes": 857
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "lookup_is_initial_exposure_due_next_real_day_without_world_mutation",
+          "result": "passed"
+        },
+        "index": 446,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0446/test_results.json",
+          "sha256": "25e42c98ab5bf36943a5733a5c1043f007d9a3e32eb54538e5f14810a5fcc0bc",
+          "bytes": 371
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0446/command.log",
+          "sha256": "02cfbe3024577729b3988aab7d5b8a5e228dc1d88d0ed67f6e30db5b1fa98797",
+          "bytes": 838
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "repeated_lookup_does_not_postpone_due_or_grant_new_mastery",
+          "result": "passed"
+        },
+        "index": 447,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0447/test_results.json",
+          "sha256": "181318d58f031a092270e61a3ed251a82816cc006ee2a71982f280a2d288df6d",
+          "bytes": 362
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0447/command.log",
+          "sha256": "9f9966e7c69814a7b421a9be55b26a18b885c99cff1d9d9af085bb17d1214615",
+          "bytes": 829
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "same_attempt_replay_writes_once_and_different_payload_is_rejected",
+          "result": "passed"
+        },
+        "index": 448,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0448/test_results.json",
+          "sha256": "ab92b3a5e932e2f591902f095f0a9daac5a7aa4e2448b08283865485612b324a",
+          "bytes": 369
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0448/command.log",
+          "sha256": "838283660c03fb824bad708b8842a9fd3695e5caf2940541fa6a8811e23d7d0d",
+          "bytes": 836
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "good_self_rating_and_dictionary_help_do_not_advance_unassessed_mastery_schedule",
+          "result": "passed"
+        },
+        "index": 449,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0449/test_results.json",
+          "sha256": "bd8aa4522550ccec67bbfddf09d0afc90128c8335e43f549974735ae6c61c11c",
+          "bytes": 383
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0449/command.log",
+          "sha256": "f43d8b74507b9fa5aa0472cab914418a116b6449d2f5e186add38038d3e5fa39",
+          "bytes": 850
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "production_saves_actual_english_response_without_automatic_grade_or_rewards",
+          "result": "passed"
+        },
+        "index": 450,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0450/test_results.json",
+          "sha256": "6232fe29600d28a391ecb96a130d46f49341e1c2d7754e168f650e807a6ad0bb",
+          "bytes": 379
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0450/command.log",
+          "sha256": "6e6e955073a4d4e0b9b0ad7e9c7554578d9364bd8fe9998684eecff3bdab929b",
+          "bytes": 846
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "empty_response_or_invalid_rating_is_not_completed_review",
+          "result": "passed"
+        },
+        "index": 451,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0451/test_results.json",
+          "sha256": "2bfea28b40c7842a0b0e06a13d1689c795777f70e24ff8afd237ee954bf4f4b4",
+          "bytes": 360
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0451/command.log",
+          "sha256": "f1f0df3a0476e0c87d7f319429c36748460cececffdf29ab9d204869a33f83f8",
+          "bytes": 827
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "defer_is_explicit_bounded_preference_and_survives_reopen",
+          "result": "passed"
+        },
+        "index": 452,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0452/test_results.json",
+          "sha256": "069119a89a718a4a4c80fc3c40ebcbc735d33dfbc228888f212df8d32a60a416",
+          "bytes": 360
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0452/command.log",
+          "sha256": "fd788b8c90e8396ab35b46547c1830f6ecc67cebae2aeb4b62f665ac03ff76e9",
+          "bytes": 827
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "default_due_recommendation_is_three_and_never_interrupts_world",
+          "result": "passed"
+        },
+        "index": 453,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0453/test_results.json",
+          "sha256": "4a57cf51d7ec93b9dad91896009985490eaa273ff713e6d5d73f67ddc43872b5",
+          "bytes": 366
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0453/command.log",
+          "sha256": "cd129f2089b9a20cbb4b0c11517650b91f10524dbc19bfd97148738c1074e21c",
+          "bytes": 833
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "review_prefers_current_compatible_unseen_family_and_keeps_familiar_label",
+          "result": "passed"
+        },
+        "index": 454,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0454/test_results.json",
+          "sha256": "8f786531ff7d384028a814c054fad51b9bf60a04a0aefc854421a40c91cf655e",
+          "bytes": 376
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0454/command.log",
+          "sha256": "8dadc7489617bddae3ca084cdb99f2721fd992045521d061d248953b8946de65",
+          "bytes": 843
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "missing_audio_selects_script_reading_and_cannot_be_listening_evidence",
+          "result": "passed"
+        },
+        "index": 455,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0455/test_results.json",
+          "sha256": "85a047bf00c3f86d2942053f281d53b3fd2ff2d8faad247cc040b1a23d7400d5",
+          "bytes": 373
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0455/command.log",
+          "sha256": "a8debebdb3eac4ce63e2a2362be66948ccf03fd6824d0638385524e758717ad6",
+          "bytes": 840
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "audio_preload_cannot_count_as_listening_and_subtitles_remain_recorded",
+          "result": "passed"
+        },
+        "index": 456,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0456/test_results.json",
+          "sha256": "0b951b0e9f3c0bc152cdb18b463d5964ef4376f1eeb9dd2bce9c1a30a874e1fd",
+          "bytes": 373
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0456/command.log",
+          "sha256": "794ce1725e9c25fb80a83f9cbe33cee035991c35657d96c6d84206ef6982a83a",
+          "bytes": 840
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "withdrawn_or_changed_source_scope_rejects_review_without_writing",
+          "result": "passed"
+        },
+        "index": 457,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0457/test_results.json",
+          "sha256": "8502e1d0c55d78c8245e83f2a350505f8517fafe1603b50ca928843c0bfaddd8",
+          "bytes": 368
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0457/command.log",
+          "sha256": "9ac49ee35ca6234ed6c0bf95f3049d99f0457bddc9e5f5d0fb036dbf4f749cb2",
+          "bytes": 835
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "changed_world_sequence_invalidates_source_context_even_when_load_same",
+          "result": "passed"
+        },
+        "index": 458,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0458/test_results.json",
+          "sha256": "972bc42fb099b73bb22c497fcc011f7f12f817b75597c09b08ee1190ae3a7533",
+          "bytes": 373
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0458/command.log",
+          "sha256": "77bdcb4ecb57f8e5fd68d8c7bafe55cde4fa1859dccac52e476e5769a36df10f",
+          "bytes": 840
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "load_checkpoint_rejects_old_view_without_erasing_current_epoch_history",
+          "result": "passed"
+        },
+        "index": 459,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0459/test_results.json",
+          "sha256": "21c55f45b7ad423a4875a2e85a60aa7f64851ff0c3c482f5f6cac11b13cc48c1",
+          "bytes": 374
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0459/command.log",
+          "sha256": "faee05c3667c84bdffcbdb473c49db9e83ee33c0bc44dd9a1275e1ae61ab53c3",
+          "bytes": 841
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "learning_erasure_removes_reviews_answers_and_old_backup_cannot_revive_them",
+          "result": "passed"
+        },
+        "index": 460,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0460/test_results.json",
+          "sha256": "1855febf07b0755bde9accd54ac004e93cd653b7e3b1b90c758befca96887026",
+          "bytes": 378
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0460/command.log",
+          "sha256": "59309a19704e1d2840d50c11ebbe32012c5dc745e6a73f3d3399025c7271cd88",
+          "bytes": 845
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "queued_stale_epoch_append_is_rejected_after_erasure_without_partial_row",
+          "result": "passed"
+        },
+        "index": 461,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0461/test_results.json",
+          "sha256": "831dfdd17ecfe3f15aaf115cdf73bbead37c0018353efb6930822565b006e489",
+          "bytes": 375
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0461/command.log",
+          "sha256": "aac6e04bb62684674b775f13c4655df06830aed86c6610dd481d3296130698ed",
+          "bytes": 842
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "delete_and_concurrent_local_append_serialize_without_old_epoch_resurrection",
+          "result": "passed"
+        },
+        "index": 462,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0462/test_results.json",
+          "sha256": "8ae748227e05e46d23c88c452a6369c4958061edd2370dec411b82921743916c",
+          "bytes": 379
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0462/command.log",
+          "sha256": "d33becc63d117c04e009324ae6d354b8cd716b5686b3e20922fa986db0bc7ea8",
+          "bytes": 846
+        }
+      },
+      {
+        "result": {
+          "task": "CX-066",
+          "name": "regional_learning_reopen_preserves_due_history_but_never_settings_or_world_rewards",
+          "result": "passed"
+        },
+        "index": 463,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0463/test_results.json",
+          "sha256": "d69bed6c90c3f2b001f10956b55559015e5b0b855124da18b7e027e17a74849c",
+          "bytes": 386
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0463/command.log",
+          "sha256": "50548e3dfe31288491e9095c583d642c4db67c98d51cd569be9b681c8fd1cdd3",
+          "bytes": 853
+        }
+      }
+    ],
+    "suite": {
+      "path": "reports/build/20261010T111545212936Z/test_results.json",
+      "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+      "bytes": 102628
+    },
+    "actual_native": [
+      {
+        "result": {
+          "path": "reports/build/20261010T114212706185Z/chapter_two_client_results.json",
+          "sha256": "02f3785c4ec8024a5da0a2bf212d134d3a3baa75a4d06453282b544f8fce1482",
+          "bytes": 3194
+        },
+        "checks": [
+          {
+            "name": "normal_voyage_source_without_positive_fixture",
+            "passed": true
+          },
+          {
+            "name": "arrival_does_not_grant_local_sources",
+            "passed": true
+          },
+          {
+            "name": "public_room_wrapper_R2-Q201-R-ROOMS_is_readonly",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-201_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-201_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-201_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-201_readonly",
+            "passed": true
+          },
+          {
+            "name": "closed_Q-201_preview_cancelled",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-201_once",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-202_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-202_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-202_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-202_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-202_once",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-01_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-01_actual_control",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-03_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-03_actual_control",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-203_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-203_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-203_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-203_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-203_once",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-204_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-204_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-204_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-204_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-204_once",
+            "passed": true
+          },
+          {
+            "name": "main_rewards_exact_once",
+            "passed": true
+          },
+          {
+            "name": "tower_safe_is_not_full_conversion",
+            "passed": true
+          },
+          {
+            "name": "three_independent_actual_dispositions",
+            "passed": true
+          },
+          {
+            "name": "no_fabricated_current_mara",
+            "passed": true
+          },
+          {
+            "name": "script_R2-Q204-L-SCOPE_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_actual_decode_and_no_autoplay",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_real_playback_position",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_pause_preserves_position",
+            "passed": true
+          },
+          {
+            "name": "five_audio_channels_and_content_route",
+            "passed": true
+          },
+          {
+            "name": "focus_loss_retains_actual_paused_audio",
+            "passed": true
+          },
+          {
+            "name": "explicit_resume_retains_actual_position",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_speed_changes_actual_player",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_original_transcript_unchanged",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_learning_does_not_reward_world",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_close_releases_player",
+            "passed": true
+          },
+          {
+            "name": "audio_independent_volume_saved_without_world_reward",
+            "passed": true
+          },
+          {
+            "name": "audio_preferences_reload_actual_bus",
+            "passed": true
+          },
+          {
+            "name": "archive_contains_only_actual_learner_materials",
+            "passed": true
+          },
+          {
+            "name": "native_candidate_keeps_single_vessel",
+            "passed": true
+          }
+        ],
+        "route": {
+          "profile_source": {
+            "path": "reports/build/20261010T114212706185Z/client_profile_source.json",
+            "sha256": "982f780124de0485e18e793cd57abf6317a4f5e2f93f6477eb85fb79e02dd430",
+            "bytes": 4274
+          },
+          "actual_entry": {
+            "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/normal-r1-r2-voyage.json",
+            "sha256": "c76e10234cee4f5b413ce4c0c7c536fb39e40419d3d4f5e2d30493701885a38b",
+            "bytes": 138295
+          },
+          "positive_fixture_receipts": 0,
+          "full_suite_copy_proof": {
+            "source_mode": "final_full_suite_case_copy",
+            "selected_case": {
+              "index": 355,
+              "task": "CX-060",
+              "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures"
+            },
+            "suite": {
+              "path": "reports/build/20261010T111545212936Z/test_results.json",
+              "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+              "bytes": 102628
+            },
+            "registry": {
+              "path": "reports/build/20261010T111545212936Z/full_suite_inventory.json",
+              "sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+              "bytes": 98753
+            },
+            "exact_isolated_case": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0355/test_results.json",
+              "sha256": "f02268ce505ccd53615758cf66d141457de4217df0aecae16d9c9f3e6c15a313",
+              "bytes": 447
+            },
+            "actual_case_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0355/command.log",
+              "sha256": "1d26cb8c20de8b48d728d71fe2266404e584670cd5fe2cced4e970877c8fbbee",
+              "bytes": 914
+            },
+            "suite_current_inputs": {
+              "path": "reports/build/20261010T111545212936Z/run_inputs.json",
+              "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+              "bytes": 89502
+            },
+            "compiled_artifacts": {
+              "path": "reports/build/20261010T111545212936Z/compiled_artifacts.json",
+              "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+              "bytes": 3925
+            },
+            "active_world_database": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/inventory-v2-13fb27ce-984d-44e4-b094-9981d4ebf5d9.sqlite",
+              "sha256": "3b08206fabd9b122635e3e25d826ca997b6950dde55de9bd5961b5b595e684fa",
+              "bytes": 831488
+            },
+            "actual_receipt_history": {
+              "source": "validated control current_path active SQLite receipts table",
+              "active_branch": "3775ba0f-cd0a-49af-97d0-07a23482acbe",
+              "actual_receipt_count": 287,
+              "active_branch_receipt_count": 287,
+              "positive_fixture_receipts": 0,
+              "receipt_columns": [
+                "branch_id",
+                "semantic_key",
+                "receipt_id",
+                "action_type",
+                "effect_hash",
+                "result_json",
+                "commit_sequence"
+              ],
+              "ordered_receipts_sha256": "27cba857f77fb09c507a405ee18ffe15af9f144c1e4b0f337ba968acf35648ca",
+              "normal_campaign_creation": {
+                "branch_id": "3775ba0f-cd0a-49af-97d0-07a23482acbe",
+                "semantic_key": "campaign:new:first-entry-candidate-1",
+                "action_type": "normal_campaign_created",
+                "receipt_id": "363ba4c7-f2ec-4348-9974-c2cb66142bcb",
+                "commit_sequence": 2
+              },
+              "normal_creation_experience_awarded": 0,
+              "entry_json_receipt_count": 287,
+              "entry_json_role": "receipt history cross-checked against active SQLite"
+            },
+            "copied_files": [
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/control.sqlite",
+                "sha256": "7991f8799f8da6133954b742517772056910ba56c1ce6b1e9254303e20122ccd",
+                "bytes": 40960,
+                "copied_before_native_sha256": "7991f8799f8da6133954b742517772056910ba56c1ce6b1e9254303e20122ccd",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/profile.sqlite",
+                "sha256": "91babfa16c38388de501b0c977f694f3fb207ee20ed54128a36463f987d30980",
+                "bytes": 176128,
+                "copied_before_native_sha256": "91babfa16c38388de501b0c977f694f3fb207ee20ed54128a36463f987d30980",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/inventory-v2-13fb27ce-984d-44e4-b094-9981d4ebf5d9.sqlite",
+                "sha256": "3b08206fabd9b122635e3e25d826ca997b6950dde55de9bd5961b5b595e684fa",
+                "bytes": 831488,
+                "copied_before_native_sha256": "3b08206fabd9b122635e3e25d826ca997b6950dde55de9bd5961b5b595e684fa",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/normal-r1-r2-voyage.json",
+                "sha256": "c76e10234cee4f5b413ce4c0c7c536fb39e40419d3d4f5e2d30493701885a38b",
+                "bytes": 138295,
+                "copied_before_native_sha256": "c76e10234cee4f5b413ce4c0c7c536fb39e40419d3d4f5e2d30493701885a38b",
+                "frozen_copy": null
+              }
+            ],
+            "scope": "Actual earlier producer commands executed once in the final suite; native uses their untouched entry copy. No fixture or second normal-route execution is inferred."
+          },
+          "actual_receipt_count": 287,
+          "receipt_history_source": "validated actual active SQLite, not entry JSON summary"
+        },
+        "compilation_reuse": {
+          "path": "reports/build/20261010T114212706185Z/reused_compilation.json",
+          "sha256": "6188d0473ca98e786be06fbe70e9b8dac4040a1d1778a1658561692b611d8c29",
+          "bytes": 3977
+        },
+        "runtime_input_capture": {
+          "path": "reports/build/20261010T114212706185Z/run_inputs.json",
+          "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+          "bytes": 89502
+        },
+        "actual_commands_manifest": {
+          "path": "reports/build/20261010T114212706185Z/commands.json",
+          "sha256": "e4e08dc05bf875e86c0522e9498449c97b5bf67cfb8c81a822bdfa51c3d0b43d",
+          "bytes": 1441
+        },
+        "compiled_artifacts": {
+          "path": "reports/build/20261010T114212706185Z/compiled_artifacts.json",
+          "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+          "bytes": 3925
+        },
+        "scope": "actual no-fixture Voyage normal-r2 copied SQLite profile; native station/material/editor/meaning/submission buttons and actual safe paths; battle choices supplied by engineering controller",
+        "human_native_play": "not_run",
+        "language_calibration": "human_pending"
+      },
+      {
+        "result": {
+          "path": "reports/build/20261010T114742501030Z/chapter_five_client_results.json",
+          "sha256": "09bf18ae6eefffd8a0c3a8bce9148f3ee00a291eb47329041d04a36d8275f278",
+          "bytes": 3701
+        },
+        "checks": [
+          {
+            "name": "actual_normal_entry_has_real_voyage_no_positive_fixture",
+            "passed": true
+          },
+          {
+            "name": "R5_entry_no_local_progress_or_current_mara",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q501-L-DIRECTIONS_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "local_unique_basic_tools_no_engineering_stock",
+            "passed": true
+          },
+          {
+            "name": "credential_route_actual_duty_hall_not_rescue",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-501_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-501_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-501_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-501_readonly",
+            "passed": true
+          },
+          {
+            "name": "closed_Q-501_preview_cancelled",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-501_once",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-03_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-03_actual_control",
+            "passed": true
+          },
+          {
+            "name": "guard_control_does_not_open_cell_or_award",
+            "passed": true
+          },
+          {
+            "name": "direct_mara_contact_alive_before_receiving",
+            "passed": true
+          },
+          {
+            "name": "inner_port_actual_escort_not_teleport",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q502-L-RECEPTION_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-502_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-502_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-502_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-502_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-502_once",
+            "passed": true
+          },
+          {
+            "name": "actual_mentor_alive_received",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q503-L-HEARING_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-503_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-503_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-503_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-503_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-503_once",
+            "passed": true
+          },
+          {
+            "name": "three_sources_responsibilities_preserved",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q504-L-COUNCIL_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-04_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-04_actual_control",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-504_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-504_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-504_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-504_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-504_once",
+            "passed": true
+          },
+          {
+            "name": "fixed_R5_main_rewards_once",
+            "passed": true
+          },
+          {
+            "name": "one_original_case_in_actual_joint_custody",
+            "passed": true
+          },
+          {
+            "name": "local_safe_does_not_grant_network_conversion",
+            "passed": true
+          },
+          {
+            "name": "bounded_Q504_R6_permission_not_arrival_or_final_policy",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_720_entries_and_distinct_senses",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_panel_blocks_world_without_mutating_draft",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_actual_permitted_context_is_shown",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_future_private_contexts_remain_absent",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_lookup_does_not_change_world_or_rewards",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_reader_close_restores_same_editor_focus",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_dictionary_200_percent_font",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_due_review_is_explicit_no_first_day_mastery",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_review_menu_is_world_read_only",
+            "passed": true
+          },
+          {
+            "name": "archive_displays_acquired_learner_source",
+            "passed": true
+          }
+        ],
+        "route": {
+          "profile_source": {
+            "path": "reports/build/20261010T114742501030Z/client_profile_source.json",
+            "sha256": "9c3e5e0c4fcf2733b4f15f3fdd87346318cea17a70458d793ea5fb2e2f653aa6",
+            "bytes": 4733
+          },
+          "actual_entry": {
+            "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/normal-r5-native-entry.json",
+            "sha256": "bd7d8b45bda3306b3887b141be81341b458e7a05345b5a517a0c998477ae4261",
+            "bytes": 666775
+          },
+          "positive_fixture_receipts": 0,
+          "full_suite_copy_proof": {
+            "source_mode": "final_full_suite_case_copy",
+            "selected_case": {
+              "index": 407,
+              "task": "CP-R5-05",
+              "name": "Actual zero-XP R4R5 arrival produces a native entry with local work untouched"
+            },
+            "suite": {
+              "path": "reports/build/20261010T111545212936Z/test_results.json",
+              "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+              "bytes": 102628
+            },
+            "registry": {
+              "path": "reports/build/20261010T111545212936Z/full_suite_inventory.json",
+              "sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+              "bytes": 98753
+            },
+            "exact_isolated_case": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0407/test_results.json",
+              "sha256": "ce4cc3447c59c325160f0e7ccbd88cc109a18dcf84ab70c8a1b1b3e609cb478a",
+              "bytes": 383
+            },
+            "actual_case_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0407/command.log",
+              "sha256": "870604a81ef624648c89d6e06691c984db68b129f4a017dbb222f7fd5e2e0c2d",
+              "bytes": 850
+            },
+            "suite_current_inputs": {
+              "path": "reports/build/20261010T111545212936Z/run_inputs.json",
+              "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+              "bytes": 89502
+            },
+            "compiled_artifacts": {
+              "path": "reports/build/20261010T111545212936Z/compiled_artifacts.json",
+              "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+              "bytes": 3925
+            },
+            "active_world_database": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/inventory-v2-1388a0f9-3917-43c7-a91d-b3b46e4be647.sqlite",
+              "sha256": "bb7bf147d243ddfd2bcfff2e42c423ed5bab1f54f38a7af7ca487913679a6485",
+              "bytes": 4161536
+            },
+            "actual_receipt_history": {
+              "source": "validated control current_path active SQLite receipts table",
+              "active_branch": "4bd29fd2-65dd-418e-85c2-84b2020b09e7",
+              "actual_receipt_count": 1158,
+              "active_branch_receipt_count": 1158,
+              "positive_fixture_receipts": 0,
+              "receipt_columns": [
+                "branch_id",
+                "semantic_key",
+                "receipt_id",
+                "action_type",
+                "effect_hash",
+                "result_json",
+                "commit_sequence"
+              ],
+              "ordered_receipts_sha256": "1465c2838044adbbaf8625e1c93441acde941425a3bcd54d36ca20f0e02a3da4",
+              "normal_campaign_creation": {
+                "branch_id": "4bd29fd2-65dd-418e-85c2-84b2020b09e7",
+                "semantic_key": "campaign:new:first-entry-candidate-1",
+                "action_type": "normal_campaign_created",
+                "receipt_id": "ef1e9f45-3610-402f-8a05-8825150ef3e6",
+                "commit_sequence": 2
+              },
+              "normal_creation_experience_awarded": 0,
+              "entry_json_receipt_count": 1158,
+              "entry_json_role": "receipt history cross-checked against active SQLite"
+            },
+            "copied_files": [
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/control.sqlite",
+                "sha256": "8f405f20d4ea21bbc622025c4516ddd8e95597b633bd726fbd4293465300a2f0",
+                "bytes": 40960,
+                "copied_before_native_sha256": "8f405f20d4ea21bbc622025c4516ddd8e95597b633bd726fbd4293465300a2f0",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/profile.sqlite",
+                "sha256": "618a1740a09e12907011d07ae4d55f1092185562325c0660b97e5c0a5131c98d",
+                "bytes": 176128,
+                "copied_before_native_sha256": "618a1740a09e12907011d07ae4d55f1092185562325c0660b97e5c0a5131c98d",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/inventory-v2-1388a0f9-3917-43c7-a91d-b3b46e4be647.sqlite",
+                "sha256": "bb7bf147d243ddfd2bcfff2e42c423ed5bab1f54f38a7af7ca487913679a6485",
+                "bytes": 4161536,
+                "copied_before_native_sha256": "bb7bf147d243ddfd2bcfff2e42c423ed5bab1f54f38a7af7ca487913679a6485",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/normal-r2-main.json",
+                "sha256": "8cecc4005d94db80add458703fd284a1275ac4598c382eb119961826a3b98ab6",
+                "bytes": 274882,
+                "copied_before_native_sha256": "8cecc4005d94db80add458703fd284a1275ac4598c382eb119961826a3b98ab6",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/normal-r5-native-entry.json",
+                "sha256": "bd7d8b45bda3306b3887b141be81341b458e7a05345b5a517a0c998477ae4261",
+                "bytes": 666775,
+                "copied_before_native_sha256": "bd7d8b45bda3306b3887b141be81341b458e7a05345b5a517a0c998477ae4261",
+                "frozen_copy": null
+              }
+            ],
+            "scope": "Actual earlier producer commands executed once in the final suite; native uses their untouched entry copy. No fixture or second normal-route execution is inferred."
+          },
+          "actual_receipt_count": 1158,
+          "receipt_history_source": "validated actual active SQLite, not entry JSON summary"
+        },
+        "compilation_reuse": {
+          "path": "reports/build/20261010T114742501030Z/reused_compilation.json",
+          "sha256": "6188d0473ca98e786be06fbe70e9b8dac4040a1d1778a1658561692b611d8c29",
+          "bytes": 3977
+        },
+        "runtime_input_capture": {
+          "path": "reports/build/20261010T114742501030Z/run_inputs.json",
+          "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+          "bytes": 89502
+        },
+        "actual_commands_manifest": {
+          "path": "reports/build/20261010T114742501030Z/commands.json",
+          "sha256": "4912ce778893529c86edad0865f63018b276310ea389edccd324d49830716a56",
+          "bytes": 1442
+        },
+        "compiled_artifacts": {
+          "path": "reports/build/20261010T114742501030Z/compiled_artifacts.json",
+          "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+          "bytes": 3925
+        },
+        "scope": "actual zero-XP normal-r5-native-entry copied SQLite profile; native materials/stations/editor/meaning/scope/rescue/review/custody/tower/submission controls and actual safe paths; shared combat actions selected by explicit engineering controller",
+        "human_native_play": "not_run",
+        "language_calibration": "human_pending"
+      }
+    ],
+    "actual_performance": {
+      "actual_measurement": {
+        "path": "reports/execution/CX-075/20261010T120806751059Z/native_performance.json",
+        "sha256": "4639ef0b92d425f00f77b98f0945cddcf3a2832848fff10229c924062baf5770",
+        "bytes": 2439
+      },
+      "data": {
+        "scope": "native first scene and 9000-word editor with 20 acknowledged SQLite fixture draft revisions; candidate measurement",
+        "build": "0.1-internal",
+        "platform": "Windows",
+        "renderer": "Windows",
+        "processor_count": 20,
+        "runtime": "10.0.12",
+        "frames": 1302,
+        "mean_frame_interval_ms": 6.138421582181269,
+        "p95_frame_interval_ms": 6.6297,
+        "p99_frame_interval_ms": 8.6096,
+        "observed_frame_cadence_fps": 162.90832856818108,
+        "working_set_bytes": 363659264,
+        "managed_heap_bytes": 4674280,
+        "sqlite_bytes": 1855488,
+        "writes": [
+          {
+            "task": 0,
+            "revision": 1,
+            "enqueue_ms": 0.0309,
+            "total_ack_ms": 8.4531,
+            "body_chars": 69010
+          },
+          {
+            "task": 0,
+            "revision": 2,
+            "enqueue_ms": 0.1434,
+            "total_ack_ms": 13.4626,
+            "body_chars": 69010
+          },
+          {
+            "task": 1,
+            "revision": 1,
+            "enqueue_ms": 0.0219,
+            "total_ack_ms": 11.9774,
+            "body_chars": 69010
+          },
+          {
+            "task": 1,
+            "revision": 2,
+            "enqueue_ms": 0.029,
+            "total_ack_ms": 17.9576,
+            "body_chars": 69010
+          },
+          {
+            "task": 2,
+            "revision": 1,
+            "enqueue_ms": 0.0288,
+            "total_ack_ms": 17.9348,
+            "body_chars": 69010
+          },
+          {
+            "task": 2,
+            "revision": 2,
+            "enqueue_ms": 0.0265,
+            "total_ack_ms": 18.1104,
+            "body_chars": 69010
+          },
+          {
+            "task": 3,
+            "revision": 1,
+            "enqueue_ms": 0.1215,
+            "total_ack_ms": 17.5692,
+            "body_chars": 69010
+          },
+          {
+            "task": 3,
+            "revision": 2,
+            "enqueue_ms": 0.0351,
+            "total_ack_ms": 11.8953,
+            "body_chars": 69010
+          },
+          {
+            "task": 4,
+            "revision": 1,
+            "enqueue_ms": 0.0345,
+            "total_ack_ms": 18.0099,
+            "body_chars": 69010
+          },
+          {
+            "task": 4,
+            "revision": 2,
+            "enqueue_ms": 0.0391,
+            "total_ack_ms": 11.7832,
+            "body_chars": 69010
+          },
+          {
+            "task": 5,
+            "revision": 1,
+            "enqueue_ms": 0.0322,
+            "total_ack_ms": 11.8893,
+            "body_chars": 69010
+          },
+          {
+            "task": 5,
+            "revision": 2,
+            "enqueue_ms": 0.027,
+            "total_ack_ms": 11.9649,
+            "body_chars": 69010
+          },
+          {
+            "task": 6,
+            "revision": 1,
+            "enqueue_ms": 0.0235,
+            "total_ack_ms": 11.9922,
+            "body_chars": 69010
+          },
+          {
+            "task": 6,
+            "revision": 2,
+            "enqueue_ms": 0.2361,
+            "total_ack_ms": 17.8498,
+            "body_chars": 69010
+          },
+          {
+            "task": 7,
+            "revision": 1,
+            "enqueue_ms": 0.0242,
+            "total_ack_ms": 18.0077,
+            "body_chars": 69010
+          },
+          {
+            "task": 7,
+            "revision": 2,
+            "enqueue_ms": 0.0246,
+            "total_ack_ms": 12.0288,
+            "body_chars": 69010
+          },
+          {
+            "task": 8,
+            "revision": 1,
+            "enqueue_ms": 0.0257,
+            "total_ack_ms": 11.8848,
+            "body_chars": 69010
+          },
+          {
+            "task": 8,
+            "revision": 2,
+            "enqueue_ms": 0.0233,
+            "total_ack_ms": 12.0019,
+            "body_chars": 69010
+          },
+          {
+            "task": 9,
+            "revision": 1,
+            "enqueue_ms": 0.0277,
+            "total_ack_ms": 11.96,
+            "body_chars": 69010
+          },
+          {
+            "task": 9,
+            "revision": 2,
+            "enqueue_ms": 0.0242,
+            "total_ack_ms": 18.1696,
+            "body_chars": 69010
+          }
+        ],
+        "retained_fixture_heads": 10,
+        "experience": 0,
+        "not_run": [
+          "78 playable scenes on-demand loading",
+          "long native NPC lease session",
+          "final release build benchmark",
+          "physical power loss",
+          "human performance acceptance"
+        ],
+        "human_signoff": null
+      },
+      "actual_commands": {
+        "path": "reports/execution/CX-075/20261010T120806751059Z/commands.json",
+        "sha256": "db2a34750224df3257547f00ff4bf7081b51e31957fd9c78cce839bffbf0ad1b",
+        "bytes": 545
+      },
+      "actual_native_log": {
+        "path": "reports/execution/CX-075/20261010T120806751059Z/native_runtime.log",
+        "sha256": "6247c6b3447aee067e06931966542922aae4c8b4cfc0877024ab0ea02b12b92c",
+        "bytes": 628
+      },
+      "pre_native_capture": {
+        "path": "reports/continuous/performance_capture_20261010T120803002382Z.json",
+        "sha256": "3da35cd3846a883aa459a99dcd746ea1ea4c6aae5d4a6ca9b49f368dd6bf3cf0",
+        "bytes": 94633
+      },
+      "installed_toolchain": {
+        "path": "toolchain/installed.windows-x64.json",
+        "sha256": "f8d3df7708df67cbe301da24b3b2395b7565c4036a7486650a2f91ce52406b46",
+        "bytes": 2141
+      },
+      "hardware_details": {
+        "gpu": [
+          {
+            "Name": "Intel(R) UHD Graphics",
+            "DriverVersion": "32.0.101.5972"
+          },
+          {
+            "Name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+            "DriverVersion": "32.0.15.9282"
+          }
+        ],
+        "cpu": "13th Gen Intel(R) Core(TM) i5-13500HX",
+        "os": "Microsoft Windows 11 Home 10.0.26200 build 26200",
+        "memory_mib": 16077,
+        "storage": [
+          {
+            "Model": "MTFDKBA512TFH-1BC1AABHA",
+            "InterfaceType": "SCSI",
+            "Size": 512105932800
+          }
+        ]
+      },
+      "hardware_labels_missing": [],
+      "actual_draft_retention": {
+        "control": {
+          "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/control.sqlite",
+          "sha256": "3a9894f51216e09ae1f2b28286ecde21993903aa99da0871fb189d9202d5f2aa",
+          "bytes": 40960
+        },
+        "actual_current_database": {
+          "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/recovery/inventory-v2-bbc2d245-0c9d-4855-931c-7cf77d3fa8ee.sqlite",
+          "sha256": "bee239f9d3120c412c562318879a7b5ac5582a7bae3ef170e202625d2dd05649",
+          "bytes": 1638400
+        },
+        "current_branch": "e7083d31-8132-4dc0-b299-7b5e0d9f4538",
+        "experience": 0,
+        "drafts": [
+          {
+            "task": "performance-fixture:0",
+            "draft": "1e98ccc8-9fd1-4961-aa8a-9004a26c9afc",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:1",
+            "draft": "90bace26-050e-4b93-9fc7-9bae10109829",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:2",
+            "draft": "e80234ca-7422-4612-bdb8-6caa06767d10",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:3",
+            "draft": "3f49aef5-cb57-4746-b20b-bb1b0d674ff6",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:4",
+            "draft": "166685a6-b8da-4cc3-b684-fc64736b1d03",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:5",
+            "draft": "debeda1b-846a-4ff6-b38f-5168a37345c2",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:6",
+            "draft": "b4f6d5e7-f659-4811-b10e-fddee1c77bbd",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:7",
+            "draft": "a304666c-5d2c-4e31-aefa-faa2de277096",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:8",
+            "draft": "43952418-fe1b-4ee9-8a8f-8dbee0579b60",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:9",
+            "draft": "03933457-57be-42e1-b089-9214a0e35a87",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          }
+        ],
+        "scope": "Twenty real neutral benchmark draft revisions retained; these are explicit engineering drafts, not world task or participant writing results."
+      },
+      "scope": "Current Debug first scene/9000-word editor and 20 declared fixture draft revisions; real process frame cadence, no 78-scene, long NPC session, release-build or clean-machine claim."
+    },
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-010"
+  ],
+  "not_run": [
+    "Human final mixed speech/critical negation-number audition, pronunciation recordings/review and redistribution rights",
+    "Actual target-band participant pilots, real human blind raters, canon/semantic calibration and unfamiliar full language assessment",
+    "Physical IME/screen reader, clean second machine, release-build performance, physical power loss and full 78-scene long NPC occupancy load",
+    "Hardware labels supplied; no independent physical-machine certification"
+  ]
+}

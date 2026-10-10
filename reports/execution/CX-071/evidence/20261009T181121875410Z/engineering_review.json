@@ -1,0 +1,377 @@
+{
+  "task_id": "CX-071",
+  "scope": "提供长文、长音轨、Task1/2任务与条件记录，不把内部正确率直接换band。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "短留言没有完整评分",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-071",
+            "name": "Frozen source yields four complete task candidate routes and a short local-feedback route, without inventing audio or calibration",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Task1 table and Task2 prompt preserve original data while author answers and world policy writes remain excluded",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Strict calibration protocol rejects duplicate fields, self-approved claims, overall section and changed target",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Default calibration inspector accepts no model, fixture or hash-integrity self-signature as a human decision",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Material, question, support, audio, order, tool and evaluator changes invalidate only exact bound calibration records",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Two editor roles require two actual authorities; a script hash never supplies final full audio audition",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Pilot statistics aggregate by participant and keep unanswered items visible; correlated retries do not inflate subjects",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Relevant section verification, consent, exposure and declared support prevent misleading pooled pilot results",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Complete writing needs two distinct trained blind human raters; short text and simulated raters never produce a full band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Predeclared disagreement tolerance requires third review, and revised response or evaluator invalidates the old rater pair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Observation revision replaces one interpretation, never another attempt; export contains hashes and excludes erased epochs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Unverified natural language candidates remain unassessed and cannot alter review success or failure schedules",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    },
+    {
+      "criterion": "新内容/音轨/支持变化使相关记录复核",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-071",
+            "name": "Frozen source yields four complete task candidate routes and a short local-feedback route, without inventing audio or calibration",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Task1 table and Task2 prompt preserve original data while author answers and world policy writes remain excluded",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Strict calibration protocol rejects duplicate fields, self-approved claims, overall section and changed target",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Default calibration inspector accepts no model, fixture or hash-integrity self-signature as a human decision",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Material, question, support, audio, order, tool and evaluator changes invalidate only exact bound calibration records",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Two editor roles require two actual authorities; a script hash never supplies final full audio audition",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Pilot statistics aggregate by participant and keep unanswered items visible; correlated retries do not inflate subjects",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Relevant section verification, consent, exposure and declared support prevent misleading pooled pilot results",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Complete writing needs two distinct trained blind human raters; short text and simulated raters never produce a full band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Predeclared disagreement tolerance requires third review, and revised response or evaluator invalidates the old rater pair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Observation revision replaces one interpretation, never another attempt; export contains hashes and excludes erased epochs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Unverified natural language candidates remain unassessed and cannot alter review success or failure schedules",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    },
+    {
+      "criterion": "训练库与未见测试隔离",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-071",
+            "name": "Frozen source yields four complete task candidate routes and a short local-feedback route, without inventing audio or calibration",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Task1 table and Task2 prompt preserve original data while author answers and world policy writes remain excluded",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Strict calibration protocol rejects duplicate fields, self-approved claims, overall section and changed target",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Default calibration inspector accepts no model, fixture or hash-integrity self-signature as a human decision",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Material, question, support, audio, order, tool and evaluator changes invalidate only exact bound calibration records",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Two editor roles require two actual authorities; a script hash never supplies final full audio audition",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Pilot statistics aggregate by participant and keep unanswered items visible; correlated retries do not inflate subjects",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Relevant section verification, consent, exposure and declared support prevent misleading pooled pilot results",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Complete writing needs two distinct trained blind human raters; short text and simulated raters never produce a full band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Predeclared disagreement tolerance requires third review, and revised response or evaluator invalidates the old rater pair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Observation revision replaces one interpretation, never another attempt; export contains hashes and excludes erased epochs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Unverified natural language candidates remain unassessed and cannot alter review success or failure schedules",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    },
+    {
+      "criterion": "人工签核不能由模型自报",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-071",
+            "name": "Frozen source yields four complete task candidate routes and a short local-feedback route, without inventing audio or calibration",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Task1 table and Task2 prompt preserve original data while author answers and world policy writes remain excluded",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Strict calibration protocol rejects duplicate fields, self-approved claims, overall section and changed target",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Default calibration inspector accepts no model, fixture or hash-integrity self-signature as a human decision",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Material, question, support, audio, order, tool and evaluator changes invalidate only exact bound calibration records",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Two editor roles require two actual authorities; a script hash never supplies final full audio audition",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Pilot statistics aggregate by participant and keep unanswered items visible; correlated retries do not inflate subjects",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Relevant section verification, consent, exposure and declared support prevent misleading pooled pilot results",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Complete writing needs two distinct trained blind human raters; short text and simulated raters never produce a full band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Predeclared disagreement tolerance requires third review, and revised response or evaluator invalidates the old rater pair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Observation revision replaces one interpretation, never another attempt; export contains hashes and excludes erased epochs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-071",
+            "name": "Unverified natural language candidates remain unassessed and cannot alter review success or failure schedules",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    }
+  ],
+  "test_results": {
+    "scope": "executed C# code tests",
+    "executed": 12,
+    "failed": 0,
+    "results": [
+      {
+        "task": "CX-071",
+        "name": "Frozen source yields four complete task candidate routes and a short local-feedback route, without inventing audio or calibration",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Task1 table and Task2 prompt preserve original data while author answers and world policy writes remain excluded",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Strict calibration protocol rejects duplicate fields, self-approved claims, overall section and changed target",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Default calibration inspector accepts no model, fixture or hash-integrity self-signature as a human decision",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Material, question, support, audio, order, tool and evaluator changes invalidate only exact bound calibration records",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Two editor roles require two actual authorities; a script hash never supplies final full audio audition",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Pilot statistics aggregate by participant and keep unanswered items visible; correlated retries do not inflate subjects",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Relevant section verification, consent, exposure and declared support prevent misleading pooled pilot results",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Complete writing needs two distinct trained blind human raters; short text and simulated raters never produce a full band",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Predeclared disagreement tolerance requires third review, and revised response or evaluator invalidates the old rater pair",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Observation revision replaces one interpretation, never another attempt; export contains hashes and excludes erased epochs",
+        "result": "passed"
+      },
+      {
+        "task": "CX-071",
+        "name": "Unverified natural language candidates remain unassessed and cannot alter review success or failure schedules",
+        "result": "passed"
+      }
+    ],
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "process_architecture": "X64",
+    "human_signoff": null,
+    "cli_scope": "source/protocol audit only; no real participant, band, external provider or human signature"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-070",
+    "CX-031"
+  ],
+  "not_run": [
+    "Native review/practice entry and actual reviewed full offline material routes",
+    "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+  ]
+}

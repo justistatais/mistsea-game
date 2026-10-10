@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Typed local command envelope v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "profile_id",
+    "branch_id",
+    "load_context",
+    "command_id",
+    "type",
+    "release_id",
+    "expected",
+    "payload"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "profile_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "branch_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "load_context": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "command_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "release_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "type": {
+      "enum": [
+        "DepartFerry"
+      ]
+    },
+    "expected": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ferry",
+        "player",
+        "quest",
+        "intent",
+        "device_configuration"
+      ],
+      "properties": {
+        "ferry": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "player": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "quest": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "intent": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "device_configuration": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "payload": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "vessel_id",
+        "quest_instance_id",
+        "confirmed_intent_id",
+        "preview_id"
+      ],
+      "properties": {
+        "vessel_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "quest_instance_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "confirmed_intent_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        },
+        "preview_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      }
+    }
+  }
+}

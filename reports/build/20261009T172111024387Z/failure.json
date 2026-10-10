@@ -1,0 +1,27 @@
+{
+  "error": "  正在确定要还原的项目…\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Mist.Infrastructure.csproj : error NU1004: 项目的运行时标识符已更改。项目的运行时标识符: ，锁定文件的运行时标识符: win-x64。包锁定文件与项目依赖项不一致，因此无法在锁定模式下运行还原。请禁用 RestoreLockedMode MSBuild 属性或传递显式 --force-evaluate 选项，运行还原来更新锁定文件。 [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\Mist.Application.csproj : error NU1004: 项目的运行时标识符已更改。项目的运行时标识符: ，锁定文件的运行时标识符: win-x64。包锁定文件与项目依赖项不一致，因此无法在锁定模式下运行还原。请禁用 RestoreLockedMode MSBuild 属性或传递显式 --force-evaluate 选项，运行还原来更新锁定文件。 [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Core\\Mist.Core.csproj : error NU1004: 项目的运行时标识符已更改。项目的运行时标识符: ，锁定文件的运行时标识符: win-x64。包锁定文件与项目依赖项不一致，因此无法在锁定模式下运行还原。请禁用 RestoreLockedMode MSBuild 属性或传递显式 --force-evaluate 选项，运行还原来更新锁定文件。 [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\MistSea.csproj : error NU1004: 项目的运行时标识符已更改。项目的运行时标识符: ，锁定文件的运行时标识符: win-x64。 [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\MistSea.csproj : error NU1004: net10.0 的包引用已更改。锁定文件的包引用: Godot.SourceGenerators:[4.7.2, ), GodotSharp:[4.7.2, )，项目的包引用: Godot.SourceGenerators >= 4.7.2, GodotSharp >= 4.7.2, GodotSharpEditor >= 4.7.2。包锁定文件与项目依赖项不一致，因此无法在锁定模式下运行还原。请禁用 RestoreLockedMode MSBuild 属性或传递显式 --force-evaluate 选项，运行还原来更新锁定文件。 [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln]\r\n  未能还原 C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Core\\Mist.Core.csproj (用时 102 毫秒)。\r\n  未能还原 C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\Mist.Application.csproj (用时 102 毫秒)。\r\n  未能还原 C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Mist.Infrastructure.csproj (用时 102 毫秒)。\r\n  未能还原 C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\MistSea.csproj (用时 102 毫秒)。\r\n  3 个项目(共 7 个)是最新的，无法还原。\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T172111024387Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--locked-mode"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261009T172111024387Z/restore.log"
+    }
+  ]
+}

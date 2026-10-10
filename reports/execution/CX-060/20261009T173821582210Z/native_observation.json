@@ -1,0 +1,21 @@
+{
+  "scope": "native navigation/Return button width fix and actual 200% system/HUD layout observation",
+  "actor": {
+    "scene": "R1-S01",
+    "position": {
+      "x": 68,
+      "y": 62
+    },
+    "action_clock": 103
+  },
+  "balances": {
+    "experience": 900,
+    "marks": 400,
+    "parts": 7
+  },
+  "q104_receipts": 1,
+  "glimmer_instances": 1,
+  "human_ime": "not_run",
+  "screen_reader": "not_run",
+  "human_signoff": null
+}

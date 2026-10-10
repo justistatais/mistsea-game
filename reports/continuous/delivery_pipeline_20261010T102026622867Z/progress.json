@@ -1,0 +1,57 @@
+{
+  "suite": "reports/build/20261010T100947135499Z",
+  "runs": [
+    {
+      "phase": "all_29_native",
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\run_native_sequence.py",
+        "--suite",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T100947135499Z"
+      ],
+      "exit_code": 0,
+      "log": "reports/continuous/delivery_pipeline_20261010T102026622867Z/all_29_native.log",
+      "actual_result": {
+        "result": "all_selected_native_runs_verified",
+        "report": "reports/continuous/native_sequence_20261010T103322953641Z",
+        "runs": 29,
+        "human_play": "not_run"
+      }
+    },
+    {
+      "phase": "native_performance",
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\run_current_performance.author_only.py",
+        "--suite",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T100947135499Z"
+      ],
+      "exit_code": 0,
+      "log": "reports/continuous/delivery_pipeline_20261010T102026622867Z/native_performance.log",
+      "actual_result": {
+        "result": "native_candidate_measurement",
+        "path": "reports/execution/CX-075/20261010T105721321332Z",
+        "frames": 1322,
+        "observed_frame_cadence_fps": 165.4669789177921,
+        "scope": "native first scene and 9000-word editor with 20 acknowledged SQLite fixture draft revisions; candidate measurement",
+        "pre_native_capture": "reports/continuous/performance_capture_20261010T105717689343Z.json"
+      }
+    },
+    {
+      "phase": "windows_package",
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\package_windows.py"
+      ],
+      "exit_code": 1,
+      "log": "reports/continuous/delivery_pipeline_20261010T102026622867Z/windows_package.log"
+    }
+  ],
+  "scope": "Actual serial engineering verification; no human or formal acceptance"
+}

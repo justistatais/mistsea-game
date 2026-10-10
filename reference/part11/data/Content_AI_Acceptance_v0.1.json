@@ -1,0 +1,366 @@
+[
+  {
+    "id": "CAI-AT-01",
+    "title": "6.5锁定",
+    "expected": "主线与正式材料的读听写目标均6.5，口语null，不出现自动7分门槛。",
+    "verification": "static+pilot",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-02",
+    "title": "校准不是标签",
+    "expected": "没有当前任务条件的有效标定记录，不能宣布已校准或生成成绩。",
+    "verification": "review+pilot",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-03",
+    "title": "源文不可变",
+    "expected": "同ID同版本正文改变时构建失败，不能按加载顺序覆盖。",
+    "verification": "static",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-04",
+    "title": "复用去重",
+    "expected": "第五/十部分Q102同文复用不增加材料、奖励或独立学习次数。",
+    "verification": "static+integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-05",
+    "title": "依赖完整",
+    "expected": "不存在缺失引用、循环依赖或无法恢复的内容绑定。",
+    "verification": "static",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-06",
+    "title": "玩家信息充分",
+    "expected": "不用作者隐藏事实才能解题；独立解题者能指出有效来源或真实未知。",
+    "verification": "human+playtest",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-07",
+    "title": "多解认可",
+    "expected": "所有公开约束内可行方案都能进入实际验证。",
+    "verification": "logic+playtest",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-08",
+    "title": "局部事实审批",
+    "expected": "新增事实单独提出，不在成文中悄悄改写主线。",
+    "verification": "editorial",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-09",
+    "title": "人物不全知",
+    "expected": "重要对白在当前分支只使用实际可见和已获知信息。",
+    "verification": "integration+semantic",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-10",
+    "title": "没有假签核",
+    "expected": "模型或任意候选文件的approved字段不能取得真实审核权限。",
+    "verification": "security",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-11",
+    "title": "版本化审核",
+    "expected": "文本、任务、声音或支持相关改动使对应签核待复核。",
+    "verification": "static+review",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-12",
+    "title": "独立人工复核",
+    "expected": "故事和语言最终核查来自不同实际审核人，而非两个模型角色。",
+    "verification": "human",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-13",
+    "title": "无假音轨",
+    "expected": "没有真实文件时播放器与清单均保持脚本状态。",
+    "verification": "media+UI",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-14",
+    "title": "真实审听",
+    "expected": "关键数字、否定、更正对象和意图经整轨审听，不能只看转写。",
+    "verification": "human_audio",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-15",
+    "title": "字幕对齐",
+    "expected": "每个必需段落在真实音轨有合法位置；版本与顺序相符。",
+    "verification": "media+human",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-16",
+    "title": "说明不朗读",
+    "expected": "答案、元数据、舞台说明与角色标签不被当成正文录音。",
+    "verification": "human_audio",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-17",
+    "title": "声音来源",
+    "expected": "实际声音许可、使用范围与素材版本记录完整。",
+    "verification": "rights",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-18",
+    "title": "词典来源",
+    "expected": "商业词典未获许可字段不进入离线库；原创条目也核对词义与来源。",
+    "verification": "rights+language",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-19",
+    "title": "中文保义",
+    "expected": "中文辅助保留否定、条件、时序、数量、立场和信息不足。",
+    "verification": "language",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-20",
+    "title": "图文同源",
+    "expected": "图表、数据、答案和可访问文本一致，不靠AI绘图推断数值。",
+    "verification": "static+visual",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-21",
+    "title": "帮助隔离",
+    "expected": "L1不拿到L4全文；完整提示按当前状态，不重复取走物品。",
+    "verification": "integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-22",
+    "title": "校准条件",
+    "expected": "按相关单项能力分组，记录工具/音频/信息暴露条件。",
+    "verification": "pilot",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-23",
+    "title": "留出隔离",
+    "expected": "生产、回归、难度试测与迁移集按家族隔离。",
+    "verification": "dataset_review",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-24",
+    "title": "未知不造分",
+    "expected": "短稿、服务失败或证据不足不被换算成完整band。",
+    "verification": "semantic+UI",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-25",
+    "title": "无世界工具",
+    "expected": "AI适配器无奖励、发船、改关系、改工程与任意执行工具。",
+    "verification": "security+integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-26",
+    "title": "正文是数据",
+    "expected": "正文含角色冒充或指令时，不改变模型权限和世界。",
+    "verification": "actual_model_redteam",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-27",
+    "title": "先过滤再检索",
+    "expected": "未来剧情、答案键、受限身份及其标题摘要不进入投影请求。",
+    "verification": "security+integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-28",
+    "title": "可见不等外发",
+    "expected": "有游戏内访问但无在线处理许可的资料不能外发。",
+    "verification": "security",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-29",
+    "title": "传输同意",
+    "expected": "打开编辑器不上传；明确同意可撤回并覆盖具体用途。",
+    "verification": "UI+network",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-30",
+    "title": "输出契约",
+    "expected": "未声明字段、伪来源、错版本、越界片段不可送入执行面。",
+    "verification": "static+runtime",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-31",
+    "title": "引用不保真",
+    "expected": "用真实引用却表达错误结论的样例进入语义评估，不能被schema通过掩盖。",
+    "verification": "actual_model+human",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-32",
+    "title": "意思不代改",
+    "expected": "玩家明确写B时不得为了正确答案改成C，未知保持未知。",
+    "verification": "actual_model",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-33",
+    "title": "建议需采纳",
+    "expected": "反馈不自动改正文、签字、发信或执行世界。",
+    "verification": "integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-34",
+    "title": "不流式泄漏",
+    "expected": "未经核验的生成文字不先出现到玩家正式界面。",
+    "verification": "UI+network",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-35",
+    "title": "安全呈现",
+    "expected": "生成HTML/脚本只按转义文本展示，不执行外部请求。",
+    "verification": "security+UI",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-36",
+    "title": "旧稿路由",
+    "expected": "旧稿反馈不替换新稿，当前光标与保存状态不变。",
+    "verification": "integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-37",
+    "title": "读档隔离",
+    "expected": "未来分支反馈不会泄漏到当前旧分支任务与人物知识。",
+    "verification": "integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-38",
+    "title": "删除生效",
+    "expected": "删除世代、许可撤回与请求取消能阻止晚到结果复活。",
+    "verification": "privacy+network",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-39",
+    "title": "缓存范围",
+    "expected": "模型/提示/草稿/权限/帮助范围不同不能命中不兼容私人缓存。",
+    "verification": "runtime",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-40",
+    "title": "最小日志",
+    "expected": "默认不留全文提示、个人身份、凭证或完整剧情。",
+    "verification": "security_audit",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-41",
+    "title": "有限重试",
+    "expected": "限流和短时服务错最多一次重试，其他错误不无限重试。",
+    "verification": "runtime",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-42",
+    "title": "预算真实",
+    "expected": "实际调用收费即使结果废弃仍记账，重放不重复计费，超额停止新调用。",
+    "verification": "runtime+provider",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-43",
+    "title": "无网可玩",
+    "expected": "网络关闭时任务、草稿、固定帮助与显式确认可完成主线。",
+    "verification": "full_playtest",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-44",
+    "title": "包绑定",
+    "expected": "进行中任务使用其绑定版本，新任务才用新包。",
+    "verification": "integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-45",
+    "title": "缺包不偷换",
+    "expected": "旧包缺失时恢复/迁移明确，不默认拿新答案替换。",
+    "verification": "integration",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-46",
+    "title": "隔离与迁移",
+    "expected": "严重缺陷版本停止新用，旧存档迁移记录不重复奖励和伪新证据。",
+    "verification": "recovery",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-47",
+    "title": "发布可信",
+    "expected": "构建签名和人工权限由真实可信基础设施核验，不以自写JSON为凭。",
+    "verification": "security",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-48",
+    "title": "读听写范围",
+    "expected": "16长文、32关键音轨、12长写作等既有预算按独立定义统计。",
+    "verification": "content_audit",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-49",
+    "title": "同档主题变化",
+    "expected": "复习新情境不是同模板换人名数字，也不偷偷升到7分。",
+    "verification": "editorial+pilot",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-50",
+    "title": "批量返工控制",
+    "expected": "同模板共因错误暂停该批，不继续批量扩散或无限重生成。",
+    "verification": "production_trial",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-51",
+    "title": "Q102端到端",
+    "expected": "三种工坊路径、实际修灯、同稿写作、离港确认与受限AI均兼容。",
+    "verification": "engine_playtest",
+    "production_status": "not_run_by_part11_reference_tests"
+  },
+  {
+    "id": "CAI-AT-52",
+    "title": "不假称已完成",
+    "expected": "报告区分静态检查、合成fixture、真实模型、真人审校和目标人群试测。",
+    "verification": "release_review",
+    "production_status": "not_run_by_part11_reference_tests"
+  }
+]

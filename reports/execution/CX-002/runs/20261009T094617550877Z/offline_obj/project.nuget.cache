@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "7RlQcbgT3PI=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "无法解析 net10.0 的“Microsoft.Data.Sqlite (>= 10.0.12)”。",
+      "projectPath": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+      "filePath": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+      "libraryId": "Microsoft.Data.Sqlite",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "无法解析 net10.0/win-x64 的“Microsoft.Data.Sqlite (>= 10.0.12)”。",
+      "projectPath": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+      "filePath": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+      "libraryId": "Microsoft.Data.Sqlite",
+      "targetGraphs": [
+        "net10.0/win-x64"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "package": "Part07_Character_Progression_Design_v0.1",
+  "version": "0.1",
+  "notes": "Hash snapshot of delivered files; no font files or external executable assets. Numeric defaults are not playtested balance.",
+  "files": [
+    {
+      "path": "Character_Progression_Validation_v0.1.md",
+      "bytes": 1896,
+      "sha256": "0c734fc21d1ce6893ae2892fc76abc606b96b6fc634089bbce655f03abb88be1"
+    },
+    {
+      "path": "Character_Progression_v0.1.md",
+      "bytes": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    {
+      "path": "Codex_Handoff_Part07_v0.1.md",
+      "bytes": 4812,
+      "sha256": "8728c65fe263fafacaf4014bfc8b01f10d6b0957e98cd74e7b3e1b5a9e04602d"
+    },
+    {
+      "path": "Growth_Baseline_Change_CR-RPG-007-001.md",
+      "bytes": 2441,
+      "sha256": "de61cf8791df7ef0252e450b5d99e15c33be4c944c363ad0a821aa0775411f67"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1374,
+      "sha256": "d0fc547fcc364cb2a3d7b561b03ef0b7246693349701e7db86febd3b94a4a1b3"
+    },
+    {
+      "path": "data/Character_Progression_Reference_v0.1.json",
+      "bytes": 65966,
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    {
+      "path": "dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+      "bytes": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    {
+      "path": "dependencies/English_Learning_System_v0.1.md",
+      "bytes": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    {
+      "path": "dependencies/Exploration_Level_Design_v0.1.md",
+      "bytes": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "dependencies/Game_Design_Core_v0.1.md",
+      "bytes": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    {
+      "path": "dependencies/Puzzle_System_v0.1.md",
+      "bytes": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    {
+      "path": "dependencies/Quest_Event_Reference_v0.1.json",
+      "bytes": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    {
+      "path": "dependencies/Quest_Event_System_v0.1.md",
+      "bytes": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "dependencies/World_Story_Bible_v0.1.md",
+      "bytes": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "validation/rpg_reference.py",
+      "bytes": 9384,
+      "sha256": "60f67f2f08b34945c0e686f044dc3e07374c2cadad1e9952376957c40a6d34cc"
+    },
+    {
+      "path": "validation/run_log.txt",
+      "bytes": 7970,
+      "sha256": "565479c95ff3f527f188762caceb8d177d28d3fd97eaea10002b62969b8ddcef"
+    },
+    {
+      "path": "validation/run_validation.py",
+      "bytes": 1955,
+      "sha256": "ea0641970534ec343d5d1252714186b4b3beff45dfb03b6aa8c08eea9a9fd8fe"
+    },
+    {
+      "path": "validation/test_progression.py",
+      "bytes": 13680,
+      "sha256": "46132983b4f50eefeae69aaede0557bfa36e5b374971178cdddff24470e9dce3"
+    },
+    {
+      "path": "validation/validation_report.json",
+      "bytes": 3379,
+      "sha256": "20defdb6014d9d869506b6b35682441c3c5fb73826d9a3260c0a557dd023669f"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+[
+    {
+        "material_id":  "R1-ROOM-L-GUESTS",
+        "material_version":  "R1-LIFE-20261010-v2",
+        "text_sha256":  "2d199dea892312eadfc6ef4979ca3821bd291ed2cfc040fe8e759c73aa530b2d",
+        "speech_sha256":  "53ed1b221b1bea1006ce45dc304232fd05206000b5af19e104725e18d9e43b41",
+        "audio_version":  "local-tts-1",
+        "voice":  "Microsoft Zira Desktop - English (United States)",
+        "audio_path":  "audio/regional/R1-ROOM-L-GUESTS-R1-LIFE-20261010-v2-local-tts-1.wav",
+        "segments":  [
+                         {
+                             "paragraph_id":  "R1-ROOM-L-GUESTS.P1",
+                             "literal_prefix":  "Repairer:",
+                             "speaker_id":  "Repairer",
+                             "source_start_scalar":  10,
+                             "source_end_scalar":  117,
+                             "text":  "We are the two people on BKG-17. The ferry delay changed our arrival, not the number of beds we requested. ",
+                             "sha256":  "620a88a9f5d7c9e7e3487c78c08813907c3b8b7dd71f7456bbcc72c1adad3a66"
+                         },
+                         {
+                             "paragraph_id":  "R1-ROOM-L-GUESTS.P1",
+                             "literal_prefix":  "Innkeeper:",
+                             "speaker_id":  "Innkeeper",
+                             "source_start_scalar":  128,
+                             "source_end_scalar":  198,
+                             "text":  "I confirmed version 2 after your reply. It replaces the earlier date. ",
+                             "sha256":  "05709c47b43b4e16fceb3a8963c018304f6eec7f66a672eb24c5acd47b955644"
+                         },
+                         {
+                             "paragraph_id":  "R1-ROOM-L-GUESTS.P1",
+                             "literal_prefix":  "Traveller:",
+                             "speaker_id":  "Traveller",
+                             "source_start_scalar":  209,
+                             "source_end_scalar":  328,
+                             "text":  "My booking is BKG-22. I am travelling alone and need to enter without stairs. I have not asked for a quiet upper room. ",
+                             "sha256":  "d6b65cd2534c9cf9bafab2a1e1fbbde8681020d884dd4a7fe428309b7902776b"
+                         },
+                         {
+                             "paragraph_id":  "R1-ROOM-L-GUESTS.P1",
+                             "literal_prefix":  "Innkeeper:",
+                             "speaker_id":  "Innkeeper",
+                             "source_start_scalar":  339,
+                             "source_end_scalar":  436,
+                             "text":  "Then the old letter and its amendment belong together, while the single booking remains separate.",
+                             "sha256":  "17a6b8d7595fd9a5abd8132aaddae7926467cd2e9ae8e42c6a5ab21a6772aad3"
+                         },
+                         {
+                             "paragraph_id":  "R1-ROOM-L-GUESTS.P2",
+                             "literal_prefix":  "Repairer:",
+                             "speaker_id":  "Repairer",
+                             "source_start_scalar":  10,
+                             "source_end_scalar":  158,
+                             "text":  "Please keep the old promise visible when correcting the ledger. We do not want to receive the same compensation twice because you found two copies. ",
+                             "sha256":  "81e209c9293b577b3fc096bbee7a9d1bd082193c49cd69f2bf44b0226ead66d0"
+                         },
+                         {
+                             "paragraph_id":  "R1-ROOM-L-GUESTS.P2",
+                             "literal_prefix":  "Innkeeper:",
+                             "speaker_id":  "Innkeeper",
+                             "source_start_scalar":  169,
+                             "source_end_scalar":  441,
+                             "text":  "Once both groups have suitable rooms, I can record either a lodging discount in the inn\u0027s own account or one local information appointment. Neither option takes a main-task battery or another guest\u0027s bed. Choose the extra arrangement after the basic allocation is checked.",
+                             "sha256":  "13aeaf73126c3724db897c0a5f33501db7b5a31597c75ea756ebd7b10d77b0a4"
+                         }
+                     ],
+        "review_status":  "rendered_candidate_not_auditioned",
+        "redistribution_rights":  "pending_HV-004",
+        "audio_sha256":  "38003671f856df359ed4abf4b1b65214745d6d150acb41a5486e34cf65da9dee",
+        "bytes":  2455510
+    },
+    {
+        "material_id":  "R1-SHOW-L-CREW",
+        "material_version":  "R1-LIFE-20261010-v2",
+        "text_sha256":  "a73548e5bf1b83731a8d98cdb79fb210440b539fd54bc4445c95ad626113c375",
+        "speech_sha256":  "cb15288d2990d84247c250a834f2029cbfd643c39520576766e750ff41beb20c",
+        "audio_version":  "local-tts-1",
+        "voice":  "Microsoft Zira Desktop - English (United States)",
+        "audio_path":  "audio/regional/R1-SHOW-L-CREW-R1-LIFE-20261010-v2-local-tts-1.wav",
+        "segments":  [
+                         {
+                             "paragraph_id":  "R1-SHOW-L-CREW.P1",
+                             "literal_prefix":  "Stage organiser:",
+                             "speaker_id":  "Stage organiser",
+                             "source_start_scalar":  17,
+                             "source_end_scalar":  410,
+                             "text":  "We have two local performers for this programme. I can take the speaker\u0027s role. My colleague can operate the lamp for an indoor show or play the drum outdoors; those roles cannot be performed together by the same person. The full programme lasts thirty minutes and uses the indoor period from 18:00 to 18:30. The daylight version lasts fifteen minutes in the public period from 16:00 to 16:15.",
+                             "sha256":  "b8ec207e5d50f6ba30ea9d10b25e5556c576f26c26cea4a6ffdc44f46cf9cb8d"
+                         },
+                         {
+                             "paragraph_id":  "R1-SHOW-L-CREW.P2",
+                             "literal_prefix":  "Second performer:",
+                             "speaker_id":  "Second performer",
+                             "source_start_scalar":  18,
+                             "source_end_scalar":  281,
+                             "text":  "Please decide which programme we are actually preparing before moving the props. If you choose the daylight show, keep the lamp isolated and bring the screen and drum to the stage. If you choose the full show, finish the lamp test and put the screen in position. ",
+                             "sha256":  "3a6e357b3908f5ed4ff5398d39f408d77f51e2817776ece4f9da4acf16ad2f11"
+                         },
+                         {
+                             "paragraph_id":  "R1-SHOW-L-CREW.P2",
+                             "literal_prefix":  "Stage organiser:",
+                             "speaker_id":  "Stage organiser",
+                             "source_start_scalar":  298,
+                             "source_end_scalar":  465,
+                             "text":  "A shorter performance is acceptable. Calling it the full indoor programme would be misleading. The audience can choose to stay without being required to answer a quiz.",
+                             "sha256":  "db2b4bc2d39ceae354c3e7605f35c3554b525b79e8b212da96e09093937d9a70"
+                         }
+                     ],
+        "review_status":  "rendered_candidate_not_auditioned",
+        "redistribution_rights":  "pending_HV-004",
+        "audio_sha256":  "2476ca9cbbf1b13e5da1b0dda08f7b1563661db2833f91e62068bbf8718e5699",
+        "bytes":  2406332
+    }
+]

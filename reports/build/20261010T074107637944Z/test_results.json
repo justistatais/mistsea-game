@@ -1,0 +1,36 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Twenty-four original ship life scenes retain full text and one original chair script",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Normal zero-XP joined crew walks in the actual ship, pauses and resumes a full once-only event without rewards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Actual archive scene requires safe participant walks and a held NPC lease blocks the whole event",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Joined does not authorize private replies or fabricate an earned old toolframe",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Normal native-entry profile has actual recruited crew and no opened life scene",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

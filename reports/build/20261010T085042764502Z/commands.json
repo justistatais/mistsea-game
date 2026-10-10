@@ -1,0 +1,11 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "--version"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/build/20261010T085042764502Z/sdk_version.log"
+  }
+]

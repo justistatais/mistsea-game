@@ -1,0 +1,44 @@
+{
+  "task_id": "CX-007",
+  "scope": "为当前实际代码提供可重复构建、单元测试和候选打包入口，记录未验证项目。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "非零退出不得吞掉",
+      "status": "passed",
+      "evidence": "Runner failure probe returns exit 7 and is logged as expected failure"
+    },
+    {
+      "criterion": "跳过与通过分开",
+      "status": "passed",
+      "evidence": "Results record executed named cases and human_signoff=null separately"
+    },
+    {
+      "criterion": "无生产源码的占位测试不计产品覆盖",
+      "status": "passed",
+      "evidence": "Cases exercise actual C#/SQLite sources; no placeholder success count"
+    },
+    {
+      "criterion": "不依赖本会话绝对路径",
+      "status": "passed",
+      "evidence": "Build root resolves from script; installed-toolchain manifest is optional with matching PATH SDK fallback"
+    }
+  ],
+  "test_results": {
+    "task_cases": [],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-006"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

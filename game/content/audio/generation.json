@@ -1,0 +1,57 @@
+[
+  {
+    "material_id": "Q102-L-REVISION",
+    "bytes": 4642912,
+    "review_status": "tts_candidate_not_human_reviewed",
+    "audio_sha256": "ad91f5a793582cc2460c44aee158fbae000c0d3c1cd28a89026b2627b2515eec",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "text_sha256": "719ad9d68c0ba493e6972ca32403cbf55c8fe32c3ddfb5d44d863a39d73a2f51",
+    "audio_path": "audio/Q102-L-REVISION-0.1.wav",
+    "redistribution_rights": "pending_HV-004",
+    "material_version": "0.1"
+  },
+  {
+    "material_id": "LAB-L-001",
+    "bytes": 9965790,
+    "review_status": "tts_candidate_not_human_reviewed",
+    "audio_sha256": "b0487635de1cf22160b56ac1d66d694cd51c2acbb0c1b028901099404407ba8b",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "text_sha256": "7d2e248216504c68191b450b0752cb8f644d09dc993e87af594cd7dee81fd352",
+    "audio_path": "audio/LAB-L-001-0.1.wav",
+    "redistribution_rights": "pending_HV-004",
+    "material_version": "0.1"
+  },
+  {
+    "material_id": "PZHOT-L-AMENDMENT",
+    "bytes": 1804492,
+    "review_status": "tts_candidate_not_human_reviewed",
+    "audio_sha256": "08717ea3f4a528637cd800c612a0e611ff67887b7c84d074ba271f510319ed00",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "text_sha256": "9f624af176f6570bd907e5e377916299cdf13e46b50e1d56a45fc0b6cc2737ba",
+    "audio_path": "audio/PZHOT-L-AMENDMENT-0.1.wav",
+    "redistribution_rights": "pending_HV-004",
+    "material_version": "0.1"
+  },
+  {
+    "material_id": "PZMAP-L-DIRECTIONS",
+    "bytes": 1267432,
+    "review_status": "tts_candidate_not_human_reviewed",
+    "audio_sha256": "657a25714de1433aec16a42859a8a2b38ac38f09c0edb22966dde8a6f9f72672",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "text_sha256": "eb9bd1d4129bfc8abfd0efe936b1f42c2e96b74e681d9a6f517923cb1a0f9b6c",
+    "audio_path": "audio/PZMAP-L-DIRECTIONS-0.1.wav",
+    "redistribution_rights": "pending_HV-004",
+    "material_version": "0.1"
+  },
+  {
+    "material_id": "PZLOAD-L-SEQUENCE",
+    "bytes": 1276018,
+    "review_status": "tts_candidate_not_human_reviewed",
+    "audio_sha256": "09f2908f9006420cc3d94659fb59049ef7d372a57259ddd0282d5a446522f3f3",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "text_sha256": "ac6ae24419b9b53dcadcc6f4a455a2ee511a990d99a2355c3724e821973eb15d",
+    "audio_path": "audio/PZLOAD-L-SEQUENCE-0.1.wav",
+    "redistribution_rights": "pending_HV-004",
+    "material_version": "0.1"
+  }
+]

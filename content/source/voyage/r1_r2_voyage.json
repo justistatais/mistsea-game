@@ -1,0 +1,35 @@
+{
+  "version": "r1-r2-voyage-candidate-1",
+  "scope": "r1_r2_actual_voyage_bridge_candidate",
+  "review_status": "original_unreviewed_human_pending",
+  "from": "R1",
+  "to": "R2",
+  "chart_scene": "HUB-S02",
+  "chart_spot": "HUB-S02.chart",
+  "destination_duty": {
+    "id": "R2-LOCAL-BERTH-DUTY",
+    "region": "R2",
+    "scene": "R2-S01",
+    "berth_spot": "R2-S01.berth",
+    "scope": "public_landing_only",
+    "issuance_basis": "Q104_loan_and_cross_region_commission",
+    "review_status": "original_unreviewed_human_pending"
+  },
+  "sources": [
+    { "path": "reference/part03/Exploration_Level_Design_v0.1.md", "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310", "section": "EXP-03 sections 3.1/3.2; R2-S01 section 9.3; shared Glimmer section 9.9" },
+    { "path": "docs/baseline/World_Story_Bible_v0.1.md", "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d", "section": "6.2 Q104 vessel loan and cross-region inquiry; 6.3 R2 receiving records and knowledge limits" },
+    { "path": "docs/baseline/NPC_Faction_System_v0.1.md", "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325", "section": "2.2 functional ship-watch/local service roles; N-JUNE does not replace personal consent" }
+  ],
+  "original_local_details": [
+    "Parent-authorized implementation candidate: R2-LOCAL-BERTH-DUTY is a local functional landing watch, not a new core character, recruited companion or tower crew member.",
+    "Its issued handoff names the actual GLIMMER instance and Q104 loan/commission, and permits only approach and public landing at the learner package's R2-S01.berth stand.",
+    "The handoff is an engine-issued local service record checked at the ship chart by N-DECKWATCH. It is neither the player's claim nor permission to inspect archive identities.",
+    "Only exact actual package collision geometry, paired public landing access, legal ship ownership, current registered source berth/ship cabin and the bounded first-region commission are checked. No invented tides, weather, distances, survey measurements or sailing tests are added.",
+    "Issuing this limited future arrival handoff does not discover or grant any unvisited R2 material; arrival registration and local work remain separate physical actions."
+  ],
+  "remaining": [
+    "Original local duty and production content need human editorial review; this is a scoped implementation candidate, not a formal acceptance or human signature.",
+    "Only the first R1/R2 voyage is produced. R3-R6 and final-route producers remain independent required work.",
+    "The normal service/test path provides actual command navigation and persistent receipt evidence; native user journey, story audition and language calibration remain pending."
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "run_at_utc": "2026-10-09T05:25:22.016212+00:00",
+  "tests_run": 90,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "elapsed_seconds": 0.0568,
+  "results": [
+    {
+      "id": "test_pipeline.Contracts.test_active_pin_not_overwritten",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_actual_bundle_cannot_player_release",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_actual_overage_recorded_not_hidden",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_all_body_hashes_recompute",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_approval_after_source_change_invalid",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_approval_after_support_change_invalid",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_audio_archive_inventory_empty",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_audio_change_invalidates_calibration",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_audio_from_old_script_blocked",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_audio_missing_text_segment_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_audio_unreviewed_overlap_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_audio_wrong_script_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_bad_span_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_blocking_issue_blocks_release",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_budget_blocks_retry",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_budget_payload_conflict",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_budget_replay_not_double_charge",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_budget_reserves_and_releases",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_bundle_revoked_discards",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_cache_key_changes_with_model",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_cache_key_changes_with_profile",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_cache_key_changes_with_support",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_cache_key_same_request_stable",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_citation_exact_span",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_citation_must_be_authorized",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_complete_synthetic_attestations_pass",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_consent_cancellation_no_retry",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_context_limit_not_silent_truncation",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_current_feedback_delivery",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_cycle_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_deletion_discards_late_response",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_dependency_graph_acyclic",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_draft_hash_must_match",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_empty_candidate_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_fake_model_reviewer_not_trusted",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_feedback_schema_and_span_pass",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_five_ui_materials_equal_source",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_font_token_change_not_fact_change",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_hidden_asset_excluded",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_hidden_segment_same_asset_excluded",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_intent_B_not_silently_changed",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_internal_draft_allowed_with_label",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_internal_without_label_blocked",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_inventory_28_unique",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_inventory_5_reuses",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_inventory_no_conflicting_body",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_missing_pin_does_not_upgrade",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_modified_draft_goes_old_only",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_negative_charge_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_nested_command_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_new_task_uses_preferred",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_no_consent_no_projection",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_noninteger_span_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_npc_generation_disabled",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_only_two_attempts_allowed",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_other_branch_no_current_projection",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_other_profile_discards",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_out_of_range_audio_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_permission_change_discards",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_quarantine_requires_explicit_repair",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_quarantined_blocks_release",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_real_audio_card_stays_script",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reject_auto_escalation",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reject_package_escape_paths",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reject_speaking_inference",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reject_target_70",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reject_target_bool",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reload_keeps_future_out_of_world",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reply_cannot_contain_band",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_reply_cannot_contain_world_patch",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_request_revoked_discards",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_revoked_consent_discards",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_rights_pending_blocks_release",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_safe_package_member",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_same_id_changed_body_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_same_id_same_body_coalesced",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_same_story_language_reviewer_blocked",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_schema_does_not_prove_semantic_truth",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_schema_failure_no_retry",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_script_cannot_fake_timestamps",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_source_projection_excludes_answer_fields",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_synthetic_audio_metadata_pass",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_target_65_valid",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_unassessed_empty_passes",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_unreleased_audience_not_exported",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_unresolved_dependency_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_view_permission_not_export_permission",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_wrong_quote_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_wrong_request_id_rejected",
+      "result": "pass"
+    },
+    {
+      "id": "test_pipeline.Contracts.test_wrong_source_version_not_exported",
+      "result": "pass"
+    }
+  ],
+  "scope": "Synthetic finite contract tests + source inventory. No model/TTS/network calls; no real human review, player pilot, provider safety or production signing tested.",
+  "limitations": [
+    "JSON shape and citations do not prove semantic correctness",
+    "Synthetic approvals/audio are NOT real review records or tracks",
+    "Runtime policy registries are trusted fixtures; production authentication and persistence absent",
+    "No game-engine integration or filesystem crash recovery tested"
+  ]
+}

@@ -1,0 +1,63 @@
+# ChapterThree runtime integration candidate
+
+Root has included the seven C# files and is running unified verification. No build or test command has been run by this agent.
+
+## Public service contract
+
+`ChapterThreeService(repository, catalog, ChapterThreePackage.ParseJson(learnerJson))` exposes `Package`, source `Geometry`, `CurrentGeometry(snapshot)` / `CurrentGeometryAsync()` and `ViewAsync()`.
+
+- `InitializeRegionAsync()` requires actual Q204 closure and source handover, the MC-2 commission, the single original Q104 GLIMMER instance, current R2/R3 route and R3 berth proofs, actual latest Travel sailing and the matching typed `actual_vessel_arrival` proof issued after sailing and after a real regional berth handoff. It grants no reward or remote material. Only the published local rescue stock and local task objects are initialised.
+- `MoveAsync(Point2)`, `TraverseAsync(ImmutableArray<Point2>)`, `EnterPortAsync(portId)` use current safe geometry and paired original connections. `EnterPortAsync` returns actual typed `scene_transition`; the client may explicitly record that receipt with Travel.RecordWalkedRouteAsync. Local return anchors use `RegisterCurrentReturnAnchorAsync()`.
+- `DiscoverAsync(materialId)` / `OpenMaterialAsync(materialId)` require actual safe standing and current access. Public texts are readable at their physical location independently of task activation. Controlled MC-2 slices require `RequestBatchRecordScopeAsync(fields,recipient,purpose,version)` at S03.comparison. The published four fields, patrol recipient, bounded purpose and MC2-current-source-set are exact. A workshop copy shares the raw original's source; it is not an independent source. Oren's statement is optional.
+- `SaveDraftAsync(task,expectedRevision,draftId,body)` is real draft CAS. `ConfirmMeaningAsync(quest,fields,structuredAssistance)` binds the current draft hash at its writing desk and makes no English-understanding claim. `PreviewSubmissionAsync(quest)` checks actual `SubmissionSpot(quest)` and all current world/source facts. `ConfirmPreviewAsync(token)` / `ClosePreview(token)` retain load, entity and draft read stamps; preview is read-only and editing invalidates its confirmation.
+- `ExecuteStationAsync(action)` executes only the registered parameter-free physical steps. Typed actions, submission and encounters are rejected by this generic method.
+
+## Field operations
+
+- `RescueWorkerAsync("W1"|"W2"|"W3")`: three individual actual workers at S07.rescue. After the third rescue the group enters a real transport segment; actual walking and paired exits update their scene/action clock. Actual S05 escort ENC04 and S02 receiving are mandatory. Rescue cargo blocks external Travel and vessel boarding. It is completed only by the local reception with existing 12 meals, 3 first-aid packs and one wage-shift voucher actually delivered. The independent ladder remains usable after extraction is reduced.
+- `SetPumpModeAsync("isolated_drain")`: requires isolation; configuration changes invalidate drainage and current safe gates. Draining and water inspection are separate actual steps.
+- `PerformInstrumentStepAsync("isolate"|"brace"|"inspect_zero_motion")`: a real noncombat instrument method shares one ENC03 result with the actual BattleEngine method. Neither method earns separate XP.
+- `CompareBatchAsync(MiningBatchComparison)` compares raw MC-2.instrument.I@1, retained MC-2.retained.I@1 and acceptance MC-2.acceptance@3, preserving checks MC-2-05/06 and formal acceptance. `ConfirmAccountabilityAsync("signed_unrepaired_bypass_cannot_be_excused")` preserves responsibility without requiring confession/recruitment. Full accident causality remains unproven and Mara's current status unknown.
+- `AllocatePackagesAsync(MiningAllocation)` accepts every configuration totaling six with shelter >=2, retrofit >=1 and production 0..3, then actual delivery moves the six local instances. It never consumes personal parts, marks or tower engineering kits.
+- `AppointDutyAsync(ImmutableArray<MiningDuty>)`: two distinct existing functional local watch posts pump_watch/ventilation_watch and officers R3-LOCAL-PUMP-WATCH/R3-LOCAL-VENT-WATCH, current_watch_only. They are not recruited companions or six-tower operator posts.
+- `ConfirmLoadPolicyAsync(MiningLoadPolicy)`: early_reduce/0/none or time_limited_transition/extraction 1..3/current_watch_only, actual essential load7/capacity10, actual production allocation and independent posts. `CloseTransitionShiftAsync()` is explicit world shift handover, sets extraction0 and invalidates old tower tests/Safe. No real reading timer is used. A closed window cannot be reopened.
+- `ConfigureTowerLoadAsync(actualCurrentExtraction)` plus actual test, duty and return inspection, ENC05, stop feed and arm brace are independently mandatory. `VerifyTowerSafetyAsync()` emits current typed TowerSafety and only sets Safe. It does not convert, supply, staff or trial the six-tower system. Any configuration change invalidates old readiness Safe.
+
+## Encounters
+
+`BeginEncounterAsync(id,difficulty="standard",supplies=null)`, `EncounterAsync(id)`, `PreviewEncounterActionAsync(id,BattleRequest)` and `WithdrawEncounterAsync(id)` use the existing BattleEngine, actual level/grade/build/gear/modules/roster/tactics/relics, paid supplies, declared once-only reinforcement and atomic foreground lease. Five IDs ENC-R3-01..05 are registered; optional slots are not registered. Pressure cannot fix the arm. Withdrawal restores entry supplies and actor placement while retaining outside exploration, materials and drafts. Boss numerical source620/18%/threshold8/100 single45 all is unreviewed; ordinary/method/escort numbers are original engineering candidates, not balanced play claims.
+
+## Quest and auxiliary boundaries
+
+Q301 and Q302 start after actual Q204 and may proceed in parallel. Q302 closure additionally needs actual Q301 rescue/field instrument. Q303 starts after Q301 and may close before Q302. Q304 formally starts after both Q302/Q303; public reading and safe tower preparation can happen earlier, actual boss/closure cannot. Main rewards420/440/500/560 total1920 XP; normal R2 end1920 -> Q304 end3840, second calibration and canonical TL02 only at actual Q304 closure.
+
+`DecideOrenInvitationAsync(bool? join)` requires actual Q302 finding, at S03.oren; no recruitment is needed for main work or CQ. `DecideAlarmInvitationAsync(accept/decline/defer/withdraw)` is independent optional consent and retains prior receipts/drafts. `CommitAuxiliaryScopeAsync(auxiliary_residential_alarm_only,repair_and_independent_review,true)` records the inspected bounded promise. CQ01 closes before the repair; CQ02 additionally needs actual Q304, actual own local alarm kit and real independent review.
+
+`BeginAuxiliaryRepairAsync()` creates the actual Oren work post and reserves only his local auxiliary kit. `PerformAuxiliaryRepairStepAsync(inspect_compatibility/isolate/fit_own_kit/test_alarm)` performs distinct field steps. `request_independent_alarm_review` is a registered station action. `InviteIndependentAlarmReviewAsync("N-PERA")` requires the actual S02 Pera stand, then `ConfirmIndependentAlarmReviewAsync("N-PERA")` requires the actual S03 review stand, same current repair/test revision and prior invitation. Oren cannot self-review; Pera need not forgive him. The work post releases with his actual previous membership/availability restored. His original acceptance finding remains immutable. CQ03 stays unaccepted until future Q504.
+
+## R4 handoff
+
+`Q-304:resolution` action `chapter_three_tower_handover_received` emits Core.ChapterThree.MiningTowerHandover and entity R3:actual_handover. It records TWR-R3/R4/MC-2, sample seal R3-MC2-SAMPLE-01, source versions and current safe configuration, recipient R4-public-verification-desk, purpose verify_materials_and_signatory_scope, causality association_requires_verification, current Mara unknown. SourceVersions include actual acquired material versions/hashes plus the exact three business versions.
+
+The actual packing command at R3-S01.sample_handover creates one StoredItem `R3-MC2-SAMPLE-01`, definition R3-SEALED-VERIFICATION-SAMPLE, player/hero ownership; R4 must transfer this item to custody instead of copying it. commission:next-inquiry becomes allowed=true/region=R4/purpose=verify_materials_and_signatory_scope/basis=Q-304:resolution/arrival_occurred=false. No R4 record, sea route, berth, travel, proof or quest is created by this chapter.
+
+## Integration and validation
+
+Register `Mist.Tests.ChapterThree.ChapterThreeCases.Register()` (14 engineering cases). Public `ActualArrival(ProfileStore)` genuinely runs the existing zero-XP R2 helper, physical board/ship movement, regional chart clearance, Travel sailing and typed arrival. `NormalComplete(ProfileStore)` additionally performs all actual R3 main tasks and returns `(Service,Interior)` for R4. `Run` exposes actual walk, material, station, battle and chapter node helpers; FixturePriorCommissionAndActualVoyage is explicitly an engineering bootstrap and is not used by the normal case. The normal-native-entry case retains an untouched 1920-XP R3 arrival profile for native UI checks.
+
+Root must include pending files, register tests and run unified verification. GUI integration remains separate pending files. Party safety at actual R3 settlement is maintained by root. Public negotiation/lift alternate route, individual musicbox/sidewell contracts, official human source/audio/6.5 review and later chapters remain pending. No native/human or audio completion is claimed by command-level E2E.
+
+Storage mapping: all local stock and reserved local allocations remain owner_kind warehouse with owner_id R3-S08 or R3:extra_allocation/R3:aux_repair. Actual delivery and installation use owner_kind installed with exact destinations R3-S02:shelter, R3-S08:shelter/retrofit/production, R3:auxiliary_alarm and R3:patrol_safety_kit. Item instance IDs remain unique; no frozen SQLite owner-kind enum or schema is extended.
+
+Personal reward budgets are checked against shipped part09 `Definitions[personal_nodes]`, separately from main `Quests`: CQ01 is25/20/1 and CQ02 is35/30/1, both budget3/CP-OREN. CQ02's actual independent review adds one decorative old-toolframe souvenir record and no combat bonus; original signature/finding remain unchanged.
+
+## Pending native client files and Root hooks
+
+`game/UI/Shell/Root.ChapterThree.cs.pending` and `game/Diagnostics/Root.ChapterThreeClientTests.cs.pending` are ready for inclusion and unified compilation; this agent has not compiled or run them. The partial owns all R3 forms/editors/tokens and needs the shared Root to provide `_chapterThree` (ChapterThreeService), normal startup source loading and real current geometry.
+
+- Dispatch actual R3 spots through `TryChapterThreeInteraction(string)`; ports/movement use the actual R3 service. Menus call `OpenChapterThreeQuests()` / `OpenChapterThreeArchive()` for current R3.
+- Add `SaveChapterThreeDraft()` to save-before-close/load/checkpoint paths, `CloseChapterThreeUiPreview(title)` to ClosePanel, and `ResetChapterThreeUiState()` after a successful load. Save is real DraftEditor CAS; IME composition blocks save; no CtrlEnter world execution is added. Edits cancel old tokens; proposal choices start unconfirmed; writing and formal receiving stands are distinct.
+- Shared battle routing uses `ChapterThreeEncounterSelected` / `_chapterThreeSelectedEncounter`, maps MiningEncounterState to the shared EncounterState, and calls actual R3 Begin/Preview/Confirm/Withdraw APIs. Existing result/retry protections remain in the service.
+- Debug startup `--chapter-three-client-test` calls `RunChapterThreeClientTests()`. Feed a copied `chapter-three-normal-native-entry-*` main.sqlite with untouched actual R3 arrival (1920 XP, no local material, no landing registration), not a positive fixture or completed profile. The candidate presses native source/station/form/editor/meaning/submission controls and traverses current actual safe paths/paired native ports; combat requests are supplied by the engineering controller. It checks no default proposal, real saved-draft acknowledgements, cancelled/edited preview invalidation, Q303-before-Q302, real three-worker escort, source preservation, safe-only tower, once-only fixed rewards, grade2/TL02/sample/single-vessel boundaries and actual candidate audio playback. Physical IME, screen reader, human play/audition and English6.5 remain pending.
+- Listening readers use existing `AddRegionalAudioButton` with a live permission query. Viewing a script does not autoplay or record listening; actual binding decode/playback/notes remain separate and earn no world reward.
+

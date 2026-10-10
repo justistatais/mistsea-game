@@ -1,0 +1,37 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "--version"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/build/20261009T180034706113Z/sdk_version.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "restore",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+      "--configfile",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+      "--locked-mode"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/build/20261009T180034706113Z/restore.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+      "build",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+      "-c",
+      "Debug",
+      "--no-restore"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/build/20261009T180034706113Z/build.log"
+  }
+]

@@ -1,0 +1,269 @@
+{
+  "task_id": "CX-068",
+  "scope": "限制来源、帮助级别、正文版本、删除世代与实际意图，结构检查不冒充保义。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "错误自然语言即使JSON合法也不能当已核验",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-068",
+            "name": "Malformed/unknown/duplicate fields and different purpose replies are refused without retry or score",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Citation identity/version/global scalar bounds and quote must belong to the exact actual projection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Unicode feedback uses code points, preserves combining marks, caps feedback and never generates full short-writing band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Incorrect natural language with valid JSON remains an unverified candidate requiring fallback",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "L4, L1, profile, permission, prompt, draft and purpose have isolated private cache scopes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Only one evaluation per current draft runs; no partially received feedback is exposed",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Explain, feedback and intent stay separate; newer draft and provider versions miss earlier cache entries",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "A late response to an actual older SQLite draft is historical and never rewrites current text or world",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "L4不缓存给L1",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-068",
+            "name": "Malformed/unknown/duplicate fields and different purpose replies are refused without retry or score",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Citation identity/version/global scalar bounds and quote must belong to the exact actual projection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Unicode feedback uses code points, preserves combining marks, caps feedback and never generates full short-writing band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Incorrect natural language with valid JSON remains an unverified candidate requiring fallback",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "L4, L1, profile, permission, prompt, draft and purpose have isolated private cache scopes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Only one evaluation per current draft runs; no partially received feedback is exposed",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Explain, feedback and intent stay separate; newer draft and provider versions miss earlier cache entries",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "A late response to an actual older SQLite draft is historical and never rewrites current text or world",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "旧稿不执行当前动作",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-068",
+            "name": "Malformed/unknown/duplicate fields and different purpose replies are refused without retry or score",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Citation identity/version/global scalar bounds and quote must belong to the exact actual projection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Unicode feedback uses code points, preserves combining marks, caps feedback and never generates full short-writing band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Incorrect natural language with valid JSON remains an unverified candidate requiring fallback",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "L4, L1, profile, permission, prompt, draft and purpose have isolated private cache scopes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Only one evaluation per current draft runs; no partially received feedback is exposed",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Explain, feedback and intent stay separate; newer draft and provider versions miss earlier cache entries",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "A late response to an actual older SQLite draft is historical and never rewrites current text or world",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "未检查结果不先流式显示",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-068",
+            "name": "Malformed/unknown/duplicate fields and different purpose replies are refused without retry or score",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Citation identity/version/global scalar bounds and quote must belong to the exact actual projection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Unicode feedback uses code points, preserves combining marks, caps feedback and never generates full short-writing band",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Incorrect natural language with valid JSON remains an unverified candidate requiring fallback",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "L4, L1, profile, permission, prompt, draft and purpose have isolated private cache scopes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Only one evaluation per current draft runs; no partially received feedback is exposed",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "Explain, feedback and intent stay separate; newer draft and provider versions miss earlier cache entries",
+            "result": "passed"
+          },
+          {
+            "task": "CX-068",
+            "name": "A late response to an actual older SQLite draft is historical and never rewrites current text or world",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-068",
+        "name": "Malformed/unknown/duplicate fields and different purpose replies are refused without retry or score",
+        "result": "passed"
+      },
+      {
+        "task": "CX-068",
+        "name": "Citation identity/version/global scalar bounds and quote must belong to the exact actual projection",
+        "result": "passed"
+      },
+      {
+        "task": "CX-068",
+        "name": "Unicode feedback uses code points, preserves combining marks, caps feedback and never generates full short-writing band",
+        "result": "passed"
+      },
+      {
+        "task": "CX-068",
+        "name": "Incorrect natural language with valid JSON remains an unverified candidate requiring fallback",
+        "result": "passed"
+      },
+      {
+        "task": "CX-068",
+        "name": "L4, L1, profile, permission, prompt, draft and purpose have isolated private cache scopes",
+        "result": "passed"
+      },
+      {
+        "task": "CX-068",
+        "name": "Only one evaluation per current draft runs; no partially received feedback is exposed",
+        "result": "passed"
+      },
+      {
+        "task": "CX-068",
+        "name": "Explain, feedback and intent stay separate; newer draft and provider versions miss earlier cache entries",
+        "result": "passed"
+      },
+      {
+        "task": "CX-068",
+        "name": "A late response to an actual older SQLite draft is historical and never rewrites current text or world",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-067"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

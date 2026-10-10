@@ -1,0 +1,2571 @@
+{
+  "meta": {
+    "version": "0.1",
+    "part": 7,
+    "status": "design_reference_not_production_schema",
+    "english_target": {
+      "reading": 6.5,
+      "listening": 6.5,
+      "writing": 6.5
+    },
+    "numerics": "prototype_initials_not_playtested"
+  },
+  "level": {
+    "cap": 30,
+    "base_stats": 5,
+    "stat_cap": 25,
+    "starting_points": 4,
+    "points_per_level": 2,
+    "xp_to_next": "100 + 40 * (level - 1)",
+    "xp_threshold": "100*(L-1) + 20*(L-1)*(L-2)",
+    "skill_points": "0 if L<2 else 1+floor(L/2)",
+    "active_slots": 4,
+    "passives": "all_learned_passives_apply_no_passive_slot_tax",
+    "bonus_points_from_story": 0
+  },
+  "formula": {
+    "hp": "80+8*(L-1)+6*(body-5)",
+    "focus": "min(14,6+floor((focus-5)/4)+equipment_bonus)",
+    "initiative": "10+floor((agility-5)/2)+equipment_bonus",
+    "weapon_base_units": "80+80*grade",
+    "power_units": "120+20*(L-1)+weapon_base_units+8*(primary-5)+4*(secondary-5)",
+    "power_primary_secondary": {
+      "melee": [
+        "strength",
+        "agility"
+      ],
+      "ranged": [
+        "agility",
+        "strength"
+      ],
+      "tech": [
+        "focus",
+        "perception"
+      ]
+    },
+    "exposure_bp": "min(4000,500+100*(perception-5)+explicit_extra)",
+    "base_guard_bp": "min(3500,2000+50*(body-5)+explicit_extra)",
+    "armor_cap_bp": 4500,
+    "guard_cap_bp": 3500,
+    "damage_bonus_cap_bp": 5000,
+    "shield_bonus_cap_bp": 5000,
+    "shield_hp_cap_bp": 5000,
+    "damage_rounding": "floor_once_per_action_per_target",
+    "shield_policy": "max(old_remaining,new_amount) capped at 50% recipient max HP; no arithmetic stacking",
+    "stagger": "min(6,floor((declared_base_pressure + flat_pressure_once_per_action)*(1+0.02*(strength-5)))) ; zero pressure actions stay zero unless explicitly given flat pressure"
+  },
+  "combat_contract": {
+    "ap_per_hero_turn": 3,
+    "focus_regen_per_subsequent_own_turn": 1,
+    "basic_attack_ap": 2,
+    "guard_ap": 1,
+    "field_interaction_ap": 1,
+    "basic_rescue_ap": 2,
+    "free_supply_charges_per_encounter": 2,
+    "paid_supply_slots": 2,
+    "max_supply_uses_per_actor_turn": 1,
+    "trigger_refund_per_actor_turn": 1,
+    "trigger_refund_per_encounter": 2,
+    "normal_random_miss": false,
+    "random_critical": false,
+    "full_hp_focus_at_fresh_encounter": true,
+    "phases_do_not_refill": true,
+    "owned_deployment_cap": 1,
+    "learned_M08_cap": 2,
+    "cooldown_rule": "used at personal turn t with cooldown c -> ready at t+c+1; c full intervening turns",
+    "default_shield_expiry": "second subsequent scheduled personal turn start of source; skipped turns still advance clock; encounter end clears",
+    "basic_aid_heal_percent": 30,
+    "basic_revive_percent": 20,
+    "gear_switch_in_encounter": false,
+    "respec_in_encounter": false,
+    "passive_toggle_resets_proc_budget": false,
+    "paid_supply_consumption": "deduct only uses in successfully committed encounter outcome; retry restores entry snapshot",
+    "shield_reapply": "new weaker shield does not erase stronger remainder; use later expiry; capped at half max HP"
+  },
+  "ranks": [
+    {
+      "rank": 0,
+      "name": "见习巡灯人",
+      "receipt": "start",
+      "calibration_grade": 0
+    },
+    {
+      "rank": 1,
+      "name": "持灯者",
+      "receipt": "Q-104",
+      "calibration_grade": 1
+    },
+    {
+      "rank": 2,
+      "name": "铭刻者",
+      "receipt": "Q-304",
+      "calibration_grade": 2
+    },
+    {
+      "rank": 3,
+      "name": "共鸣者",
+      "receipt": "Q-504",
+      "calibration_grade": 3
+    },
+    {
+      "rank": 4,
+      "name": "守望者",
+      "receipt": "Q-604",
+      "calibration_grade": 4
+    }
+  ],
+  "chapter_budgets": [
+    {
+      "chapter": 0,
+      "title": "序章",
+      "quest_ids": [
+        "Q-P01",
+        "Q-P02",
+        "Q-P03"
+      ],
+      "main_xp": 240,
+      "cumulative_main_xp": 240,
+      "optional_xp_envelope": 0,
+      "marks": 50,
+      "parts": 2
+    },
+    {
+      "chapter": 1,
+      "title": "盐雾港",
+      "quest_ids": [
+        "Q-101",
+        "Q-102",
+        "Q-103",
+        "Q-104"
+      ],
+      "main_xp": 660,
+      "cumulative_main_xp": 900,
+      "optional_xp_envelope": 200,
+      "marks": 250,
+      "parts": 5
+    },
+    {
+      "chapter": 2,
+      "title": "苔林",
+      "quest_ids": [
+        "Q-201",
+        "Q-202",
+        "Q-203",
+        "Q-204"
+      ],
+      "main_xp": 1020,
+      "cumulative_main_xp": 1920,
+      "optional_xp_envelope": 250,
+      "marks": 320,
+      "parts": 5
+    },
+    {
+      "chapter": 3,
+      "title": "沉钟矿区",
+      "quest_ids": [
+        "Q-301",
+        "Q-302",
+        "Q-303",
+        "Q-304"
+      ],
+      "main_xp": 1920,
+      "cumulative_main_xp": 3840,
+      "optional_xp_envelope": 350,
+      "marks": 480,
+      "parts": 8
+    },
+    {
+      "chapter": 4,
+      "title": "玻璃学城",
+      "quest_ids": [
+        "Q-401",
+        "Q-402",
+        "Q-403",
+        "Q-404"
+      ],
+      "main_xp": 2560,
+      "cumulative_main_xp": 6400,
+      "optional_xp_envelope": 450,
+      "marks": 640,
+      "parts": 9
+    },
+    {
+      "chapter": 5,
+      "title": "失名旧都",
+      "quest_ids": [
+        "Q-501",
+        "Q-502",
+        "Q-503",
+        "Q-504"
+      ],
+      "main_xp": 4100,
+      "cumulative_main_xp": 10500,
+      "optional_xp_envelope": 550,
+      "marks": 800,
+      "parts": 10
+    },
+    {
+      "chapter": 6,
+      "title": "风暴边境",
+      "quest_ids": [
+        "Q-601",
+        "Q-602",
+        "Q-603",
+        "Q-604"
+      ],
+      "main_xp": 6240,
+      "cumulative_main_xp": 16740,
+      "optional_xp_envelope": 600,
+      "marks": 1000,
+      "parts": 12
+    },
+    {
+      "chapter": 7,
+      "title": "终章",
+      "quest_ids": [
+        "Q-F01",
+        "Q-F02",
+        "Q-F03",
+        "Q-F04",
+        "Q-F05"
+      ],
+      "main_xp": 2400,
+      "cumulative_main_xp": 19140,
+      "optional_xp_envelope": 0,
+      "marks": 620,
+      "parts": 4
+    }
+  ],
+  "main_rewards": [
+    {
+      "quest_id": "Q-P01",
+      "title": "断开的航线",
+      "chapter": 0,
+      "entitlement_key": "Q-P01:resolution",
+      "old_reward_ref": "REWARD-Q-P01-TBD",
+      "xp": 100,
+      "marks": 0,
+      "parts": 0,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-P02",
+      "title": "有人还在岸上",
+      "chapter": 0,
+      "entitlement_key": "Q-P02:resolution",
+      "old_reward_ref": "REWARD-Q-P02-TBD",
+      "xp": 40,
+      "marks": 20,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-P03",
+      "title": "第二个记录器",
+      "chapter": 0,
+      "entitlement_key": "Q-P03:resolution",
+      "old_reward_ref": "REWARD-Q-P03-TBD",
+      "xp": 100,
+      "marks": 30,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-101",
+      "title": "封港令之外",
+      "chapter": 1,
+      "entitlement_key": "Q-101:resolution",
+      "old_reward_ref": "REWARD-Q-101-TBD",
+      "xp": 100,
+      "marks": 20,
+      "parts": 0,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-102",
+      "title": "最后一班渡轮",
+      "chapter": 1,
+      "entitlement_key": "Q-102:resolution",
+      "old_reward_ref": "REWARD-Q102-RESOLUTION",
+      "xp": 160,
+      "marks": 60,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": [
+        "RE-01"
+      ]
+    },
+    {
+      "quest_id": "Q-103",
+      "title": "预先写好的事故",
+      "chapter": 1,
+      "entitlement_key": "Q-103:resolution",
+      "old_reward_ref": "REWARD-Q-103-TBD",
+      "xp": 180,
+      "marks": 70,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-104",
+      "title": "潮门塔重启",
+      "chapter": 1,
+      "entitlement_key": "Q-104:resolution",
+      "old_reward_ref": "REWARD-Q-104-TBD",
+      "xp": 220,
+      "marks": 100,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": [
+        "AR-02",
+        "AR-03",
+        "RE-02",
+        "TL-01"
+      ]
+    },
+    {
+      "quest_id": "Q-201",
+      "title": "没有登记的住民",
+      "chapter": 2,
+      "entitlement_key": "Q-201:resolution",
+      "old_reward_ref": "REWARD-Q-201-TBD",
+      "xp": 220,
+      "marks": 60,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-202",
+      "title": "第二份撤离名单",
+      "chapter": 2,
+      "entitlement_key": "Q-202:resolution",
+      "old_reward_ref": "REWARD-Q-202-TBD",
+      "xp": 260,
+      "marks": 80,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-203",
+      "title": "林下的转供站",
+      "chapter": 2,
+      "entitlement_key": "Q-203:resolution",
+      "old_reward_ref": "REWARD-Q-203-TBD",
+      "xp": 260,
+      "marks": 80,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-204",
+      "title": "谁可以知道这些名字",
+      "chapter": 2,
+      "entitlement_key": "Q-204:resolution",
+      "old_reward_ref": "REWARD-Q-204-TBD",
+      "xp": 280,
+      "marks": 100,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-301",
+      "title": "钟声以下",
+      "chapter": 3,
+      "entitlement_key": "Q-301:resolution",
+      "old_reward_ref": "REWARD-Q-301-TBD",
+      "xp": 420,
+      "marks": 100,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-302",
+      "title": "最后一道检修章",
+      "chapter": 3,
+      "entitlement_key": "Q-302:resolution",
+      "old_reward_ref": "REWARD-Q-302-TBD",
+      "xp": 440,
+      "marks": 100,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-303",
+      "title": "三炉一线",
+      "chapter": 3,
+      "entitlement_key": "Q-303:resolution",
+      "old_reward_ref": "REWARD-Q-303-TBD",
+      "xp": 500,
+      "marks": 120,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-304",
+      "title": "停止超采",
+      "chapter": 3,
+      "entitlement_key": "Q-304:resolution",
+      "old_reward_ref": "REWARD-Q-304-TBD",
+      "xp": 560,
+      "marks": 160,
+      "parts": 3,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": [
+        "TL-02"
+      ]
+    },
+    {
+      "quest_id": "Q-401",
+      "title": "相同的曲线",
+      "chapter": 4,
+      "entitlement_key": "Q-401:resolution",
+      "old_reward_ref": "REWARD-Q-401-TBD",
+      "xp": 560,
+      "marks": 130,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-402",
+      "title": "在场的反例",
+      "chapter": 4,
+      "entitlement_key": "Q-402:resolution",
+      "old_reward_ref": "REWARD-Q-402-TBD",
+      "xp": 600,
+      "marks": 150,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-403",
+      "title": "孤网试验",
+      "chapter": 4,
+      "entitlement_key": "Q-403:resolution",
+      "old_reward_ref": "REWARD-Q-403-TBD",
+      "xp": 680,
+      "marks": 160,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-404",
+      "title": "不完整的答案",
+      "chapter": 4,
+      "entitlement_key": "Q-404:resolution",
+      "old_reward_ref": "REWARD-Q-404-TBD",
+      "xp": 720,
+      "marks": 200,
+      "parts": 3,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-501",
+      "title": "从地图上消失的街道",
+      "chapter": 5,
+      "entitlement_key": "Q-501:resolution",
+      "old_reward_ref": "REWARD-Q-501-TBD",
+      "xp": 900,
+      "marks": 180,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-502",
+      "title": "灯下的人",
+      "chapter": 5,
+      "entitlement_key": "Q-502:resolution",
+      "old_reward_ref": "REWARD-Q-502-TBD",
+      "xp": 980,
+      "marks": 180,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-503",
+      "title": "十八年前的签名",
+      "chapter": 5,
+      "entitlement_key": "Q-503:resolution",
+      "old_reward_ref": "REWARD-Q-503-TBD",
+      "xp": 1040,
+      "marks": 200,
+      "parts": 3,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-504",
+      "title": "谁来接管",
+      "chapter": 5,
+      "entitlement_key": "Q-504:resolution",
+      "old_reward_ref": "REWARD-Q-504-TBD",
+      "xp": 1180,
+      "marks": 240,
+      "parts": 3,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": [
+        "TL-03"
+      ]
+    },
+    {
+      "quest_id": "Q-601",
+      "title": "最后的测站",
+      "chapter": 6,
+      "entitlement_key": "Q-601:resolution",
+      "old_reward_ref": "REWARD-Q-601-TBD",
+      "xp": 1400,
+      "marks": 200,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-602",
+      "title": "六个答复",
+      "chapter": 6,
+      "entitlement_key": "Q-602:resolution",
+      "old_reward_ref": "REWARD-Q-602-TBD",
+      "xp": 1600,
+      "marks": 240,
+      "parts": 3,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-603",
+      "title": "风脊线",
+      "chapter": 6,
+      "entitlement_key": "Q-603:resolution",
+      "old_reward_ref": "REWARD-Q-603-TBD",
+      "xp": 1800,
+      "marks": 260,
+      "parts": 3,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-604",
+      "title": "起航之前",
+      "chapter": 6,
+      "entitlement_key": "Q-604:resolution",
+      "old_reward_ref": "REWARD-Q-604-TBD",
+      "xp": 1440,
+      "marks": 300,
+      "parts": 4,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": [
+        "TL-04"
+      ]
+    },
+    {
+      "quest_id": "Q-F01",
+      "title": "进入第七塔",
+      "chapter": 7,
+      "entitlement_key": "Q-F01:resolution",
+      "old_reward_ref": "REWARD-Q-F01-TBD",
+      "xp": 500,
+      "marks": 120,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-F02",
+      "title": "接管层",
+      "chapter": 7,
+      "entitlement_key": "Q-F02:resolution",
+      "old_reward_ref": "REWARD-Q-F02-TBD",
+      "xp": 500,
+      "marks": 140,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-F03",
+      "title": "不可取消的维护",
+      "chapter": 7,
+      "entitlement_key": "Q-F03:resolution",
+      "old_reward_ref": "REWARD-Q-F03-TBD",
+      "xp": 800,
+      "marks": 160,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-F04",
+      "title": "最后一份命令",
+      "chapter": 7,
+      "entitlement_key": "Q-F04:resolution",
+      "old_reward_ref": "REWARD-Q-F04-TBD",
+      "xp": 600,
+      "marks": 200,
+      "parts": 0,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-F05",
+      "title": "之后还有灯",
+      "chapter": 7,
+      "entitlement_key": "Q-F05:resolution",
+      "old_reward_ref": "none",
+      "xp": 0,
+      "marks": 0,
+      "parts": 0,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    }
+  ],
+  "skills": [
+    {
+      "id": "H01",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "探隙击",
+      "kind": "active",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 2,
+      "cooldown_personal_turns": 1,
+      "capstone": false,
+      "effect": "造成1.10A伤害；结算后给目标施加一次暴露，供后续一个伤害动作使用。不得追溯增强本击。"
+    },
+    {
+      "id": "H02",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "稳步架势",
+      "kind": "active",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 1,
+      "focus": 1,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "自身下一次伤害动作的通用伤害加成+20%，至下个自身回合结束；当前临时减伤至少10%，至下个自身回合开始。不可叠加同名状态。"
+    },
+    {
+      "id": "H03",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "稳手",
+      "kind": "passive",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "使用A计算的基础攻击和技能伤害加成+8%，进入通用加成池。"
+    },
+    {
+      "id": "H04",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "双段突击",
+      "kind": "active",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "H01"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 3,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "对同一目标造成两段各0.65A伤害；作为一个动作处理暴露、触发次数和最终取整。"
+    },
+    {
+      "id": "H05",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "践隙",
+      "kind": "passive",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "H02"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "使用已有暴露时，暴露加成额外+10个百分点，仍受40%总上限约束。"
+    },
+    {
+      "id": "H06",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "掩护步",
+      "kind": "active",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "H03"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 1,
+      "focus": 1,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "在第八部分允许的战斗站位间移动一次，并给自身0.25T护盾；无合法移动仍可护盾，不穿越场景门或叙事障碍。"
+    },
+    {
+      "id": "H07",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "断势斩",
+      "kind": "active",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "H04"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 3,
+      "cooldown_personal_turns": 3,
+      "capstone": false,
+      "effect": "造成1.35A伤害；若动作开始时目标暴露，附加2点基础失衡压力。暴露按一个伤害动作消耗。"
+    },
+    {
+      "id": "H08",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "克制",
+      "kind": "passive",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "H05"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "每遭遇第一次主动使用基础防御后回复1点专注；受触发返还上限约束。"
+    },
+    {
+      "id": "H09",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "连携节拍",
+      "kind": "passive",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "H06"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "每个自身回合首次对暴露目标造成伤害后，下一次受到的伤害获得15%临时减伤，至下个自身回合开始。"
+    },
+    {
+      "id": "H10",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "破晓连击",
+      "kind": "active",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "H07"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 3,
+      "focus": 4,
+      "cooldown_personal_turns": 4,
+      "capstone": true,
+      "effect": "造成1.90A伤害并附加2点基础失衡压力；终阶主动，占一个主动槽，不直接处决或跳过首领机制。"
+    },
+    {
+      "id": "H11",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "精密余量",
+      "kind": "passive",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "H08"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "破晓连击命中动作开始时已经暴露的目标时，基础系数增加0.15A。"
+    },
+    {
+      "id": "H12",
+      "tree": "H",
+      "tree_name": "巡猎",
+      "name": "不退之势",
+      "kind": "passive",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "H09"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "自身当前生命低于50%时，主动基础防御的减伤增加10个百分点；临时减伤仍不超过35%。"
+    },
+    {
+      "id": "M01",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "晶钉",
+      "kind": "active",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 2,
+      "cooldown_personal_turns": 1,
+      "capstone": false,
+      "effect": "造成0.95T伤害并附加1点基础失衡压力。"
+    },
+    {
+      "id": "M02",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "布设阻滞",
+      "kind": "active",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 1,
+      "focus": 2,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "指定一个敌人，部署一件一次性装置；该敌人下一次开始攻击时触发0.45T伤害和1点基础失衡压力；不保证打断。"
+    },
+    {
+      "id": "M03",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "工具熟练",
+      "kind": "passive",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "使用T计算的主动技能和自身装置伤害加成+8%，进入通用加成池；不增强护盾或回复。"
+    },
+    {
+      "id": "M04",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "收束脉冲",
+      "kind": "active",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "M01"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 3,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "对至多两个不同敌人各造成0.70T伤害；只有一个敌人时只命中一次。"
+    },
+    {
+      "id": "M05",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "绝缘护套",
+      "kind": "passive",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "M02"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "每个自身回合首次主动布设装置后，给自身0.20T护盾；触发产生的护盾不递归触发。"
+    },
+    {
+      "id": "M06",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "维修补片",
+      "kind": "active",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "M03"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 2,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "给一名友方0.70T护盾；不是生命治疗，不修复场景设备。友方包括自身。"
+    },
+    {
+      "id": "M07",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "牵引锚",
+      "kind": "active",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "M04"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 3,
+      "cooldown_personal_turns": 3,
+      "capstone": false,
+      "effect": "造成1.15T伤害并附加2点基础失衡压力；不强制移动首领、不直接取消阶段。"
+    },
+    {
+      "id": "M08",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "双槽架",
+      "kind": "passive",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "M05"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "个人部署容量由1增加至2；一个敌方攻击动作至多触发同一施放者的一件装置。"
+    },
+    {
+      "id": "M09",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "回收工序",
+      "kind": "passive",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "M06"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "主动回收一件本人未触发、确实支付过费用的装置时返还1专注，每遭遇一次。回收耗1AP并受全局返还上限约束。"
+    },
+    {
+      "id": "M10",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "磁场围栏",
+      "kind": "active",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "M07"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 3,
+      "focus": 4,
+      "cooldown_personal_turns": 4,
+      "capstone": true,
+      "effect": "对至多三个不同敌人各造成0.90T伤害，并使其至施放者下回合开始前的首次攻击获得15%临时减伤效果；不是眩晕。"
+    },
+    {
+      "id": "M11",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "校准线圈",
+      "kind": "passive",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "M08"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "本人装置伤害加成+20%，与其他通用伤害加成相加，不另乘一层。"
+    },
+    {
+      "id": "M12",
+      "tree": "M",
+      "tree_name": "机巧",
+      "name": "压力分流",
+      "kind": "passive",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "M09"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "每个自身回合周期第一次本人装置触发后，为预先指定的一名友方提供0.25T护盾；未指定时为自身。不能由护盾再次触发。"
+    },
+    {
+      "id": "S01",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "共鸣护幕",
+      "kind": "active",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 2,
+      "cooldown_personal_turns": 1,
+      "capstone": false,
+      "effect": "给一名友方0.75T护盾，友方包括自身。"
+    },
+    {
+      "id": "S02",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "光隙冲击",
+      "kind": "active",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 2,
+      "cooldown_personal_turns": 1,
+      "capstone": false,
+      "effect": "造成0.95T伤害；支援路线独立保留主动输出。"
+    },
+    {
+      "id": "S03",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "稳定回路",
+      "kind": "passive",
+      "tier": 1,
+      "minimum_level": 2,
+      "tree_points_before": 0,
+      "prerequisites": [],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "本人产生的护盾值加成+10%，进入护盾加成池。"
+    },
+    {
+      "id": "S04",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "共振援护",
+      "kind": "active",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "S01"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 1,
+      "focus": 2,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "一名友方的下一次伤害动作通用伤害加成+20%，至施放者下个回合结束；相同效果不叠加。"
+    },
+    {
+      "id": "S05",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "余辉导流",
+      "kind": "passive",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "S02"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "每个自身回合首次主动为其他友方提供护盾时，为自身附加0.20T护盾；派生护盾不递归。"
+    },
+    {
+      "id": "S06",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "净化波",
+      "kind": "active",
+      "tier": 2,
+      "minimum_level": 8,
+      "tree_points_before": 2,
+      "prerequisites": [
+        "S03"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 2,
+      "cooldown_personal_turns": 2,
+      "capstone": false,
+      "effect": "移除一名友方的一项普通可驱散负面状态，并提供0.30T护盾；不能解除叙事雾害、固定联锁或不可驱散机制。"
+    },
+    {
+      "id": "S07",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "分担结界",
+      "kind": "active",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "S04"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 2,
+      "focus": 3,
+      "cooldown_personal_turns": 3,
+      "capstone": false,
+      "effect": "对至多三名友方各提供0.40T护盾；目标不足不将剩余份额重复给同一角色。"
+    },
+    {
+      "id": "S08",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "韧性",
+      "kind": "passive",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "S05"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "本遭遇第一次因伤害使自身生命降至50%以下且未倒地时，提供0.35T护盾；每遭遇一次。"
+    },
+    {
+      "id": "S09",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "蓄光",
+      "kind": "passive",
+      "tier": 3,
+      "minimum_level": 16,
+      "tree_points_before": 5,
+      "prerequisites": [
+        "S06"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "主动基础防御后，本人下一次主动护盾数值+15%，至下个自身回合结束；同名效果不叠加。"
+    },
+    {
+      "id": "S10",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "稳态领域",
+      "kind": "active",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "S07"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 3,
+      "focus": 4,
+      "cooldown_personal_turns": 4,
+      "capstone": true,
+      "effect": "对至多三名友方各提供0.60T护盾，并赋予15%临时减伤直到施放者下回合开始。"
+    },
+    {
+      "id": "S11",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "群体校准",
+      "kind": "passive",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "S08"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "分担结界与稳态领域每个目标的基础护盾系数各增加0.10T。"
+    },
+    {
+      "id": "S12",
+      "tree": "S",
+      "tree_name": "契印",
+      "name": "能量节制",
+      "kind": "passive",
+      "tier": 4,
+      "minimum_level": 24,
+      "tree_points_before": 8,
+      "prerequisites": [
+        "S09"
+      ],
+      "point_cost": 1,
+      "max_rank": 1,
+      "ap": 0,
+      "focus": 0,
+      "cooldown_personal_turns": 0,
+      "capstone": false,
+      "effect": "每遭遇第一次使用原始专注费用至少3的主动技能时，费用降低1，仍至少支付1；不返还AP、不清除冷却。"
+    }
+  ],
+  "items": [
+    {
+      "id": "WP-01",
+      "name": "巡灯刀",
+      "kind": "weapon",
+      "slot": "weapon",
+      "scaling": "melee",
+      "base_weapon_units": 80,
+      "per_grade_units": 80,
+      "basic_coefficient_bp": 10000,
+      "source": "起始收藏",
+      "marks_price": 0,
+      "effect": "本回合先执行基础攻击，再执行基础防御时，该次防御增加5个百分点；仍受35%临时减伤上限约束。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "WP-02",
+      "name": "撬击锤",
+      "kind": "weapon",
+      "slot": "weapon",
+      "scaling": "melee",
+      "base_weapon_units": 80,
+      "per_grade_units": 80,
+      "basic_coefficient_bp": 9000,
+      "source": "矿区公开供给目录",
+      "marks_price": 180,
+      "effect": "基础攻击系数为0.90A，附加1点基础失衡压力。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "WP-03",
+      "name": "巡航弩",
+      "kind": "weapon",
+      "slot": "weapon",
+      "scaling": "ranged",
+      "base_weapon_units": 80,
+      "per_grade_units": 80,
+      "basic_coefficient_bp": 10000,
+      "source": "起始收藏",
+      "marks_price": 0,
+      "effect": "每遭遇第一次基础攻击的通用伤害加成+15%。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "WP-04",
+      "name": "定位连发器",
+      "kind": "weapon",
+      "slot": "weapon",
+      "scaling": "ranged",
+      "base_weapon_units": 80,
+      "per_grade_units": 80,
+      "basic_coefficient_bp": 10000,
+      "source": "学城公开供给目录",
+      "marks_price": 180,
+      "effect": "基础攻击命中已有暴露目标时，通用伤害加成+10%；不自动识破情报或生成暴露。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "WP-05",
+      "name": "线圈杖",
+      "kind": "weapon",
+      "slot": "weapon",
+      "scaling": "tech",
+      "base_weapon_units": 80,
+      "per_grade_units": 80,
+      "basic_coefficient_bp": 10000,
+      "source": "起始收藏",
+      "marks_price": 0,
+      "effect": "每遭遇第一次有专注费用的T类主动技能费用降低1，仍至少支付1。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "WP-06",
+      "name": "中继杖",
+      "kind": "weapon",
+      "slot": "weapon",
+      "scaling": "tech",
+      "base_weapon_units": 80,
+      "per_grade_units": 80,
+      "basic_coefficient_bp": 10000,
+      "source": "旧都公开供给目录",
+      "marks_price": 180,
+      "effect": "每个自身回合首次主动施加的护盾数值+10%，进入护盾加成池。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "AR-01",
+      "name": "巡灯外套",
+      "kind": "armor",
+      "slot": "armor",
+      "armor_base_bp": 800,
+      "per_grade_bp": 300,
+      "source": "起始收藏",
+      "marks_price": 0,
+      "effect": "无额外条件效果。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "AR-02",
+      "name": "护卫胸衣",
+      "kind": "armor",
+      "slot": "armor",
+      "armor_base_bp": 1200,
+      "per_grade_bp": 300,
+      "source": "Q-104供给",
+      "marks_price": 0,
+      "effect": "先手-2，明确显示；不减少AP。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "AR-03",
+      "name": "轻行披肩",
+      "kind": "armor",
+      "slot": "armor",
+      "armor_base_bp": 600,
+      "per_grade_bp": 300,
+      "source": "Q-104供给",
+      "marks_price": 0,
+      "effect": "先手+2。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "AR-04",
+      "name": "绝缘工作服",
+      "kind": "armor",
+      "slot": "armor",
+      "armor_base_bp": 800,
+      "per_grade_bp": 300,
+      "source": "矿区目录",
+      "marks_price": 160,
+      "effect": "每遭遇第一次本人装置触发后，自身获得0.20T护盾，不递归。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "AR-05",
+      "name": "稳态护衣",
+      "kind": "armor",
+      "slot": "armor",
+      "armor_base_bp": 1000,
+      "per_grade_bp": 300,
+      "source": "学城目录",
+      "marks_price": 160,
+      "effect": "自身受到的普通可驱散持续伤害获得10%临时减伤，与其他临时减伤取最大，不解除状态本身。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "AR-06",
+      "name": "通信披风",
+      "kind": "armor",
+      "slot": "armor",
+      "armor_base_bp": 600,
+      "per_grade_bp": 300,
+      "source": "旧都目录",
+      "marks_price": 160,
+      "effect": "主动对其他友方施加护盾的数值+10%，不增强对自身护盾。",
+      "bound_collection": true,
+      "sell_value": 0
+    },
+    {
+      "id": "RE-01",
+      "name": "检修护环",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "Q-102结果",
+      "marks_price": 0,
+      "effect": "每遭遇第一次基础防御后为自身提供0.25T护盾。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-01"
+    },
+    {
+      "id": "RE-02",
+      "name": "稳流片",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "Q-104供给",
+      "marks_price": 0,
+      "effect": "每遭遇第一次主动护盾数值+10%。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-02"
+    },
+    {
+      "id": "RE-03",
+      "name": "压舱扣",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "苔林目录",
+      "marks_price": 160,
+      "effect": "装备减伤+3个百分点。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-03"
+    },
+    {
+      "id": "RE-04",
+      "name": "航时针",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "苔林目录",
+      "marks_price": 160,
+      "effect": "先手+2。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-04"
+    },
+    {
+      "id": "RE-05",
+      "name": "断齿环",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "矿区目录",
+      "marks_price": 180,
+      "effect": "每个自身回合首次造成失衡的主动动作附加1点基础失衡压力。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-05"
+    },
+    {
+      "id": "RE-06",
+      "name": "回声线圈",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "矿区目录",
+      "marks_price": 180,
+      "effect": "本人装置伤害加成+10%，进入通用加成池。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-06"
+    },
+    {
+      "id": "RE-07",
+      "name": "观测镜片",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "学城目录",
+      "marks_price": 200,
+      "effect": "已有暴露的加成+5个百分点，仍受40%上限。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-07"
+    },
+    {
+      "id": "RE-08",
+      "name": "共享熔片",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "学城目录",
+      "marks_price": 200,
+      "effect": "每个自身回合首次主动为其他友方施盾后，本人0.15T护盾，不递归。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-08"
+    },
+    {
+      "id": "RE-09",
+      "name": "蓄能匣",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "旧都目录",
+      "marks_price": 200,
+      "effect": "专注上限+1，仍受14点硬上限。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-09"
+    },
+    {
+      "id": "RE-10",
+      "name": "回护铭片",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "旧都目录",
+      "marks_price": 200,
+      "effect": "每遭遇首次普通净化成功后，同一目标获得0.25T护盾。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-10"
+    },
+    {
+      "id": "RE-11",
+      "name": "阵地扣",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "边境目录",
+      "marks_price": 220,
+      "effect": "基础防御临时减伤+5个百分点，仍受35%上限。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-11"
+    },
+    {
+      "id": "RE-12",
+      "name": "互助灯芯",
+      "kind": "relic",
+      "slot": "relic",
+      "source": "边境目录",
+      "marks_price": 220,
+      "effect": "救起倒地友方后，该目标获得0.25T护盾，每遭遇一次。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "unique_equip_group": "RE-12"
+    },
+    {
+      "id": "TL-01",
+      "name": "折叠撬柄",
+      "kind": "field_tool",
+      "slot": "field_tool",
+      "source": "Q-104",
+      "marks_price": 0,
+      "effect": "在声明lever接口的可选障碍上使用另一条搬移方法；常规手柄/协作路径仍可用。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "required_main_path": false
+    },
+    {
+      "id": "TL-02",
+      "name": "便携固定钳",
+      "kind": "field_tool",
+      "slot": "field_tool",
+      "source": "Q-304",
+      "marks_price": 0,
+      "effect": "在声明brace接口的地点固定已检查装置；不自动选择正确接线，不生成检查回执。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "required_main_path": false
+    },
+    {
+      "id": "TL-03",
+      "name": "延伸操作杆",
+      "kind": "field_tool",
+      "slot": "field_tool",
+      "source": "Q-504",
+      "marks_price": 0,
+      "effect": "在声明remote_handle接口的地点隔位操作已确认控制对象；不得隔墙取得物品或绕过必要检查。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "required_main_path": false
+    },
+    {
+      "id": "TL-04",
+      "name": "路径绳盘",
+      "kind": "field_tool",
+      "slot": "field_tool",
+      "source": "Q-604",
+      "marks_price": 0,
+      "effect": "在声明route_anchor接口的安全位置固定回程方案；不发现未知通道，不代替试走与现场安全。",
+      "bound_collection": true,
+      "sell_value": 0,
+      "required_main_path": false
+    }
+  ],
+  "modules": [
+    {
+      "id": "MOD-D1",
+      "name": "均衡芯1",
+      "slot": "weapon",
+      "stat": "damage_bonus_bp",
+      "value": 600,
+      "tier": 1,
+      "minimum_rank": 1,
+      "marks_cost": 80,
+      "parts_cost": 2,
+      "consumes_module": null,
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    },
+    {
+      "id": "MOD-D2",
+      "name": "均衡芯2",
+      "slot": "weapon",
+      "stat": "damage_bonus_bp",
+      "value": 1000,
+      "tier": 2,
+      "minimum_rank": 2,
+      "marks_cost": 160,
+      "parts_cost": 3,
+      "consumes_module": "MOD-D1",
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    },
+    {
+      "id": "MOD-K1",
+      "name": "冲击齿1",
+      "slot": "weapon",
+      "stat": "flat_stagger",
+      "value": 1,
+      "tier": 1,
+      "minimum_rank": 1,
+      "marks_cost": 80,
+      "parts_cost": 2,
+      "consumes_module": null,
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    },
+    {
+      "id": "MOD-K2",
+      "name": "冲击齿2",
+      "slot": "weapon",
+      "stat": "flat_stagger",
+      "value": 2,
+      "tier": 2,
+      "minimum_rank": 2,
+      "marks_cost": 160,
+      "parts_cost": 3,
+      "consumes_module": "MOD-K1",
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    },
+    {
+      "id": "MOD-L1",
+      "name": "护层1",
+      "slot": "armor",
+      "stat": "armor_bonus_bp",
+      "value": 200,
+      "tier": 1,
+      "minimum_rank": 1,
+      "marks_cost": 80,
+      "parts_cost": 2,
+      "consumes_module": null,
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    },
+    {
+      "id": "MOD-L2",
+      "name": "护层2",
+      "slot": "armor",
+      "stat": "armor_bonus_bp",
+      "value": 400,
+      "tier": 2,
+      "minimum_rank": 2,
+      "marks_cost": 160,
+      "parts_cost": 3,
+      "consumes_module": "MOD-L1",
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    },
+    {
+      "id": "MOD-E1",
+      "name": "储能衬1",
+      "slot": "armor",
+      "stat": "focus_bonus",
+      "value": 1,
+      "tier": 1,
+      "minimum_rank": 1,
+      "marks_cost": 80,
+      "parts_cost": 2,
+      "consumes_module": null,
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    },
+    {
+      "id": "MOD-E2",
+      "name": "储能衬2",
+      "slot": "armor",
+      "stat": "focus_bonus",
+      "value": 2,
+      "tier": 2,
+      "minimum_rank": 2,
+      "marks_cost": 160,
+      "parts_cost": 3,
+      "consumes_module": "MOD-E1",
+      "bound_collection": true,
+      "sell_value": 0,
+      "transfer_cost": 0
+    }
+  ],
+  "consumables": [
+    {
+      "id": "CON-01",
+      "name": "强化急救包",
+      "marks_price": 24,
+      "ap": 1,
+      "effect": "恢复一名未倒地友方最大生命的50%，向下取整，溢出不保留。"
+    },
+    {
+      "id": "CON-02",
+      "name": "净化盐",
+      "marks_price": 18,
+      "ap": 1,
+      "effect": "移除一项普通可驱散负面状态，并提供相当于目标最大生命15%的护盾。"
+    },
+    {
+      "id": "CON-03",
+      "name": "稳压电容",
+      "marks_price": 24,
+      "ap": 1,
+      "effect": "回复一名友方3点专注，不能超上限；不回复AP。"
+    },
+    {
+      "id": "CON-04",
+      "name": "瞬时防护片",
+      "marks_price": 30,
+      "ap": 1,
+      "effect": "给一名友方最大生命40%的护盾，仍按不叠加及50%盾上限。"
+    }
+  ],
+  "builds": [
+    {
+      "id": "BUILD-H",
+      "name": "巡猎主修",
+      "level": 30,
+      "stats": {
+        "body": 17,
+        "strength": 25,
+        "agility": 21,
+        "perception": 19,
+        "focus": 5
+      },
+      "skills": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "active": [
+        "H01",
+        "H07",
+        "H10",
+        "S01"
+      ],
+      "weapon": "WP-01",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-M",
+      "name": "机巧主修",
+      "level": 30,
+      "stats": {
+        "body": 17,
+        "strength": 5,
+        "agility": 15,
+        "perception": 25,
+        "focus": 25
+      },
+      "skills": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "H01",
+        "H02",
+        "H03",
+        "H04"
+      ],
+      "active": [
+        "M02",
+        "M04",
+        "M07",
+        "M10"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-04"
+    },
+    {
+      "id": "BUILD-S",
+      "name": "契印主修",
+      "level": 30,
+      "stats": {
+        "body": 25,
+        "strength": 5,
+        "agility": 7,
+        "perception": 25,
+        "focus": 25
+      },
+      "skills": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "M01",
+        "M02",
+        "M03",
+        "M04"
+      ],
+      "active": [
+        "S01",
+        "S04",
+        "S07",
+        "S10"
+      ],
+      "weapon": "WP-06",
+      "armor": "AR-06"
+    },
+    {
+      "id": "BUILD-HM",
+      "name": "巡猎机巧混合",
+      "level": 30,
+      "stats": {
+        "body": 21,
+        "strength": 17,
+        "agility": 13,
+        "perception": 17,
+        "focus": 19
+      },
+      "skills": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08"
+      ],
+      "active": [
+        "H01",
+        "H07",
+        "M02",
+        "M04"
+      ],
+      "weapon": "WP-03",
+      "armor": "AR-03"
+    },
+    {
+      "id": "BUILD-Q102-H",
+      "name": "渡轮结算后巡猎示例",
+      "level": 4,
+      "stats": {
+        "body": 7,
+        "strength": 10,
+        "agility": 7,
+        "perception": 6,
+        "focus": 5
+      },
+      "skills": [
+        "H01",
+        "H02",
+        "H03"
+      ],
+      "active": [
+        "H01",
+        "H02"
+      ],
+      "weapon": "WP-01",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-Q102-M",
+      "name": "渡轮结算后机巧示例",
+      "level": 4,
+      "stats": {
+        "body": 7,
+        "strength": 5,
+        "agility": 5,
+        "perception": 8,
+        "focus": 10
+      },
+      "skills": [
+        "M01",
+        "M02",
+        "M03"
+      ],
+      "active": [
+        "M01",
+        "M02"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-Q102-ENTRY-H",
+      "name": "渡轮任务开始时巡猎",
+      "level": 3,
+      "stats": {
+        "body": 7,
+        "strength": 9,
+        "agility": 6,
+        "perception": 6,
+        "focus": 5
+      },
+      "skills": [
+        "H01",
+        "H02"
+      ],
+      "active": [
+        "H01",
+        "H02"
+      ],
+      "weapon": "WP-01",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-Q102-ENTRY-M",
+      "name": "渡轮任务开始时机巧",
+      "level": 3,
+      "stats": {
+        "body": 7,
+        "strength": 5,
+        "agility": 5,
+        "perception": 7,
+        "focus": 9
+      },
+      "skills": [
+        "M01",
+        "M02"
+      ],
+      "active": [
+        "M01",
+        "M02"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-01"
+    }
+  ],
+  "engineering": {
+    "account": "engineering_ledger_not_personal_inventory",
+    "baseline_total": {
+      "base_isolator": 6,
+      "local_backup": 6,
+      "base_provision": 12
+    },
+    "enhancement_total": {
+      "controller": 6,
+      "coupler": 12,
+      "transition_crate": 18,
+      "trial_fixture": 6
+    },
+    "initial_player_owned_supply": {},
+    "procurement": [
+      {
+        "id": "SUP-CTRL",
+        "resource": "controller",
+        "quantity": 6,
+        "source": "学城定额制造合同",
+        "steps": [
+          "取得已核验技术包",
+          "核对六份坯件与合同",
+          "完成规定制造与验收",
+          "交付工程账"
+        ]
+      },
+      {
+        "id": "SUP-COUP",
+        "resource": "coupler",
+        "quantity": 12,
+        "source": "矿区停用设备的定额回收合同",
+        "steps": [
+          "确认停用与拆卸许可",
+          "分拣并修复十二份合格组件",
+          "核对交付",
+          "交付工程账"
+        ]
+      },
+      {
+        "id": "SUP-PORT",
+        "resource": "transition_crate",
+        "quantity": 6,
+        "source": "盐雾港定额供给",
+        "steps": [
+          "核对地方合同",
+          "装运核验",
+          "交付工程账"
+        ]
+      },
+      {
+        "id": "SUP-GROVE",
+        "resource": "transition_crate",
+        "quantity": 6,
+        "source": "苔林定额供给",
+        "steps": [
+          "核对地方合同",
+          "装运核验",
+          "交付工程账"
+        ]
+      },
+      {
+        "id": "SUP-FRONTIER",
+        "resource": "transition_crate",
+        "quantity": 6,
+        "source": "边境定额供给",
+        "steps": [
+          "核对地方合同",
+          "装运核验",
+          "交付工程账"
+        ]
+      },
+      {
+        "id": "SUP-TEST",
+        "resource": "trial_fixture",
+        "quantity": 6,
+        "source": "学城可复用测试夹具合同",
+        "steps": [
+          "核对六套夹具",
+          "校验与验收",
+          "交付工程账"
+        ]
+      }
+    ],
+    "note": "合同定义不是免费自动到账；每项只按一次实际交付回执入账。源库存有限，缺项通过公开合同与等价阶段替代补齐。试验夹具可复用，错误配置不反复消耗唯一试验物资。",
+    "towers": [
+      {
+        "id": "TWR-R1",
+        "region": "R1",
+        "name": "潮门塔",
+        "base_requirement": {
+          "base_isolator": 1,
+          "local_backup": 1,
+          "base_provision": 2
+        },
+        "operator_posts": 2,
+        "installation_crew_capacity": 1,
+        "enhanced_requirement": {
+          "controller": 1,
+          "coupler": 2,
+          "transition_crate": 3,
+          "trial_fixture": 1
+        }
+      },
+      {
+        "id": "TWR-R2",
+        "region": "R2",
+        "name": "苔冠塔",
+        "base_requirement": {
+          "base_isolator": 1,
+          "local_backup": 1,
+          "base_provision": 2
+        },
+        "operator_posts": 2,
+        "installation_crew_capacity": 1,
+        "enhanced_requirement": {
+          "controller": 1,
+          "coupler": 2,
+          "transition_crate": 3,
+          "trial_fixture": 1
+        }
+      },
+      {
+        "id": "TWR-R3",
+        "region": "R3",
+        "name": "深井塔",
+        "base_requirement": {
+          "base_isolator": 1,
+          "local_backup": 1,
+          "base_provision": 2
+        },
+        "operator_posts": 2,
+        "installation_crew_capacity": 1,
+        "enhanced_requirement": {
+          "controller": 1,
+          "coupler": 2,
+          "transition_crate": 3,
+          "trial_fixture": 1
+        }
+      },
+      {
+        "id": "TWR-R4",
+        "region": "R4",
+        "name": "棱镜塔",
+        "base_requirement": {
+          "base_isolator": 1,
+          "local_backup": 1,
+          "base_provision": 2
+        },
+        "operator_posts": 2,
+        "installation_crew_capacity": 1,
+        "enhanced_requirement": {
+          "controller": 1,
+          "coupler": 2,
+          "transition_crate": 3,
+          "trial_fixture": 1
+        }
+      },
+      {
+        "id": "TWR-R5",
+        "region": "R5",
+        "name": "归档塔",
+        "base_requirement": {
+          "base_isolator": 1,
+          "local_backup": 1,
+          "base_provision": 2
+        },
+        "operator_posts": 2,
+        "installation_crew_capacity": 1,
+        "enhanced_requirement": {
+          "controller": 1,
+          "coupler": 2,
+          "transition_crate": 3,
+          "trial_fixture": 1
+        }
+      },
+      {
+        "id": "TWR-R6",
+        "region": "R6",
+        "name": "风脊塔",
+        "base_requirement": {
+          "base_isolator": 1,
+          "local_backup": 1,
+          "base_provision": 2
+        },
+        "operator_posts": 2,
+        "installation_crew_capacity": 1,
+        "enhanced_requirement": {
+          "controller": 1,
+          "coupler": 2,
+          "transition_crate": 3,
+          "trial_fixture": 1
+        }
+      }
+    ],
+    "baseline_source": "每地区已稳定设施的保全合同，逐项实际核对或交付；每塔最多一次基础配额，不以切换菜单生成。",
+    "supply_unit": "保全包/过渡箱分别支撑一塔一个标准剧情工作段的最低保障；不是现实小时，也不与同名个人药品通兑。"
+  },
+  "economy": {
+    "starting_marks": 100,
+    "starting_parts": 0,
+    "main_xp_total": 19140,
+    "main_marks_total": 4160,
+    "main_parts_total": 55,
+    "optional_xp_total": 2400,
+    "respec_cost": 0,
+    "calibration_cost": 0,
+    "repair_cost": 0,
+    "equipment_durability": false,
+    "learning_assistance_cost": 0,
+    "repeat_practice_xp": 0,
+    "kill_xp": 0,
+    "bound_items_sell_value": 0,
+    "trade_goods_sell_fraction": [
+      1,
+      4
+    ],
+    "personal_parts_purchase_marks": 30,
+    "personal_parts_sell_marks": 6
+  },
+  "hotel": {
+    "quest": "SC-R1-001",
+    "xp": 25,
+    "marks": 40,
+    "parts": 1,
+    "budget_chapter": 1,
+    "compensation_options": [
+      {
+        "id": "owner_discount",
+        "payer": "hotel_account",
+        "marks": 20
+      },
+      {
+        "id": "owner_information_service",
+        "payer": "hotel_service_capacity",
+        "units": 1
+      }
+    ],
+    "deduct_from_player": false
+  },
+  "validation_limits": [
+    "no engine execution",
+    "no enemy or companion balance validated",
+    "no full economic policy proof",
+    "no hardware crash tests",
+    "no actual English grading or 6.5 calibration"
+  ],
+  "companions": [
+    {
+      "id": "CP-LINA",
+      "name": "莉娜",
+      "available": "序章协作，Q-104正式邀请",
+      "profile": {
+        "body": 2,
+        "strength": 1,
+        "agility": 4,
+        "perception": 3,
+        "focus": 1
+      },
+      "role": "远程标记与掩护",
+      "kit_contract": "两项基础行动；等级12、20、24各开放一个战术变体选择，不由关系分数解锁必需能力。"
+    },
+    {
+      "id": "CP-MIRA",
+      "name": "米拉",
+      "available": "第二章正式邀请",
+      "profile": {
+        "body": 3,
+        "strength": 1,
+        "agility": 1,
+        "perception": 3,
+        "focus": 4
+      },
+      "role": "防护与净化",
+      "kit_contract": "两项基础行动；等级12、20、24各开放一个战术变体选择，不自动整理证据。"
+    },
+    {
+      "id": "CP-OREN",
+      "name": "奥伦",
+      "available": "第三章正式邀请",
+      "profile": {
+        "body": 3,
+        "strength": 2,
+        "agility": 1,
+        "perception": 3,
+        "focus": 4
+      },
+      "role": "装置与失衡压力",
+      "kit_contract": "两项基础行动；等级12、20、24各开放一个战术变体选择，不自动修塔。"
+    },
+    {
+      "id": "CP-TESS",
+      "name": "泰丝",
+      "available": "第六章正式邀请",
+      "profile": {
+        "body": 3,
+        "strength": 2,
+        "agility": 4,
+        "perception": 3,
+        "focus": 1
+      },
+      "role": "环境适应与打击",
+      "kit_contract": "按加入时共享等级直接补齐可用变体，不要求先刷低级战斗。"
+    },
+    {
+      "id": "AUX-GUARD",
+      "name": "地方援勤·护卫",
+      "available": "Q-101后在合法出发点补足空队席",
+      "profile": {
+        "body": 4,
+        "strength": 3,
+        "agility": 1,
+        "perception": 1,
+        "focus": 2
+      },
+      "role": "通用前排",
+      "kit_contract": "简化固定行动，不带私人剧情或额外学习评分。"
+    },
+    {
+      "id": "AUX-SUPPORT",
+      "name": "地方援勤·支援",
+      "available": "Q-101后在合法出发点补足空队席",
+      "profile": {
+        "body": 3,
+        "strength": 1,
+        "agility": 1,
+        "perception": 3,
+        "focus": 4
+      },
+      "role": "通用防护",
+      "kit_contract": "简化固定行动，不提供四名同伴独有的叙事经历。"
+    }
+  ],
+  "calibration_sources": {
+    "grade0": "起始装备",
+    "grade1": "Q-104共同供给回执",
+    "grade2": "Q-304检修成果回执",
+    "grade3": "Q-504设施接管回执",
+    "grade4": "Q-604共同处置出发配置"
+  },
+  "starter_owned": [
+    "WP-01",
+    "WP-03",
+    "WP-05",
+    "AR-01"
+  ],
+  "guaranteed_gear_unlocks": {
+    "Q-102": [
+      "RE-01"
+    ],
+    "Q-104": [
+      "AR-02",
+      "AR-03",
+      "RE-02",
+      "TL-01"
+    ],
+    "Q-304": [
+      "TL-02"
+    ],
+    "Q-504": [
+      "TL-03"
+    ],
+    "Q-604": [
+      "TL-04"
+    ]
+  },
+  "field_actions": [
+    {
+      "id": "BASE-LIGHT",
+      "name": "照明与安全标记",
+      "source": "起始",
+      "must_remain_free": true
+    },
+    {
+      "id": "BASE-INSPECT",
+      "name": "检查与记录",
+      "source": "起始",
+      "must_remain_free": true
+    },
+    {
+      "id": "BASE-ROPE",
+      "name": "救援索与常规固定",
+      "source": "Q-P02实际交付",
+      "must_remain_free": true
+    },
+    {
+      "id": "BASE-MANUAL",
+      "name": "既有手柄、基础拆卸与现场协作",
+      "source": "对应主线合法交互",
+      "must_remain_free": true
+    }
+  ],
+  "trade_rules": {
+    "bound_gear": "collection, no sale or dismantling; duplicate entitlement never duplicates rewards",
+    "consumable_sale": "at most floor(lowest_current_public_purchase_price/4)",
+    "parts_buy": 30,
+    "parts_sell": 6,
+    "coupon_refund": "actual paid amount only",
+    "discount_arbitrage": "minimum paid purchase price must remain above allowed resale; no sellback of free refills"
+  },
+  "schema_contract_notes": [
+    "All learned passive nodes apply; only active skills use four loadout slots.",
+    "All item numerical effects still require typed effect/event implementation in Part 08/12. Human-readable effect text is not executable authority.",
+    "Use a durable instance for bound items and modules; same physical relic/module cannot occupy two characters or slots.",
+    "Starting XP 0 means level 1, not level 0. Entry Q-102 is main-only level 3; the reward makes it level 4.",
+    "guaranteed_gear_unlocks is a lookup index of main_rewards.awarded_items, never an additional award handler."
+  ]
+}

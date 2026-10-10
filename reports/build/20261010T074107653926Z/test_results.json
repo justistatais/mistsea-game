@@ -1,0 +1,31 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Normal current-stage and earlier southern forecasts require exact finite optional batch and actual new delivery route; preview cancel and once receipt preserve main world",
+      "result": "passed"
+    },
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Real shared press requires separate local posts, dedicated manual reserve and current DRIVE zero; permission withdrawal and Continue reject stale handovers",
+      "result": "passed"
+    },
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Same borrowed lamp cannot expose family note, use another serial or reuse old zero after cleaning; actual return and bounded mutual aid keep original title once",
+      "result": "passed"
+    },
+    {
+      "task": "CP-SETTLEMENT-03",
+      "name": "Saved optional prose has real CAS and no world execution; changed prose invalidates a delivery confirmation without losing the carried physical packet",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

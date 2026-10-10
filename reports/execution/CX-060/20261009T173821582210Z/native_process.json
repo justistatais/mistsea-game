@@ -1,0 +1,11 @@
+{
+  "pid": 400,
+  "source": "reports/build/20261009T173021649607Z",
+  "evidence": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-060\\20261009T173821582210Z",
+  "argv": [
+    "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+    "--path",
+    "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game"
+  ],
+  "scope": "native observation of actual normal Q104 command route; isolated copy; no human acceptance claim"
+}

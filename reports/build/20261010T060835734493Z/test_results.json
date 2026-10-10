@@ -1,0 +1,26 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-FIELD-RELAY-03",
+      "name": "A current same-device OFF, dedicated pin and AUX zero method controls the optional relay without attacking, then requires refit and a new current return check",
+      "result": "passed"
+    },
+    {
+      "task": "CP-FIELD-RELAY-03",
+      "name": "Real BattleEngine threat control grants no isolation, pin, tower or delivery; withdrawal and cancelled or continued previews preserve the same finite work instance",
+      "result": "passed"
+    },
+    {
+      "task": "CP-FIELD-RELAY-03",
+      "name": "Untouched arrival, incorrect stand and a different local relay custody cannot produce scoped work or borrow protected cargo",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

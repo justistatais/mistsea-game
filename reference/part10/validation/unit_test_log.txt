@@ -1,0 +1,57 @@
+test_28_ready_requires_real_fixture_and_intent (test_ui_reference.ConfirmationTests.test_28_ready_requires_real_fixture_and_intent) ... ok
+test_29_no_wall_clock_in_preview (test_ui_reference.ConfirmationTests.test_29_no_wall_clock_in_preview) ... ok
+test_30_unrelated_settings_do_not_invalidate (test_ui_reference.ConfirmationTests.test_30_unrelated_settings_do_not_invalidate) ... ok
+test_31_disconnect_reconnect_invalidates_test (test_ui_reference.ConfirmationTests.test_31_disconnect_reconnect_invalidates_test) ... ok
+test_32_permission_change_invalidates (test_ui_reference.ConfirmationTests.test_32_permission_change_invalidates) ... ok
+test_33_load_and_close_invalidate_preview (test_ui_reference.ConfirmationTests.test_33_load_and_close_invalidate_preview) ... ok
+test_34_proposal_change_invalidates (test_ui_reference.ConfirmationTests.test_34_proposal_change_invalidates) ... ok
+test_35_repeated_command_has_one_receipt_and_reward (test_ui_reference.ConfirmationTests.test_35_repeated_command_has_one_receipt_and_reward) ... ok
+test_36_new_command_cannot_repeat_same_goal_reward (test_ui_reference.ConfirmationTests.test_36_new_command_cannot_repeat_same_goal_reward) ... ok
+test_37_changed_payload_same_command_rejected (test_ui_reference.ConfirmationTests.test_37_changed_payload_same_command_rejected) ... ok
+test_38_query_does_not_mutate_unknown_or_known (test_ui_reference.ConfirmationTests.test_38_query_does_not_mutate_unknown_or_known) ... ok
+test_39_old_snapshot_can_legally_complete_once (test_ui_reference.ConfirmationTests.test_39_old_snapshot_can_legally_complete_once) ... ok
+test_40_loading_post_commit_cannot_repeat (test_ui_reference.ConfirmationTests.test_40_loading_post_commit_cannot_repeat) ... ok
+test_51_changed_goal_same_command_rejected (test_ui_reference.ConfirmationTests.test_51_changed_goal_same_command_rejected) ... ok
+test_52_language_settings_cannot_change_world_qualification (test_ui_reference.ConfirmationTests.test_52_language_settings_cannot_change_world_qualification) ... ok
+test_20_save_requires_acknowledgement (test_ui_reference.DraftTests.test_20_save_requires_acknowledgement) ... ok
+test_21_old_save_ack_cannot_mark_new_draft_saved (test_ui_reference.DraftTests.test_21_old_save_ack_cannot_mark_new_draft_saved) ... ok
+test_22_storage_rejects_out_of_order_old_body (test_ui_reference.DraftTests.test_22_storage_rejects_out_of_order_old_body) ... ok
+test_23_forged_document_or_generation_ack_rejected (test_ui_reference.DraftTests.test_23_forged_document_or_generation_ack_rejected) ... ok
+test_24_save_failure_keeps_text (test_ui_reference.DraftTests.test_24_save_failure_keeps_text) ... ok
+test_25_composition_not_sent_as_finished_body (test_ui_reference.DraftTests.test_25_composition_not_sent_as_finished_body) ... ok
+test_26_edit_invalidates_intent_not_physical_work (test_ui_reference.DraftTests.test_26_edit_invalidates_intent_not_physical_work) ... ok
+test_27_no_revision_change_for_identical_body (test_ui_reference.DraftTests.test_27_no_revision_change_for_identical_body) ... ok
+test_41_hidden_preload_is_not_shown_support (test_ui_reference.EvidenceFeedbackTests.test_41_hidden_preload_is_not_shown_support) ... ok
+test_42_help_scope_not_global (test_ui_reference.EvidenceFeedbackTests.test_42_help_scope_not_global) ... ok
+test_43_support_after_answer_does_not_change_snapshot (test_ui_reference.EvidenceFeedbackTests.test_43_support_after_answer_does_not_change_snapshot) ... ok
+test_44_audio_missing_does_not_fake_playback (test_ui_reference.EvidenceFeedbackTests.test_44_audio_missing_does_not_fake_playback) ... ok
+test_45_interrupt_keeps_audio_position (test_ui_reference.EvidenceFeedbackTests.test_45_interrupt_keeps_audio_position) ... ok
+test_46_old_feedback_is_attached_to_old_revision (test_ui_reference.EvidenceFeedbackTests.test_46_old_feedback_is_attached_to_old_revision) ... ok
+test_47_deleted_generation_cannot_repopulate (test_ui_reference.EvidenceFeedbackTests.test_47_deleted_generation_cannot_repopulate) ... ok
+test_48_permissions_before_search_and_counts (test_ui_reference.EvidenceFeedbackTests.test_48_permissions_before_search_and_counts) ... ok
+test_49_protected_input_defers_notification (test_ui_reference.EvidenceFeedbackTests.test_49_protected_input_defers_notification) ... ok
+test_50_duplicate_notification_not_repeated (test_ui_reference.EvidenceFeedbackTests.test_50_duplicate_notification_not_repeated) ... ok
+test_09_letters_in_editor_do_not_navigate (test_ui_reference.InputTests.test_09_letters_in_editor_do_not_navigate) ... ok
+test_10_search_and_quantity_fields_are_editable (test_ui_reference.InputTests.test_10_search_and_quantity_fields_are_editable) ... ok
+test_11_ctrl_s_only_saves_draft (test_ui_reference.InputTests.test_11_ctrl_s_only_saves_draft) ... ok
+test_12_enter_and_ctrl_enter_do_not_send (test_ui_reference.InputTests.test_12_enter_and_ctrl_enter_do_not_send) ... ok
+test_13_composition_owns_enter_escape_even_in_dialog (test_ui_reference.InputTests.test_13_composition_owns_enter_escape_even_in_dialog) ... ok
+test_14_mode_change_discards_queue_and_stale_input (test_ui_reference.InputTests.test_14_mode_change_discards_queue_and_stale_input) ... ok
+test_15_key_repeat_does_not_confirm (test_ui_reference.InputTests.test_15_key_repeat_does_not_confirm) ... ok
+test_16_pointer_release_cannot_cross_layers (test_ui_reference.InputTests.test_16_pointer_release_cannot_cross_layers) ... ok
+test_17_transition_cannot_move (test_ui_reference.InputTests.test_17_transition_cannot_move) ... ok
+test_18_layers_pause_and_restore_focus (test_ui_reference.InputTests.test_18_layers_pause_and_restore_focus) ... ok
+test_19_missing_return_focus_has_safe_fallback (test_ui_reference.InputTests.test_19_missing_return_focus_has_safe_fallback) ... ok
+test_01_twenty_four_unique_views (test_ui_reference.RegistryTests.test_01_twenty_four_unique_views) ... ok
+test_02_eighteen_unique_shared_components (test_ui_reference.RegistryTests.test_02_eighteen_unique_shared_components) ... ok
+test_03_all_views_lock_65_and_keyboard (test_ui_reference.RegistryTests.test_03_all_views_lock_65_and_keyboard) ... ok
+test_04_all_views_declare_owner_restore_empty_error (test_ui_reference.RegistryTests.test_04_all_views_declare_owner_restore_empty_error) ... ok
+test_05_layout_rectangles_in_bounds_and_no_overlap (test_ui_reference.RegistryTests.test_05_layout_rectangles_in_bounds_and_no_overlap) ... ok
+test_06_sample_materials_are_unscored_and_audio_missing (test_ui_reference.RegistryTests.test_06_sample_materials_are_unscored_and_audio_missing) ... ok
+test_07_no_send_keyboard_shortcut_in_editable (test_ui_reference.RegistryTests.test_07_no_send_keyboard_shortcut_in_editable) ... ok
+test_08_large_font_reflows (test_ui_reference.RegistryTests.test_08_large_font_reflows) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 0.001s
+
+OK

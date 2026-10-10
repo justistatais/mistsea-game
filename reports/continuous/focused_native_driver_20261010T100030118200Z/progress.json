@@ -1,0 +1,23 @@
+{
+  "scope": "actual focused correction verification; default fresh normal producers; not final full qualification",
+  "runs": [
+    {
+      "action": "chapter-two-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T100030201129Z"
+    },
+    {
+      "action": "chapter-three-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T100209235991Z"
+    },
+    {
+      "action": "chapter-six-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T100411257344Z"
+    }
+  ]
+}

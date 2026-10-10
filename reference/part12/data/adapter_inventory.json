@@ -1,0 +1,203 @@
+[
+  {
+    "part": 3,
+    "source_package": "Part03_Exploration_Design_v0.1.zip",
+    "source_member": "Exploration_Layout_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "regions",
+      "slice",
+      "world_travel",
+      "guard_bans"
+    ],
+    "production_adapter": "Part03Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 4,
+    "source_package": "Part04_Quest_Event_Design_v0.1.zip",
+    "source_member": "data/Quest_Event_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "task_lifecycle",
+      "resolution_outcomes",
+      "derived_active_status",
+      "objective_types",
+      "quests",
+      "q102",
+      "event_templates",
+      "event_slots_note",
+      "work_orders",
+      "revision_bridge"
+    ],
+    "production_adapter": "Part04Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 5,
+    "source_package": "Part05_English_Learning_Design_v0.1.zip",
+    "source_member": "data/English_Learning_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "target",
+      "skills",
+      "curriculum",
+      "material_specs",
+      "content_budget",
+      "review_policy",
+      "assessment"
+    ],
+    "production_adapter": "Part05Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 6,
+    "source_package": "Part06_Puzzle_Design_v0.1.zip",
+    "source_member": "data/Puzzle_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "target",
+      "families",
+      "units",
+      "chapter_bindings",
+      "complexity_levels",
+      "complexity_note",
+      "budget",
+      "outcome_categories",
+      "support",
+      "banned_gates",
+      "exports",
+      "not_exports",
+      "constraint_registry",
+      "constraint_registry_note",
+      "worked_hint_example"
+    ],
+    "production_adapter": "Part06Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 7,
+    "source_package": "Part07_Character_Progression_Design_v0.1.zip",
+    "source_member": "data/Character_Progression_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "level",
+      "formula",
+      "combat_contract",
+      "ranks",
+      "chapter_budgets",
+      "main_rewards",
+      "skills",
+      "items",
+      "modules",
+      "consumables",
+      "builds",
+      "engineering",
+      "economy",
+      "hotel",
+      "validation_limits",
+      "companions",
+      "calibration_sources",
+      "starter_owned",
+      "guaranteed_gear_unlocks",
+      "field_actions",
+      "trade_rules",
+      "schema_contract_notes"
+    ],
+    "production_adapter": "Part07Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 8,
+    "source_package": "Part08_Combat_Design_v0.1.zip",
+    "source_member": "data/Combat_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "turn",
+      "difficulty",
+      "actions",
+      "companions",
+      "companion_variants",
+      "archetypes",
+      "encounters",
+      "scenarios",
+      "builds",
+      "core",
+      "limits",
+      "inherited"
+    ],
+    "production_adapter": "Part08Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 9,
+    "source_package": "Part09_NPC_Faction_Design_v0.1.zip",
+    "source_member": "data/NPC_Faction_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "factions",
+      "profiles",
+      "supporting_profiles",
+      "arcs",
+      "personal_nodes",
+      "main_reactions",
+      "facts",
+      "banter_seeds",
+      "regional_mandates",
+      "cooperation_scopes",
+      "relationship",
+      "recruitment",
+      "reward_budget",
+      "ownership"
+    ],
+    "production_adapter": "Part09Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 10,
+    "source_package": "Part10_UI_UX_Design_v0.1.zip",
+    "source_member": "data/UI_UX_Reference_v0.1.json",
+    "source_keys": [
+      "version",
+      "target_band",
+      "scope",
+      "navigation",
+      "screens",
+      "components",
+      "bindings",
+      "tokens",
+      "save_slots",
+      "input_modes",
+      "readonly_in_combat",
+      "view_only_actions",
+      "forbidden_commit_dependencies",
+      "ui_prototype",
+      "layouts"
+    ],
+    "production_adapter": "Part10Adapter",
+    "conversion_status": "specified_not_implemented"
+  },
+  {
+    "part": 11,
+    "source_package": "Part11_Content_AI_Design_v0.1.zip",
+    "source_member": "data/Content_AI_Reference_v0.1.json",
+    "source_keys": [
+      "meta",
+      "target",
+      "content_counts",
+      "state_axes",
+      "human_gates",
+      "runtime_write_domains",
+      "band_output_enabled",
+      "max_primary_feedback_items",
+      "max_expanded_feedback_items",
+      "max_runtime_context_segments",
+      "max_runtime_attempts",
+      "max_generation_candidates_per_job_initial",
+      "production_batch_initial",
+      "cost_model"
+    ],
+    "production_adapter": "Part11Adapter",
+    "conversion_status": "specified_not_implemented"
+  }
+]

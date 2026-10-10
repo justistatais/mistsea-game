@@ -1,0 +1,16 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-LINA-PERSONAL-03",
+      "name": "actual_zero_XP_Lina_three_producers_明确暂缓联系并保存转交方式_once_original_rewards_current_permission_and_private_custody",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

@@ -1,0 +1,146 @@
+{
+  "scope": "isolated actual bundled SQLite native path and rollback-journal diagnostic, not game/test suite/human acceptance",
+  "generated_utc": "2026-10-10T08:19:11.873476+00:00",
+  "dll": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.12\\runtimes\\win-x64\\native\\e_sqlite3.dll",
+  "dll_sha256": "b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e",
+  "sqlite_version": "3.53.3",
+  "artifact_root": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85",
+  "cases": [
+    {
+      "name": "short-default",
+      "vfs": null,
+      "extended": false,
+      "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\short.sqlite",
+      "logical_path_chars": 141,
+      "open_rc": 0,
+      "error": "not an error",
+      "data_source": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\short.sqlite",
+      "setup": {
+        "rc": 0,
+        "error": ""
+      },
+      "actual_write": {
+        "rc": 0,
+        "error": ""
+      },
+      "during_transaction_journal": {
+        "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\short.sqlite-journal",
+        "chars": 149,
+        "exists": true,
+        "bytes": 4616
+      },
+      "commit": {
+        "rc": 0,
+        "error": ""
+      },
+      "stored_rows": 1,
+      "reopen": {
+        "open_rc": 0,
+        "error": "not an error",
+        "data_source": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\short.sqlite",
+        "stored_rows": 1
+      }
+    },
+    {
+      "name": "deep-default",
+      "vfs": null,
+      "extended": false,
+      "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\default.sqlite",
+      "logical_path_chars": 329,
+      "open_rc": 14,
+      "error": "unable to open database file",
+      "data_source": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\default.sqlite"
+    },
+    {
+      "name": "deep-longpath-vfs",
+      "vfs": "win32-longpath",
+      "extended": false,
+      "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\longpath.sqlite",
+      "logical_path_chars": 330,
+      "open_rc": 14,
+      "error": "unable to open database file",
+      "data_source": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\longpath.sqlite"
+    },
+    {
+      "name": "deep-extended-default",
+      "vfs": null,
+      "extended": true,
+      "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-default.sqlite",
+      "logical_path_chars": 338,
+      "open_rc": 0,
+      "error": "not an error",
+      "data_source": "\\\\?\\C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-default.sqlite",
+      "setup": {
+        "rc": 0,
+        "error": ""
+      },
+      "actual_write": {
+        "rc": 0,
+        "error": ""
+      },
+      "during_transaction_journal": {
+        "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-default.sqlite-journal",
+        "chars": 346,
+        "exists": true,
+        "bytes": 4616
+      },
+      "commit": {
+        "rc": 0,
+        "error": ""
+      },
+      "stored_rows": 1,
+      "reopen": {
+        "open_rc": 0,
+        "error": "not an error",
+        "data_source": "\\\\?\\C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-default.sqlite",
+        "stored_rows": 1
+      }
+    },
+    {
+      "name": "deep-extended-longpath-vfs",
+      "vfs": "win32-longpath",
+      "extended": true,
+      "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-longpath.sqlite",
+      "logical_path_chars": 339,
+      "open_rc": 0,
+      "error": "not an error",
+      "data_source": "\\\\?\\C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-longpath.sqlite",
+      "setup": {
+        "rc": 0,
+        "error": ""
+      },
+      "actual_write": {
+        "rc": 0,
+        "error": ""
+      },
+      "during_transaction_journal": {
+        "logical_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-longpath.sqlite-journal",
+        "chars": 347,
+        "exists": true,
+        "bytes": 4616
+      },
+      "commit": {
+        "rc": 0,
+        "error": ""
+      },
+      "stored_rows": 1,
+      "backup": {
+        "open_rc": 0,
+        "error": "not an error",
+        "data_source": "\\\\?\\C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\actual-backup.sqlite",
+        "logical_path_chars": 335,
+        "step_rc": 101,
+        "finish_rc": 0,
+        "stored_rows": 1
+      },
+      "reopen": {
+        "open_rc": 0,
+        "error": "not an error",
+        "data_source": "\\\\?\\C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-longpath.sqlite",
+        "stored_rows": 1
+      }
+    }
+  ],
+  "unc_actual_not_run": true,
+  "game_or_tests_compilation_run": false
+}

@@ -1,0 +1,93 @@
+{
+  "task_id": "CX-077",
+  "scope": "构建可离线运行的完整候选；准备来源、声音、字库和依赖授权证据，不自动公开发布。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "不带SDK/Python需求",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-077",
+            "name": "Package structure omits SDK/Python requirements and rejects credentials, author answers, holdouts and player saves",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "不带开发密钥/作者答案/测试存档",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-077",
+            "name": "Package structure omits SDK/Python requirements and rejects credentials, author answers, holdouts and player saves",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "内部候选标识不能伪装正式",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-077",
+            "name": "Package structure omits SDK/Python requirements and rejects credentials, author answers, holdouts and player saves",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "缺权利或声音可列明但不能最终通过",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-077",
+            "name": "Package structure omits SDK/Python requirements and rejects credentials, author answers, holdouts and player saves",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-077",
+        "name": "Package structure omits SDK/Python requirements and rejects credentials, author answers, holdouts and player saves",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 578,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-076",
+    "CX-066"
+  ],
+  "not_run": [
+    "Human editorial and production acceptance of local producers and twelve optional encounter candidates",
+    "Complete 96-unit puzzle source/method/save register",
+    "Physical power/disk-full, IME, screen reader and different clean Windows machine",
+    "Human play, editorial/target-band calibration, audition, rights and publisher signature"
+  ]
+}

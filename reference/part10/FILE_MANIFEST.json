@@ -1,0 +1,102 @@
+{
+  "CR-UI-010-001.md": {
+    "sha256": "4a243401eaeae67b155291364a5bca71ef1b09e2e8f8690bc9c172e0f41cf7cc",
+    "bytes": 1351
+  },
+  "Codex_Handoff_Part10_v0.1.md": {
+    "sha256": "058a659b666e1a9138d71f40cad634bd6dd3d52a2c68252696f34e598290495b",
+    "bytes": 3888
+  },
+  "Codex_UI_Task_Cards_v0.1.md": {
+    "sha256": "fcbacbe059931613aca8b8afd2fac723fee8b14bd5de396256ee37907760cb85",
+    "bytes": 4506
+  },
+  "README.md": {
+    "sha256": "41ad9a521969baafd31471efddff97e35e4913a5417c55dc6b79404a868ac60e",
+    "bytes": 2454
+  },
+  "UI_UX_Spec_v0.1.md": {
+    "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7",
+    "bytes": 53334
+  },
+  "UI_UX_Validation_v0.1.md": {
+    "sha256": "e8a35e79b71c72180447ac5c95a2b1f5b01353ea060e5e023524308e255a238b",
+    "bytes": 3406
+  },
+  "data/Codex_UI_Tasks_v0.1.json": {
+    "sha256": "cd2338d756f4020343b4465bbec960deb8ff2687e71ef247160ad1136e9d1a1a",
+    "bytes": 6670
+  },
+  "data/Q102_Material_Reference_v0.1.json": {
+    "sha256": "7ae3d513a9a541a7522c680fe945813c65c680c610b3d8ea7e60ac23c752df36",
+    "bytes": 10362
+  },
+  "data/UI_Acceptance_v0.1.json": {
+    "sha256": "8350a44e2736f2fe9d16f4d1fbccf742536deefa0ee52c7561fd8850456a24a6",
+    "bytes": 12200
+  },
+  "data/UI_UX_Reference_v0.1.json": {
+    "sha256": "b3c78b2955371fb8479954ab07bd53f81e0ed1a9ab930f077556ba1cec209489",
+    "bytes": 20151
+  },
+  "prototype/UI_Wireframe_v0.1.html": {
+    "sha256": "46c0841c3616fab778d2711626962c19d97b94f9f07af7cafcc1a4563822b68a",
+    "bytes": 39680
+  },
+  "references/Source_Manifest_v0.1.json": {
+    "sha256": "0d995d2b99fae8d570b0471b76a3373af7d1770edd1de9e0185baa7e713600a2",
+    "bytes": 1371
+  },
+  "validation/browser_report.json": {
+    "sha256": "43c13f9a1127e8270da03da9d5aa787886676addd4fc94e02bba3bf2e1223c36",
+    "bytes": 2915
+  },
+  "validation/browser_test_log.txt": {
+    "sha256": "ca4cb4593fba501af062c029926a8f6f82a5ffd3834703564cca64642baf8ea2",
+    "bytes": 1126
+  },
+  "validation/independent_recheck.json": {
+    "sha256": "680bb3628a59220859723c529562bf5f9a6121ef4ac1c5d1c5b9d083fb6d1ca4",
+    "bytes": 755
+  },
+  "validation/qa_writing_1280.png": {
+    "sha256": "64d0846e068f884177051f95c29de0b3caa7791468f19be660667961da90dfe8",
+    "bytes": 266151
+  },
+  "validation/qa_writing_1920.png": {
+    "sha256": "12de02d149ed2fe2340ac9afd9b9fbecc194b83b91624519cebb381842fd3bf6",
+    "bytes": 284610
+  },
+  "validation/qa_writing_200.png": {
+    "sha256": "6c7e5fbea6e2711b9c5a66586df4171c4069957812c62f658bf0eb726f30eb86",
+    "bytes": 332040
+  },
+  "validation/reference_report.json": {
+    "sha256": "dba4259ce79e4971714a1b9d4b28d1c728abed84c3a06746d85960a908147474",
+    "bytes": 6986
+  },
+  "validation/run_reference_checks.py": {
+    "sha256": "2107fdf89978d63690732bc3c33a069e5bab80e21011696a78cbb7f1d56a0539",
+    "bytes": 1353
+  },
+  "validation/summary.json": {
+    "sha256": "ae42d95f788c61ada2d9b72090fc730902c80e8c29ce826e7c86f6918a45cd00",
+    "bytes": 634
+  },
+  "validation/test_browser.py": {
+    "sha256": "6c2d14c6859c92193a7dd3e1a098d316e4f6a4538d01e6d404b9c4c01932ed1c",
+    "bytes": 11988
+  },
+  "validation/test_ui_reference.py": {
+    "sha256": "d162f405fc0bcead256eabebd0ded6d102e6fe74743a56bb7d07c2fdcf4af941",
+    "bytes": 12121
+  },
+  "validation/ui_reference.py": {
+    "sha256": "4ae2c6e0410dfbfdad9c12f1bace955959bad8a63690f545f7d064bfb89abda8",
+    "bytes": 10566
+  },
+  "validation/unit_test_log.txt": {
+    "sha256": "db74cbc949f616959b9381bbe1abbd2162e2e02c48165cca0b8777636acee03e",
+    "bytes": 6878
+  }
+}

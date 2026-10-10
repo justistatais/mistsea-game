@@ -1,0 +1,21 @@
+{
+  "scope": "actual current material-version/body and existing WAVE byte revalidation after metadata repair; no rerender or human approval",
+  "source_file_sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0",
+  "version": "R1-LIFE-20261010-v2",
+  "materials": [
+    {
+      "id": "R1-ROOM-L-GUESTS",
+      "version": "R1-LIFE-20261010-v2",
+      "body_sha256": "2d199dea892312eadfc6ef4979ca3821bd291ed2cfc040fe8e759c73aa530b2d",
+      "audio_sha256": "38003671f856df359ed4abf4b1b65214745d6d150acb41a5486e34cf65da9dee"
+    },
+    {
+      "id": "R1-SHOW-L-CREW",
+      "version": "R1-LIFE-20261010-v2",
+      "body_sha256": "a73548e5bf1b83731a8d98cdb79fb210440b539fd54bc4445c95ad626113c375",
+      "audio_sha256": "2476ca9cbbf1b13e5da1b0dda08f7b1563661db2833f91e62068bbf8718e5699"
+    }
+  ],
+  "source_paragraphs_changed": false,
+  "human_signoff": null
+}

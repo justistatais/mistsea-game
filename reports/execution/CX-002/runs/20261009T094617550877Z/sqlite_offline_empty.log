@@ -1,0 +1,8 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "restore", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj", "--configfile", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\toolchain\\NuGet.offline.config", "--locked-mode", "--force", "--no-cache", "-p:NuGetAudit=false", "-p:MSBuildProjectExtensionsPath=C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\offline_obj\\"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+  正在确定要还原的项目…
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\spikes\toolchain\SqliteProbe\SqliteProbe.csproj : error NU1100: 无法解析 net10.0 的“Microsoft.Data.Sqlite (>= 10.0.12)”。
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\spikes\toolchain\SqliteProbe\SqliteProbe.csproj : error NU1100: 无法解析 net10.0/win-x64 的“Microsoft.Data.Sqlite (>= 10.0.12)”。
+  未能还原 C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\spikes\toolchain\SqliteProbe\SqliteProbe.csproj (用时 131 毫秒)。
+
+[stderr]

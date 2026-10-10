@@ -1,0 +1,922 @@
+{
+  "version": "0.1",
+  "note": "用户已授权连续开发；工程证据逐项记录，人工与发布Gate不代签。verified候选按reports/continuous/Scope_20261009.md继续开发。",
+  "tasks": {
+    "CX-001": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-001.json",
+      "review": {
+        "reviewer": "Codex /root（工程证据复核，非真人签核）",
+        "decision": "accepted",
+        "reviewed_at": "2026-10-09T15:57:35+08:00"
+      }
+    },
+    "CX-002": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-002.json",
+      "review": {
+        "reviewer": "Codex /root（工具链工程自检，非真人签核）",
+        "decision": "accepted",
+        "reviewed_at": "2026-10-09T18:06:05.832896+08:00"
+      }
+    },
+    "CX-003": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-003.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "accepted"
+      }
+    },
+    "CX-004": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-004.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "accepted"
+      }
+    },
+    "CX-005": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-005.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "accepted"
+      }
+    },
+    "CX-006": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-006.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-007": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-007.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-008": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-008.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-009": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-009.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-010": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-010.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-011": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-011.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-012": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-012.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-013": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-013.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-014": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-014.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-015": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-015.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-016": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-016.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-017": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-017.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-018": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-018.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-019": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-019.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-020": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-020.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-021": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-021.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-022": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-022.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-023": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-023.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-024": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-024.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-025": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-025.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-026": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-026.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-027": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-027.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-028": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-028.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-029": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-029.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-030": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-030.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-031": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-031.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-032": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-032.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-033": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-033.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-034": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-034.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-035": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-035.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-036": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-036.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-037": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-037.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-038": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-038.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-039": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-039.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-040": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-040.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-041": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-041.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-042": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-042.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-043": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-043.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-044": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-044.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-045": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-045.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-046": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-046.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-047": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-047.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-048": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-048.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-049": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-049.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-050": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-050.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-051": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-051.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-052": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-052.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-053": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-053.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-054": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-054.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-055": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-055.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-056": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-056.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-057": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-057.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-058": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-058.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-059": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-059.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-060": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-060.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-061": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-061.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-062": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-062.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-063": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-063.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-064": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-064.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-065": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-065.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-066": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-066.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-067": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-067.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-068": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-068.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-069": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-070": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-070.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-071": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-071.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-072": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-072.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-073": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-074": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-074.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-075": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-075.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-076": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-076.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-077": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-077.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-078": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-078.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-079": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-079.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CX-080": {
+      "status": "implemented",
+      "evidence": "reports/execution/CX-080.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "partial_implementation"
+      }
+    },
+    "CP-R0-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-001": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-002": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-003": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-004": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-005": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-006": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-007": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-008": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    }
+  }
+}

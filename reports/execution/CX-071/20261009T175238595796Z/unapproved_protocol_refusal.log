@@ -1,0 +1,5 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tools\\Mist.ReviewCalibration\\bin\\Debug\\net10.0\\Mist.ReviewCalibration.dll", "audit-protocol", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-071\\20261009T175238595796Z\\draft_protocol.json"], "exit_code": 3}
+[stdout]
+{"binding_hash":"51896fc703d3e0d14fee54f222095fdc293f1e838958330d0e10a807671ef7a6","stage":"draft_target_65","missing":["two_independent_actual_editor_reviews","actual_section_stratified_pilot_and_comparison","actual_declared_conditions_calibration_decision","versioned_monitoring_plan_or_evidence"],"complete_task_registered":true,"official_certification":false,"learning_effect_proved":false,"full_band_output_enabled":false,"predicted_band":null}
+
+[stderr]

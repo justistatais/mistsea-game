@@ -1,0 +1,331 @@
+{
+  "schema_version": "0.1",
+  "task_id": "CX-004",
+  "result": "accepted",
+  "source_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "working_tree_manifest": "reports/execution/CX-004/evidence/20261009T104558463628Z/working_tree.json",
+  "build_id": "20261009T104558463628Z",
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "architecture": "AMD64",
+    "godot": "4.7.2.stable.mono.official.ed1daf0bf",
+    "dotnet": "10.0.401 / net10.0",
+    "sqlite_native": "3.53.3"
+  },
+  "artifacts": [
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/reports/execution/CX-004/20261009T102623148803Z/result.json",
+      "sha256": "deb1e4fbd269cfcd71021e4e56dbb6fff3d1999a62bc81244e8df143c8c50193",
+      "bytes": 3836,
+      "source_path_at_execution": "reports/execution/CX-004/20261009T102623148803Z/result.json"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/reports/execution/CX-004/20261009T102637309265Z/export_result.json",
+      "sha256": "75d58d67e411867ffb2eaa15b26146318a0464da9a3561bc578fed57c45aa8ff",
+      "bytes": 54823,
+      "source_path_at_execution": "reports/execution/CX-004/20261009T102637309265Z/export_result.json"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/Storage.tscn",
+      "sha256": "0f64ad8611b96503a04d2300d1b829d1aadae58a028260a04b4ae46a59cf062a",
+      "bytes": 155,
+      "source_path_at_execution": "spikes/storage/Storage.tscn"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageHarness.cs",
+      "sha256": "09719fb2e2ab8678503e5186735c900b8fcdbcec60a83c49b28a338d6a881b00",
+      "bytes": 6233,
+      "source_path_at_execution": "spikes/storage/StorageHarness.cs"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageHarness.cs.uid",
+      "sha256": "810e62ecfb3281800d332462433e0b62ce402822f6c31e6f51e577d6b5eba030",
+      "bytes": 20,
+      "source_path_at_execution": "spikes/storage/StorageHarness.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageNode.cs",
+      "sha256": "519c240abb248d7be52d10312009ff8d5b7c04a14a618b2971b31326c91c0f1b",
+      "bytes": 1235,
+      "source_path_at_execution": "spikes/storage/StorageNode.cs"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageNode.cs.uid",
+      "sha256": "875253f41d31c8e56272478a3bc5bf51a91dcc79ddb6458e99917a7429f7bd00",
+      "bytes": 19,
+      "source_path_at_execution": "spikes/storage/StorageNode.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageProbe.csproj",
+      "sha256": "fc02cf7a718219464676df557ba78b1696962b18c594a7b1ba9c4d5f608ff2c8",
+      "bytes": 331,
+      "source_path_at_execution": "spikes/storage/StorageProbe.csproj"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageProbe.sln",
+      "sha256": "9bb57fb1e3bbeb3c6b4b77b57ab2790f439b90c53d13750766b0f9497a0a2f35",
+      "bytes": 1727,
+      "source_path_at_execution": "spikes/storage/StorageProbe.sln"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/export_presets.cfg",
+      "sha256": "f2499e639e9295f31ed2945c80129ed9fe6c3d2fc8957060eacaf847b79ff086",
+      "bytes": 483,
+      "source_path_at_execution": "spikes/storage/export_presets.cfg"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/packages.lock.json",
+      "sha256": "6320b2f345526f50b13cc53a6d3e5e46318cdf6afd1968ce3b24a963b975fc1a",
+      "bytes": 2698,
+      "source_path_at_execution": "spikes/storage/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/project.godot",
+      "sha256": "f79b7baf462dbd938b74c753c39ccc7388b8059bd28ac70a38ecde78a8cde94d",
+      "bytes": 324,
+      "source_path_at_execution": "spikes/storage/project.godot"
+    },
+    {
+      "path": "reports/execution/CX-004/20261009T102623148803Z/restore.log",
+      "sha256": "9b2297e7c3f908ed27cab88e27d5a1cf79649508f04882897812c468a3c0d905",
+      "bytes": 684
+    },
+    {
+      "path": "reports/execution/CX-004/20261009T102623148803Z/build.log",
+      "sha256": "c8c496e3de8622c30f6da312aa9abe7d285983f055b924cd28918d8fb7f37a63",
+      "bytes": 634
+    },
+    {
+      "path": "reports/execution/CX-004/20261009T102623148803Z/import.log",
+      "sha256": "dac2172f356443b9bc4a32db8f366505a2188c040f01baadb52af27d0a9bb8b5",
+      "bytes": 1566
+    },
+    {
+      "path": "reports/execution/CX-004/20261009T102623148803Z/runtime.log",
+      "sha256": "90bbdee2d04c2d13aaa082e2cdd5fb10fc373b7faddae2d34f5360e2b3acab19",
+      "bytes": 1634
+    },
+    {
+      "path": "reports/execution/CX-004/20261009T102637309265Z/export.log",
+      "sha256": "d13c0c6741842631cd47b347448e82a0fd2af3b78b0198c5216b6b39bdc78833",
+      "bytes": 2566
+    },
+    {
+      "path": "reports/execution/CX-004/20261009T102637309265Z/export_runtime.log",
+      "sha256": "cf051331867123eca1f6fe064f50ccf1571aeaf1b3c2f6d9d991871717de1229",
+      "bytes": 1557
+    },
+    {
+      "path": "reports/execution/CX-004/20261009T102637309265Z/missing_native_diagnostic.log",
+      "sha256": "f753e8a27fa1a2f8f6e377288f1fbd5ba051df27e654399991d116af57fc02e5",
+      "bytes": 2055
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/git_head.log",
+      "sha256": "ba842fd68fd4207e51a84b719285fffbca73ae9842ec40ef27163708f04d926a",
+      "bytes": 41
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/state_before.json",
+      "sha256": "0c019df8f7919a41d403d581c9a24f2fe2c048787dbf92360e1051e257eda49f",
+      "bytes": 14986
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/state_after.json",
+      "sha256": "dd543abe27c409cc02e10b671a88637f63ab55a9bc7119fcad6906ddf15a3462",
+      "bytes": 15120
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/engineering_review.json",
+      "sha256": "19d3256d14a7b7b49efc87f9b454d225b5ffd9f372075866c6753b73d19e4fd0",
+      "bytes": 3596
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/working_tree.json",
+      "sha256": "1fa4af8431fbb4fb3553b67a2231ff05bfa007e7a1c0767d2f12d0e0eee89bab",
+      "bytes": 4104
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.csproj",
+        "--no-restore",
+        "-c",
+        "Debug"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage",
+        "--",
+        "--storage-test"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/runtime.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage",
+        "--export-release",
+        "Windows Desktop",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-004\\20261009T102637309265Z\\export\\StorageProbe.exe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102637309265Z/export.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-004\\20261009T102637309265Z\\export\\StorageProbe.exe",
+        "--headless",
+        "--",
+        "--storage-test"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102637309265Z/export_runtime.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-004\\20261009T102637309265Z\\missing_native\\StorageProbe.exe",
+        "--headless",
+        "--",
+        "--native-diagnostic"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 3,
+      "output_path": "reports/execution/CX-004/20261009T102637309265Z/missing_native_diagnostic.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "Export copy intentionally omits e_sqlite3.dll; explicit native-library diagnostic is required."
+    }
+  ],
+  "acceptance_results": [
+    {
+      "requirement": "两表事务同成同败",
+      "status": "passed",
+      "detail": "两表提交、写入中断和约束失败均核对真实数据库。",
+      "evidence": "reports/execution/CX-004/20261009T102623148803Z"
+    },
+    {
+      "requirement": "数据库忙返回明确状态",
+      "status": "passed",
+      "detail": "实际竞争写入返回database_busy，耗时与配置写入证据。",
+      "evidence": "reports/execution/CX-004/20261009T102623148803Z"
+    },
+    {
+      "requirement": "原生库缺失可诊断",
+      "status": "passed",
+      "detail": "Windows导出副本移除e_sqlite3.dll后返回原生库加载诊断和退出码3。",
+      "evidence": "reports/execution/CX-004/20261009T102623148803Z"
+    },
+    {
+      "requirement": "只在Linux通过不替代Windows证据",
+      "status": "passed",
+      "detail": "Godot .NET与导出exe均在当前Windows x64运行，原生版本3.53.3和部署哈希已记录。",
+      "evidence": "reports/execution/CX-004/20261009T102623148803Z"
+    }
+  ],
+  "not_run": [
+    "真实中文输入法逐步核验",
+    "真实读屏软件及人工验证",
+    "另一台无编辑器/SDK的干净Windows",
+    "产品、语言校准和发布验收"
+  ],
+  "blocked_reasons": [],
+  "review": {
+    "required_role": "Codex工程实现",
+    "reviewer": "Codex /root（工程自检，无真人签核）",
+    "decision": "accepted",
+    "is_synthetic": false,
+    "evidence": [
+      "reports/execution/CX-004/evidence/20261009T104558463628Z/engineering_review.json"
+    ]
+  },
+  "data_migration": {
+    "needed": false,
+    "record": null
+  },
+  "language_calibration": {
+    "status": "not_performed",
+    "evidence": null
+  },
+  "notes": "真实工程检查与产物快照；依赖人工Gate未通过时只记verified。未声明任何真人或正式发布验收。source_commit定位既有父仓库，当前MistSea源码由快照标识。",
+  "test_results": {
+    "automated_run": "reports/execution/CX-004/20261009T102623148803Z",
+    "scope": "native Windows Godot/.NET with automated checks",
+    "export": "reports/execution/CX-004/20261009T102637309265Z",
+    "native_files": [
+      {
+        "path": "reports/execution/CX-004/20261009T102637309265Z/export/data_StorageProbe_windows_x86_64/e_sqlite3.dll",
+        "bytes": 1978880,
+        "sha256": "b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e"
+      },
+      {
+        "path": "reports/execution/CX-004/20261009T102637309265Z/export/data_StorageProbe_windows_x86_64/SQLitePCLRaw.provider.e_sqlite3.dll",
+        "bytes": 36864,
+        "sha256": "df996bcae63c2cabcfe8d4b9c5110eb39a2a4706178b07d875665391c6eb3995"
+      }
+    ],
+    "bundled_runtime": true,
+    "checks": {
+      "injected_failure_rolls_back_both_tables": true,
+      "two_tables_commit_together": true,
+      "constraint_failure_rolls_back_first_table": true,
+      "database_busy_has_explicit_state": true,
+      "backup_contains_committed_two_table_state": true,
+      "backup_integrity": true
+    },
+    "sqlite_version": "3.53.3",
+    "framework": ".NET 10.0.12",
+    "architecture": "X64",
+    "native_path": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\.godot\\mono\\temp\\bin\\Debug\\runtimes/win-x64/native/e_sqlite3.dll",
+    "native_sha256": "b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e",
+    "database": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-004\\20261009T102623148803Z\\sqlite\\two_tables.sqlite",
+    "backup": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-004\\20261009T102623148803Z\\sqlite\\consistent_backup.sqlite",
+    "busy_status": "database_busy",
+    "busy_elapsed_ms": 5057,
+    "busy_test_timeout_seconds": 1,
+    "normal_busy_timeout_ms": 5000
+  },
+  "pending_dependencies": [],
+  "executed_at": "2026-10-09T10:45:59.070346+00:00"
+}

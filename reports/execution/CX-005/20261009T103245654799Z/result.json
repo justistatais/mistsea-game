@@ -1,0 +1,88 @@
+{
+  "task_id": "CX-005",
+  "project": "spikes/exports/OfflineCandidate",
+  "scope": "actual Windows engine process with automated checks",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "new",
+        "sln",
+        "--format",
+        "sln",
+        "--name",
+        "OfflineCandidate",
+        "--output",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-005/20261009T103245654799Z/solution.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "sln",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate\\OfflineCandidate.sln",
+        "add",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate\\OfflineCandidate.csproj"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-005/20261009T103245654799Z/solution_add.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate\\OfflineCandidate.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-005/20261009T103245654799Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate\\OfflineCandidate.csproj",
+        "--no-restore",
+        "-c",
+        "Debug"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-005/20261009T103245654799Z/build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-005/20261009T103245654799Z/import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate",
+        "--",
+        "--candidate-save"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-005/20261009T103245654799Z/runtime.log"
+    }
+  ],
+  "runtime_output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\n\r\nMISTSEA_CANDIDATE_RESULTS {\"saved\":true,\"path\":\"C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\reports\\\\execution\\\\CX-005\\\\20261009T103245654799Z\\\\draft.sqlite\",\"provider\":\"Microsoft.Data.Sqlite, Version=10.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60\",\"network_provider_configured\":false}\r\n"
+}

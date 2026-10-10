@@ -1,0 +1,1704 @@
+[
+  {
+    "legacy_id": "EXP-DEV-01",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "EXP-DEV-02",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "EXP-DEV-03",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "EXP-DEV-04",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "EXP-DEV-05",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "EXP-DEV-06",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "EXP-DEV-07",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "EXP-DEV-08",
+    "part": 3,
+    "source": "docs/baseline/Exploration_Level_Design_v0.1.md",
+    "covered_by": [
+      "CX-024",
+      "CX-025",
+      "CX-026",
+      "CX-027",
+      "CX-060"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-01",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-02",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-03",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-04",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-05",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-06",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-07",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-08",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "QEV-DEV-09",
+    "part": 4,
+    "source": "docs/baseline/Quest_Event_System_v0.1.md",
+    "covered_by": [
+      "CX-028",
+      "CX-035",
+      "CX-036",
+      "CX-037",
+      "CX-055",
+      "CX-059",
+      "CX-015",
+      "CX-014"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-01",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-02",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-03",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-04",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-05",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-06",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-07",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-08",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-09",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "ENG-DEV-10",
+    "part": 5,
+    "source": "docs/baseline/English_Learning_System_v0.1.md",
+    "covered_by": [
+      "CX-018",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-033",
+      "CX-070",
+      "CX-071"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-01",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-02",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-03",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-04",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-05",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-06",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-07",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-08",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "PZ-DEV-09",
+    "part": 6,
+    "source": "docs/baseline/Puzzle_System_v0.1.md",
+    "covered_by": [
+      "CX-027",
+      "CX-032",
+      "CX-036"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-01",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-02",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-03",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-04",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-05",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-06",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-07",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-08",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "RPG-DEV-09",
+    "part": 7,
+    "source": "docs/baseline/Character_Progression_v0.1.md",
+    "covered_by": [
+      "CX-040",
+      "CX-041",
+      "CX-042",
+      "CX-052",
+      "CX-059",
+      "CX-056"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-01",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-02",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-03",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-04",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-05",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-06",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-07",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-08",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-09",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-10",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "COM-DEV-11",
+    "part": 8,
+    "source": "docs/baseline/Combat_System_v0.1.md",
+    "covered_by": [
+      "CX-043",
+      "CX-044",
+      "CX-045",
+      "CX-046",
+      "CX-047",
+      "CX-048",
+      "CX-049",
+      "CX-050",
+      "CX-051",
+      "CX-052",
+      "CX-073"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-01",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-02",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-03",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-04",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-05",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-06",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-07",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-08",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-09",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "NPC-DEV-10",
+    "part": 9,
+    "source": "docs/baseline/NPC_Faction_System_v0.1.md",
+    "covered_by": [
+      "CX-054",
+      "CX-055",
+      "CX-056",
+      "CX-057",
+      "CX-058",
+      "CX-063",
+      "CX-074"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-01",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-02",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-03",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-04",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-05",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-06",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-07",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-08",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-09",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "UI-DEV-10",
+    "part": 10,
+    "source": "docs/baseline/UI_UX_Spec_v0.1.md",
+    "covered_by": [
+      "CX-023",
+      "CX-029",
+      "CX-030",
+      "CX-031",
+      "CX-032",
+      "CX-039",
+      "CX-046",
+      "CX-061",
+      "CX-062",
+      "CX-064"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-01",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-02",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-03",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-04",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-05",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-06",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-07",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-08",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-09",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "CAI-DEV-10",
+    "part": 11,
+    "source": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+    "covered_by": [
+      "CX-009",
+      "CX-010",
+      "CX-066",
+      "CX-067",
+      "CX-068",
+      "CX-069",
+      "CX-070",
+      "CX-071",
+      "CX-072",
+      "CX-021"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-00",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-01",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-02",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-03",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-04",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-05",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-06",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-07",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-08",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-09",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-10",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  },
+  {
+    "legacy_id": "TECH-DEV-11",
+    "part": 12,
+    "source": "docs/baseline/Technical_Architecture_v0.1.md",
+    "covered_by": [
+      "CX-002",
+      "CX-003",
+      "CX-004",
+      "CX-005",
+      "CX-006",
+      "CX-007",
+      "CX-008",
+      "CX-009",
+      "CX-011",
+      "CX-012",
+      "CX-013",
+      "CX-014",
+      "CX-015",
+      "CX-016",
+      "CX-017",
+      "CX-018",
+      "CX-019",
+      "CX-020",
+      "CX-021",
+      "CX-022",
+      "CX-076",
+      "CX-077"
+    ],
+    "mapping_note": "责任覆盖索引，不表示每个列出任务重复实现整个上游包；具体范围以独立任务卡为准。"
+  }
+]

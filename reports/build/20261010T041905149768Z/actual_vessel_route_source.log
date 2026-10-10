@@ -1,0 +1,160 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CX-060"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 29,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-060",
+      "name": "Actual Q102 navigation emits a paired movement receipt that grants one return edge",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Map discovery cannot register an unvisited anchor; only two declared safe kinds qualify",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Physical paired transition receipt permits return; generic legacy or forged path does not",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A one-way walked edge cannot be silently reversed; departed ferry invalidates the old route",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Reactivated workshop interlock cannot reuse its previously safe traversal",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Tower-safe return survives continue and enhancement without granting full preparation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Cargo in transit, active combat and a foreground event prevent relocation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "An atomic foreground lease blocks relocation without a running event and remains owned",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "One Glimmer instance serves three spaces; declined Lina and zero fuel never lock legal sailing",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Ship requires actual safe placement and boarding proximity; forged or missing instances fail",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Q604 freezes outside travel and ship entry while preserving the named prefinal checkpoint",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "An intermediate room wall cannot be skipped merely because both scene edges were walked",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A newly dangerous strip inside an intermediate room invalidates an otherwise current walked route",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A safe AStar detour inside the intermediate room still permits the folded physical route",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Return validates both the actor-to-first-exit leg and last-entry-to-anchor leg",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Same-scene return cannot cross a wall or newly hazardous corridor",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Same-scene return with a legal obstacle detour uses real navigation and preserves balances",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "The search may re-enter a different component of one scene through an already walked safe loop",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Later-region scene IDs and an authority receipt cannot substitute for missing actual geometry",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A copied valid transition proof cannot be relabelled as a different scene edge",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Three actual Glimmer grayboxes pair only adjacent spaces and every functional station has a safe path",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Map existence or a test-gifted ship cannot create actual ownership, berth or ship-space evidence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Actual normal Q104 handover, physical berth inspection, three ship spaces and original workspaces share one persisted vessel",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A closed or stale boarding preview cannot move an actor or board a revised berth/other ship",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Current foreground lease/event and Q604 checkpoint block ship movement without manufacturing placement",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "New ship geometry does not grant later-region berths or invent missing R1 physical station",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "R1/R2 voyage source keeps public landing authority separate from unvisited learner records and verifies actual berth geometry",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "No new profile, map or explicitly gifted ship can issue the real voyage loan and cross-region arrival handoff",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

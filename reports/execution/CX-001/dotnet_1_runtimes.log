@@ -1,0 +1,6 @@
+{"argv": ["C:\\Program Files (x86)\\dotnet\\dotnet.EXE", "--list-runtimes"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1", "started_at": "2026-10-09T15:47:37+08:00", "exit_code": 0}
+[stdout]
+Microsoft.AspNetCore.App 5.0.17 [C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App]
+Microsoft.NETCore.App 5.0.17 [C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App]
+
+[stderr]

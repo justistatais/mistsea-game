@@ -1,0 +1,2240 @@
+{
+  "scope": "actual source and bundled player inputs before compilation",
+  "inputs": [
+    {
+      "path": "content/source/audio/regional_speech_input.json",
+      "bytes": 150801,
+      "sha256": "0905e852e9eb1533c45bc6c3281e6618152e35593e607b9d82b43081ea2bd221"
+    },
+    {
+      "path": "content/source/campaign/first_entry.json",
+      "bytes": 39309,
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052"
+    },
+    {
+      "path": "content/source/campaign/production_cards.json",
+      "bytes": 9445,
+      "sha256": "b6be4a3c92fa9feceecdf87782e79d6d9d087e189d3d39a0a1473c7d73965a38"
+    },
+    {
+      "path": "content/source/chapter_five/learner_package.json",
+      "bytes": 137926,
+      "sha256": "8b28847aa98b6cde1881b84404712e9edde05f1a207e16006a83f093f690c7ee"
+    },
+    {
+      "path": "content/source/chapter_four/learner_package.json",
+      "bytes": 130548,
+      "sha256": "a444cde42ad1340f98fb2f243bdbd241a5deb96962e1cc390a9aa846ce3a155e"
+    },
+    {
+      "path": "content/source/chapter_four/optional_credit.json",
+      "bytes": 6140,
+      "sha256": "75ac26868e11aa3514a9fb695aefc3981701674df190f34654e2030bb2726baf"
+    },
+    {
+      "path": "content/source/chapter_four/optional_inquiry.json",
+      "bytes": 5614,
+      "sha256": "377d25c0db6f421bdef0de12bb336f2415f906fd62a69823253a6a6a1321cabe"
+    },
+    {
+      "path": "content/source/chapter_one/chapter_one.json",
+      "bytes": 13945,
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9"
+    },
+    {
+      "path": "content/source/chapter_six/learner_package.json",
+      "bytes": 109055,
+      "sha256": "a6800f6c91d6fd4e98686c90ce6a3ed03765863f00cbe076f83b2e1f913276ed"
+    },
+    {
+      "path": "content/source/chapter_three/learner_package.json",
+      "bytes": 210651,
+      "sha256": "1193b43a9151a74024f31a7e251e792637562762568f6384bb2eebf334e804a8"
+    },
+    {
+      "path": "content/source/chapter_two/learner_package.json",
+      "bytes": 144131,
+      "sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905"
+    },
+    {
+      "path": "content/source/finale/learner_package.json",
+      "bytes": 92412,
+      "sha256": "c07b8465f973760025c3d14b69f61bb4185dd9cc0676918abbf49d43e1b7eeac"
+    },
+    {
+      "path": "content/source/first_approaches/learner_package.json",
+      "bytes": 12290,
+      "sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03"
+    },
+    {
+      "path": "content/source/lexicon/learner_lexicon.json",
+      "bytes": 5125771,
+      "sha256": "80c5550958e52600fa5782a361fec035ed3a605a151c59affb9b3cb65a5d046a"
+    },
+    {
+      "path": "content/source/lina_personal/learner_package.json",
+      "bytes": 11353,
+      "sha256": "6b8305b092778dd6b831117585cebb0dcb58c6caea2f8b05b3adc5eb2e54058c"
+    },
+    {
+      "path": "content/source/optional_encounter_contracts/learner_package.json",
+      "bytes": 65228,
+      "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+    },
+    {
+      "path": "content/source/optional_local_works/field_relay_contract.json",
+      "bytes": 4082,
+      "sha256": "cb06b027843a15779a24ff9f6219ba3fa380fbbabfa742ea9a8df6aa564309f6"
+    },
+    {
+      "path": "content/source/optional_local_works/old_city_life_contract.json",
+      "bytes": 7339,
+      "sha256": "22047e7fb3aa3cb94b915491319280b30b5e6428a2950205fe99fe6043038928"
+    },
+    {
+      "path": "content/source/optional_local_works/settlement_support_contracts.json",
+      "bytes": 10537,
+      "sha256": "b091d3fef85b0547440c9be7347a7aa1982507fc60e60d2bbc60050a019b53f1"
+    },
+    {
+      "path": "content/source/part03.json",
+      "bytes": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    {
+      "path": "content/source/part04.json",
+      "bytes": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    {
+      "path": "content/source/part05-Original_Materials_v0.1.json",
+      "bytes": 27750,
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+    },
+    {
+      "path": "content/source/part05.json",
+      "bytes": 62574,
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+    },
+    {
+      "path": "content/source/part06-Puzzle_Materials_v0.1.json",
+      "bytes": 16760,
+      "sha256": "44bc61f8f40391e32037e7b1c0fa172215e373982677ea07d3c0d93c5e00f319"
+    },
+    {
+      "path": "content/source/part06.json",
+      "bytes": 42061,
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19"
+    },
+    {
+      "path": "content/source/part07.json",
+      "bytes": 65966,
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    {
+      "path": "content/source/part08.json",
+      "bytes": 56489,
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    {
+      "path": "content/source/part09.json",
+      "bytes": 56328,
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+    },
+    {
+      "path": "content/source/part10-Q102_Material_Reference_v0.1.json",
+      "bytes": 10362,
+      "sha256": "7ae3d513a9a541a7522c680fe945813c65c680c610b3d8ea7e60ac23c752df36"
+    },
+    {
+      "path": "content/source/part10.json",
+      "bytes": 20151,
+      "sha256": "b3c78b2955371fb8479954ab07bd53f81e0ed1a9ab930f077556ba1cec209489"
+    },
+    {
+      "path": "content/source/part11.json",
+      "bytes": 2225,
+      "sha256": "044973db4b29cf7f714bb12b87858616a79efcfbc67aeaa63d95da0462f12513"
+    },
+    {
+      "path": "content/source/r1_life/learner_package.json",
+      "bytes": 35696,
+      "sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0"
+    },
+    {
+      "path": "content/source/r2_life/learner_contract.json",
+      "bytes": 4755,
+      "sha256": "6e666d58bb2010f91c084aae49bc81a4e796351572d75e1b54a5826d90d15cc7"
+    },
+    {
+      "path": "content/source/r3_shift_work/learner_package.json",
+      "bytes": 9243,
+      "sha256": "c376ed99aa155d59ec1c01d97fd9e9ca7eb5e0fc03d7d8d3ed912b206ce17467"
+    },
+    {
+      "path": "content/source/scoped_personal_work/learner_package.json",
+      "bytes": 6496,
+      "sha256": "fefe7f81eea5cd301b79ad8c0cc331cc779b918deee9739691f16cb99a6d7ead"
+    },
+    {
+      "path": "content/source/vessel/vessel_interior.json",
+      "bytes": 5542,
+      "sha256": "da46456263e354e696992f840dc1cfa78fa2febcbe3fe5cbc2381e972041cfc8"
+    },
+    {
+      "path": "content/source/vessel_life/learner_package.json",
+      "bytes": 64319,
+      "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+    },
+    {
+      "path": "content/source/voyage/r1_r2_voyage.json",
+      "bytes": 2785,
+      "sha256": "353d180a310c16404163538121d656ea3492364553b451a0fa786921ca1e2f8d"
+    },
+    {
+      "path": "content/source/voyage/r2_r3_voyage.json",
+      "bytes": 2129,
+      "sha256": "b685229e4df08741ebe197b3a01d8cfb67ebd25170495c5ba4f39f20c8f2f920"
+    },
+    {
+      "path": "content/source/voyage/r3_r4_voyage.json",
+      "bytes": 2090,
+      "sha256": "4d605963cf9e4daf817d0a0566a312c98925119ffa6e8de6d6f9af31e3792f6b"
+    },
+    {
+      "path": "content/source/voyage/r4_r5_voyage.json",
+      "bytes": 2146,
+      "sha256": "70e73c6272c357aef09f4a3f500c66a2102bd67c6b55a28f1fba8ce05d74d95a"
+    },
+    {
+      "path": "content/source/voyage/r5_r6_voyage.json",
+      "bytes": 2216,
+      "sha256": "bc15c381838ecaa8baa5d9bb78b6dc9c90a3fde91ec2abb54c25c9e76dd02ad3"
+    },
+    {
+      "path": "Directory.Build.props",
+      "bytes": 545,
+      "sha256": "e39b6b4dc997d94aa2b33de75d9debd50cf16a135ad6e74b18d156089c9e813c"
+    },
+    {
+      "path": "game/content/audio/dictionary-beacon.wav",
+      "bytes": 62862,
+      "sha256": "97dd0f437a11dad0104eb456202360350e3ab8073f779692562b43a8c8f6f3b9"
+    },
+    {
+      "path": "game/content/audio/dictionary-bracket.wav",
+      "bytes": 63522,
+      "sha256": "b475a46f1ec98522a1b363c9e9f19031eb53a3b3dae59863744f3daadb5eeab0"
+    },
+    {
+      "path": "game/content/audio/dictionary-draft.wav",
+      "bytes": 65728,
+      "sha256": "eedf7591f9c5a74c85263edae0774a91891bf713fff1bd9a9c9b6efffb8c5c1f"
+    },
+    {
+      "path": "game/content/audio/dictionary-draught.wav",
+      "bytes": 65728,
+      "sha256": "eedf7591f9c5a74c85263edae0774a91891bf713fff1bd9a9c9b6efffb8c5c1f"
+    },
+    {
+      "path": "game/content/audio/dictionary-interlock.wav",
+      "bytes": 67706,
+      "sha256": "b14b8d676c158bc85d29b3dfa34e652ba36dfaf54da93aa7dfa8dce85cc94772"
+    },
+    {
+      "path": "game/content/audio/dictionary-isolate.wav",
+      "bytes": 66610,
+      "sha256": "fb03e6dfdbf7803e719cc51c267a8b2b978cbc9b964716ae650c488c1ef81b5d"
+    },
+    {
+      "path": "game/content/audio/dictionary-isolated.wav",
+      "bytes": 69034,
+      "sha256": "4ef4ebbb5b84a760b057dca67d325bb7406d441ebe3b4546bb1bd0177124c832"
+    },
+    {
+      "path": "game/content/audio/dictionary-isolation.wav",
+      "bytes": 77850,
+      "sha256": "0d380e04c10f4d44e1e5680afc7b322ddb8b285ed93c54741f59f26e81bed13d"
+    },
+    {
+      "path": "game/content/audio/dictionary-operational.wav",
+      "bytes": 70356,
+      "sha256": "611e20c98b8dfea7fc4274c03401d31b9f5900789a9ed260a7ffc01a10888e50"
+    },
+    {
+      "path": "game/content/audio/dictionary-reserve.wav",
+      "bytes": 63520,
+      "sha256": "4c1e644bbf6e2acac39fbc822e68c47b0016f19cccf51dad9220106d4ca517a2"
+    },
+    {
+      "path": "game/content/audio/dictionary-subject.wav",
+      "bytes": 69252,
+      "sha256": "4225714c760f4dd101ead50fe6697e873dc9cae3b2d15a609dbe5ae9cd34f88f"
+    },
+    {
+      "path": "game/content/audio/dictionary-supersede.wav",
+      "bytes": 73882,
+      "sha256": "e2cb28abe2bb8a6c9d9217783e0076f46c3bc16cff149017a89fe7df61db701e"
+    },
+    {
+      "path": "game/content/audio/dictionary-supersedes.wav",
+      "bytes": 76968,
+      "sha256": "b810ecc864e38e22d141637031a69156feb0ca20921387a46caf359fa4825b5b"
+    },
+    {
+      "path": "game/content/audio/dictionary_generation.json",
+      "bytes": 4525,
+      "sha256": "73a9e87cec729a08063275346bef5fa3b85084e8ac9e8c281b3c2f1af96fd100"
+    },
+    {
+      "path": "game/content/audio/generation.json",
+      "bytes": 2532,
+      "sha256": "949b60a73ab898e00dab068930b0ee9401fe6868c6a46169922e423738d56455"
+    },
+    {
+      "path": "game/content/audio/LAB-L-001-0.1.wav",
+      "bytes": 9965790,
+      "sha256": "b0487635de1cf22160b56ac1d66d694cd51c2acbb0c1b028901099404407ba8b"
+    },
+    {
+      "path": "game/content/audio/PZHOT-L-AMENDMENT-0.1.wav",
+      "bytes": 1804492,
+      "sha256": "08717ea3f4a528637cd800c612a0e611ff67887b7c84d074ba271f510319ed00"
+    },
+    {
+      "path": "game/content/audio/PZLOAD-L-SEQUENCE-0.1.wav",
+      "bytes": 1276018,
+      "sha256": "09f2908f9006420cc3d94659fb59049ef7d372a57259ddd0282d5a446522f3f3"
+    },
+    {
+      "path": "game/content/audio/PZMAP-L-DIRECTIONS-0.1.wav",
+      "bytes": 1267432,
+      "sha256": "657a25714de1433aec16a42859a8a2b38ac38f09c0edb22966dde8a6f9f72672"
+    },
+    {
+      "path": "game/content/audio/Q102-L-REVISION-0.1.wav",
+      "bytes": 4642912,
+      "sha256": "ad91f5a793582cc2460c44aee158fbae000c0d3c1cd28a89026b2627b2515eec"
+    },
+    {
+      "path": "game/content/audio/regional/QP02-L-CORRECTION-candidate-1-local-tts-1.wav",
+      "bytes": 1860246,
+      "sha256": "731da25174b60d377a4b057702e22b098cdd51178934392ca9590c49c4ed3a27"
+    },
+    {
+      "path": "game/content/audio/regional/R1-ROOM-L-GUESTS-R1-LIFE-20261010-v2-local-tts-1.wav",
+      "bytes": 2455510,
+      "sha256": "38003671f856df359ed4abf4b1b65214745d6d150acb41a5486e34cf65da9dee"
+    },
+    {
+      "path": "game/content/audio/regional/R1-SHOW-L-CREW-R1-LIFE-20261010-v2-local-tts-1.wav",
+      "bytes": 2406332,
+      "sha256": "2476ca9cbbf1b13e5da1b0dda08f7b1563661db2833f91e62068bbf8718e5699"
+    },
+    {
+      "path": "game/content/audio/regional/R2-Q201-L-RECEIVER-r2-author-candidate-1-local-tts-1.wav",
+      "bytes": 1989898,
+      "sha256": "c585a2c4b829b0b4f64f2e33ffe3553e895a0f44ecccc538138a72f1595b2a70"
+    },
+    {
+      "path": "game/content/audio/regional/R2-Q201-L-SERVER-r2-author-candidate-1-local-tts-1.wav",
+      "bytes": 1887834,
+      "sha256": "7e1dda4eece9aa2359b008c7e57f2a95820e4fe6df3c07c78981000c59cd8eba"
+    },
+    {
+      "path": "game/content/audio/regional/R2-Q202-L-CLERK-r2-author-candidate-1-local-tts-1.wav",
+      "bytes": 4338192,
+      "sha256": "9841820d9f104bc9be391ad66e755d0cc8171e977b43a6d3083274311c27ea10"
+    },
+    {
+      "path": "game/content/audio/regional/R2-Q203-L-OPERATOR-r2-author-candidate-1-local-tts-1.wav",
+      "bytes": 4599418,
+      "sha256": "185b4b1d9747c9871b6e8e113d4b2310159e09b1ff861297d75bb4f46bb28443"
+    },
+    {
+      "path": "game/content/audio/regional/R2-Q204-L-SCOPE-r2-author-candidate-1-local-tts-1.wav",
+      "bytes": 4815008,
+      "sha256": "cb4b31c9e75d0e78df39b2db03335c70c4c4f4465512c1e6d69afab9dda0432d"
+    },
+    {
+      "path": "game/content/audio/regional/R3-CQOREN02-L-REPAIR-r3-author-candidate-1-local-tts-1.wav",
+      "bytes": 2504872,
+      "sha256": "6819b4c26f68a0e383e03042d399c048546f31cf156e3e6f509232bc90dce6cd"
+    },
+    {
+      "path": "game/content/audio/regional/R3-Q301-L-ROUTE-r3-author-candidate-1-local-tts-1.wav",
+      "bytes": 2840872,
+      "sha256": "0eb4f524b0fe39c08966ee5b98a280dca4f4d3484e9f4d1ae5be4ddbf048e7ab"
+    },
+    {
+      "path": "game/content/audio/regional/R3-Q301-L-WORKER-r3-author-candidate-1-local-tts-1.wav",
+      "bytes": 2685436,
+      "sha256": "fc7c3432fd4656a50e385269d1fdae0ed56c2fce055cbc19c1e46ef2379c4fd7"
+    },
+    {
+      "path": "game/content/audio/regional/R3-Q302-L-CHECK-r3-author-candidate-1-local-tts-1.wav",
+      "bytes": 12019614,
+      "sha256": "85b581c47cfb56a4ec8386d531cf2c28ddd43f78a94f2faafe5409190bc13ada"
+    },
+    {
+      "path": "game/content/audio/regional/R3-Q303-L-MEETING-r3-author-candidate-1-local-tts-1.wav",
+      "bytes": 12448576,
+      "sha256": "954edf60e2fece84909eb3996681b625e6776ba71971c614d68b2b0d1accce45"
+    },
+    {
+      "path": "game/content/audio/regional/R3-Q304-L-TRANSFER-r3-author-candidate-1-local-tts-1.wav",
+      "bytes": 2990526,
+      "sha256": "3370cab949bce451062ecfebffc7ac0b3cc1ce1147f26559931a2d1cbf245ea8"
+    },
+    {
+      "path": "game/content/audio/regional/R4-Q401-L-SIAN-r4-author-candidate-1-local-tts-1.wav",
+      "bytes": 2118620,
+      "sha256": "756b9ccf0f303388241c58a0c67c6c081babf5198e48ca6f2de77785b6565c66"
+    },
+    {
+      "path": "game/content/audio/regional/R4-Q402-L-TECHNICIAN-r4-author-candidate-1-local-tts-1.wav",
+      "bytes": 2052720,
+      "sha256": "b60eb1f65c5ddfce6c1fb5dbad1d5301a6013e3a0aa71828d4881f59ec788d68"
+    },
+    {
+      "path": "game/content/audio/regional/R4-Q403-L-OBSERVER-r4-author-candidate-1-local-tts-1.wav",
+      "bytes": 2279358,
+      "sha256": "ec0b71346ac848e1ce6e22e2a039eca17d51d1cc1371968541417025cb6b3e34"
+    },
+    {
+      "path": "game/content/audio/regional/R4-Q404-L-VOSS-r4-author-candidate-1-local-tts-1.wav",
+      "bytes": 2440688,
+      "sha256": "e9041b909caeee5ea280b8913211cc73624e3f193fde57903f1f88d426eef181"
+    },
+    {
+      "path": "game/content/audio/regional/R5-Q501-L-DIRECTIONS-r5-author-candidate-1-local-tts-1.wav",
+      "bytes": 1807588,
+      "sha256": "0d2692b98e95d0420ba3ceee95d52d8615b9c0725d551b336f4b28ec720b9ffc"
+    },
+    {
+      "path": "game/content/audio/regional/R5-Q502-L-RECEPTION-r5-author-candidate-1-local-tts-1.wav",
+      "bytes": 1933464,
+      "sha256": "5857c471e5310c874db560fdc4d08b0615be6aebb4999d1466da44655c2d1faa"
+    },
+    {
+      "path": "game/content/audio/regional/R5-Q503-L-HEARING-r5-author-candidate-1-local-tts-1.wav",
+      "bytes": 12900122,
+      "sha256": "8b4f9cdb84b570f8de77a2974602a297ec7620936a8cb100b9513c679a88cab8"
+    },
+    {
+      "path": "game/content/audio/regional/R5-Q504-L-COUNCIL-r5-author-candidate-1-local-tts-1.wav",
+      "bytes": 13000820,
+      "sha256": "3da32e0dc90530cf649e79affdfd190e55e2f6b7480efe597c73471cf389f2af"
+    },
+    {
+      "path": "game/content/audio/regional/R6-CQTESS-L-NOTICE-r6-author-candidate-1-local-tts-1.wav",
+      "bytes": 907406,
+      "sha256": "4cf6e72452498a6faa1653b5804d7eec4ade15dcfc3d69f9b02afbdebbd9480f"
+    },
+    {
+      "path": "game/content/audio/regional/R6-Q601-L-SURVEY-r6-author-candidate-1-local-tts-1.wav",
+      "bytes": 10908984,
+      "sha256": "963a95bb1699fa361ca40721a80be458afb0d3de2c47d91337d8af0ceb9173c8"
+    },
+    {
+      "path": "game/content/audio/regional/R6-Q602-L-MEETING-r6-author-candidate-1-local-tts-1.wav",
+      "bytes": 11849058,
+      "sha256": "ac324e913699bd92d78fbd98c7a0c4c15aea5c60c0f57c69746304889e6b1020"
+    },
+    {
+      "path": "game/content/audio/regional/R6-Q603-L-ESCORT-r6-author-candidate-1-local-tts-1.wav",
+      "bytes": 1946212,
+      "sha256": "c743c788dbe6372a1248d8856e1439e4216a02965a4b7c6da746ba037234e3b2"
+    },
+    {
+      "path": "game/content/audio/regional/R6-Q603-L-RECEIPT-r6-author-candidate-1-local-tts-1.wav",
+      "bytes": 1379218,
+      "sha256": "5fe9cd1b923b65c9b021d7c8f1fb0b4c273bcc85cfd1b27f5809c98a76e24a94"
+    },
+    {
+      "path": "game/content/audio/regional/R6-Q604-L-HANDOVER-r6-author-candidate-1-local-tts-1.wav",
+      "bytes": 1699284,
+      "sha256": "210384a90cbf3313883d6446b1ffa5e01f0737f8ce14c029d24fbdb0461f22b9"
+    },
+    {
+      "path": "game/content/audio/regional/RF-QF01-L-DUTY-rf-author-candidate-1-local-tts-1.wav",
+      "bytes": 3411296,
+      "sha256": "a862fb3714227de199a690f03649e4f330c20d6510f7443bcecb3ce40638fd30"
+    },
+    {
+      "path": "game/content/audio/regional/RF-QF02-L-ROOK-rf-author-candidate-1-local-tts-1.wav",
+      "bytes": 3448618,
+      "sha256": "8a1167c5dd8cdd30cc6b9d0370b8d751ffcfd501ff378e861beaa667cf5990fa"
+    },
+    {
+      "path": "game/content/audio/regional/RF-QF03-L-OPERATOR-rf-author-candidate-1-local-tts-1.wav",
+      "bytes": 4139580,
+      "sha256": "e78e6553e47ede937d7f4cb8c88c4f3e96cbdc8e099d05f9ab60f8fe4a43e8f5"
+    },
+    {
+      "path": "game/content/audio/regional/RF-QF04-L-DISPATCH-rf-author-candidate-1-local-tts-1.wav",
+      "bytes": 3845670,
+      "sha256": "bc9d876f13bf4e054e51130118276045bb89f8b5d650e0145c1a41eb957d82f6"
+    },
+    {
+      "path": "game/content/audio/regional_generation.json",
+      "bytes": 110574,
+      "sha256": "19e8b78b070bdd2e05e8263873ec15ef3b207bb1cd186efadc906f12729844c8"
+    },
+    {
+      "path": "game/content/audio/regional_runtime_bindings.json",
+      "bytes": 96712,
+      "sha256": "d192653b9146c6b167696bda64a3aba7b9e4b3e0473b655d12e342af3c74be96"
+    },
+    {
+      "path": "game/content/audio/wave_validation.json",
+      "bytes": 898,
+      "sha256": "205808e2cd3c8fd4b0c0b88b293d3954204674ded17d9625a2b5e7012f5ebd2d"
+    },
+    {
+      "path": "game/content/campaign/first_entry.json",
+      "bytes": 39309,
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052"
+    },
+    {
+      "path": "game/content/chapter_five/learner_package.json",
+      "bytes": 137926,
+      "sha256": "8b28847aa98b6cde1881b84404712e9edde05f1a207e16006a83f093f690c7ee"
+    },
+    {
+      "path": "game/content/chapter_four/learner_package.json",
+      "bytes": 130548,
+      "sha256": "a444cde42ad1340f98fb2f243bdbd241a5deb96962e1cc390a9aa846ce3a155e"
+    },
+    {
+      "path": "game/content/chapter_four/optional_credit.json",
+      "bytes": 6140,
+      "sha256": "75ac26868e11aa3514a9fb695aefc3981701674df190f34654e2030bb2726baf"
+    },
+    {
+      "path": "game/content/chapter_four/optional_inquiry.json",
+      "bytes": 5614,
+      "sha256": "377d25c0db6f421bdef0de12bb336f2415f906fd62a69823253a6a6a1321cabe"
+    },
+    {
+      "path": "game/content/chapter_one/chapter_one.json",
+      "bytes": 13945,
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9"
+    },
+    {
+      "path": "game/content/chapter_six/learner_package.json",
+      "bytes": 109055,
+      "sha256": "a6800f6c91d6fd4e98686c90ce6a3ed03765863f00cbe076f83b2e1f913276ed"
+    },
+    {
+      "path": "game/content/chapter_three/learner_package.json",
+      "bytes": 210651,
+      "sha256": "1193b43a9151a74024f31a7e251e792637562762568f6384bb2eebf334e804a8"
+    },
+    {
+      "path": "game/content/chapter_two/learner_package.json",
+      "bytes": 144131,
+      "sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905"
+    },
+    {
+      "path": "game/content/compile_result.json",
+      "bytes": 1098,
+      "sha256": "2842ace77db4ae6c6088c1c4d0232b37ceffe64ff0ed311ee5ae30578bb162a9"
+    },
+    {
+      "path": "game/content/field_relay_contract.json",
+      "bytes": 4082,
+      "sha256": "cb06b027843a15779a24ff9f6219ba3fa380fbbabfa742ea9a8df6aa564309f6"
+    },
+    {
+      "path": "game/content/finale/learner_package.json",
+      "bytes": 92412,
+      "sha256": "c07b8465f973760025c3d14b69f61bb4185dd9cc0676918abbf49d43e1b7eeac"
+    },
+    {
+      "path": "game/content/first_approaches/learner_package.json",
+      "bytes": 12290,
+      "sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03"
+    },
+    {
+      "path": "game/content/lexicon/learner_lexicon.json",
+      "bytes": 5125771,
+      "sha256": "80c5550958e52600fa5782a361fec035ed3a605a151c59affb9b3cb65a5d046a"
+    },
+    {
+      "path": "game/content/manifest.json",
+      "bytes": 24522,
+      "sha256": "44e6f15d1edc510c6f94d6fc8368fe7c427f8557eba44e5244479fba93df593a"
+    },
+    {
+      "path": "game/content/r1_life/learner_package.json",
+      "bytes": 35696,
+      "sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0"
+    },
+    {
+      "path": "game/content/r2_life/learner_contract.json",
+      "bytes": 4755,
+      "sha256": "6e666d58bb2010f91c084aae49bc81a4e796351572d75e1b54a5826d90d15cc7"
+    },
+    {
+      "path": "game/content/runtime_catalog.json",
+      "bytes": 488918,
+      "sha256": "cd4a8960c4ba36a65ffdd991241a942468f3b5dbef2d43bd77f31d7afa948cfe"
+    },
+    {
+      "path": "game/content/vessel/vessel_interior.json",
+      "bytes": 5542,
+      "sha256": "da46456263e354e696992f840dc1cfa78fa2febcbe3fe5cbc2381e972041cfc8"
+    },
+    {
+      "path": "game/content/voyage/r1_r2_voyage.json",
+      "bytes": 2785,
+      "sha256": "353d180a310c16404163538121d656ea3492364553b451a0fa786921ca1e2f8d"
+    },
+    {
+      "path": "game/content/voyage/r2_r3_voyage.json",
+      "bytes": 2129,
+      "sha256": "b685229e4df08741ebe197b3a01d8cfb67ebd25170495c5ba4f39f20c8f2f920"
+    },
+    {
+      "path": "game/content/voyage/r3_r4_voyage.json",
+      "bytes": 2090,
+      "sha256": "4d605963cf9e4daf817d0a0566a312c98925119ffa6e8de6d6f9af31e3792f6b"
+    },
+    {
+      "path": "game/content/voyage/r4_r5_voyage.json",
+      "bytes": 2146,
+      "sha256": "70e73c6272c357aef09f4a3f500c66a2102bd67c6b55a28f1fba8ce05d74d95a"
+    },
+    {
+      "path": "game/content/voyage/r5_r6_voyage.json",
+      "bytes": 2216,
+      "sha256": "bc15c381838ecaa8baa5d9bb78b6dc9c90a3fde91ec2abb54c25c9e76dd02ad3"
+    },
+    {
+      "path": "game/Debug/BattleCandidate.cs",
+      "bytes": 2434,
+      "sha256": "4e89405493d86b53b82f6ac1913e2c4ee59503dc990403c185716bc98fb3735b"
+    },
+    {
+      "path": "game/Debug/FinaleBattleCandidate.cs",
+      "bytes": 6832,
+      "sha256": "f1dbe6eff11a6c04fed951fe0e0ab4c56f1257a7badde469389cb61f4d75c30c"
+    },
+    {
+      "path": "game/Debug/Q102RouteCandidate.cs",
+      "bytes": 8827,
+      "sha256": "d8b80fe8b1de2f110e5b9b8c0cf3786b2356b17b76b1ad92ad3d63d2cd5f6ffe"
+    },
+    {
+      "path": "game/Diagnostics/CampaignClient.FirstApproachTests.cs",
+      "bytes": 9841,
+      "sha256": "5ccbae80805ef4ef1d6d117ad9757f4a7a92c23684d3467958eba726bb49b1f3"
+    },
+    {
+      "path": "game/Diagnostics/CampaignClient.PerformanceCandidate.cs",
+      "bytes": 329,
+      "sha256": "edb691d39296b9dbdd52d081f7fd5d58a42b160dbbc8cf55b0d6370d1f6ca2b4"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterFiveClientTests.cs",
+      "bytes": 17631,
+      "sha256": "2278c7812f6e6977402c9fb4b8ed2ffa633d9b0842bff5f6b9ba214e71a1236e"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterFourClientTests.cs",
+      "bytes": 19134,
+      "sha256": "bd455987feda4c39582538226893b4cebd35e6efef03d26ccf9ac6d566858a78"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterFourLocalClientTests.cs",
+      "bytes": 18747,
+      "sha256": "03fad265295c3b322e8e4f1e8a40ed00ebbb44315427f48e0349f344df1c878d"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterSixClientTests.cs",
+      "bytes": 27035,
+      "sha256": "c97f8fdda2d7e28df0689a1e3ed56a6ee7bbee12f1e22f2e1b5e97ac6c064348"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterThreeClientTests.cs",
+      "bytes": 21644,
+      "sha256": "1f8b423e1c7eb114b3d1a590b8db7994005c6bbbd8f2f82f484af7c74ac28426"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+      "bytes": 19071,
+      "sha256": "7147698b25977b4fbb103568d34a24cfe087aac141846c559ee55fd42fe0f449"
+    },
+    {
+      "path": "game/Diagnostics/Root.FieldRelayClientTests.cs",
+      "bytes": 9598,
+      "sha256": "43a7aea6977a2419d356d03e5715e47ca2b7ee6ce192e0fdac0a3c4b89e307f1"
+    },
+    {
+      "path": "game/Diagnostics/Root.FinaleClientTests.cs",
+      "bytes": 18800,
+      "sha256": "cf482bd204dfcdacbc11a685ce7f542d648352f7990543d3f8ec5b561d5247b9"
+    },
+    {
+      "path": "game/Diagnostics/Root.FirstApproachClientTests.cs",
+      "bytes": 11248,
+      "sha256": "b1450cda91a44fb2ca84f35c8adc3ac2ab5d4045009298e86f8c1efc61064eef"
+    },
+    {
+      "path": "game/Diagnostics/Root.LinaPersonalWorkClientTests.cs",
+      "bytes": 7006,
+      "sha256": "e5b74c201ce81868b16a831c96de738b577c0aaa112a2c99a60fbb92007b4ef1"
+    },
+    {
+      "path": "game/Diagnostics/Root.MusicBoxClientTests.cs",
+      "bytes": 11477,
+      "sha256": "6db4609c2a6094008824905605e9e9b6ced0b05d3a136edac297c3d2f94c199b"
+    },
+    {
+      "path": "game/Diagnostics/Root.OptionalEncounterClientTests.cs",
+      "bytes": 11618,
+      "sha256": "046020a2629b0d76de1379ce400e26e988a63814ba01cdc0be429ec419bd5753"
+    },
+    {
+      "path": "game/Diagnostics/Root.PerformanceCandidate.cs",
+      "bytes": 5107,
+      "sha256": "8ed5f30c350262d3a9152cd0995684e2c7d408b78bb65ca66f25fbf97155249c"
+    },
+    {
+      "path": "game/Diagnostics/Root.R1LifeClientTests.cs",
+      "bytes": 11592,
+      "sha256": "f798c0052ac98b8cfcb0f11de862b5ed10c361e4dd44719b7ded1514c3deb4fe"
+    },
+    {
+      "path": "game/Diagnostics/Root.R2LifeClientTests.cs",
+      "bytes": 10860,
+      "sha256": "7d4a0a1e1de6fd5405eb17b8c0ffcb885c93226a18cb02b1c004283d7c2bf626"
+    },
+    {
+      "path": "game/Diagnostics/Root.R3ShiftWorkClientTests.cs",
+      "bytes": 6503,
+      "sha256": "8a15d364208db6b1db70956cb9807f4ca65477e61db4198df01e7cc52d3127dc"
+    },
+    {
+      "path": "game/Diagnostics/Root.RegionalLearningClientTests.cs",
+      "bytes": 3300,
+      "sha256": "7e6523bb9389a087b471fc12a64b6e24198b1a52a3ac7bf4887437e9ff23f80c"
+    },
+    {
+      "path": "game/Diagnostics/Root.SettlementSupportClientTests.cs",
+      "bytes": 11693,
+      "sha256": "38934edf7ce64d4d4912e417b418f8d949284541afc9d80181b1aca6e9b4aa64"
+    },
+    {
+      "path": "game/Diagnostics/Root.VesselLifeClientTests.cs",
+      "bytes": 4659,
+      "sha256": "c127ddcdf64d39fb283ad4ec531f13a189c8c535d5aa0ba27dfc70df5d587d32"
+    },
+    {
+      "path": "game/export_presets.cfg",
+      "bytes": 768,
+      "sha256": "460268d6a3c285bb54652d254c320f76a4f62d3d842481a6a84ceaa436d51354"
+    },
+    {
+      "path": "game/MistSea.csproj",
+      "bytes": 682,
+      "sha256": "79596045ee7dc95a416b7ea2558cf89c3ccfd09dde3cb143b1df8fa09389256b"
+    },
+    {
+      "path": "game/packages.lock.json",
+      "bytes": 3170,
+      "sha256": "a7fac719c929b85f8c14b46e4a3ee387e4dbfa4710132cb3ed7388078a56f123"
+    },
+    {
+      "path": "game/project.godot",
+      "bytes": 551,
+      "sha256": "6af2412a468089d07473d51dbce736b35b56cac07d54bdbbaeffd920857256c2"
+    },
+    {
+      "path": "game/Root.cs",
+      "bytes": 36882,
+      "sha256": "d1eaa868f5a35615f4357fd0d280ea2abe60ba0f5d1df0ff49b4d144005335f3"
+    },
+    {
+      "path": "game/UI/Audio/MistAudioChannels.cs",
+      "bytes": 3165,
+      "sha256": "bb5f2fdf381cdc865e89eb312ef02c64dc8e29b13836fa4b48e3be21a143d7a7"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.Audio.cs",
+      "bytes": 11416,
+      "sha256": "4b606519022442a4375708c3a3fd1e27fd97dee5ffb750b7cdbd59417cbc5341"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.cs",
+      "bytes": 34164,
+      "sha256": "734e26c44689f13307ac7a609c63f330942bd8f3f78c91eb443a4b24a3673526"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.FirstApproaches.cs",
+      "bytes": 10578,
+      "sha256": "8467c8f01f172c6dc5610134ffd10e7a17f8ebc8d6666dc62016091b12e0dfe6"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.Preferences.cs",
+      "bytes": 1088,
+      "sha256": "e25fc7250c0e6bca9f1da5511238cba13bb97e073a787c64c6ba54c916198a7d"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.RegionalLearning.cs",
+      "bytes": 11765,
+      "sha256": "f1cc61e5fb4b218778ccc5667a05af6d0e9eb1240981666b18fa3ec93f0f84d0"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.ReleaseProbe.cs",
+      "bytes": 4703,
+      "sha256": "7fe48b262623fa642ac94167f4a1cdbc524d017a1dc429201739607e08c50cf1"
+    },
+    {
+      "path": "game/UI/Shell/Root.AudioState.cs",
+      "bytes": 1198,
+      "sha256": "bd3b2dd886c2ddc6680aeaac9999a5130f84a7a9f41264da824f23885296c148"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFive.cs",
+      "bytes": 34552,
+      "sha256": "dbf5915b9ead8b0228fac5ac0c8e6d3c2bea065657f06798ef5db5f08bbd8a3e"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFour.cs",
+      "bytes": 39243,
+      "sha256": "2f6b00190bc770b2783b9fe19a889ad49f8f801d5a13b3451e2df6bd83e1201b"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFourCredit.cs",
+      "bytes": 14307,
+      "sha256": "80774fc2ce34938538fc145699c7e1fffb2251d8ad36e81d1dd4dea6c91d2a1b"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterFourStudy.cs",
+      "bytes": 14550,
+      "sha256": "8385ed256441b0e725385f31aaa2f2d63a3401c8cfb3a9710bf305f422af25f2"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterOne.cs",
+      "bytes": 15613,
+      "sha256": "bcfa1255d92d22fe6bcbb322d38aff2b34d32296928966e993d9dae5c3e5622c"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterSix.cs",
+      "bytes": 51266,
+      "sha256": "c9285b754902c3b594a6b9fab3e4f525a3d93fdd69249991a1e005277bad8d07"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterThree.cs",
+      "bytes": 38856,
+      "sha256": "6c433dc986c0bebfa24173ab4b14f2b960a45b1d7fd2040206676959cd37935d"
+    },
+    {
+      "path": "game/UI/Shell/Root.ChapterTwo.cs",
+      "bytes": 34236,
+      "sha256": "0b3855a421bae150b8020defe6e6be7339ac8d8b444ff198349bb1b903fc8db2"
+    },
+    {
+      "path": "game/UI/Shell/Root.ClientTests.cs",
+      "bytes": 7405,
+      "sha256": "604bff0115654212ba2179c4ff0da56cf532d0a2a50c154f6252679bc5ffe7fd"
+    },
+    {
+      "path": "game/UI/Shell/Root.Combat.cs",
+      "bytes": 16375,
+      "sha256": "18813022e407a7e2e16560108fd543fe2ef0d5e8c758e12276f96559b564c4f4"
+    },
+    {
+      "path": "game/UI/Shell/Root.EncounterRoute.cs",
+      "bytes": 7193,
+      "sha256": "96c8fd8e7ac1b39148557848155d3e091702702bc8f2e88c69c160dcafae7cf2"
+    },
+    {
+      "path": "game/UI/Shell/Root.FieldRelayRepair.cs",
+      "bytes": 7344,
+      "sha256": "b3071a75b0e56e56291f1af2047fb575d58a0619f6861b8fcebeac57cab41660"
+    },
+    {
+      "path": "game/UI/Shell/Root.Finale.cs",
+      "bytes": 23998,
+      "sha256": "6b17066f0846db6995fdcca777421c192ffe9e15c9f568e5eda876dc1eb8516a"
+    },
+    {
+      "path": "game/UI/Shell/Root.FirstApproaches.cs",
+      "bytes": 6938,
+      "sha256": "f0680eba8f91f0873a1b0b3c545be01b20adf83fb1ebc987a86e6fdb9dfde131"
+    },
+    {
+      "path": "game/UI/Shell/Root.LinaPersonalWork.cs",
+      "bytes": 14679,
+      "sha256": "6cab8f38f71cdd93edb1a7d547bba8493a0e9dd4567e833e2d35b1d9bdb2eb4d"
+    },
+    {
+      "path": "game/UI/Shell/Root.OptionalEncounterContracts.cs",
+      "bytes": 9604,
+      "sha256": "2bb27d2131e3f803c895b5d2e9839b6e3d441cf2289e275a612bd3d3ec15b682"
+    },
+    {
+      "path": "game/UI/Shell/Root.OptionalLocalWorks.cs",
+      "bytes": 14649,
+      "sha256": "10a4e8c85ae2c927a9d850c0ea85ede00bbb254f5f19c291558ff873486b432f"
+    },
+    {
+      "path": "game/UI/Shell/Root.Party.cs",
+      "bytes": 10122,
+      "sha256": "891f25abc0aa62d36ab083349e789add35594fb0affa700a6b3505c86562605b"
+    },
+    {
+      "path": "game/UI/Shell/Root.PeopleWork.cs",
+      "bytes": 7913,
+      "sha256": "3847a606fa6cf31179599e035a33a3657429e37ce7c7aa25f1e8e66dc13f16e7"
+    },
+    {
+      "path": "game/UI/Shell/Root.PuzzleWork.cs",
+      "bytes": 6829,
+      "sha256": "21e0e59a3bae0d819ea9d9274e0e0db402e531a3a3e5f3bba1a3b2edd3da879d"
+    },
+    {
+      "path": "game/UI/Shell/Root.R1Life.cs",
+      "bytes": 16351,
+      "sha256": "8112f091bbe1142d03420482acc11b82fbafb89650d879305e9fced48c35a64f"
+    },
+    {
+      "path": "game/UI/Shell/Root.R2Life.cs",
+      "bytes": 20081,
+      "sha256": "b9fe4d806d50971b1db5b80f65d376ffbb5c4ea3ee78a6af9e46ffd948b93993"
+    },
+    {
+      "path": "game/UI/Shell/Root.R3ShiftWork.cs",
+      "bytes": 12904,
+      "sha256": "c984e012f8333f84fabdb7f2f55a81beb4c24001dbcf446cc855c1781ccd8c6e"
+    },
+    {
+      "path": "game/UI/Shell/Root.RegionalAudio.cs",
+      "bytes": 7457,
+      "sha256": "0922602bbfcaeacff4a80f2647ed489a5700a4c8553a48886f54f3a33964708d"
+    },
+    {
+      "path": "game/UI/Shell/Root.RegionalLearning.cs",
+      "bytes": 13647,
+      "sha256": "883692652068672a043310d523655cbd7756434a3b3731af703335cf766ae3ef"
+    },
+    {
+      "path": "game/UI/Shell/Root.RegionalTravel.cs",
+      "bytes": 11583,
+      "sha256": "8a2273533e9d4416331ce4334ff698526202d78f8f4a42108182fa98ed447cb9"
+    },
+    {
+      "path": "game/UI/Shell/Root.SettlementSupport.cs",
+      "bytes": 19185,
+      "sha256": "60b21f3200e4909ae31fe698b4e2a90980825731a4011210836d0121b66bf7db"
+    },
+    {
+      "path": "game/UI/Shell/Root.SideWellObservation.cs",
+      "bytes": 12249,
+      "sha256": "05d415108cb0ba75b9e1815283f3d4d59335c05bbdaf043321c90b050be07917"
+    },
+    {
+      "path": "game/UI/Shell/Root.TessLocalReceiptBridge.cs",
+      "bytes": 2716,
+      "sha256": "75f8e08ea84dfab6d989ae1e18ef8bebdaf16267a103655a6236306839feed52"
+    },
+    {
+      "path": "game/UI/Shell/Root.Vessel.cs",
+      "bytes": 10912,
+      "sha256": "2f8377968789811d605a7893b87e4bdab7b0e94cd859125209275f75f05c7ebe"
+    },
+    {
+      "path": "game/UI/Shell/Root.VesselClientTests.cs",
+      "bytes": 5816,
+      "sha256": "bdd2215f5bdc3c0d8ec61f6ab42f3dd27e7a6491a42b4a27b016ef85206b981d"
+    },
+    {
+      "path": "game/UI/Shell/Root.VesselLife.cs",
+      "bytes": 6415,
+      "sha256": "2cfc4b15c1e4da89240c1d12fc1cc4ec7143ce99a737585c50835e2d0e3d4b41"
+    },
+    {
+      "path": "game/UI/Shell/Root.Views.cs",
+      "bytes": 42485,
+      "sha256": "c8e29c31f6e63eadd4dc3ce30d46248de7c07078269bbe8b3bf9d48f5d5e224c"
+    },
+    {
+      "path": "game/World/Movement/WorldCanvas.cs",
+      "bytes": 7441,
+      "sha256": "2684a12c2f13f737c8d08d38d5282968628e8182f3a73990159b6c67dc57ea06"
+    },
+    {
+      "path": "global.json",
+      "bytes": 105,
+      "sha256": "4e7d5022b2a5a8d02bb951bb264a4c8613eabc332572a0af5f9743d23f23d84e"
+    },
+    {
+      "path": "MistSea.sln",
+      "bytes": 11018,
+      "sha256": "38690e4da8d6881c32ebc9aa4c421d763c02453537211cd3ff82ed5d491e4007"
+    },
+    {
+      "path": "schemas/sql/001_control.sql",
+      "bytes": 1032,
+      "sha256": "d5e2fd89794a45e3bfdb4767e60deaa0b6c237fb772a0317bcda15e8415289ea"
+    },
+    {
+      "path": "schemas/sql/001_profile.sql",
+      "bytes": 4788,
+      "sha256": "686a4fcc0fd2d06d08fc393d12f8c232f36b7c5cc4d6fa6a941618808e65fa95"
+    },
+    {
+      "path": "schemas/sql/002_inventory.sql",
+      "bytes": 628,
+      "sha256": "8318e687d95eac3f2f91002bca17001357b0dc1d9ee373b621f69171a56f55e1"
+    },
+    {
+      "path": "services/Mist.Assist/DisabledPurposeEndpoints.cs",
+      "bytes": 620,
+      "sha256": "3d577b055dcb4e130a39cecc06339ef9636311b72889fd3fc6be4c84bffac562"
+    },
+    {
+      "path": "services/Mist.Assist/Mist.Assist.csproj",
+      "bytes": 40,
+      "sha256": "dbdb759cdaf67976aa60557a0e081e0f2ffb5ae2d6f151c927267652ccde07ae"
+    },
+    {
+      "path": "services/Mist.Assist/packages.lock.json",
+      "bytes": 66,
+      "sha256": "2241481b7e74dcdcd600303146b730ecc12cbd8e49aa55755ef95ee499fe229a"
+    },
+    {
+      "path": "services/Mist.Assist/Program.cs",
+      "bytes": 347,
+      "sha256": "1bc5d840b6312f2ac5f0e47cd9a9b9561d844f1b7eec0fb254188429ab82abd6"
+    },
+    {
+      "path": "src/Mist.Application/Assets/AssetPreparationService.cs",
+      "bytes": 9329,
+      "sha256": "de59f1b0c27fc5b3af91d5665ec0200d1c7b6237f371bfc7a61e138f2896d247"
+    },
+    {
+      "path": "src/Mist.Application/Assist/RestrictedAssistanceGateway.cs",
+      "bytes": 14665,
+      "sha256": "b67ba8a577172c522c04516492b62bbd79ff2c445c8b9cc3e7dcfeabd4e082de"
+    },
+    {
+      "path": "src/Mist.Application/Assist/RestrictedDisabledProvider.cs",
+      "bytes": 1230,
+      "sha256": "a76a9a6e3ae8aab96c41cb989e000d3f59862b4e87798a2bfbbd371d8b4a7cc2"
+    },
+    {
+      "path": "src/Mist.Application/Assist/RestrictedGatewayContracts.cs",
+      "bytes": 2737,
+      "sha256": "bad28b9dbdc33504aa5030e8496bf273c97edf644911d49f858cda275364a8e2"
+    },
+    {
+      "path": "src/Mist.Application/Assistance/DisabledProvider.cs",
+      "bytes": 438,
+      "sha256": "79698d2f9452eb34da235a8dbd9d4e6039b6ffb491ba7dd61727640925ff89fe"
+    },
+    {
+      "path": "src/Mist.Application/BuildIdentity.cs",
+      "bytes": 169,
+      "sha256": "f1c1baf895ff5b32ecf20040f7e89ff341a9889ff2625a383568d1e571aa0160"
+    },
+    {
+      "path": "src/Mist.Application/Campaign/CampaignService.cs",
+      "bytes": 39740,
+      "sha256": "51e4a7cb9535dd09c96f369871b4bbaa1f9bc9927a6e0187b7fc519446823416"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.cs",
+      "bytes": 21699,
+      "sha256": "53c137d9d31d994a029e0aa749e5977ca48ed584fa2ec5652bc1c4b8d6bc8c85"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Encounters.cs",
+      "bytes": 10739,
+      "sha256": "fedb56219229b3b62ea9792c447b16afffdc50cf3dc428c9fa4f00acaf5b74cf"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Personal.cs",
+      "bytes": 9021,
+      "sha256": "db8433c3a2d8138477404b7641f711a3da0a9dff40941bbb8568271cd88fa7bf"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Stations.cs",
+      "bytes": 20761,
+      "sha256": "fb91735459118a17c5c8047297114fad40ec89c6f162135f15f02c8dbc4c9485"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Submissions.cs",
+      "bytes": 13204,
+      "sha256": "ae34372bb40da14b54ccada1b72b76a8a09e30e3545608d94c3b396a08d18e32"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.cs",
+      "bytes": 21939,
+      "sha256": "6f4b54bf20ef237485c74b6266c70f1d932c61d227ad6207755cdc9cfff8f45c"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Encounters.cs",
+      "bytes": 9175,
+      "sha256": "76d7fc0b993ceccd506fc43015c1c54011f21317d399aa434c69a4ba4e402cab"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Experiments.cs",
+      "bytes": 7456,
+      "sha256": "8d927f9300618277062284cc0f1d5d91529ea4358abf1c06ed7865f4d48648ed"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Stations.cs",
+      "bytes": 20568,
+      "sha256": "99f0c10e50d00af5acfb7e04dacb4ef1fe485e11410d2820d0472e1a83d1a8a5"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ChapterFourService.Submissions.cs",
+      "bytes": 12513,
+      "sha256": "b440f5a1fd3e2b6cf4fab60938546f0c3feba9abc71e35a58e26e5dff75052a3"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ExhibitionCreditService.cs",
+      "bytes": 15707,
+      "sha256": "4184c1f6af65470aab7ad496c31e0a271584eff596b456732e21267570c742f9"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/ExhibitionCreditService.Previews.cs",
+      "bytes": 5323,
+      "sha256": "c24c946e23887fd447604461784a8a739c185de2564d2cad99f8341de08b6203"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/StudyInquiryService.cs",
+      "bytes": 15902,
+      "sha256": "9e6a3be2289ba9d626d1baea7935c66d9dbc07cbfa24f8dffdd113a2b895ee82"
+    },
+    {
+      "path": "src/Mist.Application/ChapterFour/StudyInquiryService.Previews.cs",
+      "bytes": 7919,
+      "sha256": "2e1f95925b351dbadecdd73ee82324fedcb4f07bc1ba64f7075bf15b61bb927a"
+    },
+    {
+      "path": "src/Mist.Application/ChapterOne/ChapterOneService.cs",
+      "bytes": 13983,
+      "sha256": "9a6daf0f5b4d66b5c1d58f1ba41b926102187a3c5f1dfda5b78ead9e5430d5e8"
+    },
+    {
+      "path": "src/Mist.Application/ChapterOne/ChapterOneService.Tidegate.cs",
+      "bytes": 14871,
+      "sha256": "107b90b332d1c24cce5c871b24297ea3fdd30acc1056f89af1a8d9515b742089"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.cs",
+      "bytes": 24361,
+      "sha256": "bab66ac0b609ffdd4cfea4fb8870060cfb18ebac7125340f817eca79667d85a1"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs",
+      "bytes": 10263,
+      "sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Engineering.cs",
+      "bytes": 24084,
+      "sha256": "a73117feb6c6cb6dd52553f2f8c730ba79b11a15e787b2ffbeba9bbb081f688a"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Stations.cs",
+      "bytes": 15430,
+      "sha256": "3650d174661cfcf9be1529ee27ad21fc39fc7b1f90f572a71aaedfdd4f8dbefa"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Submissions.cs",
+      "bytes": 10296,
+      "sha256": "21c37a6dac3c4cdfaec9b8651968e061fdcafd25b5a4e3bfb80665e3783dc7eb"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/ChapterSixService.Tess.cs",
+      "bytes": 6338,
+      "sha256": "12ef41961e7fb46ff9a92cc765b1a32ee0c72ee97967ee65bb78639f70b8a119"
+    },
+    {
+      "path": "src/Mist.Application/ChapterSix/FinaleLaunchService.cs",
+      "bytes": 12954,
+      "sha256": "8364a159b8c101750304060998f96c72eb46d2928b4458a497e3aa9db9f0a8da"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Auxiliary.cs",
+      "bytes": 9405,
+      "sha256": "fdabe1fca3e49c2a251cf4de4b96b848e838aee691ccf29138072670a334f71d"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.cs",
+      "bytes": 24068,
+      "sha256": "302ea283a1bfb1a53b20ab082434fde548297b7c7f1b18259747ed7e3bac7620"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs",
+      "bytes": 12493,
+      "sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Stations.cs",
+      "bytes": 20481,
+      "sha256": "ba0bcd5b6a84967bc66e50c68d1819bea95f7e2f9606787272cbd641d13653b7"
+    },
+    {
+      "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Submissions.cs",
+      "bytes": 14073,
+      "sha256": "a8bbf768b72fe45d727174fecba632539658d0a0dda0c20b9bf1e9a6e5388dc5"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.cs",
+      "bytes": 22393,
+      "sha256": "7b9f05c5427d5161508039aa988fbc3383019e055d99a3350f1e9e6761ea694f"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Encounters.cs",
+      "bytes": 12019,
+      "sha256": "33a6a5d90e719f387fc336559166f16ef257691c4e1373f96f7412074aba6ea5"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Stations.cs",
+      "bytes": 15299,
+      "sha256": "2463bbca25069ff75783c46f52ed7bd2a6562496cf22ff7967af33ed8b8df3ce"
+    },
+    {
+      "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Submissions.cs",
+      "bytes": 14226,
+      "sha256": "a2cc5a7fd59175380605c070ac8a88e24508a6b704d6fab24f8071d7cc243cfb"
+    },
+    {
+      "path": "src/Mist.Application/CombatSessions/EncounterService.cs",
+      "bytes": 10554,
+      "sha256": "77f61eec9729f657371a995edc9b7cd0c7eb2277aa11e803cb3b784bc845f207"
+    },
+    {
+      "path": "src/Mist.Application/Commands/BranchOperations.cs",
+      "bytes": 2507,
+      "sha256": "5adcfc535d64b093ecd66c5b60a1b1c3e79e93d556bc007d0fa95a52ee9b2720"
+    },
+    {
+      "path": "src/Mist.Application/Commands/Preview.cs",
+      "bytes": 1860,
+      "sha256": "a9c56523e44a6ee387c34713c7215cba9fcf004c2672c63eedaa0464833802fd"
+    },
+    {
+      "path": "src/Mist.Application/CompanionArcs/CompanionArcService.cs",
+      "bytes": 14251,
+      "sha256": "23c613aec33e8b276dd8435ea1aeb96ffabb4af63ec06929360a02299cce40ff"
+    },
+    {
+      "path": "src/Mist.Application/Contracts/Commands.cs",
+      "bytes": 2344,
+      "sha256": "2d8817ff9923d9ea10d1e214411fc0a856e2edb78c0c852d052d03d9f9eaffc3"
+    },
+    {
+      "path": "src/Mist.Application/Disclosure/DisclosureService.cs",
+      "bytes": 6255,
+      "sha256": "757ea970bbc27e668aa9db73d150921fdcaae6ef9d4d60e4a13ecdc1a6ded301"
+    },
+    {
+      "path": "src/Mist.Application/Drafts/DraftEditor.cs",
+      "bytes": 1518,
+      "sha256": "91204e59338f4dc8bff81ec19348d986df38ffa1b9e3cc2a21d713ef9b025089"
+    },
+    {
+      "path": "src/Mist.Application/EncounterRetry/RetryBoundary.cs",
+      "bytes": 1138,
+      "sha256": "2f4aa778e81a78e3719599e95c404df8472a851a928477ded400f15ddc5d36a5"
+    },
+    {
+      "path": "src/Mist.Application/EncounterRetry/RetryPlanFactory.cs",
+      "bytes": 1617,
+      "sha256": "6714d097b910502b24a039327e2608cef21ad86e69c63df8a49258be27a0c4d2"
+    },
+    {
+      "path": "src/Mist.Application/EventScheduler/EventScheduler.cs",
+      "bytes": 5639,
+      "sha256": "148a92ca19502da3e56d1488314b432a555073076e070635026d656550e2187e"
+    },
+    {
+      "path": "src/Mist.Application/Factions/FactionService.cs",
+      "bytes": 6883,
+      "sha256": "12e42139d0d710c283ab824fad8c57df4e5bf1d1de77859e878cabb9b9ae4548"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.cs",
+      "bytes": 19859,
+      "sha256": "3d3cfb6174bc3b05e74ee07bb88ecc4083b9f4a3ac2d8d96a71f48dc6fa2516a"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Encounters.cs",
+      "bytes": 9685,
+      "sha256": "e1e479f8683eae12a5b6227db2702aa1727af7df2026ef594969bb2d26487ed5"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Epilogue.cs",
+      "bytes": 10103,
+      "sha256": "9d83d648dcf47b5896e339bca4c23b6704b644be801a8972e92ece82cef123c7"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.EpilogueFragments.cs",
+      "bytes": 9981,
+      "sha256": "5b8d5878a83ab4bc4882ab6a5e9cb44ae8d03f4968dd2557013eb958157e911e"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Stations.cs",
+      "bytes": 12014,
+      "sha256": "4b5c9889ec4454b7fa848edf1c5cfc66ece51a01ef962dfb3286c3b8660ecd95"
+    },
+    {
+      "path": "src/Mist.Application/Finale/FinaleService.Submissions.cs",
+      "bytes": 8409,
+      "sha256": "6a69e11054e20386ee7642945b4f887765b5e88d9adfd5eb7d1f08704cdb6304"
+    },
+    {
+      "path": "src/Mist.Application/FirstApproaches/FirstApproachService.cs",
+      "bytes": 19007,
+      "sha256": "895b635ff1841b323ffce73057abd05def6dc4fa3142ac8a3b581e3cf90f0904"
+    },
+    {
+      "path": "src/Mist.Application/Inventory/PartyService.cs",
+      "bytes": 19504,
+      "sha256": "66573eb4087c2863490022da3ced3c45834c2427e3ebb1c7ff5f51c9b5c30293"
+    },
+    {
+      "path": "src/Mist.Application/Knowledge/KnowledgeService.cs",
+      "bytes": 2381,
+      "sha256": "65ae94106815ff47c0d2debff0b394ad3d99597417c062b584cf5b520455a296"
+    },
+    {
+      "path": "src/Mist.Application/Learning/LocalWritingFeedback.cs",
+      "bytes": 1475,
+      "sha256": "1fb99bbf63557f38618af6bb2e91e4fee8165b6df8047582dfdf453ee3f659f6"
+    },
+    {
+      "path": "src/Mist.Application/Learning/RegionalLearningService.cs",
+      "bytes": 7818,
+      "sha256": "7a5cf17a376c979bc09945540936badd1dc567adeafcb64138c86d7c0ccc4315"
+    },
+    {
+      "path": "src/Mist.Application/LinaPersonalWorks/LinaPersonalWorkService.cs",
+      "bytes": 21966,
+      "sha256": "64ba067c3646a2e62c77f1d5463f3f0c892edf2c471b5e28844c5b4ea60e5f38"
+    },
+    {
+      "path": "src/Mist.Application/Materials/MaterialJournal.cs",
+      "bytes": 1730,
+      "sha256": "70189122c90ad1dd976d1ff2f2cd286c9d26615a309f4df19ca739e5152bfb56"
+    },
+    {
+      "path": "src/Mist.Application/Mist.Application.csproj",
+      "bytes": 131,
+      "sha256": "330a351332e72d8933d8c9515204efdbca8c73630368bf305ae0d2eccfc1c43d"
+    },
+    {
+      "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+      "bytes": 22527,
+      "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/FieldRelayRepairService.cs",
+      "bytes": 18117,
+      "sha256": "3002400dcb792192307c5027cdff8cb254b70cb6854bb899a5b372cb4bf1fe08"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/FieldRelayRepairService.Encounters.cs",
+      "bytes": 8099,
+      "sha256": "ef6f03da03b1e5155a7ae8822064a3d30e2225ae129ce00861d5cec18eed9c8f"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/MusicBoxRepairService.cs",
+      "bytes": 17107,
+      "sha256": "58d3b8f9c9119606a144b007cfc786fd6dce32d95905708e4f9db694b582ce41"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/MusicBoxRepairService.Note.cs",
+      "bytes": 5809,
+      "sha256": "2004ad3d3557a1ad8c582dd5116530cd58a62dc93d4682c8a4aabfe531b23518"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.cs",
+      "bytes": 18703,
+      "sha256": "3d5da51c80cae675e0e2c0fcaaf5e3bb5683be830a1e6049e4244da04d670747"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.Lamp.cs",
+      "bytes": 10003,
+      "sha256": "372d208d24fe530200e3145a642da6c8dfc06b428ccb30e42895af37c01c6573"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.Press.cs",
+      "bytes": 7667,
+      "sha256": "f22c80d81d6d6516cdbf40d72336097f617d553a26e5f2204c58b18f1ab53838"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/SideWellObservationService.cs",
+      "bytes": 18678,
+      "sha256": "55e9f1013f06569d59cdb971b10851995eb235de74f8d79bac11ef9aa7b6b0d6"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/TessLocalReceiptBridge.cs",
+      "bytes": 19696,
+      "sha256": "69aea8b5fa5d187e898c4a29acbf7d3e27984d72aa5f669d36e87afa00a45a1b"
+    },
+    {
+      "path": "src/Mist.Application/packages.lock.json",
+      "bytes": 130,
+      "sha256": "1e5d945b0653dc49f6b021eba12df12ba4287e290a10c87b83459ef0cca988af"
+    },
+    {
+      "path": "src/Mist.Application/Q102/Q102Service.cs",
+      "bytes": 19763,
+      "sha256": "767745de7b1eea6a60e3efe169a024efbfb2cc7549bba7b1c7b79dbf14635c44"
+    },
+    {
+      "path": "src/Mist.Application/R1Life/R1LifeService.cs",
+      "bytes": 27515,
+      "sha256": "c083756c095e72f89049c258a09b640ac5ced6990c0f74ca6440a1f4465569ea"
+    },
+    {
+      "path": "src/Mist.Application/R2Life/R2LifeService.cs",
+      "bytes": 25517,
+      "sha256": "37c689e8fc2ba33d7d94b98769f9d7a45a3258895694047d0ba46f7bb1f5a02f"
+    },
+    {
+      "path": "src/Mist.Application/R3ShiftWork/R3ShiftWorkService.cs",
+      "bytes": 21127,
+      "sha256": "e163910bc3204e360d722b5ca9972322f6593b9e9abd4a7ddc4f10260b10a805"
+    },
+    {
+      "path": "src/Mist.Application/Relationships/RelationshipService.cs",
+      "bytes": 1650,
+      "sha256": "7a037650d3f28864c1f3ee2b703fa2c82fc29fe417dd484d2e3f735434079873"
+    },
+    {
+      "path": "src/Mist.Application/ReleaseReadiness/FinalReadinessService.cs",
+      "bytes": 17841,
+      "sha256": "d468d0b314b4d7b9926d961dc954bdb5866c80e628a1647ce8cb7e2e0ec9914f"
+    },
+    {
+      "path": "src/Mist.Application/ReleaseReadiness/ReleaseEvidenceInspection.cs",
+      "bytes": 2720,
+      "sha256": "1928ec7924f7200369e49a8d4a04ea476ef1b9400152e067d90a3bf2be943a3a"
+    },
+    {
+      "path": "src/Mist.Application/ReleaseReadiness/WorldPreparationProjection.cs",
+      "bytes": 13812,
+      "sha256": "7b4c39ff53abacf4cd7e0439f696f34f393f79951f189b93141c47701609ba26"
+    },
+    {
+      "path": "src/Mist.Application/ReviewCalibration/OfflineAssessmentInventory.cs",
+      "bytes": 6010,
+      "sha256": "c4065725a1c0d095694702267b3f2b769df67cdfb395ec84a2d28fc6bf102c90"
+    },
+    {
+      "path": "src/Mist.Application/ReviewCalibration/ReadOnlyObservationExport.cs",
+      "bytes": 1228,
+      "sha256": "71c0aae733e7ba3892c94e1de71851f0a250e0990c726bd987dbe62e12a4e2bf"
+    },
+    {
+      "path": "src/Mist.Application/ReviewCalibration/ReadOnlyReviewService.cs",
+      "bytes": 4131,
+      "sha256": "b1d28f952c0eaf81a83a891f722587a5d520d290e15f0581953d5483c0d3e6db"
+    },
+    {
+      "path": "src/Mist.Application/Roster/RosterService.cs",
+      "bytes": 8334,
+      "sha256": "feb6f6e7940cb85fc939e34b7f891eceed37772de0e32936d85fb7dde2f7cbd5"
+    },
+    {
+      "path": "src/Mist.Application/Storage/IAdventureRepository.cs",
+      "bytes": 369,
+      "sha256": "18bbdefe0fbcb4ad443a85c1781b98999e8cd95d52db53ebf8c0f8763184e7fb"
+    },
+    {
+      "path": "src/Mist.Application/Storage/Models.cs",
+      "bytes": 2718,
+      "sha256": "10b9b19c68597154674f571d51cfb0872aee3082643d0fe4642a0940480ca210"
+    },
+    {
+      "path": "src/Mist.Application/Travel/TravelService.cs",
+      "bytes": 19372,
+      "sha256": "3c41d1ce36adec157978cf68ef486ac645015b5810bc77d1f359cc86f5bb771f"
+    },
+    {
+      "path": "src/Mist.Application/Travel/TravelService.Vessel.cs",
+      "bytes": 10144,
+      "sha256": "ec62d2d2c5fab556d7106a2036210ab3c12e9497128e135272f67f22dae6817f"
+    },
+    {
+      "path": "src/Mist.Application/UI/InputRouting.cs",
+      "bytes": 1131,
+      "sha256": "68bd2a1f68e48cdfe4f9fa86c0e40038e0b91f0178e154be6127066ce1920d84"
+    },
+    {
+      "path": "src/Mist.Application/VesselInterior/VesselInteriorService.cs",
+      "bytes": 19480,
+      "sha256": "df563d18dbde83c9532b6cb459c873ba9d78c8787d7ca92560c26f64e1779ed9"
+    },
+    {
+      "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+      "bytes": 17544,
+      "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+    },
+    {
+      "path": "src/Mist.Application/Voyage/RegionalVoyageService.cs",
+      "bytes": 18578,
+      "sha256": "f9f3befed4cbbf433a98c436f6bf141309029059dbbfe097816bce9088b2c093"
+    },
+    {
+      "path": "src/Mist.Application/Voyage/VoyageService.cs",
+      "bytes": 21377,
+      "sha256": "8e10427f6cc435648f162808d115370582244de7629640d9b75e84f5254e9216"
+    },
+    {
+      "path": "src/Mist.Application/WorkOrders/WorkOrderService.cs",
+      "bytes": 14557,
+      "sha256": "7df8c0bbbe935a01e638f4a690ee9a4c57c911444f731b29dd22e2cf7a5741b3"
+    },
+    {
+      "path": "src/Mist.Core/Assets/AssetPipeline.cs",
+      "bytes": 26740,
+      "sha256": "c550a15c49b8dc58516c64255f81c9b9c9514947c7a76ff596b8068d0f50e73b"
+    },
+    {
+      "path": "src/Mist.Core/Assets/CampaignSpeechProjection.cs",
+      "bytes": 799,
+      "sha256": "791733700e931511a76e5fa87d0a3465071583a2b35d0bef0ce8b5bf4bf7cd1d"
+    },
+    {
+      "path": "src/Mist.Core/Assets/RegionalAudio.cs",
+      "bytes": 5650,
+      "sha256": "86863006257f65960914a09a3904092a6297c4b4c73ce223e2057dfbc7dec2fa"
+    },
+    {
+      "path": "src/Mist.Core/Assistance/AssistanceModels.cs",
+      "bytes": 3149,
+      "sha256": "566adf58483a0b3a98798d6abce661cca92075a0dc4fab60d518642f5b1ae527"
+    },
+    {
+      "path": "src/Mist.Core/Assistance/RestrictedReplyValidator.cs",
+      "bytes": 7060,
+      "sha256": "a7560aefcc41360bf25c882824a8efea0a808b6d7000247bd556803c2a55358f"
+    },
+    {
+      "path": "src/Mist.Core/Campaign/CampaignModels.cs",
+      "bytes": 6189,
+      "sha256": "7982d31e2632e94b8c3de45d2d52d9c14cd49be385c1fce88bbe87d01c6aad70"
+    },
+    {
+      "path": "src/Mist.Core/ChapterFive/ChapterFiveModels.cs",
+      "bytes": 11872,
+      "sha256": "1dcbf8522baa8c7996e89bf4ab160ed856059c1f221745172fd3dbe3d781b6ac"
+    },
+    {
+      "path": "src/Mist.Core/ChapterFour/ChapterFourModels.cs",
+      "bytes": 11624,
+      "sha256": "10f913f06834b2c918bd366926ee646c17d6ffcdc2edf52a576eaeae8c6d4aae"
+    },
+    {
+      "path": "src/Mist.Core/ChapterFour/ExhibitionCreditModels.cs",
+      "bytes": 4013,
+      "sha256": "fa59600529d36c878b1de6593c230644a3393a37eca542c34d1048bd3f8ecfd7"
+    },
+    {
+      "path": "src/Mist.Core/ChapterFour/StudyInquiryModels.cs",
+      "bytes": 4063,
+      "sha256": "c13abf3a9515d279f92cfe2027cb2451be006b97d7be3ced311da30966ee8bd3"
+    },
+    {
+      "path": "src/Mist.Core/ChapterOne/ChapterOneModels.cs",
+      "bytes": 3483,
+      "sha256": "5dc3f4f3ec56ee14c6921a4dd67a3293903c81aedc613d0c7da497302a7a12bd"
+    },
+    {
+      "path": "src/Mist.Core/ChapterSix/ChapterSixModels.cs",
+      "bytes": 13517,
+      "sha256": "49ef4de450e5660633323a82c4f7cedf80f0be7bef0007d33284f53b8ec0c8ec"
+    },
+    {
+      "path": "src/Mist.Core/ChapterThree/ChapterThreeModels.cs",
+      "bytes": 12293,
+      "sha256": "8c7570d49b527262617b0c1327f8ff82c94742c9a3c9e8578f76a95fc77409a6"
+    },
+    {
+      "path": "src/Mist.Core/ChapterTwo/ChapterTwoModels.cs",
+      "bytes": 12120,
+      "sha256": "4d330cd08732d247de6c1820e960655e446f5b9964e1d747e240dac5f0374ce2"
+    },
+    {
+      "path": "src/Mist.Core/Combat/BattleEngine.cs",
+      "bytes": 36710,
+      "sha256": "1a441fbaf83d584f039b2bc2518cca3c786f9a189f2c5ac689e792286d9af62a"
+    },
+    {
+      "path": "src/Mist.Core/Combat/CombatMath.cs",
+      "bytes": 1247,
+      "sha256": "b6c656cee38e1dd301741e69e368a54ae807a085bf2c69c8e3238a14ed5b1a7b"
+    },
+    {
+      "path": "src/Mist.Core/Combat/CombatModels.cs",
+      "bytes": 13383,
+      "sha256": "75f9be71127f11f8e574e7613b883b4c1b9c1e9e221609c854f7b67b7e2d43dd"
+    },
+    {
+      "path": "src/Mist.Core/Conditions/Conditions.cs",
+      "bytes": 3009,
+      "sha256": "816600973efa2eeea094cb836b0205f5e0d0e94aef8613ea30d9921e94480e4d"
+    },
+    {
+      "path": "src/Mist.Core/Content/Catalog.cs",
+      "bytes": 2371,
+      "sha256": "f542faeb7d5a927ed3373df64720f83af6bce08d995b86769a2903bf89e8db9f"
+    },
+    {
+      "path": "src/Mist.Core/Contracts/Identity.cs",
+      "bytes": 4007,
+      "sha256": "9f892dc67204e35dcbd9bc4b538d6365b5497e0c6d0d0a5e2a430bdd8149ea9a"
+    },
+    {
+      "path": "src/Mist.Core/Contracts/Quantities.cs",
+      "bytes": 503,
+      "sha256": "8d40c30c4cf173f4423c81182d489c6ff20cf876f9716fdfd69cc3d31d2978ee"
+    },
+    {
+      "path": "src/Mist.Core/Contracts/StrictJson.cs",
+      "bytes": 2602,
+      "sha256": "734dca5bea7713a5c659718462ba03ff85c11f638ada2777707dab1764fbf983"
+    },
+    {
+      "path": "src/Mist.Core/Devices/Q102State.cs",
+      "bytes": 1600,
+      "sha256": "29a0ae2de175123cc79339bb210187f8ca2d4ecd2d6b0632dda17b97104376aa"
+    },
+    {
+      "path": "src/Mist.Core/Engineering/EngineeringRules.cs",
+      "bytes": 3105,
+      "sha256": "b9553b7a4a5935ae94b81d6ddb7c73109a5704b3f86ce9d392f9ecb4d310515b"
+    },
+    {
+      "path": "src/Mist.Core/Exploration/Geometry.cs",
+      "bytes": 4084,
+      "sha256": "f5797604713262c28904c3605c3f1c696ca1dc8776e54c30f9caaf1ed39efaf4"
+    },
+    {
+      "path": "src/Mist.Core/Finale/FinaleBattleRules.cs",
+      "bytes": 15484,
+      "sha256": "11e85fb20062f91c25111960416514e3b86269ee3f0dc034ef2ee966deda39ba"
+    },
+    {
+      "path": "src/Mist.Core/Finale/FinaleEncounterFactory.cs",
+      "bytes": 4392,
+      "sha256": "4b666d7959c06bb6056e4947ef768be5b0282d7b3b8814b443d036390d86747c"
+    },
+    {
+      "path": "src/Mist.Core/Finale/FinaleModels.cs",
+      "bytes": 8272,
+      "sha256": "a662ce0131024553f2ddb82d9b4be794ae4e582fdc4f820ef1242d5f3218b37f"
+    },
+    {
+      "path": "src/Mist.Core/Finale/FinaleState.cs",
+      "bytes": 2343,
+      "sha256": "24a5c5e07e942bfaf92e04eb398fc35dc3fc23e970fa46d9e407bcdad3681a62"
+    },
+    {
+      "path": "src/Mist.Core/FirstApproaches/FirstApproachModels.cs",
+      "bytes": 4873,
+      "sha256": "b42c4323dac2cc1148d9767f95ea9046aea22380d49bdf4989f8be9ec05bdc87"
+    },
+    {
+      "path": "src/Mist.Core/Inventory/ItemDefinitions.cs",
+      "bytes": 2437,
+      "sha256": "76ef34cd2cf5b4af795f8b06db724f68ef3c3647d05827b4a148321d6b82c4f0"
+    },
+    {
+      "path": "src/Mist.Core/Learning/EvidenceState.cs",
+      "bytes": 1691,
+      "sha256": "ba6e874605b8d67b2241a3a675b4951009a1e7960aecaa41b83270d1d87a77f8"
+    },
+    {
+      "path": "src/Mist.Core/Learning/Observation.cs",
+      "bytes": 2514,
+      "sha256": "6797c056f2a509f84fb5a86a9b09c45c6adf3d4732d0db9d3044601f22f78470"
+    },
+    {
+      "path": "src/Mist.Core/Learning/RegionalLexicon.cs",
+      "bytes": 8433,
+      "sha256": "b0d37187f740a1c9cf89ed8b77bcfdbe9e2cf3d8ded5ad9082ebed9e25aa6b3b"
+    },
+    {
+      "path": "src/Mist.Core/LinaPersonalWorks/LinaPersonalModels.cs",
+      "bytes": 2525,
+      "sha256": "897e5e6827af15af7e6d2c684b01233871e00716334425b08e2cc7dcb46a21b4"
+    },
+    {
+      "path": "src/Mist.Core/Mist.Core.csproj",
+      "bytes": 36,
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3"
+    },
+    {
+      "path": "src/Mist.Core/NPC/KnowledgeProjection.cs",
+      "bytes": 3510,
+      "sha256": "e3c62d8a328e4242fc1fc0c8793060e40c8484744241ffa1adec9ef3b9680572"
+    },
+    {
+      "path": "src/Mist.Core/NPC/Relationships.cs",
+      "bytes": 2281,
+      "sha256": "05c35e89f67192d7c802f1cd7df0e46a4130861ea1ff6cb7c9d1d01e43bc40b2"
+    },
+    {
+      "path": "src/Mist.Core/OptionalEncounterContracts/OptionalEncounterModels.cs",
+      "bytes": 7124,
+      "sha256": "0837e6db72200bb531027103dcf5f65a4b55a85f959ab07fdd33b10e517ffaed"
+    },
+    {
+      "path": "src/Mist.Core/OptionalLocalWorks/FieldRelayModels.cs",
+      "bytes": 3192,
+      "sha256": "681f80463e20495f0253308b21e4bbdcce679943d31dcf5b0bdb95b590eaa565"
+    },
+    {
+      "path": "src/Mist.Core/OptionalLocalWorks/MusicBoxModels.cs",
+      "bytes": 1836,
+      "sha256": "84b94682b95167fab79f4790e988bdd2386528f9599e4a005d41df45f48db095"
+    },
+    {
+      "path": "src/Mist.Core/OptionalLocalWorks/SettlementSupportModels.cs",
+      "bytes": 3805,
+      "sha256": "0c0c8a05b7cbcff240ac4f9853607e7e4528e4a9e25d564b4cbe211e69d399db"
+    },
+    {
+      "path": "src/Mist.Core/OptionalLocalWorks/SideWellModels.cs",
+      "bytes": 949,
+      "sha256": "dedf416c600b157582a664a0fdc19141f2f8fc2300b7b5239d85f2100e7eb201"
+    },
+    {
+      "path": "src/Mist.Core/OptionalLocalWorks/TessLocalReceiptModels.cs",
+      "bytes": 766,
+      "sha256": "b8e5602e6111747e61a6bba50a9abc027264a98e216f6c4a4fedf22ef200c6a2"
+    },
+    {
+      "path": "src/Mist.Core/packages.lock.json",
+      "bytes": 66,
+      "sha256": "2241481b7e74dcdcd600303146b730ecc12cbd8e49aa55755ef95ee499fe229a"
+    },
+    {
+      "path": "src/Mist.Core/Progression/ProgressionRules.cs",
+      "bytes": 3781,
+      "sha256": "7b3e9d5960e5e98772af50574a4281a54adc45e3a3493650dec98b6a210dd2a1"
+    },
+    {
+      "path": "src/Mist.Core/Puzzles/PuzzleWork.cs",
+      "bytes": 2171,
+      "sha256": "a26f6742dc21944e76ef4600fedb82684efb9a7fdaf7a3109d6e16be9dcac031"
+    },
+    {
+      "path": "src/Mist.Core/Quests/QuestState.cs",
+      "bytes": 740,
+      "sha256": "beefa1fd804d64be216a6986b06003bf4714bee5b416071fb7a27d0ef6bdce48"
+    },
+    {
+      "path": "src/Mist.Core/R1Life/R1LifeModels.cs",
+      "bytes": 9499,
+      "sha256": "408df3e493122df4ebf71c993fdc5995f6ed6e3b07f1ec8d636309c21d5cf203"
+    },
+    {
+      "path": "src/Mist.Core/R2Life/R2LifeModels.cs",
+      "bytes": 4599,
+      "sha256": "256dcd34374d9cc4ffc7d1c4fd9bbd04b573c4418c4676ba91bbb00154d586c5"
+    },
+    {
+      "path": "src/Mist.Core/R3ShiftWork/R3ShiftWorkModels.cs",
+      "bytes": 4453,
+      "sha256": "4433361645625db60f52fdbf903f121acb3d82749d1fb85fcc4d86a5c1e2752a"
+    },
+    {
+      "path": "src/Mist.Core/ReleaseReadiness/EndingRules.cs",
+      "bytes": 5285,
+      "sha256": "e7e57632dc99af84b801e3a9ce41d8a091e4365146dbfd59e513a9ded949166d"
+    },
+    {
+      "path": "src/Mist.Core/ReleaseReadiness/FinalActionModels.cs",
+      "bytes": 897,
+      "sha256": "ce82b7ebac3891df267cab5441e6e3c109de6e56bc51429d8647c04ed451f11e"
+    },
+    {
+      "path": "src/Mist.Core/ReleaseReadiness/PackagePreflightRules.cs",
+      "bytes": 3149,
+      "sha256": "00e3e4ecac6ec3c34490d8c79927d11ee7364c27304b6872fb940d3bd73c6270"
+    },
+    {
+      "path": "src/Mist.Core/ReleaseReadiness/PerformanceEvidenceRules.cs",
+      "bytes": 2309,
+      "sha256": "d35362e43d23fd80245a1e532cde7c9ae4503a5ffc09a9d74510a0264bc9027a"
+    },
+    {
+      "path": "src/Mist.Core/ReleaseReadiness/ReleaseGateRules.cs",
+      "bytes": 3671,
+      "sha256": "17d6d176076efb7fd174bc6db5902d3f4850b1e65faec370c403119888e53c65"
+    },
+    {
+      "path": "src/Mist.Core/ReviewCalibration/CalibrationRules.cs",
+      "bytes": 8748,
+      "sha256": "b883c0a2ebf543a07c3c8440b7af2e99196b3217449a0be61d51ac72e928cc93"
+    },
+    {
+      "path": "src/Mist.Core/ReviewCalibration/ReviewRules.cs",
+      "bytes": 12593,
+      "sha256": "ebcc02d9173e95f8100639ede55a32830a3251c13e42e0a7cdece93354167298"
+    },
+    {
+      "path": "src/Mist.Core/ReviewCalibration/WritingRatingRules.cs",
+      "bytes": 2208,
+      "sha256": "14f3259514c3878f5cb1450a2e9c0fc58f3a1e46fc82333fc56e8552a9cc2bc9"
+    },
+    {
+      "path": "src/Mist.Core/Skills/TalentRules.cs",
+      "bytes": 2801,
+      "sha256": "e9e98d62a05bc377e5aea33871add0a15cf821b24e5ade962c022cdcf7cd57dd"
+    },
+    {
+      "path": "src/Mist.Core/VesselInterior/VesselInteriorModels.cs",
+      "bytes": 4255,
+      "sha256": "83521f4cd8d52034fce08fafac37f86f65da19122458055479d825ee1404f358"
+    },
+    {
+      "path": "src/Mist.Core/VesselLife/VesselLifeModels.cs",
+      "bytes": 4713,
+      "sha256": "bc9a02990f23f17888b3df88f0875e3dc5df9625f8127e5161fa4ab3af294f37"
+    },
+    {
+      "path": "src/Mist.Core/Voyage/RegionalVoyageModels.cs",
+      "bytes": 2299,
+      "sha256": "4b6a382704957557b78931e3eb7739b14576175acb285ea2ea2e18f809180fd4"
+    },
+    {
+      "path": "src/Mist.Core/Voyage/VoyageModels.cs",
+      "bytes": 4202,
+      "sha256": "4a886244b37b7ef7ff972fee9f99c1af44c46880d45991024a58d8c5fd3dc842"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Content/PackageInstaller.cs",
+      "bytes": 9792,
+      "sha256": "0ae9655d047f6ce44e50c46779b319220406e40879b94355d5124858b65e441a"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Mist.Infrastructure.csproj",
+      "bytes": 297,
+      "sha256": "7d4d73cfd7975616b84c1111f1934949f3faf7ab24b1cf340d39c39f45bd3b2c"
+    },
+    {
+      "path": "src/Mist.Infrastructure/packages.lock.json",
+      "bytes": 2147,
+      "sha256": "96a28f0631df112ad422df68a81e4fe8cbf66306b500d57305ca758bdc8b1ada"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.cs",
+      "bytes": 17533,
+      "sha256": "b47dbd544f4bf92f367ce73d765af40127589806bc58da2193f2b2ecc68fcb2c"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.Drafts.cs",
+      "bytes": 3030,
+      "sha256": "3bedca99261fcc03f22390b9a7beed7fc550d74ce829d8c85986241e281fad87"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.EndingCheckpoints.cs",
+      "bytes": 3829,
+      "sha256": "bf7dcfd6699bc582f971dad001373381c82654d1433b7074d92a70e5f3145ead"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.InventoryMigration.cs",
+      "bytes": 2471,
+      "sha256": "824b71a1de6ba5a30741ef282f163ce6380c00b043751e3e3e42446efce6c847"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.Privacy.cs",
+      "bytes": 8551,
+      "sha256": "758cafbd06ab579d1b81a4129c2138fb67c92bf25c409ffd891940ad0d582cd4"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.Recovery.cs",
+      "bytes": 6061,
+      "sha256": "4591b371763ab642d7e515aadcca82ebc9f435472bb75f37c0ebefabe9724e70"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.RegionalLearning.cs",
+      "bytes": 3010,
+      "sha256": "c6738729750e57708ce6188fab85f05abe4128ff7c8f94a40de4d5869c1afdef"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.Saves.cs",
+      "bytes": 9123,
+      "sha256": "0ff1fa4dcc1cb61c502fae7cfe6100e4cbdaf7c1049881227c0ec84ab3af4873"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/ProfileStore.Settings.cs",
+      "bytes": 2802,
+      "sha256": "4cf49f161c9b9878f4632ac1dcde5e931316df47a9733efe270b1ad836b8f1fc"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/SingleWriter.cs",
+      "bytes": 1519,
+      "sha256": "63fd32c2749b0ae55b1e0ec2dd68067c43a9742582b3a5cf6107a82501ddc793"
+    },
+    {
+      "path": "src/Mist.Infrastructure/Storage/SqliteSupport.cs",
+      "bytes": 2284,
+      "sha256": "2f63acdfd42e00005931993021263fdda4e3f3643c35c6b3e39c2395f3976993"
+    },
+    {
+      "path": "tests/Mist.Tests/Assets/AssetsCases.cs",
+      "bytes": 19693,
+      "sha256": "8033544b308f14f4c9f48cdad24e4303ecac3ac1c9d4ad9c26fe3d0746f1d108"
+    },
+    {
+      "path": "tests/Mist.Tests/Assets/RegionalAudioCases.cs",
+      "bytes": 5177,
+      "sha256": "487d7e65b0a64e69d41ff5e8608eee6502f9176c0f68818af95cc019d914e590"
+    },
+    {
+      "path": "tests/Mist.Tests/AssistSafety/AssistanceSafetyCases.cs",
+      "bytes": 28264,
+      "sha256": "707a1dc95aa2cc4f0b3d64936d0a75d7c580dcc36d01d38d4a5183ac98a35779"
+    },
+    {
+      "path": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "bytes": 23707,
+      "sha256": "8b667d97e63934be82f63bee4cc1d9e83013f3fbe574f694a43ae918b4367f22"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFive/ChapterFiveCases.cs",
+      "bytes": 39482,
+      "sha256": "36b84d84d2c10a61167e34f5d8cd9d7b14d301140f9aad40ba55e305bc710d28"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFour/ChapterFourCases.cs",
+      "bytes": 29509,
+      "sha256": "e3a14dadcf7a599e7172adbd7916da01fd1aa7b7a87f8e1128f7f60939e860b4"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFour/ExhibitionCreditCases.cs",
+      "bytes": 9522,
+      "sha256": "72960e9dca4f6a67c5fcfec76aa8e5d918e5f3467c2dbd867d9f746b5db32333"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterFour/StudyInquiryCases.cs",
+      "bytes": 9411,
+      "sha256": "c40450c726855ebf491d9f299c1a5417a2398ab791281fc778d4f472009ef109"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "bytes": 23786,
+      "sha256": "5c403809488d6d65b01b5c7b98b3bc73899f60da2da6aa73242f54b4579e57d9"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterSix/ChapterSixCases.cs",
+      "bytes": 32956,
+      "sha256": "1aefffb7858e217cd082f87b1588899b81cbe943a4fb4c9e73edf6161fe98f18"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterThree/ChapterThreeCases.cs",
+      "bytes": 28725,
+      "sha256": "cb29a04df2555dee5c35aca6ebbb7610cd6d3da38a9a9b5d1ec546b3243a4af7"
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterTwo/ChapterTwoCases.cs",
+      "bytes": 21061,
+      "sha256": "41213d6ee1e112f72deb12d16222867ca43f3fa8181ddde8b2a0ba6c82faa01d"
+    },
+    {
+      "path": "tests/Mist.Tests/Combat/CombatCases.cs",
+      "bytes": 14248,
+      "sha256": "eb60575a6daa0ca3672067ba7f5f1f29fd08d7996b7d79b9a90a19bb8a21c568"
+    },
+    {
+      "path": "tests/Mist.Tests/Combat/CombatStoreCases.cs",
+      "bytes": 14391,
+      "sha256": "470a9d879a7d73a0ec6c5c0acd70f6e154eb2116b2c4a2a6f4b209d1fb0fd7a1"
+    },
+    {
+      "path": "tests/Mist.Tests/Combat/EffectCases.cs",
+      "bytes": 15717,
+      "sha256": "15ad7bc72410545b89316fc74c15431a94a650d32e5c28f4b6df176ad0e02777"
+    },
+    {
+      "path": "tests/Mist.Tests/Combat/TradingCases.cs",
+      "bytes": 5187,
+      "sha256": "b1a4e9a5700cb2817fe9c5aaa822ba249c520789295b9d3bf9e11640f6e4f727"
+    },
+    {
+      "path": "tests/Mist.Tests/Combat/VariantAndIntentCases.cs",
+      "bytes": 10810,
+      "sha256": "1c47611101de22fb25e7be83f06a4be2832c29238bb592908af8f7f02812ef32"
+    },
+    {
+      "path": "tests/Mist.Tests/CompanionArcs/CompanionArcCases.cs",
+      "bytes": 18872,
+      "sha256": "101c5e277a411f7761a44cc41f444003ead6384d03001dfd0ad5ca6df546ad7b"
+    },
+    {
+      "path": "tests/Mist.Tests/Content/ContentCases.cs",
+      "bytes": 11450,
+      "sha256": "8959cf8d6140d89153fd415f9ed5eecadb04786722627e5318e6650f435c0a2c"
+    },
+    {
+      "path": "tests/Mist.Tests/Contracts/ContractCases.cs",
+      "bytes": 3551,
+      "sha256": "7efc87bf3abf129f60e65a878a840a0366a5a63efeab0ca6f4b5c83940b88ff4"
+    },
+    {
+      "path": "tests/Mist.Tests/Finale/FinaleBattleCases.cs",
+      "bytes": 10969,
+      "sha256": "4401ac326253e9a0d109222a60963b6b4789053a6f730f89ae9e6f575144e960"
+    },
+    {
+      "path": "tests/Mist.Tests/Finale/FinaleCases.cs",
+      "bytes": 20119,
+      "sha256": "642d939ed1e2829fa322074c90fac58b10d0b131522768c3f225aefa407cfdd7"
+    },
+    {
+      "path": "tests/Mist.Tests/FirstApproaches/FirstApproachCases.cs",
+      "bytes": 21638,
+      "sha256": "57ba821dd7952bfb2b061ed41adb754502c573c48a3439efa831b91e0541f970"
+    },
+    {
+      "path": "tests/Mist.Tests/Learning/RegionalLearningCases.cs",
+      "bytes": 19887,
+      "sha256": "2e7fb76d0d10106d3a37a621f077ddec5d8a0fe3d6a0e69b20eef62827a067ea"
+    },
+    {
+      "path": "tests/Mist.Tests/LinaPersonalWorks/LinaPersonalWorkCases.cs",
+      "bytes": 9009,
+      "sha256": "21c9140ddb9f8a79e226b53786f5e0a1b5e88ffe386c07776c5af5bcfc0ef82d"
+    },
+    {
+      "path": "tests/Mist.Tests/Mist.Tests.csproj",
+      "bytes": 796,
+      "sha256": "7a25def6087da0d99124219cf6ffbb5178d06435640d9a7c4087d6e9a4ab4501"
+    },
+    {
+      "path": "tests/Mist.Tests/NPC/EngineeringCases.cs",
+      "bytes": 10592,
+      "sha256": "bd3708693b00ae73823050ec072a660ee81848a8615f22e59dc3e8b2e28ef26b"
+    },
+    {
+      "path": "tests/Mist.Tests/NPC/NpcCases.cs",
+      "bytes": 14984,
+      "sha256": "4ecf3836cbfe235c5c3c788ef768911200cac39b621a96205fa47a1b1384d12a"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalEncounterContracts/OptionalEncounterCases.cs",
+      "bytes": 19647,
+      "sha256": "c86bdb98354a586e57acff94ae0fb12a026bd9fd55f7cc974be373d9685709e4"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/FieldRelayRepairCases.cs",
+      "bytes": 9216,
+      "sha256": "9daea0efa5e53988b3d1e8b1cd18c276292e67e0fbcffd257b5a6219b028c14c"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/MusicBoxRepairCases.cs",
+      "bytes": 12742,
+      "sha256": "f214dc4b9a3fad60239214320882c06c5e1ccda08ce1426f3c916f77f8a0f53e"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/SettlementSupportCases.cs",
+      "bytes": 13619,
+      "sha256": "afa9576f286f21657b30837013d52ee91aedd38802e8629c9d17b30f804f39b9"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/SideWellObservationCases.cs",
+      "bytes": 8754,
+      "sha256": "102001827094749a009d338a7dd1a550065995223f92722ba9524ce8cb29712c"
+    },
+    {
+      "path": "tests/Mist.Tests/OptionalLocalWorks/TessLocalReceiptBridgeCases.cs",
+      "bytes": 10580,
+      "sha256": "2384c0f677e4f488d701a9d093a4c0da8b0aabf1358e3df33177260cb452d354"
+    },
+    {
+      "path": "tests/Mist.Tests/packages.lock.json",
+      "bytes": 2500,
+      "sha256": "d63779ce7f050501a6c2ce7a552be4d9970d6081e09973fc080139f28a75b7bf"
+    },
+    {
+      "path": "tests/Mist.Tests/Program.cs",
+      "bytes": 2575,
+      "sha256": "3205534351a43907ba2d1d82abaca06f0a9cccce354fd2eb46456fbe0f4396a2"
+    },
+    {
+      "path": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "bytes": 17167,
+      "sha256": "e6b80838bb4b536627e1a48e75a556d651a876418edaba71c98ecd3da73d53ee"
+    },
+    {
+      "path": "tests/Mist.Tests/R1Life/R1LifeCases.cs",
+      "bytes": 21977,
+      "sha256": "147ec8606050af09fb6a76a7f5461364a9559eb65f6aa76176e09149fa489adb"
+    },
+    {
+      "path": "tests/Mist.Tests/R2Life/R2LifeCases.cs",
+      "bytes": 25168,
+      "sha256": "7f5fb12d0712f95372bc0880ea60f93d709c284147aa61c51e09b2f2d266a3f7"
+    },
+    {
+      "path": "tests/Mist.Tests/R3ShiftWork/R3ShiftWorkCases.cs",
+      "bytes": 7336,
+      "sha256": "565dde8e441dd29092b7283d5556e78f392090c4679f345bf97dfe275471be9f"
+    },
+    {
+      "path": "tests/Mist.Tests/ReleaseReadiness/ReleaseReadinessCases.cs",
+      "bytes": 40619,
+      "sha256": "21df5be6a1c374824a41b5c349289294aa43e33216a9260161360c2718d9927c"
+    },
+    {
+      "path": "tests/Mist.Tests/ReviewCalibration/ReviewCalibrationCases.cs",
+      "bytes": 25606,
+      "sha256": "604e6bf29b5a78592564979477c625aa68d9ee40bcb473d2ef68a400a217add7"
+    },
+    {
+      "path": "tests/Mist.Tests/Storage/EndingCheckpointCases.cs",
+      "bytes": 3314,
+      "sha256": "1d8954bc2f687e908e20cdd8aca7d91e56692d7615738daaf27fe40dc4417930"
+    },
+    {
+      "path": "tests/Mist.Tests/Storage/StorageCases.cs",
+      "bytes": 28618,
+      "sha256": "bb737fca646f1012a33b7d88e3717e4ca8ede784b42fdf2d58c60017b7a3f0b2"
+    },
+    {
+      "path": "tests/Mist.Tests/TestRegistry.cs",
+      "bytes": 2593,
+      "sha256": "297e3f935ced9550a78fc4ee813dc490cebe2ea15b7ca9680cab3c258208ad9a"
+    },
+    {
+      "path": "tests/Mist.Tests/Travel/TravelCases.cs",
+      "bytes": 17208,
+      "sha256": "29851c4389a5ab017a3f4e054730291d5fa9a5d2a8a3d5d1c13fec90f203ec5a"
+    },
+    {
+      "path": "tests/Mist.Tests/Travel/TravelGeometryCases.cs",
+      "bytes": 9136,
+      "sha256": "82ba296e84418187b8949ff555c0b833946d3bc9d062f9e18eea30c324f56d7f"
+    },
+    {
+      "path": "tests/Mist.Tests/VesselInterior/VesselInteriorCases.cs",
+      "bytes": 16692,
+      "sha256": "80a743e4cbb1bd9154163c5d9059aeddfee5db49ce0b5df40f2d61bc0ee3b051"
+    },
+    {
+      "path": "tests/Mist.Tests/VesselLife/VesselLifeCases.cs",
+      "bytes": 7217,
+      "sha256": "377bac2e401b4809894ed3385938702f0362f4a05af922a0f7879009eae97e0c"
+    },
+    {
+      "path": "tests/Mist.Tests/Voyage/VoyageCases.cs",
+      "bytes": 15321,
+      "sha256": "00aee92429c1b008cf40e58510eb696f127beb647fc830b86db31d1b68529b29"
+    },
+    {
+      "path": "tests/Mist.Tests/WindowsRecovery/WindowsRecoveryCases.cs",
+      "bytes": 38714,
+      "sha256": "b3168f9c8035101e3c0060d4ffc6583539823b1735384968c916b7835916a066"
+    },
+    {
+      "path": "tools/ci/build.py",
+      "bytes": 18592,
+      "sha256": "2ef8857fc918f65f4f4491fe1c2e67c21f1b65909e7a3109285f28c2867301e1"
+    },
+    {
+      "path": "tools/ci/build_inputs.py",
+      "bytes": 1270,
+      "sha256": "1401972f0a32c21d96b516a41d8a7792aaea4662a66c1c460ad479c6b6a8cabc"
+    },
+    {
+      "path": "tools/ci/full_suite.py",
+      "bytes": 3377,
+      "sha256": "f4cc96df7ef1f4edc35516cf6ff63bb34489750d39be0050be97eef7316f2ded"
+    },
+    {
+      "path": "tools/ci/native_chapter_probe.py",
+      "bytes": 2214,
+      "sha256": "abafa8b27983d1cae9ed56aa7d314c12e6af890d9d0b0adc2d2a1c457f6b9a1e"
+    },
+    {
+      "path": "tools/ci/native_chapter_two_probe.py",
+      "bytes": 1639,
+      "sha256": "30a46b957f7da3e34c018f76a8e2331b776a19233b11b7b6e6db095462eabde1"
+    },
+    {
+      "path": "tools/ci/native_draft_recovery_probe.py",
+      "bytes": 8045,
+      "sha256": "8106cf2997f4f00e03108c64d7d3e2803971affac287e49147a10702f85a497d"
+    },
+    {
+      "path": "tools/ci/native_performance.py",
+      "bytes": 2063,
+      "sha256": "55912f5c64191005cb6d24494b7516072af2624fc1253c0ffc5546e2c4ffcfee"
+    },
+    {
+      "path": "tools/ci/native_vessel_probe.py",
+      "bytes": 1630,
+      "sha256": "4e938e9eb9584799904290869c068c18fadeddb086c028777b499e9fa6530c85"
+    },
+    {
+      "path": "tools/ci/package_windows.py",
+      "bytes": 11577,
+      "sha256": "ff71d2ed6fcbda82543a86efdcd52059ea4e8e75dd8096dbb6306539b81ab2b6"
+    },
+    {
+      "path": "tools/ci/review_audit.py",
+      "bytes": 4539,
+      "sha256": "19f1ee39577c5be5f5d0dd0b3bf0ae69e0add60ea231800f0f3d74d7af5e7114"
+    },
+    {
+      "path": "tools/ci/windows_README_中文.txt",
+      "bytes": 1517,
+      "sha256": "0f4403eb9f8b5d685d6e7c4e4ead8d483b8974b992756678d7a9a91071982b9e"
+    },
+    {
+      "path": "tools/Mist.ContentCli/Import/SourceAdapters.cs",
+      "bytes": 13890,
+      "sha256": "3cc2088d8b1437c85b48dd43ea82d137c368054479235a6ad06f43fab0bd1a64"
+    },
+    {
+      "path": "tools/Mist.ContentCli/Mist.ContentCli.csproj",
+      "bytes": 200,
+      "sha256": "5f925deb88a87f60759af68784572e03b119b7a51d3368437225fafeb7774640"
+    },
+    {
+      "path": "tools/Mist.ContentCli/packages.lock.json",
+      "bytes": 130,
+      "sha256": "1e5d945b0653dc49f6b021eba12df12ba4287e290a10c87b83459ef0cca988af"
+    },
+    {
+      "path": "tools/Mist.ContentCli/Program.cs",
+      "bytes": 608,
+      "sha256": "92e5c755f2a48d0746363a39eb90890aab6e105fff89bc05a92ac9a04649ab78"
+    },
+    {
+      "path": "tools/Mist.ContentCli/Validation/ContentCompiler.cs",
+      "bytes": 49202,
+      "sha256": "f8885af89ced94a742327c2f4a590a644e5623e4ca7a02840d8eb2e3bed87c73"
+    },
+    {
+      "path": "tools/Mist.ReviewCalibration/AuditEntry.cs",
+      "bytes": 1497,
+      "sha256": "1db910443b222d5b8837d9d71b83ad993df57f5944c69d72106bf048d009273a"
+    },
+    {
+      "path": "tools/Mist.ReviewCalibration/Mist.ReviewCalibration.csproj",
+      "bytes": 214,
+      "sha256": "15430778dbaff23142a060f74930a94a066e2aa4783d9d2f0022c640a12f8b49"
+    },
+    {
+      "path": "tools/Mist.ReviewCalibration/packages.lock.json",
+      "bytes": 271,
+      "sha256": "1ed04b8ebda665e57fa2ca6cdb72f29b788b6d67c71692061260bb6023419174"
+    }
+  ]
+}

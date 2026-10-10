@@ -1,0 +1,2200 @@
+{
+  "id": "mistsea-chapter-six",
+  "title_zh": "风暴边境",
+  "content_version": "r6-author-candidate-1",
+  "scope": "authoring_candidate_not_runtime",
+  "player_projection": true,
+  "target_bands": {
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5
+  },
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "scenes": [
+    {
+      "id": "R6-S01",
+      "title_zh": "风暴锚地",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R6-S01-to-S02",
+          "target_scene": "R6-S02",
+          "target_port": "R6-S02-to-S01",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_anchor_path"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S01.berth",
+          "stand": {
+            "x": 48,
+            "y": 90
+          },
+          "purpose_zh": "berth"
+        },
+        {
+          "id": "R6-S01.guide",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "guide"
+        },
+        {
+          "id": "R6-S01.departure",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "departure"
+        }
+      ]
+    },
+    {
+      "id": "R6-S02",
+      "title_zh": "前沿集散台",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R6-S02-to-S01",
+          "target_scene": "R6-S01",
+          "target_port": "R6-S01-to-S02",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_anchor_path"
+        },
+        {
+          "id": "R6-S02-to-S03",
+          "target_scene": "R6-S03",
+          "target_port": "R6-S03-to-S02",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "current_survey_scope_and_gear"
+        },
+        {
+          "id": "R6-S02-to-S04",
+          "target_scene": "R6-S04",
+          "target_port": "R6-S04-to-S02",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "inspected_inner_return"
+        },
+        {
+          "id": "R6-S02-to-S05",
+          "target_scene": "R6-S05",
+          "target_port": "R6-S05-to-S02",
+          "stand": {
+            "x": 90,
+            "y": 25
+          },
+          "gate": "public_local_logistics"
+        },
+        {
+          "id": "R6-S02-to-S08",
+          "target_scene": "R6-S08",
+          "target_port": "R6-S08-to-S02",
+          "stand": {
+            "x": 50,
+            "y": 90
+          },
+          "gate": "public_communication_path"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S02.finn",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "finn"
+        },
+        {
+          "id": "R6-S02.tess",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "tess"
+        },
+        {
+          "id": "R6-S02.kit",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "kit"
+        },
+        {
+          "id": "R6-S02.team",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "team"
+        }
+      ]
+    },
+    {
+      "id": "R6-S03",
+      "title_zh": "山口巡检道",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R6-S03.encounter",
+          "area": {
+            "left": 44,
+            "top": 45,
+            "right": 56,
+            "bottom": 55
+          },
+          "active_until_receipt": "ENC-R6-01:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R6-S03-to-S02",
+          "target_scene": "R6-S02",
+          "target_port": "R6-S02-to-S03",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "current_survey_scope_and_gear"
+        },
+        {
+          "id": "R6-S03-to-S04",
+          "target_scene": "R6-S04",
+          "target_port": "R6-S04-to-S03",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "marked_corridor_and_pass_control"
+        },
+        {
+          "id": "R6-S03-to-O01",
+          "target_scene": "R6-O01",
+          "target_port": "R6-O01-to-S03",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "optional_public_contact"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S03.forecast",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "forecast"
+        },
+        {
+          "id": "R6-S03.markers",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "markers"
+        },
+        {
+          "id": "R6-S03.pass_entry",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "pass_entry"
+        },
+        {
+          "id": "R6-S03.return",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "return"
+        }
+      ]
+    },
+    {
+      "id": "R6-S04",
+      "title_zh": "风暴测站",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R6-S04.encounter",
+          "area": {
+            "left": 44,
+            "top": 45,
+            "right": 56,
+            "bottom": 55
+          },
+          "active_until_receipt": "ENC-R6-02:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R6-S04-to-S03",
+          "target_scene": "R6-S03",
+          "target_port": "R6-S03-to-S04",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "marked_corridor_and_pass_control"
+        },
+        {
+          "id": "R6-S04-to-S02",
+          "target_scene": "R6-S02",
+          "target_port": "R6-S02-to-S04",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "inspected_inner_return"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S04.instrument",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "instrument"
+        },
+        {
+          "id": "R6-S04.station_entry",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "station_entry"
+        },
+        {
+          "id": "R6-S04.calibration",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "calibration"
+        },
+        {
+          "id": "R6-S04.return_check",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "return_check"
+        },
+        {
+          "id": "R6-S04.survey_report",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "survey_report"
+        }
+      ]
+    },
+    {
+      "id": "R6-S05",
+      "title_zh": "后勤中转棚",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R6-S05.encounter",
+          "area": {
+            "left": 44,
+            "top": 45,
+            "right": 56,
+            "bottom": 55
+          },
+          "active_until_receipt": "ENC-R6-03:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R6-S05-to-S02",
+          "target_scene": "R6-S02",
+          "target_port": "R6-S02-to-S05",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_local_logistics"
+        },
+        {
+          "id": "R6-S05-to-S06",
+          "target_scene": "R6-S06",
+          "target_port": "R6-S06-to-S05",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "explicit_first_segment_departure"
+        },
+        {
+          "id": "R6-S05-to-O02",
+          "target_scene": "R6-O02",
+          "target_port": "R6-O02-to-S05",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "optional_public_contact"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S05.manifest",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "manifest"
+        },
+        {
+          "id": "R6-S05.segment",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "segment"
+        },
+        {
+          "id": "R6-S05.supplement",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "supplement"
+        },
+        {
+          "id": "R6-S05.contacts",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "contacts"
+        },
+        {
+          "id": "R6-S05.first_entry",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "first_entry"
+        }
+      ]
+    },
+    {
+      "id": "R6-S06",
+      "title_zh": "外线护送段",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R6-S06.encounter",
+          "area": {
+            "left": 44,
+            "top": 45,
+            "right": 56,
+            "bottom": 55
+          },
+          "active_until_receipt": "ENC-R6-04:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R6-S06-to-S05",
+          "target_scene": "R6-S05",
+          "target_port": "R6-S05-to-S06",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "explicit_first_segment_departure"
+        },
+        {
+          "id": "R6-S06-to-S07",
+          "target_scene": "R6-S07",
+          "target_port": "R6-S07-to-S06",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "actual_second_segment_control"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S06.outer_entry",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "outer_entry"
+        },
+        {
+          "id": "R6-S06.segment_marker",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "segment_marker"
+        },
+        {
+          "id": "R6-S06.return",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "return"
+        },
+        {
+          "id": "R6-S06.repair",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "repair"
+        }
+      ]
+    },
+    {
+      "id": "R6-S07",
+      "title_zh": "风脊塔",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R6-S07.encounter",
+          "area": {
+            "left": 44,
+            "top": 45,
+            "right": 56,
+            "bottom": 55
+          },
+          "active_until_receipt": "ENC-R6-05:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R6-S07-to-S06",
+          "target_scene": "R6-S06",
+          "target_port": "R6-S06-to-S07",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "actual_second_segment_control"
+        },
+        {
+          "id": "R6-S07-to-S08",
+          "target_scene": "R6-S08",
+          "target_port": "R6-S08-to-S07",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "current_ridge_tower_safe"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S07.field_device",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "field_device"
+        },
+        {
+          "id": "R6-S07.platform",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "platform"
+        },
+        {
+          "id": "R6-S07.protection",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "protection"
+        },
+        {
+          "id": "R6-S07.isolation",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "isolation"
+        },
+        {
+          "id": "R6-S07.delivery",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "delivery"
+        },
+        {
+          "id": "R6-S07.worksite",
+          "stand": {
+            "x": 26,
+            "y": 80
+          },
+          "purpose_zh": "worksite"
+        },
+        {
+          "id": "R6-S07.return_check",
+          "stand": {
+            "x": 74,
+            "y": 80
+          },
+          "purpose_zh": "return_check"
+        },
+        {
+          "id": "R6-S07.load_test",
+          "stand": {
+            "x": 34,
+            "y": 55
+          },
+          "purpose_zh": "load_test"
+        }
+      ]
+    },
+    {
+      "id": "R6-S08",
+      "title_zh": "共同通信台",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R6-S08-to-S07",
+          "target_scene": "R6-S07",
+          "target_port": "R6-S07-to-S08",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "current_ridge_tower_safe"
+        },
+        {
+          "id": "R6-S08-to-S02",
+          "target_scene": "R6-S02",
+          "target_port": "R6-S02-to-S08",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "public_communication_path"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-S08.worklist",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "worklist"
+        },
+        {
+          "id": "R6-S08.contracts",
+          "stand": {
+            "x": 34,
+            "y": 40
+          },
+          "purpose_zh": "contracts"
+        },
+        {
+          "id": "R6-S08.dispatch",
+          "stand": {
+            "x": 66,
+            "y": 40
+          },
+          "purpose_zh": "dispatch"
+        },
+        {
+          "id": "R6-S08.technical",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "technical"
+        },
+        {
+          "id": "R6-S08.protocol",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "protocol"
+        },
+        {
+          "id": "R6-S08.overview",
+          "stand": {
+            "x": 26,
+            "y": 80
+          },
+          "purpose_zh": "overview"
+        },
+        {
+          "id": "R6-S08.qualification",
+          "stand": {
+            "x": 74,
+            "y": 80
+          },
+          "purpose_zh": "qualification"
+        },
+        {
+          "id": "R6-S08.commitments",
+          "stand": {
+            "x": 34,
+            "y": 55
+          },
+          "purpose_zh": "commitments"
+        },
+        {
+          "id": "R6-S08.local_notice",
+          "stand": {
+            "x": 66,
+            "y": 55
+          },
+          "purpose_zh": "local_notice"
+        }
+      ]
+    },
+    {
+      "id": "R6-O01",
+      "title_zh": "外缘聚落甲",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R6-O01-to-S03",
+          "target_scene": "R6-S03",
+          "target_port": "R6-S03-to-O01",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "optional_public_contact"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-O01.notice",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "notice"
+        }
+      ]
+    },
+    {
+      "id": "R6-O02",
+      "title_zh": "外缘聚落乙",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R6-O02-to-S05",
+          "target_scene": "R6-S05",
+          "target_port": "R6-S05-to-O02",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "optional_public_contact"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R6-O02.notice",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "notice"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "R6-Q601-R-LANDING",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "风暴锚地的有限核查入口",
+      "quest_ref": "Q-601",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S01",
+        "spot": "R6-S01.guide"
+      },
+      "source_root": "r6-q601-r-landing-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q601-R-LANDING-p01",
+          "en": "The present voyage carries the old city’s verified handover into Stormreach. Mara has been rescued and directly identified there; retain the separately established design, policy and execution responsibilities. At this public berth, register the actual Glimmer and current inquiry before seeking the frontier survey. The inquiry covers current network risk and preparation. It does not choose a final policy, deliver six tower packages or make every local office agree.",
+          "zh": "本次航行把旧都已核验交接带到风暴边境。玛拉已获救且身份经现场确认，设计、政策与执行责任分别保留。在公开泊位登记同一微光号和当前核查委托，再申请前沿测站调查。本次范围是当前网络风险与准备，不替玩家选择终局政策，也不交付六塔工包或代地方同意。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q601-R-BRIEFING",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "芬的前沿工作范围和防护包",
+      "quest_ref": "Q-601",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S02",
+        "spot": "R6-S02.finn"
+      },
+      "source_root": "r6-q601-r-briefing-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q601-R-BRIEFING-p01",
+          "en": "Finn authorises the present survey from the distribution desk. The declared basic protective kit, guide markers and return-line notes belong to this field commission. Check the kit and obtain the forecast before leaving for the pass. Tess can offer local guidance without joining the party. Her formal invitation follows the completed survey. Nobody needs to endorse a distributed policy to get a safe route or a necessary record.",
+          "zh": "芬在集散台签发本次调查。基础防护包、向导标记和返程说明属于这项现场委托，出发前核对实物并取得预报。泰丝可以作为当地向导提供帮助，正式同行邀请在测站核查后提出。获得安全路和必要记录不要求赞成分布式政策。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q601-R-FORECAST",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "山口当前预报与三条通道",
+      "quest_ref": "Q-601",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S03",
+        "spot": "R6-S03.forecast"
+      },
+      "source_root": "r6-q601-r-forecast-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q601-R-FORECAST-p01",
+          "en": "At the current survey stage, the low cut contains pooled mist and the exposed ridge crosses the marked gust channel. The marked leeward corridor stays inside the guide line and has a sheltered return recess. Use the same current-stage forecast and ground markers together. A clear-looking gap is not a verified alternative. Secure the guide markers and deal with the pass hazard before opening the station connection. The forecast is a working-stage observation, not a real-time reading deadline.",
+          "zh": "当前调查阶段，低切口积雾，暴露脊线横穿标明的阵风通道。标记背风走廊沿向导线通行，带有受遮蔽返程凹处。把同阶段预报与地标共同使用，眼前清亮的缝隙不是已经核验的替代路。固定标记并处置山口危险后才能打开测站连接。预报按世界工作阶段记录，不设置现实阅读截止。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q601-R-INSTRUMENT",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "测站通道、参考标与现场核验",
+      "quest_ref": "Q-601",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S04",
+        "spot": "R6-S04.instrument"
+      },
+      "source_root": "r6-q601-r-instrument-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q601-R-INSTRUMENT-p01",
+          "en": "The survey instrument has a labelled zero channel Z and reference channel R. Check Z at 0 and R at 10 after isolating the local drive; these are instrument marks, not the load units used in other districts. Control the station defence, then verify the readings at the present revision. A reconnection or configuration change expires the check. The report concerns current overload risk and bounded essential supply in this survey window. It does not predict an exact storm hour or prove that all fog was created by the towers.",
+          "zh": "测站仪表有零点Z通道和参考R通道。隔离本地驱动后，核对Z为0、R为10；这些是仪表标记，不与其他地区负荷单位通兑。处置测站防卫后按当前版本核验读数。连接或配置变动会使旧检查过期。报告说明本窗口的过载风险和受限基本供给，不预测准确风暴钟点，也不证明所有雾来自灯塔。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q601-R-RETURN",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "测站内侧巡检回程线",
+      "quest_ref": "Q-601",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S04",
+        "spot": "R6-S04.return_check"
+      },
+      "source_root": "r6-q601-r-return-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q601-R-RETURN-p01",
+          "en": "Inspect the inner patrol latch from the station and check both safe landing stands before registering the return line to the distribution desk. The new connection remains usable after the present hazard is controlled. Opening it does not deliver the later ridge cargo. A safe return anchor is an actual reached place with a current inspection; an icon on the regional map is insufficient.",
+          "zh": "从测站内侧检查巡检门闩和两端安全落点，再登记通往集散台的返程线。处置当前危险后，新连接继续可用，不会因此交付后面的风脊货载。安全返程锚点必须实际到达并有当前检查，地图图标本身不足。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-R-WORKLIST",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "六塔两套清单与有限来源",
+      "quest_ref": "Q-602",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.worklist"
+      },
+      "source_root": "r6-q602-r-worklist-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-R-WORKLIST-p01",
+          "en": "Each tower needs one base isolator, one local backup, two base provisions and two qualified local watch posts. These come from that district’s inspected facility-conservation contract. Baseline work does not consume the player’s marks, personal parts or the Glimmer’s battery. Enhanced work separately needs one controller, two couplers, three transition crates and a reusable trial fixture per tower. Six public finite contracts supply six controllers, twelve couplers, eighteen crates and six fixtures. Reading this list grants none of them. The six local crews have capacity one each; optional companions and combat auxiliaries are separate people.",
+          "zh": "每塔需要一隔离套、一当地备用组、两基础保全包及两个合格地方值守岗位，来自对应地区受检设施保全合同。基础工作不消费玩家刻币、个人零件或微光号电池。增强每塔另需一控制器、两联络组件、三过渡箱及一可复用试验夹具。六个公开有限合同供六控制器、十二组件、十八箱、六夹具，阅读清单不入账。六地班组各有同期容量一；可选同伴和战斗援勤另行登记。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-R-CONTRACTS",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "地区设施保全：公开登记与实物批次",
+      "quest_ref": "Q-602",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.contracts"
+      },
+      "source_root": "r6-q602-r-contracts-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-R-CONTRACTS-p01",
+          "en": "The local conservation contracts identify BASE-TWR-Rn-base_isolator, BASE-TWR-Rn-local_backup and BASE-TWR-Rn-base_provision for R1 through R6. Inspect the original depot manifest at the actual tower worksite, match its current contract version, serials and qualified watch posts, then inspect and deliver the specified items. The ridge packet is inspected at the frontier transfer shed and delivered only at the tower after its real escort. Signed intentions do not count as stock. The published functional crews and their two separate posts are limited local authoring details, not newly recruited core characters.",
+          "zh": "R1至R6的地方保全合同分别登记BASE-TWR-Rn-base_isolator、BASE-TWR-Rn-local_backup、BASE-TWR-Rn-base_provision。到该塔实际工程工位核对原仓单，匹配现行合同版本、序号及合格岗位，再检查交付规定实物。风脊工包在中转棚受检，真实护送后到塔站交付。签署意愿不算库存。公开班组和两个不同岗位是有范围的地方候选细节，不是新招募核心人物。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-R-STEPS",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "同一工程单的规定步骤",
+      "quest_ref": "Q-602",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.dispatch"
+      },
+      "source_root": "r6-q602-r-steps-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-R-STEPS-p01",
+          "en": "A confirmed work order reserves every required component and all posts together. The next actions are transport, delivery, installation and verification. Execute each declared step through the communication desk or its physical site; menus, sleep and reloading advance nothing. A component already installed stays installed after cancellation. A completed base order preserves present local service and assigns two actual watches. It does not install the enhanced controller or pass its trial.",
+          "zh": "确认工程单时，所需材料和全部岗位一起预留。接着实际推进运输、交付、安装、核验，可从通信台或现场执行规定步骤；菜单、睡眠、读档不推进。已经安装的组件在取消后仍保持安装。完成基础单保全现有地方服务并登记两个真实值守，不会顺带安装增强控制器或通过试运行。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-R-TECHNICAL",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "技术包的有限适用范围",
+      "quest_ref": "Q-602",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.technical"
+      },
+      "source_root": "r6-q602-r-technical-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-R-TECHNICAL-p01",
+          "en": "The reusable preparation issue technical-d3-v1 follows the academy’s retained failures, current bounded successful configuration and public handover. Controller C, checked reserve, local isolation and qualified duty supported a limited circuit at the tested load. The issue records how to install and inspect that bounded arrangement; it is not a measurement of all six towers. Each district must still inspect its real installation, receive transition supplies, obtain a local trial permit and run the current configuration. Keep the old failed and successful observations.",
+          "zh": "可复用准备稿technical-d3-v1继承学城保留反例、当前有限成功配置和公开交接。控制器C、受检备用、当地隔离及合格岗位支持已测试负荷下的有限回路。该稿说明如何安装检查这个受限安排，不是六塔全网测量。各地还须检查实际安装、取得过渡供给和地方试验许可，并按当前配置试运行；保留旧成功和失败观察。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-R-PROTOCOL",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "地区操作方与代表方的共同条款",
+      "quest_ref": "Q-602",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.protocol"
+      },
+      "source_root": "r6-q602-r-protocol-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-R-PROTOCOL-p01",
+          "en": "Protocol-d3-v1 preserves essential local protection, bounded contact, mutual aid and independent review. Every region supplies two different current appointment instances: its operator and representative. ROLE-Rn-OP acts within operate:Rn; ROLE-Rn-REP within represent:Rn. Neither appointment signs for another district or decides the player’s final policy. Local trial permission may be issued before final common acceptance, so testing and agreement do not wait for each other in a circle. Changed holders or terms require a current signature.",
+          "zh": "protocol-d3-v1保留地方基本保护、受限联络、互助及独立复核。每地提供操作方与代表方两个不同的现行任职实例。ROLE-Rn-OP只在operate:Rn范围，ROLE-Rn-REP只在represent:Rn范围任职；不为其他地区签字，也不替玩家选终局政策。地方试验许可可先于最终共同接受，避免试验和协议互等。人员或条款改变须重新取得当前签名。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-R-OVERVIEW",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "六地准备概览的读法",
+      "quest_ref": "Q-602",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.overview"
+      },
+      "source_root": "r6-q602-r-overview-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-R-OVERVIEW-p01",
+          "en": "The preparation view reports each tower’s actual current safety, base conservation, enhanced version, transition supply, watch occupants, local permit and field-trial version. Missing is not failed, and installed is not tested. Compare all six places using the current signed receipts. A draft graph may quote those facts, but cannot change them. Q602 closes after the six base results including the ridge tower; enhanced rows may remain incomplete. Q603 needs only its local cargo and route, not all six base results.",
+          "zh": "准备视图分别报告每塔当前安全、基础保全、增强版本、过渡供给、岗位人员、地方许可与试运行版本。缺项不等于失败，安装不等于已测试。依当前签收回执比较六地；草稿图可以引用事实，不能修改它们。Q602在包含风脊塔的六份基础结果齐备后关闭，增强仍可缺项。Q603只依赖当地货载和路线，不等待六地全齐。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q603-R-MANIFEST",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "风脊基础护送货单",
+      "quest_ref": "Q-603",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S05",
+        "spot": "R6-S05.manifest"
+      },
+      "source_root": "r6-q603-r-manifest-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q603-R-MANIFEST-p01",
+          "en": "This protected base packet contains one R6 isolator, one local backup and two base provisions. Finn coordinates its local cart; the two declared escort posts are ROLE-R6-CART-DRIVER and ROLE-R6-CARGO-WATCH. Tess may assist as a guide but recruitment is unnecessary. Confirm the actual packet, destination R6-S07, current segment and fallback previous_safe_segment. Packets from optional two-trip transport and enhanced transition crates remain in separate accounts. The cart does not move while a document is open.",
+          "zh": "受保护基础工包含R6隔离套一、当地备用组一、基础保全包二。芬协调地方货车，两个护送岗位为ROLE-R6-CART-DRIVER、ROLE-R6-CARGO-WATCH。泰丝可作为向导帮助，招募并非必要。确认实物、R6-S07目的地、本段与previous_safe_segment备用方案。可选两趟货载和增强过渡箱分别记账；打开文献时货车不走。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q603-R-SEGMENTS",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "安全行程段与退回边界",
+      "quest_ref": "Q-603",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S05",
+        "spot": "R6-S05.segment"
+      },
+      "source_root": "r6-q603-r-segments-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q603-R-SEGMENTS-p01",
+          "en": "First inspect and load the packet at the transfer shed. Control the first-segment escort hazard before explicitly starting the outer line. On the outer line, complete the second escort disposition before continuing to the tower. Withdrawal restores the present segment’s entry cargo and combat resources; earlier source inspection, safe route results and saved prose remain. A cargo group can retreat to its previous safe segment, or be deposited under the local cart keeper, but cannot be folded into world-map travel.",
+          "zh": "先在中转棚检查装运工包，处置首段护送危险，再明确出发进入外线。在外线完成第二护送处置后才继续到塔。撤回恢复本段入口货载和战斗资源，较早来源检查、通路结果与正文保留。货载可退回上一安全段或交地方车守安全托管，不能折叠进世界地图旅行。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q603-R-PLATFORM",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "封锁平台的保护和隔离顺序",
+      "quest_ref": "Q-603",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S07",
+        "spot": "R6-S07.platform"
+      },
+      "source_root": "r6-q603-r-platform-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q603-R-PLATFORM-p01",
+          "en": "The platform consists of a main unit and a field device. From the external stand, disconnect_field_input, fix_external_brake and verify_zero_field_energy in that order. Protect the current cargo segment, then isolate the platform after its main threat is controlled. Pressure may reduce the main unit’s impact; it cannot sign a cargo receipt or perform the isolation action. The protected packet reaches the receiving stand only through the actual paired route. Inspect the local return and present configuration before issuing tower safety.",
+          "zh": "平台由主体和护场器组成。先在外侧工位依次断输入disconnect_field_input、固定制动fix_external_brake、核零能verify_zero_field_energy；再保护本次货载段，主体威胁控制后再实际隔离平台。压强可以减弱主体冲击，不能代签货物回执或执行隔离。受保护工包沿实际成对通路到接收站，核对地方返程和当前配置后才签塔站安全。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q603-R-LOCAL",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "风脊接收、基本保障与维护安排",
+      "quest_ref": "Q-603",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S07",
+        "spot": "R6-S07.delivery"
+      },
+      "source_root": "r6-q603-r-local-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q603-R-LOCAL-p01",
+          "en": "The receiving team checks all four base components at R6-S07 and retains their serials. Inspect the isolation position, backup connection, minimum protected supply and return route. The same delivered packet can then be consumed by its registered base conservation order. The local watch must be assigned and the four work stages verified before a sixth base reply is sent. Success against the platform alone establishes neither delivery nor base conservation.",
+          "zh": "R6-S07接收组逐件核对四份基础组件并保留序号。检查隔离、备用连接、最低保护供给和返程线；这份已交付工包随后供给登记的基础保全单。必须指派当地岗位并完成四工作阶段核验，才发送第六份基础答复。击退平台本身不成立交付或基础保全。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q603-R-LOAD",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "两趟补充运输的五箱与容量",
+      "quest_ref": "Q-603",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S05",
+        "spot": "R6-S05.supplement"
+      },
+      "source_root": "r6-q603-r-load-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q603-R-LOAD-p01",
+          "en": "Optional supplement PZ-Q603-LOAD has two trips of six spaces each. The whole boxes are tools3, fittings1, lighting4, wind_panels2 and archives2. Tools and fittings must arrive in a trip earlier than lighting; the panels and archives have no fixed order. Both qualified arrangements are accepted. This independent supplement is optional, earns no second parent reward and supplies neither protected base components nor enhanced transition crates. Declining it preserves the base route.",
+          "zh": "可选PZ-Q603-LOAD共有两趟，每趟六格。整箱体积为tools三、fittings一、lighting四、wind_panels二、archives二。工具和安装件须在早于照明的一趟到达；面板与档案顺序不限。两种合格安排均接受。补充运输独立且可选，不重复发父任务奖励，不供基础组件或增强过渡箱，拒绝后基础路径仍完整。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q604-R-QUALIFICATION",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "起航前公开方案资格与缺项",
+      "quest_ref": "Q-604",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.qualification"
+      },
+      "source_root": "r6-q604-r-qualification-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q604-R-QUALIFICATION-p01",
+          "en": "Six actual base conservations preserve two eventual directions: restricted central operation and orderly disconnection. The central dangerous program must still be made safe in the seventh tower. A distributed direction additionally needs a verified technical package, six enhanced installations, transition supply, six current operator-and-representative agreements and six current field trials. Read each missing item now. Continue actual preparation, use established commissioned crews, or explicitly accept the two base directions. A private arc or language score is not a departure condition.",
+          "zh": "六塔真实基础保全保留受限中央与有序断联两个后续方向；中央危险程序仍须在第七塔稳定。分布式另需技术包验证、六增强安装、过渡供给、六地区当前操作方与代表方协议、六当前现场试运行。现在逐项看缺失，可以继续准备、使用已建立委托班组或明确接受两个基础方向。个人线和语言分数不构成起航条件。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q604-R-COMMITMENTS",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "高风险承诺登记与交接",
+      "quest_ref": "Q-604",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.commitments"
+      },
+      "source_root": "r6-q604-r-commitments-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q604-R-COMMITMENTS-p01",
+          "en": "The current register includes every accepted on-site commitment and every transport segment in this world branch. A segment with cargo still moving must be actually delivered or deposited safely; a required on-site promise needs safe handover or explicit suspension. Ordinary unaccepted optional work does not block departure. Review the register after any new commitment. An old empty list cannot prove that the present branch has none.",
+          "zh": "当前登记包含本世界分支全部已承接现场承诺和运输段。正在运输的货物须真实交付或安全托管；必须到场的承诺须安全交接或明确暂缓。普通未接受可选工作不阻止起航。新增承诺后重新核对登记，旧空清单不能证明当前分支无事。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q604-R-DEPARTURE",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "微光号最终起航交接",
+      "quest_ref": "Q-604",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S01",
+        "spot": "R6-S01.departure"
+      },
+      "source_root": "r6-q604-r-departure-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q604-R-DEPARTURE-p01",
+          "en": "At the frontier communication desk, save the proposed handover, review missing preparations and preserve a named protected pre-final checkpoint. Seal the actual preparation receipts and installed supplies. Then walk aboard the same Glimmer and confirm the current chart station, frontier berth and destination landing. The final launch closes Q604, moves that one vessel and the actor to the seventh-tower sea-cliff entry, and records one actual departure. Outside travel pauses after this confirmation. The central program and final policy remain unfinished.",
+          "zh": "在边境通信台保存交接提议，核对缺项并保留明确命名的终章前保护存档，封存实际准备回执与已安装供给。然后走上同一微光号，在当前航图站核对边境泊位和目的落点。最终起航一次关闭Q604，并将同一船和玩家实际移到第七塔海崖入口，留下唯一实际出发。确认后暂停外区旅行；中央程序和最终政策尚未完成。"
+        }
+      ]
+    },
+    {
+      "id": "R6-CQTESS01-R-CONTACTS",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "两个接收点的地方联系人",
+      "quest_ref": "CQ-TESS-01",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S05",
+        "spot": "R6-S05.contacts"
+      },
+      "source_root": "r6-cqtess01-r-contacts-original",
+      "access_class": "individual_permission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-CQTESS01-R-CONTACTS-p01",
+          "en": "For this private local coordination task, the existing transfer-shed receiver ROLE-R6-SHED-RECEIVER accepts complete labelled boxes against the present manifest; the ridge receiver ROLE-R6-RIDGE-RECEIVER accepts them after a safe segment arrival and checks the same version. Confirm both contacts and those receiving conditions with Tess’s current invitation. These are two existing main-route receiving functions, not hidden settlements needed for an ending. The task can be deferred without taking their protected basic supplies away.",
+          "zh": "本人邀请下的地方协调涉及既有中转棚接收岗ROLE-R6-SHED-RECEIVER和风脊接收岗ROLE-R6-RIDGE-RECEIVER。前者依现行货单接受整箱标记货物，后者在安全段抵达后核同一版本。明确两名联系人及收货条件；它们是两处已有主线路径岗位，不是结局必须隐藏聚落。暂缓此项不撤走基础供给。"
+        }
+      ]
+    },
+    {
+      "id": "R6-CQTESS02-R-TRIPS",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "两趟取舍的原回执",
+      "quest_ref": "CQ-TESS-02",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S05",
+        "spot": "R6-S05.supplement"
+      },
+      "source_root": "r6-cqtess02-r-trips-original",
+      "access_class": "individual_permission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-CQTESS02-R-TRIPS-p01",
+          "en": "Refer to the original supplement receipts if the two trips were accepted and actually delivered. Record which complete boxes arrived first and why that choice suited the local plan. If no supplement was promised, record not_committed rather than inventing arrival. This node cites existing work; it does not reserve a second batch, repeat the journey or grant experience, marks or parts.",
+          "zh": "承接且实际送达两趟补充货载后，引用原回执说明哪些整箱先到及其理由。未承诺运输时写not_committed，不虚构抵达。本节点只引用既有工作，不另留一批、不重复旅程、不发经验刻币零件。"
+        }
+      ]
+    },
+    {
+      "id": "R6-CQTESS03-R-NOTICE",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "下一班的通知链和同版记录",
+      "quest_ref": "CQ-TESS-03",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.local_notice"
+      },
+      "source_root": "r6-cqtess03-r-notice-original",
+      "access_class": "individual_permission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-CQTESS03-R-NOTICE-p01",
+          "en": "Finn keeps the current delivery sheet with ROLE-R6-NEXT-WATCH. Tess asks the sender to preserve the original contact and add ROLE-R6-NOTICE-BACKUP, both able to see the same current record. Send the bounded local notice, obtain the receiving team’s actual confirmation and keep any remaining check visible. This is a local watch handover, not a signature for the six-region operating protocol. Tess’s policy disagreement does not erase completed work.",
+          "zh": "芬与ROLE-R6-NEXT-WATCH保存当前交付表。泰丝要求保留原联系人，再加ROLE-R6-NOTICE-BACKUP，二者都能看同一当前版本。发有限地方通知，取得接收班实际确认并列余下检查。这是地方值守交接，不是六地区运行协议签字；泰丝的政策分歧不抹去已做工作。"
+        }
+      ]
+    },
+    {
+      "id": "R6-O01-R-NEEDS",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "外缘聚落甲的可选增补需求",
+      "quest_ref": "O-R6-01",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-O01",
+        "spot": "R6-O01.notice"
+      },
+      "source_root": "r6-o01-r-needs-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-O01-R-NEEDS-p01",
+          "en": "The settlement asks for an optional comparison of its forecast and additional needs. Its protected minimum is already included in the main provision plan. A proposed extra delivery remains unaccepted until its own route and stock are confirmed; it cannot be used as a hidden ending key.",
+          "zh": "聚落请求可选预报与额外需求比较。受保护最低保障已含主线供给，增补尚须独立确认路线库存，不能用作隐藏结局钥匙。"
+        }
+      ]
+    },
+    {
+      "id": "R6-O02-R-MAINTENANCE",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "外缘聚落乙的共享设备登记",
+      "quest_ref": "O-R6-02",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R6-O02",
+        "spot": "R6-O02.notice"
+      },
+      "source_root": "r6-o02-r-maintenance-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-O02-R-MAINTENANCE-p01",
+          "en": "The settlement records a shared maintenance question without claiming that its tools have been delivered. Visit or defer the optional contact freely. No required baseline component, final protocol signature or trial receipt is concealed here.",
+          "zh": "聚落记录共享维护问题，尚未宣称设备送到。可自由到访或暂缓，不在此隐藏必需基础组件、协议签字或试验回执。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q603-L-ESCORT",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "关键听力脚本：两段货载交接",
+      "quest_ref": "Q-603",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R6-S05",
+        "spot": "R6-S05.segment"
+      },
+      "source_root": "r6-q603-l-escort-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q603-L-ESCORT-p01",
+          "en": "Finn: Match the four protected serials against the manifest. The cart driver and cargo watch travel under this local commission. A recruited guide may help, but does not create another component.",
+          "zh": "芬：对四件保护序号。车司机与货守依本次地方委托执行。同伴向导可以帮助，却不创造另一件组件。"
+        },
+        {
+          "id": "R6-Q603-L-ESCORT-p02",
+          "en": "Cargo watch: After the first hazard is controlled, confirm departure into the outer segment. We will not skip that confirmation while the notice is open. On withdrawal, preserve the earlier source inspection and restore this attempt to its recorded entry.",
+          "zh": "货守：首段危险控制后明确外线出发，打开通知时不跳过确认。撤回保留较早来源检查，并把本次尝试恢复入口。"
+        },
+        {
+          "id": "R6-Q603-L-ESCORT-p03",
+          "en": "Tess: The outer segment needs its own actual result before the paired tower entrance opens. If we cannot continue, use the present safe return or deposit the packet with its named cart keeper. Do not take a moving cargo group into ordinary sea travel.",
+          "zh": "泰丝：外线要自己的结果才开配对塔口。不能继续时走安全返程或交指定车守托管，不能把移动货组带入普通航海。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q603-L-RECEIPT",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "关键听力脚本：风脊逐件接收",
+      "quest_ref": "Q-603",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R6-S07",
+        "spot": "R6-S07.delivery"
+      },
+      "source_root": "r6-q603-l-receipt-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q603-L-RECEIPT-p01",
+          "en": "Receiver: I need the same four serials that left the shed, the two safe escort results and the actual present receiving stand. The platform battle is one of the safety results, not my signature.",
+          "zh": "接收岗：要棚出发的同四序号、两安全护送结果和当前真实接收站。平台战是一个安全结果，不是我的签字。"
+        },
+        {
+          "id": "R6-Q603-L-RECEIPT-p02",
+          "en": "Finn: Control the field device, protect this packet and stop the platform. Then isolate it and inspect the return. Only the current configuration can support the tower safety record. The baseline order consumes the received components later; an enhanced controller is a separate item.",
+          "zh": "芬：制护场器、护本批、停平台，再隔离核返程。只有当前配置支持安全记录。基础单之后才消耗已接组件，增强控制器另算。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q604-L-HANDOVER",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "关键听力脚本：封存前的公开核对",
+      "quest_ref": "Q-604",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.qualification"
+      },
+      "source_root": "r6-q604-l-handover-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q604-L-HANDOVER-p01",
+          "en": "Finn: Six actual baselines preserve the two base directions. The distributed list has additional current work. Look at every missing item and choose whether to continue preparing or proceed with the established base directions. A private invitation is not a hidden condition.",
+          "zh": "芬：六真实基础保留两个方向，分布式另有当前工作。逐项看缺失，选继续或按基础方向出发，个人邀请不是隐藏条件。"
+        },
+        {
+          "id": "R6-Q604-L-HANDOVER-p02",
+          "en": "Tess: Current moving cargo must arrive or be safely deposited. Accepted attendance promises need a real handover or explicit suspension. Preserve the protected checkpoint, seal the actual supplies and walk to the same Glimmer chart. Our final policy remains unselected, and the seventh tower still has dangerous work ahead.",
+          "zh": "泰丝：现移动货须到或安全托管，到场承诺要交接或暂缓。留保护档、封实供、走同一微光海图。最终政策未选，第七塔危险工作仍在前方。"
+        }
+      ]
+    },
+    {
+      "id": "R6-CQTESS-L-NOTICE",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "个人听力脚本：下一班接收条件",
+      "quest_ref": "CQ-TESS-03",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.local_notice"
+      },
+      "source_root": "r6-cqtess-l-notice-original",
+      "access_class": "individual_permission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-CQTESS-L-NOTICE-p01",
+          "en": "Tess: Keep the original next-watch contact and add the backup contact. Both must see the same present delivery sheet. Ask for the actual receiving confirmation rather than assuming that a sent message was received. My preference for a distributed arrangement does not cancel your completed work or take your other policy choices away.",
+          "zh": "泰丝：保留原下一班联系人并加备用，二者看同当前交付表。要真实接收确认，不以发送推已收。我的分布式偏好不取消已做工作或其他政策选择。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q601-R-RISK",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "测站长读：现行风险与有限观察",
+      "quest_ref": "Q-601",
+      "kind": "long_read",
+      "location": {
+        "scene": "R6-S04",
+        "spot": "R6-S04.instrument"
+      },
+      "source_root": "r6-q601-r-risk-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q601-R-RISK-p01",
+          "en": "The frontier station receives reports from places that have faced different problems. A wet workshop, an overloaded pump and a damaged transfer line may all leave interrupted service, but the interruptions are not interchangeable measurements. Before combining them, the survey team records the place, instrument, working stage and protected service involved. The present visit follows the old city's verified handover. It preserves the direct confirmation that Mara was rescued, while retaining the separately examined responsibilities for design, policy and execution. A new measurement cannot quietly rewrite those earlier findings.",
+          "zh": "边境测站接收各地不同问题的报告。潮湿工坊、过载泵和损坏线路都可能造成中断，却不能作为同一种测量合并。调查组先记地点、仪表、工作阶段与保护服务。本次继承旧都交接，保留玛拉获救的直接确认及分别核查的设计、政策、执行责任；新测量不能悄悄改写旧结论。"
+        },
+        {
+          "id": "R6-Q601-R-RISK-p02",
+          "en": "The current forecast distinguishes three approaches to the station. Mist has collected in the low cut, and the open ridge intersects a marked gust channel. The leeward corridor follows visible guide points and contains a sheltered return recess. Its usefulness comes from the agreement between the current forecast and those ground observations. A bright opening elsewhere may look attractive without meeting the same conditions. The team therefore secures the markers, checks the protective kit and deals with the pass hazard before using the paired station entrance. Reading slowly does not make this forecast expire.",
+          "zh": "现行预报区分三条进路：低切口积雾，裸脊穿过标记阵风通道，背风走廊沿可见向导点并有遮蔽返程凹处。安全判断来自预报和地面观察一致。其他清亮缝隙没有同等条件。先固定标记、检查防护包、处置山口危险，再用配对入口；阅读缓慢不会使预报到期。"
+        },
+        {
+          "id": "R6-Q601-R-RISK-p03",
+          "en": "Inside the station, the zero and reference marks make the instrument check reproducible. Channel Z should show zero, and channel R should show ten after the local drive is isolated. These numbers belong to this labelled apparatus; they are not a conversion table for load figures reported elsewhere. The operator records the configuration revision with the reading. Reconnecting the drive or changing the configuration removes the current check, even if the saved note still displays the earlier numbers. The retained note remains a historical observation rather than disappearing from the archive.",
+          "zh": "测站用零点与参考标让检查可重做。隔离本地驱动后，Z通道为零，R通道为十。这些数字只属于该仪表，不转换其他地方的负荷值。读数带配置版本。重接驱动或改配置会撤销当前有效检查，旧笔记仍作为历史观察保留。"
+        },
+        {
+          "id": "R6-Q601-R-RISK-p04",
+          "en": "A current overload can amplify the network's difficulty in keeping essential circuits stable. This is a useful risk statement, but it has a limited object. The survey does not establish that the towers created every fog bank, nor does it predict the hour of a storm. Conditions beyond the tested local apparatus remain open to further investigation. The notice should name that boundary plainly, so a receiving crew can act on the observed danger without mistaking the notice for a complete explanation of the region's weather or the entire network's history.",
+          "zh": "当前过载可能放大全网保持基本回路稳定的困难。这是有用但有限的风险判断，不能证明灯塔制造每片雾，也不预测风暴钟点。受检装置以外的条件仍待查。通知应明确边界，让接收班处理观察到的危险，而不会把它当作天气或网络历史的完整解释。"
+        },
+        {
+          "id": "R6-Q601-R-RISK-p05",
+          "en": "The proposed response protects essential supply while restricting unverified load. Restriction should identify what is preserved, what is delayed and who watches the temporary arrangement. It should not remove the minimum protection of a distant settlement merely because its records are harder to obtain. Nor should a local operator promise unlimited capacity to avoid a difficult discussion. A bounded statement is more useful than a reassuring phrase when the following crew has to check an actual circuit. The present report names a survey stage, rather than introducing a deadline measured by the reader's real-world clock.",
+          "zh": "应对方案在限制未经核验负荷时保留基本供给，写清保留、延后事项和临时值守。不能因远处聚落资料难取得就撤掉最低保护，也不能为避开讨论承诺无限容量。接班人需检查真实回路，有限说明比安慰话更有用。本报告采用调查工作阶段，不设现实阅读计时。"
+        },
+        {
+          "id": "R6-Q601-R-RISK-p06",
+          "en": "Return access is part of the investigation, not a reward for its wording. The inner patrol latch is inspected from the station, and both landing stands are checked before the route is registered. The route can remain usable after the current hazard has been controlled. It still does not deliver the later tower cargo or settle its receiving account. A reached return anchor differs from an icon placed on a map: the reached anchor has a present position, a safe stand and an inspection that can be traced back to the actual work.",
+          "zh": "返程是调查的一部分，不是用词带来的奖励。从测站检查内侧门闩，核两端落点，再登记路线。处置后线路可以继续使用，却不交付后面的塔站货物。到达过的锚点与地图图标不同：前者有真实位置、安全站位和可追溯检查。"
+        },
+        {
+          "id": "R6-Q601-R-RISK-p07",
+          "en": "When the notice is received, its saved prose and world actions remain separate records. The writer may revise an explanation without changing the instrument, and a configuration change may require a new check without erasing the earlier explanation. Explicit confirmation connects the present meaning to the current draft and source versions. The receiver then verifies the physical work before closing the survey commission. Help with a structured statement makes the intended action clearer; it does not claim that the writer's English has been assessed or that a language examination score has been earned.",
+          "zh": "正式接收时，正文与世界行动分别保存。修改解释不改变仪表，改配置需要复检但不删除旧解释。明确确认把意思绑定当前正文和源版本，接收人再检查真实工作后闭合调查。结构化辅助让行动意思清楚，不宣称已评定英语或获得考试分数。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-R-PREPARATION",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "准备长读：地方保障与共同容量",
+      "quest_ref": "Q-602",
+      "kind": "long_read",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.worklist"
+      },
+      "source_root": "r6-q602-r-preparation-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-R-PREPARATION-p01",
+          "en": "The public work list distinguishes conservation of an existing service from enhancement of its future capacity. A tower can be safe to approach while still lacking either kind of completed work. Its base packet contains one isolator, one local backup and two provisions for protected service. Two qualified watch posts and one local installation crew belong to the same conservation arrangement. These are practical requirements with actual owners. They do not become completed work because a diagram contains six tower names, or because the player has acquired enough personal money and spare parts.",
+          "zh": "公开清单区分现有服务保全与未来容量增强。塔可安全接近，却仍缺完成的工作。基础包含一隔离套、一备用组、两保全包，同一安排还需要两名合格值守和一个安装班组。这些要求都有真实归属，不因图上有六塔名或玩家钱与零件足够就成为完成结果。"
+        },
+        {
+          "id": "R6-Q602-R-PREPARATION-p02",
+          "en": "Each district retains a facility-conservation contract beside its real tower worksite. The visiting technician matches its current version, the four component serials and the two separate watch posts. R1's isolator cannot be described as R2's local backup, even if both are eventually entered in the shared engineering accounts. The frontier packet has an additional physical journey: inspection at the transfer shed, protection through two escort segments and receipt at the ridge tower. Reading a remote contract list gives a traveller the information needed for a visit; it cannot stand in for that visit.",
+          "zh": "各地在真实塔站工位保留地方保全合同。技术员核现行版本、四件序号和两个独立岗位。即使最终记入共同工程账，R1隔离套也不能写作R2备用组。边境工包还需中转棚检查、两段护送保护和风脊接收。读远程清单为到访提供信息，不能代替到访。"
+        },
+        {
+          "id": "R6-Q602-R-PREPARATION-p03",
+          "en": "An accepted order reserves all necessary components and posts together. Transport, delivery, installation and verification then describe different pieces of work. A crew cannot install the same component at two towers at once, and a watch already committed to one tower cannot be counted as another tower's second operator. The local crew has one unit of installation capacity. Cancelling an unused reservation releases its supplies, but cancelling after installation does not manufacture a replacement. Repeatedly opening the work menu advances none of these stages; a declared work action must be carried out and recorded.",
+          "zh": "承接单把全部组件和岗位一起预留，运输、交付、安装、核验分别对应工作。班组不能同时在两塔装同一件，已承担一塔的人不能再充另一塔第二值守。当地班组同期容量一。未用预留可释放，安装后取消不制造替代件。反复打开菜单不推进阶段，必须执行并登记工作动作。"
+        },
+        {
+          "id": "R6-Q602-R-PREPARATION-p04",
+          "en": "The enhanced arrangement adds a controller and two couplers to each tower, alongside three transition crates. A reusable test fixture supports its local trial. Published finite contracts describe where these components come from and what acceptance work remains. Retained laboratory apparatus and a sealed investigation sample are evidence, not unclaimed stock for this list. Likewise, the optional two-trip supplement carries its own boxes for its own receiving purpose. Taking a box from that account would break the record of both arrangements, rather than making preparation cheaper through a harmless substitution.",
+          "zh": "增强每塔另加控制器、两联络组件和三过渡箱，并由可复用夹具支持地方测试。有限合同公开来源与验收步骤。保留的实验装置和封存调查样本是证据，不是待取库存。可选两趟补充也有自己的箱件和接收用途；挪走会破坏两份记录，不是无害省料。"
+        },
+        {
+          "id": "R6-Q602-R-PREPARATION-p05",
+          "en": "The academy's bounded successful experiment supports a preparation scheme, while its preserved failures describe conditions the scheme must avoid. Together they justify a versioned technical issue; they do not measure six unvisited installations. At each tower the operator checks local isolation, backup, the protected service and the actual return arrangement before observing the present output. A changed installation expires the old trial. The local permit concerns a trial under qualified duty. The later common protocol is a separate agreement, so refusing a final policy today does not prevent a necessary current safety check.",
+          "zh": "学城受限成功支持准备方案，保留失败说明要避开的条件，二者支持有版本的技术稿，却不是六处未访安装的测量。各塔先核隔离、备用、保护服务和返程，再观察当前输出。改安装使旧测试失效。地方许可针对合格值守下的试验，共同协议另签，不因今天拒选最终政策就阻止安全检查。"
+        },
+        {
+          "id": "R6-Q602-R-PREPARATION-p06",
+          "en": "For the common protocol, every region needs a current operator and a current representative. Their scopes differ, and their appointment instances must remain distinct. They review protection of essential service, bounded contact, mutual aid and independent review under the same published terms. Five organisations appearing in a political summary do not replace six regions' signatures. An old signature remains part of the history after an appointment changes, but it no longer supplies the current mandate. This lets a receiving team see both the previous decision and the actual person now authorised to speak for the role.",
+          "zh": "共同协议每地需要现任操作方与代表方，范围和任职实例不同。二者按同版条款审阅基本保护、有限联系、互助与独立复核。政治摘要中的五组织不代替六地区签字。任职改变后旧签名保留在历史，却不继续充当前授权，使接收组同时看旧决定和现任职能。"
+        },
+        {
+          "id": "R6-Q602-R-PREPARATION-p07",
+          "en": "Before departure, the live overview should show what each tower has actually completed and what remains. Six verified base arrangements preserve two eventual directions, while a distributed direction has additional published conditions. A missing enhanced item is a visible piece of unfinished work, not a hidden punishment for declining a private story. The team can continue preparation or explicitly proceed with the base directions. Neither response decides the dangerous central program's final treatment. That later decision belongs to a separate reached control station, after the current promises and moving cargo have been safely handed over.",
+          "zh": "起航前实时视图应显示各塔已做与未做事项。六份基础结果保留两个方向，分布式另有公开条件。增强缺项是可见未完成工作，不是拒绝个人线的隐藏处罚。可继续准备，也可明确按基础方向出发。二者不决定中央危险程序最终处理；那属于安全交接承诺与货载之后，实际抵达的另一控制站。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q601-L-SURVEY",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "关键听力脚本：芬与泰丝的测站简报",
+      "quest_ref": "Q-601",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R6-S02",
+        "spot": "R6-S02.finn"
+      },
+      "source_root": "r6-q601-l-survey-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q601-L-SURVEY-p01",
+          "en": "Finn: We have the old city's handover, including the direct confirmation of Mara's rescue. Keep that with the earlier responsibility findings. Today's station visit has a narrower job: find out what the present overload is doing to essential service and whether our return route can remain usable. I do not want a report that promises to explain every fog bank. If you use an earlier observation, identify its place and instrument. Similar-looking trouble in two places is a reason to compare the records carefully, rather than a reason to replace one record with the other.",
+          "zh": "芬：旧都交接已到，包括玛拉获救直接确认，与早前责任核查一起保留。今天任务更窄：查看当前过载对基本服务的影响和返程能否保留，不要承诺解释所有雾。引用旧观察要写地点仪表；两地问题相似是认真比较的理由，不是互换记录的理由。"
+        },
+        {
+          "id": "R6-Q601-L-SURVEY-p02",
+          "en": "Tess: The forecast marks three approaches. People sometimes choose the low cut because its beginning looks quiet, but the collected mist is farther along. The open ridge crosses the gust channel. Our marked leeward line has a sheltered recess that we can use on the way back. Follow the current ground markers as well as the sheet. I can explain these features as a local guide; I do not need to join your party for you to receive the route information. Please inspect the protective packet at the distribution stand before leaving.",
+          "zh": "泰丝：预报有三条进路。低切口开头安静，但深处积雾；裸脊穿阵风通道。标记背风线有返程遮蔽处，要同时看当前地标和纸张。我可作为当地向导解释，不必加入队伍才给路线信息。出发前请在集散站核防护包。"
+        },
+        {
+          "id": "R6-Q601-L-SURVEY-p03",
+          "en": "Finn: Secure the guide markers before dealing with the pass obstruction. Once that obstruction is controlled, use the actual paired entrance into the station. A map symbol does not move the team there. The station defence is a separate piece of work, and controlling it will not calibrate the instrument. We have deliberately kept these results apart so the receiving watch can identify a missing step. If a fight goes badly, withdraw to its recorded entry. Your source reading and saved explanation remain available; the retreat is not a reason to award a result that did not occur.",
+          "zh": "芬：先固定向导标记，再处置山口阻断，随后沿配对入口进测站。地图符号不搬人。测站防卫另算，控制它不校准仪表。分开结果便于接班人查缺步骤。遭遇不利可撤回记录入口，来源阅读和正文保留，撤退不奖励未发生的结果。"
+        },
+        {
+          "id": "R6-Q601-L-SURVEY-p04",
+          "en": "Tess: The apparatus uses Z for the zero channel and R for the reference channel. Isolate the local drive, check zero at Z and ten at R, and retain the configuration revision. Those are the apparatus marks, not storm hours and not a shared currency for every district's load figures. If someone reconnects the drive, the earlier check becomes an earlier check. It stays in the archive, but we inspect the present condition again. This is how the next watch distinguishes a retained observation from a current permission to use the instrument.",
+          "zh": "泰丝：装置Z是零点，R是参考。隔离驱动，核Z零与R十，保留配置版本。这是装置刻度，不是风暴钟点，也不是各地负荷的共同货币。重接后旧检查成为历史，档案还在，但要重检当前情况，让接班人区分旧观察与现行许可。"
+        },
+        {
+          "id": "R6-Q601-L-SURVEY-p05",
+          "en": "Finn: A useful notice names the current risk, the supply we must protect and the boundary of the survey. We can say that current overload amplifies the network's difficulty without claiming that every cause is established. We can restrict unverified additional load without removing a settlement's essential protection. Tell the receiving crew which working stage your observations belong to. Do not introduce a countdown while someone reads the report. The world work changes through declared actions and new observations, not through the number of minutes a person spends considering an English paragraph.",
+          "zh": "芬：有效通知写当前风险、必须保护的供给和调查边界。可说过载放大网络困难，不声称全因果成立；可限制未经核验新增负荷，不撤聚落基本保护。写观察的工作阶段，不在阅读时倒数。世界工作通过行动和新观察变化，不通过思考英语段落的现实分钟变化。"
+        },
+        {
+          "id": "R6-Q601-L-SURVEY-p06",
+          "en": "Tess: I will also show you the inner patrol latch. Inspect it from the station and check the two landing stands before registering the return route. That return remains useful after the present hazard is controlled. It is not the same as receiving the ridge cargo later. The four base components will need a manifest, two protected segments and a tower receiving check of their own. I would prefer a report that openly says the cargo has not moved yet to one that combines a safe survey route and an unexecuted delivery in a single cheerful sentence.",
+          "zh": "泰丝：还会指出内侧巡检闩，从测站检查并核两个落点，再登记返程。处置后返程有用，却不等于后面的风脊货物收货。四份基础件另需货单、两保护段和塔站接收。我宁可报告明确说货物未走，也不把安全调查路和未执行交付合成一句好听话。"
+        },
+        {
+          "id": "R6-Q601-L-SURVEY-p07",
+          "en": "Finn: Save your notice at the station desk, then confirm the intended meaning against the current draft. An edit will require that confirmation again. We will receive the actual instrument and return results alongside the notice; the quality of a phrase cannot supply a missing physical check. You may use explicit structured assistance if it helps communicate the action. That records what you mean, without claiming a language score. After the completed survey, the six-tower work and ridge escort can proceed in parallel. The ridge handover does not have to wait for every distant tower to be finished.",
+          "zh": "芬：在测站桌保存通知，再对当前正文明确意思，编辑后重新确认。接收时同时核真实仪表与返程，用词不能补物理检查。可用明确结构化辅助沟通行动，只记录意思、不声称语言分。调查闭合后六塔工作与风脊护送并行，风脊交接不用等所有远塔完成。"
+        }
+      ]
+    },
+    {
+      "id": "R6-Q602-L-MEETING",
+      "content_version": "r6-author-candidate-1",
+      "translation_version": "r6-author-candidate-1-zh1",
+      "title_zh": "关键听力脚本：六塔工作交接会议",
+      "quest_ref": "Q-602",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R6-S08",
+        "spot": "R6-S08.dispatch"
+      },
+      "source_root": "r6-q602-l-meeting-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R6-Q602-L-MEETING-p01",
+          "en": "Finn: Let us begin with what the six places need to preserve, rather than with a policy slogan. Every tower has a local contract for an isolator, a backup and two base provisions, with two qualified watches and one installation crew. Their owners and serials are available at the real worksite. A visiting technician must inspect them there. The shared account will then show accepted supplies, but its numbers do not erase their source records. Personal marks, spare parts and the Glimmer's battery belong to different accounts and cannot silently replace these protected components.",
+          "zh": "芬：先说六地要保全什么，不先喊政策。每塔地方合同含隔离套、备用组、两保全包，两合格值守和一安装班组。归属序号在真实工位，技术员须到场。共同账显示验收供给，却不抹来源。个人刻币零件和船电池另账，不偷偷替保护件。"
+        },
+        {
+          "id": "R6-Q602-L-MEETING-p02",
+          "en": "Local representative: A tower that is safe to approach still needs its conservation work. I want the overview to show that difference. When the crew reserves an order, it holds the whole packet and the posts together. It then carries out transport, delivery, installation and verification as distinct actions. One crew has one current installation capacity. If someone cancels an unused reservation, we can release it. If the component is already installed, a cancellation cannot produce another component. The next crew must be able to find the actual item and the earlier work receipt.",
+          "zh": "地方代表：可安全接近的塔仍需保全工作，视图要显示区别。预留单把工包岗位一起占住，再分别运输、交付、安装、核验。一班组同期容量一。未用可释放，装好的取消不制造另一件。接班人必须找到实物与旧工作回执。"
+        },
+        {
+          "id": "R6-Q602-L-MEETING-p03",
+          "en": "Technical reviewer: The academy retained unsuccessful runs as well as a bounded successful one. The current preparation issue states the controller, tested load, reserve, isolation and limited contact used in that successful arrangement. It gives us something specific to install and examine. It does not certify six unvisited towers. For an enhanced tower, we still need the actual controller and couplers, transition supply, qualified duty and a current field trial. Replacing an installation makes its old trial historical. Keep the old trial visible, then check the changed arrangement rather than copying its old result.",
+          "zh": "技术复核岗：学城保留失败和受限成功。准备稿写成功安排的控制器、负荷、备用、隔离和有限联系，给出可安装检查的具体对象，不认证六处未访塔。增强仍需实物、过渡供给、合格值守和当前现场测试。换安装后旧测试成为历史，要保留但重检，不复制结果。"
+        },
+        {
+          "id": "R6-Q602-L-MEETING-p04",
+          "en": "Tess: The ridge packet has only four base components. The first escort starts at the transfer shed after the actual manifest is checked. The outer escort begins through the paired route after its first segment is controlled. At the tower we control the field device, protect the present cargo and deal with the platform, then perform isolation and receipt. Pressure against the platform does not sign the receiving sheet. The optional five-box supplement is a different consignment. If it is declined, those choices must not take the basic packet or an eventual ending direction away.",
+          "zh": "泰丝：风脊基础只有四件，中转棚核实货单后首段护送，处置首段后沿配对路进入外线。到塔先制护场器、护货、制平台，再隔离和收货。平台压强不签收货表。可选五箱另批，拒绝不能撤基础工包或后续结局方向。"
+        },
+        {
+          "id": "R6-Q602-L-MEETING-p05",
+          "en": "Local operator: Our trial permission concerns this tower's present configuration. I can issue it when the enhanced installation, baseline protection and two local watches are checked. It is not a vote for a final network policy. The common protocol later requires both an operator and a representative in every region. We have different scopes and appointment instances. We will read the same terms on essential protection, bounded contact, mutual aid and independent review. An organisation's general position cannot stand in for six current regional signatures, and an old appointment cannot keep signing as the current one.",
+          "zh": "地方操作岗：试验许可针对本塔当前配置，在增强、基础保护与两值守核实后签发，不是最终政策投票。共同协议每地另需操作方、代表方，范围任职不同，同阅基本保护、有限联系、互助、独立复核。组织立场不代六地签字，旧任职不继续充现任。"
+        },
+        {
+          "id": "R6-Q602-L-MEETING-p06",
+          "en": "Finn: At departure we will list missing work openly. Six actual baseline results preserve the restricted central and orderly disconnection directions. A distributed direction additionally needs the verified technical issue, six enhanced installations, transition supplies, current agreements and trials. A private companion task is not on that list. We can continue the work, use established local commissioned crews, or explicitly accept the two base directions. None of those responses tells us that the dangerous central program has already been stabilised. That remains actual work at the seventh tower after the voyage.",
+          "zh": "芬：起航时公开缺项。六基础保留受限中央和有序断联，分布式另需技术稿、六增强、过渡、当前协议测试，私人同伴线不在清单。可继续、用已建立地方班组，或明确接受基础方向。任何回应都不说明中央危险程序已稳定，那仍是航后第七塔的实际工作。"
+        },
+        {
+          "id": "R6-Q602-L-MEETING-p07",
+          "en": "Tess: Review the current promises as carefully as the supplies. Cargo still moving needs actual receipt or safe deposit. An accepted promise that requires attendance needs a safe handover or explicit suspension. A previous empty register cannot describe a branch where new work was accepted. Save the handover and preserve the named pre-final checkpoint before sealing preparation. Then reach the chart aboard the same Glimmer and confirm the frontier berth and destination landing. The final departure moves that vessel once; it does not finish the central program or choose the final policy for us.",
+          "zh": "泰丝：核供给也核现承诺。运输货要真实收货或安全托管，须到场承诺需安全交接或明确暂缓。旧空表不能描述后来接新工作的分支。保存交接、保留命名保护档、封存准备，再到同船海图核边境泊位与目的落点。最终出发只移同一船一次，不完成中央程序或替我们选政策。"
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "R6-A-REGISTER_LANDING",
+      "spot": "R6-S01.guide",
+      "label_zh": "登记本次真实登陆",
+      "action": "register_landing"
+    },
+    {
+      "id": "R6-A-REQUEST_SURVEY",
+      "spot": "R6-S02.finn",
+      "label_zh": "接受当前调查范围",
+      "action": "request_survey"
+    },
+    {
+      "id": "R6-A-INSPECT_BASIC_GEAR",
+      "spot": "R6-S02.kit",
+      "label_zh": "领取受检防护包",
+      "action": "inspect_basic_gear"
+    },
+    {
+      "id": "R6-A-CHOOSE_CORRIDOR",
+      "spot": "R6-S03.forecast",
+      "label_zh": "核对当前走廊",
+      "action": "choose_corridor"
+    },
+    {
+      "id": "R6-A-SECURE_GUIDE_MARKERS",
+      "spot": "R6-S03.markers",
+      "label_zh": "固定标记与返程锚",
+      "action": "secure_guide_markers"
+    },
+    {
+      "id": "R6-A-BEGIN_PASS_ENCOUNTER",
+      "spot": "R6-S03.pass_entry",
+      "label_zh": "进入山口处置",
+      "action": "begin_pass_encounter"
+    },
+    {
+      "id": "R6-A-BEGIN_STATION_ENCOUNTER",
+      "spot": "R6-S04.station_entry",
+      "label_zh": "进入测站处置",
+      "action": "begin_station_encounter"
+    },
+    {
+      "id": "R6-A-ISOLATE_SURVEY_INSTRUMENT",
+      "spot": "R6-S04.instrument",
+      "label_zh": "隔离测站仪表",
+      "action": "isolate_survey_instrument"
+    },
+    {
+      "id": "R6-A-CONFIGURE_SURVEY",
+      "spot": "R6-S04.calibration",
+      "label_zh": "核对零点和参考标",
+      "action": "configure_survey"
+    },
+    {
+      "id": "R6-A-TEST_SURVEY",
+      "spot": "R6-S04.calibration",
+      "label_zh": "核验当前读数",
+      "action": "test_survey"
+    },
+    {
+      "id": "R6-A-INSPECT_INNER_RETURN",
+      "spot": "R6-S04.return_check",
+      "label_zh": "检查内侧返程",
+      "action": "inspect_inner_return"
+    },
+    {
+      "id": "R6-A-SUBMIT_SURVEY",
+      "spot": "R6-S04.survey_report",
+      "label_zh": "提交测站答复",
+      "action": "submit_survey"
+    },
+    {
+      "id": "R6-A-INSPECT_CARGO_MANIFEST",
+      "spot": "R6-S05.manifest",
+      "label_zh": "逐件核对真实基础货单",
+      "action": "inspect_cargo_manifest"
+    },
+    {
+      "id": "R6-A-PLAN_CARGO_SEGMENT",
+      "spot": "R6-S05.segment",
+      "label_zh": "确认护送段与备用方案",
+      "action": "plan_cargo_segment"
+    },
+    {
+      "id": "R6-A-BEGIN_FIRST_ESCORT",
+      "spot": "R6-S05.first_entry",
+      "label_zh": "处置首段护送",
+      "action": "begin_first_escort"
+    },
+    {
+      "id": "R6-A-START_OUTER_SEGMENT",
+      "spot": "R6-S05.segment",
+      "label_zh": "明确出发进入外线",
+      "action": "start_outer_segment"
+    },
+    {
+      "id": "R6-A-BEGIN_OUTER_ESCORT",
+      "spot": "R6-S06.outer_entry",
+      "label_zh": "处置外线护送",
+      "action": "begin_outer_escort"
+    },
+    {
+      "id": "R6-A-CONTINUE_RIDGE_SEGMENT",
+      "spot": "R6-S06.segment_marker",
+      "label_zh": "明确进入风脊接收线",
+      "action": "continue_ridge_segment"
+    },
+    {
+      "id": "R6-A-CONTROL_FIELD_DEVICE",
+      "spot": "R6-S07.field_device",
+      "label_zh": "制止护场器",
+      "action": "control_field_device"
+    },
+    {
+      "id": "R6-A-PROTECT_CURRENT_CARGO",
+      "spot": "R6-S07.protection",
+      "label_zh": "保护本次货载",
+      "action": "protect_current_cargo"
+    },
+    {
+      "id": "R6-A-BEGIN_PLATFORM_ENCOUNTER",
+      "spot": "R6-S07.platform",
+      "label_zh": "制止封锁平台",
+      "action": "begin_platform_encounter"
+    },
+    {
+      "id": "R6-A-ISOLATE_PLATFORM",
+      "spot": "R6-S07.isolation",
+      "label_zh": "实际隔离平台",
+      "action": "isolate_platform"
+    },
+    {
+      "id": "R6-A-RECEIVE_BASE_PACKET",
+      "spot": "R6-S07.delivery",
+      "label_zh": "逐件接收风脊基础工包",
+      "action": "receive_base_packet"
+    },
+    {
+      "id": "R6-A-INSPECT_RIDGE_RETURN",
+      "spot": "R6-S07.return_check",
+      "label_zh": "检查风脊返程",
+      "action": "inspect_ridge_return"
+    },
+    {
+      "id": "R6-A-TEST_RIDGE_TOWER",
+      "spot": "R6-S07.load_test",
+      "label_zh": "核验现行安全配置",
+      "action": "test_ridge_tower"
+    },
+    {
+      "id": "R6-A-SUBMIT_RIDGE_HANDOVER",
+      "spot": "R6-S07.delivery",
+      "label_zh": "提交第六塔基础答复",
+      "action": "submit_ridge_handover"
+    },
+    {
+      "id": "R6-A-DEPOSIT_CARGO_SAFELY",
+      "spot": "R6-S06.return",
+      "label_zh": "安全托管本段货物",
+      "action": "deposit_cargo_safely"
+    },
+    {
+      "id": "R6-A-INSPECT_FACILITY_CONTRACT",
+      "spot": "R6-S08.contracts",
+      "label_zh": "打开六地区实地合同清单",
+      "action": "inspect_facility_contract"
+    },
+    {
+      "id": "R6-A-VERIFY_TECHNICAL_PACKAGE",
+      "spot": "R6-S08.technical",
+      "label_zh": "核对学城有限技术包",
+      "action": "verify_technical_package"
+    },
+    {
+      "id": "R6-A-INSPECT_SIX_TOWER_OVERVIEW",
+      "spot": "R6-S08.overview",
+      "label_zh": "查看实际准备版本",
+      "action": "inspect_six_tower_overview"
+    },
+    {
+      "id": "R6-A-SUBMIT_SIX_TOWER_HANDOVER",
+      "spot": "R6-S08.overview",
+      "label_zh": "提交六塔基础答复",
+      "action": "submit_six_tower_handover"
+    },
+    {
+      "id": "R6-A-INSPECT_DEPARTURE_QUALIFICATION",
+      "spot": "R6-S08.qualification",
+      "label_zh": "公开当前方案和缺项",
+      "action": "inspect_departure_qualification"
+    },
+    {
+      "id": "R6-A-VERIFY_CURRENT_RISK_REGISTER",
+      "spot": "R6-S08.commitments",
+      "label_zh": "核对当前承诺与货载",
+      "action": "verify_current_risk_register"
+    },
+    {
+      "id": "R6-A-CONFIRM_PREPARATION_DIRECTION",
+      "spot": "R6-S08.qualification",
+      "label_zh": "明确继续准备或接受基础方向",
+      "action": "confirm_preparation_direction"
+    },
+    {
+      "id": "R6-A-SEAL_PRE_FINAL_PREPARATION",
+      "spot": "R6-S08.qualification",
+      "label_zh": "保存保护档并封存准备",
+      "action": "seal_pre_final_preparation"
+    },
+    {
+      "id": "R6-A-DECIDE_TESS_INVITATION",
+      "spot": "R6-S02.tess",
+      "label_zh": "邀请泰丝同行或保留联系",
+      "action": "decide_tess_invitation"
+    },
+    {
+      "id": "R6-A-CONFIRM_TESS_CONTACTS",
+      "spot": "R6-S05.contacts",
+      "label_zh": "核对两个接收岗",
+      "action": "confirm_tess_contacts"
+    },
+    {
+      "id": "R6-A-PLAN_OPTIONAL_SUPPLEMENT",
+      "spot": "R6-S05.supplement",
+      "label_zh": "安排独立两趟整箱货载",
+      "action": "plan_optional_supplement"
+    },
+    {
+      "id": "R6-A-DELIVER_OPTIONAL_SUPPLEMENT_TRIP",
+      "spot": "R6-S05.supplement",
+      "label_zh": "执行下一真实补充运输段",
+      "action": "deliver_optional_supplement_trip"
+    },
+    {
+      "id": "R6-A-SUBMIT_TESS_CONTACTS",
+      "spot": "R6-S05.contacts",
+      "label_zh": "交接地方联系人",
+      "action": "submit_tess_contacts"
+    },
+    {
+      "id": "R6-A-SUBMIT_TESS_TRIP_CHOICES",
+      "spot": "R6-S05.supplement",
+      "label_zh": "引用原两趟回执",
+      "action": "submit_tess_trip_choices"
+    },
+    {
+      "id": "R6-A-PREPARE_TESS_NOTICE",
+      "spot": "R6-S08.local_notice",
+      "label_zh": "核对下一班通知记录",
+      "action": "prepare_tess_notice"
+    },
+    {
+      "id": "R6-A-SEND_TESS_NOTICE",
+      "spot": "R6-S08.local_notice",
+      "label_zh": "发送地方通知并核收",
+      "action": "send_tess_notice"
+    },
+    {
+      "id": "R6-A-SUBMIT_TESS_NOTICE",
+      "spot": "R6-S08.local_notice",
+      "label_zh": "交接接收确认",
+      "action": "submit_tess_notice"
+    },
+    {
+      "id": "R6-A-PROPOSE_OPTIONAL_SETTLEMENT_CONTACT",
+      "spot": "R6-O01.notice",
+      "label_zh": "保存可选增补提议",
+      "action": "propose_optional_settlement_contact"
+    },
+    {
+      "id": "R6-A-INSPECT_OPTIONAL_SHARED_MAINTENANCE",
+      "spot": "R6-O02.notice",
+      "label_zh": "查看可选维护问题",
+      "action": "inspect_optional_shared_maintenance"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "R6-Q601-W-SURVEY",
+      "quest_ref": "Q-601",
+      "kind": "risk_notice",
+      "workspace_spot": "R6-S04.survey_report",
+      "prompt_en": "Write a notice of at least 150 words that identifies the current risk, bounded supply, present survey window and verified return route. Distinguish observations from untested network claims.",
+      "prompt_zh": "至少150词说明当前风险、受限供给、调查窗口与实际返程，区分观察和全网未检验主张。"
+    },
+    {
+      "id": "R6-Q602-W-OVERVIEW",
+      "quest_ref": "Q-602",
+      "kind": "visual_report",
+      "workspace_spot": "R6-S08.overview",
+      "prompt_en": "Use the current six-tower receipt view to compare baseline and enhanced preparation in at least 150 words. Explain missing work without treating requirements as completed deliveries.",
+      "prompt_zh": "以当前六塔回执视图写至少150词比较基础与增强，说明缺项，不能把需求写成交付。",
+      "visual": {
+        "title_en": "Published baseline requirements per tower: these are requirements, not current completion",
+        "columns_en": [
+          "Tower",
+          "Base isolators required",
+          "Base provisions required"
+        ],
+        "rows": [
+          [
+            "TWR-R1",
+            1,
+            2
+          ],
+          [
+            "TWR-R2",
+            1,
+            2
+          ],
+          [
+            "TWR-R3",
+            1,
+            2
+          ],
+          [
+            "TWR-R4",
+            1,
+            2
+          ],
+          [
+            "TWR-R5",
+            1,
+            2
+          ],
+          [
+            "TWR-R6",
+            1,
+            2
+          ]
+        ],
+        "availability": "current_runtime_receipts_must_be_compared_separately"
+      }
+    },
+    {
+      "id": "R6-Q603-W-CARGO",
+      "quest_ref": "Q-603",
+      "kind": "transport_note",
+      "workspace_spot": "R6-S05.segment",
+      "prompt_en": "Write the destination, four actual protected components, escort posts, segment sequence and safe fallback in at least 150 words. The actual receiving receipt remains separate.",
+      "prompt_zh": "至少150词明确目的地、四份真实保护组件、护送岗、段次和安全备用方案，实际收货回执另行核验。"
+    },
+    {
+      "id": "R6-Q604-W-DEPARTURE",
+      "quest_ref": "Q-604",
+      "kind": "handover_note",
+      "workspace_spot": "R6-S08.qualification",
+      "prompt_en": "State what is actually prepared, which directions remain available and how current high-risk promises are handed over. Preserve missing enhanced work and the unsettled final policy.",
+      "prompt_zh": "说明真实准备、可用方向和高风险交接，保留增强缺项与尚未选择的终局政策。"
+    },
+    {
+      "id": "R6-CQTESS01-W-CONTACTS",
+      "quest_ref": "CQ-TESS-01",
+      "kind": "coordination_note",
+      "workspace_spot": "R6-S05.contacts",
+      "prompt_en": "Confirm two named recipients and their current receiving conditions.",
+      "prompt_zh": "确认两名接收岗及现行收货条件。"
+    },
+    {
+      "id": "R6-CQTESS02-W-TRIPS",
+      "quest_ref": "CQ-TESS-02",
+      "kind": "short_report",
+      "workspace_spot": "R6-S05.supplement",
+      "prompt_en": "Explain the original trip choice, or explicitly report that no supplement was committed.",
+      "prompt_zh": "说明原两趟选择，或明确未承诺补充运输。"
+    },
+    {
+      "id": "R6-CQTESS03-W-NOTICE",
+      "quest_ref": "CQ-TESS-03",
+      "kind": "local_notice",
+      "workspace_spot": "R6-S08.local_notice",
+      "prompt_en": "Preserve the original contact, add a second contact and identify the current record and actual receiving confirmation.",
+      "prompt_zh": "保留原联系人，增第二联系人，指明当前记录和实际接收确认。"
+    }
+  ],
+  "facility_contracts": [
+    {
+      "region": "R1",
+      "tower": "TWR-R1",
+      "prior_quest": "Q-104",
+      "physical_spot": "R1-S10.safety_console",
+      "version": "r6-author-candidate-1-facility-R1",
+      "installer": "ROLE-R1-FACILITY-CREW",
+      "watch_posts": [
+        "ROLE-R1-BASE-WATCH-A",
+        "ROLE-R1-BASE-WATCH-B"
+      ],
+      "stock": {
+        "base_isolator": 1,
+        "local_backup": 1,
+        "base_provision": 2
+      },
+      "scope": "local_original_candidate_no_remote_inspection"
+    },
+    {
+      "region": "R2",
+      "tower": "TWR-R2",
+      "prior_quest": "Q-204",
+      "physical_spot": "R2-S08.future_work",
+      "version": "r6-author-candidate-1-facility-R2",
+      "installer": "ROLE-R2-FACILITY-CREW",
+      "watch_posts": [
+        "ROLE-R2-BASE-WATCH-A",
+        "ROLE-R2-BASE-WATCH-B"
+      ],
+      "stock": {
+        "base_isolator": 1,
+        "local_backup": 1,
+        "base_provision": 2
+      },
+      "scope": "local_original_candidate_no_remote_inspection"
+    },
+    {
+      "region": "R3",
+      "tower": "TWR-R3",
+      "prior_quest": "Q-304",
+      "physical_spot": "R3-S09.load_test",
+      "version": "r6-author-candidate-1-facility-R3",
+      "installer": "ROLE-R3-FACILITY-CREW",
+      "watch_posts": [
+        "ROLE-R3-BASE-WATCH-A",
+        "ROLE-R3-BASE-WATCH-B"
+      ],
+      "stock": {
+        "base_isolator": 1,
+        "local_backup": 1,
+        "base_provision": 2
+      },
+      "scope": "local_original_candidate_no_remote_inspection"
+    },
+    {
+      "region": "R4",
+      "tower": "TWR-R4",
+      "prior_quest": "Q-404",
+      "physical_spot": "R4-S08.preparation",
+      "version": "r6-author-candidate-1-facility-R4",
+      "installer": "ROLE-R4-FACILITY-CREW",
+      "watch_posts": [
+        "ROLE-R4-BASE-WATCH-A",
+        "ROLE-R4-BASE-WATCH-B"
+      ],
+      "stock": {
+        "base_isolator": 1,
+        "local_backup": 1,
+        "base_provision": 2
+      },
+      "scope": "local_original_candidate_no_remote_inspection"
+    },
+    {
+      "region": "R5",
+      "tower": "TWR-R5",
+      "prior_quest": "Q-504",
+      "physical_spot": "R5-S08.load_test",
+      "version": "r6-author-candidate-1-facility-R5",
+      "installer": "ROLE-R5-FACILITY-CREW",
+      "watch_posts": [
+        "ROLE-R5-BASE-WATCH-A",
+        "ROLE-R5-BASE-WATCH-B"
+      ],
+      "stock": {
+        "base_isolator": 1,
+        "local_backup": 1,
+        "base_provision": 2
+      },
+      "scope": "local_original_candidate_no_remote_inspection"
+    },
+    {
+      "region": "R6",
+      "tower": "TWR-R6",
+      "prior_quest": "Q-601",
+      "physical_spot": "R6-S07.delivery",
+      "version": "r6-author-candidate-1-facility-R6",
+      "installer": "ROLE-R6-FACILITY-CREW",
+      "watch_posts": [
+        "ROLE-R6-BASE-WATCH-A",
+        "ROLE-R6-BASE-WATCH-B"
+      ],
+      "stock": {
+        "base_isolator": 1,
+        "local_backup": 1,
+        "base_provision": 2
+      },
+      "scope": "local_original_candidate_no_remote_inspection"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "scope": "author_only_source_and_static_unrun_engineering_index",
+  "source_version": "FIRST-APPROACHES-20261010-v1",
+  "source_sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03",
+  "sources": [
+    {
+      "id": "R0-APP-R-RELAY",
+      "version": "FIRST-APPROACHES-20261010-v1",
+      "paragraphs": 2,
+      "english_words": 191,
+      "english_sha256": "04dcfcd292b31ef25d2b57149fb40212d1ebe2db6b9aca6a383a54df5339480f",
+      "audio": "no_new_audio"
+    },
+    {
+      "id": "R1-APP-R-SIDE",
+      "version": "FIRST-APPROACHES-20261010-v1",
+      "paragraphs": 2,
+      "english_words": 208,
+      "english_sha256": "e77f2ea0c3e18fab1bcc159834907a9e2ac3cdc832782287f436292e6d795918",
+      "audio": "no_new_audio"
+    },
+    {
+      "id": "R1-APP-R-OUTER",
+      "version": "FIRST-APPROACHES-20261010-v1",
+      "paragraphs": 2,
+      "english_words": 198,
+      "english_sha256": "69685d752b3a81623586a9c38655e3dc7da2eed68b16e7fa5e664db14e9dd212",
+      "audio": "no_new_audio"
+    }
+  ],
+  "registered_encounters": [
+    "ENC-R0-02",
+    "ENC-R1-02",
+    "ENC-R1-03"
+  ],
+  "static_case_labels": [
+    "actual_zero_XP_relay_native_entry_retains_unresolved_defence_at_140XP_without_positive_fixtures",
+    "actual_zero_XP_tower_base_native_entry_has_real_680XP_permission_supply_and_no_access_or_ship",
+    "first_approach_contract_preserves_registered_ids_template_thresholds_and_original_geometry",
+    "bare_relay_actor_without_actual_rescue_cannot_acquire_source_or_begin_defence",
+    "actual_zero_XP_rescue_to_relay_140XP_defence_has_one_hero_and_no_cloned_sheltered_Lina_or_awards",
+    "relay_gate_requires_real_complete_defence_before_seating_lead_and_does_not_restore_by_reading",
+    "relay_continue_withdraw_retry_preserves_instance_source_and_zero_reward_entry",
+    "controlled_relay_cannot_reopen_or_withdraw_to_repeat_a_result",
+    "tower_base_gate_rejects_reading_and_current_supply_alone_without_either_access_result",
+    "side_gate_requires_actual_isolation_brace_and_zero_energy_in_order_and_opens_only_base_access",
+    "actual_",
+    "manual_side_and_outer_routes_cannot_double_result_or_tower_reward",
+    "unrelated_or_wrong_instance_receipts_cannot_authorize_tower_entry",
+    "typed_matching_result_without_actual_battle_state_still_cannot_authorize_entry",
+    "old_load_action_preview_is_rejected_and_actual_battle_survives_continue"
+  ],
+  "expanded_case_count": 16,
+  "files": [
+    {
+      "path": "src/Mist.Core/FirstApproaches/FirstApproachModels.cs",
+      "sha256": "b42c4323dac2cc1148d9767f95ea9046aea22380d49bdf4989f8be9ec05bdc87"
+    },
+    {
+      "path": "src/Mist.Application/FirstApproaches/FirstApproachService.cs",
+      "sha256": "895b635ff1841b323ffce73057abd05def6dc4fa3142ac8a3b581e3cf90f0904"
+    },
+    {
+      "path": "tests/Mist.Tests/FirstApproaches/FirstApproachCases.cs",
+      "sha256": "57ba821dd7952bfb2b061ed41adb754502c573c48a3439efa831b91e0541f970"
+    },
+    {
+      "path": "game/UI/Campaign/CampaignClient.FirstApproaches.cs",
+      "sha256": "2d78b85a36f83af962061c79adc5dad8a834a3cd817f895b0419d340995aacb7"
+    },
+    {
+      "path": "game/UI/Shell/Root.FirstApproaches.cs",
+      "sha256": "f0680eba8f91f0873a1b0b3c545be01b20adf83fb1ebc987a86e6fdb9dfde131"
+    },
+    {
+      "path": "game/Diagnostics/CampaignClient.FirstApproachTests.cs.pending",
+      "sha256": "5ccbae80805ef4ef1d6d117ad9757f4a7a92c23684d3467958eba726bb49b1f3"
+    },
+    {
+      "path": "game/Diagnostics/Root.FirstApproachClientTests.cs.pending",
+      "sha256": "76b3e6b73b7c31bd90256b049ef627f3039198e2c9257808054623ba9a018947"
+    }
+  ],
+  "build": "not_run_by_author_agent",
+  "runtime_result": "root_actual_reports_required",
+  "human_language_review": "pending",
+  "human_balance_review": "pending",
+  "human_full_play": "not_run",
+  "physical_ime": "not_run",
+  "screen_reader": "not_run"
+}

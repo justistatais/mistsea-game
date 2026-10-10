@@ -1,0 +1,24 @@
+{
+  "error": "{\r\n  \"scope\": \"executed C# code tests\",\r\n  \"executed\": 0,\r\n  \"failed\": 0,\r\n  \"results\": [],\r\n  \"sqlite_version\": \"3.53.3\",\r\n  \"dotnet_runtime\": \"10.0.12\",\r\n  \"process_architecture\": \"X64\",\r\n  \"human_signoff\": null\r\n}\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T054053551847Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+        "--task=CP-OPTIONAL-MUSICBOX-03"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 2,
+      "output_path": "reports/build/20261010T054053551847Z/tests.log"
+    }
+  ]
+}

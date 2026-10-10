@@ -1,0 +1,70 @@
+{
+  "task_id": "CX-001",
+  "project_root": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+  "git_root": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+  "source_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "git_status_before": [
+    "?? MistSea_AllInOne_v0.1/"
+  ],
+  "git_status_after": [
+    "?? MistSea_AllInOne_v0.1/"
+  ],
+  "commits_created": 0,
+  "child_git_created": false,
+  "imported_package_files": 513,
+  "pre_existing_tracked_files": {
+    "count": 48,
+    "all_hashes_preserved": true
+  },
+  "delivered_immutable_files": {
+    "checked": 511,
+    "mismatches": []
+  },
+  "mutable_delivered_changes": [
+    {
+      "path": "planning/state/execution.json",
+      "before_sha256": "f4b9b916d64f180cd0c471343f5416dd2cdfbf0ea70321f7f1a390ebf614284f",
+      "after_sha256": "9ee81ac8a170b3c9611a46032907e588d6dcd8b6bd24dbaa9afd74093c9e4bf1",
+      "changed_task_entries": [
+        "CX-001"
+      ],
+      "reason": "记录CX-001工程证据接受状态及对应说明；其他任务记录保留"
+    }
+  ],
+  "new_task_artifact_paths": [
+    "reports/execution/CX-001/after_git_files.log",
+    "reports/execution/CX-001/after_git_head.log",
+    "reports/execution/CX-001/after_git_root.log",
+    "reports/execution/CX-001/after_git_status.log",
+    "reports/execution/CX-001/audit.py",
+    "reports/execution/CX-001/before_git_files.log",
+    "reports/execution/CX-001/before_git_head.log",
+    "reports/execution/CX-001/before_git_root.log",
+    "reports/execution/CX-001/before_git_status.log",
+    "reports/execution/CX-001/dotnet_1_info.log",
+    "reports/execution/CX-001/dotnet_1_runtimes.log",
+    "reports/execution/CX-001/dotnet_1_sdks.log",
+    "reports/execution/CX-001/engineering_review.json",
+    "reports/execution/CX-001/environment.json",
+    "reports/execution/CX-001/final_audit.json",
+    "reports/execution/CX-001/git_version.log",
+    "reports/execution/CX-001/initial_audit.json",
+    "reports/execution/CX-001/node_version.log",
+    "reports/execution/CX-001/plan_next_final.log",
+    "reports/execution/CX-001/plan_next_initial.log",
+    "reports/execution/CX-001/plan_show_initial.log",
+    "reports/execution/CX-001/plan_status_final.log",
+    "reports/execution/CX-001/plan_status_initial.log",
+    "reports/execution/CX-001/planning_tests_initial.log",
+    "reports/execution/CX-001/pnpm_version.log",
+    "reports/execution/CX-001/repository_after.json",
+    "reports/execution/CX-001/repository_before.json",
+    "reports/execution/CX-001/source_inventory_verified.json",
+    "reports/execution/CX-001/state_before.json",
+    "reports/execution/CX-001/verify_handoff_final.log",
+    "reports/execution/CX-001/verify_handoff_initial.log"
+  ],
+  "new_document": "docs/onboarding/CX-001_接管报告.md",
+  "formal_evidence": "reports/execution/CX-001.json",
+  "source_manifest_modified": false
+}

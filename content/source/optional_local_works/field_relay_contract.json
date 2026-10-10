@@ -1,0 +1,42 @@
+{
+  "player_projection": true,
+  "version": "r6-field-relay-candidate-1",
+  "encounter": "ENC-R6-06",
+  "parent_quest": "Q-603",
+  "scene": "R6-S06",
+  "spot": "R6-S06.repair",
+  "template": "relay_drone",
+  "owner": "ROLE-R6-CARGO-WATCH",
+  "relay_serial": "R6-AUX-RELAY-01",
+  "pin_serial": "R6-AUX-BRAKE-PIN-01",
+  "scope": "same_auxiliary_relay_not_tower_or_protected_cargo",
+  "review_status": "original_unreviewed_human_pending",
+  "source_refs": [
+    "Combat_System_v0.1.md:522",
+    "Exploration_Level_Design_v0.1.md:544",
+    "World_Story_Bible_v0.1.md:617"
+  ],
+  "original_local_details": [
+    "The named auxiliary relay, dedicated brake pin and gauge channels are new bounded local candidates. The design source provides the optional method encounter and relay-drone template, not these exact serials or readings.",
+    "The local cargo-watch role issues same-device auxiliary work only after the existing protected transport has actually closed. No stock is awarded to the player or credited to six-tower inventory.",
+    "Candidate live AUX reading18, OFF AUX reading0 and REF reading10; independent brake pin required. Current gauge checks expire on configuration changes.",
+    "Shared BattleEngine candidate enemy hp360 armor800 initiative14 and unit hit95 alternating with a preparation action. relay_drone pressure threshold3 and no unavoidable party stun are preserved from the source archetype. Not a published balance certification."
+  ],
+  "paragraphs": [
+    {
+      "id": "R6-FIELD-RELAY-R-SCOPE-p01",
+      "en": "The cargo watch has a separate auxiliary relay at the marked outer-line repair stand. The protected base packet has already been received before this optional work begins. This relay and its dedicated brake pin remain local property. They are not spare parts from the tower contract, the five-box supplement or the transition supply. You may decline this extra repair. Neither the main route nor departure qualification requires it.",
+      "zh": "货物值守岗在外线标记检修位有一台独立辅助继电器。开始此可选工作前，受保护基础货包已经实际接收。这台继电器及专用制动销保持当地所有权，不是塔站合同、五箱补充或转换供给的备用件。你可拒绝追加维修，主路与起航资格不以它为条件。"
+    },
+    {
+      "id": "R6-FIELD-RELAY-R-SCOPE-p02",
+      "en": "Use the external AUX switch to disconnect the auxiliary input, fit the same dedicated pin to fix the relay track, and check the AUX channel at zero. The REF channel reads ten and must not be used as a zero-energy result. The live AUX reading is eighteen. A safe mechanical method can control the relay without an attack. If you choose to confront its drone, controlling the threat still does not disconnect the input or install the pin. Pressure cannot substitute for either physical step.",
+      "zh": "用外侧 AUX 开关切断辅助输入，将同一专用销装入固定继电导轨，并核对 AUX 通道为零。REF 通道读数十，不能充当零能结果；AUX 带电读数十八。安全机械方法可不攻击而制止继电器。若选择与机卫交战，控制威胁仍不会断输入或装销，压力不能替代这两项实际操作。"
+    },
+    {
+      "id": "R6-FIELD-RELAY-R-SCOPE-p03",
+      "en": "Refit this same relay within the isolated fixture, check zero again after its configuration changes, and test the local return circuit. Record the present configuration and return check rather than reusing an earlier gauge reading. This is a bounded auxiliary repair, not proof that the ridge tower or the whole network is safe. No kill experience, repeat reward, new departure permission or six-party signature is issued here.",
+      "zh": "在已隔离的工装内复位同一继电器；配置改变后须再核零能，并检查本地返路回路。登记当前配置与返路检查，不沿用旧表读数。这是受限辅助维修，不证明风脊塔或全网安全；此处不发击杀经验、重复奖励、新起航权限或六方签章。"
+    }
+  ]
+}

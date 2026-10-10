@@ -1,0 +1,577 @@
+{
+  "version": "r1-author-map-20261010-1",
+  "scope": "author_only_source_map_not_player_projection",
+  "player_projection": false,
+  "generated_utc": "2026-10-10T05:03:46.222259+00:00",
+  "source_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "6b984f6f7fa5ba75b266ebf2fe002d93fb89581f283c4c0ee29e9604731d3335",
+      "bytes": 2694
+    },
+    {
+      "path": "docs/integration/MASTER_GDD_v0.1.md",
+      "sha256": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768",
+      "bytes": 14508
+    },
+    {
+      "path": "docs/integration/Integration_Decisions_v0.1.md",
+      "sha256": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622",
+      "bytes": 4447
+    },
+    {
+      "path": "reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+      "bytes": 85846
+    },
+    {
+      "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+      "bytes": 83759
+    },
+    {
+      "path": "docs/baseline/Quest_Event_System_v0.1.md",
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33",
+      "bytes": 64353
+    },
+    {
+      "path": "docs/baseline/English_Learning_System_v0.1.md",
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b",
+      "bytes": 55785
+    },
+    {
+      "path": "docs/baseline/Puzzle_System_v0.1.md",
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5",
+      "bytes": 59878
+    },
+    {
+      "path": "docs/baseline/Character_Progression_v0.1.md",
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c",
+      "bytes": 54639
+    },
+    {
+      "path": "docs/baseline/Combat_System_v0.1.md",
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88",
+      "bytes": 53850
+    },
+    {
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+      "bytes": 56895
+    },
+    {
+      "path": "docs/baseline/UI_UX_Spec_v0.1.md",
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7",
+      "bytes": 53334
+    },
+    {
+      "path": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+      "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738",
+      "bytes": 45924
+    },
+    {
+      "path": "reference/part04/data/Quest_Event_Reference_v0.1.json",
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7",
+      "bytes": 30359
+    },
+    {
+      "path": "reference/part05/data/English_Learning_Reference_v0.1.json",
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a",
+      "bytes": 62574
+    },
+    {
+      "path": "reference/part06/data/Puzzle_Reference_v0.1.json",
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19",
+      "bytes": 42061
+    },
+    {
+      "path": "reference/part08/data/Character_Progression_Reference_v0.1.json",
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6",
+      "bytes": 65966
+    },
+    {
+      "path": "reference/part08/data/Combat_Reference_v0.1.json",
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8",
+      "bytes": 56489
+    },
+    {
+      "path": "reference/part09/data/NPC_Faction_Reference_v0.1.json",
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0",
+      "bytes": 56328
+    },
+    {
+      "path": "content/source/campaign/first_entry.json",
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052",
+      "bytes": 39309
+    },
+    {
+      "path": "content/source/campaign/production_cards.json",
+      "sha256": "b6be4a3c92fa9feceecdf87782e79d6d9d087e189d3d39a0a1473c7d73965a38",
+      "bytes": 9445
+    },
+    {
+      "path": "content/source/chapter_one/chapter_one.json",
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9",
+      "bytes": 13945
+    },
+    {
+      "path": "content/source/part05-Original_Materials_v0.1.json",
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad",
+      "bytes": 27750
+    },
+    {
+      "path": "planning/tasks/CP-R1-01.md",
+      "sha256": "707a764e6fdee87a8a3bc8f29d4a07f520676f04261595a27c045fbc3f52276c",
+      "bytes": 2887
+    },
+    {
+      "path": "planning/tasks/CP-R1-02.md",
+      "sha256": "1219069dca933a4760c6a6e0cfe8b2ccfedd349887c754e4239816dcaf5fbb40",
+      "bytes": 2742
+    },
+    {
+      "path": "planning/tasks/CP-R1-03.md",
+      "sha256": "4cc49540dda2acfe3c86b288ae8ff551523405b369ecdf44a7f5674b2e012d0d",
+      "bytes": 2805
+    },
+    {
+      "path": "planning/tasks/CP-R1-04.md",
+      "sha256": "a8e0462aca2b1f90fab7733249ca363bffd47fd7c6fb7a6a8f2c5be0ecf10625",
+      "bytes": 2723
+    },
+    {
+      "path": "planning/tasks/CP-R1-05.md",
+      "sha256": "57479f09252871acdb8088a6d5438df52d4e36133da0c79bf5cc47cc2b18353c",
+      "bytes": 2749
+    },
+    {
+      "path": "planning/tasks/CP-R1-06.md",
+      "sha256": "b04b330c6599e3f0c19fb17d754c84a8646e9a720be94f8f3837178705252d71",
+      "bytes": 2754
+    },
+    {
+      "path": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "sha256": "4f738e7ef4e240141ff5bc19e4f790a9e8c85519a89df292385a32bd7d1dfd5c",
+      "bytes": 23329
+    },
+    {
+      "path": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "sha256": "e6b80838bb4b536627e1a48e75a556d651a876418edaba71c98ecd3da73d53ee",
+      "bytes": 17167
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "sha256": "47db7bcae3c6def3ad2cea2d37bf4033d298b1c63a637b318927249b61826aae",
+      "bytes": 23723
+    },
+    {
+      "path": "tests/Mist.Tests/Voyage/VoyageCases.cs",
+      "sha256": "102a115f4f20a9cbb10f4de17fdf565d85a88cdb4aed22a1a6b2351e2dd06850",
+      "bytes": 15268
+    },
+    {
+      "path": "content/source/R1/production_cards.author_only.md",
+      "sha256": "e17f97179fba8243751756eda5799200ca33ad5c9dd2e788f403daff027867b1",
+      "bytes": 8635
+    }
+  ],
+  "original_blocks": [
+    {
+      "id": "Q101-R-ARRIVAL",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Arrival record — rescue passage from the stranded coast. The public arrival berth receives the technician and four registered survivors. Record their arrival before requesting further harbour work; a person carried here is not automatically signed onto another vessel's crew. Two different berths are shown on the quay plan. The civil ferry is awaiting maintenance and a safe departure arrangement. The stored patrol boat has no handover authorisation on this arrival record. A harbour officer may review a limited maintenance request at the public dispatch desk. Bring the rescue acknowledgement and your inspection appointment, and consult the current closure order rather than assuming that rescue passage suspends it.",
+      "english_sha256": "11377d6a5efe23caa7113b29c5810ff5f1ecb7ad82ca4b501446ef66162d781e",
+      "chinese_sha256": "5057e28f678bfee5c2bee5e6092c98cb493c4a177c25237ecc1686d6b0799280",
+      "modality": "reading",
+      "scene": "R1-S01",
+      "spot": "R1-S01.arrival_note",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q101-R-CREDENTIAL",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Inspection appointment. The bearer is a trainee technician assigned to public navigation maintenance. The appointment establishes a role, not unrestricted access to every power installation. Local harbour work must be commissioned by the officer responsible for the site. Follow the conditions on that commission and keep separate records for each device. A civil ferry's navigation lamp, a workshop's independent controller and the harbour main generator are not interchangeable authorisations. This appointment was carried on the inspection vessel. It does not certify language performance, membership of a faction or the present location of the technician's mentor.",
+      "english_sha256": "05629f29996982902855448bf0bed63bb66f847b7e4f85aade93cb20d62d3d74",
+      "chinese_sha256": "f8c8c25425a072e53990ba69dbe19167ff26c6c9094f020f62b265b1ec210185",
+      "modality": "reading",
+      "scene": "R1-S01",
+      "spot": "R1-S01.credentials",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q101-R-CLOSURE",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Harbour closure order — current copy. General departures are suspended while the navigation restrictions are reviewed. Rescue arrivals continue at the public receiving berth. An arrival under that provision does not grant a vessel permission to depart. The dispatch office may issue a limited local maintenance commission where the work supports a specific safe evacuation arrangement. The commission must name its work area and power boundary. It does not itself clear a route, approve an untested navigation lamp or transfer ownership of a vessel. A later departure instruction must be checked against the route notices and the vessel's current configuration. The public consultation desk remains accessible during the closure; restricted records and equipment require their own authorisation.",
+      "english_sha256": "d3ae66538ed60f1ccb28c501832e65cd5db87099f6a2510b3d9161a364b0619a",
+      "chinese_sha256": "3d7a1e7c3884d321fd476d7b018a6b078419ce0b331e610891231400fc461114",
+      "modality": "reading",
+      "scene": "R1-S02",
+      "spot": "R1-S02.closure_notice",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q101-R-EXCEPTION",
+      "source": "content/source/campaign/first_entry.json",
+      "version": "first-entry-candidate-1",
+      "coordinate": "english",
+      "english": "Limited maintenance exception. Havel, the dispatch officer, may commission inspection and repair of the civil ferry's navigation equipment and the local workshop arrangements needed to obtain its replacement parts. State that the purpose is evacuation assistance and identify those work areas in the request. Harbour main-generator operation is outside this exception: its safety isolation has not been confirmed. A commission allows local preparation; the ferry remains at the quay until a tested current configuration and an explicitly confirmed departure plan are available. Neither a fee nor a language score is required to request the commission. Crew recruitment, patrol-boat use and access to retained accident records are separate decisions and must not be inferred from this document.",
+      "english_sha256": "63a4274cb7c860d4f86924715ce7aee3d0ecd5cf875d40b5b764dd8148d49a8a",
+      "chinese_sha256": "54455ee6b0fa3577e22d504e477c1436eb6094df466184409a47f321f5205aa5",
+      "modality": "reading",
+      "scene": "R1-S03",
+      "spot": "R1-S03.exception_notice",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q103-R-NOTICE",
+      "source": "content/source/chapter_one/chapter_one.json",
+      "version": "candidate-1",
+      "coordinate": "english",
+      "english": "Draft contingency notice, prepared on D0 at 20:50. This copy was stored with the evening dispatch papers; its issue box is blank. The text describes a possible interruption of the harbour light and tells receiving crews to wait for a revised route message. A handwritten heading calls it an accident notice, but the heading does not identify a cause. Preparing a notice in advance may indicate planning for a risk. It does not, by itself, show that somebody intended a grounding. Preserve the draft label and the empty issue box when citing this document. The approval and execution records are held separately. Do not replace them with a conclusion drawn from the title.",
+      "english_sha256": "bfbb6b2244446d183dd1d8f2e48f9d63d1c55f13cc8a0a6946f807f7d2921f7a",
+      "chinese_sha256": "a64adff0d669a30dfe6b16e386bedd8ffb19ead1ee540886f1fa362f3f9e718f",
+      "modality": "reading",
+      "scene": "R1-S08",
+      "spot": "R1-S08.notice",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q103-R-TEST",
+      "source": "content/source/chapter_one/chapter_one.json",
+      "version": "candidate-1",
+      "coordinate": "english",
+      "english": "Controlled copy of the interruption schedule. Approval was entered on D-1 at 18:00. The specified window begins at 21:14 on D0 and lasts only for the locally declared interval. The schedule requires a second check of traffic still within the affected approach before the output is interrupted. A completion box records whether that check was carried out; it is not a decorative signature. This schedule establishes that an interruption had been planned before the accident. It does not establish which later instruction was followed. Compare the actual control log, the duty handover and the independent instrument record. Keep the scheduled window distinct from the time at which the coast instrument first recorded a missing signal.",
+      "english_sha256": "0ce636fad37c2dc5cab676dd5eb811f7a9649dfb38058c358d0778e17e9b0c70",
+      "chinese_sha256": "0696d734589a84089013c4b639e8716d79ba8b6265824d436529f6235198bdf9",
+      "modality": "reading",
+      "scene": "R1-S08",
+      "spot": "R1-S08.plan",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q103-R-DUTY",
+      "source": "content/source/chapter_one/chapter_one.json",
+      "version": "candidate-1",
+      "coordinate": "english",
+      "english": "Evening duty handover, retained copy. At 21:05 on D0, a later work instruction removed the second traffic check from this test. The receiving operator recorded the change rather than marking the check as completed. A routine comparison at 20:40 placed the control clock within one second of the ship clock. The local control event copy lists the output interruption at 21:14:10, on the control clock. The instruction identifier and its issuing office are retained for further examination. This copy is not sufficient to establish what every officer knew or intended. The output event and the removed check should be recorded as separate findings: one concerns what the equipment did, the other concerns which protection was omitted. The independent coast clock was not set from this control clock.",
+      "english_sha256": "b5a612209c6623ccdce1b6dda5cc006841f117079dbc3629652db2deb137036e",
+      "chinese_sha256": "f9ebe7f202f10584e43c78c0fb3e433fd82cb491ffb997dad763b992fa64cb55",
+      "modality": "reading",
+      "scene": "R1-S08",
+      "spot": "R1-S08.duty",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q103-R-CLOCK",
+      "source": "content/source/chapter_one/chapter_one.json",
+      "version": "candidate-1",
+      "coordinate": "english",
+      "english": "Comparison envelope for the coast recorder collected after the shore rescue. The original instrument label reports loss of the observed light signal at 21:14:12. Its last routine comparison with the ship clock had an uncertainty of approximately two seconds. The harbour control event is labelled 21:14:10 on a different clock. The handover copy reports a separate control-to-ship comparison within one second. The combined comparisons therefore allow a three-second interval between the two labelled clocks. These readings are consistent within that recorded interval; they are not evidence that every clock displayed an identical second. Together with the approved window and the duty handover, the records support a planned interruption with a required protection removed. Keep the original extract attached. Nothing in this envelope certifies the sender of the inspection mail as currently alive, safe or present at a particular destination.",
+      "english_sha256": "e1e9b820ef71d40970467a8950652121ccafe7731cd8853e01bba3ef48bf5ec4",
+      "chinese_sha256": "50d8760e5452687331185265c247c94579d516cc0438db351e61f40d8c4a7a92",
+      "modality": "reading",
+      "scene": "R1-S08",
+      "spot": "R1-S08.recorder_copy",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q104-R-CONTROLS",
+      "source": "content/source/chapter_one/chapter_one.json",
+      "version": "candidate-1",
+      "coordinate": "english",
+      "english": "Tidegate maintenance procedure. The tower unit is separate from the west workshop machine and from the civil ferry supply. Confirm the local supply indication at the tower base before entering the control level. During the encounter, the left cooling valve is worked from the left front position and the right valve from the right front position. Either valve may be closed first. Local supply isolation is operated from the left rear position after both valves are closed. The interlock refuses an early isolation request without spending its operating allowance. Each person may operate one work point in a personal turn. Reducing the unit to its last reserve of stopping progress does not establish safety: both valves, isolation and a controlled threat are all required. Ordinary shields and cleansing cannot substitute for this sequence.",
+      "english_sha256": "791059148ad7c3a47a782f7f97a903943a562d98a8326f3dd2e28043c7a1b290",
+      "chinese_sha256": "bca1ed6c6d23445d786b96300101ae9665cb877d49de28d716058d0420a54eb4",
+      "modality": "reading",
+      "scene": "R1-S09",
+      "spot": "R1-S09.control_notice",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q104-R-HANDOVER",
+      "source": "content/source/chapter_one/chapter_one.json",
+      "version": "candidate-1",
+      "coordinate": "english",
+      "english": "Harbour loan and cross-region inspection terms. Once the Tidegate local safety record has been verified, return to the receiving berth to acknowledge the loan of the sealed inspection vessel Glimmer. Its watch officer maintains the basic ship service; accepting a companion invitation is not a condition of using the vessel. The deck, archive cabin and shared maintenance compartment are three spaces of this one ship, not separate ships at each harbour. The loan does not transfer the civil ferry or its installed equipment. The next inspection commission points to the grove receiving records. It does not certify the current whereabouts of the missing mentor. Basic sailing along an opened route does not require a fuel ticket. The vessel still needs its ordinary gradual repairs; the handover does not turn it into a fully upgraded ship.",
+      "english_sha256": "84f037331359de4c6a7a7d44a000c9caf7776f2506de285bc910a0ffcec1b6a1",
+      "chinese_sha256": "64f9e0c79368e946ad8e10d988117e92fd78b7c7c23596812c2131af5881f65d",
+      "modality": "reading",
+      "scene": "R1-S09",
+      "spot": "R1-S09.handover_terms",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "Q102-R-NOTICE",
+      "paragraph": "Q102-R-NOTICE-p01",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "All departures remain subject to the current navigation restrictions. Route A is closed until further notice. A previous journey through that channel is not evidence that it is safe to use today, and an older chart should not be treated as permission to enter it.",
+      "english_sha256": "c70577706ca160104ce1ada6c468eac342317d5a9031dd784e32c7d743f119e2",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-R-NOTICE",
+      "paragraph": "Q102-R-NOTICE-p02",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Route C remains open, but a vessel may enter it only if its navigation beacon is operational. The beacon must be checked in its installed configuration before departure. Permission to work on a vessel does not remove this requirement, nor does the fact that another vessel has already left the harbour.",
+      "english_sha256": "39325a146d70782f3d3bf08c198c0e38399ce2d6c81d998e5a018550e7a5562b",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-R-NOTICE",
+      "paragraph": "Q102-R-NOTICE-p03",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "A separate notice at the dispatch desk sets out the conditions for Route B. Crews should compare those conditions with the particulars of their own vessel rather than assume that a channel available to one boat is available to every boat. The departure plan must identify the chosen route and explain any equipment arrangements on which it depends.",
+      "english_sha256": "302b50cbf66d1dcfc60e2f92a18a57cf100a95ad5e52c2651d46b196a7c36bab",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-R-B",
+      "paragraph": "Q102-R-B-p01",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Route B may be used only while the auxiliary pump is running and only by vessels with a draught of no more than 1.2 metres. Both conditions apply. The pump controls water in the dock facilities; it does not alter the draught limit printed in this notice.",
+      "english_sha256": "a002c9e0c47c9a553e15c1b7a2c414f6bf574fdbda084de08965b774ceb5542b",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-R-B",
+      "paragraph": "Q102-R-B-p02",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "An instruction to start the pump therefore concerns the operation of the facilities, not permission for a particular vessel to enter the channel. For this evacuation, use the vessel particulars recorded for the approved load. A change to that load is not an authorised alternative within the present operation. Keep this restriction with the departure record.",
+      "english_sha256": "402dd6e3fff167f4a2c331b9f959775c74961a4c824e5ead12ce540ae2ab1e74",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-R-VESSEL",
+      "paragraph": "Q102-R-VESSEL-p01",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "The ferry has a recorded draught of 1.4 metres under the approved evacuation load. These particulars apply to the vessel being prepared at this berth, not to the smaller service boats used elsewhere in the harbour.",
+      "english_sha256": "171ea881e6aab0abf620eb1346a3e462e2db4c3fae2861aebe7c3e1d646d82f1",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-R-VESSEL",
+      "paragraph": "Q102-R-VESSEL-p02",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "The navigation beacon is present, but its mounting bracket is damaged. The boat also carries a charged backup battery reserved for the beacon. Repairs and connections must be completed before the installed beacon is tested. A check made before the configuration changes cannot certify the new configuration.",
+      "english_sha256": "69e206d53c85cacd0e4a963c0c0aba7f93033f10e0d75228723c85b35654c125",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-R-BATTERY",
+      "paragraph": "Q102-R-BATTERY-p01",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "This charged battery has sufficient reserve for the beacon during the planned evacuation. It is not intended to restore the harbour supply or power workshop machinery. Connect it to the repaired beacon and check the installed equipment before departure. If the connection is changed after that check, test the equipment again. The battery remains with the ferry once the evacuation begins.",
+      "english_sha256": "cb7833f311d255d6f88735f10859ef691e708a3f67fd7c930a836d1944fabbe5",
+      "modality": "reading",
+      "family": "FAM-Q102-HARBOUR-ROUTES",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "paragraph": "Q102-L-REVISION-p01",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Dispatcher: Before you collect any parts, there is a correction to the earlier message. We were told that the spare navigation beacon had been destroyed. The inspection does not support that account. The beacon itself still works; the damaged part is the bracket that holds it in place.",
+      "english_sha256": "f5a76f1473cfb4de5f45a3efe92de1375b9ebad652ddcfd9ffb25f55b47ebb66",
+      "modality": "listening",
+      "family": "FAM-Q102-AUDIO-CORRECTION",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "paragraph": "Q102-L-REVISION-p02",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Electrician: That distinction matters. Do not look for a replacement beacon when what you need is a replacement bracket. There is a suitable bracket in the west workshop. Access to the workshop has to be dealt with locally, so this recording is not permission to walk through a restricted work area.",
+      "english_sha256": "5b817a69b3b4fd42904987f2e3f76179d36f8611efc4ff896b89cec771fa9046",
+      "modality": "listening",
+      "family": "FAM-Q102-AUDIO-CORRECTION",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "paragraph": "Q102-L-REVISION-p03",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Dispatcher: And the main generator? Someone at the quay thought restarting it would make the repair easier.",
+      "english_sha256": "4f5a3f69c18d060545b6593f92427c6a162403aba9db36e446554d2f12edf3f6",
+      "modality": "listening",
+      "family": "FAM-Q102-AUDIO-CORRECTION",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "paragraph": "Q102-L-REVISION-p04",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Electrician: Keep it off. The inspection team has not finished isolating the flooded cables. The ferry has its own charged backup battery, with enough reserve for the beacon during this evacuation. That supply is separate from the workshop equipment. Once the new bracket is fitted and the battery connected, check the beacon on the boat. A working light on a bench is not the same as a checked installation.",
+      "english_sha256": "98cdaa0eff10b72fc2b6cdfadd94f5b4bd3efec11397e39cf54cce841334d6f0",
+      "modality": "listening",
+      "family": "FAM-Q102-AUDIO-CORRECTION",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "paragraph": "Q102-L-REVISION-p05",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Dispatcher: So the earlier report needs to be corrected, but we are not yet issuing a departure instruction.",
+      "english_sha256": "bc78c9fa03b67e460d438b105b4be1c6c5add93e29e0a1ad2d46ee65dfb4d2f4",
+      "modality": "listening",
+      "family": "FAM-Q102-AUDIO-CORRECTION",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "paragraph": "Q102-L-REVISION-p06",
+      "source": "content/source/part05-Original_Materials_v0.1.json",
+      "version": "0.1",
+      "coordinate": "paragraphs.text",
+      "english": "Electrician: Exactly. The route still has to be selected from the current notices and the ferry particulars. I am confirming the equipment arrangement, not saying that every channel is suitable. Write down the route, the restrictions that ruled out the alternatives, and what the crew must do before leaving. If you are not sure what an instruction means, ask for clarification rather than treating a guess as approval.",
+      "english_sha256": "61840cb97d09bee5c4305614d38ccd0d88b2ab022040eec614247d36886a8528",
+      "modality": "listening",
+      "family": "FAM-Q102-AUDIO-CORRECTION",
+      "review_status": "frozen_original_no_edits",
+      "human_review": "not_certified_by_index"
+    }
+  ],
+  "canonical_rewards": [
+    {
+      "quest_id": "Q-101",
+      "title": "封港令之外",
+      "chapter": 1,
+      "entitlement_key": "Q-101:resolution",
+      "old_reward_ref": "REWARD-Q-101-TBD",
+      "xp": 100,
+      "marks": 20,
+      "parts": 0,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-102",
+      "title": "最后一班渡轮",
+      "chapter": 1,
+      "entitlement_key": "Q-102:resolution",
+      "old_reward_ref": "REWARD-Q102-RESOLUTION",
+      "xp": 160,
+      "marks": 60,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": [
+        "RE-01"
+      ]
+    },
+    {
+      "quest_id": "Q-103",
+      "title": "预先写好的事故",
+      "chapter": 1,
+      "entitlement_key": "Q-103:resolution",
+      "old_reward_ref": "REWARD-Q-103-TBD",
+      "xp": 180,
+      "marks": 70,
+      "parts": 1,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": []
+    },
+    {
+      "quest_id": "Q-104",
+      "title": "潮门塔重启",
+      "chapter": 1,
+      "entitlement_key": "Q-104:resolution",
+      "old_reward_ref": "REWARD-Q-104-TBD",
+      "xp": 220,
+      "marks": 100,
+      "parts": 2,
+      "source": "world_resolution_only",
+      "language_multiplier": 1,
+      "method_multiplier": 1,
+      "awarded_items": [
+        "AR-02",
+        "AR-03",
+        "RE-02",
+        "TL-01"
+      ]
+    }
+  ],
+  "optional_xp": 200,
+  "human_review": "human_pending",
+  "calibration": "not_run",
+  "audio_audition": "not_run_by_author_index",
+  "source_text_changed": false
+}

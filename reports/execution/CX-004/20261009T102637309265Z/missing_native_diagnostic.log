@@ -1,0 +1,25 @@
+{"argv": ["C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-004\\20261009T102637309265Z\\missing_native\\StorageProbe.exe", "--headless", "--", "--native-diagnostic"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 3}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+
+[stderr]
+MISTSEA_STORAGE_ERROR System.TypeInitializationException: The type initializer for 'Microsoft.Data.Sqlite.SqliteConnection' threw an exception.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.DllNotFoundException: Unable to load DLL 'e_sqlite3' or one of its dependencies: 找不到指定的模块。 (0x8007007E)
+   at SQLitePCL.SQLite3Provider_e_sqlite3.NativeMethods.sqlite3_libversion_number()
+   at SQLitePCL.SQLite3Provider_e_sqlite3.NativeMethods.sqlite3_libversion_number()
+   at SQLitePCL.SQLite3Provider_e_sqlite3.SQLitePCL.ISQLite3Provider.sqlite3_libversion_number()
+   at SQLitePCL.raw.SetProvider(ISQLite3Provider imp)
+   at SQLitePCL.Batteries_V2.Init()
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   at Microsoft.Data.Sqlite.SqliteConnection..cctor()
+   --- End of inner exception stack trace ---
+   at Microsoft.Data.Sqlite.SqliteConnection..ctor(String connectionString)
+   at StorageHarness.Open(String path, Boolean existingOnly, Int32 timeout)
+   at StorageNode._Ready()

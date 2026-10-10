@@ -1,0 +1,66 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 11,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R3-03",
+      "name": "A bare actor region string cannot issue regional commissions or real arrival",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Actual regional voyage lands without granting any unvisited record, reward or rescue",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Three rescued workers actually travel through escort and local reception before Q301 awards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Current water configuration invalidates the old drainage proof and preserves independent ladder",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Independent tripartite records close Q302 without recruitment or confession and cannot change original raw text",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "A third qualified allocation is accepted while unlimited extraction and borrowed tower resources are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Finite watched transition closes with two duties; a real shift handoff invalidates current tower test",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Actual Q303 can close before Q302; formal Q304 remains locked until both and never auto braces the arm",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Actual tower handoff rewards once, grants second calibration only then and persists Safe without conversion",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Saved prose alone grants nothing; ready preview rejects actual draft CAS changes and continuation",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Non-recruited Oren repairs own auxiliary kit under an actual work post and another person reviews without absolution",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

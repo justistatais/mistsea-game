@@ -1,0 +1,54 @@
+{
+  "task_id": "CX-066",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-066/evidence/20261009T181119059440Z/sources/reports/build/20261009T174133016254Z/test_results.json",
+      "sha256": "995544301daee8d2af14c519027bc9a29c05c4d3a69e5ab49c9b59b2e80f42ab",
+      "bytes": 2364,
+      "source_path_at_execution": "reports/build/20261009T174133016254Z/test_results.json"
+    },
+    {
+      "path": "reports/execution/CX-066/evidence/20261009T181119059440Z/sources/reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335,
+      "source_path_at_execution": "reports/continuous/Scope_20261009.md"
+    },
+    {
+      "path": "reports/execution/CX-066/evidence/20261009T181119059440Z/sources/reports/continuous/finish_runtime_extensions.py",
+      "sha256": "b75a016dbb6275e9b1a0ace7be0a9c9cb7f1ca274e99f08d49d484ccbafa8458",
+      "bytes": 3834,
+      "source_path_at_execution": "reports/continuous/finish_runtime_extensions.py"
+    },
+    {
+      "path": "reports/execution/CX-066/evidence/20261009T181119059440Z/sources/src/Mist.Application/Assets/AssetPreparationService.cs",
+      "sha256": "de59f1b0c27fc5b3af91d5665ec0200d1c7b6237f371bfc7a61e138f2896d247",
+      "bytes": 9329,
+      "source_path_at_execution": "src/Mist.Application/Assets/AssetPreparationService.cs"
+    },
+    {
+      "path": "reports/execution/CX-066/evidence/20261009T181119059440Z/sources/src/Mist.Application/Assets/INTEGRATION.md",
+      "sha256": "e56eecc868d2346ef844ab8fb19cfa7944b3f76c14e2dd05ce234386669ed61d",
+      "bytes": 7286,
+      "source_path_at_execution": "src/Mist.Application/Assets/INTEGRATION.md"
+    },
+    {
+      "path": "reports/execution/CX-066/evidence/20261009T181119059440Z/sources/src/Mist.Core/Assets/AssetPipeline.cs",
+      "sha256": "c550a15c49b8dc58516c64255f81c9b9c9514947c7a76ff596b8068d0f50e73b",
+      "bytes": 26740,
+      "source_path_at_execution": "src/Mist.Core/Assets/AssetPipeline.cs"
+    },
+    {
+      "path": "reports/execution/CX-066/evidence/20261009T181119059440Z/sources/tests/Mist.Tests/Assets/AssetsCases.cs",
+      "sha256": "8033544b308f14f4c9f48cdad24e4303ecac3ac1c9d4ad9c26fe3d0746f1d108",
+      "bytes": 19693,
+      "source_path_at_execution": "tests/Mist.Tests/Assets/AssetsCases.cs"
+    }
+  ],
+  "interface_schema_impact": {
+    "storage_schema": 2,
+    "new_modules": "read-only production/observation rules and exact original-source projection",
+    "human_approvals": "not granted"
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

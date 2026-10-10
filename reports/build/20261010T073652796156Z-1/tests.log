@@ -1,0 +1,41 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-NPC-LIFE"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 5,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Twenty-four original ship life scenes retain full text and one original chair script",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Normal zero-XP joined crew walks in the actual ship, pauses and resumes a full once-only event without rewards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Actual archive scene requires safe participant walks and a held NPC lease blocks the whole event",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Joined does not authorize private replies or fabricate an earned old toolframe",
+      "result": "passed"
+    },
+    {
+      "task": "CP-NPC-LIFE",
+      "name": "Normal native-entry profile has actual recruited crew and no opened life scene",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: assertion failed\r\n   at Mist.Tests.TestRegistry.Require(Boolean condition, String message) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 11\r\n   at Mist.Tests.VesselLife.VesselLifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__10_4() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\VesselLife\\VesselLifeCases.cs:line 50\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 34"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

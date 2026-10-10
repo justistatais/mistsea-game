@@ -1,0 +1,19 @@
+{
+  "scope": "actual Windows native isolated completed R4 profile from verified no-fixture route",
+  "checks": {
+    "restored_R4_scene_and_completed_objective": true,
+    "six_navigation_buttons_accessible": true,
+    "five_audio_sliders_and_save_visible": true
+  },
+  "source_verified_run": "reports/build/20261010T031901126174Z",
+  "state": {
+    "window_title": "雾海档案：第七座灯塔 (DEBUG)",
+    "scene": "玻璃学城 · 棱镜塔值守厅"
+  },
+  "observation": "UIA and direct native screenshot inspection; scene technical stand labels require local presentation mapping",
+  "human_playthrough": null,
+  "physical_ime": null,
+  "screen_reader": null,
+  "language_calibration": null,
+  "audition": null
+}

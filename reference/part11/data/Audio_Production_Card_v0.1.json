@@ -1,0 +1,57 @@
+{
+  "id": "AUD-Q102-L-REVISION",
+  "state": "script_only",
+  "script_hash": "cee0b3f65e56ecc477af656159b774ac701dad290b9af9fd389a9159e9fdb5f7",
+  "rendered_from_hash": null,
+  "audio_hash": null,
+  "duration_ms": null,
+  "segments": [],
+  "required_segment_ids": [
+    "Q102-L-REVISION-p01",
+    "Q102-L-REVISION-p02",
+    "Q102-L-REVISION-p03",
+    "Q102-L-REVISION-p04",
+    "Q102-L-REVISION-p05",
+    "Q102-L-REVISION-p06"
+  ],
+  "listening_review_ref": null,
+  "voices": [
+    {
+      "id": "VOICE-DISPATCH-A",
+      "actor_or_provider": null,
+      "rights_status": "unassigned"
+    },
+    {
+      "id": "VOICE-TECH-B",
+      "actor_or_provider": null,
+      "rights_status": "unassigned"
+    }
+  ],
+  "recording_brief": {
+    "speakers": 2,
+    "word_rate_initial": [
+      145,
+      165
+    ],
+    "word_rate_is_not_band_equivalence": true,
+    "do_not_vocalize": [
+      "speaker_labels",
+      "answer_key",
+      "metadata",
+      "editor_notes"
+    ],
+    "verify": [
+      "bracket versus beacon",
+      "generator remains off",
+      "separate supplies",
+      "installed test versus bench check",
+      "no departure authorization"
+    ],
+    "number_readings": {
+      "1.2": "one point two",
+      "1.4": "one point four"
+    },
+    "subtitle_policy": "align to accepted spoken script; pauses and speaker names remain accurate; no future answers"
+  },
+  "note": "No audio bytes are included or synthesized in Part11; timing must come from the eventual real track."
+}

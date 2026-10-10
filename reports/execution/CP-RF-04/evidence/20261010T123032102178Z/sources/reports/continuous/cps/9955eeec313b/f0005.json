@@ -1,0 +1,37 @@
+{
+  "version": "rf-balance-2",
+  "strategy_version": "rf-controller-2",
+  "review_status": "original_unreviewed_human_pending",
+  "player_projection": false,
+  "task": "CX-073",
+  "scope_authorization": "Root explicitly authorized the owned factory, debug strategy and actual normal-route tests on 2026-10-10; no immutable baseline edits.",
+  "reason": "Actual 28-level H/M/S/Mixed Rook rounds 10/9/17/14 and core rounds 16/13/18/18 exceeded the declared engineering windows. Mixed Rook retained one team HP. The previous strategy repeatedly preferred 2AP shields and never used S02/S04 in the S Rook record.",
+  "baseline_evidence": "reports/build/20261010T045048489023Z/test_results.json",
+  "parameters": [
+    { "subject": "rf-rook", "field": "standard_max_hp", "original": 1200, "candidate": 1000 },
+    { "subject": "rf-rook-guard-left", "field": "standard_max_hp", "original": 220, "candidate": 180 },
+    { "subject": "rf-rook-guard-right", "field": "standard_max_hp", "original": 220, "candidate": 180 },
+    { "subject": "rf-central", "field": "standard_max_hp", "original": 1900, "candidate": 1500 },
+    { "subject": "rf-relay-left", "field": "standard_max_hp", "original": 240, "candidate": 180 },
+    { "subject": "rf-relay-right", "field": "standard_max_hp", "original": 240, "candidate": 180 }
+  ],
+  "preserved": [ "all announced enemy damage and combined contributions", "armor", "pressure thresholds", "two real Rook points", "eight required core controls", "three stages", "two finite next-round relays", "70/35/1 percent-derived gates", "same-attempt resource continuity", "difficulty multipliers", "actual party parameters and lawful builds", "world rewards and policy qualification" ],
+  "implementation": "src/Mist.Core/Finale/FinaleEncounterFactory.cs applies the selected declared capacities once before entry. Its optional rf-balance-1 argument retains original capacities for the original mechanism regression. Existing stored encounters keep their saved capacities.",
+  "strategy": {
+    "file": "game/Debug/FinaleBattleCandidate.cs",
+    "debug_only": true,
+    "input": "actual snapshot, learned active actions, current legal previews and public current intentions",
+    "changes": [ "one-action legal preview probes compare real HP progress, public interruption, protection and legal empowerment", "nonlethal shielding no longer automatically consumes every injured ally slot", "imminent seat loss retains a strong survival priority", "shared aid is considered below 40 percent HP or imminent lethal current intention", "known basic-strike empowerment/trap forecasts grant no resources or future action authority" ],
+    "human_control": "Normal player controls remain manual. This controller is exclusively engineering diagnostics."
+  },
+  "candidate_assertions": {
+    "rook_rounds": [5, 8],
+    "core_rounds": [8, 10],
+    "mixed_rook_minimum_living_seats": 2,
+    "mixed_rook_minimum_team_hp_percent": 20,
+    "margin_meaning": "An explicit local engineering threshold to reject the observed one-HP result, not an original canon clause, win-rate claim or human acceptance."
+  },
+  "result": null,
+  "next_execution": "Root serial build and CP-RF-03 real zero-XP four-build route plus eight original mechanism cases; failed pace assertions retain full actual reports before rejecting.",
+  "pending": [ "candidate execution", "native actual client", "human 6–10 minute experience", "other difficulties and recruited variants", "sound, language and rights human review" ]
+}

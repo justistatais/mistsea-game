@@ -1,0 +1,86 @@
+[
+  {
+    "id": "PR-CAI-01",
+    "title": "局部事件与分支草拟",
+    "path": "prompts/PR-CAI-01.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-02",
+    "title": "6.5目标阅读材料",
+    "path": "prompts/PR-CAI-02.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-03",
+    "title": "听力脚本与演播标注",
+    "path": "prompts/PR-CAI-03.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-04",
+    "title": "人物条件对白",
+    "path": "prompts/PR-CAI-04.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-05",
+    "title": "写作任务与反馈依据",
+    "path": "prompts/PR-CAI-05.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-06",
+    "title": "原创词义搭配与转移例句",
+    "path": "prompts/PR-CAI-06.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-07",
+    "title": "状态化提示链",
+    "path": "prompts/PR-CAI-07.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-08",
+    "title": "中文辅助与本地化核对",
+    "path": "prompts/PR-CAI-08.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-09",
+    "title": "独立可解性与信息审查",
+    "path": "prompts/PR-CAI-09.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-10",
+    "title": "运行时限定段落解释",
+    "path": "prompts/PR-CAI-10.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-11",
+    "title": "运行时写作反馈",
+    "path": "prompts/PR-CAI-11.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  },
+  {
+    "id": "PR-CAI-12",
+    "title": "运行时行动意思候选",
+    "path": "prompts/PR-CAI-12.md",
+    "version": "0.1",
+    "validated_against_real_model": false
+  }
+]

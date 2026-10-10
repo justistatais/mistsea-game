@@ -1,0 +1,80 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CX-070"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 13,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-070",
+      "name": "Unbound real review sources yield an honest empty advisory report with no reward or adventure penalty",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Known facts, current access, release, 6.5 target and training partition filter before any title is returned",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Uncalibrated, unavailable, synthetic-authority and regression-only assets cannot masquerade as verified practice",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "At most three recommendations preserve distinct family, goal and topic; an explicit request has first priority",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Refusal survives the next safe opportunity and uncertain clock; only a deliberate new request overrides it",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Protected input and unsafe windows suppress all suggestions, including explicit requests",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Automatic practice excludes exposed families; deliberate repetition remains practice and never a new transfer source",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Intervals advance only once per independently successful new family; repeats and unassessed outcomes cannot postpone indefinitely",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Clock anomalies leave outcome history intact and timing unverified, without offline-day decay",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Supports bind submission time and target; text paths and structured confirmation remain distinct from independent language",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Canonical families defeat renaming and hashes; delayed transfer requires three families and verified real elapsed time",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Two distinct recent confirmed difficulties suggest review without erasing successes; one-family retries do not",
+      "result": "passed"
+    },
+    {
+      "task": "CX-070",
+      "name": "Actual privacy erasure or load change while projecting suggestions discards output with no world transaction",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

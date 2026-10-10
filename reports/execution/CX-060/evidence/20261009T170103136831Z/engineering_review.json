@@ -1,0 +1,584 @@
+{
+  "task_id": "CX-060",
+  "scope": "已走通路径合并，安全锚点重访，同一船实例按停靠改变外观。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "护送货物不瞬移",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-060",
+              "name": "Actual Q102 navigation emits a paired movement receipt that grants one return edge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Map discovery cannot register an unvisited anchor; only two declared safe kinds qualify",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Physical paired transition receipt permits return; generic legacy or forged path does not",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A one-way walked edge cannot be silently reversed; departed ferry invalidates the old route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Reactivated workshop interlock cannot reuse its previously safe traversal",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Tower-safe return survives continue and enhancement without granting full preparation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Cargo in transit, active combat and a foreground event prevent relocation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An atomic foreground lease blocks relocation without a running event and remains owned",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "One Glimmer instance serves three spaces; declined Lina and zero fuel never lock legal sailing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Ship requires actual safe placement and boarding proximity; forged or missing instances fail",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Q604 freezes outside travel and ship entry while preserving the named prefinal checkpoint",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An intermediate room wall cannot be skipped merely because both scene edges were walked",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A newly dangerous strip inside an intermediate room invalidates an otherwise current walked route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A safe AStar detour inside the intermediate room still permits the folded physical route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Return validates both the actor-to-first-exit leg and last-entry-to-anchor leg",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return cannot cross a wall or newly hazardous corridor",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return with a legal obstacle detour uses real navigation and preserves balances",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "The search may re-enter a different component of one scene through an already walked safe loop",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Later-region scene IDs and an authority receipt cannot substitute for missing actual geometry",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A copied valid transition proof cannot be relabelled as a different scene edge",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Actual route proof and safe geometry rules exist; later region producers, three native ship rooms and sailing UI are incomplete."
+      }
+    },
+    {
+      "criterion": "旧塔安全不重置",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-060",
+              "name": "Actual Q102 navigation emits a paired movement receipt that grants one return edge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Map discovery cannot register an unvisited anchor; only two declared safe kinds qualify",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Physical paired transition receipt permits return; generic legacy or forged path does not",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A one-way walked edge cannot be silently reversed; departed ferry invalidates the old route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Reactivated workshop interlock cannot reuse its previously safe traversal",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Tower-safe return survives continue and enhancement without granting full preparation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Cargo in transit, active combat and a foreground event prevent relocation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An atomic foreground lease blocks relocation without a running event and remains owned",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "One Glimmer instance serves three spaces; declined Lina and zero fuel never lock legal sailing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Ship requires actual safe placement and boarding proximity; forged or missing instances fail",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Q604 freezes outside travel and ship entry while preserving the named prefinal checkpoint",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An intermediate room wall cannot be skipped merely because both scene edges were walked",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A newly dangerous strip inside an intermediate room invalidates an otherwise current walked route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A safe AStar detour inside the intermediate room still permits the folded physical route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Return validates both the actor-to-first-exit leg and last-entry-to-anchor leg",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return cannot cross a wall or newly hazardous corridor",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return with a legal obstacle detour uses real navigation and preserves balances",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "The search may re-enter a different component of one scene through an already walked safe loop",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Later-region scene IDs and an authority receipt cannot substitute for missing actual geometry",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A copied valid transition proof cannot be relabelled as a different scene edge",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Actual route proof and safe geometry rules exist; later region producers, three native ship rooms and sailing UI are incomplete."
+      }
+    },
+    {
+      "criterion": "拒绝莉娜不锁航行",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-060",
+              "name": "Actual Q102 navigation emits a paired movement receipt that grants one return edge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Map discovery cannot register an unvisited anchor; only two declared safe kinds qualify",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Physical paired transition receipt permits return; generic legacy or forged path does not",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A one-way walked edge cannot be silently reversed; departed ferry invalidates the old route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Reactivated workshop interlock cannot reuse its previously safe traversal",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Tower-safe return survives continue and enhancement without granting full preparation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Cargo in transit, active combat and a foreground event prevent relocation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An atomic foreground lease blocks relocation without a running event and remains owned",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "One Glimmer instance serves three spaces; declined Lina and zero fuel never lock legal sailing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Ship requires actual safe placement and boarding proximity; forged or missing instances fail",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Q604 freezes outside travel and ship entry while preserving the named prefinal checkpoint",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An intermediate room wall cannot be skipped merely because both scene edges were walked",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A newly dangerous strip inside an intermediate room invalidates an otherwise current walked route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A safe AStar detour inside the intermediate room still permits the folded physical route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Return validates both the actor-to-first-exit leg and last-entry-to-anchor leg",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return cannot cross a wall or newly hazardous corridor",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return with a legal obstacle detour uses real navigation and preserves balances",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "The search may re-enter a different component of one scene through an already walked safe loop",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Later-region scene IDs and an authority receipt cannot substitute for missing actual geometry",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A copied valid transition proof cannot be relabelled as a different scene edge",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Actual route proof and safe geometry rules exist; later region producers, three native ship rooms and sailing UI are incomplete."
+      }
+    },
+    {
+      "criterion": "普通旅行不收死锁燃料门票",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-060",
+              "name": "Actual Q102 navigation emits a paired movement receipt that grants one return edge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Map discovery cannot register an unvisited anchor; only two declared safe kinds qualify",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Physical paired transition receipt permits return; generic legacy or forged path does not",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A one-way walked edge cannot be silently reversed; departed ferry invalidates the old route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Reactivated workshop interlock cannot reuse its previously safe traversal",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Tower-safe return survives continue and enhancement without granting full preparation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Cargo in transit, active combat and a foreground event prevent relocation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An atomic foreground lease blocks relocation without a running event and remains owned",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "One Glimmer instance serves three spaces; declined Lina and zero fuel never lock legal sailing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Ship requires actual safe placement and boarding proximity; forged or missing instances fail",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Q604 freezes outside travel and ship entry while preserving the named prefinal checkpoint",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "An intermediate room wall cannot be skipped merely because both scene edges were walked",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A newly dangerous strip inside an intermediate room invalidates an otherwise current walked route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A safe AStar detour inside the intermediate room still permits the folded physical route",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Return validates both the actor-to-first-exit leg and last-entry-to-anchor leg",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return cannot cross a wall or newly hazardous corridor",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Same-scene return with a legal obstacle detour uses real navigation and preserves balances",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "The search may re-enter a different component of one scene through an already walked safe loop",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "Later-region scene IDs and an authority receipt cannot substitute for missing actual geometry",
+              "result": "passed"
+            },
+            {
+              "task": "CX-060",
+              "name": "A copied valid transition proof cannot be relabelled as a different scene edge",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Actual route proof and safe geometry rules exist; later region producers, three native ship rooms and sailing UI are incomplete."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-060",
+        "name": "Actual Q102 navigation emits a paired movement receipt that grants one return edge",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Map discovery cannot register an unvisited anchor; only two declared safe kinds qualify",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Physical paired transition receipt permits return; generic legacy or forged path does not",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "A one-way walked edge cannot be silently reversed; departed ferry invalidates the old route",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Reactivated workshop interlock cannot reuse its previously safe traversal",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Tower-safe return survives continue and enhancement without granting full preparation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Cargo in transit, active combat and a foreground event prevent relocation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "An atomic foreground lease blocks relocation without a running event and remains owned",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "One Glimmer instance serves three spaces; declined Lina and zero fuel never lock legal sailing",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Ship requires actual safe placement and boarding proximity; forged or missing instances fail",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Q604 freezes outside travel and ship entry while preserving the named prefinal checkpoint",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "An intermediate room wall cannot be skipped merely because both scene edges were walked",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "A newly dangerous strip inside an intermediate room invalidates an otherwise current walked route",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "A safe AStar detour inside the intermediate room still permits the folded physical route",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Return validates both the actor-to-first-exit leg and last-entry-to-anchor leg",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Same-scene return cannot cross a wall or newly hazardous corridor",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Same-scene return with a legal obstacle detour uses real navigation and preserves balances",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "The search may re-enter a different component of one scene through an already walked safe loop",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "Later-region scene IDs and an authority receipt cannot substitute for missing actual geometry",
+        "result": "passed"
+      },
+      {
+        "task": "CX-060",
+        "name": "A copied valid transition proof cannot be relabelled as a different scene edge",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-025",
+    "CX-055",
+    "CX-056"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+    "Actual route proof and safe geometry rules exist; later region producers, three native ship rooms and sailing UI are incomplete."
+  ]
+}

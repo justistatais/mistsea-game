@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "task_id": "REPLACE_WITH_TASK_ID",
+  "result": "not_run",
+  "source_commit": null,
+  "working_tree_manifest": null,
+  "build_id": null,
+  "environment": {
+    "os": null,
+    "godot": null,
+    "dotnet": null,
+    "sqlite_native": null
+  },
+  "artifacts": [],
+  "commands": [],
+  "acceptance_results": [],
+  "not_run": [],
+  "blocked_reasons": [],
+  "review": {
+    "required_role": null,
+    "reviewer": null,
+    "decision": "pending",
+    "is_synthetic": false,
+    "evidence": []
+  },
+  "data_migration": {
+    "needed": false,
+    "record": null
+  },
+  "language_calibration": {
+    "status": "not_performed",
+    "evidence": null
+  },
+  "notes": "模板，不是完成证明。artifacts填写真实path/sha256；commands填写argv/exit_code/output_path；人为工作需要真实记录。"
+}

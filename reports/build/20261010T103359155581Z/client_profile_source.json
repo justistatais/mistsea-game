@@ -1,0 +1,70 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T100947135499Z",
+  "selected_case": {
+    "index": 355,
+    "task": "CX-060",
+    "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "82bcb2792f28b80ba30c79e843aae27e689f235fc7d73df2e5059dacdd74b49c",
+  "source_active_database": "reports/build/20261010T100947135499Z/case_runs/0355/testdata/voyage-normal-r2-ad3bb86a-836b-44d0-8b94-83b3b4129a57/recovery/inventory-v2-1cc95b88-8d2b-4c14-abe6-2f6f8ecef87f.sqlite",
+  "source_active_database_sha256": "af2889516b6e97375e2bf0fdb8757c45dd9c96db15866bee8d5b02034b61479b",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T100947135499Z",
+  "source": "reports/build/20261010T100947135499Z/case_runs/0355/testdata/voyage-normal-r2-ad3bb86a-836b-44d0-8b94-83b3b4129a57/recovery/normal-r1-r2-voyage.json",
+  "fixture": false,
+  "case": {
+    "index": 355,
+    "task": "CX-060",
+    "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2dc693404ab314119494f2f66eabbac50d0e3b0cd2ccdc00cd5d83858396ef7d",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "f02268ce505ccd53615758cf66d141457de4217df0aecae16d9c9f3e6c15a313",
+  "case_command_sha256": "1d26cb8c20de8b48d728d71fe2266404e584670cd5fe2cced4e970877c8fbbee",
+  "proof_sha256": "82bcb2792f28b80ba30c79e843aae27e689f235fc7d73df2e5059dacdd74b49c",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "9ff40d797ff9d8c150f7dbc7820bd235981679029cc603e144904cb71c568bb5"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "d3ba2d02ef2efb1c65d28149ddce597acf3a560378a8ba2660c1f0eacab267be"
+    },
+    {
+      "path": "recovery/inventory-v2-1cc95b88-8d2b-4c14-abe6-2f6f8ecef87f.sqlite",
+      "sha256": "af2889516b6e97375e2bf0fdb8757c45dd9c96db15866bee8d5b02034b61479b"
+    },
+    {
+      "path": "recovery/normal-r1-r2-voyage.json",
+      "sha256": "82bcb2792f28b80ba30c79e843aae27e689f235fc7d73df2e5059dacdd74b49c"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0355/testdata/voyage-normal-r2-ad3bb86a-836b-44d0-8b94-83b3b4129a57/control.sqlite",
+      "sha256": "9ff40d797ff9d8c150f7dbc7820bd235981679029cc603e144904cb71c568bb5",
+      "copied_before_native_sha256": "9ff40d797ff9d8c150f7dbc7820bd235981679029cc603e144904cb71c568bb5"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0355/testdata/voyage-normal-r2-ad3bb86a-836b-44d0-8b94-83b3b4129a57/profile.sqlite",
+      "sha256": "d3ba2d02ef2efb1c65d28149ddce597acf3a560378a8ba2660c1f0eacab267be",
+      "copied_before_native_sha256": "d3ba2d02ef2efb1c65d28149ddce597acf3a560378a8ba2660c1f0eacab267be"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0355/testdata/voyage-normal-r2-ad3bb86a-836b-44d0-8b94-83b3b4129a57/recovery/inventory-v2-1cc95b88-8d2b-4c14-abe6-2f6f8ecef87f.sqlite",
+      "sha256": "af2889516b6e97375e2bf0fdb8757c45dd9c96db15866bee8d5b02034b61479b",
+      "copied_before_native_sha256": "af2889516b6e97375e2bf0fdb8757c45dd9c96db15866bee8d5b02034b61479b"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0355/testdata/voyage-normal-r2-ad3bb86a-836b-44d0-8b94-83b3b4129a57/recovery/normal-r1-r2-voyage.json",
+      "sha256": "82bcb2792f28b80ba30c79e843aae27e689f235fc7d73df2e5059dacdd74b49c",
+      "copied_before_native_sha256": "82bcb2792f28b80ba30c79e843aae27e689f235fc7d73df2e5059dacdd74b49c"
+    }
+  ]
+}

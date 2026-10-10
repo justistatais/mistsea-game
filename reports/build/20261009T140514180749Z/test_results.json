@@ -1,0 +1,701 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 138,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-006",
+      "name": "Core assembly has no Godot, SQLite or HTTP dependency",
+      "result": "passed"
+    },
+    {
+      "task": "CX-006",
+      "name": "Assistance capability cannot execute world commands",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Duplicate JSON fields are rejected recursively",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Unknown enum and integer enum are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Typed identity serialization preserves its exact GUID",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Unicode scalar ranges preserve emoji, combining marks and Chinese",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Wall time observations cannot advance action or combat clocks",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Language target cannot silently rise or introduce speaking scores",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Integer rewards use exact floor basis points",
+      "result": "passed"
+    },
+    {
+      "task": "CX-011",
+      "name": "Relevant reads ignore dictionary but invalidate battery/load",
+      "result": "passed"
+    },
+    {
+      "task": "CX-011",
+      "name": "Unknown system state and empty evidence never imply readiness",
+      "result": "passed"
+    },
+    {
+      "task": "CX-012",
+      "name": "Real profile schema enforces foreign keys and unique ownership slots",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Read-only snapshot query does not write database or advance clock",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Mid-write exception rolls back all world changes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Insufficient balance rolls back earlier item transfer",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Busy competing connection does not block caller thread",
+      "result": "passed"
+    },
+    {
+      "task": "CX-014",
+      "name": "Request and semantic work deduplicate; outbox display grants nothing",
+      "result": "passed"
+    },
+    {
+      "task": "CX-014",
+      "name": "Two actual stores serialize concurrent work without double reward",
+      "result": "passed"
+    },
+    {
+      "task": "CX-015",
+      "name": "Before/after reward checkpoints branch correctly and learning persists",
+      "result": "passed"
+    },
+    {
+      "task": "CX-015",
+      "name": "Continue preserves encounter instance; automatic slots preserve protected point",
+      "result": "passed"
+    },
+    {
+      "task": "CX-016",
+      "name": "Local retry preserves external state and refuses successful reward rewind",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Unicode drafts CAS globally and old branch heads keep their version",
+      "result": "passed"
+    },
+    {
+      "task": "CX-016",
+      "name": "Actual retry transaction preserves latest draft, collected material and delivered transport",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Failed draft write never acknowledges saved text",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Three shared editor entrances reject old ACK and device action leaves text",
+      "result": "passed"
+    },
+    {
+      "task": "CX-018",
+      "name": "Playback/subtitles/repeat/support are distinct from independent evidence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Draft erasure preserves world receipts and prevents old backup resurrection",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Learning tombstone survives cleanup interruption and old restore",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Assistance routes current/old draft/archived branch/discarded and requires consent",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Failed migration preserves live database; high schema refuses all writes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Missing deletion control halts without touching main file",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Corrupt backups are rejected and managed cleanup preserves outside file",
+      "result": "passed"
+    },
+    {
+      "task": "CX-022",
+      "name": "Real child process kill before commit recovers original complete state",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Actual corrupt main is preserved while validated recovery switches candidate",
+      "result": "passed"
+    },
+    {
+      "task": "CX-022",
+      "name": "Real child process kill after commit recovers new complete state",
+      "result": "passed"
+    },
+    {
+      "task": "CX-009",
+      "name": "Nine source adapters preserve English text and real reward mapping",
+      "result": "passed"
+    },
+    {
+      "task": "CX-009",
+      "name": "Unknown source fields and unmapped legacy rewards are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-010",
+      "name": "Compiler refuses changed same-version text, broken graph and SYNTHETIC",
+      "result": "passed"
+    },
+    {
+      "task": "CX-010",
+      "name": "Formal build is blocked by missing audio, editorial/calibration and signature",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Unsigned internal package requires explicit allowance; hashes are not signatures",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Actual RSA test signature is verified and wrong key rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Traversal, executable assets, hash changes and absent audio binding are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Present audio cannot be bound to the wrong text version",
+      "result": "passed"
+    },
+    {
+      "task": "CX-023",
+      "name": "Nested ownership, editing, IME and background input cannot execute world",
+      "result": "passed"
+    },
+    {
+      "task": "CX-024",
+      "name": "Body radius, obstacles and screen transforms hold at five viewport sizes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-025",
+      "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+      "result": "passed"
+    },
+    {
+      "task": "CX-025",
+      "name": "Missing paired entry preserves source actor and sequence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-026",
+      "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+      "result": "passed"
+    },
+    {
+      "task": "CX-027",
+      "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-029",
+      "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+      "result": "passed"
+    },
+    {
+      "task": "CX-034",
+      "name": "One NPC lease spans locations and expires on new load context",
+      "result": "passed"
+    },
+    {
+      "task": "CX-033",
+      "name": "Local feedback locates original text and never inserts or estimates a band",
+      "result": "passed"
+    },
+    {
+      "task": "CX-032",
+      "name": "Partial order allows both install orders; unknown capacity and missing steps do not pass",
+      "result": "passed"
+    },
+    {
+      "task": "CX-033",
+      "name": "Six learning states require scoped reviewed successes, distinct families and real calendar delay",
+      "result": "passed"
+    },
+    {
+      "task": "CX-030",
+      "name": "An available but unplayed audio cannot be independent listening",
+      "result": "passed"
+    },
+    {
+      "task": "CX-035",
+      "name": "B is not corrected to C; changed draft requires reconfirmation; blank support remains explicit",
+      "result": "passed"
+    },
+    {
+      "task": "CX-036",
+      "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+      "result": "passed"
+    },
+    {
+      "task": "CX-037",
+      "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+      "result": "passed"
+    },
+    {
+      "task": "CX-037",
+      "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+      "result": "passed"
+    },
+    {
+      "task": "CX-038",
+      "name": "Actual SQLite full noncombat route: Isolated",
+      "result": "passed"
+    },
+    {
+      "task": "CX-038",
+      "name": "Actual SQLite full noncombat route: Focused",
+      "result": "passed"
+    },
+    {
+      "task": "CX-040",
+      "name": "Threshold edges, 62 attributes and 16 skills; Q102 result level differs from entry",
+      "result": "passed"
+    },
+    {
+      "task": "CX-041",
+      "name": "Whole build prerequisites cannot self-fund; passives use no active slot",
+      "result": "passed"
+    },
+    {
+      "task": "CX-044",
+      "name": "Damage floors once, capped pools and exact golden values",
+      "result": "passed"
+    },
+    {
+      "task": "CX-043",
+      "name": "Ally phase first, stable ID ties, no UI refill and CD1 skips an entire personal slot",
+      "result": "passed"
+    },
+    {
+      "task": "CX-044",
+      "name": "Shield takes max and source expiry survives source down; weak guard cannot renew strong guard",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "Boss break weakens one attack while interlocks and recovery remain",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Unit locks follow person; column locks follow positions without hidden retarget",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Rear melee blocked, swap budget once, missing targets reject without mutation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "All six assistance kits use 2 AP; helper basic preview equals actual 0.65 resolution",
+      "result": "passed"
+    },
+    {
+      "task": "CX-048",
+      "name": "Three actual level-3 workshop candidates finish with finite resources and no rare equipment",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Three actual level-5 tower candidates, both valve orders, no grade-1 advance",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Tower damage stays zero before valves and 1HP before isolation; cleansing cannot unlock it",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "Schema-2 migration preserves original SHA and interrupted candidate cannot promote",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "A second live store cannot write the preserved old database after pointer promotion",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "SQLite module transfer is free, upgrade consumes original atomically, replay cannot double-pay",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "Insufficient module resources leave ownership and balances unchanged",
+      "result": "passed"
+    },
+    {
+      "task": "CX-050",
+      "name": "Stable SQLite combat action continues exactly; cancelled and old-load previews cannot act",
+      "result": "passed"
+    },
+    {
+      "task": "CX-050",
+      "name": "Real personal supply is consumed once; retry restores entrance and preserves latest draft",
+      "result": "passed"
+    },
+    {
+      "task": "CX-048",
+      "name": "Actual workshop victory atomically disables only unit; bracket remains at physical shelf",
+      "result": "passed"
+    },
+    {
+      "task": "CX-050",
+      "name": "Injected combat commit failure rolls back complete action, then exact preview retries",
+      "result": "passed"
+    },
+    {
+      "task": "CX-053",
+      "name": "Three full actual SQLite methods share the same reward and remain in port",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H01 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H04 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H07 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H10 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M01 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M04 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M07 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M10 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S02 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M06 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S01 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S06 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S07 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S10 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H06 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H02 stance and S04 empowerment bind to source clock, never return AP",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M02 deploys paid unique device and consumes exactly one when a real attack begins",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H03 A damage bonus and H05 exposed bonus are effectful",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H08 one encounter refund, H09 next-hit guard, H11 exposed coefficient, H12 threshold",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M03 boosts technical active damage but excludes tech basic; M05 grants one derived shield",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M08 permits two devices but one fires per source; M11 and M12 use nonrecursive budgets",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M09 cannot refund a zero-fee fixture or another owner's device",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S03 shield pool and S05 other-target self shield cannot recurse",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S08 survives threshold damage once and never shields a downed actor",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S09 next proactive shield, S11 per-target coefficient and S12 one original-fee discount",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "WP01 ordered basic guard, WP02 hammer and WP03 first basic only",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "WP04 requires existing exposure; WP05 discount persists; WP06 first proactive shield",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "AR01 baseline, AR02/03 initiative, AR04 device shield, AR05 DOT, AR06 other shield",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "RE01/02/05/06/08 conditional effects produce actual shield, pressure and device damage",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "RE03/04/07/09/11 static effects derive from actual equipped definitions",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "RE10 successful ordinary cleanse only; RE12 revive shield only once per encounter",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-01 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-02 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-03 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-04 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-D1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-D2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-K1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-K2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-L1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-L2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-E1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-E2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-054",
+      "name": "Thirteen identities, temporal evidence and neutral refusal never echo a guessed secret",
+      "result": "passed"
+    },
+    {
+      "task": "CX-054",
+      "name": "Actual delivery alone grants knowledge; copy/replay has one source; chapter and load grant none",
+      "result": "passed"
+    },
+    {
+      "task": "CX-055",
+      "name": "All leases are atomic; a failed multi-resource request holds no partial resource",
+      "result": "passed"
+    },
+    {
+      "task": "CX-055",
+      "name": "Writing cannot be interrupted; pause/resume retains seed/node, foreground exclusion and work post",
+      "result": "passed"
+    },
+    {
+      "task": "CX-055",
+      "name": "Declared expiry cancels only the relevant event and never advances on wall time",
+      "result": "passed"
+    },
+    {
+      "task": "CX-056",
+      "name": "Lina cannot join at Q102, decline permits another invitation, two auxiliaries remain",
+      "result": "passed"
+    },
+    {
+      "task": "CX-056",
+      "name": "Late tactics use shared level; one borrowed relic returns as the same instance on safe departure",
+      "result": "passed"
+    },
+    {
+      "task": "CX-057",
+      "name": "Issue disagreement, subtitles and grammar have no work penalty; repair adds history",
+      "result": "passed"
+    },
+    {
+      "task": "CX-057",
+      "name": "Disclosure refuses arbitrary prose/meeting/revised recipient; confirmed field delivery occurs once",
+      "result": "passed"
+    },
+    {
+      "task": "CX-057",
+      "name": "Grant revoked before confirmation invalidates old preview, leaving the world unsent",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

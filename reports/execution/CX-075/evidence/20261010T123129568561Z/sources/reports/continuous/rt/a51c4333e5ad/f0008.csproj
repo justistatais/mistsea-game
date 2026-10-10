@@ -1,0 +1,13 @@
+<Project Sdk="Godot.NET.Sdk/4.7.2">
+  <PropertyGroup><EnableDynamicLoading>true</EnableDynamicLoading><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../src/Mist.Application/Mist.Application.csproj" />
+    <ProjectReference Include="../src/Mist.Infrastructure/Mist.Infrastructure.csproj" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(Configuration)' != 'Debug' and '$(Configuration)' != 'ExportDebug'">
+    <Compile Remove="Debug/**/*.cs" />
+    <Compile Remove="UI/Shell/Root.ClientTests.cs" />
+    <Compile Remove="UI/Shell/Root.VesselClientTests.cs" />
+    <Compile Remove="Diagnostics/**/*.cs" />
+  </ItemGroup>
+</Project>

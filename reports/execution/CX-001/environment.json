@@ -1,0 +1,94 @@
+{
+  "captured_at": "2026-10-09T15:47:37+08:00",
+  "os": "Windows-11-10.0.26200-SP0",
+  "os_architecture": "AMD64",
+  "python": {
+    "executable": "D:\\Python312\\python.exe",
+    "version": "3.12.10",
+    "architecture": "64bit",
+    "sqlite_reference_version": "3.49.1"
+  },
+  "commands_on_path": {
+    "python": "D:\\Python312\\python.EXE",
+    "py": "C:\\Users\\20594\\AppData\\Local\\Programs\\Python\\Launcher\\py.EXE",
+    "git": "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+    "rg": "C:\\Users\\20594\\AppData\\Local\\OpenAI\\Codex\\bin\\441edec208d1681c\\rg.EXE",
+    "dotnet": "C:\\Program Files (x86)\\dotnet\\dotnet.EXE",
+    "godot": null,
+    "godot4": null,
+    "node": "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.EXE",
+    "pnpm": "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.CMD"
+  },
+  "godot": {
+    "status": "not_found_on_PATH",
+    "global_installation_audit": "not_performed"
+  },
+  "dotnet_hosts": [
+    {
+      "executable": "C:\\Program Files (x86)\\dotnet\\dotnet.EXE",
+      "info": {
+        "exit_code": 0,
+        "stdout": "\r\nHost (useful for support):\r\n  Version: 5.0.17\r\n  Commit:  6a98414363\r\n\r\n.NET SDKs installed:\r\n  No SDKs were found.\r\n\r\n.NET runtimes installed:\r\n  Microsoft.AspNetCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.AspNetCore.App]\r\n  Microsoft.NETCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App]\r\n\r\nTo install additional .NET runtimes or SDKs:\r\n  https://aka.ms/dotnet-download\r\n",
+        "stderr": ""
+      },
+      "sdks": {
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "runtimes": {
+        "exit_code": 0,
+        "stdout": "Microsoft.AspNetCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.AspNetCore.App]\r\nMicrosoft.NETCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App]\r\n",
+        "stderr": ""
+      }
+    }
+  ],
+  "sqlite_native_csharp": "not_verified",
+  "candidate_toolchain": {
+    "verified_source_date": "2026-10-09",
+    "qualification": "selected_not_built_in_this_turn",
+    "engine": "Godot 4.7.2 .NET",
+    "engine_sdk_package": "Godot.NET.Sdk/4.7.2",
+    "renderer": "gl_compatibility",
+    "dotnet_sdk": "10.0.401",
+    "target_framework": "net10.0",
+    "csharp_language_baseline": "12.0",
+    "sqlite_provider": "Microsoft.Data.Sqlite 10.0.12",
+    "native_sqlite_version": "record at actual restore; not yet measured for C#",
+    "reference_python": "3.13.5",
+    "reference_sqlite": "3.46.1",
+    "frontend": "native Godot Control/RichTextLabel/TextEdit",
+    "optional_gateway": "ASP.NET Core 10 Minimal API; provider disabled until qualified",
+    "release_platform": "Windows x86_64",
+    "future_platforms": "not release scope",
+    "exact_package_lockfile_generated": false,
+    "engine_or_sdk_binaries_included": false,
+    "required_T00": [
+      "compile empty Godot C# game",
+      "native SQLite open/transaction/backup",
+      "real Chinese IME",
+      "200% text reflow",
+      "offline self-contained Windows export on clean machine",
+      "screen-reader smoke test",
+      "NuGet audit and native library version inventory"
+    ]
+  },
+  "git": {
+    "executable": "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+    "exit_code": 0,
+    "version": "git version 2.53.0.windows.3",
+    "stderr": ""
+  },
+  "node": {
+    "executable": "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.EXE",
+    "exit_code": 0,
+    "version": "v24.19.0",
+    "stderr": ""
+  },
+  "pnpm": {
+    "executable": "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.CMD",
+    "exit_code": 0,
+    "version": "11.25.0",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "profile_id": "profile-demo",
+  "branch_id": "branch-demo",
+  "load_context": "ctx-boot-7",
+  "command_id": "command-demo-1",
+  "type": "DepartFerry",
+  "release_id": "REL-Q102-DEMO-0.1",
+  "expected": {
+    "ferry": 5,
+    "player": 3,
+    "quest": 4,
+    "intent": 2,
+    "device_configuration": 7
+  },
+  "payload": {
+    "vessel_id": "civil-ferry",
+    "quest_instance_id": "Q-102:instance-1",
+    "confirmed_intent_id": "intent-2",
+    "preview_id": "preview-9"
+  }
+}

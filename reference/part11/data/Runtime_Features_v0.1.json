@@ -1,0 +1,44 @@
+[
+  {
+    "id": "offline_core",
+    "mode": "enabled",
+    "permission": "Fixed documents, audio when present, authored hints, task actions",
+    "fallback": "local audited content; missing audio uses explicitly labeled text path"
+  },
+  {
+    "id": "writing_feedback",
+    "mode": "candidate_after_user_consent",
+    "permission": "Scoped feedback only",
+    "fallback": "unassessed + local explanation; no fake band"
+  },
+  {
+    "id": "language_explain",
+    "mode": "candidate_after_user_consent",
+    "permission": "Selected acquired span and a narrow adjacent context",
+    "fallback": "authored local explanation"
+  },
+  {
+    "id": "intent_candidate",
+    "mode": "candidate_after_user_consent",
+    "permission": "Candidate projection, never execution",
+    "fallback": "explicit structured confirmation"
+  },
+  {
+    "id": "npc_free_chat",
+    "mode": "disabled_in_first_release",
+    "permission": "Future experiment only",
+    "fallback": "fixed branch text"
+  },
+  {
+    "id": "live_main_quest_generation",
+    "mode": "forbidden",
+    "permission": "No runtime main plot/fact/rule changes",
+    "fallback": "select prepared versioned events"
+  },
+  {
+    "id": "live_review_generation",
+    "mode": "disabled_in_first_release",
+    "permission": "New materials require authoring review/calibration",
+    "fallback": "approved same-target library"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "pid": 18016,
+  "argv": [
+    "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+    "--path",
+    "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game"
+  ],
+  "profile": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-076\\native-ux-20261010T051840842570Z\\profile",
+  "actual_source": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T051036090105Z\\testdata\\normal-r1-life-native-entry",
+  "source_proof": {
+    "scope": "actual zero-XP prologue then Q101 registration and public street travel",
+    "experience": 340,
+    "life_work": "unaccepted",
+    "fixture_history": false,
+    "human_play": "not_run"
+  },
+  "executable_kind": "debug_editor_runtime",
+  "scope": "actual native draft save failure/export/retry on a disposable real 340XP entry; no human IME or physical power-loss claim",
+  "human_signoff": null
+}

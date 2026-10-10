@@ -1,0 +1,713 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-10T08:17:20.537411+00:00",
+  "scope": "read-only static/cache-shape audit, with completed child profiles from an incomplete failing suite; no cache or native execution performed",
+  "suite": "reports/build/20261010T080353628121Z",
+  "suite_progress_observed": {
+    "registered": 576,
+    "completed": 426,
+    "failed": 17,
+    "workers": 3
+  },
+  "suite_qualified": false,
+  "files": [
+    {
+      "path": "tools/ci/native_source_cache.py",
+      "sha256": "631b2026ad59f5480d3d1181a30c9052465e8a7ffc745a6b9650208e04967e3d",
+      "bytes": 6088
+    },
+    {
+      "path": "tools/ci/build.py",
+      "sha256": "8e618afc4f4c66267e1d2294982ddd4757a236f86a82192c353eb7c939112e69",
+      "bytes": 21072
+    },
+    {
+      "path": "reports/continuous/run_native_sequence.py",
+      "sha256": "8144474ad01b6a9b14bfe727a97d76cdc71e5270a7bb1ca66f059fdfa9973024",
+      "bytes": 2466
+    },
+    {
+      "path": "reports/continuous/finish_chapter_candidates.py",
+      "sha256": "336ac80ebd1b54937d932da8d00c19deaa35e1566b911b1e3d6fc65cd7034f4c",
+      "bytes": 44418
+    }
+  ],
+  "default_native_action_count": 29,
+  "missing_reuse_allowlist_actions": [],
+  "ci_proposals_not_applied": [
+    {
+      "file": "tools/ci/build.py",
+      "change": "Original mismatch is now resolved in current tools/ci/build.py; forthcoming fresh suite must capture the updated CI input SHA.",
+      "status": "already applied by Root during this audit; current default action allowlist has no missing entries"
+    },
+    {
+      "file": "tools/ci/native_source_cache.py",
+      "change": "Use resolved Path.as_uri()+?mode=ro for both SQLite connections; require all 7 real receipt columns plus metadata current active_branch and one current-branch campaign:new:* normal_campaign_created with integer zero experience_awarded.",
+      "status": "proposal only; no CI edit made by this agent"
+    }
+  ],
+  "report_only_changes": [
+    "Recognize MusicBox actual_receipts as the exact real alias and cross-check it against active database rows.",
+    "Unknown source proof modes rejected; SQLite errors recorded as rejected candidates.",
+    "Require verified build result/action, matching result filename and an actual successful exact Godot headless action command.",
+    "Summary entry JSON never substitutes for real database receipt history."
+  ],
+  "native_case_source_observations": [
+    {
+      "action": "vessel-client-test",
+      "source_task": "CX-060",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "actual-vessel-interior.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [],
+      "failed_eligible_case_indices": [
+        258,
+        259,
+        260,
+        261
+      ],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "chapter-two-client-test",
+      "source_task": "CX-060",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-r1-r2-voyage.json",
+      "passed_completed_proof_count": 1,
+      "pending_eligible_case_indices": [],
+      "failed_eligible_case_indices": [
+        258,
+        259,
+        260,
+        261
+      ],
+      "qualified_cache_source": false,
+      "selected_case": {
+        "index": 353,
+        "task": "CX-060",
+        "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures"
+      },
+      "proof": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0353/testdata/voyage-normal-r2-09a080f8-3a1c-4390-87f8-9f72048e3da9/recovery/normal-r1-r2-voyage.json",
+        "sha256": "4cd133896b3ad11f601b462d261253f6594abc760e3d11765bf8e35f31eaa8f9",
+        "bytes": 138295
+      },
+      "control_found": true,
+      "pointer_count": 1,
+      "control": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0353/testdata/voyage-normal-r2-09a080f8-3a1c-4390-87f8-9f72048e3da9/control.sqlite",
+        "sha256": "9a02af504c6352c1d57fdacfd0dac598db7e07836c715bac825a1e6bbe35d09b",
+        "bytes": 40960
+      },
+      "active_path": "recovery/inventory-v2-b3b415b2-c1e7-4c68-93f7-6c1fe2eea870.sqlite",
+      "active_exists": true,
+      "active_inside_profile": true,
+      "active_database": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0353/testdata/voyage-normal-r2-09a080f8-3a1c-4390-87f8-9f72048e3da9/recovery/inventory-v2-b3b415b2-c1e7-4c68-93f7-6c1fe2eea870.sqlite",
+        "sha256": "60aedc514f0e5b74e2c88ccadff118f798f85638940022b88301b0ef05544aa8",
+        "bytes": 835584
+      },
+      "integrity_check": "ok",
+      "actual_receipt_count": 287,
+      "active_branch_receipt_count": 287,
+      "fixture_receipt_count": 0,
+      "normal_creation_count": 1,
+      "normal_creation_on_active_branch": true,
+      "normal_creation_keys": [
+        "campaign:new:first-entry-candidate-1"
+      ],
+      "normal_creation_xp": [
+        0
+      ],
+      "receipt_columns": [
+        "branch_id",
+        "semantic_key",
+        "receipt_id",
+        "action_type",
+        "effect_hash",
+        "result_json",
+        "commit_sequence"
+      ],
+      "profile_file_count": 4,
+      "max_profile_path_characters": 240,
+      "receipt_property_names": [
+        "receipts"
+      ],
+      "entry_json_receipt_count": 287,
+      "entry_json_actual_database_mismatch_count": 0,
+      "entry_json_actual_database_mismatches": []
+    },
+    {
+      "action": "chapter-three-client-test",
+      "source_task": "CP-R3-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-r3-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        567
+      ],
+      "failed_eligible_case_indices": [
+        366,
+        367
+      ],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "chapter-four-client-test",
+      "source_task": "CP-R4-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-r4-native-entry.json",
+      "passed_completed_proof_count": 1,
+      "pending_eligible_case_indices": [],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false,
+      "selected_case": {
+        "index": 383,
+        "task": "CP-R4-05",
+        "name": "Normal zero-XP native-entry profile reaches R4 by actual source-bound voyage without regional actions"
+      },
+      "proof": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0383/testdata/chapter-four-native-entry-c832da01-a339-49fa-a3d3-1834cf866e37/recovery/normal-r4-native-entry.json",
+        "sha256": "75c12b8d2676eeb86a4fc2f1add0fc42f80dd730b6272761db3c050231a995f1",
+        "bytes": 486942
+      },
+      "control_found": true,
+      "pointer_count": 1,
+      "control": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0383/testdata/chapter-four-native-entry-c832da01-a339-49fa-a3d3-1834cf866e37/control.sqlite",
+        "sha256": "899670e584d2e4adaaa296bad614d81a368b232827588e144af1e6bff0537786",
+        "bytes": 40960
+      },
+      "active_path": "recovery/inventory-v2-5fca0136-6f8b-4f52-88f2-309435560f3b.sqlite",
+      "active_exists": true,
+      "active_inside_profile": true,
+      "active_database": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0383/testdata/chapter-four-native-entry-c832da01-a339-49fa-a3d3-1834cf866e37/recovery/inventory-v2-5fca0136-6f8b-4f52-88f2-309435560f3b.sqlite",
+        "sha256": "1e90059ddf4a9120dab6eceda77eeb9592c4387ca0afc2ef1777abf48a598843",
+        "bytes": 3158016
+      },
+      "integrity_check": "ok",
+      "actual_receipt_count": 846,
+      "active_branch_receipt_count": 846,
+      "fixture_receipt_count": 0,
+      "normal_creation_count": 1,
+      "normal_creation_on_active_branch": true,
+      "normal_creation_keys": [
+        "campaign:new:first-entry-candidate-1"
+      ],
+      "normal_creation_xp": [
+        0
+      ],
+      "receipt_columns": [
+        "branch_id",
+        "semantic_key",
+        "receipt_id",
+        "action_type",
+        "effect_hash",
+        "result_json",
+        "commit_sequence"
+      ],
+      "profile_file_count": 5,
+      "max_profile_path_characters": 249,
+      "receipt_property_names": [
+        "receipts"
+      ],
+      "entry_json_receipt_count": 846,
+      "entry_json_actual_database_mismatch_count": 0,
+      "entry_json_actual_database_mismatches": []
+    },
+    {
+      "action": "chapter-five-client-test",
+      "source_task": "CP-R5-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-r5-native-entry.json",
+      "passed_completed_proof_count": 1,
+      "pending_eligible_case_indices": [],
+      "failed_eligible_case_indices": [
+        406
+      ],
+      "qualified_cache_source": false,
+      "selected_case": {
+        "index": 405,
+        "task": "CP-R5-05",
+        "name": "Actual zero-XP R4R5 arrival produces a native entry with local work untouched"
+      },
+      "proof": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0405/testdata/chapter-five-native-entry-fec5027d-e120-40ca-9046-3c7f1131d077/recovery/normal-r5-native-entry.json",
+        "sha256": "3cd8fdf70c42122f8590c64d7ee9706a1a932b567292dd509d1dd7a70d101b63",
+        "bytes": 666775
+      },
+      "control_found": true,
+      "pointer_count": 1,
+      "control": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0405/testdata/chapter-five-native-entry-fec5027d-e120-40ca-9046-3c7f1131d077/control.sqlite",
+        "sha256": "2465eaf59047c6eef9a553e34bf00417919218d992911d7cb107288723827582",
+        "bytes": 40960
+      },
+      "active_path": "recovery/inventory-v2-537a2d9a-2427-4b8d-b69f-1d2f3a0f5c40.sqlite",
+      "active_exists": true,
+      "active_inside_profile": true,
+      "active_database": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0405/testdata/chapter-five-native-entry-fec5027d-e120-40ca-9046-3c7f1131d077/recovery/inventory-v2-537a2d9a-2427-4b8d-b69f-1d2f3a0f5c40.sqlite",
+        "sha256": "3e0a8fcacbeaa8ba6661ec3daa4ab372d383e506b39cad98f1b5b2f2a7b704b6",
+        "bytes": 4157440
+      },
+      "integrity_check": "ok",
+      "actual_receipt_count": 1158,
+      "active_branch_receipt_count": 1158,
+      "fixture_receipt_count": 0,
+      "normal_creation_count": 1,
+      "normal_creation_on_active_branch": true,
+      "normal_creation_keys": [
+        "campaign:new:first-entry-candidate-1"
+      ],
+      "normal_creation_xp": [
+        0
+      ],
+      "receipt_columns": [
+        "branch_id",
+        "semantic_key",
+        "receipt_id",
+        "action_type",
+        "effect_hash",
+        "result_json",
+        "commit_sequence"
+      ],
+      "profile_file_count": 5,
+      "max_profile_path_characters": 249,
+      "receipt_property_names": [
+        "receipts"
+      ],
+      "entry_json_receipt_count": 1158,
+      "entry_json_actual_database_mismatch_count": 0,
+      "entry_json_actual_database_mismatches": []
+    },
+    {
+      "action": "chapter-six-client-test",
+      "source_task": "CP-R6-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-r6-native-entry.json",
+      "passed_completed_proof_count": 1,
+      "pending_eligible_case_indices": [],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false,
+      "selected_case": {
+        "index": 416,
+        "task": "CP-R6-05",
+        "name": "Actual zero-XP predecessor and R5R6 arrival produce an untouched native entry with persistent normal receipts"
+      },
+      "proof": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0416/testdata/chapter-six-native-entry-e8b66461-2235-408f-89e6-e16f74f2b802/recovery/normal-r6-native-entry.json",
+        "sha256": "05e262bba4ad8f656d18acf949eacdf8c34d136759de8feef08618e506a3d055",
+        "bytes": 805670
+      },
+      "control_found": true,
+      "pointer_count": 1,
+      "control": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0416/testdata/chapter-six-native-entry-e8b66461-2235-408f-89e6-e16f74f2b802/control.sqlite",
+        "sha256": "3b517b9735b3e3ebbcc7f4b8c509062e1e387a849e3c18a222d906596fae0ac3",
+        "bytes": 40960
+      },
+      "active_path": "recovery/inventory-v2-2d1df63b-cedd-46ab-8631-336a8406d67d.sqlite",
+      "active_exists": true,
+      "active_inside_profile": true,
+      "active_database": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0416/testdata/chapter-six-native-entry-e8b66461-2235-408f-89e6-e16f74f2b802/recovery/inventory-v2-2d1df63b-cedd-46ab-8631-336a8406d67d.sqlite",
+        "sha256": "05d09459d47b2278d08dfb3bfe426c3a538c2cad9b34e517ef3006a6c89d913e",
+        "bytes": 4984832
+      },
+      "integrity_check": "ok",
+      "actual_receipt_count": 1406,
+      "active_branch_receipt_count": 1406,
+      "fixture_receipt_count": 0,
+      "normal_creation_count": 1,
+      "normal_creation_on_active_branch": true,
+      "normal_creation_keys": [
+        "campaign:new:first-entry-candidate-1"
+      ],
+      "normal_creation_xp": [
+        0
+      ],
+      "receipt_columns": [
+        "branch_id",
+        "semantic_key",
+        "receipt_id",
+        "action_type",
+        "effect_hash",
+        "result_json",
+        "commit_sequence"
+      ],
+      "profile_file_count": 5,
+      "max_profile_path_characters": 248,
+      "receipt_property_names": [
+        "receipts"
+      ],
+      "entry_json_receipt_count": 1406,
+      "entry_json_actual_database_mismatch_count": 0,
+      "entry_json_actual_database_mismatches": []
+    },
+    {
+      "action": "finale-client-test",
+      "source_task": "CP-RF-05",
+      "source_marker": "leaves untouched RF native entry",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-rf-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        426
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "r1-life-client-test",
+      "source_task": "CP-R1-03",
+      "source_marker": "actual_zero_XP_R1_native_entry_",
+      "compiled_marker_count": 1,
+      "proof_name": "entry_evidence.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        463
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "r2-life-client-test",
+      "source_task": "CP-R2-03",
+      "source_marker": "actual_zero_XP_R2_optional_entry_",
+      "compiled_marker_count": 1,
+      "proof_name": "entry_evidence.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        492
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "chapter-four-local-client-test",
+      "source_task": "CP-R4-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-r4-native-entry.json",
+      "passed_completed_proof_count": 1,
+      "pending_eligible_case_indices": [],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false,
+      "selected_case": {
+        "index": 383,
+        "task": "CP-R4-05",
+        "name": "Normal zero-XP native-entry profile reaches R4 by actual source-bound voyage without regional actions"
+      },
+      "proof": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0383/testdata/chapter-four-native-entry-c832da01-a339-49fa-a3d3-1834cf866e37/recovery/normal-r4-native-entry.json",
+        "sha256": "75c12b8d2676eeb86a4fc2f1add0fc42f80dd730b6272761db3c050231a995f1",
+        "bytes": 486942
+      },
+      "control_found": true,
+      "pointer_count": 1,
+      "control": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0383/testdata/chapter-four-native-entry-c832da01-a339-49fa-a3d3-1834cf866e37/control.sqlite",
+        "sha256": "899670e584d2e4adaaa296bad614d81a368b232827588e144af1e6bff0537786",
+        "bytes": 40960
+      },
+      "active_path": "recovery/inventory-v2-5fca0136-6f8b-4f52-88f2-309435560f3b.sqlite",
+      "active_exists": true,
+      "active_inside_profile": true,
+      "active_database": {
+        "path": "reports/build/20261010T080353628121Z/case_runs/0383/testdata/chapter-four-native-entry-c832da01-a339-49fa-a3d3-1834cf866e37/recovery/inventory-v2-5fca0136-6f8b-4f52-88f2-309435560f3b.sqlite",
+        "sha256": "1e90059ddf4a9120dab6eceda77eeb9592c4387ca0afc2ef1777abf48a598843",
+        "bytes": 3158016
+      },
+      "integrity_check": "ok",
+      "actual_receipt_count": 846,
+      "active_branch_receipt_count": 846,
+      "fixture_receipt_count": 0,
+      "normal_creation_count": 1,
+      "normal_creation_on_active_branch": true,
+      "normal_creation_keys": [
+        "campaign:new:first-entry-candidate-1"
+      ],
+      "normal_creation_xp": [
+        0
+      ],
+      "receipt_columns": [
+        "branch_id",
+        "semantic_key",
+        "receipt_id",
+        "action_type",
+        "effect_hash",
+        "result_json",
+        "commit_sequence"
+      ],
+      "profile_file_count": 5,
+      "max_profile_path_characters": 249,
+      "receipt_property_names": [
+        "receipts"
+      ],
+      "entry_json_receipt_count": 846,
+      "entry_json_actual_database_mismatch_count": 0,
+      "entry_json_actual_database_mismatches": []
+    },
+    {
+      "action": "first-relay-client-test",
+      "source_task": "CP-R0-03",
+      "source_marker": "actual_zero_XP_relay_native_entry_",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-first-relay-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        520
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "first-side-client-test",
+      "source_task": "CP-R1-03",
+      "source_marker": "actual_zero_XP_tower_base_native_entry_",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-first-tower-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        521
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "first-outer-client-test",
+      "source_task": "CP-R1-03",
+      "source_marker": "actual_zero_XP_tower_base_native_entry_",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-first-tower-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        521
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "field-relay-client-test",
+      "source_task": "CP-FIELD-RELAY-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-field-relay-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        536
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "musicbox-client-test",
+      "source_task": "CP-OPTIONAL-MUSICBOX-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-musicbox-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [],
+      "failed_eligible_case_indices": [
+        368
+      ],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "vessel-life-client-test",
+      "source_task": "CP-NPC-LIFE",
+      "source_marker": "Normal native-entry profile",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-vessel-life-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        544
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "settlement-support-client-test",
+      "source_task": "CP-SETTLEMENT-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-settlement-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        557
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "optional-r1-client-test",
+      "source_task": "CP-R1-03",
+      "source_marker": "normal_zero_XP_R1_both_independent_optional_contracts",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-optional-r1-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        547
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "optional-r2-client-test",
+      "source_task": "CP-R2-03",
+      "source_marker": "normal_zero_XP_R2_both_independent_optional_contracts",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-optional-r2-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        548
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "optional-r3-client-test",
+      "source_task": "CP-R3-03",
+      "source_marker": "normal_zero_XP_R3_both_independent_optional_contracts",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-optional-r3-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        549
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "optional-r4-client-test",
+      "source_task": "CP-R4-03",
+      "source_marker": "normal_zero_XP_R4_both_independent_optional_contracts",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-optional-r4-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        550
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "optional-r5-client-test",
+      "source_task": "CP-R5-03",
+      "source_marker": "normal_zero_XP_R5_both_independent_optional_contracts",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-optional-r5-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        551
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "optional-r6-client-test",
+      "source_task": "CP-R6-03",
+      "source_marker": "normal_zero_XP_R6_both_independent_optional_contracts",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-optional-r6-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        552
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "lina-personal-client-test",
+      "source_task": "CP-LINA-PERSONAL-05",
+      "source_marker": "actual_zero_XP_Lina_native_entry",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-lina-personal-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        562
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "r3-shift-client-test",
+      "source_task": "CP-R3-05",
+      "source_marker": "Shift native entry has actual zero-XP",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-r3-shift-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        567
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "old-city-local-life-client-test",
+      "source_task": "CP-R5-LIFE-05",
+      "source_marker": null,
+      "compiled_marker_count": null,
+      "proof_name": "normal-r5-local-life-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        571
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    },
+    {
+      "action": "scoped-personal-client-test",
+      "source_task": "CP-PERSONAL-DETAIL",
+      "source_marker": "Normal source-backed prior nodes produce a native entry",
+      "compiled_marker_count": 1,
+      "proof_name": "normal-scoped-personal-native-entry.json",
+      "passed_completed_proof_count": 0,
+      "pending_eligible_case_indices": [
+        575
+      ],
+      "failed_eligible_case_indices": [],
+      "qualified_cache_source": false
+    }
+  ],
+  "historical_command_shape": {
+    "scope": "historical manifest shape only; not current acceptance",
+    "run": {
+      "path": "reports/build/20261010T074415381779Z/result.json",
+      "sha256": "25635398c0c81ba9d4c1f15ef728b3937d7fabc6af0c119bc0e9568430de9e4f",
+      "bytes": 2767
+    },
+    "action": "vessel-life-client-test",
+    "result": "verified",
+    "actual_godot_args": [
+      [
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--quit-after",
+        "2"
+      ],
+      [
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--",
+        "--vessel-life-client-test"
+      ]
+    ]
+  },
+  "generic_client_test_scope": "client_results.json uses explicit Q102RouteCandidate/reference build fixtures and has no normal-entry profile. It remains excluded from chapter normal-route proof by the report CLI; raw fixture native regression may still run independently.",
+  "not_run": [
+    "No builds, native probes, full-suite runner, report CLI or CI helper execution.",
+    "No claim that the current failing suite qualifies, no receipt fabricated, no source profile copied or seeded.",
+    "Human play, language calibration, audio audition and rights acceptance remain pending."
+  ]
+}

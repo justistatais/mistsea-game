@@ -1,0 +1,26 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R5-LIFE-03",
+      "name": "Actual zero-XP local consultation permits either remembered name, installs one same inspected board and visible second line, and leaves the unused board and main history exact",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-LIFE-03",
+      "name": "Uncertain local pot descriptions stay pending, different serials and family-content access refuse; current wrapper permission supports same object return without touching real evidence",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-LIFE-03",
+      "name": "Actual saved name proposal has CAS conflict and changed-body or Continue refusal while the physically installed same sign remains current",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

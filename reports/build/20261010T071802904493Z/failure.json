@@ -1,0 +1,24 @@
+{
+  "error": "{\r\n  \"scope\": \"executed C# code tests\",\r\n  \"executed\": 4,\r\n  \"failed\": 1,\r\n  \"results\": [\r\n    {\r\n      \"task\": \"CP-SETTLEMENT-03\",\r\n      \"name\": \"Normal current-stage and earlier southern forecasts require exact finite optional batch and actual new delivery route; preview cancel and once receipt preserve main world\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-SETTLEMENT-03\",\r\n      \"name\": \"Real shared press requires separate local posts, dedicated manual reserve and current DRIVE zero; permission withdrawal and Continue reject stale handovers\",\r\n      \"result\": \"passed\"\r\n    },\r\n    {\r\n      \"task\": \"CP-SETTLEMENT-03\",\r\n      \"name\": \"Same borrowed lamp cannot expose family note, use another serial or reuse old zero after cleaning; actual return and bounded mutual aid keep original title once\",\r\n      \"result\": \"failed\",\r\n      \"detail\": \"System.InvalidOperationException: assertion failed\\r\\n   at Mist.Tests.TestRegistry.Require(Boolean condition, String message) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\TestRegistry.cs:line 11\\r\\n   at Mist.Tests.OptionalLocalWorks.SettlementSupportCases.\\u003C\\u003Ec.\\u003CRegister\\u003Eb__6_2() in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\OptionalLocalWorks\\\\SettlementSupportCases.cs:line 39\\r\\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\TestRegistry.cs:line 34\"\r\n    },\r\n    {\r\n      \"task\": \"CP-SETTLEMENT-03\",\r\n      \"name\": \"Saved optional prose has real CAS and no world execution; changed prose invalidates a delivery confirmation without losing the carried physical packet\",\r\n      \"result\": \"passed\"\r\n    }\r\n  ],\r\n  \"sqlite_version\": \"3.53.3\",\r\n  \"dotnet_runtime\": \"10.0.12\",\r\n  \"process_architecture\": \"X64\",\r\n  \"human_signoff\": null\r\n}\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T071802904493Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+        "--task=CP-SETTLEMENT-03"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261010T071802904493Z/tests.log"
+    }
+  ]
+}

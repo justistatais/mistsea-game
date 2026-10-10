@@ -1,0 +1,51 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R4-04",
+      "name": "Exhibition normal zero-XP origin actual public source comparison card mount and receipt once without reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-04",
+      "name": "Exhibition prior-source fixture still rejects remote missing sources wrong roles and card mounting shortcut",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-04",
+      "name": "Exhibition prior-source fixture preview cancel draft CAS move and stale load never mint or deliver",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-04",
+      "name": "Exhibition prior-source fixture one installed card can be recovered after changed draft and blank explicit fallback is honest",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-04",
+      "name": "Study normal zero-XP source preserved notices actual one-sheet delivery reply and zero reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-04",
+      "name": "Study explicit prior-source fixture rejects remote missing source cancellation and private meaning",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-04",
+      "name": "Study explicit prior-source fixture cancel edit movement and load reject stale physical preview",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R4-04",
+      "name": "Study explicit prior-source fixture same paper recovery retains delivered revision and allocation remains pending",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

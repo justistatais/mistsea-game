@@ -1,0 +1,180 @@
+{
+  "scope": "actual serial native probes; no human acceptance",
+  "suite": "reports/build/20261010T111545212936Z",
+  "runs": [
+    {
+      "action": "client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114138130657Z"
+    },
+    {
+      "action": "campaign-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114155225308Z"
+    },
+    {
+      "action": "vessel-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114201754053Z"
+    },
+    {
+      "action": "chapter-two-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114212706185Z"
+    },
+    {
+      "action": "chapter-three-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114313394591Z"
+    },
+    {
+      "action": "chapter-four-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114452451631Z"
+    },
+    {
+      "action": "chapter-five-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114742501030Z"
+    },
+    {
+      "action": "chapter-six-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T114956819384Z"
+    },
+    {
+      "action": "finale-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115424130345Z"
+    },
+    {
+      "action": "r1-life-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115555020861Z"
+    },
+    {
+      "action": "musicbox-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115620352300Z"
+    },
+    {
+      "action": "r2-life-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115641323047Z"
+    },
+    {
+      "action": "chapter-four-local-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115705127711Z"
+    },
+    {
+      "action": "first-relay-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115742829445Z"
+    },
+    {
+      "action": "first-side-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115753959243Z"
+    },
+    {
+      "action": "first-outer-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115805122501Z"
+    },
+    {
+      "action": "field-relay-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115830958607Z"
+    },
+    {
+      "action": "vessel-life-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115848838516Z"
+    },
+    {
+      "action": "settlement-support-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115901027281Z"
+    },
+    {
+      "action": "lina-personal-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T115954521307Z"
+    },
+    {
+      "action": "r3-shift-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120017959227Z"
+    },
+    {
+      "action": "old-city-local-life-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120042692660Z"
+    },
+    {
+      "action": "scoped-personal-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120117194719Z"
+    },
+    {
+      "action": "optional-r1-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120206636229Z"
+    },
+    {
+      "action": "optional-r2-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120248034615Z"
+    },
+    {
+      "action": "optional-r3-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120333419743Z"
+    },
+    {
+      "action": "optional-r4-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120424081542Z"
+    },
+    {
+      "action": "optional-r5-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120516678493Z"
+    },
+    {
+      "action": "optional-r6-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T120615710185Z"
+    }
+  ]
+}

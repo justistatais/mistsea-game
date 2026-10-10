@@ -1,0 +1,242 @@
+[
+  {
+    "id": "NPC-AT-01",
+    "topic": "身份唯一",
+    "expected": "同一CP人物跨地图、船舱和战斗均指向同一世界身份。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-02",
+    "topic": "13核心不膨胀",
+    "expected": "保留已有核心身份与责任；新增辅助角色不承担唯一主线证据。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-03",
+    "topic": "固定6.5",
+    "expected": "主线对话与任务保持第五部分目标，不按章节/等级增加语言门槛。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-04",
+    "topic": "无语言关系分",
+    "expected": "字幕、译文、语法错误与尚未评估不改变NPC信任或基础服务。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-05",
+    "topic": "明确观点",
+    "expected": "反对政策只改变对应立场，不自动变为失信或取消结局。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-06",
+    "topic": "承诺确认",
+    "expected": "未确认草稿、客气话、暂不接受不自动生成承诺。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-07",
+    "topic": "实际获知",
+    "expected": "异地NPC未收到消息，不显示已知玩家秘密动作。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-08",
+    "topic": "时间范围",
+    "expected": "D-1存活记录不支持当前安全；来源与范围在回顾中保留。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-09",
+    "topic": "提前猜中",
+    "expected": "输入隐藏地点不能通过确认、拒答、标题和按钮提前验证。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-10",
+    "topic": "受控上下文",
+    "expected": "关键剧情与受限字段在提供给可选生成前已经裁剪。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-11",
+    "topic": "多载体一致",
+    "expected": "音轨、字幕、通知与可访问性文本遵守同一知识与发布范围。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-12",
+    "topic": "存在不同意见",
+    "expected": "合法异议不因高关系消失，作者不动态更换真相。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-13",
+    "topic": "限域同意",
+    "expected": "字段、接收者、用途和版本变化都重新核验。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-14",
+    "topic": "原文敏感信息",
+    "expected": "自由正文不能用未受控的私人信息绕过附件权限。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-15",
+    "topic": "撤销发送前",
+    "expected": "许可在预览之后失效，未提交发送被拒绝。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-16",
+    "topic": "撤销发送后",
+    "expected": "历史送达仍保留，后续使用按新范围控制。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-17",
+    "topic": "中继不代签",
+    "expected": "第三人转交请求不等于本人同意见面、公开或签协议。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-18",
+    "topic": "基本服务",
+    "expected": "个人不亲近不阻断合法基础职责，真实条件不足有具体补齐路径。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-19",
+    "topic": "五组织与六地区",
+    "expected": "五组织好感不是六地区签字；每地有合法操作与代表授权。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-20",
+    "topic": "容量独立",
+    "expected": "答应运输不等于货已到，不复制船、人员或工程物资。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-21",
+    "topic": "邀请时点",
+    "expected": "Lina Q104、Mira Q202、Oren Q302、Tess Q601的邀请不提早覆盖战斗。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-22",
+    "topic": "拒绝再邀",
+    "expected": "拒绝招募后仍为地方联系人，可在安全条件下再次邀请。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-23",
+    "topic": "个人线不强制入队",
+    "expected": "本人许可成立时，未招募也能通过当地或通信路线开展。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-24",
+    "topic": "战斗冻结",
+    "expected": "离队或关系事件不在战斗中减AP、跳过命令或移走角色。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-25",
+    "topic": "装备归还",
+    "expected": "安全离队时归还玩家收藏，不复制或丢失遗物与改件。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-26",
+    "topic": "岗位冲突",
+    "expected": "同一人物不会同时随队、施工和参加船上前景对话。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-27",
+    "topic": "援勤与船务",
+    "expected": "不带四同伴仍可使用基础援勤和船务；非玩家主动选择的强制单人不可发生。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-28",
+    "topic": "晚加入成长",
+    "expected": "泰丝按共享等级取得可用12/20/24级变体，不要求刷好感。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-29",
+    "topic": "暂停不失信",
+    "expected": "退出、读写、取消跟踪与现实离线不产生失约。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-30",
+    "topic": "具体修复",
+    "expected": "补救有已完成的对象和本人接受，保留历史；重复道歉不清零。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-31",
+    "topic": "一事件占用",
+    "expected": "前景资源全取或全不取，冲突时延后，不制造第二个哈文。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-32",
+    "topic": "保护输入",
+    "expected": "任何新事件不强行关闭阅读、写作、帮助与确认面板。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-33",
+    "topic": "支线预算",
+    "expected": "个人节点350经验计入原2400预算，不自动增加总成长上限。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-34",
+    "topic": "奖励去重",
+    "expected": "同工作换方法/重播/重邀不重复；较早世界分支可正常结算一次。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-35",
+    "topic": "补充运输复用",
+    "expected": "CQ-TESS-02不重复Q603运输和奖励，不虚构未接受的交付。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-36",
+    "topic": "个人选择可行",
+    "expected": "通信/见面/明确暂缓等合法结局都可收束，不由词汇和立场评级。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-37",
+    "topic": "无主线新门槛",
+    "expected": "W04、个人辅助警报器、私人纪念物不是主线或第三结局条件。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-38",
+    "topic": "起航封存",
+    "expected": "确认出发后私人对话不突然撤走已经封存的必要物资与岗位。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-39",
+    "topic": "分支隔离",
+    "expected": "旧存档的人物知识、地点、关系不混入未来分支；晚到结果校验上下文。",
+    "status": "requires_implementation_or_playtest"
+  },
+  {
+    "id": "NPC-AT-40",
+    "topic": "明确未完成",
+    "expected": "素材未配音、未校准、未实现均有状态；不把50项参考检查当真机全覆盖。",
+    "status": "requires_implementation_or_playtest"
+  }
+]

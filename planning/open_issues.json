@@ -1,0 +1,133 @@
+{
+  "status": "all_open_at_handoff",
+  "items": [
+    {
+      "id": "ISS-01",
+      "title": "工具链候选未集成",
+      "evidence_limit": "没有Godot/.NET编译和干净Windows记录",
+      "blocks": "G0",
+      "owners": "CX-002 CX-003 CX-004 CX-005 HV-001",
+      "state": "open"
+    },
+    {
+      "id": "ISS-02",
+      "title": "旧数据尚非正式schema",
+      "evidence_limit": "九类适配器只是契约，尚未实际导入",
+      "blocks": "G1",
+      "owners": "CX-008 CX-009 CX-010",
+      "state": "open"
+    },
+    {
+      "id": "ISS-03",
+      "title": "C#持久化尚未实现",
+      "evidence_limit": "上轮Python/SQLite进程终止不替代Microsoft.Data.Sqlite真机",
+      "blocks": "G1",
+      "owners": "CX-012 CX-013 CX-014 CX-022",
+      "state": "open"
+    },
+    {
+      "id": "ISS-04",
+      "title": "关键音轨缺失",
+      "evidence_limit": "本轮扫描10个源包常见音频格式仍为0",
+      "blocks": "G3/G6",
+      "owners": "CX-030 CX-066 CP-*-02",
+      "state": "open"
+    },
+    {
+      "id": "ISS-05",
+      "title": "正式6.5证据缺失",
+      "evidence_limit": "当前原创材料有目标，没有完整相关人群标定",
+      "blocks": "G3/G6",
+      "owners": "CP-*-06 HV-005",
+      "state": "open"
+    },
+    {
+      "id": "ISS-06",
+      "title": "正文和关卡未全量成品",
+      "evidence_limit": "28份主要材料/32流程容器不覆盖完整版全部细节",
+      "blocks": "G5/G6",
+      "owners": "CP-*-01 CP-*-03 CP-*-04",
+      "state": "open"
+    },
+    {
+      "id": "ISS-07",
+      "title": "原生输入和读屏待测",
+      "evidence_limit": "浏览器/合成事件不代表Godot输入法与辅助技术",
+      "blocks": "G0/G6",
+      "owners": "CX-003 CX-064 HV-001 HV-003",
+      "state": "open"
+    },
+    {
+      "id": "ISS-08",
+      "title": "长战与混合构筑余量",
+      "evidence_limit": "参考长战11—16回合，混合剩余生命偏低",
+      "blocks": "G5/G6",
+      "owners": "CX-052 CX-073 CP-RF-05",
+      "state": "open"
+    },
+    {
+      "id": "ISS-09",
+      "title": "28级终章未验证",
+      "evidence_limit": "30级压力台不能证明主线最低配置可行",
+      "blocks": "G5/G6",
+      "owners": "CX-073 CX-074",
+      "state": "open"
+    },
+    {
+      "id": "ISS-10",
+      "title": "全36节点/装备触发尚未真实引擎覆盖",
+      "evidence_limit": "定义存在不等于效果运行",
+      "blocks": "G2/G5",
+      "owners": "CX-052",
+      "state": "open"
+    },
+    {
+      "id": "ISS-11",
+      "title": "真实语义和供应商未选定",
+      "evidence_limit": "默认不启用；不妨碍离线主线",
+      "blocks": "仅启用online_model时G6",
+      "owners": "CX-069 HV-008",
+      "state": "open"
+    },
+    {
+      "id": "ISS-12",
+      "title": "素材/声音/字体权利待核验",
+      "evidence_limit": "不能因为AI生成或包内无字体就推断发行权",
+      "blocks": "G6",
+      "owners": "HV-004 CP-*-02",
+      "state": "open"
+    },
+    {
+      "id": "ISS-13",
+      "title": "删除与备份清理范围未实装",
+      "evidence_limit": "参考删除世代不覆盖所有真实磁盘缓存副本",
+      "blocks": "G6",
+      "owners": "CX-019 CX-020 CX-076 HV-006",
+      "state": "open"
+    },
+    {
+      "id": "ISS-14",
+      "title": "人物并发与自由正文许可未全实现",
+      "evidence_limit": "结构字段检查不等于任意自然语言隐私识别",
+      "blocks": "G4/G6",
+      "owners": "CX-055 CX-057 CX-068 CX-072",
+      "state": "open"
+    },
+    {
+      "id": "ISS-15",
+      "title": "性能与发布时间不能从计划推算",
+      "evidence_limit": "尚未取得完整候选在参考硬件上的分布",
+      "blocks": "G6",
+      "owners": "CX-075 HV-003",
+      "state": "open"
+    },
+    {
+      "id": "ISS-16",
+      "title": "发布签名和审批尚未建立",
+      "evidence_limit": "哈希只证明一致，不证明发布者或真人审批",
+      "blocks": "G6/G7",
+      "owners": "CX-021 CX-077 CX-079 HV-007",
+      "state": "open"
+    }
+  ]
+}

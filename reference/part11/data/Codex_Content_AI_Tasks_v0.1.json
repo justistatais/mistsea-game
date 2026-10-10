@@ -1,0 +1,170 @@
+[
+  {
+    "id": "CAI-DEV-01",
+    "title": "登记与依赖",
+    "dependencies": "第4/5/6/10部分",
+    "output": "不可变源登记、别名、重复与影响图",
+    "prohibited": "不得覆盖上游v0.1正文或把alias当新题",
+    "acceptance_ids": [
+      "CAI-AT-01",
+      "CAI-AT-03",
+      "CAI-AT-04",
+      "CAI-AT-05",
+      "CAI-AT-44",
+      "CAI-AT-45"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-02",
+    "title": "制作工作台",
+    "dependencies": "CAI-DEV-01",
+    "output": "任务卡、候选隔离、12模板调用抽象",
+    "prohibited": "不能让生成候选自行发布或新增全局事实",
+    "acceptance_ids": [
+      "CAI-AT-08",
+      "CAI-AT-10",
+      "CAI-AT-11",
+      "CAI-AT-50"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-03",
+    "title": "审核与缺陷流程",
+    "dependencies": "CAI-DEV-02",
+    "output": "真实角色审核、缺项、分级、修订链",
+    "prohibited": "参考fixture不是实际签字",
+    "acceptance_ids": [
+      "CAI-AT-06",
+      "CAI-AT-07",
+      "CAI-AT-09",
+      "CAI-AT-10",
+      "CAI-AT-12",
+      "CAI-AT-52"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-04",
+    "title": "音频及派生材料",
+    "dependencies": "CAI-DEV-03",
+    "output": "脚本/声音/字幕/中文/词条/提示绑定",
+    "prohibited": "没文件不造音轨时长，不搬商业词库",
+    "acceptance_ids": [
+      "CAI-AT-13",
+      "CAI-AT-14",
+      "CAI-AT-15",
+      "CAI-AT-16",
+      "CAI-AT-17",
+      "CAI-AT-18",
+      "CAI-AT-19",
+      "CAI-AT-20",
+      "CAI-AT-21"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-05",
+    "title": "6.5校准登记",
+    "dependencies": "CAI-DEV-03/04",
+    "output": "任务级条件、样本范围、结果和发布门",
+    "prohibited": "不以模型自报或短稿生成band",
+    "acceptance_ids": [
+      "CAI-AT-01",
+      "CAI-AT-02",
+      "CAI-AT-22",
+      "CAI-AT-23",
+      "CAI-AT-24",
+      "CAI-AT-48",
+      "CAI-AT-49"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-06",
+    "title": "运行时投影",
+    "dependencies": "第9/10/12部分及CAI-DEV-01",
+    "output": "授权先行、最小上下文、外发同意",
+    "prohibited": "无世界工具，无全剧情/答案检索",
+    "acceptance_ids": [
+      "CAI-AT-25",
+      "CAI-AT-27",
+      "CAI-AT-28",
+      "CAI-AT-29",
+      "CAI-AT-40"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-07",
+    "title": "候选输出与路由",
+    "dependencies": "CAI-DEV-06",
+    "output": "严格字段、原文锚、语义候选、旧稿路由",
+    "prohibited": "结构通过不等于真实；不流式漏出再撤回",
+    "acceptance_ids": [
+      "CAI-AT-26",
+      "CAI-AT-30",
+      "CAI-AT-31",
+      "CAI-AT-32",
+      "CAI-AT-33",
+      "CAI-AT-34",
+      "CAI-AT-35",
+      "CAI-AT-36"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-08",
+    "title": "故障成本与删除",
+    "dependencies": "CAI-DEV-07",
+    "output": "有限重试、按请求预算、缓存分区、删除世代",
+    "prohibited": "不静默上传/训练用户写作；不捏造供应商保留承诺",
+    "acceptance_ids": [
+      "CAI-AT-37",
+      "CAI-AT-38",
+      "CAI-AT-39",
+      "CAI-AT-40",
+      "CAI-AT-41",
+      "CAI-AT-42",
+      "CAI-AT-43"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-09",
+    "title": "发布与迁移",
+    "dependencies": "CAI-DEV-01/03/05及第12部分",
+    "output": "签名清单、活跃包保留、隔离、回滚",
+    "prohibited": "不静默改变进行中谜题，不重复奖励",
+    "acceptance_ids": [
+      "CAI-AT-03",
+      "CAI-AT-11",
+      "CAI-AT-44",
+      "CAI-AT-45",
+      "CAI-AT-46",
+      "CAI-AT-47"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  },
+  {
+    "id": "CAI-DEV-10",
+    "title": "六卡端到端",
+    "dependencies": "CAI-DEV-04/05/07/08/09",
+    "output": "真音轨、实际模型回归、场景实测、生产报告",
+    "prohibited": "继承第8部分未完战斗问题，不靠AI或关系加成掩盖",
+    "acceptance_ids": [
+      "CAI-AT-14",
+      "CAI-AT-22",
+      "CAI-AT-26",
+      "CAI-AT-31",
+      "CAI-AT-43",
+      "CAI-AT-48",
+      "CAI-AT-49",
+      "CAI-AT-50",
+      "CAI-AT-51",
+      "CAI-AT-52"
+    ],
+    "status": "specification_only_not_engine_implemented"
+  }
+]

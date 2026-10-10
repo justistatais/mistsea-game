@@ -1,0 +1,119 @@
+[
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "eedf7591f9c5a74c85263edae0774a91891bf713fff1bd9a9c9b6efffb8c5c1f",
+    "bytes": 65728,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "draught",
+    "audio_path": "audio/dictionary-draught.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "eedf7591f9c5a74c85263edae0774a91891bf713fff1bd9a9c9b6efffb8c5c1f",
+    "bytes": 65728,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "draft",
+    "audio_path": "audio/dictionary-draft.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "4225714c760f4dd101ead50fe6697e873dc9cae3b2d15a609dbe5ae9cd34f88f",
+    "bytes": 69252,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "subject",
+    "audio_path": "audio/dictionary-subject.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "b475a46f1ec98522a1b363c9e9f19031eb53a3b3dae59863744f3daadb5eeab0",
+    "bytes": 63522,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "bracket",
+    "audio_path": "audio/dictionary-bracket.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "fb03e6dfdbf7803e719cc51c267a8b2b978cbc9b964716ae650c488c1ef81b5d",
+    "bytes": 66610,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "isolate",
+    "audio_path": "audio/dictionary-isolate.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "4ef4ebbb5b84a760b057dca67d325bb7406d441ebe3b4546bb1bd0177124c832",
+    "bytes": 69034,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "isolated",
+    "audio_path": "audio/dictionary-isolated.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "0d380e04c10f4d44e1e5680afc7b322ddb8b285ed93c54741f59f26e81bed13d",
+    "bytes": 77850,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "isolation",
+    "audio_path": "audio/dictionary-isolation.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "611e20c98b8dfea7fc4274c03401d31b9f5900789a9ed260a7ffc01a10888e50",
+    "bytes": 70356,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "operational",
+    "audio_path": "audio/dictionary-operational.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "e2cb28abe2bb8a6c9d9217783e0076f46c3bc16cff149017a89fe7df61db701e",
+    "bytes": 73882,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "supersede",
+    "audio_path": "audio/dictionary-supersede.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "b810ecc864e38e22d141637031a69156feb0ca20921387a46caf359fa4825b5b",
+    "bytes": 76968,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "supersedes",
+    "audio_path": "audio/dictionary-supersedes.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "b14b8d676c158bc85d29b3dfa34e652ba36dfaf54da93aa7dfa8dce85cc94772",
+    "bytes": 67706,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "interlock",
+    "audio_path": "audio/dictionary-interlock.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "4c1e644bbf6e2acac39fbc822e68c47b0016f19cccf51dad9220106d4ca517a2",
+    "bytes": 63520,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "reserve",
+    "audio_path": "audio/dictionary-reserve.wav",
+    "review_status": "local_tts_candidate"
+  },
+  {
+    "rights_status": "pending_HV-004",
+    "audio_sha256": "97dd0f437a11dad0104eb456202360350e3ab8073f779692562b43a8c8f6f3b9",
+    "bytes": 62862,
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "word": "beacon",
+    "audio_path": "audio/dictionary-beacon.wav",
+    "review_status": "local_tts_candidate"
+  }
+]

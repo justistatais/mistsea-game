@@ -1,0 +1,10 @@
+config_version=5
+[application]
+config/name="MistSea SQLite Probe"
+run/main_scene="res://Storage.tscn"
+config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+[dotnet]
+project/assembly_name="StorageProbe"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

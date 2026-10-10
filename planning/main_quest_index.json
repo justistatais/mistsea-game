@@ -1,0 +1,583 @@
+{
+  "source": "reference/part04/data/Quest_Event_Reference_v0.1.json",
+  "quests": [
+    {
+      "id": "Q-P01",
+      "title": "断开的航线",
+      "kind": "main_container",
+      "activation_after": [],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R0-S01",
+        "R0-S02"
+      ],
+      "close_contract": "安全离船路径已建立，幸存者可到达岸边；熄灯先于偏航的初步关系有现场依据",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-P01-TBD"
+    },
+    {
+      "id": "Q-P02",
+      "title": "有人还在岸上",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-P01"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R0-S02",
+        "R0-S03",
+        "R0-S04"
+      ],
+      "close_contract": "救援索与接应点就绪，幸存者安置完成，求援意图已确认并发出",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-P02-TBD"
+    },
+    {
+      "id": "Q-P03",
+      "title": "第二个记录器",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-P02"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R0-S05"
+      ],
+      "close_contract": "中继恢复，独立记录与导师邮包合法取得，港口接应成立",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-P03-TBD"
+    },
+    {
+      "id": "Q-101",
+      "title": "封港令之外",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-P03"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R1-S01",
+        "R1-S02",
+        "R1-S03"
+      ],
+      "close_contract": "港口接应完成，临时检修委托由授权方正式签发",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-101-TBD"
+    },
+    {
+      "id": "Q-102",
+      "title": "最后一班渡轮",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-101"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R1-S02",
+        "R1-S03",
+        "R1-S04",
+        "R1-S05",
+        "R1-S06",
+        "R1-S07"
+      ],
+      "close_contract": "当前配置通过测试且行动方案已确认，明确执行民用渡轮撤离；玩家留港",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "detailed_sample",
+      "reward_ref": "REWARD-Q102-RESOLUTION"
+    },
+    {
+      "id": "Q-103",
+      "title": "预先写好的事故",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-101"
+      ],
+      "additional_close_after": [
+        "Q-102"
+      ],
+      "scene_refs": [
+        "R1-S02",
+        "R1-S03",
+        "R1-S06",
+        "R1-S08"
+      ],
+      "close_contract": "测试计划、执行时刻与独立记录形成可核验结论；必要调阅许可由指定方提供",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-103-TBD"
+    },
+    {
+      "id": "Q-104",
+      "title": "潮门塔重启",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-103"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R1-S09",
+        "R1-S10"
+      ],
+      "close_contract": "潮门塔现场安全处置和回执成立；微光号使用权与跨区委托正式移交",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-104-TBD"
+    },
+    {
+      "id": "Q-201",
+      "title": "没有登记的住民",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-104"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R2-S01",
+        "R2-S02",
+        "R2-S03"
+      ],
+      "close_contract": "已建立苔林接应，核实实际住民与名册差异，取得基础调阅与检修方向",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-201-TBD"
+    },
+    {
+      "id": "Q-202",
+      "title": "第二份撤离名单",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-201"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R2-S03",
+        "R2-S04"
+      ],
+      "close_contract": "转移时间线和D-1交接记录核验完成；身份保护与责任删改分开记录",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-202-TBD"
+    },
+    {
+      "id": "Q-203",
+      "title": "林下的转供站",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-201"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R2-S05",
+        "R2-S06",
+        "R2-S07",
+        "R2-S08"
+      ],
+      "close_contract": "地下支站恢复有限本地供能，苔冠塔当前安全核查完成，边界有现场回执",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-203-TBD"
+    },
+    {
+      "id": "Q-204",
+      "title": "谁可以知道这些名字",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-202",
+        "Q-203"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R2-S02",
+        "R2-S04",
+        "R2-S08"
+      ],
+      "close_contract": "公开或限阅范围由玩家确认并落实，事实摘要与矿区检修批次线索已交接",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-204-TBD"
+    },
+    {
+      "id": "Q-301",
+      "title": "钟声以下",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-204"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R3-S01",
+        "R3-S02",
+        "R3-S04",
+        "R3-S05",
+        "R3-S06",
+        "R3-S07"
+      ],
+      "close_contract": "矿井安全返程保持，必要救援与基本安置完成，现场仪表可核验",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-301-TBD"
+    },
+    {
+      "id": "Q-302",
+      "title": "最后一道检修章",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-204"
+      ],
+      "additional_close_after": [
+        "Q-301"
+      ],
+      "scene_refs": [
+        "R3-S03",
+        "R3-S05",
+        "R3-S07"
+      ],
+      "close_contract": "原始仪表、工坊副本和签章比对完成；奥伦责任有具体证据而非队伍好感",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-302-TBD"
+    },
+    {
+      "id": "Q-303",
+      "title": "三炉一线",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-301"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R3-S02",
+        "R3-S08"
+      ],
+      "close_contract": "满足基本保障后确认额外资源与降载节奏，所需供给已实际落实",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-303-TBD"
+    },
+    {
+      "id": "Q-304",
+      "title": "停止超采",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-302",
+        "Q-303"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R3-S08",
+        "R3-S09"
+      ],
+      "close_contract": "执行受限过渡或降载，深井塔稳定，学城核验材料与样本具备合法交接",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-304-TBD"
+    },
+    {
+      "id": "Q-401",
+      "title": "相同的曲线",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-304"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R4-S01",
+        "R4-S02",
+        "R4-S03",
+        "R4-S04"
+      ],
+      "close_contract": "地点、负荷和报告版本核验完成；记录可检验假设及不确定性",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-401-TBD"
+    },
+    {
+      "id": "Q-402",
+      "title": "在场的反例",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-304"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R4-S05",
+        "R4-S06"
+      ],
+      "close_contract": "失败试验复原与局部危险处置完成，反例边界和校准条件有记录",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-402-TBD"
+    },
+    {
+      "id": "Q-403",
+      "title": "孤网试验",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-401",
+        "Q-402"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R4-S06",
+        "R4-S07"
+      ],
+      "close_contract": "规定条件下实际执行孤网试验，保留成功、失败与适用边界；不能只读报告",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-403-TBD"
+    },
+    {
+      "id": "Q-404",
+      "title": "不完整的答案",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-403"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R4-S02",
+        "R4-S04",
+        "R4-S08"
+      ],
+      "close_contract": "带限制报告已交接、棱镜塔安全核查完成、导师地点核验和准备清单发布",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-404-TBD"
+    },
+    {
+      "id": "Q-501",
+      "title": "从地图上消失的街道",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-404"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R5-S01",
+        "R5-S02",
+        "R5-S03",
+        "R5-S04"
+      ],
+      "close_contract": "旧地图与实际道路核对，至少一条进入北站的合法路径成立",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-501-TBD"
+    },
+    {
+      "id": "Q-502",
+      "title": "灯下的人",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-501"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R5-S04",
+        "R5-S05",
+        "R5-S06"
+      ],
+      "close_contract": "扣押区阻拦已处理，导师救出且安全返程成立；不能按语言错误永久死亡",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-502-TBD"
+    },
+    {
+      "id": "Q-503",
+      "title": "十八年前的签名",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-502"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R5-S02",
+        "R5-S07"
+      ],
+      "close_contract": "历史方案与当前指令经交叉审查，三方责任分别确认且敏感信息按权限使用",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-503-TBD"
+    },
+    {
+      "id": "Q-504",
+      "title": "谁来接管",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-503"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R5-S02",
+        "R5-S07",
+        "R5-S08"
+      ],
+      "close_contract": "保管和监督安排已确认、归档塔稳定、共同处置授权签发；鲁克接管事件落账",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-504-TBD"
+    },
+    {
+      "id": "Q-601",
+      "title": "最后的测站",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-504"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R6-S01",
+        "R6-S02",
+        "R6-S03",
+        "R6-S04"
+      ],
+      "close_contract": "测站完成现场核查，当前风险与供给边界回传，边境工作入口明确",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-601-TBD"
+    },
+    {
+      "id": "Q-602",
+      "title": "六个答复",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-601"
+      ],
+      "additional_close_after": [
+        "Q-603"
+      ],
+      "scene_refs": [
+        "R6-S02",
+        "R6-S05",
+        "R6-S08"
+      ],
+      "close_contract": "六地基础保全的实际回执齐备；增强项目可仍未完成，不以分布式路线关闭本任务",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-602-TBD"
+    },
+    {
+      "id": "Q-603",
+      "title": "风脊线",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-601"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R6-S05",
+        "R6-S06",
+        "R6-S07"
+      ],
+      "close_contract": "本地运输包经确认，护送分段完成，风脊塔稳定并产生第六塔基础保全回执",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-603-TBD"
+    },
+    {
+      "id": "Q-604",
+      "title": "起航之前",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-602",
+        "Q-603"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "R6-S01",
+        "R6-S08"
+      ],
+      "close_contract": "显示方案资格与所有缺项，解除未了高风险承诺，保存并确认起航，封存准备清单",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-604-TBD"
+    },
+    {
+      "id": "Q-F01",
+      "title": "进入第七塔",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-604"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "RF-S01",
+        "RF-S02",
+        "RF-S03"
+      ],
+      "close_contract": "从正式通道或基础检修路径抵达接管层；没有一条入口独占后续全部玩法",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-F01-TBD"
+    },
+    {
+      "id": "Q-F02",
+      "title": "接管层",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-F01"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "RF-S04"
+      ],
+      "close_contract": "鲁克被制止且指挥链解除；不自动将机组标记稳定",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-F02-TBD"
+    },
+    {
+      "id": "Q-F03",
+      "title": "不可取消的维护",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-F02"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "RF-S05",
+        "RF-S06"
+      ],
+      "close_contract": "隔离装置与镇潮机组通过现场处置达到可选择的稳定状态",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-F03-TBD"
+    },
+    {
+      "id": "Q-F04",
+      "title": "最后一份命令",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-F03"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "RF-S07"
+      ],
+      "close_contract": "满足所选方案资格，玩家确认最终行动，规则原子提交结局快照",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "REWARD-Q-F04-TBD"
+    },
+    {
+      "id": "Q-F05",
+      "title": "之后还有灯",
+      "kind": "main_container",
+      "activation_after": [
+        "Q-F04"
+      ],
+      "additional_close_after": [],
+      "scene_refs": [
+        "RF-S07"
+      ],
+      "close_contract": "按结局快照呈现即时与六个月后片段；可跳过表现，不重复世界结算",
+      "normal_failure_policy": "attempt_retry_not_permanent_main_failure",
+      "detail_status": "flow_contract_not_full_content",
+      "reward_ref": "none"
+    }
+  ],
+  "status": "legacy_flow_contract_only"
+}

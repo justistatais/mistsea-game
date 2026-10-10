@@ -1,0 +1,10 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "restore", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "--configfile", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config", "--locked-mode"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+  正在确定要还原的项目…
+  已还原 C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Core\Mist.Core.csproj (用时 125 毫秒)。
+  已还原 C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\Mist.Application.csproj (用时 131 毫秒)。
+  已还原 C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Infrastructure\Mist.Infrastructure.csproj (用时 241 毫秒)。
+  已还原 C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj (用时 248 毫秒)。
+  4 个项目(共 8 个)是最新的，无法还原。
+
+[stderr]

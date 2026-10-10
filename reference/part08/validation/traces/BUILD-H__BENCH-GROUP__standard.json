@@ -1,0 +1,709 @@
+{
+  "result": {
+    "build": "BUILD-H",
+    "scenario": "BENCH-GROUP",
+    "difficulty": "standard",
+    "outcome": "victory",
+    "rounds": 6,
+    "party_hp": 1006,
+    "party_max_hp": 1224,
+    "hp_damage": 1280,
+    "shield_absorbed": 161,
+    "breaks": 1,
+    "aid_used": 0,
+    "focus_spent": 16,
+    "device_damage": 0,
+    "downs": 0,
+    "actions": 20
+  },
+  "scope": {
+    "full_story_balanced": false,
+    "language_calibrated": false,
+    "reference_simulation": "selected_actives_core_passives_fixed_auxiliaries_no_paid_items",
+    "gear_hooks_not_executed": [
+      "WP-04",
+      "AR-05",
+      "all_relics",
+      "all_modules"
+    ],
+    "not_implemented_in_simulator": [
+      "positions_and_range",
+      "companion_milestone_variants",
+      "ordinary_damage_over_time_ticks",
+      "all_status_visuals",
+      "full_core_battle",
+      "world_commit_storage",
+      "real_engine_saving"
+    ]
+  },
+  "log": [
+    {
+      "round": 1,
+      "kind": "declare",
+      "intents": {
+        "g1": {
+          "name": "前列击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        },
+        "g2": {
+          "name": "点名",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        },
+        "g3": {
+          "name": "散射",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H10",
+      "targets": [
+        "g2"
+      ],
+      "focus": 4
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "hero",
+      "target": "g2",
+      "hp": 249,
+      "absorbed": 0,
+      "raw": 249,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "g2"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "guard",
+      "target": "g2",
+      "hp": 93,
+      "absorbed": 0,
+      "raw": 93,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "break",
+      "target": "g2",
+      "boss": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "g2"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "support",
+      "target": "g2",
+      "hp": 58,
+      "absorbed": 0,
+      "raw": 110,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "down",
+      "unit": "g2"
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "g1",
+      "target": "hero",
+      "hp": 60,
+      "absorbed": 0,
+      "raw": 60,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "enemy_action",
+      "enemy": "g1",
+      "name": "前列击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "g3",
+      "target": "hero",
+      "hp": 28,
+      "absorbed": 0,
+      "raw": 28,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "g3",
+      "target": "guard",
+      "hp": 28,
+      "absorbed": 0,
+      "raw": 28,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "g3",
+      "target": "support",
+      "hp": 28,
+      "absorbed": 0,
+      "raw": 28,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "enemy_action",
+      "enemy": "g3",
+      "name": "散射",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 2,
+      "kind": "declare",
+      "intents": {
+        "g1": {
+          "name": "扫列",
+          "target": "column",
+          "units": [
+            "hero"
+          ],
+          "slots": [
+            0,
+            2
+          ]
+        },
+        "g3": {
+          "name": "点名",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "S01",
+      "targets": [
+        "hero"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 2,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 95,
+      "added": 95
+    },
+    {
+      "round": 2,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2600
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "guard",
+      "target": "g3",
+      "hp": 75,
+      "absorbed": 0,
+      "raw": 75,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "basic",
+      "actor": "guard",
+      "target": "g3"
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "g3"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "support",
+      "target": "g3",
+      "hp": 91,
+      "absorbed": 0,
+      "raw": 91,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "g1",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 23,
+      "raw": 23,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "g1",
+      "target": "support",
+      "hp": 32,
+      "absorbed": 0,
+      "raw": 32,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "enemy_action",
+      "enemy": "g1",
+      "name": "扫列",
+      "targets": [
+        "hero",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "g3",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 38,
+      "raw": 38,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "enemy_action",
+      "enemy": "g3",
+      "name": "点名",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 3,
+      "kind": "declare",
+      "intents": {
+        "g1": {
+          "name": "前列击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        },
+        "g3": {
+          "name": "散射",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H07",
+      "targets": [
+        "g3"
+      ],
+      "focus": 3
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "hero",
+      "target": "g3",
+      "hp": 177,
+      "absorbed": 0,
+      "raw": 177,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2600
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "g3"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "guard",
+      "target": "g3",
+      "hp": 57,
+      "absorbed": 0,
+      "raw": 93,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "down",
+      "unit": "g3"
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "g1"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "support",
+      "target": "g1",
+      "hp": 89,
+      "absorbed": 0,
+      "raw": 89,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "g1",
+      "target": "hero",
+      "hp": 10,
+      "absorbed": 34,
+      "raw": 44,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "enemy_action",
+      "enemy": "g1",
+      "name": "前列击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 4,
+      "kind": "declare",
+      "intents": {
+        "g1": {
+          "name": "扫列",
+          "target": "column",
+          "units": [
+            "hero"
+          ],
+          "slots": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "hero",
+      "target": "g1",
+      "hp": 128,
+      "absorbed": 0,
+      "raw": 128,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "g1"
+    },
+    {
+      "round": 4,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 3100
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 4,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 54
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "g1"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "support",
+      "target": "g1",
+      "hp": 89,
+      "absorbed": 0,
+      "raw": 89,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "g1",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 22,
+      "raw": 22,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "g1",
+      "target": "support",
+      "hp": 32,
+      "absorbed": 0,
+      "raw": 32,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "enemy_action",
+      "enemy": "g1",
+      "name": "扫列",
+      "targets": [
+        "hero",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 5,
+      "kind": "declare",
+      "intents": {
+        "g1": {
+          "name": "前列击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "S01",
+      "targets": [
+        "support"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 5,
+      "kind": "shield",
+      "source": "hero",
+      "target": "support",
+      "value": 95,
+      "added": 95
+    },
+    {
+      "round": 5,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2600
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "g1"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "guard",
+      "target": "g1",
+      "hp": 91,
+      "absorbed": 0,
+      "raw": 91,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 79,
+      "added": 47
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "g1",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 44,
+      "raw": 44,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "enemy_action",
+      "enemy": "g1",
+      "name": "前列击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 6,
+      "kind": "declare",
+      "intents": {
+        "g1": {
+          "name": "扫列",
+          "target": "column",
+          "units": [
+            "hero"
+          ],
+          "slots": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "hero",
+      "target": "g1",
+      "hp": 83,
+      "absorbed": 0,
+      "raw": 128,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "down",
+      "unit": "g1"
+    },
+    {
+      "round": 6,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "g1"
+    }
+  ]
+}

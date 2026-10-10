@@ -1,0 +1,218 @@
+[
+  {
+    "id": "UI-DEV-01",
+    "title": "导航与可见数据壳",
+    "dependencies": "UI-01至03；上位材料访问与人物知识接口",
+    "deliverables": "六入口、24视图路由、权限先过滤、空/加载/错状态",
+    "forbidden": "不得预加载并向UI暴露全部主线秘密；不得新增剧情条件",
+    "acceptance_refs": [
+      "UI-AT-01",
+      "UI-AT-15",
+      "UI-AT-16",
+      "UI-AT-46"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-02",
+    "title": "输入拥有者、焦点与暂停",
+    "dependencies": "UI-DEV-01；引擎输入和场景模式",
+    "deliverables": "键鼠等价、真实IME、反误触、焦点恢复、多层暂停",
+    "forbidden": "不得直接用浏览器事件验证代替正式平台；不得让字母触发战斗",
+    "acceptance_refs": [
+      "UI-AT-03",
+      "UI-AT-04",
+      "UI-AT-05",
+      "UI-AT-06",
+      "UI-AT-07",
+      "UI-AT-08",
+      "UI-AT-09",
+      "UI-AT-10"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-03",
+    "title": "材料与支持工作区",
+    "dependencies": "UI-DEV-01/02；ENG内容与支持观察",
+    "deliverables": "原文/词典/译文、真实播放状态、显式字幕/脚本、代码点引用",
+    "forbidden": "不得烘焙正文到背景；不得用默认朗读假装正式音轨",
+    "acceptance_refs": [
+      "UI-AT-17",
+      "UI-AT-18",
+      "UI-AT-19",
+      "UI-AT-20",
+      "UI-AT-21",
+      "UI-AT-22"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-04",
+    "title": "规范草稿与版本保存",
+    "dependencies": "UI-DEV-01/02；正式存储与学习评价接口",
+    "deliverables": "多入口同稿、光标、保存确认、失败导出、旧反馈与删除代际",
+    "forbidden": "不得用成功动画代替落盘；不得把旧稿评价写回新稿",
+    "acceptance_refs": [
+      "UI-AT-02",
+      "UI-AT-23",
+      "UI-AT-24",
+      "UI-AT-25",
+      "UI-AT-26",
+      "UI-AT-27",
+      "UI-AT-28",
+      "UI-AT-29"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-05",
+    "title": "意思与世界提交",
+    "dependencies": "UI-DEV-03/04；QEV、PZ、设备、许可与回执",
+    "deliverables": "澄清/预览/提交/待确认、相关失效与单次事务状态",
+    "forbidden": "不得关键词匹配声称理解自由文本；不得UI直接发奖励",
+    "acceptance_refs": [
+      "UI-AT-30",
+      "UI-AT-31",
+      "UI-AT-32",
+      "UI-AT-33",
+      "UI-AT-34",
+      "UI-AT-47"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-06",
+    "title": "探索任务与谜题面板",
+    "dependencies": "UI-DEV-01/02/03/05；EXP真实六场景",
+    "deliverables": "可达入口、材料深链、六类谜题控件、导航与证据图分离",
+    "forbidden": "不得以点击次数替代理解；不得通过UI跳过实体修理",
+    "acceptance_refs": [
+      "UI-AT-11",
+      "UI-AT-12",
+      "UI-AT-13",
+      "UI-AT-14",
+      "UI-AT-15",
+      "UI-AT-19",
+      "UI-AT-52"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-07",
+    "title": "战斗UI和读写回返",
+    "dependencies": "UI-DEV-02/03/04/05；COM真实回合状态",
+    "deliverables": "四位置、3/2AP、敌意图、状态源时钟、战败/撤回/继续",
+    "forbidden": "不得拖队列；不得读取英语分数改伤害；不得按阶段重填资源",
+    "acceptance_refs": [
+      "UI-AT-35",
+      "UI-AT-36",
+      "UI-AT-37",
+      "UI-AT-38",
+      "UI-AT-39",
+      "UI-AT-40"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-08",
+    "title": "成长人物与工程工作区",
+    "dependencies": "UI-DEV-01/05；RPG、NPC、工程账",
+    "deliverables": "构筑预览、唯一装备、交易、人物依据、资源归属和六地签署",
+    "forbidden": "不得复制遗物/工人；不得用好感解锁合法事实",
+    "acceptance_refs": [
+      "UI-AT-41",
+      "UI-AT-42",
+      "UI-AT-43",
+      "UI-AT-44",
+      "UI-AT-45",
+      "UI-AT-46",
+      "UI-AT-47"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-09",
+    "title": "学习、最终起航与数据管理",
+    "dependencies": "UI-DEV-03/04/05/08；ENG/Q-604/Q-F04",
+    "deliverables": "真实学习投影、检查条件、准备差异、数据导出删除与结果回顾",
+    "forbidden": "不得显示无口语官方总分；不得把保留点自动覆盖",
+    "acceptance_refs": [
+      "UI-AT-28",
+      "UI-AT-48",
+      "UI-AT-49",
+      "UI-AT-50",
+      "UI-AT-51",
+      "UI-AT-52",
+      "UI-AT-53",
+      "UI-AT-55"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  },
+  {
+    "id": "UI-DEV-10",
+    "title": "真机与目标用户验收",
+    "dependencies": "前述已接入真实模块；稳定内容版本",
+    "deliverables": "多分辨率/大字/IME/读屏、音轨、断写恢复、端到端试玩报告",
+    "forbidden": "不得把结构演示的20项DOM测试宣称为56项正式验收全部通过",
+    "acceptance_refs": [
+      "UI-AT-01",
+      "UI-AT-02",
+      "UI-AT-03",
+      "UI-AT-04",
+      "UI-AT-05",
+      "UI-AT-06",
+      "UI-AT-07",
+      "UI-AT-08",
+      "UI-AT-09",
+      "UI-AT-10",
+      "UI-AT-11",
+      "UI-AT-12",
+      "UI-AT-13",
+      "UI-AT-14",
+      "UI-AT-15",
+      "UI-AT-16",
+      "UI-AT-17",
+      "UI-AT-18",
+      "UI-AT-19",
+      "UI-AT-20",
+      "UI-AT-21",
+      "UI-AT-22",
+      "UI-AT-23",
+      "UI-AT-24",
+      "UI-AT-25",
+      "UI-AT-26",
+      "UI-AT-27",
+      "UI-AT-28",
+      "UI-AT-29",
+      "UI-AT-30",
+      "UI-AT-31",
+      "UI-AT-32",
+      "UI-AT-33",
+      "UI-AT-34",
+      "UI-AT-35",
+      "UI-AT-36",
+      "UI-AT-37",
+      "UI-AT-38",
+      "UI-AT-39",
+      "UI-AT-40",
+      "UI-AT-41",
+      "UI-AT-42",
+      "UI-AT-43",
+      "UI-AT-44",
+      "UI-AT-45",
+      "UI-AT-46",
+      "UI-AT-47",
+      "UI-AT-48",
+      "UI-AT-49",
+      "UI-AT-50",
+      "UI-AT-51",
+      "UI-AT-52",
+      "UI-AT-53",
+      "UI-AT-54",
+      "UI-AT-55",
+      "UI-AT-56"
+    ],
+    "allowed_scope": "仅当前UI组件与适配器；更改上位规则需版本变更单"
+  }
+]

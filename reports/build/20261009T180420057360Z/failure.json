@@ -1,0 +1,40 @@
+{
+  "error": "  Mist.Assist -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\services\\Mist.Assist\\bin\\Debug\\net10.0\\Mist.Assist.dll\r\n  Mist.Core -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Core\\bin\\Debug\\net10.0\\Mist.Core.dll\r\n  Mist.ContentCli -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\Mist.ContentCli\\bin\\Debug\\net10.0\\Mist.ContentCli.dll\r\n  Mist.Application -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\bin\\Debug\\net10.0\\Mist.Application.dll\r\n  Mist.ReviewCalibration -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\Mist.ReviewCalibration\\bin\\Debug\\net10.0\\Mist.ReviewCalibration.dll\r\n  Mist.Infrastructure -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\bin\\Debug\\net10.0\\Mist.Infrastructure.dll\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Voyage\\VoyageCases.cs(38,225): error CS1503: 参数 1: 无法从“void”转换为“Mist.Application.Contracts.CommandResult” [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Voyage\\VoyageCases.cs(54,234): error CS0103: 当前上下文中不存在名称“VesselInteriorRules” [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Voyage\\VoyageCases.cs(71,228): error CS0103: 当前上下文中不存在名称“VesselInteriorRules” [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\n  MistSea -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\.godot\\mono\\temp\\bin\\Debug\\MistSea.dll\r\n\r\n生成失败。\r\n\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Voyage\\VoyageCases.cs(38,225): error CS1503: 参数 1: 无法从“void”转换为“Mist.Application.Contracts.CommandResult” [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Voyage\\VoyageCases.cs(54,234): error CS0103: 当前上下文中不存在名称“VesselInteriorRules” [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Voyage\\VoyageCases.cs(71,228): error CS0103: 当前上下文中不存在名称“VesselInteriorRules” [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\n    0 个警告\r\n    3 个错误\r\n\r\n已用时间 00:00:04.34\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T180420057360Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--locked-mode"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T180420057360Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "-c",
+        "Debug",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261009T180420057360Z/build.log"
+    }
+  ]
+}

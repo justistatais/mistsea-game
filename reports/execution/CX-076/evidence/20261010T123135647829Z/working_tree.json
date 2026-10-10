@@ -1,0 +1,55 @@
+{
+  "task_id": "CX-076",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/planning/plan.json",
+      "sha256": "9f5e000cd2298026f0e9189b3cabb2c8b17c6cf51d9ae3057fd9b353b4d54afa",
+      "bytes": 242610,
+      "source_path_at_execution": "planning/plan.json"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/reports/continuous/finish_recovery_candidate.py",
+      "sha256": "160f6d9d87064f91e15d639215357778bf84806268199acf0e87d2ce9e84bcfb",
+      "bytes": 16130,
+      "source_path_at_execution": "reports/continuous/finish_recovery_candidate.py"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/reports/continuous/finish_release_candidates.py",
+      "sha256": "a09275cb70990b8138db8698efcbb5efd9cc1dee5ec7c416d5cc02154ccdac6f",
+      "bytes": 35178,
+      "source_path_at_execution": "reports/continuous/finish_release_candidates.py"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/reports/release/ev/41260df631aefa33.json",
+      "sha256": "62f332d2585942be8e6ec45b6472920ac78330156dfe10b2711e1bc053f330bb",
+      "bytes": 271655,
+      "source_path_at_execution": "reports/release/ev/41260df631aefa33.json"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/tests/Mist.Tests/WindowsRecovery/WindowsRecoveryCases.cs",
+      "sha256": "b3168f9c8035101e3c0060d4ffc6583539823b1735384968c916b7835916a066",
+      "bytes": 38714,
+      "source_path_at_execution": "tests/Mist.Tests/WindowsRecovery/WindowsRecoveryCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/tools/recovery/AuditRecoverySource.ps1",
+      "sha256": "d7803f98e035535366d074c9f69190c1fc0d079120841cfb6f8022a516c71bb7",
+      "bytes": 2653,
+      "source_path_at_execution": "tools/recovery/AuditRecoverySource.ps1"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/tools/recovery/README.md",
+      "sha256": "5bf6e9119927f6aec0e3b8177fce9c230eeba10bd3955506427517f80e3d488c",
+      "bytes": 3305,
+      "source_path_at_execution": "tools/recovery/README.md"
+    }
+  ],
+  "interface_schema_impact": {
+    "storage_schema": 2,
+    "shared_schema_changed": false,
+    "input_scope": "disposable isolated test profiles",
+    "release_candidate_matrix": "partial"
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

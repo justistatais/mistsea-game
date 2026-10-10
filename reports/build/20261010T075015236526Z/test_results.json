@@ -1,0 +1,31 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Finite response source retains bounded full bilingual text without audio or an identity key",
+      "result": "passed"
+    },
+    {
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Fresh zero XP profile cannot make a paper or fabricate a maintenance or current consent receipt",
+      "result": "passed"
+    },
+    {
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Actual zero XP source chain delivers same paper then performs truthful consent exit correction and remote independent replacement once",
+      "result": "passed"
+    },
+    {
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Normal source-backed prior nodes produce a native entry with last personal work untouched",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

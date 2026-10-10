@@ -1,0 +1,31 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-059",
+      "name": "Finite contracts deliver only after prescribed steps; repeat receipt never credits twice",
+      "result": "passed"
+    },
+    {
+      "task": "CX-059",
+      "name": "Missing second material rejects the whole reservation, no crew or first resource is taken",
+      "result": "passed"
+    },
+    {
+      "task": "CX-059",
+      "name": "Reserved cancellation returns only unused quantities; explicit steps install once and cannot refund",
+      "result": "passed"
+    },
+    {
+      "task": "CX-059",
+      "name": "Field trial uses local permission before final signatures and returns its reusable fixture",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

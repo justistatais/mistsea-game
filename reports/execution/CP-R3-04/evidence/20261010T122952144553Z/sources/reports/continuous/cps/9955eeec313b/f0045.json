@@ -1,0 +1,99 @@
+{
+  "version": "R3-SHIFT-20261010-v1",
+  "player_projection": true,
+  "scope": "original_shift_work_candidate",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "scene": "R3-S08",
+  "board_spot": "R3-S08.demand_board",
+  "handover_spot": "R3-S08.shift_duty",
+  "receipt_spot": "R3-S08.auxiliary_receipt",
+  "window": "R3-WATCH-S1",
+  "staff": [
+    {
+      "actor": "ROLE-R3-SHIFT-SELA",
+      "name": "瑟拉 / Sela",
+      "spot": "R3-S08.shift_duty",
+      "window": "morning",
+      "response": "R3-SHIFT-R-SELA"
+    },
+    {
+      "actor": "ROLE-R3-SHIFT-TOBIN",
+      "name": "托宾 / Tobin",
+      "spot": "R3-S08.auxiliary_receipt",
+      "window": "afternoon",
+      "response": "R3-SHIFT-R-TOBIN"
+    },
+    {
+      "actor": "ROLE-R3-SHIFT-NIA",
+      "name": "妮娅 / Nia",
+      "spot": "R3-S08.demand_board",
+      "window": "afternoon",
+      "response": "R3-SHIFT-R-NIA"
+    }
+  ],
+  "materials": [
+    {
+      "id": "R3-SHIFT-R-BOARD",
+      "title": "本班公共值班板",
+      "spot": "R3-S08.demand_board",
+      "english": "The community shelter has one ordinary maintenance desk to cover during the current local watch, R3-WATCH-S1. One person is needed from 08:00 to 12:00 and one from 12:00 to 16:00. The work is checking the public supply ledger and reporting damaged shelter fittings. It does not include running the mine pump, extracting ore, operating the tower or approving private records. Keep the earlier board when posting a corrected arrangement. A handover must identify the incoming person, the unfinished checks and the return of the same ledger board. No person has agreed to cover the next watch merely by accepting this one.",
+      "chinese": "本地当前班R3-WATCH-S1的住区维护台，08:00至12:00与12:00至16:00各需要一人。工作是检查公共供给账与报告住区损坏件，不含矿泵、采掘、塔站运行或私人档案审批。贴更正安排时保留旧班表。交接须明确接班人、未完检查和同一账板的归还。同意本班不代表已答应下一班。",
+      "response_actor": "",
+      "version": "R3-SHIFT-20261010-v1"
+    },
+    {
+      "id": "R3-SHIFT-R-PROMISE",
+      "title": "原口头承诺的当班记录",
+      "spot": "R3-S08.shift_duty",
+      "english": "The old desk note records Sela saying, \"I should be able to stay until four.\" It was an estimate made before her current availability was checked. The dispatcher copied it onto the board as a full-day assignment. Sela now asks to leave at noon. The reason is outside this public task; the desk is authorised to use her work window, not ask for or circulate household details. Preserve both the old estimate and the later clarification. The immediate question is who will cover the afternoon with an actual current agreement. There is no finding here that someone lied or that the missing coverage was deliberate.",
+      "chinese": "旧便条记着瑟拉说“我应该能待到四点”，那是核对当前可用时间之前的估计。调度员把它抄成了全天安排。瑟拉现在提出中午离开。具体原因不在本公共任务内：这里只获准使用工作窗口，不能索取或传播家庭细节。保留旧估计与后来的澄清。眼前要解决的是谁已实际同意覆盖下午，不据此认定有人撒谎或故意空岗。",
+      "response_actor": "",
+      "version": "R3-SHIFT-20261010-v1"
+    },
+    {
+      "id": "R3-SHIFT-R-SCOPE",
+      "title": "有限重新分工与额外人手规则",
+      "spot": "R3-S08.auxiliary_receipt",
+      "english": "Ask each named person at their own desk position before writing a new assignment. An offer is limited to the current watch, one named post and the stated hours. The regular afternoon worker may take the afternoon by reassignment. A separate relief worker may instead accept a single afternoon, leaving the regular worker unassigned to this desk. Both arrangements are acceptable if the morning remains covered, the incoming worker acknowledges the same ledger board and nobody is already posted elsewhere. Posting a draft is not a handover. After the finite afternoon reception, release these local posts. Keep the original promise and the actual receipt together; there is no experience or payment attached to this local correction.",
+      "chinese": "在各自台前分别询问本人，再写新安排。每个答应都只限当前班、一个具名岗位和明确时段。可以把下午交给常规下午人员；也可以由独立替班人员只接这一个下午，让常规人员不再承担这个台。只要上午有人、接班人接收同一账板、无人另有岗位，两种都合格。张贴草案并非已交班。有限下午接收之后，释放这些地方岗位。旧承诺和实际接收回执放在一起；这项本地更正没有经验或报酬。",
+      "response_actor": "",
+      "version": "R3-SHIFT-20261010-v1"
+    },
+    {
+      "id": "R3-SHIFT-R-SELA",
+      "title": "瑟拉当面限定可用时间",
+      "spot": "R3-S08.shift_duty",
+      "english": "Sela: I can take the public desk from eight until noon for this watch. I need to leave at noon. Please write the end as clearly as the start. I will check the ledger and leave a note about any fitting that still needs work. I am not agreeing to mine duty, a tower post or the next watch. You may show this work window to the incoming desk worker. My household arrangements are not part of the note. Before I leave, let me check that the same board has the unfinished work marked on it.",
+      "chinese": "瑟拉：本班我能从八点做到中午。中午我需要离开，请把结束时间和开始时间写得一样清楚。我会核账，把仍需维修的部位留条记下。我没有同意矿井值守、塔站岗位或下一班。可以把这个工作窗口告诉本台接班人，家庭安排不属于便条内容。我走前会核对同一账板上是否记着未完工作。",
+      "response_actor": "ROLE-R3-SHIFT-SELA",
+      "version": "R3-SHIFT-20261010-v1"
+    },
+    {
+      "id": "R3-SHIFT-R-TOBIN",
+      "title": "托宾当前下午重新分工应答",
+      "spot": "R3-S08.auxiliary_receipt",
+      "english": "Tobin: My other work finishes before noon. I can cover this desk from noon to four, for R3-WATCH-S1 only. If you choose Nia for that afternoon, leave me off this desk rather than giving us both the same post. I want to see the ledger board and the list of checks before I take over. I will acknowledge the unfinished items even if none is urgent. Please do not describe my offer as an agreement to be available whenever someone is absent.",
+      "chinese": "托宾：我另一项工作中午前结束。本班R3-WATCH-S1，我可以从中午到四点接这个台。若下午选妮娅，就别把我也写到同一岗。接手前我要看到同一账板和待查清单；即使没有急件，我也会确认未完项。请别把这次答应写成谁缺席时我都得来。",
+      "response_actor": "ROLE-R3-SHIFT-TOBIN",
+      "version": "R3-SHIFT-20261010-v1"
+    },
+    {
+      "id": "R3-SHIFT-R-NIA",
+      "title": "妮娅额外一个下午的有限应答",
+      "spot": "R3-S08.demand_board",
+      "english": "Nia: I can offer one relief afternoon, from noon to four in this watch. Ask me before posting it; a spare name on the board is not a spare pair of hands. This offer is for the shelter maintenance desk and its ledger, not the pump or an extra extraction shift. I will take the same board from Sela after the unfinished checks are marked. After this afternoon I return to my own arrangements. No extension has been agreed. If Tobin covers it instead, keep my offer as unused, not as a second worker already on duty.",
+      "chinese": "妮娅：本班我能额外替一个下午，从中午到四点。贴之前请问我；班表上多写个名字，并不会多出一双手。这次只限住区维护台及其账，不包括矿泵或额外采掘。瑟拉标好未完检查后，我接同一账板。下午结束后我恢复自己的安排，没有同意延长。若改由托宾接，保留我未使用的答应，不能记成第二个人已上岗。",
+      "response_actor": "ROLE-R3-SHIFT-NIA",
+      "version": "R3-SHIFT-20261010-v1"
+    }
+  ],
+  "draft_task": "R3-SHIFT-W-HANDOVER",
+  "prompt_en": "Write a short revised desk arrangement and handover note. Keep the earlier estimate, identify the finite work window and incoming worker, and separate the public work information from private household details.",
+  "prompt_zh": "写一份维护台的新安排和交接便条：保留旧估计，明确有限时段与接班人，区分公共工作信息和私人家庭细节。",
+  "hints": [
+    "先分别询问三个人当前愿意接什么岗、在哪个时段，不把旧估计当新许可。",
+    "上午与下午分别覆盖一人，下午不能把两人同时写成已上岗；矿井和塔站岗位不属于此账板。",
+    "瑟拉只限上午；可重新分工给托宾下午，或实际询问妮娅额外接一个下午。还须标未完项、核同一账板，再让接班人当面接收。"
+  ]
+}

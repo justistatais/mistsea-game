@@ -1,0 +1,106 @@
+{
+  "scope": "actual source bytes, reader display reconstruction, occurrence and stable-sense static audit; no C# execution or human semantic/6.5 certification",
+  "content_version": "LEX-20261010-v3",
+  "entries": 720,
+  "core": 360,
+  "extended": 360,
+  "contexts_verified": 4556,
+  "sources_verified": 21,
+  "display_materials_with_existing_terms": 392,
+  "npc_replays_with_real_context": 24,
+  "npc_current_turns_with_real_context": 121,
+  "source_documents": [
+    {
+      "path": "content/source/campaign/first_entry.json",
+      "sha256": "53bee58dd9b60078ff803a781178389993fc6d810d5536e4558ba726b8beb052"
+    },
+    {
+      "path": "content/source/part05-Original_Materials_v0.1.json",
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+    },
+    {
+      "path": "content/source/r1_life/learner_package.json",
+      "sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0"
+    },
+    {
+      "path": "content/source/first_approaches/learner_package.json",
+      "sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03"
+    },
+    {
+      "path": "content/source/optional_local_works/field_relay_contract.json",
+      "sha256": "cb06b027843a15779a24ff9f6219ba3fa380fbbabfa742ea9a8df6aa564309f6"
+    },
+    {
+      "path": "content/source/lina_personal/learner_package.json",
+      "sha256": "6b8305b092778dd6b831117585cebb0dcb58c6caea2f8b05b3adc5eb2e54058c"
+    },
+    {
+      "path": "content/source/vessel_life/learner_package.json",
+      "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+    },
+    {
+      "path": "content/source/optional_encounter_contracts/learner_package.json",
+      "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+    },
+    {
+      "path": "content/source/optional_local_works/settlement_support_contracts.json",
+      "sha256": "b091d3fef85b0547440c9be7347a7aa1982507fc60e60d2bbc60050a019b53f1"
+    },
+    {
+      "path": "content/source/optional_local_works/old_city_life_contract.json",
+      "sha256": "f9813eaee805167818cd071185c9678a083cd17476cd4f447b32c66f72b355e6"
+    },
+    {
+      "path": "content/source/scoped_personal_work/learner_package.json",
+      "sha256": "d968379af19311bdc460e54f1d7c51eb8c75237d8710055041af1bd282048f90"
+    },
+    {
+      "path": "content/source/chapter_two/learner_package.json",
+      "sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905"
+    },
+    {
+      "path": "content/source/chapter_four/optional_credit.json",
+      "sha256": "75ac26868e11aa3514a9fb695aefc3981701674df190f34654e2030bb2726baf"
+    },
+    {
+      "path": "content/source/chapter_four/optional_inquiry.json",
+      "sha256": "377d25c0db6f421bdef0de12bb336f2415f906fd62a69823253a6a6a1321cabe"
+    },
+    {
+      "path": "content/source/r3_shift_work/learner_package.json",
+      "sha256": "c376ed99aa155d59ec1c01d97fd9e9ca7eb5e0fc03d7d8d3ed912b206ce17467"
+    },
+    {
+      "path": "content/source/chapter_one/chapter_one.json",
+      "sha256": "96c1c5805b4425ab51658bb45952b3698cd70cc8f99030b0fae6c29e43f586f9"
+    },
+    {
+      "path": "content/source/chapter_three/learner_package.json",
+      "sha256": "1193b43a9151a74024f31a7e251e792637562762568f6384bb2eebf334e804a8"
+    },
+    {
+      "path": "content/source/chapter_four/learner_package.json",
+      "sha256": "a444cde42ad1340f98fb2f243bdbd241a5deb96962e1cc390a9aa846ce3a155e"
+    },
+    {
+      "path": "content/source/chapter_five/learner_package.json",
+      "sha256": "8b28847aa98b6cde1881b84404712e9edde05f1a207e16006a83f093f690c7ee"
+    },
+    {
+      "path": "content/source/chapter_six/learner_package.json",
+      "sha256": "a6800f6c91d6fd4e98686c90ce6a3ed03765863f00cbe076f83b2e1f913276ed"
+    },
+    {
+      "path": "content/source/finale/learner_package.json",
+      "sha256": "c07b8465f973760025c3d14b69f61bb4185dd9cc0676918abbf49d43e1b7eeac"
+    }
+  ],
+  "lexicon_sha256": "fc53cec7cd2bbb6d08236f7ca317db6e5bd2180959ee9892cf2f8fe0397ca373",
+  "v2_history_sha256": "80c5550958e52600fa5782a361fec035ed3a605a151c59affb9b3cb65a5d046a",
+  "sense_metadata_unchanged": true,
+  "actual_word_pronunciations": 0,
+  "human_review": "human_pending",
+  "empirical_6_5": "not_run",
+  "world_actions_executed": 0,
+  "csharp_tests_executed": 0
+}

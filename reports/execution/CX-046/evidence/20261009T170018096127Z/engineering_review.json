@@ -1,0 +1,246 @@
+{
+  "task_id": "CX-046",
+  "scope": "人物/位置/全场锁定清楚；意图公布后不按玩家选择暗换目标。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "人物锁定跟人",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-046",
+            "name": "Unit locks follow person; column locks follow positions without hidden retarget",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Rear melee blocked, swap budget once, missing targets reject without mutation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Threat preview is pure and distinguishes original unit, column, shield and HP loss",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "A movement shield without a legal move still shields, with no extra action",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Reinforcement is declared in advance, acts only next round and never repeats its source call",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Occupied reinforcement slot defers once then falls back, without replacing any of four enemies",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Unknown or recursive reinforcement templates fail validation and ordinary stagger cancels the call",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "列锁定结算位置",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-046",
+            "name": "Unit locks follow person; column locks follow positions without hidden retarget",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Rear melee blocked, swap budget once, missing targets reject without mutation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Threat preview is pure and distinguishes original unit, column, shield and HP loss",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "A movement shield without a legal move still shields, with no extra action",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Reinforcement is declared in advance, acts only next round and never repeats its source call",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Occupied reinforcement slot defers once then falls back, without replacing any of four enemies",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Unknown or recursive reinforcement templates fail validation and ordinary stagger cancels the call",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "无效目标不暗换",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-046",
+            "name": "Unit locks follow person; column locks follow positions without hidden retarget",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Rear melee blocked, swap budget once, missing targets reject without mutation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Threat preview is pure and distinguishes original unit, column, shield and HP loss",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "A movement shield without a legal move still shields, with no extra action",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Reinforcement is declared in advance, acts only next round and never repeats its source call",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Occupied reinforcement slot defers once then falls back, without replacing any of four enemies",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Unknown or recursive reinforcement templates fail validation and ordinary stagger cancels the call",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "增援下一轮行动且总数最多4",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-046",
+            "name": "Unit locks follow person; column locks follow positions without hidden retarget",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Rear melee blocked, swap budget once, missing targets reject without mutation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Threat preview is pure and distinguishes original unit, column, shield and HP loss",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "A movement shield without a legal move still shields, with no extra action",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Reinforcement is declared in advance, acts only next round and never repeats its source call",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Occupied reinforcement slot defers once then falls back, without replacing any of four enemies",
+            "result": "passed"
+          },
+          {
+            "task": "CX-046",
+            "name": "Unknown or recursive reinforcement templates fail validation and ordinary stagger cancels the call",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-046",
+        "name": "Unit locks follow person; column locks follow positions without hidden retarget",
+        "result": "passed"
+      },
+      {
+        "task": "CX-046",
+        "name": "Rear melee blocked, swap budget once, missing targets reject without mutation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-046",
+        "name": "Threat preview is pure and distinguishes original unit, column, shield and HP loss",
+        "result": "passed"
+      },
+      {
+        "task": "CX-046",
+        "name": "A movement shield without a legal move still shields, with no extra action",
+        "result": "passed"
+      },
+      {
+        "task": "CX-046",
+        "name": "Reinforcement is declared in advance, acts only next round and never repeats its source call",
+        "result": "passed"
+      },
+      {
+        "task": "CX-046",
+        "name": "Occupied reinforcement slot defers once then falls back, without replacing any of four enemies",
+        "result": "passed"
+      },
+      {
+        "task": "CX-046",
+        "name": "Unknown or recursive reinforcement templates fail validation and ordinary stagger cancels the call",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-043",
+    "CX-024",
+    "CX-039"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

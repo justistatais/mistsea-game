@@ -1,0 +1,7 @@
+{"argv": ["C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103725303948Z\\export\\OfflineCandidate.exe", "--headless", "--", "--candidate-read"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+MISTSEA_CANDIDATE_RESULTS {"reopened":true,"revision":1,"hash":"86a4b2a6feef54758ad8c36b673b8fa7cb581bb08c304fb62fce0d36011875d2","path":"C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103725303948Z\\draft.sqlite"}
+
+[stderr]

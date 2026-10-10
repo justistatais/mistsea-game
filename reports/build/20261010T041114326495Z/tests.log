@@ -1,0 +1,90 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-R5-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 15,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R5-03",
+      "name": "Bare actor region cannot manufacture Q404 commission or actual R4R5 voyage",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Real regional voyage starts R5 without archive access, reward or present Mara knowledge",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Historical line cannot grant access and current map choice alone does not enter duty hall",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Current credential route closes Q501 once without opening detention or claiming listening assessment",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Basic isolated tunnel is an equal noncombat route and does not require credential or named helper",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Tunnel combat alternative still needs actual brace, obstruction and passage checks",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Guard victory does not open the cell, establish current Mara status or award Q502",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Guard withdrawal preserves documents and draft, keeps same encounter instance and permits actual retry",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Mara is physically opened, directly seen, escorted along inner route and actually received before reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Unrescued or excessive identity scopes cannot unlock historical originals",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Three responsibilities and real response channels remain distinct with protected review",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Emergency public redacted review and bounded archive are accepted without selecting final policy",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Current archive configuration changes invalidate safety and an old ready preview without discarding history",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "One installed original case, fixed rewards and only Safe survive continuation; no conversion is invented",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-03",
+      "name": "Draft changes and continuation reject stale ready submission while save alone does not award",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

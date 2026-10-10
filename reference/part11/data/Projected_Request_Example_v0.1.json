@@ -1,0 +1,38 @@
+{
+  "model_call_performed": false,
+  "request": {
+    "request_id": "0ca3b3f6a1ea2705abbb1f8bab13e4101c70925a7e96af2fabd502bb2aae48cf",
+    "mode": "explain",
+    "draft": "Explain the words only if in this paragraph.",
+    "sources": [
+      {
+        "asset_id": "Q102-R-NOTICE",
+        "version": "0.1",
+        "segment_id": "Q102-R-NOTICE-p02",
+        "text": "Route C remains open, but a vessel may enter it only if its navigation beacon is operational. The beacon must be checked in its installed configuration before departure. Permission to work on a vessel does not remove this requirement, nor does the fact that another vessel has already left the harbour."
+      }
+    ],
+    "target": 6.5,
+    "support_scope": "sentence_only",
+    "reply_version": "0.1"
+  },
+  "manual_fixture_reply": {
+    "request_id": "0ca3b3f6a1ea2705abbb1f8bab13e4101c70925a7e96af2fabd502bb2aae48cf",
+    "mode": "explain",
+    "status": "candidate",
+    "items": [
+      {
+        "text": "only if 表示必要条件：不满足这个条件就不能做前面的事，但这一处措辞没有声称它就是全部条件。",
+        "citation": {
+          "asset_id": "Q102-R-NOTICE",
+          "version": "0.1",
+          "segment_id": "Q102-R-NOTICE-p02",
+          "start": 48,
+          "end": 55,
+          "quote": "only if"
+        }
+      }
+    ]
+  },
+  "validation": "shape_and_span_only_not_model_or_language_calibration"
+}

@@ -1,0 +1,58 @@
+{
+  "version": "SCOPED-PERSONAL-20261010-v1",
+  "player_projection": true,
+  "scope": "existing_mira_oren_production_detail_candidate",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "audio_asset": "",
+  "responses": [
+    {
+      "actor": "CP-MIRA",
+      "purpose": "renew_bounded_review",
+      "en": "Mira: I can help maintain the role-count review arrangement for this copy and its declared recipients. Keep role_counts, source_version and source_root together. The three duty entries remain two observer entries and one service entry; they do not reveal who holds each role. A change to the recipient or purpose needs a new check. I want the earlier version kept beside any correction, and I want a later reader to be able to tell which line changed. I am willing to accept the bounded arrangement after we have tried the access rule, the exit from future contact and the restricted re-review. Do not write my agreement as permission to open the identity key.",
+      "zh": "米拉：我愿意协助维护这份角色数量副件及其具名接收方的有限安排。role_counts、source_version、source_root一起保留。三项职责记录仍是两项观察和一项服务，不揭示每项是谁。接收方或用途改变，需要重新核查。更正旁边要留旧版，后来的人应能看出改了哪一行。准入、退出未来联系和限阅复查实际试过之后，我可以接受这个有限安排。我的答应不包括打开身份键。",
+      "id": "SP-CP-MIRA-RENEW"
+    },
+    {
+      "actor": "W-04",
+      "purpose": "renew_bounded_review",
+      "en": "W-04, through the retained controlled correspondence route: I agree to the stated review of role_counts, source_version and source_root for the named custodian or controlled desks. Use the same derived source reference, without my name, address or identity key. I can end future optional contact; doing so does not ask you to erase lawful earlier evidence. If a count or an explanation needs correction, append it and preserve the version that was actually sent. I agree only to the bounded proposal you have shown me. A public notice board and an unnamed later recipient are outside that proposal. An answer from the relay is not a substitute for this reply.",
+      "zh": "W-04经留存受控通信路径答复：我同意所示具名受托人或受控台查阅role_counts、source_version、source_root。使用同一派生来源，不包含我的姓名、住址或身份键。我可以退出未来自愿联系；这不要求删除合法旧证据。数量或说明需纠正时，追加并保留实际发出过的版本。我只同意你展示的有限提案。公告板和后来未具名的接收人不属于这个提案；中继人的答应不能替代这份回信。",
+      "id": "SP-W04-RENEW"
+    },
+    {
+      "actor": "CP-MIRA",
+      "purpose": "deny_scope_expansion",
+      "en": "Mira: The proposal includes a private identity field or a recipient outside this arrangement. I cannot accept that proposal. Keep the previous lawful record in custody, but stop this new access request. We can review a revised, bounded proposal without pretending this refusal never happened.",
+      "zh": "米拉：提案包含私人身份字段，或包含本安排之外的接收人。我不能接受这个提案。合法旧记录仍保管，但停止这次新访问。可以再核一个改过的有限提案，不必假装这次拒绝没有发生。",
+      "id": "SP-CP-MIRA-DENY"
+    },
+    {
+      "actor": "W-04",
+      "purpose": "deny_scope_expansion",
+      "en": "W-04: I have not agreed to that private field or additional recipient. This reply declines the expanded proposal. It does not destroy the earlier limited copy or remove an existing correction. Please record the refusal before seeking any different permission.",
+      "zh": "W-04：我没有同意这个私人字段或额外接收人。这份回信拒绝扩大提案，并不销毁先前有限副件，也不撤销已有更正。寻求另一种许可前，请先保留这次拒绝。",
+      "id": "SP-W04-DENY"
+    },
+    {
+      "actor": "ROLE-R3-LOCAL-MAINTENANCE",
+      "purpose": "finite_maintenance_receiving",
+      "en": "Local receiving team: We can receive the bounded auxiliary-alarm instructions and unfinished-check list for next_safe_reassignment. The alarm has its own installed repair kit; mine or tower resources are not part of this post. We will acknowledge the current tested configuration and identify the incoming local worker before releasing Oren. A remote answer is advice for this device, not a receipt saying an installation has happened. For a local rotation, the safe walk and handover must actually occur at the dispatcher. Neither arrangement erases the MC-2-05 and MC-2-06 acceptance history or requires anyone to forgive it.",
+      "zh": "地方接收队：我们可以在next_safe_reassignment接收辅助报警器的有限说明和未完清单。报警器有自己已装的旁修套件，矿井或塔站物资不属于这个岗。我们会核当前已测配置，明确接替的当地人员后才释放奥伦。远程回答是对这台设备的建议，不是安装已经发生的回执。地方轮值则必须在调度点实际完成安全步行与交班。两种安排都保留MC-2-05/06验收历史，也不要求别人原谅。",
+      "id": "SP-LOCAL-RECEIVER"
+    },
+    {
+      "actor": "ROLE-R3-REMOTE-REVIEW",
+      "purpose": "supervised_technical_receiving",
+      "en": "Supervised remote desk: The question is whether the next auxiliary-alarm check should begin with isolation, and how to recognise the same tested kit. Oren's answer must cite the installed kit and the independent review configuration. We will receive that answer only for this finite maintenance window. The local team remains responsible for any physical work. Before the post closes, we check that a different named receiving worker has the instructions, the limits and the unfinished items. A promise to answer every future fault is not part of this window.",
+      "zh": "远程监督台：本次问题是下一次辅助报警器检查是否先隔离，以及怎样认出同一已测套件。奥伦的回答须引用已装套件和独立复核配置。我们只为这次有限维护窗口接收答复，实际操作仍由地方队承担。闭岗前，核对另一位具名接收人员已拿到说明、限制和未完项。答应以后每次故障都回答，不属于这个窗口。",
+      "id": "SP-REMOTE-REVIEW"
+    }
+  ],
+  "remaining": [
+    "human language 6.5 review",
+    "human IME and screen reader review",
+    "NPC recording and voice rights",
+    "no audio claim"
+  ]
+}

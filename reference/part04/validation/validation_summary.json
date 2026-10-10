@@ -1,0 +1,22 @@
+{
+  "unit_tests_run": 49,
+  "failures": 0,
+  "errors": 0,
+  "all_passed": true,
+  "abstract_model": {
+    "reachable_states": 228,
+    "transitions": 1324,
+    "terminal_states": 4,
+    "states_without_completion_path": 0
+  },
+  "registry": {
+    "main_containers": 32,
+    "event_templates": 8,
+    "scene_registry": 78
+  },
+  "limitations": [
+    "无引擎、UI、实际磁盘原子性、网络、完整战斗、语言理解或学习效果验证",
+    "穷举仅覆盖Q-102任务层的有限抽象；不覆盖实际空间、全部世界资源及其他31个任务内部逻辑",
+    "事件测试仅验证资源排他与保护输入，不等于完整事件选择、抢占、NPC调度均已实现"
+  ]
+}

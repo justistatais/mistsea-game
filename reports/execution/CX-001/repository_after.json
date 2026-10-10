@@ -1,0 +1,238 @@
+{
+  "available": true,
+  "root": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+  "head": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "status": [
+    "?? MistSea_AllInOne_v0.1/"
+  ],
+  "tracked_file_count": 48,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "aee8f9afbbf0550221b278773cd352623d251827775b3b9e1da64fbeddffede6"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "sha256": "429620672f8078619a4934dbec0bd66b42aa0db680f2b57263e0141189de12d8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3600e3e54b7e41aabc305dce186fc0c5994187f0e1d542a55e10519be2753c3c"
+    },
+    {
+      "path": "app/api/auth/route.ts",
+      "sha256": "2aa2f24fe4860beedd36838961882cbe0b102109d20ce422ad2d868074fa325f"
+    },
+    {
+      "path": "app/game/page.tsx",
+      "sha256": "451db4dd94f0d9be6b92e0204283698636226dab53c393a97d49c46ff9a59b11"
+    },
+    {
+      "path": "app/globals.css",
+      "sha256": "b7663a247bd2c6a4f9f63f96e6a3677a30c2927f6e57684893cf6f5d63bed3a7"
+    },
+    {
+      "path": "app/ielts/page.tsx",
+      "sha256": "32af84345ddffdb336050b583ca0942f975e31c6afcc1593424e5cfb480304b1"
+    },
+    {
+      "path": "app/journal/page.tsx",
+      "sha256": "8653a02bcb60f89b229752da38c5e534f2b56647d9f554215988b51416da6ea6"
+    },
+    {
+      "path": "app/layout.tsx",
+      "sha256": "7f85943108d8ea43acc58b252234fe7cb2f74791dad87b56289f6b7396b27719"
+    },
+    {
+      "path": "app/login/page.tsx",
+      "sha256": "2e8f4fe364622f68471073ac574503734fd60400e44a63146484fed2678cb2da"
+    },
+    {
+      "path": "app/map/page.tsx",
+      "sha256": "de12f0fa466b25b2d4e396016b5de4cf837ae3a903714706bfd8b23dd735097c"
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "ef17b55ef8f56c429b5c844dcfca0988442a39243eb90fbc71cae393bc65a08c"
+    },
+    {
+      "path": "app/profile/page.tsx",
+      "sha256": "133684710dd8a641da49ee87611ea86d05d5a8ae299ab922af932df42b0394bb"
+    },
+    {
+      "path": "app/reading/page.tsx",
+      "sha256": "10810eb8ef098f566c9c3630dee8fbe91ec2d5d4ae4d37a54f0c46a98d516d32"
+    },
+    {
+      "path": "app/settings/page.tsx",
+      "sha256": "fee7c77b81df76350c7ddcf6c51dd4c7ee779c4ae13f20744fe0af7ad8db14cb"
+    },
+    {
+      "path": "app/v02.css",
+      "sha256": "300a4256e60c3e190baa9d48566353f728305b66681475db433c01b4b0953306"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "sha256": "5c697206f302dadc0c8b7b2f7a707257dab15129a2149872b0f84ea1ac17d263"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "d063bebef3a4878ae82f9f9547c2c9675b8b6945ab23702932dcb63a011a9fc9"
+    },
+    {
+      "path": "package.json",
+      "sha256": "71c2ead6c3211c60d9f0ce35cd3b319154d22fbf0f9fb5fd395ae95059b049c3"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "sha256": "499a022c5bec4fdd8d5412ef1316799beb26eba66928c937361f944e8f098466"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "sha256": "fb4cd1144091d2d15ef21d607c27abe15bc40a45e1b7828ae50e232eabde3e78"
+    },
+    {
+      "path": "proxy.ts",
+      "sha256": "988d7088cdd1d13a895e2a8f7ffea0f5f98c8f69b789505e601f28a400473023"
+    },
+    {
+      "path": "public/assets/characters/alice.png",
+      "sha256": "476bffd5ced1c8cf7b3aa2d08f663df96a6f1cc3aeb7bf7103bcf989c00e9a06"
+    },
+    {
+      "path": "public/assets/characters/innkeeper.png",
+      "sha256": "2c1e8b084b2e0510c760bd45e9408877a826033a96430a10b903f115dea835d4"
+    },
+    {
+      "path": "public/assets/characters/thomas.png",
+      "sha256": "34e9c0621d7e6d1320946f8325c44f69b180260e07f4b0abc0016f5d6bdc6f78"
+    },
+    {
+      "path": "public/assets/scenes/lantern-inn.png",
+      "sha256": "a5e101f37e4c4db0b326154cb7d30cb1ff4321f7ca81c357be775c0b71efcb1c"
+    },
+    {
+      "path": "public/assets/scenes/old-bridge.png",
+      "sha256": "1ee08cbd02696b2922a09bec5f6489b94ee22f5312a20d6079d32411e7753e6f"
+    },
+    {
+      "path": "public/assets/scenes/town-square.png",
+      "sha256": "d8ac186527f65fa0916e0050255a4c2e0a9d512377923aaf6f16b7e9ed4ba706"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "path": "public/og.png",
+      "sha256": "64577bbb5e9491dda792d36f6c7589db6e95961d2ba99ee66a5d61f8f4380545"
+    },
+    {
+      "path": "src/components/GameApp.tsx",
+      "sha256": "f2b36bc3feccf3e541c6e6ef5b55535af54ccdf1c8689c1994a6c85b67f7ffa9"
+    },
+    {
+      "path": "src/components/NavDock.tsx",
+      "sha256": "b5fcfb8889a75b956115492f1b6821db5c8b7be475924963e2df1a76fb0515e9"
+    },
+    {
+      "path": "src/components/WordText.tsx",
+      "sha256": "14a697953d704986a1a354b9bf97338957d2c570718d8918982743fbf283879c"
+    },
+    {
+      "path": "src/data/challenges.ts",
+      "sha256": "028b9be999032a58bc09c7e42f827483294e0ad80827a7dd898cefbbc094977c"
+    },
+    {
+      "path": "src/data/content.ts",
+      "sha256": "366e50c331464f421d67e2de685353dc97dfe53cced26ae942bf5cf1a566ce48"
+    },
+    {
+      "path": "src/game/engine.ts",
+      "sha256": "6deda52529fa343c3abe487c6f7c73cf9f0bafa50c50275461c7054a7c0fdf42"
+    },
+    {
+      "path": "src/game/progression.ts",
+      "sha256": "8fa9f8ae1890c08d9466277e49ffefe93d87e78e3e86545c6fdac49d981ebd12"
+    },
+    {
+      "path": "src/game/story.ts",
+      "sha256": "d25e4dfed1b0331b613ed3be593435a1e23707a19be4dcd0a0dfb13f69b0b13e"
+    },
+    {
+      "path": "src/lib/auth.ts",
+      "sha256": "9a603b8b35fc090a6ae4d363f1e8f26f335b486b734a10dedfa55e0c3e47d983"
+    },
+    {
+      "path": "src/lib/db.ts",
+      "sha256": "944a5a6faaf3ed16afe68cd3cca258ae6fce631800896d16ae224f9ec8a7a168"
+    },
+    {
+      "path": "src/tests/engine.test.ts",
+      "sha256": "690bc35fdfd5d26fc3c9f81bf361fff849e1e23ff37dbdf0accfe26f37765d2d"
+    },
+    {
+      "path": "src/tests/progression.test.ts",
+      "sha256": "57aa325eb7cfdf7abc4ea24d6241fc02ef4c0fc681c95f2b3c0d8bd338833c44"
+    },
+    {
+      "path": "src/tests/setup.ts",
+      "sha256": "91a3c8962a0edcb956206a501d943fe99e1c78c6d4d8b5c9a948a3362c75978c"
+    },
+    {
+      "path": "src/tests/story.test.ts",
+      "sha256": "b59c7211346ff2b848d49b06ec20efb03e3f5008fe1ec7c6cf0c1439bd0a089e"
+    },
+    {
+      "path": "src/types/game.ts",
+      "sha256": "07460cedc3bf3d27ec4094d4a3c0e03f6489ee0a507c148103af9670f63e3252"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "c780dae6a57367299eb692588299f3ff31231c163d00fa03c9d1cd40c8550646"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "0388f7be4819d7e40a8957c845ab1bbbcfde6e42cbfb506bfe55af7558a23c63"
+    },
+    {
+      "path": "vitest.config.ts",
+      "sha256": "e0fa6ddb01e523abc8a2d9e37542053dd40f9c114f788c23b13f5fe322b679b4"
+    }
+  ],
+  "project_root": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+  "child_has_own_git": false,
+  "parent_top_level": [
+    ".env.local",
+    ".git",
+    ".gitignore",
+    ".next",
+    ".openai",
+    ".sites-package-v4",
+    ".vinext",
+    ".wrangler",
+    "MistSea_AllInOne_v0.1",
+    "README.md",
+    "app",
+    "dist",
+    "eslint.config.mjs",
+    "next-env.d.ts",
+    "next.config.ts",
+    "node_modules",
+    "package.json",
+    "pnpm-lock.yaml",
+    "pnpm-workspace.yaml",
+    "proxy.ts",
+    "public",
+    "riverside-site-v2.tar.gz",
+    "riverside-site-v3.tar.gz",
+    "riverside-site-v4.tar.gz",
+    "riverside-site.tar.gz",
+    "src",
+    "tsconfig.json",
+    "tsconfig.tsbuildinfo",
+    "vite.config.ts",
+    "vitest.config.ts"
+  ],
+  "ignored_files_content_read": false
+}

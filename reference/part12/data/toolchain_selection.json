@@ -1,0 +1,29 @@
+{
+  "verified_source_date": "2026-10-09",
+  "qualification": "selected_not_built_in_this_turn",
+  "engine": "Godot 4.7.2 .NET",
+  "engine_sdk_package": "Godot.NET.Sdk/4.7.2",
+  "renderer": "gl_compatibility",
+  "dotnet_sdk": "10.0.401",
+  "target_framework": "net10.0",
+  "csharp_language_baseline": "12.0",
+  "sqlite_provider": "Microsoft.Data.Sqlite 10.0.12",
+  "native_sqlite_version": "record at actual restore; not yet measured for C#",
+  "reference_python": "3.13.5",
+  "reference_sqlite": "3.46.1",
+  "frontend": "native Godot Control/RichTextLabel/TextEdit",
+  "optional_gateway": "ASP.NET Core 10 Minimal API; provider disabled until qualified",
+  "release_platform": "Windows x86_64",
+  "future_platforms": "not release scope",
+  "exact_package_lockfile_generated": false,
+  "engine_or_sdk_binaries_included": false,
+  "required_T00": [
+    "compile empty Godot C# game",
+    "native SQLite open/transaction/backup",
+    "real Chinese IME",
+    "200% text reflow",
+    "offline self-contained Windows export on clean machine",
+    "screen-reader smoke test",
+    "NuGet audit and native library version inventory"
+  ]
+}

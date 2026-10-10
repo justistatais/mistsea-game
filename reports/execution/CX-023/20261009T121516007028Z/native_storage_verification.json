@@ -1,0 +1,18 @@
+{
+  "unicode_and_return_saved": true,
+  "actor_unchanged": {
+    "scene": "R1-S02",
+    "position": {
+      "x": 48,
+      "y": 90
+    },
+    "action_clock": 0
+  },
+  "quest_unchanged": {
+    "id": "Q-102",
+    "instance": "c7d310bb-66bf-43d5-8c1e-baa809c3f1aa",
+    "lifecycle": "unaccepted",
+    "outcome": null
+  },
+  "sqlite_read_only": true
+}

@@ -1,0 +1,434 @@
+{
+  "result": {
+    "build": "BUILD-Q102-ENTRY-M",
+    "scenario": "BENCH-WORKSHOP",
+    "difficulty": "challenge",
+    "outcome": "victory",
+    "rounds": 4,
+    "party_hp": 266,
+    "party_max_hp": 342,
+    "hp_damage": 209,
+    "shield_absorbed": 11,
+    "breaks": 1,
+    "aid_used": 0,
+    "focus_spent": 11,
+    "device_damage": 11,
+    "downs": 0,
+    "actions": 16
+  },
+  "scope": {
+    "full_story_balanced": false,
+    "language_calibrated": false,
+    "reference_simulation": "selected_actives_core_passives_fixed_auxiliaries_no_paid_items",
+    "gear_hooks_not_executed": [
+      "WP-04",
+      "AR-05",
+      "all_relics",
+      "all_modules"
+    ],
+    "not_implemented_in_simulator": [
+      "positions_and_range",
+      "companion_milestone_variants",
+      "ordinary_damage_over_time_ticks",
+      "all_status_visuals",
+      "full_core_battle",
+      "world_commit_storage",
+      "real_engine_saving"
+    ]
+  },
+  "log": [
+    {
+      "round": 1,
+      "kind": "declare",
+      "intents": {
+        "maintenance": {
+          "name": "臂击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "guard",
+      "target": "maintenance",
+      "hp": 19,
+      "absorbed": 0,
+      "raw": 19,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M02",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M01",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "hero",
+      "target": "maintenance",
+      "hp": 23,
+      "absorbed": 0,
+      "raw": 23,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "support",
+      "target": "maintenance",
+      "hp": 18,
+      "absorbed": 0,
+      "raw": 18,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "hero",
+      "target": "maintenance",
+      "hp": 11,
+      "absorbed": 0,
+      "raw": 11,
+      "device": true
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "maintenance",
+      "target": "hero",
+      "hp": 41,
+      "absorbed": 0,
+      "raw": 41,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "enemy_action",
+      "enemy": "maintenance",
+      "name": "臂击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 2,
+      "kind": "declare",
+      "intents": {
+        "maintenance": {
+          "name": "扫描扫击",
+          "target": "column",
+          "units": [
+            "hero"
+          ],
+          "slots": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 2,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 11,
+      "added": 11
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "hero",
+      "target": "maintenance",
+      "hp": 25,
+      "absorbed": 0,
+      "raw": 25,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "maintenance"
+    },
+    {
+      "round": 2,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2100
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "support",
+      "target": "maintenance",
+      "hp": 18,
+      "absorbed": 0,
+      "raw": 18,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "maintenance",
+      "target": "hero",
+      "hp": 9,
+      "absorbed": 11,
+      "raw": 20,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "maintenance",
+      "target": "support",
+      "hp": 26,
+      "absorbed": 0,
+      "raw": 26,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "enemy_action",
+      "enemy": "maintenance",
+      "name": "扫描扫击",
+      "targets": [
+        "hero",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 3,
+      "kind": "declare",
+      "intents": {
+        "maintenance": {
+          "name": "蓄力压击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "guard",
+      "target": "maintenance",
+      "hp": 19,
+      "absorbed": 0,
+      "raw": 19,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M01",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "hero",
+      "target": "maintenance",
+      "hp": 23,
+      "absorbed": 0,
+      "raw": 23,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "break",
+      "target": "maintenance",
+      "boss": false
+    },
+    {
+      "round": 3,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2100
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 16,
+      "added": 16
+    },
+    {
+      "round": 3,
+      "kind": "intent_cancelled",
+      "enemy": "maintenance",
+      "reason": "stagger"
+    },
+    {
+      "round": 4,
+      "kind": "declare",
+      "intents": {
+        "maintenance": {
+          "name": "臂击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "guard",
+      "target": "maintenance",
+      "hp": 16,
+      "absorbed": 0,
+      "raw": 16,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "basic",
+      "actor": "guard",
+      "target": "maintenance"
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M02",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "hero",
+      "target": "maintenance",
+      "hp": 25,
+      "absorbed": 0,
+      "raw": 25,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "maintenance"
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "maintenance"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "support",
+      "target": "maintenance",
+      "hp": 12,
+      "absorbed": 0,
+      "raw": 18,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "down",
+      "unit": "maintenance"
+    }
+  ]
+}

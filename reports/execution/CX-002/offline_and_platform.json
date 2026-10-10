@@ -1,0 +1,67 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "architecture": "AMD64",
+  "verified": "Windows x86_64 on this machine",
+  "offline_cached": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\toolchain\\NuGet.offline.config",
+        "--locked-mode",
+        "-p:NuGetAudit=false"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_offline_cached.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke\\GodotSmoke.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\toolchain\\NuGet.offline.config",
+        "--locked-mode",
+        "-p:NuGetAudit=false"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/godot_offline_cached.log"
+    }
+  ],
+  "offline_empty_cache": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\toolchain\\NuGet.offline.config",
+        "--locked-mode",
+        "--force",
+        "--no-cache",
+        "-p:NuGetAudit=false",
+        "-p:MSBuildProjectExtensionsPath=C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\offline_obj\\"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/execution/CX-002/runs/20261009T094617550877Z/sqlite_offline_empty.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "Empty package cache and an explicitly empty source list must report NU1100."
+    }
+  ],
+  "failure_explanation": "No package source and no cache: NuGet reports NU1100; pre-populate the cache by an online restore before offline use.",
+  "not_run": [
+    "different clean Windows machine",
+    "native IME",
+    "screen reader",
+    "production persistence tests",
+    "audio listening",
+    "human language calibration",
+    "Linux/macOS/mobile builds; outside the Windows baseline"
+  ],
+  "clean_machine_limit": "SDK environment removed and bundled runtime verified locally; a separate clean Windows machine has not been tested."
+}

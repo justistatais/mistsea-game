@@ -1,0 +1,11 @@
+{"argv": ["D:\\Python312\\python.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py", "vessel-client-test"], "exit_code": 0}
+[stdout]
+RUN sdk_version
+EXIT 0
+RUN godot_import
+EXIT 0
+RUN client_tests
+EXIT 0
+{"action": "vessel-client-test", "result": "verified", "path": "reports/build/20261010T092455140604Z"}
+
+[stderr]

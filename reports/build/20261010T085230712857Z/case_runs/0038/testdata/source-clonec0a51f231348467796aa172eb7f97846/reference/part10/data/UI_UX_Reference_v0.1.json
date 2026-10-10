@@ -1,0 +1,681 @@
+{
+  "version": "0.1",
+  "target_band": 6.5,
+  "scope": "design_reference_not_engine",
+  "navigation": [
+    "地图",
+    "事务",
+    "档案",
+    "队伍",
+    "学习",
+    "系统"
+  ],
+  "screens": [
+    {
+      "id": "UI-01",
+      "name": "启动与玩家档案",
+      "navigation": "系统",
+      "authority": "玩家档案/设置",
+      "visible_contract": "新玩家、继续、导入导出入口",
+      "forbidden": "选择档案不触发剧情，不强制联网",
+      "view_restore": "当前档案与已确认偏好",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-02",
+      "name": "存档与继续",
+      "navigation": "系统",
+      "authority": "持久化服务",
+      "visible_contract": "实际冒险槽、草稿保存状态、保留点",
+      "forbidden": "不能用设置保存成功冒充世界存档成功",
+      "view_restore": "槽位筛选、当前分支、安全恢复点",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-03",
+      "name": "系统与辅助设置",
+      "navigation": "系统",
+      "authority": "用户偏好",
+      "visible_contract": "三条独立轴、字号、字幕、声音、键位、数据",
+      "forbidden": "改变支持不改变材料、掉落、人物信任",
+      "view_restore": "每档案偏好；危险改动显式确认",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-10",
+      "name": "探索HUD",
+      "navigation": "场景",
+      "authority": "探索/任务只读投影",
+      "visible_contract": "位置、当前目标、显式出口、交互焦点",
+      "forbidden": "不远程拾取；不提示未发现谜底",
+      "view_restore": "场景ID、相机、焦点，合法稳定落点",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-11",
+      "name": "世界与区域地图",
+      "navigation": "地图",
+      "authority": "探索路网与权限",
+      "visible_contract": "已知地区、通路、安全点、当前运输限制",
+      "forbidden": "导航图不代替剧情证据地图",
+      "view_restore": "层级、区域、缩放、焦点",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-20",
+      "name": "任务日志",
+      "navigation": "事务",
+      "authority": "任务规则",
+      "visible_contract": "当前目标、已确认事实、可调查方向、工作回执",
+      "forbidden": "未打开文件不当失败；不默认剧透结论",
+      "view_restore": "筛选、跟踪、滚动、任务实例",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-21",
+      "name": "通信与写作",
+      "navigation": "事务",
+      "authority": "规范草稿库/任务提案",
+      "visible_contract": "原文、编辑、字数参考、草稿保存、方案和反馈",
+      "forbidden": "回车不发送；语言服务不提交世界",
+      "view_restore": "同一任务同一草稿及正文版本、光标、引用",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-22",
+      "name": "工程工作单与协议",
+      "navigation": "事务",
+      "authority": "工程账/人员/授权",
+      "visible_contract": "资源归属、缺项、派工、试运行、签字版本",
+      "forbidden": "库存不等于安装；五组织不等于六地接受",
+      "view_restore": "工作单/地区筛选和未提交候选",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-30",
+      "name": "档案目录",
+      "navigation": "档案",
+      "authority": "可访问材料投影",
+      "visible_contract": "已取得材料、来源、类型、搜索",
+      "forbidden": "搜索计数、摘要、标签均不能泄露未知内容",
+      "view_restore": "搜索、筛选、已选材料",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-31",
+      "name": "阅读与听力工作区",
+      "navigation": "档案",
+      "authority": "内容版本/播放/支持记录",
+      "visible_contract": "原文、来源、播放、字幕、词义、翻译",
+      "forbidden": "播放不等于理解；无音轨不显示听力完成",
+      "view_restore": "段落ID/偏移、时间点、速度、字幕状态",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-32",
+      "name": "证据板",
+      "navigation": "档案",
+      "authority": "引用/玩家假设/核验回执",
+      "visible_contract": "引用卡、来源根、比较、笔记、假设",
+      "forbidden": "玩家连线不自动把假设变成事实",
+      "view_restore": "卡片顺序、连接、笔记、版本",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-33",
+      "name": "谜题工作区",
+      "navigation": "场景",
+      "authority": "谜题候选/受控验证",
+      "visible_contract": "步骤、路线、分配、状态和解释",
+      "forbidden": "草案不执行；多解全收；未知不强判错",
+      "view_restore": "候选、撤销栈、正在看的材料",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-40",
+      "name": "角色与技能构筑",
+      "navigation": "队伍",
+      "authority": "成长投影/配置提交",
+      "visible_contract": "属性点、技能、费用、校准、四主动槽",
+      "forbidden": "安全处免费调整；预览不先扣旧点数",
+      "view_restore": "候选构筑与真实构筑分离",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-41",
+      "name": "收藏、背包与改件",
+      "navigation": "队伍",
+      "authority": "物品实例/装备占用",
+      "visible_contract": "型号、实例、装备者、材料与改件转移",
+      "forbidden": "核心收藏不卖；实物不复制；工程物资另账",
+      "view_restore": "类别、筛选、比较对象",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-42",
+      "name": "同伴与人物",
+      "navigation": "队伍",
+      "authority": "人物知识/关系/可用性",
+      "visible_contract": "随队和岗位、工作合作、私人交流、议题",
+      "forbidden": "无总好感分；无未相识人物秘密",
+      "view_restore": "已知人物ID、话题、名册候选",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-43",
+      "name": "商店与制作",
+      "navigation": "事务",
+      "authority": "交易/个人经济",
+      "visible_contract": "差价、配方、数量、材料、完整结果预览",
+      "forbidden": "未知提交先查回执；不能二次扣费",
+      "view_restore": "候选订单、商人、稳定交易ID",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-50",
+      "name": "学习档案",
+      "navigation": "学习",
+      "authority": "学习观察/评价投影",
+      "visible_contract": "读听写分别记录、条件、来源、待验证项目",
+      "forbidden": "不造总分/掌握百分比；未评估不是0",
+      "view_restore": "技能、目标、时间与实际条件筛选",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-51",
+      "name": "目标练习与独立检查",
+      "navigation": "学习",
+      "authority": "学习会话",
+      "visible_contract": "目标、未见材料、工具条件、可选计时",
+      "forbidden": "游戏主线无计时；使用帮助后记录条件",
+      "view_restore": "会话、正文、条件、恢复边界",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-60",
+      "name": "战前整备",
+      "navigation": "战斗",
+      "authority": "遭遇预览/成长/物品",
+      "visible_contract": "真实入口等级、两援助、两基础急救、两增强格",
+      "forbidden": "未招募同伴不自动加队；不假用结算奖励",
+      "view_restore": "队伍候选、装备、合法入口快照",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-61",
+      "name": "战斗HUD",
+      "navigation": "战斗",
+      "authority": "战斗运行态",
+      "visible_contract": "我方3/2AP、意图、锁定、盾、稳定、队列",
+      "forbidden": "队列不可拖；查看资料不耗AP或推进时间",
+      "view_restore": "当前行动槽、候选目标、来源工作区",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-62",
+      "name": "战斗结果与恢复",
+      "navigation": "战斗",
+      "authority": "战斗回执/任务接收",
+      "visible_contract": "受控结果、退回范围、未解决现场动作",
+      "forbidden": "打赢不等于全部任务完成；跳动画不重发奖",
+      "view_restore": "回执、已播放位置、下一合法操作",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-70",
+      "name": "任务与区域结算",
+      "navigation": "事务",
+      "authority": "世界提交回执",
+      "visible_contract": "实际后果、单次奖励、可展开学习反馈",
+      "forbidden": "不强制刷完错题才离开",
+      "view_restore": "结果ID、展开状态、不重复提交",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-71",
+      "name": "最终起航准备",
+      "navigation": "事务",
+      "authority": "六地准备/权限",
+      "visible_contract": "基础保全、增强条件、缺项与可补路径",
+      "forbidden": "不混同当前安全/安装/试运行；不藏好感锁",
+      "view_restore": "地区工作页、当前可行方案与差异",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    },
+    {
+      "id": "UI-72",
+      "name": "终局决定与回顾",
+      "navigation": "事务",
+      "authority": "已稳定现场/准备快照",
+      "visible_contract": "可行方向、后果、最后命令与尾声",
+      "forbidden": "不根据写作评分改变结局；不重新生成历史",
+      "view_restore": "已确认方案、结果快照、回顾位置",
+      "keyboard_required": true,
+      "empty_loading_error_required": true,
+      "target_language_band": 6.5
+    }
+  ],
+  "components": [
+    {
+      "id": "UC-01",
+      "name": "导航壳与返回链",
+      "contract": "导航是纯查询；保存上层返回点"
+    },
+    {
+      "id": "UC-02",
+      "name": "来源标题与权限摘要",
+      "contract": "先过滤可见内容，再搜索/渲染/读屏"
+    },
+    {
+      "id": "UC-03",
+      "name": "文献引用卡",
+      "contract": "段落ID+版本+代码点范围；不是像素截图"
+    },
+    {
+      "id": "UC-04",
+      "name": "词典与语言抽屉",
+      "contract": "打开才记录相关帮助；关闭回到选择处"
+    },
+    {
+      "id": "UC-05",
+      "name": "三类提示面板",
+      "contract": "操作/语言/逻辑；完整解法需主动请求"
+    },
+    {
+      "id": "UC-06",
+      "name": "音频播放器",
+      "contract": "真实ready/playing/missing/error；字幕独立"
+    },
+    {
+      "id": "UC-07",
+      "name": "规范草稿编辑器",
+      "contract": "同实例同正文；IME与世界热键隔离"
+    },
+    {
+      "id": "UC-08",
+      "name": "保存状态",
+      "contract": "dirty/saving/saved/error；仅收到持久化回执后声称已存"
+    },
+    {
+      "id": "UC-09",
+      "name": "方案澄清卡",
+      "contract": "意思候选与语言反馈分开；不暗选行动"
+    },
+    {
+      "id": "UC-10",
+      "name": "行动确认",
+      "contract": "取消默认焦点；绑定相关版本，无现实超时"
+    },
+    {
+      "id": "UC-11",
+      "name": "世界回执卡",
+      "contract": "未知结果先查回执；同一提交不能重复奖励"
+    },
+    {
+      "id": "UC-12",
+      "name": "当前缺项与错误卡",
+      "contract": "说清尚未准备/过期/数据不可用及合法下一步"
+    },
+    {
+      "id": "UC-13",
+      "name": "目标与敌人意图卡",
+      "contract": "人物/位置/全场锁定分别表达"
+    },
+    {
+      "id": "UC-14",
+      "name": "资源所有权与差异表",
+      "contract": "个人/工程分账；候选到执行完整预览"
+    },
+    {
+      "id": "UC-15",
+      "name": "人物依据卡",
+      "contract": "显示被允许的工作、交流、立场，不合成好感"
+    },
+    {
+      "id": "UC-16",
+      "name": "通知队列",
+      "contract": "受保护输入时只排队；最多一条短提示+日志"
+    },
+    {
+      "id": "UC-17",
+      "name": "焦点与可访问替代",
+      "contract": "所有拖拽有选择-移动-确认替代"
+    },
+    {
+      "id": "UC-18",
+      "name": "数据导出删除",
+      "contract": "范围预览、取消优先、代际阻止旧反馈复活"
+    }
+  ],
+  "bindings": [
+    {
+      "action": "move",
+      "keys": "W/A/S/D 或方向键",
+      "contexts": [
+        "exploration"
+      ],
+      "behavior": "移动；不处理编辑器输入"
+    },
+    {
+      "action": "focus_next",
+      "keys": "Tab / Shift+Tab",
+      "contexts": [
+        "exploration",
+        "workspace",
+        "combat",
+        "dialog"
+      ],
+      "behavior": "按当前层焦点移动；不会直接走进危险"
+    },
+    {
+      "action": "interact",
+      "keys": "E / 已聚焦对象上的Enter",
+      "contexts": [
+        "exploration"
+      ],
+      "behavior": "接近合法操作点后执行"
+    },
+    {
+      "action": "highlight",
+      "keys": "H",
+      "contexts": [
+        "exploration"
+      ],
+      "behavior": "切换可交互对象提示，不显示答案"
+    },
+    {
+      "action": "map",
+      "keys": "M",
+      "contexts": [
+        "exploration",
+        "combat_decision"
+      ],
+      "behavior": "地图只读；战斗中旅行不可执行"
+    },
+    {
+      "action": "tasks",
+      "keys": "J",
+      "contexts": [
+        "exploration",
+        "combat_decision"
+      ],
+      "behavior": "打开任务"
+    },
+    {
+      "action": "archive",
+      "keys": "B",
+      "contexts": [
+        "exploration",
+        "combat_decision"
+      ],
+      "behavior": "打开已知档案"
+    },
+    {
+      "action": "party",
+      "keys": "C",
+      "contexts": [
+        "exploration",
+        "combat_decision"
+      ],
+      "behavior": "队伍；战斗中只读，不能洗点"
+    },
+    {
+      "action": "learning",
+      "keys": "L",
+      "contexts": [
+        "exploration",
+        "combat_decision"
+      ],
+      "behavior": "查看学习记录，不抢真实作答"
+    },
+    {
+      "action": "help",
+      "keys": "F1",
+      "contexts": [
+        "exploration",
+        "workspace",
+        "combat_decision"
+      ],
+      "behavior": "当前操作说明，不直接揭晓谜底"
+    },
+    {
+      "action": "save_draft",
+      "keys": "Ctrl+S",
+      "contexts": [
+        "editable"
+      ],
+      "behavior": "请求本地保存，不发送给NPC或外部服务"
+    },
+    {
+      "action": "activate",
+      "keys": "Enter / Space",
+      "contexts": [
+        "button_focused"
+      ],
+      "behavior": "操作已聚焦按钮；不可承接上一层长按"
+    },
+    {
+      "action": "newline",
+      "keys": "Enter",
+      "contexts": [
+        "editable"
+      ],
+      "behavior": "换行；IME先交给输入法"
+    },
+    {
+      "action": "escape",
+      "keys": "Esc",
+      "contexts": [
+        "all"
+      ],
+      "behavior": "取消输入法候选优先；否则撤销当前选靶/关闭最上层/系统菜单"
+    },
+    {
+      "action": "combat_slot",
+      "keys": "1—4",
+      "contexts": [
+        "combat_decision"
+      ],
+      "behavior": "选择对应主动，只选择不自动找目标执行"
+    }
+  ],
+  "tokens": {
+    "reference_viewport": [
+      1280,
+      720
+    ],
+    "wide_test_viewport": [
+      1920,
+      1080
+    ],
+    "margin": 24,
+    "body_px": 20,
+    "line_height": 1.65,
+    "heading_px": 28,
+    "caption_px": 16,
+    "minimum_button_height": 44,
+    "font_scales": [
+      1,
+      1.25,
+      1.5,
+      1.75,
+      2
+    ],
+    "two_pane_min_width": 1100,
+    "single_pane_at_font_scale": 1.5,
+    "english_line_chars_target": [
+      60,
+      80
+    ],
+    "content_motion_ms": [
+      120,
+      180
+    ],
+    "draft_debounce_ms": 500,
+    "draft_loss_goal_seconds": 5
+  },
+  "save_slots": {
+    "manual_initial": 6,
+    "rolling_auto_initial": 5,
+    "protected_milestone_retention": "本冒险内每个明确不可逆阶段前保留，滚动池不得覆盖；玩家可在范围确认后主动删除"
+  },
+  "input_modes": [
+    "exploration",
+    "approaching",
+    "workspace",
+    "editable",
+    "dialogue",
+    "puzzle",
+    "combat_decision",
+    "combat_resolving",
+    "confirmation",
+    "transition"
+  ],
+  "readonly_in_combat": [
+    "travel",
+    "respec",
+    "equip",
+    "craft",
+    "workorder_dispatch",
+    "recruit"
+  ],
+  "view_only_actions": [
+    "search",
+    "inspect",
+    "preview",
+    "read",
+    "toggle_setting",
+    "switch_tab"
+  ],
+  "forbidden_commit_dependencies": [
+    "ielts_score",
+    "language_help_count",
+    "npc_affection_total",
+    "document_open_count"
+  ],
+  "ui_prototype": {
+    "file": "prototype/UI_Wireframe_v0.1.html",
+    "type": "offline_structure_demo",
+    "real_engine": false,
+    "real_audio": false,
+    "language_scoring": false,
+    "offline_world_simulation": "Q-102简化设备夹具和确认流程，非地图、寻路或完整任务验证"
+  },
+  "layouts": [
+    {
+      "id": "LAY-WRITE-1280",
+      "screen": "UI-21",
+      "viewport": [
+        1280,
+        720
+      ],
+      "rects": {
+        "header": [
+          24,
+          16,
+          1232,
+          48
+        ],
+        "source_pane": [
+          24,
+          80,
+          480,
+          552
+        ],
+        "editor_pane": [
+          528,
+          80,
+          728,
+          552
+        ],
+        "actions": [
+          24,
+          648,
+          1232,
+          48
+        ]
+      },
+      "note": "默认字号的参考矩形；200%字号使用重排和页面滚动，不照比例缩小正文"
+    },
+    {
+      "id": "LAY-READ-1280",
+      "screen": "UI-31",
+      "viewport": [
+        1280,
+        720
+      ],
+      "rects": {
+        "header": [
+          24,
+          16,
+          1232,
+          48
+        ],
+        "text": [
+          24,
+          80,
+          824,
+          552
+        ],
+        "help": [
+          872,
+          80,
+          384,
+          552
+        ],
+        "actions": [
+          24,
+          648,
+          1232,
+          48
+        ]
+      },
+      "note": "帮助抽屉关闭时正文居中，保留行宽；不把全文铺满超宽屏"
+    }
+  ]
+}

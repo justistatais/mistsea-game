@@ -1,0 +1,948 @@
+{
+  "schema_version": "0.1",
+  "task_id": "CX-001",
+  "result": "accepted",
+  "source_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "working_tree_manifest": "reports/execution/CX-001/working_tree.json",
+  "build_id": null,
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "architecture": "AMD64",
+    "python": {
+      "executable": "D:\\Python312\\python.exe",
+      "version": "3.12.10",
+      "architecture": "64bit",
+      "sqlite_reference_version": "3.49.1"
+    },
+    "godot": {
+      "status": "not_found_on_PATH",
+      "global_installation_audit": "not_performed"
+    },
+    "dotnet": [
+      {
+        "executable": "C:\\Program Files (x86)\\dotnet\\dotnet.EXE",
+        "info": {
+          "exit_code": 0,
+          "stdout": "\r\nHost (useful for support):\r\n  Version: 5.0.17\r\n  Commit:  6a98414363\r\n\r\n.NET SDKs installed:\r\n  No SDKs were found.\r\n\r\n.NET runtimes installed:\r\n  Microsoft.AspNetCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.AspNetCore.App]\r\n  Microsoft.NETCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App]\r\n\r\nTo install additional .NET runtimes or SDKs:\r\n  https://aka.ms/dotnet-download\r\n",
+          "stderr": ""
+        },
+        "sdks": {
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": ""
+        },
+        "runtimes": {
+          "exit_code": 0,
+          "stdout": "Microsoft.AspNetCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.AspNetCore.App]\r\nMicrosoft.NETCore.App 5.0.17 [C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App]\r\n",
+          "stderr": ""
+        }
+      }
+    ],
+    "sqlite_native": "not_verified",
+    "details_path": "reports/execution/CX-001/environment.json"
+  },
+  "artifacts": [
+    {
+      "path": "docs/onboarding/CX-001_接管报告.md",
+      "sha256": "5f1731df967f6959e491d6ba2a997d2f612db6da64a98b08dffdcca1058c4753",
+      "bytes": 7078
+    },
+    {
+      "path": "reports/execution/CX-001/state_after.json",
+      "sha256": "9ee81ac8a170b3c9611a46032907e588d6dcd8b6bd24dbaa9afd74093c9e4bf1",
+      "bytes": 14650
+    },
+    {
+      "path": "reports/execution/CX-001/after_git_files.log",
+      "sha256": "52edc842b498f8a9bd06be20824a173f0c75f8e1029df278d33e8d0c3911f0a9",
+      "bytes": 1279
+    },
+    {
+      "path": "reports/execution/CX-001/after_git_head.log",
+      "sha256": "f8467487c99acc620c3dbab9c64c413e6cba95837db0f8f5848135c0e21f5090",
+      "bytes": 325
+    },
+    {
+      "path": "reports/execution/CX-001/after_git_root.log",
+      "sha256": "1b810db1a092253914be404f58556ac1598f07d697a375a60b181f0a7ad0efea",
+      "bytes": 364
+    },
+    {
+      "path": "reports/execution/CX-001/after_git_status.log",
+      "sha256": "5e14350387d1d973e82d007b1b76e3373132f67505736511708362b067d1a8c9",
+      "bytes": 345
+    },
+    {
+      "path": "reports/execution/CX-001/audit.py",
+      "sha256": "c5f4b77009de922eecb67a33ff4795ddf366e78a128d3ec087fd8d155a359d78",
+      "bytes": 14268
+    },
+    {
+      "path": "reports/execution/CX-001/before_git_files.log",
+      "sha256": "a54eda0c88641b46984b483769d8e1a0e4ae09d651456487889d434fbccd8669",
+      "bytes": 1279
+    },
+    {
+      "path": "reports/execution/CX-001/before_git_head.log",
+      "sha256": "776680db72c4ecc69dacfb37feed327ee8a2fbd1c04f7a3c614646babb731abd",
+      "bytes": 325
+    },
+    {
+      "path": "reports/execution/CX-001/before_git_root.log",
+      "sha256": "cb78702aad785bb9a9d38a77b610e86bde3c10399746a1eea9cf77fd7852a46b",
+      "bytes": 364
+    },
+    {
+      "path": "reports/execution/CX-001/before_git_status.log",
+      "sha256": "ae62b0863e51baabb034e024e3c67386172cb93498402387340d75b062326190",
+      "bytes": 345
+    },
+    {
+      "path": "reports/execution/CX-001/dotnet_1_info.log",
+      "sha256": "8f6fdd4f0cee0cf89f3c81e473568578fd786e9c7e62c99f45aff5af20e1df70",
+      "bytes": 669
+    },
+    {
+      "path": "reports/execution/CX-001/dotnet_1_runtimes.log",
+      "sha256": "5bec1870aefc70e10508dc2bd1f97aa64d5e1a7ba62870e995eff93810258794",
+      "bytes": 433
+    },
+    {
+      "path": "reports/execution/CX-001/dotnet_1_sdks.log",
+      "sha256": "a6eea755c18d7487946970aeb84b3f27b67f06f11ece4bdd8ef5243f9e256830",
+      "bytes": 239
+    },
+    {
+      "path": "reports/execution/CX-001/engineering_review.json",
+      "sha256": "d20aabf8605da412b2e92f9949d13ab71f76d359c0f07765434f33581fb577dc",
+      "bytes": 1644
+    },
+    {
+      "path": "reports/execution/CX-001/environment.json",
+      "sha256": "15e8b5a7a3b58ff6ee8799927509774d438006f306f52347b834bb8fa58e0b57",
+      "bytes": 4095
+    },
+    {
+      "path": "reports/execution/CX-001/final_audit.json",
+      "sha256": "160e7c92eb1f695e2fe3184ea1f570c382c26c0a67476bd99b3948e0caee9591",
+      "bytes": 23897
+    },
+    {
+      "path": "reports/execution/CX-001/git_version.log",
+      "sha256": "c54abea6618e713a939bb93cc2c1c14a1c2627644bb78939cd1be109537f28c2",
+      "bytes": 328
+    },
+    {
+      "path": "reports/execution/CX-001/initial_audit.json",
+      "sha256": "984727bc9a5d4609a179ea54c72fdc144f430f6bf9e5c24d218483d7aefc7912",
+      "bytes": 8510
+    },
+    {
+      "path": "reports/execution/CX-001/node_version.log",
+      "sha256": "7d5f4655e22da8d9844a84157a3a15c6abdf169b30b4e747118734bee31f965c",
+      "bytes": 303
+    },
+    {
+      "path": "reports/execution/CX-001/plan_next_final.log",
+      "sha256": "5b4a7c06363390fbaecff83caeff6fdc362dacb62fffb70b850d632bb74b7216",
+      "bytes": 1387
+    },
+    {
+      "path": "reports/execution/CX-001/plan_next_initial.log",
+      "sha256": "532c0127a82d81b1f2070cc452b7c8c040d674a66ae60a1df586993fb21e7a75",
+      "bytes": 428
+    },
+    {
+      "path": "reports/execution/CX-001/plan_show_initial.log",
+      "sha256": "af2ff035e7aca694fca80b05ef3e3d8255a8f39852fb8a6d23f72b4b5663e426",
+      "bytes": 2677
+    },
+    {
+      "path": "reports/execution/CX-001/plan_status_final.log",
+      "sha256": "938b46019ba960eb75a59351208784ee681767f3be98c4b1bc6f769b5b811c6b",
+      "bytes": 905
+    },
+    {
+      "path": "reports/execution/CX-001/plan_status_initial.log",
+      "sha256": "8f0ed9f19c3c9b737b45884296c269f23944a7297ee2d5583e821f3b3a3d3ea9",
+      "bytes": 825
+    },
+    {
+      "path": "reports/execution/CX-001/planning_tests_initial.log",
+      "sha256": "b67d63842eabd16b7f0f1f4f76772e5dbcd90533e3c697f1be765d6c4edad87a",
+      "bytes": 3800
+    },
+    {
+      "path": "reports/execution/CX-001/pnpm_version.log",
+      "sha256": "0b992e079516066d285e64be1a6b7b17d4c1df2d723e9d0372d23351d242fa70",
+      "bytes": 305
+    },
+    {
+      "path": "reports/execution/CX-001/repository_after.json",
+      "sha256": "335c1bd3d110d9b0a25c4378737e80e2ac1069295511baba8730c435251cacc1",
+      "bytes": 7711
+    },
+    {
+      "path": "reports/execution/CX-001/repository_before.json",
+      "sha256": "335c1bd3d110d9b0a25c4378737e80e2ac1069295511baba8730c435251cacc1",
+      "bytes": 7711
+    },
+    {
+      "path": "reports/execution/CX-001/source_inventory_verified.json",
+      "sha256": "cb5bb56719cc32a39802cf4ce7434e5bb39515bdb70f034fe9fdace1703f0f05",
+      "bytes": 249754
+    },
+    {
+      "path": "reports/execution/CX-001/state_before.json",
+      "sha256": "0d86cad8ad4ba1cfc4e9900d5bd6ade9e85158cc2daa2228446e855eb3b6501c",
+      "bytes": 14414
+    },
+    {
+      "path": "reports/execution/CX-001/verify_handoff_final.log",
+      "sha256": "783c7914e30b5ac76f297caa52264a5b9991d05ffdd243f40f8d1caf0ffbabe2",
+      "bytes": 2107
+    },
+    {
+      "path": "reports/execution/CX-001/verify_handoff_initial.log",
+      "sha256": "7910c76bbe6816609507f759a00069346b5d1a25c288b567f28223efe0d2e862",
+      "bytes": 2107
+    },
+    {
+      "path": "reports/execution/CX-001/working_tree.json",
+      "sha256": "c9285bb8513d45bf65890253498d3bb2dd2b79a3138c229830511c5a4946acfb",
+      "bytes": 2950
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "rev-parse",
+        "--show-toplevel"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/before_git_root.log",
+      "started_at": "2026-10-09T15:47:34+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/before_git_head.log",
+      "started_at": "2026-10-09T15:47:34+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=normal"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/before_git_status.log",
+      "started_at": "2026-10-09T15:47:34+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "ls-files",
+        "-z"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/before_git_files.log",
+      "started_at": "2026-10-09T15:47:34+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/verify_handoff.py"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/verify_handoff_initial.log",
+      "started_at": "2026-10-09T15:47:35+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tools/tests",
+        "-v"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/planning_tests_initial.log",
+      "started_at": "2026-10-09T15:47:35+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/plan.py",
+        "status"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/plan_status_initial.log",
+      "started_at": "2026-10-09T15:47:36+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/plan.py",
+        "next",
+        "--limit",
+        "10"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/plan_next_initial.log",
+      "started_at": "2026-10-09T15:47:36+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/plan.py",
+        "show",
+        "CX-001"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/plan_show_initial.log",
+      "started_at": "2026-10-09T15:47:36+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Program Files (x86)\\dotnet\\dotnet.EXE",
+        "--info"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/dotnet_1_info.log",
+      "started_at": "2026-10-09T15:47:37+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Program Files (x86)\\dotnet\\dotnet.EXE",
+        "--list-sdks"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/dotnet_1_sdks.log",
+      "started_at": "2026-10-09T15:47:37+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Program Files (x86)\\dotnet\\dotnet.EXE",
+        "--list-runtimes"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/dotnet_1_runtimes.log",
+      "started_at": "2026-10-09T15:47:37+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/git_version.log",
+      "started_at": "2026-10-09T15:47:37+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.EXE",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/node_version.log",
+      "started_at": "2026-10-09T15:47:37+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback\\pnpm.CMD",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/pnpm_version.log",
+      "started_at": "2026-10-09T15:47:37+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "reports/execution/CX-001/audit.py",
+        "initial"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/initial_audit.json"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "rev-parse",
+        "--show-toplevel"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_root.log",
+      "started_at": "2026-10-09T15:57:50+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_head.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=normal"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_status.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "ls-files",
+        "-z"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_files.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/verify_handoff.py"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/verify_handoff_final.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/plan.py",
+        "status"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/plan_status_final.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/plan.py",
+        "next",
+        "--limit",
+        "10"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/plan_next_final.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "reports/execution/CX-001/audit.py",
+        "final"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/final_audit.json"
+    }
+  ],
+  "acceptance_results": [
+    {
+      "criterion": "运行tools/verify_handoff.py",
+      "status": "passed",
+      "actual": "15 passed / 0 failed",
+      "evidence": "reports/execution/CX-001/verify_handoff_initial.log"
+    },
+    {
+      "criterion": "运行tools/plan.py next，CX-001为首项",
+      "status": "passed",
+      "actual": "初始首项且唯一就绪项为CX-001",
+      "evidence": "reports/execution/CX-001/plan_next_initial.log"
+    },
+    {
+      "criterion": "保留任何既有用户代码，不初始化覆盖或强制清理",
+      "status": "passed",
+      "actual": "独立子目录；父仓库48个跟踪文件哈希和HEAD保持不变，未初始化Git、提交、重置或删除文件",
+      "evidence": "reports/execution/CX-001/final_audit.json"
+    },
+    {
+      "criterion": "工程任务初始均未完成",
+      "status": "passed",
+      "actual": "接管前136项全部not_started且无证据；含80项engineering",
+      "evidence": "reports/execution/CX-001/state_before.json"
+    }
+  ],
+  "not_run": [
+    {
+      "item": "后续工程、章节制作与人工任务",
+      "task_ids": [
+        "CX-002",
+        "CX-003",
+        "CX-004",
+        "CX-005",
+        "CX-006",
+        "CX-007",
+        "CX-008",
+        "CX-009",
+        "CX-010",
+        "CX-011",
+        "CX-012",
+        "CX-013",
+        "CX-014",
+        "CX-015",
+        "CX-016",
+        "CX-017",
+        "CX-018",
+        "CX-019",
+        "CX-020",
+        "CX-021",
+        "CX-022",
+        "CX-023",
+        "CX-024",
+        "CX-025",
+        "CX-026",
+        "CX-027",
+        "CX-028",
+        "CX-029",
+        "CX-030",
+        "CX-031",
+        "CX-032",
+        "CX-033",
+        "CX-034",
+        "CX-035",
+        "CX-036",
+        "CX-037",
+        "CX-038",
+        "CX-039",
+        "CX-040",
+        "CX-041",
+        "CX-042",
+        "CX-043",
+        "CX-044",
+        "CX-045",
+        "CX-046",
+        "CX-047",
+        "CX-048",
+        "CX-049",
+        "CX-050",
+        "CX-051",
+        "CX-052",
+        "CX-053",
+        "CX-054",
+        "CX-055",
+        "CX-056",
+        "CX-057",
+        "CX-058",
+        "CX-059",
+        "CX-060",
+        "CX-061",
+        "CX-062",
+        "CX-063",
+        "CX-064",
+        "CX-065",
+        "CX-066",
+        "CX-067",
+        "CX-068",
+        "CX-069",
+        "CX-070",
+        "CX-071",
+        "CX-072",
+        "CX-073",
+        "CX-074",
+        "CX-075",
+        "CX-076",
+        "CX-077",
+        "CX-078",
+        "CX-079",
+        "CX-080",
+        "CP-R0-01",
+        "CP-R0-02",
+        "CP-R0-03",
+        "CP-R0-04",
+        "CP-R0-05",
+        "CP-R0-06",
+        "CP-R1-01",
+        "CP-R1-02",
+        "CP-R1-03",
+        "CP-R1-04",
+        "CP-R1-05",
+        "CP-R1-06",
+        "CP-R2-01",
+        "CP-R2-02",
+        "CP-R2-03",
+        "CP-R2-04",
+        "CP-R2-05",
+        "CP-R2-06",
+        "CP-R3-01",
+        "CP-R3-02",
+        "CP-R3-03",
+        "CP-R3-04",
+        "CP-R3-05",
+        "CP-R3-06",
+        "CP-R4-01",
+        "CP-R4-02",
+        "CP-R4-03",
+        "CP-R4-04",
+        "CP-R4-05",
+        "CP-R4-06",
+        "CP-R5-01",
+        "CP-R5-02",
+        "CP-R5-03",
+        "CP-R5-04",
+        "CP-R5-05",
+        "CP-R5-06",
+        "CP-R6-01",
+        "CP-R6-02",
+        "CP-R6-03",
+        "CP-R6-04",
+        "CP-R6-05",
+        "CP-R6-06",
+        "CP-RF-01",
+        "CP-RF-02",
+        "CP-RF-03",
+        "CP-RF-04",
+        "CP-RF-05",
+        "CP-RF-06",
+        "HV-001",
+        "HV-002",
+        "HV-003",
+        "HV-004",
+        "HV-005",
+        "HV-006",
+        "HV-007",
+        "HV-008"
+      ],
+      "reason": "启动指令限定只执行CX-001"
+    },
+    {
+      "item": "Godot/.NET安装、C#编译、NuGet还原与锁文件、SQLite原生集成及Windows导出",
+      "reason": "由CX-002及其后续卡实施，本轮只盘点工具环境"
+    },
+    {
+      "item": "真实IME、读屏、音轨审听、真人6.5校准、素材权利与发布签核",
+      "reason": "未执行，不能由本卡工程检查代签"
+    },
+    {
+      "item": "原来源包与deliverables的重建脚本、全部历史参考测试",
+      "reason": "保留来源字节；本卡不要求重建来源"
+    },
+    {
+      "item": "在线模型请求、密钥读取、对外上传或发布、官方工具链页面复核",
+      "reason": "在线功能关闭，CX-001不启用服务或验证候选版本发布状态"
+    },
+    {
+      "item": "在接管后的执行账上重复整套bootstrap测试",
+      "reason": "test_04/test_23/test_32显式依赖未开始且无证据的初始包；改用当前证据与调度检查，未修改tools来源"
+    }
+  ],
+  "blocked_reasons": [],
+  "review": {
+    "required_role": "Codex工程实现",
+    "reviewer": "Codex /root（工程证据复核，非真人签核）",
+    "decision": "accepted",
+    "is_synthetic": false,
+    "evidence": [
+      "reports/execution/CX-001/engineering_review.json",
+      "reports/execution/CX-001/initial_audit.json",
+      "reports/execution/CX-001/final_audit.json",
+      "reports/execution/CX-001/working_tree.json"
+    ]
+  },
+  "data_migration": {
+    "needed": false,
+    "record": null
+  },
+  "language_calibration": {
+    "status": "not_performed",
+    "evidence": null
+  },
+  "notes": "本次为新游戏，所有文件写入独立子文件夹。source_commit是既有父仓库的定位快照，非MistSea实现提交；未初始化独立Git或复用旧源码。accepted仅对应CX-001的真实工程证据自检，无真人签核。未将任何Gate或478条产品验收标为通过。报告仅列实际执行命令和结果。",
+  "executed_at": "2026-10-09T15:57:35+08:00",
+  "baseline": "MASTER-GDD-0.1",
+  "source_package": {
+    "path": "D:\\Downloads\\MistSea_Full_Design_and_Codex_v0.1.zip",
+    "bytes": 10396545,
+    "sha256": "0c1deb877b97329c5e37cc3127575c47b967ab029b8e95f7a71ecf74e82ccfea",
+    "crc_error": null,
+    "entries": 513
+  },
+  "source_versions": {
+    "documents": [
+      {
+        "part": 1,
+        "path": "docs/baseline/Game_Design_Core_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+      },
+      {
+        "part": 2,
+        "path": "docs/baseline/World_Story_Bible_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+      },
+      {
+        "part": 3,
+        "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+      },
+      {
+        "part": 4,
+        "path": "docs/baseline/Quest_Event_System_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+      },
+      {
+        "part": 5,
+        "path": "docs/baseline/English_Learning_System_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+      },
+      {
+        "part": 6,
+        "path": "docs/baseline/Puzzle_System_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+      },
+      {
+        "part": 7,
+        "path": "docs/baseline/Character_Progression_v0.1.md",
+        "version_header": "版本：v0.1  ",
+        "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+      },
+      {
+        "part": 8,
+        "path": "docs/baseline/Combat_System_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+      },
+      {
+        "part": 9,
+        "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+      },
+      {
+        "part": 10,
+        "path": "docs/baseline/UI_UX_Spec_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7"
+      },
+      {
+        "part": 11,
+        "path": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738"
+      },
+      {
+        "part": 12,
+        "path": "docs/baseline/Technical_Architecture_v0.1.md",
+        "version_header": "版本：`v0.1`  ",
+        "sha256": "93b80938c2bf37313d96c1f6eaee2f54bcfb9d5344d78f572619d6754168f8c2"
+      }
+    ],
+    "archives": [
+      {
+        "part": 3,
+        "path": "deliverables/original_part_packages/Part03_Exploration_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "43ca8e14603835e4bdec993059b7c82213036c1864474f2331e928f048a2fa3a",
+        "reference_file_count": 9
+      },
+      {
+        "part": 4,
+        "path": "deliverables/original_part_packages/Part04_Quest_Event_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "f08e6658a9c6a9e89022a00aed5554eb2e69005d863833c22dc1da3905f4548a",
+        "reference_file_count": 15
+      },
+      {
+        "part": 5,
+        "path": "deliverables/original_part_packages/Part05_English_Learning_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "6beba58473a10697914bc4701f3d5f2cafbcc7ebaec2ebe01c8cd99ca0476496",
+        "reference_file_count": 19
+      },
+      {
+        "part": 6,
+        "path": "deliverables/original_part_packages/Part06_Puzzle_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "438543f395fc43950f2c7e27ef6e7e9e0c9cb53fda8a8af7ba8bd611aeba4868",
+        "reference_file_count": 24
+      },
+      {
+        "part": 7,
+        "path": "deliverables/original_part_packages/Part07_Character_Progression_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "7e566f43f3853b936e4fc8acccd6daeabe5a1c317100bcc22803c76744e90d30",
+        "reference_file_count": 20
+      },
+      {
+        "part": 8,
+        "path": "deliverables/original_part_packages/Part08_Combat_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "e0d66ae2af47c2fe200528f59a457c123e575edaeb2f1cc5bc198c56e46ac32a",
+        "reference_file_count": 57
+      },
+      {
+        "part": 9,
+        "path": "deliverables/original_part_packages/Part09_NPC_Faction_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "6db0b0a99ef774aa7d1259e28b68c0ebe133c2129c684b15d0ee16ef38259c97",
+        "reference_file_count": 32
+      },
+      {
+        "part": 10,
+        "path": "deliverables/original_part_packages/Part10_UI_UX_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "665c4a83d7a20407bc685ea3f5d0b99549f9ab3f659ef0a41d82150dd76789c1",
+        "reference_file_count": 26
+      },
+      {
+        "part": 11,
+        "path": "deliverables/original_part_packages/Part11_Content_AI_Design_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "00719b08447fa7bb29c8fd09f4b56ce17a5eeba9cd4fe4662820e8dbca757e4a",
+        "reference_file_count": 46
+      },
+      {
+        "part": 12,
+        "path": "deliverables/original_part_packages/Part12_Technical_Architecture_v0.1.zip",
+        "version": "v0.1",
+        "sha256": "e0c23512a805c65f783d56eaa4e04737a8a5e9a420f8aa53a0a3c1d66047e6ba",
+        "reference_file_count": 29
+      }
+    ],
+    "verified_reference_files": 277,
+    "initial_collection_files_matched": 512
+  },
+  "test_results": {
+    "scope": "planning_integrity_not_production_game_validation",
+    "handoff_checks": {
+      "passed": 15,
+      "failed": 0
+    },
+    "bootstrap_plan_tests": {
+      "executed": 32,
+      "exit_code": 0,
+      "ledger": "reports/execution/CX-001/state_before.json"
+    },
+    "post_ledger_handoff": {
+      "passed": 15,
+      "failed": 0,
+      "evidence": "reports/execution/CX-001/verify_handoff_final.log"
+    },
+    "post_ledger_checks": {
+      "parent_git_head_unchanged": true,
+      "all_parent_tracked_files_unchanged": true,
+      "all_immutable_delivered_files_unchanged": true,
+      "only_cx001_ledger_entry_changed": true,
+      "cx001_evidence_valid": true,
+      "scheduler_has_no_errors": true,
+      "cx001_accepted": true,
+      "cx002_first_ready": true,
+      "all_gates_still_closed": true,
+      "all_commands_succeeded": true
+    }
+  },
+  "availability": {
+    "available": [
+      "12份冻结规范与10个来源ZIP及277份参考文件",
+      "136任务卡、8Gate、478验收映射及计划CLI",
+      "Windows本机、可用Python与Git、历史参考记录"
+    ],
+    "missing_or_unverified": [
+      {
+        "item": "Godot.NET编辑器与导出模板",
+        "finding": "PATH未找到；未搜索全部磁盘",
+        "followup": "CX-002"
+      },
+      {
+        "item": ".NET SDK 10.0.401",
+        "finding": "检测到的x86宿主只有5.0.17运行时，SDK列表为空",
+        "followup": "CX-002"
+      },
+      {
+        "item": "C#原生SQLite、真实依赖锁与兼容性",
+        "finding": "未还原或验证",
+        "followup": "CX-002/CX-004/CX-005"
+      },
+      {
+        "item": "正式Godot项目与客户端",
+        "finding": "无project.godot；仅有reference中的C#契约草案",
+        "followup": "CX-006及后续"
+      },
+      {
+        "item": "关键音轨与字体二进制",
+        "finding": "包内常见扩展扫描均为0；未新增资产",
+        "followup": "CX-030/CP-*-02/HV-004"
+      },
+      {
+        "item": "真人语言、原生输入/读屏、素材权利与发布证据",
+        "finding": "没有在本轮执行",
+        "followup": "对应CP-*-06与HV卡"
+      }
+    ]
+  },
+  "next_engineering_task": {
+    "task_id": "CX-002",
+    "prerequisites": [
+      "CX-001 accepted with valid evidence"
+    ],
+    "execution": "not_started",
+    "scheduler_evidence": "reports/execution/CX-001/plan_next_final.log"
+  },
+  "completed_at": "2026-10-09T16:00:43+08:00",
+  "evidence_maintenance": {
+    "reason": "将持续更新的执行账产物改为接管时的不可变快照，避免后续合法进度更新使CX-001证据失效。",
+    "snapshot_sha256": "9ee81ac8a170b3c9611a46032907e588d6dcd8b6bd24dbaa9afd74093c9e4bf1",
+    "maintained_at_utc": "2026-10-09T09:37:12.872080+00:00",
+    "original_evidence_content_preserved": true
+  }
+}

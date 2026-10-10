@@ -1,0 +1,7 @@
+{
+  "hashes_verified_before_execution": 27,
+  "independent_extract_tests_run": 52,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Fresh extraction; scripts use relative package paths; upstream original files not supplied in extraction, so their original-byte recheck is not claimed."
+}

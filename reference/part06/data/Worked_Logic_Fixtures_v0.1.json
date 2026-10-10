@@ -1,0 +1,227 @@
+{
+  "ferry": {
+    "draught_mm": 1400,
+    "b_limit_mm": 1200,
+    "a_open": false,
+    "c_open": true,
+    "fixable_beacon": true,
+    "spare_bracket": true,
+    "backup_charged": true,
+    "harbour_generator_start_allowed": false
+  },
+  "hotel": {
+    "current_day": 18,
+    "old_day": 16,
+    "bookings": [
+      "BKG-17",
+      "BKG-22"
+    ],
+    "records": [
+      {
+        "id": "H1",
+        "booking": "BKG-17",
+        "version": 1,
+        "arrival": 16,
+        "provenance_root": "H1"
+      },
+      {
+        "id": "H1-COPY",
+        "booking": "BKG-17",
+        "version": 1,
+        "arrival": 16,
+        "provenance_root": "H1"
+      },
+      {
+        "id": "H2",
+        "booking": "BKG-17",
+        "version": 2,
+        "arrival": 18,
+        "supersedes": "H1",
+        "supersedes_field": "arrival",
+        "provenance_root": "H2"
+      },
+      {
+        "id": "H3",
+        "booking": "BKG-22",
+        "version": 1,
+        "arrival": 18,
+        "provenance_root": "H3"
+      }
+    ],
+    "rooms": {
+      "ROOM-2": {
+        "beds": 2,
+        "quiet": true,
+        "step_free": false
+      },
+      "ROOM-5": {
+        "beds": 1,
+        "quiet": false,
+        "step_free": true
+      }
+    },
+    "needs": {
+      "BKG-17": {
+        "beds_min": 2,
+        "quiet": true
+      },
+      "BKG-22": {
+        "beds_min": 1,
+        "step_free": true
+      }
+    }
+  },
+  "timeline": {
+    "events": [
+      "authorised",
+      "departed",
+      "arrived",
+      "copied"
+    ],
+    "before": [
+      [
+        "authorised",
+        "departed"
+      ],
+      [
+        "departed",
+        "arrived"
+      ],
+      [
+        "arrived",
+        "copied"
+      ]
+    ],
+    "known_minutes": {
+      "departed": 850,
+      "arrived": 880,
+      "copied": 965
+    },
+    "unknown_times": [
+      "authorised"
+    ],
+    "claims": {
+      "arrival_after_copy": "contradicted",
+      "arrival_before_copy": "supported",
+      "central_office_intent": "not_enough_information",
+      "exact_authorisation_time": "not_enough_information"
+    }
+  },
+  "map": {
+    "start": "R5-S01",
+    "goal": "R5-S05",
+    "edges": [
+      {
+        "id": "M-F-R",
+        "a": "R5-S01",
+        "b": "R5-S02",
+        "needs": []
+      },
+      {
+        "id": "M-R-P",
+        "a": "R5-S02",
+        "b": "R5-S03",
+        "needs": []
+      },
+      {
+        "id": "M-P-N",
+        "a": "R5-S03",
+        "b": "R5-S05",
+        "needs": [
+          "credentials_verified"
+        ]
+      },
+      {
+        "id": "M-P-T",
+        "a": "R5-S03",
+        "b": "R5-S04",
+        "needs": [
+          "basic_tools"
+        ]
+      },
+      {
+        "id": "M-T-N",
+        "a": "R5-S04",
+        "b": "R5-S05",
+        "needs": [
+          "tunnel_cleared"
+        ]
+      }
+    ],
+    "historical_only_edges": [
+      {
+        "id": "M-OLD-BRIDGE",
+        "a": "R5-S03",
+        "b": "R5-S05",
+        "current_traversable": false
+      }
+    ],
+    "next_stage_scene": "R5-S06"
+  },
+  "cargo": {
+    "capacity_each_trip": 6,
+    "trips": [
+      1,
+      2
+    ],
+    "packages": {
+      "tools": 3,
+      "mounts": 1,
+      "light": 4,
+      "panels": 2,
+      "archive": 2
+    },
+    "must_arrive_earlier": [
+      [
+        "tools",
+        "light"
+      ],
+      [
+        "mounts",
+        "light"
+      ]
+    ],
+    "all_packages_required": true,
+    "split_packages": false,
+    "basic_safety_resources_shared": false,
+    "ending_eligibility_effect": false
+  },
+  "trials": {
+    "controller": "A",
+    "duration_minutes": 10,
+    "isolation_checked": true,
+    "runs": [
+      {
+        "id": "T1",
+        "load": 40,
+        "reserve": true,
+        "result": "stable"
+      },
+      {
+        "id": "T2",
+        "load": 70,
+        "reserve": true,
+        "result": "stopped"
+      },
+      {
+        "id": "T3",
+        "load": 40,
+        "reserve": false,
+        "result": "stopped"
+      },
+      {
+        "id": "T4",
+        "load": 40,
+        "reserve": true,
+        "result": "stable"
+      }
+    ],
+    "claims": {
+      "observed_40_with_reserve_stable": "supported",
+      "all_runs_stable": "contradicted",
+      "all_six_towers_ready": "not_enough_information",
+      "load_55_safe": "not_enough_information",
+      "reserve_unnecessary_in_observed_40_test": "contradicted"
+    }
+  }
+}

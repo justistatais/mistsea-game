@@ -1,0 +1,424 @@
+{
+  "scope": "Actual selected candidate engineering evidence; no human or formal acceptance inferred",
+  "selected_suite": "reports/build/20261010T111545212936Z",
+  "executed": 578,
+  "failed": 0,
+  "package": {
+    "path": "artifacts/windows/MistSea-internal-20261010T121240000513Z",
+    "status": "passed",
+    "same_suite_inputs": true
+  },
+  "content": {
+    "chapter_packages": {
+      "passed": true
+    },
+    "voyages": {
+      "passed": true
+    },
+    "lexicon": {
+      "passed": true
+    },
+    "regional_waves": {
+      "passed": true
+    }
+  },
+  "normal_zero_xp_endings": true,
+  "current_native_reports": 27,
+  "main_encounter_methods": "pending",
+  "production_budgets": {
+    "optional_encounter_slots": {
+      "budget": 12,
+      "included_source_candidates": 12,
+      "current_named_native_verified_slots": 12,
+      "source": {
+        "path": "content/source/optional_encounter_contracts/learner_package.json",
+        "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1",
+        "bytes": 65228
+      },
+      "content_version": "OPTIONAL-ENCOUNTERS-20261010-v1",
+      "records": [
+        {
+          "id": "ENC-R1-O01",
+          "material": "R1-OPT-O01-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120206636229Z/optional_r1_client_results.json",
+              "named_checks": [
+                "ENC-R1-O01_native_full_original_displayed",
+                "ENC-R1-O01_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R1-O01_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0549/testdata/normal-optional-r1-native-entry/normal-optional-r1-native-entry.json",
+                "source_case": {
+                  "index": 549,
+                  "task": "CP-R1-03",
+                  "name": "normal_zero_XP_R1_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 5,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R1-O02",
+          "material": "R1-OPT-O02-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120206636229Z/optional_r1_client_results.json",
+              "named_checks": [
+                "ENC-R1-O02_native_full_original_displayed",
+                "ENC-R1-O02_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R1-O02_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0549/testdata/normal-optional-r1-native-entry/normal-optional-r1-native-entry.json",
+                "source_case": {
+                  "index": 549,
+                  "task": "CP-R1-03",
+                  "name": "normal_zero_XP_R1_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 5,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R2-O01",
+          "material": "R2-OPT-O01-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120248034615Z/optional_r2_client_results.json",
+              "named_checks": [
+                "ENC-R2-O01_native_full_original_displayed",
+                "ENC-R2-O01_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R2-O01_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0550/testdata/normal-optional-r2-native-entry/normal-optional-r2-native-entry.json",
+                "source_case": {
+                  "index": 550,
+                  "task": "CP-R2-03",
+                  "name": "normal_zero_XP_R2_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R2-O02",
+          "material": "R2-OPT-O02-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120248034615Z/optional_r2_client_results.json",
+              "named_checks": [
+                "ENC-R2-O02_native_full_original_displayed",
+                "ENC-R2-O02_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R2-O02_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0550/testdata/normal-optional-r2-native-entry/normal-optional-r2-native-entry.json",
+                "source_case": {
+                  "index": 550,
+                  "task": "CP-R2-03",
+                  "name": "normal_zero_XP_R2_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R3-O01",
+          "material": "R3-OPT-O01-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120333419743Z/optional_r3_client_results.json",
+              "named_checks": [
+                "ENC-R3-O01_native_full_original_displayed",
+                "ENC-R3-O01_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R3-O01_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0551/testdata/normal-optional-r3-native-entry/normal-optional-r3-native-entry.json",
+                "source_case": {
+                  "index": 551,
+                  "task": "CP-R3-03",
+                  "name": "normal_zero_XP_R3_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R3-O02",
+          "material": "R3-OPT-O02-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120333419743Z/optional_r3_client_results.json",
+              "named_checks": [
+                "ENC-R3-O02_native_full_original_displayed",
+                "ENC-R3-O02_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R3-O02_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0551/testdata/normal-optional-r3-native-entry/normal-optional-r3-native-entry.json",
+                "source_case": {
+                  "index": 551,
+                  "task": "CP-R3-03",
+                  "name": "normal_zero_XP_R3_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R4-O01",
+          "material": "R4-OPT-O01-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120424081542Z/optional_r4_client_results.json",
+              "named_checks": [
+                "ENC-R4-O01_native_full_original_displayed",
+                "ENC-R4-O01_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R4-O01_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0552/testdata/normal-optional-r4-native-entry/normal-optional-r4-native-entry.json",
+                "source_case": {
+                  "index": 552,
+                  "task": "CP-R4-03",
+                  "name": "normal_zero_XP_R4_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R4-O02",
+          "material": "R4-OPT-O02-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120424081542Z/optional_r4_client_results.json",
+              "named_checks": [
+                "ENC-R4-O02_native_full_original_displayed",
+                "ENC-R4-O02_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R4-O02_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0552/testdata/normal-optional-r4-native-entry/normal-optional-r4-native-entry.json",
+                "source_case": {
+                  "index": 552,
+                  "task": "CP-R4-03",
+                  "name": "normal_zero_XP_R4_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R5-O01",
+          "material": "R5-OPT-O01-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120516678493Z/optional_r5_client_results.json",
+              "named_checks": [
+                "ENC-R5-O01_native_full_original_displayed",
+                "ENC-R5-O01_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R5-O01_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0553/testdata/normal-optional-r5-native-entry/normal-optional-r5-native-entry.json",
+                "source_case": {
+                  "index": 553,
+                  "task": "CP-R5-03",
+                  "name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R5-O02",
+          "material": "R5-OPT-O02-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120516678493Z/optional_r5_client_results.json",
+              "named_checks": [
+                "ENC-R5-O02_native_full_original_displayed",
+                "ENC-R5-O02_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R5-O02_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0553/testdata/normal-optional-r5-native-entry/normal-optional-r5-native-entry.json",
+                "source_case": {
+                  "index": 553,
+                  "task": "CP-R5-03",
+                  "name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R6-O01",
+          "material": "R6-OPT-O01-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120615710185Z/optional_r6_client_results.json",
+              "named_checks": [
+                "ENC-R6-O01_native_full_original_displayed",
+                "ENC-R6-O01_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R6-O01_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0554/testdata/normal-optional-r6-native-entry/normal-optional-r6-native-entry.json",
+                "source_case": {
+                  "index": 554,
+                  "task": "CP-R6-03",
+                  "name": "normal_zero_XP_R6_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        },
+        {
+          "id": "ENC-R6-O02",
+          "material": "R6-OPT-O02-R-CONTRACT",
+          "current_named_native_checks_passed": true,
+          "actual_reports": [
+            {
+              "report": "reports/build/20261010T120615710185Z/optional_r6_client_results.json",
+              "named_checks": [
+                "ENC-R6-O02_native_full_original_displayed",
+                "ENC-R6-O02_one_typed_local_target_inspection_no_extra_reward",
+                "ENC-R6-O02_accepted_result_survives_continue"
+              ],
+              "actual_normal_source_binding": {
+                "status": "passed",
+                "source": "reports/build/20261010T111545212936Z/case_runs/0554/testdata/normal-optional-r6-native-entry/normal-optional-r6-native-entry.json",
+                "source_case": {
+                  "index": 554,
+                  "task": "CP-R6-03",
+                  "name": "normal_zero_XP_R6_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+                },
+                "source_suite": "reports/build/20261010T111545212936Z",
+                "source_files": 6,
+                "fixture": false,
+                "zero_xp_normal_creation": true,
+                "source_scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+                "source_suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499"
+              }
+            }
+          ]
+        }
+      ],
+      "status": "engineering_candidates_verified_human_pending",
+      "formal_acceptance": "pending",
+      "human_signoff": null,
+      "scope": "Twelve distinct source slots with exact current normal-source native checks; no independent puzzle-budget or human acceptance inferred"
+    },
+    "substantive_puzzles": {
+      "budget": 96,
+      "status": "incomplete",
+      "no_complete_unit_register": true
+    }
+  },
+  "source_summary": "reports/release/ev/07acaa49361cb04c.json",
+  "human_signoff": null,
+  "formal_release": "blocked",
+  "pending": [
+    "Physical power interruption and physical system disk-full",
+    "Physical IME and screen reader",
+    "Different clean Windows machine",
+    "Human play and editorial review",
+    "Reading/listening/writing 6.5 calibration",
+    "Audio audition and redistribution rights",
+    "Publisher signature"
+  ]
+}

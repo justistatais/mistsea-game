@@ -1,0 +1,20 @@
+{
+  "scope": "native engineering UI check",
+  "accessibility": {
+    "focused_element": "101 组",
+    "tree": "Window: \"雾海档案：第七座灯塔 (DEBUG)\", App: Godot_v4.7.2-stable_mono_win64.exe.\n\t0 区域 雾海档案：第七座灯塔 (DEBUG) Secondary Actions: Raise\n\t\t1 标题栏 (settable, string) Value: 雾海档案：第七座灯塔 (DEBUG)\n\t\t\t2 菜单栏 系统 ID: MenuBar\n\t\t\t\t3 菜单项 系统\n\t\t\t4 按钮 最小化\n\t\t\t5 按钮 最大化\n\t\t\t6 按钮 关闭\n\t\t101 组\n\t\t\t7 区域\n\t\t\t\t8 文本 雾海档案\n\t\t\t\t9 按钮 地图\n\t\t\t\t10 按钮 任务\n\t\t\t\t11 按钮 档案\n\t\t\t\t12 按钮 队伍\n\t\t\t\t13 按钮 学习\n\t\t\t\t14 按钮 系统\n\t\t\t\t15 文本 港口篇 · 西工坊外场 / 内部灰盒候选\n\t\t\t\t16 区域\n\t\t\t\t\t17 文本 最后一班渡轮\n\t\t\t\t\t18 文本 先与哈文交谈，接受授权检修委托。\n\t\t\t\t\t19 文本 出口与操作站位\n\t\t\t\t\t20 按钮 选择要走近的出口或物件\n\t\t\t\t\t21 按钮 走近选定站位\n\t\t\t\t\t22 按钮 交互 / E\n\t\t\t\t\t23 文本 工坊：Active 支架：未安装 船内电池：未连接 导航灯：尚未通过当前测试\n\t\t\t\t\t24 按钮 继续当前战斗\n\t\t\t\t\t25 按钮 打开同一份撤离草稿\n\t\t\t\t\t26 按钮 调查工作台\n\t\t\t\t\t27 按钮 当前状态帮助\n\t\t\t\t\t28 滚动条 Value: 0\n\t\t\t\t29 文本 港口灰盒 · 点击物件先走近，E或按钮交互。WASD/方向键移动。\n\t\t\t66 区域\n\t\t\t\t67 文本 工坊战斗\n\t\t\t\t68 按钮 返回\n\t\t\t\t69 文本 第 1 轮 · 共享急救 2/2 · standard 当前行动者：地方护卫\n\t\t\t\t70 文本 计划顺序：地方护卫 → 主角 → 地方支援 → 维护机械\n\t\t\t\t71 文本 主角 · 左前 HP 96/96 · 盾 0 · AP 0 · 专注 6/6\n\t\t\t\t72 文本 ▶ 地方护卫 · 右前 HP 120/120 · 盾 0 · AP 0 · 专注 6/6\n\t\t\t\t73 文本 地方支援 · 左后 HP 114/114 · 盾 0 · AP 0 · 专注 6/6\n\t\t\t\t74 文本 我方 右后 · 空位\n\t\t\t\t75 文本 维护机械 · 左前 HP 175/190 · 盾 0 · AP 0 · 专注 0/0 稳定 0/4 · 可累积压力\n\t\t\t\t76 文本 敌方 右前 · 空位\n\t\t\t\t77 文本 敌方 左后 · 空位\n\t\t\t\t78 文本 敌方 右后 · 空位\n\t\t\t\t79 文本 公开敌方意图\n\t\t\t\t80 文本 臂击 · 锁定人物：主角 原始威胁 38；普通失衡可取消。不含尚未触发装置的预计影响。\n\t\t\t\t81 按钮 暂停查已得档案\n\t\t\t\t82 按钮 暂停编辑同一份草稿\n\t\t\t\t83 按钮 稳定边界保存\n\t\t\t\t84 按钮 计划行动: 基础攻击\n\t\t\t\t85 复选框 主角 · 左前\n\t\t\t\t86 按钮 撤回完整战前入口…\n\t\t\t\t87 滚动条 Value: 0\n\t\t52 文本\n\nThe focused UI element is 101 组."
+  },
+  "observed": [
+    "readable cards after layout repair",
+    "real basic action preview 2 AP / 0 focus / 15 damage",
+    "native button committed exact action",
+    "native Unicode writer and Enter persisted while battle remained paused"
+  ],
+  "not_run": [
+    "real IME candidate flow",
+    "screen reader",
+    "human player balancing"
+  ],
+  "focus_return": "group reported after nested close; follow-up repair required",
+  "human_signoff": null
+}

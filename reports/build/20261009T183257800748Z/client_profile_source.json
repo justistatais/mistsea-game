@@ -1,0 +1,5 @@
+{
+  "source": "reports/build/20261009T183257800748Z/testdata/voyage-normal-r2-a80120ff-b500-4841-a060-2722f9b0e917/recovery/normal-r1-r2-voyage.json",
+  "fixture": false,
+  "scope": "actual normal command route through Q104 and, for R2, actual voyage; engineering input, not a human playthrough"
+}

@@ -1,0 +1,3961 @@
+{
+  "scope": "Reports-only author review of canonical 32 encounter design slots and actual methods; no task ledger, build, game or tests run by this audit",
+  "created_at": "2026-10-10T10:48:46.630907+00:00",
+  "suite": {
+    "path": "reports/build/20261010T100947135499Z",
+    "inventory": {
+      "path": "reports/build/20261010T100947135499Z/full_suite_inventory.json",
+      "sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+      "bytes": 98753
+    },
+    "aggregate": {
+      "path": "reports/build/20261010T100947135499Z/test_results.json",
+      "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+      "bytes": 102628
+    },
+    "ordered_exact_cases": 578,
+    "ordered_actual_children_1case_0fail": 578,
+    "failures": 0,
+    "current_complete_input_match": true,
+    "current_sorted_DLL_match": true,
+    "compiled_artifacts": {
+      "path": "reports/build/20261010T100947135499Z/compiled_artifacts.json",
+      "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+      "bytes": 3925
+    },
+    "changed_inputs": [],
+    "commands": {
+      "wrapper": {
+        "path": "reports/build/20261010T100947135499Z/result.json",
+        "sha256": "6b713ae2a7dce3fcc19c1c5c209fc92a1764d3996f011eaca2f23f1206d1adeb",
+        "bytes": 2901
+      },
+      "commands": {
+        "path": "reports/build/20261010T100947135499Z/commands.json",
+        "sha256": "d91687e37d9f929abfa8a3e89578c302209b151b35defddd8261a7e1b223ae0f",
+        "bytes": 2603
+      },
+      "actual_unfiltered_full_suite": true,
+      "actual_successful_fresh_build": true,
+      "actual_exit7_failure_probe": true
+    }
+  },
+  "canonical_definition_slots": 32,
+  "normal_CSharp_completed_slots": 31,
+  "additional_actual_normal_native_completed_slots": 1,
+  "independent_method_family_count": "not_claimed",
+  "semantic_96_budget": "pending_separate_semantic_goal_review",
+  "optional_12_encounters": "not_counted_in_this32",
+  "status": "author_review_pending_human_gates",
+  "final_fresh_rebind_required": true,
+  "legacy_method_report_ready": false,
+  "legacy_checker_boundary": "Current release checker validates only producer SHA and known passed case name. This report deliberately leaves outer methods empty; it must not turn an entry-only or fixture case into a completed normal method.",
+  "profile_scan": {
+    "controls": 447,
+    "readable_profiles": 447,
+    "normal_zero_XP_no_fixture_profiles": 104,
+    "errors": [],
+    "readonly_sqlite": true,
+    "extended_windows_filesystem_paths": true
+  },
+  "encounters": [
+    {
+      "id": "ENC-R0-01",
+      "parent_task": "Q-P01",
+      "scene": "R0-S02",
+      "name": "近岸脱困",
+      "kind": "tutorial",
+      "reference_entry": "1级/0阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/Campaign/CampaignService.cs",
+        "sha256": "51e4a7cb9535dd09c96f369871b4bbaa1f9bc9927a6e0187b7fc519446823416",
+        "bytes": 39740,
+        "symbols": [
+          "BeginShoreEncounterAsync",
+          "PreviewShoreActionAsync",
+          "ConfirmShoreActionAsync"
+        ],
+        "contract": "Actual controlled shore encounter, temporary rescue cooperation, no formal recruitment, zero action XP.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CX-065",
+          "case_name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+          "case_index": 244,
+          "method": "actual_shared_shore_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_shore_combat",
+            "receipt": {
+              "semantic_key": "shore:ba5955ac-f023-4d1d-af7c-9e4755d49e42:attempt:6701654c-b46f-4289-988d-8b7318bda58b:action:0ea156a3-6e15-47ea-9421-2a18cd7880c7",
+              "action_type": "shore_combat_action",
+              "receipt_id": "33f4bb4c-40e7-4f79-9f7c-b159f9db3d76",
+              "commit_sequence": 28,
+              "effect_hash": "f153ebacf92561674ab08b225c5460b47a14e08d9d262da8bb8152abfbbbc5d0",
+              "result": {
+                "request": {
+                  "command": {
+                    "value": "0ea156a3-6e15-47ea-9421-2a18cd7880c7"
+                  },
+                  "action": "BASIC",
+                  "actor": "hero",
+                  "targets": [
+                    "shore_creature"
+                  ],
+                  "destination": null,
+                  "device": null,
+                  "pressure_target": null,
+                  "ward_target": null
+                },
+                "outcome": "controlled",
+                "experience_awarded": 0
+              }
+            },
+            "state": {
+              "entity": "combat:shore",
+              "instance": "ba5955ac-f023-4d1d-af7c-9e4755d49e42",
+              "attempt": "6701654c-b46f-4289-988d-8b7318bda58b",
+              "outcome": "controlled"
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 244,
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/control.sqlite",
+              "sha256": "ee9b2c4f959d5aeb2c87ab4dee5e97d1ae961d78386d303f3b2b7a3f8ae9c44d",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/recovery/inventory-v2-9ff12296-1565-444e-a7bd-a937a9339560.sqlite",
+              "sha256": "2c0869d2c0e9f53be56a55b63020d34fc129a22c019767852eeb0c588434cadf",
+              "bytes": 782336
+            },
+            "branch": "de28e868-7011-4c9f-824a-c797799f56ca",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 263,
+            "experience": 900,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "9de4cf16-6f4d-40cb-8f19-f8c57958a96d",
+              "commit_sequence": 2,
+              "effect_hash": "22e54dd339c356b154ee14dc0673251515bbee5323818b96f35d2bc77545ad88",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/test_results.json",
+              "sha256": "1710277b7acb8448338cb116399cdf6f3979af375e667a4de70818b95227f5b1",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/command.log",
+              "sha256": "a7ba1a77b975e02e05333f20761a07bf9c1f7c83d8252700d324a4071bd1b783",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=244"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R0-02",
+      "parent_task": "Q-P03",
+      "scene": "R0-S05",
+      "name": "中继防卫",
+      "kind": "ordinary",
+      "reference_entry": "2级/0阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/FirstApproaches/FirstApproachService.cs",
+        "sha256": "895b635ff1841b323ffce73057abd05def6dc4fa3142ac8a3b581e3cf90f0904",
+        "bytes": 19007,
+        "symbols": [
+          "BeginAsync",
+          "PreviewActionAsync",
+          "ConfirmAsync"
+        ],
+        "contract": "Actual relay defence at 140 XP; Q-P03 gate requires same current quest/source-bound result.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R0-03",
+          "case_name": "actual_zero_XP_rescue_to_relay_140XP_defence_has_one_hero_and_no_cloned_sheltered_Lina_or_awards",
+          "case_index": 526,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "first-approach:ENC-R0-02:result",
+              "action_type": "first_approach_result",
+              "receipt_id": "f975bd4a-460f-4cee-830e-aa43ede7b214",
+              "commit_sequence": 78,
+              "effect_hash": "2c960fcf9bd79edcfb65845c1e5c795b05acbc26fb1ae205fdab9cb2b99a63a2",
+              "result": {
+                "encounter": "ENC-R0-02",
+                "quest": "Q-P03",
+                "quest_instance": "7164914e-1cca-4f1c-95a2-2219d0065459",
+                "instance": "66b62a66-5284-47c5-9356-ec46fd564978",
+                "attempt": "e180ac95-97d7-4414-b5e0-f445f6ab58d3",
+                "method": "shared_combat",
+                "source_version": "FIRST-APPROACHES-20261010-v1",
+                "completed": true
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "first-approach:result:ENC-R0-02",
+              "kind": "first_approach_result",
+              "value": {
+                "encounter": "ENC-R0-02",
+                "quest": "Q-P03",
+                "quest_instance": "7164914e-1cca-4f1c-95a2-2219d0065459",
+                "instance": "66b62a66-5284-47c5-9356-ec46fd564978",
+                "attempt": "e180ac95-97d7-4414-b5e0-f445f6ab58d3",
+                "method": "shared_combat",
+                "source_version": "FIRST-APPROACHES-20261010-v1",
+                "completed": true
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 526,
+              "task": "CP-R0-03",
+              "name": "actual_zero_XP_rescue_to_relay_140XP_defence_has_one_hero_and_no_cloned_sheltered_Lina_or_awards"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0526/testdata/first-approaches-2f9ac98f-af56-474f-90a1-ccbda463a67f/control.sqlite",
+              "sha256": "8e6171c0552638b475c6d0c05bf896452c89cd1abd47233e8ee4be3f692ff4c2",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0526/testdata/first-approaches-2f9ac98f-af56-474f-90a1-ccbda463a67f/recovery/inventory-v2-005cbc8c-4951-4357-8b0e-6c3011d66fbb.sqlite",
+              "sha256": "8e15392eac6edaf918b137ca2314525d5e81823a7af9836b3fd54d1a1862b5eb",
+              "bytes": 315392
+            },
+            "branch": "8d712160-3fd4-41fe-8102-3ca82cbfe61e",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 78,
+            "experience": 140,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "4091e6b4-601d-42b6-8a60-49398d397d24",
+              "commit_sequence": 2,
+              "effect_hash": "4e46ac53fdca934672cf008ec31168b92c81dc7b957dd939374d073e2b886713",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0526/testdata/first-approaches-2f9ac98f-af56-474f-90a1-ccbda463a67f"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0526/test_results.json",
+              "sha256": "0c59032813e8c7ef5dbc028ce0c008ecb2638d12229b9c757e8464870ff9b746",
+              "bytes": 402
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0526/command.log",
+              "sha256": "01aaca99d4cce74b06b3477dcd4580c8ca61684bcbada30ac5b0908f74c6f399",
+              "bytes": 869
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=526"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R1-01",
+      "parent_task": "Q-102",
+      "scene": "R1-S05",
+      "name": "西工坊维护机械",
+      "kind": "elite_method",
+      "reference_entry": "3级/0阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/Q102/Q102Service.cs",
+        "sha256": "767745de7b1eea6a60e3efe169a024efbfb2cc7549bba7b1c7b79dbf14635c44",
+        "bytes": 19763,
+        "symbols": [
+          "WorkshopModeAsync",
+          "PortIssue",
+          "PickBracketAsync"
+        ],
+        "contract": "Current physical isolated workshop bypass; no claim that the maintenance machine was fought.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CX-065",
+          "case_name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+          "case_index": 244,
+          "method": "actual_isolated_workshop_bypass",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_isolated_workshop_bypass",
+            "actual_bypass_not_combat": true,
+            "state": {
+              "entity": "workshop",
+              "value": {
+                "mode": "isolated",
+                "latch_open": true,
+                "local_reserve_available": true,
+                "side_open": true,
+                "front_safe": true
+              }
+            },
+            "receipts": [
+              {
+                "semantic_key": "Q102:action:1eb21ccf-e8c6-4961-8c42-ba6736e5055a",
+                "action_type": "workshop_mode",
+                "receipt_id": "5e2ee615-db82-45a1-9b57-969cab5f0533",
+                "commit_sequence": 133,
+                "effect_hash": "eb8399b7ef0059f8fcd85abdebef7ef025878915c176a67f3285c5d18ec419e2",
+                "result": {}
+              },
+              {
+                "semantic_key": "Q102:bracket:lawfully-acquired",
+                "action_type": "pick_bracket",
+                "receipt_id": "93383def-d74f-4d18-ae89-1f5ef5752b8b",
+                "commit_sequence": 137,
+                "effect_hash": "2a57a5c085a76492b265e06120cc39f79128eec35aea81cb8b14d5319cad87cb",
+                "result": {}
+              },
+              {
+                "semantic_key": "Q102:action:b9aa41ab-322c-49f5-83b6-99ab45663d0d",
+                "action_type": "open_inner_latch",
+                "receipt_id": "a3dc9ca1-d1e8-4bcb-a4ba-b7265249abd9",
+                "commit_sequence": 139,
+                "effect_hash": "c66f7e5a32d28e32e1f081076542ce8493454e838f5acc746dc9a271b53b00fa",
+                "result": {}
+              }
+            ],
+            "boundary": "Canonical R1-S05 front boundary leads into R1-S06; no invented ENC-R1-01 typed battle result"
+          },
+          "profile": {
+            "case": {
+              "index": 244,
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/control.sqlite",
+              "sha256": "ee9b2c4f959d5aeb2c87ab4dee5e97d1ae961d78386d303f3b2b7a3f8ae9c44d",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/recovery/inventory-v2-9ff12296-1565-444e-a7bd-a937a9339560.sqlite",
+              "sha256": "2c0869d2c0e9f53be56a55b63020d34fc129a22c019767852eeb0c588434cadf",
+              "bytes": 782336
+            },
+            "branch": "de28e868-7011-4c9f-824a-c797799f56ca",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 263,
+            "experience": 900,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "9de4cf16-6f4d-40cb-8f19-f8c57958a96d",
+              "commit_sequence": 2,
+              "effect_hash": "22e54dd339c356b154ee14dc0673251515bbee5323818b96f35d2bc77545ad88",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/test_results.json",
+              "sha256": "1710277b7acb8448338cb116399cdf6f3979af375e667a4de70818b95227f5b1",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/command.log",
+              "sha256": "a7ba1a77b975e02e05333f20761a07bf9c1f7c83d8252700d324a4071bd1b783",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=244"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R1-02",
+      "parent_task": "Q-104",
+      "scene": "R1-S09",
+      "name": "塔基侧闸替代入口",
+      "kind": "method",
+      "reference_entry": "5级/0阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/FirstApproaches/FirstApproachService.cs",
+        "sha256": "895b635ff1841b323ffce73057abd05def6dc4fa3142ac8a3b581e3cf90f0904",
+        "bytes": 19007,
+        "symbols": [
+          "PerformSideStepAsync",
+          "Accepted"
+        ],
+        "contract": "Actual isolation, brace and zero-energy side result; mutually exclusive with outer result.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CX-065",
+          "case_name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+          "case_index": 244,
+          "method": "manual_isolate_brace_zero_energy",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "manual_isolate_brace_zero_energy",
+            "receipt": {
+              "semantic_key": "first-approach:ENC-R1-02:result",
+              "action_type": "first_approach_result",
+              "receipt_id": "10bb9fa2-91ec-42a2-a018-177d0e823ab3",
+              "commit_sequence": 203,
+              "effect_hash": "34e3928de9b62099522f0a7e4aeea4c37e244175987c93df36e0059b8f7e8ef3",
+              "result": {
+                "encounter": "ENC-R1-02",
+                "quest": "Q-104",
+                "quest_instance": "82b5da86-8f7a-4f83-9b25-3ee7f9fa4475",
+                "instance": "b1a7470e-349f-4b70-8097-a382c8348256",
+                "attempt": "d036e6af-2498-4b0c-8911-8b28fd46cd5a",
+                "method": "manual_isolate_brace_zero_energy",
+                "source_version": "FIRST-APPROACHES-20261010-v1",
+                "completed": true
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "first-approach:result:ENC-R1-02",
+              "kind": "first_approach_result",
+              "value": {
+                "encounter": "ENC-R1-02",
+                "quest": "Q-104",
+                "quest_instance": "82b5da86-8f7a-4f83-9b25-3ee7f9fa4475",
+                "instance": "b1a7470e-349f-4b70-8097-a382c8348256",
+                "attempt": "d036e6af-2498-4b0c-8911-8b28fd46cd5a",
+                "method": "manual_isolate_brace_zero_energy",
+                "source_version": "FIRST-APPROACHES-20261010-v1",
+                "completed": true
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 244,
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/control.sqlite",
+              "sha256": "ee9b2c4f959d5aeb2c87ab4dee5e97d1ae961d78386d303f3b2b7a3f8ae9c44d",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/recovery/inventory-v2-9ff12296-1565-444e-a7bd-a937a9339560.sqlite",
+              "sha256": "2c0869d2c0e9f53be56a55b63020d34fc129a22c019767852eeb0c588434cadf",
+              "bytes": 782336
+            },
+            "branch": "de28e868-7011-4c9f-824a-c797799f56ca",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 263,
+            "experience": 900,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "9de4cf16-6f4d-40cb-8f19-f8c57958a96d",
+              "commit_sequence": 2,
+              "effect_hash": "22e54dd339c356b154ee14dc0673251515bbee5323818b96f35d2bc77545ad88",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/test_results.json",
+              "sha256": "1710277b7acb8448338cb116399cdf6f3979af375e667a4de70818b95227f5b1",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/command.log",
+              "sha256": "a7ba1a77b975e02e05333f20761a07bf9c1f7c83d8252700d324a4071bd1b783",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=244"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R1-03",
+      "parent_task": "Q-104",
+      "scene": "R1-S09",
+      "name": "塔基外闸",
+      "kind": "ordinary",
+      "reference_entry": "5级/0阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/FirstApproaches/FirstApproachService.cs",
+        "sha256": "895b635ff1841b323ffce73057abd05def6dc4fa3142ac8a3b581e3cf90f0904",
+        "bytes": 19007,
+        "symbols": [
+          "BeginAsync",
+          "PreviewActionAsync",
+          "ConfirmAsync",
+          "Accepted"
+        ],
+        "contract": "Actual full shared combat outer result; C# completed positive cases have prior fixtures, actual normal native completion is separate.",
+        "matches_suite_input": true
+      },
+      "methods": [],
+      "status": "actual_normal_native_completed_method_candidate_not_CSharp_completion",
+      "available_native_method": {
+        "method": "shared_combat",
+        "actual": {
+          "method": "shared_combat",
+          "receipt": {
+            "semantic_key": "first-approach:ENC-R1-03:result",
+            "action_type": "first_approach_result",
+            "receipt_id": "660f71ae-4285-4b7e-8ac1-373099f81eaf",
+            "commit_sequence": 240,
+            "effect_hash": "28dd4791cb67759c4e2e1f5a7a7c61bf3b9593998e8ee01ab6408bd29d22021d",
+            "result": {
+              "encounter": "ENC-R1-03",
+              "quest": "Q-104",
+              "quest_instance": "452989df-2e84-4531-a4f0-fad5e234fb05",
+              "instance": "5f999a6a-dd50-4699-9a86-3e81ae9c10bc",
+              "attempt": "486e530b-26a7-4e4e-8248-f5efcc16e6c9",
+              "method": "shared_combat",
+              "source_version": "FIRST-APPROACHES-20261010-v1",
+              "completed": true
+            }
+          },
+          "typed_current_entity": {
+            "entity_id": "first-approach:result:ENC-R1-03",
+            "kind": "first_approach_result",
+            "value": {
+              "encounter": "ENC-R1-03",
+              "quest": "Q-104",
+              "quest_instance": "452989df-2e84-4531-a4f0-fad5e234fb05",
+              "instance": "5f999a6a-dd50-4699-9a86-3e81ae9c10bc",
+              "attempt": "486e530b-26a7-4e4e-8248-f5efcc16e6c9",
+              "method": "shared_combat",
+              "source_version": "FIRST-APPROACHES-20261010-v1",
+              "completed": true
+            }
+          }
+        },
+        "profile": {
+          "case": {
+            "index": 523,
+            "task": "CP-R1-03",
+            "name": "actual_zero_XP_tower_base_native_entry_has_real_680XP_permission_supply_and_no_access_or_ship"
+          },
+          "control": {
+            "path": "reports/build/20261010T104753621878Z/client_profile/control.sqlite",
+            "sha256": "8f7dd90978ec5d709a0427d3fa789a76d92651c54d8ad0bf14f9b2c70d881c79",
+            "bytes": 40960
+          },
+          "active_database": {
+            "path": "reports/build/20261010T104753621878Z/client_profile/recovery/inventory-v2-da636de5-650a-4251-bb51-a80dd8eb902f.sqlite",
+            "sha256": "5355a4cd1c29c33e66be0e780398ab603b7e040ac3d23b544d4fb187af6f3792",
+            "bytes": 1388544
+          },
+          "branch": "0fbab175-1bf0-4d31-91b2-0da308fe7196",
+          "current_target_within_profile": true,
+          "integrity": "ok",
+          "normal_zero_XP_no_fixture": true,
+          "fixture_receipts": 0,
+          "all_history_receipt_count": 242,
+          "experience": 680,
+          "creation_receipt": {
+            "semantic_key": "campaign:new:first-entry-candidate-1",
+            "action_type": "normal_campaign_created",
+            "receipt_id": "9f7c3529-daaf-4d1d-bd97-7fe598ca524e",
+            "commit_sequence": 2,
+            "effect_hash": "8df51579af0e2627c1b1fecfd42f8778673f0ead8378ef7e6b774f3dea6b15f5",
+            "result": {
+              "scope": "normal_first_entry_candidate",
+              "content_version": "first-entry-candidate-1",
+              "experience_awarded": 0,
+              "prologue_played": false
+            }
+          },
+          "profile_path": "reports/build/20261010T104753621878Z/client_profile"
+        },
+        "report": {
+          "path": "reports/build/20261010T104753621878Z/first_outer_client_results.json",
+          "sha256": "5a52c96e91e466a8e6d356b06333ff6de4c63859e07e3b0750139367db2b9af6",
+          "bytes": 3668
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T104753621878Z/client_tests.log",
+          "sha256": "93350052128183b80e9943b253ee056850c20f4cc2443ba27b0534c42c2205b2",
+          "bytes": 625
+        },
+        "source_copy": {
+          "path": "reports/build/20261010T104753621878Z/client_profile_source.json",
+          "sha256": "e1873840c4b996523dbad0367caaf51766b9a01ff839d2da289c704c3d66a153",
+          "bytes": 4621
+        },
+        "entry_case": {
+          "index": 523,
+          "task": "CP-R1-03",
+          "name": "actual_zero_XP_tower_base_native_entry_has_real_680XP_permission_supply_and_no_access_or_ship"
+        },
+        "entry_child": {
+          "result": {
+            "path": "reports/build/20261010T100947135499Z/case_runs/0523/test_results.json",
+            "sha256": "8a44fa7949abc1b2f08840838b23d22af60eb9f3613b437ed5542698c99698a8",
+            "bytes": 399
+          },
+          "actual_command": {
+            "path": "reports/build/20261010T100947135499Z/case_runs/0523/command.log",
+            "sha256": "957a720af1a1355c5996e270cdd9078b1c366e5f7e4e9d291f1398a950ef8f47",
+            "bytes": 866
+          },
+          "actual_argv": [
+            "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+            "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+            "--case-index=523"
+          ],
+          "executed": 1,
+          "failed": 0
+        },
+        "case_role": "CSharp proves untouched entry only; native independently executes complete outer method",
+        "native_inputs_match_current": true,
+        "native_inputs_match_reviewed_suite": true,
+        "native_DLLs_match_current": true,
+        "original_full_profile_copy_files": 5,
+        "source_files_and_before_native_SHA_exact": true,
+        "final_fresh_rebound": true,
+        "human_play": "not_run"
+      },
+      "gap": "No normal CSharp completed outer case in this 578 suite. Do not map fixture cases533/535/536/537 or entry-only523 to a completed normal CSharp method. Separate actual normal native completion is now rebound to this exact current fresh suite, complete inputs and DLLs; this remains native engineering evidence, not a completed normal CSharp case or human/96-budget acceptance."
+    },
+    {
+      "id": "ENC-R1-04",
+      "parent_task": "Q-104",
+      "scene": "R1-S10",
+      "name": "塔站维护者",
+      "kind": "boss",
+      "reference_entry": "5级/0阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterOne/ChapterOneService.Tidegate.cs",
+        "sha256": "107b90b332d1c24cce5c871b24297ea3fdd30acc1056f89af1a8d9515b742089",
+        "bytes": 14871,
+        "symbols": [
+          "BeginTowerAsync",
+          "PreviewTowerActionAsync",
+          "VerifyTowerAfterControlAsync"
+        ],
+        "contract": "Current tower encounter, two valves/isolation and controlled state produce matching TowerSafety, independently inspected before ship handover.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CX-065",
+          "case_name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+          "case_index": 244,
+          "method": "actual_shared_tower_combat_and_local_isolation",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_tower_combat_and_local_isolation",
+            "receipt": {
+              "semantic_key": "tower:fa101f9c-677c-4316-9a20-c83fc19401b1:attempt:6852d40d-0078-4862-b513-a90abbf74a75:action:a3766206-a645-4a4b-b79b-b053815d2779",
+              "action_type": "tower_safety_verified",
+              "receipt_id": "4040b45c-7d6c-465d-a99d-a15e79efc0a0",
+              "commit_sequence": 253,
+              "effect_hash": "f0c16d8d957af3f80193c8694f96d1c5c708a2f6705c62cf118b402cc5d4e357",
+              "result": {
+                "tower": "TWR-R1",
+                "safe": true,
+                "source_work": "encounter:fa101f9c-677c-4316-9a20-c83fc19401b1:attempt:6852d40d-0078-4862-b513-a90abbf74a75"
+              }
+            },
+            "state": {
+              "entity": "combat:tower",
+              "instance": "fa101f9c-677c-4316-9a20-c83fc19401b1",
+              "attempt": "6852d40d-0078-4862-b513-a90abbf74a75",
+              "outcome": "controlled",
+              "result_applied": true
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 244,
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/control.sqlite",
+              "sha256": "ee9b2c4f959d5aeb2c87ab4dee5e97d1ae961d78386d303f3b2b7a3f8ae9c44d",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3/recovery/inventory-v2-9ff12296-1565-444e-a7bd-a937a9339560.sqlite",
+              "sha256": "2c0869d2c0e9f53be56a55b63020d34fc129a22c019767852eeb0c588434cadf",
+              "bytes": 782336
+            },
+            "branch": "de28e868-7011-4c9f-824a-c797799f56ca",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 263,
+            "experience": 900,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "9de4cf16-6f4d-40cb-8f19-f8c57958a96d",
+              "commit_sequence": 2,
+              "effect_hash": "22e54dd339c356b154ee14dc0673251515bbee5323818b96f35d2bc77545ad88",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0244/testdata/chapter-one-normal-first-chapter-9ec21957-0edb-4b77-b693-ec63bf69e9d3"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/test_results.json",
+              "sha256": "1710277b7acb8448338cb116399cdf6f3979af375e667a4de70818b95227f5b1",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0244/command.log",
+              "sha256": "a7ba1a77b975e02e05333f20761a07bf9c1f7c83d8252700d324a4071bd1b783",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=244"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R2-01",
+      "parent_task": "Q-203",
+      "scene": "R2-S05",
+      "name": "温室根道",
+      "kind": "ordinary",
+      "reference_entry": "7级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Encounters.cs",
+        "sha256": "33a6a5d90e719f387fc336559166f16ef257691c4e1373f96f7412074aba6ea5",
+        "bytes": 12019,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Current root-path threat control under actual inspection scope.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R2-03",
+          "case_name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures",
+          "case_index": 352,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R2:ENC-R2-01:result",
+              "action_type": "chapter_two_encounter_result",
+              "receipt_id": "826d26be-9d0a-4ebf-bdbe-673ade03eea6",
+              "commit_sequence": 340,
+              "effect_hash": "15d2c025b51caa86b5430660a2454a28a4d901cc66c550ecba3a19c57373d42a",
+              "result": {
+                "encounter": "ENC-R2-01",
+                "completed": true,
+                "instance": "8e98275e-fbc9-44ac-a4ae-9fbf9b9b0b1b",
+                "attempt": "eebe8760-05b8-4949-b6ff-8cf90046d2ee",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R2:result:ENC-R2-01",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R2-01",
+                "completed": true,
+                "instance": "8e98275e-fbc9-44ac-a4ae-9fbf9b9b0b1b",
+                "attempt": "eebe8760-05b8-4949-b6ff-8cf90046d2ee",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 352,
+              "task": "CP-R2-03",
+              "name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366/control.sqlite",
+              "sha256": "2b0d9fac1f111fc79341310deb043166015fe179a0fe3bce22386ac3b9ae22bd",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366/recovery/inventory-v2-67b82792-d7d9-48e9-a53f-a7b2ada97fe2.sqlite",
+              "sha256": "94e8e477b1b53d9187805fe54642dbe002c49a21e6605508479db8f27b740b64",
+              "bytes": 1183744
+            },
+            "branch": "71ee6be8-d5d7-4105-8e1b-dede419d0196",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 504,
+            "experience": 1920,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "201cac51-1a41-4ae5-be80-e18150f5c66e",
+              "commit_sequence": 2,
+              "effect_hash": "913c973b67ba9288945e2f330a2f46d457e963c915ed6dbca9c55ed818053553",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/test_results.json",
+              "sha256": "87dbc04f3578c82d052995e9b7d93d43ff8beefe3b3b63c488705ffa672d8c0e",
+              "bytes": 397
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/command.log",
+              "sha256": "3c6e840b0791bd75c31064b35041097ef8f65276a0d01df9b0d319abb0200188",
+              "bytes": 864
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=352"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R2-02",
+      "parent_task": "Q-203",
+      "scene": "R2-S06",
+      "name": "失控输送器",
+      "kind": "method",
+      "reference_entry": "7级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Stations.cs",
+        "sha256": "2463bbca25069ff75783c46f52ed7bd2a6562496cf22ff7967af33ed8b8df3ce",
+        "bytes": 15299,
+        "symbols": [
+          "PerformConveyorStepAsync"
+        ],
+        "contract": "Current conveyor guard, jam release and zero-motion manual result.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R2-03",
+          "case_name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures",
+          "case_index": 352,
+          "method": "manual_guard_jam_zero_motion",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "manual_guard_jam_zero_motion",
+            "receipt": {
+              "semantic_key": "R2:ENC-R2-02:result",
+              "action_type": "chapter_two_encounter_result",
+              "receipt_id": "274ae96d-b20b-4dfe-9c84-6db6aceff311",
+              "commit_sequence": 357,
+              "effect_hash": "416a3b4a43a29abb950f6e595e0f5e13da897ad715e2c5230219d21e593907e6",
+              "result": {
+                "encounter": "ENC-R2-02",
+                "completed": true,
+                "instance": "e8c8d615-cf91-4fb9-9e04-46abf7193dfc",
+                "attempt": "e9660fc7-47f3-4650-b029-7f35ac1e0f77",
+                "method": "manual_guard_jam_zero_motion",
+                "configuration": 4
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R2:result:ENC-R2-02",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R2-02",
+                "completed": true,
+                "instance": "e8c8d615-cf91-4fb9-9e04-46abf7193dfc",
+                "attempt": "e9660fc7-47f3-4650-b029-7f35ac1e0f77",
+                "method": "manual_guard_jam_zero_motion",
+                "configuration": 4
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 352,
+              "task": "CP-R2-03",
+              "name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366/control.sqlite",
+              "sha256": "2b0d9fac1f111fc79341310deb043166015fe179a0fe3bce22386ac3b9ae22bd",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366/recovery/inventory-v2-67b82792-d7d9-48e9-a53f-a7b2ada97fe2.sqlite",
+              "sha256": "94e8e477b1b53d9187805fe54642dbe002c49a21e6605508479db8f27b740b64",
+              "bytes": 1183744
+            },
+            "branch": "71ee6be8-d5d7-4105-8e1b-dede419d0196",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 504,
+            "experience": 1920,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "201cac51-1a41-4ae5-be80-e18150f5c66e",
+              "commit_sequence": 2,
+              "effect_hash": "913c973b67ba9288945e2f330a2f46d457e963c915ed6dbca9c55ed818053553",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/test_results.json",
+              "sha256": "87dbc04f3578c82d052995e9b7d93d43ff8beefe3b3b63c488705ffa672d8c0e",
+              "bytes": 397
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/command.log",
+              "sha256": "3c6e840b0791bd75c31064b35041097ef8f65276a0d01df9b0d319abb0200188",
+              "bytes": 864
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=352"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R2-03",
+      "parent_task": "Q-203",
+      "scene": "R2-S07",
+      "name": "转供站缠根核心",
+      "kind": "boss",
+      "reference_entry": "7级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterTwo/ChapterTwoService.Encounters.cs",
+        "sha256": "33a6a5d90e719f387fc336559166f16ef257691c4e1373f96f7412074aba6ea5",
+        "bytes": 12019,
+        "symbols": [
+          "ChooseCoreMethodAsync",
+          "PerformCoreStepAsync"
+        ],
+        "contract": "Mechanical method is executed with actual controlled core, fixed supports, winding clearance and current valve inspections; selecting a method alone is insufficient.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R2-03",
+          "case_name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures",
+          "case_index": 352,
+          "method": "mechanical",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "mechanical",
+            "receipt": {
+              "semantic_key": "R2:ENC-R2-03:result",
+              "action_type": "chapter_two_encounter_result",
+              "receipt_id": "fb15fe6e-4fa5-47c9-9047-fa0f446d2685",
+              "commit_sequence": 423,
+              "effect_hash": "ce4842e7cfb06890024479fb332fc04855bf04a81af46a57740a38d0570f199d",
+              "result": {
+                "encounter": "ENC-R2-03",
+                "completed": true,
+                "instance": "cc2a3311-c916-4994-9ca6-19ffc31696a8",
+                "attempt": "2d4f7179-31e4-4bac-a156-d5fbdcf8a707",
+                "method": "mechanical",
+                "configuration": 6
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R2:result:ENC-R2-03",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R2-03",
+                "completed": true,
+                "instance": "cc2a3311-c916-4994-9ca6-19ffc31696a8",
+                "attempt": "2d4f7179-31e4-4bac-a156-d5fbdcf8a707",
+                "method": "mechanical",
+                "configuration": 6
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 352,
+              "task": "CP-R2-03",
+              "name": "Continuous actual normal zero-XP voyage reaches all four R2 tasks without positive fixtures"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366/control.sqlite",
+              "sha256": "2b0d9fac1f111fc79341310deb043166015fe179a0fe3bce22386ac3b9ae22bd",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366/recovery/inventory-v2-67b82792-d7d9-48e9-a53f-a7b2ada97fe2.sqlite",
+              "sha256": "94e8e477b1b53d9187805fe54642dbe002c49a21e6605508479db8f27b740b64",
+              "bytes": 1183744
+            },
+            "branch": "71ee6be8-d5d7-4105-8e1b-dede419d0196",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 504,
+            "experience": 1920,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "201cac51-1a41-4ae5-be80-e18150f5c66e",
+              "commit_sequence": 2,
+              "effect_hash": "913c973b67ba9288945e2f330a2f46d457e963c915ed6dbca9c55ed818053553",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0352/testdata/chapter-two-normal-complete-0f7eebdd-10fa-4390-b75a-069f27252366"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/test_results.json",
+              "sha256": "87dbc04f3578c82d052995e9b7d93d43ff8beefe3b3b63c488705ffa672d8c0e",
+              "bytes": 397
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0352/command.log",
+              "sha256": "3c6e840b0791bd75c31064b35041097ef8f65276a0d01df9b0d319abb0200188",
+              "bytes": 864
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=352"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R3-01",
+      "parent_task": "Q-301",
+      "scene": "R3-S05",
+      "name": "轨道清障",
+      "kind": "ordinary",
+      "reference_entry": "9级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs",
+        "sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54",
+        "bytes": 12493,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual rail clearance, independent of drainage ladder route.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R3-05",
+          "case_name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+          "case_index": 369,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R3:ENC-R3-01:result",
+              "action_type": "chapter_three_encounter_result",
+              "receipt_id": "a96bcde5-70f9-4f6c-a4d4-f4ca43d8f7ff",
+              "commit_sequence": 575,
+              "effect_hash": "33da5868d9e2a9b326d29d73b205672a82bed49eec89f20325e0241ae7dd3ca6",
+              "result": {
+                "encounter": "ENC-R3-01",
+                "completed": true,
+                "instance": "0d7da7f1-253e-4829-ba63-e0948b09c5cb",
+                "attempt": "65f3ffb4-9622-428e-ac0e-def13b6871fe",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R3:result:ENC-R3-01",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R3-01",
+                "completed": true,
+                "instance": "0d7da7f1-253e-4829-ba63-e0948b09c5cb",
+                "attempt": "65f3ffb4-9622-428e-ac0e-def13b6871fe",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 369,
+              "task": "CP-R3-05",
+              "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/control.sqlite",
+              "sha256": "cb616c07878902c2791b57caf4160d283aa052fccbba153138e2c49551d8ee8e",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/recovery/inventory-v2-f9250373-1fef-44c9-8a70-d316cdc2d6b9.sqlite",
+              "sha256": "f7de6231b85f9b774dbec53b21826ee02bf705099eca9abf71aa000aee631a1d",
+              "bytes": 1748992
+            },
+            "branch": "236bf752-d13a-4948-a24b-723da2b34304",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 827,
+            "experience": 3840,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "1e6ccb0c-d9bf-442f-a6b0-ee7d2aa8ae38",
+              "commit_sequence": 2,
+              "effect_hash": "9abf073c11faaa623e605fd0e404c92b2b834871fcc347c4573133547c1a8167",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/test_results.json",
+              "sha256": "4a0f5b1abacd16303f68e68d9f5ddfc7f792c48e87cc150112a6683c3336d6c8",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/command.log",
+              "sha256": "6a08177154fd9c65a64aa47fa9de99a9695733990be181927937c4e08fc2d08a",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=369"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R3-02",
+      "parent_task": "Q-301",
+      "scene": "R3-S06",
+      "name": "泵房入口",
+      "kind": "ordinary",
+      "reference_entry": "9级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs",
+        "sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54",
+        "bytes": 12493,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual pump entry threat control under current mine route scope.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R3-05",
+          "case_name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+          "case_index": 369,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R3:ENC-R3-02:result",
+              "action_type": "chapter_three_encounter_result",
+              "receipt_id": "e7eeb2ef-a70f-41fc-9b6a-78cadf7ef162",
+              "commit_sequence": 599,
+              "effect_hash": "b74e63078137816dc649a31479b74470141aa76bad0e1b96fc18382753cfd7d2",
+              "result": {
+                "encounter": "ENC-R3-02",
+                "completed": true,
+                "instance": "867004bc-3319-45df-8a96-70d59077c98f",
+                "attempt": "fcf5e9fc-b801-470b-a8a3-98f3471220c7",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R3:result:ENC-R3-02",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R3-02",
+                "completed": true,
+                "instance": "867004bc-3319-45df-8a96-70d59077c98f",
+                "attempt": "fcf5e9fc-b801-470b-a8a3-98f3471220c7",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 369,
+              "task": "CP-R3-05",
+              "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/control.sqlite",
+              "sha256": "cb616c07878902c2791b57caf4160d283aa052fccbba153138e2c49551d8ee8e",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/recovery/inventory-v2-f9250373-1fef-44c9-8a70-d316cdc2d6b9.sqlite",
+              "sha256": "f7de6231b85f9b774dbec53b21826ee02bf705099eca9abf71aa000aee631a1d",
+              "bytes": 1748992
+            },
+            "branch": "236bf752-d13a-4948-a24b-723da2b34304",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 827,
+            "experience": 3840,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "1e6ccb0c-d9bf-442f-a6b0-ee7d2aa8ae38",
+              "commit_sequence": 2,
+              "effect_hash": "9abf073c11faaa623e605fd0e404c92b2b834871fcc347c4573133547c1a8167",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/test_results.json",
+              "sha256": "4a0f5b1abacd16303f68e68d9f5ddfc7f792c48e87cc150112a6683c3336d6c8",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/command.log",
+              "sha256": "6a08177154fd9c65a64aa47fa9de99a9695733990be181927937c4e08fc2d08a",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=369"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R3-03",
+      "parent_task": "Q-302",
+      "scene": "R3-S07",
+      "name": "仪表检修支路",
+      "kind": "method",
+      "reference_entry": "10级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs",
+        "sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54",
+        "bytes": 12493,
+        "symbols": [
+          "PerformInstrumentStepAsync"
+        ],
+        "contract": "Actual instrument isolation, brace and zero-motion result.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R3-05",
+          "case_name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+          "case_index": 369,
+          "method": "manual_isolation_brace_zero_motion",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "manual_isolation_brace_zero_motion",
+            "receipt": {
+              "semantic_key": "R3:ENC-R3-03:result",
+              "action_type": "chapter_three_encounter_result",
+              "receipt_id": "73fba0b9-ad22-4892-8dcc-a8c8a2ea6049",
+              "commit_sequence": 617,
+              "effect_hash": "4c8e2d13e20f03fae9f20baf5ae76a440552a0eb86b832df664fe4b14117b7be",
+              "result": {
+                "encounter": "ENC-R3-03",
+                "completed": true,
+                "instance": "a4976b6e-c30c-4f50-96c1-04a1e8d92a50",
+                "attempt": "2b01926d-a963-497a-a132-d17cb50467ab",
+                "method": "manual_isolation_brace_zero_motion",
+                "configuration": 3
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R3:result:ENC-R3-03",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R3-03",
+                "completed": true,
+                "instance": "a4976b6e-c30c-4f50-96c1-04a1e8d92a50",
+                "attempt": "2b01926d-a963-497a-a132-d17cb50467ab",
+                "method": "manual_isolation_brace_zero_motion",
+                "configuration": 3
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 369,
+              "task": "CP-R3-05",
+              "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/control.sqlite",
+              "sha256": "cb616c07878902c2791b57caf4160d283aa052fccbba153138e2c49551d8ee8e",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/recovery/inventory-v2-f9250373-1fef-44c9-8a70-d316cdc2d6b9.sqlite",
+              "sha256": "f7de6231b85f9b774dbec53b21826ee02bf705099eca9abf71aa000aee631a1d",
+              "bytes": 1748992
+            },
+            "branch": "236bf752-d13a-4948-a24b-723da2b34304",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 827,
+            "experience": 3840,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "1e6ccb0c-d9bf-442f-a6b0-ee7d2aa8ae38",
+              "commit_sequence": 2,
+              "effect_hash": "9abf073c11faaa623e605fd0e404c92b2b834871fcc347c4573133547c1a8167",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/test_results.json",
+              "sha256": "4a0f5b1abacd16303f68e68d9f5ddfc7f792c48e87cc150112a6683c3336d6c8",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/command.log",
+              "sha256": "6a08177154fd9c65a64aa47fa9de99a9695733990be181927937c4e08fc2d08a",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=369"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R3-04",
+      "parent_task": "Q-301",
+      "scene": "R3-S05",
+      "name": "救援回程",
+      "kind": "escort",
+      "reference_entry": "9级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs",
+        "sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54",
+        "bytes": 12493,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual rescue return escort control, followed by physical delivery of three people.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R3-05",
+          "case_name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+          "case_index": 369,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R3:ENC-R3-04:result",
+              "action_type": "chapter_three_encounter_result",
+              "receipt_id": "538ecd52-5cb4-426c-a48d-30a3ccb0337a",
+              "commit_sequence": 653,
+              "effect_hash": "43bef84cca54d813be37b7cd27906674bce24f30ed72ad8c50cf46dc49e0f908",
+              "result": {
+                "encounter": "ENC-R3-04",
+                "completed": true,
+                "instance": "bb48df45-731d-4cbf-9262-e7520ced257b",
+                "attempt": "66dfa278-4140-450a-8f26-822fa758b6e3",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R3:result:ENC-R3-04",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R3-04",
+                "completed": true,
+                "instance": "bb48df45-731d-4cbf-9262-e7520ced257b",
+                "attempt": "66dfa278-4140-450a-8f26-822fa758b6e3",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 369,
+              "task": "CP-R3-05",
+              "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/control.sqlite",
+              "sha256": "cb616c07878902c2791b57caf4160d283aa052fccbba153138e2c49551d8ee8e",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/recovery/inventory-v2-f9250373-1fef-44c9-8a70-d316cdc2d6b9.sqlite",
+              "sha256": "f7de6231b85f9b774dbec53b21826ee02bf705099eca9abf71aa000aee631a1d",
+              "bytes": 1748992
+            },
+            "branch": "236bf752-d13a-4948-a24b-723da2b34304",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 827,
+            "experience": 3840,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "1e6ccb0c-d9bf-442f-a6b0-ee7d2aa8ae38",
+              "commit_sequence": 2,
+              "effect_hash": "9abf073c11faaa623e605fd0e404c92b2b834871fcc347c4573133547c1a8167",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/test_results.json",
+              "sha256": "4a0f5b1abacd16303f68e68d9f5ddfc7f792c48e87cc150112a6683c3336d6c8",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/command.log",
+              "sha256": "6a08177154fd9c65a64aa47fa9de99a9695733990be181927937c4e08fc2d08a",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=369"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R3-05",
+      "parent_task": "Q-304",
+      "scene": "R3-S09",
+      "name": "失控开采机",
+      "kind": "boss",
+      "reference_entry": "11级/1阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterThree/ChapterThreeService.Encounters.cs",
+        "sha256": "a6e3cf22d7cebc143202b2f14a98dd997717c7b8e99abdf28d62822dc394af54",
+        "bytes": 12493,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Current feed stop and braced arm remain required independently of mining boss control.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R3-05",
+          "case_name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+          "case_index": 369,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R3:ENC-R3-05:result",
+              "action_type": "chapter_three_encounter_result",
+              "receipt_id": "c9d938ff-5a33-4830-b5f9-ca4f5dafc8bb",
+              "commit_sequence": 797,
+              "effect_hash": "cccc78cb1917496cebf56b8b9b24bbb6fcac7812470d04fab163cf866333f1fa",
+              "result": {
+                "encounter": "ENC-R3-05",
+                "completed": true,
+                "instance": "730ed490-fafd-466d-a5b2-a769748ff021",
+                "attempt": "9d2df026-6d03-44bb-92a3-bcc67d0f3b1f",
+                "method": "shared_combat",
+                "configuration": 4
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R3:result:ENC-R3-05",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R3-05",
+                "completed": true,
+                "instance": "730ed490-fafd-466d-a5b2-a769748ff021",
+                "attempt": "9d2df026-6d03-44bb-92a3-bcc67d0f3b1f",
+                "method": "shared_combat",
+                "configuration": 4
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 369,
+              "task": "CP-R3-05",
+              "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/control.sqlite",
+              "sha256": "cb616c07878902c2791b57caf4160d283aa052fccbba153138e2c49551d8ee8e",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b/recovery/inventory-v2-f9250373-1fef-44c9-8a70-d316cdc2d6b9.sqlite",
+              "sha256": "f7de6231b85f9b774dbec53b21826ee02bf705099eca9abf71aa000aee631a1d",
+              "bytes": 1748992
+            },
+            "branch": "236bf752-d13a-4948-a24b-723da2b34304",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 827,
+            "experience": 3840,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "1e6ccb0c-d9bf-442f-a6b0-ee7d2aa8ae38",
+              "commit_sequence": 2,
+              "effect_hash": "9abf073c11faaa623e605fd0e404c92b2b834871fcc347c4573133547c1a8167",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0369/testdata/chapter-three-normal-complete-384bbcdb-6ab6-4a30-a842-b652d9e8001b"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/test_results.json",
+              "sha256": "4a0f5b1abacd16303f68e68d9f5ddfc7f792c48e87cc150112a6683c3336d6c8",
+              "bytes": 410
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0369/command.log",
+              "sha256": "6a08177154fd9c65a64aa47fa9de99a9695733990be181927937c4e08fc2d08a",
+              "bytes": 877
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=369"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R4-01",
+      "parent_task": "Q-402",
+      "scene": "R4-S05",
+      "name": "试验残件",
+      "kind": "ordinary",
+      "reference_entry": "13级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFour/ChapterFourService.Encounters.cs",
+        "sha256": "76d7fc0b993ceccd506fc43015c1c54011f21317d399aa434c69a4ba4e402cab",
+        "bytes": 9175,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual residual threat control under lawful old laboratory entry.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R4-03",
+          "case_name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status",
+          "case_index": 386,
+          "method": "actual_shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_combat",
+            "receipt": {
+              "semantic_key": "R4:ENC-R4-01:result",
+              "action_type": "glasshaven_encounter_result",
+              "receipt_id": "a217a59f-ddb5-4ee1-9053-942b9025972c",
+              "commit_sequence": 891,
+              "effect_hash": "965d6e09520582de0d9ec5624d190055fda860d36fc92719a77f22c3d81b6d05",
+              "result": {
+                "encounter": "ENC-R4-01",
+                "completed": true,
+                "instance": "2bab888d-d05a-45df-b1b3-e30506a310ac",
+                "attempt": "0697e0d0-7d4f-4df1-8a4d-b2e463d1a14b",
+                "method": "actual_shared_combat",
+                "configuration": 1
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R4:result:ENC-R4-01",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R4-01",
+                "completed": true,
+                "instance": "2bab888d-d05a-45df-b1b3-e30506a310ac",
+                "attempt": "0697e0d0-7d4f-4df1-8a4d-b2e463d1a14b",
+                "method": "actual_shared_combat",
+                "configuration": 1
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 386,
+              "task": "CP-R4-03",
+              "name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/control.sqlite",
+              "sha256": "c03745e9323b658c46a64bff2fe160eb00a53a18faeec4d5feca87a6e51f57d7",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/recovery/inventory-v2-37efe9eb-86dd-4797-a0fc-750e3c7e74a1.sqlite",
+              "sha256": "e50de1427fe6539c1c2f566574b6f3166f4dfe7a9989d72789c2b38aee62a25e",
+              "bytes": 2260992
+            },
+            "branch": "280bd80a-fce9-48ad-a3f9-f651677a7e7a",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1141,
+            "experience": 6400,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fd221194-cfc9-40e6-9da5-cfda48a1286a",
+              "commit_sequence": 2,
+              "effect_hash": "1cae3f191254631b0eb8768bd5cc1331fcc2d70fa768667bf2cb619a69a46ae2",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/test_results.json",
+              "sha256": "adbac58855927d324aa208d606c75cf429a1cec9a739943e340cc1da76ba14d4",
+              "bytes": 419
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/command.log",
+              "sha256": "08eff4b4555c033e3c5bf41c5d3e597f3b42e308216169032a2caa1b65f8a370",
+              "bytes": 886
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=386"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R4-02",
+      "parent_task": "Q-402",
+      "scene": "R4-S05",
+      "name": "备用段清理",
+      "kind": "method",
+      "reference_entry": "13级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFour/ChapterFourService.Stations.cs",
+        "sha256": "99f0c10e50d00af5acfb7e04dacb4ef1fe485e11410d2820d0472e1a83d1a8a5",
+        "bytes": 20568,
+        "symbols": [
+          "PerformReserveStepAsync"
+        ],
+        "contract": "Isolated manual reserve opening, clearance, securing and inspection.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R4-03",
+          "case_name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status",
+          "case_index": 386,
+          "method": "isolated_manual_reserve_clear",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "isolated_manual_reserve_clear",
+            "receipt": {
+              "semantic_key": "R4:ENC-R4-02:result",
+              "action_type": "glasshaven_encounter_result",
+              "receipt_id": "3fb6332e-d0c4-482b-8a34-34ee9ddba796",
+              "commit_sequence": 896,
+              "effect_hash": "fe0372b519debee98911657bf8aa529c9ba8cbb1c4f670019d1bcf160ce6f648",
+              "result": {
+                "encounter": "ENC-R4-02",
+                "completed": true,
+                "instance": "bafe0306-4ec3-4e76-8b8f-ee1ec5e655ea",
+                "attempt": "a3c55016-4629-4956-a02b-58c4556469c9",
+                "method": "isolated_manual_reserve_clear",
+                "configuration": 4
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R4:result:ENC-R4-02",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R4-02",
+                "completed": true,
+                "instance": "bafe0306-4ec3-4e76-8b8f-ee1ec5e655ea",
+                "attempt": "a3c55016-4629-4956-a02b-58c4556469c9",
+                "method": "isolated_manual_reserve_clear",
+                "configuration": 4
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 386,
+              "task": "CP-R4-03",
+              "name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/control.sqlite",
+              "sha256": "c03745e9323b658c46a64bff2fe160eb00a53a18faeec4d5feca87a6e51f57d7",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/recovery/inventory-v2-37efe9eb-86dd-4797-a0fc-750e3c7e74a1.sqlite",
+              "sha256": "e50de1427fe6539c1c2f566574b6f3166f4dfe7a9989d72789c2b38aee62a25e",
+              "bytes": 2260992
+            },
+            "branch": "280bd80a-fce9-48ad-a3f9-f651677a7e7a",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1141,
+            "experience": 6400,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fd221194-cfc9-40e6-9da5-cfda48a1286a",
+              "commit_sequence": 2,
+              "effect_hash": "1cae3f191254631b0eb8768bd5cc1331fcc2d70fa768667bf2cb619a69a46ae2",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/test_results.json",
+              "sha256": "adbac58855927d324aa208d606c75cf429a1cec9a739943e340cc1da76ba14d4",
+              "bytes": 419
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/command.log",
+              "sha256": "08eff4b4555c033e3c5bf41c5d3e597f3b42e308216169032a2caa1b65f8a370",
+              "bytes": 886
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=386"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R4-03",
+      "parent_task": "Q-403",
+      "scene": "R4-S06",
+      "name": "校准防卫",
+      "kind": "ordinary",
+      "reference_entry": "14级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFour/ChapterFourService.Encounters.cs",
+        "sha256": "76d7fc0b993ceccd506fc43015c1c54011f21317d399aa434c69a4ba4e402cab",
+        "bytes": 9175,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual calibration defence before current island experiment work.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R4-03",
+          "case_name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status",
+          "case_index": 386,
+          "method": "actual_shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_combat",
+            "receipt": {
+              "semantic_key": "R4:ENC-R4-03:result",
+              "action_type": "glasshaven_encounter_result",
+              "receipt_id": "033bfc05-2e89-4e79-9d06-9e1287806bb2",
+              "commit_sequence": 980,
+              "effect_hash": "2c09410a5061fd1cfd5d8c70400961605135c8cdb359b53f175381cdc265e4aa",
+              "result": {
+                "encounter": "ENC-R4-03",
+                "completed": true,
+                "instance": "a6e9a1b5-92ad-436d-bbc4-0d7ef2e98951",
+                "attempt": "f59f70ee-b6a9-4e1e-a970-9bb8016b18d3",
+                "method": "actual_shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R4:result:ENC-R4-03",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R4-03",
+                "completed": true,
+                "instance": "a6e9a1b5-92ad-436d-bbc4-0d7ef2e98951",
+                "attempt": "f59f70ee-b6a9-4e1e-a970-9bb8016b18d3",
+                "method": "actual_shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 386,
+              "task": "CP-R4-03",
+              "name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/control.sqlite",
+              "sha256": "c03745e9323b658c46a64bff2fe160eb00a53a18faeec4d5feca87a6e51f57d7",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/recovery/inventory-v2-37efe9eb-86dd-4797-a0fc-750e3c7e74a1.sqlite",
+              "sha256": "e50de1427fe6539c1c2f566574b6f3166f4dfe7a9989d72789c2b38aee62a25e",
+              "bytes": 2260992
+            },
+            "branch": "280bd80a-fce9-48ad-a3f9-f651677a7e7a",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1141,
+            "experience": 6400,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fd221194-cfc9-40e6-9da5-cfda48a1286a",
+              "commit_sequence": 2,
+              "effect_hash": "1cae3f191254631b0eb8768bd5cc1331fcc2d70fa768667bf2cb619a69a46ae2",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/test_results.json",
+              "sha256": "adbac58855927d324aa208d606c75cf429a1cec9a739943e340cc1da76ba14d4",
+              "bytes": 419
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/command.log",
+              "sha256": "08eff4b4555c033e3c5bf41c5d3e597f3b42e308216169032a2caa1b65f8a370",
+              "bytes": 886
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=386"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R4-04",
+      "parent_task": "Q-403",
+      "scene": "R4-S07",
+      "name": "试验执行机",
+      "kind": "boss",
+      "reference_entry": "14级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFour/ChapterFourService.Stations.cs",
+        "sha256": "99f0c10e50d00af5acfb7e04dacb4ef1fe485e11410d2820d0472e1a83d1a8a5",
+        "bytes": 20568,
+        "symbols": [
+          "PrepareOutputStepAsync"
+        ],
+        "contract": "Threat control alone is insufficient; current isolate/select_TEST/coupler/guard/inspection creates result; trial observations remain independent.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R4-03",
+          "case_name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status",
+          "case_index": 386,
+          "method": "actual_control_and_TEST_output",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_control_and_TEST_output",
+            "receipt": {
+              "semantic_key": "R4:ENC-R4-04:result",
+              "action_type": "glasshaven_encounter_result",
+              "receipt_id": "ba4bc206-dc89-41d0-8f0b-1bb623a6a67e",
+              "commit_sequence": 1063,
+              "effect_hash": "4f21df521901174e73749f7fe3744d757ac8e0d37a6cf18bcaf4e24e7206b51a",
+              "result": {
+                "encounter": "ENC-R4-04",
+                "completed": true,
+                "instance": "acf88616-7b51-461d-bf35-426d6ac85c69",
+                "attempt": "711bb609-3648-4e5b-8fda-3d8bdcc3960f",
+                "method": "actual_control_and_TEST_output",
+                "configuration": 4
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R4:result:ENC-R4-04",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R4-04",
+                "completed": true,
+                "instance": "acf88616-7b51-461d-bf35-426d6ac85c69",
+                "attempt": "711bb609-3648-4e5b-8fda-3d8bdcc3960f",
+                "method": "actual_control_and_TEST_output",
+                "configuration": 4
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 386,
+              "task": "CP-R4-03",
+              "name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/control.sqlite",
+              "sha256": "c03745e9323b658c46a64bff2fe160eb00a53a18faeec4d5feca87a6e51f57d7",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb/recovery/inventory-v2-37efe9eb-86dd-4797-a0fc-750e3c7e74a1.sqlite",
+              "sha256": "e50de1427fe6539c1c2f566574b6f3166f4dfe7a9989d72789c2b38aee62a25e",
+              "bytes": 2260992
+            },
+            "branch": "280bd80a-fce9-48ad-a3f9-f651677a7e7a",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1141,
+            "experience": 6400,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fd221194-cfc9-40e6-9da5-cfda48a1286a",
+              "commit_sequence": 2,
+              "effect_hash": "1cae3f191254631b0eb8768bd5cc1331fcc2d70fa768667bf2cb619a69a46ae2",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0386/testdata/chapter-four-normal-complete-a2d19a91-9af8-406e-8a3c-4d63ceff8ddb"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/test_results.json",
+              "sha256": "adbac58855927d324aa208d606c75cf429a1cec9a739943e340cc1da76ba14d4",
+              "bytes": 419
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0386/command.log",
+              "sha256": "08eff4b4555c033e3c5bf41c5d3e597f3b42e308216169032a2caa1b65f8a370",
+              "bytes": 886
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=386"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R5-01",
+      "parent_task": "Q-501",
+      "scene": "R5-S03",
+      "name": "北站查验冲突",
+      "kind": "method",
+      "reference_entry": "17级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Stations.cs",
+        "sha256": "fb91735459118a17c5c8047297114fad40ec89c6f162135f15f02c8dbc4c9485",
+        "bytes": 20761,
+        "symbols": [
+          "ExecuteStationAsync"
+        ],
+        "contract": "Actual current credential, map layers and independent checkpoint passage check.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R5-05",
+          "case_name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission",
+          "case_index": 408,
+          "method": "actual_current_credentials_and_independent_passage_check",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_current_credentials_and_independent_passage_check",
+            "receipt": {
+              "semantic_key": "R5:ENC-R5-01:result",
+              "action_type": "old_city_encounter_result",
+              "receipt_id": "e1c32805-5a3e-483e-a028-d515cf3189da",
+              "commit_sequence": 1188,
+              "effect_hash": "2d7ce3051ec76b6c6dbe91f14cece9f25dc88e7278d8a91c81e08dc2f7981d8f",
+              "result": {
+                "encounter": "ENC-R5-01",
+                "completed": true,
+                "instance": "e80a28fa-3230-421e-8121-d9bf5111f3fe",
+                "attempt": "082e7534-057d-4b8c-b9a5-895ce687e478",
+                "method": "actual_current_credentials_and_independent_passage_check"
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R5:result:ENC-R5-01",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R5-01",
+                "completed": true,
+                "instance": "e80a28fa-3230-421e-8121-d9bf5111f3fe",
+                "attempt": "082e7534-057d-4b8c-b9a5-895ce687e478",
+                "method": "actual_current_credentials_and_independent_passage_check"
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 408,
+              "task": "CP-R5-05",
+              "name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480/control.sqlite",
+              "sha256": "be89f18f98efb67ca99ad5fa3b9ca7cbb45bec161e5d4d4032c3133ab1ef7da1",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480/recovery/inventory-v2-c6b22318-27b7-4a27-9f6c-2992379175a9.sqlite",
+              "sha256": "ef887123508dd72b2b6ddbac9cb0827204b33f3bbd6ebdb687be3d0363c98d08",
+              "bytes": 2670592
+            },
+            "branch": "ea7c9c0f-0d40-4d16-9c12-3cf29c0ceef1",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1387,
+            "experience": 10500,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "8793ccb9-b1ea-420c-bbde-2c8db93b3212",
+              "commit_sequence": 2,
+              "effect_hash": "52f3e7bd3ef93911c8458961f1f5735dadfc964cecf0870f9eb022bbbea736e9",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/test_results.json",
+              "sha256": "fdd3f03eeabb74d4aaca0a9d9caf3c31bfc6e16d97b9856ffd00133f6564471c",
+              "bytes": 417
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/command.log",
+              "sha256": "eccfe0c29634e7975dcc7872ccab394d0904c63ecf8e4a6c55feb5f31fe885d3",
+              "bytes": 884
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=408"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R5-02",
+      "parent_task": "Q-501",
+      "scene": "R5-S04",
+      "name": "检修隧道威胁",
+      "kind": "method",
+      "reference_entry": "17级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Stations.cs",
+        "sha256": "fb91735459118a17c5c8047297114fad40ec89c6f162135f15f02c8dbc4c9485",
+        "bytes": 20761,
+        "symbols": [
+          "ExecuteStationAsync"
+        ],
+        "contract": "Actual tunnel isolation, brace, obstacle clearance and zero motion; normal Optional R5 predecessor uses this real alternative route.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R5-03",
+          "case_name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "case_index": 553,
+          "method": "isolate_brace_clear_zero_motion",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "isolate_brace_clear_zero_motion",
+            "receipt": {
+              "semantic_key": "R5:ENC-R5-02:result",
+              "action_type": "old_city_encounter_result",
+              "receipt_id": "8c9f3c8b-caa6-4f01-b892-087990bc90eb",
+              "commit_sequence": 1196,
+              "effect_hash": "48f957213763262844bf131f139bc79a9bd5d4750d31aef6453cf93674afa8ce",
+              "result": {
+                "encounter": "ENC-R5-02",
+                "completed": true,
+                "instance": "37ccb5ef-1d93-4fc6-bf12-a4bc17814cc2",
+                "attempt": "203a9807-911a-452f-845b-769aa32b62e1",
+                "method": "isolate_brace_clear_zero_motion"
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R5:result:ENC-R5-02",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R5-02",
+                "completed": true,
+                "instance": "37ccb5ef-1d93-4fc6-bf12-a4bc17814cc2",
+                "attempt": "203a9807-911a-452f-845b-769aa32b62e1",
+                "method": "isolate_brace_clear_zero_motion"
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 553,
+              "task": "CP-R5-03",
+              "name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0553/testdata/normal-optional-r5-native-entry/control.sqlite",
+              "sha256": "55590f480e7a8bed929b241a636870c2fec2cb7e3c92e3586fe12b2799379029",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0553/testdata/normal-optional-r5-native-entry/recovery/inventory-v2-8f3e9ce4-5dae-46fb-a405-de154cea73c5.sqlite",
+              "sha256": "e60bc5ae3e85f0738c869e44149590f061de0e6e5231d2436f25cda948825a3c",
+              "bytes": 2375680
+            },
+            "branch": "06c3ec8e-380b-4326-a27f-e32d2dd0a86d",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1217,
+            "experience": 7300,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "1b4fdb07-9c65-43c1-9241-c36e2fc836e7",
+              "commit_sequence": 2,
+              "effect_hash": "5c1b7f83985834cbe4749cdcd53cd157b0fb8bb40cbe132a0e001308a0dd7646",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0553/testdata/normal-optional-r5-native-entry"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0553/test_results.json",
+              "sha256": "0b1cc82a0d05874fdf53e40dde95c1f49eb2b8b03ed4f13c1a71cc0dc8744028",
+              "bytes": 404
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0553/command.log",
+              "sha256": "16ace686382d2ddadcc984f39e3565623cef4641a8d99808402dc8a16ccd2030",
+              "bytes": 871
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=553"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R5-03",
+      "parent_task": "Q-502",
+      "scene": "R5-S06",
+      "name": "北站看守组",
+      "kind": "boss",
+      "reference_entry": "18级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Encounters.cs",
+        "sha256": "fedb56219229b3b62ea9792c447b16afffdc50cf3dc428c9fa4f00acaf5b74cf",
+        "bytes": 10739,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual nonlethal watcher-group control, with mentor rescue requiring separate physical steps.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R5-05",
+          "case_name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission",
+          "case_index": 408,
+          "method": "actual_shared_nonlethal_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_nonlethal_combat",
+            "receipt": {
+              "semantic_key": "R5:ENC-R5-03:result",
+              "action_type": "old_city_encounter_result",
+              "receipt_id": "bb2833a5-2951-42ea-b17e-3a18b2c8073f",
+              "commit_sequence": 1261,
+              "effect_hash": "0168aa9880926d7a70e17179e054b69bb69f0b4ed196790cbdbdf3731884a144",
+              "result": {
+                "encounter": "ENC-R5-03",
+                "completed": true,
+                "instance": "51d623ee-fba8-4bdb-a926-ac00d72a9ad6",
+                "attempt": "b83f473b-4531-4c1d-b677-5b580bb49dc5",
+                "method": "actual_shared_nonlethal_combat"
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R5:result:ENC-R5-03",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R5-03",
+                "completed": true,
+                "instance": "51d623ee-fba8-4bdb-a926-ac00d72a9ad6",
+                "attempt": "b83f473b-4531-4c1d-b677-5b580bb49dc5",
+                "method": "actual_shared_nonlethal_combat"
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 408,
+              "task": "CP-R5-05",
+              "name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480/control.sqlite",
+              "sha256": "be89f18f98efb67ca99ad5fa3b9ca7cbb45bec161e5d4d4032c3133ab1ef7da1",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480/recovery/inventory-v2-c6b22318-27b7-4a27-9f6c-2992379175a9.sqlite",
+              "sha256": "ef887123508dd72b2b6ddbac9cb0827204b33f3bbd6ebdb687be3d0363c98d08",
+              "bytes": 2670592
+            },
+            "branch": "ea7c9c0f-0d40-4d16-9c12-3cf29c0ceef1",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1387,
+            "experience": 10500,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "8793ccb9-b1ea-420c-bbde-2c8db93b3212",
+              "commit_sequence": 2,
+              "effect_hash": "52f3e7bd3ef93911c8458961f1f5735dadfc964cecf0870f9eb022bbbea736e9",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/test_results.json",
+              "sha256": "fdd3f03eeabb74d4aaca0a9d9caf3c31bfc6e16d97b9856ffd00133f6564471c",
+              "bytes": 417
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/command.log",
+              "sha256": "eccfe0c29634e7975dcc7872ccab394d0904c63ecf8e4a6c55feb5f31fe885d3",
+              "bytes": 884
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=408"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R5-04",
+      "parent_task": "Q-504",
+      "scene": "R5-S08",
+      "name": "归档继电防卫",
+      "kind": "ordinary",
+      "reference_entry": "20级/2阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterFive/ChapterFiveService.Encounters.cs",
+        "sha256": "fedb56219229b3b62ea9792c447b16afffdc50cf3dc428c9fa4f00acaf5b74cf",
+        "bytes": 10739,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual nonlethal archival relay control under joint permission with real isolated and secured rack.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R5-05",
+          "case_name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission",
+          "case_index": 408,
+          "method": "actual_shared_nonlethal_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_nonlethal_combat",
+            "receipt": {
+              "semantic_key": "R5:ENC-R5-04:result",
+              "action_type": "old_city_encounter_result",
+              "receipt_id": "2c3c7dcd-7c64-473c-90d7-629eff413040",
+              "commit_sequence": 1356,
+              "effect_hash": "8c2879ac77c83eee89e7736122fab115dcd4f97b47147c056672f8435a2d6293",
+              "result": {
+                "encounter": "ENC-R5-04",
+                "completed": true,
+                "instance": "4f9ec667-8367-413d-a224-a4f79089d660",
+                "attempt": "8281494b-e6a9-4b5f-97c1-7d76a867542e",
+                "method": "actual_shared_nonlethal_combat"
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R5:result:ENC-R5-04",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R5-04",
+                "completed": true,
+                "instance": "4f9ec667-8367-413d-a224-a4f79089d660",
+                "attempt": "8281494b-e6a9-4b5f-97c1-7d76a867542e",
+                "method": "actual_shared_nonlethal_combat"
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 408,
+              "task": "CP-R5-05",
+              "name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480/control.sqlite",
+              "sha256": "be89f18f98efb67ca99ad5fa3b9ca7cbb45bec161e5d4d4032c3133ab1ef7da1",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480/recovery/inventory-v2-c6b22318-27b7-4a27-9f6c-2992379175a9.sqlite",
+              "sha256": "ef887123508dd72b2b6ddbac9cb0827204b33f3bbd6ebdb687be3d0363c98d08",
+              "bytes": 2670592
+            },
+            "branch": "ea7c9c0f-0d40-4d16-9c12-3cf29c0ceef1",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1387,
+            "experience": 10500,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "8793ccb9-b1ea-420c-bbde-2c8db93b3212",
+              "commit_sequence": 2,
+              "effect_hash": "52f3e7bd3ef93911c8458961f1f5735dadfc964cecf0870f9eb022bbbea736e9",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0408/testdata/chapter-five-normal-complete-faf3e02b-49e2-44eb-b74b-d98c715ce480"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/test_results.json",
+              "sha256": "fdd3f03eeabb74d4aaca0a9d9caf3c31bfc6e16d97b9856ffd00133f6564471c",
+              "bytes": 417
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0408/command.log",
+              "sha256": "eccfe0c29634e7975dcc7872ccab394d0904c63ecf8e4a6c55feb5f31fe885d3",
+              "bytes": 884
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=408"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R6-01",
+      "parent_task": "Q-601",
+      "scene": "R6-S03",
+      "name": "山口风群",
+      "kind": "ordinary",
+      "reference_entry": "22级/3阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs",
+        "sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7",
+        "bytes": 10263,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual pass-wind control under current briefing and pass material.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R6-03",
+          "case_name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+          "case_index": 425,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R6:ENC-R6-01:result",
+              "action_type": "chapter_six_encounter_result",
+              "receipt_id": "d0c58d2f-2891-47cf-af2a-9258592e29fe",
+              "commit_sequence": 1442,
+              "effect_hash": "ce5a894810361c03955fac3222438e90bf9acf7704322dabc0ffc0a0dfb29fd3",
+              "result": {
+                "encounter": "ENC-R6-01",
+                "completed": true,
+                "instance": "8c0d2f28-5102-4fec-9e59-4f4dd5f6c750",
+                "attempt": "10ecf2bf-145f-4641-881e-f15560ca22b7",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R6:result:ENC-R6-01",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R6-01",
+                "completed": true,
+                "instance": "8c0d2f28-5102-4fec-9e59-4f4dd5f6c750",
+                "attempt": "10ecf2bf-145f-4641-881e-f15560ca22b7",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 425,
+              "task": "CP-R6-03",
+              "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/control.sqlite",
+              "sha256": "af73435936166c4b628a2cf978382fa4476b4d9bb82edc61d5232c630b7656c0",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/recovery/inventory-v2-e6504488-33d8-4bef-8431-a04080c9a69a.sqlite",
+              "sha256": "c8e38b64fff9756672e9b552e5df63e9b61bc2a42e2063929ad6903a06f62d4c",
+              "bytes": 6852608
+            },
+            "branch": "cf1cefe9-28f2-411c-bff8-b9e74a59fa8b",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1933,
+            "experience": 16740,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fc15f04a-0008-4098-a45f-23cec26caa68",
+              "commit_sequence": 2,
+              "effect_hash": "b7adcb8f2b10b8fa446d57c04d8f6a986a1a7aceda53cf831bfc6932176d7514",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/test_results.json",
+              "sha256": "96707dadbfc34e1cbe94b142e028e3b860deb732cc5e17df01f38502ce58323b",
+              "bytes": 418
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/command.log",
+              "sha256": "2ff86cf7b79f9c249d9c20c93f5806097c343f2dfbc1829a8502aa3d9a303b9e",
+              "bytes": 885
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=425"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R6-02",
+      "parent_task": "Q-601",
+      "scene": "R6-S04",
+      "name": "测站防卫",
+      "kind": "ordinary",
+      "reference_entry": "22级/3阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs",
+        "sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7",
+        "bytes": 10263,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual measurement station defence; pass result and instrument source remain required.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R6-03",
+          "case_name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+          "case_index": 425,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R6:ENC-R6-02:result",
+              "action_type": "chapter_six_encounter_result",
+              "receipt_id": "38b9a4a1-b462-46d7-b9cc-5151881781bb",
+              "commit_sequence": 1462,
+              "effect_hash": "a2272130933ef89f31cd0a41bdda8ba4d0b01b8865561804e725e9900e13a3dd",
+              "result": {
+                "encounter": "ENC-R6-02",
+                "completed": true,
+                "instance": "291b5fc5-c7ff-4050-b859-021ea871a410",
+                "attempt": "7f086e97-ee30-4594-8d6e-400a9e22d6f8",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R6:result:ENC-R6-02",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R6-02",
+                "completed": true,
+                "instance": "291b5fc5-c7ff-4050-b859-021ea871a410",
+                "attempt": "7f086e97-ee30-4594-8d6e-400a9e22d6f8",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 425,
+              "task": "CP-R6-03",
+              "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/control.sqlite",
+              "sha256": "af73435936166c4b628a2cf978382fa4476b4d9bb82edc61d5232c630b7656c0",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/recovery/inventory-v2-e6504488-33d8-4bef-8431-a04080c9a69a.sqlite",
+              "sha256": "c8e38b64fff9756672e9b552e5df63e9b61bc2a42e2063929ad6903a06f62d4c",
+              "bytes": 6852608
+            },
+            "branch": "cf1cefe9-28f2-411c-bff8-b9e74a59fa8b",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1933,
+            "experience": 16740,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fc15f04a-0008-4098-a45f-23cec26caa68",
+              "commit_sequence": 2,
+              "effect_hash": "b7adcb8f2b10b8fa446d57c04d8f6a986a1a7aceda53cf831bfc6932176d7514",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/test_results.json",
+              "sha256": "96707dadbfc34e1cbe94b142e028e3b860deb732cc5e17df01f38502ce58323b",
+              "bytes": 418
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/command.log",
+              "sha256": "2ff86cf7b79f9c249d9c20c93f5806097c343f2dfbc1829a8502aa3d9a303b9e",
+              "bytes": 885
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=425"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R6-03",
+      "parent_task": "Q-603",
+      "scene": "R6-S05",
+      "name": "首段货载",
+      "kind": "escort",
+      "reference_entry": "25级/3阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs",
+        "sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7",
+        "bytes": 10263,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "First cargo escort control requires actual current cargo stage and public escort source.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R6-03",
+          "case_name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+          "case_index": 425,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R6:ENC-R6-03:result",
+              "action_type": "chapter_six_encounter_result",
+              "receipt_id": "1655dce2-ec5b-4a85-b232-a7f4d5cbdc03",
+              "commit_sequence": 1506,
+              "effect_hash": "a2d195b7a3c3f8885d0ab45fb3fa76f1fedba421b845c613973460e609c1c514",
+              "result": {
+                "encounter": "ENC-R6-03",
+                "completed": true,
+                "instance": "25411b9f-c17c-4e1e-9c9f-a1a72cc3f38f",
+                "attempt": "4e75bda3-fc61-4196-9b11-8f1986902ca4",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R6:result:ENC-R6-03",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R6-03",
+                "completed": true,
+                "instance": "25411b9f-c17c-4e1e-9c9f-a1a72cc3f38f",
+                "attempt": "4e75bda3-fc61-4196-9b11-8f1986902ca4",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 425,
+              "task": "CP-R6-03",
+              "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/control.sqlite",
+              "sha256": "af73435936166c4b628a2cf978382fa4476b4d9bb82edc61d5232c630b7656c0",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/recovery/inventory-v2-e6504488-33d8-4bef-8431-a04080c9a69a.sqlite",
+              "sha256": "c8e38b64fff9756672e9b552e5df63e9b61bc2a42e2063929ad6903a06f62d4c",
+              "bytes": 6852608
+            },
+            "branch": "cf1cefe9-28f2-411c-bff8-b9e74a59fa8b",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1933,
+            "experience": 16740,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fc15f04a-0008-4098-a45f-23cec26caa68",
+              "commit_sequence": 2,
+              "effect_hash": "b7adcb8f2b10b8fa446d57c04d8f6a986a1a7aceda53cf831bfc6932176d7514",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/test_results.json",
+              "sha256": "96707dadbfc34e1cbe94b142e028e3b860deb732cc5e17df01f38502ce58323b",
+              "bytes": 418
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/command.log",
+              "sha256": "2ff86cf7b79f9c249d9c20c93f5806097c343f2dfbc1829a8502aa3d9a303b9e",
+              "bytes": 885
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=425"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R6-04",
+      "parent_task": "Q-603",
+      "scene": "R6-S06",
+      "name": "外线第二段",
+      "kind": "escort",
+      "reference_entry": "25级/3阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs",
+        "sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7",
+        "bytes": 10263,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Second cargo escort control requires actual first-stage cargo and current outer segment.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R6-03",
+          "case_name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+          "case_index": 425,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R6:ENC-R6-04:result",
+              "action_type": "chapter_six_encounter_result",
+              "receipt_id": "ce53b069-01c8-4f0e-986f-ea52997f346b",
+              "commit_sequence": 1526,
+              "effect_hash": "767f7c66bcf4a87554053fb6a0d75e425394fc14cc758d5a74f73e926936010e",
+              "result": {
+                "encounter": "ENC-R6-04",
+                "completed": true,
+                "instance": "3067fcef-113c-4c18-a9d4-01db688b934c",
+                "attempt": "1a247ca0-7bae-4613-9a58-459dee0987f2",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R6:result:ENC-R6-04",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R6-04",
+                "completed": true,
+                "instance": "3067fcef-113c-4c18-a9d4-01db688b934c",
+                "attempt": "1a247ca0-7bae-4613-9a58-459dee0987f2",
+                "method": "shared_combat",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 425,
+              "task": "CP-R6-03",
+              "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/control.sqlite",
+              "sha256": "af73435936166c4b628a2cf978382fa4476b4d9bb82edc61d5232c630b7656c0",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/recovery/inventory-v2-e6504488-33d8-4bef-8431-a04080c9a69a.sqlite",
+              "sha256": "c8e38b64fff9756672e9b552e5df63e9b61bc2a42e2063929ad6903a06f62d4c",
+              "bytes": 6852608
+            },
+            "branch": "cf1cefe9-28f2-411c-bff8-b9e74a59fa8b",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1933,
+            "experience": 16740,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fc15f04a-0008-4098-a45f-23cec26caa68",
+              "commit_sequence": 2,
+              "effect_hash": "b7adcb8f2b10b8fa446d57c04d8f6a986a1a7aceda53cf831bfc6932176d7514",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/test_results.json",
+              "sha256": "96707dadbfc34e1cbe94b142e028e3b860deb732cc5e17df01f38502ce58323b",
+              "bytes": 418
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/command.log",
+              "sha256": "2ff86cf7b79f9c249d9c20c93f5806097c343f2dfbc1829a8502aa3d9a303b9e",
+              "bytes": 885
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=425"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R6-05",
+      "parent_task": "Q-603",
+      "scene": "R6-S07",
+      "name": "风脊封锁平台",
+      "kind": "boss",
+      "reference_entry": "25级/3阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/ChapterSix/ChapterSixService.Encounters.cs",
+        "sha256": "3ad5de8777a3f07bee388f081f07398a64ff6caef26d77a9dce2a5b0ea59c4a7",
+        "bytes": 10263,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual field device control and protected cargo remain required before ridge platform boss.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-R6-03",
+          "case_name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+          "case_index": 425,
+          "method": "shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat",
+            "receipt": {
+              "semantic_key": "R6:ENC-R6-05:result",
+              "action_type": "chapter_six_encounter_result",
+              "receipt_id": "7243020e-17df-42b6-a403-476319671ab4",
+              "commit_sequence": 1586,
+              "effect_hash": "cd36cf8e81efd000936cd8216c870a72869e7b0ab665045afcc7d3edf50d80c1",
+              "result": {
+                "encounter": "ENC-R6-05",
+                "completed": true,
+                "instance": "f4da8ec9-e7f1-48bf-af2b-50eebb730df5",
+                "attempt": "77c8f41d-7437-41b1-8b1e-5d75e30ff179",
+                "method": "shared_combat",
+                "configuration": 4
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R6:result:ENC-R6-05",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R6-05",
+                "completed": true,
+                "instance": "f4da8ec9-e7f1-48bf-af2b-50eebb730df5",
+                "attempt": "77c8f41d-7437-41b1-8b1e-5d75e30ff179",
+                "method": "shared_combat",
+                "configuration": 4
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 425,
+              "task": "CP-R6-03",
+              "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/control.sqlite",
+              "sha256": "af73435936166c4b628a2cf978382fa4476b4d9bb82edc61d5232c630b7656c0",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc/recovery/inventory-v2-e6504488-33d8-4bef-8431-a04080c9a69a.sqlite",
+              "sha256": "c8e38b64fff9756672e9b552e5df63e9b61bc2a42e2063929ad6903a06f62d4c",
+              "bytes": 6852608
+            },
+            "branch": "cf1cefe9-28f2-411c-bff8-b9e74a59fa8b",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1933,
+            "experience": 16740,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "fc15f04a-0008-4098-a45f-23cec26caa68",
+              "commit_sequence": 2,
+              "effect_hash": "b7adcb8f2b10b8fa446d57c04d8f6a986a1a7aceda53cf831bfc6932176d7514",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0425/testdata/chapter-six-normal-base-departure-f0a25fa4-3bea-4770-8073-c4dc7d24d9cc"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/test_results.json",
+              "sha256": "96707dadbfc34e1cbe94b142e028e3b860deb732cc5e17df01f38502ce58323b",
+              "bytes": 418
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0425/command.log",
+              "sha256": "2ff86cf7b79f9c249d9c20c93f5806097c343f2dfbc1829a8502aa3d9a303b9e",
+              "bytes": 885
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=425"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-R6-06",
+      "parent_task": "Q-603",
+      "scene": "R6-S06",
+      "name": "可选现场检修冲突",
+      "kind": "method",
+      "reference_entry": "25级/3阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/OptionalLocalWorks/FieldRelayRepairService.cs",
+        "sha256": "3002400dcb792192307c5027cdff8cb254b70cb6854bb899a5b372cb4bf1fe08",
+        "bytes": 18117,
+        "symbols": [
+          "SetAuxSwitchAsync",
+          "FitDedicatedPinAsync",
+          "VerifyZeroAsync"
+        ],
+        "contract": "This method slot is inside canonical 32: same scoped AUX OFF, dedicated pin and current zero; auxiliary-only combat alternative is also actually exercised. No tower/cargo authority or XP granted.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-FIELD-RELAY-03",
+          "case_name": "A current same-device OFF, dedicated pin and AUX zero method controls the optional relay without attacking, then requires refit and a new current return check",
+          "case_index": 539,
+          "method": "scoped_isolation_brace_zero",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "scoped_isolation_brace_zero",
+            "receipt": {
+              "semantic_key": "R6:ENC-R6-06:result",
+              "action_type": "chapter_six_encounter_result",
+              "receipt_id": "e74ece2d-eaec-472c-97bd-31912ac473be",
+              "commit_sequence": 1656,
+              "effect_hash": "560f82598af4e37b933487aad4f32f3b5df355c7b579fe16a42689d9a543d6a4",
+              "result": {
+                "encounter": "ENC-R6-06",
+                "completed": true,
+                "instance": "d0852307-5044-44ba-b25c-04d603f512ad",
+                "attempt": "d0852307-5044-44ba-b25c-04d603f512ad",
+                "method": "scoped_isolation_brace_zero",
+                "configuration": 2
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R6:result:ENC-R6-06",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R6-06",
+                "completed": true,
+                "instance": "d0852307-5044-44ba-b25c-04d603f512ad",
+                "attempt": "d0852307-5044-44ba-b25c-04d603f512ad",
+                "method": "scoped_isolation_brace_zero",
+                "configuration": 2
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 539,
+              "task": "CP-FIELD-RELAY-03",
+              "name": "A current same-device OFF, dedicated pin and AUX zero method controls the optional relay without attacking, then requires refit and a new current return check"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0539/testdata/field-relay-normal-method-3375d8dc-33c6-4396-acab-d151916678b9/control.sqlite",
+              "sha256": "8d499bc5a293171ebc59de2df91aa85cd3d24750fd65eba0c9a8cb33136921a2",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0539/testdata/field-relay-normal-method-3375d8dc-33c6-4396-acab-d151916678b9/recovery/inventory-v2-e8f63c5f-da9a-45fd-9a35-aa717fc7e46b.sqlite",
+              "sha256": "67548ebaa917144ab4b938e73c1f876ebc10c80d1a10fe69624f88e1e72bfa60",
+              "bytes": 3174400
+            },
+            "branch": "97f7ad1b-56d0-4ac4-831a-a01714bf49ea",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1661,
+            "experience": 13700,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "e0721138-7fe8-4d13-8bbc-b8e0a51fb257",
+              "commit_sequence": 2,
+              "effect_hash": "8c061cdfc7c86b53d9f9ade61d0ff68a7788a0c772eb034d3c30ef0872f91861",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0539/testdata/field-relay-normal-method-3375d8dc-33c6-4396-acab-d151916678b9"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0539/test_results.json",
+              "sha256": "7fdad399e136062e1b37e9feb2649f4d694958c56a3516db809537c587c908f0",
+              "bytes": 473
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0539/command.log",
+              "sha256": "ddf02ad1c2b53258078aab28b7282e510701c18c08fa5bf88a8a23dcdb48d3bc",
+              "bytes": 940
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=539"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        },
+        {
+          "task": "CP-FIELD-RELAY-03",
+          "case_name": "Real BattleEngine threat control grants no isolation, pin, tower or delivery; withdrawal and cancelled or continued previews preserve the same finite work instance",
+          "case_index": 540,
+          "method": "shared_combat_auxiliary_only",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "shared_combat_auxiliary_only",
+            "receipt": {
+              "semantic_key": "R6:ENC-R6-06:result",
+              "action_type": "chapter_six_encounter_result",
+              "receipt_id": "08ee00df-0fe4-4f84-a61a-f18e8f438410",
+              "commit_sequence": 1666,
+              "effect_hash": "8c81a18da4e62f204ac5ddbc47b10908f210382e3c55d8d3afd7d6882f48edcf",
+              "result": {
+                "encounter": "ENC-R6-06",
+                "completed": true,
+                "instance": "6c175e31-aefa-4254-95d6-0fe99dc01b40",
+                "attempt": "08e63970-7a78-4a97-8b01-6de2d952ba7a",
+                "method": "shared_combat_auxiliary_only",
+                "configuration": 0
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "R6:result:ENC-R6-06",
+              "kind": "chapter_encounter_result",
+              "value": {
+                "encounter": "ENC-R6-06",
+                "completed": true,
+                "instance": "6c175e31-aefa-4254-95d6-0fe99dc01b40",
+                "attempt": "08e63970-7a78-4a97-8b01-6de2d952ba7a",
+                "method": "shared_combat_auxiliary_only",
+                "configuration": 0
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 540,
+              "task": "CP-FIELD-RELAY-03",
+              "name": "Real BattleEngine threat control grants no isolation, pin, tower or delivery; withdrawal and cancelled or continued previews preserve the same finite work instance"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0540/testdata/field-relay-normal-combat-d30d2261-0544-4fb7-9f59-ba79e0521078/control.sqlite",
+              "sha256": "db4bcaec39f0203b9a22cb18a0829be79b8685bd8889e8084ddb0d5379418869",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0540/testdata/field-relay-normal-combat-d30d2261-0544-4fb7-9f59-ba79e0521078/recovery/inventory-v2-4a1006b6-9ecd-437b-984d-2a357fe40e6d.sqlite",
+              "sha256": "4ff304afb6367fe7f60b5409df213d6cf4fc1ae95889ed48cc4a7b531a7b3f8b",
+              "bytes": 3211264
+            },
+            "branch": "4fb63fac-f71a-432f-8dd0-ad9c4f722773",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 1673,
+            "experience": 13700,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "8b511883-bc8e-4c2b-a09f-acf50b88ad1b",
+              "commit_sequence": 2,
+              "effect_hash": "fac90ee65ac32d02b3c461bcc2dea8feeb856d1157949b6e12aa2b2e16dcb2d9",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0540/testdata/field-relay-normal-combat-d30d2261-0544-4fb7-9f59-ba79e0521078"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0540/test_results.json",
+              "sha256": "827ad685d26a341316db52d26f688e2fd07543a545bae6840a7cad058bb30cec",
+              "bytes": 478
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0540/command.log",
+              "sha256": "93c390e32b2e0b3577d4a7a5039f840a684ec29374ef29fb8e91672ca2de64bf",
+              "bytes": 945
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=540"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-RF-01",
+      "parent_task": "Q-F01",
+      "scene": "RF-S03",
+      "name": "竖井接近",
+      "kind": "method",
+      "reference_entry": "28级/4阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/Finale/FinaleService.Encounters.cs",
+        "sha256": "e1e479f8683eae12a5b6227db2702aa1727af7df2026ef594969bb2d26487ed5",
+        "bytes": 9685,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual shaft combat in Mixed normal finale; H/M/S bypasses do not count as this combat execution.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-RF-03",
+          "case_name": "Actual zero-XP finale Mixed keeps 28-level resources and closes Central once",
+          "case_index": 432,
+          "method": "actual_shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_combat",
+            "receipt": {
+              "semantic_key": "RF:ENC-RF-01:result",
+              "action_type": "finale_encounter_result",
+              "receipt_id": "41f76d50-b073-41df-bc2b-8337ca91202e",
+              "commit_sequence": 1971,
+              "effect_hash": "8500fca4c1a6fd996b072c2a41319e0f355d189b4db08ecbce058561a7d3e72c",
+              "result": {
+                "encounter": "ENC-RF-01",
+                "completed": true,
+                "instance": "a3bdeed2-7843-4bf5-b686-959fd3b0e85b",
+                "attempt": "904ced8a-426e-48d6-bbf3-cac67a121038",
+                "method": "actual_shared_combat",
+                "configuration": 0,
+                "command_chain_released": false,
+                "automatic_restart_disabled": false
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "RF:result:ENC-RF-01",
+              "kind": "finale_encounter_result",
+              "value": {
+                "encounter": "ENC-RF-01",
+                "completed": true,
+                "instance": "a3bdeed2-7843-4bf5-b686-959fd3b0e85b",
+                "attempt": "904ced8a-426e-48d6-bbf3-cac67a121038",
+                "method": "actual_shared_combat",
+                "configuration": 0,
+                "command_chain_released": false,
+                "automatic_restart_disabled": false
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 432,
+              "task": "CP-RF-03",
+              "name": "Actual zero-XP finale Mixed keeps 28-level resources and closes Central once"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0432/testdata/finale-normal-Mixed-6579194a-e796-48a4-bf73-66eecb038afa/control.sqlite",
+              "sha256": "99cb009a97fb379caeaf2ba83059842595f4c295fd94799f90c155e3d70741c2",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0432/testdata/finale-normal-Mixed-6579194a-e796-48a4-bf73-66eecb038afa/recovery/inventory-v2-86713408-c200-4cb6-9694-ff1944937234.sqlite",
+              "sha256": "a0a4072c18d45f9f900b637b5e55fdf7e80b06959317d15584f93ed86ec5bebb",
+              "bytes": 12865536
+            },
+            "branch": "1a5b9d13-b397-4056-b995-5b0529eecfc3",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 2199,
+            "experience": 19140,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "0ffadfde-049c-417e-aab0-5aa98108519b",
+              "commit_sequence": 2,
+              "effect_hash": "dc693d4adfa78c868e86b25b5c18ee4c46ee8fbe1ca2829f5809bcc99976e4bc",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0432/testdata/finale-normal-Mixed-6579194a-e796-48a4-bf73-66eecb038afa"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0432/test_results.json",
+              "sha256": "c9649408cec6475523724c563ac7a4fd6a5f1cbf44ad7e074a3f7dcddafd4419",
+              "bytes": 382
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0432/command.log",
+              "sha256": "3ed6a9c603cc36fd75930bdd2c412897bc91537952c93367f96a22a88e2eb491",
+              "bytes": 849
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=432"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-RF-02",
+      "parent_task": "Q-F02",
+      "scene": "RF-S04",
+      "name": "鲁克的指挥链",
+      "kind": "boss",
+      "reference_entry": "28级/4阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/Finale/FinaleService.Encounters.cs",
+        "sha256": "e1e479f8683eae12a5b6227db2702aa1727af7df2026ef594969bb2d26487ed5",
+        "bytes": 9685,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual Rook two-point command chain; both sides must be closed for the controlled result.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-RF-03",
+          "case_name": "Actual zero-XP finale H keeps 28-level resources and closes Central once",
+          "case_index": 429,
+          "method": "actual_shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_combat",
+            "receipt": {
+              "semantic_key": "RF:ENC-RF-02:result",
+              "action_type": "finale_encounter_result",
+              "receipt_id": "220f15be-3efe-41e8-b147-e426685784d6",
+              "commit_sequence": 2021,
+              "effect_hash": "330585adc54eb9a51d423e3160b5f2496b582cbb0a378092a6f1e9124f11610e",
+              "result": {
+                "encounter": "ENC-RF-02",
+                "completed": true,
+                "instance": "bf50623a-0320-47a2-90bd-55a6716118cb",
+                "attempt": "f365b24a-ac20-4595-b7b7-24410f27ade3",
+                "method": "actual_shared_combat",
+                "configuration": 0,
+                "command_chain_released": true,
+                "automatic_restart_disabled": false
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "RF:result:ENC-RF-02",
+              "kind": "finale_encounter_result",
+              "value": {
+                "encounter": "ENC-RF-02",
+                "completed": true,
+                "instance": "bf50623a-0320-47a2-90bd-55a6716118cb",
+                "attempt": "f365b24a-ac20-4595-b7b7-24410f27ade3",
+                "method": "actual_shared_combat",
+                "configuration": 0,
+                "command_chain_released": true,
+                "automatic_restart_disabled": false
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 429,
+              "task": "CP-RF-03",
+              "name": "Actual zero-XP finale H keeps 28-level resources and closes Central once"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d/control.sqlite",
+              "sha256": "e0077165b5f9a0dd1ea6d23a9ea4165e8643347e8f3ed51dde9d8a3f0ccfc3b1",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d/recovery/inventory-v2-c89ac4d5-a18d-4230-a350-e9cd0e6ab437.sqlite",
+              "sha256": "f06202db38a5c4e5222f0a40581c955f9f3d28253dba025563f255e1df97616e",
+              "bytes": 12689408
+            },
+            "branch": "67d33cec-f0c5-4ab2-8ba0-bc1ff87ead2a",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 2175,
+            "experience": 19140,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "64760faf-ee5a-4c14-9b9f-23e69553793c",
+              "commit_sequence": 2,
+              "effect_hash": "ce78008bab3f370460d61aed3ecc45484bbc4fb9ec76cd133b6764c575e1f917",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/test_results.json",
+              "sha256": "968ff2b5716614fa31633cf3dff29964be37931b28fae84df7e41bff6bd55e1b",
+              "bytes": 378
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/command.log",
+              "sha256": "529ed887f59d2bd556fdb71b55ce0c1a27c61b2a4198ba08357355f0b97903c8",
+              "bytes": 845
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=429"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-RF-03",
+      "parent_task": "Q-F03",
+      "scene": "RF-S05",
+      "name": "继电隔离组",
+      "kind": "ordinary",
+      "reference_entry": "28级/4阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/Finale/FinaleService.Encounters.cs",
+        "sha256": "e1e479f8683eae12a5b6227db2702aa1727af7df2026ef594969bb2d26487ed5",
+        "bytes": 9685,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual relay isolation group under current layer/source permission.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-RF-03",
+          "case_name": "Actual zero-XP finale H keeps 28-level resources and closes Central once",
+          "case_index": 429,
+          "method": "actual_shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_combat",
+            "receipt": {
+              "semantic_key": "RF:ENC-RF-03:result",
+              "action_type": "finale_encounter_result",
+              "receipt_id": "43a695fb-cb84-4d88-b886-6ef930cb5d0a",
+              "commit_sequence": 2058,
+              "effect_hash": "bf7654b1a158aa0167a9759ab75094a680382b21749db8342424f5b61466a528",
+              "result": {
+                "encounter": "ENC-RF-03",
+                "completed": true,
+                "instance": "b3a600fa-2fb6-4dbe-bb24-7325c7505f37",
+                "attempt": "4f85e34a-4412-4738-9435-e86c1b108c59",
+                "method": "actual_shared_combat",
+                "configuration": 0,
+                "command_chain_released": false,
+                "automatic_restart_disabled": false
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "RF:result:ENC-RF-03",
+              "kind": "finale_encounter_result",
+              "value": {
+                "encounter": "ENC-RF-03",
+                "completed": true,
+                "instance": "b3a600fa-2fb6-4dbe-bb24-7325c7505f37",
+                "attempt": "4f85e34a-4412-4738-9435-e86c1b108c59",
+                "method": "actual_shared_combat",
+                "configuration": 0,
+                "command_chain_released": false,
+                "automatic_restart_disabled": false
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 429,
+              "task": "CP-RF-03",
+              "name": "Actual zero-XP finale H keeps 28-level resources and closes Central once"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d/control.sqlite",
+              "sha256": "e0077165b5f9a0dd1ea6d23a9ea4165e8643347e8f3ed51dde9d8a3f0ccfc3b1",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d/recovery/inventory-v2-c89ac4d5-a18d-4230-a350-e9cd0e6ab437.sqlite",
+              "sha256": "f06202db38a5c4e5222f0a40581c955f9f3d28253dba025563f255e1df97616e",
+              "bytes": 12689408
+            },
+            "branch": "67d33cec-f0c5-4ab2-8ba0-bc1ff87ead2a",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 2175,
+            "experience": 19140,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "64760faf-ee5a-4c14-9b9f-23e69553793c",
+              "commit_sequence": 2,
+              "effect_hash": "ce78008bab3f370460d61aed3ecc45484bbc4fb9ec76cd133b6764c575e1f917",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/test_results.json",
+              "sha256": "968ff2b5716614fa31633cf3dff29964be37931b28fae84df7e41bff6bd55e1b",
+              "bytes": 378
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/command.log",
+              "sha256": "529ed887f59d2bd556fdb71b55ce0c1a27c61b2a4198ba08357355f0b97903c8",
+              "bytes": 845
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=429"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    },
+    {
+      "id": "ENC-RF-04",
+      "parent_task": "Q-F03",
+      "scene": "RF-S06",
+      "name": "镇潮机组",
+      "kind": "boss",
+      "reference_entry": "28级/4阶",
+      "optional": false,
+      "producer": {
+        "path": "src/Mist.Application/Finale/FinaleService.Encounters.cs",
+        "sha256": "e1e479f8683eae12a5b6227db2702aa1727af7df2026ef594969bb2d26487ed5",
+        "bytes": 9685,
+        "symbols": [
+          "BeginEncounterAsync",
+          "PreviewEncounterActionAsync"
+        ],
+        "contract": "Actual machine phases, current verified configuration/stop approval and stopped real relays; progress zero alone cannot produce result.",
+        "matches_suite_input": true
+      },
+      "methods": [
+        {
+          "task": "CP-RF-03",
+          "case_name": "Actual zero-XP finale H keeps 28-level resources and closes Central once",
+          "case_index": 429,
+          "method": "actual_shared_combat",
+          "evidence_class": "actual_normal_CSharp_completed_method",
+          "actual": {
+            "method": "actual_shared_combat",
+            "receipt": {
+              "semantic_key": "RF:ENC-RF-04:result",
+              "action_type": "finale_encounter_result",
+              "receipt_id": "1c38cc9c-f718-44b8-8903-678e93f562f8",
+              "commit_sequence": 2151,
+              "effect_hash": "6cd24f4ec6839112e02e2810f55502e2aba2499e766911f51a0acbe4fba94f44",
+              "result": {
+                "encounter": "ENC-RF-04",
+                "completed": true,
+                "instance": "683d795e-327f-415f-8445-6b9b7b3cf70c",
+                "attempt": "899b2533-6057-403a-a1bf-9a0fe298d81c",
+                "method": "actual_shared_combat",
+                "configuration": 6,
+                "command_chain_released": false,
+                "automatic_restart_disabled": true
+              }
+            },
+            "typed_current_entity": {
+              "entity_id": "RF:result:ENC-RF-04",
+              "kind": "finale_encounter_result",
+              "value": {
+                "encounter": "ENC-RF-04",
+                "completed": true,
+                "instance": "683d795e-327f-415f-8445-6b9b7b3cf70c",
+                "attempt": "899b2533-6057-403a-a1bf-9a0fe298d81c",
+                "method": "actual_shared_combat",
+                "configuration": 6,
+                "command_chain_released": false,
+                "automatic_restart_disabled": true
+              }
+            }
+          },
+          "profile": {
+            "case": {
+              "index": 429,
+              "task": "CP-RF-03",
+              "name": "Actual zero-XP finale H keeps 28-level resources and closes Central once"
+            },
+            "control": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d/control.sqlite",
+              "sha256": "e0077165b5f9a0dd1ea6d23a9ea4165e8643347e8f3ed51dde9d8a3f0ccfc3b1",
+              "bytes": 40960
+            },
+            "active_database": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d/recovery/inventory-v2-c89ac4d5-a18d-4230-a350-e9cd0e6ab437.sqlite",
+              "sha256": "f06202db38a5c4e5222f0a40581c955f9f3d28253dba025563f255e1df97616e",
+              "bytes": 12689408
+            },
+            "branch": "67d33cec-f0c5-4ab2-8ba0-bc1ff87ead2a",
+            "current_target_within_profile": true,
+            "integrity": "ok",
+            "normal_zero_XP_no_fixture": true,
+            "fixture_receipts": 0,
+            "all_history_receipt_count": 2175,
+            "experience": 19140,
+            "creation_receipt": {
+              "semantic_key": "campaign:new:first-entry-candidate-1",
+              "action_type": "normal_campaign_created",
+              "receipt_id": "64760faf-ee5a-4c14-9b9f-23e69553793c",
+              "commit_sequence": 2,
+              "effect_hash": "ce78008bab3f370460d61aed3ecc45484bbc4fb9ec76cd133b6764c575e1f917",
+              "result": {
+                "scope": "normal_first_entry_candidate",
+                "content_version": "first-entry-candidate-1",
+                "experience_awarded": 0,
+                "prologue_played": false
+              }
+            },
+            "profile_path": "reports/build/20261010T100947135499Z/case_runs/0429/testdata/finale-normal-H-751ab8f8-cc37-4756-a351-12da0969641d"
+          },
+          "child": {
+            "result": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/test_results.json",
+              "sha256": "968ff2b5716614fa31633cf3dff29964be37931b28fae84df7e41bff6bd55e1b",
+              "bytes": 378
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T100947135499Z/case_runs/0429/command.log",
+              "sha256": "529ed887f59d2bd556fdb71b55ce0c1a27c61b2a4198ba08357355f0b97903c8",
+              "bytes": 845
+            },
+            "actual_argv": [
+              "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+              "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+              "--case-index=429"
+            ],
+            "executed": 1,
+            "failed": 0
+          }
+        }
+      ],
+      "status": "actual_normal_method_verified_candidate"
+    }
+  ],
+  "human": {
+    "language_band_6_5": "pending",
+    "balance": "pending",
+    "readability": "pending",
+    "audio_audition_and_rights": "pending",
+    "full_human_play": "not_run",
+    "formal_release": "blocked"
+  }
+}

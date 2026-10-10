@@ -1,0 +1,113 @@
+{
+  "task_id": "CX-053",
+  "scope": "三条方法使用同一真实场景任务存档，验证乱序、退出、帮助和单次奖励。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "战斗/停机/潜入基本奖励一致",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-053",
+            "name": "Three full actual SQLite methods share the same reward and remain in port",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "正文可真实输入",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-053",
+            "name": "Three full actual SQLite methods share the same reward and remain in port",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "离港留港",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-053",
+            "name": "Three full actual SQLite methods share the same reward and remain in port",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "缺音轨只能内部标记",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-053",
+            "name": "Three full actual SQLite methods share the same reward and remain in port",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "不把G2冒充可发布6.5认证",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-053",
+            "name": "Three full actual SQLite methods share the same reward and remain in port",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-053",
+        "name": "Three full actual SQLite methods share the same reward and remain in port",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-038",
+    "CX-048",
+    "CX-051",
+    "CX-052"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

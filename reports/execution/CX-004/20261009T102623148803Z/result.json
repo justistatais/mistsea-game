@@ -1,0 +1,60 @@
+{
+  "task_id": "CX-004",
+  "project": "spikes/storage",
+  "scope": "actual Windows engine process with automated checks",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage\\StorageProbe.csproj",
+        "--no-restore",
+        "-c",
+        "Debug"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\storage",
+        "--",
+        "--storage-test"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-004/20261009T102623148803Z/runtime.log"
+    }
+  ],
+  "runtime_output": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\n\r\nMISTSEA_STORAGE_RESULTS {\"checks\":{\"injected_failure_rolls_back_both_tables\":true,\"two_tables_commit_together\":true,\"constraint_failure_rolls_back_first_table\":true,\"database_busy_has_explicit_state\":true,\"backup_contains_committed_two_table_state\":true,\"backup_integrity\":true},\"sqlite_version\":\"3.53.3\",\"framework\":\".NET 10.0.12\",\"architecture\":\"X64\",\"native_path\":\"C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\spikes\\\\storage\\\\.godot\\\\mono\\\\temp\\\\bin\\\\Debug\\\\runtimes/win-x64/native/e_sqlite3.dll\",\"native_sha256\":\"b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e\",\"database\":\"C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\reports\\\\execution\\\\CX-004\\\\20261009T102623148803Z\\\\sqlite\\\\two_tables.sqlite\",\"backup\":\"C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\reports\\\\execution\\\\CX-004\\\\20261009T102623148803Z\\\\sqlite\\\\consistent_backup.sqlite\",\"busy_status\":\"database_busy\",\"busy_elapsed_ms\":5057,\"busy_test_timeout_seconds\":1,\"normal_busy_timeout_ms\":5000}\r\n"
+}

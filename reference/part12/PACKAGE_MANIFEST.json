@@ -1,0 +1,146 @@
+{
+  "version": "0.1",
+  "warning": "Hashes are integrity inventory, not publisher authentication or compatibility certification.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1730,
+      "sha256": "cb0566759237c87a703dc86cecbe1b9a76ca1b9cb131cc80ee8a6d35a85a7f1a"
+    },
+    {
+      "path": "Technical_Architecture_v0.1.md",
+      "bytes": 52384,
+      "sha256": "93b80938c2bf37313d96c1f6eaee2f54bcfb9d5344d78f572619d6754168f8c2"
+    },
+    {
+      "path": "Technical_Validation_v0.1.md",
+      "bytes": 3921,
+      "sha256": "0949f9d61ac698b67c45d22ad0d8a457c5a047bc4e92c5ef3c3ca0205cb65b10"
+    },
+    {
+      "path": "csharp/Contracts.cs",
+      "bytes": 3920,
+      "sha256": "0fe1423f61dd66f44e9fbb56078dcca81676538b2dd46c94229dbff4aad486e5"
+    },
+    {
+      "path": "csharp/Mist.Contracts.csproj",
+      "bytes": 297,
+      "sha256": "130166e6d0776367866804aace706396f6ac6db96f2973375e02b2ca5b869cff"
+    },
+    {
+      "path": "csharp/global.json",
+      "bytes": 79,
+      "sha256": "289e45aafd6eb59adcc4b7dda4d6fe5f1924065345aa8ab75be4a0c2b9cb00db"
+    },
+    {
+      "path": "data/acceptance_cases.json",
+      "bytes": 11474,
+      "sha256": "5cc54e5ed85db9a4d4f2e93e7f4557c32a8641c1c29679be69002df36020f33e"
+    },
+    {
+      "path": "data/adapter_inventory.json",
+      "bytes": 5015,
+      "sha256": "7e124d0f851678bf09fd28d24e456b2559ec2c9d48dd1777142a5143bdd6b187"
+    },
+    {
+      "path": "data/architecture_reference.json",
+      "bytes": 3326,
+      "sha256": "0c0841fc10327cee812322d4eeb7a35cf320b7a9b0e4194b86b12d1e3cb07357"
+    },
+    {
+      "path": "data/sources.json",
+      "bytes": 1419,
+      "sha256": "805cc5b247288a941e97d4c44537f77e657bc494c270cbd1a1ccdf494ae891a8"
+    },
+    {
+      "path": "data/toolchain_selection.json",
+      "bytes": 1129,
+      "sha256": "81e6e9b054cf9780d5df1b84593ab2ad9e10cc49b763bcb303e5a84933d7e361"
+    },
+    {
+      "path": "data/upstream_manifest.json",
+      "bytes": 1862,
+      "sha256": "dc8e5dbfdcc9b08efe6f38b7302a71d3a8797cb817018e712a00e7ef9cab8af8"
+    },
+    {
+      "path": "data/upstream_quest_ids.json",
+      "bytes": 2274,
+      "sha256": "cd3e9ccd1575703eca00a088b13e4fe15c627eb55bc2fb63cde48c8d9155eb32"
+    },
+    {
+      "path": "docs/Codex_Handoff_Part12_v0.1.md",
+      "bytes": 5738,
+      "sha256": "b63ce14d8bab374e6ac670ac578894cadb776258006b1ae8d912167c01afe5de"
+    },
+    {
+      "path": "docs/Sources.md",
+      "bytes": 1518,
+      "sha256": "876ffb27eede297d57c9869b89a597d3609e7ee4a7938dc3b593ecf81075044c"
+    },
+    {
+      "path": "examples/depart_command.json",
+      "bytes": 498,
+      "sha256": "344b62764c0439b8c38103cdfc91ca3fa96d754d70ebff817e4334e5b1c9e093"
+    },
+    {
+      "path": "reference/content_reference.py",
+      "bytes": 3738,
+      "sha256": "5fe776b9f0f92d2f32d4a3619890508cec75fbfde718ca36e5f71820bb1d52b0"
+    },
+    {
+      "path": "reference/run_checks.py",
+      "bytes": 1953,
+      "sha256": "8648b8ee85535c25d4361caf1bf4c9e1e48c7b4c656203644cd988d442c10b96"
+    },
+    {
+      "path": "reference/storage_reference.py",
+      "bytes": 20123,
+      "sha256": "0970e7fb77ed23106d247b625396f57e2e0d7960f47b60be4f176b89115db8a0"
+    },
+    {
+      "path": "reference/test_reference.py",
+      "bytes": 19323,
+      "sha256": "2b9640ceb1cd70bd13d6ef1c1013d04de44240a948b4d1bdc8b8c1e3cc55fb62"
+    },
+    {
+      "path": "schemas/checkpoint.schema.json",
+      "bytes": 4895,
+      "sha256": "d7cf7f73c9c488800cccb3de1798fdb1b1d7637753a1be3d42ce2ddfe4921b4a"
+    },
+    {
+      "path": "schemas/command.schema.json",
+      "bytes": 2352,
+      "sha256": "84a7bcff36d02dbbc98df95e599b3edeb33b0dbb9e504caccd996e9f6b1ac1b7"
+    },
+    {
+      "path": "schemas/content_release.schema.json",
+      "bytes": 1717,
+      "sha256": "1e43ea74e7b5c01f7599484b6d47ec8c8bf8fa05ee5b20adb87c239a6891d3ef"
+    },
+    {
+      "path": "sql/001_privacy_control.sql",
+      "bytes": 572,
+      "sha256": "a2bbc6ae0d82e5a029f1941b78b7393fd723089027bc53f4be2fd19145373181"
+    },
+    {
+      "path": "sql/001_profile.sql",
+      "bytes": 4253,
+      "sha256": "3088061ab3153445534510de4b52667632f017d5377ed92b3a1a7cf13f77ef0c"
+    },
+    {
+      "path": "validation/independent_extract.json",
+      "bytes": 282,
+      "sha256": "74e320c71d602e6e9cc89d63aa2afc937a8c36bbdc35b407f88f12591025ce0c"
+    },
+    {
+      "path": "validation/run.log",
+      "bytes": 6199,
+      "sha256": "c86824ddde891edee0e0118a983904e47e9a37105f4c7cf591c81c56cf10ff7f"
+    },
+    {
+      "path": "validation/validation_report.json",
+      "bytes": 6957,
+      "sha256": "9e6250311768b4281e056208f01f7a45ef66d2480738944a4ff551dd94fee649"
+    }
+  ]
+}

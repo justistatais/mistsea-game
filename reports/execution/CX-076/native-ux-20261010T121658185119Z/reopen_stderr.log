@@ -1,0 +1,2 @@
+WARNING: 'res://Main.tscn': In external resource #0, invalid UID: 'uid://bnj8cat1cbdbx' - using text path instead: 'res://Root.cs'.
+   at: open (core/io/resource_format_binary.cpp:1028)

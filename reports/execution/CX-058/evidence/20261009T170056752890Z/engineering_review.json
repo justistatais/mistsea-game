@@ -1,0 +1,119 @@
+{
+  "task_id": "CX-058",
+  "scope": "根据实际授权与资源合作，不设声望门槛；地区操作方与代表方分别确认。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "五组织不是六塔",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-058",
+            "name": "Five scopes depend on actual receipts/capacity, not policy stance or gifts",
+            "result": "passed"
+          },
+          {
+            "task": "CX-058",
+            "name": "Six regions require distinct operator/representative appointments and cannot copy one signature",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "一签名不能复制六份",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-058",
+            "name": "Five scopes depend on actual receipts/capacity, not policy stance or gifts",
+            "result": "passed"
+          },
+          {
+            "task": "CX-058",
+            "name": "Six regions require distinct operator/representative appointments and cannot copy one signature",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "政策分歧不成为隐藏失约",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-058",
+            "name": "Five scopes depend on actual receipts/capacity, not policy stance or gifts",
+            "result": "passed"
+          },
+          {
+            "task": "CX-058",
+            "name": "Six regions require distinct operator/representative appointments and cannot copy one signature",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "同伴任务不新增终局门槛",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-058",
+            "name": "Five scopes depend on actual receipts/capacity, not policy stance or gifts",
+            "result": "passed"
+          },
+          {
+            "task": "CX-058",
+            "name": "Six regions require distinct operator/representative appointments and cannot copy one signature",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-058",
+        "name": "Five scopes depend on actual receipts/capacity, not policy stance or gifts",
+        "result": "passed"
+      },
+      {
+        "task": "CX-058",
+        "name": "Six regions require distinct operator/representative appointments and cannot copy one signature",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-057"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

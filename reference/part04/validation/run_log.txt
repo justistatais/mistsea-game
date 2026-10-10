@@ -1,0 +1,76 @@
+test_abstract_model_has_completion_path (__main__.ExhaustiveTests.test_abstract_model_has_completion_path) ... ok
+test_all_methods_can_complete (__main__.FerryTests.test_all_methods_can_complete) ... ok
+test_arbitrary_json_cannot_be_world_command (__main__.FerryTests.test_arbitrary_json_cannot_be_world_command) ... ok
+test_both_install_orders (__main__.FerryTests.test_both_install_orders) ... ok
+test_changed_rules_reject_old_token (__main__.FerryTests.test_changed_rules_reject_old_token) ... ok
+test_changing_text_revision_invalidates_intent_confirmation (__main__.FerryTests.test_changing_text_revision_invalidates_intent_confirmation) ... ok
+test_commit_moves_player_and_items_stay_on_ship (__main__.FerryTests.test_commit_moves_player_and_items_stay_on_ship) ... ok
+test_disconnect_invalidates_certificate (__main__.FerryTests.test_disconnect_invalidates_certificate) ... ok
+test_duplicate_take_no_item_copy (__main__.FerryTests.test_duplicate_take_no_item_copy) ... ok
+test_earlier_snapshot_can_settle_in_its_own_world (__main__.FerryTests.test_earlier_snapshot_can_settle_in_its_own_world) ... ok
+test_early_plan_does_not_block_repair (__main__.FerryTests.test_early_plan_does_not_block_repair) ... ok
+test_feedback_cannot_send_ship (__main__.FerryTests.test_feedback_cannot_send_ship) ... ok
+test_generator_start_not_admissible (__main__.FerryTests.test_generator_start_not_admissible) ... ok
+test_later_snapshot_keeps_reward_receipt (__main__.FerryTests.test_later_snapshot_keeps_reward_receipt) ... ok
+test_move_away_from_submit_spot_rejects_commit (__main__.FerryTests.test_move_away_from_submit_spot_rejects_commit) ... ok
+test_no_respawn_disabled_encounter (__main__.FerryTests.test_no_respawn_disabled_encounter) ... ok
+test_no_test_without_configuration (__main__.FerryTests.test_no_test_without_configuration) ... ok
+test_online_help_combinations_do_not_gate (__main__.FerryTests.test_online_help_combinations_do_not_gate) ... ok
+test_preview_does_not_mutate_world (__main__.FerryTests.test_preview_does_not_mutate_world) ... ok
+test_ready_does_not_auto_depart (__main__.FerryTests.test_ready_does_not_auto_depart) ... ok
+test_reload_invalidates_uncommitted_ui_token (__main__.FerryTests.test_reload_invalidates_uncommitted_ui_token) ... ok
+test_restore_same_configuration_still_requires_new_test (__main__.FerryTests.test_restore_same_configuration_still_requires_new_test) ... ok
+test_revoked_permission_rejects_commit (__main__.FerryTests.test_revoked_permission_rejects_commit) ... ok
+test_route_a_cannot_be_confirmed (__main__.FerryTests.test_route_a_cannot_be_confirmed) ... ok
+test_route_b_not_fixed_by_pump_wording (__main__.FerryTests.test_route_b_not_fixed_by_pump_wording) ... ok
+test_same_command_id_different_payload_rejected (__main__.FerryTests.test_same_command_id_different_payload_rejected) ... ok
+test_same_command_idempotent (__main__.FerryTests.test_same_command_idempotent) ... ok
+test_second_command_cannot_grant_again (__main__.FerryTests.test_second_command_cannot_grant_again) ... ok
+test_simulated_failure_before_publish_changes_nothing (__main__.FerryTests.test_simulated_failure_before_publish_changes_nothing) ... ok
+test_stale_equipment_preview_rejected_even_after_retest (__main__.FerryTests.test_stale_equipment_preview_rejected_even_after_retest) ... ok
+test_stale_proposal_preview_rejected (__main__.FerryTests.test_stale_proposal_preview_rejected) ... ok
+test_take_before_accept_is_retained (__main__.FerryTests.test_take_before_accept_is_retained) ... ok
+test_unrelated_learning_feedback_does_not_invalidate_preview (__main__.FerryTests.test_unrelated_learning_feedback_does_not_invalidate_preview) ... ok
+test_conflicting_actor_cannot_be_in_two_scenes (__main__.LeaseTests.test_conflicting_actor_cannot_be_in_two_scenes) ... ok
+test_conflicting_request_leaves_no_partial_lock (__main__.LeaseTests.test_conflicting_request_leaves_no_partial_lock) ... ok
+test_release_allows_deferred_event (__main__.LeaseTests.test_release_allows_deferred_event) ... ok
+test_same_event_reacquire_is_idempotent (__main__.LeaseTests.test_same_event_reacquire_is_idempotent) ... ok
+test_same_scene_one_foreground (__main__.LeaseTests.test_same_scene_one_foreground) ... ok
+test_writing_blocks_new_foreground_event (__main__.LeaseTests.test_writing_blocks_new_foreground_event) ... ok
+test_32_unique_quests (__main__.RegistryTests.test_32_unique_quests) ... ok
+test_all_scene_references_exist (__main__.RegistryTests.test_all_scene_references_exist) ... ok
+test_dependency_graph_acyclic (__main__.RegistryTests.test_dependency_graph_acyclic) ... ok
+test_frontier_no_circular_aggregate (__main__.RegistryTests.test_frontier_no_circular_aggregate) ... ok
+test_learning_fields_not_in_ready_guard (__main__.RegistryTests.test_learning_fields_not_in_ready_guard) ... ok
+test_material_sources_match_existing_spots (__main__.RegistryTests.test_material_sources_match_existing_spots) ... ok
+test_story_ids_match (__main__.RegistryTests.test_story_ids_match) ... ok
+test_terminal_receipt_not_own_guard (__main__.RegistryTests.test_terminal_receipt_not_own_guard) ... ok
+test_trial_does_not_require_final_joint_agreement (__main__.RegistryTests.test_trial_does_not_require_final_joint_agreement) ... ok
+test_unique_events_and_material_ids (__main__.RegistryTests.test_unique_events_and_material_ids) ... ok
+
+----------------------------------------------------------------------
+Ran 49 tests in 0.010s
+
+OK
+{
+  "unit_tests_run": 49,
+  "failures": 0,
+  "errors": 0,
+  "all_passed": true,
+  "abstract_model": {
+    "reachable_states": 228,
+    "transitions": 1324,
+    "terminal_states": 4,
+    "states_without_completion_path": 0
+  },
+  "registry": {
+    "main_containers": 32,
+    "event_templates": 8,
+    "scene_registry": 78
+  },
+  "limitations": [
+    "无引擎、UI、实际磁盘原子性、网络、完整战斗、语言理解或学习效果验证",
+    "穷举仅覆盖Q-102任务层的有限抽象；不覆盖实际空间、全部世界资源及其他31个任务内部逻辑",
+    "事件测试仅验证资源排他与保护输入，不等于完整事件选择、抢占、NPC调度均已实现"
+  ]
+}

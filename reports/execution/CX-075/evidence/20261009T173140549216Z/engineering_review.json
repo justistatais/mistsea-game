@@ -1,0 +1,96 @@
+{
+  "task_id": "CX-075",
+  "scope": "在标明硬件和构建版本下测试长文、78场景按需加载、分支库增长和多稿切换。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "不把容器脚本耗时当游戏FPS",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-075",
+            "name": "Performance distributions require full metadata and never turn scripts or offline fixture durations into native FPS",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    },
+    {
+      "criterion": "长会话不漏NPC占用",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-075",
+            "name": "Performance distributions require full metadata and never turn scripts or offline fixture durations into native FPS",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    },
+    {
+      "criterion": "主线程不卡持久写",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-075",
+            "name": "Performance distributions require full metadata and never turn scripts or offline fixture durations into native FPS",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    },
+    {
+      "criterion": "不为性能删除合法草稿",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-075",
+            "name": "Performance distributions require full metadata and never turn scripts or offline fixture durations into native FPS",
+            "result": "passed"
+          }
+        ],
+        "package": null,
+        "remaining": "Actual later producers, native player experience and required human/versioned approvals are not inferred from engineering fixtures."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-075",
+        "name": "Performance distributions require full metadata and never turn scripts or offline fixture durations into native FPS",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 287,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-064",
+    "CX-074",
+    "G5"
+  ],
+  "not_run": [
+    "actual later chapters and personal story producers",
+    "full native player route",
+    "real input-method and screen-reader acceptance",
+    "editorial, critical audio and target-band review",
+    "rights review and publisher signature",
+    "different clean Windows machine qualification"
+  ]
+}

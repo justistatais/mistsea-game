@@ -1,0 +1,260 @@
+{
+  "version": "OPTIONAL-ENCOUNTERS-20261010-v1",
+  "player_projection": false,
+  "cards": [
+    {
+      "encounter": "ENC-R1-O01",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:527",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "gate_counterweight_cage",
+        "operation": "inspect_gate_counterweight_cage_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R1-O02",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:528",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "emergency_bell_shutter",
+        "operation": "inspect_emergency_bell_shutter_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R2-O01",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:529",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "seed_trolley_parking_brake",
+        "operation": "inspect_seed_trolley_parking_brake_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R2-O02",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:530",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "dry_gauge_rack_latch",
+        "operation": "inspect_dry_gauge_rack_latch_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R3-O01",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:531",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "observation_cradle_clamp",
+        "operation": "inspect_observation_cradle_clamp_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R3-O02",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:532",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "survey_lamp_swivel",
+        "operation": "inspect_survey_lamp_swivel_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R4-O01",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:533",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "blank_test_shutter",
+        "operation": "inspect_blank_test_shutter_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R4-O02",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:534",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "disconnected_return_coupler",
+        "operation": "inspect_disconnected_return_coupler_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R5-O01",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:535",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "tunnel_sign_carrier",
+        "operation": "inspect_tunnel_sign_carrier_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R5-O02",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:536",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "drain_cover_lifting_frame",
+        "operation": "inspect_drain_cover_lifting_frame_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R6-O01",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:537",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "empty_sled_runner_clamp",
+        "operation": "inspect_empty_sled_runner_clamp_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    },
+    {
+      "encounter": "ENC-R6-O02",
+      "baseline_slot": "docs/baseline/Combat_System_v0.1.md:538",
+      "authorship": "new_original_local_detail_candidate",
+      "review": "human_pending",
+      "answers_author_only": {
+        "target": "spare_storm_screen_frame",
+        "operation": "inspect_spare_storm_screen_frame_zero_motion",
+        "completion": "actual_current_permit + current complete shared combat + onsite exact target inspection",
+        "no_main_reward": true
+      },
+      "qa": [
+        "current stand and discovered current-version source",
+        "explicit acceptance and revocation",
+        "readonly preview/cancel",
+        "all enemies controlled before inspection",
+        "one result + replay + load CAS",
+        "full entry/supply withdrawal",
+        "original mainline gates and reward balances unchanged"
+      ]
+    }
+  ],
+  "human_review": "pending",
+  "audio": "not_produced_reading_contracts"
+}

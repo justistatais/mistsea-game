@@ -1,0 +1,21 @@
+diff --git a/game/Diagnostics/Root.ChapterTwoClientTests.cs b/game/Diagnostics/Root.ChapterTwoClientTests.cs
+--- a/game/Diagnostics/Root.ChapterTwoClientTests.cs
++++ b/game/Diagnostics/Root.ChapterTwoClientTests.cs
+@@ -23,7 +23,16 @@ public partial class Root
+         async Task Walk(Point2 point){CloseAllPanels();var view=await _chapterTwo!.ViewAsync();var path=new NavigationGrid(view.Geometry[view.Actor.Scene]).FindPath(view.Actor.Position,point,true);if(path.Length==0)throw new InvalidOperationException("Actual safe R2 UI route absent.");await _chapterTwo.TraverseAsync(path);await Refresh();}
+         async Task Spot(string id){var view=await _chapterTwo!.ViewAsync();await Walk(view.Geometry[view.Actor.Scene].Spots.Single(s=>s.Id==id).Stand);_selected=id;InteractSelected();await Settle();}
+         async Task Exit(string scene){var view=await _chapterTwo!.ViewAsync();var port=view.Geometry[view.Actor.Scene].Ports.Single(p=>p.TargetScene==scene);await Walk(port.Stand);_selected=port.Id;InteractSelected();await Settle();if(_view.Actor.Scene!=scene)throw new InvalidOperationException("Actual R2 UI port failed: "+scene+"; "+_status.Text);}
+-        async Task Material(string id){var material=_chapterTwo!.Package.Materials.Single(m=>m.Id==id);await Spot(material.Spot);var button=Nodes(_panels.Peek()).OfType<Button>().Single(b=>b.Text.EndsWith(material.Title,StringComparison.Ordinal));button.EmitSignal(BaseButton.SignalName.Pressed);await Settle();if(!Nodes(_panels.Peek()).OfType<TextEdit>().Any(t=>!t.Editable&&t.Text==material.English))throw new InvalidOperationException("Acquired learner original not displayed: "+id);if(material.Kind=="listening_script")Check("script_"+id+"_does_not_claim_audio",_activeAudioId is null);CloseAllPanels();}
++        async Task Material(string id)
++        {
++            var material=_chapterTwo!.Package.Materials.Single(m=>m.Id==id);await Spot(material.Spot);
++            if(material.Spot=="R2-S03.address")
++            {
++                long before=(await _store.SnapshotAsync()).Sequence;await Click("查看此处公共房间说明");
++                Check("public_room_wrapper_"+id+"_is_readonly",(await _store.SnapshotAsync()).Sequence==before&&_routing.Top=="第二章现场 · "+material.Spot);
++            }
++            var button=Nodes(_panels.Peek()).OfType<Button>().Single(b=>b.Text.EndsWith(material.Title,StringComparison.Ordinal));button.EmitSignal(BaseButton.SignalName.Pressed);await Settle();if(!Nodes(_panels.Peek()).OfType<TextEdit>().Any(t=>!t.Editable&&t.Text==material.English))throw new InvalidOperationException("Acquired learner original not displayed: "+id);if(material.Kind=="listening_script")Check("script_"+id+"_does_not_claim_audio",_activeAudioId is null);CloseAllPanels();
++        }
+         async Task Act(string action){var station=_chapterTwo!.Package.Stations.Single(s=>s.Action==action);await Spot(station.Spot);await Click(station.Label);CloseAllPanels();}
+         async Task Meaning(string quest,int[] indices)
+         {

@@ -1,0 +1,31 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-OPTIONAL-MUSICBOX",
+      "name": "Normal zero-XP prior chain, owner-approved actual same-box repair and private note settle once without main or six-tower consequences",
+      "result": "passed"
+    },
+    {
+      "task": "CP-OPTIONAL-MUSICBOX",
+      "name": "Wrong stand, fourteen-tooth part, missing owner approval/isolation/test and different actual box are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CP-OPTIONAL-MUSICBOX",
+      "name": "Withdrawing permission after fitting hides private original, preserves installed history and allows unrewarded safe same-box return",
+      "result": "passed"
+    },
+    {
+      "task": "CP-OPTIONAL-MUSICBOX",
+      "name": "Private memory claim and saved prose alone cannot settle; preview is read-only, closes, binds real draft CAS and rejects Continue generation",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

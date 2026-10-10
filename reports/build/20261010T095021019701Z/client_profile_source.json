@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T085230712857Z",
+  "selected_case": {
+    "index": 573,
+    "task": "CP-R5-LIFE-05",
+    "name": "Actual normal prior chapters and registered R5 landing export a native local-life entry with no local object, permission or completion seed"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "705c00bea5423fd694ddd1a238fc2d7c0795e4be4e63c5b35f574ac4dc129ccb",
+  "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/recovery/inventory-v2-4a8756f4-f865-41f4-82b4-20c875151961.sqlite",
+  "source_active_database_sha256": "e36b8b2a0569e1abb27069a1c38e9c6fa524cdf6dafc18fa8cd1d3678e1bdc33",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T085230712857Z",
+  "source": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/normal-r5-local-life-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 573,
+    "task": "CP-R5-LIFE-05",
+    "name": "Actual normal prior chapters and registered R5 landing export a native local-life entry with no local object, permission or completion seed"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "7bd84c67448cd71a0640df88c7387488ecf92891da8da6f4d1d488c19a25b437",
+  "compiled_artifacts_sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e",
+  "case_results_sha256": "d6b890e6f06d4b78ca4e55718aa4b664a3682f35a3e2ad913c53798a7f912c4a",
+  "case_command_sha256": "a7658e6ea377f366753e01359d28b8a08d1d4455036b022cc39471e69186e6f2",
+  "proof_sha256": "705c00bea5423fd694ddd1a238fc2d7c0795e4be4e63c5b35f574ac4dc129ccb",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "7e4fd41f4e02cc53de3f69241343fa3a1709a7c999eda1a5b0c11abd6a3bfad1"
+    },
+    {
+      "path": "normal-r5-local-life-native-entry.json",
+      "sha256": "705c00bea5423fd694ddd1a238fc2d7c0795e4be4e63c5b35f574ac4dc129ccb"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "3d9f75e123559ba87dd1156439edf6a130b4f8153acdbab6f3c0441ab61e1b95"
+    },
+    {
+      "path": "recovery/inventory-v2-4a8756f4-f865-41f4-82b4-20c875151961.sqlite",
+      "sha256": "e36b8b2a0569e1abb27069a1c38e9c6fa524cdf6dafc18fa8cd1d3678e1bdc33"
+    },
+    {
+      "path": "recovery/normal-r2-main.json",
+      "sha256": "c5c148b9c5a19d7c0f12c378ab7163d43c702f043e31e8c93356aa941474f2d1"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/control.sqlite",
+      "sha256": "7e4fd41f4e02cc53de3f69241343fa3a1709a7c999eda1a5b0c11abd6a3bfad1",
+      "copied_before_native_sha256": "7e4fd41f4e02cc53de3f69241343fa3a1709a7c999eda1a5b0c11abd6a3bfad1"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/normal-r5-local-life-native-entry.json",
+      "sha256": "705c00bea5423fd694ddd1a238fc2d7c0795e4be4e63c5b35f574ac4dc129ccb",
+      "copied_before_native_sha256": "705c00bea5423fd694ddd1a238fc2d7c0795e4be4e63c5b35f574ac4dc129ccb"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/profile.sqlite",
+      "sha256": "3d9f75e123559ba87dd1156439edf6a130b4f8153acdbab6f3c0441ab61e1b95",
+      "copied_before_native_sha256": "3d9f75e123559ba87dd1156439edf6a130b4f8153acdbab6f3c0441ab61e1b95"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/recovery/inventory-v2-4a8756f4-f865-41f4-82b4-20c875151961.sqlite",
+      "sha256": "e36b8b2a0569e1abb27069a1c38e9c6fa524cdf6dafc18fa8cd1d3678e1bdc33",
+      "copied_before_native_sha256": "e36b8b2a0569e1abb27069a1c38e9c6fa524cdf6dafc18fa8cd1d3678e1bdc33"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/recovery/normal-r2-main.json",
+      "sha256": "c5c148b9c5a19d7c0f12c378ab7163d43c702f043e31e8c93356aa941474f2d1",
+      "copied_before_native_sha256": "c5c148b9c5a19d7c0f12c378ab7163d43c702f043e31e8c93356aa941474f2d1"
+    }
+  ]
+}

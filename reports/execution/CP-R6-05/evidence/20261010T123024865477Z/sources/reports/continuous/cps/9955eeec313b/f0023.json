@@ -1,0 +1,207 @@
+{
+  "version": "r6-author-candidate-1",
+  "baseline_immutable": true,
+  "original_scope": "WorldStory6.7/Explore9.7/QuestQ601604/Engineering11/PZQ603LOAD/NPC10.4",
+  "original_candidate_details": [
+    "local measurement Z0/R10 and marked leeward route",
+    "bounded facility serials, local crews and separately qualified watch posts",
+    "actual source worksite contract versions",
+    "local enhanced field-test load stages"
+  ],
+  "human_review": "human_pending",
+  "audio_recording": "not_produced_by_this_author",
+  "materials": [
+    {
+      "id": "R6-Q601-R-LANDING",
+      "source_root": "r6-q601-r-landing-original",
+      "sha256": "df62d6744a0ae806a5c59754deae99e4c767ff7e06496ee1d7c218aed5fbe681",
+      "english_words": 69
+    },
+    {
+      "id": "R6-Q601-R-BRIEFING",
+      "source_root": "r6-q601-r-briefing-original",
+      "sha256": "63aacc5f64ac2957a097f9110515967f589bd65fe621cf98117b36760d4fbc62",
+      "english_words": 68
+    },
+    {
+      "id": "R6-Q601-R-FORECAST",
+      "source_root": "r6-q601-r-forecast-original",
+      "sha256": "342b08cdace1f4d225971ac842f6b21c6628253664271739d2a1ede780f0ac64",
+      "english_words": 78
+    },
+    {
+      "id": "R6-Q601-R-INSTRUMENT",
+      "source_root": "r6-q601-r-instrument-original",
+      "sha256": "6246f1b4fb2d2dcc7a4e00cdd0f8c404e8de3f0df777ff8bb24207f937cc01c2",
+      "english_words": 90
+    },
+    {
+      "id": "R6-Q601-R-RETURN",
+      "source_root": "r6-q601-r-return-original",
+      "sha256": "ba2733548e346877fba2b3ebb026ab51c0ba8e978705e6d2a09cd9b9894f2d8f",
+      "english_words": 64
+    },
+    {
+      "id": "R6-Q602-R-WORKLIST",
+      "source_root": "r6-q602-r-worklist-original",
+      "sha256": "1d53f5738a76dfa78a8bf5817bbbfe8475801cee96ca3bb62f375c54b05a4fce",
+      "english_words": 95
+    },
+    {
+      "id": "R6-Q602-R-CONTRACTS",
+      "source_root": "r6-q602-r-contracts-original",
+      "sha256": "6838c68a329881a89989fc976be9a110df6d8f3cfa8662642cf7dce0462126e1",
+      "english_words": 86
+    },
+    {
+      "id": "R6-Q602-R-STEPS",
+      "source_root": "r6-q602-r-steps-original",
+      "sha256": "1dfa5ce10d2ca10693bded7252b880a6ae312047d395c7e4f0acedbc5b727416",
+      "english_words": 71
+    },
+    {
+      "id": "R6-Q602-R-TECHNICAL",
+      "source_root": "r6-q602-r-technical-original",
+      "sha256": "749084ebb1aa34ef118f0bc3100304d08b7e693504becfb3b97d7ceba4cb0695",
+      "english_words": 82
+    },
+    {
+      "id": "R6-Q602-R-PROTOCOL",
+      "source_root": "r6-q602-r-protocol-original",
+      "sha256": "7b4ceb259f1abef3e916154773626552cd7e61987290745252f432e206fec53a",
+      "english_words": 76
+    },
+    {
+      "id": "R6-Q602-R-OVERVIEW",
+      "source_root": "r6-q602-r-overview-original",
+      "sha256": "7e0a5262e2dd3fd4ef0da88e9b67a47b896e5bc86b573092d3e7221f557a4698",
+      "english_words": 80
+    },
+    {
+      "id": "R6-Q603-R-MANIFEST",
+      "source_root": "r6-q603-r-manifest-original",
+      "sha256": "828d9f513d19ce363caaa29713de3e0328c7dd429f1af0a5fe64bfc7e3a46ac4",
+      "english_words": 73
+    },
+    {
+      "id": "R6-Q603-R-SEGMENTS",
+      "source_root": "r6-q603-r-segments-original",
+      "sha256": "ce1dec9e6686a37316cac22399430aaf5306f6699b919a398e99b6783f89562e",
+      "english_words": 80
+    },
+    {
+      "id": "R6-Q603-R-PLATFORM",
+      "source_root": "r6-q603-r-platform-original",
+      "sha256": "c7c0e169df4b0552adb8d908c561381354b6b9dc0885196de573b172dacf7676",
+      "english_words": 79
+    },
+    {
+      "id": "R6-Q603-R-LOCAL",
+      "source_root": "r6-q603-r-local-original",
+      "sha256": "61857c47caf7736ad5dd1e5237097e8fe12540eaa1c8f8e040b89487ee710483",
+      "english_words": 70
+    },
+    {
+      "id": "R6-Q603-R-LOAD",
+      "source_root": "r6-q603-r-load-original",
+      "sha256": "267b64faf76ba3989c52d7f6dc620279a321578adf23c4eb45c1bcdd50087ef8",
+      "english_words": 70
+    },
+    {
+      "id": "R6-Q604-R-QUALIFICATION",
+      "source_root": "r6-q604-r-qualification-original",
+      "sha256": "40d0f2a4f2f0dc41e704cfa5979d188eafa3a02cbef137d3461304dd16a38818",
+      "english_words": 80
+    },
+    {
+      "id": "R6-Q604-R-COMMITMENTS",
+      "source_root": "r6-q604-r-commitments-original",
+      "sha256": "1b1f55b80f199ebf42e3e03df8875bf854d1f4a1014fd7aff80ac91517fd2f53",
+      "english_words": 66
+    },
+    {
+      "id": "R6-Q604-R-DEPARTURE",
+      "source_root": "r6-q604-r-departure-original",
+      "sha256": "d2dfeb5bc599117205063b9b076551ceef685fae9035582121e7de0fa404dee3",
+      "english_words": 80
+    },
+    {
+      "id": "R6-CQTESS01-R-CONTACTS",
+      "source_root": "r6-cqtess01-r-contacts-original",
+      "sha256": "55b4a7b9443366a4862856bddbf427c2d2edde70518fe3933ece93f437ad5a54",
+      "english_words": 72
+    },
+    {
+      "id": "R6-CQTESS02-R-TRIPS",
+      "source_root": "r6-cqtess02-r-trips-original",
+      "sha256": "6a9a7ec30a56c92d7483470c5153d5014bc63e40eaf9e79f973fce365d160c38",
+      "english_words": 61
+    },
+    {
+      "id": "R6-CQTESS03-R-NOTICE",
+      "source_root": "r6-cqtess03-r-notice-original",
+      "sha256": "95b0926beca37b227c024a82b3697309f10171641778f0bc6b324722eb25ee3c",
+      "english_words": 67
+    },
+    {
+      "id": "R6-O01-R-NEEDS",
+      "source_root": "r6-o01-r-needs-original",
+      "sha256": "e78e542de1b11e2fbd532668672c42cac18dba1ed47e04eed9137ab9b7d474e2",
+      "english_words": 47
+    },
+    {
+      "id": "R6-O02-R-MAINTENANCE",
+      "source_root": "r6-o02-r-maintenance-original",
+      "sha256": "964ac1a26b4fa835f098b8429e84779725c9bcd011ae6c68acbf43d2617d0fdf",
+      "english_words": 35
+    },
+    {
+      "id": "R6-Q603-L-ESCORT",
+      "source_root": "r6-q603-l-escort-original",
+      "sha256": "bf209ffd87bee95b7a9c69f5327a7559a190bfb145ad7d83f8afa74cf3a7a8f4",
+      "english_words": 115
+    },
+    {
+      "id": "R6-Q603-L-RECEIPT",
+      "source_root": "r6-q603-l-receipt-original",
+      "sha256": "75be0b8bdbf46c7177871d211d177a4b2aac48d351e91022d6d77d35a85fc69a",
+      "english_words": 78
+    },
+    {
+      "id": "R6-Q604-L-HANDOVER",
+      "source_root": "r6-q604-l-handover-original",
+      "sha256": "6eee80d49a7beb03d18a2a006f6f00c7470ede190bd0579654ee5cba721dd430",
+      "english_words": 91
+    },
+    {
+      "id": "R6-CQTESS-L-NOTICE",
+      "source_root": "r6-cqtess-l-notice-original",
+      "sha256": "dcdce05ff68b227261e5c2ab8fb86e4017ea5849648e56252814e89bda9bf4a6",
+      "english_words": 53
+    },
+    {
+      "id": "R6-Q601-R-RISK",
+      "source_root": "r6-q601-r-risk-original",
+      "sha256": "f714132c9ec963d8cea0f9317d0126b45aa85aa8f46a5159fbca287d1287b584",
+      "english_words": 652
+    },
+    {
+      "id": "R6-Q602-R-PREPARATION",
+      "source_root": "r6-q602-r-preparation-original",
+      "sha256": "21e296cd56b343645ef18f85801cc10798f8c3d0a16e98c55755e02e46612c3b",
+      "english_words": 659
+    },
+    {
+      "id": "R6-Q601-L-SURVEY",
+      "source_root": "r6-q601-l-survey-original",
+      "sha256": "909a0cfae4947d5b9da69db371c9b2ff48a77e9e64834d802dfcf9594aed9e58",
+      "english_words": 670
+    },
+    {
+      "id": "R6-Q602-L-MEETING",
+      "source_root": "r6-q602-l-meeting-original",
+      "sha256": "4fd479dd2bcfe20c8631849a63a7871e19494a9912df7abdbe53d920518f3b0e",
+      "english_words": 661
+    }
+  ]
+}

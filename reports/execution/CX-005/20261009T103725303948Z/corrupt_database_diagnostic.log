@@ -1,0 +1,17 @@
+{"argv": ["C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103725303948Z\\export\\OfflineCandidate.exe", "--headless", "--", "--candidate-read"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 4}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+
+[stderr]
+MISTSEA_CANDIDATE_READ_ERROR Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 26: 'file is not a database'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements()+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteNonQuery()
+   at StorageHarness.Execute(SqliteConnection connection, SqliteTransaction transaction, String sql)
+   at StorageHarness.Open(String path, Boolean existingOnly, Int32 timeout)
+   at Candidate._Ready()

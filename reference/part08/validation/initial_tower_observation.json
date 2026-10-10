@@ -1,0 +1,63 @@
+{
+  "status": "pre_tuning_observation_not_current_regression_result",
+  "source_sha256": "a40f00d4905ff06c6460c37b330b7deea88281fc2f921a3593341712077862a3",
+  "parameters": {
+    "hp": 420,
+    "sweep": 32,
+    "single": 58,
+    "column": 42
+  },
+  "results": [
+    {
+      "build": "BUILD-TOWER-H",
+      "scenario": "BENCH-TOWER",
+      "difficulty": "standard",
+      "outcome": "victory",
+      "rounds": 9,
+      "party_hp": 87,
+      "party_max_hp": 408,
+      "hp_damage": 420,
+      "shield_absorbed": 96,
+      "breaks": 0,
+      "aid_used": 2,
+      "focus_spent": 22,
+      "device_damage": 0,
+      "downs": 1,
+      "actions": 36
+    },
+    {
+      "build": "BUILD-TOWER-M",
+      "scenario": "BENCH-TOWER",
+      "difficulty": "standard",
+      "outcome": "victory",
+      "rounds": 9,
+      "party_hp": 80,
+      "party_max_hp": 408,
+      "hp_damage": 420,
+      "shield_absorbed": 77,
+      "breaks": 0,
+      "aid_used": 2,
+      "focus_spent": 21,
+      "device_damage": 39,
+      "downs": 1,
+      "actions": 38
+    },
+    {
+      "build": "BUILD-TOWER-S",
+      "scenario": "BENCH-TOWER",
+      "difficulty": "standard",
+      "outcome": "defeat",
+      "rounds": 14,
+      "party_hp": 0,
+      "party_max_hp": 420,
+      "hp_damage": 405,
+      "shield_absorbed": 258,
+      "breaks": 0,
+      "aid_used": 2,
+      "focus_spent": 30,
+      "device_damage": 0,
+      "downs": 3,
+      "actions": 52
+    }
+  ]
+}

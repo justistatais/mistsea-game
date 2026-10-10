@@ -1,0 +1,51 @@
+{
+  "task_id": "CX-012",
+  "scope": "建立真实主库、控制库和外键/唯一约束；世界共同事务不能跨库分裂。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "船/奖励/回执同事务域",
+      "status": "passed",
+      "evidence": "Actual SQLite foreign keys, receipts, balances and serialized transactions tested"
+    },
+    {
+      "criterion": "删除世代不在可回档世界里",
+      "status": "passed",
+      "evidence": "Separate control database and tombstone replay tested across old backup restore"
+    },
+    {
+      "criterion": "DELETE/FULL配置有实际记录",
+      "status": "passed",
+      "evidence": "Actual diagnostics assert journal_mode=delete, synchronous=2, foreign_keys=1, busy_timeout=5000"
+    },
+    {
+      "criterion": "不存在每模块私有任务完成布尔值",
+      "status": "passed",
+      "evidence": "One ProfileStore owns world persistence; immutable views and explicit writer ports"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-012",
+        "name": "Real profile schema enforces foreign keys and unique ownership slots",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-007",
+    "CX-008"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "task_id": "CX-065",
+  "scope": "取消测试直达入口，从序章建立权限、等级与物品到Q104和微光号，验证真实连续路径。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "Q102战前3级校准0",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-065",
+              "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Normal prologue/first chapter candidate and actual service cases exist; full native continuous player route and human G3 are pending."
+      }
+    },
+    {
+      "criterion": "Q104战前5级校准0",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-065",
+              "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Normal prologue/first chapter candidate and actual service cases exist; full native continuous player route and human G3 are pending."
+      }
+    },
+    {
+      "criterion": "地图/个人线顺序真实",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-065",
+              "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Normal prologue/first chapter candidate and actual service cases exist; full native continuous player route and human G3 are pending."
+      }
+    },
+    {
+      "criterion": "无debug授予许可",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-065",
+              "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Normal prologue/first chapter candidate and actual service cases exist; full native continuous player route and human G3 are pending."
+      }
+    },
+    {
+      "criterion": "对外发行仍需G3",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-065",
+              "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+              "result": "passed"
+            },
+            {
+              "task": "CX-065",
+              "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Normal prologue/first chapter candidate and actual service cases exist; full native continuous player route and human G3 are pending."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-065",
+        "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+        "result": "passed"
+      },
+      {
+        "task": "CX-065",
+        "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "G2",
+    "CX-063",
+    "CP-R0-03",
+    "CP-R1-03"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+    "Normal prologue/first chapter candidate and actual service cases exist; full native continuous player route and human G3 are pending."
+  ]
+}

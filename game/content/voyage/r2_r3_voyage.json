@@ -1,0 +1,24 @@
+{
+  "version": "r2-r3-voyage-candidate-1",
+  "from": "R2",
+  "to": "R3",
+  "berth_spot": "R3-S01.berth",
+  "source_quest": "Q-204",
+  "source_action": "chapter_two_archive_handover_received",
+  "commission_purpose": "verify_MC-2_original_instruments_and_acceptance",
+  "duty": "R3-LOCAL-BERTH-DUTY",
+  "authority_scope": "public_landing_only",
+  "review_status": "original_unreviewed_human_pending",
+  "sources": [
+    { "path": "reference/part03/Exploration_Level_Design_v0.1.md", "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310", "section": "EXP-03 sections 3.1/3.2; R3-S01 freight landing; shared Glimmer section 9.9" },
+    { "path": "docs/baseline/World_Story_Bible_v0.1.md", "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d", "section": "R2 Q204 public and protected handoff; R3 original instrument and acceptance inquiry" },
+    { "path": "docs/baseline/NPC_Faction_System_v0.1.md", "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325", "section": "functional local watch duty; Oren accountability and invitation remain local separate decisions" }
+  ],
+  "original_local_details": [
+    "R3-LOCAL-BERTH-DUTY is a new bounded functional public landing watch, not a recruited core character or mining operator.",
+    "The handoff binds the actual single GLIMMER instance, actual Q204 public and protected source handover, and its MC-2 next inquiry commission at the physical HUB-S02 chart.",
+    "Authority permits only the learner package's public R3-S01 berth and reciprocal freight landing path. Mining entry, local rescue, archive permission and Oren's consent require their own actual actions.",
+    "No tide, distance, weather or invented nautical measurement is introduced. Exact registered source and destination collision geometry, source receipts, three registered cabins and current gate versions remain mandatory.",
+    "Route registration, actual Travel relocation and actual public landing evidence are separate committed commands. They grant no unvisited material, reward, sample, current mentor status or task resolution."
+  ]
+}

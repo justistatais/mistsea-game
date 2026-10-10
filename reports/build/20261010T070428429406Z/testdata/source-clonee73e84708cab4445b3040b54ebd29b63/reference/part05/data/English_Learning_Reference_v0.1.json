@@ -1,0 +1,1885 @@
+{
+  "meta": {
+    "version": "0.1",
+    "date": "2026-10-08",
+    "status": "design_reference_not_production_schema",
+    "priority_change": "CR-EN-005-001"
+  },
+  "target": {
+    "test_reference": "IELTS Academic",
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5,
+    "speaking": null,
+    "overall_score_claim": false,
+    "automatic_mainline_band_escalation": false,
+    "empirical_alignment_status": "not_yet_calibrated"
+  },
+  "skills": [
+    {
+      "id": "R01",
+      "domain": "R",
+      "name": "整体主旨与段落中心",
+      "observable": "从完整材料概括核心问题，区分主旨与例子",
+      "acceptable_evidence": "概述、标题与证据定位",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-103",
+        "Q-401",
+        "Q-F05"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R02",
+      "domain": "R",
+      "name": "定位及同义对应",
+      "observable": "跨改写定位细节，不依赖题干与原文逐词重合",
+      "acceptable_evidence": "原文定位及对应解释",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-101",
+        "Q-201",
+        "Q-F01"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R03",
+      "domain": "R",
+      "name": "条件、否定与范围",
+      "observable": "辨别必要条件、限制、例外及数量范围",
+      "acceptable_evidence": "方案对照、约束说明",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P01",
+        "Q-102",
+        "Q-304",
+        "Q-603",
+        "Q-F03"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R04",
+      "domain": "R",
+      "name": "指代与修饰关系",
+      "observable": "确定代词、名词短语及从句所指",
+      "acceptable_evidence": "指代连线与情境解释",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-203",
+        "Q-502"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R05",
+      "domain": "R",
+      "name": "时间与因果",
+      "observable": "重建先后并区分时间相邻与有证据的因果",
+      "acceptable_evidence": "时间线与证据说明",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P03"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R06",
+      "domain": "R",
+      "name": "立场与意图",
+      "observable": "区分作者、被引用人物及其态度",
+      "acceptable_evidence": "观点归属和措辞依据",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-204",
+        "Q-303",
+        "Q-404",
+        "Q-504",
+        "Q-F02"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R07",
+      "domain": "R",
+      "name": "支持、矛盾、未说明",
+      "observable": "仅依据给定材料区分三者",
+      "acceptable_evidence": "有出处的判断",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-103",
+        "Q-402",
+        "Q-601"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R08",
+      "domain": "R",
+      "name": "篇章结构",
+      "observable": "辨认问题、解释、反例、结论的组织",
+      "acceptable_evidence": "段落角色与结构复原",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-202",
+        "Q-403",
+        "Q-604"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R09",
+      "domain": "R",
+      "name": "跨文档修订与整合",
+      "observable": "保持来源与版本，整合互补信息",
+      "acceptable_evidence": "比较表和综合方案",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-102",
+        "Q-302",
+        "Q-503",
+        "Q-602",
+        "Q-F04"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "R10",
+      "domain": "R",
+      "name": "图表、流程与地图",
+      "observable": "把视觉信息和文字条件对应起来",
+      "acceptable_evidence": "定位、概览与数据比较",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P02",
+        "Q-104",
+        "Q-301",
+        "Q-401",
+        "Q-501"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L01",
+      "domain": "L",
+      "name": "语段主旨",
+      "observable": "听出对话或讲解的中心与结果",
+      "acceptable_evidence": "听后概述，不依赖脚本",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-201",
+        "Q-401",
+        "Q-F05"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L02",
+      "domain": "L",
+      "name": "关键细节与数字",
+      "observable": "辨认名称、时间、数量和单位",
+      "acceptable_evidence": "简短听记及准确核对",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P02",
+        "Q-201",
+        "Q-602"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L03",
+      "domain": "L",
+      "name": "更正、转折与否定",
+      "observable": "更新已听到的信息，保留最终说法",
+      "acceptable_evidence": "更正记录及其对象",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P03",
+        "Q-102",
+        "Q-502"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L04",
+      "domain": "L",
+      "name": "方位与路线",
+      "observable": "把方位和顺序对应场景",
+      "acceptable_evidence": "位置标注与路线复原",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P01",
+        "Q-301",
+        "Q-501",
+        "Q-F01"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L05",
+      "domain": "L",
+      "name": "说话者与观点归属",
+      "observable": "追踪不同人物赞同、反对和修正",
+      "acceptable_evidence": "人物观点对应",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-103",
+        "Q-202",
+        "Q-303",
+        "Q-503"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L06",
+      "domain": "L",
+      "name": "态度与交际意图",
+      "observable": "根据措辞和语音判断保留、请求、建议等",
+      "acceptable_evidence": "意图判断及可回放依据",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-101",
+        "Q-204",
+        "Q-504",
+        "Q-F02"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L07",
+      "domain": "L",
+      "name": "话题转换与结构",
+      "observable": "跟随讲解的主题变化和论证标记",
+      "acceptable_evidence": "结构化听记",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-104",
+        "Q-401",
+        "Q-601"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L08",
+      "domain": "L",
+      "name": "步骤与笔记",
+      "observable": "区分关键步骤、例子和无关细节",
+      "acceptable_evidence": "流程摘要与简要笔记",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-102",
+        "Q-302",
+        "Q-403",
+        "Q-603"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L09",
+      "domain": "L",
+      "name": "连读弱读与词边界",
+      "observable": "把正常连续语音对应词语，不要求发音输出",
+      "acceptable_evidence": "分段辨听和听写",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-203",
+        "Q-402",
+        "Q-F03"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "L10",
+      "domain": "L",
+      "name": "跨语段整合",
+      "observable": "联系前后信息和限定形成正确理解",
+      "acceptable_evidence": "跨句理解与摘要",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-304",
+        "Q-404",
+        "Q-604",
+        "Q-F04"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W01",
+      "domain": "W",
+      "name": "任务、受众与目的",
+      "observable": "回应真实要求，选对语气和内容范围",
+      "acceptable_evidence": "目的明确的消息或段落",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P02",
+        "Q-101",
+        "Q-F01"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W02",
+      "domain": "W",
+      "name": "指令与条件表达",
+      "observable": "写出可执行步骤，避免否定和条件歧义",
+      "acceptable_evidence": "行动说明",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P01",
+        "Q-102",
+        "Q-301",
+        "Q-304",
+        "Q-502",
+        "Q-604",
+        "Q-F03",
+        "Q-F04"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W03",
+      "domain": "W",
+      "name": "摘要与改写",
+      "observable": "保留主要意思，不大段照搬",
+      "acceptable_evidence": "有来源的摘要",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P03",
+        "Q-201",
+        "Q-402",
+        "Q-501",
+        "Q-503",
+        "Q-601",
+        "Q-F02"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W04",
+      "domain": "W",
+      "name": "视觉信息概览",
+      "observable": "提炼主要趋势、差异或流程概貌",
+      "acceptable_evidence": "Task 1式概览",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-104",
+        "Q-202",
+        "Q-302",
+        "Q-401",
+        "Q-602"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W05",
+      "domain": "W",
+      "name": "数据分组与比较",
+      "observable": "选关键数据，按有意义的组比较",
+      "acceptable_evidence": "数据段落",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-104",
+        "Q-202",
+        "Q-302",
+        "Q-401",
+        "Q-602"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W06",
+      "domain": "W",
+      "name": "过程与地图描述",
+      "observable": "组织过程先后或地图变化，不虚构原因",
+      "acceptable_evidence": "过程/地图说明",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-203",
+        "Q-403"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W07",
+      "domain": "W",
+      "name": "立场与回应",
+      "observable": "提出直接回应题目的立场",
+      "acceptable_evidence": "论证写作",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-103",
+        "Q-404",
+        "Q-603"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W08",
+      "domain": "W",
+      "name": "解释与支撑",
+      "observable": "解释理由，用相关例子支持",
+      "acceptable_evidence": "展开的主体段",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-103",
+        "Q-303",
+        "Q-404",
+        "Q-603"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W09",
+      "domain": "W",
+      "name": "观点比较与取舍",
+      "observable": "按题目需要比较观点并界定条件",
+      "acceptable_evidence": "比较或讨论段",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-204",
+        "Q-303",
+        "Q-504"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W10",
+      "domain": "W",
+      "name": "段落与衔接",
+      "observable": "安排逻辑顺序，清楚指代，避免连接词堆叠",
+      "acceptable_evidence": "完整篇章",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-503",
+        "Q-F04"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W11",
+      "domain": "W",
+      "name": "自主编辑",
+      "observable": "修正影响意思的语言、搭配和句界",
+      "acceptable_evidence": "有版本的自我修改",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-102",
+        "Q-304",
+        "Q-F05"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "W12",
+      "domain": "W",
+      "name": "规划与修订流程",
+      "observable": "按任务分配写作工作，区分初稿与修订",
+      "acceptable_evidence": "提纲、初稿、修订和可选限时样本",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-204",
+        "Q-504",
+        "Q-604",
+        "Q-F05"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V01",
+      "domain": "V",
+      "name": "词形、词音、词义",
+      "observable": "分别识别书面和听觉形式",
+      "acceptable_evidence": "分模态的理解记录",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-301",
+        "Q-F01"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V02",
+      "domain": "V",
+      "name": "语境义与多义",
+      "observable": "在具体用法中选择词义",
+      "acceptable_evidence": "不同语境对比",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-103",
+        "Q-502",
+        "Q-F02"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V03",
+      "domain": "V",
+      "name": "词汇搭配",
+      "observable": "理解并使用自然动名等搭配",
+      "acceptable_evidence": "自由表达或搭配修订",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-102",
+        "Q-303",
+        "Q-603"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V04",
+      "domain": "V",
+      "name": "介词与动词结构",
+      "observable": "使用动词后接结构与固定介词",
+      "acceptable_evidence": "情境产出",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P02",
+        "Q-102",
+        "Q-203",
+        "Q-403",
+        "Q-F03"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V05",
+      "domain": "V",
+      "name": "词族与构词",
+      "observable": "区分派生词词性和用法",
+      "acceptable_evidence": "词形选择及产出",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-202",
+        "Q-302",
+        "Q-503"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V06",
+      "domain": "V",
+      "name": "上下文推义",
+      "observable": "利用定义、对比和例子推义",
+      "acceptable_evidence": "说明推义线索",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P03",
+        "Q-402",
+        "Q-601"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V07",
+      "domain": "V",
+      "name": "同义与近义边界",
+      "observable": "识别可改写关系和不可替代细节",
+      "acceptable_evidence": "保义改写",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-104",
+        "Q-304",
+        "Q-504"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V08",
+      "domain": "V",
+      "name": "学术通用功能词块",
+      "observable": "表达证据、限制、程度、比较和保留",
+      "acceptable_evidence": "报告与论证产出",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-101",
+        "Q-204",
+        "Q-401",
+        "Q-404",
+        "Q-F04"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V09",
+      "domain": "V",
+      "name": "广泛主题词汇",
+      "observable": "使用交通、教育、工作、文化等一般主题词",
+      "acceptable_evidence": "跨主题任务",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P01",
+        "Q-201",
+        "Q-501",
+        "Q-602"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "V10",
+      "domain": "V",
+      "name": "拼写与词形编辑",
+      "observable": "独立写对目标形式，接受约定拼写变体",
+      "acceptable_evidence": "关闭目标纠错下的产出",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-102",
+        "Q-604",
+        "Q-F05"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G01",
+      "domain": "G",
+      "name": "时态与体",
+      "observable": "表达事件、持续和先后关系",
+      "acceptable_evidence": "理解与书写时间线",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P03",
+        "Q-103",
+        "Q-202"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G02",
+      "domain": "G",
+      "name": "被动与施事",
+      "observable": "区分事情发生、谁执行和谁授权",
+      "acceptable_evidence": "检修报告与责任说明",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-203",
+        "Q-302"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G03",
+      "domain": "G",
+      "name": "情态",
+      "observable": "区分义务、许可、建议和可能性",
+      "acceptable_evidence": "规则与风险表达",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P02",
+        "Q-101",
+        "Q-601"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G04",
+      "domain": "G",
+      "name": "条件与例外",
+      "observable": "处理if/unless/only if/provided that",
+      "acceptable_evidence": "条件方案",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P01",
+        "Q-102",
+        "Q-603"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G05",
+      "domain": "G",
+      "name": "否定与量词范围",
+      "observable": "控制not、all、only、at most等范围",
+      "acceptable_evidence": "限制解释与修改",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-102",
+        "Q-304",
+        "Q-F02"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G06",
+      "domain": "G",
+      "name": "定语从句与修饰",
+      "observable": "识别并使用限定和补充信息",
+      "acceptable_evidence": "文献理解与精确指代",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-404",
+        "Q-501",
+        "Q-F01"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G07",
+      "domain": "G",
+      "name": "名词性从句与转述",
+      "observable": "表达别人说什么、认为什么与已知未知",
+      "acceptable_evidence": "访谈摘要",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-402",
+        "Q-502",
+        "Q-503"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G08",
+      "domain": "G",
+      "name": "非谓语与缩略结构",
+      "observable": "理解常见不定式、分词、动名词",
+      "acceptable_evidence": "说明与过程段",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-301",
+        "Q-403",
+        "Q-F03"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G09",
+      "domain": "G",
+      "name": "比较、数量与趋势",
+      "observable": "表达差异、变化、倍数与数量",
+      "acceptable_evidence": "图表描述",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-104",
+        "Q-401",
+        "Q-602"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G10",
+      "domain": "G",
+      "name": "冠词、可数性与一致",
+      "observable": "控制常见名词短语和主谓一致",
+      "acceptable_evidence": "编辑与段落写作",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-201",
+        "Q-604"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G11",
+      "domain": "G",
+      "name": "因果、让步与连接",
+      "observable": "准确连接原因、对比、让步和结果",
+      "acceptable_evidence": "论证与方案比较",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-204",
+        "Q-303",
+        "Q-504"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "G12",
+      "domain": "G",
+      "name": "句界与标点",
+      "observable": "避免粘连句、碎片和影响理解的标点",
+      "acceptable_evidence": "自主编辑",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-102",
+        "Q-F04",
+        "Q-F05"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "D01",
+      "domain": "D",
+      "name": "语篇指代与衔接",
+      "observable": "让读者知道this/they/it所指",
+      "acceptable_evidence": "理解与清晰改写",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P01",
+        "Q-104",
+        "Q-203",
+        "Q-301",
+        "Q-403",
+        "Q-F01"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "D02",
+      "domain": "D",
+      "name": "语域与礼貌",
+      "observable": "按照对象表达请求、拒绝和正式说明",
+      "acceptable_evidence": "通信与交涉文本",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P02",
+        "Q-101",
+        "Q-201",
+        "Q-502",
+        "Q-603"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "D03",
+      "domain": "D",
+      "name": "证据与确定性",
+      "observable": "区分事实、推测、相关与因果强度",
+      "acceptable_evidence": "限定恰当的结论",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-103",
+        "Q-302",
+        "Q-401",
+        "Q-404",
+        "Q-504",
+        "Q-601"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "D04",
+      "domain": "D",
+      "name": "多声音与偏见识别",
+      "observable": "不把引述当作者立场，不凭身份推断诚实",
+      "acceptable_evidence": "观点来源核验",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-204",
+        "Q-402",
+        "Q-503",
+        "Q-F02"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "D05",
+      "domain": "D",
+      "name": "跨源综合",
+      "observable": "保持出处、版本和不同证据的限制",
+      "acceptable_evidence": "综合说明",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-P03",
+        "Q-102",
+        "Q-202",
+        "Q-304",
+        "Q-501",
+        "Q-602",
+        "Q-F03"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    },
+    {
+      "id": "D06",
+      "domain": "D",
+      "name": "澄清与修复歧义",
+      "observable": "识别不明确处并重新表达",
+      "acceptable_evidence": "澄清—修改记录",
+      "target_band": 6.5,
+      "evidence_required": true,
+      "disallowed_shortcut": "访问、时长、点选一次、任务完成或模型自报信心不能自动证明该能力",
+      "planned_quest_opportunities": [
+        "Q-303",
+        "Q-604",
+        "Q-F04",
+        "Q-F05"
+      ],
+      "transfer_policy": "另配不同事实与表层结构的情境变体；仅登记标签不是已完成语料，也不保证延迟复现"
+    }
+  ],
+  "curriculum": [
+    {
+      "quest_id": "Q-P01",
+      "quest_title": "断开的航线",
+      "scene_refs": [
+        "R0-S01",
+        "R0-S02"
+      ],
+      "primary_goals": [
+        "R03",
+        "L04",
+        "W02"
+      ],
+      "supporting_goals": [
+        "G04",
+        "V09",
+        "D01"
+      ],
+      "writing_form": "micro",
+      "player_output": "安全离船与路线说明",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-P02",
+      "quest_title": "有人还在岸上",
+      "scene_refs": [
+        "R0-S02",
+        "R0-S03",
+        "R0-S04"
+      ],
+      "primary_goals": [
+        "R10",
+        "L02",
+        "W01"
+      ],
+      "supporting_goals": [
+        "G03",
+        "V04",
+        "D02"
+      ],
+      "writing_form": "micro",
+      "player_output": "求援消息和接应信息",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-P03",
+      "quest_title": "第二个记录器",
+      "scene_refs": [
+        "R0-S05"
+      ],
+      "primary_goals": [
+        "R05",
+        "L03",
+        "W03"
+      ],
+      "supporting_goals": [
+        "G01",
+        "V06",
+        "D05"
+      ],
+      "writing_form": "short",
+      "player_output": "录音与独立记录摘要",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-101",
+      "quest_title": "封港令之外",
+      "scene_refs": [
+        "R1-S01",
+        "R1-S02",
+        "R1-S03"
+      ],
+      "primary_goals": [
+        "R02",
+        "L06",
+        "W01"
+      ],
+      "supporting_goals": [
+        "G03",
+        "V08",
+        "D02"
+      ],
+      "writing_form": "short",
+      "player_output": "解释委托目的和工作权限",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-102",
+      "quest_title": "最后一班渡轮",
+      "scene_refs": [
+        "R1-S02",
+        "R1-S03",
+        "R1-S04",
+        "R1-S05",
+        "R1-S06",
+        "R1-S07"
+      ],
+      "primary_goals": [
+        "R03",
+        "L03",
+        "W02"
+      ],
+      "supporting_goals": [
+        "R09",
+        "L08",
+        "W11",
+        "G04",
+        "G05",
+        "G12",
+        "V03",
+        "V04",
+        "V10",
+        "D05"
+      ],
+      "writing_form": "short",
+      "player_output": "撤离方案与配置核验",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-103",
+      "quest_title": "预先写好的事故",
+      "scene_refs": [
+        "R1-S02",
+        "R1-S03",
+        "R1-S06",
+        "R1-S08"
+      ],
+      "primary_goals": [
+        "R07",
+        "L05",
+        "W07"
+      ],
+      "supporting_goals": [
+        "R01",
+        "W08",
+        "G01",
+        "V02",
+        "D03"
+      ],
+      "writing_form": "argument",
+      "player_output": "事故材料的因果范围；相关公共安全论证",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-104",
+      "quest_title": "潮门塔重启",
+      "scene_refs": [
+        "R1-S09",
+        "R1-S10"
+      ],
+      "primary_goals": [
+        "R10",
+        "L07",
+        "W04"
+      ],
+      "supporting_goals": [
+        "W05",
+        "G09",
+        "V07",
+        "D01"
+      ],
+      "writing_form": "visual",
+      "player_output": "港口服务恢复的图表概览",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-201",
+      "quest_title": "没有登记的住民",
+      "scene_refs": [
+        "R2-S01",
+        "R2-S02",
+        "R2-S03"
+      ],
+      "primary_goals": [
+        "R02",
+        "L01",
+        "W03"
+      ],
+      "supporting_goals": [
+        "L02",
+        "G10",
+        "V09",
+        "D02"
+      ],
+      "writing_form": "short",
+      "player_output": "登记与实际需求的差异摘要",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-202",
+      "quest_title": "第二份撤离名单",
+      "scene_refs": [
+        "R2-S03",
+        "R2-S04"
+      ],
+      "primary_goals": [
+        "R08",
+        "L05",
+        "W04"
+      ],
+      "supporting_goals": [
+        "W05",
+        "G01",
+        "V05",
+        "D05"
+      ],
+      "writing_form": "visual",
+      "player_output": "安置资料的分组与比较",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-203",
+      "quest_title": "林下的转供站",
+      "scene_refs": [
+        "R2-S05",
+        "R2-S06",
+        "R2-S07",
+        "R2-S08"
+      ],
+      "primary_goals": [
+        "R04",
+        "L09",
+        "W06"
+      ],
+      "supporting_goals": [
+        "G02",
+        "V04",
+        "D01"
+      ],
+      "writing_form": "short",
+      "player_output": "局部转供的流程说明",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-204",
+      "quest_title": "谁可以知道这些名字",
+      "scene_refs": [
+        "R2-S02",
+        "R2-S04",
+        "R2-S08"
+      ],
+      "primary_goals": [
+        "R06",
+        "L06",
+        "W09"
+      ],
+      "supporting_goals": [
+        "W12",
+        "G11",
+        "V08",
+        "D04"
+      ],
+      "writing_form": "argument",
+      "player_output": "公开与保护身份的论证",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-301",
+      "quest_title": "钟声以下",
+      "scene_refs": [
+        "R3-S01",
+        "R3-S02",
+        "R3-S04",
+        "R3-S05",
+        "R3-S06",
+        "R3-S07"
+      ],
+      "primary_goals": [
+        "R10",
+        "L04",
+        "W02"
+      ],
+      "supporting_goals": [
+        "G08",
+        "V01",
+        "D01"
+      ],
+      "writing_form": "micro",
+      "player_output": "矿井救援步骤",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-302",
+      "quest_title": "最后一道检修章",
+      "scene_refs": [
+        "R3-S03",
+        "R3-S05",
+        "R3-S07"
+      ],
+      "primary_goals": [
+        "R09",
+        "L08",
+        "W04"
+      ],
+      "supporting_goals": [
+        "W05",
+        "G02",
+        "V05",
+        "D03"
+      ],
+      "writing_form": "visual",
+      "player_output": "检修记录的统计/时间分组；数据待制作",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-303",
+      "quest_title": "三炉一线",
+      "scene_refs": [
+        "R3-S02",
+        "R3-S08"
+      ],
+      "primary_goals": [
+        "R06",
+        "L05",
+        "W08"
+      ],
+      "supporting_goals": [
+        "W09",
+        "G11",
+        "V03",
+        "D06"
+      ],
+      "writing_form": "argument",
+      "player_output": "有条件的供给和安置方案",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-304",
+      "quest_title": "停止超采",
+      "scene_refs": [
+        "R3-S08",
+        "R3-S09"
+      ],
+      "primary_goals": [
+        "R03",
+        "L10",
+        "W02"
+      ],
+      "supporting_goals": [
+        "W11",
+        "G05",
+        "V07",
+        "D05"
+      ],
+      "writing_form": "short",
+      "player_output": "降载交接指令",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-401",
+      "quest_title": "相同的曲线",
+      "scene_refs": [
+        "R4-S01",
+        "R4-S02",
+        "R4-S03",
+        "R4-S04"
+      ],
+      "primary_goals": [
+        "R10",
+        "L01",
+        "W04"
+      ],
+      "supporting_goals": [
+        "R01",
+        "L07",
+        "W05",
+        "G09",
+        "V08",
+        "D03"
+      ],
+      "writing_form": "visual",
+      "player_output": "观测数据概览",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-402",
+      "quest_title": "在场的反例",
+      "scene_refs": [
+        "R4-S05",
+        "R4-S06"
+      ],
+      "primary_goals": [
+        "R07",
+        "L09",
+        "W03"
+      ],
+      "supporting_goals": [
+        "G07",
+        "V06",
+        "D04"
+      ],
+      "writing_form": "short",
+      "player_output": "失败试验解释与适用边界",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-403",
+      "quest_title": "孤网试验",
+      "scene_refs": [
+        "R4-S06",
+        "R4-S07"
+      ],
+      "primary_goals": [
+        "R08",
+        "L08",
+        "W06"
+      ],
+      "supporting_goals": [
+        "G08",
+        "V04",
+        "D01"
+      ],
+      "writing_form": "visual",
+      "player_output": "试验过程图的说明",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-404",
+      "quest_title": "不完整的答案",
+      "scene_refs": [
+        "R4-S02",
+        "R4-S04",
+        "R4-S08"
+      ],
+      "primary_goals": [
+        "R06",
+        "L10",
+        "W07"
+      ],
+      "supporting_goals": [
+        "W08",
+        "G06",
+        "V08",
+        "D03"
+      ],
+      "writing_form": "argument",
+      "player_output": "技术方案比较与边界论证",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-501",
+      "quest_title": "从地图上消失的街道",
+      "scene_refs": [
+        "R5-S01",
+        "R5-S02",
+        "R5-S03",
+        "R5-S04"
+      ],
+      "primary_goals": [
+        "R10",
+        "L04",
+        "W03"
+      ],
+      "supporting_goals": [
+        "G06",
+        "V09",
+        "D05"
+      ],
+      "writing_form": "short",
+      "player_output": "地图信息与新旧街道说明",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-502",
+      "quest_title": "灯下的人",
+      "scene_refs": [
+        "R5-S04",
+        "R5-S05",
+        "R5-S06"
+      ],
+      "primary_goals": [
+        "R04",
+        "L03",
+        "W02"
+      ],
+      "supporting_goals": [
+        "G07",
+        "V02",
+        "D02"
+      ],
+      "writing_form": "micro",
+      "player_output": "救援与安全接应指令",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-503",
+      "quest_title": "十八年前的签名",
+      "scene_refs": [
+        "R5-S02",
+        "R5-S07"
+      ],
+      "primary_goals": [
+        "R09",
+        "L05",
+        "W03"
+      ],
+      "supporting_goals": [
+        "W10",
+        "G07",
+        "V05",
+        "D04"
+      ],
+      "writing_form": "short",
+      "player_output": "多人责任的有来源摘要",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-504",
+      "quest_title": "谁来接管",
+      "scene_refs": [
+        "R5-S02",
+        "R5-S07",
+        "R5-S08"
+      ],
+      "primary_goals": [
+        "R06",
+        "L06",
+        "W09"
+      ],
+      "supporting_goals": [
+        "W12",
+        "G11",
+        "V07",
+        "D03"
+      ],
+      "writing_form": "argument",
+      "player_output": "共同监督与公开范围论证",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-601",
+      "quest_title": "最后的测站",
+      "scene_refs": [
+        "R6-S01",
+        "R6-S02",
+        "R6-S03",
+        "R6-S04"
+      ],
+      "primary_goals": [
+        "R07",
+        "L07",
+        "W03"
+      ],
+      "supporting_goals": [
+        "G03",
+        "V06",
+        "D03"
+      ],
+      "writing_form": "short",
+      "player_output": "测站风险摘要",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-602",
+      "quest_title": "六个答复",
+      "scene_refs": [
+        "R6-S02",
+        "R6-S05",
+        "R6-S08"
+      ],
+      "primary_goals": [
+        "R09",
+        "L02",
+        "W04"
+      ],
+      "supporting_goals": [
+        "W05",
+        "G09",
+        "V09",
+        "D05"
+      ],
+      "writing_form": "visual",
+      "player_output": "六地准备的分类概览",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-603",
+      "quest_title": "风脊线",
+      "scene_refs": [
+        "R6-S05",
+        "R6-S06",
+        "R6-S07"
+      ],
+      "primary_goals": [
+        "R03",
+        "L08",
+        "W07"
+      ],
+      "supporting_goals": [
+        "W08",
+        "G04",
+        "V03",
+        "D02"
+      ],
+      "writing_form": "argument",
+      "player_output": "安全段后组织运输优先方案",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-604",
+      "quest_title": "起航之前",
+      "scene_refs": [
+        "R6-S01",
+        "R6-S08"
+      ],
+      "primary_goals": [
+        "R08",
+        "L10",
+        "W02"
+      ],
+      "supporting_goals": [
+        "W12",
+        "G10",
+        "V10",
+        "D06"
+      ],
+      "writing_form": "short",
+      "player_output": "起航交接与缺项澄清",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-F01",
+      "quest_title": "进入第七塔",
+      "scene_refs": [
+        "RF-S01",
+        "RF-S02",
+        "RF-S03"
+      ],
+      "primary_goals": [
+        "R02",
+        "L04",
+        "W01"
+      ],
+      "supporting_goals": [
+        "G06",
+        "V01",
+        "D01"
+      ],
+      "writing_form": "micro",
+      "player_output": "进入与联络说明",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-F02",
+      "quest_title": "接管层",
+      "scene_refs": [
+        "RF-S04"
+      ],
+      "primary_goals": [
+        "R06",
+        "L06",
+        "W03"
+      ],
+      "supporting_goals": [
+        "G05",
+        "V02",
+        "D04"
+      ],
+      "writing_form": "short",
+      "player_output": "接管结果摘要",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-F03",
+      "quest_title": "不可取消的维护",
+      "scene_refs": [
+        "RF-S05",
+        "RF-S06"
+      ],
+      "primary_goals": [
+        "R03",
+        "L09",
+        "W02"
+      ],
+      "supporting_goals": [
+        "G08",
+        "V04",
+        "D05"
+      ],
+      "writing_form": "micro",
+      "player_output": "程序隔离与检修步骤",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-F04",
+      "quest_title": "最后一份命令",
+      "scene_refs": [
+        "RF-S07"
+      ],
+      "primary_goals": [
+        "R09",
+        "L10",
+        "W02"
+      ],
+      "supporting_goals": [
+        "W10",
+        "G12",
+        "V08",
+        "D06"
+      ],
+      "writing_form": "short",
+      "player_output": "最后行动指令，不附加强制长作文",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    },
+    {
+      "quest_id": "Q-F05",
+      "quest_title": "之后还有灯",
+      "scene_refs": [
+        "RF-S07"
+      ],
+      "primary_goals": [
+        "R01",
+        "L01",
+        "W11"
+      ],
+      "supporting_goals": [
+        "W12",
+        "G12",
+        "V10",
+        "D06"
+      ],
+      "writing_form": "reflection",
+      "player_output": "回顾和陌生情境再验证入口",
+      "target_band": 6.5,
+      "writing_scope_note": "此表只保证设计机会；micro/short不产出完整IELTS写作分数；自主路径、帮助和独立评价分别记录",
+      "content_status": "binding_plan_only_except_Q102_sample"
+    }
+  ],
+  "material_specs": {
+    "short_notice_words": [
+      80,
+      220
+    ],
+    "mission_document_words": [
+      200,
+      450
+    ],
+    "extended_reading_words": [
+      600,
+      950
+    ],
+    "dossier_total_words": [
+      500,
+      1000
+    ],
+    "short_audio_seconds": [
+      30,
+      90
+    ],
+    "task_audio_seconds": [
+      90,
+      180
+    ],
+    "long_audio_minutes": [
+      4,
+      6
+    ],
+    "audio_rate_wpm": [
+      140,
+      175
+    ],
+    "thresholds_status": "authoring_flags_not_IELTS_cutoffs"
+  },
+  "content_budget": {
+    "extended_readings": 16,
+    "core_listening_assets": 32,
+    "long_listening_assets_within_core": 12,
+    "mainline_visual_writing_units": 6,
+    "mainline_argument_writing_units": 6,
+    "planned_core_lexical_sense_chunks": 360,
+    "extension_lexical_sense_chunks": 360,
+    "provided_original_lexical_entries": 18,
+    "provided_original_reading_materials": 5,
+    "provided_original_audio_scripts": 2,
+    "provided_rendered_audio_assets": 0,
+    "counts_are_authoring_budget_not_completed_content": true
+  },
+  "review_policy": {
+    "interval_days": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ],
+    "independent_family_min": 3,
+    "independent_session_min": 2,
+    "independent_context_min": 2,
+    "delayed_transfer_min_days": 7,
+    "advisory_only": true,
+    "max_suggestions": 3,
+    "max_new_target_chunks_per_regular_session": 6,
+    "same_family_retry_not_new_evidence": true,
+    "theory_status": "product_heuristics_not_validated_learning_or_IELTS_model"
+  },
+  "assessment": {
+    "full_band_output_enabled": false,
+    "world_write_permissions": [],
+    "benchmark_conditions_version": "BENCH-65-v0.1",
+    "separate_fact_and_language_judgment": true,
+    "incomplete_scope_status": "insufficient_evidence",
+    "support_scope_required": true,
+    "independent_benchmark_has_no_mic": true
+  }
+}

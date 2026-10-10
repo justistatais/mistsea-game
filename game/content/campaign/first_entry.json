@@ -1,0 +1,1028 @@
+{
+  "version": "first-entry-candidate-1",
+  "scope": "normal_first_entry_candidate",
+  "scenes": [
+    {
+      "id": "R0-S01",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 38,
+          "top": 25,
+          "right": 59,
+          "bottom": 51
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R0-S01.to.R0-S02",
+          "target_scene": "R0-S02",
+          "target_port": "R0-S02.to.R0-S01",
+          "stand": {
+            "x": 88,
+            "y": 83
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R0-S01.tools",
+          "stand": {
+            "x": 20,
+            "y": 65
+          },
+          "purpose": "船舱救援柜"
+        },
+        {
+          "id": "R0-S01.floor",
+          "stand": {
+            "x": 66,
+            "y": 57
+          },
+          "purpose": "断裂地板与加固踏板"
+        },
+        {
+          "id": "R0-S01.route_note",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose": "舱内位置与撤离说明"
+        },
+        {
+          "id": "R0-S01.ship_log",
+          "stand": {
+            "x": 74,
+            "y": 37
+          },
+          "purpose": "桥台观测抄记"
+        }
+      ]
+    },
+    {
+      "id": "R0-S02",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 37,
+          "top": 42,
+          "right": 52,
+          "bottom": 58
+        }
+      ],
+      "danger": [
+        {
+          "left": 66,
+          "top": 20,
+          "right": 94,
+          "bottom": 44
+        }
+      ],
+      "ports": [
+        {
+          "id": "R0-S02.to.R0-S01",
+          "target_scene": "R0-S01",
+          "target_port": "R0-S01.to.R0-S02",
+          "stand": {
+            "x": 12,
+            "y": 84
+          }
+        },
+        {
+          "id": "R0-S02.to.R0-S03",
+          "target_scene": "R0-S03",
+          "target_port": "R0-S03.to.R0-S02",
+          "stand": {
+            "x": 87,
+            "y": 75
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R0-S02.tide_notice",
+          "stand": {
+            "x": 25,
+            "y": 61
+          },
+          "purpose": "潮位与礁岸说明"
+        },
+        {
+          "id": "R0-S02.shore_revision",
+          "stand": {
+            "x": 56,
+            "y": 66
+          },
+          "purpose": "接应更正留言"
+        },
+        {
+          "id": "R0-S02.landing",
+          "stand": {
+            "x": 60,
+            "y": 83
+          },
+          "purpose": "岸边集合与接应地标"
+        },
+        {
+          "id": "R0-S02.creature",
+          "stand": {
+            "x": 63,
+            "y": 47
+          },
+          "purpose": "近岸生物危险边界"
+        }
+      ]
+    },
+    {
+      "id": "R0-S03",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 40,
+          "top": 24,
+          "right": 60,
+          "bottom": 42
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R0-S03.to.R0-S02",
+          "target_scene": "R0-S02",
+          "target_port": "R0-S02.to.R0-S03",
+          "stand": {
+            "x": 12,
+            "y": 76
+          }
+        },
+        {
+          "id": "R0-S03.to.R0-S04",
+          "target_scene": "R0-S04",
+          "target_port": "R0-S04.to.R0-S03",
+          "stand": {
+            "x": 88,
+            "y": 82
+          }
+        },
+        {
+          "id": "R0-S03.to.R0-S05",
+          "target_scene": "R0-S05",
+          "target_port": "R0-S05.to.R0-S03",
+          "stand": {
+            "x": 86,
+            "y": 33
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R0-S03.winch_note",
+          "stand": {
+            "x": 25,
+            "y": 48
+          },
+          "purpose": "岸边绞盘检修卡"
+        },
+        {
+          "id": "R0-S03.winch",
+          "stand": {
+            "x": 68,
+            "y": 58
+          },
+          "purpose": "救援索与绞盘控制位"
+        },
+        {
+          "id": "R0-S03.relay_entrance",
+          "stand": {
+            "x": 81,
+            "y": 46
+          },
+          "purpose": "中继检修入口标牌"
+        }
+      ]
+    },
+    {
+      "id": "R0-S04",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R0-S04.to.R0-S03",
+          "target_scene": "R0-S03",
+          "target_port": "R0-S03.to.R0-S04",
+          "stand": {
+            "x": 12,
+            "y": 83
+          }
+        },
+        {
+          "id": "R0-S04.to.R0-S05",
+          "target_scene": "R0-S05",
+          "target_port": "R0-S05.to.R0-S04",
+          "stand": {
+            "x": 85,
+            "y": 34
+          }
+        },
+        {
+          "id": "R0-S04.to.R1-S01",
+          "target_scene": "R1-S01",
+          "target_port": "R1-S01.to.R0-S04",
+          "stand": {
+            "x": 48,
+            "y": 87
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R0-S04.survivor_register",
+          "stand": {
+            "x": 25,
+            "y": 55
+          },
+          "purpose": "避风棚幸存者登记台"
+        },
+        {
+          "id": "R0-S04.message_desk",
+          "stand": {
+            "x": 55,
+            "y": 62
+          },
+          "purpose": "求援发送台"
+        },
+        {
+          "id": "R0-S04.pickup",
+          "stand": {
+            "x": 73,
+            "y": 77
+          },
+          "purpose": "接应信息回执"
+        }
+      ]
+    },
+    {
+      "id": "R0-S05",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 31,
+          "top": 25,
+          "right": 61,
+          "bottom": 44
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R0-S05.to.R0-S03",
+          "target_scene": "R0-S03",
+          "target_port": "R0-S03.to.R0-S05",
+          "stand": {
+            "x": 12,
+            "y": 70
+          }
+        },
+        {
+          "id": "R0-S05.to.R0-S04",
+          "target_scene": "R0-S04",
+          "target_port": "R0-S04.to.R0-S05",
+          "stand": {
+            "x": 87,
+            "y": 79
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R0-S05.relay_note",
+          "stand": {
+            "x": 24,
+            "y": 53
+          },
+          "purpose": "中继站检修卡"
+        },
+        {
+          "id": "R0-S05.relay",
+          "stand": {
+            "x": 48,
+            "y": 59
+          },
+          "purpose": "独立中继控制台"
+        },
+        {
+          "id": "R0-S05.recorder",
+          "stand": {
+            "x": 70,
+            "y": 51
+          },
+          "purpose": "现场独立记录器"
+        },
+        {
+          "id": "R0-S05.mailbag",
+          "stand": {
+            "x": 74,
+            "y": 66
+          },
+          "purpose": "检修邮务寄存柜"
+        },
+        {
+          "id": "R0-S05.back_door",
+          "stand": {
+            "x": 83,
+            "y": 81
+          },
+          "purpose": "救援棚后门内闩"
+        }
+      ]
+    },
+    {
+      "id": "R1-S01",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 60,
+          "top": 24,
+          "right": 79,
+          "bottom": 43
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-S01.to.R0-S04",
+          "target_scene": "R0-S04",
+          "target_port": "R0-S04.to.R1-S01",
+          "stand": {
+            "x": 30,
+            "y": 85
+          }
+        },
+        {
+          "id": "R1-S01.to.R1-S02",
+          "target_scene": "R1-S02",
+          "target_port": "R1-S02.to.R1-S01",
+          "stand": {
+            "x": 89,
+            "y": 79
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-S01.arrival_note",
+          "stand": {
+            "x": 24,
+            "y": 48
+          },
+          "purpose": "接应泊位入港单"
+        },
+        {
+          "id": "R1-S01.contact",
+          "stand": {
+            "x": 45,
+            "y": 64
+          },
+          "purpose": "港口接应登记"
+        },
+        {
+          "id": "R1-S01.credentials",
+          "stand": {
+            "x": 30,
+            "y": 68
+          },
+          "purpose": "随船检修任职凭证"
+        }
+      ]
+    },
+    {
+      "id": "R1-S02",
+      "walk": {
+        "left": 5,
+        "top": 22,
+        "right": 95,
+        "bottom": 93
+      },
+      "blocked": [
+        {
+          "left": 36,
+          "top": 24,
+          "right": 50,
+          "bottom": 38
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-S02.to.R1-S01",
+          "target_scene": "R1-S01",
+          "target_port": "R1-S01.to.R1-S02",
+          "stand": {
+            "x": 48,
+            "y": 90
+          }
+        },
+        {
+          "id": "R1-S02.to.R1-S03",
+          "target_scene": "R1-S03",
+          "target_port": "R1-S03.to.R1-S02",
+          "stand": {
+            "x": 23,
+            "y": 26
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-S02.bulletin",
+          "stand": {
+            "x": 43,
+            "y": 42
+          },
+          "purpose": "A/C航道公告"
+        },
+        {
+          "id": "R1-S02.district_map",
+          "stand": {
+            "x": 60,
+            "y": 36
+          },
+          "purpose": "区域位置图，不标正确航道"
+        },
+        {
+          "id": "R1-S02.quay_contact",
+          "stand": {
+            "x": 79,
+            "y": 64
+          },
+          "purpose": "接应与离港后回执"
+        },
+        {
+          "id": "R1-S02.closure_notice",
+          "stand": {
+            "x": 50,
+            "y": 63
+          },
+          "purpose": "封港令原件"
+        }
+      ]
+    },
+    {
+      "id": "R1-S03",
+      "walk": {
+        "left": 6,
+        "top": 28,
+        "right": 94,
+        "bottom": 92
+      },
+      "blocked": [
+        {
+          "left": 31,
+          "top": 35,
+          "right": 62,
+          "bottom": 48
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-S03.to.R1-S02",
+          "target_scene": "R1-S02",
+          "target_port": "R1-S02.to.R1-S03",
+          "stand": {
+            "x": 50,
+            "y": 89
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-S03.dispatch_audio",
+          "stand": {
+            "x": 69,
+            "y": 51
+          },
+          "purpose": "修订调度录音"
+        },
+        {
+          "id": "R1-S03.route_b_rule",
+          "stand": {
+            "x": 27,
+            "y": 45
+          },
+          "purpose": "B航道条件"
+        },
+        {
+          "id": "R1-S03.havel",
+          "stand": {
+            "x": 49,
+            "y": 54
+          },
+          "purpose": "哈文工作台及方案确认"
+        },
+        {
+          "id": "R1-S03.exception_notice",
+          "stand": {
+            "x": 76,
+            "y": 69
+          },
+          "purpose": "紧急检修例外与授权范围"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "QP01-R-ROUTE",
+      "title": "Emergency passage note",
+      "scene": "R0-S01",
+      "spot": "R0-S01.route_note",
+      "modality": "reading",
+      "english": "The centre of the cabin floor is cracked. A person may appear to cross it successfully while the damaged boards continue to move underneath. Do not use that as a load test. The emergency cabinet beside the port wall contains a hand tool and a short rescue line; both belong to this vessel's rescue kit. A loose gangboard is stored along the intact side of the cabin. Secure it across the damaged section, keeping its ends on sound supports, before directing anybody towards the shore exit. The reef path begins beyond that exit. This note describes the cabin passage, not the safety of the landing place outside. Check the shore notice before choosing an approach for the rescue boat.",
+      "chinese": "船舱中央地板已经开裂。有人一度踩过去，不能证明受损板材可承重。左舷救援柜存有手工具和一根救援索，均属于本船救援包。沿完好的侧壁放着一块踏板。先把踏板两端固定在可靠支承上，再安排人员走向岸边出口。出口外才是礁岸路径；本说明不能证明岸上接应点安全，需要另查岸边告示。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP01-R-LOG",
+      "title": "Bridge observation copy",
+      "scene": "R0-S01",
+      "spot": "R0-S01.ship_log",
+      "modality": "reading",
+      "english": "Bridge observation copy — times use the same ship clock. 21:14:10: the tower light disappeared from view while the heading indicator still showed the assigned course. 21:16:00: the helmsman reported a course deviation. 21:17:40: contact with the reef was felt. The entries describe what the crew observed; they do not identify a switch operator or establish the reason for the loss of light. The ship clock has not yet been compared with a shore instrument. Preserve this copy and compare it with an independent record when the rescue work allows it.",
+      "chinese": "桥台抄记使用同一船钟。21:14:10，塔灯消失，当时航向指示仍显示规定航向。21:16:00，舵手报告偏航。21:17:40，船体触礁。记录只说明船员观察到的先后，不识别开关操作者，也不证明熄灯原因。船钟尚未与岸上仪器核对；先保留副本，完成救援后再找独立记录。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP02-R-TIDE",
+      "title": "Two shore approaches",
+      "scene": "R0-S02",
+      "spot": "R0-S02.tide_notice",
+      "modality": "reading",
+      "english": "Two markers are visible from the reef path. The southern marker stands near the broken steps. It identifies the old landing place but does not confirm that the steps remain usable after a surge. The northern reach is beyond the low stone wall. Its approach is narrow, so a rescue boat must wait for a clear signal rather than following the first moving light it sees. The winch line can guide people towards either marker. Choose the receiving direction before loading the line, and repeat the tension check whenever that direction changes. A raised hand lamp may help people find the path; it does not replace the line or repair the steps.",
+      "chinese": "礁岸可见两个标记。南标记位于破损台阶旁，标出旧接应点，并不保证浪涌后台阶仍能用。北段在矮石墙外，入口狭窄，救援船应等明确接应信号。绞盘索可朝两边接应；承载前须选方向，改向后须重新检查张力。手灯帮助辨路，不替代救援索，也不修复台阶。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP02-L-CORRECTION",
+      "title": "Shore receiving correction",
+      "scene": "R0-S02",
+      "spot": "R0-S02.shore_revision",
+      "modality": "listening_script",
+      "english": "Coast team to the stranded crew. We first marked the south steps as a possible receiving point. That instruction is withdrawn: a fresh inspection found the lower steps separated from their support. Use the northern reach beyond the low wall instead. There are four survivors waiting for assistance, apart from the technician carrying this message. Keep the rescue line clear of the broken steps. Once everyone is under shelter, send your position, the number of people needing collection and the approach restriction. Do not ask the boat to follow the southern marker merely because it is easier to see. We will acknowledge the request through the coast relay.",
+      "chinese": "海岸队更正原先南台阶方案：现场复查发现下段台阶脱离支承，撤回旧指示。改用矮墙外的北段。有四名幸存者需要接应，不含传递消息的检修员。索具避开破损台阶。人员进入棚内后，发送位置、接应人数和进路限制，接应船不会因南标记显眼就改走那里。通过海岸中继确认求援。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP02-R-WINCH",
+      "title": "Winch isolation and load check",
+      "scene": "R0-S03",
+      "spot": "R0-S03.winch_note",
+      "modality": "reading",
+      "english": "The shore winch has its own small reserve; it is not supplied by the harbour generator or by a ship battery. Switch its local power off and isolate the drive before seating the displaced cable. Secure the rescue line at the marked anchor, then set the receiving direction. The cable and line may be prepared in either order while the drive is isolated. Restore local power only after both are secure. Run the tension check with no people on the line. A check belongs to that configuration: moving the receiving direction, reseating the cable or changing power cancels its validity. The nearby animals must be kept away from the receiving path before the line carries people. If a check fails, keep people in the protected assembly area and inspect the preparation again; taking time to read this card does not change the number of survivors. The shelter retains a working short-range distress set for the shore receiving team. It can send the registered rescue request before the separate coast-to-harbour relay is restored. Harbour pickup is confirmed through that relay later; a saved draft at the shelter has not yet sent a request.",
+      "chinese": "岸边绞盘使用自己的储备，和港口发电机、船电池无关。关闭本地电源并隔离驱动后，重新落座移位的钢缆。救援索固定在标记锚点，设置接应方向；隔离状态下，钢缆与索具可按任意先后准备。两者固定后才能恢复本地电源，先空载检查张力。证书只对应当次配置；改方向、缆线或电源均使旧检查失效。承载前须制止接应路径附近的动物威胁。检查失败时人员留在保护集合处，阅读不会减少幸存者。 救援棚有可用的短距求援台，能先向岸上接应队发送已登记求援；海岸至港口的独立中继另行恢复，之后才能确认港口接应。发送台保存稿件还没有发送请求。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP03-R-RELAY",
+      "title": "Coast relay restoration card",
+      "scene": "R0-S05",
+      "spot": "R0-S05.relay_note",
+      "modality": "reading",
+      "english": "This relay records signals locally even when its outgoing link is unavailable. The independent recorder and the outgoing transmitter are separate parts of the station. Before touching the displaced outgoing lead, switch the local transmitter off and isolate it. Seat the lead, restore the station's own reserve and run a link check. The test confirms this lead and power configuration only. If either changes, repeat it before requesting a boat. A successful link test is not evidence that a distant tower is safe. The postal locker may be opened for the named technician after the shore rescue has been completed. Its contents are correspondence, not a certificate about the sender's present whereabouts. The rear latch can be opened from this room to provide a shorter route back to the rescue shelter.",
+      "chinese": "中继站外发链路中断时仍可本地记录；独立记录器与外发设备是两个部件。检修移位接线前关闭并隔离本地发送设备，再落座接线，恢复本站储备，做当前配置链路检查。改变接线或电源须重新检查；成功不证明远方塔站安全。救援完成后，具名检修员才可领取邮务柜通信，它不证明寄信人目前所在或状态。后门内闩可从站内打开，缩短返回救援棚的路线。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP03-R-RECORDER",
+      "title": "Independent coast signal extract",
+      "scene": "R0-S05",
+      "spot": "R0-S05.recorder",
+      "modality": "reading",
+      "english": "Coast recorder extract. Instrument clock: 21:14:12, light signal lost at the observed tower channel. Further gaps occur in the same recording window, but the extract does not contain a complete network diagnosis. The shore clock and ship clock differ by approximately two seconds in their last routine comparison. Taken with the ship observation copy, this extract supports the order of light loss followed by course deviation. It does not name the person responsible, explain why every gap occurred or establish that the outage was deliberate. Keep the original time labels attached when making a later comparison.",
+      "chinese": "海岸记录器摘录：仪器钟21:14:12，所观测塔台信号消失；同一窗口还有其他缺口，摘录并非完整网络诊断。最近一次常规比对中，岸钟与船钟相差约两秒。结合船上抄记，资料支持先熄灯后偏航，不识别责任人，不解释每个缺口，也不证明故意断供。后续比对保留原始时间标签。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP03-R-MAIL",
+      "title": "Mara’s retained-record request",
+      "scene": "R0-S05",
+      "spot": "R0-S05.mailbag",
+      "modality": "reading",
+      "english": "To the new technician, from Mara. If a record is marked for destruction, first ask who issued the instruction, which version it concerns and what other record can be used to check it. A tidy report may leave out the circumstances that made its conclusion seem convincing. I have enclosed a request to compare the public maintenance record with an independent source. Deal with immediate rescue work before following it. This letter was placed in the inspection post before your journey; it cannot tell you where I am when you read it. Do not treat my concerns as proof. Preserve what you actually find, including anything that does not support the explanation you expected.",
+      "chinese": "玛拉给新检修员的留言：遇到要求销毁的记录，先核对指令签发者、所指版本和可独立核验的来源。整齐报告可能省略形成结论的条件。附上公共检修记录比对请求，但眼前救援优先。信件在旅程前寄存，不能说明阅读时玛拉所在。疑虑不是证明，应保留实际找到的资料，包括不支持预期解释的部分。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "QP03-R-PICKUP",
+      "title": "Coast pickup acknowledgement",
+      "scene": "R0-S04",
+      "spot": "R0-S04.pickup",
+      "modality": "reading",
+      "english": "Coast pickup acknowledgement. Four people registered at the sheltered assembly point will be collected, together with the technician. The receiving route is the northern reach; the southern steps remain unavailable. Wait at the shelter's marked boarding point. The receiving crew will carry everyone to the public arrival berth at Saltmist Harbour. This acknowledgement permits that rescue passage only. It is not a general sailing licence, a maintenance commission or the handover of a patrol vessel. Take the coast records with you, keeping their source and time labels.",
+      "chinese": "接应回执：接走避风棚登记的四名幸存者和检修员，经北段上船，南台阶仍不可用。在棚外登记登船点等接应，前往盐雾港公共接应泊位。这只允许本次救援通行，不是一般航行许可、检修委托或巡灯船移交。带走资料并保留来源、时间标签。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q101-R-ARRIVAL",
+      "title": "Public arrival record",
+      "scene": "R1-S01",
+      "spot": "R1-S01.arrival_note",
+      "modality": "reading",
+      "english": "Arrival record — rescue passage from the stranded coast. The public arrival berth receives the technician and four registered survivors. Record their arrival before requesting further harbour work; a person carried here is not automatically signed onto another vessel's crew. Two different berths are shown on the quay plan. The civil ferry is awaiting maintenance and a safe departure arrangement. The stored patrol boat has no handover authorisation on this arrival record. A harbour officer may review a limited maintenance request at the public dispatch desk. Bring the rescue acknowledgement and your inspection appointment, and consult the current closure order rather than assuming that rescue passage suspends it.",
+      "chinese": "搁浅海岸救援入港记录：接应泊位接收检修员和四名已登记幸存者。先登记到港，再申请后续港口工作；接应入港不自动成为另一船的船员。码头显示不同泊位：民用渡轮待检修与安全撤离方案；封存巡灯船没有在此记录中授权移交。公共调度台可审查有限检修申请，须携救援回执及任职凭证，并查现行封港令。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q101-R-CREDENTIAL",
+      "title": "Inspection appointment carried aboard",
+      "scene": "R1-S01",
+      "spot": "R1-S01.credentials",
+      "modality": "reading",
+      "english": "Inspection appointment. The bearer is a trainee technician assigned to public navigation maintenance. The appointment establishes a role, not unrestricted access to every power installation. Local harbour work must be commissioned by the officer responsible for the site. Follow the conditions on that commission and keep separate records for each device. A civil ferry's navigation lamp, a workshop's independent controller and the harbour main generator are not interchangeable authorisations. This appointment was carried on the inspection vessel. It does not certify language performance, membership of a faction or the present location of the technician's mentor.",
+      "chinese": "随检修船携带的任职凭证：持有人为公共导航检修见习员。身份不等于任意电力设施访问权；地方工作须由现场负责人委托，并按设备分别记录。民用渡轮导航灯、工坊独立控制器、港口主发电机不是通用授权。凭证不证明英语表现、组织成员身份或导师目前位置。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q101-R-CLOSURE",
+      "title": "Current harbour closure order",
+      "scene": "R1-S02",
+      "spot": "R1-S02.closure_notice",
+      "modality": "reading",
+      "english": "Harbour closure order — current copy. General departures are suspended while the navigation restrictions are reviewed. Rescue arrivals continue at the public receiving berth. An arrival under that provision does not grant a vessel permission to depart. The dispatch office may issue a limited local maintenance commission where the work supports a specific safe evacuation arrangement. The commission must name its work area and power boundary. It does not itself clear a route, approve an untested navigation lamp or transfer ownership of a vessel. A later departure instruction must be checked against the route notices and the vessel's current configuration. The public consultation desk remains accessible during the closure; restricted records and equipment require their own authorisation.",
+      "chinese": "现行封港令：一般出港暂停，公共泊位仍接收救援入港；允许入港不等于允许出港。调度室可为明确安全撤离工作签发有限地方检修委托，写明作业范围和供电边界。委托本身不开放航道、不认可未经测试导航灯、不移交船产权。出港另需按航道资料及船舶当前配置核对。公共咨询区开放，受限记录与设备需各自授权。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q101-R-EXCEPTION",
+      "title": "Limited local maintenance exception",
+      "scene": "R1-S03",
+      "spot": "R1-S03.exception_notice",
+      "modality": "reading",
+      "english": "Limited maintenance exception. Havel, the dispatch officer, may commission inspection and repair of the civil ferry's navigation equipment and the local workshop arrangements needed to obtain its replacement parts. State that the purpose is evacuation assistance and identify those work areas in the request. Harbour main-generator operation is outside this exception: its safety isolation has not been confirmed. A commission allows local preparation; the ferry remains at the quay until a tested current configuration and an explicitly confirmed departure plan are available. Neither a fee nor a language score is required to request the commission. Crew recruitment, patrol-boat use and access to retained accident records are separate decisions and must not be inferred from this document.",
+      "chinese": "有限检修例外：调度负责人哈文可委托民用渡轮导航设备检修及为取替换件所需的本地工坊操作。申请写明协助撤离及这些范围。主发电机安全隔离尚未确认，操作它不在例外内。委托只允许准备；当前配置测试与明确离港方案确认完成前，渡轮留港。申请不需费用或英语分数；招募、巡灯船及事故记录调阅均另行授权。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    }
+  ],
+  "stations": [
+    {
+      "spot": "R0-S01.tools",
+      "label": "船舱救援柜",
+      "materials": [],
+      "actions": [
+        "acquire_rescue_tools"
+      ]
+    },
+    {
+      "spot": "R0-S01.floor",
+      "label": "断裂地板与加固踏板",
+      "materials": [],
+      "actions": [
+        "reinforce_cabin_path"
+      ]
+    },
+    {
+      "spot": "R0-S01.route_note",
+      "label": "舱内位置与撤离说明",
+      "materials": [
+        "QP01-R-ROUTE"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R0-S01.ship_log",
+      "label": "桥台观测抄记",
+      "materials": [
+        "QP01-R-LOG"
+      ],
+      "actions": [
+        "confirm_coast_timeline"
+      ]
+    },
+    {
+      "spot": "R0-S02.tide_notice",
+      "label": "潮位与礁岸说明",
+      "materials": [
+        "QP02-R-TIDE"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R0-S02.shore_revision",
+      "label": "接应更正留言",
+      "materials": [
+        "QP02-L-CORRECTION"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R0-S02.landing",
+      "label": "岸边集合与接应地标",
+      "materials": [],
+      "actions": [
+        "evacuate_to_shore"
+      ]
+    },
+    {
+      "spot": "R0-S02.creature",
+      "label": "近岸生物危险边界",
+      "materials": [],
+      "actions": [
+        "begin_shore_encounter"
+      ]
+    },
+    {
+      "spot": "R0-S03.winch_note",
+      "label": "岸边绞盘检修卡",
+      "materials": [
+        "QP02-R-WINCH"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R0-S03.winch",
+      "label": "救援索与绞盘控制位",
+      "materials": [],
+      "actions": [
+        "isolate_winch",
+        "seat_winch_cable",
+        "fix_rescue_rope",
+        "choose_receiving_direction",
+        "power_winch",
+        "test_winch",
+        "move_survivors_to_shelter"
+      ]
+    },
+    {
+      "spot": "R0-S03.relay_entrance",
+      "label": "中继检修入口标牌",
+      "materials": [],
+      "actions": [
+        "inspect_relay_entrance"
+      ]
+    },
+    {
+      "spot": "R0-S04.survivor_register",
+      "label": "避风棚幸存者登记台",
+      "materials": [],
+      "actions": [
+        "register_survivors"
+      ]
+    },
+    {
+      "spot": "R0-S04.message_desk",
+      "label": "求援发送台",
+      "materials": [],
+      "actions": [
+        "write_rescue_message"
+      ]
+    },
+    {
+      "spot": "R0-S04.pickup",
+      "label": "接应信息回执",
+      "materials": [
+        "QP03-R-PICKUP"
+      ],
+      "actions": [
+        "acknowledge_pickup"
+      ]
+    },
+    {
+      "spot": "R0-S05.relay_note",
+      "label": "中继站检修卡",
+      "materials": [
+        "QP03-R-RELAY"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R0-S05.relay",
+      "label": "独立中继控制台",
+      "materials": [],
+      "actions": [
+        "isolate_relay",
+        "seat_relay_lead",
+        "power_relay",
+        "test_relay"
+      ]
+    },
+    {
+      "spot": "R0-S05.recorder",
+      "label": "现场独立记录器",
+      "materials": [
+        "QP03-R-RECORDER"
+      ],
+      "actions": [
+        "collect_coast_record"
+      ]
+    },
+    {
+      "spot": "R0-S05.mailbag",
+      "label": "检修邮务寄存柜",
+      "materials": [
+        "QP03-R-MAIL"
+      ],
+      "actions": [
+        "collect_inspection_mail"
+      ]
+    },
+    {
+      "spot": "R0-S05.back_door",
+      "label": "救援棚后门内闩",
+      "materials": [],
+      "actions": [
+        "open_shelter_back_door"
+      ]
+    },
+    {
+      "spot": "R1-S01.arrival_note",
+      "label": "接应泊位入港单",
+      "materials": [
+        "Q101-R-ARRIVAL"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R1-S01.contact",
+      "label": "港口接应登记",
+      "materials": [],
+      "actions": [
+        "register_harbour_arrival"
+      ]
+    },
+    {
+      "spot": "R1-S01.credentials",
+      "label": "随船检修任职凭证",
+      "materials": [
+        "Q101-R-CREDENTIAL"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R1-S02.bulletin",
+      "label": "A/C航道公告",
+      "materials": [],
+      "actions": []
+    },
+    {
+      "spot": "R1-S02.district_map",
+      "label": "区域位置图，不标正确航道",
+      "materials": [],
+      "actions": []
+    },
+    {
+      "spot": "R1-S02.quay_contact",
+      "label": "接应与离港后回执",
+      "materials": [],
+      "actions": []
+    },
+    {
+      "spot": "R1-S02.closure_notice",
+      "label": "封港令原件",
+      "materials": [
+        "Q101-R-CLOSURE"
+      ],
+      "actions": []
+    },
+    {
+      "spot": "R1-S03.dispatch_audio",
+      "label": "修订调度录音",
+      "materials": [],
+      "actions": []
+    },
+    {
+      "spot": "R1-S03.route_b_rule",
+      "label": "B航道条件",
+      "materials": [],
+      "actions": []
+    },
+    {
+      "spot": "R1-S03.havel",
+      "label": "哈文工作台及方案确认",
+      "materials": [],
+      "actions": [
+        "write_harbour_request"
+      ]
+    },
+    {
+      "spot": "R1-S03.exception_notice",
+      "label": "紧急检修例外与授权范围",
+      "materials": [
+        "Q101-R-EXCEPTION"
+      ],
+      "actions": []
+    }
+  ],
+  "shore_encounter": {
+    "id": "SHORE-CREATURE",
+    "hp": 74,
+    "armor_bp": 0,
+    "pressure_threshold": 3,
+    "initiative": 8,
+    "pattern": [
+      {
+        "name": "扑向接应路径",
+        "damage": 14,
+        "target": "unit",
+        "interruptible": true
+      },
+      {
+        "name": "横向冲撞",
+        "damage": 20,
+        "target": "column",
+        "interruptible": true
+      }
+    ],
+    "balance_status": "candidate_unbalanced"
+  },
+  "source_rules": [
+    "World_Story_Bible_v0.1.md §6.1–6.2",
+    "Exploration_Level_Design_v0.1.md §9.1–9.2",
+    "Quest_Event_System_v0.1.md Appendix A",
+    "Character_Progression_v0.1.md §14 and Appendix A"
+  ],
+  "original_local_details": [
+    "原创待审：四名幸存者（不含玩家）的场景登记数；不改变固定人物生死。",
+    "原创待审：船钟21:14:10熄灯、21:16:00偏航；岸钟相差约两秒。时间只落实固定先后，不赋予责任人知识。",
+    "原创待审：北段接应／南台阶损坏的局部地标，救援索与中继本地储备独立于港口与渡轮资源。",
+    "原创待审：近岸生物74HP与14/20意图属于未平衡灰盒参数，不代替正式遭遇制作与人测。",
+    "原创待审：救援棚可用的短距求援台独立于待恢复的海岸至港口中继，落实QP02先发送、QP03后恢复中继的既有任务先后，不引入主发电机授权。"
+  ],
+  "remaining": [
+    "所有英文原创材料审校与各6.5目标真人校准待完成。",
+    "QP02更正当前只有完整脚本，实际音轨／审听／音源权利未完成；显式文字辅助不算真实听力。",
+    "正常新档真实Godot录像、IME与全键盘人测尚待root接入与执行。",
+    "Q103、Q104、微光号移交与第一章后续均未由本包实现。",
+    "完整首章与其余章节正式美术、真实声音和人工门保持待完成。"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-10T12:43:38.783777+00:00",
+  "argv": [
+    "D:\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\verify_handoff.py"
+  ],
+  "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+  "exit_code": 0,
+  "stdout_file": "verify_handoff.stdout.json",
+  "stderr_file": "verify_handoff.stderr.log",
+  "stdout_sha256": "bc30d26e20da674f1bf9f5ec6609d96205020e835b04a90e60bcac3bba4347b6",
+  "scope": "planning integrity and traceability only; not production game or human acceptance"
+}

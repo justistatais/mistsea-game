@@ -1,0 +1,21 @@
+{
+  "scope": "actual native UI boarded Glimmer from current registered R1 berth",
+  "actor": {
+    "scene": "HUB-S01",
+    "position": {
+      "x": 20,
+      "y": 82
+    },
+    "action_clock": 104
+  },
+  "balances": {
+    "experience": 900,
+    "marks": 400,
+    "parts": 7
+  },
+  "q104_receipts": 1,
+  "glimmer_instances": 1,
+  "human_ime": "not_run",
+  "screen_reader": "not_run",
+  "human_signoff": null
+}

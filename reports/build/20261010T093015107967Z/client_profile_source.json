@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T085230712857Z",
+  "selected_case": {
+    "index": 407,
+    "task": "CP-R5-05",
+    "name": "Actual zero-XP R4R5 arrival produces a native entry with local work untouched"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "0d4d75a7aa932b3887d770a86ae96992a5447f1e9c0dcc8b2fd21af6132fb122",
+  "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/recovery/inventory-v2-bebb09ca-fd34-4d5c-bdbb-89aa8a50d2ef.sqlite",
+  "source_active_database_sha256": "7bb917e36fee127a93e91df972a352b20c8ae9a76d12d4049737a05c89cc3eb1",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T085230712857Z",
+  "source": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/recovery/normal-r5-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 407,
+    "task": "CP-R5-05",
+    "name": "Actual zero-XP R4R5 arrival produces a native entry with local work untouched"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "7bd84c67448cd71a0640df88c7387488ecf92891da8da6f4d1d488c19a25b437",
+  "compiled_artifacts_sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e",
+  "case_results_sha256": "ce4cc3447c59c325160f0e7ccbd88cc109a18dcf84ab70c8a1b1b3e609cb478a",
+  "case_command_sha256": "870604a81ef624648c89d6e06691c984db68b129f4a017dbb222f7fd5e2e0c2d",
+  "proof_sha256": "0d4d75a7aa932b3887d770a86ae96992a5447f1e9c0dcc8b2fd21af6132fb122",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "6dec8463997bc6ba8e03af97f9727b754ce2ffbe668fc326808ce20249f2c32e"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "09fed77d391700fd92a27062c987174835e2f2cd7043c1e05c5aaa780372036d"
+    },
+    {
+      "path": "recovery/inventory-v2-bebb09ca-fd34-4d5c-bdbb-89aa8a50d2ef.sqlite",
+      "sha256": "7bb917e36fee127a93e91df972a352b20c8ae9a76d12d4049737a05c89cc3eb1"
+    },
+    {
+      "path": "recovery/normal-r2-main.json",
+      "sha256": "cc2b455e100bcc4375667445f0fa2e4c1a740cf458a58db48c136f669625beeb"
+    },
+    {
+      "path": "recovery/normal-r5-native-entry.json",
+      "sha256": "0d4d75a7aa932b3887d770a86ae96992a5447f1e9c0dcc8b2fd21af6132fb122"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/control.sqlite",
+      "sha256": "6dec8463997bc6ba8e03af97f9727b754ce2ffbe668fc326808ce20249f2c32e",
+      "copied_before_native_sha256": "6dec8463997bc6ba8e03af97f9727b754ce2ffbe668fc326808ce20249f2c32e"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/profile.sqlite",
+      "sha256": "09fed77d391700fd92a27062c987174835e2f2cd7043c1e05c5aaa780372036d",
+      "copied_before_native_sha256": "09fed77d391700fd92a27062c987174835e2f2cd7043c1e05c5aaa780372036d"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/recovery/inventory-v2-bebb09ca-fd34-4d5c-bdbb-89aa8a50d2ef.sqlite",
+      "sha256": "7bb917e36fee127a93e91df972a352b20c8ae9a76d12d4049737a05c89cc3eb1",
+      "copied_before_native_sha256": "7bb917e36fee127a93e91df972a352b20c8ae9a76d12d4049737a05c89cc3eb1"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/recovery/normal-r2-main.json",
+      "sha256": "cc2b455e100bcc4375667445f0fa2e4c1a740cf458a58db48c136f669625beeb",
+      "copied_before_native_sha256": "cc2b455e100bcc4375667445f0fa2e4c1a740cf458a58db48c136f669625beeb"
+    },
+    {
+      "source": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/recovery/normal-r5-native-entry.json",
+      "sha256": "0d4d75a7aa932b3887d770a86ae96992a5447f1e9c0dcc8b2fd21af6132fb122",
+      "copied_before_native_sha256": "0d4d75a7aa932b3887d770a86ae96992a5447f1e9c0dcc8b2fd21af6132fb122"
+    }
+  ]
+}

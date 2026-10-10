@@ -1,0 +1,1296 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 256,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CX-006",
+      "name": "Core assembly has no Godot, SQLite or HTTP dependency",
+      "result": "passed"
+    },
+    {
+      "task": "CX-006",
+      "name": "Assistance capability cannot execute world commands",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Duplicate JSON fields are rejected recursively",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Unknown enum and integer enum are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Typed identity serialization preserves its exact GUID",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Unicode scalar ranges preserve emoji, combining marks and Chinese",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Wall time observations cannot advance action or combat clocks",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Language target cannot silently rise or introduce speaking scores",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Integer rewards use exact floor basis points",
+      "result": "passed"
+    },
+    {
+      "task": "CX-011",
+      "name": "Relevant reads ignore dictionary but invalidate battery/load",
+      "result": "passed"
+    },
+    {
+      "task": "CX-011",
+      "name": "Unknown system state and empty evidence never imply readiness",
+      "result": "passed"
+    },
+    {
+      "task": "CX-012",
+      "name": "Real profile schema enforces foreign keys and unique ownership slots",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Read-only snapshot query does not write database or advance clock",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Mid-write exception rolls back all world changes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Insufficient balance rolls back earlier item transfer",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Busy competing connection does not block caller thread",
+      "result": "passed"
+    },
+    {
+      "task": "CX-014",
+      "name": "Request and semantic work deduplicate; outbox display grants nothing",
+      "result": "passed"
+    },
+    {
+      "task": "CX-014",
+      "name": "Two actual stores serialize concurrent work without double reward",
+      "result": "passed"
+    },
+    {
+      "task": "CX-015",
+      "name": "Before/after reward checkpoints branch correctly and learning persists",
+      "result": "passed"
+    },
+    {
+      "task": "CX-015",
+      "name": "Continue preserves encounter instance; automatic slots preserve protected point",
+      "result": "passed"
+    },
+    {
+      "task": "CX-016",
+      "name": "Local retry preserves external state and refuses successful reward rewind",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Unicode drafts CAS globally and old branch heads keep their version",
+      "result": "passed"
+    },
+    {
+      "task": "CX-016",
+      "name": "Actual retry transaction preserves latest draft, collected material and delivered transport",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Failed draft write never acknowledges saved text",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Three shared editor entrances reject old ACK and device action leaves text",
+      "result": "passed"
+    },
+    {
+      "task": "CX-018",
+      "name": "Playback/subtitles/repeat/support are distinct from independent evidence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Draft erasure preserves world receipts and prevents old backup resurrection",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Learning tombstone survives cleanup interruption and old restore",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Assistance routes current/old draft/archived branch/discarded and requires consent",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Failed migration preserves live database; high schema refuses all writes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Missing deletion control halts without touching main file",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Corrupt backups are rejected and managed cleanup preserves outside file",
+      "result": "passed"
+    },
+    {
+      "task": "CX-022",
+      "name": "Real child process kill before commit recovers original complete state",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Actual corrupt main is preserved while validated recovery switches candidate",
+      "result": "passed"
+    },
+    {
+      "task": "CX-022",
+      "name": "Real child process kill after commit recovers new complete state",
+      "result": "passed"
+    },
+    {
+      "task": "CX-009",
+      "name": "Nine source adapters preserve English text and real reward mapping",
+      "result": "passed"
+    },
+    {
+      "task": "CX-009",
+      "name": "Unknown source fields and unmapped legacy rewards are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-010",
+      "name": "Compiler refuses changed same-version text, broken graph and SYNTHETIC",
+      "result": "passed"
+    },
+    {
+      "task": "CX-010",
+      "name": "Formal build is blocked by missing audio, editorial/calibration and signature",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Unsigned internal package requires explicit allowance; hashes are not signatures",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Actual RSA test signature is verified and wrong key rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Traversal, executable assets, hash changes and absent audio binding are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Present audio cannot be bound to the wrong text version",
+      "result": "passed"
+    },
+    {
+      "task": "CX-023",
+      "name": "Nested ownership, editing, IME and background input cannot execute world",
+      "result": "passed"
+    },
+    {
+      "task": "CX-024",
+      "name": "Body radius, obstacles and screen transforms hold at five viewport sizes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-025",
+      "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+      "result": "passed"
+    },
+    {
+      "task": "CX-025",
+      "name": "Missing paired entry preserves source actor and sequence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-026",
+      "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+      "result": "passed"
+    },
+    {
+      "task": "CX-027",
+      "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-029",
+      "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+      "result": "passed"
+    },
+    {
+      "task": "CX-034",
+      "name": "One NPC lease spans locations and expires on new load context",
+      "result": "passed"
+    },
+    {
+      "task": "CX-033",
+      "name": "Local feedback locates original text and never inserts or estimates a band",
+      "result": "passed"
+    },
+    {
+      "task": "CX-032",
+      "name": "Partial order allows both install orders; unknown capacity and missing steps do not pass",
+      "result": "passed"
+    },
+    {
+      "task": "CX-033",
+      "name": "Six learning states require scoped reviewed successes, distinct families and real calendar delay",
+      "result": "passed"
+    },
+    {
+      "task": "CX-030",
+      "name": "An available but unplayed audio cannot be independent listening",
+      "result": "passed"
+    },
+    {
+      "task": "CX-035",
+      "name": "B is not corrected to C; changed draft requires reconfirmation; blank support remains explicit",
+      "result": "passed"
+    },
+    {
+      "task": "CX-036",
+      "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+      "result": "passed"
+    },
+    {
+      "task": "CX-037",
+      "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+      "result": "passed"
+    },
+    {
+      "task": "CX-037",
+      "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+      "result": "passed"
+    },
+    {
+      "task": "CX-038",
+      "name": "Actual SQLite full noncombat route: Isolated",
+      "result": "passed"
+    },
+    {
+      "task": "CX-038",
+      "name": "Actual SQLite full noncombat route: Focused",
+      "result": "passed"
+    },
+    {
+      "task": "CX-040",
+      "name": "Threshold edges, 62 attributes and 16 skills; Q102 result level differs from entry",
+      "result": "passed"
+    },
+    {
+      "task": "CX-041",
+      "name": "Whole build prerequisites cannot self-fund; passives use no active slot",
+      "result": "passed"
+    },
+    {
+      "task": "CX-044",
+      "name": "Damage floors once, capped pools and exact golden values",
+      "result": "passed"
+    },
+    {
+      "task": "CX-043",
+      "name": "Ally phase first, stable ID ties, no UI refill and CD1 skips an entire personal slot",
+      "result": "passed"
+    },
+    {
+      "task": "CX-044",
+      "name": "Shield takes max and source expiry survives source down; weak guard cannot renew strong guard",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "Ordinary stagger cancels once, consumes pattern index and needs recovery slot",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "Boss break weakens one attack while interlocks and recovery remain",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "Revive waits until next round; down personal clock still advances; aid is shared",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Unit locks follow person; column locks follow positions without hidden retarget",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Rear melee blocked, swap budget once, missing targets reject without mutation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-045",
+      "name": "A canceled or preparatory enemy attack cannot consume traps; paid recovery refunds once",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "All six assistance kits use 2 AP; helper basic preview equals actual 0.65 resolution",
+      "result": "passed"
+    },
+    {
+      "task": "CX-048",
+      "name": "Three actual level-3 workshop candidates finish with finite resources and no rare equipment",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Three actual level-5 tower candidates, both valve orders, no grade-1 advance",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Tower damage stays zero before valves and 1HP before isolation; cleansing cannot unlock it",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "Schema-2 migration preserves original SHA and interrupted candidate cannot promote",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "A second live store cannot write the preserved old database after pointer promotion",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "SQLite module transfer is free, upgrade consumes original atomically, replay cannot double-pay",
+      "result": "passed"
+    },
+    {
+      "task": "CX-042",
+      "name": "Insufficient module resources leave ownership and balances unchanged",
+      "result": "passed"
+    },
+    {
+      "task": "CX-050",
+      "name": "Stable SQLite combat action continues exactly; cancelled and old-load previews cannot act",
+      "result": "passed"
+    },
+    {
+      "task": "CX-050",
+      "name": "Real personal supply is consumed once; retry restores entrance and preserves latest draft",
+      "result": "passed"
+    },
+    {
+      "task": "CX-048",
+      "name": "Actual workshop victory atomically disables only unit; bracket remains at physical shelf",
+      "result": "passed"
+    },
+    {
+      "task": "CX-050",
+      "name": "Injected combat commit failure rolls back complete action, then exact preview retries",
+      "result": "passed"
+    },
+    {
+      "task": "CX-053",
+      "name": "Three full actual SQLite methods share the same reward and remain in port",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H01 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H04 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H07 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H10 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M01 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M04 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M07 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M10 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S02 actual damage, single root event, AP/focus/cooldown",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M06 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S01 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S06 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S07 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S10 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H06 actual shield and distinct targets, no healing or device repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H02 stance and S04 empowerment bind to source clock, never return AP",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M02 deploys paid unique device and consumes exactly one when a real attack begins",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H03 A damage bonus and H05 exposed bonus are effectful",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "H08 one encounter refund, H09 next-hit guard, H11 exposed coefficient, H12 threshold",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M03 boosts technical active damage but excludes tech basic; M05 grants one derived shield",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M08 permits two devices but one fires per source; M11 and M12 use nonrecursive budgets",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "M09 cannot refund a zero-fee fixture or another owner\u0027s device",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S03 shield pool and S05 other-target self shield cannot recurse",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S08 survives threshold damage once and never shields a downed actor",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "S09 next proactive shield, S11 per-target coefficient and S12 one original-fee discount",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "WP01 ordered basic guard, WP02 hammer and WP03 first basic only",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "WP04 requires existing exposure; WP05 discount persists; WP06 first proactive shield",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "AR01 baseline, AR02/03 initiative, AR04 device shield, AR05 DOT, AR06 other shield",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "RE01/02/05/06/08 conditional effects produce actual shield, pressure and device damage",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "RE03/04/07/09/11 static effects derive from actual equipped definitions",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "RE10 successful ordinary cleanse only; RE12 revive shield only once per encounter",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-01 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-02 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-03 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "CON-04 actual carried supply effect and once-per-slot ownership",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-D1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-D2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-K1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-K2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-L1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-L2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-E1 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-052",
+      "name": "MOD-E2 equipped stat effect and exact declared resource cost",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-LINA level12 A changes actual attack coefficient, preserving two AP budget",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-OREN level12 A changes actual attack coefficient, preserving two AP budget",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-MIRA level12 A changes actual attack coefficient, preserving two AP budget",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-TESS level12 A changes actual attack coefficient, preserving two AP budget",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-LINA level12 B changes actual shield or paid trap coefficient",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-OREN level12 B changes actual shield or paid trap coefficient",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-MIRA level12 B changes actual shield or paid trap coefficient",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-TESS level12 B changes actual shield or paid trap coefficient",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-LINA level20 A applies the declared independent guard, pressure or shield effect",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-OREN level20 A applies the declared independent guard, pressure or shield effect",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-MIRA level20 A applies the declared independent guard, pressure or shield effect",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-TESS level20 A applies the declared independent guard, pressure or shield effect",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-LINA level20 B cannot mint an additional turn or perform unselected support",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-OREN level20 B cannot mint an additional turn or perform unselected support",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-MIRA level20 B cannot mint an additional turn or perform unselected support",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-TESS level20 B cannot mint an additional turn or perform unselected support",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-LINA level24 A changes cooldown or pressure without same-slot repeat",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-OREN level24 A changes cooldown or pressure without same-slot repeat",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-MIRA level24 A changes cooldown or pressure without same-slot repeat",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-TESS level24 A changes cooldown or pressure without same-slot repeat",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-LINA level24 B retains finite cleanse, target, guard and device capacity",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-OREN level24 B retains finite cleanse, target, guard and device capacity",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-MIRA level24 B retains finite cleanse, target, guard and device capacity",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "CP-TESS level24 B retains finite cleanse, target, guard and device capacity",
+      "result": "passed"
+    },
+    {
+      "task": "CX-047",
+      "name": "Choices below their level gate and simultaneous invalid choice are rejected before actions",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Threat preview is pure and distinguishes original unit, column, shield and HP loss",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "A movement shield without a legal move still shields, with no extra action",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Reinforcement is declared in advance, acts only next round and never repeats its source call",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Occupied reinforcement slot defers once then falls back, without replacing any of four enemies",
+      "result": "passed"
+    },
+    {
+      "task": "CX-046",
+      "name": "Unknown or recursive reinforcement templates fail validation and ordinary stagger cancels the call",
+      "result": "passed"
+    },
+    {
+      "task": "CX-062",
+      "name": "A paid supply sale has stable request recovery, payload binding and a single conserved refund",
+      "result": "passed"
+    },
+    {
+      "task": "CX-062",
+      "name": "Free supply instances and forged paid-looking names cannot become a coin loop",
+      "result": "passed"
+    },
+    {
+      "task": "CX-062",
+      "name": "Illegal full build proposal leaves existing build, resources and earned upgrade budget unchanged",
+      "result": "passed"
+    },
+    {
+      "task": "CX-056",
+      "name": "A permanently assigned operator cannot depart, borrow an additional relic or fill assistance",
+      "result": "passed"
+    },
+    {
+      "task": "CX-057",
+      "name": "Each unresolved breach survives unrelated cooperation and requires its own accepted repair",
+      "result": "passed"
+    },
+    {
+      "task": "CX-055",
+      "name": "NPC lease aliases and reserved foreground keys cannot create parallel identities",
+      "result": "passed"
+    },
+    {
+      "task": "CX-054",
+      "name": "Thirteen identities, temporal evidence and neutral refusal never echo a guessed secret",
+      "result": "passed"
+    },
+    {
+      "task": "CX-054",
+      "name": "Actual delivery alone grants knowledge; copy/replay has one source; chapter and load grant none",
+      "result": "passed"
+    },
+    {
+      "task": "CX-055",
+      "name": "All leases are atomic; a failed multi-resource request holds no partial resource",
+      "result": "passed"
+    },
+    {
+      "task": "CX-055",
+      "name": "Writing cannot be interrupted; pause/resume retains seed/node, foreground exclusion and work post",
+      "result": "passed"
+    },
+    {
+      "task": "CX-055",
+      "name": "Declared expiry cancels only the relevant event and never advances on wall time",
+      "result": "passed"
+    },
+    {
+      "task": "CX-056",
+      "name": "Lina cannot join at Q102, decline permits another invitation, two auxiliaries remain",
+      "result": "passed"
+    },
+    {
+      "task": "CX-056",
+      "name": "Late tactics use shared level; one borrowed relic returns as the same instance on safe departure",
+      "result": "passed"
+    },
+    {
+      "task": "CX-057",
+      "name": "Issue disagreement, subtitles and grammar have no work penalty; repair adds history",
+      "result": "passed"
+    },
+    {
+      "task": "CX-057",
+      "name": "Disclosure refuses arbitrary prose/meeting/revised recipient; confirmed field delivery occurs once",
+      "result": "passed"
+    },
+    {
+      "task": "CX-057",
+      "name": "Grant revoked before confirmation invalidates old preview, leaving the world unsent",
+      "result": "passed"
+    },
+    {
+      "task": "CX-058",
+      "name": "Five scopes depend on actual receipts/capacity, not policy stance or gifts",
+      "result": "passed"
+    },
+    {
+      "task": "CX-058",
+      "name": "Six regions require distinct operator/representative appointments and cannot copy one signature",
+      "result": "passed"
+    },
+    {
+      "task": "CX-059",
+      "name": "Finite contracts deliver only after prescribed steps; repeat receipt never credits twice",
+      "result": "passed"
+    },
+    {
+      "task": "CX-059",
+      "name": "Missing second material rejects the whole reservation, no crew or first resource is taken",
+      "result": "passed"
+    },
+    {
+      "task": "CX-059",
+      "name": "Reserved cancellation returns only unused quantities; explicit steps install once and cannot refund",
+      "result": "passed"
+    },
+    {
+      "task": "CX-059",
+      "name": "Field trial uses local permission before final signatures and returns its reusable fixture",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Twelve scoped milestones award exactly 350XP/275marks/2parts once; reload preserves four decorative souvenirs",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Late local/communication resume uses the same accepted instance without recruitment or reward",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Missing gate/previous result or a relay person\u0027s invitation cannot start private work",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Invitation withdrawal before confirmation blocks reward; new permission resumes the same work instance",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "A withdrawal between validation and SQLite commit invalidates the invitation read stamp",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Earlier unrelated work, wrong node, wrong instance and altered outcomes cannot serve as completion evidence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Lina correspondence is accepted without meeting authority; correspondence authority cannot authorize meeting",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Meeting requires both current personal consents; a withdrawn consent invalidates already prepared work",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Meeting consent from a relay, another node or another instance is refused; explicit defer is a valid result",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Tess reuses Q603 delivery once without transport or parent rewards and rejects unrelated transport instances",
+      "result": "passed"
+    },
+    {
+      "task": "CX-063",
+      "name": "Unaccepted supplemental transport records no fabricated delivery and still permits the next local handover",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Actual Q102 navigation emits a paired movement receipt that grants one return edge",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Map discovery cannot register an unvisited anchor; only two declared safe kinds qualify",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Physical paired transition receipt permits return; generic legacy or forged path does not",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A one-way walked edge cannot be silently reversed; departed ferry invalidates the old route",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Reactivated workshop interlock cannot reuse its previously safe traversal",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Tower-safe return survives continue and enhancement without granting full preparation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Cargo in transit, active combat and a foreground event prevent relocation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "An atomic foreground lease blocks relocation without a running event and remains owned",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "One Glimmer instance serves three spaces; declined Lina and zero fuel never lock legal sailing",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Ship requires actual safe placement and boarding proximity; forged or missing instances fail",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Q604 freezes outside travel and ship entry while preserving the named prefinal checkpoint",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "An intermediate room wall cannot be skipped merely because both scene edges were walked",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A newly dangerous strip inside an intermediate room invalidates an otherwise current walked route",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A safe AStar detour inside the intermediate room still permits the folded physical route",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Return validates both the actor-to-first-exit leg and last-entry-to-anchor leg",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Same-scene return cannot cross a wall or newly hazardous corridor",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Same-scene return with a legal obstacle detour uses real navigation and preserves balances",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "The search may re-enter a different component of one scene through an already walked safe loop",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "Later-region scene IDs and an authority receipt cannot substitute for missing actual geometry",
+      "result": "passed"
+    },
+    {
+      "task": "CX-060",
+      "name": "A copied valid transition proof cannot be relabelled as a different scene edge",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "All sixteen exits are reciprocal and each stand/interaction can be reached by the shared navigation",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Cabin exit, far pickup and premature mentor-record access preserve the unprepared world",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Changing the receiving direction invalidates its check; unsafe line does not move or lose survivors",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Saving and confirming meaning do not send; wrong rescue scope and a changed draft leave rewards untouched",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-03",
+      "name": "Relay reconfiguration invalidates pickup while acquired originals remain; prologue closes from actual rescue",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R0-01",
+      "name": "Original sources carry declared review gaps and chronology limits without a player answer-key",
+      "result": "passed"
+    },
+    {
+      "task": "CX-067",
+      "name": "Default provider stays disabled with null band and no world write port",
+      "result": "passed"
+    },
+    {
+      "task": "CX-067",
+      "name": "Opening/saving writing grants no upload consent; online and unlabelled fixture providers are never called",
+      "result": "passed"
+    },
+    {
+      "task": "CX-067",
+      "name": "Projection sends only selected discovered externally authorized source slices and specified draft",
+      "result": "passed"
+    },
+    {
+      "task": "CX-067",
+      "name": "More than six contexts and oversized full draft are refused without silent truncation",
+      "result": "passed"
+    },
+    {
+      "task": "CX-067",
+      "name": "Only transient/limited replies retry, at most twice; duplicate request does not charge twice",
+      "result": "passed"
+    },
+    {
+      "task": "CX-067",
+      "name": "Actual fixture-reported overrun is retained and stops new attempts; unknown metering never becomes zero billed",
+      "result": "passed"
+    },
+    {
+      "task": "CX-067",
+      "name": "Timeout and user cancellation stop waiting; a late complete response is never displayed",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "Malformed/unknown/duplicate fields and different purpose replies are refused without retry or score",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "Citation identity/version/global scalar bounds and quote must belong to the exact actual projection",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "Unicode feedback uses code points, preserves combining marks, caps feedback and never generates full short-writing band",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "Incorrect natural language with valid JSON remains an unverified candidate requiring fallback",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "L4, L1, profile, permission, prompt, draft and purpose have isolated private cache scopes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "Only one evaluation per current draft runs; no partially received feedback is exposed",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "Explain, feedback and intent stay separate; newer draft and provider versions miss earlier cache entries",
+      "result": "passed"
+    },
+    {
+      "task": "CX-068",
+      "name": "A late response to an actual older SQLite draft is historical and never rewrites current text or world",
+      "result": "passed"
+    },
+    {
+      "task": "CX-072",
+      "name": "Actual consent revocation while a provider fixture is pending discards result and cached replay",
+      "result": "passed"
+    },
+    {
+      "task": "CX-072",
+      "name": "Actual draft erasure and old backup restore do not revive pending feedback or source text",
+      "result": "passed"
+    },
+    {
+      "task": "CX-072",
+      "name": "Load/branch history has no visible future title or candidate; revoked content pack is discarded",
+      "result": "passed"
+    },
+    {
+      "task": "CX-072",
+      "name": "Prompt impersonation and generated scripts remain inert data; intent candidates have no command channel",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: \u5DF2\u8FDB\u5165\u6E21\u8F6E\u5DE5\u4F5C\uFF0C\u8BF7\u4F7F\u7528\u6E21\u8F6E\u5DE5\u4F5C\u670D\u52A1\u7684\u540C\u4E00\u89D2\u8272\u4F4D\u7F6E\u3002\r\n   at Mist.Application.Campaign.CampaignService.Require(Boolean condition, String message) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\Campaign\\CampaignService.cs:line 87\r\n   at Mist.Application.Campaign.CampaignService.TraverseAsync(ImmutableArray\u00601 positions) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\Campaign\\CampaignService.cs:line 108\r\n   at Mist.Tests.Storage.StorageCases.Done(ValueTask value) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Storage\\StorageCases.cs:line 20\r\n   at Mist.Tests.Campaign.CampaignCases.Run.Walk(Point2 target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Campaign\\CampaignCases.cs:line 37\r\n   at Mist.Tests.Campaign.CampaignCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Campaign\\CampaignCases.cs:line 42\r\n   at Mist.Tests.ChapterOne.ChapterOneCases.\u003C\u003Ec.\u003CRegister\u003Eb__10_0() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterOne\\ChapterOneCases.cs:line 101\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "Three new grayboxes have paired exits and safe paths to every actual source/work station",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: H / right-first=False",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: H / right-first=True",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: M / right-first=False",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: M / right-first=True",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: S / right-first=False",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: S / right-first=True",
+      "result": "passed"
+    },
+    {
+      "task": "CX-065",
+      "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Continue does not refill; explicit withdrawal preserves acquired records/draft and new retry attempt",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

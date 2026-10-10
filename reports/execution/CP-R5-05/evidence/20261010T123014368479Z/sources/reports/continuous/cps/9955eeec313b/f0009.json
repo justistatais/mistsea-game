@@ -1,0 +1,2749 @@
+{
+  "content_version": "r5-author-candidate-1",
+  "title": "失名旧都 The Unlisted City",
+  "scope": "authoring_candidate_not_runtime",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "runtime_status": "candidate_service_native_integration_pending_verification",
+  "player_projection": true,
+  "target_bands": {
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5
+  },
+  "scenes": [
+    {
+      "id": "R5-S01",
+      "name_zh": "旧城渡口",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R5-S01.to.R5-S02",
+          "target_scene": "R5-S02",
+          "target_port": "R5-S02.to.R5-S01",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "registered_resident_landing"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S01.berth",
+          "stand": {
+            "x": 48,
+            "y": 90
+          },
+          "purpose_zh": "berth"
+        },
+        {
+          "id": "R5-S01.arrival",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "arrival"
+        },
+        {
+          "id": "R5-S01.return",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "return"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-S02",
+      "name_zh": "仍有人居住的街区",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R5-S02.to.R5-S01",
+          "target_scene": "R5-S01",
+          "target_port": "R5-S01.to.R5-S02",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "registered_resident_landing"
+        },
+        {
+          "id": "R5-S02.to.R5-S03",
+          "target_scene": "R5-S03",
+          "target_port": "R5-S03.to.R5-S02",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "public_streets"
+        },
+        {
+          "id": "R5-S02.to.R5-S06",
+          "target_scene": "R5-S06",
+          "target_port": "R5-S06.to.R5-S02",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "inner_evacuation_open"
+        },
+        {
+          "id": "R5-S02.to.R5-S07",
+          "target_scene": "R5-S07",
+          "target_port": "R5-S07.to.R5-S02",
+          "stand": {
+            "x": 90,
+            "y": 25
+          },
+          "gate": "public_review_hall"
+        },
+        {
+          "id": "R5-S02.to.R5-O01",
+          "target_scene": "R5-O01",
+          "target_port": "R5-O01.to.R5-S02",
+          "stand": {
+            "x": 50,
+            "y": 90
+          },
+          "gate": "public_sign_workshop"
+        },
+        {
+          "id": "R5-S02.to.R5-O02",
+          "target_scene": "R5-O02",
+          "target_port": "R5-O02.to.R5-S02",
+          "stand": {
+            "x": 50,
+            "y": 25
+          },
+          "gate": "local_property_desk"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S02.ada",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "ada"
+        },
+        {
+          "id": "R5-S02.street",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "street"
+        },
+        {
+          "id": "R5-S02.kit",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "kit"
+        },
+        {
+          "id": "R5-S02.reception",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "reception"
+        },
+        {
+          "id": "R5-S02.report",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "report"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-S03",
+      "name_zh": "断桥检查点",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R5-S03.to.R5-S02",
+          "target_scene": "R5-S02",
+          "target_port": "R5-S02.to.R5-S03",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_streets"
+        },
+        {
+          "id": "R5-S03.to.R5-S05",
+          "target_scene": "R5-S05",
+          "target_port": "R5-S05.to.R5-S03",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "current_credentials_checked"
+        },
+        {
+          "id": "R5-S03.to.R5-S04",
+          "target_scene": "R5-S04",
+          "target_port": "R5-S04.to.R5-S03",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "basic_mission_kit"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S03.map",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "map"
+        },
+        {
+          "id": "R5-S03.credential",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "credential"
+        },
+        {
+          "id": "R5-S03.passage",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "passage"
+        },
+        {
+          "id": "R5-S03.checkpoint_guard",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "checkpoint_guard"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-S04",
+      "name_zh": "检修隧道",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R5-S04.local_threat",
+          "area": {
+            "left": 35,
+            "top": 48,
+            "right": 65,
+            "bottom": 70
+          },
+          "active_until_receipt": "R5:tunnel_checked"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R5-S04.to.R5-S03",
+          "target_scene": "R5-S03",
+          "target_port": "R5-S03.to.R5-S04",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "basic_mission_kit"
+        },
+        {
+          "id": "R5-S04.to.R5-S05",
+          "target_scene": "R5-S05",
+          "target_port": "R5-S05.to.R5-S04",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "tunnel_currently_safe"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S04.control",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "control"
+        },
+        {
+          "id": "R5-S04.brace",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "brace"
+        },
+        {
+          "id": "R5-S04.obstruction",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "obstruction"
+        },
+        {
+          "id": "R5-S04.hazard",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "hazard"
+        },
+        {
+          "id": "R5-S04.exit",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "exit"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-S05",
+      "name_zh": "北站值守厅",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R5-S05.to.R5-S03",
+          "target_scene": "R5-S03",
+          "target_port": "R5-S03.to.R5-S05",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "current_credentials_checked"
+        },
+        {
+          "id": "R5-S05.to.R5-S04",
+          "target_scene": "R5-S04",
+          "target_port": "R5-S04.to.R5-S05",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "tunnel_currently_safe"
+        },
+        {
+          "id": "R5-S05.to.R5-S06",
+          "target_scene": "R5-S06",
+          "target_port": "R5-S06.to.R5-S05",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "detention_approach_safe"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S05.records",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "records"
+        },
+        {
+          "id": "R5-S05.scope",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "scope"
+        },
+        {
+          "id": "R5-S05.drive",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "drive"
+        },
+        {
+          "id": "R5-S05.obstruction",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "obstruction"
+        },
+        {
+          "id": "R5-S05.guard_approach",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "guard_approach"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-S06",
+      "name_zh": "北站扣押区",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R5-S06.local_threat",
+          "area": {
+            "left": 35,
+            "top": 48,
+            "right": 65,
+            "bottom": 70
+          },
+          "active_until_receipt": "R5:ENC-R5-03:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R5-S06.to.R5-S05",
+          "target_scene": "R5-S05",
+          "target_port": "R5-S05.to.R5-S06",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "detention_approach_safe"
+        },
+        {
+          "id": "R5-S06.to.R5-S02",
+          "target_scene": "R5-S02",
+          "target_port": "R5-S02.to.R5-S06",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "inner_evacuation_open"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S06.guard",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "guard"
+        },
+        {
+          "id": "R5-S06.door",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "door"
+        },
+        {
+          "id": "R5-S06.release",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "release"
+        },
+        {
+          "id": "R5-S06.return_bolt",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "return_bolt"
+        },
+        {
+          "id": "R5-S06.return_check",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "return_check"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-S07",
+      "name_zh": "旧档案与临时审查厅",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R5-S07.to.R5-S02",
+          "target_scene": "R5-S02",
+          "target_port": "R5-S02.to.R5-S07",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_review_hall"
+        },
+        {
+          "id": "R5-S07.to.R5-S08",
+          "target_scene": "R5-S08",
+          "target_port": "R5-S08.to.R5-S07",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "joint_takeover_permission"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S07.scope",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "scope"
+        },
+        {
+          "id": "R5-S07.original",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "original"
+        },
+        {
+          "id": "R5-S07.revisions",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "revisions"
+        },
+        {
+          "id": "R5-S07.policy",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "policy"
+        },
+        {
+          "id": "R5-S07.orders",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "orders"
+        },
+        {
+          "id": "R5-S07.hearing",
+          "stand": {
+            "x": 20,
+            "y": 50
+          },
+          "purpose_zh": "hearing"
+        },
+        {
+          "id": "R5-S07.custody",
+          "stand": {
+            "x": 80,
+            "y": 50
+          },
+          "purpose_zh": "custody"
+        },
+        {
+          "id": "R5-S07.personal_review",
+          "stand": {
+            "x": 50,
+            "y": 78
+          },
+          "purpose_zh": "personal_review"
+        },
+        {
+          "id": "R5-S07.oren_duty",
+          "stand": {
+            "x": 50,
+            "y": 35
+          },
+          "purpose_zh": "oren_duty"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-S08",
+      "name_zh": "归档塔控制层",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R5-S08.local_threat",
+          "area": {
+            "left": 35,
+            "top": 48,
+            "right": 65,
+            "bottom": 70
+          },
+          "active_until_receipt": "R5:tower_checked"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R5-S08.to.R5-S07",
+          "target_scene": "R5-S07",
+          "target_port": "R5-S07.to.R5-S08",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "joint_takeover_permission"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-S08.control",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "control"
+        },
+        {
+          "id": "R5-S08.rack",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "rack"
+        },
+        {
+          "id": "R5-S08.relay",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "relay"
+        },
+        {
+          "id": "R5-S08.duty",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "duty"
+        },
+        {
+          "id": "R5-S08.load_test",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "load_test"
+        },
+        {
+          "id": "R5-S08.return_check",
+          "stand": {
+            "x": 20,
+            "y": 50
+          },
+          "purpose_zh": "return_check"
+        },
+        {
+          "id": "R5-S08.handover",
+          "stand": {
+            "x": 80,
+            "y": 50
+          },
+          "purpose_zh": "handover"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-O01",
+      "name_zh": "旧路牌工坊",
+      "classification": "optional",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R5-O01.to.R5-S02",
+          "target_scene": "R5-S02",
+          "target_port": "R5-S02.to.R5-O01",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_sign_workshop"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-O01.keeper",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "keeper"
+        },
+        {
+          "id": "R5-O01.proposal",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "proposal"
+        },
+        {
+          "id": "R5-O01.sign",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "sign"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    },
+    {
+      "id": "R5-O02",
+      "name_zh": "失物保管屋",
+      "classification": "optional",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R5-O02.to.R5-S02",
+          "target_scene": "R5-S02",
+          "target_port": "R5-S02.to.R5-O02",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "local_property_desk"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R5-O02.keeper",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "keeper"
+        },
+        {
+          "id": "R5-O02.claim",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "claim"
+        },
+        {
+          "id": "R5-O02.object",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "object"
+        }
+      ],
+      "art_status": "original_greybox_unreviewed"
+    }
+  ],
+  "connections": [
+    {
+      "a": "R5-S01",
+      "b": "R5-S02",
+      "paired_ports": true,
+      "gate": "registered_resident_landing",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S02",
+      "b": "R5-S03",
+      "paired_ports": true,
+      "gate": "public_streets",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S03",
+      "b": "R5-S05",
+      "paired_ports": true,
+      "gate": "current_credentials_checked",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S03",
+      "b": "R5-S04",
+      "paired_ports": true,
+      "gate": "basic_mission_kit",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S04",
+      "b": "R5-S05",
+      "paired_ports": true,
+      "gate": "tunnel_currently_safe",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S05",
+      "b": "R5-S06",
+      "paired_ports": true,
+      "gate": "detention_approach_safe",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S06",
+      "b": "R5-S02",
+      "paired_ports": true,
+      "gate": "inner_evacuation_open",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S02",
+      "b": "R5-S07",
+      "paired_ports": true,
+      "gate": "public_review_hall",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S07",
+      "b": "R5-S08",
+      "paired_ports": true,
+      "gate": "joint_takeover_permission",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S02",
+      "b": "R5-O01",
+      "paired_ports": true,
+      "gate": "public_sign_workshop",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    },
+    {
+      "a": "R5-S02",
+      "b": "R5-O02",
+      "paired_ports": true,
+      "gate": "local_property_desk",
+      "source": "Exploration_Level_Design_v0.1.md:517-527"
+    }
+  ],
+  "safe_anchor_candidates": [
+    "R5-S01.berth",
+    "R5-S02.reception",
+    "R5-S08.handover"
+  ],
+  "materials": [
+    {
+      "id": "R5-Q501-R-LANDING",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "渡口接应登记",
+      "quest_ref": "Q-501",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S01",
+        "spot": "R5-S01.arrival"
+      },
+      "source_root": "r5-q501-r-landing",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q501-R-LANDING-p01",
+          "en": "The current chart labels this entire district as abandoned. The ferry crew uses that administrative label to identify the landing, not to certify that nobody lives here. Register the return berth and meet Ada Kane in the inhabited street before working at North Station. Your Glasshaven commission permits verification of the station location and lawful access. It does not authorise searching homes, opening every archive or deciding who should govern the city. Present the same vessel and current regional commission at the landing desk. A new district name on a screen is not evidence that a voyage occurred.",
+          "zh": "现行航图把整片地区标为废弃区；船员用它辨认渡口，不是证明这里无人居住。登记返程泊位，先在住民街区见阿妲。学城委托只允许核验北站位置与合法入口，不授权搜住宅、开全部档案或决定城市治理。登记须使用同一真实船与当前跨区委托；屏幕换地区名不等于航行。"
+        }
+      ],
+      "english_word_count": 98
+    },
+    {
+      "id": "R5-Q501-R-STREET",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "住民道路与基础工具",
+      "quest_ref": "Q-501",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S02",
+        "spot": "R5-S02.street"
+      },
+      "source_root": "r5-q501-r-street",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q501-R-STREET-p01",
+          "en": "People still live behind the names missing from your chart. Twelve years ago subsidence closed the central bridge span; later the district was removed from the current place register. The residents remember the streets and have maintained other passages. Ada can confirm local routes, not the present condition of a person inside a locked detention room. The mission desk supplies one basic inspection kit, one lamp and one safety line for this local work. They are mission equipment, not personal upgrade parts or six-tower supplies. Either current credential checking or the existing service tunnel can reach the duty hall. No named companion is required.",
+          "zh": "航图上消失的名字背后仍住着人。十二年前沉降封闭中央桥跨，后来地区被从现行名录移除；住民仍记得道路并维护其他通路。阿妲能确认地方路线，不能证实扣押室内某人的当前状态。当地委托提供一套基础检修工具、一盏灯和一条安全索，均为任务装备，不是个人零件或六塔物资。当前证件核查与既有隧道均可到值守厅，不要求指定同伴。"
+        }
+      ],
+      "english_word_count": 104
+    },
+    {
+      "id": "R5-Q501-R-MAP",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "历史桥线与现行通道",
+      "quest_ref": "Q-501",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S03",
+        "spot": "R5-S03.map"
+      },
+      "source_root": "r5-q501-r-map",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q501-R-MAP-p01",
+          "en": "OC-MAP-HIST@1 shows the former central bridge from the checkpoint towards North Station. Its route identity is HIST-CENTRAL-SPAN. That span is closed and has no present navigation port. OC-PASSAGE-CURRENT@1 identifies CHECKPOINT-DUTY-PASSAGE, a different route with similar large-scale endpoints. It remains available after current inspection credentials are checked. TUNNEL-SERVICE-PASSAGE runs from the checkpoint through the existing tunnel to the duty hall once its obstruction and local hazard are dealt with. Drawing either line does not perform the work. Both current routes end at the duty hall, not the detention rooms. Retain the old map as historical evidence rather than deleting its inconvenient line.",
+          "zh": "OC-MAP-HIST@1 的 HIST-CENTRAL-SPAN 是昔日中央桥跨，已经关闭，没有现行导航端口。OC-PASSAGE-CURRENT@1 的 CHECKPOINT-DUTY-PASSAGE 与旧桥大尺度端点相近，却是另一条路线，须核验当前检修身份。TUNNEL-SERVICE-PASSAGE 经既有隧道到值守厅，须实际处理阻碍和危险。画线不能代替工作，两条当前路线都不直接进入扣押室。保留旧图作为历史证据，不删除不方便的旧桥线。"
+        }
+      ],
+      "english_word_count": 103
+    },
+    {
+      "id": "R5-Q501-R-CREDENTIAL",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "当次检修身份核查",
+      "quest_ref": "Q-501",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S03",
+        "spot": "R5-S03.credential"
+      },
+      "source_root": "r5-q501-r-credential",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q501-R-CREDENTIAL-p01",
+          "en": "The controlled passage accepts the patrol technician named in the current Glasshaven regional commission. Check the commission basis Q-404:resolution, its destination R5 and its purpose verify_north_station_and_legal_access against the actual landing register. Check the physical passage separately: the signed inspection identifies CHECKPOINT-DUTY-PASSAGE and explicitly excludes HIST-CENTRAL-SPAN. The checkpoint officer may verify these fields without granting detention-room access. If checking cannot be completed, use the basic service route. A copied historical credential or an unrelated action receipt cannot substitute for this current local check.",
+          "zh": "核查通道接受当前学城跨区委托中的巡灯检修人。比对 Q-404:resolution、R5、verify_north_station_and_legal_access 与实际登陆登记；另检查实体通道，明确 CHECKPOINT-DUTY-PASSAGE 不含 HIST-CENTRAL-SPAN。核查员可验证这些字段，却不授扣押室权限。暂不能完成核查时有基础隧道解法。历史证件副本和无关动作回执不能代替当次检查。"
+        }
+      ],
+      "english_word_count": 83
+    },
+    {
+      "id": "R5-Q501-R-TUNNEL",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "既有检修隧道规程",
+      "quest_ref": "Q-501",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S04",
+        "spot": "R5-S04.control"
+      },
+      "source_root": "r5-q501-r-tunnel",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q501-R-TUNNEL-p01",
+          "en": "Use the supplied basic kit and safety line. Isolate the tunnel maintenance drive at its local switch; this switch does not control the city or North Station. Brace the loose service panel before clearing the obstruction. The tunnel hazard can be dealt with by physical isolation, removal of the loose feed and a zero-motion check, or by the registered local encounter followed by the same passage inspection. A brace is still needed after a fight. Verify the dry stepping strip and mark the return line at the exit. No timed reading, rare key or strength threshold is required. The opened service passage remains available for safe return.",
+          "zh": "使用已提供的基础工具和安全索。在当地开关隔离隧道维护驱动，它不控制城市或北站；先固定松动面板，再清理阻碍。可通过隔离、移除松动送料件并核验零运动处置危险，也可完成登记遭遇后检查通路；战斗后仍须固定。出口检查干燥踏步带并标返程线。不要求限时阅读、稀有钥匙或力量门槛；打开的检修通道保留安全返程。"
+        }
+      ],
+      "english_word_count": 107
+    },
+    {
+      "id": "R5-Q501-L-DIRECTIONS",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "阿妲的当前路线说明",
+      "quest_ref": "Q-501",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R5-S02",
+        "spot": "R5-S02.ada"
+      },
+      "source_root": "r5-q501-l-directions",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q501-L-DIRECTIONS-p01",
+          "en": "Ada: Start with the street people use now, not the straight line on the old sheet. At the checkpoint you have two choices. The inspected passage avoids the broken span, although both appear to lead north. Have your present commission checked there. Or go through the service tunnel with the basic kit; isolate the drive, secure the panel and inspect the cleared route. Neither choice tells us whether Mara is alive today. I know where the duty hall is and where the residents can receive someone coming back. I will not turn an old movement record into a current medical report. Bring the rescue team to the street when the inner return passage is open.",
+          "zh": "阿妲：从大家现在走的街开始，别只看旧纸上的直线。检查点有两种选择：核查通道绕开断桥，须查当次委托；或者用基础工具走隧道，隔离驱动、固定面板、清路检查。两种路线都不能说明玛拉今天是否活着。我知道值守厅位置和住民接应处，不会把旧转移记录当成当前医疗报告。内侧便道打开后，把救援队带回街区。"
+        }
+      ],
+      "english_word_count": 115,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "estimated_duration_minutes": [
+        0.66,
+        0.82
+      ],
+      "duration_basis": "word_count_estimate_not_measured",
+      "long_listening_script": false
+    },
+    {
+      "id": "R5-Q502-R-DUTY",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "北站现场值守及扣押记录",
+      "quest_ref": "Q-502",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S05",
+        "spot": "R5-S05.records"
+      },
+      "source_root": "r5-q502-r-duty",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q502-R-DUTY-p01",
+          "en": "NORTH-DUTY-D0@1 records a detention-room door kept under station control, a local guard group and an internal evacuation passage whose bolt can be opened from the detention side. Names and medical notes remain outside the public route sheet. The patrol may inspect door status, watch arrangement, return-route status and the source version for the rescue purpose only. Read the signed local restriction, isolate the door drive and clear the duty-hall obstruction. These checks grant a bounded safe approach to the guard work stand. They do not release anyone. The residents have agreed to receive the rescue party at the street reception point; the actual arrival there must still be recorded.",
+          "zh": "NORTH-DUTY-D0@1 记载扣押门受北站控制、当地看守组和须内侧开闩的撤离便道。身份及医疗记录不进公开路线纸。救援用途只允许核验门、值守、返程通路及来源版本。读当地限制，隔离门驱动，清值守厅阻碍；这仅让看守操作点可安全到达，不释放任何人。住民同意在街区接应，但仍须实际抵达并登记。"
+        }
+      ],
+      "english_word_count": 110
+    },
+    {
+      "id": "R5-Q502-R-RESCUE",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "扣押门与救援返程",
+      "quest_ref": "Q-502",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S06",
+        "spot": "R5-S06.release"
+      },
+      "source_root": "r5-q502-r-rescue",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q502-R-RESCUE-p01",
+          "en": "The North Station guard group consists of one commander and two guards. Controlling them ends the local threat without creating an execution decision. It does not open the cell. Inspect the real detention door, release the mechanical latch with the basic kit and meet Mara directly. Only that contact can establish her present condition. Open the inner evacuation bolt and inspect the existing route to the inhabited street. Escort her over that opened route, then hand her to Ada and the local receiver. Do not drag her back through an uncleared high-risk approach. A failed attempt returns to the station checkpoint; time spent reading does not kill her in the background.",
+          "zh": "北站看守组由一名指挥者和两名护卫组成，制服他们只解除当地威胁，不新增处决选择，也不开扣押门。须检查实体门，用基础工具开机械闩并直接见玛拉；只有此接触能核验当前状况。打开内侧撤离闩，检查通往住民街区的既有便道，实际护送后交阿妲与当地接应人。不能拖她反复走未清高危路。失败回北站检查点，阅读耗时不会在后台害死她。"
+        }
+      ],
+      "english_word_count": 111
+    },
+    {
+      "id": "R5-Q502-L-RECEPTION",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "救援接应更正",
+      "quest_ref": "Q-502",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R5-S02",
+        "spot": "R5-S02.reception"
+      },
+      "source_root": "r5-q502-l-reception",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q502-L-RECEPTION-p01",
+          "en": "Receiver: We have prepared the street shelter, but preparation is not arrival. Do not enter Mara as received while she is still behind the station door. Ada: The inner evacuation passage comes out here. After the bolt and stepping strip have been checked, bring her through that passage. Receiver: I will record the direct handover and her present condition. Keep the older D-1 record dated D-1; today’s contact does not change what that earlier paper meant. Ada: If the guard attempt fails, return to the station work point and try again. The shelter and your documents remain available. There is no need to hurry through the instructions to keep someone alive.",
+          "zh": "接应人：街区棚已准备好，但准备不等于到达，她还在扣押门后时不能登记接收。阿妲：内侧撤离便道出口在这里，开闩、核验踏步带后从便道带她回来。接应人：我会记录直接交接及当前状况；D-1 仍是 D-1 的旧记录，今日接触不改变旧纸含义。阿妲：看守尝试失败可回操作点重试，棚和文献保留；不必抢读说明来保命。"
+        }
+      ],
+      "english_word_count": 111,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "estimated_duration_minutes": [
+        0.63,
+        0.79
+      ],
+      "duration_basis": "word_count_estimate_not_measured",
+      "long_listening_script": false
+    },
+    {
+      "id": "R5-Q503-R-SCOPE",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "紧急审查的限阅范围",
+      "quest_ref": "Q-503",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.scope"
+      },
+      "source_root": "r5-q503-r-scope",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-R-SCOPE-p01",
+          "en": "The local record custodian offers the rescued patrol a bounded review of OC-D18.design@1, OC-D14.revision@2, OC-D30.correction@1, VQ-D90.policy@1, VT-D7.authorization@1 and RK-D6.override@2 with RK-D3.detention@1. The fields are design_limits, correction_history, policy_authorization, execution_order and version_source. Recipient: patrol_technician. Purpose: distinguish_design_policy_execution_responsibility. Scope version: OC-responsibility-set@1. Personal addresses and unrelated case identities stay sealed. A protected review or an emergency public review can use the same redacted evidence and give each affected party a recorded opportunity to dispute a cited claim. Presence in this hall does not itself grant the scope.",
+          "zh": "当地保管人向获救后的巡灯人提供限定审阅：OC-D18.design@1、OC-D14.revision@2、OC-D30.correction@1、VQ-D90.policy@1、VT-D7.authorization@1、RK-D6.override@2、RK-D3.detention@1。字段为 design_limits、correction_history、policy_authorization、execution_order、version_source；接收人 patrol_technician，用途 distinguish_design_policy_execution_responsibility，版本 OC-responsibility-set@1。住址和无关身份封存。受保护或紧急公开审查都使用脱敏证据，给各方记录反证机会；进入厅不等于获得范围。"
+        }
+      ],
+      "english_word_count": 97
+    },
+    {
+      "id": "R5-Q503-R-DESIGN",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "十八年前原始设计及缺口",
+      "quest_ref": "Q-503",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.original"
+      },
+      "source_root": "oc-d18-original-design",
+      "access_class": "controlled_review",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-R-DESIGN-p01",
+          "en": "OC-D18.design@1 bears Mara Venn’s verified design signature eighteen years before D0. It authorised short emergency synchronisation during a severe supply crisis. The measure helped services survive that crisis, but the written exit and independent-review safeguards were weak: continuation could be approved without a firm stopping test or a separately scheduled review. The signed limits did not authorise every later increase in quota or an indefinite detention. An execution copy labelled OC-D18.execution-copy@1 reproduces this design; it is not another independent witness. Preserve both identities and their common source root. A useful original can still contain a serious design fault.",
+          "zh": "OC-D18.design@1 经核验有玛拉于 D0 前十八年的设计签名，在严重供给危机中授权短期强制同步；它帮助服务渡过危机，但退出和独立复核保障薄弱，继续运行缺坚定停止检验及另排复核。原限制不授权后来全部配额提高或无限扣押。OC-D18.execution-copy@1 复制该设计，不是第二独立证人。保留两份身份和同源关系；有用的原方案仍可有严重设计缺陷。"
+        }
+      ],
+      "english_word_count": 102
+    },
+    {
+      "id": "R5-Q503-R-REVISION",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "后续修订和迟延纠正记录",
+      "quest_ref": "Q-503",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.revisions"
+      },
+      "source_root": "r5-q503-r-revision",
+      "access_class": "controlled_review",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-R-REVISION-p01",
+          "en": "OC-D14.revision@2 records later higher limits and the gradual replacement of local interlocks by central control. It is a later policy revision, not the eighteen-year-old design sheet. OC-D30.correction@1 records Mara’s review thirty days before D0: she acknowledged the weak exit rule and the years in which she had not secured a timely correction. Her proposed local-control reconstruction remained incomplete and had not established full-network safety. The dated correction note does not erase her earlier responsibility. Nor does her failure to correct make her the author of every later executive order. Compare the actual version and scope of each signature instead of counting all papers as one continuous personal promise.",
+          "zh": "OC-D14.revision@2 记载后来提高限额、逐步用中央控制替代本地联锁，是后来的政策修订，不是十八年前设计纸。OC-D30.correction@1 是 D0 前三十天玛拉复查，承认退出规则薄弱和多年未及时落实纠正；本地控制重建仍不完整，未证明全网安全。迟来的纠正不抹去旧责任；未及时纠正也不让她成为每份后续执行令作者。逐版比对签名范围，不把所有纸当成同一个不断延长的承诺。"
+        }
+      ],
+      "english_word_count": 112
+    },
+    {
+      "id": "R5-Q503-R-POLICY",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "沃斯的配额、测试与传播范围",
+      "quest_ref": "Q-503",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.policy"
+      },
+      "source_root": "r5-q503-r-policy",
+      "access_class": "controlled_review",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-R-POLICY-p01",
+          "en": "VQ-D90.policy@1 records Voss retaining high quotas about ninety days before D0 after the long-term risk had entered internal discussion. The circulation instruction restricted unfavourable findings. VT-D7.authorization@1 records the authorised branch supply test between D-7 and D-4. These are her policy and authorisation decisions; the claimed need to avoid immediate loss of supply explains her argument but does not remove the known-risk or information-suppression responsibility. The retained report and issued report share an underlying research source, while the policy instruction is a separate decision record. Support for limited central cooperation does not require declaring these decisions harmless.",
+          "zh": "VQ-D90.policy@1 记载沃斯在长期风险已进入内部讨论后，于 D0 前约九十天保留高配额，传播令限制不利结果。VT-D7.authorization@1 记载 D-7 至 D-4 支路断供测试授权。这是她的政策和授权决定；避免近期失供可解释其论辩，不取消已知风险与信息压制责任。保留稿及发行稿研究同源，政策指示是另一决定记录。支持中央受限合作不要求认定这些决定无害。"
+        }
+      ],
+      "english_word_count": 100
+    },
+    {
+      "id": "R5-Q503-R-EXECUTION",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "鲁克的取消复核与扣押命令",
+      "quest_ref": "Q-503",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.orders"
+      },
+      "source_root": "r5-q503-r-execution",
+      "access_class": "controlled_review",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-R-EXECUTION-p01",
+          "en": "RK-D6.override@2 is Rook’s execution order cancelling the independent review and suppressing the attached warning during the authorised test window. RK-D3.detention@1 authorises the expanded detention operation under an investigation-protection description. Compare these commands with the permitted test scope; cancelling review and expanding detention are distinct executive acts. Voss’s authorisation does not make every subsequent order hers, and Rook’s conduct does not absorb the earlier policy responsibility. The station custody register is an independent local record of the detention being carried out, not a second copy of the command. Today’s rescue gives direct evidence of Mara’s current condition without changing the original order dates.",
+          "zh": "RK-D6.override@2 是鲁克取消测试窗口独立复核、压下警告的执行令；RK-D3.detention@1 以调查保护描述扩大扣押。须比对授权测试范围，取消复核与扩大扣押是另行执行行为。沃斯授权不让每份后续令都由她承担；鲁克行为也不吸收先前政策责任。北站扣押登记是当地执行独立记录，不是命令副本。今日救援直接核验导师现状，不改旧令日期。"
+        }
+      ],
+      "english_word_count": 106
+    },
+    {
+      "id": "R5-Q503-R-HEARING",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "反证登记程序",
+      "quest_ref": "Q-503",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.hearing"
+      },
+      "source_root": "r5-q503-r-hearing",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-R-HEARING-p01",
+          "en": "Choose emergency_public_redacted or protected_review. In either form, list the claim, the cited source version, the responding party and the response or explicit decline. Provide Mara, Voss and the station executive channel an opportunity to challenge claims separately. No response is not proof of innocence or guilt. Disputed interpretation remains noted alongside the fixed documents. The custodian checks that confidential identities are excluded and records that all three response opportunities were offered. A submitted essay cannot perform these invitations, overwrite a signature or turn a majority preference into a new historical fact. The resulting summary separates design and delayed correction, known-risk policy and testing, and cancelled review with detention.",
+          "zh": "可选 emergency_public_redacted 或 protected_review。两种均逐条列主张、来源版本、回应方以及回应或明确拒绝；玛拉、沃斯、北站执行渠道分别获得反证机会。不回应不是无罪或有罪证明。争议解释与固定文献并存；保管人检查身份脱敏，登记三方均获机会。作文不会自动邀请、改签名或用多数偏好制造历史事实。摘要分开设计及迟延纠正、已知风险政策与测试、取消复核及扣押。"
+        }
+      ],
+      "english_word_count": 108
+    },
+    {
+      "id": "R5-Q501-R-ESSAY",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "一张地图欠下什么",
+      "quest_ref": "Q-501",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S02",
+        "spot": "R5-S02.street"
+      },
+      "source_root": "r5-q501-r-essay",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": true,
+      "paragraphs": [
+        {
+          "id": "R5-Q501-R-ESSAY-p01",
+          "en": "The chart on the ferry gave the district a single name: abandoned. From the landing, however, a visitor could see a laundry line, a repaired roof and smoke rising behind a closed public office. None of those observations proved that every street was safe. They did make the label inadequate as an account of who was still living there. A navigation chart can simplify space for a particular journey. Trouble begins when that simplification is treated as permission to ignore the people outside its categories.",
+          "zh": "渡船航图只给地区一个名字：废弃。渡口却能看见晾衣绳、修过的屋顶和关闭公署后方的炊烟。这不证明每条街安全，却说明标签不足以交代仍住着谁。航图可以为某次行程简化空间；把简化当成忽略分类之外住民的许可，问题便开始了。"
+        },
+        {
+          "id": "R5-Q501-R-ESSAY-p02",
+          "en": "The old city was damaged by subsidence twelve years before the present accident. Most residents were moved, and the central bridge was closed. In the records that followed, an affected district became an unlisted district. These changes belonged to different kinds of evidence. Damage concerned the ground and buildings; relocation concerned particular people; removal from a register concerned an administrative decision. One did not automatically establish the extent of the others. A careful visitor therefore needs both historical records and current observation, rather than choosing whichever sheet looks more official.",
+          "zh": "旧都在当前事故前十二年遭沉降，大部分人迁出、中央桥关闭。后续记录把受损区变成除名区；这是不同证据：损坏涉及地面建筑，迁移涉及具体人，除名涉及行政决定，不能互证全部范围。访客需历史记录与当前观察，不是选最像官方的纸。"
+        },
+        {
+          "id": "R5-Q501-R-ESSAY-p03",
+          "en": "Residents have kept roads usable without restoring the city exactly as it appears on the earlier map. Some passages follow old service lines; others turn around buildings whose foundations have become unreliable. A remembered name may still identify the place where a family once lived, while the usable entrance now faces another lane. Local knowledge is valuable because it connects these changes with everyday use. It also has limits. Someone who repairs a street does not necessarily know the condition of a person behind a guarded door at North Station.",
+          "zh": "居民维护道路，并未把城市原样复建。有的沿旧检修线，有的绕开地基不稳的楼。旧名仍指认家庭曾住处，能用入口却转到另一巷。地方知识把变化与日常使用连起，很有价值，但修街者不必知道北站看守门后某人的当前状况。"
+        },
+        {
+          "id": "R5-Q501-R-ESSAY-p04",
+          "en": "This distinction is especially important at the broken bridge checkpoint. The historic central span and the present controlled passage lead towards similar destinations on a small-scale drawing. On the ground they are different routes. The closed span cannot be made safe by presenting a document. The inspected passage does not require crossing that span, but it does require a current credential check. A service tunnel offers a further option once its actual obstruction and hazard are treated. The existence of alternatives should be recorded with their conditions, not reduced to a single arrow marked north.",
+          "zh": "断桥检查点尤其如此。旧中央桥跨和当前核查通道在缩略图上指向相近目的地，实体却不同。出示文件不能让断桥安全；核查通道不跨断桥，却要当次查证。既有隧道则须处理真实阻碍及危险。记录替代路线及条件，不能简化成一个向北箭头。"
+        },
+        {
+          "id": "R5-Q501-R-ESSAY-p05",
+          "en": "A map also needs to state where its authority stops. Reaching the station duty hall establishes a route to a public-facing work area. It does not open the detention rooms or show that a rescue has occurred. Confusing these stages makes a plan seem more complete than it is and can hide the people responsible for the next decision. The same error appears when a prepared shelter is entered as a successful arrival. Facilities, permissions and actual movements each have their own evidence. They should support one another without being allowed to stand in for one another.",
+          "zh": "地图也须写权威止境。到值守厅只建立通往工作区路线，不开扣押室，也不证明救援。混淆阶段让计划显得完整，遮住下一决定责任者。把备好接应棚记成成功抵达也是同错。设施、许可、实际移动各有证据，彼此支持却不可替代。"
+        },
+        {
+          "id": "R5-Q501-R-ESSAY-p06",
+          "en": "Residents disagree about how names should return. Some want the earlier street names restored because those names connect public space to the lives omitted from the current register. Others have used new names for years and would find a complete restoration confusing. Ada argues that neither view should be dismissed as a failure to remember. The community has not collectively lost its past. It has lived through change. A small sign workshop can compare proposals and identify who will maintain a chosen sign, but it cannot settle every property claim or speak for all six regions.",
+          "zh": "居民对恢复名称有分歧。有人希望恢复旧名，把公共空间连回现行名录遗漏的生活；有人多年使用新名，全面恢复反而混乱。阿妲认为两者都不是记忆失败。社区没有集体遗忘，而是经历变化。小路牌工坊可比较提案和维护人，却不解决所有产权，也不代表六地区。"
+        },
+        {
+          "id": "R5-Q501-R-ESSAY-p07",
+          "en": "For the patrol, the immediate obligation is narrower: compare the old layer with the present streets, verify one lawful route and preserve a safe return. A second route may be explored later, but completing both is not a test of moral seriousness. Nor should choosing the basic tunnel make the work less worthy than passing an official check. The result depends on whether the declared conditions were met. Beyond that result, the maps remain open to correction. A city is better represented by a dated, revisable account of its roads and residents than by a confident label that cannot be questioned.",
+          "zh": "巡灯人的当次职责更窄：比对旧图及现实街道，核验一条合法路线，保留安全返程。另一条可后来探索，走完两条不是道德考试，基础隧道也不低于官方核查。结果取决于公开条件是否满足。地图仍可纠错；有日期、可修订的道路住民记录，胜过不容质疑的自信标签。"
+        }
+      ],
+      "english_word_count": 654
+    },
+    {
+      "id": "R5-Q503-R-ESSAY",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "签名不能替代职责边界",
+      "quest_ref": "Q-503",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.original"
+      },
+      "source_root": "r5-q503-r-essay",
+      "access_class": "controlled_review",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": true,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-R-ESSAY-p01",
+          "en": "A signature is often asked to do too much. Once investigators find a familiar name on an old design, the story can appear to have found its single cause. The simplicity is appealing: remove one author, reject one document, and the problem seems solved. Yet an operating system continues through revisions, authorisations and everyday decisions. Responsibility must follow those particular acts. If all later conduct is attached to the first signature, the people who changed the scheme disappear from view, while the original designer is either condemned for everything or defended against everything.",
+          "zh": "人们常让签名承担过多。旧设计找到熟悉名字后，故事仿佛找到唯一原因；除一作者、废一文件，问题似解决。但系统由修订、授权和日常决定延续，责任须对应具体行为。把后来行为全挂最早签名，改方案者便消失，原设计者则被全盘谴责或全盘辩护。"
+        },
+        {
+          "id": "R5-Q503-R-ESSAY-p02",
+          "en": "Eighteen years before D0, a serious shortage made short emergency synchronisation attractive. Mara helped design that response, and it had genuine benefits during the crisis. The original document nevertheless gave weak protection against indefinite continuation. Its exit conditions and independent review were insufficiently firm. These are design limitations, not merely defects invented after the present accident. A later correction cannot make them disappear. It matters that Mara subsequently acknowledged the weakness, but acknowledging a problem is different from having corrected it when correction was needed.",
+          "zh": "D0 前十八年严重短缺使短期同步有吸引力。玛拉参与设计，危机中确有收益；原文防无限延续的保障却薄弱，退出条件及独立复核不足，非当前事故后才造出的缺陷。后来纠正不能消除它们，承认问题也不同于在需要时及时纠正。"
+        },
+        {
+          "id": "R5-Q503-R-ESSAY-p03",
+          "en": "Later revisions raised operating limits and replaced local interlocks with greater central control. Those changes must be read as later decisions with their own dates and authorities. Their consequences cannot be inferred from the earlier design alone. Nor should a copy of that design be counted as another independent source merely because it has a different cover. The important comparison is between what was originally permitted and what later instructions actually required. Keeping versions separate makes it possible to identify both continuity and change without turning the file collection into a contest over the number of documents.",
+          "zh": "后续提高运行限额并加强中央控制、取代本地联锁，须按其日期和权威读作后续决定。后果不能仅由原设计推出，换封面的副本也不是独立来源。核心比较是原许可与后令实际要求；分版才能辨认连续和变化，不把文件组变成数量竞赛。"
+        },
+        {
+          "id": "R5-Q503-R-ESSAY-p04",
+          "en": "The policy record about ninety days before D0 presents a further issue. Voss knew that prolonged high load carried long-term risk, yet retained high quotas and limited the circulation of unfavourable findings. She argued that sudden loss of supply would cause immediate harm. That argument deserves to be recorded accurately because current emergency work still has to protect essential services. It does not cancel the duty to disclose relevant risk or justify treating criticism as unavailable evidence. A choice can address one real danger while remaining responsible for increasing another.",
+          "zh": "约 D0 前九十天政策记录提出另一问题：沃斯知道长期高负荷风险，仍保留高配额、限制不利结果传播，理由是骤然失供即刻伤害。这论辩应准确保留，当下应急仍需保护服务；但不取消披露相关风险的责任，也不让批评失去证据资格。决定可应对一种真实危险，仍承担增加另一危险的责任。"
+        },
+        {
+          "id": "R5-Q503-R-ESSAY-p05",
+          "en": "Execution orders add a third layer. Rook cancelled independent review during the authorised test period and expanded detention. An instruction described as protection must still be compared with the restrictions it actually imposed. The local station register helps establish implementation independently of the command paper. Rook cannot be made a convenient container for all earlier failures. At the same time, the existence of policy approval does not excuse every executive act as inevitable. The review needs a distinct account of what he ordered, what was carried out and where that conduct exceeded the permitted scope.",
+          "zh": "执行令增加第三层：鲁克在授权测试期取消独立复核并扩大扣押。“保护”描述仍须比对实际限制，北站登记独立于命令证明执行。鲁克不能包下所有早期失败，政策批准也不让每次执行都必然无责。审查须分别交代命令、实施及越出许可之处。"
+        },
+        {
+          "id": "R5-Q503-R-ESSAY-p06",
+          "en": "Rescuing Mara changes what can be said about her present condition. It does not change the dates on earlier records, and her testimony does not replace them. She can explain why an engineer accepted a compromise, identify a limitation in an incomplete proposal and challenge a mistaken reading. Those contributions should remain distinguishable from the verified design and command records. A review that calls the rescued person either the final authority or the hidden author of every harm would reproduce the same dependence on a single voice that the investigation was meant to question.",
+          "zh": "救出玛拉改变当前状况可说之事，不改旧日期，其证言不替代文献。她可解释妥协理由、指出未完整方案限制、反驳误读；贡献须与经核原设计和命令分开。若让获救者成为最终权威或所有伤害幕后作者，审查便复造调查原欲质疑的单一声音依赖。"
+        },
+        {
+          "id": "R5-Q503-R-ESSAY-p07",
+          "en": "A fair emergency procedure therefore records opportunities for contrary evidence. Each claim needs a source and scope, and each affected party needs a channel to answer. Silence must be entered as silence, not converted into proof. Confidential identities can remain protected while the relevant authorisations and findings are shared in redacted form. An emergency public review and a protected review can both meet these conditions. They differ in audience and immediate exposure, not in whether the evidence is allowed to be questioned. The patrol’s writing organises that process; it does not create the response opportunities by itself.",
+          "zh": "公正应急程序因此记录反证机会。每条主张需来源及范围，各方需回应渠道；沉默按沉默登记，不化证明。身份可保护，相关授权和结果脱敏共享。紧急公开与受保护审查都能满足，差别是受众及暴露，不是是否容许质疑。巡灯人写作组织过程，不会自动创造回应机会。"
+        },
+        {
+          "id": "R5-Q503-R-ESSAY-p08",
+          "en": "The practical outcome is not a declaration that cooperation was always wrong or that technical expertise should be discarded. It is a more exact basis for the next arrangement. Mara retains responsibility for design weakness and delayed correction. Voss retains responsibility for known-risk policy, test authorisation and information suppression. Rook retains responsibility for cancelled review, detention and refusal to transfer control. These can all be true at once. Preserving that distinction allows supervised technical help without restoring exclusive authority, and permits a future policy choice without rewriting the past to make the preferred choice look innocent.",
+          "zh": "结果不是宣布合作从来错误或丢弃技术知识，而是为下一安排提供精确依据：玛拉设计不足及迟延纠正；沃斯已知风险政策、测试授权、压制信息；鲁克取消复核、扣押及拒移交。这些可同时成立。分开它们，可用受监督技术帮助却不恢复独占，也可选择未来政策而不改写历史替偏好脱责。"
+        }
+      ],
+      "english_word_count": 747
+    },
+    {
+      "id": "R5-Q504-R-OPTIONS",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "临时保管、公开与共同监督",
+      "quest_ref": "Q-504",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.custody"
+      },
+      "source_root": "r5-q504-r-options",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q504-R-OPTIONS-p01",
+          "en": "The original case OC-MASTER-01 is one physical case. Choose public_archive_bounded with the local archive custodian holding it under Ada’s witnessed register, or joint_sealed with Ada and the custodian requiring joint access. Neither choice destroys originals or creates a second original. Public scope can be redacted_findings or redacted_findings_and_conditions; both exclude names of unrelated cases, addresses and medical details. The latter also releases the technical conditions and limits. Supervision requires one local operation post ROLE-R5-OPERATOR, Ada’s resident review and ROLE-R5-ARCHIVE-CUSTODIAN’s evidence oversight. Technical participation by Voss may be supervised or suspended; her agreement with the final policy is not a qualification test. All three future policy routes remain open.",
+          "zh": "OC-MASTER-01 是一个真实原件箱。可选 public_archive_bounded，由地方档案保管人持有、阿妲见证登记；或 joint_sealed，阿妲与保管人共同准入。都不毁原件或复制第二原件。公开 redacted_findings 或 redacted_findings_and_conditions，均排除无关身份、地址、医疗细节，后者另公开技术条件与限制。共同监督须 ROLE-R5-OPERATOR 操作岗位、阿妲住民复核、ROLE-R5-ARCHIVE-CUSTODIAN 证据监督。沃斯可受监督参与或停职，与最终政策意见不当资格考试，三条未来政策仍开放。"
+        }
+      ],
+      "english_word_count": 107
+    },
+    {
+      "id": "R5-Q504-R-TOWER",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "归档塔当班安全规程",
+      "quest_ref": "Q-504",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S08",
+        "spot": "R5-S08.control"
+      },
+      "source_root": "r5-q504-r-tower",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q504-R-TOWER-p01",
+          "en": "The declared local load capacity is four internal units. Keep protection at three, archive preservation at one and discretionary reproduction at zero during emergency takeover. These figures are local apparatus units, not a real electrical calculation. Obtain joint work permission, isolate the relay drive, secure the rack and deal with ENC-R5-04 before testing. Appoint the actual operator, record resident and archive oversight and check the return passage. Any load, isolation or duty change invalidates the previous configuration test. Safe means this tower’s present limited protection is verified. Future basic work requires one base isolator, one local backup, two base provisions and two actual operating posts. Enhanced work requires one controller, two couplers, three transition crates and one trial fixture. These are requirements, not granted stock or completed work.",
+          "zh": "当地负荷容量四个内部单位：应急接管保留保护三、档案保存一、非必要复制零。数字为当地装置单位，不是现实电工计算。先有共同许可，隔离继电、固定架、处置独立防卫再测试，实际任操作员，记录住民及档案监督，检查返程。负荷、隔离、岗位变使旧测试失效。Safe 仅当下有限保护；未来基础需一隔离件、一备用、二基础供给、两个实际操作岗位；增强需一控制器、二耦合件、三过渡箱、一试验器材。这些是需求，不是库存或完成工作。"
+        }
+      ],
+      "english_word_count": 128
+    },
+    {
+      "id": "R5-Q504-R-TRANSFER",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "接管响应和下一阶段委托",
+      "quest_ref": "Q-504",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S08",
+        "spot": "R5-S08.handover"
+      },
+      "source_root": "r5-q504-r-transfer",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q504-R-TRANSFER-p01",
+          "en": "Send the bounded transfer demand to Rook’s executive channel and preserve the recorded reply. He refuses to transfer command and enters the Seventh Tower to start forced normalisation. This fixed event moves the inquiry into crisis work; a favourable relationship does not prevent it, and sending the demand is not stopping the central machinery. The temporary joint emergency authority permits travel to the frontier for current network risk, basic preservation and preparation. It does not select central limited operation, orderly disconnection or a distributed system. The region R6 must still be reached by the same vessel through an actual verified route and berth. Keep the original case in its selected custody, with a redacted working extract for onward inquiry.",
+          "zh": "向鲁克执行渠道发送限定移交要求并保留回覆；他拒交指挥权，先入第七塔启动强制归一。固定事件让调查进入危机，关系良好不避免；发送要求也不停止中央机组。临时共同应急授权允许前往边境核当前网络风险、基础保全与准备，不选中央受限、有序断联或分布式政策。仍须同一船、真实核验航路和泊位实际到 R6。原件箱保留所选保管，后续仅带脱敏工作摘录。"
+        }
+      ],
+      "english_word_count": 119
+    },
+    {
+      "id": "R5-CQMIRA03-R-EXERCISE",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "个人记录查验演练",
+      "quest_ref": "CQ-MIRA-03",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.personal_review"
+      },
+      "source_root": "r5-cqmira03-r-exercise",
+      "access_class": "individual_permission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-CQMIRA03-R-EXERCISE-p01",
+          "en": "This invitation concerns the bounded personal review copy W04-review-v1 already delivered in Glasshaven, not the city’s main original case. Mira and the relevant record subject must accept a renewed arrangement for role_counts, source_version and source_root only. Choose independent_trustee_review or two_controlled_copies_cross_review. In both, conduct an access check, demonstrate an exit from future optional contact, append a correction without deleting the old version and test restricted re-review by a designated recipient. Withdrawal ends future private access but preserves lawful evidence and correction history. The exercise cannot change Q-504’s main custody selection. A copy has the same source; two copies are not two independent witnesses.",
+          "zh": "邀请只涉及学城已交付 W04-review-v1 的限定个人副件，不涉及城市主原件箱。米拉及相关记录本人须接受仅 role_counts、source_version、source_root 的新安排。可 independent_trustee_review 或 two_controlled_copies_cross_review；均实际演练准入、退出未来自愿联系、追加纠正不删旧版、指定接收人限阅复核。撤回终止未来私人访问，保留合法证据和纠正历史，不改 Q504 主保管；双副本同源，不是两个独立证人。"
+        }
+      ],
+      "english_word_count": 102
+    },
+    {
+      "id": "R5-CQOREN03-R-DUTY",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "奥伦后续维护的有限岗位",
+      "quest_ref": "CQ-OREN-03",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.oren_duty"
+      },
+      "source_root": "r5-cqoren03-r-duty",
+      "access_class": "individual_permission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-CQOREN03-R-DUTY-p01",
+          "en": "Oren’s further testimony must retain the MC-2-05 and MC-2-06 unrepaired-bypass acceptance and the auxiliary alarm’s separate repair and independent review. Choose rotation_local_maintenance with a declared safe reassignment window, or supervised_remote_answers with the local team doing physical installation. Accepting a repair does not require forgiveness. For this candidate window the local receiving team is ROLE-R3-LOCAL-MAINTENANCE, the supervised remote desk ROLE-R3-REMOTE-REVIEW and the interval next_safe_reassignment. A person committed to either work post cannot also occupy an active battle seat or another current duty. End or hand off the post explicitly before rejoining; no real week-long disappearance is required. The post is optional and supplies no main evidence or tower conversion by itself.",
+          "zh": "奥伦后续证言保留 MC-2-05/06 未修旁路验收责任及辅助警报独立修复复核。可 rotation_local_maintenance 并明确安全重编队窗口，或 supervised_remote_answers、实际安装由当地队承担。接受修复不等于原谅。候选接收队 ROLE-R3-LOCAL-MAINTENANCE，远程监督 ROLE-R3-REMOTE-REVIEW，时段 next_safe_reassignment。承担任一岗位者不可同时占出战席或另一值守；须明确结束或交班才能归队，不要求现实失踪一周。可选岗位本身不供主线证据或塔转型。"
+        }
+      ],
+      "english_word_count": 110
+    },
+    {
+      "id": "R5-O01-R-SIGN",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "路牌工坊的两种记忆",
+      "quest_ref": "SC-R5-SIGN",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-O01",
+        "spot": "R5-O01.proposal"
+      },
+      "source_root": "r5-o01-r-sign",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-O01-R-SIGN-p01",
+          "en": "The workshop is replacing one public sign at the street junction, not renaming the whole city. Some residents request the historic name Reed Lane; others use the newer name Lantern Turn. Both groups remember the earlier street, but disagree about which name helps visitors today. The keeper offers either name with a second explanatory line if the proposal records local consultation and names the existing sign crew as maintainer. The sample boards are two alternatives for one installation, not two rewards. The choice does not change the verified subsidence date, property records or legal route conditions. This candidate has no registered experience entitlement.",
+          "zh": "工坊只换街口一块公共牌，不给全城改名。有人要历史名 Reed Lane，有人用新名 Lantern Turn；都记得旧街，分歧在当下导航。经地方询议、指定既有路牌队维护，可选任一并添解释行。两样板是同一安装替代，不是双奖励，不改沉降日期、产权或路线门禁；该候选无登记经验权益。"
+        }
+      ],
+      "english_word_count": 103
+    },
+    {
+      "id": "R5-O02-R-CLAIM",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "失物保管屋的有限核对",
+      "quest_ref": "SC-R5-LOST",
+      "kind": "reading",
+      "location": {
+        "scene": "R5-O02",
+        "spot": "R5-O02.claim"
+      },
+      "source_root": "r5-o02-r-claim",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-O02-R-CLAIM-p01",
+          "en": "A brass cooking pot and a wrapped family sketch are stored separately. The pot claimant can describe its repaired handle and maker’s stamp; that permits a supervised object check, not access to another family’s sketch. The sketch remains under an individual reading permission that can be withdrawn. Public inventory descriptions do not include a hidden rescue key or a detention-room location. An uncertain ownership claim stays pending rather than becoming an accusation. Record the object identity and the permitted recipient before release; do not create another object for a second claimant. This optional candidate has no mainline gate or registered reward.",
+          "zh": "黄铜锅与包好的家庭速写分开保管。认锅者描述修柄和制作者印记，允许受监督实物核对，不准读另家速写。速写需本人可撤回阅读许可；公开清单不藏唯一救援钥匙或扣押位置。不确定认领保持待定，不变指控；交物先登记唯一身份和获准接收人，不给第二认领者复制物。可选候选不锁主线，无登记奖励。"
+        }
+      ],
+      "english_word_count": 101
+    },
+    {
+      "id": "R5-Q503-L-HEARING",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "三方的紧急责任审查",
+      "quest_ref": "Q-503",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.hearing"
+      },
+      "source_root": "r5-q503-l-hearing",
+      "access_class": "controlled_review",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q503-L-HEARING-p01",
+          "en": "Custodian: Before we start, this is a bounded review, not an election for the future system. We have the old design, the later revision and correction note, the policy and test authorisations, the executive orders and the station register. The copies remain labelled as copies. Personal addresses and unrelated identities are excluded. Each claim will have a source version and each responding party will have a chance to challenge its scope. If a channel declines to answer, I will record the decline. It will not become an admission simply because someone in this room wishes it were.",
+          "zh": "保管人：这是一场有限审查，不是未来制度选举。已有旧设计、后续修订和纠正、政策及测试授权、执行令、北站登记；副本标副本，住址和无关身份排除。每条主张有来源版、各方有质疑范围机会。拒答按拒答登记，不因厅里有人希望便成认罪。"
+        },
+        {
+          "id": "R5-Q503-L-HEARING-p02",
+          "en": "Ada: I want the residents to see why a place full of people was treated as an empty district. But I do not want their private papers spread around as proof that we matter. Put the authorisations and their limits before us. Keep the people who appear only in unrelated files out of the public extract. Some of our neighbours will prefer the protected session; that preference is not support for hiding the orders. Others want an emergency public record. Both routes must leave a way to correct a mistaken account after today.",
+          "zh": "阿妲：居民应看清住满人的地方为何被当成空区，但不愿用四散私纸证明存在。公开授权及限制，无关档里的人不进摘录。有人偏受保护场，并非支持藏命令；有人要应急公开，两种都须留下今日后纠错路径。"
+        },
+        {
+          "id": "R5-Q503-L-HEARING-p03",
+          "en": "Mara: My signature is on the eighteen-year-old design. I will not ask you to replace the sheet with my memory of it. The shortage was real, and the synchronisation helped at the time. The exit test was too weak, and independent review was not secured strongly enough. I also failed to obtain timely correction in the years that followed. The note from thirty days before D0 records part of that failure. It is a correction proposal, not evidence that every tower was ready for another system. You should compare it with the actual later revisions.",
+          "zh": "玛拉：十八年前设计有我的签名，别用我记忆替原纸。短缺真实，同步当时有用；退出检验薄弱，独立复核保障不足，多年也未及时取得纠正。D0 前三十天笔记记录部分失败，是纠正提案，不证明每塔能换制度，须比对后续实际修订。"
+        },
+        {
+          "id": "R5-Q503-L-HEARING-p04",
+          "en": "Custodian: So the first account is design limitation and delayed correction, supported by the design and dated correction record. That does not attribute every later executive instruction to you. Mara: Yes. Nor does it make the limitation harmless. I have read the early materials the patrol kept. Finding me did not make those documents unnecessary. I was afraid that admitting what I had left unresolved would make the whole rescue feel like a mistake. The documents do not owe me that protection. You can preserve a person and still question her work.",
+          "zh": "保管人：第一责任是设计不足和迟延纠正，以原设计及日期纠正记录支持，不让每次执行令都归你。玛拉：是，也不让不足无害。我读了巡灯人保留的早期材料，找到我不使文献多余。我怕承认未解决之事，让救援似错误；文献不欠我这种保护，保全人仍可质疑工作。"
+        },
+        {
+          "id": "R5-Q503-L-HEARING-p05",
+          "en": "Voss: My policy kept the high quota after the long-term warning entered internal discussion. The circulation limit was also my decision. I considered immediate interruption more dangerous than the risk of continuing, but the patrol has shown why that comparison was not enough to close review. I authorised the branch test. The executive cancellation of review was a distinct act, and the distinction should remain in the record. Custodian: We will keep both levels. Separating an executive order does not remove your responsibility for authorisation, known risk or suppression of unfavourable information.",
+          "zh": "沃斯：长期警报进入内部讨论后，我仍保高配额，限制传播也是我的决定。我认为即刻中断更危险，巡灯人证明该比较不足以取消复核。我授权支路测试，但执行层取消复核是另一行为，记录应分开。保管人：两层均保留，分开执行令不除授权、已知风险、压制不利信息责任。"
+        },
+        {
+          "id": "R5-Q503-L-HEARING-p06",
+          "en": "Station channel: The orders were issued as emergency protection. Custodian: You may contest a reading of the order. Please identify the version and the field you dispute. The station register records detention being carried out, and the override removes independent review during the test window. The present rescue is separately recorded. Station channel: I do not have an instruction to accept a transfer of command. Ada: Then record that reply without pretending it answers every claim. We have to make the local facility safe, and people must be able to leave this review without losing lawful evidence.",
+          "zh": "北站渠道：这些令以应急保护签发。保管人：可反驳解释，请指版本字段。北站登记记录扣押实施，取消令撤测试窗口独立复核，当前救援另记。渠道：我没有接受指挥权移交的指示。阿妲：记录回覆，别假装它回答所有主张；设施须安全，退出审查不应丧合法证据。"
+        },
+        {
+          "id": "R5-Q503-L-HEARING-p07",
+          "en": "Custodian: We will not count silence as proof. The three opportunities to respond are now recorded, with the answers and their limits attached. The summary will retain Mara’s design and delayed-correction responsibility, Voss’s policy, testing and suppression responsibility, and Rook’s review cancellation and detention responsibility. The transfer question is a next-stage action, not an event that has already happened because we discussed it. The originals will remain available under the temporary custody arrangement. A redacted summary can travel onward, but its readers must still know which claims rest on independent records and which reproduce the same source.",
+          "zh": "保管人：沉默不计证明。三方反证机会及回应限制已记录；摘要保留玛拉设计与迟延纠正、沃斯政策测试压制、鲁克取消复核扣押责任。移交是下一阶段动作，不因讨论便发生。原件留临时保管，脱敏摘要可继续送，但读者须知道哪些独立、哪些同源复制。"
+        },
+        {
+          "id": "R5-Q503-L-HEARING-p08",
+          "en": "Ada: And the map? Custodian: The historical sheet stays historical. Ada: Good. Let it show what used to be here without telling a visitor to walk across a broken span. Let the present sign show that people still live here without promising the street can never change. That is the kind of record we need from this hearing too: a dated account that can be checked, challenged and corrected. It will not make everyone agree about the future, but it can stop the future from being decided by documents nobody else is allowed to see.",
+          "zh": "阿妲：地图呢？保管人：旧纸仍作历史。阿妲：好，让它记过去，却不叫访客走断桥；现牌显示还有人，不保证街永不变化。审查记录亦需有日期、可核验反驳纠正；不会让大家未来意见一致，却可阻止未来被无人可看的文书决定。"
+        }
+      ],
+      "english_word_count": 758,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "estimated_duration_minutes": [
+        4.33,
+        5.41
+      ],
+      "duration_basis": "word_count_estimate_not_measured",
+      "long_listening_script": true
+    },
+    {
+      "id": "R5-Q504-L-COUNCIL",
+      "content_version": "r5-author-candidate-1",
+      "translation_version": "r5-author-candidate-1-zh",
+      "title_zh": "归档塔临时接管会议",
+      "quest_ref": "Q-504",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R5-S07",
+        "spot": "R5-S07.custody"
+      },
+      "source_root": "r5-q504-l-council",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "not_calibrated",
+      "originality": "new_original_local_detail_candidate",
+      "rights_status": "author_candidate_no_external_audio",
+      "extended_reading": false,
+      "paragraphs": [
+        {
+          "id": "R5-Q504-L-COUNCIL-p01",
+          "en": "Ada: The case on the table contains originals. We cannot make it safer by deciding that it no longer exists. The question is who holds that one case, who can inspect it and how the public receives a useful account without seeing everybody’s private record. The local archive custodian has offered bounded custody with my witnessed register, or a joint seal that requires both of us for access. Neither arrangement gives me authority over another region’s private records. I represent this neighbourhood in this emergency, not all six regions for every future decision.",
+          "zh": "阿妲：桌上是原件箱，宣布它不存在不能更安全。问题是唯一箱谁保管、谁可看、公众如何得到有用说明而非全部私档。地方档案保管人提供其保管我见证，或双方共同准入封签。我不因此管别地区私档，只代表该社区的此次应急，不为六地区所有未来决定作主。"
+        },
+        {
+          "id": "R5-Q504-L-COUNCIL-p02",
+          "en": "Custodian: In either option, we will keep the original versions and append later corrections. A redacted public finding is the minimum public account. The wider redacted option also includes technical conditions and limits, so readers can see how far the current test goes. Neither option releases medical notes, unrelated identities or home addresses. If we prepare a second working copy, its source label must still point to the same originals. A second copy can make access more resilient; it cannot supply an independent witness simply by being stored in another room.",
+          "zh": "保管人：都保原版并追加纠正。脱敏结果是最低公开，较宽版本另给技术条件和限制，让读者明白当前测试范围。都不发医疗、无关身份或住址。另作工作副本也标同一原件来源；双副本可增访问韧性，不因另一房保管便成为独立证人。"
+        },
+        {
+          "id": "R5-Q504-L-COUNCIL-p03",
+          "en": "Operator: I need a current work permit before entering the control layer. The rack must be secured and the relay drive isolated. There is an independent defence unit there; settling the custody question will not switch it off. After that work, the local load is four internal units: three for protection, one for preservation and none for discretionary reproduction. These units belong to this apparatus. They are not crates that can be moved from the six-tower preparation store. I can make an actual configuration check only when the declared load and my duty post match the record.",
+          "zh": "操作员：入控制层要当前许可，须固定架、隔离继电驱动；保管决定不关闭独立防卫单元。之后当地负荷四内部单位：保护三、保存一、非必要复制零，不能当六塔储备箱搬走。实际配置检查须负荷与本人岗位同记录。"
+        },
+        {
+          "id": "R5-Q504-L-COUNCIL-p04",
+          "en": "Voss: Preserving services is not a reason to preserve my exclusive control. I can provide supervised technical help if that is the agreed arrangement. If I am suspended from the role, keep an operation channel through the appointed local staff. My understanding of the network does not turn an incomplete preparation list into a completed one. Ada: That choice must not decide which future policy the patrol is allowed to consider. We can hold you responsible for the old decisions while still asking a bounded technical question, or assign the task elsewhere without inventing a simpler network.",
+          "zh": "沃斯：保服务不等于保我独控。可同意受监督技术帮助；若停职，通过当地指定人员维持操作渠道。我的网络知识不把缺项清单变成完成。阿妲：此选择不决定巡灯人可考虑哪种未来政策。可究旧责仍问有限技术，也可另派工作，不编造更简单网络。"
+        },
+        {
+          "id": "R5-Q504-L-COUNCIL-p05",
+          "en": "Custodian: The supervision record needs three functions: operation, resident review and evidence oversight. They are different duties even where people agree on an outcome. Our local operator cannot be replaced by the patrol’s companion simply because that person is on the battle roster. Ada has accepted resident review here; I will retain evidence oversight. We must record the acceptance of each post and keep it separate from a broad statement of support. Before the next phase, confirm the return passage as well. A safe tower does not help someone who has no registered safe way back.",
+          "zh": "保管人：监督需操作、住民复核、证据监督三功能，即使意见相同仍不同。出战同伴不能自动替当地操作员。阿妲接受此处住民复核，我留证据监督，逐岗明确接受，不用笼统支持替代。还需检查返程；无安全回程的人不会仅因塔安全便受益。"
+        },
+        {
+          "id": "R5-Q504-L-COUNCIL-p06",
+          "en": "Operator: If the load, isolation or duty changes, my earlier test expires. That does not erase the fact that the earlier test occurred. It tells the next team not to mistake history for the present arrangement. The result we can issue today is limited tower safety. Baseline reserve equipment, additional controllers, transition supplies and later field trials remain separate work. Ada: Put that distinction in the onward extract. We have had enough documents that look complete because missing work was described confidently. State what has actually been done and what the frontier team still needs to verify.",
+          "zh": "操作员：负荷、隔离、岗位变，旧测试失效，不抹已发生测试，只叫后队别混历史与当前。今日可签有限塔安全，基础备用、额外控制器、过渡补给、现场试运行另属工作。阿妲：摘录写明，缺工作却自信描述的完整文件够多了，写已做与边境仍须核验。"
+        },
+        {
+          "id": "R5-Q504-L-COUNCIL-p07",
+          "en": "Custodian: Once these local conditions are met, send the transfer demand through the executive channel and preserve its actual answer. Discussing a possible refusal is not proof that it has occurred. If command refuses and moves to the Seventh Tower, the joint authority will permit the patrol to seek current risk and preparation information at the frontier. That is travel permission and a bounded commission, not a final decision on central operation, disconnection or distribution. The ferry must still make the voyage. We cannot write the next region as reached just because the destination has been agreed.",
+          "zh": "保管人：满足当地条件后，实际向执行渠道发移交要求并保回覆；讨论可能拒绝不证明已发生。若拒交并转第七塔，共同授权让巡灯人去边境核当前风险准备。这是行程许可及有限委托，不是中央运行、断联、分布式最终决定。渡船仍须真航行，不因定目的地便记已到。"
+        },
+        {
+          "id": "R5-Q504-L-COUNCIL-p08",
+          "en": "Ada: Then let us choose a workable temporary arrangement and leave the larger argument open. Keep the originals available, protect the people whose names are not needed, and give the next team the limits as well as the findings. I cannot promise that every resident will agree with my choice. I can promise that the record will show what I accepted, who else accepted a duty and how a correction can be requested. Our street was removed from a register once. This time, being entered in a record should give people a way to question it, rather than another reason they cannot be heard.",
+          "zh": "阿妲：先选可行临时安排，保留更大讨论。原件可查，保护非必要身份，给后队限制和结果。我不保证每住民同意，但记录我接受什么、谁接受哪岗、如何请求纠正。街曾被名录抹掉，这次登记应给质疑渠道，不能成为又一无法发声理由。"
+        }
+      ],
+      "english_word_count": 772,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "estimated_duration_minutes": [
+        4.41,
+        5.51
+      ],
+      "duration_basis": "word_count_estimate_not_measured",
+      "long_listening_script": true
+    }
+  ],
+  "stations": [
+    {
+      "id": "R5-REGISTER-LANDING",
+      "spot": "R5-S01.arrival",
+      "label_zh": "登记实际地方登陆",
+      "action": "register_landing",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-RECEIVE-BASIC-KIT",
+      "spot": "R5-S02.kit",
+      "label_zh": "领取唯一基础任务工具",
+      "action": "receive_basic_kit",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-COMPARE-CURRENT-MAP",
+      "spot": "R5-S03.map",
+      "label_zh": "比较历史边与当前路线",
+      "action": "compare_current_map",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-CHECK-CURRENT-CREDENTIALS",
+      "spot": "R5-S03.credential",
+      "label_zh": "核验本次检修证件",
+      "action": "check_current_credentials",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-INSPECT-CHECKPOINT-PASSAGE",
+      "spot": "R5-S03.passage",
+      "label_zh": "检查独立核查通道",
+      "action": "inspect_checkpoint_passage",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-ISOLATE-TUNNEL-DRIVE",
+      "spot": "R5-S04.control",
+      "label_zh": "隔离当地隧道驱动",
+      "action": "isolate_tunnel_drive",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-BRACE-TUNNEL-PANEL",
+      "spot": "R5-S04.brace",
+      "label_zh": "固定松动面板",
+      "action": "brace_tunnel_panel",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-CLEAR-TUNNEL-OBSTRUCTION",
+      "spot": "R5-S04.obstruction",
+      "label_zh": "实际清隧道阻碍",
+      "action": "clear_tunnel_obstruction",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-VERIFY-TUNNEL-ZERO-MOTION",
+      "spot": "R5-S04.hazard",
+      "label_zh": "核验隧道零运动",
+      "action": "verify_tunnel_zero_motion",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-INSPECT-TUNNEL-PASSAGE",
+      "spot": "R5-S04.exit",
+      "label_zh": "检查真实踏步及返程线",
+      "action": "inspect_tunnel_passage",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SUBMIT-CURRENT-ROUTE",
+      "spot": "R5-S02.report",
+      "label_zh": "交付已走到值守厅的地图说明",
+      "action": "submit_current_route",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-REQUEST-RESCUE-SCOPE",
+      "spot": "R5-S05.scope",
+      "label_zh": "申请限定救援门控检查",
+      "action": "request_rescue_scope",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-INSPECT-DETENTION-RECORDS",
+      "spot": "R5-S05.records",
+      "label_zh": "现场核验扣押与返程资料",
+      "action": "inspect_detention_records",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-ISOLATE-DETENTION-DRIVE",
+      "spot": "R5-S05.drive",
+      "label_zh": "隔离扣押门驱动",
+      "action": "isolate_detention_drive",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-CLEAR-DUTY-OBSTRUCTION",
+      "spot": "R5-S05.obstruction",
+      "label_zh": "清理值守厅阻碍",
+      "action": "clear_duty_obstruction",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-BEGIN-GUARD-GROUP-ENCOUNTER",
+      "spot": "R5-S06.guard",
+      "label_zh": "实际处置北站看守组",
+      "action": "begin_guard_group_encounter",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-INSPECT-DETENTION-DOOR",
+      "spot": "R5-S06.door",
+      "label_zh": "检查实体扣押门",
+      "action": "inspect_detention_door",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-RELEASE-MARA",
+      "spot": "R5-S06.release",
+      "label_zh": "机械开门与直接接触玛拉",
+      "action": "release_mara",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-OPEN-INNER-EVACUATION",
+      "spot": "R5-S06.return_bolt",
+      "label_zh": "内侧开启既有撤离闩",
+      "action": "open_inner_evacuation",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-INSPECT-INNER-EVACUATION",
+      "spot": "R5-S06.return_check",
+      "label_zh": "检查内侧撤离路径",
+      "action": "inspect_inner_evacuation",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-RECEIVE-MARA",
+      "spot": "R5-S02.reception",
+      "label_zh": "接收实际护送回来的导师",
+      "action": "receive_mara",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SUBMIT-RESCUE-INSTRUCTION",
+      "spot": "R5-S02.reception",
+      "label_zh": "交接实际救援结果",
+      "action": "submit_rescue_instruction",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-REQUEST-RESPONSIBILITY-SCOPE",
+      "spot": "R5-S07.scope",
+      "label_zh": "申请三种责任的限定原件审阅",
+      "action": "request_responsibility_scope",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-COMPARE-RESPONSIBILITIES",
+      "spot": "R5-S07.hearing",
+      "label_zh": "交叉核验版本及不同责任",
+      "action": "compare_responsibilities",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-CHOOSE-REVIEW-PROCEDURE",
+      "spot": "R5-S07.hearing",
+      "label_zh": "选择可反证审查程序",
+      "action": "choose_review_procedure",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-RECORD-RESPONSE-OPPORTUNITY",
+      "spot": "R5-S07.hearing",
+      "label_zh": "逐方登记真实反证渠道",
+      "action": "record_response_opportunity",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SUBMIT-RESPONSIBILITY-SUMMARY",
+      "spot": "R5-S07.hearing",
+      "label_zh": "交付分开的有来源责任摘要",
+      "action": "submit_responsibility_summary",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-CHOOSE-TEMPORARY-CUSTODY",
+      "spot": "R5-S07.custody",
+      "label_zh": "确认有限原件保管与公开",
+      "action": "choose_temporary_custody",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-ACCEPT-JOINT-SUPERVISION",
+      "spot": "R5-S07.custody",
+      "label_zh": "逐岗接受共同监督",
+      "action": "accept_joint_supervision",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-REQUEST-TOWER-TAKEOVER",
+      "spot": "R5-S07.custody",
+      "label_zh": "签发当地有限接管工作许可",
+      "action": "request_tower_takeover",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-ISOLATE-ARCHIVE-RELAY",
+      "spot": "R5-S08.control",
+      "label_zh": "隔离归档继电驱动",
+      "action": "isolate_archive_relay",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SECURE-ARCHIVE-RACK",
+      "spot": "R5-S08.rack",
+      "label_zh": "固定原件保存机架",
+      "action": "secure_archive_rack",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-BEGIN-ARCHIVE-RELAY-ENCOUNTER",
+      "spot": "R5-S08.relay",
+      "label_zh": "处置独立归档继电防卫",
+      "action": "begin_archive_relay_encounter",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-CONFIGURE-ARCHIVE-LOAD",
+      "spot": "R5-S08.control",
+      "label_zh": "配置保护三保存一复制零",
+      "action": "configure_archive_load",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-APPOINT-ARCHIVE-OPERATOR",
+      "spot": "R5-S08.duty",
+      "label_zh": "明确实际当地操作岗位",
+      "action": "appoint_archive_operator",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-TEST-ARCHIVE-CONFIGURATION",
+      "spot": "R5-S08.load_test",
+      "label_zh": "核验当前版本配置",
+      "action": "test_archive_configuration",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-VERIFY-ARCHIVE-SAFETY",
+      "spot": "R5-S08.load_test",
+      "label_zh": "提交当前有限安全来源",
+      "action": "verify_archive_safety",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-RECORD-TOWER-FUTURE-REQUIREMENTS",
+      "spot": "R5-S08.load_test",
+      "label_zh": "发布仍需实际工作准备清单",
+      "action": "record_tower_future_requirements",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-INSPECT-ARCHIVE-RETURN",
+      "spot": "R5-S08.return_check",
+      "label_zh": "检查塔站返程",
+      "action": "inspect_archive_return",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-PRESERVE-ORIGINAL-CASE",
+      "spot": "R5-S07.custody",
+      "label_zh": "交接唯一原件箱",
+      "action": "preserve_original_case",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SEND-TRANSFER-DEMAND",
+      "spot": "R5-S08.handover",
+      "label_zh": "记录鲁克实际拒交及转第七塔",
+      "action": "send_transfer_demand",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SUBMIT-JOINT-HANDOVER",
+      "spot": "R5-S08.handover",
+      "label_zh": "提交塔站及临时共同处置授权",
+      "action": "submit_joint_handover",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-DECIDE-MIRA-REVIEW-INVITATION",
+      "spot": "R5-S07.personal_review",
+      "label_zh": "决定可撤回个人查验邀请",
+      "action": "decide_mira_review_invitation",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-RUN-PERSONAL-ACCESS-EXERCISE",
+      "spot": "R5-S07.personal_review",
+      "label_zh": "实际演练准入退出纠错限阅",
+      "action": "run_personal_access_exercise",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-ACCEPT-PERSONAL-ARRANGEMENT",
+      "spot": "R5-S07.personal_review",
+      "label_zh": "记录相关本人接受长期安排",
+      "action": "accept_personal_arrangement",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SUBMIT-MIRA-ACCESS-ARRANGEMENT",
+      "spot": "R5-S07.personal_review",
+      "label_zh": "交付个人查验工作",
+      "action": "submit_mira_access_arrangement",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-DECIDE-OREN-DUTY-INVITATION",
+      "spot": "R5-S07.oren_duty",
+      "label_zh": "决定可撤回个人岗位邀请",
+      "action": "decide_oren_duty_invitation",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-ARRANGE-OREN-DUTY",
+      "spot": "R5-S07.oren_duty",
+      "label_zh": "落实不冲突维护或远程岗位",
+      "action": "arrange_oren_duty",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-SUBMIT-OREN-DUTY-ARRANGEMENT",
+      "spot": "R5-S07.oren_duty",
+      "label_zh": "交付有限证言及实际岗位",
+      "action": "submit_oren_duty_arrangement",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-HANDOFF-OREN-DUTY",
+      "spot": "R5-S07.oren_duty",
+      "label_zh": "安全交班解除当前占用",
+      "action": "handoff_oren_duty",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-PROPOSE-LOCAL-SIGN",
+      "spot": "R5-O01.proposal",
+      "label_zh": "提出可选路牌名称候选",
+      "action": "propose_local_sign",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    },
+    {
+      "id": "R5-REQUEST-LOST-PROPERTY-CHECK",
+      "spot": "R5-O02.claim",
+      "label_zh": "提出有限失物核查候选",
+      "action": "request_lost_property_check",
+      "world_reads": [],
+      "execution": "typed_current_world_command_not_text_execution",
+      "content_version": "r5-author-candidate-1"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "R5-Q501-W-WORK",
+      "quest_ref": "Q-501",
+      "kind": "short_world_work",
+      "workspace_spot": "R5-S03.map",
+      "prompt_en": "Explain which map layer is historical, which current route you actually used and where its access stops.",
+      "prompt_zh": "说明历史图层、实际走过的当前路线及准入止境。",
+      "source_materials": [
+        "R5-Q501-R-LANDING",
+        "R5-Q501-R-STREET",
+        "R5-Q501-R-MAP",
+        "R5-Q501-R-CREDENTIAL",
+        "R5-Q501-R-TUNNEL",
+        "R5-Q501-L-DIRECTIONS",
+        "R5-Q501-R-ESSAY"
+      ],
+      "evaluation": "unassessed_full_band_disabled",
+      "minimum_words": null
+    },
+    {
+      "id": "R5-Q502-W-WORK",
+      "quest_ref": "Q-502",
+      "kind": "micro_world_work",
+      "workspace_spot": "R5-S05.records",
+      "prompt_en": "Write a bounded rescue and receiving instruction. Distinguish guard control, physical release, escort and actual reception.",
+      "prompt_zh": "写有限救援接应指令，区分制服、实体释放、护送与实际接收。",
+      "source_materials": [
+        "R5-Q502-R-DUTY",
+        "R5-Q502-R-RESCUE",
+        "R5-Q502-L-RECEPTION"
+      ],
+      "evaluation": "unassessed_full_band_disabled",
+      "minimum_words": null
+    },
+    {
+      "id": "R5-Q503-W-WORK",
+      "quest_ref": "Q-503",
+      "kind": "short_world_work",
+      "workspace_spot": "R5-S07.hearing",
+      "prompt_en": "Summarise the three distinct responsibilities with source versions and preserve contrary-response opportunities.",
+      "prompt_zh": "用来源版本分开三种责任，保留反证机会。",
+      "source_materials": [
+        "R5-Q503-R-SCOPE",
+        "R5-Q503-R-DESIGN",
+        "R5-Q503-R-REVISION",
+        "R5-Q503-R-POLICY",
+        "R5-Q503-R-EXECUTION",
+        "R5-Q503-R-HEARING",
+        "R5-Q503-R-ESSAY",
+        "R5-Q503-L-HEARING"
+      ],
+      "evaluation": "unassessed_full_band_disabled",
+      "minimum_words": null
+    },
+    {
+      "id": "R5-Q504-W-ARGUMENT",
+      "quest_ref": "Q-504",
+      "kind": "full_argument",
+      "workspace_spot": "R5-S07.custody",
+      "prompt_en": "Some argue that emergencies require a single custodian and narrow publication. Others prefer joint custody and a wider redacted account. Discuss both views and propose a temporary arrangement with supervision and correction. Use at least 250 words if choosing the full independent writing opportunity. World progress permits explicit structured assistance without a language score.",
+      "prompt_zh": "有观点认为应急须单一保管及较窄公开，另一方偏好共同保管和较宽脱敏说明。讨论双方，提出带监督纠错的临时安排；完整自主写作机会至少250词，可显式结构化辅助推进世界，不产语言分数。",
+      "source_materials": [
+        "R5-Q504-R-OPTIONS",
+        "R5-Q504-R-TOWER",
+        "R5-Q504-R-TRANSFER",
+        "R5-Q504-L-COUNCIL"
+      ],
+      "evaluation": "unassessed_full_band_disabled",
+      "minimum_words": 250
+    },
+    {
+      "id": "R5-CQMIRA03-W-WORK",
+      "quest_ref": "CQ-MIRA-03",
+      "kind": "short_world_work",
+      "workspace_spot": "R5-S07.personal_review",
+      "prompt_en": "Record the accepted access, exit, correction and restricted re-review exercise for the bounded personal copy.",
+      "prompt_zh": "记录限定个人副件的准入、退出、纠错及限阅复核演练。",
+      "source_materials": [
+        "R5-CQMIRA03-R-EXERCISE"
+      ],
+      "evaluation": "unassessed_full_band_disabled",
+      "minimum_words": null
+    },
+    {
+      "id": "R5-CQOREN03-W-WORK",
+      "quest_ref": "CQ-OREN-03",
+      "kind": "short_world_work",
+      "workspace_spot": "R5-S07.oren_duty",
+      "prompt_en": "Retain the verified MC-2 responsibility and specify the actual accepted maintenance post and safe reassignment window.",
+      "prompt_zh": "保留已核MC-2责任，明确实际接受维护岗位及安全重编队窗口。",
+      "source_materials": [
+        "R5-CQOREN03-R-DUTY"
+      ],
+      "evaluation": "unassessed_full_band_disabled",
+      "minimum_words": null
+    }
+  ],
+  "lexical_items": [
+    {
+      "term": "subsidence",
+      "definition_en": "the sinking of ground",
+      "definition_zh": "地面沉降",
+      "material_ref": "R5-Q501-R-STREET",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "credential",
+      "definition_en": "a current document showing authority or qualification",
+      "definition_zh": "证明当次身份或资格的文件",
+      "material_ref": "R5-Q501-R-CREDENTIAL",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "interlock",
+      "definition_en": "a control preventing an unsafe combination of operations",
+      "definition_zh": "防止不安全操作组合的互锁",
+      "material_ref": "R5-Q503-R-ESSAY",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "evacuation",
+      "definition_en": "moving people away from a dangerous place",
+      "definition_zh": "撤离危险地点",
+      "material_ref": "R5-Q502-R-RESCUE",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "custody",
+      "definition_en": "responsibility for keeping an object securely",
+      "definition_zh": "安全保管物件的责任",
+      "material_ref": "R5-Q504-R-OPTIONS",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "redacted",
+      "definition_en": "edited to withhold protected details while retaining the relevant account",
+      "definition_zh": "隐去受保护细节而保留相关说明",
+      "material_ref": "R5-Q504-R-OPTIONS",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "authorization",
+      "definition_en": "permission for a specified action and scope",
+      "definition_zh": "对明确动作和范围的授权",
+      "material_ref": "R5-Q503-R-POLICY",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "override",
+      "definition_en": "an instruction replacing an earlier control or decision",
+      "definition_zh": "取代既有控制或决定的指令",
+      "material_ref": "R5-Q503-R-EXECUTION",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "correction",
+      "definition_en": "an added account that identifies and repairs an earlier error",
+      "definition_zh": "指出并修复旧错误的追加记录",
+      "material_ref": "R5-Q503-R-REVISION",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "independent",
+      "definition_en": "not derived solely from the same underlying source",
+      "definition_zh": "并非只从相同根来源派生",
+      "material_ref": "R5-Q503-R-DESIGN",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "accountability",
+      "definition_en": "the obligation to explain a decision and answer challenges",
+      "definition_zh": "说明决定并接受质疑的义务",
+      "material_ref": "R5-Q503-R-ESSAY",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "proportionate",
+      "definition_en": "limited to what the stated purpose requires",
+      "definition_zh": "以既定用途所需为限",
+      "material_ref": "R5-Q503-R-HEARING",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "provisional",
+      "definition_en": "in force temporarily while remaining open to review",
+      "definition_zh": "暂时生效并可复核",
+      "material_ref": "R5-Q504-L-COUNCIL",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "preservation",
+      "definition_en": "keeping the original and its history intact",
+      "definition_zh": "保持原件及其历史完整",
+      "material_ref": "R5-Q504-R-TOWER",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "supervision",
+      "definition_en": "a named person checking a bounded operation",
+      "definition_zh": "明确人员检查限定操作",
+      "material_ref": "R5-CQOREN03-R-DUTY",
+      "review_status": "original_unreviewed"
+    },
+    {
+      "term": "reassignment",
+      "definition_en": "moving a person to a new role after an explicit handover",
+      "definition_zh": "明确交班后转到新岗位",
+      "material_ref": "R5-CQOREN03-R-DUTY",
+      "review_status": "original_unreviewed"
+    }
+  ],
+  "understanding_questions": [
+    {
+      "id": "R5-QN-01",
+      "material_ref": "R5-Q501-R-ESSAY",
+      "prompt_en": "What evidence does the administrative label abandoned provide, and what does it leave unresolved?",
+      "prompt_zh": "行政标签“废弃”提供何种证据，又留下什么未决？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-02",
+      "material_ref": "R5-Q501-R-ESSAY",
+      "prompt_en": "Why can two present routes share broad endpoints without being the same historical edge?",
+      "prompt_zh": "两条当前路线为何可共享大端点却不是同一历史边？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-03",
+      "material_ref": "R5-Q501-R-ESSAY",
+      "prompt_en": "Explain how the basic route keeps access possible without a named companion.",
+      "prompt_zh": "基础路线如何在不要求特定同伴的情况下保留准入？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-04",
+      "material_ref": "R5-Q503-R-ESSAY",
+      "prompt_en": "Separate the design limitation, policy decision and executive instruction in the dated record chain.",
+      "prompt_zh": "按日期链分开设计缺陷、政策决定与执行指令。",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-05",
+      "material_ref": "R5-Q503-R-ESSAY",
+      "prompt_en": "Why does rescuing a witness change a current-status claim but leave earlier source dates unchanged?",
+      "prompt_zh": "救出证人为何改变当前状态主张却不改旧来源日期？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-06",
+      "material_ref": "R5-Q503-R-ESSAY",
+      "prompt_en": "What must a review record when an affected party declines to respond?",
+      "prompt_zh": "相关方拒绝答复时，审查必须记录什么？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-07",
+      "material_ref": "R5-Q503-L-HEARING",
+      "prompt_en": "Which responsibilities does Mara acknowledge, and which later decisions require their own sources?",
+      "prompt_zh": "玛拉承认哪些责任，哪些后来决定另需来源？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-08",
+      "material_ref": "R5-Q503-L-HEARING",
+      "prompt_en": "How does the custodian handle the executive channel’s protection claim?",
+      "prompt_zh": "保管人如何处理执行渠道声称的保护理由？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-09",
+      "material_ref": "R5-Q503-L-HEARING",
+      "prompt_en": "Identify a statement that limits what the hearing itself can cause in the world.",
+      "prompt_zh": "指出一处限制听证本身可造成世界效果的陈述。",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-10",
+      "material_ref": "R5-Q504-L-COUNCIL",
+      "prompt_en": "Compare the two custody options and the shared limits on publication.",
+      "prompt_zh": "比较两种保管办法及共同公开限制。",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-11",
+      "material_ref": "R5-Q504-L-COUNCIL",
+      "prompt_en": "Which checks concern the archive tower now, and which remain future network work?",
+      "prompt_zh": "哪些检查处理归档塔当下状况，哪些仍属未来网络工作？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    },
+    {
+      "id": "R5-QN-12",
+      "material_ref": "R5-Q504-L-COUNCIL",
+      "prompt_en": "Why is the proposed transfer demand separate from a completed onward journey?",
+      "prompt_zh": "拟发交接要求为何不同于已完成的下一程航行？",
+      "kind": "source_bounded_explanation",
+      "assessment": "unassessed_no_band_score"
+    }
+  ],
+  "encounter_candidates": [
+    {
+      "id": "ENC-R5-01",
+      "scene": "R5-S03",
+      "implementation": "actual_shared_battle_candidate",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "kill_xp": 0,
+      "base_enemy_units": [
+        {
+          "id": "r5-local-threat",
+          "hp": 340,
+          "pressure_threshold": 5,
+          "hit_damage": 65
+        }
+      ],
+      "common": {
+        "armor_bp": 0,
+        "initiative": 12,
+        "pattern": "zero_damage_preparation_then_target_locked_hit",
+        "difficulty_scaling": "existing_catalog_enemy_hp_and_damage"
+      },
+      "finite_protection": null
+    },
+    {
+      "id": "ENC-R5-02",
+      "scene": "R5-S04",
+      "implementation": "actual_shared_battle_candidate",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "kill_xp": 0,
+      "base_enemy_units": [
+        {
+          "id": "r5-local-threat",
+          "hp": 280,
+          "pressure_threshold": 3,
+          "hit_damage": 65
+        }
+      ],
+      "common": {
+        "armor_bp": 0,
+        "initiative": 12,
+        "pattern": "zero_damage_preparation_then_target_locked_hit",
+        "difficulty_scaling": "existing_catalog_enemy_hp_and_damage"
+      },
+      "finite_protection": null
+    },
+    {
+      "id": "ENC-R5-03",
+      "scene": "R5-S06",
+      "implementation": "actual_shared_battle_candidate",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "kill_xp": 0,
+      "base_enemy_units": [
+        {
+          "id": "r5-commander",
+          "hp": 650,
+          "pressure_threshold": 8,
+          "hit_damage": 120
+        },
+        {
+          "id": "r5-guard-1",
+          "hp": 180,
+          "pressure_threshold": 4,
+          "hit_damage": 55
+        },
+        {
+          "id": "r5-guard-2",
+          "hp": 180,
+          "pressure_threshold": 4,
+          "hit_damage": 55
+        }
+      ],
+      "common": {
+        "armor_bp": 0,
+        "initiative": 12,
+        "pattern": "zero_damage_preparation_then_target_locked_hit",
+        "difficulty_scaling": "existing_catalog_enemy_hp_and_damage"
+      },
+      "finite_protection": {
+        "amount_bp": 2000,
+        "rounds": [
+          1,
+          2,
+          3
+        ],
+        "source": "one_surviving_guard_rotated",
+        "expiry": "source_next_personal_turn",
+        "respawn": false
+      }
+    },
+    {
+      "id": "ENC-R5-04",
+      "scene": "R5-S08",
+      "implementation": "actual_shared_battle_candidate",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "kill_xp": 0,
+      "base_enemy_units": [
+        {
+          "id": "r5-local-threat",
+          "hp": 380,
+          "pressure_threshold": 4,
+          "hit_damage": 80
+        }
+      ],
+      "common": {
+        "armor_bp": 0,
+        "initiative": 12,
+        "pattern": "zero_damage_preparation_then_target_locked_hit",
+        "difficulty_scaling": "existing_catalog_enemy_hp_and_damage"
+      },
+      "finite_protection": null
+    }
+  ],
+  "recorded_audio_assets": 0
+}

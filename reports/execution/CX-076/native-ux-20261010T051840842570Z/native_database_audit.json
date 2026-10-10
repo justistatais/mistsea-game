@@ -1,0 +1,78 @@
+{
+  "scope": "read-only actual isolated database after native interaction",
+  "active_database": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-076\\native-ux-20261010T051840842570Z\\profile\\recovery\\inventory-v2-9fcc2238-9931-46b3-b020-026cecc16191.sqlite",
+  "tables": [
+    "schema_migrations",
+    "metadata",
+    "branches",
+    "entities",
+    "balances",
+    "receipts",
+    "command_log",
+    "outbox",
+    "draft_revisions",
+    "draft_heads",
+    "observations",
+    "ai_requests",
+    "checkpoints",
+    "save_slots",
+    "leases",
+    "settings",
+    "assessments",
+    "permissions",
+    "items"
+  ],
+  "integrity": "ok",
+  "human_signoff": null,
+  "world_comparison": {
+    "entities": {
+      "before": {
+        "rows": 33,
+        "sha256": "9f89611a1a239c1c66b691b564b523224a83df34b85a2b9588c7298cfcb140bd"
+      },
+      "after": {
+        "rows": 33,
+        "sha256": "9f89611a1a239c1c66b691b564b523224a83df34b85a2b9588c7298cfcb140bd"
+      }
+    },
+    "balances": {
+      "before": {
+        "rows": 3,
+        "sha256": "f1d30eaaefe554efd058038041c855fe06fe5d3f745b922e69cbe60e82ce16f7"
+      },
+      "after": {
+        "rows": 3,
+        "sha256": "f1d30eaaefe554efd058038041c855fe06fe5d3f745b922e69cbe60e82ce16f7"
+      }
+    },
+    "items": {
+      "before": {
+        "rows": 12,
+        "sha256": "fa392321f44971673f175c5e22e3ad24a5ce2e228b2ace9355e391d50e3bfaf0"
+      },
+      "after": {
+        "rows": 12,
+        "sha256": "fa392321f44971673f175c5e22e3ad24a5ce2e228b2ace9355e391d50e3bfaf0"
+      }
+    },
+    "receipts": {
+      "before": {
+        "rows": 103,
+        "sha256": "a4b8b987d673f20e6aeefc17df40196ff25bef87edc187fa1be83696bda5af5e"
+      },
+      "after": {
+        "rows": 103,
+        "sha256": "a4b8b987d673f20e6aeefc17df40196ff25bef87edc187fa1be83696bda5af5e"
+      }
+    }
+  },
+  "world_and_rewards_unchanged": true,
+  "saved_body_exact_after_process_exit": true,
+  "matching_saved_heads": [
+    {
+      "task": "Q-102:departure-plan",
+      "revision": 3,
+      "body_sha256": "f2ed43daa713dc75d6f6f44d9b07943e5ee68a715977091596f130588f1cc147"
+    }
+  ]
+}

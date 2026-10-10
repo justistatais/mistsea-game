@@ -1,0 +1,47 @@
+[
+  {
+    "file": "Game_Design_Core_v0.1.md",
+    "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1",
+    "bytes": 36156
+  },
+  {
+    "file": "World_Story_Bible_v0.1.md",
+    "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+    "bytes": 85846
+  },
+  {
+    "file": "Exploration_Level_Design_v0.1.md",
+    "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+    "bytes": 83759
+  },
+  {
+    "file": "Quest_Event_System_v0.1.md",
+    "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33",
+    "bytes": 64353
+  },
+  {
+    "file": "English_Learning_System_v0.1.md",
+    "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b",
+    "bytes": 55785
+  },
+  {
+    "file": "Puzzle_System_v0.1.md",
+    "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5",
+    "bytes": 59878
+  },
+  {
+    "file": "Character_Progression_v0.1.md",
+    "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c",
+    "bytes": 54639
+  },
+  {
+    "file": "Combat_System_v0.1.md",
+    "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88",
+    "bytes": 53850
+  },
+  {
+    "file": "NPC_Faction_System_v0.1.md",
+    "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+    "bytes": 56895
+  }
+]

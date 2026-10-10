@@ -1,0 +1,2629 @@
+{
+  "review_kind": "author_only_exact_seed_to_producer_inventory_not_execution",
+  "generated_utc": "2026-10-10T08:02:48.509735+00:00",
+  "human_signoff": null,
+  "plan_ref": {
+    "path": "planning/plan.json",
+    "json_pointer": null,
+    "sha256": "9f5e000cd2298026f0e9189b3cabb2c8b17c6cf51d9ae3057fd9b353b4d54afa"
+  },
+  "mandatory_task_refs": [
+    {
+      "id": "CP-R0-04",
+      "objective": "填充序章声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/83"
+    },
+    {
+      "id": "CP-R1-04",
+      "objective": "填充盐雾港声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/89"
+    },
+    {
+      "id": "CP-R2-04",
+      "objective": "填充苔林修院声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/95"
+    },
+    {
+      "id": "CP-R3-04",
+      "objective": "填充沉钟矿区声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/101"
+    },
+    {
+      "id": "CP-R4-04",
+      "objective": "填充玻璃学城声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/107"
+    },
+    {
+      "id": "CP-R5-04",
+      "objective": "填充失名旧都声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/113"
+    },
+    {
+      "id": "CP-R6-04",
+      "objective": "填充风暴边境声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/119"
+    },
+    {
+      "id": "CP-RF-04",
+      "objective": "填充第七座灯塔声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。",
+      "deliverables": [
+        "本地区支线与纪念物",
+        "生活内容种子转成脚本",
+        "经验/场景/事件占用清单"
+      ],
+      "acceptance": [
+        "复用物流不重奖",
+        "可选不藏必需结局条件",
+        "同一物品/人不复制",
+        "没有本区个人线则说明不适用，不虚增任务"
+      ],
+      "plan_pointer": "/tasks/125"
+    }
+  ],
+  "scope_decision": {
+    "puzzle96": "A controlled authoring budget, not a quota of redundant clicks. Puzzle_System:522 requires merging redundant units. Full candidate still needs a genuine distinct-goal/source/solution/hint/recovery/runtime inventory and concrete coverage-gap production, or an explicit controlled scope revision; no 96-complete claim.",
+    "optional12": "Twelve specific independent content contracts and their shared current-state producer are now included, preserving 44 original definitions. Six named normal-region reports are indexed where present. Counts and PASS labels do not approve every variant, human balance or native play.",
+    "life12": "All twelve original regional seeds now have named source-backed author/runtime candidates, including R3 shift, R5 sign/property and R6 forecasts/same lamp. Candidate production is distinct from scoped execution and human language acceptance.",
+    "banter24": "One original chair script is retained and twenty-three full bilingual originals are included with current permission, occupancy, safe NPC movement, once, pause/resume and zero reward. A native chair route and permission-negative checks are observed; all 24 current-expression branches and human presentation are not accepted by that route."
+  },
+  "regional_life": [
+    {
+      "region": "盐雾港",
+      "seed": "同一间房",
+      "problem": "延误客人与新订房发生冲突，核对日期、承诺和替代住宿",
+      "bounded_outcome_direction": "不同安置办法、来信与小额资源变化",
+      "source_line": 767,
+      "region_id": "R1",
+      "status": "existing_finite_candidate",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/R1Life/R1LifeService.cs",
+        "json_pointer": null,
+        "sha256": "c083756c095e72f89049c258a09b640ac5ced6990c0f74ca6440a1f4465569ea"
+      },
+      "remaining": null,
+      "formal_acceptance": false
+    },
+    {
+      "region": "盐雾港",
+      "seed": "最后一场戏",
+      "problem": "恢复一场因停供取消的小演出，比较设备、时间与道具需求",
+      "bounded_outcome_direction": "剧场重新开放或改为小规模演出；不要求玩家说台词",
+      "source_line": 768,
+      "region_id": "R1",
+      "status": "existing_finite_candidate",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/R1Life/R1LifeService.cs",
+        "json_pointer": null,
+        "sha256": "c083756c095e72f89049c258a09b640ac5ced6990c0f74ca6440a1f4465569ea"
+      },
+      "remaining": null,
+      "formal_acceptance": false
+    },
+    {
+      "region": "苔林",
+      "seed": "没寄出的回信",
+      "problem": "作者改变了想传达的意思，玩家需理解草稿与收信人的关系",
+      "bounded_outcome_direction": "帮助重写、暂存或改为简短确认",
+      "source_line": 769,
+      "region_id": "R2",
+      "status": "existing_finite_candidate",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/R2Life/R2LifeService.cs",
+        "json_pointer": null,
+        "sha256": "37c689e8fc2ba33d7d94b98769f9d7a45a3258895694047d0ba46f7bb1f5a02f"
+      },
+      "remaining": null,
+      "formal_acceptance": false
+    },
+    {
+      "region": "苔林",
+      "seed": "冬季种子",
+      "problem": "比较种植说明、储存记录与有限温室空间",
+      "bounded_outcome_direction": "两种有不同短期产出的配置，不存在一句万能答案",
+      "source_line": 770,
+      "region_id": "R2",
+      "status": "existing_finite_candidate",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/R2Life/R2LifeService.cs",
+        "json_pointer": null,
+        "sha256": "37c689e8fc2ba33d7d94b98769f9d7a45a3258895694047d0ba46f7bb1f5a02f"
+      },
+      "remaining": null,
+      "formal_acceptance": false
+    },
+    {
+      "region": "矿区",
+      "seed": "修好的音乐盒",
+      "problem": "从维修便条与一段旧录音定位缺失部件",
+      "bounded_outcome_direction": "归还原主、放进公共休息室或保留待寻人",
+      "source_line": 771,
+      "region_id": "R3",
+      "status": "existing_finite_candidate",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/OptionalLocalWorks/MusicBoxRepairService.cs",
+        "json_pointer": null,
+        "sha256": "58d3b8f9c9119606a144b007cfc786fd6dce32d95905708e4f9db694b582ce41"
+      },
+      "remaining": null,
+      "formal_acceptance": false
+    },
+    {
+      "region": "矿区",
+      "seed": "换班的人",
+      "problem": "班表、口头承诺和家庭安排冲突",
+      "bounded_outcome_direction": "重新分工或获得额外人手，避免把问题都变成抓坏人",
+      "source_line": 772,
+      "region_id": "R3",
+      "status": "included_original_candidate_actual_native_evidence",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/R3ShiftWork/R3ShiftWorkService.cs",
+        "json_pointer": null,
+        "sha256": "49d6201750ebf3100b538310d729b3f1ef658add9640e19d39caf7c8fee3c4a0"
+      },
+      "remaining": "Two finite named shift alternatives, six full bilingual public materials, current availability, same board, morning/afternoon actual acknowledgement, zero rewards. Native engineering evidence is scoped; human acceptance remains pending.",
+      "formal_acceptance": false
+    },
+    {
+      "region": "学城",
+      "seed": "没有署名的人",
+      "problem": "一项小发明的贡献记录不完整",
+      "bounded_outcome_direction": "补记贡献、联合展示或暂缓发表",
+      "source_line": 773,
+      "region_id": "R4",
+      "status": "existing_finite_candidate",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/ChapterFour/ExhibitionCreditService.cs",
+        "json_pointer": null,
+        "sha256": "4184c1f6af65470aab7ad496c31e0a271584eff596b456732e21267570c742f9"
+      },
+      "remaining": null,
+      "formal_acceptance": false
+    },
+    {
+      "region": "学城",
+      "seed": "新来的学生",
+      "problem": "招生说明与课程安排让转学者误解了实际要求",
+      "bounded_outcome_direction": "帮助制定可行安排；不设置玩家代考",
+      "source_line": 774,
+      "region_id": "R4",
+      "status": "existing_bounded_inquiry_candidate",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/ChapterFour/StudyInquiryService.cs",
+        "json_pointer": null,
+        "sha256": "9e6a3be2289ba9d626d1baea7935c66d9dbc07cbfa24f8dffdd113a2b895ee82"
+      },
+      "remaining": "Actual inquiry and desk reply exist. Alternate practice remains pending allocation; neither attendance nor a changed timetable is claimed.",
+      "formal_acceptance": false
+    },
+    {
+      "region": "旧都",
+      "seed": "给街道一个名字",
+      "problem": "居民对恢复旧名或保留新名有不同记忆",
+      "bounded_outcome_direction": "明确的命名方案与小范围场景标识变化",
+      "source_line": 775,
+      "region_id": "R5",
+      "status": "included_original_candidate_actual_native_evidence",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/OptionalLocalWorks/OldCityLocalLifeService.cs",
+        "json_pointer": null,
+        "sha256": "957055ed82edec33ac838c2efe5af905803db195270a5ece4058af4cd57d4f6a"
+      },
+      "remaining": "Both current public memories, either named option, finite same sign, mounting/check/receiving; zero rewards and no history rewrite.",
+      "formal_acceptance": false
+    },
+    {
+      "region": "旧都",
+      "seed": "失物不是证据",
+      "problem": "一件私人纪念物被误当作公共案件材料",
+      "bounded_outcome_direction": "在不破坏真正证据链的前提下确认归属",
+      "source_line": 776,
+      "region_id": "R5",
+      "status": "included_original_candidate_actual_native_evidence",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/OptionalLocalWorks/OldCityLocalLifeService.Property.cs",
+        "json_pointer": null,
+        "sha256": "32e3c33eccad9bed72c373bb4ef3a4954e1cad6521f7ea8cd5f5ad098defcc63"
+      },
+      "remaining": "Unique separate serials, uncertain claim, exact wrapper-only current permission, supervised same object return; private family contents never supplied or read.",
+      "formal_acceptance": false
+    },
+    {
+      "region": "边境",
+      "seed": "两个天气预报",
+      "problem": "两个虚构预报采用不同窗口和地点，需安排一趟运输",
+      "bounded_outcome_direction": "选择路线与备用办法；不让现实游玩时间决定灾难",
+      "source_line": 777,
+      "region_id": "R6",
+      "status": "included_original_candidate_execution_scoped",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.cs",
+        "json_pointer": null,
+        "sha256": "3d5da51c80cae675e0e2c0fcaaf5e3bb5683be830a1e6049e4244da04d670747"
+      },
+      "remaining": "Forecast place/stage comparison, exact extra optional stock, actual dispatch and receiving route. Read named observed reports; final current native/regression remains independently scoped.",
+      "formal_acceptance": false
+    },
+    {
+      "region": "边境",
+      "seed": "借来的灯",
+      "problem": "相邻聚落争执共享设备的归还、保养与替代供给",
+      "bounded_outcome_direction": "形成有限互助或各自安排，留下后续回执",
+      "source_line": 778,
+      "region_id": "R6",
+      "status": "included_original_candidate_execution_scoped",
+      "current_producer_ref": {
+        "path": "src/Mist.Application/OptionalLocalWorks/SettlementSupportService.Lamp.cs",
+        "json_pointer": null,
+        "sha256": "372d208d24fe530200e3145a642da6c8dfc06b428ccb30e42895af37c01c6573"
+      },
+      "remaining": "Same borrowed lamp, two named current parties, actual zero-input service/return/manual reserve. No private note or hidden ending gate; execution evidence is independently scoped.",
+      "formal_acceptance": false
+    }
+  ],
+  "npc_life": [
+    {
+      "id": "BAN-LINA-1",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "修好一块普通海图压板",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/0",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/0",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-2",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "听过家人回信后如何折起信纸",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/1",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Actual received/source entitlement and each participant's current granted disclosure scope required; recruitment or co-location supplies neither.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/1",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-3",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "从船头判断风向，不提供关卡答案",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/2",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/2",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-OREN-1",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scene": "HUB-S03",
+      "premise": "把一件旧工具放回自己修好的框里",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/3",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/3",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-OREN-2",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scene": "HUB-S03",
+      "premise": "在公共饭桌承认这次不是只换一个螺钉",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/4",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/4",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-OREN-3",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scene": "HUB-S03",
+      "premise": "修一只不含主线钥匙的杯把",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/5",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/5",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-MIRA-1",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S02",
+      "premise": "给公共书架留下可改写的书目卡",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/6",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/6",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-MIRA-2",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S02",
+      "premise": "承认自己也喜欢没有注释的故事",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/7",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/7",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-MIRA-3",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S02",
+      "premise": "把旧档案封套改成不暴露姓名的标签",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/8",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/8",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-TESS-1",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "解释地图边缘的一条日常小路",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/9",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/9",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-TESS-2",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "为陌生船员留一份天气留言",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/10",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/10",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-TESS-3",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "讨论谁把甲板绳结打得太紧",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/11",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/11",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-OREN-1",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "scene": "HUB-S01",
+      "premise": "谁把修好的椅子又拆开了",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/12",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "existing_original_text",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": {
+        "path": "reference/part09/materials/NPC-MAT-06_Chair_Banter.md",
+        "json_pointer": null,
+        "sha256": "704c0c2b8e5229d6f7b9938a1104672c298f6207f69194631f7a0914158be798"
+      },
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/12",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 8,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-OREN-2",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "scene": "HUB-S01",
+      "premise": "坏掉的指南针并不让每条航线都变假",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/13",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/13",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-MIRA-1",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "海图上的手写备注应放在哪里",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/14",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/14",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-MIRA-2",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "回信可以保留原话，不必改成公告",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/15",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Actual received/source entitlement and each participant's current granted disclosure scope required; recruitment or co-location supplies neither.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/15",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-TESS-1",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "海风与山口风的不同判断",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/16",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/16",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 6,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-LINA-TESS-2",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "路线图上没有画出的休息点",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/17",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/17",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-OREN-MIRA-1",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "说明书旁边能不能画一只猫",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/18",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/18",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-OREN-MIRA-2",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "承认错误不等于删除记录",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/19",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/19",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-OREN-TESS-1",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "工具收纳与现场携带争论",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/20",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/20",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-OREN-TESS-2",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "别给每个紧急请求都写永久承诺",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/21",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/21",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 6,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-MIRA-TESS-1",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "路牌的旧名字与住民的新叫法",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/22",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/22",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 6,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    },
+    {
+      "id": "BAN-MIRA-TESS-2",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "一条规则应该让使用者看得懂",
+      "source_ref": {
+        "path": "content/source/part09.json",
+        "json_pointer": "/banter_seeds/23",
+        "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+      },
+      "text_status": "full_original_bilingual_candidate_human_pending",
+      "runtime_status": "included_current_permission_occupancy_safe_walk_once_pause_resume_producer",
+      "original_text_ref": null,
+      "private_letter_boundary": "Public local content only; no current unknown/private fact inferred.",
+      "rewards": 0,
+      "mandatory": false,
+      "script_ref": {
+        "path": "content/source/vessel_life/learner_package.json",
+        "json_pointer": "/scripts/23",
+        "sha256": "91368fec40ab416837942eca50397c996546af1b03dbde77ac113bab71bd5f88"
+      },
+      "script_paragraphs": 7,
+      "producer_ref": {
+        "path": "src/Mist.Application/VesselLife/VesselLifeService.cs",
+        "json_pointer": null,
+        "sha256": "d43d27638f5c21a03af296612ec005f933cfb46cd6919d41e01873fae8ddc72a"
+      },
+      "native_evidence_ref": {
+        "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+        "json_pointer": null,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "native_limit": "Actual normal chair event, pause/resume/once and private-not-inferred checks; not human play or every 24-expression branch execution."
+    }
+  ],
+  "encounters": {
+    "main_definitions": [
+      {
+        "id": "ENC-R0-01",
+        "region": "R0",
+        "quest": "Q-P01",
+        "scene": "R0-S02",
+        "kind": "tutorial",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/0",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R0-02",
+        "region": "R0",
+        "quest": "Q-P03",
+        "scene": "R0-S05",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/1",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R1-01",
+        "region": "R1",
+        "quest": "Q-102",
+        "scene": "R1-S05",
+        "kind": "elite_method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/2",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R1-02",
+        "region": "R1",
+        "quest": "Q-104",
+        "scene": "R1-S09",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/3",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion.",
+        "exclusive_group": "R1 tower-base entrance; choose one, never force both."
+      },
+      {
+        "id": "ENC-R1-03",
+        "region": "R1",
+        "quest": "Q-104",
+        "scene": "R1-S09",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/4",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion.",
+        "exclusive_group": "R1 tower-base entrance; choose one, never force both."
+      },
+      {
+        "id": "ENC-R1-04",
+        "region": "R1",
+        "quest": "Q-104",
+        "scene": "R1-S10",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/5",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R2-01",
+        "region": "R2",
+        "quest": "Q-203",
+        "scene": "R2-S05",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/6",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R2-02",
+        "region": "R2",
+        "quest": "Q-203",
+        "scene": "R2-S06",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/7",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R2-03",
+        "region": "R2",
+        "quest": "Q-203",
+        "scene": "R2-S07",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/8",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R3-01",
+        "region": "R3",
+        "quest": "Q-301",
+        "scene": "R3-S05",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/9",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R3-02",
+        "region": "R3",
+        "quest": "Q-301",
+        "scene": "R3-S06",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/10",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R3-03",
+        "region": "R3",
+        "quest": "Q-302",
+        "scene": "R3-S07",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/11",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R3-04",
+        "region": "R3",
+        "quest": "Q-301",
+        "scene": "R3-S05",
+        "kind": "escort",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/12",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R3-05",
+        "region": "R3",
+        "quest": "Q-304",
+        "scene": "R3-S09",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/13",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R4-01",
+        "region": "R4",
+        "quest": "Q-402",
+        "scene": "R4-S05",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/14",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R4-02",
+        "region": "R4",
+        "quest": "Q-402",
+        "scene": "R4-S05",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/15",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R4-03",
+        "region": "R4",
+        "quest": "Q-403",
+        "scene": "R4-S06",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/16",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R4-04",
+        "region": "R4",
+        "quest": "Q-403",
+        "scene": "R4-S07",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/17",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R5-01",
+        "region": "R5",
+        "quest": "Q-501",
+        "scene": "R5-S03",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/18",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R5-02",
+        "region": "R5",
+        "quest": "Q-501",
+        "scene": "R5-S04",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/19",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R5-03",
+        "region": "R5",
+        "quest": "Q-502",
+        "scene": "R5-S06",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/20",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R5-04",
+        "region": "R5",
+        "quest": "Q-504",
+        "scene": "R5-S08",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/21",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R6-01",
+        "region": "R6",
+        "quest": "Q-601",
+        "scene": "R6-S03",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/22",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R6-02",
+        "region": "R6",
+        "quest": "Q-601",
+        "scene": "R6-S04",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/23",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R6-03",
+        "region": "R6",
+        "quest": "Q-603",
+        "scene": "R6-S05",
+        "kind": "escort",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/24",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R6-04",
+        "region": "R6",
+        "quest": "Q-603",
+        "scene": "R6-S06",
+        "kind": "escort",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/25",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R6-05",
+        "region": "R6",
+        "quest": "Q-603",
+        "scene": "R6-S07",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/26",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-R6-06",
+        "region": "R6",
+        "quest": "Q-603",
+        "scene": "R6-S06",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/27",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion.",
+        "boundary": "Optional field-repair METHOD within Q603 main-path registry; not one of the twelve ENC-R*-O* independent optional slots."
+      },
+      {
+        "id": "ENC-RF-01",
+        "region": "RF",
+        "quest": "Q-F01",
+        "scene": "RF-S03",
+        "kind": "method",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/28",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-RF-02",
+        "region": "RF",
+        "quest": "Q-F02",
+        "scene": "RF-S04",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/29",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-RF-03",
+        "region": "RF",
+        "quest": "Q-F03",
+        "scene": "RF-S05",
+        "kind": "ordinary",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/30",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      },
+      {
+        "id": "ENC-RF-04",
+        "region": "RF",
+        "quest": "Q-F03",
+        "scene": "RF-S06",
+        "kind": "boss",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/31",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "classification": "main_path_definition_including_bypass_and_exclusive_methods",
+        "runtime_coverage": "Requires named current source + actual producer/result evidence; merely appearing here is not completion."
+      }
+    ],
+    "optional_slots": [
+      {
+        "id": "ENC-R1-O01",
+        "region": "R1",
+        "quest": null,
+        "scene": "R1-S09",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/32",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "braced_warden",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/0",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "gate_counterweight_cage",
+        "actual_inspection": "inspect_gate_counterweight_cage_zero_motion",
+        "actual_local_custodian": "ROLE-R1-SPARE-GATE-WATCH",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T080151233745Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "d962e687daf8f0bfeeb79919c509968adbc64355caa0a0c9d0abfc2815e36c5d",
+          "task": "CP-R1-03",
+          "name": "normal_zero_XP_R1_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R1-O02",
+        "region": "R1",
+        "quest": null,
+        "scene": "R1-S09",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/33",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "coil_sentry",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/1",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "emergency_bell_shutter",
+        "actual_inspection": "inspect_emergency_bell_shutter_zero_motion",
+        "actual_local_custodian": "ROLE-R1-BELL-KEEPER",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T080151233745Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "d962e687daf8f0bfeeb79919c509968adbc64355caa0a0c9d0abfc2815e36c5d",
+          "task": "CP-R1-03",
+          "name": "normal_zero_XP_R1_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R2-O01",
+        "region": "R2",
+        "quest": null,
+        "scene": "R2-S06",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/34",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "braced_warden",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/2",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "seed_trolley_parking_brake",
+        "actual_inspection": "inspect_seed_trolley_parking_brake_zero_motion",
+        "actual_local_custodian": "ROLE-R2-TROLLEY-KEEPER",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075616811960Z-1/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "e34340f8e7d69f03195866f63b259de33dcde273ecb2814ee9ca9614a7261824",
+          "task": "CP-R2-03",
+          "name": "normal_zero_XP_R2_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R2-O02",
+        "region": "R2",
+        "quest": null,
+        "scene": "R2-S06",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/35",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "coil_sentry",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/3",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "dry_gauge_rack_latch",
+        "actual_inspection": "inspect_dry_gauge_rack_latch_zero_motion",
+        "actual_local_custodian": "ROLE-R2-GAUGE-CUSTODIAN",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075616811960Z-1/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "e34340f8e7d69f03195866f63b259de33dcde273ecb2814ee9ca9614a7261824",
+          "task": "CP-R2-03",
+          "name": "normal_zero_XP_R2_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R3-O01",
+        "region": "R3",
+        "quest": null,
+        "scene": "R3-O02",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/36",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "braced_warden",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/4",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "observation_cradle_clamp",
+        "actual_inspection": "inspect_observation_cradle_clamp_zero_motion",
+        "actual_local_custodian": "ROLE-R3-SIDEWELL-TECHNICIAN",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075616811960Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "0938d04a33f815e69e0bdc4e48bf634ac39272aab7cc7afe669e87efe1708960",
+          "task": "CP-R3-03",
+          "name": "normal_zero_XP_R3_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R3-O02",
+        "region": "R3",
+        "quest": null,
+        "scene": "R3-O02",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/37",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "coil_sentry",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/5",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "survey_lamp_swivel",
+        "actual_inspection": "inspect_survey_lamp_swivel_zero_motion",
+        "actual_local_custodian": "ROLE-R3-SIDEWELL-LAMP-WATCH",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075616811960Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "0938d04a33f815e69e0bdc4e48bf634ac39272aab7cc7afe669e87efe1708960",
+          "task": "CP-R3-03",
+          "name": "normal_zero_XP_R3_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R4-O01",
+        "region": "R4",
+        "quest": null,
+        "scene": "R4-S07",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/38",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "braced_warden",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/6",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "blank_test_shutter",
+        "actual_inspection": "inspect_blank_test_shutter_zero_motion",
+        "actual_local_custodian": "ROLE-R4-TEST-FRAME-CUSTODIAN",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075629460457Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "b81b31e350cfc3fd7886f19506352fc8cd421e18e06e9f488e6d9d3240e972ec",
+          "task": "CP-R4-03",
+          "name": "normal_zero_XP_R4_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R4-O02",
+        "region": "R4",
+        "quest": null,
+        "scene": "R4-S07",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/39",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "coil_sentry",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/7",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "disconnected_return_coupler",
+        "actual_inspection": "inspect_disconnected_return_coupler_zero_motion",
+        "actual_local_custodian": "ROLE-R4-SPARE-COUPLER-WATCH",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075629460457Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "b81b31e350cfc3fd7886f19506352fc8cd421e18e06e9f488e6d9d3240e972ec",
+          "task": "CP-R4-03",
+          "name": "normal_zero_XP_R4_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R5-O01",
+        "region": "R5",
+        "quest": null,
+        "scene": "R5-S04",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/40",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "braced_warden",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/8",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "tunnel_sign_carrier",
+        "actual_inspection": "inspect_tunnel_sign_carrier_zero_motion",
+        "actual_local_custodian": "ROLE-R5-PUBLIC-SIGN-KEEPER",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075647902602Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "0b1cc82a0d05874fdf53e40dde95c1f49eb2b8b03ed4f13c1a71cc0dc8744028",
+          "task": "CP-R5-03",
+          "name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R5-O02",
+        "region": "R5",
+        "quest": null,
+        "scene": "R5-S04",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/41",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "coil_sentry",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/9",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "drain_cover_lifting_frame",
+        "actual_inspection": "inspect_drain_cover_lifting_frame_zero_motion",
+        "actual_local_custodian": "ROLE-R5-TUNNEL-STORE-WATCH",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075647902602Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "0b1cc82a0d05874fdf53e40dde95c1f49eb2b8b03ed4f13c1a71cc0dc8744028",
+          "task": "CP-R5-03",
+          "name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R6-O01",
+        "region": "R6",
+        "quest": null,
+        "scene": "R6-S06",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/42",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "braced_warden",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/10",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "empty_sled_runner_clamp",
+        "actual_inspection": "inspect_empty_sled_runner_clamp_zero_motion",
+        "actual_local_custodian": "ROLE-R6-OUTER-SLED-KEEPER",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075659386164Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "d534dfa7893c5e4f80c5d4d40c7de3a7e3617d569107842f555c26b903a7511b",
+          "task": "CP-R6-03",
+          "name": "normal_zero_XP_R6_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      },
+      {
+        "id": "ENC-R6-O02",
+        "region": "R6",
+        "quest": null,
+        "scene": "R6-S06",
+        "kind": "optional_contract_slot",
+        "source_ref": {
+          "path": "content/source/part08.json",
+          "json_pointer": "/encounters/43",
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        "completion_claim": false,
+        "status": "included_specific_independent_contract_candidate_execution_scoped",
+        "template_direction": "coil_sentry",
+        "registered_parent_quest": null,
+        "numeric_status": "slot_only_no_finished_content",
+        "remaining": [
+          "Actual normal region case is indexed separately when present; one report is neither all method variants nor human/native acceptance.",
+          "Source cards and actual contracts are not human readability, balance or full native acceptance."
+        ],
+        "contract_source_ref": {
+          "path": "content/source/optional_encounter_contracts/learner_package.json",
+          "json_pointer": "/contracts/11",
+          "sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1"
+        },
+        "producer_ref": {
+          "path": "src/Mist.Application/OptionalEncounterContracts/OptionalEncounterService.cs",
+          "json_pointer": null,
+          "sha256": "7b74e8d3532a89347d4a66375327a73450f04460e967c123c17a697d1a891b2b"
+        },
+        "actual_target": "spare_storm_screen_frame",
+        "actual_inspection": "inspect_spare_storm_screen_frame_zero_motion",
+        "actual_local_custodian": "ROLE-R6-SPARE-SCREEN-WATCH",
+        "observed_normal_region_result": {
+          "path": "reports/build/20261010T075659386164Z/test_results.json",
+          "json_pointer": "/results/0",
+          "sha256": "d534dfa7893c5e4f80c5d4d40c7de3a7e3617d569107842f555c26b903a7511b",
+          "task": "CP-R6-03",
+          "name": "normal_zero_XP_R6_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+          "result": "passed",
+          "report_failed": 0,
+          "source_currentness": "Read historical executable scope; current source may postdate this report."
+        }
+      }
+    ],
+    "counts": {
+      "main": 32,
+      "optional": 12,
+      "total": 44
+    },
+    "budget_is_not_completion": true
+  },
+  "r6_current_pending_refs": [
+    {
+      "path": "content/source/optional_local_works/SETTLEMENT_SUPPORT_SCOPE.md",
+      "json_pointer": null,
+      "sha256": "16186e75becd0cd3bc91fc08cfee45b3ddcd8ec6c3e79682b1db52074f20ff3e"
+    },
+    {
+      "path": "content/source/optional_local_works/settlement_support_contracts.json",
+      "json_pointer": null,
+      "sha256": "b091d3fef85b0547440c9be7347a7aa1982507fc60e60d2bbc60050a019b53f1"
+    },
+    {
+      "path": "src/Mist.Core/OptionalLocalWorks/SettlementSupportModels.cs",
+      "json_pointer": null,
+      "sha256": "0c0c8a05b7cbcff240ac4f9853607e7e4528e4a9e25d564b4cbe211e69d399db"
+    },
+    {
+      "path": "src/Mist.Application/OptionalLocalWorks/FieldRelayRepairService.cs",
+      "json_pointer": null,
+      "sha256": "3002400dcb792192307c5027cdff8cb254b70cb6854bb899a5b372cb4bf1fe08"
+    }
+  ],
+  "source_refs": [
+    {
+      "path": "docs/integration/MASTER_GDD_v0.1.md",
+      "json_pointer": null,
+      "sha256": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768"
+    },
+    {
+      "path": "docs/integration/Integration_Decisions_v0.1.md",
+      "json_pointer": null,
+      "sha256": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622"
+    },
+    {
+      "path": "docs/baseline/Puzzle_System_v0.1.md",
+      "json_pointer": null,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    {
+      "path": "docs/baseline/Combat_System_v0.1.md",
+      "json_pointer": null,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "json_pointer": null,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "json_pointer": null,
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+    },
+    {
+      "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+      "json_pointer": null,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "planning/tasks/CX-078.md",
+      "json_pointer": null,
+      "sha256": "77ac1814276f9cbe5303349ba91107e6e54cf7071888a142b51516d7ac1045df"
+    }
+  ],
+  "observed_auxiliary_case_evidence": [
+    {
+      "path": "reports/build/20261010T031436723455Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "d269a84721fded0df7297985f454355ab0dc494524008ceecc0684def3dbc12e",
+      "task": "CP-R3-05",
+      "name": "Normal zero-XP actual R3 arrival preserves untouched local state for native client entry",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T031436723455Z/test_results.json",
+      "json_pointer": "/results/1",
+      "sha256": "d269a84721fded0df7297985f454355ab0dc494524008ceecc0684def3dbc12e",
+      "task": "CP-R3-05",
+      "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T071723377418Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "c4fbc272b751b32b624843b7505df53cd92659895a7e2180d75c29ab33a66d5d",
+      "task": "CP-LINA-PERSONAL-03",
+      "name": "eight_actual_bilingual_Lina_sources_keep_original_nodes_and_distinct_private_purposes",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T071723377418Z/test_results.json",
+      "json_pointer": "/results/1",
+      "sha256": "c4fbc272b751b32b624843b7505df53cd92659895a7e2180d75c29ab33a66d5d",
+      "task": "CP-LINA-PERSONAL-03",
+      "name": "actual_zero_XP_Lina_three_producers_继续通信_once_original_rewards_current_permission_and_private_custody",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T071723377418Z/test_results.json",
+      "json_pointer": "/results/2",
+      "sha256": "c4fbc272b751b32b624843b7505df53cd92659895a7e2180d75c29ab33a66d5d",
+      "task": "CP-LINA-PERSONAL-03",
+      "name": "actual_zero_XP_Lina_three_producers_双方同意后见面_once_original_rewards_current_permission_and_private_custody",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T071723377418Z/test_results.json",
+      "json_pointer": "/results/3",
+      "sha256": "c4fbc272b751b32b624843b7505df53cd92659895a7e2180d75c29ab33a66d5d",
+      "task": "CP-LINA-PERSONAL-03",
+      "name": "actual_zero_XP_Lina_three_producers_明确暂缓联系并保存转交方式_once_original_rewards_current_permission_and_private_custody",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073712541799Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "682c0356bf2a21a5a94e48552bee5cd26084fce86447e9bd3ea30f96881950d5",
+      "task": "CP-LINA-PERSONAL-05",
+      "name": "actual_zero_XP_Lina_native_entry_without_invitation_private_sources_or_work_result",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073652813713Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "452760bbf795d9d4325620364e6e2b56c325ed4f6192c529008eeb4db12100ba",
+      "task": "CP-R3-04",
+      "name": "Shift work uses full original public materials and two finite alternatives without private household details",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073652813713Z/test_results.json",
+      "json_pointer": "/results/1",
+      "sha256": "452760bbf795d9d4325620364e6e2b56c325ed4f6192c529008eeb4db12100ba",
+      "task": "CP-R3-04",
+      "name": "Actual normal shift reassignment receives the same board and releases both posts once with zero rewards",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073652813713Z/test_results.json",
+      "json_pointer": "/results/2",
+      "sha256": "452760bbf795d9d4325620364e6e2b56c325ed4f6192c529008eeb4db12100ba",
+      "task": "CP-R3-04",
+      "name": "Extra named local afternoon help is an actual alternative and does not make the unselected person on duty",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073652813713Z/test_results.json",
+      "json_pointer": "/results/3",
+      "sha256": "452760bbf795d9d4325620364e6e2b56c325ed4f6192c529008eeb4db12100ba",
+      "task": "CP-R3-04",
+      "name": "Draft edits, current named availability and continuation invalidate only an uncommitted shift preview",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073652853642Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "affaf11950fc4bb1aed204b858baf8d9b9c67e8b94f3984a4859a74190957f79",
+      "task": "CP-R5-LIFE-03",
+      "name": "Actual zero-XP local consultation permits either remembered name, installs one same inspected board and visible second line, and leaves the unused board and main history exact",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073652853642Z/test_results.json",
+      "json_pointer": "/results/1",
+      "sha256": "affaf11950fc4bb1aed204b858baf8d9b9c67e8b94f3984a4859a74190957f79",
+      "task": "CP-R5-LIFE-03",
+      "name": "Uncertain local pot descriptions stay pending, different serials and family-content access refuse; current wrapper permission supports same object return without touching real evidence",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T073652853642Z/test_results.json",
+      "json_pointer": "/results/2",
+      "sha256": "affaf11950fc4bb1aed204b858baf8d9b9c67e8b94f3984a4859a74190957f79",
+      "task": "CP-R5-LIFE-03",
+      "name": "Actual saved name proposal has CAS conflict and changed-body or Continue refusal while the physically installed same sign remains current",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107637944Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "6d084edd79e588c321daa4f93ecfde1951a5a08b7da12623de3968a49214971b",
+      "task": "CP-NPC-LIFE",
+      "name": "Twenty-four original ship life scenes retain full text and one original chair script",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107637944Z/test_results.json",
+      "json_pointer": "/results/1",
+      "sha256": "6d084edd79e588c321daa4f93ecfde1951a5a08b7da12623de3968a49214971b",
+      "task": "CP-NPC-LIFE",
+      "name": "Normal zero-XP joined crew walks in the actual ship, pauses and resumes a full once-only event without rewards",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107637944Z/test_results.json",
+      "json_pointer": "/results/2",
+      "sha256": "6d084edd79e588c321daa4f93ecfde1951a5a08b7da12623de3968a49214971b",
+      "task": "CP-NPC-LIFE",
+      "name": "Actual archive scene requires safe participant walks and a held NPC lease blocks the whole event",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107637944Z/test_results.json",
+      "json_pointer": "/results/3",
+      "sha256": "6d084edd79e588c321daa4f93ecfde1951a5a08b7da12623de3968a49214971b",
+      "task": "CP-NPC-LIFE",
+      "name": "Joined does not authorize private replies or fabricate an earned old toolframe",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074415381779Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "796fbd70c76151cc5b941658004969d5c00f8f8e3767f940853af36e4151e664",
+      "task": "CP-NPC-LIFE",
+      "name": "Normal native-entry profile has actual recruited crew and no opened life scene",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107653926Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "40ffacc21aca80854da68b91f19dafb8b739d916dd5df8bd5e7866a031a62334",
+      "task": "CP-SETTLEMENT-03",
+      "name": "Normal current-stage and earlier southern forecasts require exact finite optional batch and actual new delivery route; preview cancel and once receipt preserve main world",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107653926Z/test_results.json",
+      "json_pointer": "/results/1",
+      "sha256": "40ffacc21aca80854da68b91f19dafb8b739d916dd5df8bd5e7866a031a62334",
+      "task": "CP-SETTLEMENT-03",
+      "name": "Real shared press requires separate local posts, dedicated manual reserve and current DRIVE zero; permission withdrawal and Continue reject stale handovers",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107653926Z/test_results.json",
+      "json_pointer": "/results/2",
+      "sha256": "40ffacc21aca80854da68b91f19dafb8b739d916dd5df8bd5e7866a031a62334",
+      "task": "CP-SETTLEMENT-03",
+      "name": "Same borrowed lamp cannot expose family note, use another serial or reuse old zero after cleaning; actual return and bounded mutual aid keep original title once",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074107653926Z/test_results.json",
+      "json_pointer": "/results/3",
+      "sha256": "40ffacc21aca80854da68b91f19dafb8b739d916dd5df8bd5e7866a031a62334",
+      "task": "CP-SETTLEMENT-03",
+      "name": "Saved optional prose has real CAS and no world execution; changed prose invalidates a delivery confirmation without losing the carried physical packet",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T075112403838Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "2bb67090f432d4685432a918bcc5132f310cf0d0669b864cefd2802a375cb59d",
+      "task": "CP-R3-05",
+      "name": "Shift native entry has actual zero-XP through Q301, 2340XP and untouched optional work",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T074519262745Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "d6b890e6f06d4b78ca4e55718aa4b664a3682f35a3e2ad913c53798a7f912c4a",
+      "task": "CP-R5-LIFE-05",
+      "name": "Actual normal prior chapters and registered R5 landing export a native local-life entry with no local object, permission or completion seed",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T075015236526Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "0764bf15a7b59c52e294becd9b635e593f26f8f9e3fad582c779b49180093921",
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Finite response source retains bounded full bilingual text without audio or an identity key",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T075015236526Z/test_results.json",
+      "json_pointer": "/results/1",
+      "sha256": "0764bf15a7b59c52e294becd9b635e593f26f8f9e3fad582c779b49180093921",
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Fresh zero XP profile cannot make a paper or fabricate a maintenance or current consent receipt",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T075015236526Z/test_results.json",
+      "json_pointer": "/results/2",
+      "sha256": "0764bf15a7b59c52e294becd9b635e593f26f8f9e3fad582c779b49180093921",
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Actual zero XP source chain delivers same paper then performs truthful consent exit correction and remote independent replacement once",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    },
+    {
+      "path": "reports/build/20261010T075616595512Z/test_results.json",
+      "json_pointer": "/results/0",
+      "sha256": "fbb33b84c1f83e38f1aa5a77867d1cd55b5b52afe6054efadf1a8b5604d52b1e",
+      "task": "CP-PERSONAL-DETAIL",
+      "name": "Normal source-backed prior nodes produce a native entry with last personal work untouched",
+      "result": "passed",
+      "report_failed": 0,
+      "source_currentness": "Read historical executable scope; current source may postdate this report."
+    }
+  ],
+  "personal_detail_current_sources": [
+    {
+      "path": "content/source/lina_personal/learner_package.json",
+      "json_pointer": null,
+      "sha256": "6b8305b092778dd6b831117585cebb0dcb58c6caea2f8b05b3adc5eb2e54058c"
+    },
+    {
+      "path": "src/Mist.Application/LinaPersonalWorks/LinaPersonalWorkService.cs",
+      "json_pointer": null,
+      "sha256": "64ba067c3646a2e62c77f1d5463f3f0c892edf2c471b5e28844c5b4ea60e5f38"
+    },
+    {
+      "path": "content/source/scoped_personal_work/learner_package.json",
+      "json_pointer": null,
+      "sha256": "d968379af19311bdc460e54f1d7c51eb8c75237d8710055041af1bd282048f90"
+    },
+    {
+      "path": "src/Mist.Application/ScopedPersonalWorks/PersonalProductionRules.cs",
+      "json_pointer": null,
+      "sha256": "854da11f31cacf087166b624bc1c43b18ff5be855b76b8f3e50fbb5c234d8b4c"
+    },
+    {
+      "path": "tests/Mist.Tests/ScopedPersonalWorks/ScopedPersonalWorkCases.cs",
+      "json_pointer": null,
+      "sha256": "1c38ecef2c92b2d679050ca8237b3d9965706e62f94c8719e1dd9253fe8d9889"
+    }
+  ],
+  "final_current_fullsuite_and_export": "pending Root serial execution; no execution.json change or human acceptance"
+}

@@ -1,0 +1,73 @@
+{
+  "player_projection": true,
+  "version": "r6-settlement-support-candidate-2",
+  "review_status": "original_unreviewed_human_pending",
+  "source_refs": [
+    "Exploration_Level_Design_v0.1.md:547-564",
+    "World_Story_Bible_v0.1.md:617-625",
+    "chapter_six/learner_package.json:R6-O01-R-NEEDS,R6-O02-R-MAINTENANCE",
+    "World_Story_Bible_v0.1.md:764-778 (two weather reports; borrowed lamp)"
+  ],
+  "original_local_details": "Exact local serials, quantities, receiving roles, shared press and service interval below are new bounded candidates. They were not specified in the original regional outline. Existing basic provisions and the separate five-box supplement are unaffected. The two local forecast attributions/windows and finite borrowed-lamp serial, posts and service are separately disclosed new candidates; no private family document is supplied.",
+  "sections": [
+    {
+      "id": "O-R6-01",
+      "scene": "R6-O01",
+      "spot": "R6-O01.notice",
+      "paragraphs": [
+        {
+          "id": "R6-O01-SUPPORT-p01",
+          "en": "The settlement's protected minimum remains in the main provision plan. This separate request concerns two extra wind screens and one seal pack: R6-O01-SCREEN-01, R6-O01-SCREEN-02 and R6-O01-SEAL-01. These three serials belong to the local optional stock at the transit-shed manifest stand, not to protected base components, enhanced transition crates or the five-box supplement. Declining this additional delivery does not remove a required service or ending option.",
+          "zh": "聚落受保护最低保障仍在主线供给计划内。这份独立请求只涉及额外防风屏二、密封包一：R6-O01-SCREEN-01、R6-O01-SCREEN-02、R6-O01-SEAL-01。三件属于中转棚货单位的当地可选库存，不属于基础组件、增强过渡箱或五箱补充。拒绝追加交付不会取消必需服务或结局选择。"
+        },
+        {
+          "id": "R6-O01-SUPPORT-p02",
+          "en": "Compare the current-stage forecast with the ground need: pooled mist rules out the low cut, and the exposed ridge crosses the gust channel. The marked leeward corridor with its sheltered return remains the verified route. The local extra request is two wind screens and one seal pack, rather than another tower isolator. First read the settlement notice and the retained forecast, then record this bounded comparison. Reading speed does not advance the work stage.",
+          "zh": "把同阶段预报与地面需求比较：积雾使低切口不合格，暴露脊线横穿阵风通道。带受遮蔽返程的标记背风走廊仍是已核路线。当地额外请求为两块防风屏与一包密封材料，不是再给一套塔站隔离器。先读聚落原告示和保留预报，再记录受限比较，阅读速度不推进阶段。"
+        },
+        {
+          "id": "R6-O01-SUPPORT-p03",
+          "en": "At R6-S05.manifest, inspect those same three local serials and ask the already declared cart driver and cargo watch to dispatch this one additional packet. Accompany the cart along current safe paired connections and attend R6-O01.notice before handing it to ROLE-R6-O01-RECEIVER. The delivery records the same physical items and the actual traversed route; an earlier visit is not an arrival for this packet. Its effect is the extra screens and seal pack received locally, with no experience, marks, parts, tower work or final protocol signature awarded.",
+          "zh": "在 R6-S05.manifest 检查同三件序号，请已声明货车司机和值守岗派运这一份追加包。沿当前安全配对连接陪同货车，实际到 R6-O01.notice 后交给 ROLE-R6-O01-RECEIVER。记录同批实物与真正遍历的路线，之前到访不能算本批到货。后果是当地实际收到额外防风屏和密封包，不发经验、刻币、零件、塔站工作或最终协议签章。"
+        },
+        {
+          "id": "R6-O01-FORECAST-p04",
+          "en": "These are two attributed local forecasts, not two readings of one clock. The retained pass sheet describes pooled mist in the low cut during the current_survey_stage. The settlement notice reports a clear low cut in the earlier_arrival_stage, observed at the sheltered southern inlet, while the north delivery ridge remains exposed to gusts in the current_delivery_stage. A southern earlier observation does not cancel the current pass hazard. This packet uses the current marked_leeward corridor and sheltered_return fallback; neither forecast promises safe travel at every place or stage. The original regional sheet and this new local notice keep their separate locations and stages.",
+          "zh": "这是两份有归属的地方预报，不是同一时钟的两次读数。山口保留表写 current_survey_stage 低切口积雾。聚落告示写 earlier_arrival_stage 南部避风入口的低切口清亮，而 current_delivery_stage 北部运货脊线仍有阵风。较早南部观察不能取消当前山口危险。本批采用 current 的 marked_leeward 通道和 sheltered_return 备用；两预报都不承诺任何地点阶段都安全。原地区表和新增地方告示保留各自地点阶段。"
+        }
+      ]
+    },
+    {
+      "id": "O-R6-02",
+      "scene": "R6-O02",
+      "spot": "R6-O02.notice",
+      "paragraphs": [
+        {
+          "id": "R6-O02-SHARED-p01",
+          "en": "The optional shared device is cable press R6-O02-PRESS-01. ROLE-R6-O02-OPERATOR operates it, and the different ROLE-R6-O02-CUSTODIAN reviews the local service record. This new local arrangement does not claim that tower equipment has been delivered. The two manual reserve tools R6-O02-MANUAL-01 and R6-O02-MANUAL-02 stay with the shared workshop and keep its declared manual service available while the press is isolated.",
+          "zh": "可选共享设备为压线台 R6-O02-PRESS-01。ROLE-R6-O02-OPERATOR 操作，另一岗位 ROLE-R6-O02-CUSTODIAN 复核当地服务记录。新局部安排不宣称塔站设备已到货；R6-O02-MANUAL-01、R6-O02-MANUAL-02 两件手工备用工具留在共享工坊，压线台隔离期间维持声明的手工作业。"
+        },
+        {
+          "id": "R6-O02-SHARED-p02",
+          "en": "Work only in the declared service_interval, with those two different posts and the manual_reserve fallback. Ask for their current local permission at this notice; you cannot appoint yourself as both operator and reviewer. Inspect the same two reserve tools, disconnect the press input, latch its jaw and check DRIVE at zero on the current configuration. Its LIVE drive reads twelve; REF reads ten and is not a zero-energy result. Each switch or jaw change invalidates the old check.",
+          "zh": "仅在声明的 service_interval、两个不同岗位和 manual_reserve 备用条件下工作。在告示位请求当前地方许可，不能由自己同时充当操作人与复核者。检查同两件备用工具，断压线台输入、锁住压口并对当前配置核 DRIVE 零。LIVE 驱动读十二，REF 读十，不能当零能；开关或压口改变都使旧检查失效。"
+        },
+        {
+          "id": "R6-O02-SHARED-p03",
+          "en": "Record responsibility for the present isolated configuration: the operator owns the next service check, the custodian keeps the shared record, and the declared manual fallback stays available. The bounded maintenance result leaves this same press OFF with its jaw latched; it does not certify powered operation or the regional network. Local permission can be withdrawn before handover, invalidating any older confirmation. You may defer the whole optional question. No baseline component, ending qualification, final signature or reward is hidden here.",
+          "zh": "为当前隔离配置登记责任：操作岗负责下一次服务检查，保管岗保留共享记录，声明手工备用保持可用。受限维护结果使同一压线台保持 OFF 且压口锁定，不认证带电运行或地区网络。交接前地方许可可撤回，使旧确认失效；可暂缓整项可选问题。此处不隐藏基础组件、结局资格、最终签字或奖励。"
+        },
+        {
+          "id": "R6-O02-LAMP-p04",
+          "en": "A separate borrowed light, R6-O02-LAMP-01, is owned by ROLE-R6-O01-LAMP-OWNER and held by ROLE-R6-O02-LAMP-BORROWER. Their joint local invitation covers servicing and returning this same lamp; it does not permit reading the family note inside its case. Inspect its serial, isolate its input, latch the cover and measure DRIVE at zero before cleaning its contacts. A powered DRIVE reads six and REF reads ten. Cleaning changes the configuration and requires a new zero check. The borrowed lamp is separate from the press and its manual tools.",
+          "zh": "另有借灯 R6-O02-LAMP-01，属于 ROLE-R6-O01-LAMP-OWNER，现由 ROLE-R6-O02-LAMP-BORROWER 保管。双方本地邀请只含同灯保养归还，不含阅读灯盒家庭便条。核序号、隔离输入、固定灯盖、核 DRIVE 零后清触点。接电 DRIVE 为六，REF 为十；清理改变配置，须重核零。借灯与压线台、手工工具独立。"
+        },
+        {
+          "id": "R6-O02-LAMP-p05",
+          "en": "After service, choose return_same_lamp or finite_mutual_aid. Carry the same lamp on the current safe connections from this workshop to R6-O01.notice. The owner must see this returned serial and explicitly accept the arrangement there. With return_same_lamp it stays with the owner. With finite_mutual_aid the owner records one owner_stage followed by one borrower_stage, manual_reserve available in the other settlement and no renewal without another invitation. The current result establishes only the returned and serviced lamp plus that bounded schedule; it does not claim the later borrower stage has happened. No private note is copied, no tower resource is used and no main or ending condition changes.",
+          "zh": "保养后明确选择 return_same_lamp 或 finite_mutual_aid。沿当前安全连接将同灯从工坊实际带到 R6-O01.notice，由主人见到已归还序号后在那里明确接受安排。前者留在主人处；后者仅登记一班 owner_stage 后一班 borrower_stage、另一聚落保留 manual_reserve，无新邀请不得续期。本次后果只是已归还同灯和有限班次表，不宣称后续借用已发生。不复制家庭便条、不用塔站物资、不改主线结局条件。"
+        }
+      ]
+    }
+  ]
+}

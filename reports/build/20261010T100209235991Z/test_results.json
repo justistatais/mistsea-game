@@ -1,0 +1,26 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 3,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R3-05",
+      "name": "Normal zero-XP actual R3 arrival preserves untouched local state for native client entry",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-05",
+      "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-05",
+      "name": "Shift native entry has actual zero-XP through Q301, 2340XP and untouched optional work",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

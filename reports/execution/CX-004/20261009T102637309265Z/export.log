@@ -1,0 +1,30 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe", "--headless", "--path", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\storage", "--export-release", "Windows Desktop", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-004\\20261009T102637309265Z\\export\\StorageProbe.exe"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mdotnet_publish_project[22m | Started Publishing .NET project... (1 steps)[39m[0m
+[   0% ] [90m[1mdotnet_publish_project[22m | Running dotnet publish[39m[0m
+[92m[ DONE ][39m [1mdotnet_publish_project[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 打包中 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 正在保存文件：res://packages.lock.json[39m[0m
+[  26% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-16f9b0b0d156d171f24d07261c2bbbb5-Storage.scn[39m[0m
+[  50% ] [90m[1msavepack[22m | 正在保存文件：res://StorageHarness.cs[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://StorageNode.cs[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://Storage.tscn.remap[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/global_script_class_cache.cfg[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/uid_cache.bin[39m[0m
+[  74% ] [90m[1msavepack[22m | 正在保存文件：res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+
+[stderr]

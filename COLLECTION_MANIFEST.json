@@ -1,0 +1,2053 @@
+{
+  "collection": "MistSea_AllInOne_v0.1",
+  "entries": {
+    "AGENTS.md": {
+      "size": 2694,
+      "sha256": "6b984f6f7fa5ba75b266ebf2fe002d93fb89581f283c4c0ee29e9604731d3335"
+    },
+    "ALL_IN_ONE_README.md": {
+      "size": 1641,
+      "sha256": "f035ea25763ae7c3ae6d04d6f41c4ee454f0f69c54512c8b244f840740737150"
+    },
+    "CODEX_START_HERE.md": {
+      "size": 1809,
+      "sha256": "e4eceb8243c7c367d1c10382ce71e4eaef7502fafbe78e10ed83cbc7d55be5a7"
+    },
+    "PACKAGE_MANIFEST.json": {
+      "size": 81781,
+      "sha256": "c45e74c98868ca201796057d23ce6fca0b3271b41016bfbb9c2a1501155a61f9"
+    },
+    "README.md": {
+      "size": 1731,
+      "sha256": "1a8d4eb92d48e55514981ad93977557141c30ac888f0f703de194182cdca75e3"
+    },
+    "deliverables/build_helpers/build_docs.py": {
+      "size": 41338,
+      "sha256": "d0dd8de4c1bb2319cb6034cf807a0ddca03b04fe8c31e3deaf324c07a35bf499"
+    },
+    "deliverables/build_helpers/build_handoff.py": {
+      "size": 5822,
+      "sha256": "7651c0888860415429f328a555953116d07d876a8b57c4936ef3549806ea734f"
+    },
+    "deliverables/build_helpers/build_plan.py": {
+      "size": 56363,
+      "sha256": "4b09dc5d02f669806461698f8535b32a7017fe672d72553e8ac8d2070700df3f"
+    },
+    "deliverables/build_helpers/finalize.py": {
+      "size": 9629,
+      "sha256": "8b57a0678137785fbea6471422bbc5eaed03df3ff3e5f99be7e93db57500b71c"
+    },
+    "deliverables/build_helpers/refine_trace.py": {
+      "size": 3035,
+      "sha256": "5ff8bc0c320f1ee89f3eed724780ee59c7f28e92a7664e47ff6bff9ace9f2973"
+    },
+    "deliverables/build_helpers/test_results.txt": {
+      "size": 3457,
+      "sha256": "e33020c122fb7b9770eb0414e47b11fa17d8bf115aef3de86cc32dbd93dc1147"
+    },
+    "deliverables/build_helpers/test_stdout.txt": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "deliverables/build_helpers/verification.json": {
+      "size": 1716,
+      "sha256": "5ba469e4debcd8550734b2c87f2dcb15abc41451ea66f7e24ebd57bcc8021f2b"
+    },
+    "deliverables/original_part_packages/Part03_Exploration_Design_v0.1.zip": {
+      "size": 108333,
+      "sha256": "43ca8e14603835e4bdec993059b7c82213036c1864474f2331e928f048a2fa3a"
+    },
+    "deliverables/original_part_packages/Part04_Quest_Event_Design_v0.1.zip": {
+      "size": 156968,
+      "sha256": "f08e6658a9c6a9e89022a00aed5554eb2e69005d863833c22dc1da3905f4548a"
+    },
+    "deliverables/original_part_packages/Part05_English_Learning_Design_v0.1.zip": {
+      "size": 190234,
+      "sha256": "6beba58473a10697914bc4701f3d5f2cafbcc7ebaec2ebe01c8cd99ca0476496"
+    },
+    "deliverables/original_part_packages/Part06_Puzzle_Design_v0.1.zip": {
+      "size": 248733,
+      "sha256": "438543f395fc43950f2c7e27ef6e7e9e0c9cb53fda8a8af7ba8bd611aeba4868"
+    },
+    "deliverables/original_part_packages/Part07_Character_Progression_Design_v0.1.zip": {
+      "size": 234161,
+      "sha256": "7e566f43f3853b936e4fc8acccd6daeabe5a1c317100bcc22803c76744e90d30"
+    },
+    "deliverables/original_part_packages/Part08_Combat_Design_v0.1.zip": {
+      "size": 342271,
+      "sha256": "e0d66ae2af47c2fe200528f59a457c123e575edaeb2f1cc5bc198c56e46ac32a"
+    },
+    "deliverables/original_part_packages/Part09_NPC_Faction_Design_v0.1.zip": {
+      "size": 315693,
+      "sha256": "6db0b0a99ef774aa7d1259e28b68c0ebe133c2129c684b15d0ee16ef38259c97"
+    },
+    "deliverables/original_part_packages/Part10_UI_UX_Design_v0.1.zip": {
+      "size": 924982,
+      "sha256": "665c4a83d7a20407bc685ea3f5d0b99549f9ab3f659ef0a41d82150dd76789c1"
+    },
+    "deliverables/original_part_packages/Part11_Content_AI_Design_v0.1.zip": {
+      "size": 120011,
+      "sha256": "00719b08447fa7bb29c8fd09f4b56ce17a5eeba9cd4fe4662820e8dbca757e4a"
+    },
+    "deliverables/original_part_packages/Part12_Technical_Architecture_v0.1.zip": {
+      "size": 66550,
+      "sha256": "e0c23512a805c65f783d56eaa4e04737a8a5e9a420f8aa53a0a3c1d66047e6ba"
+    },
+    "deliverables/original_part_packages/Part13_Codex_Handoff_v0.1.zip": {
+      "size": 3455331,
+      "sha256": "77c4f8e9346d4480415f72fc11b9d9f791d3458da1f4da06a5356e0cea72bb63"
+    },
+    "deliverables/standalone_documents/CODEX_IMPLEMENTATION_PLAN_v0.1.md": {
+      "size": 21873,
+      "sha256": "41c77dbeb3ccf5bd3e1a83a89359a9bb605ddb666f049218a9335fdc732b798e"
+    },
+    "deliverables/standalone_documents/CODEX_START_HERE_v0.1.md": {
+      "size": 1809,
+      "sha256": "e4eceb8243c7c367d1c10382ce71e4eaef7502fafbe78e10ed83cbc7d55be5a7"
+    },
+    "deliverables/standalone_documents/Character_Progression_v0.1.md": {
+      "size": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    "deliverables/standalone_documents/Combat_System_v0.1.md": {
+      "size": 53850,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    "deliverables/standalone_documents/Combat_Validation_v0.1.md": {
+      "size": 4170,
+      "sha256": "b3d2d0e8192d128d6e20a8d0b0f84650a9ae1f71b49b436bbcf88e197ce3c327"
+    },
+    "deliverables/standalone_documents/Content_AI_Pipeline_v0.1.md": {
+      "size": 45924,
+      "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738"
+    },
+    "deliverables/standalone_documents/Content_AI_Validation_v0.1.md": {
+      "size": 2581,
+      "sha256": "a07622f07e613ea21302b9e55d4e6ce481436eda2beed72a9bbd62e159e7884b"
+    },
+    "deliverables/standalone_documents/English_Learning_System_v0.1.md": {
+      "size": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    "deliverables/standalone_documents/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "deliverables/standalone_documents/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "deliverables/standalone_documents/Integration_Decisions_v0.1.md": {
+      "size": 4447,
+      "sha256": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622"
+    },
+    "deliverables/standalone_documents/Integration_Validation_v0.1.md": {
+      "size": 2548,
+      "sha256": "dfc80d1bf5e05f623c1a31042d8a2e670a73326dffb61abe9cd4e722f3dcf9a5"
+    },
+    "deliverables/standalone_documents/MASTER_GDD_v0.1.md": {
+      "size": 14508,
+      "sha256": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768"
+    },
+    "deliverables/standalone_documents/NPC_Faction_System_v0.1.md": {
+      "size": 56895,
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+    },
+    "deliverables/standalone_documents/NPC_Faction_Validation_v0.1.md": {
+      "size": 2380,
+      "sha256": "2925c05ef4a6ad34c7d3ac2e2c3f4c2418eafac4b409fcbc3a4890dab22eb344"
+    },
+    "deliverables/standalone_documents/Puzzle_System_v0.1.md": {
+      "size": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    "deliverables/standalone_documents/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "deliverables/standalone_documents/Technical_Architecture_v0.1.md": {
+      "size": 52384,
+      "sha256": "93b80938c2bf37313d96c1f6eaee2f54bcfb9d5344d78f572619d6754168f8c2"
+    },
+    "deliverables/standalone_documents/Technical_Validation_v0.1.md": {
+      "size": 3921,
+      "sha256": "0949f9d61ac698b67c45d22ad0d8a457c5a047bc4e92c5ef3c3ca0205cb65b10"
+    },
+    "deliverables/standalone_documents/UI_UX_Spec_v0.1.md": {
+      "size": 53334,
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7"
+    },
+    "deliverables/standalone_documents/UI_UX_Validation_v0.1.md": {
+      "size": 3406,
+      "sha256": "e8a35e79b71c72180447ac5c95a2b1f5b01353ea060e5e023524308e255a238b"
+    },
+    "deliverables/standalone_documents/UI_Wireframe_v0.1.html": {
+      "size": 39680,
+      "sha256": "46c0841c3616fab778d2711626962c19d97b94f9f07af7cafcc1a4563822b68a"
+    },
+    "deliverables/standalone_documents/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "deliverables/ui_review_screenshots/writer_1280x720_200.png": {
+      "size": 253571,
+      "sha256": "569ab088d8e9a746ee5ee983cc34d86663607cd33ace69d9a86003ab4defbdad"
+    },
+    "deliverables/ui_review_screenshots/writer_1920x1080_100.png": {
+      "size": 174861,
+      "sha256": "150c30d1e433d82174ecf090f202017b17f5df51c7bc849aabc1c36c2af89106"
+    },
+    "docs/baseline/Character_Progression_v0.1.md": {
+      "size": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    "docs/baseline/Combat_System_v0.1.md": {
+      "size": 53850,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    "docs/baseline/Content_AI_Pipeline_v0.1.md": {
+      "size": 45924,
+      "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738"
+    },
+    "docs/baseline/English_Learning_System_v0.1.md": {
+      "size": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    "docs/baseline/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "docs/baseline/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "docs/baseline/NPC_Faction_System_v0.1.md": {
+      "size": 56895,
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+    },
+    "docs/baseline/Puzzle_System_v0.1.md": {
+      "size": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    "docs/baseline/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "docs/baseline/Technical_Architecture_v0.1.md": {
+      "size": 52384,
+      "sha256": "93b80938c2bf37313d96c1f6eaee2f54bcfb9d5344d78f572619d6754168f8c2"
+    },
+    "docs/baseline/UI_UX_Spec_v0.1.md": {
+      "size": 53334,
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7"
+    },
+    "docs/baseline/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "docs/decisions/CR-UI-010-001.md": {
+      "size": 1351,
+      "sha256": "4a243401eaeae67b155291364a5bca71ef1b09e2e8f8690bc9c172e0f41cf7cc"
+    },
+    "docs/decisions/Combat_Change_CR-COM-008-001.md": {
+      "size": 1747,
+      "sha256": "b3c6bbe989ccbc46dc25501ad551f5680e6a94c59eb97d4ff0d3d39d35cc0cb5"
+    },
+    "docs/decisions/Difficulty_Baseline_Change_CR-EN-005-001.md": {
+      "size": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    "docs/decisions/Growth_Baseline_Change_CR-RPG-007-001.md": {
+      "size": 2441,
+      "sha256": "de61cf8791df7ef0252e450b5d99e15c33be4c944c363ad0a821aa0775411f67"
+    },
+    "docs/decisions/NPC_Change_CR-NPC-009-001.md": {
+      "size": 1864,
+      "sha256": "c6a2f3b7f624e5bf72587d753f1015e83e14eb4001f87810ae8c824e4519171c"
+    },
+    "docs/integration/Acceptance_Traceability_v0.1.md": {
+      "size": 74980,
+      "sha256": "7a4b9622e9575feb4df7fed74bf7ae5c40755266c1351314d6e459f4bbaa5b03"
+    },
+    "docs/integration/BASELINE_INDEX_v0.1.md": {
+      "size": 1140,
+      "sha256": "ad107af6cb74a3ca7b594142b3aa5dd430aef230d385c28952879b822c83f632"
+    },
+    "docs/integration/CODEX_IMPLEMENTATION_PLAN_v0.1.md": {
+      "size": 21873,
+      "sha256": "41c77dbeb3ccf5bd3e1a83a89359a9bb605ddb666f049218a9335fdc732b798e"
+    },
+    "docs/integration/External_References_v0.1.md": {
+      "size": 992,
+      "sha256": "82e9ab6e091d99d1c772216cf8535f4ac5a0f2c6543f12a57638fdb8abca8c43"
+    },
+    "docs/integration/Integration_Decisions_v0.1.md": {
+      "size": 4447,
+      "sha256": "6b2231cfb0dd3be26b70491c7c6615212a8eca666f51d68fee42cda79ea13622"
+    },
+    "docs/integration/MASTER_GDD_v0.1.md": {
+      "size": 14508,
+      "sha256": "59237f28ab398a8352e36a41f70646fa7b2306151dd3e96bdd8286eb1ce4d768"
+    },
+    "docs/integration/OPEN_ISSUES_v0.1.md": {
+      "size": 2353,
+      "sha256": "538e624f521f538e5ac2ad984cb6b56f3330c72a9cf56b9e19a4008433a078a6"
+    },
+    "planning/acceptance_traceability.json": {
+      "size": 233101,
+      "sha256": "6c42b95f92e813082eb64ec8558cbd1643cc35894b3ac3dcfb17578456fad2b5"
+    },
+    "planning/external_sources.json": {
+      "size": 1090,
+      "sha256": "b93f626976a2e0b432b289759e359322483fdd520eeb8bed9e532658cc4e14e9"
+    },
+    "planning/integration_decisions.json": {
+      "size": 5733,
+      "sha256": "49423339f832a42c68698524c82430c45181a2521e856b3ed480d9b1187e24eb"
+    },
+    "planning/legacy_work_packages.json": {
+      "size": 42061,
+      "sha256": "e86f149af5fc77344edfa61f68f95e79b54270dfd5c072329675edebde7b9e29"
+    },
+    "planning/main_quest_index.json": {
+      "size": 18136,
+      "sha256": "6428f97ef2b37927a61be4ce97ce60821a21184ac588f3b63ec13d9c59fa1fcf"
+    },
+    "planning/open_issues.json": {
+      "size": 4100,
+      "sha256": "b3931527de483f139dab0c2211a75cdd9f112bc71811fe89f08533710944f2b4"
+    },
+    "planning/plan.json": {
+      "size": 242610,
+      "sha256": "9f5e000cd2298026f0e9189b3cabb2c8b17c6cf51d9ae3057fd9b353b4d54afa"
+    },
+    "planning/source_inventory.json": {
+      "size": 82023,
+      "sha256": "b51ad332a4d60627b0767386a400c843fdc2767d9c1b96985fa6735204cdc53a"
+    },
+    "planning/state/execution.json": {
+      "size": 13728,
+      "sha256": "f4b9b916d64f180cd0c471343f5416dd2cdfbf0ea70321f7f1a390ebf614284f"
+    },
+    "planning/tasks/CP-R0-01.md": {
+      "size": 2817,
+      "sha256": "3e397084ad3db0c40f4810188ead6a5cca8d24d8073a9711d0da738dc8b2a19c"
+    },
+    "planning/tasks/CP-R0-02.md": {
+      "size": 2689,
+      "sha256": "a9c1bc7ae0500b8d999fb2e19bd297a4871eac8402d244fc1aa050403397e70e"
+    },
+    "planning/tasks/CP-R0-03.md": {
+      "size": 2731,
+      "sha256": "12170ff08940d6a7c6b4364729079c63950cece44a34f438c94751c217bb1ffc"
+    },
+    "planning/tasks/CP-R0-04.md": {
+      "size": 2670,
+      "sha256": "72d1a43621707643a621390dd33ffd33d89e1d3a3b4416f8c717d0f118fdc4bb"
+    },
+    "planning/tasks/CP-R0-05.md": {
+      "size": 2730,
+      "sha256": "4fa8b7e50be5115706fd7efa988801425d1c7a059db96c2321170257e2c6c356"
+    },
+    "planning/tasks/CP-R0-06.md": {
+      "size": 2701,
+      "sha256": "f18bb56dbc97e5757240dab6a8ca5273f52a058b502af522b01af1adf7d04c86"
+    },
+    "planning/tasks/CP-R1-01.md": {
+      "size": 2887,
+      "sha256": "707a764e6fdee87a8a3bc8f29d4a07f520676f04261595a27c045fbc3f52276c"
+    },
+    "planning/tasks/CP-R1-02.md": {
+      "size": 2742,
+      "sha256": "1219069dca933a4760c6a6e0cfe8b2ccfedd349887c754e4239816dcaf5fbb40"
+    },
+    "planning/tasks/CP-R1-03.md": {
+      "size": 2805,
+      "sha256": "4cc49540dda2acfe3c86b288ae8ff551523405b369ecdf44a7f5674b2e012d0d"
+    },
+    "planning/tasks/CP-R1-04.md": {
+      "size": 2723,
+      "sha256": "a8e0462aca2b1f90fab7733249ca363bffd47fd7c6fb7a6a8f2c5be0ecf10625"
+    },
+    "planning/tasks/CP-R1-05.md": {
+      "size": 2749,
+      "sha256": "57479f09252871acdb8088a6d5438df52d4e36133da0c79bf5cc47cc2b18353c"
+    },
+    "planning/tasks/CP-R1-06.md": {
+      "size": 2754,
+      "sha256": "b04b330c6599e3f0c19fb17d754c84a8646e9a720be94f8f3837178705252d71"
+    },
+    "planning/tasks/CP-R2-01.md": {
+      "size": 2885,
+      "sha256": "51a7f06ebe5176d18a0818bef5cbee1c883b0d04caec96a0d18ed6483968cb2e"
+    },
+    "planning/tasks/CP-R2-02.md": {
+      "size": 2732,
+      "sha256": "c66cccf49788609e6fc67ad2908ce462763c76aa5f5165be1b9ea9be253eba8c"
+    },
+    "planning/tasks/CP-R2-03.md": {
+      "size": 2807,
+      "sha256": "5c15621948f9eb8a124f4ed1698a08ec28f10f573f23bb24906585adbe2b1170"
+    },
+    "planning/tasks/CP-R2-04.md": {
+      "size": 2713,
+      "sha256": "cc41d506a4877c85ffc99be3411acdc9ac65a3201ad82531037d7a9aaf564a4f"
+    },
+    "planning/tasks/CP-R2-05.md": {
+      "size": 2704,
+      "sha256": "a710f49e0995e80a929e6e36132afef9fb870bece032a54e58055cd3b8e074a5"
+    },
+    "planning/tasks/CP-R2-06.md": {
+      "size": 2744,
+      "sha256": "9d94c89de6afea0a4f64c2f2a9d0b69485fd6b5d59c123ad47cbc304254ed4ea"
+    },
+    "planning/tasks/CP-R3-01.md": {
+      "size": 2890,
+      "sha256": "57ff4d86489003e1363a36564588d3257c4d44877b052467e05400a087ba0d12"
+    },
+    "planning/tasks/CP-R3-02.md": {
+      "size": 2740,
+      "sha256": "ac57d8f8e0df9c38837f0685e0a1abe440c7e24708299adcb523c92e813ac2c0"
+    },
+    "planning/tasks/CP-R3-03.md": {
+      "size": 2821,
+      "sha256": "663b7960ffd75ad6cfa4ff24b47873c6761b1a7b5c31721a4f6a417b3a80d580"
+    },
+    "planning/tasks/CP-R3-04.md": {
+      "size": 2721,
+      "sha256": "a75c07e4f31c431999cdef0062a9ef79dbcfe83d64e7992cc7fc269bc434f7f3"
+    },
+    "planning/tasks/CP-R3-05.md": {
+      "size": 2703,
+      "sha256": "00f8333da530c7eec5066c74c789e597e5920362638c2a3d8d73113196862bef"
+    },
+    "planning/tasks/CP-R3-06.md": {
+      "size": 2752,
+      "sha256": "9311e67d68d23fde31252b7231c12cee0e7f99520da335464cbd569ea99f263c"
+    },
+    "planning/tasks/CP-R4-01.md": {
+      "size": 2873,
+      "sha256": "3bddfd9a15763b26d34a328b855714cbdfca1024a349b2369eb6ec1aa63f03e5"
+    },
+    "planning/tasks/CP-R4-02.md": {
+      "size": 2732,
+      "sha256": "def439f024db99f0309dac085e8778db4e39f5b5b70e97257963fc494d215bf9"
+    },
+    "planning/tasks/CP-R4-03.md": {
+      "size": 2789,
+      "sha256": "07dbfaa5887096bf11421aec787e343877c877482a5fc811a289f48b3ad720be"
+    },
+    "planning/tasks/CP-R4-04.md": {
+      "size": 2713,
+      "sha256": "cc4efeb7b086b031aa11472bbb03f301c7ec0e457e029097a15e27057713b44c"
+    },
+    "planning/tasks/CP-R4-05.md": {
+      "size": 2728,
+      "sha256": "41ce8d9f2a5c904ffa782a42ded543953b3de74e54bd54cfb46d2fff1a28b2b1"
+    },
+    "planning/tasks/CP-R4-06.md": {
+      "size": 2744,
+      "sha256": "f31230f0f0da02c4e6a8050f5d1986abe6054345f844efd3070f04c4fe9b902e"
+    },
+    "planning/tasks/CP-R5-01.md": {
+      "size": 2893,
+      "sha256": "67e937316eca4bbe678ecd6ecfd915662aa0df04f0a4c695a77a542963c52955"
+    },
+    "planning/tasks/CP-R5-02.md": {
+      "size": 2732,
+      "sha256": "5a3ec2ac6b1f97964372e17c57ec671ff92729d0ce2b9c0c53af2b62331b98af"
+    },
+    "planning/tasks/CP-R5-03.md": {
+      "size": 2800,
+      "sha256": "b62857107895dfe4c7b17f402da0883b6a102d327f8165e893a57100382522dc"
+    },
+    "planning/tasks/CP-R5-04.md": {
+      "size": 2713,
+      "sha256": "3ac59a09943d66925a7de68d498b19aa295d15dcae428a31ca7da2ba86af98d8"
+    },
+    "planning/tasks/CP-R5-05.md": {
+      "size": 2714,
+      "sha256": "2a66f1b2c5e569412cdaeba8c68ceb957d01559378987b0d5dccbd282e3106fb"
+    },
+    "planning/tasks/CP-R5-06.md": {
+      "size": 2744,
+      "sha256": "b2b89ef33c08c790e3ee688d039af2525467a943ff4806480f86bc74d167f979"
+    },
+    "planning/tasks/CP-R6-01.md": {
+      "size": 2879,
+      "sha256": "3bc8e58f1a111d16219d0d9df64ba9a58bba520449f7b71cee9b6b0767d1516a"
+    },
+    "planning/tasks/CP-R6-02.md": {
+      "size": 2732,
+      "sha256": "c322c88312d370c5e27860682612c0f6b600c4c551da8c840bcdcb98ad5e7aa1"
+    },
+    "planning/tasks/CP-R6-03.md": {
+      "size": 2800,
+      "sha256": "36e8e7d9607b5b6c2b504b838d6b2c0f9b4cb0ba8fe7911bcbaecb4abfa5cab0"
+    },
+    "planning/tasks/CP-R6-04.md": {
+      "size": 2713,
+      "sha256": "f37c7ff6f6678b0abf101a362acb2bf55c59d46b0f8a217b6880393397b0dbcc"
+    },
+    "planning/tasks/CP-R6-05.md": {
+      "size": 2704,
+      "sha256": "ebe7fafb65c9ffcb4b89d4f5327f184dc5174ab95621ccbc9c63b3d0b39ac87c"
+    },
+    "planning/tasks/CP-R6-06.md": {
+      "size": 2744,
+      "sha256": "270cec90f7cd30bebcd00408ce20b2c705e9e6ff369f9d472878ed132ebd330d"
+    },
+    "planning/tasks/CP-RF-01.md": {
+      "size": 2900,
+      "sha256": "eb606f72f9651f96e8289eba481c7f36123aae7db42cf61bb0e24d575281a319"
+    },
+    "planning/tasks/CP-RF-02.md": {
+      "size": 2737,
+      "sha256": "9af36feef6d9577f2a238e58ea3acdd8dfc3bf5e47ec8d0f0d1c056209cb00a8"
+    },
+    "planning/tasks/CP-RF-03.md": {
+      "size": 2812,
+      "sha256": "8fb3540dcd60c26230f1340cf499e43982f312fbd6e776a90b0fa230d919388e"
+    },
+    "planning/tasks/CP-RF-04.md": {
+      "size": 2718,
+      "sha256": "5e86d08053644215b180b235efa0940f1e04605e35688a68335a9acb520ffeb0"
+    },
+    "planning/tasks/CP-RF-05.md": {
+      "size": 2740,
+      "sha256": "68435473bcc559ce7bb71de2d735adda1ed7125d2b34109dffd4fa8911b9fe6d"
+    },
+    "planning/tasks/CP-RF-06.md": {
+      "size": 2749,
+      "sha256": "6e2beb895eec4c9d58706f74c1854fe6ca434b7cec4aa619e98351267c6228e7"
+    },
+    "planning/tasks/CX-001.md": {
+      "size": 2329,
+      "sha256": "06176fdabce8fc175eaa224dd81301144b1148f8d7fc02c198e77697a1c3ae35"
+    },
+    "planning/tasks/CX-002.md": {
+      "size": 2099,
+      "sha256": "b40ad98b3af2b694075fb4f9f640febac02b94b080ff3925008bee34b44c847e"
+    },
+    "planning/tasks/CX-003.md": {
+      "size": 2115,
+      "sha256": "74107bb099780456f99e414485bd7a6539176f2378b35bb60800639cc7595ab3"
+    },
+    "planning/tasks/CX-004.md": {
+      "size": 1951,
+      "sha256": "0b64548e40ba36eae58a276a1f2801f9825fcc76d4794339f50e945e7ba874f3"
+    },
+    "planning/tasks/CX-005.md": {
+      "size": 2109,
+      "sha256": "3e9e34336c96ef25b6c349d09622cc08fde73ac144b71940fff5ed6405e1c2db"
+    },
+    "planning/tasks/CX-006.md": {
+      "size": 1993,
+      "sha256": "0efd5a8675557edf48a83de4f720fc4caca2e5c53a2796fbb30a02a4edcac92d"
+    },
+    "planning/tasks/CX-007.md": {
+      "size": 2083,
+      "sha256": "e115c5b76dcf0fa38154330c785d54a40afff20dc8b14a29027b6c00ce0b5c96"
+    },
+    "planning/tasks/CX-008.md": {
+      "size": 2230,
+      "sha256": "2d4acb4374612407a78d96428fdf71834dd27687f0c7ba307e6ceed41679904d"
+    },
+    "planning/tasks/CX-009.md": {
+      "size": 2453,
+      "sha256": "aef012bb2e9d7846b2446e25aa6c3f09ac59923d4247d18b3b9f2dd936403066"
+    },
+    "planning/tasks/CX-010.md": {
+      "size": 2319,
+      "sha256": "b6f1ce5e33b0cc07535b1696a5ccee8a521b4a37d9d22080cc06fbe055aaa3d4"
+    },
+    "planning/tasks/CX-011.md": {
+      "size": 2094,
+      "sha256": "3ab467c0be69e57e1c8db559876bca4aa491c065a08ed4099c02770c981f9732"
+    },
+    "planning/tasks/CX-012.md": {
+      "size": 2085,
+      "sha256": "598ac0b0205f162ca6f5b9614c1b2acdbb0b1d2598a820fd2db8fca97a74ab52"
+    },
+    "planning/tasks/CX-013.md": {
+      "size": 2036,
+      "sha256": "4111eef998705b4342861dbec0a2556eea202fb242cc70efde3ea65ad2c61c8b"
+    },
+    "planning/tasks/CX-014.md": {
+      "size": 2168,
+      "sha256": "a36d1b25ab39bd33a62281e192ce18f24361d2f884ab087e662588ea4b32cbe3"
+    },
+    "planning/tasks/CX-015.md": {
+      "size": 2155,
+      "sha256": "7a13943a63aec013de146be3aaa6cc11a2eb127a55e9623121689becb7570280"
+    },
+    "planning/tasks/CX-016.md": {
+      "size": 2055,
+      "sha256": "c2f00f0fb91e8f06b625d1a8d647c6cbc1fb8e09d051decaaf9d6ea53ed7de20"
+    },
+    "planning/tasks/CX-017.md": {
+      "size": 2134,
+      "sha256": "0b881df649a8897673aa19ddcd9a15ab541455393e1453f8761999d5a9589ff8"
+    },
+    "planning/tasks/CX-018.md": {
+      "size": 2204,
+      "sha256": "e39ea70d60379bba413f828a0ab22e6c272030125399d7d2d742d35ffa322579"
+    },
+    "planning/tasks/CX-019.md": {
+      "size": 2311,
+      "sha256": "ccc28889ef7cd46db7de8e4983d6f902514b43dcf44a2d14c102b8f0c56b95cc"
+    },
+    "planning/tasks/CX-020.md": {
+      "size": 2032,
+      "sha256": "5984dcd5f50bbdb6055d06af62a673b22034a8afee758b1c6f6d3e42c125ed25"
+    },
+    "planning/tasks/CX-021.md": {
+      "size": 2163,
+      "sha256": "7bc8ae30b1df3c2eb2c8bf720fbfe713d1f0b588fe56a614f4e2692067791fa5"
+    },
+    "planning/tasks/CX-022.md": {
+      "size": 2023,
+      "sha256": "effc7b405485f225660b6a66abfc6f5006f699bc9a5b6c68e4c13ac99694354b"
+    },
+    "planning/tasks/CX-023.md": {
+      "size": 2245,
+      "sha256": "f2a2d60d1d16498e4899f6a15b804744c95736f233fed1aa02646010786b8e6d"
+    },
+    "planning/tasks/CX-024.md": {
+      "size": 2041,
+      "sha256": "f053fbc55a4795b427713313f111875235ba7f86406f227af8d452412bd87e2b"
+    },
+    "planning/tasks/CX-025.md": {
+      "size": 2081,
+      "sha256": "14c95049715d4e03ee317db1d5b5514cb2f921e6e06bbdfabbf0008dddc67bd1"
+    },
+    "planning/tasks/CX-026.md": {
+      "size": 2151,
+      "sha256": "3cc685711a8ea4bb9165f7b085e45122658344a60698efd0f260d2de71b8a96f"
+    },
+    "planning/tasks/CX-027.md": {
+      "size": 2059,
+      "sha256": "f9dab467949bfb0179d44c11f8e260041e923f18fe9219136ba04fa6115eea7d"
+    },
+    "planning/tasks/CX-028.md": {
+      "size": 2102,
+      "sha256": "a44724fe164ca5b7040773c7000418e92525ea5a0fd3511ef4dc27e38b776df2"
+    },
+    "planning/tasks/CX-029.md": {
+      "size": 2013,
+      "sha256": "3ca386ba05befc07d70c1d99b005dc5d932ccf4c0f7abee269f9bd7a17e4e346"
+    },
+    "planning/tasks/CX-030.md": {
+      "size": 2129,
+      "sha256": "c040d87b94d07faaa82a2f7590abdb0291576ce0a41375be09736e1fac963833"
+    },
+    "planning/tasks/CX-031.md": {
+      "size": 2063,
+      "sha256": "89cf74aba14e658d124386779f12670ea17fdccd846d58d1150817a1fcdffa59"
+    },
+    "planning/tasks/CX-032.md": {
+      "size": 2003,
+      "sha256": "b93b547c0dd0221b0127aecfb838f2bc4fe24da0166bb78ab301fca2978956b3"
+    },
+    "planning/tasks/CX-033.md": {
+      "size": 2044,
+      "sha256": "5f541686ad27f71fe3a6ab5527c7920e88bcc85f442ac4f435ca0397c1f53502"
+    },
+    "planning/tasks/CX-034.md": {
+      "size": 2108,
+      "sha256": "afdf7d916ae9c2882c0256f345b7e34c6d6758e45b1c21fd9eeab732627227cc"
+    },
+    "planning/tasks/CX-035.md": {
+      "size": 2209,
+      "sha256": "74c8d675c273f6e794ff12b8131b1ff09dbbb2261f5457c834017d63a3040b39"
+    },
+    "planning/tasks/CX-036.md": {
+      "size": 2202,
+      "sha256": "15d62c71e51bda8a58b73379cb7d02b473f7e67bd9b8563a493685c7dd3b2b92"
+    },
+    "planning/tasks/CX-037.md": {
+      "size": 2136,
+      "sha256": "bf093440a83f01af79964e9f1b68e6342aa100799ec0a3475d0c1bfcbe16cd4c"
+    },
+    "planning/tasks/CX-038.md": {
+      "size": 2176,
+      "sha256": "78df5f8ad49f32f494461f969527f00aa4a7da3f7d9250e854078d1f61c07ace"
+    },
+    "planning/tasks/CX-039.md": {
+      "size": 2105,
+      "sha256": "d50e037c5c21fad97f83ab0297779bad2b2b45707c205a3a81bc6b154e0aa54f"
+    },
+    "planning/tasks/CX-040.md": {
+      "size": 2012,
+      "sha256": "195e51a9abe9c13572bb46269472aa3044445772600db049f795bc5d2f13aeee"
+    },
+    "planning/tasks/CX-041.md": {
+      "size": 1939,
+      "sha256": "cf54f2a4db9e66b8883e2199cd2bc4576ff104fd0b0e2b59e833142ef5ad44af"
+    },
+    "planning/tasks/CX-042.md": {
+      "size": 2106,
+      "sha256": "843a5514ff729af59ef3f085cca2ec634bc399d8ccaa222168f6b7ce223ff579"
+    },
+    "planning/tasks/CX-043.md": {
+      "size": 2047,
+      "sha256": "16b9c293bfc16d07877653df65b873500d23471b161a184a863930d3dcbae37b"
+    },
+    "planning/tasks/CX-044.md": {
+      "size": 2099,
+      "sha256": "21642fb8777f349cd551a60bb0bc90df9d8f3e768e12a06f939de3cb2804b4a2"
+    },
+    "planning/tasks/CX-045.md": {
+      "size": 2088,
+      "sha256": "2ddb98b09efc28126cc860eba1fa3f43237587d53cb9f800329347f91e109774"
+    },
+    "planning/tasks/CX-046.md": {
+      "size": 2076,
+      "sha256": "00d836943b9200227b0c95309be8eeba83199749e9b6ef2aaadc0bc2932454b8"
+    },
+    "planning/tasks/CX-047.md": {
+      "size": 2017,
+      "sha256": "2b5b04d42d52f7444c2d9c017ab30c95d2d273abc9634fe798c167d995d974e9"
+    },
+    "planning/tasks/CX-048.md": {
+      "size": 2157,
+      "sha256": "aca120aa514e9d60a7171593848b2774edeb8784affaacd067827180e7be1530"
+    },
+    "planning/tasks/CX-049.md": {
+      "size": 2033,
+      "sha256": "bb22e9da7c492692d5c227cef89e241efb31cb439f9a1710af79bc55b6ec0a21"
+    },
+    "planning/tasks/CX-050.md": {
+      "size": 2158,
+      "sha256": "6944c885ad94716767604adc4b1ead855f4e07bea16786230cbb72c656e31d9e"
+    },
+    "planning/tasks/CX-051.md": {
+      "size": 2063,
+      "sha256": "ad5a6465f17ebf197d4f3e9eea486e50932c09e00036fd8393c57aca58ca4c99"
+    },
+    "planning/tasks/CX-052.md": {
+      "size": 2031,
+      "sha256": "948dd7c290ac1e2ec3eaa10c6e782031649f29051039d47f1dcf19bc73b3e0e7"
+    },
+    "planning/tasks/CX-053.md": {
+      "size": 2464,
+      "sha256": "90a0a8609afb36c27e744f255d3df3e942142fb08bc2ddda24da3da46cfcf240"
+    },
+    "planning/tasks/CX-054.md": {
+      "size": 2166,
+      "sha256": "4d7d15d9ab473f0ee0c9c3c387bf0273618eabaa5caa396e6eec967a162b513c"
+    },
+    "planning/tasks/CX-055.md": {
+      "size": 2169,
+      "sha256": "063a44522be9c7d35d48c156dea7ec3a0935d918e6ec3cf597760beb8027635e"
+    },
+    "planning/tasks/CX-056.md": {
+      "size": 2144,
+      "sha256": "ce0843082802144ddef2452a5d24b39502b5eb4fd55e940e481185aca3c87950"
+    },
+    "planning/tasks/CX-057.md": {
+      "size": 2202,
+      "sha256": "751a75c42ea0599bf76ed278ad5009e0f74f3a0f680e308ebe5172c8f519a83e"
+    },
+    "planning/tasks/CX-058.md": {
+      "size": 2084,
+      "sha256": "d8e69e78fe61b11901e2842bb38478408513392d7da74f57870c8b182dbb5676"
+    },
+    "planning/tasks/CX-059.md": {
+      "size": 2311,
+      "sha256": "ab9aa8fdba5ec4a4d71434673ba3e447995df6b03b6e834c94c285c8e87643fb"
+    },
+    "planning/tasks/CX-060.md": {
+      "size": 2085,
+      "sha256": "d0984b4c5a0b7450676dd47d3cf0bb374ec477a37615618262c98d376ac76d27"
+    },
+    "planning/tasks/CX-061.md": {
+      "size": 2148,
+      "sha256": "e7fffff235cd84723a812b21d2fa2aca37445f212ea4d11bc5ec290236177a25"
+    },
+    "planning/tasks/CX-062.md": {
+      "size": 2036,
+      "sha256": "0baaf0496c3ae53aff54d642dbd5e800f4462da608e0b3ba83fa0c682d8db556"
+    },
+    "planning/tasks/CX-063.md": {
+      "size": 2199,
+      "sha256": "e4cf33fd9d1ecf2fd272faeeb9d9af7f13485cd1bb12267000681a763713a143"
+    },
+    "planning/tasks/CX-064.md": {
+      "size": 2008,
+      "sha256": "95cd30b0ef19af42e949e62ad67a1cac0c9c7f04ec32f1973687cd27b7ccecfd"
+    },
+    "planning/tasks/CX-065.md": {
+      "size": 2443,
+      "sha256": "55168b7e5a360cadb944cbdc97d4e5598601d417008334a1293544b05465dc75"
+    },
+    "planning/tasks/CX-066.md": {
+      "size": 2106,
+      "sha256": "8fcd23f92664e0864d711ebb6809b85ecf716b121cfb6f961d7486fa8bb87be2"
+    },
+    "planning/tasks/CX-067.md": {
+      "size": 2086,
+      "sha256": "9cccaad90d6700b71ba39744f5789a18397c22375bdecf261088c5e2ded14f1c"
+    },
+    "planning/tasks/CX-068.md": {
+      "size": 2422,
+      "sha256": "0d13de11a8fed68a0eda91f9ccfb79261938d1cdf3ef52f376d48a5eac9a14d6"
+    },
+    "planning/tasks/CX-069.md": {
+      "size": 2213,
+      "sha256": "69d86d05a7644dbabaeffdba0198d49243622a347498a3041020f07f37374d26"
+    },
+    "planning/tasks/CX-070.md": {
+      "size": 2156,
+      "sha256": "b7a6f3f15f7653e3a1e3d0da1dcb7cb223aeb2797ec0a3a707af6338b9290caf"
+    },
+    "planning/tasks/CX-071.md": {
+      "size": 2103,
+      "sha256": "9d00b26444d1261b8b2506f25874c2502614a1a24ec20cab14143942ce748231"
+    },
+    "planning/tasks/CX-072.md": {
+      "size": 2160,
+      "sha256": "1381277cbc9ac60d660a882b948aea7ec1e62c6cf0d1771085e23b86826774f5"
+    },
+    "planning/tasks/CX-073.md": {
+      "size": 2227,
+      "sha256": "877f8e440f57f0a85ce944396f453f718b6f380e2543b0d0bd3263d53de170b1"
+    },
+    "planning/tasks/CX-074.md": {
+      "size": 2315,
+      "sha256": "bf7c42a2051615feaa62901f23ebd773dc5a38c3181f8a4740ae5e0f97a475fe"
+    },
+    "planning/tasks/CX-075.md": {
+      "size": 2051,
+      "sha256": "1243581c20f7060961b76264106da766680feaa3918dc35a160efcfaaed41b8c"
+    },
+    "planning/tasks/CX-076.md": {
+      "size": 2092,
+      "sha256": "d14b0773414e6bf5e0d3fc02e6114d5659dbbed8c5aefd7795b3456bf079a0c6"
+    },
+    "planning/tasks/CX-077.md": {
+      "size": 2124,
+      "sha256": "baf09380d182440903acb8de3c8981541922e310f2b319155db6358f4690b151"
+    },
+    "planning/tasks/CX-078.md": {
+      "size": 2441,
+      "sha256": "77ac1814276f9cbe5303349ba91107e6e54cf7071888a142b51516d7ac1045df"
+    },
+    "planning/tasks/CX-079.md": {
+      "size": 2143,
+      "sha256": "47de5811cf84352b3f058e2c5b9bbd8489d8c9a309b8fef5388266d059a88a7f"
+    },
+    "planning/tasks/CX-080.md": {
+      "size": 2187,
+      "sha256": "2a6409ee19a281bb64085ee5ec105ae2ca1c77016f4ad2ffbfb0a6f5db465c68"
+    },
+    "planning/tasks/HV-001.md": {
+      "size": 2073,
+      "sha256": "27c27e4689e4695f2e1bd067c6e24191e73ecdddf0c04e59dc8212156d95e4f7"
+    },
+    "planning/tasks/HV-002.md": {
+      "size": 2137,
+      "sha256": "67a593f3cdfa3e443fa43797d259a9ce0dafa1146de0702688d35c6a25a17f66"
+    },
+    "planning/tasks/HV-003.md": {
+      "size": 2144,
+      "sha256": "b49e1b6eb911810f4cb6919b6db608c91b3cb4178d3afab9874d70d208d4083c"
+    },
+    "planning/tasks/HV-004.md": {
+      "size": 2119,
+      "sha256": "a640f54c612b23bd086b02acfdfbb540f20b43dad2c124e10c533a888557346b"
+    },
+    "planning/tasks/HV-005.md": {
+      "size": 2282,
+      "sha256": "c9fb120875b0ada02b0c7f5d579dc0c2643008d89c43d8d942a8ee6ee126271f"
+    },
+    "planning/tasks/HV-006.md": {
+      "size": 2237,
+      "sha256": "3861c8a1e7d0bf33d61b1ec95f68c6876d2702e599a8062d2804a131ccd90a1d"
+    },
+    "planning/tasks/HV-007.md": {
+      "size": 2228,
+      "sha256": "db1a84370834299f633e3d2e2e8c0f6ad818ec401fee7997babb6116dfcb0c78"
+    },
+    "planning/tasks/HV-008.md": {
+      "size": 2256,
+      "sha256": "6eb140e368abc45156e7b29d4b6f6d9b64df67ac812c19be9f3583012493e3e7"
+    },
+    "planning/templates/Change_Request.template.md": {
+      "size": 512,
+      "sha256": "8a94e8e85064398e48a0b7184364f23f21ae2af5ce03829e289b6e11c1b92144"
+    },
+    "planning/templates/Session_Closeout.template.md": {
+      "size": 333,
+      "sha256": "fa984ebd3d432e6ad741bba8abbbabb1fac77f8b3143379506b6329549e4557d"
+    },
+    "planning/templates/Task_Report.template.json": {
+      "size": 829,
+      "sha256": "69ecd4bcdbe4d6a40f2851e87285315e032b6246b81b9dbabc6e4cbe81f908d5"
+    },
+    "planning/toolchain_baseline.json": {
+      "size": 414,
+      "sha256": "dd06e830ecbd1f6bcb38bba078ac94d2022d17cc59f1cc094861aa3789a5d604"
+    },
+    "planning/topological_order.json": {
+      "size": 2189,
+      "sha256": "e9c7121067d260073e6628e014813dcf0b0f08a6d81a870e3bddf62a7676dc50"
+    },
+    "reference/part03/Exploration_Layout_Reference_v0.1.json": {
+      "size": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    "reference/part03/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "reference/part03/Exploration_Validation_v0.1.md": {
+      "size": 3692,
+      "sha256": "17400a8daeab4c29e3e98b0bd5ab5c47215d8fb7df0b184649326fa25256e906"
+    },
+    "reference/part03/MANIFEST.json": {
+      "size": 1160,
+      "sha256": "dc77a43e3e447357b9af9183947f0193b38e4cb1f33b09e97ac729edc7737481"
+    },
+    "reference/part03/README.md": {
+      "size": 1495,
+      "sha256": "01f35fb6149ae56497a479b82e52623e29ed701757fdb413f8de6596e37f46a5"
+    },
+    "reference/part03/dependencies/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "reference/part03/dependencies/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "reference/part03/validation/validate_reference.py": {
+      "size": 10735,
+      "sha256": "4caecd4061b084643cbe6d081c58d48bc64a67a43f381ad488435ca9aa8a71a0"
+    },
+    "reference/part03/validation/validation_summary.json": {
+      "size": 212,
+      "sha256": "55c9e5fd2315b9e9ad6616c95fe962ed162c5f497bd4e002fd610a82866c0804"
+    },
+    "reference/part04/Codex_Handoff_Part04_v0.1.md": {
+      "size": 2170,
+      "sha256": "c14a61ab71eebb3a9b38deeb2b9e9d5466c546b0059ca40863dc2ba3e4b77670"
+    },
+    "reference/part04/MANIFEST.json": {
+      "size": 2494,
+      "sha256": "33e782f101a3a27238d1c9baf4830cb448a383a111dd8ef7199addb588e0f13b"
+    },
+    "reference/part04/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "reference/part04/Quest_Event_Validation_v0.1.md": {
+      "size": 1831,
+      "sha256": "bcb1bef37307e723c5b61d5a760125d4d1d88fc55a1a05535554bcc230462e49"
+    },
+    "reference/part04/README.md": {
+      "size": 1835,
+      "sha256": "07d6a70bbc1c118c41becd0edce8f79de56ae2c93ebca01d80209e2d27f76a4a"
+    },
+    "reference/part04/data/Quest_Event_Reference_v0.1.json": {
+      "size": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    "reference/part04/dependencies/Exploration_Layout_Reference_v0.1.json": {
+      "size": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    "reference/part04/dependencies/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "reference/part04/dependencies/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "reference/part04/dependencies/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "reference/part04/validation/build_reference.py": {
+      "size": 14579,
+      "sha256": "36663e183bd09bedd535910e1495dd72c2f589f8dfec1b2661cf59d9ec66819d"
+    },
+    "reference/part04/validation/reference_model.py": {
+      "size": 10447,
+      "sha256": "1fed7238c028c994d86e945354162ddb68f6913445f5bea46baf8589b224887e"
+    },
+    "reference/part04/validation/run_log.txt": {
+      "size": 6135,
+      "sha256": "fd6839f33302d86f8f226e889b15a81822719bcb50c02a81e29940d8f1f2f38a"
+    },
+    "reference/part04/validation/validate_design.py": {
+      "size": 12147,
+      "sha256": "d87aa3bc0c5ce60f89731105009887afbf9848d624330d4ec16a6524d393894f"
+    },
+    "reference/part04/validation/validation_summary.json": {
+      "size": 704,
+      "sha256": "35550186009aa64d94036744797518e794df304758db76914b05cebc9014ea3c"
+    },
+    "reference/part05/Codex_Handoff_Part05_v0.1.md": {
+      "size": 2047,
+      "sha256": "2354a5c74ad2ce9ddf7afcdd7c5ecdc8a2cfd406effd9f197721d5101c7d0f59"
+    },
+    "reference/part05/Difficulty_Baseline_Change_CR-EN-005-001.md": {
+      "size": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    "reference/part05/English_Learning_System_v0.1.md": {
+      "size": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    "reference/part05/English_Learning_Validation_v0.1.md": {
+      "size": 793,
+      "sha256": "b77bec396e0c08b6cd9a38e20a67937386ea74014474881cf4474dbfedee4d98"
+    },
+    "reference/part05/MANIFEST.json": {
+      "size": 3199,
+      "sha256": "c04703ff4238fa97c3d4c8a76b6c0613c100cb42acb098ab4df9854b070b22f9"
+    },
+    "reference/part05/README.md": {
+      "size": 931,
+      "sha256": "13d7399891f8dd220211114b1c1f64e5a9fd6c5ddb31fb121a8c8661a3cde42b"
+    },
+    "reference/part05/data/English_Learning_Reference_v0.1.json": {
+      "size": 62574,
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+    },
+    "reference/part05/data/Lexical_Seed_v0.1.json": {
+      "size": 7442,
+      "sha256": "c55ef95aa82d592a2d2b9d9e6209b10b37007cf25c1c6030ccd6c7f281e566a4"
+    },
+    "reference/part05/data/Original_Materials_v0.1.json": {
+      "size": 27750,
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+    },
+    "reference/part05/dependencies/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "reference/part05/dependencies/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "reference/part05/dependencies/Quest_Event_Reference_v0.1.json": {
+      "size": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    "reference/part05/dependencies/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "reference/part05/dependencies/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "reference/part05/materials/Original_Sample_Pack_v0.1.md": {
+      "size": 17929,
+      "sha256": "05a3a30e273e0c69aae3262beb895b57c468b4f22d7bcb962c99431788bf6198"
+    },
+    "reference/part05/validation/learning_reference.py": {
+      "size": 8885,
+      "sha256": "54a28dec7f170c75151c28bff9d30654bde23801fe5d3785bf19b587181f712f"
+    },
+    "reference/part05/validation/run_log.txt": {
+      "size": 5851,
+      "sha256": "dd9ccccbe7d3f10aea23980aa307ffe2d886d88fe95d249aee12146fae297a57"
+    },
+    "reference/part05/validation/validate_design.py": {
+      "size": 12466,
+      "sha256": "5ae306e957c338e11a5ae33e4889ff9be30764af04504a30a1d785555504ff7b"
+    },
+    "reference/part05/validation/validation_report.json": {
+      "size": 574,
+      "sha256": "6530262f48725315f3ee11ff49f4d7cb7db424a67fa5afcfd354642572b91a7d"
+    },
+    "reference/part06/Codex_Handoff_Part06_v0.1.md": {
+      "size": 4614,
+      "sha256": "353d9976cb79ee2e499425f96370a3313ba34aff1c253c2e1e5387cfc35a43a8"
+    },
+    "reference/part06/MANIFEST.json": {
+      "size": 4107,
+      "sha256": "d498cd70cc2a27e0867cd178e3e62e0da278dc2a85d475e1f31eb9d21871ab02"
+    },
+    "reference/part06/Puzzle_System_v0.1.md": {
+      "size": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    "reference/part06/Puzzle_Validation_v0.1.md": {
+      "size": 2326,
+      "sha256": "13a78bce06379f64c827ddc4e81cc1499cb9c307e17c762e608a24f2ed5b57e2"
+    },
+    "reference/part06/README.md": {
+      "size": 2432,
+      "sha256": "07e7ef945fd3218ca209b3dde04e7adae70558180f07e7f8361229753fb18f1f"
+    },
+    "reference/part06/data/Puzzle_Materials_v0.1.json": {
+      "size": 16760,
+      "sha256": "44bc61f8f40391e32037e7b1c0fa172215e373982677ea07d3c0d93c5e00f319"
+    },
+    "reference/part06/data/Puzzle_Reference_v0.1.json": {
+      "size": 42061,
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19"
+    },
+    "reference/part06/data/Worked_Logic_Fixtures_v0.1.json": {
+      "size": 4327,
+      "sha256": "8592245c4cb3469613d0d91e4182481a6768117222e12dc2e6834faccc6939b7"
+    },
+    "reference/part06/dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md": {
+      "size": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    "reference/part06/dependencies/English_Learning_Reference_v0.1.json": {
+      "size": 62574,
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+    },
+    "reference/part06/dependencies/English_Learning_System_v0.1.md": {
+      "size": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    "reference/part06/dependencies/Exploration_Layout_Reference_v0.1.json": {
+      "size": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    "reference/part06/dependencies/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "reference/part06/dependencies/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "reference/part06/dependencies/Original_Materials_v0.1.json": {
+      "size": 27750,
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+    },
+    "reference/part06/dependencies/Quest_Event_Reference_v0.1.json": {
+      "size": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    "reference/part06/dependencies/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "reference/part06/dependencies/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "reference/part06/materials/Worked_Puzzle_Materials_v0.1.md": {
+      "size": 13335,
+      "sha256": "d67124e5e35ecdbeb14833a0cd5e09433de4d948543052c0b0867d2ee59f5ac7"
+    },
+    "reference/part06/validation/puzzle_reference.py": {
+      "size": 18578,
+      "sha256": "b0e1a34b1bc2d5a7de5d92da5f4d84a4fa4bff1c87b06ea126bc81af74d48fa1"
+    },
+    "reference/part06/validation/run_log.txt": {
+      "size": 10711,
+      "sha256": "7b194c78f3ed7c5a23649094d692793facdc4a4599e9692351c230940e68da8e"
+    },
+    "reference/part06/validation/test_puzzles.py": {
+      "size": 18397,
+      "sha256": "f207c52c8a0621a587541ba50502eb80de40f3ed308cb23ca6755c66ea9d0e78"
+    },
+    "reference/part06/validation/validate_package.py": {
+      "size": 1920,
+      "sha256": "31e9ea2ff1a77b7390c638e2ea99201e44ef0de534db90848a8bd64f3fd6e7a9"
+    },
+    "reference/part06/validation/validation_report.json": {
+      "size": 1954,
+      "sha256": "370c36c63843327766dab8496c594c173dceabca4314c9326271fc1b1ad94f1a"
+    },
+    "reference/part07/Character_Progression_Validation_v0.1.md": {
+      "size": 1896,
+      "sha256": "0c734fc21d1ce6893ae2892fc76abc606b96b6fc634089bbce655f03abb88be1"
+    },
+    "reference/part07/Character_Progression_v0.1.md": {
+      "size": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    "reference/part07/Codex_Handoff_Part07_v0.1.md": {
+      "size": 4812,
+      "sha256": "8728c65fe263fafacaf4014bfc8b01f10d6b0957e98cd74e7b3e1b5a9e04602d"
+    },
+    "reference/part07/Growth_Baseline_Change_CR-RPG-007-001.md": {
+      "size": 2441,
+      "sha256": "de61cf8791df7ef0252e450b5d99e15c33be4c944c363ad0a821aa0775411f67"
+    },
+    "reference/part07/MANIFEST.json": {
+      "size": 3479,
+      "sha256": "dac11ddde26d24fb4a116d6131d053dca5ec84cd24e518be969fe0d9991cb64f"
+    },
+    "reference/part07/README.md": {
+      "size": 1374,
+      "sha256": "d0fc547fcc364cb2a3d7b561b03ef0b7246693349701e7db86febd3b94a4a1b3"
+    },
+    "reference/part07/data/Character_Progression_Reference_v0.1.json": {
+      "size": 65966,
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    "reference/part07/dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md": {
+      "size": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    "reference/part07/dependencies/English_Learning_System_v0.1.md": {
+      "size": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    "reference/part07/dependencies/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "reference/part07/dependencies/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "reference/part07/dependencies/Puzzle_System_v0.1.md": {
+      "size": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    "reference/part07/dependencies/Quest_Event_Reference_v0.1.json": {
+      "size": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    "reference/part07/dependencies/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "reference/part07/dependencies/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "reference/part07/validation/rpg_reference.py": {
+      "size": 9384,
+      "sha256": "60f67f2f08b34945c0e686f044dc3e07374c2cadad1e9952376957c40a6d34cc"
+    },
+    "reference/part07/validation/run_log.txt": {
+      "size": 7970,
+      "sha256": "565479c95ff3f527f188762caceb8d177d28d3fd97eaea10002b62969b8ddcef"
+    },
+    "reference/part07/validation/run_validation.py": {
+      "size": 1955,
+      "sha256": "ea0641970534ec343d5d1252714186b4b3beff45dfb03b6aa8c08eea9a9fd8fe"
+    },
+    "reference/part07/validation/test_progression.py": {
+      "size": 13680,
+      "sha256": "46132983b4f50eefeae69aaede0557bfa36e5b374971178cdddff24470e9dce3"
+    },
+    "reference/part07/validation/validation_report.json": {
+      "size": 3379,
+      "sha256": "20defdb6014d9d869506b6b35682441c3c5fb73826d9a3260c0a557dd023669f"
+    },
+    "reference/part08/Codex_Handoff_Part08_v0.1.md": {
+      "size": 3920,
+      "sha256": "f789c6e53169094fc699ea194cc557958a65afead94cafc7469bdee4f4a5d16b"
+    },
+    "reference/part08/Combat_Change_CR-COM-008-001.md": {
+      "size": 1747,
+      "sha256": "b3c6bbe989ccbc46dc25501ad551f5680e6a94c59eb97d4ff0d3d39d35cc0cb5"
+    },
+    "reference/part08/Combat_System_v0.1.md": {
+      "size": 53850,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    "reference/part08/Combat_Validation_v0.1.md": {
+      "size": 4170,
+      "sha256": "b3d2d0e8192d128d6e20a8d0b0f84650a9ae1f71b49b436bbcf88e197ce3c327"
+    },
+    "reference/part08/MANIFEST.json": {
+      "size": 10374,
+      "sha256": "db01d1d6139dc1f91e023c25da597f73f8099c13d0a1d0a89cd72904879ed52d"
+    },
+    "reference/part08/README.md": {
+      "size": 1543,
+      "sha256": "a8d54be6a3f6652eb542fd9e8022e4db3c86f827c16c20c2738eaae81e5e6285"
+    },
+    "reference/part08/data/Character_Progression_Reference_v0.1.json": {
+      "size": 65966,
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    "reference/part08/data/Combat_Acceptance_v0.1.json": {
+      "size": 10850,
+      "sha256": "61abd45679c57cf8dd0a897e9800137e7e2fde58944f002bb13d64d4702e63b2"
+    },
+    "reference/part08/data/Combat_Reference_v0.1.json": {
+      "size": 56489,
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    "reference/part08/dependencies/Character_Progression_v0.1.md": {
+      "size": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    "reference/part08/dependencies/English_Learning_System_v0.1.md": {
+      "size": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    "reference/part08/dependencies/Exploration_Layout_Reference_v0.1.json": {
+      "size": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    "reference/part08/dependencies/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "reference/part08/dependencies/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "reference/part08/dependencies/Puzzle_System_v0.1.md": {
+      "size": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    "reference/part08/dependencies/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "reference/part08/dependencies/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "reference/part08/materials/COM-MAT-01_Workshop_Observation.md": {
+      "size": 1441,
+      "sha256": "872239e3468666fb1446b19e16261b3cbbffc4b3268e13673adde4a6e42b61ef"
+    },
+    "reference/part08/materials/COM-MAT-02_Tower_Procedure.md": {
+      "size": 1448,
+      "sha256": "3af04084dc79d58be6bb68b87187b739b18661d4b5801d645fff4079bb61f9df"
+    },
+    "reference/part08/materials/COM-MAT-03_Core_Handover_Script.md": {
+      "size": 1595,
+      "sha256": "a833d56dcbd9e07b358c1270ddf6a7f72d4882bf3a71118cffc852018a75a03f"
+    },
+    "reference/part08/validation/build_data.py": {
+      "size": 15384,
+      "sha256": "17add39932306a08922a02651d5f2ca229b9a5838ca972df42927d74dfcb127a"
+    },
+    "reference/part08/validation/build_documents.py": {
+      "size": 7500,
+      "sha256": "18ab621a25aced84d026db479b087130ccd769b310678355e4bfd95f0b62f4de"
+    },
+    "reference/part08/validation/combat_reference.py": {
+      "size": 31118,
+      "sha256": "6b5689191db497282a6efb565857f2d594679fcdec2974ba58d13724cb2474b0"
+    },
+    "reference/part08/validation/initial_tower_observation.json": {
+      "size": 1431,
+      "sha256": "872139f2b9211eabcede74a49621ae146c0bf9dfb6af39e21bd5e790aed498d5"
+    },
+    "reference/part08/validation/progression_reference.py": {
+      "size": 9384,
+      "sha256": "60f67f2f08b34945c0e686f044dc3e07374c2cadad1e9952376957c40a6d34cc"
+    },
+    "reference/part08/validation/run_log.txt": {
+      "size": 9944,
+      "sha256": "bb674598203c4ec1a9aee10b686677c306fdabb06814c8a4d3db92f4e457e123"
+    },
+    "reference/part08/validation/run_validation.py": {
+      "size": 4810,
+      "sha256": "ac9a5fb6de447fe543ffafb0ce5bd2069dd609b5049f96db7c209ce9c6854ae0"
+    },
+    "reference/part08/validation/test_combat.py": {
+      "size": 17587,
+      "sha256": "46d369050898f78b2276d07905ebb25b4da567f4453e17c586d357b896811889"
+    },
+    "reference/part08/validation/tower_parameter_sweep.json": {
+      "size": 6956,
+      "sha256": "98f10484ba9e85309517e68de900421619829a7acae8ce15785c2a4c09429640"
+    },
+    "reference/part08/validation/traces/BUILD-HM__BENCH-ELITE__standard.json": {
+      "size": 14044,
+      "sha256": "77f5c77b5a5cb2f2c14ac8f4c1a4e1b1cac17539cb04ef5a283de345b58e8151"
+    },
+    "reference/part08/validation/traces/BUILD-HM__BENCH-GROUP__standard.json": {
+      "size": 12817,
+      "sha256": "cb0bfa2e29f0f18f7a33832a6423cad254016adca4877f0593fc4703053394c8"
+    },
+    "reference/part08/validation/traces/BUILD-HM__BENCH-LONG__standard.json": {
+      "size": 24893,
+      "sha256": "51ba3bf1bf819f01785f0c080ded89de5607e83b844349e36821a96c70efeac1"
+    },
+    "reference/part08/validation/traces/BUILD-H__BENCH-ELITE__standard.json": {
+      "size": 13084,
+      "sha256": "bf9f4b87800419e0da90f5ac653fd600d8ee8a23c41088f7f34f61a19791caa9"
+    },
+    "reference/part08/validation/traces/BUILD-H__BENCH-GROUP__standard.json": {
+      "size": 12521,
+      "sha256": "2e7b4e0b60e4858779d1941d64a9b10d2ed10df0c759ad7f7b2574add6adfd82"
+    },
+    "reference/part08/validation/traces/BUILD-H__BENCH-LONG__standard.json": {
+      "size": 21963,
+      "sha256": "9cffb7731d1c421fac205f711c09ad510220bf0097a10e430084d39c72c491b0"
+    },
+    "reference/part08/validation/traces/BUILD-M__BENCH-ELITE__standard.json": {
+      "size": 13699,
+      "sha256": "8a03acac86cd284bc0b70d90212a88d3e738f7dd68a957a8a0494718c1ace136"
+    },
+    "reference/part08/validation/traces/BUILD-M__BENCH-GROUP__standard.json": {
+      "size": 11913,
+      "sha256": "7b6be15e6fbf09e415ae51ecce0db2f9ea72ee7bf103db131b52d7daeb859a16"
+    },
+    "reference/part08/validation/traces/BUILD-M__BENCH-LONG__standard.json": {
+      "size": 21892,
+      "sha256": "cf75d2f3a41cca8789b5f311dc406c9c684e6a5ca2f1f886c94ff41ca82fcbe3"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__challenge.json": {
+      "size": 9121,
+      "sha256": "37b88c8933c788e5ebce552be5008eea04b10791f10f65f76d784e72097041b9"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__relaxed.json": {
+      "size": 6204,
+      "sha256": "6cf0785cd18ff6a5e7045f3895f6b467ecb0e734505048b708b631082e68f0ef"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__standard.json": {
+      "size": 7979,
+      "sha256": "8773c4b1a33f7eac40f1599eaba8d1b4e182ff0a3dff8fe92e0abb3ae77b8e94"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__challenge.json": {
+      "size": 8013,
+      "sha256": "944eaeacf0e8cbda9151327e3c0d03c17ea2713348239b615f91106be77ae77e"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__relaxed.json": {
+      "size": 7182,
+      "sha256": "9ac53934d62daf0c2c782eb2a096b93cb343032702b7d54ff3b0d4f1802c3682"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__standard.json": {
+      "size": 7477,
+      "sha256": "34c02c7bd9a6e20a4fd314a84b606de8fc0d99213575e51e012259a87aa4881d"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__challenge.json": {
+      "size": 13050,
+      "sha256": "fc7468adc8ecc20b401e102010f5b3e441ae0ee23f99aa7649bef47b62810998"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__relaxed.json": {
+      "size": 7135,
+      "sha256": "257e7cca085e600f357b9b85fc5ff68b24ce3757cea6a24b1cf5222c5c186872"
+    },
+    "reference/part08/validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__standard.json": {
+      "size": 8950,
+      "sha256": "44cbf709b8fe6175e4b93e068ad994748edbd5bbf5dce8b457c65b7d81cad457"
+    },
+    "reference/part08/validation/traces/BUILD-S-ATTACKBAR__BENCH-ELITE__standard.json": {
+      "size": 17042,
+      "sha256": "159cca1eacb597d5e302e1e91e7d0ee4af1dc27b2800000ad3d6b536951af006"
+    },
+    "reference/part08/validation/traces/BUILD-S-ATTACKBAR__BENCH-GROUP__standard.json": {
+      "size": 14990,
+      "sha256": "f93bce6af675882fc75265943574d8d9ace385a8c65e6928e80ac584f13bc46f"
+    },
+    "reference/part08/validation/traces/BUILD-S-ATTACKBAR__BENCH-LONG__standard.json": {
+      "size": 28569,
+      "sha256": "4360debcbe299a249e5b12d1cd3ad19ade8b265627e1ce26bf587dd89dfe1bda"
+    },
+    "reference/part08/validation/traces/BUILD-S__BENCH-ELITE__standard.json": {
+      "size": 15503,
+      "sha256": "91fce114e7fa7fc5c6dc47ec416a3217b44390bfd60a0fc53d0c70fb0574ddf3"
+    },
+    "reference/part08/validation/traces/BUILD-S__BENCH-GROUP__standard.json": {
+      "size": 18312,
+      "sha256": "f15f77717bfeebe34945ec0c3097cd10b4a2835bc8d5d6a594405f9a4c8159f1"
+    },
+    "reference/part08/validation/traces/BUILD-S__BENCH-LONG__standard.json": {
+      "size": 25854,
+      "sha256": "0e5061ab553d3e534b78b6e6d376bda06587686bc40f53a3a3b0e66f07f54560"
+    },
+    "reference/part08/validation/traces/BUILD-TOWER-H__BENCH-TOWER__standard.json": {
+      "size": 13033,
+      "sha256": "ec75ab326e493590720c774dd6e9b4d207807091277de539b229b75cd49f1747"
+    },
+    "reference/part08/validation/traces/BUILD-TOWER-M__BENCH-TOWER__standard.json": {
+      "size": 13794,
+      "sha256": "c8421e5d84f21a26db4b5c2dac62238649109c7e37fbf2a0749bd3488853db14"
+    },
+    "reference/part08/validation/traces/BUILD-TOWER-S__BENCH-TOWER__standard.json": {
+      "size": 15964,
+      "sha256": "dbb415ec3df8f132c380af2ad423d3345faa555705a860fec21a06829eeba1fe"
+    },
+    "reference/part08/validation/validation_report.json": {
+      "size": 11620,
+      "sha256": "c2874a4cb284158db5bffc983e8299581efc2bbe3ae0b5d65b316f22d7da0326"
+    },
+    "reference/part09/Codex_Handoff_Part09_v0.1.md": {
+      "size": 3106,
+      "sha256": "cb58ecca4f54273d27b64b4799db972aa66dc4cecd9ea2ac3a7ba371ebcbd07c"
+    },
+    "reference/part09/MANIFEST.json": {
+      "size": 5428,
+      "sha256": "ae0574cd607f25d27e399f8257dec0b7b96173dd444edcb87be1b9ef76bdfee4"
+    },
+    "reference/part09/NPC_Change_CR-NPC-009-001.md": {
+      "size": 1864,
+      "sha256": "c6a2f3b7f624e5bf72587d753f1015e83e14eb4001f87810ae8c824e4519171c"
+    },
+    "reference/part09/NPC_Faction_System_v0.1.md": {
+      "size": 56895,
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+    },
+    "reference/part09/NPC_Faction_Validation_v0.1.md": {
+      "size": 2380,
+      "sha256": "2925c05ef4a6ad34c7d3ac2e2c3f4c2418eafac4b409fcbc3a4890dab22eb344"
+    },
+    "reference/part09/README.md": {
+      "size": 939,
+      "sha256": "3aa040d06da794b2893990e207df9bf0feaf9c1dcb2f028914fbd67b534e2b59"
+    },
+    "reference/part09/data/NPC_Acceptance_v0.1.json": {
+      "size": 8449,
+      "sha256": "fe3525ecb3cfb1757f70b366d198f83d06a9e53e73966c360aa02e240f65f2a7"
+    },
+    "reference/part09/data/NPC_Faction_Reference_v0.1.json": {
+      "size": 56328,
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+    },
+    "reference/part09/dependencies/Character_Progression_Reference_v0.1.json": {
+      "size": 65966,
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    "reference/part09/dependencies/Character_Progression_v0.1.md": {
+      "size": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    "reference/part09/dependencies/Combat_Reference_v0.1.json": {
+      "size": 56489,
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    "reference/part09/dependencies/Combat_System_v0.1.md": {
+      "size": 53850,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    "reference/part09/dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md": {
+      "size": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    "reference/part09/dependencies/English_Learning_System_v0.1.md": {
+      "size": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    "reference/part09/dependencies/Exploration_Layout_Reference_v0.1.json": {
+      "size": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    "reference/part09/dependencies/Exploration_Level_Design_v0.1.md": {
+      "size": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    "reference/part09/dependencies/Game_Design_Core_v0.1.md": {
+      "size": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    "reference/part09/dependencies/Puzzle_System_v0.1.md": {
+      "size": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    "reference/part09/dependencies/Quest_Event_System_v0.1.md": {
+      "size": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    "reference/part09/dependencies/World_Story_Bible_v0.1.md": {
+      "size": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    "reference/part09/materials/NPC-MAT-01_Havel_Plan_Review.md": {
+      "size": 1644,
+      "sha256": "328bb99b0876716bd760652b8fed0499b8b4220e0d384af30f3f06509317dad1"
+    },
+    "reference/part09/materials/NPC-MAT-02_Lina_Contact.md": {
+      "size": 1312,
+      "sha256": "23f6eab2a76ac9c02e0402ab91f89da47120a06ec81141a88f0a2c7373428db9"
+    },
+    "reference/part09/materials/NPC-MAT-03_Oren_Repair.md": {
+      "size": 1392,
+      "sha256": "65d732e417d5cd3e975c3ffb47a6a137469857c9b33b1b197c5fbf033a9f7926"
+    },
+    "reference/part09/materials/NPC-MAT-04_Mira_Access.md": {
+      "size": 1532,
+      "sha256": "32bdf2febab6b6513c5a22f58104ce8014f98aed49b76b69ead5e9a88ea25b77"
+    },
+    "reference/part09/materials/NPC-MAT-05_Tess_Handover.md": {
+      "size": 1432,
+      "sha256": "4fa7bba1f251f1ac4963655b8c40036c4b6466124441642699cde5bf2d348edf"
+    },
+    "reference/part09/materials/NPC-MAT-06_Chair_Banter.md": {
+      "size": 963,
+      "sha256": "704c0c2b8e5229d6f7b9938a1104672c298f6207f69194631f7a0914158be798"
+    },
+    "reference/part09/validation/npc_reference.py": {
+      "size": 14418,
+      "sha256": "71159c9b12345fb36f4a7af0c99019dc8493a87ad34adbceaae175fc4eb53b0a"
+    },
+    "reference/part09/validation/run_log.txt": {
+      "size": 6445,
+      "sha256": "c123ee7fd7e98e7cb251ced24315d2b08ad606c5b755ac03614f7661bc944b3b"
+    },
+    "reference/part09/validation/run_validation.py": {
+      "size": 1303,
+      "sha256": "84f878f8585282880c4161cf22f337390ee13ba819e9a285641c1df951a0d95e"
+    },
+    "reference/part09/validation/scenario_traces.json": {
+      "size": 2429,
+      "sha256": "a686715c4096a6d7e57cae0388af3b19c68e4400a6f5fa007f05345055bfc758"
+    },
+    "reference/part09/validation/test_npc.py": {
+      "size": 18585,
+      "sha256": "0c4365f254b0202ae7d78e8ffae54e08c702c27b81e2e0cea846b6a18f966ee5"
+    },
+    "reference/part09/validation/validation_report.json": {
+      "size": 635,
+      "sha256": "ba00d13acbc6a785b4f137326f69ed02fb7d6ce4244376e42edb3edc9f64147b"
+    },
+    "reference/part10/CR-UI-010-001.md": {
+      "size": 1351,
+      "sha256": "4a243401eaeae67b155291364a5bca71ef1b09e2e8f8690bc9c172e0f41cf7cc"
+    },
+    "reference/part10/Codex_Handoff_Part10_v0.1.md": {
+      "size": 3888,
+      "sha256": "058a659b666e1a9138d71f40cad634bd6dd3d52a2c68252696f34e598290495b"
+    },
+    "reference/part10/Codex_UI_Task_Cards_v0.1.md": {
+      "size": 4506,
+      "sha256": "fcbacbe059931613aca8b8afd2fac723fee8b14bd5de396256ee37907760cb85"
+    },
+    "reference/part10/FILE_MANIFEST.json": {
+      "size": 3540,
+      "sha256": "33c013eee2524f9add3947451b9ae310b89cf2563920a81f3423de11f24e9f17"
+    },
+    "reference/part10/README.md": {
+      "size": 2454,
+      "sha256": "41ad9a521969baafd31471efddff97e35e4913a5417c55dc6b79404a868ac60e"
+    },
+    "reference/part10/UI_UX_Spec_v0.1.md": {
+      "size": 53334,
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7"
+    },
+    "reference/part10/UI_UX_Validation_v0.1.md": {
+      "size": 3406,
+      "sha256": "e8a35e79b71c72180447ac5c95a2b1f5b01353ea060e5e023524308e255a238b"
+    },
+    "reference/part10/data/Codex_UI_Tasks_v0.1.json": {
+      "size": 6670,
+      "sha256": "cd2338d756f4020343b4465bbec960deb8ff2687e71ef247160ad1136e9d1a1a"
+    },
+    "reference/part10/data/Q102_Material_Reference_v0.1.json": {
+      "size": 10362,
+      "sha256": "7ae3d513a9a541a7522c680fe945813c65c680c610b3d8ea7e60ac23c752df36"
+    },
+    "reference/part10/data/UI_Acceptance_v0.1.json": {
+      "size": 12200,
+      "sha256": "8350a44e2736f2fe9d16f4d1fbccf742536deefa0ee52c7561fd8850456a24a6"
+    },
+    "reference/part10/data/UI_UX_Reference_v0.1.json": {
+      "size": 20151,
+      "sha256": "b3c78b2955371fb8479954ab07bd53f81e0ed1a9ab930f077556ba1cec209489"
+    },
+    "reference/part10/prototype/UI_Wireframe_v0.1.html": {
+      "size": 39680,
+      "sha256": "46c0841c3616fab778d2711626962c19d97b94f9f07af7cafcc1a4563822b68a"
+    },
+    "reference/part10/references/Source_Manifest_v0.1.json": {
+      "size": 1371,
+      "sha256": "0d995d2b99fae8d570b0471b76a3373af7d1770edd1de9e0185baa7e713600a2"
+    },
+    "reference/part10/validation/browser_report.json": {
+      "size": 2915,
+      "sha256": "43c13f9a1127e8270da03da9d5aa787886676addd4fc94e02bba3bf2e1223c36"
+    },
+    "reference/part10/validation/browser_test_log.txt": {
+      "size": 1126,
+      "sha256": "ca4cb4593fba501af062c029926a8f6f82a5ffd3834703564cca64642baf8ea2"
+    },
+    "reference/part10/validation/independent_recheck.json": {
+      "size": 755,
+      "sha256": "680bb3628a59220859723c529562bf5f9a6121ef4ac1c5d1c5b9d083fb6d1ca4"
+    },
+    "reference/part10/validation/qa_writing_1280.png": {
+      "size": 266151,
+      "sha256": "64d0846e068f884177051f95c29de0b3caa7791468f19be660667961da90dfe8"
+    },
+    "reference/part10/validation/qa_writing_1920.png": {
+      "size": 284610,
+      "sha256": "12de02d149ed2fe2340ac9afd9b9fbecc194b83b91624519cebb381842fd3bf6"
+    },
+    "reference/part10/validation/qa_writing_200.png": {
+      "size": 332040,
+      "sha256": "6c7e5fbea6e2711b9c5a66586df4171c4069957812c62f658bf0eb726f30eb86"
+    },
+    "reference/part10/validation/reference_report.json": {
+      "size": 6986,
+      "sha256": "dba4259ce79e4971714a1b9d4b28d1c728abed84c3a06746d85960a908147474"
+    },
+    "reference/part10/validation/run_reference_checks.py": {
+      "size": 1353,
+      "sha256": "2107fdf89978d63690732bc3c33a069e5bab80e21011696a78cbb7f1d56a0539"
+    },
+    "reference/part10/validation/summary.json": {
+      "size": 634,
+      "sha256": "ae42d95f788c61ada2d9b72090fc730902c80e8c29ce826e7c86f6918a45cd00"
+    },
+    "reference/part10/validation/test_browser.py": {
+      "size": 11988,
+      "sha256": "6c2d14c6859c92193a7dd3e1a098d316e4f6a4538d01e6d404b9c4c01932ed1c"
+    },
+    "reference/part10/validation/test_ui_reference.py": {
+      "size": 12121,
+      "sha256": "d162f405fc0bcead256eabebd0ded6d102e6fe74743a56bb7d07c2fdcf4af941"
+    },
+    "reference/part10/validation/ui_reference.py": {
+      "size": 10566,
+      "sha256": "4ae2c6e0410dfbfdad9c12f1bace955959bad8a63690f545f7d064bfb89abda8"
+    },
+    "reference/part10/validation/unit_test_log.txt": {
+      "size": 6878,
+      "sha256": "db74cbc949f616959b9381bbe1abbd2162e2e02c48165cca0b8777636acee03e"
+    },
+    "reference/part11/Codex_Handoff_Part11_v0.1.md": {
+      "size": 3298,
+      "sha256": "4000256f941cba7f61600aa661394f70ebfa170ccf513b70695db527a6ed1501"
+    },
+    "reference/part11/Content_AI_Pipeline_v0.1.md": {
+      "size": 45924,
+      "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738"
+    },
+    "reference/part11/Content_AI_Validation_v0.1.md": {
+      "size": 2581,
+      "sha256": "a07622f07e613ea21302b9e55d4e6ce481436eda2beed72a9bbd62e159e7884b"
+    },
+    "reference/part11/PACKAGE_MANIFEST.json": {
+      "size": 7637,
+      "sha256": "0d3a70361809e7b5d9fdb2238fd9d0f9062a99ccb8e4d4f5cd2dacfffa472a39"
+    },
+    "reference/part11/README.md": {
+      "size": 1797,
+      "sha256": "d0ab7f432f8d71a41dce9fa7e424b8cb17acb11c7d0c633eb6d55e424de043a0"
+    },
+    "reference/part11/References_v0.1.md": {
+      "size": 1461,
+      "sha256": "1e87a23f225550bbbb93eda21761d2d07430d86b1ab4bd79a1be614d4d6115ec"
+    },
+    "reference/part11/data/Audio_Production_Card_v0.1.json": {
+      "size": 1484,
+      "sha256": "2cd3cbdb33115e4397e0f7e686398824d819c896ff6dd200a249e612477be96a"
+    },
+    "reference/part11/data/Codex_Content_AI_Tasks_v0.1.json": {
+      "size": 4654,
+      "sha256": "8270f32663ea5c0ed6785430cbd06fb9f084067f38e852596db1d41dad4ab68e"
+    },
+    "reference/part11/data/Content_AI_Acceptance_v0.1.json": {
+      "size": 13270,
+      "sha256": "6f39c8398e7165621ccc246e7a255b376dd16a75de0f1dd07c5608d7d1b34d9c"
+    },
+    "reference/part11/data/Content_AI_Reference_v0.1.json": {
+      "size": 2225,
+      "sha256": "044973db4b29cf7f714bb12b87858616a79efcfbc67aeaa63d95da0462f12513"
+    },
+    "reference/part11/data/Dependency_Graph_v0.1.json": {
+      "size": 780,
+      "sha256": "b75237715469cf4ed5130297537b55f44438c141bc35830d3632773df84373c1"
+    },
+    "reference/part11/data/Golden_Semantic_Cases_v0.1.json": {
+      "size": 2004,
+      "sha256": "fe68ae9a295a641ac4c95484408660ed397eb74767dc64637cbb67cd861129f9"
+    },
+    "reference/part11/data/Production_Jobs_v0.1.json": {
+      "size": 7190,
+      "sha256": "43619aa4f9199844b3aa3673a795ead9fbe57825d1fa6c2481dbd7b44ca28b2d"
+    },
+    "reference/part11/data/Projected_Request_Example_v0.1.json": {
+      "size": 1424,
+      "sha256": "daf432ddab68812945691264ba87ca1924561a5dacb83403c5e5210bc10e9719"
+    },
+    "reference/part11/data/Prompt_Registry_v0.1.json": {
+      "size": 2097,
+      "sha256": "ecc0ca2ddffac8febf34c1378f771f8865d98986ec7d541b1d654c45aa2ee551"
+    },
+    "reference/part11/data/Q102_Canonical_Input_v0.1.json": {
+      "size": 11757,
+      "sha256": "994573b7ea9fe2df9142db9975bf2978932d1ec9285cdb98da613d59d81cddc8"
+    },
+    "reference/part11/data/Q102_Production_Bundle_v0.1.json": {
+      "size": 3168,
+      "sha256": "e9a3dd4ccb5ee0c8af7f60e7ac3dda6f8ac8888bae2500dff3306646428f0800"
+    },
+    "reference/part11/data/Runtime_Features_v0.1.json": {
+      "size": 1367,
+      "sha256": "b087673ed003463dc91fcada4e2acb176ba8bf945d14167fc38c360c037f7b95"
+    },
+    "reference/part11/data/Source_Material_Catalog_v0.1.json": {
+      "size": 99132,
+      "sha256": "1d2312a3a03b8b10e83f90a11278651087cf548335df58a36a32fd131ef3962f"
+    },
+    "reference/part11/data/Upstream_Manifest_v0.1.json": {
+      "size": 3432,
+      "sha256": "5d683aae5d503c64ac46ae0be13ccd5b03d015cd77e85f0d8db9ffc4dc9c0f47"
+    },
+    "reference/part11/materials/AI-Q102-LOCAL-NOTE_v0.1.json": {
+      "size": 899,
+      "sha256": "60a5251f130612edf874c7dc6423ccfdc60f27fab9c777af30be8eb69bb7624b"
+    },
+    "reference/part11/prompts/PR-CAI-01.md": {
+      "size": 1240,
+      "sha256": "3ca87c9691e7886d340b5a81e01de353c77917640025474e8923c9de84b03f42"
+    },
+    "reference/part11/prompts/PR-CAI-02.md": {
+      "size": 1153,
+      "sha256": "3eaf8ca1bb191479ad794c688ae052393dceec8f4d7a366f08a846c580e8b653"
+    },
+    "reference/part11/prompts/PR-CAI-03.md": {
+      "size": 1174,
+      "sha256": "c5cec8e1c33cc3d96b5fe9f48245e17d26c7bfa5156b9bfb9c9d0915e2a7a989"
+    },
+    "reference/part11/prompts/PR-CAI-04.md": {
+      "size": 1094,
+      "sha256": "39b53a20cf1f9143ea592bc92c7f2311452a1c2f30d9288c8565f1f5f7adc5d1"
+    },
+    "reference/part11/prompts/PR-CAI-05.md": {
+      "size": 1148,
+      "sha256": "fee850fb485ca822000eae6abeb9979283e8b61b4b0cdbbe48b07c08b909ea05"
+    },
+    "reference/part11/prompts/PR-CAI-06.md": {
+      "size": 1118,
+      "sha256": "3c8af6ddf06791a3120ba016e2ae93fa98531e22c71f2de863aedb63e4464f3a"
+    },
+    "reference/part11/prompts/PR-CAI-07.md": {
+      "size": 1155,
+      "sha256": "1351da75858699be8e310115db7746418af93949ba6467315e9dad720d12a971"
+    },
+    "reference/part11/prompts/PR-CAI-08.md": {
+      "size": 1093,
+      "sha256": "f004a412b369032525e4b41435e74642b38f83140c00edbe4d9c85334a455fac"
+    },
+    "reference/part11/prompts/PR-CAI-09.md": {
+      "size": 1150,
+      "sha256": "7e666263a9d9b263129f532aac550e6831b42da913678716782c5b718b4699db"
+    },
+    "reference/part11/prompts/PR-CAI-10.md": {
+      "size": 1107,
+      "sha256": "b25718b828fd295597f364e5fb598a66367fbfa21b1cdda4376d0cf087561c85"
+    },
+    "reference/part11/prompts/PR-CAI-11.md": {
+      "size": 1176,
+      "sha256": "2745e67d020fe9f7bdea41a1e40d28f4578a8b428c4df41dac803cee76845110"
+    },
+    "reference/part11/prompts/PR-CAI-12.md": {
+      "size": 1179,
+      "sha256": "5bd0f67719032ac89ac96399309e96f624f9ea0a8e1a4633fda66383c0463fc0"
+    },
+    "reference/part11/requirements.txt": {
+      "size": 19,
+      "sha256": "756cc9e506ae4ee1a6f6c0507088b5cfc0dc8ba350fb2d2d46f1ffa72033adb6"
+    },
+    "reference/part11/schemas/Runtime_Reply_v0.1.schema.json": {
+      "size": 6019,
+      "sha256": "04ad089b44fed0c74adb38ebb8e05af8f91a41f77ac58491a15798d0c0c44881"
+    },
+    "reference/part11/tools/build_design_data.py": {
+      "size": 14027,
+      "sha256": "c58f62d244496cec596238f42112209d15579b0a8893dfc4763821d9d021c850"
+    },
+    "reference/part11/tools/build_inventory.py": {
+      "size": 7193,
+      "sha256": "27b1ea42f99094fbd6656edee50b683d68d668887c9d35518c10c703d73e2077"
+    },
+    "reference/part11/tools/build_prompts.py": {
+      "size": 9096,
+      "sha256": "a2e00822ba5ec8a468ee345dbb92795d1e3d86d71def60d868f268ff84138fee"
+    },
+    "reference/part11/tools/finalize_docs.py": {
+      "size": 13309,
+      "sha256": "1f9036f912f18d2e764856624dc0ca97e61a0073a8e18a4f0c2aeffe5787db16"
+    },
+    "reference/part11/tools/preview_q102_request.py": {
+      "size": 1863,
+      "sha256": "d39583eb8b6baa6e6c97c8d8d37add7140e732882c223ff2b5d74d627ed6f1c8"
+    },
+    "reference/part11/tools/verify_package.py": {
+      "size": 684,
+      "sha256": "e6158fda0d1e0d97770a00e41905296f9fc6915329aa09a50b444ae32bd331c4"
+    },
+    "reference/part11/validation/pipeline_reference.py": {
+      "size": 15595,
+      "sha256": "593d7c5e6a06e66afe4e5f8609f4f7cba26cc90b28cc9ce5e9d86ed96fb3ed6f"
+    },
+    "reference/part11/validation/run_checks.py": {
+      "size": 2027,
+      "sha256": "4a36f99b80285debdc1e7ccafaae517b608354d09dcb6012b31ccca51d36a554"
+    },
+    "reference/part11/validation/test_log.txt": {
+      "size": 9083,
+      "sha256": "eaeb91b8bdad8bfd267541048d5ba96a4fa34bb889ee6d83ba44ebdc438448f2"
+    },
+    "reference/part11/validation/test_pipeline.py": {
+      "size": 18884,
+      "sha256": "818ff8a41be4e92aea5d47855a396d82b0e2ca8cf5fb2cb3e5b642bdfb091077"
+    },
+    "reference/part11/validation/validation_report.json": {
+      "size": 10437,
+      "sha256": "59ca32ba50f79da4eb45514fe6f528e89abd35895fa05e8eadb152ad564f5b0a"
+    },
+    "reference/part12/PACKAGE_MANIFEST.json": {
+      "size": 4654,
+      "sha256": "50c17d415276382fc2abd67e9eed40ca7919cd40d62badfedf3efd7451a9b7a8"
+    },
+    "reference/part12/README.md": {
+      "size": 1730,
+      "sha256": "cb0566759237c87a703dc86cecbe1b9a76ca1b9cb131cc80ee8a6d35a85a7f1a"
+    },
+    "reference/part12/Technical_Architecture_v0.1.md": {
+      "size": 52384,
+      "sha256": "93b80938c2bf37313d96c1f6eaee2f54bcfb9d5344d78f572619d6754168f8c2"
+    },
+    "reference/part12/Technical_Validation_v0.1.md": {
+      "size": 3921,
+      "sha256": "0949f9d61ac698b67c45d22ad0d8a457c5a047bc4e92c5ef3c3ca0205cb65b10"
+    },
+    "reference/part12/csharp/Contracts.cs": {
+      "size": 3920,
+      "sha256": "0fe1423f61dd66f44e9fbb56078dcca81676538b2dd46c94229dbff4aad486e5"
+    },
+    "reference/part12/csharp/Mist.Contracts.csproj": {
+      "size": 297,
+      "sha256": "130166e6d0776367866804aace706396f6ac6db96f2973375e02b2ca5b869cff"
+    },
+    "reference/part12/csharp/global.json": {
+      "size": 79,
+      "sha256": "289e45aafd6eb59adcc4b7dda4d6fe5f1924065345aa8ab75be4a0c2b9cb00db"
+    },
+    "reference/part12/data/acceptance_cases.json": {
+      "size": 11474,
+      "sha256": "5cc54e5ed85db9a4d4f2e93e7f4557c32a8641c1c29679be69002df36020f33e"
+    },
+    "reference/part12/data/adapter_inventory.json": {
+      "size": 5015,
+      "sha256": "7e124d0f851678bf09fd28d24e456b2559ec2c9d48dd1777142a5143bdd6b187"
+    },
+    "reference/part12/data/architecture_reference.json": {
+      "size": 3326,
+      "sha256": "0c0841fc10327cee812322d4eeb7a35cf320b7a9b0e4194b86b12d1e3cb07357"
+    },
+    "reference/part12/data/sources.json": {
+      "size": 1419,
+      "sha256": "805cc5b247288a941e97d4c44537f77e657bc494c270cbd1a1ccdf494ae891a8"
+    },
+    "reference/part12/data/toolchain_selection.json": {
+      "size": 1129,
+      "sha256": "81e6e9b054cf9780d5df1b84593ab2ad9e10cc49b763bcb303e5a84933d7e361"
+    },
+    "reference/part12/data/upstream_manifest.json": {
+      "size": 1862,
+      "sha256": "dc8e5dbfdcc9b08efe6f38b7302a71d3a8797cb817018e712a00e7ef9cab8af8"
+    },
+    "reference/part12/data/upstream_quest_ids.json": {
+      "size": 2274,
+      "sha256": "cd3e9ccd1575703eca00a088b13e4fe15c627eb55bc2fb63cde48c8d9155eb32"
+    },
+    "reference/part12/docs/Codex_Handoff_Part12_v0.1.md": {
+      "size": 5738,
+      "sha256": "b63ce14d8bab374e6ac670ac578894cadb776258006b1ae8d912167c01afe5de"
+    },
+    "reference/part12/docs/Sources.md": {
+      "size": 1518,
+      "sha256": "876ffb27eede297d57c9869b89a597d3609e7ee4a7938dc3b593ecf81075044c"
+    },
+    "reference/part12/examples/depart_command.json": {
+      "size": 498,
+      "sha256": "344b62764c0439b8c38103cdfc91ca3fa96d754d70ebff817e4334e5b1c9e093"
+    },
+    "reference/part12/reference/content_reference.py": {
+      "size": 3738,
+      "sha256": "5fe776b9f0f92d2f32d4a3619890508cec75fbfde718ca36e5f71820bb1d52b0"
+    },
+    "reference/part12/reference/run_checks.py": {
+      "size": 1953,
+      "sha256": "8648b8ee85535c25d4361caf1bf4c9e1e48c7b4c656203644cd988d442c10b96"
+    },
+    "reference/part12/reference/storage_reference.py": {
+      "size": 20123,
+      "sha256": "0970e7fb77ed23106d247b625396f57e2e0d7960f47b60be4f176b89115db8a0"
+    },
+    "reference/part12/reference/test_reference.py": {
+      "size": 19323,
+      "sha256": "2b9640ceb1cd70bd13d6ef1c1013d04de44240a948b4d1bdc8b8c1e3cc55fb62"
+    },
+    "reference/part12/schemas/checkpoint.schema.json": {
+      "size": 4895,
+      "sha256": "d7cf7f73c9c488800cccb3de1798fdb1b1d7637753a1be3d42ce2ddfe4921b4a"
+    },
+    "reference/part12/schemas/command.schema.json": {
+      "size": 2352,
+      "sha256": "84a7bcff36d02dbbc98df95e599b3edeb33b0dbb9e504caccd996e9f6b1ac1b7"
+    },
+    "reference/part12/schemas/content_release.schema.json": {
+      "size": 1717,
+      "sha256": "1e43ea74e7b5c01f7599484b6d47ec8c8bf8fa05ee5b20adb87c239a6891d3ef"
+    },
+    "reference/part12/sql/001_privacy_control.sql": {
+      "size": 572,
+      "sha256": "a2bbc6ae0d82e5a029f1941b78b7393fd723089027bc53f4be2fd19145373181"
+    },
+    "reference/part12/sql/001_profile.sql": {
+      "size": 4253,
+      "sha256": "3088061ab3153445534510de4b52667632f017d5377ed92b3a1a7cf13f77ef0c"
+    },
+    "reference/part12/validation/independent_extract.json": {
+      "size": 282,
+      "sha256": "74e320c71d602e6e9cc89d63aa2afc937a8c36bbdc35b407f88f12591025ce0c"
+    },
+    "reference/part12/validation/run.log": {
+      "size": 6199,
+      "sha256": "c86824ddde891edee0e0118a983904e47e9a37105f4c7cf591c81c56cf10ff7f"
+    },
+    "reference/part12/validation/validation_report.json": {
+      "size": 6957,
+      "sha256": "9e6250311768b4281e056208f01f7a45ef66d2480738944a4ff551dd94fee649"
+    },
+    "reports/Integration_Validation_v0.1.json": {
+      "size": 1015,
+      "sha256": "4b35bfc4e10f861834ed0f91c1fff9ac2f8334f3d3bb84138526da11413282bb"
+    },
+    "reports/Integration_Validation_v0.1.md": {
+      "size": 2548,
+      "sha256": "dfc80d1bf5e05f623c1a31042d8a2e670a73326dffb61abe9cd4e722f3dcf9a5"
+    },
+    "reports/plan_integrity_result.json": {
+      "size": 1716,
+      "sha256": "5ba469e4debcd8550734b2c87f2dcb15abc41451ea66f7e24ebd57bcc8021f2b"
+    },
+    "reports/planning_tests.log": {
+      "size": 3457,
+      "sha256": "e33020c122fb7b9770eb0414e47b11fa17d8bf115aef3de86cc32dbd93dc1147"
+    },
+    "reports/reextract_execution.json": {
+      "size": 7014,
+      "sha256": "1659da192aa93a838a40cbe26c80126cea3964f2085fcc2ca5860933f6f823db"
+    },
+    "tools/__pycache__/plan_lib.cpython-313.pyc": {
+      "size": 14710,
+      "sha256": "cc0d309feea35246436e0e84ad4317f41085f4f844e82276a9fa34183d194f0c"
+    },
+    "tools/__pycache__/verify_handoff.cpython-313.pyc": {
+      "size": 10334,
+      "sha256": "5c6e2ada1a66b87ef5ec6ad52f846e9d82e817bc71a9076e5a16a6073b764dab"
+    },
+    "tools/plan.py": {
+      "size": 2599,
+      "sha256": "d4e602385f98a7aee55d64c65be686f666a03ffd7e0993da30fe0f819eb36fa1"
+    },
+    "tools/plan_lib.py": {
+      "size": 8566,
+      "sha256": "1663f5e8c2a6bbce5686b8a8b20e23702423c729fdf98c4fd3a8b47e4c0442d6"
+    },
+    "tools/tests/__pycache__/test_planning.cpython-313.pyc": {
+      "size": 19781,
+      "sha256": "ae76aee364f77a587019589932f1348c6e28dad6ab3b2d142ba9beb480574903"
+    },
+    "tools/tests/test_planning.py": {
+      "size": 8177,
+      "sha256": "0436c6d46f8bd44d67c0644074a278b35d832bbeea04bebbecdd0fcd88973276"
+    },
+    "tools/verify_handoff.py": {
+      "size": 4854,
+      "sha256": "1bd221f3db5b6747f332d0c9e86a376328a12712e4c056066ad4f3575fd58f64"
+    }
+  }
+}

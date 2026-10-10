@@ -1,0 +1,171 @@
+{
+  "result": "read_only_candidate_audit_verified",
+  "source_sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad",
+  "inventory": {
+    "source_hash": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad",
+    "materials": [
+      {
+        "id": "Q102-R-NOTICE",
+        "version": "0.1",
+        "modality": "reading",
+        "family": "FAM-Q102-HARBOUR-ROUTES",
+        "estimated_words": 154,
+        "body_hash": "5d4a21d9e8f15e767a03bb982fa0cc136fe2e94681b3b7f481855357b9021d2c",
+        "target": 6.5,
+        "declared_difficulty": "authored_target_not_empirically_calibrated",
+        "audio_status": "not_applicable",
+        "actual_audio_seconds": null
+      },
+      {
+        "id": "Q102-R-B",
+        "version": "0.1",
+        "modality": "reading",
+        "family": "FAM-Q102-HARBOUR-ROUTES",
+        "estimated_words": 102,
+        "body_hash": "11da9e7ecea755d621591d4a47073bb14fd0d806bdbb79ffd6e36e591803fa1d",
+        "target": 6.5,
+        "declared_difficulty": "authored_target_not_empirically_calibrated",
+        "audio_status": "not_applicable",
+        "actual_audio_seconds": null
+      },
+      {
+        "id": "Q102-R-VESSEL",
+        "version": "0.1",
+        "modality": "reading",
+        "family": "FAM-Q102-HARBOUR-ROUTES",
+        "estimated_words": 82,
+        "body_hash": "2466c419237f146f1cb44b6ddc0fb51605443b0c81fadbd44b3ff997e4cab907",
+        "target": 6.5,
+        "declared_difficulty": "authored_target_not_empirically_calibrated",
+        "audio_status": "not_applicable",
+        "actual_audio_seconds": null
+      },
+      {
+        "id": "Q102-R-BATTERY",
+        "version": "0.1",
+        "modality": "reading",
+        "family": "FAM-Q102-HARBOUR-ROUTES",
+        "estimated_words": 61,
+        "body_hash": "cb7833f311d255d6f88735f10859ef691e708a3f67fd7c930a836d1944fabbe5",
+        "target": 6.5,
+        "declared_difficulty": "authored_target_not_empirically_calibrated",
+        "audio_status": "not_applicable",
+        "actual_audio_seconds": null
+      },
+      {
+        "id": "Q102-L-REVISION",
+        "version": "0.1",
+        "modality": "listening",
+        "family": "FAM-Q102-AUDIO-CORRECTION",
+        "estimated_words": 271,
+        "body_hash": "836874c07080c06548531fe8be76da8bd4160d8031ba7e18c0ba1b38fd41b04e",
+        "target": 6.5,
+        "declared_difficulty": "authored_target_not_empirically_calibrated",
+        "audio_status": "audio_not_inspected_no_audition_evidence",
+        "actual_audio_seconds": null
+      },
+      {
+        "id": "LAB-R-001",
+        "version": "0.1",
+        "modality": "reading",
+        "family": "FAM-LAB-TIMETABLE-TRIAL",
+        "estimated_words": 616,
+        "body_hash": "85e87c2dff493993d32db238b7f3711b74491dd5899107d98eaede9353a7af34",
+        "target": 6.5,
+        "declared_difficulty": "authored_target_not_empirically_calibrated",
+        "audio_status": "not_applicable",
+        "actual_audio_seconds": null
+      },
+      {
+        "id": "LAB-L-001",
+        "version": "0.1",
+        "modality": "listening",
+        "family": "FAM-LAB-LIBRARY-HOURS",
+        "estimated_words": 603,
+        "body_hash": "2214e7d5a6b533f7d9bba1e3e750c76565eb2232f312a4cf0933cd6c6bd497a2",
+        "target": 6.5,
+        "declared_difficulty": "authored_target_not_empirically_calibrated",
+        "audio_status": "audio_not_inspected_no_audition_evidence",
+        "actual_audio_seconds": null
+      }
+    ],
+    "complete_task_route_ids": [
+      "LAB-L-001",
+      "LAB-R-001",
+      "LAB-W1-001",
+      "LAB-W2-001"
+    ],
+    "missing": [
+      "two_independent_actual_editor_reviews",
+      "actual_final_listening_audio_and_full_audition",
+      "declared_conditions_and_section_reference",
+      "consented_actual_target_group_pilot",
+      "independent_writing_raters_and_adjudication_protocol",
+      "family_holdout_and_transfer_review",
+      "current_material_question_audio_support_version_bindings",
+      "native_assessment_ui_and_observation_adapter"
+    ],
+    "difficulty_empirically_calibrated": false,
+    "audio_audition_complete": false,
+    "actual_participants_registered": false,
+    "official_certification": false,
+    "predicted_band": null,
+    "counts_meaning": "source_registrations_not_played_tasks_or_calibrated_content"
+  },
+  "draft_inspection": {
+    "binding_hash": "51896fc703d3e0d14fee54f222095fdc293f1e838958330d0e10a807671ef7a6",
+    "stage": "draft_target_65",
+    "missing": [
+      "two_independent_actual_editor_reviews",
+      "actual_section_stratified_pilot_and_comparison",
+      "actual_declared_conditions_calibration_decision",
+      "versioned_monitoring_plan_or_evidence"
+    ],
+    "complete_task_registered": true,
+    "official_certification": false,
+    "learning_effect_proved": false,
+    "full_band_output_enabled": false,
+    "predicted_band": null
+  },
+  "human_signoff": null,
+  "actual_participants": 0,
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\Mist.ReviewCalibration\\bin\\Debug\\net10.0\\Mist.ReviewCalibration.dll",
+        "audit-source",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reference\\part05\\data\\Original_Materials_v0.1.json"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-071/20261009T175238595796Z/source_inventory.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\Mist.ReviewCalibration\\bin\\Debug\\net10.0\\Mist.ReviewCalibration.dll",
+        "audit-protocol",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-071\\20261009T175238595796Z\\draft_protocol.json"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 3,
+      "output_path": "reports/execution/CX-071/20261009T175238595796Z/unapproved_protocol_refusal.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "draft_target_65"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\Mist.ReviewCalibration\\bin\\Debug\\net10.0\\Mist.ReviewCalibration.dll",
+        "audit-protocol",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-071\\20261009T175238595796Z\\invalid_approval_field.json"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/execution/CX-071/20261009T175238595796Z/unknown_approval_field_refusal.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "LOCAL_REVIEW_AUDIT_REJECTED"
+    }
+  ]
+}

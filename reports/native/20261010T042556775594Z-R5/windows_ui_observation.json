@@ -1,0 +1,13 @@
+{
+  "scope": "isolated native game window UI inspection; no human acceptance",
+  "scene": "R5-S08",
+  "source": "reports/build/20261010T041340000083Z",
+  "checks": {
+    "localized_map_station_names": true,
+    "system_200_percent_labels_scaled": true,
+    "scale_buttons_do_not_wrap": true,
+    "five_audio_sliders_visible": true
+  },
+  "human_signoff": null,
+  "accessibility": "Window: \"雾海档案：第七座灯塔 (DEBUG)\", App: Godot_v4.7.2-stable_mono_win64.exe.\n\t0 区域 雾海档案：第七座灯塔 (DEBUG) Secondary Actions: Raise\n\t\t1 标题栏 (settable, string) Value: 雾海档案：第七座灯塔 (DEBUG)\n\t\t\t2 菜单栏 系统 ID: MenuBar\n\t\t\t\t3 菜单项 系统\n\t\t\t4 按钮 最小化\n\t\t\t5 按钮 最大化\n\t\t\t6 按钮 关闭\n\t\t7 区域\n\t\t\t8 文本 雾海档案\n\t\t\t9 按钮 地图\n\t\t\t10 按钮 任务\n\t\t\t11 按钮 档案\n\t\t\t12 按钮 队伍\n\t\t\t13 按钮 学习\n\t\t\t14 按钮 系统\n\t\t\t15 文本 失名旧都 · 归档塔控制层 / 内部开发候选\n\t\t\t17 区域\n\t\t\t\t18 文本 旧城核查、救援与受限归档\n\t\t\t\t19 文本 实际事实交接已完成。回到公开泊位登船，到航图站位核对下一地区航路。\n\t\t\t\t20 文本 出口与操作站位\n\t\t\t\t21 按钮 选择要走近的出口或物件\n\t\t\t\t28 按钮 当前状态帮助\n\t\t\t\t29 滚动条 Value: 0\n\t\t\t30 文本 微光号移交与已有进度已恢复。走近当前工位后交互；WASD/方向键移动。\n\t\t32 区域\n\t\t\t33 文本 系统与存档\n\t\t\t34 按钮 返回\n\t\t\t35 文本 当前分支：eb8e7ab8\n\t\t\t36 按钮 100%\n\t\t\t37 按钮 125%\n\t\t\t38 按钮 150%\n\t\t\t39 按钮 175%\n\t\t\t40 按钮 200%\n\t\t\t41 文本 声音\n\t\t\t42 文本 主音量 · 100%\n\t\t\t43 滑块 (settable, float) 主音量音量 Value: 100\n\t\t\t44 文本 内容语音 · 100%\n\t\t\t45 滑块 (settable, float) 内容语音音量 Value: 100\n\t\t\t46 文本 环境声 · 100%\n\t\t\t47 滑块 (settable, float) 环境声音量 Value: 100\n\t\t\t48 文本 音乐 · 100%\n\t\t\t49 滑块 (settable, float) 音乐音量 Value: 100\n\t\t\t50 文本 界面音 · 100%\n\t\t\t51 滑块 (settable, float) 界面音音量 Value: 100\n\t\t\t52 按钮 保存声音偏好\n\t\t\t53 文本 移动与交互按键\n\t\t\t57 按钮 删除学习记录…\n\t\t\t58 滚动条 Value: 0\n\t\t31 文本\n\nThe focused UI element is 40 按钮 200%."
+}

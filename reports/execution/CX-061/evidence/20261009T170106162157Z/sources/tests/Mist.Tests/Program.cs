@@ -1,0 +1,23 @@
+using Mist.Tests;
+using Mist.Tests.Contracts;
+using Mist.Tests.Storage;
+using Mist.Tests.Content;
+
+if (args.Contains("--storage-child")) return StorageCases.Child(args);
+ContractCases.Register();
+StorageCases.Register();
+ContentCases.Register();
+Mist.Tests.Q102.Q102Cases.Register();
+Mist.Tests.Combat.CombatCases.Register();
+Mist.Tests.Combat.CombatStoreCases.Register();
+Mist.Tests.Combat.EffectCases.Register();
+Mist.Tests.Combat.VariantAndIntentCases.Register();
+Mist.Tests.Combat.TradingCases.Register();
+Mist.Tests.NPC.NpcCases.Register();
+Mist.Tests.NPC.EngineeringCases.Register();
+Mist.Tests.CompanionArcs.CompanionArcCases.Register();
+Mist.Tests.Travel.TravelCases.Register();
+Mist.Tests.Campaign.CampaignCases.Register();
+Mist.Tests.AssistSafety.AssistanceSafetyCases.Register();
+Mist.Tests.ChapterOne.ChapterOneCases.Register();
+return TestRegistry.Run(args);

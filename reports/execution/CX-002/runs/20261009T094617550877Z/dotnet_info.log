@@ -1,0 +1,55 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "--info"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+.NET SDK:
+ Version:           10.0.401
+ Commit:            e34a38d2ae
+ Workload version:  10.0.400-manifests.63b36e85
+ MSBuild version:   18.9.11+e34a38d2a
+
+运行时环境:
+ OS Name:     Windows
+ OS Version:  10.0.26200
+ OS Platform: Windows
+ RID:         win-x64
+ Base Path:   C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet\10.0.401\sdk\10.0.401\
+
+已安装 .NET 工作负载:
+没有要显示的已安装工作负载。
+已配置为在安装新清单时使用 workload sets。
+未安装任何 workload sets。运行 “dotnet workload restore” 以安装工作负载集。
+
+Host:
+  Version:      10.0.12
+  Architecture: x64
+  Commit:       95017c711e
+
+.NET SDKs installed:
+  10.0.401 [C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet\10.0.401\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 10.0.12 [C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet\10.0.401\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 10.0.12 [C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet\10.0.401\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 10.0.12 [C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet\10.0.401\shared\Microsoft.WindowsDesktop.App]
+
+Other architectures found:
+  x86   [C:\Program Files (x86)\dotnet]
+    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]
+
+Environment variables:
+  DOTNET_CLI_HOME                          [C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet-home]
+  DOTNET_CLI_TELEMETRY_OPTOUT              [1]
+  DOTNET_GENERATE_ASPNET_CERTIFICATE       [false]
+  DOTNET_NOLOGO                            [1]
+  DOTNET_ROOT                              [C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet\10.0.401]
+  DOTNET_ROOT_X64                          [C:\Users\20594\AppData\Local\MistSeaToolchain\dotnet\10.0.401]
+
+global.json file:
+  C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\global.json
+
+Learn more:
+  https://aka.ms/dotnet/info
+
+Download .NET:
+  https://aka.ms/dotnet/download
+
+[stderr]

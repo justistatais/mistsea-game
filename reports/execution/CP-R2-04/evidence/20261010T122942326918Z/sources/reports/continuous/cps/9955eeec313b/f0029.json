@@ -1,0 +1,118 @@
+{
+  "content_version": "r2-author-candidate-1",
+  "scope": "author_only_source_provenance",
+  "player_projection": false,
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "candidate_status": "frozen_author_candidate_not_runtime",
+  "source_files": [
+    {
+      "path": "content/source/part03.json",
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    {
+      "path": "content/source/part04.json",
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    {
+      "path": "content/source/part05.json",
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+    },
+    {
+      "path": "content/source/part06.json",
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19"
+    },
+    {
+      "path": "content/source/part06-Puzzle_Materials_v0.1.json",
+      "sha256": "44bc61f8f40391e32037e7b1c0fa172215e373982677ea07d3c0d93c5e00f319"
+    },
+    {
+      "path": "content/source/part07.json",
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    {
+      "path": "content/source/part08.json",
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    {
+      "path": "content/source/part09.json",
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+    },
+    {
+      "path": "content/source/part10.json",
+      "sha256": "b3c78b2955371fb8479954ab07bd53f81e0ed1a9ab930f077556ba1cec209489"
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "docs/baseline/Quest_Event_System_v0.1.md",
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "docs/baseline/English_Learning_System_v0.1.md",
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    {
+      "path": "docs/baseline/Puzzle_System_v0.1.md",
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    {
+      "path": "docs/baseline/Character_Progression_v0.1.md",
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    {
+      "path": "docs/baseline/Combat_System_v0.1.md",
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    {
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+    }
+  ],
+  "authored_files": [
+    {
+      "path": "content/source/chapter_two/learner_package.json",
+      "sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905"
+    },
+    {
+      "path": "content/source/chapter_two/production_cards.author_only.md",
+      "sha256": "d660a9b33a4a3bae0233e3fbb413b22b22c6220a23f32a1865393e44dbed0d34"
+    },
+    {
+      "path": "content/source/chapter_two/INTEGRATION.author_only.md",
+      "sha256": "9612bfa5e98b8004b872f9e3fd71fca76d5c68ec2e4e4839a432acd78990d605"
+    }
+  ],
+  "source_only_audit": {
+    "scene_count": 10,
+    "main_scene_count": 8,
+    "optional_scene_count": 2,
+    "paired_port_count": 20,
+    "unique_materials": 27,
+    "listening_scripts_without_audio": 5,
+    "writing_tasks": 7,
+    "station_affordances": 42,
+    "referenced_stands_exist": true,
+    "reciprocal_ports": true,
+    "actual_geometry_path_test": "not_executed",
+    "build_or_runtime_tests": "not_executed"
+  },
+  "remaining": {
+    "actual_services_and_draft_CAS": "pending",
+    "shared_engine_encounters": "pending",
+    "native_player_run": "pending",
+    "text_and_translation_human_review": "human_pending",
+    "6_5_calibration": "human_pending",
+    "five_audio_tracks": "not_recorded",
+    "voice_and_text_final_rights": "human_pending",
+    "formal_art": "pending",
+    "optional_O01_O02_contract_ID_and_reward": "pending",
+    "future_chapters": "pending"
+  }
+}

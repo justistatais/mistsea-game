@@ -1,0 +1,241 @@
+{
+  "materials": [
+    {
+      "id": "Q102-R-NOTICE",
+      "version": "0.1",
+      "title": "Current navigation restrictions",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "authored_target_not_empirically_calibrated",
+      "originality": "new_original_project_material",
+      "paragraphs": [
+        {
+          "id": "Q102-R-NOTICE-p01",
+          "text": "All departures remain subject to the current navigation restrictions. Route A is closed until further notice. A previous journey through that channel is not evidence that it is safe to use today, and an older chart should not be treated as permission to enter it."
+        },
+        {
+          "id": "Q102-R-NOTICE-p02",
+          "text": "Route C remains open, but a vessel may enter it only if its navigation beacon is operational. The beacon must be checked in its installed configuration before departure. Permission to work on a vessel does not remove this requirement, nor does the fact that another vessel has already left the harbour."
+        },
+        {
+          "id": "Q102-R-NOTICE-p03",
+          "text": "A separate notice at the dispatch desk sets out the conditions for Route B. Crews should compare those conditions with the particulars of their own vessel rather than assume that a channel available to one boat is available to every boat. The departure plan must identify the chosen route and explain any equipment arrangements on which it depends."
+        }
+      ],
+      "approx_word_count": 154,
+      "word_count_method": "production_estimate_regex_not_official_marking",
+      "goal_refs": [
+        "R03",
+        "R09",
+        "G04",
+        "G05"
+      ],
+      "audio_asset": "not_applicable",
+      "facts_locked": true,
+      "family_id": "FAM-Q102-HARBOUR-ROUTES",
+      "quest_ref": "Q-102"
+    },
+    {
+      "id": "Q102-R-B",
+      "version": "0.1",
+      "title": "Route B: pump and draught restriction",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "authored_target_not_empirically_calibrated",
+      "originality": "new_original_project_material",
+      "paragraphs": [
+        {
+          "id": "Q102-R-B-p01",
+          "text": "Route B may be used only while the auxiliary pump is running and only by vessels with a draught of no more than 1.2 metres. Both conditions apply. The pump controls water in the dock facilities; it does not alter the draught limit printed in this notice."
+        },
+        {
+          "id": "Q102-R-B-p02",
+          "text": "An instruction to start the pump therefore concerns the operation of the facilities, not permission for a particular vessel to enter the channel. For this evacuation, use the vessel particulars recorded for the approved load. A change to that load is not an authorised alternative within the present operation. Keep this restriction with the departure record."
+        }
+      ],
+      "approx_word_count": 104,
+      "word_count_method": "production_estimate_regex_not_official_marking",
+      "goal_refs": [
+        "R03",
+        "G04",
+        "G05"
+      ],
+      "audio_asset": "not_applicable",
+      "facts_locked": true,
+      "family_id": "FAM-Q102-HARBOUR-ROUTES",
+      "quest_ref": "Q-102"
+    },
+    {
+      "id": "Q102-R-VESSEL",
+      "version": "0.1",
+      "title": "Ferry particulars and equipment record",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "authored_target_not_empirically_calibrated",
+      "originality": "new_original_project_material",
+      "paragraphs": [
+        {
+          "id": "Q102-R-VESSEL-p01",
+          "text": "The ferry has a recorded draught of 1.4 metres under the approved evacuation load. These particulars apply to the vessel being prepared at this berth, not to the smaller service boats used elsewhere in the harbour."
+        },
+        {
+          "id": "Q102-R-VESSEL-p02",
+          "text": "The navigation beacon is present, but its mounting bracket is damaged. The boat also carries a charged backup battery reserved for the beacon. Repairs and connections must be completed before the installed beacon is tested. A check made before the configuration changes cannot certify the new configuration."
+        }
+      ],
+      "approx_word_count": 84,
+      "word_count_method": "production_estimate_regex_not_official_marking",
+      "goal_refs": [
+        "R02",
+        "R03",
+        "G02"
+      ],
+      "audio_asset": "not_applicable",
+      "facts_locked": true,
+      "family_id": "FAM-Q102-HARBOUR-ROUTES",
+      "quest_ref": "Q-102"
+    },
+    {
+      "id": "Q102-R-BATTERY",
+      "version": "0.1",
+      "title": "Backup battery: use record",
+      "modality": "reading",
+      "target_band": 6.5,
+      "difficulty_status": "authored_target_not_empirically_calibrated",
+      "originality": "new_original_project_material",
+      "paragraphs": [
+        {
+          "id": "Q102-R-BATTERY-p01",
+          "text": "This charged battery has sufficient reserve for the beacon during the planned evacuation. It is not intended to restore the harbour supply or power workshop machinery. Connect it to the repaired beacon and check the installed equipment before departure. If the connection is changed after that check, test the equipment again. The battery remains with the ferry once the evacuation begins."
+        }
+      ],
+      "approx_word_count": 61,
+      "word_count_method": "production_estimate_regex_not_official_marking",
+      "goal_refs": [
+        "R03",
+        "V03",
+        "G04"
+      ],
+      "audio_asset": "not_applicable",
+      "facts_locked": true,
+      "family_id": "FAM-Q102-HARBOUR-ROUTES",
+      "quest_ref": "Q-102"
+    },
+    {
+      "id": "Q102-L-REVISION",
+      "version": "0.1",
+      "title": "Revised dispatch recording",
+      "modality": "listening",
+      "target_band": 6.5,
+      "difficulty_status": "authored_target_not_empirically_calibrated",
+      "originality": "new_original_project_material",
+      "paragraphs": [
+        {
+          "id": "Q102-L-REVISION-p01",
+          "text": "Dispatcher: Before you collect any parts, there is a correction to the earlier message. We were told that the spare navigation beacon had been destroyed. The inspection does not support that account. The beacon itself still works; the damaged part is the bracket that holds it in place."
+        },
+        {
+          "id": "Q102-L-REVISION-p02",
+          "text": "Electrician: That distinction matters. Do not look for a replacement beacon when what you need is a replacement bracket. There is a suitable bracket in the west workshop. Access to the workshop has to be dealt with locally, so this recording is not permission to walk through a restricted work area."
+        },
+        {
+          "id": "Q102-L-REVISION-p03",
+          "text": "Dispatcher: And the main generator? Someone at the quay thought restarting it would make the repair easier."
+        },
+        {
+          "id": "Q102-L-REVISION-p04",
+          "text": "Electrician: Keep it off. The inspection team has not finished isolating the flooded cables. The ferry has its own charged backup battery, with enough reserve for the beacon during this evacuation. That supply is separate from the workshop equipment. Once the new bracket is fitted and the battery connected, check the beacon on the boat. A working light on a bench is not the same as a checked installation."
+        },
+        {
+          "id": "Q102-L-REVISION-p05",
+          "text": "Dispatcher: So the earlier report needs to be corrected, but we are not yet issuing a departure instruction."
+        },
+        {
+          "id": "Q102-L-REVISION-p06",
+          "text": "Electrician: Exactly. The route still has to be selected from the current notices and the ferry particulars. I am confirming the equipment arrangement, not saying that every channel is suitable. Write down the route, the restrictions that ruled out the alternatives, and what the crew must do before leaving. If you are not sure what an instruction means, ask for clarification rather than treating a guess as approval."
+        }
+      ],
+      "approx_word_count": 271,
+      "word_count_method": "production_estimate_regex_not_official_marking",
+      "goal_refs": [
+        "L01",
+        "L03",
+        "L08",
+        "L10",
+        "G05"
+      ],
+      "audio_asset": null,
+      "facts_locked": true,
+      "family_id": "FAM-Q102-AUDIO-CORRECTION",
+      "quest_ref": "Q-102",
+      "audio_plan": {
+        "speakers": 2,
+        "rate_wpm_draft": [
+          145,
+          165
+        ],
+        "rate_is_not_band_rule": true,
+        "clean_mix": true,
+        "subtitles_on_request": true,
+        "release_requires_human_listening_review": true
+      },
+      "items": [
+        {
+          "id": "Q102-L01",
+          "prompt": "What exactly is being corrected in the earlier account?",
+          "answer": "The beacon was reported destroyed, but the damaged component is its mounting bracket.",
+          "evidence_paragraphs": [
+            "Q102-L-REVISION-p01"
+          ],
+          "type": "meaning",
+          "prior_fact_warning": "若已从船内检查得知相同事实，不记此事实首次纯听觉理解"
+        },
+        {
+          "id": "Q102-L02",
+          "prompt": "Why must the main generator remain off?",
+          "answer": "The inspection team has not finished isolating the flooded cables.",
+          "evidence_paragraphs": [
+            "Q102-L-REVISION-p04"
+          ],
+          "type": "meaning"
+        },
+        {
+          "id": "Q102-L03",
+          "prompt": "Is the electrician issuing a departure instruction? Explain the distinction made.",
+          "answer": "No. The electrician confirms an equipment arrangement; route selection and departure still require the current notices, vessel particulars and confirmed instructions.",
+          "evidence_paragraphs": [
+            "Q102-L-REVISION-p05",
+            "Q102-L-REVISION-p06"
+          ],
+          "type": "meaning"
+        }
+      ]
+    }
+  ],
+  "writing": {
+    "q102": {
+      "id": "Q102-W-PLAN",
+      "target_band": 6.5,
+      "form": "functional_short",
+      "suggested_words": [
+        90,
+        120
+      ],
+      "minimum_for_world_execution": null,
+      "full_band_estimate_allowed": false,
+      "prompt": "Write the departure instructions for the quay supervisor. Identify the route, explain why the alternatives are unsuitable, and state the repair, power and checking arrangements. Make clear what must not be restarted.",
+      "meaning_requirements": [
+        "Route C",
+        "A is closed",
+        "B draught limit excludes ferry even with pump",
+        "replace bracket, not beacon",
+        "use charged onboard backup battery",
+        "main generator stays off pending cable isolation",
+        "test current installed beacon before departure"
+      ],
+      "illustrative_response": "Use Route C for the evacuation. Route A is closed, and the ferry’s draught exceeds the limit for Route B, even if the auxiliary pump is running. The beacon itself works, so collect a replacement bracket from the west workshop and fit it to the ferry. Connect the charged onboard backup battery, then test the beacon in its installed configuration. Keep the main generator off because the flooded cables have not yet been isolated. If the connections change after testing, repeat the check. Confirm that these steps are complete before authorising departure.",
+      "response_note": "原创可接受表达示例，不是经评分员标定的6.5范文；不要求玩家逐字匹配"
+    }
+  },
+  "note": "Imported without modifying any paragraph. Answers/items remain in authoring reference; runtime projections exclude them."
+}

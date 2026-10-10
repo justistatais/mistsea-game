@@ -1,0 +1,36 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 5,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-TESS-BRIDGE-03",
+      "name": "Normal original five-box two-trip panels order publishes the exact Q603 typed segment without retransport or reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-TESS-BRIDGE-03",
+      "name": "Normal original five-box two-trip archives order publishes the exact Q603 typed segment without retransport or reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-TESS-BRIDGE-03",
+      "name": "Actual uncommitted transport and two-contact same-version notice project completed private nodes while main receipts and all local stock stay unchanged",
+      "result": "passed"
+    },
+    {
+      "task": "CP-TESS-BRIDGE-03",
+      "name": "Current stand, invitation and Continue reject an old source preview before foreground leasing; a different box cannot stand for original arrival",
+      "result": "passed"
+    },
+    {
+      "task": "CP-TESS-BRIDGE-03",
+      "name": "A committed invitation-proof process interruption resumes the same actual node and stage exactly once after reopening SQLite",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

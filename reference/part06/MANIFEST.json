@@ -1,0 +1,122 @@
+{
+  "package": "Part06_Puzzle_Design_v0.1",
+  "target": "IELTS Academic R/L/W 6.5",
+  "status": "design_reference_and_bounded_checks_not_empirical_calibration",
+  "files": [
+    {
+      "path": "Codex_Handoff_Part06_v0.1.md",
+      "bytes": 4614,
+      "sha256": "353d9976cb79ee2e499425f96370a3313ba34aff1c253c2e1e5387cfc35a43a8"
+    },
+    {
+      "path": "Puzzle_System_v0.1.md",
+      "bytes": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    {
+      "path": "Puzzle_Validation_v0.1.md",
+      "bytes": 2326,
+      "sha256": "13a78bce06379f64c827ddc4e81cc1499cb9c307e17c762e608a24f2ed5b57e2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2432,
+      "sha256": "07e7ef945fd3218ca209b3dde04e7adae70558180f07e7f8361229753fb18f1f"
+    },
+    {
+      "path": "data/Puzzle_Materials_v0.1.json",
+      "bytes": 16760,
+      "sha256": "44bc61f8f40391e32037e7b1c0fa172215e373982677ea07d3c0d93c5e00f319"
+    },
+    {
+      "path": "data/Puzzle_Reference_v0.1.json",
+      "bytes": 42061,
+      "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19"
+    },
+    {
+      "path": "data/Worked_Logic_Fixtures_v0.1.json",
+      "bytes": 4327,
+      "sha256": "8592245c4cb3469613d0d91e4182481a6768117222e12dc2e6834faccc6939b7"
+    },
+    {
+      "path": "dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+      "bytes": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    {
+      "path": "dependencies/English_Learning_Reference_v0.1.json",
+      "bytes": 62574,
+      "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+    },
+    {
+      "path": "dependencies/English_Learning_System_v0.1.md",
+      "bytes": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    {
+      "path": "dependencies/Exploration_Layout_Reference_v0.1.json",
+      "bytes": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    {
+      "path": "dependencies/Exploration_Level_Design_v0.1.md",
+      "bytes": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "dependencies/Game_Design_Core_v0.1.md",
+      "bytes": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    {
+      "path": "dependencies/Original_Materials_v0.1.json",
+      "bytes": 27750,
+      "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+    },
+    {
+      "path": "dependencies/Quest_Event_Reference_v0.1.json",
+      "bytes": 30359,
+      "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+    },
+    {
+      "path": "dependencies/Quest_Event_System_v0.1.md",
+      "bytes": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "dependencies/World_Story_Bible_v0.1.md",
+      "bytes": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "materials/Worked_Puzzle_Materials_v0.1.md",
+      "bytes": 13335,
+      "sha256": "d67124e5e35ecdbeb14833a0cd5e09433de4d948543052c0b0867d2ee59f5ac7"
+    },
+    {
+      "path": "validation/puzzle_reference.py",
+      "bytes": 18578,
+      "sha256": "b0e1a34b1bc2d5a7de5d92da5f4d84a4fa4bff1c87b06ea126bc81af74d48fa1"
+    },
+    {
+      "path": "validation/run_log.txt",
+      "bytes": 10711,
+      "sha256": "7b194c78f3ed7c5a23649094d692793facdc4a4599e9692351c230940e68da8e"
+    },
+    {
+      "path": "validation/test_puzzles.py",
+      "bytes": 18397,
+      "sha256": "f207c52c8a0621a587541ba50502eb80de40f3ed308cb23ca6755c66ea9d0e78"
+    },
+    {
+      "path": "validation/validate_package.py",
+      "bytes": 1920,
+      "sha256": "31e9ea2ff1a77b7390c638e2ea99201e44ef0de534db90848a8bd64f3fd6e7a9"
+    },
+    {
+      "path": "validation/validation_report.json",
+      "bytes": 1954,
+      "sha256": "370c36c63843327766dab8496c594c173dceabca4314c9326271fc1b1ad94f1a"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{"argv": ["D:\\Python312\\python.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py", "optional-r3-client-test"], "exit_code": 0}
+[stdout]
+RUN sdk_version
+EXIT 0
+RUN compiled_source_case_inventory
+EXIT 0
+RUN godot_import
+EXIT 0
+RUN client_tests
+EXIT 0
+{"action": "optional-r3-client-test", "result": "verified", "path": "reports/build/20261010T120333419743Z"}
+
+[stderr]

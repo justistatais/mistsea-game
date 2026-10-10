@@ -1,0 +1,1180 @@
+{
+  "captured_at": "2026-10-09T15:57:52+08:00",
+  "phase": "after_engineering_review",
+  "checks": {
+    "parent_git_head_unchanged": true,
+    "all_parent_tracked_files_unchanged": true,
+    "all_immutable_delivered_files_unchanged": true,
+    "only_cx001_ledger_entry_changed": true,
+    "cx001_evidence_valid": true,
+    "scheduler_has_no_errors": true,
+    "cx001_accepted": true,
+    "cx002_first_ready": true,
+    "all_gates_still_closed": true,
+    "all_commands_succeeded": true
+  },
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "rev-parse",
+        "--show-toplevel"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_root.log",
+      "started_at": "2026-10-09T15:57:50+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_head.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "status",
+        "--porcelain=v1",
+        "--untracked-files=normal"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_status.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd\\git.EXE",
+        "ls-files",
+        "-z"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/after_git_files.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/verify_handoff.py"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/verify_handoff_final.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/plan.py",
+        "status"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/plan_status_final.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-B",
+        "tools/plan.py",
+        "next",
+        "--limit",
+        "10"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-001/plan_next_final.log",
+      "started_at": "2026-10-09T15:57:51+08:00"
+    }
+  ],
+  "evidence_errors": [],
+  "schedule": {
+    "ready": [
+      "CX-002",
+      "CP-R0-01",
+      "CP-R1-01",
+      "CP-R2-01",
+      "CP-R3-01",
+      "CP-R4-01",
+      "CP-R5-01",
+      "CP-R6-01",
+      "CP-RF-01"
+    ],
+    "done": [
+      "CX-001"
+    ],
+    "feature_disabled": [
+      "CX-069",
+      "HV-008"
+    ],
+    "waiting": [
+      {
+        "id": "CX-003",
+        "status": "not_started",
+        "unmet": [
+          "CX-002"
+        ]
+      },
+      {
+        "id": "CX-004",
+        "status": "not_started",
+        "unmet": [
+          "CX-002"
+        ]
+      },
+      {
+        "id": "CX-005",
+        "status": "not_started",
+        "unmet": [
+          "CX-003",
+          "CX-004"
+        ]
+      },
+      {
+        "id": "CX-006",
+        "status": "not_started",
+        "unmet": [
+          "G0"
+        ]
+      },
+      {
+        "id": "CX-007",
+        "status": "not_started",
+        "unmet": [
+          "CX-006"
+        ]
+      },
+      {
+        "id": "CX-008",
+        "status": "not_started",
+        "unmet": [
+          "CX-006"
+        ]
+      },
+      {
+        "id": "CX-009",
+        "status": "not_started",
+        "unmet": [
+          "CX-008"
+        ]
+      },
+      {
+        "id": "CX-010",
+        "status": "not_started",
+        "unmet": [
+          "CX-009"
+        ]
+      },
+      {
+        "id": "CX-011",
+        "status": "not_started",
+        "unmet": [
+          "CX-008"
+        ]
+      },
+      {
+        "id": "CX-012",
+        "status": "not_started",
+        "unmet": [
+          "CX-007",
+          "CX-008"
+        ]
+      },
+      {
+        "id": "CX-013",
+        "status": "not_started",
+        "unmet": [
+          "CX-011",
+          "CX-012"
+        ]
+      },
+      {
+        "id": "CX-014",
+        "status": "not_started",
+        "unmet": [
+          "CX-013"
+        ]
+      },
+      {
+        "id": "CX-015",
+        "status": "not_started",
+        "unmet": [
+          "CX-014"
+        ]
+      },
+      {
+        "id": "CX-016",
+        "status": "not_started",
+        "unmet": [
+          "CX-015"
+        ]
+      },
+      {
+        "id": "CX-017",
+        "status": "not_started",
+        "unmet": [
+          "CX-013"
+        ]
+      },
+      {
+        "id": "CX-018",
+        "status": "not_started",
+        "unmet": [
+          "CX-017"
+        ]
+      },
+      {
+        "id": "CX-019",
+        "status": "not_started",
+        "unmet": [
+          "CX-015",
+          "CX-017",
+          "CX-018"
+        ]
+      },
+      {
+        "id": "CX-020",
+        "status": "not_started",
+        "unmet": [
+          "CX-019"
+        ]
+      },
+      {
+        "id": "CX-021",
+        "status": "not_started",
+        "unmet": [
+          "CX-010",
+          "CX-020"
+        ]
+      },
+      {
+        "id": "CX-022",
+        "status": "not_started",
+        "unmet": [
+          "CX-014",
+          "CX-015",
+          "CX-016",
+          "CX-017",
+          "CX-018",
+          "CX-019",
+          "CX-020",
+          "CX-021"
+        ]
+      },
+      {
+        "id": "CX-023",
+        "status": "not_started",
+        "unmet": [
+          "G1",
+          "CX-003"
+        ]
+      },
+      {
+        "id": "CX-024",
+        "status": "not_started",
+        "unmet": [
+          "G1",
+          "CX-008"
+        ]
+      },
+      {
+        "id": "CX-025",
+        "status": "not_started",
+        "unmet": [
+          "CX-024",
+          "CX-009"
+        ]
+      },
+      {
+        "id": "CX-026",
+        "status": "not_started",
+        "unmet": [
+          "CX-025",
+          "CX-013"
+        ]
+      },
+      {
+        "id": "CX-027",
+        "status": "not_started",
+        "unmet": [
+          "CX-026"
+        ]
+      },
+      {
+        "id": "CX-028",
+        "status": "not_started",
+        "unmet": [
+          "CX-009",
+          "CX-014"
+        ]
+      },
+      {
+        "id": "CX-029",
+        "status": "not_started",
+        "unmet": [
+          "CX-023",
+          "CX-009"
+        ]
+      },
+      {
+        "id": "CX-030",
+        "status": "not_started",
+        "unmet": [
+          "CX-029",
+          "CX-018"
+        ]
+      },
+      {
+        "id": "CX-031",
+        "status": "not_started",
+        "unmet": [
+          "CX-029",
+          "CX-017"
+        ]
+      },
+      {
+        "id": "CX-032",
+        "status": "not_started",
+        "unmet": [
+          "CX-029",
+          "CX-028"
+        ]
+      },
+      {
+        "id": "CX-033",
+        "status": "not_started",
+        "unmet": [
+          "CX-018",
+          "CX-029",
+          "CX-031"
+        ]
+      },
+      {
+        "id": "CX-034",
+        "status": "not_started",
+        "unmet": [
+          "CX-023",
+          "CX-028"
+        ]
+      },
+      {
+        "id": "CX-035",
+        "status": "not_started",
+        "unmet": [
+          "CX-031",
+          "CX-028"
+        ]
+      },
+      {
+        "id": "CX-036",
+        "status": "not_started",
+        "unmet": [
+          "CX-026",
+          "CX-027",
+          "CX-035"
+        ]
+      },
+      {
+        "id": "CX-037",
+        "status": "not_started",
+        "unmet": [
+          "CX-036",
+          "CX-014",
+          "CX-042"
+        ]
+      },
+      {
+        "id": "CX-038",
+        "status": "not_started",
+        "unmet": [
+          "CX-030",
+          "CX-032",
+          "CX-033",
+          "CX-034",
+          "CX-037"
+        ]
+      },
+      {
+        "id": "CX-039",
+        "status": "not_started",
+        "unmet": [
+          "CX-023",
+          "CX-015",
+          "CX-031"
+        ]
+      },
+      {
+        "id": "CX-040",
+        "status": "not_started",
+        "unmet": [
+          "CX-009",
+          "CX-013"
+        ]
+      },
+      {
+        "id": "CX-041",
+        "status": "not_started",
+        "unmet": [
+          "CX-040"
+        ]
+      },
+      {
+        "id": "CX-042",
+        "status": "not_started",
+        "unmet": [
+          "CX-040",
+          "CX-013"
+        ]
+      },
+      {
+        "id": "CX-043",
+        "status": "not_started",
+        "unmet": [
+          "CX-008",
+          "CX-016",
+          "CX-041"
+        ]
+      },
+      {
+        "id": "CX-044",
+        "status": "not_started",
+        "unmet": [
+          "CX-043",
+          "CX-042"
+        ]
+      },
+      {
+        "id": "CX-045",
+        "status": "not_started",
+        "unmet": [
+          "CX-044"
+        ]
+      },
+      {
+        "id": "CX-046",
+        "status": "not_started",
+        "unmet": [
+          "CX-043",
+          "CX-024",
+          "CX-039"
+        ]
+      },
+      {
+        "id": "CX-047",
+        "status": "not_started",
+        "unmet": [
+          "CX-043",
+          "CX-045"
+        ]
+      },
+      {
+        "id": "CX-048",
+        "status": "not_started",
+        "unmet": [
+          "CX-044",
+          "CX-045",
+          "CX-046",
+          "CX-047",
+          "CX-027"
+        ]
+      },
+      {
+        "id": "CX-049",
+        "status": "not_started",
+        "unmet": [
+          "CX-048"
+        ]
+      },
+      {
+        "id": "CX-050",
+        "status": "not_started",
+        "unmet": [
+          "CX-048",
+          "CX-014",
+          "CX-016"
+        ]
+      },
+      {
+        "id": "CX-051",
+        "status": "not_started",
+        "unmet": [
+          "CX-049",
+          "CX-050",
+          "CX-039"
+        ]
+      },
+      {
+        "id": "CX-052",
+        "status": "not_started",
+        "unmet": [
+          "CX-041",
+          "CX-042",
+          "CX-045",
+          "CX-051"
+        ]
+      },
+      {
+        "id": "CX-053",
+        "status": "not_started",
+        "unmet": [
+          "CX-038",
+          "CX-048",
+          "CX-051",
+          "CX-052"
+        ]
+      },
+      {
+        "id": "CX-054",
+        "status": "not_started",
+        "unmet": [
+          "CX-028",
+          "CX-034"
+        ]
+      },
+      {
+        "id": "CX-055",
+        "status": "not_started",
+        "unmet": [
+          "CX-054",
+          "CX-023"
+        ]
+      },
+      {
+        "id": "CX-056",
+        "status": "not_started",
+        "unmet": [
+          "CX-054",
+          "CX-047",
+          "CX-042"
+        ]
+      },
+      {
+        "id": "CX-057",
+        "status": "not_started",
+        "unmet": [
+          "CX-054",
+          "CX-019"
+        ]
+      },
+      {
+        "id": "CX-058",
+        "status": "not_started",
+        "unmet": [
+          "CX-057"
+        ]
+      },
+      {
+        "id": "CX-059",
+        "status": "not_started",
+        "unmet": [
+          "CX-058",
+          "CX-013",
+          "CX-042"
+        ]
+      },
+      {
+        "id": "CX-060",
+        "status": "not_started",
+        "unmet": [
+          "CX-025",
+          "CX-055",
+          "CX-056"
+        ]
+      },
+      {
+        "id": "CX-061",
+        "status": "not_started",
+        "unmet": [
+          "CX-058",
+          "CX-059",
+          "CX-060"
+        ]
+      },
+      {
+        "id": "CX-062",
+        "status": "not_started",
+        "unmet": [
+          "CX-041",
+          "CX-042",
+          "CX-039"
+        ]
+      },
+      {
+        "id": "CX-063",
+        "status": "not_started",
+        "unmet": [
+          "CX-056",
+          "CX-057",
+          "CX-055"
+        ]
+      },
+      {
+        "id": "CX-064",
+        "status": "not_started",
+        "unmet": [
+          "CX-033",
+          "CX-039",
+          "CX-061",
+          "CX-062",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CX-065",
+        "status": "not_started",
+        "unmet": [
+          "G2",
+          "CX-063",
+          "CP-R0-03",
+          "CP-R1-03"
+        ]
+      },
+      {
+        "id": "CX-066",
+        "status": "not_started",
+        "unmet": [
+          "CX-010"
+        ]
+      },
+      {
+        "id": "CX-067",
+        "status": "not_started",
+        "unmet": [
+          "CX-033",
+          "CX-019"
+        ]
+      },
+      {
+        "id": "CX-068",
+        "status": "not_started",
+        "unmet": [
+          "CX-067"
+        ]
+      },
+      {
+        "id": "CX-070",
+        "status": "not_started",
+        "unmet": [
+          "CX-033",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CX-071",
+        "status": "not_started",
+        "unmet": [
+          "CX-070",
+          "CX-031"
+        ]
+      },
+      {
+        "id": "CX-072",
+        "status": "not_started",
+        "unmet": [
+          "CX-068",
+          "CX-019",
+          "CX-021",
+          "CX-055",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CX-073",
+        "status": "not_started",
+        "unmet": [
+          "CX-051",
+          "CX-052",
+          "CX-059",
+          "CP-R6-03",
+          "CP-RF-03"
+        ]
+      },
+      {
+        "id": "CX-074",
+        "status": "not_started",
+        "unmet": [
+          "CX-073",
+          "CX-061",
+          "CP-RF-03"
+        ]
+      },
+      {
+        "id": "CX-075",
+        "status": "not_started",
+        "unmet": [
+          "CX-064",
+          "CX-074",
+          "G5"
+        ]
+      },
+      {
+        "id": "CX-076",
+        "status": "not_started",
+        "unmet": [
+          "CX-072",
+          "CX-075"
+        ]
+      },
+      {
+        "id": "CX-077",
+        "status": "not_started",
+        "unmet": [
+          "CX-076",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CX-078",
+        "status": "not_started",
+        "unmet": [
+          "CX-077",
+          "G5"
+        ]
+      },
+      {
+        "id": "CX-079",
+        "status": "not_started",
+        "unmet": [
+          "CX-078",
+          "G6"
+        ]
+      },
+      {
+        "id": "CX-080",
+        "status": "not_started",
+        "unmet": [
+          "G7"
+        ]
+      },
+      {
+        "id": "CP-R0-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-R0-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-R0-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-R0-01",
+          "G2",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-R0-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-R0-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-R0-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-R0-02",
+          "CP-R0-03",
+          "CP-R0-04",
+          "CX-064",
+          "CX-070",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CP-R0-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-R0-05"
+        ]
+      },
+      {
+        "id": "CP-R1-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-R1-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-R1-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-R1-01",
+          "G2",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-R1-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-R1-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-R1-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-R1-02",
+          "CP-R1-03",
+          "CP-R1-04",
+          "CX-064",
+          "CX-070",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CP-R1-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-R1-05"
+        ]
+      },
+      {
+        "id": "CP-R2-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-R2-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-R2-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-R2-01",
+          "G4",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-R2-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-R2-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-R2-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-R2-02",
+          "CP-R2-03",
+          "CP-R2-04",
+          "CX-064",
+          "CX-070",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CP-R2-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-R2-05"
+        ]
+      },
+      {
+        "id": "CP-R3-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-R3-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-R3-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-R3-01",
+          "G4",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-R3-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-R3-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-R3-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-R3-02",
+          "CP-R3-03",
+          "CP-R3-04",
+          "CX-064",
+          "CX-070",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CP-R3-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-R3-05"
+        ]
+      },
+      {
+        "id": "CP-R4-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-R4-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-R4-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-R4-01",
+          "G4",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-R4-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-R4-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-R4-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-R4-02",
+          "CP-R4-03",
+          "CP-R4-04",
+          "CX-064",
+          "CX-070",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CP-R4-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-R4-05"
+        ]
+      },
+      {
+        "id": "CP-R5-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-R5-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-R5-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-R5-01",
+          "G4",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-R5-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-R5-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-R5-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-R5-02",
+          "CP-R5-03",
+          "CP-R5-04",
+          "CX-064",
+          "CX-070",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CP-R5-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-R5-05"
+        ]
+      },
+      {
+        "id": "CP-R6-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-R6-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-R6-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-R6-01",
+          "G4",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-R6-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-R6-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-R6-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-R6-02",
+          "CP-R6-03",
+          "CP-R6-04",
+          "CX-064",
+          "CX-070",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "CP-R6-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-R6-05"
+        ]
+      },
+      {
+        "id": "CP-RF-02",
+        "status": "not_started",
+        "unmet": [
+          "CP-RF-01",
+          "CX-066"
+        ]
+      },
+      {
+        "id": "CP-RF-03",
+        "status": "not_started",
+        "unmet": [
+          "CP-RF-01",
+          "G4",
+          "CX-061"
+        ]
+      },
+      {
+        "id": "CP-RF-04",
+        "status": "not_started",
+        "unmet": [
+          "CP-RF-03",
+          "CX-063"
+        ]
+      },
+      {
+        "id": "CP-RF-05",
+        "status": "not_started",
+        "unmet": [
+          "CP-RF-02",
+          "CP-RF-03",
+          "CP-RF-04",
+          "CX-064",
+          "CX-070",
+          "CX-071",
+          "CX-073",
+          "CX-074"
+        ]
+      },
+      {
+        "id": "CP-RF-06",
+        "status": "not_started",
+        "unmet": [
+          "CP-RF-05"
+        ]
+      },
+      {
+        "id": "HV-001",
+        "status": "not_started",
+        "unmet": [
+          "CX-003",
+          "CX-004",
+          "CX-005"
+        ]
+      },
+      {
+        "id": "HV-002",
+        "status": "not_started",
+        "unmet": [
+          "CX-065",
+          "CP-R0-05",
+          "CP-R1-05"
+        ]
+      },
+      {
+        "id": "HV-003",
+        "status": "not_started",
+        "unmet": [
+          "CX-077"
+        ]
+      },
+      {
+        "id": "HV-004",
+        "status": "not_started",
+        "unmet": [
+          "CX-077"
+        ]
+      },
+      {
+        "id": "HV-005",
+        "status": "not_started",
+        "unmet": [
+          "CP-R0-06",
+          "CP-R1-06",
+          "CP-R2-06",
+          "CP-R3-06",
+          "CP-R4-06",
+          "CP-R5-06",
+          "CP-R6-06",
+          "CP-RF-06",
+          "CX-071"
+        ]
+      },
+      {
+        "id": "HV-006",
+        "status": "not_started",
+        "unmet": [
+          "CX-072",
+          "CX-076"
+        ]
+      },
+      {
+        "id": "HV-007",
+        "status": "not_started",
+        "unmet": [
+          "CX-079"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "immutable_files_checked": 511,
+  "immutable_mismatches": []
+}

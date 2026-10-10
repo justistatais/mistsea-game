@@ -1,0 +1,1147 @@
+{
+  "task_id": "CX-052",
+  "scope": "逐项迁移36节点、28装备、8改件、4补给，不把元数据存在当效果生效。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "每个主动被动独立验证",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-052",
+            "name": "H01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S02 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S01 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S07 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S10 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H02 stance and S04 empowerment bind to source clock, never return AP",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M02 deploys paid unique device and consumes exactly one when a real attack begins",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H03 A damage bonus and H05 exposed bonus are effectful",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H08 one encounter refund, H09 next-hit guard, H11 exposed coefficient, H12 threshold",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M03 boosts technical active damage but excludes tech basic; M05 grants one derived shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M08 permits two devices but one fires per source; M11 and M12 use nonrecursive budgets",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M09 cannot refund a zero-fee fixture or another owner's device",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S03 shield pool and S05 other-target self shield cannot recurse",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S08 survives threshold damage once and never shields a downed actor",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S09 next proactive shield, S11 per-target coefficient and S12 one original-fee discount",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP01 ordered basic guard, WP02 hammer and WP03 first basic only",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP04 requires existing exposure; WP05 discount persists; WP06 first proactive shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "AR01 baseline, AR02/03 initiative, AR04 device shield, AR05 DOT, AR06 other shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE01/02/05/06/08 conditional effects produce actual shield, pressure and device damage",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE03/04/07/09/11 static effects derive from actual equipped definitions",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE10 successful ordinary cleanse only; RE12 revive shield only once per encounter",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-01 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-02 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-03 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-04 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "循环触发预算",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-052",
+            "name": "H01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S02 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S01 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S07 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S10 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H02 stance and S04 empowerment bind to source clock, never return AP",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M02 deploys paid unique device and consumes exactly one when a real attack begins",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H03 A damage bonus and H05 exposed bonus are effectful",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H08 one encounter refund, H09 next-hit guard, H11 exposed coefficient, H12 threshold",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M03 boosts technical active damage but excludes tech basic; M05 grants one derived shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M08 permits two devices but one fires per source; M11 and M12 use nonrecursive budgets",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M09 cannot refund a zero-fee fixture or another owner's device",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S03 shield pool and S05 other-target self shield cannot recurse",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S08 survives threshold damage once and never shields a downed actor",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S09 next proactive shield, S11 per-target coefficient and S12 one original-fee discount",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP01 ordered basic guard, WP02 hammer and WP03 first basic only",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP04 requires existing exposure; WP05 discount persists; WP06 first proactive shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "AR01 baseline, AR02/03 initiative, AR04 device shield, AR05 DOT, AR06 other shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE01/02/05/06/08 conditional effects produce actual shield, pressure and device damage",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE03/04/07/09/11 static effects derive from actual equipped definitions",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE10 successful ordinary cleanse only; RE12 revive shield only once per encounter",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-01 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-02 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-03 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-04 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "同伴遗物不复制",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-052",
+            "name": "H01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S02 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S01 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S07 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S10 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H02 stance and S04 empowerment bind to source clock, never return AP",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M02 deploys paid unique device and consumes exactly one when a real attack begins",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H03 A damage bonus and H05 exposed bonus are effectful",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H08 one encounter refund, H09 next-hit guard, H11 exposed coefficient, H12 threshold",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M03 boosts technical active damage but excludes tech basic; M05 grants one derived shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M08 permits two devices but one fires per source; M11 and M12 use nonrecursive budgets",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M09 cannot refund a zero-fee fixture or another owner's device",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S03 shield pool and S05 other-target self shield cannot recurse",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S08 survives threshold damage once and never shields a downed actor",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S09 next proactive shield, S11 per-target coefficient and S12 one original-fee discount",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP01 ordered basic guard, WP02 hammer and WP03 first basic only",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP04 requires existing exposure; WP05 discount persists; WP06 first proactive shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "AR01 baseline, AR02/03 initiative, AR04 device shield, AR05 DOT, AR06 other shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE01/02/05/06/08 conditional effects produce actual shield, pressure and device damage",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE03/04/07/09/11 static effects derive from actual equipped definitions",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE10 successful ordinary cleanse only; RE12 revive shield only once per encounter",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-01 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-02 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-03 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-04 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "无付费补给最低路线可行需实测",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-052",
+            "name": "H01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M01 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M04 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M07 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M10 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S02 actual damage, single root event, AP/focus/cooldown",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S01 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S07 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S10 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H06 actual shield and distinct targets, no healing or device repair",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H02 stance and S04 empowerment bind to source clock, never return AP",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M02 deploys paid unique device and consumes exactly one when a real attack begins",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H03 A damage bonus and H05 exposed bonus are effectful",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "H08 one encounter refund, H09 next-hit guard, H11 exposed coefficient, H12 threshold",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M03 boosts technical active damage but excludes tech basic; M05 grants one derived shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M08 permits two devices but one fires per source; M11 and M12 use nonrecursive budgets",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "M09 cannot refund a zero-fee fixture or another owner's device",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S03 shield pool and S05 other-target self shield cannot recurse",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S08 survives threshold damage once and never shields a downed actor",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "S09 next proactive shield, S11 per-target coefficient and S12 one original-fee discount",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP01 ordered basic guard, WP02 hammer and WP03 first basic only",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "WP04 requires existing exposure; WP05 discount persists; WP06 first proactive shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "AR01 baseline, AR02/03 initiative, AR04 device shield, AR05 DOT, AR06 other shield",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE01/02/05/06/08 conditional effects produce actual shield, pressure and device damage",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE03/04/07/09/11 static effects derive from actual equipped definitions",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "RE10 successful ordinary cleanse only; RE12 revive shield only once per encounter",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-01 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-02 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-03 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "CON-04 actual carried supply effect and once-per-slot ownership",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-D2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-K2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-L2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E1 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          },
+          {
+            "task": "CX-052",
+            "name": "MOD-E2 equipped stat effect and exact declared resource cost",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-052",
+        "name": "H01 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "H04 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "H07 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "H10 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M01 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M04 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M07 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M10 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S02 actual damage, single root event, AP/focus/cooldown",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M06 actual shield and distinct targets, no healing or device repair",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S01 actual shield and distinct targets, no healing or device repair",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S06 actual shield and distinct targets, no healing or device repair",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S07 actual shield and distinct targets, no healing or device repair",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S10 actual shield and distinct targets, no healing or device repair",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "H06 actual shield and distinct targets, no healing or device repair",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "H02 stance and S04 empowerment bind to source clock, never return AP",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M02 deploys paid unique device and consumes exactly one when a real attack begins",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "H03 A damage bonus and H05 exposed bonus are effectful",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "H08 one encounter refund, H09 next-hit guard, H11 exposed coefficient, H12 threshold",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M03 boosts technical active damage but excludes tech basic; M05 grants one derived shield",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M08 permits two devices but one fires per source; M11 and M12 use nonrecursive budgets",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "M09 cannot refund a zero-fee fixture or another owner's device",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S03 shield pool and S05 other-target self shield cannot recurse",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S08 survives threshold damage once and never shields a downed actor",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "S09 next proactive shield, S11 per-target coefficient and S12 one original-fee discount",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "WP01 ordered basic guard, WP02 hammer and WP03 first basic only",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "WP04 requires existing exposure; WP05 discount persists; WP06 first proactive shield",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "AR01 baseline, AR02/03 initiative, AR04 device shield, AR05 DOT, AR06 other shield",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "RE01/02/05/06/08 conditional effects produce actual shield, pressure and device damage",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "RE03/04/07/09/11 static effects derive from actual equipped definitions",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "RE10 successful ordinary cleanse only; RE12 revive shield only once per encounter",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "CON-01 actual carried supply effect and once-per-slot ownership",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "CON-02 actual carried supply effect and once-per-slot ownership",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "CON-03 actual carried supply effect and once-per-slot ownership",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "CON-04 actual carried supply effect and once-per-slot ownership",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-D1 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-D2 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-K1 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-K2 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-L1 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-L2 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-E1 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      },
+      {
+        "task": "CX-052",
+        "name": "MOD-E2 equipped stat effect and exact declared resource cost",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-041",
+    "CX-042",
+    "CX-045",
+    "CX-051"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

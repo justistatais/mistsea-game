@@ -1,0 +1,55 @@
+{
+  "task_id": "CX-010",
+  "scope": "检查引用、条件图、材料版本、依赖、声音和校准记录，内部候选与正式构建分开。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "同ID同版本改正文拒绝",
+      "status": "passed",
+      "evidence": "Same-ID/version changed-body hash case rejects"
+    },
+    {
+      "criterion": "缺关键音轨或真审核/校准阻断正式发布",
+      "status": "passed",
+      "evidence": "Actual formal CLI exit 3 lists missing audio, review, calibration and publisher evidence"
+    },
+    {
+      "criterion": "SYNTHETIC仅测试",
+      "status": "passed",
+      "evidence": "SYNTHETIC negative fixture rejected from runtime catalog"
+    },
+    {
+      "criterion": "学习目标必须6.5且自动升档关闭",
+      "status": "passed",
+      "evidence": "Fixed-target validation rejects 7.0; importer checks all source auto-escalation flags"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-010",
+        "name": "Compiler refuses changed same-version text, broken graph and SYNTHETIC",
+        "result": "passed"
+      },
+      {
+        "task": "CX-010",
+        "name": "Formal build is blocked by missing audio, editorial/calibration and signature",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-009"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

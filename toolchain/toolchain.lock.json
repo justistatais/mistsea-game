@@ -1,0 +1,1198 @@
+{
+  "schema_version": "0.1",
+  "task_id": "CX-002",
+  "verified_at": "2026-10-09T18:06:05.832896+08:00",
+  "baseline": {
+    "checked_at": "2026-10-09",
+    "godot": "4.7.2 .NET",
+    "dotnet_sdk": "10.0.401",
+    "target_framework": "net10.0",
+    "sqlite_provider": "Microsoft.Data.Sqlite 10.0.12",
+    "renderer": "Compatibility",
+    "platform": "Windows x86_64",
+    "verification": "official_version_pages_read_only",
+    "integration_status": "not_built",
+    "lockfile_status": "must_be_produced_by_CX-002",
+    "network_ai_default": "disabled"
+  },
+  "measured": {
+    "godot_build": "4.7.2.stable.mono.official.ed1daf0bf",
+    "dotnet_sdk": "10.0.401",
+    "framework": ".NET 10.0.12",
+    "sqlite_native": "3.53.3",
+    "architecture": "X64"
+  },
+  "downloads": [
+    {
+      "name": "dotnet-sdk-10.0.401-win-x64.zip",
+      "url": "https://builds.dotnet.microsoft.com/dotnet/Sdk/10.0.401/dotnet-sdk-10.0.401-win-x64.zip",
+      "algorithm": "sha512",
+      "expected_hash": "24b670ad3d923bfcf47df6c3b034152398b42f6dbc388e10d783aee1cfb5e5817d399fc0ae2a12cfa822a55e61d34830ccb15c50ef6efee437ab874bb7c79430",
+      "metadata_source": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/releases.json",
+      "path": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\downloads\\dotnet-sdk-10.0.401-win-x64.zip",
+      "reused": false,
+      "sha256": "c1b96dea223e1ab2af8a51187e0cc96338d14c68834be1656136be18953cea09",
+      "bytes": 300608304
+    },
+    {
+      "name": "Godot_v4.7.2-stable_mono_win64.zip",
+      "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_mono_win64.zip",
+      "algorithm": "sha256",
+      "expected_hash": "a2a48473a7414c5f19fab690518caebb738c09ef9601f6bd2388676a7f53b3c0",
+      "expected_bytes": 116582061,
+      "metadata_source": "https://api.github.com/repos/godotengine/godot-builds/releases/tags/4.7.2-stable",
+      "path": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\downloads\\Godot_v4.7.2-stable_mono_win64.zip",
+      "reused": false,
+      "sha256": "a2a48473a7414c5f19fab690518caebb738c09ef9601f6bd2388676a7f53b3c0",
+      "bytes": 116582061
+    },
+    {
+      "name": "Godot_v4.7.2-stable_mono_export_templates.tpz",
+      "url": "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_mono_export_templates.tpz",
+      "algorithm": "sha256",
+      "expected_hash": "92f8681e349ef1f90891b792da95e3b2b0bd1ed610b78018c58feb2d87e15a9d",
+      "expected_bytes": 1202598411,
+      "metadata_source": "https://api.github.com/repos/godotengine/godot-builds/releases/tags/4.7.2-stable",
+      "path": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\downloads\\Godot_v4.7.2-stable_mono_export_templates.tpz",
+      "reused": false,
+      "sha256": "92f8681e349ef1f90891b792da95e3b2b0bd1ed610b78018c58feb2d87e15a9d",
+      "bytes": 1202598411
+    }
+  ],
+  "binary_hashes": {
+    "dotnet_sha256": "21a46f1e5235cf4e844b9de5429f0e198b9c97a41f0503a66442f1d639ca3ee6",
+    "godot_sha256": "2445d009a5e0474fc7064b9767100e9d2c09521890ac5625476bfb81cf03f2d4"
+  },
+  "windows_templates": [
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_debug_x86_64.exe",
+      "sha256": "4526aac3ac47c65de66f99f715f56b35a2e2e4446fcb23e6d280a830cd97fdea"
+    },
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_debug_x86_64_console.exe",
+      "sha256": "f78703ba3a05dd51a3464f8c90d4c72f54f95d5a8669993e7a5c3ce522b30c52"
+    },
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_release_x86_64.exe",
+      "sha256": "16e0ec3cfd398b938f514de95ff2474b532b5061ada78f92226dba3f7584d55d"
+    },
+    {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\export_templates\\4.7.2.stable.mono\\windows_release_x86_64_console.exe",
+      "sha256": "7895a7873947deaff6c8c859c1f77be051023413035048e2db74ceba07a65017"
+    }
+  ],
+  "nuget_packages": [
+    {
+      "name": "Godot.NET.Sdk",
+      "version": "4.7.2",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/godot.net.sdk/4.7.2/godot.net.sdk.4.7.2.nupkg",
+      "sha256": "679fe9c6736ca1943b06732ac5113f50c248ea0280593ff7db08814b72057acb",
+      "archive_sha512_base64": "qChAc5IA5AFawC5Y+deCX833h585tdBryNk3dvMm2FV71lMxi4R65L8exVjzL3gBR5ewK7DyBYUmR4YHR0dsIw==",
+      "nuget_content_hash": "ZzETraZAWcCaNiuUtrYPt1Ud4C9VdSaDyUewr88uGjqYE4irALsGzbs+0ecTZzxtL1Co4QdkVjhOSqaN7MDgGw==",
+      "bytes": 19976,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\godot.net.sdk\\4.7.2\\godot.net.sdk.4.7.2.nupkg",
+      "role": "MSBuild SDK"
+    },
+    {
+      "name": "Godot.SourceGenerators",
+      "version": "4.7.2",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/godot.sourcegenerators/4.7.2/godot.sourcegenerators.4.7.2.nupkg",
+      "sha256": "d6f51b66fa17550bcfcbc38aae340e71f1c7298b24236df0935e4edcd67454be",
+      "archive_sha512_base64": "uINKQdXh/77XNHo7EbgQUSkL5IAqLnDzeSOGAj3Cagyf0KT31jirTo9ayfqQ5HgwrpsWfiebMVJOa9NyRkJ2DQ==",
+      "nuget_content_hash": "PeYESFlRxlmeClrPhlMINhVvt2HiKnx2Ux/FYA10rimDevHljji3/jmRZOMo9XDNQsZzPH4uQmDyPgQgzTFvAg==",
+      "bytes": 58771,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\godot.sourcegenerators\\4.7.2\\godot.sourcegenerators.4.7.2.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "GodotSharp",
+      "version": "4.7.2",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/godotsharp/4.7.2/godotsharp.4.7.2.nupkg",
+      "sha256": "fa2c16e6ce6b8d3c8901bbcaff159565dc73267ef840687d201521e08f65e0e9",
+      "archive_sha512_base64": "ZTXrsCl9SH55GkDNp7cAl8ZQQ7LpAka3N+vAe9Zu29DcmuGZFqT5debN48YTvOYH4nTn1vG+sZz2BUcRSjzomw==",
+      "nuget_content_hash": "EPvfayB7b7MrBNdASvy86jRS5AbM9dprkVivcRD80g+ngn2M8KAIrBQH4NhyQL+pwxni0xVnuqhD9AFpZeNQpw==",
+      "bytes": 3235160,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\godotsharp\\4.7.2\\godotsharp.4.7.2.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "GodotSharpEditor",
+      "version": "4.7.2",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/godotsharpeditor/4.7.2/godotsharpeditor.4.7.2.nupkg",
+      "sha256": "5f6f6bc263de6c343cc174364e828ef3d13ba845dd14e049fa83677b6a075acb",
+      "archive_sha512_base64": "6p13fT9rAErN2CeG6OGdT7m09hH24gqtfZOnd01+jlYvFZbat5wc6rbbY6YeLXFlIazqKCkGph80A+w4Ok9S7A==",
+      "nuget_content_hash": "Fuf2rNvajla9N8Z+ksxsSIt326wsjpB2F2uZCtxkdfWIsApabCHy5fsE2EKxOlQ4NaINGdgMIv62D0n583qe1A==",
+      "bytes": 190861,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\godotsharpeditor\\4.7.2\\godotsharpeditor.4.7.2.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "Microsoft.Data.Sqlite",
+      "version": "10.0.12",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite/10.0.12/microsoft.data.sqlite.10.0.12.nupkg",
+      "sha256": "246679d8c6c83ffcf4c8a480066e3f4fc4e051c96b71bedfd932fe7a5af1f7d4",
+      "archive_sha512_base64": "yZ7JQJqVWSICoSZmKJSx0mCm6vgZ2lnIzmPomiEDDfpCKDq93sGY8/d/+7BBPXgeSOdddfqC7GThK6TcV8RSxg==",
+      "nuget_content_hash": "xUq9xUc653ue7ac2rMfCaf8UQN+U3zS8poWYlugycpvJllplMM0Mk7v/+MM0CTlu9zGvbGML4BPH8YWhrUOfGw==",
+      "bytes": 30207,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\microsoft.data.sqlite\\10.0.12\\microsoft.data.sqlite.10.0.12.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "Microsoft.Data.Sqlite.Core",
+      "version": "10.0.12",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlite.core/10.0.12/microsoft.data.sqlite.core.10.0.12.nupkg",
+      "sha256": "5e8ed353006dadf55d5c7f56d237321c20bb10c786262e6b25526756e1036332",
+      "archive_sha512_base64": "U6a1XGw24t9M39INjA7yjncLkGl/UrJBKIFKDaqdjB3JIUYH6HjUDNokXrfVX2XVS0WUDPGjmU/aOhW3E62m9Q==",
+      "nuget_content_hash": "2aL9eL5HQr0V4b8V909SD+jQAx6qnTTl7sT/v3D8dIvmr2UGdpZIQxqm1pj2Js3e4EYTvpw0oMH7DjapJJuPPw==",
+      "bytes": 208143,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\microsoft.data.sqlite.core\\10.0.12\\microsoft.data.sqlite.core.10.0.12.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "SQLitePCLRaw.bundle_e_sqlite3",
+      "version": "2.1.12",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.bundle_e_sqlite3/2.1.12/sqlitepclraw.bundle_e_sqlite3.2.1.12.nupkg",
+      "sha256": "a9a06e6b5a313f6ef3675f91997d012adeffe8aa9e1ffd69ed46a4e685b054e1",
+      "archive_sha512_base64": "KbeKXtiMrpxd7dFgsnorA1Gci/xVRDCBmkfZNdiiE1la6OdUEMtyTTJ3TBeCn9nIvZgXo5uCd9dVCji3Ay6LuA==",
+      "nuget_content_hash": "mAgscpQMLw5/nfA1Q5oJVAT29yROUo1ifZGbbTpx/lwZpSxMUGoYbKfmvdm8oXER+RzxqBmmQzeBEVKfeHv2nw==",
+      "bytes": 34064,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.12\\sqlitepclraw.bundle_e_sqlite3.2.1.12.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "SQLitePCLRaw.core",
+      "version": "2.1.12",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.core/2.1.12/sqlitepclraw.core.2.1.12.nupkg",
+      "sha256": "af06904138ffa6dc95a599133d64d254716d6facc7543a6b3b910793dae9dca5",
+      "archive_sha512_base64": "WgmgyKwGLTR6ZfIf1+1dFNxsOyp9GmsU9YjjeUjgz+NZnw2hyjVB0U8taT1Z1vv21s5+gvhHQ3vtpZajsMKJYg==",
+      "nuget_content_hash": "ETpNw9DY3ckWLgRRAeCHj+GKOuPi61aeczkXhgHexUvqoZBAYg8RYESE2J7O1M7+o6QbdSEZwrw9bfqztUVWXg==",
+      "bytes": 36016,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\sqlitepclraw.core\\2.1.12\\sqlitepclraw.core.2.1.12.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.12",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.lib.e_sqlite3/2.1.12/sqlitepclraw.lib.e_sqlite3.2.1.12.nupkg",
+      "sha256": "4a22c02ffcf489792903cf263def9fce27739716883f965f0b5eeff1637430ac",
+      "archive_sha512_base64": "Dli+ELKNuRX0g72Uq2I2OZa5zgi4fwSXV4Je3wyF7jH9oz6AKRA9wXIzMwuVeW7RfAZdSVgIcEeZZON59LdtiA==",
+      "nuget_content_hash": "fWi8Dbknuhgg72fWinIdjXVaqO1hHL4YBBwVLnr7e1c9TAZwJ0QE38j9syW1hwx6HaqEVTwI+O07WPdZn8Rp0w==",
+      "bytes": 18762916,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.12\\sqlitepclraw.lib.e_sqlite3.2.1.12.nupkg",
+      "role": "restored dependency"
+    },
+    {
+      "name": "SQLitePCLRaw.provider.e_sqlite3",
+      "version": "2.1.12",
+      "source": "https://api.nuget.org/v3/index.json",
+      "url": "https://api.nuget.org/v3-flatcontainer/sqlitepclraw.provider.e_sqlite3/2.1.12/sqlitepclraw.provider.e_sqlite3.2.1.12.nupkg",
+      "sha256": "df2b3271992e5d719186c4671e3cf4f8658097c154cbcd41494ab594c5997595",
+      "archive_sha512_base64": "k4RCblP+Hc1JAc77crV+fFZLiZeJPaY8VjMA8kvki00Z0dohG6xxXw4qkuVyCUC2+HChbhwW+ydhmjmlUZAXUQ==",
+      "nuget_content_hash": "W3oH4XIfCzFrgUSDKHhN6N+dgzA5YHOR2VxX8GB6Qy7CyrJJgxPEG8NirgYWlPQC5P2jz2knSsexWu4tDUL33g==",
+      "bytes": 60225,
+      "local_archive": "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.12\\sqlitepclraw.provider.e_sqlite3.2.1.12.nupkg",
+      "role": "restored dependency"
+    }
+  ],
+  "dependency_locks": [
+    {
+      "path": "spikes/toolchain/SqliteProbe/packages.lock.json",
+      "sha256": "9476cebdd31f80691f348b0605919cedaecbf37ad4566c8177f052f7365d97d8",
+      "bytes": 2206
+    },
+    {
+      "path": "spikes/toolchain/GodotSmoke/packages.lock.json",
+      "sha256": "f74d792802ffdd8076e4e84d2d92c195fa29eb509f1d3eaced752bb1cc040090",
+      "bytes": 881
+    }
+  ],
+  "sdk_lock": {
+    "path": "global.json",
+    "sha256": "4e7d5022b2a5a8d02bb951bb264a4c8613eabc332572a0af5f9743d23f23d84e",
+    "bytes": 105
+  },
+  "central_package_versions": {
+    "path": "Directory.Packages.props",
+    "sha256": "1029c7f73624809b963ad1ef8c327c6432ee48b9566cbbe83900207990c58803",
+    "bytes": 420
+  },
+  "exported_files": [
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/clretwrc.dll",
+      "sha256": "7a2186201c87bbc597a1b8b26facd88e68f03be4c4a4211fd65cc6595c72e45b",
+      "bytes": 317736
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/clrgc.dll",
+      "sha256": "65e2f97d263824bfb9f75f92e66ebd22229aaf3a5faddef9345811d856c8840e",
+      "bytes": 674088
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/clrgcexp.dll",
+      "sha256": "23a8050ec68542989b6da6cc906a90faf8a14e6416fd2871a260b781b1c374ae",
+      "bytes": 711464
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/clrjit.dll",
+      "sha256": "0749d8fc8e944d0576e1bb47120f87add8f875e5cd8968995633063fc79256f6",
+      "bytes": 2092328
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/coreclr.dll",
+      "sha256": "128aee8c62a673d64739e585e3876b61133571cec83a46240a62581d5465639b",
+      "bytes": 4614992
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/createdump.exe",
+      "sha256": "315307159925d33eb604186a512901d080ecfc4cd8b8198030a7d398c6af2b0b",
+      "bytes": 71552
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/GodotSharp.dll",
+      "sha256": "2afe2686aacfefac36da6601b59aeb05e560f06e4970cd5036100acd2ca4249d",
+      "bytes": 5928960
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/GodotSmoke.deps.json",
+      "sha256": "6aa65f05a7cbd9c2cfbc5d72546eadeb36028beebbc48bff1cc05df7360f2832",
+      "bytes": 28633
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/GodotSmoke.dll",
+      "sha256": "606f3b19aba8cde29b2cb139787f822b46e0a9b60659e71873e771daf34c99e6",
+      "bytes": 6656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/GodotSmoke.runtimeconfig.json",
+      "sha256": "5f8fa34afd7f3e5a94948944eeda37e8d1bfa294aaf4001c9c0f24d1ed83a2c7",
+      "bytes": 374
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/hostfxr.dll",
+      "sha256": "838591885c5396fb0588a3aedc2f3e841d3afc67570868b1bce615264005a44c",
+      "bytes": 379688
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/hostpolicy.dll",
+      "sha256": "e92a2e71eeeaf7c574e905935b3e3724ef29bade44317659dbe06f505e99dbe0",
+      "bytes": 378664
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/Microsoft.CSharp.dll",
+      "sha256": "2000912f2fc52e0c64ed893d79f4e7b143502540fb7170b5ae5fcea7099ba431",
+      "bytes": 980776
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/Microsoft.DiaSymReader.Native.amd64.dll",
+      "sha256": "70e4b89978ce57ef87b28f4921f3140c383b04aa96e7f3bdb3c4ebb898fd8a72",
+      "bytes": 2377016
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/Microsoft.VisualBasic.Core.dll",
+      "sha256": "2666b24eb6e295476b44abd057ea250fd5957db9c1c7adee6a223a747ddfe3d2",
+      "bytes": 1193768
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/Microsoft.VisualBasic.dll",
+      "sha256": "e192508adde6a758138a5a8e28998dccb64e7f45eaf30d8ab3564f87749028b1",
+      "bytes": 17192
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/Microsoft.Win32.Primitives.dll",
+      "sha256": "6c21472b0ae2f9b484a97614fad5485a22f18f9f19ee1adb9ceb3ed8ddb072d7",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/Microsoft.Win32.Registry.dll",
+      "sha256": "76849cfde4369f3ae93e28261fe5e1010dbf1332f7da95c98543cba9b03961c0",
+      "bytes": 116520
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/mscordaccore.dll",
+      "sha256": "86c29a7b945525135de16c3dcb71e3b8517848c459cbb21395b352d4e6bba09c",
+      "bytes": 1356640
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/mscordaccore_amd64_amd64_10.0.1226.42308.dll",
+      "sha256": "86c29a7b945525135de16c3dcb71e3b8517848c459cbb21395b352d4e6bba09c",
+      "bytes": 1356640
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/mscordbi.dll",
+      "sha256": "753e92805f3886221f56dcfc07191ad7ee44235bf689db0490bdf777f25e9175",
+      "bytes": 1237888
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/mscorlib.dll",
+      "sha256": "b698595367a7d4fa57ccacab73751fde0bb8f2415345c62cdfe7ced890da2c0c",
+      "bytes": 59728
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/mscorrc.dll",
+      "sha256": "f0d8c7491d4659a4c5a4c00615255a60e05634f311162c2775a51e03c070c9e0",
+      "bytes": 133968
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/msquic.dll",
+      "sha256": "b7158d427b01c70483bb3d80c5211e387dd98e9471c8a70e4484d449de9157e8",
+      "bytes": 536344
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/netstandard.dll",
+      "sha256": "3dc81dbc9dacd28261632c94410859eda24c2db50cd6c14309cbb2a434b50c57",
+      "bytes": 100648
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.AppContext.dll",
+      "sha256": "d9dd9fa44e019f27172d6b2662e2b6038f48c270912ac8aae53d4d909da7e9be",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Buffers.dll",
+      "sha256": "a1a35f5524e2f831d08ca55f702fbddcb8c6dfecd264f0f563d81a1c8b8280bd",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Collections.Concurrent.dll",
+      "sha256": "082f4bc0da1141eb65111b6da633d75624adfb7bb067d7ee90c5622c8b30885b",
+      "bytes": 231248
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Collections.dll",
+      "sha256": "df6f2037eabee28100184e92f7536427ba2f086c1110629804d466b124bc4d54",
+      "bytes": 296744
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Collections.Immutable.dll",
+      "sha256": "b527dd7b2beb82c22aa39787298cbeb33f3eac9eb9b83a0f0271353421db28db",
+      "bytes": 976680
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Collections.NonGeneric.dll",
+      "sha256": "aa4d5216d066c91cb489f63c6cbfcaf1f47b6e74e070db45639d3460454fc60b",
+      "bytes": 104232
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Collections.Specialized.dll",
+      "sha256": "e31af1f866e880844e027be59f545b9a6b34108e0b0680ebe3fbc19a53070819",
+      "bytes": 104272
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ComponentModel.Annotations.dll",
+      "sha256": "e3be2d35d81e6475c64110cfc099895b71df22c8b46a18c2d7c76a913b8ba903",
+      "bytes": 198480
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ComponentModel.DataAnnotations.dll",
+      "sha256": "d40e8c7062e6b9ce11ba83eab3d26be0eec8066b99970ea88b8e87fb75f411bd",
+      "bytes": 16720
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ComponentModel.dll",
+      "sha256": "e3b6f75864ee944898540937c1f300e04f44a1b2729516f0bbf948589a8b14b2",
+      "bytes": 30544
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ComponentModel.EventBasedAsync.dll",
+      "sha256": "cc84fe814ef5e58271d83193e328f8ec220efd4696d90af9a7c4690c10451495",
+      "bytes": 46888
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ComponentModel.Primitives.dll",
+      "sha256": "1e2451184c287409ea25acde3c90f25950bf34d16458a6e52a94ca4292434f62",
+      "bytes": 79656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ComponentModel.TypeConverter.dll",
+      "sha256": "10dae312a6697718f8ce3dfcdb17d6ae4b74687c765d74d50de8a8e69e08f5e7",
+      "bytes": 767784
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Configuration.dll",
+      "sha256": "3952a72e1f18774f16952b46c20e80ed2bc601a06eca01f33fa924c738022a9c",
+      "bytes": 19240
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Console.dll",
+      "sha256": "3b85daf02a3d9ed99b84bb1c639fe8b1ced46d8d157fa56f525f6b8c5be43b3e",
+      "bytes": 169808
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Core.dll",
+      "sha256": "ac23faf1b37fa49f1b117baad951a65609e799a6e669a6df06d3552677e0c086",
+      "bytes": 23336
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Data.Common.dll",
+      "sha256": "66bdd62047ee460e2ce2c33d15dd1173ac97997b2745864a905179594f821acc",
+      "bytes": 2770728
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Data.DataSetExtensions.dll",
+      "sha256": "aeeae0755c8c7f6747765cdf82fa43182e320e97f2035e3a0a19f21905e6c113",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Data.dll",
+      "sha256": "49f52958a2a6e461d0fd7a47e54a199eb263c69ecfcc0fc684b73b5918ebf466",
+      "bytes": 25424
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.Contracts.dll",
+      "sha256": "6c05cacd9b61b08ae75f2d783cc402b0b5fc848e3d68c29c10b93897cc083e8b",
+      "bytes": 16208
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.Debug.dll",
+      "sha256": "8b160ffe7518588bf64e13c01c6dcb2ef504d64f38bbf0f198d31e7b698db92c",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.DiagnosticSource.dll",
+      "sha256": "6267c1bd1bdf2bdd4b5748b885b0adcda10f18697adfea8488a19a009ad44fdb",
+      "bytes": 501544
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.FileVersionInfo.dll",
+      "sha256": "e94f158142e93834dec3100bde3313935517d549ff36c65819a06d3104dec427",
+      "bytes": 46928
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.Process.dll",
+      "sha256": "51a57fbe918f8b68930c090792b718fc0850ea12da869d50b97a3796af29a740",
+      "bytes": 329552
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.StackTrace.dll",
+      "sha256": "8f6397c1e2ba9b8b8bfa317962151b5035049ce8d6b3575e5027a0d0eeacc797",
+      "bytes": 46888
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.TextWriterTraceListener.dll",
+      "sha256": "1bf165cee916a854e1150f489e4348ce94755359d5fcdcc0bc2bbbe6a7102bdd",
+      "bytes": 67368
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.Tools.dll",
+      "sha256": "841c5e2b6c171fa9aaff0fc6295f3fbc93dc5dcab44118b62f1c942bb674aff2",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.TraceSource.dll",
+      "sha256": "8445c7f1bbaae6cffde60e2c9a8753faaa5100255fbe31d0a1927d9d9bb7f194",
+      "bytes": 141096
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Diagnostics.Tracing.dll",
+      "sha256": "9563d5eec35f94d13a5e62eaa9535dbe0e9ea474f055da132fb8af46b0b01263",
+      "bytes": 16208
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.dll",
+      "sha256": "ef135f0bda0c41e142fdbd67b93e5aa7911916cb250f7df302f4151a3bbfa380",
+      "bytes": 50472
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Drawing.dll",
+      "sha256": "585a8da9952d715f8de7a7b1879b59d68ff8608b92f6ed1c5f0e1d251180d3c6",
+      "bytes": 20304
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Drawing.Primitives.dll",
+      "sha256": "17585b32ca91bac8ccff2ef1c6ddf62ee9ea5efc552928c3a9d1b868394246e9",
+      "bytes": 132944
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Dynamic.Runtime.dll",
+      "sha256": "c0eac30c791db8c1a2b50b61c50d029f4ddd0eadfdd35433745001688a3e7466",
+      "bytes": 16168
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Formats.Asn1.dll",
+      "sha256": "a163fe5f96d1689f1bc1ac531b38c3aba95792ac7dd52231d325d658947fbcfd",
+      "bytes": 239440
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Formats.Tar.dll",
+      "sha256": "44c9984f269a158915195fd32007f22c3bb692dcfeb933cda8ea45a3ac6cd1ce",
+      "bytes": 272168
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Globalization.Calendars.dll",
+      "sha256": "e0f3f3f6e4acc7b6755782fed5cb075ecf70beee4fc5d404579ae99bc0883ef2",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Globalization.dll",
+      "sha256": "66902cffd057673b4b77aa68faf80d33ffa4c94510e61db2a067943cc53b7702",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Globalization.Extensions.dll",
+      "sha256": "be0390557cc72078a7217cf94fd44b9ab66aa30838c00a92aa78c62469c44aa0",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Compression.Brotli.dll",
+      "sha256": "0a59a95787ee15784d73079fdd5dc555b78659a6c560b6cbbf0d7452e638df89",
+      "bytes": 83752
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Compression.dll",
+      "sha256": "c942747f84b730887090f5e0cf86d164c0ee402e524dce2750e06a6df48513fb",
+      "bytes": 419624
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Compression.FileSystem.dll",
+      "sha256": "4aeec2c0189f73ba8122f05c0d759008ddae1a8873b167cc8a558d53f2af80e1",
+      "bytes": 15184
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Compression.Native.dll",
+      "sha256": "4d174b78aa8b3516c7e3cec0355dfe9ae570894055c377d2e5565d077a9a7a1e",
+      "bytes": 937256
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Compression.ZipFile.dll",
+      "sha256": "2da76eb281740be485b5637da8c60fe0ce12bc2848d1a1a81ce144fa74313e18",
+      "bytes": 100176
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.dll",
+      "sha256": "388400ccb189b819d6ec5f1ef70710a39641d93ed5b870fc9324866b75dfb78b",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.FileSystem.AccessControl.dll",
+      "sha256": "f7f9ed6cdab35274711e9345266784ec332ae8040db184d141c70e7941fbbec5",
+      "bytes": 104232
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.FileSystem.dll",
+      "sha256": "c251f33b29382c47b773d907463edd9fe978a06e39efd5670ef3b3b1d4f8c2b7",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.FileSystem.DriveInfo.dll",
+      "sha256": "0a7f3dd2fb6147a3fc046aeac8501d764effe5a3d8cfa56d2b244aa50b874b98",
+      "bytes": 55120
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.FileSystem.Primitives.dll",
+      "sha256": "d3b21b8b38e48c6b4d1cb5cfe9adfe4abad7b3353601febd3c7e4027f9ef9c6b",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.FileSystem.Watcher.dll",
+      "sha256": "8ab1704e4bd171056ec5a11e886d5199d05a641c6d0233c53d4766bf30328dd3",
+      "bytes": 87848
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.IsolatedStorage.dll",
+      "sha256": "2272a8bde18ed0e7c9e54ece9b849b9be76c90b978909d2b2fc94cf0ccbce427",
+      "bytes": 87848
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.MemoryMappedFiles.dll",
+      "sha256": "6e8b281ecb2f0f5e7aad3980f61d8812caa6b37884737f542f95410a76663e0e",
+      "bytes": 83752
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Pipelines.dll",
+      "sha256": "ee9f0fd6c659f50799afd103c6ed9c5e408967e28dfa059bddf4b0a3fd2557dd",
+      "bytes": 190248
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Pipes.AccessControl.dll",
+      "sha256": "1102f25a6e88f2fae81e4cd3628d8ef826f847b9c9b6a4d32ff8b37e0300da35",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.Pipes.dll",
+      "sha256": "3804f9992861122e60990b0765d0b50b33cdc2e4d89d26d9dbf8641d1d0134a2",
+      "bytes": 165712
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.IO.UnmanagedMemoryStream.dll",
+      "sha256": "ad6a5f859589e1951103a00f45566da079cf87bd8b03f0c6ad985a6f39f19c5a",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Linq.AsyncEnumerable.dll",
+      "sha256": "925208e8ac40ac3f7b988aba6ccbbb58adac38ad1876a7d97ee137be6c21a653",
+      "bytes": 1292072
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Linq.dll",
+      "sha256": "284d38945b6e92e847129bd28af458b19818d0f2181f79882888ab2003f4c519",
+      "bytes": 698192
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Linq.Expressions.dll",
+      "sha256": "8830f4a6a6982f53cfbb54f992858ee36b4994a6ff6e6078c39627e77bef282f",
+      "bytes": 3639080
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Linq.Parallel.dll",
+      "sha256": "aa6068e3d8f6b2e492cc63dcaad6b02942edbae445cb2b88c24f1850b25c49f5",
+      "bytes": 775976
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Linq.Queryable.dll",
+      "sha256": "b3b3a9c1b87a51dacd46a3f9ec392c5d05e449152d44d6bd495df0994350e2fa",
+      "bytes": 182056
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Memory.dll",
+      "sha256": "f8f9d38efd6b0de30954d6bf1f353e9617bfb36d3d245c013a3b12be9f6bd88a",
+      "bytes": 161576
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.dll",
+      "sha256": "481b38c912f8779b3510cd00f079e45096ea22b6defdaab66780d5ac3ae6986a",
+      "bytes": 17192
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Http.dll",
+      "sha256": "b98ed0cb80dd54c33fc049f33af5448710752155bbd5cc8cbcd932e01f066801",
+      "bytes": 1746768
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Http.Json.dll",
+      "sha256": "a9fe81ba3c048f9977e0099800eefd570a49be723c555725da57ba797c92b4e0",
+      "bytes": 128848
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.HttpListener.dll",
+      "sha256": "3dfe11fb30c5f84c911d9562be6c2037113cd8976ef2def3550ac415ae58955b",
+      "bytes": 534312
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Mail.dll",
+      "sha256": "b585a55ee67c80d7f02a84d50d626d279c7aa77fd3e38206b434bd20c181eedc",
+      "bytes": 481064
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.NameResolution.dll",
+      "sha256": "e786c0940f5322f0ad6e8e34e7b582e5b050df0fb2230329325307e61bfd994c",
+      "bytes": 124712
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.NetworkInformation.dll",
+      "sha256": "7e8791833eb2d0aea77b119fed3cab8bf501f6a553155cc1c4e5b1c02f65593b",
+      "bytes": 157520
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Ping.dll",
+      "sha256": "06bb307343db955a312634d00ba5e097cf5168a901284437592c28d780804e33",
+      "bytes": 91984
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Primitives.dll",
+      "sha256": "4dbb41a178ef013a898327152eccd146228dd2eb83859b9bb36078333b41f0f1",
+      "bytes": 210728
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Quic.dll",
+      "sha256": "af5b52cdee62d014af677c411530a3fde5c1c368adecb8f83dcfe9246e8bbe73",
+      "bytes": 358224
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Requests.dll",
+      "sha256": "ed82d9d0b7942b2b02c5744a4591fbe2316879618adfc5660c9f111f814155f2",
+      "bytes": 374568
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Security.dll",
+      "sha256": "a78bd713e807729f15b0e085c67fd6cbfefa85736a2618512d4ff1212759eba5",
+      "bytes": 665424
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.ServerSentEvents.dll",
+      "sha256": "c0b1944020d0e5688b90fba9f29209e367674e29d2020f700c302994d5417eda",
+      "bytes": 83752
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.ServicePoint.dll",
+      "sha256": "84fa83cd96e62fda02991b8a8e99fa1c7b3ac08807b04f7486a896cfe6b4a760",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.Sockets.dll",
+      "sha256": "645c56d637ce15976998119e50722a911315682ce141b4aab98874ce1b063f3a",
+      "bytes": 530216
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.WebClient.dll",
+      "sha256": "defa7bbf90c77ed01d6add53f678e4adfbcf97f3b1152affec06e652d327f1a2",
+      "bytes": 165672
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.WebHeaderCollection.dll",
+      "sha256": "74d66f776b4c15936a7b887f47ceb8bf277dbe82e71a78dd3ea5d02502b081e7",
+      "bytes": 63312
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.WebProxy.dll",
+      "sha256": "408e3daabb3f42b4f1b72a1e1def38f12ba58eb9d23dca620086819cf7484195",
+      "bytes": 42832
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.WebSockets.Client.dll",
+      "sha256": "f308a69b9ee1ac982f53d1d94374f4972a7e3c700742901ff7c2bbfb570019d2",
+      "bytes": 104232
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Net.WebSockets.dll",
+      "sha256": "c014a074d408c71011e26eac69be85003a852cfe115e8608bb5d4fd70536eb2e",
+      "bytes": 243496
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Numerics.dll",
+      "sha256": "35adc9360421b3b7a3d50399cb2c651c160158d7e8c302907acbce5f61f4a4f7",
+      "bytes": 15184
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Numerics.Vectors.dll",
+      "sha256": "a9a980ee33ed0c798a5e1960c4557521f465ac9e0987dfd2c3049d53b1f2fa5a",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ObjectModel.dll",
+      "sha256": "2179bb19f335b4fcacd0994ad2ccfdac6840deff09c7889debfe9dbb5b88a3e6",
+      "bytes": 79656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Private.CoreLib.dll",
+      "sha256": "1125acc8106c43fc8bad2d203c4c4485df6182d292846c2fff415c1040c54678",
+      "bytes": 16033576
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Private.DataContractSerialization.dll",
+      "sha256": "8c07a5333c4e938cad8ac8f24b5965121bc0622442a352cbe81c58f17c2349a8",
+      "bytes": 2062120
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Private.Uri.dll",
+      "sha256": "b15c84d2120e1ec9612c66ba59bc3d7e67d841e2bce7b7d0478cb212537539b4",
+      "bytes": 255824
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Private.Xml.dll",
+      "sha256": "d71e72a7a9de324352edd281a46466b51bd0bdd2831b1573f8d3bae8bd2dd4a6",
+      "bytes": 7788328
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Private.Xml.Linq.dll",
+      "sha256": "c832b73de9783e6929ca5ff4863fc313e13ef7cfb5965c52587c4f77f6e037a7",
+      "bytes": 390952
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.DispatchProxy.dll",
+      "sha256": "bf93a361c0bba8497889c9f7713add5968ba39394f9e6bda27e86294c6c43560",
+      "bytes": 75600
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.dll",
+      "sha256": "95059346d6271dd6d0322cc321e5fb8cceab662f550c67aee7615059e41739bb",
+      "bytes": 16168
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.Emit.dll",
+      "sha256": "09059981bbeea0fdc5df589be5d7e3937d57e22bec4d78ceb492c587926fc238",
+      "bytes": 309032
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.Emit.ILGeneration.dll",
+      "sha256": "6b42ddd05b0ca1c7342d73ea9f401fe588044215d65c67b756deb780f0894a26",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.Emit.Lightweight.dll",
+      "sha256": "d2724a2b7b46146877ec1f6e400c49ea05f84bdd31f3bba52ae139ee68a4f779",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.Extensions.dll",
+      "sha256": "ceb1b81e1eb488d87bd43d16dc54450b2a78e0b653c44c988aae2a20abc162bc",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.Metadata.dll",
+      "sha256": "82973e772017944a0548e445f30757595d95fe99e1f5c4a446df8c4db04b1c18",
+      "bytes": 1156904
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.Primitives.dll",
+      "sha256": "c2bbd885d03da5e880667c228ac1f56a5f3a72ea37d43f010ada000adc33da28",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Reflection.TypeExtensions.dll",
+      "sha256": "7cac73ed746ce05a4a2f1e61dd52d41322ecc6ba84cfec463380f49487031459",
+      "bytes": 42792
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Resources.Reader.dll",
+      "sha256": "20bdb5d302b5e28f6042c9f281cfa3ae2f2358544cc40783052fe5abf6aa859b",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Resources.ResourceManager.dll",
+      "sha256": "f709eb5cf16e26679782784c428825019785fcc7085562092425d4999bece03d",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Resources.Writer.dll",
+      "sha256": "684836486b9ba2817efa3099118860d259fd16db0c4c0533d42cad8c6c165b62",
+      "bytes": 50984
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.CompilerServices.Unsafe.dll",
+      "sha256": "6e685ec0477b21a688cd38bfcafc673888cdf186c99df3c96fab352e96d6fdc8",
+      "bytes": 15184
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.CompilerServices.VisualC.dll",
+      "sha256": "5fd85d3d7b47a921bdf48bf938c6615a49a4a3d493e1ea199f1b997c709618f4",
+      "bytes": 30504
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.dll",
+      "sha256": "76be53624f64b23d0249dfa0bbe85390086de7c44bfd490642ea86c6faaf44af",
+      "bytes": 44840
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Extensions.dll",
+      "sha256": "3d7b517d4fd89ee58c53e0f642cc9be42e7a8669b51a85e861dafe118067cbfd",
+      "bytes": 17704
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Handles.dll",
+      "sha256": "985457a3e6a67e96a445ee0fb69b2d58bcdadc4c964253fb63e2d5061a36b050",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.InteropServices.dll",
+      "sha256": "e5eb1679f3579c9141e2bb9dbdce62624a623f38d299805cc1de07bacd21841f",
+      "bytes": 112464
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.InteropServices.JavaScript.dll",
+      "sha256": "5ba32bcde2d72362db2d6e02763ece79fa35bc878b50493e956ce594307e997f",
+      "bytes": 50984
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.InteropServices.RuntimeInformation.dll",
+      "sha256": "c26d9f94329422bd000f28f6c65fdc162bf9397a6d29e418a189d4ca49c5c3ec",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Intrinsics.dll",
+      "sha256": "b07694ec91f3a200acf0f8b37c6ce5fcf05126a9198ae156d839fa5ca8439dc5",
+      "bytes": 17192
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Loader.dll",
+      "sha256": "9b9b2a4f0358d9146e76178ddb87d019be380c78baa7dac853493d45df089f03",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Numerics.dll",
+      "sha256": "8ac94fb810c092a9297a903762e79a75ae07d7229d0721540c391f86d3d5d220",
+      "bytes": 354128
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Serialization.dll",
+      "sha256": "d565fc261ca98cbd14833821f777860291e8a0f775de7aee91778a9f6647f6f4",
+      "bytes": 17192
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Serialization.Formatters.dll",
+      "sha256": "5e8e957c6b7a63132555ede5bcf5fe6a59934c83300e28074ec6e9845ecdd17f",
+      "bytes": 124712
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Serialization.Json.dll",
+      "sha256": "2fd71e3545dab4fc89b3fe54d13a1142f26a0cf187ebe375b3f7fa210fcb2596",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Serialization.Primitives.dll",
+      "sha256": "f96093940e64d8eead98c86de9773d3c9d12c2b033bc6b1312ac88398303fdf3",
+      "bytes": 38696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Runtime.Serialization.Xml.dll",
+      "sha256": "eedb66ea2cd1a26cc45a46d6631209ccbec959af82208872a93b3ae52f189222",
+      "bytes": 16680
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.AccessControl.dll",
+      "sha256": "cdc304f9ddb32023adb8db8953e56711c9b64462e4341d0b62e87ccd19dc7b10",
+      "bytes": 227112
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Claims.dll",
+      "sha256": "c53c8a7e95d8296f951872fdd2e6334d11c20bffd4322f1a088773bf9dcaa3c2",
+      "bytes": 100176
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.Algorithms.dll",
+      "sha256": "eb99ae7dbe058a1b015aba6769ce1f65155b7ff51ff9a7203fcf6d7cdea5fef7",
+      "bytes": 17232
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.Cng.dll",
+      "sha256": "7319f97896d92a7d0729cf28dc6c4d1f797c1520b656ee01a780eec726ec2c16",
+      "bytes": 16168
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.Csp.dll",
+      "sha256": "4002af141e9cb29875b677841adf64a9681e5672c2595492dcbc161460d4e121",
+      "bytes": 16208
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.dll",
+      "sha256": "e0a839a540e47343b53a936b32d91599a3470005228d50fd0b896f8bbdcc65b0",
+      "bytes": 2549544
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.Encoding.dll",
+      "sha256": "994494aec7760f40fade2264aa7c13eebae36360f0b1399a7134bb19c9d58fda",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.OpenSsl.dll",
+      "sha256": "1a8902bbad1b577a98bec62a8472105dc1e9a253e390f69fbe3d167e93206968",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.Primitives.dll",
+      "sha256": "194cccea9354bb248e44c954b5373f9069163f8f21524b3ee4b3185fe436bc15",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Cryptography.X509Certificates.dll",
+      "sha256": "7439c3b90bc2ee49a9275b28ed29052b4d48b45999ac1b7d25593033b1bb8dd6",
+      "bytes": 16680
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.dll",
+      "sha256": "d8efd304765e859369698efef9b3ca707defa8e142721fe5605d7a2de7d38375",
+      "bytes": 18256
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Principal.dll",
+      "sha256": "1d3e351058be3a33214b23b308fe57f78cd6fd4d8fad448fc84cbbe7376129f9",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.Principal.Windows.dll",
+      "sha256": "2311a3f92971de918943573dfb66e04e25c1d543663951eb24e8eb1a0dcd4251",
+      "bytes": 178000
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Security.SecureString.dll",
+      "sha256": "73aac97072b7deefa4de9647bf822162224f1452ad467841b989ff89d4d94595",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ServiceModel.Web.dll",
+      "sha256": "ce91013ee3a9a9d69a85e258f7749e6ece488295d7cb66f7c1079f2e8678fc5e",
+      "bytes": 16680
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ServiceProcess.dll",
+      "sha256": "63fc498c9d04e3c4345dfdb8016ad0639d54562dd7d8c707c072792c854df944",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Text.Encoding.CodePages.dll",
+      "sha256": "226e216e33c94ef7594bdffe670ba4dc5907151c113cb41ac9e9d570227e1765",
+      "bytes": 862032
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Text.Encoding.dll",
+      "sha256": "5e347db6b4f9b2746d50e1ac85be2d9cc7dc4038fde98ac4295bc7030c83cda9",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Text.Encoding.Extensions.dll",
+      "sha256": "8f51b9535db64fe027a40d6076200b1a6b0889bf05f62bb8e68c3eb083c7f113",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Text.Encodings.Web.dll",
+      "sha256": "d20431f20d992e71a4e82e5f25c822474e2f4097d8527972d3d78ea1f26e47c3",
+      "bytes": 124752
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Text.Json.dll",
+      "sha256": "fa99f413be21ed5f484a09093fe5f0beba7de3062cf9cc9f847dbf8108dba55a",
+      "bytes": 1890128
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Text.RegularExpressions.dll",
+      "sha256": "060bcc88a688e687ff1404b83b5fb5cf17e19ec57f33d5b8a48ab494da83c134",
+      "bytes": 1034064
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.AccessControl.dll",
+      "sha256": "66d618b5522b3e4f7a3c7f2bd872fc378fa6f9bbdca3636854eb1a8cb948e631",
+      "bytes": 75560
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Channels.dll",
+      "sha256": "afc5deb3c32b3f64bced2025d0b01b316d41b691ebc6ccb1a2ec445ad4c15e39",
+      "bytes": 157480
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.dll",
+      "sha256": "6c32ed1bf8067e4169e8feddd15e6489b89d19d1c7aae1520a551b57745d0a60",
+      "bytes": 83792
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Overlapped.dll",
+      "sha256": "89fde15f8e520c4bcbc6cbfdceba2baed8670cdf52399a4cd7a21c6efb276c1a",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Tasks.Dataflow.dll",
+      "sha256": "a895b0c73d3a1afc4d89c1d9e445ed447af12864c25aad2c4cb7398ff50aa934",
+      "bytes": 472872
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Tasks.dll",
+      "sha256": "f80b21f7dae04377b73945456cabe25e2ab1f4b564095aed546c2aa571644567",
+      "bytes": 16680
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Tasks.Extensions.dll",
+      "sha256": "f148e3a1414b7c2763ae21529ad79ad759f7cfd3c885256b64b0d2209dec2613",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Tasks.Parallel.dll",
+      "sha256": "6fa359bdbebb56be96339f244ed41658afcead5e010074da470df1115d1e7699",
+      "bytes": 132904
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Thread.dll",
+      "sha256": "ce71949bb1ea67b686e799128582015ebf8758f1107e59e43f342ece3f662930",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.ThreadPool.dll",
+      "sha256": "58fbc6c4b9c72087152fd0f0670a527098c00b0c19ba8d0979d3ca5ce07c6936",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Threading.Timer.dll",
+      "sha256": "9e4620846572f49aeb476aa99405071b4bbd0df4323e4e232787ed73642b1ee5",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Transactions.dll",
+      "sha256": "56abfca0350c111d077b3d86a2469ea3da4fccc1871f7c51a8b4fdb664bb0ede",
+      "bytes": 16720
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Transactions.Local.dll",
+      "sha256": "8d0283a311a16333ffb6f966d9765e4d8b866777ad99291a93b30db349a15bc4",
+      "bytes": 640808
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.ValueTuple.dll",
+      "sha256": "07a5347f6a597e5e0d72109efa1a525697e8c3f74fb0029005500f8ebbf9187a",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Web.dll",
+      "sha256": "bc260b3db247ad9a6e4a82a275da85c3691a41272cc745cb7eaefcf1f31cc817",
+      "bytes": 15144
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Web.HttpUtility.dll",
+      "sha256": "2cedef51b0a2c2b84240583339ecf2422c650e3388aa46f3494160b93b673887",
+      "bytes": 63272
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Windows.dll",
+      "sha256": "716eee98ceee87d38f0b301224462f8442aa793f4b1b9c3ffac315753320ab37",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.dll",
+      "sha256": "277a84ba155fe7808a514f32694a8157ec9f0eeeef00ef9643e5250004054ff0",
+      "bytes": 23376
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.Linq.dll",
+      "sha256": "ae04903b25717fa4695e7e63489091f0d461e791e0bd264c6c85250d668f540d",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.ReaderWriter.dll",
+      "sha256": "8e48fed4d12bcffff01e8059caafb564697275797d2f5ec6823fdd82b87fe938",
+      "bytes": 21840
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.Serialization.dll",
+      "sha256": "489694401c60905cb6dca8ef0bf738cb609cd45b337126a01c825b913086ba43",
+      "bytes": 16208
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.XDocument.dll",
+      "sha256": "3ff858607de5146051498a7124ef983bea280d86e165f993516c6c26af81cfb5",
+      "bytes": 15696
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.XmlDocument.dll",
+      "sha256": "a50b9b3a03596e36e73e7a7d54f4d018e8dcfaa7fe79e8cf900af8838ef3ec36",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.XmlSerializer.dll",
+      "sha256": "0b7d057c2b5b2272e8d4096a755edfd96f3cf03ab9aaa3fef54b462bf48d517e",
+      "bytes": 17744
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.XPath.dll",
+      "sha256": "c817b11c58d95fa942fbc62a4cfa8219e16dafa5641eb004cb2be424028ed5d8",
+      "bytes": 15656
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/System.Xml.XPath.XDocument.dll",
+      "sha256": "5bcd27a7e93515b745993f6dda51391033883cb8a1a8a2e3dad5caed3548f0da",
+      "bytes": 30504
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/data_GodotSmoke_windows_x86_64/WindowsBase.dll",
+      "sha256": "0ec46a38f29a234b9a4d0ae9364c8322f661a47c831c5b948f2787b7ca12dbbd",
+      "bytes": 16208
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/MistSeaToolchainSmoke.exe",
+      "sha256": "27fc0a42f8bddbaffc6a58e629102f2155e9ff78a7f04cf906cff6cfaeef36bd",
+      "bytes": 109372928
+    },
+    {
+      "path": "reports/execution/CX-002/runs/20261009T095257923535Z/export/MistSeaToolchainSmoke.pck",
+      "sha256": "d8f80c9e8704fe6d0d80091896c67ead538f719ccb6ed6d64b0f3141cd515233",
+      "bytes": 2492
+    }
+  ],
+  "offline_policy": "Locked restore requires pre-populated package cache; network audit recorded separately.",
+  "provenance": "Download hashes checked against official release metadata by install_windows.py; complete package archives checked against cache .sha512 files, NuGet contentHash checked against restored locks and metadata. Locked restore logs provide NuGet content validation.",
+  "nuget_hash_semantics_source": "https://github.com/NuGet/Home/wiki/Nupkg-Metadata-File"
+}

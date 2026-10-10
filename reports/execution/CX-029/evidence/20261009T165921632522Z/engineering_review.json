@@ -1,0 +1,108 @@
+{
+  "task_id": "CX-029",
+  "scope": "真实显示已得原文，保留段落、选区、词义和返回位置。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "正文不烘焙图片",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-029",
+              "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Acquired-source projection and text reader exist; actual screen-reader session is pending."
+      }
+    },
+    {
+      "criterion": "查词不弹整题答案",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-029",
+              "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Acquired-source projection and text reader exist; actual screen-reader session is pending."
+      }
+    },
+    {
+      "criterion": "未发现材料不进搜索/读屏",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-029",
+              "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Acquired-source projection and text reader exist; actual screen-reader session is pending."
+      }
+    },
+    {
+      "criterion": "帮助不扣资源",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-029",
+              "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Acquired-source projection and text reader exist; actual screen-reader session is pending."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-029",
+        "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-023",
+    "CX-009"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+    "Acquired-source projection and text reader exist; actual screen-reader session is pending."
+  ]
+}

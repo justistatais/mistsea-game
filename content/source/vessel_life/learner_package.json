@@ -1,0 +1,1617 @@
+{
+  "content_version": "vessel-life-1",
+  "player_projection": true,
+  "scope": "original_ship_life_candidate",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "scripts": [
+    {
+      "id": "BAN-LINA-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "修好一块普通海图压板",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/0",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-1-1",
+          "actor": "CP-LINA",
+          "en": "The corner kept lifting whenever I turned the chart. Hold it flat for a moment, please.",
+          "zh": "我一转海图，角就翘起来。请先帮我压平。"
+        },
+        {
+          "id": "BAN-LINA-1-2",
+          "actor": "HERO",
+          "en": "The weight is heavy enough. Is the board bent?",
+          "zh": "压块够重。是板子弯了吗？"
+        },
+        {
+          "id": "BAN-LINA-1-3",
+          "actor": "CP-LINA",
+          "en": "Only at this end. I put a thin strip underneath instead of forcing the whole board down.",
+          "zh": "只有这一端。我在下面垫了窄条，没有硬把整块板子压下去。"
+        },
+        {
+          "id": "BAN-LINA-1-4",
+          "actor": "HERO",
+          "en": "Now it stays still. Shall I move the strip into the middle?",
+          "zh": "现在稳了。要把窄条移到中间吗？"
+        },
+        {
+          "id": "BAN-LINA-1-5",
+          "actor": "CP-LINA",
+          "en": "Leave it here. In the middle it would lift the good side. Sometimes a small repair has a very particular address.",
+          "zh": "留在这儿。放在中间反而会把平的那边顶起来。有时小修补也得放准地方。"
+        },
+        {
+          "id": "BAN-LINA-1-6",
+          "actor": "HERO",
+          "en": "I will mark the underside, then. Someone can find it next time the board comes apart.",
+          "zh": "那我在底面做个记号，下次拆开还能找到。"
+        },
+        {
+          "id": "BAN-LINA-1-7",
+          "actor": "CP-LINA",
+          "en": "Good. And we can finally look at the chart without having to argue with its corners.",
+          "zh": "好。总算能看海图，不必先和它的角较劲。"
+        }
+      ],
+      "consequence": "ordinary_chart_board_kept_flat",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "听过家人回信后如何折起信纸",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scope": "lina_reply_folding",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/1",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-2-1",
+          "actor": "CP-LINA",
+          "en": "The fold is beginning to tear. I keep opening the same edge first.",
+          "zh": "折痕快破了。我每次都先从同一边打开。"
+        },
+        {
+          "id": "BAN-LINA-2-2",
+          "actor": "HERO",
+          "en": "Would a new envelope help? You can keep the writing covered while we try it.",
+          "zh": "换个封套会有用吗？试的时候可以把字盖住。"
+        },
+        {
+          "id": "BAN-LINA-2-3",
+          "actor": "CP-LINA",
+          "en": "Yes. You have heard the part I chose to share. The rest can stay inside.",
+          "zh": "会。你听过我愿意分享的那部分，其余的留在里面就好。"
+        },
+        {
+          "id": "BAN-LINA-2-4",
+          "actor": "HERO",
+          "en": "Then I will measure the folded paper, not spread the letter out.",
+          "zh": "那我量折好后的纸，不把信摊开。"
+        },
+        {
+          "id": "BAN-LINA-2-5",
+          "actor": "CP-LINA",
+          "en": "Give it a little room at the top. I do not want to squeeze it into a neat shape and damage it.",
+          "zh": "上面留一点余量。我不想为了折得整齐把它挤坏。"
+        },
+        {
+          "id": "BAN-LINA-2-6",
+          "actor": "HERO",
+          "en": "This flap closes without another crease. Shall I leave the envelope blank?",
+          "zh": "这个封口不用再折一道。封套留空白吗？"
+        },
+        {
+          "id": "BAN-LINA-2-7",
+          "actor": "CP-LINA",
+          "en": "Please. I know what is in it. It does not need to tell everyone who passes the table.",
+          "zh": "留空白吧。我知道里面是什么，不必告诉每个经过桌边的人。"
+        }
+      ],
+      "consequence": "private_letter_envelope_closed_no_text_copied",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-3",
+      "content_version": "vessel-life-1",
+      "title_zh": "从船头判断风向，不提供关卡答案",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/2",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-3-1",
+          "actor": "CP-LINA",
+          "en": "Watch the loose end of that ribbon. It tells us more than the flag pressed against the mast.",
+          "zh": "看那段松开的带子。它比贴在桅杆上的旗更好判断。"
+        },
+        {
+          "id": "BAN-LINA-3-2",
+          "actor": "HERO",
+          "en": "It points towards the stern. Does that settle the wind direction?",
+          "zh": "它指向船尾。这就能确定风向了吗？"
+        },
+        {
+          "id": "BAN-LINA-3-3",
+          "actor": "CP-LINA",
+          "en": "For this little patch of deck. The cabin can bend the air around us. Take another reading where it is clear.",
+          "zh": "只能说明甲板这一小块。船舱会让气流绕过来。再到开阔处看一次。"
+        },
+        {
+          "id": "BAN-LINA-3-4",
+          "actor": "HERO",
+          "en": "The second ribbon moves at a slightly different angle.",
+          "zh": "第二条的角度稍有不同。"
+        },
+        {
+          "id": "BAN-LINA-3-5",
+          "actor": "CP-LINA",
+          "en": "Then keep both observations. I would rather write a small uncertainty than draw one very confident arrow.",
+          "zh": "那就都记下。我宁愿留一点不确定，也不想画一根过分肯定的箭头。"
+        },
+        {
+          "id": "BAN-LINA-3-6",
+          "actor": "HERO",
+          "en": "And for sailing we still need the current chart and the watch report.",
+          "zh": "真正开船时还得看当前海图和值守记录。"
+        },
+        {
+          "id": "BAN-LINA-3-7",
+          "actor": "CP-LINA",
+          "en": "Exactly. Today we are learning to look, while the ship is safely tied up.",
+          "zh": "是的。今天船还好好系在泊位上，我们只是练习观察。"
+        }
+      ],
+      "consequence": "two_local_wind_observations_not_route_permission",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-OREN-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "把一件旧工具放回自己修好的框里",
+      "scene": "HUB-S03",
+      "spot": "HUB-S03.workbench",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scope": "public",
+      "progress_gate": "CQ-OREN-02",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/3",
+      "paragraphs": [
+        {
+          "id": "BAN-OREN-1-1",
+          "actor": "CP-OREN",
+          "en": "That narrow space is for the old spanner. I made it fit the handle instead of the other way round.",
+          "zh": "那个窄格放旧扳手。我让格子适合柄，没有反过来磨柄。"
+        },
+        {
+          "id": "BAN-OREN-1-2",
+          "actor": "HERO",
+          "en": "It is a rather plain frame for something you spent so long repairing.",
+          "zh": "你修了这么久，框倒挺朴素。"
+        },
+        {
+          "id": "BAN-OREN-1-3",
+          "actor": "CP-OREN",
+          "en": "It is supposed to make the tools easy to find. If people have to admire it first, I have made a bad cupboard.",
+          "zh": "它是让人方便找工具的。要是得先欣赏一番，那我柜子做坏了。"
+        },
+        {
+          "id": "BAN-OREN-1-4",
+          "actor": "HERO",
+          "en": "There is still an empty space. Are you saving it for a new tool?",
+          "zh": "还空了一格。留给新工具吗？"
+        },
+        {
+          "id": "BAN-OREN-1-5",
+          "actor": "CP-OREN",
+          "en": "For the tool that is being used. An empty place can remind me to ask where it went.",
+          "zh": "留给正在用的工具。空位能提醒我问问它去了哪里。"
+        },
+        {
+          "id": "BAN-OREN-1-6",
+          "actor": "HERO",
+          "en": "I will put the spanner back with its handle facing out.",
+          "zh": "那我把扳手放回去，柄朝外。"
+        },
+        {
+          "id": "BAN-OREN-1-7",
+          "actor": "CP-OREN",
+          "en": "Thank you. That is the whole ceremony. No polishing required.",
+          "zh": "谢谢。仪式到这里就完了，不用抛光。"
+        }
+      ],
+      "consequence": "own_repaired_toolframe_used",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-OREN-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "在公共饭桌承认这次不是只换一个螺钉",
+      "scene": "HUB-S03",
+      "spot": "HUB-S03.workbench",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/4",
+      "paragraphs": [
+        {
+          "id": "BAN-OREN-2-1",
+          "actor": "HERO",
+          "en": "You said the stool needed one screw. Why are there three pieces beside your plate?",
+          "zh": "你说凳子只缺一颗螺钉，怎么盘子旁边有三块零件？"
+        },
+        {
+          "id": "BAN-OREN-2-2",
+          "actor": "CP-OREN",
+          "en": "Because I said that before I looked underneath. The joint was split, and the brace was loose.",
+          "zh": "因为那是我看底面之前说的。接头裂了，撑条也松了。"
+        },
+        {
+          "id": "BAN-OREN-2-3",
+          "actor": "HERO",
+          "en": "So the first estimate was wrong.",
+          "zh": "所以最初估计错了。"
+        },
+        {
+          "id": "BAN-OREN-2-4",
+          "actor": "CP-OREN",
+          "en": "Yes. I should have called it an estimate instead of promising a quick job. Put your bowl on the bench for now.",
+          "zh": "是。我该说是估计，而不是答应马上修好。碗暂时放长凳上吧。"
+        },
+        {
+          "id": "BAN-OREN-2-5",
+          "actor": "HERO",
+          "en": "Can the repair wait until we finish eating?",
+          "zh": "可以吃完饭再修吗？"
+        },
+        {
+          "id": "BAN-OREN-2-6",
+          "actor": "CP-OREN",
+          "en": "It can, if nobody sits on it. I will leave a note where someone would actually see it.",
+          "zh": "可以，只要没人坐。我把便条放到人真能看到的地方。"
+        },
+        {
+          "id": "BAN-OREN-2-7",
+          "actor": "HERO",
+          "en": "Then put the pieces away. Your soup will not wait as patiently as the stool.",
+          "zh": "那先收好零件。汤可没凳子这么有耐心。"
+        }
+      ],
+      "consequence": "stool_marked_out_of_use_until_repair",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-OREN-3",
+      "content_version": "vessel-life-1",
+      "title_zh": "修一只不含主线钥匙的杯把",
+      "scene": "HUB-S03",
+      "spot": "HUB-S03.workbench",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/5",
+      "paragraphs": [
+        {
+          "id": "BAN-OREN-3-1",
+          "actor": "CP-OREN",
+          "en": "The cup itself is sound. The handle came away because this old join was doing all the work.",
+          "zh": "杯身没问题。旧接头独自吃力，杯把才掉下来。"
+        },
+        {
+          "id": "BAN-OREN-3-2",
+          "actor": "HERO",
+          "en": "Can we just glue the handle back on?",
+          "zh": "把杯把粘回去就行吗？"
+        },
+        {
+          "id": "BAN-OREN-3-3",
+          "actor": "CP-OREN",
+          "en": "We can mend it, but I would test it with cold water before trusting it with hot tea. Hold the cup, not the handle.",
+          "zh": "能修，但用它喝热茶之前，我会先装冷水试。拿杯身，别拿把。"
+        },
+        {
+          "id": "BAN-OREN-3-4",
+          "actor": "HERO",
+          "en": "This old crack still shows.",
+          "zh": "旧裂痕还看得见。"
+        },
+        {
+          "id": "BAN-OREN-3-5",
+          "actor": "CP-OREN",
+          "en": "That is all right. A visible repair reminds us to treat it carefully. I do not need to make the cup look new.",
+          "zh": "没关系。看得见的修补提醒我们小心用，不必把杯子装成新的。"
+        },
+        {
+          "id": "BAN-OREN-3-6",
+          "actor": "HERO",
+          "en": "I will leave it upside down here to dry.",
+          "zh": "我把它倒扣在这里晾干。"
+        },
+        {
+          "id": "BAN-OREN-3-7",
+          "actor": "CP-OREN",
+          "en": "And I will write which cup it is. Otherwise we will have a very careful warning attached to the wrong cup.",
+          "zh": "我记清是哪只杯。不然一张十分谨慎的警告，会贴到另一只杯上。"
+        }
+      ],
+      "consequence": "ordinary_cup_repair_drying_no_key",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-MIRA-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "给公共书架留下可改写的书目卡",
+      "scene": "HUB-S02",
+      "spot": "HUB-S02.archive",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/6",
+      "paragraphs": [
+        {
+          "id": "BAN-MIRA-1-1",
+          "actor": "CP-MIRA",
+          "en": "The book is on the lower shelf, but its card sends everyone upstairs.",
+          "zh": "书在下层，书目卡却把人指到楼上。"
+        },
+        {
+          "id": "BAN-MIRA-1-2",
+          "actor": "HERO",
+          "en": "Shall I throw the card away and write a clean one?",
+          "zh": "把卡扔掉，写张干净的吗？"
+        },
+        {
+          "id": "BAN-MIRA-1-3",
+          "actor": "CP-MIRA",
+          "en": "Turn it over. We can date the correction and leave the old location visible. It explains why someone might still look there.",
+          "zh": "翻过来吧。我们写上更正日期，旧位置也留着。这样还去那里找的人有个解释。"
+        },
+        {
+          "id": "BAN-MIRA-1-4",
+          "actor": "HERO",
+          "en": "There is room for another change underneath.",
+          "zh": "下面还能再记一次变动。"
+        },
+        {
+          "id": "BAN-MIRA-1-5",
+          "actor": "CP-MIRA",
+          "en": "Good. Public shelves move about. A card that allows correction is more useful than a very solemn permanent label.",
+          "zh": "好。公共书架常换位置。能更正的卡，比一本正经的永久标签更有用。"
+        },
+        {
+          "id": "BAN-MIRA-1-6",
+          "actor": "HERO",
+          "en": "Lower shelf, left side. I have also left a blank line for whoever moves it next.",
+          "zh": "下层左侧。我也给下一个移书的人留了空行。"
+        },
+        {
+          "id": "BAN-MIRA-1-7",
+          "actor": "CP-MIRA",
+          "en": "Now let us put the card where readers start looking, instead of keeping it in my notebook.",
+          "zh": "现在把卡放到读者开始找书的地方，别夹在我的笔记里。"
+        }
+      ],
+      "consequence": "public_catalogue_card_corrected_old_entry_retained",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-MIRA-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "承认自己也喜欢没有注释的故事",
+      "scene": "HUB-S02",
+      "spot": "HUB-S02.archive",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/7",
+      "paragraphs": [
+        {
+          "id": "BAN-MIRA-2-1",
+          "actor": "HERO",
+          "en": "You have not written a single note in that book.",
+          "zh": "这本书你一条注释也没写。"
+        },
+        {
+          "id": "BAN-MIRA-2-2",
+          "actor": "CP-MIRA",
+          "en": "I wanted to find out what happened to the traveller before I started asking about the road.",
+          "zh": "我想先知道旅人后来怎样，再追问路是怎么回事。"
+        },
+        {
+          "id": "BAN-MIRA-2-3",
+          "actor": "HERO",
+          "en": "Was the ending convincing?",
+          "zh": "结尾可信吗？"
+        },
+        {
+          "id": "BAN-MIRA-2-4",
+          "actor": "CP-MIRA",
+          "en": "For a story, yes. I liked the part where she went home and found her neighbour had watered the plants.",
+          "zh": "作为故事，我觉得可信。我喜欢她回家后发现邻居一直替她浇花的那段。"
+        },
+        {
+          "id": "BAN-MIRA-2-5",
+          "actor": "HERO",
+          "en": "No missing document, no final explanation?",
+          "zh": "没有缺失的文件，也没有最后的说明？"
+        },
+        {
+          "id": "BAN-MIRA-2-6",
+          "actor": "CP-MIRA",
+          "en": "Just a living plant. I do enjoy a book that lets a small kindness remain small.",
+          "zh": "只有一盆活着的植物。我也喜欢一本书，让小小的善意就保持那么小。"
+        },
+        {
+          "id": "BAN-MIRA-2-7",
+          "actor": "HERO",
+          "en": "Then I will borrow it when you have finished. I promise not to demand footnotes from the flowers.",
+          "zh": "你读完借我吧。我保证不向花索要脚注。"
+        }
+      ],
+      "consequence": "ordinary_story_left_unannotated",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-MIRA-3",
+      "content_version": "vessel-life-1",
+      "title_zh": "把旧档案封套改成不暴露姓名的标签",
+      "scene": "HUB-S02",
+      "spot": "HUB-S02.archive",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/8",
+      "paragraphs": [
+        {
+          "id": "BAN-MIRA-3-1",
+          "actor": "CP-MIRA",
+          "en": "This used envelope has a name written across the front. The back is still blank.",
+          "zh": "这个旧封套正面写着姓名，背面还空着。"
+        },
+        {
+          "id": "BAN-MIRA-3-2",
+          "actor": "HERO",
+          "en": "Could we cover the name and use it for public shelf cards?",
+          "zh": "盖住名字，拿来放公共书目卡吗？"
+        },
+        {
+          "id": "BAN-MIRA-3-3",
+          "actor": "CP-MIRA",
+          "en": "Only after the original contents have gone back to their proper custodian. An empty cover is not permission to move its papers.",
+          "zh": "得先把原来的文件交回合适的保管人。封套空了，也不等于允许搬走里面的纸。"
+        },
+        {
+          "id": "BAN-MIRA-3-4",
+          "actor": "HERO",
+          "en": "This one is already marked as empty stock. I can turn it inside out.",
+          "zh": "这一只已标为废空套。我可以把它翻面。"
+        },
+        {
+          "id": "BAN-MIRA-3-5",
+          "actor": "CP-MIRA",
+          "en": "Then label the new use and the date. Do not put the old name on the new label just because it fits.",
+          "zh": "那就写新用途和日期。别因为旧名字放得下，就抄到新标签上。"
+        },
+        {
+          "id": "BAN-MIRA-3-6",
+          "actor": "HERO",
+          "en": "Public book cards, spare sleeves. That should be enough.",
+          "zh": "公共书目卡，备用封套。这样就够了。"
+        },
+        {
+          "id": "BAN-MIRA-3-7",
+          "actor": "CP-MIRA",
+          "en": "Enough, and much easier to find. A label should help with the task in front of us.",
+          "zh": "够了，也好找。标签应该帮助我们完成眼前的事。"
+        }
+      ],
+      "consequence": "empty_stock_sleeve_label_contains_no_identity",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-TESS-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "解释地图边缘的一条日常小路",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/9",
+      "paragraphs": [
+        {
+          "id": "BAN-TESS-1-1",
+          "actor": "CP-TESS",
+          "en": "That little line ends at the edge because the map ends there. The path does not.",
+          "zh": "小线到边缘就断了，是地图到头了，路没有。"
+        },
+        {
+          "id": "BAN-TESS-1-2",
+          "actor": "HERO",
+          "en": "Do people use it often?",
+          "zh": "常有人走吗？"
+        },
+        {
+          "id": "BAN-TESS-1-3",
+          "actor": "CP-TESS",
+          "en": "On ordinary dry mornings. It leads from the washing place to the houses above it. A loaded cart takes another way.",
+          "zh": "普通的晴天早晨有人走。从洗衣处上到房子那边。载重车走另一条。"
+        },
+        {
+          "id": "BAN-TESS-1-4",
+          "actor": "HERO",
+          "en": "So adding one line would still leave out quite a lot.",
+          "zh": "看来只补一根线，还会漏掉不少东西。"
+        },
+        {
+          "id": "BAN-TESS-1-5",
+          "actor": "CP-TESS",
+          "en": "Write who uses it and when, then leave space for a local correction. I have walked it, but that does not make me every neighbour.",
+          "zh": "写上谁用、何时用，再留地方让当地人更正。我走过，但我不代表每个邻居。"
+        },
+        {
+          "id": "BAN-TESS-1-6",
+          "actor": "HERO",
+          "en": "I will mark it as an ordinary footpath, not a verified route for our ship.",
+          "zh": "我标成日常步道，不当作我们船的已核航线。"
+        },
+        {
+          "id": "BAN-TESS-1-7",
+          "actor": "CP-TESS",
+          "en": "Good. People can recognise their morning walk without being promised something much larger.",
+          "zh": "好。人们能认出自己的晨路，不必顺带收到更大的承诺。"
+        }
+      ],
+      "consequence": "everyday_path_margin_note_not_travel_gate",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-TESS-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "为陌生船员留一份天气留言",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/10",
+      "paragraphs": [
+        {
+          "id": "BAN-TESS-2-1",
+          "actor": "CP-TESS",
+          "en": "The next watch may not know which corner stays wet after a shower.",
+          "zh": "下一班可能不知道下过雨后哪个角落一直湿。"
+        },
+        {
+          "id": "BAN-TESS-2-2",
+          "actor": "HERO",
+          "en": "I can leave them a weather warning.",
+          "zh": "我可以留个天气警告。"
+        },
+        {
+          "id": "BAN-TESS-2-3",
+          "actor": "CP-TESS",
+          "en": "Leave an observation with it. Say when we looked and where. A warning without those things is hard to use tomorrow.",
+          "zh": "也写上观察。说明何时看、看哪里。没这些，警告到了明天就很难用。"
+        },
+        {
+          "id": "BAN-TESS-2-4",
+          "actor": "HERO",
+          "en": "After the last shower, beside the forward rail. Check the surface before carrying anything across.",
+          "zh": "上一阵雨后，前栏杆旁。搬东西经过前先检查地面。"
+        },
+        {
+          "id": "BAN-TESS-2-5",
+          "actor": "CP-TESS",
+          "en": "That is useful. Keep the forecast separate; we are not giving the next sailor a new weather instrument.",
+          "zh": "有用。预报另写；我们又没给下一个船员一台新天气仪。"
+        },
+        {
+          "id": "BAN-TESS-2-6",
+          "actor": "HERO",
+          "en": "And I will attach it at eye level, not underneath the bucket.",
+          "zh": "我把它挂到看得到的高度，不压在桶底下。"
+        },
+        {
+          "id": "BAN-TESS-2-7",
+          "actor": "CP-TESS",
+          "en": "Thank you. Whoever comes next should not need to know our habits to find the note.",
+          "zh": "谢谢。后来的人不该先熟悉我们的习惯，才能找到便条。"
+        }
+      ],
+      "consequence": "dated_local_weather_note_left",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-TESS-3",
+      "content_version": "vessel-life-1",
+      "title_zh": "讨论谁把甲板绳结打得太紧",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/11",
+      "paragraphs": [
+        {
+          "id": "BAN-TESS-3-1",
+          "actor": "HERO",
+          "en": "This knot is tight enough to hold the whole harbour. Who tied it?",
+          "zh": "这绳结紧得像能系住整个港口。谁打的？"
+        },
+        {
+          "id": "BAN-TESS-3-2",
+          "actor": "CP-TESS",
+          "en": "I do not know. Let us ask before we give someone the credit or the blame.",
+          "zh": "我不知道。给人记功或怪人之前，先问问。"
+        },
+        {
+          "id": "BAN-TESS-3-3",
+          "actor": "HERO",
+          "en": "Can I cut the rope?",
+          "zh": "我能把绳子剪开吗？"
+        },
+        {
+          "id": "BAN-TESS-3-4",
+          "actor": "CP-TESS",
+          "en": "This spare coil carries no load, so we can work on the knot. Leave the actual mooring lines alone.",
+          "zh": "这是不吃力的备用绳圈，可以慢慢解。实际系泊绳别碰。"
+        },
+        {
+          "id": "BAN-TESS-3-5",
+          "actor": "HERO",
+          "en": "There. The end comes through if I loosen this turn first.",
+          "zh": "好了。先松这一圈，绳头就能穿过去。"
+        },
+        {
+          "id": "BAN-TESS-3-6",
+          "actor": "CP-TESS",
+          "en": "Now coil it with a little space. The next person may have cold hands and much less patience than us.",
+          "zh": "现在卷松一点。下个人可能手冷，耐心也没我们多。"
+        },
+        {
+          "id": "BAN-TESS-3-7",
+          "actor": "HERO",
+          "en": "We have solved the knot, at least. The mystery of its maker can wait.",
+          "zh": "至少结解开了。打结的人是谁，可以以后再说。"
+        }
+      ],
+      "consequence": "unloaded_spare_coil_loosened_author_unknown",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-OREN-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "谁把修好的椅子又拆开了",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "existing_original",
+      "source_locator": "reference/part09/materials/NPC-MAT-06_Chair_Banter.md",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-OREN-1-1",
+          "actor": "CP-LINA",
+          "en": "I thought you fixed that chair yesterday.",
+          "zh": "我以为你昨天把椅子修好了。"
+        },
+        {
+          "id": "BAN-LINA-OREN-1-2",
+          "actor": "CP-OREN",
+          "en": "I did. Today I am making it quieter.",
+          "zh": "修好了。今天我让它安静点。"
+        },
+        {
+          "id": "BAN-LINA-OREN-1-3",
+          "actor": "CP-LINA",
+          "en": "It was perfectly quiet while nobody was sitting on it.",
+          "zh": "没人坐的时候，它可安静了。"
+        },
+        {
+          "id": "BAN-LINA-OREN-1-4",
+          "actor": "CP-OREN",
+          "en": "That was not the condition I was testing.",
+          "zh": "那不是我要测试的条件。"
+        },
+        {
+          "id": "BAN-LINA-OREN-1-5",
+          "actor": "CP-LINA",
+          "en": "Then write a warning: safe for people who never sit down.",
+          "zh": "那就写个警告：适合永远不坐下的人安全使用。"
+        },
+        {
+          "id": "BAN-LINA-OREN-1-6",
+          "actor": "CP-OREN",
+          "en": "Or you could hold this part while I tighten the other side.",
+          "zh": "或者你拿住这一块，我拧紧另一边。"
+        },
+        {
+          "id": "BAN-LINA-OREN-1-7",
+          "actor": "CP-LINA",
+          "en": "All right. But when it is finished, we are allowed to use it. You cannot keep every repaired object as an unfinished experiment.",
+          "zh": "好。但修完以后得让我们用。你不能把每件修好的东西都留成未完的实验。"
+        },
+        {
+          "id": "BAN-LINA-OREN-1-8",
+          "actor": "CP-OREN",
+          "en": "Agreed. Sit down after I put the last screw back.",
+          "zh": "同意。等我把最后一颗螺钉装回去，你再坐。"
+        }
+      ],
+      "consequence": "ordinary_chair_available_after_last_screw",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-OREN-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "坏掉的指南针并不让每条航线都变假",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/13",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-OREN-2-1",
+          "actor": "CP-LINA",
+          "en": "This compass needle keeps sticking against the glass. I would not use it to set a course.",
+          "zh": "这指南针的针一直蹭着玻璃，我不会拿它定航向。"
+        },
+        {
+          "id": "BAN-LINA-OREN-2-2",
+          "actor": "CP-OREN",
+          "en": "The case is bent. I can inspect it without asking you to trust the reading.",
+          "zh": "壳子弯了。我可以检查，不用让你先信它的读数。"
+        },
+        {
+          "id": "BAN-LINA-OREN-2-3",
+          "actor": "CP-LINA",
+          "en": "Good. I have heard people say that if one compass is bad, every route drawn with a compass must be false.",
+          "zh": "好。有人说一个指南针坏了，所有用指南针画的航线就都是假的。"
+        },
+        {
+          "id": "BAN-LINA-OREN-2-4",
+          "actor": "CP-OREN",
+          "en": "That skips several questions. Which instrument, which day, and what else did the navigator check?",
+          "zh": "这跳过了好几个问题。哪台仪器、哪一天，领航的人还核对过什么？"
+        },
+        {
+          "id": "BAN-LINA-OREN-2-5",
+          "actor": "CP-LINA",
+          "en": "We will mark this one as out of use. Existing routes keep their own sources and need their own checks.",
+          "zh": "我们给这一台标停用。已有航线保留自己的来源，也要各自核查。"
+        },
+        {
+          "id": "BAN-LINA-OREN-2-6",
+          "actor": "CP-OREN",
+          "en": "And I will put the cover beside it, rather than making it look ready on the shelf.",
+          "zh": "我把拆下的盖子放旁边，免得摆在架上像能用了。"
+        },
+        {
+          "id": "BAN-LINA-OREN-2-7",
+          "actor": "CP-LINA",
+          "en": "That is a warning I can understand from the doorway.",
+          "zh": "这个警告，我在门口就能看懂。"
+        }
+      ],
+      "consequence": "faulty_ordinary_compass_labelled_no_route_invalidated",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-MIRA-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "海图上的手写备注应放在哪里",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/14",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-MIRA-1-1",
+          "actor": "CP-LINA",
+          "en": "I need this note near the reef, but it covers the depth figures.",
+          "zh": "这条备注该放礁石旁，可它挡住了水深数字。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-1-2",
+          "actor": "CP-MIRA",
+          "en": "Could you put a small reference mark here and keep the full sentence in the margin?",
+          "zh": "这里放个小标记，完整句子写在页边好吗？"
+        },
+        {
+          "id": "BAN-LINA-MIRA-1-3",
+          "actor": "CP-LINA",
+          "en": "The margin already has two versions. I do not want the newest one to look like it was always there.",
+          "zh": "页边已经有两版。我不想让新版看起来像一直都在。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-1-4",
+          "actor": "CP-MIRA",
+          "en": "Date it, then. Keep the earlier note readable and say which observation led to the change.",
+          "zh": "那写日期。旧备注留得能读，也说明什么观察让你改了它。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-1-5",
+          "actor": "CP-LINA",
+          "en": "That takes more room than an arrow.",
+          "zh": "这比一根箭头占地方。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-1-6",
+          "actor": "CP-MIRA",
+          "en": "It does. We can use a separate card instead of making the chart too crowded to read.",
+          "zh": "是。我们用另页卡，别把海图挤得看不清。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-1-7",
+          "actor": "CP-LINA",
+          "en": "A dated card and a small mark, then. The rocks can keep the space they need.",
+          "zh": "那就带日期的卡，加小标记。给礁石留够地方。"
+        }
+      ],
+      "consequence": "dated_chart_margin_reference_added",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-MIRA-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "回信可以保留原话，不必改成公告",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "scope": "lina_reply_retention",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/15",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-MIRA-2-1",
+          "actor": "CP-LINA",
+          "en": "I want to keep the words as they came. They sound different when I turn them into a summary.",
+          "zh": "我想保留收到时的原话。改成摘要，听起来就不同了。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-2-2",
+          "actor": "CP-MIRA",
+          "en": "Then keep the letter in your own cover. We do not need to make a public notice out of it.",
+          "zh": "那就留在你自己的封套里，不用变成公共公告。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-2-3",
+          "actor": "CP-LINA",
+          "en": "I agreed to talk about keeping it. That is as far as I want this conversation to go.",
+          "zh": "我同意谈怎么保存它。这次我只想谈到这里。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-2-4",
+          "actor": "CP-MIRA",
+          "en": "Understood. I will not copy a sentence or add the sender to a shared catalogue.",
+          "zh": "明白。我不会抄一句，也不会把寄信人记到共享书目里。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-2-5",
+          "actor": "CP-LINA",
+          "en": "Could the outside just say that it belongs to me?",
+          "zh": "外面只写它是我的，可以吗？"
+        },
+        {
+          "id": "BAN-LINA-MIRA-2-6",
+          "actor": "CP-MIRA",
+          "en": "Yes. Your own label can help you find it without inviting everyone else to read it.",
+          "zh": "可以。你自己的标签能让你找到它，不必邀请所有人来看。"
+        },
+        {
+          "id": "BAN-LINA-MIRA-2-7",
+          "actor": "CP-LINA",
+          "en": "That feels better. I can put it away without pretending it is less important to me.",
+          "zh": "这样好些。我能把它收起来，也不用装作它对我没那么重要。"
+        }
+      ],
+      "consequence": "private_reply_kept_by_lina_no_public_copy",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-TESS-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "海风与山口风的不同判断",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/16",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-TESS-1-1",
+          "actor": "CP-LINA",
+          "en": "At sea I can watch the surface as well as the sail. What do you watch in a narrow pass?",
+          "zh": "海上我能看水面，也能看帆。狭窄山口你看什么？"
+        },
+        {
+          "id": "BAN-LINA-TESS-1-2",
+          "actor": "CP-TESS",
+          "en": "Dust, loose grass, and the places where the air changes after a bend. One patch can be quiet while the next is rough.",
+          "zh": "灰、松草，还有转弯后风变的地方。这一块安静，下一块可能很乱。"
+        },
+        {
+          "id": "BAN-LINA-TESS-1-3",
+          "actor": "CP-LINA",
+          "en": "So I should not carry a reading from an open slope straight into the pass.",
+          "zh": "看来不能把开阔坡地的读数直接用到山口里。"
+        },
+        {
+          "id": "BAN-LINA-TESS-1-4",
+          "actor": "CP-TESS",
+          "en": "Nor assume the calm spot will stay calm. I write where I stood before I write what I thought.",
+          "zh": "也别假定无风处一直无风。我先写站在哪里，再写我的判断。"
+        },
+        {
+          "id": "BAN-LINA-TESS-1-5",
+          "actor": "CP-LINA",
+          "en": "We do the same on the deck, when the cabin interrupts the air.",
+          "zh": "甲板上船舱挡住气流时，我们也这样。"
+        },
+        {
+          "id": "BAN-LINA-TESS-1-6",
+          "actor": "CP-TESS",
+          "en": "Then we have a useful habit in common. It still leaves us needing local measurements for a real journey.",
+          "zh": "那我们有个共同的好习惯。真正赶路时，还是需要当地测量。"
+        }
+      ],
+      "consequence": "two_observation_contexts_compared_no_corridor_opened",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-LINA-TESS-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "路线图上没有画出的休息点",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/17",
+      "paragraphs": [
+        {
+          "id": "BAN-LINA-TESS-2-1",
+          "actor": "CP-TESS",
+          "en": "There is a sheltered bench along that ordinary footpath. People use it to sort their bags.",
+          "zh": "那条普通步道旁有张避风长凳，人们用来整理行李。"
+        },
+        {
+          "id": "BAN-LINA-TESS-2-2",
+          "actor": "CP-LINA",
+          "en": "The map shows the path but no place to stop. Would the bench deserve a mark?",
+          "zh": "地图画了路，没画停歇处。长凳值得标吗？"
+        },
+        {
+          "id": "BAN-LINA-TESS-2-3",
+          "actor": "CP-TESS",
+          "en": "A small one, with a date. It is useful to a tired walker, though it is not a refuge for every emergency.",
+          "zh": "标个小点，写日期。对疲惫行人有用，但并不是每种紧急情况的避难处。"
+        },
+        {
+          "id": "BAN-LINA-TESS-2-4",
+          "actor": "CP-LINA",
+          "en": "I will leave room for someone to say the bench has moved.",
+          "zh": "我留地方，让人能补充长凳搬走了。"
+        },
+        {
+          "id": "BAN-LINA-TESS-2-5",
+          "actor": "CP-TESS",
+          "en": "And say it is an ordinary stop. Nobody has checked it as a cargo holding point.",
+          "zh": "也写明是普通休息点。没人核查过它能不能停放货物。"
+        },
+        {
+          "id": "BAN-LINA-TESS-2-6",
+          "actor": "CP-LINA",
+          "en": "A map can help someone rest without making another promise for the harbour office.",
+          "zh": "地图能帮人歇脚，不必顺手替港务办公室许诺。"
+        },
+        {
+          "id": "BAN-LINA-TESS-2-7",
+          "actor": "CP-TESS",
+          "en": "That would be a pleasant sort of useful.",
+          "zh": "这种有用，倒让人舒服。"
+        }
+      ],
+      "consequence": "ordinary_rest_note_added_not_safe_return_anchor",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-OREN-MIRA-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "说明书旁边能不能画一只猫",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/18",
+      "paragraphs": [
+        {
+          "id": "BAN-OREN-MIRA-1-1",
+          "actor": "CP-OREN",
+          "en": "Would a cat in this empty margin interfere with your filing system?",
+          "zh": "在这块空白画只猫，会妨碍你归档吗？"
+        },
+        {
+          "id": "BAN-OREN-MIRA-1-2",
+          "actor": "CP-MIRA",
+          "en": "Is it a manufacturer mark, a warning, or just a cat?",
+          "zh": "它是制造商标志、警告，还是就是一只猫？"
+        },
+        {
+          "id": "BAN-OREN-MIRA-1-3",
+          "actor": "CP-OREN",
+          "en": "Just a cat. I was waiting for the glue to set.",
+          "zh": "就是猫。我在等胶干。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-1-4",
+          "actor": "CP-MIRA",
+          "en": "Then leave the instructions visible and mark the drawing as yours. A later reader should not have to guess its authority.",
+          "zh": "那别遮说明，注明是你画的。后来读的人不该猜它有没有正式含义。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-1-5",
+          "actor": "CP-OREN",
+          "en": "Personal drawing, no technical meaning. That is a rather official sentence for a cat.",
+          "zh": "个人绘画，无技术含义。对一只猫来说，这句话挺正式。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-1-6",
+          "actor": "CP-MIRA",
+          "en": "You can write it smaller. We should still be able to tell the cat from the actual warning beside it.",
+          "zh": "可以写小一点。但还得能分清它和旁边真正的警告。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-1-7",
+          "actor": "CP-OREN",
+          "en": "Agreed. I will give the warning the larger box.",
+          "zh": "好。警告的框画大一点。"
+        }
+      ],
+      "consequence": "personal_cat_drawing_separate_from_instruction",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-OREN-MIRA-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "承认错误不等于删除记录",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/19",
+      "paragraphs": [
+        {
+          "id": "BAN-OREN-MIRA-2-1",
+          "actor": "CP-OREN",
+          "en": "I wrote the wrong size on this spare drawer. I could remove the whole label and start again.",
+          "zh": "我把备用抽屉的尺寸写错了，可以整张撕掉重写。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-2-2",
+          "actor": "CP-MIRA",
+          "en": "Has someone already used it to sort parts?",
+          "zh": "已经有人照它分零件了吗？"
+        },
+        {
+          "id": "BAN-OREN-MIRA-2-3",
+          "actor": "CP-OREN",
+          "en": "Yes. Two pieces are in the wrong place now. I have moved them back.",
+          "zh": "有。两块放错了，我已放回去。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-2-4",
+          "actor": "CP-MIRA",
+          "en": "Then keep a dated correction. It lets the next person understand why their earlier count disagrees.",
+          "zh": "那保留带日期的更正。下个人就能明白为什么先前数目对不上。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-2-5",
+          "actor": "CP-OREN",
+          "en": "The old number is embarrassing, but crossing it out is quick enough.",
+          "zh": "旧数字有点丢人，不过划掉也不费事。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-2-6",
+          "actor": "CP-MIRA",
+          "en": "And the correction says what you did. It does not have to make a claim about every other drawer.",
+          "zh": "更正也说明你做了什么。不必顺便对每个别的抽屉下结论。"
+        },
+        {
+          "id": "BAN-OREN-MIRA-2-7",
+          "actor": "CP-OREN",
+          "en": "I will check this drawer once more, then leave the two dates where people can read them.",
+          "zh": "我再查一次这个抽屉，然后把两个日期都留在看得见的地方。"
+        }
+      ],
+      "consequence": "ordinary_drawer_error_corrected_original_label_retained",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-OREN-TESS-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "工具收纳与现场携带争论",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/20",
+      "paragraphs": [
+        {
+          "id": "BAN-OREN-TESS-1-1",
+          "actor": "CP-OREN",
+          "en": "If the tools face the same way, I can see which one is missing at a glance.",
+          "zh": "工具朝同一边放，我一眼就能看出缺哪件。"
+        },
+        {
+          "id": "BAN-OREN-TESS-1-2",
+          "actor": "CP-TESS",
+          "en": "In the workshop, yes. On a narrow path I need the one I can reach without putting the bag down.",
+          "zh": "工坊里是。窄路上，我得拿到不用放下包就能取的那件。"
+        },
+        {
+          "id": "BAN-OREN-TESS-1-3",
+          "actor": "CP-OREN",
+          "en": "Then the workshop order is not necessarily the carrying order.",
+          "zh": "那工坊里的顺序，未必适合携带。"
+        },
+        {
+          "id": "BAN-OREN-TESS-1-4",
+          "actor": "CP-TESS",
+          "en": "Keep a list of what goes out. Let the travelling set have its own pockets. We can return it to your frame afterwards.",
+          "zh": "出门时列个表。随身工具用自己的袋格。回来再放你的框里。"
+        },
+        {
+          "id": "BAN-OREN-TESS-1-5",
+          "actor": "CP-OREN",
+          "en": "I could label the pockets so they do not end up full of loose screws.",
+          "zh": "我可以给袋格贴标签，免得最后只剩一堆松螺钉。"
+        },
+        {
+          "id": "BAN-OREN-TESS-1-6",
+          "actor": "CP-TESS",
+          "en": "Please leave one pocket empty. I always find something I need to carry back.",
+          "zh": "请留一个空格。我总会发现有东西得带回来。"
+        },
+        {
+          "id": "BAN-OREN-TESS-1-7",
+          "actor": "CP-OREN",
+          "en": "An empty pocket on the list. I can live with that.",
+          "zh": "空格也列到表上。这我能接受。"
+        }
+      ],
+      "consequence": "ordinary_travel_tool_pockets_agreed_not_inventory_grant",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-OREN-TESS-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "别给每个紧急请求都写永久承诺",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/21",
+      "paragraphs": [
+        {
+          "id": "BAN-OREN-TESS-2-1",
+          "actor": "CP-TESS",
+          "en": "This note says you will help whenever the hinge sticks. Does whenever include every night?",
+          "zh": "这便条说铰链一卡住你就来帮忙。“一”包括每个夜里吗？"
+        },
+        {
+          "id": "BAN-OREN-TESS-2-2",
+          "actor": "CP-OREN",
+          "en": "I meant the next maintenance visit. I have written a larger promise than I can keep.",
+          "zh": "我指的是下一次维修来访。我写了个自己守不住的大承诺。"
+        },
+        {
+          "id": "BAN-OREN-TESS-2-3",
+          "actor": "CP-TESS",
+          "en": "Then give the visit a window and leave an alternative contact for the hours outside it.",
+          "zh": "那写清来访窗口，再给窗口之外留另一种联系办法。"
+        },
+        {
+          "id": "BAN-OREN-TESS-2-4",
+          "actor": "CP-OREN",
+          "en": "I should ask that contact first. I cannot volunteer someone by writing their name.",
+          "zh": "我得先问那个人。写上姓名，不能替人答应。"
+        },
+        {
+          "id": "BAN-OREN-TESS-2-5",
+          "actor": "CP-TESS",
+          "en": "Exactly. Until they agree, say the alternative is unconfirmed. The note can tell the truth while we finish the arrangement.",
+          "zh": "是。在对方同意前，就写备选还未确认。安排没完成，便条也可以说真话。"
+        },
+        {
+          "id": "BAN-OREN-TESS-2-6",
+          "actor": "CP-OREN",
+          "en": "Next visit only, other hours pending. It sounds smaller, but someone can actually use it.",
+          "zh": "仅下次来访，其余时间待定。听着小了，却真能用。"
+        }
+      ],
+      "consequence": "ordinary_repair_note_bounded_no_new_workpost",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-MIRA-TESS-1",
+      "content_version": "vessel-life-1",
+      "title_zh": "路牌的旧名字与住民的新叫法",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/22",
+      "paragraphs": [
+        {
+          "id": "BAN-MIRA-TESS-1-1",
+          "actor": "CP-MIRA",
+          "en": "The old sign uses one name, and the people giving directions use another. Which should go on this card?",
+          "zh": "旧路牌一个名字，指路的人用另一个。卡上写哪个？"
+        },
+        {
+          "id": "BAN-MIRA-TESS-1-2",
+          "actor": "CP-TESS",
+          "en": "Both, with a short note about where each is used. Someone arriving with an older map still needs to find the road.",
+          "zh": "都写，简短说明各自用在哪里。拿旧地图来的人也得找到路。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-1-3",
+          "actor": "CP-MIRA",
+          "en": "Should we call the old name incorrect?",
+          "zh": "要说旧名字错了吗？"
+        },
+        {
+          "id": "BAN-MIRA-TESS-1-4",
+          "actor": "CP-TESS",
+          "en": "Not from this conversation alone. We have heard the current everyday name; we have not changed the public register.",
+          "zh": "只凭这次聊天还不能。我们听到了现在日常的叫法，还没改公共登记。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-1-5",
+          "actor": "CP-MIRA",
+          "en": "Then I will date the note and keep the two sources separate.",
+          "zh": "那我注明日期，把两个来源分开。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-1-6",
+          "actor": "CP-TESS",
+          "en": "That gives people a way to ask a better question instead of losing their way while we settle the wording.",
+          "zh": "这样人们能问得更明白，不必等我们把措辞定完才能不迷路。"
+        }
+      ],
+      "consequence": "two_names_on_ordinary_reference_card_no_register_change",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "id": "BAN-MIRA-TESS-2",
+      "content_version": "vessel-life-1",
+      "title_zh": "一条规则应该让使用者看得懂",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "scope": "public",
+      "progress_gate": "",
+      "public_fields": [
+        "ordinary_object_or_observation"
+      ],
+      "private_text_included": false,
+      "source_origin": "original_candidate",
+      "source_locator": "content/source/part09.json#/banter_seeds/23",
+      "paragraphs": [
+        {
+          "id": "BAN-MIRA-TESS-2-1",
+          "actor": "CP-TESS",
+          "en": "I have read this storage rule twice. I still cannot tell where the wet boots go.",
+          "zh": "收纳规则读两遍了，我还是不知道湿靴子放哪里。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-2-2",
+          "actor": "CP-MIRA",
+          "en": "The sentence says equipment requiring ventilation. That is rather far from a pair of boots.",
+          "zh": "句子写的是“需要通风的器材”。离一双靴子有点远。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-2-3",
+          "actor": "CP-TESS",
+          "en": "Could we write wet boots on the rack label, and keep the full rule beside it?",
+          "zh": "架上直接写“湿靴子”，完整规则放旁边好吗？"
+        },
+        {
+          "id": "BAN-MIRA-TESS-2-4",
+          "actor": "CP-MIRA",
+          "en": "Yes, with a picture showing the gap below them. The shorter instruction should preserve the actual requirement.",
+          "zh": "好，再画出下面要留的空隙。短说明仍得保留真正的要求。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-2-5",
+          "actor": "CP-TESS",
+          "en": "I will ask the next person to use it without hearing us explain it first.",
+          "zh": "我请下个人自己照它放，不先听我们解释。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-2-6",
+          "actor": "CP-MIRA",
+          "en": "That will tell us something useful. If they choose the wrong shelf, we can improve the label rather than complain about the reader.",
+          "zh": "这样能知道些有用的事。要是放错架，我们可以改标签，不急着怪读的人。"
+        },
+        {
+          "id": "BAN-MIRA-TESS-2-7",
+          "actor": "CP-TESS",
+          "en": "Then this pair of boots can be our first trial. They have waited long enough.",
+          "zh": "那先拿这双试。它们等得够久了。"
+        }
+      ],
+      "consequence": "ordinary_boot_rack_instruction_made_readable",
+      "reward": 0,
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    }
+  ]
+}

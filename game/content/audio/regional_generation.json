@@ -1,0 +1,1535 @@
+[
+  {
+    "material_id": "R2-Q201-L-SERVER",
+    "material_version": "r2-author-candidate-1",
+    "text_sha256": "22ae57225ceae3bf3e9f3a8f5e77b86e08dc1c4aa813d301c81c50f9217856be",
+    "speech_sha256": "1906c5f196ee979c4263b5ae2b51c00a192cac80fc212dfdde08b48264d531b9",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R2-Q201-L-SERVER-r2-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R2-Q201-L-SERVER-p01",
+        "literal_prefix": "Serving witness:",
+        "speaker_id": "Serving witness",
+        "source_start_scalar": 17,
+        "source_end_scalar": 351,
+        "text": "I remember the first meal because we had to borrow another pan. I served people from A and B, and I thought the whole group had arrived before the new labels appeared. That is how it felt at the time. I was not at the receiving desk, though. Someone else collected the portions for C, so I cannot say that I saw everyone that evening.",
+        "sha256": "aed1cb796a5e7367944e050aca50195328bbbf271b3bf9d255baeb7a767410fe"
+      },
+      {
+        "paragraph_id": "R2-Q201-L-SERVER-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 338,
+        "text": "When I said the group was complete, I meant that the kitchen had prepared the full number of portions. If you need the order of arrival, please compare the receiving record. I can tell you what happened at this counter. I cannot explain who changed the official labels, and I have not agreed to have my private address placed on a notice.",
+        "sha256": "28fda79ce0f38098fcecce88f299b98ce90bbf27aeb0a484ddf528904301ff7c"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "7e1dda4eece9aa2359b008c7e57f2a95820e4fe6df3c07c78981000c59cd8eba",
+    "bytes": 1887834
+  },
+  {
+    "material_id": "R2-Q201-L-RECEIVER",
+    "material_version": "r2-author-candidate-1",
+    "text_sha256": "9b9b389cd473b8d1c6a8cf9a9f23d8d2de2fc21f2d61a96f1d8dfbc96e11994c",
+    "speech_sha256": "d5c8ba06804d27443413621beec91637bd3d506a94c00aca14e77d1ee9126b56",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R2-Q201-L-RECEIVER-r2-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R2-Q201-L-RECEIVER-p01",
+        "literal_prefix": "Receiving witness:",
+        "speaker_id": "Receiving witness",
+        "source_start_scalar": 19,
+        "source_end_scalar": 375,
+        "text": "I wrote the room assignments as each group came through the porch. A and B were already using their rooms when the kitchen began serving. C was assigned later in that work stage. I heard someone say the group was complete at the first meal, but I think they were counting portions. I kept the room sheet beside me, and that is the record I can check again.",
+        "sha256": "1f2cf96cf259c357f6f6596bacdd821578d915bcaf7575fa089fdea3879d0dea"
+      },
+      {
+        "paragraph_id": "R2-Q201-L-RECEIVER-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 362,
+        "text": "The later assignment does not tell us why an official entry says moved away. Those labels came from another register. I can let the custodian check my room codes and this observation for the local inquiry. Please keep the exact record version with the statement. A retelling of what I said will still come from me; it will not become another independent witness.",
+        "sha256": "118328e194570466c23adc6f18e9501db5cef44ee8f9c6db011bce32940c65cf"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "c585a2c4b829b0b4f64f2e33ffe3553e895a0f44ecccc538138a72f1595b2a70",
+    "bytes": 1989898
+  },
+  {
+    "material_id": "R2-Q202-L-CLERK",
+    "material_version": "r2-author-candidate-1",
+    "text_sha256": "92f2f03255cf6c1e7ff524dd9b57aa0955e5e36f84856202167f9baf0ae4cf2a",
+    "speech_sha256": "71cd1442b5004f9215c270840514c13e050abbd31665cad400b122901e3885ec",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R2-Q202-L-CLERK-r2-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R2-Q202-L-CLERK-p01",
+        "literal_prefix": "Archive clerk:",
+        "speaker_id": "Archive clerk",
+        "source_start_scalar": 15,
+        "source_end_scalar": 471,
+        "text": "We have laid out the local M-12 papers on two stands. Start with either one, but keep the references attached when you make your notes. The departure officer's page and the receiving officer's page describe different observations. The ledger was prepared from those records later. If the departure entry appears twice, count its source once. The second copy is useful when a page cannot be handled; it does not add another person who saw the vehicle leave.",
+        "sha256": "37e44929871d62059a630c9365d0098121e14a576bf767c332289d63740f0571"
+      },
+      {
+        "paragraph_id": "R2-Q202-L-CLERK-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 368,
+        "text": "You asked whether I could give you an exact minute for the authorisation. I can show you the sheet, including the damaged part of its time box, and the statement that it was checked before departure. I cannot read a reliable issue minute from that box. A report may state that a detail remains unknown. There is no need to fill the gap with a plausible-looking number.",
+        "sha256": "18773e3fce20e43c18ed817f7e2ad5916b0c24abd16128a9d665fb0da193a964"
+      },
+      {
+        "paragraph_id": "R2-Q202-L-CLERK-p03",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 334,
+        "text": "The D−1 custody extract is a separate file. We will inspect its identifier and its dated receiving entry under the scope you requested. It records Mara's condition at that handover and uses a facility code for the destination. Later files would be needed to establish what happened after that point. None are included in this extract.",
+        "sha256": "52e1fabb6ab3602d2643c3b40249116239e20c6f0d55dda655c2547f3c57314d"
+      },
+      {
+        "paragraph_id": "R2-Q202-L-CLERK-p04",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 372,
+        "text": "For the comparison report, use the local group table and the residence checks together. Describe what the columns measure and what the check can support. The room codes are enough for the public table. If you want an identity attachment, ask for that specific version and purpose at the scope desk. We can keep the public inquiry moving while such a request is considered.",
+        "sha256": "7802ea30b8669dc36b8cb84dfddfd8d1800ba5c8eb413e01a2946bc3de388fcb"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "9841820d9f104bc9be391ad66e755d0cc8171e977b43a6d3083274311c27ea10",
+    "bytes": 4338192
+  },
+  {
+    "material_id": "R2-Q203-L-OPERATOR",
+    "material_version": "r2-author-candidate-1",
+    "text_sha256": "2864b18170ca3fdd6b5adfb4a729edfb34892f7f8db39bdec8db5f89a0130a0b",
+    "speech_sha256": "cba51761ba85009eeb9b70a8daa0c236d884fa8fe862060ff98e573720fc2a5d",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R2-Q203-L-OPERATOR-r2-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R2-Q203-L-OPERATOR-p01",
+        "literal_prefix": "Local operator:",
+        "speaker_id": "Local operator",
+        "source_start_scalar": 16,
+        "source_end_scalar": 460,
+        "text": "Before we open the machine-room work zone, show me the upper-floor checks. The isolation handle must still be in the state you inspected. We also need the stopped conveyor record, the fixed external clamp and the dry-route reading. A successful action from an older configuration will not cover a change you made afterwards. We can repeat the affected check without throwing away the clamp or drawing a second unique connector from the cabinet.",
+        "sha256": "71ece9062fcfb496df32da1321c84cf6e8a48e45d400f8184962ccc024bfadd8"
+      },
+      {
+        "paragraph_id": "R2-Q203-L-OPERATOR-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 411,
+        "text": "At the branch valves, we will identify the two blocked returns before choosing a procedure. The sample procedure and the mechanical procedure both have a safe objective. I will work with the local crew if your travelling companions stay outside. Please read the visible hazard plan before entering. A method written in your notebook is a proposal until the actual work is carried out and its result is accepted.",
+        "sha256": "181f9902b3ea352727c1ae00dc1180f35b6c2c0a3767b8c0e293c98ec78a8fd6"
+      },
+      {
+        "paragraph_id": "R2-Q203-L-OPERATOR-p03",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 509,
+        "text": "For the reserve test, keep the source isolated while seating the connector. The selector has positions for the kitchen, the wash pump and an alternating cycle. Read the load labels and trace the later interlock plate as well as the old drawing. We are not changing the tower outlet under this commission. If a trial is rejected, return the source to isolation, correct the selector and try again. The reserve is a fixed local facility, so this procedure does not take a tower provision pack from your account.",
+        "sha256": "9ccc0545fedfebda0094f77ca16d82d08ca16c5593d0e63e7b17beba38643e03"
+      },
+      {
+        "paragraph_id": "R2-Q203-L-OPERATOR-p04",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 306,
+        "text": "When the small station runs within its recorded limit, the kitchen crew can check their feed. We can then request an onsite visit to the tower duty layer. You will inspect the tower there, with its operator. Leave the return passage usable and record the equipment and load boundaries on the final receipt.",
+        "sha256": "b38dc42f65fa0af1bdbd5ec1a4951c68f785e4ef4b77ccaf6393094b8bcd1f1c"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "185b4b1d9747c9871b6e8e113d4b2310159e09b1ff861297d75bb4f46bb28443",
+    "bytes": 4599418
+  },
+  {
+    "material_id": "R2-Q204-L-SCOPE",
+    "material_version": "r2-author-candidate-1",
+    "text_sha256": "d84553b7f99eb6a2be4c208932594c0d82a07736ba2900899b45169a1bbe1279",
+    "speech_sha256": "7de215895f2476338bc12eaa5677bf8cd1858dc452fe52ec55a3f8be485f8a65",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R2-Q204-L-SCOPE-r2-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R2-Q204-L-SCOPE-p01",
+        "literal_prefix": "Review desk:",
+        "speaker_id": "Review desk",
+        "source_start_scalar": 13,
+        "source_end_scalar": 490,
+        "text": "You have brought the transfer records, the residence check and the station boundary receipt. We can receive them in more than one form. A public summary can use room codes, dates and source references, while the protected originals remain available for controlled review. A delegated review package can instead go to a named review desk under its stated purpose. In either arrangement, the important public claims need a route by which someone can check the supporting records.",
+        "sha256": "6367a0aa46d606c56251f62853e5861fefa2d67884cf4e95561306ed3057cc13"
+      },
+      {
+        "paragraph_id": "R2-Q204-L-SCOPE-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 476,
+        "text": "Please separate a decision about a person's identity from a decision about those claims. If the person gives explicit consent for a particular identity field to be published to a particular recipient, record that scope and version. Do not treat an archive reading permit or a custodian's signature as personal consent. If the requested permission is missing, revise the fields or request another scope before sending. The basic reading room will remain open while you do that.",
+        "sha256": "219ebf9888a049defeedf32cf39106560cf2455e0f82572bd804972603c9f9b6"
+      },
+      {
+        "paragraph_id": "R2-Q204-L-SCOPE-p03",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 401,
+        "text": "You may argue for wider public scrutiny, a controlled review, or a combination with a public summary and retained originals. State the practical benefits, the risks and the arrangement you intend to carry out. I will not infer that choice from a saved essay. At this desk, you will confirm the fields, the recipient, the purpose and the version, inspect the proposed handover, then explicitly send it.",
+        "sha256": "becd23dd421b08e42e3e6f45683e8c91d8991fff33163657a29a05f4e144e1ae"
+      },
+      {
+        "paragraph_id": "R2-Q204-L-SCOPE-p04",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 397,
+        "text": "The historical signature page also needs its limit recorded. Its early version is evidence of a connection to examine, and the missing change history remains part of the question. The mining batch index gives the next destination for checking that history. Our acknowledgement will state exactly what we received and what is still unverified; it will not report a mine visit that has not happened.",
+        "sha256": "2801a71d48f7a36eea707e8997ed31d214557945ed115f158b2ebeed34272408"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "cb4b31c9e75d0e78df39b2db03335c70c4c4f4465512c1e6d69afab9dda0432d",
+    "bytes": 4815008
+  },
+  {
+    "material_id": "QP02-L-CORRECTION",
+    "material_version": "candidate-1",
+    "text_sha256": "000519eea5003ee6d9fc35eb60c4455980c063c6049ae79eb5ff725efc6b8041",
+    "speech_sha256": "000519eea5003ee6d9fc35eb60c4455980c063c6049ae79eb5ff725efc6b8041",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/QP02-L-CORRECTION-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "QP02-L-CORRECTION-original",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 660,
+        "text": "Coast team to the stranded crew. We first marked the south steps as a possible receiving point. That instruction is withdrawn: a fresh inspection found the lower steps separated from their support. Use the northern reach beyond the low wall instead. There are four survivors waiting for assistance, apart from the technician carrying this message. Keep the rescue line clear of the broken steps. Once everyone is under shelter, send your position, the number of people needing collection and the approach restriction. Do not ask the boat to follow the southern marker merely because it is easier to see. We will acknowledge the request through the coast relay.",
+        "sha256": "000519eea5003ee6d9fc35eb60c4455980c063c6049ae79eb5ff725efc6b8041"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "731da25174b60d377a4b057702e22b098cdd51178934392ca9590c49c4ed3a27",
+    "bytes": 1860246
+  },
+  {
+    "material_id": "R3-Q301-L-ROUTE",
+    "material_version": "r3-author-candidate-1",
+    "text_sha256": "fde9a2dc1dd83003ef3f395fe60bc917744ee8c8beab10c70a11f702114fd205",
+    "speech_sha256": "43d7a2349542c17c7b8ec0a9dbbb6f4bc731c183f46d7d28ea3ae75ee9692d1f",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R3-Q301-L-ROUTE-r3-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R3-Q301-L-ROUTE-p01",
+        "literal_prefix": "Signal clerk:",
+        "speaker_id": "Signal clerk",
+        "source_start_scalar": 14,
+        "source_end_scalar": 346,
+        "text": "I first told the surface desk that the freight lift could carry the return group. Please change that note. The lift branch has not been tested from the cutting-face side, so it is not our present exit. The fixed inspection ladder beside the main lift is the route we can check now. It stays available when the power setting changes.",
+        "sha256": "4f773900b28ed74e155a236114ffb126bda00f995f8c60a232fb2363a153d70b"
+      },
+      {
+        "paragraph_id": "R3-Q301-L-ROUTE-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 316,
+        "text": "The last call used the codes W1, W2 and W3. I heard all three reply, but I was at this station, not beside them. I can confirm the call and the route instruction. The rescue team must confirm the people at the shelter, and the receiving desk must confirm their arrival. Do not mark those later steps from my message.",
+        "sha256": "730248cbcf8132676f50ea885c25e1c7310c75a6c3a1330915ebdc7f2f1ee043"
+      },
+      {
+        "paragraph_id": "R3-Q301-L-ROUTE-p03",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 335,
+        "text": "Before sending anyone through, tell us which return route was inspected and whether the wet pump area has a current safety check. If a check fails, keep the group at the safe shelter and repair the local fault. There is no reason to erase the town's earlier receipts or ask people to return below after they have already been received.",
+        "sha256": "4a6e70bae3727eff83e37bb0e21df57be646c74de6d87d79b4cce64ee72ebd94"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "0eb4f524b0fe39c08966ee5b98a280dca4f4d3484e9f4d1ae5be4ddbf048e7ab",
+    "bytes": 2840872
+  },
+  {
+    "material_id": "R3-Q301-L-WORKER",
+    "material_version": "r3-author-candidate-1",
+    "text_sha256": "eb4cf97fdb8d08ae8739ed445fc3b5641ad62ab1a74d87d725955e183e1d525e",
+    "speech_sha256": "eb4cf97fdb8d08ae8739ed445fc3b5641ad62ab1a74d87d725955e183e1d525e",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R3-Q301-L-WORKER-r3-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R3-Q301-L-WORKER-p01",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 310,
+        "text": "Worker W2: We are together in the marked shelter. W1 can walk with assistance, and W3 is keeping the return packs ready. The rail route was blocked when we came here. We have heard the pump fall quiet, but none of us has inspected its wet controls. Please check the water and the feed before asking us to move.",
+        "sha256": "54a07e17c34814bd1f19b63a2e69a8aec970f2dd788d54dd5ed2e7cac6705c3c"
+      },
+      {
+        "paragraph_id": "R3-Q301-L-WORKER-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 311,
+        "text": "We need a route, a receiving person and the supplies at the far end. A faster lift would help if its present test is complete. If it is not, use the fixed ladder and the checked rest platform. Please tell the receiving desk that three people are expected; the expectation must stay open until it sees us arrive.",
+        "sha256": "90197ae6eef9c5f119ca1b747b6bd7b672a42c8c25d87652d1d409a1cf00bc9f"
+      },
+      {
+        "paragraph_id": "R3-Q301-L-WORKER-p03",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 291,
+        "text": "We can describe the changes we noticed during work. We cannot say what the instrument measured while we were away from it, or why the accepted repair sheet differs from the check sheet. Bring those sheets to the workshop. Our rescue should not depend on choosing a position in that argument.",
+        "sha256": "2d1d38f4f33ba37611fc5ea84f0d7bab923db8d4d01a891b2dffe50273084ed8"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "fc7c3432fd4656a50e385269d1fdae0ed56c2fce055cbc19c1e46ef2379c4fd7",
+    "bytes": 2685436
+  },
+  {
+    "material_id": "R3-Q302-L-CHECK",
+    "material_version": "r3-author-candidate-1",
+    "text_sha256": "4c9f2f515e3f8241e621f51b1411d8e49f082f170e520fc18a005fd57d28815f",
+    "speech_sha256": "e81e66b3a622726d1c9e858fd91724ae9bf7b3b34594e6b5d8014954bd34f15b",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R3-Q302-L-CHECK-r3-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p01",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 539,
+        "text": "Before we decide what to send, I want the three records kept on the table. The instrument sheet describes the local check at stage I. The workshop copy follows that sheet, and the final acceptance is version three. People have been calling them three separate witnesses. That wording worries me. We have three documents, but one repeats another. Please explain what each can establish, and keep the current rescue apart from the earlier acceptance. The workers need to come home whether or not they want to discuss who signed a form.",
+        "sha256": "a24747e09a93efc9bbe2e5bf4502ebd3d3e967bac1feceb9066ec674d017f369"
+      },
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p02",
+        "literal_prefix": "Workshop custodian:",
+        "speaker_id": "Workshop custodian",
+        "source_start_scalar": 20,
+        "source_end_scalar": 548,
+        "text": "The source reference on the copy leads back to the instrument sheet, MC-2.instrument.I@1. Its retained-copy identity is MC-2.retained.I@1. Both record checks zero five and zero six as incomplete. I checked that the transcription preserves those fields. That is a copying check, rather than a new observation of the machine. The final form, MC-2.acceptance@3, marks all six accepted. We should compare the exact fields and the work they describe, rather than treating a large stamp as more reliable than a small handwritten line.",
+        "sha256": "06c8e41b65504b9e059e99fe08dddd8faa10018daeb27029af6ef391d6156a6a"
+      },
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p03",
+        "literal_prefix": "Oren:",
+        "speaker_id": "Oren",
+        "source_start_scalar": 6,
+        "source_end_scalar": 509,
+        "text": "I signed that final form. I had seen the unfinished entries, and I should have refused to accept the bypass as complete. There was pressure to release the equipment for the next shift. I can give an account of that pressure and the instructions I received, but I will keep it separate from my signature. I cannot make the earlier check complete by repairing the device today. If I undertake a repair now, its parts, test and reviewer must be entered as new work, while the signed form remains available.",
+        "sha256": "358d8e1e20eb9b42485d92a7d0742ecad84aadc406e83653b0ccfb9952b2e998"
+      },
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p04",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 509,
+        "text": "I am willing to discuss that new work, but it must have an end we can inspect. Naming a repairer is not enough. Tell us which device is included, where its supplies come from and who can repeat the check. The household auxiliary alarm may be a suitable separate job. It is not the flooded pump room again. I also want the town's wage cover and meals recorded before extra packages are allocated. A person asked to bear the cost of a shutdown needs to know what is actually waiting at the receiving desk.",
+        "sha256": "f81a3044c4559ba2b4f9540700b9703e6d7454f09f3e49a59038c055eb383922"
+      },
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p05",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 537,
+        "text": "The four-batch table can help us present the records, as long as we state its denominator. Each batch has six listed checks. The incomplete counts are zero, two, one and zero; the official accepted counts are six, six, five and six. Those are two different measures of the same twenty-four entries. The table makes MC-2 worth examining closely. It does not tell us the history of every machine, or prove that every observed disturbance came from the same cause. The original fields are still needed for the particular finding.",
+        "sha256": "1b7ef75c7f9293464d7ef99ccb93846ec1a2e4debd934099e5a75a90bdd3d3f1"
+      },
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p06",
+        "literal_prefix": "Oren:",
+        "speaker_id": "Oren",
+        "source_start_scalar": 6,
+        "source_end_scalar": 552,
+        "text": "If a public statement is requested, agree its fields and purpose with me. I can speak about my own action, including the signature, without guessing the intentions of people whose later decisions I did not see. A supervised repair followed by a statement is another arrangement, and a regional review is also possible. Please do not call a delayed statement a missing signature. The verified record remains. Joining a travelling crew is a further decision, and I can decline that invitation without taking the workshop file away from the inquiry.",
+        "sha256": "149475401ee789cb0dac535b85cb2c4011d970a668079cba226be661ec10e14f"
+      },
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p07",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 503,
+        "text": "My response to a repair can stay narrower than forgiveness. I can accept a tested alarm and still object to the way the old equipment was delivered. Another qualified person can repeat the test if the arrangement is agreed; the repairer cannot sign both the work and its independent review. We should give residents a result they can use and a way to report a new fault. No one has to write that everyone is satisfied before the safety work can be recorded. The disagreement deserves its own line.",
+        "sha256": "74589bc1818a32c94ebedb2f525456263f60549ff8bc8f34d8e4eb6ca5f0a336"
+      },
+      {
+        "paragraph_id": "R3-Q302-L-CHECK-p08",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 593,
+        "text": "Then the outgoing package should retain the stage-I instrument reference, its copying chain and the acceptance version. Add the current environment readings with their settings and sampling conditions. List what this local comparison establishes and what the academic team still needs to test. The receiving desk must acknowledge the actual package and sample; an address written at the top of a draft does not deliver them. We can carry the inquiry forward while leaving the later cause, wider instructions and current whereabouts of people outside this inspection explicitly open.",
+        "sha256": "f28852fa84e3f3209f61afcf13a1a1c2ae1cf9da144a111890d313959e327fbd"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "85b581c47cfb56a4ec8386d531cf2c28ddd43f78a94f2faafe5409190bc13ada",
+    "bytes": 12019614
+  },
+  {
+    "material_id": "R3-Q303-L-MEETING",
+    "material_version": "r3-author-candidate-1",
+    "text_sha256": "3e93eb1c068bf4773ba7d241b3ee6cd79eede33aba3a75f9903e3ff8672fc5f9",
+    "speech_sha256": "326247e77d173358eb1a0d1216f9f906fad8dd4083281aae0276a62315af57cb",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R3-Q303-L-MEETING-r3-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p01",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 567,
+        "text": "The receiving desk has confirmed the three workers and the basic provisions. We can now discuss the extra six packages. I want the discussion to start from what is in the store, rather than what we hope a later shipment may bring. The basic services use seven of the ten load units: drainage two, ventilation two, warm room two and signals one. Keep that line separate. Reducing extraction must leave those services and the inspected ladder available. We are choosing an extra arrangement, not reopening the question of whether rescued people receive first aid.",
+        "sha256": "d20884cf6f8d1752b671e18900ea90a8eae4360fbf316a35d5aad850de2e4ae9"
+      },
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p02",
+        "literal_prefix": "Stores clerk:",
+        "speaker_id": "Stores clerk",
+        "source_start_scalar": 14,
+        "source_end_scalar": 558,
+        "text": "Every extra package has one local identifier. If four go to shelter and two to retrofit, all six are allocated and none remain for production support. That is a feasible early-reduction distribution. Two to shelter, one to retrofit and three to production also meets the allocation limits. It supports a limited transition with less immediate improvement in the other two uses. We can consider a different distribution within the same limits. What I cannot sign is a list of seven packages, or a list which sends the same package to two groups.",
+        "sha256": "76ffaf6e43904eed48a260be2b858fb8f32c84eb5780dfdd471bf256781a1ef3"
+      },
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p03",
+        "literal_prefix": "Local operator:",
+        "speaker_id": "Local operator",
+        "source_start_scalar": 16,
+        "source_end_scalar": 548,
+        "text": "I can take the operating post for the declared transition shift, if another person accepts the safety-watch post. Those must be different occupants. Extraction can be set from one to three units while the basic seven remain. Three reaches the total capacity of ten; four would exceed it. My acceptance covers this shift, not a permanent permission to keep the machine at the highest setting. At handover we will close the window and lower extraction to zero before the next shift begins. The changed setting will require a new test.",
+        "sha256": "f497720afa4d233fc700a714ead7d94eda1f61dd735bd972cb186c924ad4d2ef"
+      },
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p04",
+        "literal_prefix": "Resident representative:",
+        "speaker_id": "Resident representative",
+        "source_start_scalar": 25,
+        "source_end_scalar": 609,
+        "text": "The warmer shelter matters now, but so does the transfer which some households are waiting for. I would like the proposal to say which work is postponed under each distribution. If we choose the transition, when will the materials used for production support become unavailable for shelter improvement? If we reduce immediately, who will replace the expected output in the transfer plan? We should be able to disagree about those costs without losing the meals and wage cover already agreed. Please record the conditions, rather than writing that every resident shares one preference.",
+        "sha256": "6257ac52bff161487ffedd46c1d3e5b57d162dfaff870c087b41c53877d30261"
+      },
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p05",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 547,
+        "text": "The delivery is the point at which the packages move from the store to the named work. Before that, a draft may be revised while the stock remains. Afterwards we must retain the real destination and whatever has already been used. A new paragraph cannot return installed material. The town's emergency wage voucher is also separate from the travelling commission's reward. I will not ask someone to fund the agreed basic protection from personal upgrade parts, and I will not describe the six-tower cargo as if it were already in this store.",
+        "sha256": "13b4fcffaed299e01a04ae2dc98cf1cfa7a9de9f53aa31121a7e2164858fc8fd"
+      },
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p06",
+        "literal_prefix": "Safety watcher:",
+        "speaker_id": "Safety watcher",
+        "source_start_scalar": 16,
+        "source_end_scalar": 576,
+        "text": "I can accept the separate watch post and record the checks for the current configuration. If a connection or load setting changes, the earlier pass does not remain current. A fault needs a safe response, and the fixed return route must stay usable. The written handover should identify me and the operator, the setting tested and the window's end. It can acknowledge uncertainty about the wider disturbance pattern. Our work establishes a local bounded operation; it does not certify the cause of every mine hazard or authorise a future central-network policy.",
+        "sha256": "0ec38ca6eabd7dd432501a22c92b0a0c5997c46910795dd2b97c0bf79001d37c"
+      },
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p07",
+        "literal_prefix": "Stores clerk:",
+        "speaker_id": "Stores clerk",
+        "source_start_scalar": 14,
+        "source_end_scalar": 578,
+        "text": "I have one further correction to the draft. It says the auxiliary alarm parts will come out of these six packages. They will not. The workshop offers a separate repair pack for that invited job, and the engineering ledger holds different tower components. Please keep the three accounts named. A repair can be useful without being a tower upgrade. If the proposed recipients change before delivery, show me the new distribution and check the stock again. If the packages have already moved, start from their actual current ownership instead of the old reservation.",
+        "sha256": "7e7ed97c2ab1d0782e26eb5cf6b5b61d4ca4dc4a4d0c9f765843d52b8ac74a0f"
+      },
+      {
+        "paragraph_id": "R3-Q303-L-MEETING-p08",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 555,
+        "text": "Then state the chosen policy and the allocation you want confirmed. Explain the costs you accept and the limits you will keep. We will check the real stock, receiving group, load and duty arrangement before the work is submitted. Saving the draft lets us keep your reasoning; the separate confirmation and delivery create the result. When the transition is closed, record the handover and retest the lower load. The next team should inherit a usable route and an honest record, not a reassuring phrase whose conditions no longer match the equipment.",
+        "sha256": "d4e2e62c772604193618581e5c1fe4bdfc773d68a0898b2a25b981448a6115dc"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "954edf60e2fece84909eb3996681b625e6776ba71971c614d68b2b0d1accce45",
+    "bytes": 12448576
+  },
+  {
+    "material_id": "R3-Q304-L-TRANSFER",
+    "material_version": "r3-author-candidate-1",
+    "text_sha256": "54ba56ae675a985470dbb947079a108a322b57452cb7b6bb2503bc7c6849db7a",
+    "speech_sha256": "32c3ad52662ffeb1d9948101d8ee86da74e062081601ff664bde7ae58ac6a713",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R3-Q304-L-TRANSFER-r3-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R3-Q304-L-TRANSFER-p01",
+        "literal_prefix": "Freight clerk:",
+        "speaker_id": "Freight clerk",
+        "source_start_scalar": 15,
+        "source_end_scalar": 399,
+        "text": "Bring the sample to the actual packing stand, with the observation stage and the three document versions. I can acknowledge the authorised outgoing package and keep its custody reference. I cannot acknowledge a sample which has only been named in a draft. The academic receiving desk will still need to inspect what reaches it, and the voyage requires its own vessel and route checks.",
+        "sha256": "f191d699f8b791dbcab0eb686971e5921f2d76dfc2b6d6183ea6657002d2da7b"
+      },
+      {
+        "paragraph_id": "R3-Q304-L-TRANSFER-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 373,
+        "text": "If the local load has changed since the record was made, keep both the old observation settings and the current configuration. Do not alter the earlier numbers to make the package look consistent. Say which relationship is being tested and which questions remain. The present data can direct a technical inquiry without pretending that it has already found the whole cause.",
+        "sha256": "7b3af7792467a9df31a901cc1b2d8b4731f7bc5b459dbacfc2172fc02dc8f777"
+      },
+      {
+        "paragraph_id": "R3-Q304-L-TRANSFER-p03",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 317,
+        "text": "For the tower handover, confirm the safe return, duty occupants, applied bounded load and current test. If a condition has changed, return to its check before sending. Once the proper work is received, replaying this instruction does not send another sample, appoint another operator or pay the same commission again.",
+        "sha256": "b1186029f609e31fb3c8616b6aad20c238f42a1e84c9f578f1c73b18ad552166"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "3370cab949bce451062ecfebffc7ac0b3cc1ce1147f26559931a2d1cbf245ea8",
+    "bytes": 2990526
+  },
+  {
+    "material_id": "R3-CQOREN02-L-REPAIR",
+    "material_version": "r3-author-candidate-1",
+    "text_sha256": "b2864b39ca04bbba42023ea847e94cc2b5c0303b2d9de2903dc6c6425624538d",
+    "speech_sha256": "c9192416cb858bc09fe1ab912a67c904c02704bb69b6cf486cb5aedb6fcdd999",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R3-CQOREN02-L-REPAIR-r3-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R3-CQOREN02-L-REPAIR-p01",
+        "literal_prefix": "Oren:",
+        "speaker_id": "Oren",
+        "source_start_scalar": 6,
+        "source_end_scalar": 182,
+        "text": "The signal now reaches both rooms. I replaced the damaged connection, and the spare parts are listed here. Someone other than me should test it before the residents rely on it.",
+        "sha256": "2a024f19c83262a700783563ed461bf5ac719ca504f32c18470b91d195f5cb9d"
+      },
+      {
+        "paragraph_id": "R3-CQOREN02-L-REPAIR-p02",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 122,
+        "text": "That is a useful repair. It does not answer why the earlier equipment was accepted with the safety check incomplete.",
+        "sha256": "2d718749107eba4f51653a40b36c7c5d4ee26a163b4f595dd5a83163a674e356"
+      },
+      {
+        "paragraph_id": "R3-CQOREN02-L-REPAIR-p03",
+        "literal_prefix": "Oren:",
+        "speaker_id": "Oren",
+        "source_start_scalar": 6,
+        "source_end_scalar": 178,
+        "text": "I am not asking it to. I signed that record, and I should have refused. I can explain the pressure I was under, but that does not make the signature belong to someone else.",
+        "sha256": "94615490fa70a71bf5924dbe7d5edfeed07bce5c554f0b280f78af75db1a5a72"
+      },
+      {
+        "paragraph_id": "R3-CQOREN02-L-REPAIR-p04",
+        "literal_prefix": "Player:",
+        "speaker_id": "Player",
+        "source_start_scalar": 8,
+        "source_end_scalar": 66,
+        "text": "What can be agreed today without closing the wider review?",
+        "sha256": "78192d1ccbc0e5293f7defaeb4e8c3781dc46663be3283090047fc26c7169840"
+      },
+      {
+        "paragraph_id": "R3-CQOREN02-L-REPAIR-p05",
+        "literal_prefix": "Pera:",
+        "speaker_id": "Pera",
+        "source_start_scalar": 6,
+        "source_end_scalar": 204,
+        "text": "We can appoint a reviewer for this repair and make the result available to the residents. His statement about the earlier check must remain separate. I will not write that everyone has forgiven him.",
+        "sha256": "3d19eb07908068cd695f0e868334cefe5305c57b8e75513090ebbd3242868565"
+      },
+      {
+        "paragraph_id": "R3-CQOREN02-L-REPAIR-p06",
+        "literal_prefix": "Oren:",
+        "speaker_id": "Oren",
+        "source_start_scalar": 6,
+        "source_end_scalar": 149,
+        "text": "Then record the repair and the remaining questions separately. I can also train someone to repeat the test. I will not always be here to do it.",
+        "sha256": "00736abefa1432a41c92c0cf966acc2e6bd530dcf9e55f7ee3be11b2db9f1e61"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "6819b4c26f68a0e383e03042d399c048546f31cf156e3e6f509232bc90dce6cd",
+    "bytes": 2504872
+  },
+  {
+    "material_id": "R4-Q401-L-SIAN",
+    "material_version": "r4-author-candidate-1",
+    "text_sha256": "1f8c4d43bd2777edd402541a21c2a50a859f5b61113658d2299ab685845b8110",
+    "speech_sha256": "de3a349d8d49ddc32c7e3695cabdbf9586d7b81869b0b5ba6b47063b852c65d9",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R4-Q401-L-SIAN-r4-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R4-Q401-L-SIAN-p01",
+        "literal_prefix": "Sian:",
+        "speaker_id": "Sian",
+        "source_start_scalar": 6,
+        "source_end_scalar": 361,
+        "text": "Start with what the sheets actually record. Two teams made field visits; a report office copied selected rows. Those are different kinds of source. A curve can guide a question without settling it. I will apply the same test to a claim made by the Authority and to a claim made by you. Please name a condition that your explanation has not yet controlled.",
+        "sha256": "50ff7416a90b958344d1a000622bba6e703f7d07ed340bbd37fdfd98b496db07"
+      },
+      {
+        "paragraph_id": "R4-Q401-L-SIAN-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 381,
+        "text": "The custodian will check the requested fields rather than your political preference. Keep the manuscript and the issued copy together. We also need to see the old apparatus fail under its recorded condition. A stopped machine is an observation, not a reason to discard the room as useless. The safer alternative still has to work within a stated load, reserve and duty arrangement.",
+        "sha256": "c7f956ee2c5361726c4429895e551590f9a0b7b9af5fc21cb50a8bf123bd00ea"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "756b9ccf0f303388241c58a0c67c6c081babf5198e48ca6f2de77785b6565c66",
+    "bytes": 2118620
+  },
+  {
+    "material_id": "R4-Q402-L-TECHNICIAN",
+    "material_version": "r4-author-candidate-1",
+    "text_sha256": "d94f1cc7567657f5df6fa18245c19235d32c42e775bb0e351eae1d0899b5ecaa",
+    "speech_sha256": "36506bf92e39f55cb81217c317d9f507ea401c739a74631fcab5326c4f4ead4c",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R4-Q402-L-TECHNICIAN-r4-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R4-Q402-L-TECHNICIAN-p01",
+        "literal_prefix": "Technician:",
+        "speaker_id": "Technician",
+        "source_start_scalar": 12,
+        "source_end_scalar": 365,
+        "text": "The controller is isolated at the outer switch. Do not take a silent machine as evidence that its reserve socket is connected. We kept the socket plate and guard inspection separate. Please control the debris enclosure, then use the manual reserve procedure or the separate maintenance encounter. I will keep the return corridor clear while you inspect.",
+        "sha256": "31f3c229d1ad986b7a4a3af2b570c6e014746bd182abcb34ac1e9b7e1ab7bb2e"
+      },
+      {
+        "paragraph_id": "R4-Q402-L-TECHNICIAN-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 379,
+        "text": "You can reconstruct the high-load stop without losing the installed fixture. At five minutes take the first observation, then take the second at ten. Record the configured condition as well as the final outcome. Resetting afterwards leaves that failed run in the archive. A positive run later may support another condition; it cannot make the earlier stop cease to have occurred.",
+        "sha256": "7cb7eaa89f23ebc91bd8af9f28d9bf357e8d302dbba285aa005c0845e10b55ec"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "b60eb1f65c5ddfce6c1fb5dbad1d5301a6013e3a0aa71828d4881f59ec788d68",
+    "bytes": 2052720
+  },
+  {
+    "material_id": "R4-Q403-L-OBSERVER",
+    "material_version": "r4-author-candidate-1",
+    "text_sha256": "63aa698f5b58d0a664ebbbd7025ce443ea9ae3174d6b0e9f6e6917755f8a23db",
+    "speech_sha256": "b0fbb44195be49dd3b2988b3067d0750dbac5c727045601455a136caf78954f7",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R4-Q403-L-OBSERVER-r4-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R4-Q403-L-OBSERVER-p01",
+        "literal_prefix": "Review officer:",
+        "speaker_id": "Review officer",
+        "source_start_scalar": 16,
+        "source_end_scalar": 389,
+        "text": "I have the present configuration sheet, not a promise of its outcome. The operator starts Controller C only when the execution output has its current TEST route check. At minute five, we retain an intermediate observation. At minute ten, we retain the final result. The controller clock advances when you take those declared observations; the reader does not have to hurry.",
+        "sha256": "599a06268bfb3836cdfc09d1e6dccd31e19979f8937553500271b7aec56f111c"
+      },
+      {
+        "paragraph_id": "R4-Q403-L-OBSERVER-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 379,
+        "text": "Please draw the process with calibration before entry, physical output preparation before execution, and observations before acceptance. If the configuration changes, we check it again. We keep previous runs as previous runs. A safe stop is a recorded failure in that condition, and a stable interval is evidence for that interval. Neither is a referendum on every future policy.",
+        "sha256": "bfbdd53c1d28d71fe0bc1ba8942af958c1f306d53ad1d7b346b96c7637496982"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "ec0b71346ac848e1ce6e22e2a039eca17d51d1cc1371968541417025cb6b3e34",
+    "bytes": 2279358
+  },
+  {
+    "material_id": "R4-Q404-L-VOSS",
+    "material_version": "r4-author-candidate-1",
+    "text_sha256": "3c6e12328be64d34ea89e8c4be301ed87d45fece05af2c01de9e98764ab0047a",
+    "speech_sha256": "be75561ede07ca5cfa3fd2560b13c6619fd0429094cf3dd57238fb83a5e24fb4",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R4-Q404-L-VOSS-r4-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R4-Q404-L-VOSS-p01",
+        "literal_prefix": "Voss:",
+        "speaker_id": "Voss",
+        "source_start_scalar": 6,
+        "source_end_scalar": 415,
+        "text": "I knew that sustained high load carried a long-term risk. Your retained failures must be part of the discussion. I still require a plan for the first week: who maintains protection, where the transition supply comes from, and who accepts responsibility between districts. A ten-minute local result cannot supply those fields. I propose delaying public release while the central system continues to coordinate.",
+        "sha256": "6ca883900c4c0be50852079e570fccfb598a9f63f76416c9158372927b8cd586"
+      },
+      {
+        "paragraph_id": "R4-Q404-L-VOSS-p02",
+        "literal_prefix": "Sian:",
+        "speaker_id": "Sian",
+        "source_start_scalar": 6,
+        "source_end_scalar": 462,
+        "text": "Supply concerns are real, but they do not justify removing unfavourable results or denying an independent review. We can record the limits and practical preparation while retaining public scrutiny. You may agree with a technical concern and refuse the proposed information restriction. Those decisions are separate. The location records should also pass through their bounded verification; a holding-facility code does not tell us Mara's present condition.",
+        "sha256": "cec92ff4b471869a634a5c75b0c2c84eaa407b5bc4f21f502ee10fb3e095659b"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "e9041b909caeee5ea280b8913211cc73624e3f193fde57903f1f88d426eef181",
+    "bytes": 2440688
+  },
+  {
+    "material_id": "R5-Q501-L-DIRECTIONS",
+    "material_version": "r5-author-candidate-1",
+    "text_sha256": "40ccac9e197f9f8042d5ad6264059448524b6d63fc5ead6aed95057155d9f2e5",
+    "speech_sha256": "34ee3661fae067a7724338c78ffbedb1ca4266eee547d79566666ee2307bbd33",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R5-Q501-L-DIRECTIONS-r5-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R5-Q501-L-DIRECTIONS-p01",
+        "literal_prefix": "Ada:",
+        "speaker_id": "Ada",
+        "source_start_scalar": 5,
+        "source_end_scalar": 653,
+        "text": "Start with the street people use now, not the straight line on the old sheet. At the checkpoint you have two choices. The inspected passage avoids the broken span, although both appear to lead north. Have your present commission checked there. Or go through the service tunnel with the basic kit; isolate the drive, secure the panel and inspect the cleared route. Neither choice tells us whether Mara is alive today. I know where the duty hall is and where the residents can receive someone coming back. I will not turn an old movement record into a current medical report. Bring the rescue team to the street when the inner return passage is open.",
+        "sha256": "34ee3661fae067a7724338c78ffbedb1ca4266eee547d79566666ee2307bbd33"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "0d2692b98e95d0420ba3ceee95d52d8615b9c0725d551b336f4b28ec720b9ffc",
+    "bytes": 1807588
+  },
+  {
+    "material_id": "R5-Q502-L-RECEPTION",
+    "material_version": "r5-author-candidate-1",
+    "text_sha256": "9820c311c1a5cb0368acb53b2801c303d61655073375684e816f13a0ce642d4e",
+    "speech_sha256": "f7cae4ae8c7e535ee35d0427644ff70a182aa910729dc392d259e6481e4fcb6e",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R5-Q502-L-RECEPTION-r5-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R5-Q502-L-RECEPTION-p01",
+        "literal_prefix": "Receiver:",
+        "speaker_id": "Receiver",
+        "source_start_scalar": 10,
+        "source_end_scalar": 662,
+        "text": "We have prepared the street shelter, but preparation is not arrival. Do not enter Mara as received while she is still behind the station door. Ada: The inner evacuation passage comes out here. After the bolt and stepping strip have been checked, bring her through that passage. Receiver: I will record the direct handover and her present condition. Keep the older D-1 record dated D-1; today’s contact does not change what that earlier paper meant. Ada: If the guard attempt fails, return to the station work point and try again. The shelter and your documents remain available. There is no need to hurry through the instructions to keep someone alive.",
+        "sha256": "f7cae4ae8c7e535ee35d0427644ff70a182aa910729dc392d259e6481e4fcb6e"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "5857c471e5310c874db560fdc4d08b0615be6aebb4999d1466da44655c2d1faa",
+    "bytes": 1933464
+  },
+  {
+    "material_id": "R5-Q503-L-HEARING",
+    "material_version": "r5-author-candidate-1",
+    "text_sha256": "4cd37413b134922e2639ec3cab746cded1336511678fcded801c3359b249bae2",
+    "speech_sha256": "53aaae3998f7440a0713a17279f900676bf42672d6eee4fa3479b04b15d5d41d",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R5-Q503-L-HEARING-r5-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p01",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 586,
+        "text": "Before we start, this is a bounded review, not an election for the future system. We have the old design, the later revision and correction note, the policy and test authorisations, the executive orders and the station register. The copies remain labelled as copies. Personal addresses and unrelated identities are excluded. Each claim will have a source version and each responding party will have a chance to challenge its scope. If a channel declines to answer, I will record the decline. It will not become an admission simply because someone in this room wishes it were.",
+        "sha256": "2176b6f5b2890cd4dde8a3ed195df60a6607379485b89c57fc1396dea3f4933d"
+      },
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p02",
+        "literal_prefix": "Ada:",
+        "speaker_id": "Ada",
+        "source_start_scalar": 5,
+        "source_end_scalar": 524,
+        "text": "I want the residents to see why a place full of people was treated as an empty district. But I do not want their private papers spread around as proof that we matter. Put the authorisations and their limits before us. Keep the people who appear only in unrelated files out of the public extract. Some of our neighbours will prefer the protected session; that preference is not support for hiding the orders. Others want an emergency public record. Both routes must leave a way to correct a mistaken account after today.",
+        "sha256": "961a68fcaf8f1f702c75d26cdb06c242288551e72dc3ef1ef6bc19d99b135af0"
+      },
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p03",
+        "literal_prefix": "Mara:",
+        "speaker_id": "Mara",
+        "source_start_scalar": 6,
+        "source_end_scalar": 547,
+        "text": "My signature is on the eighteen-year-old design. I will not ask you to replace the sheet with my memory of it. The shortage was real, and the synchronisation helped at the time. The exit test was too weak, and independent review was not secured strongly enough. I also failed to obtain timely correction in the years that followed. The note from thirty days before D0 records part of that failure. It is a correction proposal, not evidence that every tower was ready for another system. You should compare it with the actual later revisions.",
+        "sha256": "bbe1b082fc34da0424c85c0f0bc0b2c356e1786977aeed2756a5758227ce630f"
+      },
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p04",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 554,
+        "text": "So the first account is design limitation and delayed correction, supported by the design and dated correction record. That does not attribute every later executive instruction to you. Mara: Yes. Nor does it make the limitation harmless. I have read the early materials the patrol kept. Finding me did not make those documents unnecessary. I was afraid that admitting what I had left unresolved would make the whole rescue feel like a mistake. The documents do not owe me that protection. You can preserve a person and still question her work.",
+        "sha256": "7f7f8c504d02d46b04e1cce12daf785f12130f4d26b009e1d9a2e1d642d36924"
+      },
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p05",
+        "literal_prefix": "Voss:",
+        "speaker_id": "Voss",
+        "source_start_scalar": 6,
+        "source_end_scalar": 606,
+        "text": "My policy kept the high quota after the long-term warning entered internal discussion. The circulation limit was also my decision. I considered immediate interruption more dangerous than the risk of continuing, but the patrol has shown why that comparison was not enough to close review. I authorised the branch test. The executive cancellation of review was a distinct act, and the distinction should remain in the record. Custodian: We will keep both levels. Separating an executive order does not remove your responsibility for authorisation, known risk or suppression of unfavourable information.",
+        "sha256": "b9c6d7c60be26965d5b36be64eb96b21f88bf6edc93fa2450cb6dc17b68bb4eb"
+      },
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p06",
+        "literal_prefix": "Station channel:",
+        "speaker_id": "Station channel",
+        "source_start_scalar": 17,
+        "source_end_scalar": 607,
+        "text": "The orders were issued as emergency protection. Custodian: You may contest a reading of the order. Please identify the version and the field you dispute. The station register records detention being carried out, and the override removes independent review during the test window. The present rescue is separately recorded. Station channel: I do not have an instruction to accept a transfer of command. Ada: Then record that reply without pretending it answers every claim. We have to make the local facility safe, and people must be able to leave this review without losing lawful evidence.",
+        "sha256": "dacbb21d4b1dc1f578c6e69e97396082f3a9ae2ff276fe12f788c59ef1ef5b6f"
+      },
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p07",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 671,
+        "text": "We will not count silence as proof. The three opportunities to respond are now recorded, with the answers and their limits attached. The summary will retain Mara’s design and delayed-correction responsibility, Voss’s policy, testing and suppression responsibility, and Rook’s review cancellation and detention responsibility. The transfer question is a next-stage action, not an event that has already happened because we discussed it. The originals will remain available under the temporary custody arrangement. A redacted summary can travel onward, but its readers must still know which claims rest on independent records and which reproduce the same source.",
+        "sha256": "cc5b66e309bcaf5028e1d4ab96a73d1f3e0a9d6b610d7c979e949f08121aad63"
+      },
+      {
+        "paragraph_id": "R5-Q503-L-HEARING-p08",
+        "literal_prefix": "Ada:",
+        "speaker_id": "Ada",
+        "source_start_scalar": 5,
+        "source_end_scalar": 529,
+        "text": "And the map? Custodian: The historical sheet stays historical. Ada: Good. Let it show what used to be here without telling a visitor to walk across a broken span. Let the present sign show that people still live here without promising the street can never change. That is the kind of record we need from this hearing too: a dated account that can be checked, challenged and corrected. It will not make everyone agree about the future, but it can stop the future from being decided by documents nobody else is allowed to see.",
+        "sha256": "cc24cc47c852e373705c19ff88d1d6fc25e25a17671a990dd45b4c06ea66bfb3"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "8b4f9cdb84b570f8de77a2974602a297ec7620936a8cb100b9513c679a88cab8",
+    "bytes": 12900122
+  },
+  {
+    "material_id": "R5-Q504-L-COUNCIL",
+    "material_version": "r5-author-candidate-1",
+    "text_sha256": "305e417942bde247c21c466fb45ed83b3a40b51094331c7b832f62bb71dcaab1",
+    "speech_sha256": "e07b426fd72265aed363f0f74c2572348625a80d4b8323370860530e10a687f4",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R5-Q504-L-COUNCIL-r5-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p01",
+        "literal_prefix": "Ada:",
+        "speaker_id": "Ada",
+        "source_start_scalar": 5,
+        "source_end_scalar": 568,
+        "text": "The case on the table contains originals. We cannot make it safer by deciding that it no longer exists. The question is who holds that one case, who can inspect it and how the public receives a useful account without seeing everybody’s private record. The local archive custodian has offered bounded custody with my witnessed register, or a joint seal that requires both of us for access. Neither arrangement gives me authority over another region’s private records. I represent this neighbourhood in this emergency, not all six regions for every future decision.",
+        "sha256": "b69f051fe58286e692755ed4169fe6971c69ed49d7ad12a1a53248fa6fbd0a15"
+      },
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p02",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 572,
+        "text": "In either option, we will keep the original versions and append later corrections. A redacted public finding is the minimum public account. The wider redacted option also includes technical conditions and limits, so readers can see how far the current test goes. Neither option releases medical notes, unrelated identities or home addresses. If we prepare a second working copy, its source label must still point to the same originals. A second copy can make access more resilient; it cannot supply an independent witness simply by being stored in another room.",
+        "sha256": "22af8f8a11ad0153280c484ffce93ca232e20eabcf20efc7883dcfafce2b04dc"
+      },
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p03",
+        "literal_prefix": "Operator:",
+        "speaker_id": "Operator",
+        "source_start_scalar": 10,
+        "source_end_scalar": 584,
+        "text": "I need a current work permit before entering the control layer. The rack must be secured and the relay drive isolated. There is an independent defence unit there; settling the custody question will not switch it off. After that work, the local load is four internal units: three for protection, one for preservation and none for discretionary reproduction. These units belong to this apparatus. They are not crates that can be moved from the six-tower preparation store. I can make an actual configuration check only when the declared load and my duty post match the record.",
+        "sha256": "d9927b43263f5134ca290a8b80de4284c016879cf4aa9a75510126cffa45e5b3"
+      },
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p04",
+        "literal_prefix": "Voss:",
+        "speaker_id": "Voss",
+        "source_start_scalar": 6,
+        "source_end_scalar": 596,
+        "text": "Preserving services is not a reason to preserve my exclusive control. I can provide supervised technical help if that is the agreed arrangement. If I am suspended from the role, keep an operation channel through the appointed local staff. My understanding of the network does not turn an incomplete preparation list into a completed one. Ada: That choice must not decide which future policy the patrol is allowed to consider. We can hold you responsible for the old decisions while still asking a bounded technical question, or assign the task elsewhere without inventing a simpler network.",
+        "sha256": "8b4d07155a6dc9a16844a512387c3d52421196d42a03a3448c51a9237ffa9c4f"
+      },
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p05",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 591,
+        "text": "The supervision record needs three functions: operation, resident review and evidence oversight. They are different duties even where people agree on an outcome. Our local operator cannot be replaced by the patrol’s companion simply because that person is on the battle roster. Ada has accepted resident review here; I will retain evidence oversight. We must record the acceptance of each post and keep it separate from a broad statement of support. Before the next phase, confirm the return passage as well. A safe tower does not help someone who has no registered safe way back.",
+        "sha256": "a507cecec4ce6357b6fd2ad5044fed62f6aea3de4a72f7528b4ba73b2a2d8582"
+      },
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p06",
+        "literal_prefix": "Operator:",
+        "speaker_id": "Operator",
+        "source_start_scalar": 10,
+        "source_end_scalar": 611,
+        "text": "If the load, isolation or duty changes, my earlier test expires. That does not erase the fact that the earlier test occurred. It tells the next team not to mistake history for the present arrangement. The result we can issue today is limited tower safety. Baseline reserve equipment, additional controllers, transition supplies and later field trials remain separate work. Ada: Put that distinction in the onward extract. We have had enough documents that look complete because missing work was described confidently. State what has actually been done and what the frontier team still needs to verify.",
+        "sha256": "f61a2cd1c47a5db7cecafe5fe41c45fc1aab1c878e4a09f41d992c8c3747a8f3"
+      },
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p07",
+        "literal_prefix": "Custodian:",
+        "speaker_id": "Custodian",
+        "source_start_scalar": 11,
+        "source_end_scalar": 612,
+        "text": "Once these local conditions are met, send the transfer demand through the executive channel and preserve its actual answer. Discussing a possible refusal is not proof that it has occurred. If command refuses and moves to the Seventh Tower, the joint authority will permit the patrol to seek current risk and preparation information at the frontier. That is travel permission and a bounded commission, not a final decision on central operation, disconnection or distribution. The ferry must still make the voyage. We cannot write the next region as reached just because the destination has been agreed.",
+        "sha256": "871446e59fe51964ea66806af97481e9758a239482cb708275d2eb0b8add0466"
+      },
+      {
+        "paragraph_id": "R5-Q504-L-COUNCIL-p08",
+        "literal_prefix": "Ada:",
+        "speaker_id": "Ada",
+        "source_start_scalar": 5,
+        "source_end_scalar": 585,
+        "text": "Then let us choose a workable temporary arrangement and leave the larger argument open. Keep the originals available, protect the people whose names are not needed, and give the next team the limits as well as the findings. I cannot promise that every resident will agree with my choice. I can promise that the record will show what I accepted, who else accepted a duty and how a correction can be requested. Our street was removed from a register once. This time, being entered in a record should give people a way to question it, rather than another reason they cannot be heard.",
+        "sha256": "b7dc468889032f726b14f613dbc891510c8a123caffb05b724243699b5036982"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "3da32e0dc90530cf649e79affdfd190e55e2f6b7480efe597c73471cf389f2af",
+    "bytes": 13000820
+  },
+  {
+    "material_id": "R6-Q603-L-ESCORT",
+    "material_version": "r6-author-candidate-1",
+    "text_sha256": "287170b69fc92eda9072474f3bc821f453828e31fa77ecd120150ccf7c63ac81",
+    "speech_sha256": "2f51f189ae0a0b42d2675015ff3c71b510dedababcc70c69e28817399c1cd754",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R6-Q603-L-ESCORT-r6-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R6-Q603-L-ESCORT-p01",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 195,
+        "text": "Match the four protected serials against the manifest. The cart driver and cargo watch travel under this local commission. A recruited guide may help, but does not create another component.",
+        "sha256": "5222b9fc3f3c1e236d8b0ab66f72c95833dbe61102d5f6680f0f652a821c7a10"
+      },
+      {
+        "paragraph_id": "R6-Q603-L-ESCORT-p02",
+        "literal_prefix": "Cargo watch:",
+        "speaker_id": "Cargo watch",
+        "source_start_scalar": 13,
+        "source_end_scalar": 255,
+        "text": "After the first hazard is controlled, confirm departure into the outer segment. We will not skip that confirmation while the notice is open. On withdrawal, preserve the earlier source inspection and restore this attempt to its recorded entry.",
+        "sha256": "b942a1ae5ee1287443abeb617f5d8383b25aa886f943ff33c035483de5ea6e34"
+      },
+      {
+        "paragraph_id": "R6-Q603-L-ESCORT-p03",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 251,
+        "text": "The outer segment needs its own actual result before the paired tower entrance opens. If we cannot continue, use the present safe return or deposit the packet with its named cart keeper. Do not take a moving cargo group into ordinary sea travel.",
+        "sha256": "1c80c077c5354f6869ab5c70c123c9fef9e110e95db13541e8eced13982edc43"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "c743c788dbe6372a1248d8856e1439e4216a02965a4b7c6da746ba037234e3b2",
+    "bytes": 1946212
+  },
+  {
+    "material_id": "R6-Q603-L-RECEIPT",
+    "material_version": "r6-author-candidate-1",
+    "text_sha256": "2702d73fc11853b8d75318739846e4482ac8012b0ebde6b3e7f7b6ed887000ec",
+    "speech_sha256": "91c040d2174e20cac0cf8dec6d033160d21920bac2afca1fc1f557d4d8bb9a0f",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R6-Q603-L-RECEIPT-r6-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R6-Q603-L-RECEIPT-p01",
+        "literal_prefix": "Receiver:",
+        "speaker_id": "Receiver",
+        "source_start_scalar": 10,
+        "source_end_scalar": 194,
+        "text": "I need the same four serials that left the shed, the two safe escort results and the actual present receiving stand. The platform battle is one of the safety results, not my signature.",
+        "sha256": "15e71d202e345d081dd0eabcfded064c22d39c6d7aa77461f83454b77b9351ca"
+      },
+      {
+        "paragraph_id": "R6-Q603-L-RECEIPT-p02",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 284,
+        "text": "Control the field device, protect this packet and stop the platform. Then isolate it and inspect the return. Only the current configuration can support the tower safety record. The baseline order consumes the received components later; an enhanced controller is a separate item.",
+        "sha256": "151056371bac3bc21f6316f1590a7feefd3bddc4a7bcb97ed398b2880845536e"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "5fe9cd1b923b65c9b021d7c8f1fb0b4c273bcc85cfd1b27f5809c98a76e24a94",
+    "bytes": 1379218
+  },
+  {
+    "material_id": "R6-Q604-L-HANDOVER",
+    "material_version": "r6-author-candidate-1",
+    "text_sha256": "1eb8c3d917eb08b1bc3ab5363ab9d4068b49907126654bbdf97ae150f662b20c",
+    "speech_sha256": "2829c8ef1c77fe1ea794cf765135fb72555c50a308277fac5b9de46ad8d02c89",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R6-Q604-L-HANDOVER-r6-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R6-Q604-L-HANDOVER-p01",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 275,
+        "text": "Six actual baselines preserve the two base directions. The distributed list has additional current work. Look at every missing item and choose whether to continue preparing or proceed with the established base directions. A private invitation is not a hidden condition.",
+        "sha256": "6d65f1a8ab72f659fe6739abe46c97ffadf8066382fcfad144b82585242afc1f"
+      },
+      {
+        "paragraph_id": "R6-Q604-L-HANDOVER-p02",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 323,
+        "text": "Current moving cargo must arrive or be safely deposited. Accepted attendance promises need a real handover or explicit suspension. Preserve the protected checkpoint, seal the actual supplies and walk to the same Glimmer chart. Our final policy remains unselected, and the seventh tower still has dangerous work ahead.",
+        "sha256": "78278c3b9cbaaf5ad483ebee3d96a566313135bef26813c7047409a17b322883"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "210384a90cbf3313883d6446b1ffa5e01f0737f8ce14c029d24fbdb0461f22b9",
+    "bytes": 1699284
+  },
+  {
+    "material_id": "R6-CQTESS-L-NOTICE",
+    "material_version": "r6-author-candidate-1",
+    "text_sha256": "35cdb10f4988ec04c5f98cec883596376673ae1ebb5a1750fe860daa03cde3c1",
+    "speech_sha256": "5b0704b315538b7c0f9a75c8182107b0864125e7f3ea7e96ddec0ed74903bb58",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R6-CQTESS-L-NOTICE-r6-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R6-CQTESS-L-NOTICE-p01",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 334,
+        "text": "Keep the original next-watch contact and add the backup contact. Both must see the same present delivery sheet. Ask for the actual receiving confirmation rather than assuming that a sent message was received. My preference for a distributed arrangement does not cancel your completed work or take your other policy choices away.",
+        "sha256": "5b0704b315538b7c0f9a75c8182107b0864125e7f3ea7e96ddec0ed74903bb58"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "4cf6e72452498a6faa1653b5804d7eec4ade15dcfc3d69f9b02afbdebbd9480f",
+    "bytes": 907406
+  },
+  {
+    "material_id": "R6-Q601-L-SURVEY",
+    "material_version": "r6-author-candidate-1",
+    "text_sha256": "1b607071719dffda6415461a06ea711289f6bbe9e134bb30e34b7bb609c888cc",
+    "speech_sha256": "764822b209ab80539669f88128f825ec07a7922505d7c6434db85b14f6cab784",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R6-Q601-L-SURVEY-r6-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R6-Q601-L-SURVEY-p01",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 574,
+        "text": "We have the old city's handover, including the direct confirmation of Mara's rescue. Keep that with the earlier responsibility findings. Today's station visit has a narrower job: find out what the present overload is doing to essential service and whether our return route can remain usable. I do not want a report that promises to explain every fog bank. If you use an earlier observation, identify its place and instrument. Similar-looking trouble in two places is a reason to compare the records carefully, rather than a reason to replace one record with the other.",
+        "sha256": "304b5ee3ca4493fcd8b0247ee9ce73b5cf3bf0318a48ed8d5e370418854e96a0"
+      },
+      {
+        "paragraph_id": "R6-Q601-L-SURVEY-p02",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 532,
+        "text": "The forecast marks three approaches. People sometimes choose the low cut because its beginning looks quiet, but the collected mist is farther along. The open ridge crosses the gust channel. Our marked leeward line has a sheltered recess that we can use on the way back. Follow the current ground markers as well as the sheet. I can explain these features as a local guide; I do not need to join your party for you to receive the route information. Please inspect the protective packet at the distribution stand before leaving.",
+        "sha256": "354051e5f88c07f0b258780f2792a1b1932e889f25dd64f4be7399887e5d5882"
+      },
+      {
+        "paragraph_id": "R6-Q601-L-SURVEY-p03",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 583,
+        "text": "Secure the guide markers before dealing with the pass obstruction. Once that obstruction is controlled, use the actual paired entrance into the station. A map symbol does not move the team there. The station defence is a separate piece of work, and controlling it will not calibrate the instrument. We have deliberately kept these results apart so the receiving watch can identify a missing step. If a fight goes badly, withdraw to its recorded entry. Your source reading and saved explanation remain available; the retreat is not a reason to award a result that did not occur.",
+        "sha256": "677f8605d04a19717e7f1c41366479eb9176f9158fbb1d7f7b711c970fa79708"
+      },
+      {
+        "paragraph_id": "R6-Q601-L-SURVEY-p04",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 541,
+        "text": "The apparatus uses Z for the zero channel and R for the reference channel. Isolate the local drive, check zero at Z and ten at R, and retain the configuration revision. Those are the apparatus marks, not storm hours and not a shared currency for every district's load figures. If someone reconnects the drive, the earlier check becomes an earlier check. It stays in the archive, but we inspect the present condition again. This is how the next watch distinguishes a retained observation from a current permission to use the instrument.",
+        "sha256": "efb626bcb2135bd96a01ada81a56779afded70ea2afff171a89edcc3f7cc003e"
+      },
+      {
+        "paragraph_id": "R6-Q601-L-SURVEY-p05",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 607,
+        "text": "A useful notice names the current risk, the supply we must protect and the boundary of the survey. We can say that current overload amplifies the network's difficulty without claiming that every cause is established. We can restrict unverified additional load without removing a settlement's essential protection. Tell the receiving crew which working stage your observations belong to. Do not introduce a countdown while someone reads the report. The world work changes through declared actions and new observations, not through the number of minutes a person spends considering an English paragraph.",
+        "sha256": "48ef658d7c9d77a07d334b1253d32de734531265fabcdd0ec015fc7cc6571cff"
+      },
+      {
+        "paragraph_id": "R6-Q601-L-SURVEY-p06",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 550,
+        "text": "I will also show you the inner patrol latch. Inspect it from the station and check the two landing stands before registering the return route. That return remains useful after the present hazard is controlled. It is not the same as receiving the ridge cargo later. The four base components will need a manifest, two protected segments and a tower receiving check of their own. I would prefer a report that openly says the cargo has not moved yet to one that combines a safe survey route and an unexecuted delivery in a single cheerful sentence.",
+        "sha256": "99734ee11e74d8faf9edd72f042ba31368d0955226bb3b220dc61dba221996d1"
+      },
+      {
+        "paragraph_id": "R6-Q601-L-SURVEY-p07",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 605,
+        "text": "Save your notice at the station desk, then confirm the intended meaning against the current draft. An edit will require that confirmation again. We will receive the actual instrument and return results alongside the notice; the quality of a phrase cannot supply a missing physical check. You may use explicit structured assistance if it helps communicate the action. That records what you mean, without claiming a language score. After the completed survey, the six-tower work and ridge escort can proceed in parallel. The ridge handover does not have to wait for every distant tower to be finished.",
+        "sha256": "1b4a63ea427adc6fc0b1d7438434b2e8747832f5193f1522b81dfca322bcc594"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "963a95bb1699fa361ca40721a80be458afb0d3de2c47d91337d8af0ceb9173c8",
+    "bytes": 10908984
+  },
+  {
+    "material_id": "R6-Q602-L-MEETING",
+    "material_version": "r6-author-candidate-1",
+    "text_sha256": "c1220d04d5b33c0e3f8c86d7e8cee480bddba31533345a55a14c0270cfac1bb5",
+    "speech_sha256": "1f9e148126731c6b070b42eec83e349a611bb7e69510befeb4f68cade304e58c",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R6-Q602-L-MEETING-r6-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R6-Q602-L-MEETING-p01",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 584,
+        "text": "Let us begin with what the six places need to preserve, rather than with a policy slogan. Every tower has a local contract for an isolator, a backup and two base provisions, with two qualified watches and one installation crew. Their owners and serials are available at the real worksite. A visiting technician must inspect them there. The shared account will then show accepted supplies, but its numbers do not erase their source records. Personal marks, spare parts and the Glimmer's battery belong to different accounts and cannot silently replace these protected components.",
+        "sha256": "0a9b8320031f6736fed7c7a2e6a5a2c7a67dce87a8f2855be6b0de46b3153522"
+      },
+      {
+        "paragraph_id": "R6-Q602-L-MEETING-p02",
+        "literal_prefix": "Local representative:",
+        "speaker_id": "Local representative",
+        "source_start_scalar": 22,
+        "source_end_scalar": 587,
+        "text": "A tower that is safe to approach still needs its conservation work. I want the overview to show that difference. When the crew reserves an order, it holds the whole packet and the posts together. It then carries out transport, delivery, installation and verification as distinct actions. One crew has one current installation capacity. If someone cancels an unused reservation, we can release it. If the component is already installed, a cancellation cannot produce another component. The next crew must be able to find the actual item and the earlier work receipt.",
+        "sha256": "20097a2a1c450d047b1a999aef4ad65fc157cad94e2852e29fb2b75ecd3d5ca3"
+      },
+      {
+        "paragraph_id": "R6-Q602-L-MEETING-p03",
+        "literal_prefix": "Technical reviewer:",
+        "speaker_id": "Technical reviewer",
+        "source_start_scalar": 20,
+        "source_end_scalar": 625,
+        "text": "The academy retained unsuccessful runs as well as a bounded successful one. The current preparation issue states the controller, tested load, reserve, isolation and limited contact used in that successful arrangement. It gives us something specific to install and examine. It does not certify six unvisited towers. For an enhanced tower, we still need the actual controller and couplers, transition supply, qualified duty and a current field trial. Replacing an installation makes its old trial historical. Keep the old trial visible, then check the changed arrangement rather than copying its old result.",
+        "sha256": "43842eb502846a8206bea301f1d3a3760e043780c38dfd88ef35d1dba6476480"
+      },
+      {
+        "paragraph_id": "R6-Q602-L-MEETING-p04",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 584,
+        "text": "The ridge packet has only four base components. The first escort starts at the transfer shed after the actual manifest is checked. The outer escort begins through the paired route after its first segment is controlled. At the tower we control the field device, protect the present cargo and deal with the platform, then perform isolation and receipt. Pressure against the platform does not sign the receiving sheet. The optional five-box supplement is a different consignment. If it is declined, those choices must not take the basic packet or an eventual ending direction away.",
+        "sha256": "c92dc2fc82a085a5c523938e5ba5339b6767d2365a93cadb550a65064c3e53c3"
+      },
+      {
+        "paragraph_id": "R6-Q602-L-MEETING-p05",
+        "literal_prefix": "Local operator:",
+        "speaker_id": "Local operator",
+        "source_start_scalar": 16,
+        "source_end_scalar": 626,
+        "text": "Our trial permission concerns this tower's present configuration. I can issue it when the enhanced installation, baseline protection and two local watches are checked. It is not a vote for a final network policy. The common protocol later requires both an operator and a representative in every region. We have different scopes and appointment instances. We will read the same terms on essential protection, bounded contact, mutual aid and independent review. An organisation's general position cannot stand in for six current regional signatures, and an old appointment cannot keep signing as the current one.",
+        "sha256": "3e3297da2c3cd569b9d6953be43c1dc29033e2f9956b369f33b133c086e8abea"
+      },
+      {
+        "paragraph_id": "R6-Q602-L-MEETING-p06",
+        "literal_prefix": "Finn:",
+        "speaker_id": "Finn",
+        "source_start_scalar": 6,
+        "source_end_scalar": 624,
+        "text": "At departure we will list missing work openly. Six actual baseline results preserve the restricted central and orderly disconnection directions. A distributed direction additionally needs the verified technical issue, six enhanced installations, transition supplies, current agreements and trials. A private companion task is not on that list. We can continue the work, use established local commissioned crews, or explicitly accept the two base directions. None of those responses tells us that the dangerous central program has already been stabilised. That remains actual work at the seventh tower after the voyage.",
+        "sha256": "bd9fc01c3c5034b7232b31f796fa292781f4adbfb086b8a2b34b1528870ee930"
+      },
+      {
+        "paragraph_id": "R6-Q602-L-MEETING-p07",
+        "literal_prefix": "Tess:",
+        "speaker_id": "Tess",
+        "source_start_scalar": 6,
+        "source_end_scalar": 600,
+        "text": "Review the current promises as carefully as the supplies. Cargo still moving needs actual receipt or safe deposit. An accepted promise that requires attendance needs a safe handover or explicit suspension. A previous empty register cannot describe a branch where new work was accepted. Save the handover and preserve the named pre-final checkpoint before sealing preparation. Then reach the chart aboard the same Glimmer and confirm the frontier berth and destination landing. The final departure moves that vessel once; it does not finish the central program or choose the final policy for us.",
+        "sha256": "b9ce9128514b25cbf19b0134c39c73a5e3d887ce90401a1c088af4530ff4ea52"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "ac324e913699bd92d78fbd98c7a0c4c15aea5c60c0f57c69746304889e6b1020",
+    "bytes": 11849058
+  },
+  {
+    "material_id": "RF-QF01-L-DUTY",
+    "material_version": "rf-author-candidate-1",
+    "text_sha256": "3a0af08fc4aac20077f5718f42fd60599a87fefa9835334b597cfe501f9a04be",
+    "speech_sha256": "9ff707d15f83d2ad614e8b11e7c578770b867f72a821d508c3ff7a76f954127b",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/RF-QF01-L-DUTY-rf-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "RF-QF01-L-DUTY-p01",
+        "literal_prefix": "Duty officer:",
+        "speaker_id": "Duty officer",
+        "source_start_scalar": 14,
+        "source_end_scalar": 427,
+        "text": "Before we release the corridor, please identify the vessel and the scope of this visit. I can receive the temporary intervention authorisation and its actual preparation references. I cannot sign for all six districts or choose what they should operate after the dangerous programme is stopped. The corridor release covers this passage only. It is not an instruction to disconnect the city's rescue communication.",
+        "sha256": "0246578e7216c0bd0e89616b5f0a1ef149f80e4e18637bbe5ccf5e51e7c5b624"
+      },
+      {
+        "paragraph_id": "RF-QF01-L-DUTY-p02",
+        "literal_prefix": "Visitor:",
+        "speaker_id": "Visitor",
+        "source_start_scalar": 9,
+        "source_end_scalar": 417,
+        "text": "We will register the checkpoint and keep the source references. If the corridor cannot be accepted now, we will check the maintenance shaft rather than insist that a political preference opens the door. That route still requires its own physical checks. Reaching the takeover floor will establish our approach; it will not establish that Rook's command relay is released or that the central loop has stopped.",
+        "sha256": "71536158a51014eb9266c5b24337ce80d306d868a46d0934abe2f4fa8e4c2f82"
+      },
+      {
+        "paragraph_id": "RF-QF01-L-DUTY-p03",
+        "literal_prefix": "Duty officer:",
+        "speaker_id": "Duty officer",
+        "source_start_scalar": 14,
+        "source_end_scalar": 462,
+        "text": "Use the installed terminal after the handover is recognised. If a displayed condition changes, stop and check that condition again. You can revise your short entry message before submitting it. A translator or a structured confirmation may help us identify the intended action; neither reports that your free English has been independently assessed. This is a written transcript until an actual recording is played through its separate audio entry.",
+        "sha256": "37adfe33626ed7ed54967cb614f2d40114dba9c8391708f7abed3129e58417d9"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "a862fb3714227de199a690f03649e4f330c20d6510f7443bcecb3ce40638fd30",
+    "bytes": 3411296
+  },
+  {
+    "material_id": "RF-QF02-L-ROOK",
+    "material_version": "rf-author-candidate-1",
+    "text_sha256": "71722bc9870b3a5e4a8c68396aaed9a62aab37ad667a771be68b24f2ebc3cf4d",
+    "speech_sha256": "28c64a0295de2dd9432c2f6f2c6d38f200e9d1ab6b9234f41ed40e73fcebc2f6",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/RF-QF02-L-ROOK-rf-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "RF-QF02-L-ROOK-p01",
+        "literal_prefix": "Rook:",
+        "speaker_id": "Rook",
+        "source_start_scalar": 6,
+        "source_end_scalar": 410,
+        "text": "This floor has two combat transfer points. They are local to my command chain. Do not pretend that taking them down is the same as operating the city network. My guards will act with me when the combined intention is declared. You can see which guard participates and who is targeted before choosing your response. There will be no replacement strike from a guard whose participation was already removed.",
+        "sha256": "b940f4a8e91a5c3149d85449390ee0d7622ca51006c70d1e567e635188f10f6a"
+      },
+      {
+        "paragraph_id": "RF-QF02-L-ROOK-p02",
+        "literal_prefix": "Receiving officer:",
+        "speaker_id": "Receiving officer",
+        "source_start_scalar": 19,
+        "source_end_scalar": 431,
+        "text": "Control and custody remain separate from the historical archive. The reviewed records from the old capital remain unchanged by this confrontation. We will record that Rook's command authority is released when the actual points and combat condition are met. We will not record that the central machinery has stopped merely because a person has been restrained. Its indicator is still visible from the audit stand.",
+        "sha256": "267b28d97e89038c2f094c3281ecf6015ca85ff00f62af910b57aed048966580"
+      },
+      {
+        "paragraph_id": "RF-QF02-L-ROOK-p03",
+        "literal_prefix": "Rook:",
+        "speaker_id": "Rook",
+        "source_start_scalar": 6,
+        "source_end_scalar": 438,
+        "text": "A warning is not a cancellation instruction. The maintained loop has its own fixed clauses and physical inertia. You will need the restart log and the local control instructions. If you choose the formal corridor or the shaft, this condition is the same. Receiving officer: We will keep that attributed statement with the independent indicator record. Neither speaker supplies all missing facts simply by appearing in this exchange.",
+        "sha256": "1ed6788b8603b9940062b016333098479fda730dacf03731a8f3b9baea98b387"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "8a1167c5dd8cdd30cc6b9d0370b8d751ffcfd501ff378e861beaa667cf5990fa",
+    "bytes": 3448618
+  },
+  {
+    "material_id": "RF-QF03-L-OPERATOR",
+    "material_version": "rf-author-candidate-1",
+    "text_sha256": "afa1a1f883a955d443ff45e441b14d3d364464be031a8ef5ae3f63b1c92b2002",
+    "speech_sha256": "0a7d8a59a484e7ef243cba2b9f522cfa162fb3ce862873548ed734b40a5c3103",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/RF-QF03-L-OPERATOR-rf-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "RF-QF03-L-OPERATOR-p01",
+        "literal_prefix": "Service record:",
+        "speaker_id": "Service record",
+        "source_start_scalar": 16,
+        "source_end_scalar": 469,
+        "text": "A stop request by itself did not prevent reconnection. We marked the left and right forced-link branches, the finite renewal components and the damping check as separate objects. First isolate both forced-link branches and verify the current configuration. Either branch may be isolated first. Before verification, force against the main resistance meter has no effect. Do not interpret this as an instruction to attack a different, unlabelled facility.",
+        "sha256": "b4e343099b4dfb52e946eda653aa775370d87b98941b53f1673e8b44ca3497fc"
+      },
+      {
+        "paragraph_id": "RF-QF03-L-OPERATOR-p02",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 471,
+        "text": "At the first boundary, the full action ends before the next stage begins. The old damaging intention becomes a visible recalibration with no damage. Two renewal components can arrive in the next round. When they are actually stopped, latch the bypass and verify it. If you have already reached the second boundary, that verification is enough to move on. Excess force is not stored for the next phase. These stages preserve the same party resources and temporary devices.",
+        "sha256": "b7a5124f749b40228259622d7ffbd664a365b80d0cb1d3357fb719b311547e1a"
+      },
+      {
+        "paragraph_id": "RF-QF03-L-OPERATOR-p03",
+        "literal_prefix": "",
+        "speaker_id": "narrator",
+        "source_start_scalar": 0,
+        "source_end_scalar": 488,
+        "text": "Finally, set damping, verify the revision and approve controlled stop. Approval preserves the check because it approves that configuration; an actual subsequent change cancels it. The machine's resistance is not a measure of how much of the tower to demolish. After safe stop, the dispatch desk can present the prepared choices without battle pressure. The record does not choose among them. This script must be read as a transcript unless its actual candidate audio is separately played.",
+        "sha256": "67653567fde198984a1f068aa7121ba403a3ec001c36f045aecd9ea771755e4a"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "e78e6553e47ede937d7f4cb8c88c4f3e96cbdc8e099d05f9ab60f8fe4a43e8f5",
+    "bytes": 4139580
+  },
+  {
+    "material_id": "RF-QF04-L-DISPATCH",
+    "material_version": "rf-author-candidate-1",
+    "text_sha256": "6a50e66807f057518793ef2dae5dced784c470d50f9c1fdd0349bf4a06261c83",
+    "speech_sha256": "098edc30166a932e389f7c125850c6ed0f6073323e028c8f0b9c815c105a266e",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/RF-QF04-L-DISPATCH-rf-author-candidate-1-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "RF-QF04-L-DISPATCH-p01",
+        "literal_prefix": "Dispatch officer:",
+        "speaker_id": "Dispatch officer",
+        "source_start_scalar": 18,
+        "source_end_scalar": 459,
+        "text": "The dangerous programme has a current safe-stop receipt, and this desk now has the actual decision-node permission. We will show the sealed preparation and every missing qualification before you choose. Restricted central and orderly island arrangements depend on base preservation and current safety. Distribution needs the additional actual work that has been visible since the glass city. A statement of support cannot complete that work.",
+        "sha256": "a0980d2903f6e8955a0b8e610db3f675360f6b0675d4865469d7ae2723dbe611"
+      },
+      {
+        "paragraph_id": "RF-QF04-L-DISPATCH-p02",
+        "literal_prefix": "Visitor:",
+        "speaker_id": "Visitor",
+        "source_start_scalar": 9,
+        "source_end_scalar": 460,
+        "text": "My short instruction identifies a direction, not a claim that the mist will disappear. I want to see the proposed action and its limits before committing it. If the system cannot reliably interpret my wording, I will confirm the structured action explicitly. That assistance should not be recorded as an assessed free-writing result. Dispatch officer: The preview is read-only. Closing it does not consume the sealed resources or issue another reward.",
+        "sha256": "77dc8d0478f317df0b4bdfe3bfbcb6724baadb0eab8f14f040c8e1e7ef2bd822"
+      },
+      {
+        "paragraph_id": "RF-QF04-L-DISPATCH-p03",
+        "literal_prefix": "Dispatch officer:",
+        "speaker_id": "Dispatch officer",
+        "source_start_scalar": 18,
+        "source_end_scalar": 509,
+        "text": "On confirmation, we commit the actual decision and an ending snapshot together. Later presentations read that snapshot rather than rewriting the six districts. A six-month card is a bounded account, not a guarantee. Earlier responsibility and the natural mist remain part of the result. You may skip the presentation without losing the committed ending, and you are not required to write another long essay to finish. Companion letters must match what actually happened in their own stories.",
+        "sha256": "b474d3504f7160f50a0030dc78acbef4df8064539a1ad06c18ebd5fc0abb90f8"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "bc9d876f13bf4e054e51130118276045bb89f8b5d650e0145c1a41eb957d82f6",
+    "bytes": 3845670
+  },
+  {
+    "material_id": "R1-ROOM-L-GUESTS",
+    "material_version": "R1-LIFE-20261010-v2",
+    "text_sha256": "2d199dea892312eadfc6ef4979ca3821bd291ed2cfc040fe8e759c73aa530b2d",
+    "speech_sha256": "53ed1b221b1bea1006ce45dc304232fd05206000b5af19e104725e18d9e43b41",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R1-ROOM-L-GUESTS-R1-LIFE-20261010-v2-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R1-ROOM-L-GUESTS.P1",
+        "literal_prefix": "Repairer:",
+        "speaker_id": "Repairer",
+        "source_start_scalar": 10,
+        "source_end_scalar": 117,
+        "text": "We are the two people on BKG-17. The ferry delay changed our arrival, not the number of beds we requested. ",
+        "sha256": "620a88a9f5d7c9e7e3487c78c08813907c3b8b7dd71f7456bbcc72c1adad3a66"
+      },
+      {
+        "paragraph_id": "R1-ROOM-L-GUESTS.P1",
+        "literal_prefix": "Innkeeper:",
+        "speaker_id": "Innkeeper",
+        "source_start_scalar": 128,
+        "source_end_scalar": 198,
+        "text": "I confirmed version 2 after your reply. It replaces the earlier date. ",
+        "sha256": "05709c47b43b4e16fceb3a8963c018304f6eec7f66a672eb24c5acd47b955644"
+      },
+      {
+        "paragraph_id": "R1-ROOM-L-GUESTS.P1",
+        "literal_prefix": "Traveller:",
+        "speaker_id": "Traveller",
+        "source_start_scalar": 209,
+        "source_end_scalar": 328,
+        "text": "My booking is BKG-22. I am travelling alone and need to enter without stairs. I have not asked for a quiet upper room. ",
+        "sha256": "d6b65cd2534c9cf9bafab2a1e1fbbde8681020d884dd4a7fe428309b7902776b"
+      },
+      {
+        "paragraph_id": "R1-ROOM-L-GUESTS.P1",
+        "literal_prefix": "Innkeeper:",
+        "speaker_id": "Innkeeper",
+        "source_start_scalar": 339,
+        "source_end_scalar": 436,
+        "text": "Then the old letter and its amendment belong together, while the single booking remains separate.",
+        "sha256": "17a6b8d7595fd9a5abd8132aaddae7926467cd2e9ae8e42c6a5ab21a6772aad3"
+      },
+      {
+        "paragraph_id": "R1-ROOM-L-GUESTS.P2",
+        "literal_prefix": "Repairer:",
+        "speaker_id": "Repairer",
+        "source_start_scalar": 10,
+        "source_end_scalar": 158,
+        "text": "Please keep the old promise visible when correcting the ledger. We do not want to receive the same compensation twice because you found two copies. ",
+        "sha256": "81e209c9293b577b3fc096bbee7a9d1bd082193c49cd69f2bf44b0226ead66d0"
+      },
+      {
+        "paragraph_id": "R1-ROOM-L-GUESTS.P2",
+        "literal_prefix": "Innkeeper:",
+        "speaker_id": "Innkeeper",
+        "source_start_scalar": 169,
+        "source_end_scalar": 441,
+        "text": "Once both groups have suitable rooms, I can record either a lodging discount in the inn's own account or one local information appointment. Neither option takes a main-task battery or another guest's bed. Choose the extra arrangement after the basic allocation is checked.",
+        "sha256": "13aeaf73126c3724db897c0a5f33501db7b5a31597c75ea756ebd7b10d77b0a4"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "38003671f856df359ed4abf4b1b65214745d6d150acb41a5486e34cf65da9dee",
+    "bytes": 2455510
+  },
+  {
+    "material_id": "R1-SHOW-L-CREW",
+    "material_version": "R1-LIFE-20261010-v2",
+    "text_sha256": "a73548e5bf1b83731a8d98cdb79fb210440b539fd54bc4445c95ad626113c375",
+    "speech_sha256": "cb15288d2990d84247c250a834f2029cbfd643c39520576766e750ff41beb20c",
+    "audio_version": "local-tts-1",
+    "voice": "Microsoft Zira Desktop - English (United States)",
+    "audio_path": "audio/regional/R1-SHOW-L-CREW-R1-LIFE-20261010-v2-local-tts-1.wav",
+    "segments": [
+      {
+        "paragraph_id": "R1-SHOW-L-CREW.P1",
+        "literal_prefix": "Stage organiser:",
+        "speaker_id": "Stage organiser",
+        "source_start_scalar": 17,
+        "source_end_scalar": 410,
+        "text": "We have two local performers for this programme. I can take the speaker's role. My colleague can operate the lamp for an indoor show or play the drum outdoors; those roles cannot be performed together by the same person. The full programme lasts thirty minutes and uses the indoor period from 18:00 to 18:30. The daylight version lasts fifteen minutes in the public period from 16:00 to 16:15.",
+        "sha256": "b8ec207e5d50f6ba30ea9d10b25e5556c576f26c26cea4a6ffdc44f46cf9cb8d"
+      },
+      {
+        "paragraph_id": "R1-SHOW-L-CREW.P2",
+        "literal_prefix": "Second performer:",
+        "speaker_id": "Second performer",
+        "source_start_scalar": 18,
+        "source_end_scalar": 281,
+        "text": "Please decide which programme we are actually preparing before moving the props. If you choose the daylight show, keep the lamp isolated and bring the screen and drum to the stage. If you choose the full show, finish the lamp test and put the screen in position. ",
+        "sha256": "3a6e357b3908f5ed4ff5398d39f408d77f51e2817776ece4f9da4acf16ad2f11"
+      },
+      {
+        "paragraph_id": "R1-SHOW-L-CREW.P2",
+        "literal_prefix": "Stage organiser:",
+        "speaker_id": "Stage organiser",
+        "source_start_scalar": 298,
+        "source_end_scalar": 465,
+        "text": "A shorter performance is acceptable. Calling it the full indoor programme would be misleading. The audience can choose to stay without being required to answer a quiz.",
+        "sha256": "db2b4bc2d39ceae354c3e7605f35c3554b525b79e8b212da96e09093937d9a70"
+      }
+    ],
+    "review_status": "rendered_candidate_not_auditioned",
+    "redistribution_rights": "pending_HV-004",
+    "audio_sha256": "2476ca9cbbf1b13e5da1b0dda08f7b1563661db2833f91e62068bbf8718e5699",
+    "bytes": 2406332
+  }
+]

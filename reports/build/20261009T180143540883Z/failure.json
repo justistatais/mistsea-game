@@ -1,0 +1,40 @@
+{
+  "error": "  Mist.Assist -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\services\\Mist.Assist\\bin\\Debug\\net10.0\\Mist.Assist.dll\r\n  Mist.Core -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Core\\bin\\Debug\\net10.0\\Mist.Core.dll\r\n  Mist.Application -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\bin\\Debug\\net10.0\\Mist.Application.dll\r\n  Mist.ContentCli -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\Mist.ContentCli\\bin\\Debug\\net10.0\\Mist.ContentCli.dll\r\n  Mist.ReviewCalibration -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\Mist.ReviewCalibration\\bin\\Debug\\net10.0\\Mist.ReviewCalibration.dll\r\n  Mist.Infrastructure -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\bin\\Debug\\net10.0\\Mist.Infrastructure.dll\r\n  MistSea -> C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\.godot\\mono\\temp\\bin\\Debug\\MistSea.dll\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(152,92): error CA1416: 可在所有平台上访问此调用站点。\"AccessRule.AccessControlType\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(152,53): error CA1416: 可在所有平台上访问此调用站点。\"AuthorizationRule.IdentityReference\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(153,68): error CA1416: 可在所有平台上访问此调用站点。\"FileSystemAccessRule.FileSystemRights\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(153,42): error CA1416: 可在所有平台上访问此调用站点。\"FileSystemAccessRule.FileSystemRights\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(153,18): error CA1416: 可在所有平台上访问此调用站点。\"FileSystemAccessRule.FileSystemRights\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(152,53): error CA1416: 可在所有平台上访问此调用站点。\"IdentityReference.Equals(object?)\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\n\r\n生成失败。\r\n\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(152,92): error CA1416: 可在所有平台上访问此调用站点。\"AccessRule.AccessControlType\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(152,53): error CA1416: 可在所有平台上访问此调用站点。\"AuthorizationRule.IdentityReference\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(153,68): error CA1416: 可在所有平台上访问此调用站点。\"FileSystemAccessRule.FileSystemRights\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(153,42): error CA1416: 可在所有平台上访问此调用站点。\"FileSystemAccessRule.FileSystemRights\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(153,18): error CA1416: 可在所有平台上访问此调用站点。\"FileSystemAccessRule.FileSystemRights\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\nC:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\WindowsRecovery\\WindowsRecoveryCases.cs(152,53): error CA1416: 可在所有平台上访问此调用站点。\"IdentityReference.Equals(object?)\" 仅在 'windows' 上受支持。 (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416) [C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj]\r\n    0 个警告\r\n    6 个错误\r\n\r\n已用时间 00:00:01.43\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T180143540883Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--locked-mode"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261009T180143540883Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "-c",
+        "Debug",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261009T180143540883Z/build.log"
+    }
+  ]
+}

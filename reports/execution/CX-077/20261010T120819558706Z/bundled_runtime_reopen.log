@@ -1,0 +1,11 @@
+{"argv": ["C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T120819558706Z\\MistSea-internal.exe", "--headless", "--", "--release-probe"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+MISTSEA_CLIENT_BOOT 0.1-internal
+MISTSEA_CAMPAIGN_BOOT
+MISTSEA_RELEASE_PROBE {"release":"mistsea-internal-0.1","scope":"normal_first_entry_candidate","scene":"R0-S01","experience":0,"marks":100,"receipt_count":2,"debug_driver_absent":true,"content":{"manifest_sha256":"4837ccd848773a86bccf1ccf5f52c43b71e339bfeef227ba42f98b66f2fad71a","verified_assets":80,"decoded_wave_tracks":50,"chapter_packages":8,"regional_voyages":5,"coverage":"packaged_bytes_and_decode_only"},"online_provider":"disabled","human_release_approval":"pending"}
+
+[stderr]
+WARNING: 'res://Main.tscn': In external resource #0, invalid UID: 'uid://bnj8cat1cbdbx' - using text path instead: 'res://Root.cs'.
+   at: open (core/io/resource_format_binary.cpp:1028)

@@ -1,0 +1,78 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe", "--headless", "--path", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\game", "--export-release", "Windows Desktop", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261009T175105891139Z\\MistSea-internal.exe"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started 正在注册全局类…… (6 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  14% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  28% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  42% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  57% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[  71% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1mdotnet_publish_project[22m | Started Publishing .NET project... (1 steps)[39m[0m
+[   0% ] [90m[1mdotnet_publish_project[22m | Running dotnet publish[39m[0m
+[92m[ DONE ][39m [1mdotnet_publish_project[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 打包中 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-beacon.wav-b256c2ea9df77b3481b0dc2643e66b29.sample[39m[0m
+[   1% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-beacon.wav.import[39m[0m
+[   5% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-bracket.wav-0db17901ec4091abad080ffa37c518bd.sample[39m[0m
+[   5% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-bracket.wav.import[39m[0m
+[   9% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-draft.wav-a7ebb1cb4599e3d6c3deac065c88b305.sample[39m[0m
+[   9% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-draft.wav.import[39m[0m
+[  13% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-draught.wav-b7c01ffd54172775c6fb7c3a7bff51d3.sample[39m[0m
+[  13% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-draught.wav.import[39m[0m
+[  17% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-interlock.wav-8cb1dcf6a9af3e9108452ae8f1301511.sample[39m[0m
+[  17% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-interlock.wav.import[39m[0m
+[  21% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-isolate.wav-7bc07cac0cbb2fee1d059f09b1e8089d.sample[39m[0m
+[  21% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-isolate.wav.import[39m[0m
+[  25% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-isolated.wav-68d54e27448634ce432d7ca3a74001eb.sample[39m[0m
+[  25% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-isolated.wav.import[39m[0m
+[  29% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-isolation.wav-25c432ce1b3191074dafb0bc4d48bd4f.sample[39m[0m
+[  29% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-isolation.wav.import[39m[0m
+[  33% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-operational.wav-c5175040da022407d57eaf23e579d7d2.sample[39m[0m
+[  33% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-operational.wav.import[39m[0m
+[  36% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-reserve.wav-a77f4c2b9e5deba5c8c4786508a3c9e0.sample[39m[0m
+[  36% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-reserve.wav.import[39m[0m
+[  40% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-subject.wav-e46d5639561c3908ce61fe15f652a2c4.sample[39m[0m
+[  40% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-subject.wav.import[39m[0m
+[  44% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-supersede.wav-2b3a7c8666c9a90ddb9d385d75ed3f5b.sample[39m[0m
+[  44% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-supersede.wav.import[39m[0m
+[  48% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/dictionary-supersedes.wav-5caf6416df8a49a09c29431767418f15.sample[39m[0m
+[  48% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/dictionary-supersedes.wav.import[39m[0m
+[  52% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-bcb0d2eb5949c52b6a65bfe9de3e985b-Main.scn[39m[0m
+[  56% ] [90m[1msavepack[22m | 正在保存文件：res://content/manifest.json[39m[0m
+[  60% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/LAB-L-001-0.1.wav-e10a41a712fcde40caf037b13dcf4343.sample[39m[0m
+[  60% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/LAB-L-001-0.1.wav.import[39m[0m
+[  64% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PZHOT-L-AMENDMENT-0.1.wav-4ec4ffecb1cd9ab08e81aacc6588b6f4.sample[39m[0m
+[  64% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/PZHOT-L-AMENDMENT-0.1.wav.import[39m[0m
+[  67% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PZLOAD-L-SEQUENCE-0.1.wav-04e0e10ba8d1cb33af32489ba65d610e.sample[39m[0m
+[  67% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/PZLOAD-L-SEQUENCE-0.1.wav.import[39m[0m
+[  71% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/PZMAP-L-DIRECTIONS-0.1.wav-142ebea6c2700e08342cb9f7a17320a0.sample[39m[0m
+[  71% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/PZMAP-L-DIRECTIONS-0.1.wav.import[39m[0m
+[  75% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/imported/Q102-L-REVISION-0.1.wav-447f92a4a506bbfd74d37acfe7ac5c2c.sample[39m[0m
+[  75% ] [90m[1msavepack[22m | 正在保存文件：res://content/audio/Q102-L-REVISION-0.1.wav.import[39m[0m
+[  79% ] [90m[1msavepack[22m | 正在保存文件：res://content/runtime_catalog.json[39m[0m
+[  83% ] [90m[1msavepack[22m | 正在保存文件：res://content/campaign/first_entry.json[39m[0m
+[  87% ] [90m[1msavepack[22m | 正在保存文件：res://content/chapter_one/chapter_one.json[39m[0m
+[  91% ] [90m[1msavepack[22m | 正在保存文件：res://content/vessel/vessel_interior.json[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://content/compile_result.json[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://Main.tscn.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/global_script_class_cache.cfg[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/uid_cache.bin[39m[0m
+[  95% ] [90m[1msavepack[22m | 正在保存文件：res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+
+[stderr]

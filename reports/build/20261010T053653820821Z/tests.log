@@ -1,0 +1,35 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-OPTIONAL-SIDEWELL-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-OPTIONAL-SIDEWELL-03",
+      "name": "Normal R3 source requires actual local authority, installed kit, rail control and persistent ladder before the separately inspected optional connection",
+      "result": "passed"
+    },
+    {
+      "task": "CP-OPTIONAL-SIDEWELL-03",
+      "name": "Actual inspected paired travel, original public readings and bounded local comparison register once without main evidence, extra sample, balances or items",
+      "result": "passed"
+    },
+    {
+      "task": "CP-OPTIONAL-SIDEWELL-03",
+      "name": "Copied unknown conditions or causal verdicts cannot submit; saved draft CAS and Continue invalidate old comparison previews",
+      "result": "passed"
+    },
+    {
+      "task": "CP-OPTIONAL-SIDEWELL-03",
+      "name": "A real pump revision expires a previously registered optional gate and requires current inspection while preserving the independent return ladder",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

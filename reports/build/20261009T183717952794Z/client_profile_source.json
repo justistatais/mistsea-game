@@ -1,0 +1,5 @@
+{
+  "source": "reports/build/20261009T183717952794Z/testdata/vessel-interior-actual-board-143f1ecd-5e7d-495d-9916-b98544730208/recovery/actual-vessel-interior.json",
+  "fixture": false,
+  "scope": "actual normal command route through Q104 and, for R2, actual voyage; engineering input, not a human playthrough"
+}

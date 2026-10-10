@@ -1,0 +1,14 @@
+{"argv": ["C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T105734640553Z\\MistSea-internal.exe", "--headless", "--", "--release-probe"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 5}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+MISTSEA_CLIENT_BOOT 0.1-internal
+MISTSEA_CAMPAIGN_BOOT
+
+[stderr]
+WARNING: 'res://Main.tscn': In external resource #0, invalid UID: 'uid://bnj8cat1cbdbx' - using text path instead: 'res://Root.cs'.
+   at: open (core/io/resource_format_binary.cpp:1028)
+MISTSEA_CAMPAIGN_ERROR System.IO.InvalidDataException: 导出包内容与编译清单不符：audio/Q102-L-REVISION-0.1.wav
+   at CampaignClient.VerifyBundledContent()
+   at CampaignClient.ReleaseProbe()
+   at CampaignClient._Ready()

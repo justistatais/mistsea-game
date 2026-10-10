@@ -1,0 +1,256 @@
+{
+  "review_kind": "read_only_failure_snapshot_diagnosis_not_test_execution",
+  "generated_utc": "2026-10-10T08:13:48.284287+00:00",
+  "suite": "reports/build/20261010T080353628121Z",
+  "suite_running": true,
+  "observed_failures": [
+    {
+      "case": "0242",
+      "task": "CX-065",
+      "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0242\\testdata\\chapter-one-normal-first-chapter-8e5148f8-cbae-4c2e-982d-b1738cff86ad\\recovery\\inventory-v2-f48e88b3-584f-4426-bf27-2e8e91e90e0d.sqlite",
+          "full_path_chars": 256,
+          "rollback_journal_chars": 264,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0247",
+      "task": "CX-049",
+      "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+      "first_error": "System.InvalidOperationException: 先实际完成侧闸或外闸的一条塔基通行处置；它不代替塔主机安全。",
+      "first_source_site": "at Mist.Tests.Storage.StorageCases.Done[T](ValueTask`1 value) in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Storage\\StorageCases.cs:line 19",
+      "empty_sqlite_candidates": []
+    },
+    {
+      "case": "0258",
+      "task": "CX-060",
+      "name": "Actual normal Q104 handover, physical berth inspection, three ship spaces and original workspaces share one persisted vessel",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0258\\testdata\\vessel-interior-actual-board-c232c3a8-60ff-419d-9d61-c09691f92752\\recovery\\inventory-v2-235737f4-57e8-402d-aae4-80900d6525cc.sqlite",
+          "full_path_chars": 252,
+          "rollback_journal_chars": 260,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0259",
+      "task": "CX-060",
+      "name": "A closed or stale boarding preview cannot move an actor or board a revised berth/other ship",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0259\\testdata\\vessel-interior-stale-preview-c76d2d5b-79de-483a-966e-cf9920120ae6\\recovery\\inventory-v2-65181f36-fa2e-452b-a48e-fa0377aea5e1.sqlite",
+          "full_path_chars": 253,
+          "rollback_journal_chars": 261,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0260",
+      "task": "CX-060",
+      "name": "Current foreground lease/event and Q604 checkpoint block ship movement without manufacturing placement",
+      "first_error": "System.InvalidOperationException: 先实际完成侧闸或外闸的一条塔基通行处置；它不代替塔主机安全。",
+      "first_source_site": "at Mist.Tests.Storage.StorageCases.Done[T](ValueTask`1 value) in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Storage\\StorageCases.cs:line 19",
+      "empty_sqlite_candidates": []
+    },
+    {
+      "case": "0261",
+      "task": "CX-060",
+      "name": "New ship geometry does not grant later-region berths or invent missing R1 physical station",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0261\\testdata\\vessel-interior-missing-placement-bc80ef4e-a1d7-4b66-8211-bf15503cb39c\\recovery\\inventory-v2-da1a1c77-7641-4c37-875a-65f4cb27af37.sqlite",
+          "full_path_chars": 257,
+          "rollback_journal_chars": 265,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0332",
+      "task": "CX-076",
+      "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<>c__DisplayClass52_0.<CreateMigrationCandidateAsync>b__0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.Recovery.cs:line 62",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0332\\testdata\\windows-recovery-invalid-migration-schema-2585150f40174f1585dda4e4f1223990\\recovery\\migration-ba30f813-9523-4dad-83ad-9c2fbe4c2956.sqlite",
+          "full_path_chars": 258,
+          "rollback_journal_chars": 266,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0334",
+      "task": "CX-076",
+      "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<>c__DisplayClass51_0.<RestoreBackupAsync>b__0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.Recovery.cs:line 42",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0334\\testdata\\windows-recovery-deleted-generation-ddb81f732c59467aabf534a93fc1ea27\\recovery\\candidate-347f173f-e987-4ba4-be44-ce885d06918c.sqlite",
+          "full_path_chars": 252,
+          "rollback_journal_chars": 260,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0335",
+      "task": "CX-076",
+      "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<>c__DisplayClass51_0.<RestoreBackupAsync>b__0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.Recovery.cs:line 42",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0335\\testdata\\windows-recovery-interrupted-recovery-c6da4d568d244c04b27fae90e6e60102\\recovery\\candidate-2dad9664-f252-4564-9ed3-c74f677c7f9a.sqlite",
+          "full_path_chars": 254,
+          "rollback_journal_chars": 262,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0366",
+      "task": "CP-R3-05",
+      "name": "Normal zero-XP actual R3 arrival preserves untouched local state for native client entry",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0366\\testdata\\chapter-three-normal-native-entry-df6f958e-a691-456a-8834-86179f9c6d78\\recovery\\inventory-v2-bc1a48b5-1f77-4afb-9876-f92f1e65fdd3.sqlite",
+          "full_path_chars": 257,
+          "rollback_journal_chars": 265,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0367",
+      "task": "CP-R3-05",
+      "name": "Continuous normal zero-XP through actual R2-R3 voyage and all four mining tasks uses no positive fixture",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0367\\testdata\\chapter-three-normal-complete-b278261a-a667-4a21-a8f4-10de334f6505\\recovery\\inventory-v2-e337cb60-c3f5-4b71-8a81-852231831a4b.sqlite",
+          "full_path_chars": 253,
+          "rollback_journal_chars": 261,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0368",
+      "task": "CP-OPTIONAL-MUSICBOX-05",
+      "name": "Actual normal arrival exports an untouched SQLite profile for native music-box controls",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0368\\testdata\\musicbox-normal-native-entry-2cc198e2-4c87-4473-b791-4e6730a6c0c4\\recovery\\inventory-v2-10b995f2-63bc-49f0-94d8-a9033ce22127.sqlite",
+          "full_path_chars": 252,
+          "rollback_journal_chars": 260,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0384",
+      "task": "CP-R4-03",
+      "name": "Continuous normal zero-XP voyage reaches all R4 tasks with no positive fixtures or inferred current mentor status",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0384\\testdata\\chapter-four-normal-complete-cfcc14c2-7674-4fa3-a8d1-1f905aeb0343\\recovery\\inventory-v2-e2ddd024-31aa-4613-997f-df6bb8af501a.sqlite",
+          "full_path_chars": 252,
+          "rollback_journal_chars": 260,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0406",
+      "task": "CP-R5-05",
+      "name": "Actual zero-XP mainline completes R5 with one vessel, one original case, alive mentor and bounded R6 commission",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0406\\testdata\\chapter-five-normal-complete-d6305663-4dbe-44fa-92ef-bf9f4a7ba4c5\\recovery\\inventory-v2-798ae9b5-739a-48ed-8aa3-0ba96c5f76fd.sqlite",
+          "full_path_chars": 252,
+          "rollback_journal_chars": 260,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0415",
+      "task": "CP-R6-03",
+      "name": "Committed physical procurement resumes after an actual after-commit failure and rejects a different finite batch",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0415\\testdata\\chapter-six-procurement-crash-b4ce54df-4537-434a-a145-d77c7a3c300e\\recovery\\inventory-v2-c19c8ebb-809b-4269-932e-1d11249cec4a.sqlite",
+          "full_path_chars": 253,
+          "rollback_journal_chars": 261,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0423",
+      "task": "CP-R6-03",
+      "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": [
+        {
+          "path": "reports\\build\\20261010T080353628121Z\\case_runs\\0423\\testdata\\chapter-six-normal-base-departure-80f3960a-776d-4221-b251-214ce7baed4b\\recovery\\inventory-v2-0f3f322e-f423-484b-a01d-0e0338e177a5.sqlite",
+          "full_path_chars": 257,
+          "rollback_journal_chars": 265,
+          "file_bytes": 0
+        }
+      ]
+    },
+    {
+      "case": "0424",
+      "task": "CP-R6-03",
+      "name": "Normal finite enhanced source chain and all six local permissions, tests and distinct signatures prepare distributed direction",
+      "first_error": "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file'.",
+      "first_source_site": "at Mist.Infrastructure.Storage.ProfileStore.<EnsureInventorySchemaAsync>b__39_0() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.InventoryMigration.cs:line 15",
+      "empty_sqlite_candidates": []
+    }
+  ],
+  "groups": {
+    "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file For more information on this error code see https://www.sqlite.org/rescode.html'.": 14,
+    "System.InvalidOperationException: 先实际完成侧闸或外闸的一条塔基通行处置；它不代替塔主机安全。": 2,
+    "Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: 'unable to open database file'.": 1
+  },
+  "storage_patch": "src/Mist.Infrastructure/Storage/SqliteSupport.cs Windows locking win32-longpath VFS",
+  "pending_regression": "tests/Mist.Tests/Storage/WindowsLongPathCases.cs.pending",
+  "registration": "WindowsLongPathCases.Register()",
+  "verification_not_run": true,
+  "sources": [
+    "https://www.sqlite.org/vfs.html",
+    "https://learn.microsoft.com/en-us/dotnet/standard/data/sqlite/connection-strings"
+  ],
+  "logical_pointer_and_schema_unchanged": true
+}

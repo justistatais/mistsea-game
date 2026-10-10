@@ -1,0 +1,47 @@
+{
+  "result": "prepared_not_uploaded",
+  "project_files": 43448,
+  "project_bytes": 12753201730,
+  "unique_blobs": 22011,
+  "unique_blob_bytes": 8290170311,
+  "git_original_files": 24225,
+  "git_original_bytes": 1552803674,
+  "archive": {
+    "path": "D:\\MistSeaGitHubUpload\\20261010-private\\release-assets-complete\\MistSea-complete-snapshot-20261010.zip",
+    "bytes": 1991407630,
+    "sha256": "fe7a3af4aa9aa55201fe1df2bd35d5379edc320a3e0a144c96bcaed5bed13573"
+  },
+  "repository_staging": "D:\\MistSeaGitHubUpload\\20261010-private\\repository-complete",
+  "release_assets": [
+    {
+      "name": "MistSea-complete-snapshot-20261010.zip.part001",
+      "bytes": 1048576000,
+      "sha256": "4cdd3a0de13d2ac86801c4d8aa89b35dedced2c81da2a6204266f5f3184a0bc6"
+    },
+    {
+      "name": "MistSea-complete-snapshot-20261010.zip.part002",
+      "bytes": 942831630,
+      "sha256": "8c264f9408ab193cbe138ab3bf797790124f91b4ef0f248a3fb1f7bb6e55e500"
+    },
+    {
+      "name": "MistSea-internal-20261010T121240000513Z.zip",
+      "bytes": 198278823,
+      "sha256": "ae3b82c555d51e73157531bca1bac6d2a969883552a0ccea7d3f1677f20668cb"
+    },
+    {
+      "name": "MistSea_Full_Design_and_Codex_v0.1.zip",
+      "bytes": 10396545,
+      "sha256": "0c1deb877b97329c5e37cc3127575c47b967ab029b8e95f7a71ecf74e82ccfea"
+    },
+    {
+      "name": "full-snapshot-manifest.json",
+      "bytes": 15769230,
+      "sha256": "812b461d9cec3560bc7e48cd672facfcc9c007b6389194821743e886d11abb69"
+    }
+  ],
+  "extra_release_asset": "SHA256SUMS.txt",
+  "current_release_zip": "MistSea-internal-20261010T121240000513Z.zip",
+  "source_unchanged_size_and_mtime": true,
+  "source_file_and_directory_sets_unchanged": true,
+  "secret_findings": 0
+}

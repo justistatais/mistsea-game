@@ -1,0 +1,17 @@
+{
+  "human_signoff": null,
+  "progress": {
+    "registered": 576,
+    "completed": 426,
+    "failed": 17,
+    "workers": 3
+  },
+  "reason": "Known Windows SQLite journal path limit fixed in sources; full suite must restart from fresh compilation",
+  "scope": "Interrupted obsolete compiled suite after actual deep-path failures; never qualifies as a completed suite",
+  "children": [
+    26476,
+    2316,
+    17792
+  ],
+  "parent": 10476
+}

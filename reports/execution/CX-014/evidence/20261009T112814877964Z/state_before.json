@@ -1,0 +1,727 @@
+{
+  "version": "0.1",
+  "note": "用户已授权连续开发；工程证据逐项记录，人工与发布Gate不代签。verified候选按reports/continuous/Scope_20261009.md继续开发。",
+  "tasks": {
+    "CX-001": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-001.json",
+      "review": {
+        "reviewer": "Codex /root（工程证据复核，非真人签核）",
+        "decision": "accepted",
+        "reviewed_at": "2026-10-09T15:57:35+08:00"
+      }
+    },
+    "CX-002": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-002.json",
+      "review": {
+        "reviewer": "Codex /root（工具链工程自检，非真人签核）",
+        "decision": "accepted",
+        "reviewed_at": "2026-10-09T18:06:05.832896+08:00"
+      }
+    },
+    "CX-003": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-003.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "accepted"
+      }
+    },
+    "CX-004": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-004.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "accepted"
+      }
+    },
+    "CX-005": {
+      "status": "accepted",
+      "evidence": "reports/execution/CX-005.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "accepted"
+      }
+    },
+    "CX-006": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-006.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-007": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-007.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-008": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-008.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-009": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-009.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-010": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-010.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-011": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-011.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-012": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-012.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-013": {
+      "status": "verified",
+      "evidence": "reports/execution/CX-013.json",
+      "review": {
+        "reviewer": "Codex /root（工程自检，无真人签核）",
+        "decision": "engineering_verified_pending_dependencies"
+      }
+    },
+    "CX-014": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-015": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-016": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-017": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-018": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-019": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-020": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-021": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-022": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-023": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-024": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-025": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-026": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-027": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-028": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-029": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-030": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-031": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-032": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-033": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-034": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-035": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-036": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-037": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-038": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-039": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-040": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-041": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-042": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-043": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-044": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-045": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-046": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-047": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-048": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-049": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-050": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-051": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-052": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-053": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-054": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-055": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-056": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-057": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-058": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-059": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-060": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-061": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-062": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-063": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-064": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-065": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-066": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-067": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-068": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-069": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-070": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-071": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-072": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-073": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-074": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-075": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-076": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-077": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-078": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-079": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CX-080": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R0-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R1-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R2-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R3-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R4-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R5-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-R6-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-01": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-02": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-03": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-04": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-05": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "CP-RF-06": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-001": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-002": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-003": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-004": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-005": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-006": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-007": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    },
+    "HV-008": {
+      "status": "not_started",
+      "evidence": null,
+      "review": null
+    }
+  }
+}

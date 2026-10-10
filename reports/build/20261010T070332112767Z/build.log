@@ -1,0 +1,26 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "build", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "-c", "Debug", "--no-restore"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+  Mist.Assist -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\services\Mist.Assist\bin\Debug\net10.0\Mist.Assist.dll
+  Mist.Core -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Core\bin\Debug\net10.0\Mist.Core.dll
+  Mist.ContentCli -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\Mist.ContentCli\bin\Debug\net10.0\Mist.ContentCli.dll
+  Mist.Application -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\bin\Debug\net10.0\Mist.Application.dll
+  Mist.ReviewCalibration -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\Mist.ReviewCalibration\bin\Debug\net10.0\Mist.ReviewCalibration.dll
+  Mist.Infrastructure -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Infrastructure\bin\Debug\net10.0\Mist.Infrastructure.dll
+  Mist.Tests -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\bin\Debug\net10.0\Mist.Tests.dll
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\Diagnostics\Root.VesselLifeClientTests.cs(29,23): error CS0104: “Environment”是“Godot.Environment”和“System.Environment”之间的不明确的引用 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\UI\Shell\Root.LinaPersonalWork.cs(90,6): error CS0120: 对象引用对于非静态的字段、方法或属性“Root.Label(Node, string, int)”是必需的 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\UI\Shell\Root.LinaPersonalWork.cs(104,82): error CS0104: “Environment”是“Godot.Environment”和“System.Environment”之间的不明确的引用 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\UI\Shell\Root.LinaPersonalWork.cs(104,108): error CS0104: “Environment”是“Godot.Environment”和“System.Environment”之间的不明确的引用 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+
+生成失败。
+
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\Diagnostics\Root.VesselLifeClientTests.cs(29,23): error CS0104: “Environment”是“Godot.Environment”和“System.Environment”之间的不明确的引用 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\UI\Shell\Root.LinaPersonalWork.cs(90,6): error CS0120: 对象引用对于非静态的字段、方法或属性“Root.Label(Node, string, int)”是必需的 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\UI\Shell\Root.LinaPersonalWork.cs(104,82): error CS0104: “Environment”是“Godot.Environment”和“System.Environment”之间的不明确的引用 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\UI\Shell\Root.LinaPersonalWork.cs(104,108): error CS0104: “Environment”是“Godot.Environment”和“System.Environment”之间的不明确的引用 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+    0 个警告
+    4 个错误
+
+已用时间 00:00:12.76
+
+[stderr]

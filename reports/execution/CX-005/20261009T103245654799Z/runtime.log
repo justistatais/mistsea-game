@@ -1,0 +1,7 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe", "--headless", "--path", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate", "--", "--candidate-save"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+MISTSEA_CANDIDATE_RESULTS {"saved":true,"path":"C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103245654799Z\\draft.sqlite","provider":"Microsoft.Data.Sqlite, Version=10.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60","network_provider_configured":false}
+
+[stderr]

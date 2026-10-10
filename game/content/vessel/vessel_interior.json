@@ -1,0 +1,71 @@
+{
+  "version": "glimmer-interior-candidate-1",
+  "scope": "shared_glimmer_interior_candidate",
+  "scenes": [
+    {
+      "id": "HUB-S01", "walk": { "left": 5, "top": 20, "right": 95, "bottom": 94 },
+      "blocked": [{ "left": 40, "top": 42, "right": 58, "bottom": 60 }], "danger": [],
+      "ports": [{ "id": "HUB-S01.to.HUB-S02", "target_scene": "HUB-S02", "target_port": "HUB-S02.to.HUB-S01", "stand": { "x": 82, "y": 76 } }],
+      "spots": [
+        { "id": "HUB-S01.gangway", "stand": { "x": 20, "y": 82 }, "purpose": "当前合法泊位的登离船站位" },
+        { "id": "HUB-S01.deckwatch", "stand": { "x": 26, "y": 58 }, "purpose": "N-DECKWATCH 值守船员" },
+        { "id": "HUB-S01.harbor_view", "stand": { "x": 65, "y": 28 }, "purpose": "观察同一船当前停靠地区" }
+      ]
+    },
+    {
+      "id": "HUB-S02", "walk": { "left": 5, "top": 20, "right": 95, "bottom": 94 },
+      "blocked": [{ "left": 35, "top": 42, "right": 51, "bottom": 63 }], "danger": [],
+      "ports": [
+        { "id": "HUB-S02.to.HUB-S01", "target_scene": "HUB-S01", "target_port": "HUB-S01.to.HUB-S02", "stand": { "x": 14, "y": 80 } },
+        { "id": "HUB-S02.to.HUB-S03", "target_scene": "HUB-S03", "target_port": "HUB-S03.to.HUB-S02", "stand": { "x": 83, "y": 78 } }
+      ],
+      "spots": [
+        { "id": "HUB-S02.archive", "stand": { "x": 20, "y": 34 }, "purpose": "已经实际取得的材料原件" },
+        { "id": "HUB-S02.correspondence", "stand": { "x": 57, "y": 35 }, "purpose": "已取得来信，不新增导师当前事实" },
+        { "id": "HUB-S02.draft_desk", "stand": { "x": 72, "y": 56 }, "purpose": "当前分支规范草稿入口，保存不执行" },
+        { "id": "HUB-S02.chart", "stand": { "x": 72, "y": 28 }, "purpose": "已有航路与泊位；未登记目的地不能起航" }
+      ]
+    },
+    {
+      "id": "HUB-S03", "walk": { "left": 5, "top": 20, "right": 95, "bottom": 94 },
+      "blocked": [{ "left": 33, "top": 39, "right": 59, "bottom": 61 }], "danger": [],
+      "ports": [{ "id": "HUB-S03.to.HUB-S02", "target_scene": "HUB-S02", "target_port": "HUB-S02.to.HUB-S03", "stand": { "x": 16, "y": 82 } }],
+      "spots": [
+        { "id": "HUB-S03.collection", "stand": { "x": 74, "y": 62 }, "purpose": "真实唯一收藏实例和当前归属" },
+        { "id": "HUB-S03.workbench", "stand": { "x": 75, "y": 34 }, "purpose": "受控装备与改件工作区" },
+        { "id": "HUB-S03.roster", "stand": { "x": 71, "y": 80 }, "purpose": "现有同伴与援勤安排，不自动招募" },
+        { "id": "HUB-S03.work_orders", "stand": { "x": 24, "y": 34 }, "purpose": "实际工程工作单；查看不推进安装" }
+      ]
+    }
+  ],
+  "stations": [
+    { "scene": "HUB-S01", "spot": "HUB-S01.gangway", "kind": "gangway", "label": "登离船口" },
+    { "scene": "HUB-S01", "spot": "HUB-S01.deckwatch", "kind": "deckwatch", "label": "值守船员" },
+    { "scene": "HUB-S01", "spot": "HUB-S01.harbor_view", "kind": "harbor_view", "label": "当前停靠地" },
+    { "scene": "HUB-S02", "spot": "HUB-S02.archive", "kind": "archive", "label": "材料档案" },
+    { "scene": "HUB-S02", "spot": "HUB-S02.correspondence", "kind": "correspondence", "label": "已取得来信" },
+    { "scene": "HUB-S02", "spot": "HUB-S02.draft_desk", "kind": "draft_desk", "label": "草稿桌" },
+    { "scene": "HUB-S02", "spot": "HUB-S02.chart", "kind": "chart", "label": "航图" },
+    { "scene": "HUB-S03", "spot": "HUB-S03.collection", "kind": "collection", "label": "装备收藏" },
+    { "scene": "HUB-S03", "spot": "HUB-S03.workbench", "kind": "workbench", "label": "检修工作台" },
+    { "scene": "HUB-S03", "spot": "HUB-S03.roster", "kind": "roster", "label": "队伍安排" },
+    { "scene": "HUB-S03", "spot": "HUB-S03.work_orders", "kind": "work_orders", "label": "工程工作单" }
+  ],
+  "sources": [
+    "docs/baseline/Exploration_Level_Design_v0.1.md §9.9：三个共享空间、相邻双向连接、基础功能不要求升级、只从当前合法泊位出入。",
+    "docs/baseline/NPC_Faction_System_v0.1.md §2.2/§6：N-DECKWATCH 是独立船务岗位，拒绝莉娜不锁船务；同伴身份唯一。",
+    "docs/baseline/World_Story_Bible_v0.1.md §8.2：修理、来信、生活与档案；实际冒险形成变化。",
+    "docs/integration/MASTER_GDD_v0.1.md §6/§10：个人收藏与工程分池；物品唯一；所有真实动作经版本核对及事务。"
+  ],
+  "original_local_details": [
+    "本包为新增可审查灰盒，基线没有冻结船内碰撞、站位坐标；这里明确制作三个实际导航空间，没有补写船身升级或剧情结果。",
+    "R1实际登船检查使用ChapterOneService的R1-S01.glimmer_handover站位；只有实际Q104移交与当前船泊地一致才产生本泊位检查回执。",
+    "船舱工作区只查询已取得材料、当前分支稿头、实物收藏、人物安排和工程工作单；工位存在不表示对应写操作已接入。"
+  ],
+  "remaining": [
+    "真实Godot入口与船舱站位交互由客户端接入后验证；本候选不替代原生、IME、200%字号及玩家体验验收。",
+    "PartyService当前装备/采购安全点为R1-S02/R1-S03；HUB-S03工位的实际装备修改需要正式受控接口接入，现只读收藏。",
+    "后续地区靠泊与航路尚未生产，R2/RF不能由此包开放；现有TravelService继续核验真实来源。",
+    "未制作船体改造、个人线通信、生活演出、正式美术与音轨；未作人工语言6.5校准。"
+  ]
+}

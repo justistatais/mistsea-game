@@ -1,0 +1,55 @@
+{
+  "task_id": "CX-009",
+  "scope": "逐类导入第3—11部分参考数据，保留来源及旧ID，采用第七部分真实奖励映射。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "未认识字段不能默认为0",
+      "status": "passed",
+      "evidence": "Unknown source-field negative case rejects instead of defaulting"
+    },
+    {
+      "criterion": "REWARD-*-TBD必须映射或阻断",
+      "status": "passed",
+      "evidence": "Removed real reward-map entry rejects; 32 rewards sum to source 19140 XP"
+    },
+    {
+      "criterion": "英文正文逐字符/哈希守恒",
+      "status": "passed",
+      "evidence": "Nine adapters and every original paragraph checked character for character"
+    },
+    {
+      "criterion": "作者解答不进入普通材料投影",
+      "status": "passed",
+      "evidence": "Projection excludes illustrative_response, answer_key and meaning_requirements"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-009",
+        "name": "Nine source adapters preserve English text and real reward mapping",
+        "result": "passed"
+      },
+      {
+        "task": "CX-009",
+        "name": "Unknown source fields and unmapped legacy rewards are rejected",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-008"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

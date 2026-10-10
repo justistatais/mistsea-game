@@ -1,0 +1,11 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "build", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\SqliteProbe.csproj", "-c", "Release", "--no-restore"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+  SqliteProbe -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\spikes\toolchain\SqliteProbe\bin\Release\net10.0\win-x64\SqliteProbe.dll
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:06.69
+
+[stderr]

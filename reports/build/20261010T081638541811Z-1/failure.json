@@ -1,0 +1,25 @@
+{
+  "error": "Command failed: tests; full output: C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T081638541811Z-1\\tests.log\n{\r\n  \"scope\": \"executed C# code tests\",\r\n  \"executed\": 1,\r\n  \"failed\": 1,\r\n  \"results\": [\r\n    {\r\n      \"task\": \"CX-076\",\r\n      \"name\": \"Windows deep Unicode profile migrates backups restores and reopens with rollback journals beyond MAX_PATH\",\r\n      \"result\": \"failed\",\r\n      \"detail\": \"Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 14: \\u0027unable to open database file\\u0027.\\r\\n   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)\\r\\n   at Microsoft.Data.Sqlite.SqliteConnectionInternal..ctor(SqliteConnectionStringBuilder connectionOptions, SqliteConnectionPool pool)\\r\\n   at Microsoft.Data.Sqlite.SqliteConnectionFactory.GetConnection(SqliteConnection outerConnection)\\r\\n   at Microsoft.Data.Sqlite.SqliteConnection.Open()\\r\\n   at Mist.Infrastructure.Storage.SqliteSupport.Open(String path, Boolean readOnly, Int32 timeoutSeconds) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\src\\\\Mist.Infrastructure\\\\Storage\\\\SqliteSupport.cs:line 20\\r\\n   at Mist.Infrastructure.Storage.ProfileStore..ctor(String root, String releaseId, Action\\u00601 fault, String recoveryBackupId) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\src\\\\Mist.Infrastructure\\\\Storage\\\\ProfileStore.cs:line 37\\r\\n   at Mist.Tests.Storage.WindowsLongPathCases.\\u003C\\u003Ec.\\u003CRegister\\u003Eb__5_0() in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\Storage\\\\WindowsLongPathCases.cs:line 31\\r\\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\\\Users\\\\20594\\\\Documents\\\\ChatGPT\\\\\\u8BBE\\u8BA1\\u6E38\\u620F\\\\MistSea_AllInOne_v0.1\\\\tests\\\\Mist.Tests\\\\TestRegistry.cs:line 34\"\r\n    }\r\n  ],\r\n  \"sqlite_version\": \"3.53.3\",\r\n  \"dotnet_runtime\": \"10.0.12\",\r\n  \"process_architecture\": \"X64\",\r\n  \"human_signoff\": null\r\n}\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T081638541811Z-1/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+        "--task=CX-076",
+        "--case-index=35"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261010T081638541811Z-1/tests.log"
+    }
+  ]
+}

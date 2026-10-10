@@ -1,0 +1,3007 @@
+{
+  "content_version": "r2-author-candidate-1",
+  "title": "第二章：被删去的名字 / The Names Left Out",
+  "scope": "authoring_candidate_not_runtime",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "runtime_status": "not_integrated_not_playable",
+  "player_projection": true,
+  "target_bands": {
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5
+  },
+  "target_band_status": "authoring_target_human_calibration_pending",
+  "scenes": [
+    {
+      "id": "R2-S01",
+      "name_zh": "林缘接驳站",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R2-S01.to.R2-S02",
+          "target_scene": "R2-S02",
+          "target_port": "R2-S02.to.R2-S01",
+          "stand": {
+            "x": 88,
+            "y": 88
+          },
+          "gate": "public_landing"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S01.berth",
+          "stand": {
+            "x": 48,
+            "y": 90
+          },
+          "purpose_zh": "微光号登陆与返程泊位"
+        },
+        {
+          "id": "R2-S01.arrival",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "跨区委托核对与接应登记"
+        },
+        {
+          "id": "R2-S01.guide",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "住地引导告示"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-S02",
+      "name_zh": "修院庭院",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 40,
+          "top": 35,
+          "right": 59,
+          "bottom": 52
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R2-S02.to.R2-S01",
+          "target_scene": "R2-S01",
+          "target_port": "R2-S01.to.R2-S02",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "public_landing"
+        },
+        {
+          "id": "R2-S02.to.R2-S03",
+          "target_scene": "R2-S03",
+          "target_port": "R2-S03.to.R2-S02",
+          "stand": {
+            "x": 88,
+            "y": 88
+          },
+          "gate": "public_path"
+        },
+        {
+          "id": "R2-S02.to.R2-S04",
+          "target_scene": "R2-S04",
+          "target_port": "R2-S04.to.R2-S02",
+          "stand": {
+            "x": 88,
+            "y": 32
+          },
+          "gate": "basic_archive_identity"
+        },
+        {
+          "id": "R2-S02.to.R2-S05",
+          "target_scene": "R2-S05",
+          "target_port": "R2-S05.to.R2-S02",
+          "stand": {
+            "x": 12,
+            "y": 32
+          },
+          "gate": "public_greenhouse_corridor"
+        },
+        {
+          "id": "R2-S02.to.R2-S08",
+          "target_scene": "R2-S08",
+          "target_port": "R2-S08.to.R2-S02",
+          "stand": {
+            "x": 50,
+            "y": 88
+          },
+          "gate": "local_station_stable_and_tower_work_permit"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S02.june",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "琼的当前公共接应工作"
+        },
+        {
+          "id": "R2-S02.request",
+          "stand": {
+            "x": 72,
+            "y": 59
+          },
+          "purpose_zh": "修院工作请求"
+        },
+        {
+          "id": "R2-S02.public_board",
+          "stand": {
+            "x": 24,
+            "y": 32
+          },
+          "purpose_zh": "发布台与公示副本"
+        },
+        {
+          "id": "R2-S02.delivery",
+          "stand": {
+            "x": 73,
+            "y": 73
+          },
+          "purpose_zh": "受托交接台与送达回执"
+        },
+        {
+          "id": "R2-S02.dinner",
+          "stand": {
+            "x": 50,
+            "y": 70
+          },
+          "purpose_zh": "供能恢复后的公共晚餐"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-S03",
+      "name_zh": "临时住地",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 40,
+          "top": 30,
+          "right": 61,
+          "bottom": 51
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R2-S03.to.R2-S02",
+          "target_scene": "R2-S02",
+          "target_port": "R2-S02.to.R2-S03",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "public_path"
+        },
+        {
+          "id": "R2-S03.to.R2-S07",
+          "target_scene": "R2-S07",
+          "target_port": "R2-S07.to.R2-S03",
+          "stand": {
+            "x": 88,
+            "y": 90
+          },
+          "gate": "inner_room_latch_open"
+        },
+        {
+          "id": "R2-S03.to.R2-O01",
+          "target_scene": "R2-O01",
+          "target_port": "R2-O01.to.R2-S03",
+          "stand": {
+            "x": 88,
+            "y": 32
+          },
+          "gate": "private_letter_invitation_or_discovered_public_threshold"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S03.living_a",
+          "stand": {
+            "x": 24,
+            "y": 36
+          },
+          "purpose_zh": "A住区公共门廊"
+        },
+        {
+          "id": "R2-S03.living_b",
+          "stand": {
+            "x": 73,
+            "y": 36
+          },
+          "purpose_zh": "B住区公共门廊"
+        },
+        {
+          "id": "R2-S03.living_c",
+          "stand": {
+            "x": 24,
+            "y": 65
+          },
+          "purpose_zh": "C住区公共门廊"
+        },
+        {
+          "id": "R2-S03.ration",
+          "stand": {
+            "x": 73,
+            "y": 62
+          },
+          "purpose_zh": "当期口粮计数页"
+        },
+        {
+          "id": "R2-S03.address",
+          "stand": {
+            "x": 50,
+            "y": 70
+          },
+          "purpose_zh": "公共住区索引"
+        },
+        {
+          "id": "R2-S03.witness_one",
+          "stand": {
+            "x": 28,
+            "y": 78
+          },
+          "purpose_zh": "值餐人第一份证词抄记"
+        },
+        {
+          "id": "R2-S03.witness_two",
+          "stand": {
+            "x": 74,
+            "y": 78
+          },
+          "purpose_zh": "接应人第二份证词抄记"
+        },
+        {
+          "id": "R2-S03.w04",
+          "stand": {
+            "x": 70,
+            "y": 54
+          },
+          "purpose_zh": "W-04局部同意交谈，需私人邀请"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-S04",
+      "name_zh": "名册阅览室",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 40,
+          "top": 33,
+          "right": 60,
+          "bottom": 55
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R2-S04.to.R2-S02",
+          "target_scene": "R2-S02",
+          "target_port": "R2-S02.to.R2-S04",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "basic_archive_identity"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S04.access",
+          "stand": {
+            "x": 24,
+            "y": 66
+          },
+          "purpose_zh": "基础调阅登记"
+        },
+        {
+          "id": "R2-S04.roll",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose_zh": "现行名册与住区比较表"
+        },
+        {
+          "id": "R2-S04.m12_order",
+          "stand": {
+            "x": 74,
+            "y": 34
+          },
+          "purpose_zh": "M-12原始出发记录"
+        },
+        {
+          "id": "R2-S04.m12_arrival",
+          "stand": {
+            "x": 74,
+            "y": 60
+          },
+          "purpose_zh": "M-12原始接收记录"
+        },
+        {
+          "id": "R2-S04.d1_handover",
+          "stand": {
+            "x": 25,
+            "y": 80
+          },
+          "purpose_zh": "D-1交接单受控查验"
+        },
+        {
+          "id": "R2-S04.signature",
+          "stand": {
+            "x": 50,
+            "y": 70
+          },
+          "purpose_zh": "历史方案签名页受控查验"
+        },
+        {
+          "id": "R2-S04.batch",
+          "stand": {
+            "x": 74,
+            "y": 80
+          },
+          "purpose_zh": "矿区检修批次索引"
+        },
+        {
+          "id": "R2-S04.scope",
+          "stand": {
+            "x": 74,
+            "y": 46
+          },
+          "purpose_zh": "访问范围申请与字段选择"
+        },
+        {
+          "id": "R2-S04.mira",
+          "stand": {
+            "x": 24,
+            "y": 50
+          },
+          "purpose_zh": "米拉专业联络与可选邀请"
+        },
+        {
+          "id": "R2-S04.w04_copy",
+          "stand": {
+            "x": 50,
+            "y": 88
+          },
+          "purpose_zh": "W-04受控副本交付"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-S05",
+      "name_zh": "旧温室",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 41,
+          "top": 30,
+          "right": 59,
+          "bottom": 50
+        }
+      ],
+      "danger": [
+        {
+          "id": "R2-S05.root-route-threat",
+          "area": {
+            "left": 68,
+            "top": 72,
+            "right": 94,
+            "bottom": 92
+          },
+          "active_until_receipt": "ENC-R2-01:controlled"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R2-S05.to.R2-S02",
+          "target_scene": "R2-S02",
+          "target_port": "R2-S02.to.R2-S05",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "public_greenhouse_corridor"
+        },
+        {
+          "id": "R2-S05.to.R2-S06",
+          "target_scene": "R2-S06",
+          "target_port": "R2-S06.to.R2-S05",
+          "stand": {
+            "x": 88,
+            "y": 88
+          },
+          "gate": "onsite_inspection_and_root_route_safe"
+        },
+        {
+          "id": "R2-S05.to.R2-O02",
+          "target_scene": "R2-O02",
+          "target_port": "R2-O02.to.R2-S05",
+          "stand": {
+            "x": 12,
+            "y": 32
+          },
+          "gate": "public_planting_entry"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S05.water",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose_zh": "水路与旧温室供给说明"
+        },
+        {
+          "id": "R2-S05.root_route",
+          "stand": {
+            "x": 62,
+            "y": 67
+          },
+          "purpose_zh": "根道威胁入口与撤回点"
+        },
+        {
+          "id": "R2-S05.maintenance",
+          "stand": {
+            "x": 24,
+            "y": 66
+          },
+          "purpose_zh": "地方检修条件核对"
+        },
+        {
+          "id": "R2-S05.meal_feed",
+          "stand": {
+            "x": 49,
+            "y": 68
+          },
+          "purpose_zh": "晚餐回路实际验收"
+        },
+        {
+          "id": "R2-S05.stock",
+          "stand": {
+            "x": 74,
+            "y": 34
+          },
+          "purpose_zh": "本地固定检修料柜"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-S06",
+      "name_zh": "转供站上层",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 36,
+          "top": 32,
+          "right": 56,
+          "bottom": 50
+        }
+      ],
+      "danger": [
+        {
+          "id": "R2-S06.wet-live-floor",
+          "area": {
+            "left": 65,
+            "top": 76,
+            "right": 94,
+            "bottom": 94
+          },
+          "active_until_receipt": "R2:upper-route-safe"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R2-S06.to.R2-S05",
+          "target_scene": "R2-S05",
+          "target_port": "R2-S05.to.R2-S06",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "onsite_inspection_and_root_route_safe"
+        },
+        {
+          "id": "R2-S06.to.R2-S07",
+          "target_scene": "R2-S07",
+          "target_port": "R2-S07.to.R2-S06",
+          "stand": {
+            "x": 88,
+            "y": 90
+          },
+          "gate": "upper_route_safe_current"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S06.old_diagram",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose_zh": "旧式本地运行图"
+        },
+        {
+          "id": "R2-S06.new_interlock",
+          "stand": {
+            "x": 73,
+            "y": 34
+          },
+          "purpose_zh": "后加中央联锁标牌"
+        },
+        {
+          "id": "R2-S06.isolate",
+          "stand": {
+            "x": 24,
+            "y": 62
+          },
+          "purpose_zh": "输送器隔离手柄"
+        },
+        {
+          "id": "R2-S06.conveyor",
+          "stand": {
+            "x": 62,
+            "y": 59
+          },
+          "purpose_zh": "失控输送器处置入口"
+        },
+        {
+          "id": "R2-S06.root_clamp",
+          "stand": {
+            "x": 61,
+            "y": 67
+          },
+          "purpose_zh": "外部根系常规固定"
+        },
+        {
+          "id": "R2-S06.drain",
+          "stand": {
+            "x": 49,
+            "y": 72
+          },
+          "purpose_zh": "手动排水旁路"
+        },
+        {
+          "id": "R2-S06.water_gauge",
+          "stand": {
+            "x": 60,
+            "y": 72
+          },
+          "purpose_zh": "积水与零能状态现场复查"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-S07",
+      "name_zh": "转供站机房",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 41,
+          "top": 33,
+          "right": 59,
+          "bottom": 53
+        }
+      ],
+      "danger": [
+        {
+          "id": "R2-S07.root-core-zone",
+          "area": {
+            "left": 65,
+            "top": 68,
+            "right": 94,
+            "bottom": 86
+          },
+          "active_until_receipt": "ENC-R2-03:controlled_or_objective_secured"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R2-S07.to.R2-S06",
+          "target_scene": "R2-S06",
+          "target_port": "R2-S06.to.R2-S07",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "upper_route_safe_current"
+        },
+        {
+          "id": "R2-S07.to.R2-S03",
+          "target_scene": "R2-S03",
+          "target_port": "R2-S03.to.R2-S07",
+          "stand": {
+            "x": 88,
+            "y": 90
+          },
+          "gate": "inner_room_latch_open"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S07.local_panel",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose_zh": "本地供能规程"
+        },
+        {
+          "id": "R2-S07.branch_a",
+          "stand": {
+            "x": 62,
+            "y": 62
+          },
+          "purpose_zh": "A支路阀外侧检查"
+        },
+        {
+          "id": "R2-S07.branch_b",
+          "stand": {
+            "x": 76,
+            "y": 62
+          },
+          "purpose_zh": "B支路阀外侧检查"
+        },
+        {
+          "id": "R2-S07.core_entry",
+          "stand": {
+            "x": 60,
+            "y": 69
+          },
+          "purpose_zh": "缠根核心处置入口与撤回点"
+        },
+        {
+          "id": "R2-S07.backup",
+          "stand": {
+            "x": 24,
+            "y": 62
+          },
+          "purpose_zh": "本地备用源座"
+        },
+        {
+          "id": "R2-S07.selector",
+          "stand": {
+            "x": 49,
+            "y": 65
+          },
+          "purpose_zh": "有限负荷选择"
+        },
+        {
+          "id": "R2-S07.test",
+          "stand": {
+            "x": 24,
+            "y": 79
+          },
+          "purpose_zh": "当前配置供能试验"
+        },
+        {
+          "id": "R2-S07.inner_latch",
+          "stand": {
+            "x": 74,
+            "y": 88
+          },
+          "purpose_zh": "住地回程门内闩"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-S08",
+      "name_zh": "苔冠塔值守层",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 42,
+          "top": 34,
+          "right": 60,
+          "bottom": 54
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R2-S08.to.R2-S02",
+          "target_scene": "R2-S02",
+          "target_port": "R2-S02.to.R2-S08",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "local_station_stable_and_tower_work_permit"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-S08.duty",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose_zh": "当班人员与许可范围"
+        },
+        {
+          "id": "R2-S08.isolation_check",
+          "stand": {
+            "x": 74,
+            "y": 34
+          },
+          "purpose_zh": "塔站当前隔离与防护核查"
+        },
+        {
+          "id": "R2-S08.return_check",
+          "stand": {
+            "x": 24,
+            "y": 65
+          },
+          "purpose_zh": "实际安全出入与返程点核验"
+        },
+        {
+          "id": "R2-S08.boundary",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "支站与塔站边界回执签发"
+        },
+        {
+          "id": "R2-S08.future_work",
+          "stand": {
+            "x": 50,
+            "y": 71
+          },
+          "purpose_zh": "第二塔后续保全施工点"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-O01",
+      "name_zh": "回信小屋",
+      "classification": "optional",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R2-O01.to.R2-S03",
+          "target_scene": "R2-S03",
+          "target_port": "R2-S03.to.R2-O01",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "private_letter_invitation_or_discovered_public_threshold"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-O01.letter",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose_zh": "本人许可的回信草稿"
+        },
+        {
+          "id": "R2-O01.reply",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "暂存、简短确认或重写台"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R2-O02",
+      "name_zh": "冬季试种地",
+      "classification": "optional",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R2-O02.to.R2-S05",
+          "target_scene": "R2-S05",
+          "target_port": "R2-S05.to.R2-O02",
+          "stand": {
+            "x": 12,
+            "y": 88
+          },
+          "gate": "public_planting_entry"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R2-O02.seed_note",
+          "stand": {
+            "x": 24,
+            "y": 34
+          },
+          "purpose_zh": "两种冬季试种配置说明"
+        },
+        {
+          "id": "R2-O02.allocation",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "公开试种布局与记录台"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    }
+  ],
+  "connections": [
+    {
+      "a": "R2-S01",
+      "b": "R2-S02",
+      "paired_ports": [
+        "R2-S01.to.R2-S02",
+        "R2-S02.to.R2-S01"
+      ],
+      "gate": "public_landing",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S02",
+      "b": "R2-S03",
+      "paired_ports": [
+        "R2-S02.to.R2-S03",
+        "R2-S03.to.R2-S02"
+      ],
+      "gate": "public_path",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S02",
+      "b": "R2-S04",
+      "paired_ports": [
+        "R2-S02.to.R2-S04",
+        "R2-S04.to.R2-S02"
+      ],
+      "gate": "basic_archive_identity",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S02",
+      "b": "R2-S05",
+      "paired_ports": [
+        "R2-S02.to.R2-S05",
+        "R2-S05.to.R2-S02"
+      ],
+      "gate": "public_greenhouse_corridor",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S05",
+      "b": "R2-S06",
+      "paired_ports": [
+        "R2-S05.to.R2-S06",
+        "R2-S06.to.R2-S05"
+      ],
+      "gate": "onsite_inspection_and_root_route_safe",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S06",
+      "b": "R2-S07",
+      "paired_ports": [
+        "R2-S06.to.R2-S07",
+        "R2-S07.to.R2-S06"
+      ],
+      "gate": "upper_route_safe_current",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S07",
+      "b": "R2-S03",
+      "paired_ports": [
+        "R2-S07.to.R2-S03",
+        "R2-S03.to.R2-S07"
+      ],
+      "gate": "inner_room_latch_open",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S02",
+      "b": "R2-S08",
+      "paired_ports": [
+        "R2-S02.to.R2-S08",
+        "R2-S08.to.R2-S02"
+      ],
+      "gate": "local_station_stable_and_tower_work_permit",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S03",
+      "b": "R2-O01",
+      "paired_ports": [
+        "R2-S03.to.R2-O01",
+        "R2-O01.to.R2-S03"
+      ],
+      "gate": "private_letter_invitation_or_discovered_public_threshold",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    },
+    {
+      "a": "R2-S05",
+      "b": "R2-O02",
+      "paired_ports": [
+        "R2-S05.to.R2-O02",
+        "R2-O02.to.R2-S05"
+      ],
+      "gate": "public_planting_entry",
+      "source": "Exploration_Level_Design_v0.1.md:406-415"
+    }
+  ],
+  "safe_anchor_candidates": [
+    {
+      "scene": "R2-S01",
+      "spot": "R2-S01.berth",
+      "requires": "actual_landing_registration"
+    },
+    {
+      "scene": "R2-S02",
+      "spot": "R2-S02.june",
+      "requires": "actual_local_reception"
+    },
+    {
+      "scene": "R2-S08",
+      "spot": "R2-S08.return_check",
+      "requires": "actual_current_tower_safety_and_safe_route"
+    }
+  ],
+  "materials": [
+    {
+      "id": "R2-Q201-R-LANDING",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "接驳台：到港另有记录",
+      "quest_ref": "Q-201",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S01",
+        "spot": "R2-S01.guide"
+      },
+      "source_root": "r2-landing-desk",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[7]",
+        "World_Story_Bible_v0.1.md:420",
+        "Exploration_Level_Design_v0.1.md:391-393"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R2-Q201-R-LANDING-p01",
+          "en": "Leave the Glimmer at the marked berth while the landing clerk checks your vessel record and the cross-district commission. Registering here establishes an arrival and a route back to this landing. It does not give access to private rooms or restricted names.",
+          "zh": "请把微光号停在标记泊位，由接驳员核对船只记录与跨区核查委托。此处登记记录一次实际到港，并建立返回这个接驳站的路线。私人房间与受限姓名另有访问范围。"
+        },
+        {
+          "id": "R2-Q201-R-LANDING-p02",
+          "en": "The public path leads to the priory courtyard. June can arrange a meeting there and direct visitors to the residential porches. Please use the public room codes when making notes. Residents may speak for themselves, ask a custodian to relay a request, or decline an interview.",
+          "zh": "公共通路通往修院庭院。琼可在那里安排会面，并引导访客前往住区门廊。做笔记时请使用公开房间代码。住民可以亲自说明、请保管人转达请求，也可以拒绝访谈。"
+        },
+        {
+          "id": "R2-Q201-R-LANDING-p03",
+          "en": "The greenhouse corridor is open to visitors. The inspection stair below it remains a work area. A patrol credential identifies your role; the local maintenance request specifies the equipment you may handle. Ask for that scope before entering the stair.",
+          "zh": "温室外廊向访客开放，其下方的检修梯仍是工作区域。巡灯凭证说明职业身份；地方检修请求说明允许操作的设备。进入检修梯前请先取得这项范围。"
+        }
+      ],
+      "english_word_count": 128
+    },
+    {
+      "id": "R2-Q201-R-REQUEST",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "修院请求：饭食、住处与记录",
+      "quest_ref": "Q-201",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-S02",
+        "spot": "R2-S02.request"
+      },
+      "source_root": "r2-june-local-request",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[7]",
+        "World_Story_Bible_v0.1.md:420",
+        "Exploration_Level_Design_v0.1.md:391-393"
+      ],
+      "original_local_details": [
+        "24-person local cohort; room codes A/B/C; not baseline-wide population counts"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q201-R-REQUEST-p01",
+          "en": "There are people eating here whose current official entries say that they have died or moved away. A label in the register has affected deliveries, although the kitchens still have to serve the people who arrive. June requests a limited check of the difference. The work covers this priory's twenty-four-person residential group during the present chapter stage; it is not a census of the forest or proof that every missing person has been found.",
+          "zh": "这里有人正在吃饭，现行官方名册却给他们标注了死亡或迁出。名册标签影响配送，厨房仍须为实际来到的人供餐。琼请求核查两者的差异。范围限于本章节阶段住在修院的二十四人住区组；这不是全林人口普查，也不能证明所有失踪者都已找到。"
+        },
+        {
+          "id": "R2-Q201-R-REQUEST-p02",
+          "en": "Begin at the public porches for rooms A, B and C. Record the people who voluntarily confirm that they live there. The ration sheet reports portions prepared and collected. The room index reports where this group is accommodated. Neither sheet alone proves that a particular person is present. Compare them with the witnessed visits and the current register, retaining the date and purpose of each record.",
+          "zh": "请到A、B、C区公共门廊，记录自愿确认居住于此的人。口粮页记的是准备和领取份数，房间索引记的是这组人被安置在哪里。任何一张表都不能单独证明某人实际在场。把两表、现场走访和现行名册相互比较，并保留各记录日期和用途。"
+        },
+        {
+          "id": "R2-Q201-R-REQUEST-p03",
+          "en": "Basic archive access may be registered for this check. Names in protected attachments require a separate request, a stated purpose and a permitted recipient. Keep the public room codes in your working summary. No resident has agreed to publication merely by accepting a meal or answering a question.",
+          "zh": "本次查验可以登记基础档案访问。受保护附页中的姓名须另外申请，说明用途与接收方。工作摘要使用公开房间代码。领取饭食或回答问题均未构成同意公开身份。"
+        },
+        {
+          "id": "R2-Q201-R-REQUEST-p04",
+          "en": "June also requests inspection of the greenhouse supply stair. This permits the local handles, fixed repair cabinet and transfer-station circuits described in the maintenance notice. It does not authorise changing the tower's central interlock. Bring back a factual difference report and the equipment boundary before asking the local desk to issue the next work scope.",
+          "zh": "琼还请求检查温室供给检修梯。允许范围是告示列明的地方手柄、固定料柜和转供站回路，未包括改动塔站中央联锁。请把实际差异与设备边界带回地方工作台，再申请下一步工作范围。"
+        }
+      ],
+      "english_word_count": 243
+    },
+    {
+      "id": "R2-Q201-R-RATION",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "厨房领取页",
+      "quest_ref": "Q-201",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S03",
+        "spot": "R2-S03.ration"
+      },
+      "source_root": "r2-kitchen-original-count",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[7]",
+        "World_Story_Bible_v0.1.md:420",
+        "Exploration_Level_Design_v0.1.md:391-393"
+      ],
+      "original_local_details": [
+        "A=8/B=10/C=6 portions"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q201-R-RATION-p01",
+          "en": "Present-stage kitchen sheet, local group A–C. Room A: eight portions prepared, eight collected. Room B: ten prepared, ten collected. Room C: six prepared, six collected. Total: twenty-four prepared and twenty-four collected. Collection was recorded by the serving desk, using room codes agreed for public work.",
+          "zh": "本阶段厨房页，地方A—C住区组。A区：准备八份、领取八份；B区：准备十份、领取十份；C区：准备六份、领取六份。总计准备二十四份、领取二十四份。供餐台使用已经约定用于公共工作的房间代码记录领取。"
+        },
+        {
+          "id": "R2-Q201-R-RATION-p02",
+          "en": "These figures count portions, not independent sightings of twenty-four people. A neighbour may collect for someone who is resting. The residential porch check records voluntary confirmation of residence separately. Please retain both types of record; correcting a register does not require publishing a resident's private name.",
+          "zh": "这些数字计算口粮份数，并非二十四次独立见到本人。有人休息时，邻居可能代领。住区门廊查验另外记录本人自愿确认的居住情况。请保留两类记录；更正名册无需公开私人姓名。"
+        },
+        {
+          "id": "R2-Q201-R-RATION-p03",
+          "en": "The collection sheet was written at the kitchen desk. A copy filed in the reading room has the same source. It may replace an unavailable copy for access, but it does not supply a second witness.",
+          "zh": "领取页原稿写于厨房台。阅览室存档副本与它同源，可以作为查阅副本，不能增加一名证人。"
+        }
+      ],
+      "english_word_count": 128
+    },
+    {
+      "id": "R2-Q201-R-ROOMS",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "公共住区索引",
+      "quest_ref": "Q-201",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S03",
+        "spot": "R2-S03.address"
+      },
+      "source_root": "r2-residential-placement-index",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[7]",
+        "World_Story_Bible_v0.1.md:420",
+        "Exploration_Level_Design_v0.1.md:391-393"
+      ],
+      "original_local_details": [
+        "24 administrative entries; 3 dead / 5 moved / 16 neither; motive unknown"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q201-R-ROOMS-p01",
+          "en": "Accommodation index for the same local group: A has eight assigned places, B ten and C six. The index uses public room codes rather than private street addresses. Each assignment states where a place was offered; the porch visit states whether its resident currently confirms living here.",
+          "zh": "同一地方住区组的安置索引：A区八个安置位，B区十个，C区六个。索引使用公开房间代码，不列私人街道住址。安置记录说明曾提供的位置；门廊走访说明当事人现在是否确认住在此处。"
+        },
+        {
+          "id": "R2-Q201-R-ROOMS-p02",
+          "en": "In the official register, three entries in this group carry a death label and five a moved-away label. Sixteen have no such label. The administrative labels were copied into the current roll before this visit. The index does not establish why those labels were applied.",
+          "zh": "官方名册中，这组人有三项死亡标签、五项迁出标签，其余十六项没有这两类标签。行政标签在本次走访前抄入了现行名册。索引没有记载为什么加上这些标签。"
+        },
+        {
+          "id": "R2-Q201-R-ROOMS-p03",
+          "en": "Record a disagreement between sources as a disagreement. A voluntary conversation at the public porch can establish present residence for this check. It cannot establish someone's location throughout the intervening years, the whereabouts of another family member, or consent to release a protected attachment.",
+          "zh": "不同来源的矛盾应按矛盾记录。公共门廊的自愿交谈可以确认本次查验的当前居住情况，不能说明此前多年每一阶段去向、其他亲属位置或公开受保护附页的同意。"
+        }
+      ],
+      "english_word_count": 136
+    },
+    {
+      "id": "R2-Q202-R-ACCESS",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "阅览室访问条款",
+      "quest_ref": "Q-202",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.access"
+      },
+      "source_root": "r2-archive-access-rule",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[8]",
+        "World_Story_Bible_v0.1.md:421,431-435",
+        "part05.json:$.curriculum[8]"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R2-Q202-R-ACCESS-p01",
+          "en": "The reading room offers a basic set of public records for the registered priory check. It includes room codes, record dates, duties and version references. Permission to read this set is tied to the purpose recorded at the access desk. A later request to publish or to inspect a protected identity is a separate decision.",
+          "zh": "阅览室为已登记的修院查验提供一组公共记录，包含房间代码、记录日期、职能和版本来源。阅读许可对应访问台登记的用途。后续公开资料或查看受保护身份，需要另作决定。"
+        },
+        {
+          "id": "R2-Q202-R-ACCESS-p02",
+          "en": "For a restricted attachment, name the record version, the fields required, the recipient and the intended use. June acts as custodian of the room. She can arrange controlled inspection and record an authorised handover. Holding the key to an attachment does not make her the person entitled to consent on behalf of every individual named there. Consent to publish a person's identity must be given by that person for the specified recipient and use.",
+          "zh": "申请受限附页时，请说明版本、必要字段、接收方和用途。琼是阅览室保管人，可以安排受控查验、记录获准交付，但持有钥匙并未使她有权代所有当事人同意。公开某人的身份须由本人对具体接收方与用途明确同意。"
+        },
+        {
+          "id": "R2-Q202-R-ACCESS-p03",
+          "en": "Copies retain the source reference of their original. A departure entry copied into a ledger remains the departure officer's record. An arrival written by the receiving officer at the receiving site has its own source. Keep the two references visible when describing what has been checked.",
+          "zh": "副本沿用原稿来源。出发记录抄入总账后仍是出发记录员的记录；接收员在接收现场写下的到达记录另有来源。说明查验结果时，应保留两个来源标识。"
+        },
+        {
+          "id": "R2-Q202-R-ACCESS-p04",
+          "en": "The public work register remains open if an identity request is declined. You may request a redacted copy, arrange an inspection through the custodian, or pause the identity request and continue the public inquiry. Reviewers must still be able to check material public facts and the records supporting them. Private details should be separated from that route rather than used to prevent all scrutiny.",
+          "zh": "身份申请被拒后，公共工作记录仍开放。可以申请脱敏副本、经保管人安排查验，或暂缓身份申请后继续公共调查。必要公共事实及支持记录仍须能被审查；私人细节应与这条核查路径分开。"
+        }
+      ],
+      "english_word_count": 239
+    },
+    {
+      "id": "R2-Q202-R-D1",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "D−1看管交接摘录",
+      "quest_ref": "Q-202",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.d1_handover"
+      },
+      "source_root": "r2-d1-receiving-custody-original",
+      "access_class": "controlled_review",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[8]",
+        "World_Story_Bible_v0.1.md:421,431-435",
+        "part05.json:$.curriculum[8]"
+      ],
+      "original_local_details": [
+        "F-17 is a local authoring alias only; no mapping to future location"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q202-R-D1-p01",
+          "en": "Transfer TR-D1-7, version 1. Controlled extract from the receiving officer's custody handover record. The record is dated D−1 relative to the opening blackout. It identifies Mara Venn by the protected identification reference checked at the archive desk. The receiving officer recorded her as alive when custody was handed over. The destination is written as facility code F-17. No public site name or current address is supplied on this extract.",
+          "zh": "转移TR-D1-7，第1版。接收员看管交接原稿的受控摘录，日期为开场熄灯前一天D−1。摘录用阅览台核对过的受保护身份索引识别玛拉·维恩。接收员记下她在看管交接时仍然活着。目的地写作设施代码F-17，本摘录没有公开地点名称或现行地址。"
+        },
+        {
+          "id": "R2-Q202-R-D1-p02",
+          "en": "The arrival condition was entered at the receiving end of the handover. A departure copy attached later records the same transfer from the sending end, but the two sheets do not establish any observation after D−1. The archive desk has checked the record identifier, the dated handover and the relationship between the extract and its restricted original. A custodian can arrange a controlled recheck without distributing the identity attachment.",
+          "zh": "接收端记录了交接时状态。后来附上的出发副本记录同一次转移的发送端；两张记录都没有D−1之后的观察。阅览台核对了记录编号、日期以及摘录与受限原稿关系。保管人可安排受控复核，无需分发身份附页。"
+        },
+        {
+          "id": "R2-Q202-R-D1-p03",
+          "en": "This record provides a dated observation. When writing about it, retain the date, the source and the point at which the observation was made. The extract contains no later release, interview or live message from Mara. The facility code is a direction for further investigation, not a verified present location.",
+          "zh": "这是有日期的现场观察。写作时应保留日期、来源和观察环节。摘录没有玛拉此后的获释记录、访谈或实时消息。设施代码为进一步调查提供方向，尚不能确认目前所在地点。"
+        },
+        {
+          "id": "R2-Q202-R-D1-p04",
+          "en": "M-12, the separate local transfer used in the ordering exercise, has its own reference and receiving desk. It concerns another transfer. Keep those files separate even when the same worksheet is used to practise distinguishing departure, arrival and copying. The archive has supplied copies for examination; these copies preserve their original sources rather than adding new witnesses.",
+          "zh": "用于排序练习的地方转移M-12另有编号和接收台，记录另一件转移。即使共用练习工作表，也应把两套文件分开。档案提供查验副本，副本保留原始来源，不增加证人数量。"
+        }
+      ],
+      "english_word_count": 247
+    },
+    {
+      "id": "R2-Q202-R-COHORT",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "地方住区组核查前后",
+      "quest_ref": "Q-202",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.roll"
+      },
+      "source_root": "r2-register-original-audit-table",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[8]",
+        "World_Story_Bible_v0.1.md:421,431-435",
+        "part05.json:$.curriculum[8]"
+      ],
+      "original_local_details": [
+        "visual data3/5/16 within Q201 local cohort; actual live rows require separate porch receipts"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q202-R-COHORT-p01",
+          "en": "The table concerns the twenty-four entries checked in this priory, not all evacuees. The first column groups entries by the label on the current official roll. The second records voluntary confirmation at the public porches in the present chapter stage. Grouping uses room codes so that the comparison can be reviewed without names.",
+          "zh": "本表限于修院核查过的二十四项记录，并非所有转移人员。第一列按现行官方名册标签分组，第二列记录本章节阶段在公共门廊自愿确认居住的人数。比较使用房间代码，可以不具名审阅。"
+        },
+        {
+          "id": "R2-Q202-R-COHORT-p02",
+          "en": "Death-labelled entries: 3 on the roll, 3 currently confirmed residents. Moved-away entries: 5 on the roll, 5 currently confirmed residents. Entries with neither label: 16 on the roll, 16 currently confirmed residents. Total: 24 entries and 24 confirmed residents.",
+          "zh": "死亡标签：名册三项，目前确认住民三人。迁出标签：名册五项，目前确认住民五人。两标签均无：名册十六项，目前确认住民十六人。总计二十四项记录、二十四名确认住民。"
+        },
+        {
+          "id": "R2-Q202-R-COHORT-p03",
+          "en": "The columns describe different measures: an administrative classification and a dated residence check. The figures do not explain the original reasons for classification. Record the mismatch, the scope of this group and the limit on interpretation. Preserve the evidence references for later review.",
+          "zh": "两列衡量不同对象：行政分类与有日期的居住核查。数字没有解释最初分类原因。应记录差异、住区组范围和解释限制，并保留证据来源。"
+        }
+      ],
+      "english_word_count": 135
+    },
+    {
+      "id": "R2-Q203-R-WATER",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "温室供给与检修梯",
+      "quest_ref": "Q-203",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-S05",
+        "spot": "R2-S05.water"
+      },
+      "source_root": "r2-greenhouse-water-maintenance-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[9]",
+        "World_Story_Bible_v0.1.md:422,427-429",
+        "Exploration_Level_Design_v0.1.md:395-398"
+      ],
+      "original_local_details": [
+        "one uniquely tagged clamp and reserve connector; no engineering-ledger credit"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q203-R-WATER-p01",
+          "en": "The greenhouse supplies the priory kitchen and the public wash taps through two small local circuits. Water from the inspection stair has entered the upper transfer floor. Roots have also grown around the stopped conveyor. The public corridor remains usable. The stair may be opened for the locally commissioned inspection once the root-route threat is controlled and the stair boundary has been checked on site.",
+          "zh": "温室通过两条小型地方回路供应修院厨房与公共洗水龙头。检修梯的水已流入转供站上层，根系缠住了停转的输送器。公共外廊仍可使用。根道威胁实际处置、检修梯边界现场核对后，地方检修委托可以开放下行。"
+        },
+        {
+          "id": "R2-Q203-R-WATER-p02",
+          "en": "The repair cabinet contains one tagged clamp set and one fixed reserve connector for this station. Record their tags when collecting them. These are local maintenance items. The reserve connector fits the station's existing backup seat; it is not a tower backup pack, the Glimmer's battery or personal crafting scrap. The clamp is kept for this inspection and may be repositioned while the conveyor remains isolated.",
+          "zh": "检修料柜有一套带标签夹具和一个本站固定备用连接头。领取时记录标签。二者均是地方检修物件。连接头适配本站既有备用源座，不是塔站备用包、微光号电池或个人制作零件。夹具留给这次检修，输送器隔离时可以重置位置。"
+        },
+        {
+          "id": "R2-Q203-R-WATER-p03",
+          "en": "Use the existing hand-operated drain after checking that the conveyor is isolated. The water gauge is read at the upper-floor stand. A drain action and a safe gauge reading are separate records. If the conveyor supply or clamp position changes, repeat the affected safety check before crossing the wet floor. Returning along a route already made safe does not require collecting another clamp.",
+          "zh": "确认输送器隔离后，使用既有手动排水装置。积水表须在上层站位读取。排水动作与安全读数分别记录。输送器供电或夹具位置改变后，跨越湿区前应重做受影响检查。沿已安全路线返程，无需再领夹具。"
+        },
+        {
+          "id": "R2-Q203-R-WATER-p04",
+          "en": "Keep the greenhouse beds intact where a safe sample or mechanical clearance permits work. The kitchen feed will need a later load test from the machine room. Opening the stair establishes a route for inspection; it does not establish local power, tower safety or permission to change the central interlock.",
+          "zh": "安全取样或机械清理可以完成工作时，应保留种植床。厨房回路还须由机房完成负荷试验。打开检修梯只建立查验路线，未证明本地供能或塔站安全，也未许可改动中央联锁。"
+        }
+      ],
+      "english_word_count": 244
+    },
+    {
+      "id": "R2-Q203-R-OLD",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "旧图：两条本地支路",
+      "quest_ref": "Q-203",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-S06",
+        "spot": "R2-S06.old_diagram"
+      },
+      "source_root": "r2-old-local-drawing-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[9]",
+        "World_Story_Bible_v0.1.md:422,427-429",
+        "Exploration_Level_Design_v0.1.md:395-398"
+      ],
+      "original_local_details": [
+        "reserve6/kitchen4/pump3 fictional local units, separate from six-tower quantities"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q203-R-OLD-p01",
+          "en": "The older drawing shows a local reserve source feeding two branches through a hand selector. Branch A serves the kitchen lamps and serving counter. Branch B serves the greenhouse wash pump. The reserve source is protected by the original local cut-off. Its operating labels are still attached to the machine-room seat and must be checked there before a test.",
+          "zh": "旧图画出一个地方备用源，经手动选择器为两支路供能。A支路服务厨房照明与供餐台，B支路服务温室洗水泵。备用源保留原有地方切断装置，源座上的运行标签须在机房现场核对后才能试验。"
+        },
+        {
+          "id": "R2-Q203-R-OLD-p02",
+          "en": "For the present local work segment, the cabinet notice rates the tested reserve at six load units. The kitchen branch needs four units and the wash pump three. These are the station's own fictional planning units; they are not hours of fuel or a conversion into personal marks. Each branch can be served within the limit. A simultaneous request for both would total seven units. The selector has an alternating position as well as individual A and B positions.",
+          "zh": "当前地方工作段备用源能力列为六个负荷单位。厨房需要四，洗水泵需要三。这是虚构设施的规划单位，不是燃料小时，也不能折算刻币。各支路单独运行均在限制内；同时运行两条则合计七。选择器设交替档以及独立A、B档。"
+        },
+        {
+          "id": "R2-Q203-R-OLD-p03",
+          "en": "The drawing's former tower outlet is crossed out on the inspection copy. The later interlock plate identifies that outlet as outside the current local work scope. Trace both drawings at the actual selector; choose only the local branches authorised for this inspection. A correct sketch does not change the physical selector.",
+          "zh": "查验副本中旧塔站出口已划去。后加联锁标牌将它列在本次范围之外。应在实际选择器处对照两图，仅选择获准的地方支路。画对草图不会改变真实档位。"
+        },
+        {
+          "id": "R2-Q203-R-OLD-p04",
+          "en": "Record which branch was tested, the selector revision and the observed load. A successful test supports operation at that configuration and scope. Changing the selector or reserve connection requires a fresh test. The drawing demonstrates a local arrangement that can be inspected; it does not list the equipment, crew or supply needed to convert the modern tower.",
+          "zh": "记录所测试支路、选择器修订状态与实际负荷。成功试验只支持对应配置与范围；改动档位或备用接线后须重新试验。旧图提供地方运行结构，没有列出现代塔站改造所需设备、人员与供给。"
+        }
+      ],
+      "english_word_count": 246
+    },
+    {
+      "id": "R2-Q203-R-INTERLOCK",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "后加标牌：标明工作边界",
+      "quest_ref": "Q-203",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S06",
+        "spot": "R2-S06.new_interlock"
+      },
+      "source_root": "r2-central-interlock-retrofit-plate",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[9]",
+        "World_Story_Bible_v0.1.md:422,427-429",
+        "Exploration_Level_Design_v0.1.md:395-398"
+      ],
+      "original_local_details": [
+        "IL-2 local plate version alias"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q203-R-INTERLOCK-p01",
+          "en": "Later interlock plate, inspection version IL-2. The tower outlet passes through central locking equipment added after the local drawing was made. This inspection authorises the local reserve seat, the kitchen branch and the greenhouse wash branch. The tower outlet remains outside that scope.",
+          "zh": "后加联锁标牌，查验版IL-2。塔站出口经过旧图制作后增设的中央锁定设备。本次范围包括地方备用源座、厨房支路和温室洗水支路，未包括塔站出口。"
+        },
+        {
+          "id": "R2-Q203-R-INTERLOCK-p02",
+          "en": "Isolate the conveyor at its existing handle before touching the external winding, using the manual drain or removing a guard. Check the stopped mechanism and the water gauge at the marked stands. A page in the archive cannot perform those checks.",
+          "zh": "接触外部缠绕、使用手动排水或拆护罩前，应在既有手柄处隔离输送器，并在标记站位检查停转机构与积水表。档案文字不能代替现场检查。"
+        },
+        {
+          "id": "R2-Q203-R-INTERLOCK-p03",
+          "en": "The local selector can be tested without releasing the central tower lock. A successful small-station test will support a request to visit the tower duty layer for a current safety inspection. It will not certify the modern tower for independent operation, allocate a conversion crew or fill any six-tower engineering account.",
+          "zh": "地方选择器可以在不解除塔站中央锁定的情况下试验。小支站成功试验后，可申请前往塔站值守层核查当前安全；此结果没有认证现代塔站独立运行，没有分配改造班组，也不填入六塔工程账。"
+        }
+      ],
+      "english_word_count": 135
+    },
+    {
+      "id": "R2-Q203-R-PANEL",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "机房试验记录页",
+      "quest_ref": "Q-203",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-S07",
+        "spot": "R2-S07.local_panel"
+      },
+      "source_root": "r2-machine-room-operating-notice",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[9]",
+        "World_Story_Bible_v0.1.md:422,427-429",
+        "Exploration_Level_Design_v0.1.md:395-398"
+      ],
+      "original_local_details": [
+        "sample/mechanical procedures need actual execution"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q203-R-PANEL-p01",
+          "en": "Inspect the two branch valves from their marked outer stands. The root core surrounds their shared return and may move when the conveyor restarts. Before entering the treatment zone, keep the conveyor isolated, identify both blocked branches and choose the stated sample or mechanical procedure. The local crew can assist under the inspection commission whether or not Mira has joined your travelling party.",
+          "zh": "在标记外侧站位检查两条支路阀。缠根核心围住共同回流处，输送器重启时可能活动。进入处置区前应保持输送器隔离，识别两条受阻支路，并选用告示列明的取样或机械程序。地方委托可以提供协作，米拉是否加入旅行队伍均不影响这项协作。"
+        },
+        {
+          "id": "R2-Q203-R-PANEL-p02",
+          "en": "Both methods retain the greenhouse beds and leave a checkable result at the valves. Sampling secures the affected root section while its reaction is controlled; mechanical treatment secures the return and clears the external winding. Merely selecting a method does not produce a clearance receipt. The actual encounter or work procedure must reach its safe objective, after which the branch stands can be inspected again.",
+          "zh": "两种方法均保留种植床，并在阀处留下可核查结果。取样方法在控制反应时固定根段；机械方法固定回流并清除外部缠绕。选择方法本身不产生回执。实际遭遇或工作程序达到安全目标后，方可重新检查支路。"
+        },
+        {
+          "id": "R2-Q203-R-PANEL-p03",
+          "en": "Seat the tagged reserve connector while the source is isolated. The kitchen requires four of the source's six load units; the wash pump requires three. The authorised settings are a single local branch or an alternating cycle which has no overlap. The tower outlet remains locked. An individual kitchen test and an alternating test can each demonstrate a valid local configuration, provided their actual records show the corresponding load and stops.",
+          "zh": "备用源隔离时座好带标签连接头。源能力六单位，厨房需四、洗水泵需三。获准档位是单一地方支路，或不重叠交替运行。塔站出口保持锁定。实际记录含相应负荷与停转检查时，厨房单独试验或交替试验均可证明有效地方配置。"
+        },
+        {
+          "id": "R2-Q203-R-PANEL-p04",
+          "en": "The machine room has an inner latch leading back to the residential passage. Open it from this side once the local route is safe. This gives another physical way home. A valid local test, a tower work permit and a current tower inspection remain distinct records, all of which can be reviewed before the chapter's safety report is issued.",
+          "zh": "机房内闩通向住区。地方路线安全后，从本侧打开可增加实际返程路线。地方有效试验、塔站工作许可和塔站当前安全检查仍是三份不同记录，均可在签发章节安全报告前复核。"
+        }
+      ],
+      "english_word_count": 258
+    },
+    {
+      "id": "R2-Q203-R-TOWER",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "苔冠塔值守层访问",
+      "quest_ref": "Q-203",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S08",
+        "spot": "R2-S08.duty"
+      },
+      "source_root": "r2-mosswatch-current-duty-register",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[9]",
+        "World_Story_Bible_v0.1.md:422,427-429",
+        "Exploration_Level_Design_v0.1.md:395-398",
+        "part07.json:$.engineering.towers[1]",
+        "part09.json:$.regional_mandates[1]"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R2-Q203-R-TOWER-p01",
+          "en": "This permit covers the duty layer, the marked inspection stands and the return passage. The operator will compare the current isolation indicators, protected access and duty register with the local-station test receipt. Record what is inspected here rather than copying the machine-room result into a tower-safety field.",
+          "zh": "许可覆盖值守层、标记查验站位与返程通道。当班操作员对照地方支站试验回执，核查当前隔离指示、防护通路与值班记录。应记下塔站实际检查内容，不能把机房结果抄成塔站安全状态。"
+        },
+        {
+          "id": "R2-Q203-R-TOWER-p02",
+          "en": "The current shift has two duty posts. Their presence in today's register describes today's coverage. Future operation under a changed protocol requires a separate mandate, reservation and accountable handover. Inspection visitors cannot assign those posts by signing their own worksheet.",
+          "zh": "本班有两个值守岗位。今日到岗登记仅描述今日覆盖。改换协议后的运行另需委托、岗位预留与可问责交接，访客不能自行签字便分配岗位。"
+        },
+        {
+          "id": "R2-Q203-R-TOWER-p03",
+          "en": "The rear work point is available for recording future preservation requirements. Its labels list one base isolator, one local backup pack and two base provision packs for this tower. These labels describe required supplies, not items already delivered. Stable access and a local dinner feed do not fill the work point or the engineering ledger.",
+          "zh": "后部工作点可登记以后保全需求：一个基础隔离件、一个本地备用包、两个基础保障包。这是需求，不是已交付库存。安全通路与地方晚餐回路均未填充此工作点或工程账。"
+        }
+      ],
+      "english_word_count": 142
+    },
+    {
+      "id": "R2-Q204-R-SIGNATURE",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "早期临时方案：签名摘录",
+      "quest_ref": "Q-204",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.signature"
+      },
+      "source_root": "r2-historical-temporary-scheme-page",
+      "access_class": "controlled_review",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[10]",
+        "World_Story_Bible_v0.1.md:423,437,441-453",
+        "part05.json:$.curriculum[10]"
+      ],
+      "original_local_details": [
+        "TS-18 local alias; later design responsibility remains unrevealed"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q204-R-SIGNATURE-p01",
+          "en": "Controlled extract, temporary supply scheme TS-18, initial signature page. The page bears the name and signature reference of Mara Venn among its contributors. The title describes a temporary compulsory synchronisation arrangement during an earlier supply crisis. The preserved page is an early version; the archive also holds later references which have not yet been assembled into a complete change history here.",
+          "zh": "临时供给方案TS-18初始签名页的受控摘录。参与者列含玛拉·维恩姓名与签名索引。标题说明这是早期供给危机期间的临时强制同步安排。保留页面属于早期版本；档案还有后续索引，本地尚未整理出完整变更历史。"
+        },
+        {
+          "id": "R2-Q204-R-SIGNATURE-p02",
+          "en": "The custodian can verify that this extract comes from the stated page. Determining the scope of each contributor's responsibility requires the original scheme, related meeting records and later changes. A signature identifies a link to examine; it does not supply those missing records.",
+          "zh": "保管人可核查摘录来自标明页面。判断各参与者具体责任范围，需要原方案、相关会议记录和后来变更。签名提供待查关联，没有补齐缺失文件。"
+        },
+        {
+          "id": "R2-Q204-R-SIGNATURE-p03",
+          "en": "This is a historical document. It contains no present message from its signatories and gives no current location for Mara. Include its version and the remaining verification in any factual summary sent for review.",
+          "zh": "这是历史文书，没有签名人的当前消息，也没有玛拉目前的位置。提交事实摘要时应保留版本和待核查范围。"
+        }
+      ],
+      "english_word_count": 138
+    },
+    {
+      "id": "R2-Q204-R-BATCH",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "检修索引：下一步核查",
+      "quest_ref": "Q-204",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.batch"
+      },
+      "source_root": "r2-mining-maintenance-index-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part04.json:$.quests[10]",
+        "World_Story_Bible_v0.1.md:423,437,441-453",
+        "part05.json:$.curriculum[10]"
+      ],
+      "original_local_details": [
+        "MC-2 local alias for mining-batch lead; no later acceptance findings"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q204-R-BATCH-p01",
+          "en": "The index links local interlock plate IL-2 to maintenance batch MC-2 at the bell-mine workshop. It records a destination for checking the batch's original instrument sheets and acceptance versions. The priory copy contains the batch reference and a dispatch acknowledgement, not the workshop's complete technical file.",
+          "zh": "本地联锁标牌IL-2在索引中关联沉钟矿区工坊检修批次MC-2，指明应到何处核对该批次原始仪表页与验收版本。修院副本只有批次索引与发件确认，没有工坊完整技术档案。"
+        },
+        {
+          "id": "R2-Q204-R-BATCH-p02",
+          "en": "A chapter handover should name the batch, the material already checked and the questions still open. The mining workshop can inspect its own originals. Neither the index nor this acknowledgement establishes who was responsible for a missing safety step.",
+          "zh": "章节交接应注明批次、已核对材料与仍未解决问题。矿区工坊可检查自己的原稿。索引与发件确认均未证明缺失安全步骤的责任人。"
+        },
+        {
+          "id": "R2-Q204-R-BATCH-p03",
+          "en": "Keep the destination as the next inquiry direction. A file reference is not an authority to operate the mine, a delivery of engineering components or proof that the Glimmer has sailed there.",
+          "zh": "这是一条下一步方向。档案编号不会赋予矿井操作权，不交付工程组件，也不证明微光号已经航行到那里。"
+        }
+      ],
+      "english_word_count": 117
+    },
+    {
+      "id": "PZTIME-R-ORDER",
+      "content_version": "0.1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "M-12授权与行程记录",
+      "quest_ref": "Q-202",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.m12_order"
+      },
+      "source_root": "m12-departure-officer-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "immutable_original_reuse_with_new_unreviewed_translation",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part06.json:$.units[5]",
+        "Puzzle_System_v0.1.md:373-405",
+        "part06-Puzzle_Materials_v0.1.json:PZTIME-R-ORDER"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "PZTIME-R-ORDER-p01",
+          "en": "This file concerns transfer M-12, not the detained engineer. Personal names are held in a restricted attachment and are unnecessary for establishing the sequence below. All times on these sheets refer to the same local day.",
+          "zh": "本文件记录转移M-12，并非被扣押的工程师。私人姓名保存在受限附页中，确定以下顺序不需要姓名。这些记录中的时间均指同一个地方日。"
+        },
+        {
+          "id": "PZTIME-R-ORDER-p02",
+          "en": "The departure officer checked the authorisation before allowing the vehicle to leave at 14:10. The authorisation sheet does not carry a reliable issue time. It establishes that approval existed before departure, but it does not justify assigning an exact minute to that approval.",
+          "zh": "出发记录员在允许车辆于14:10离开之前核对了授权。授权页没有可靠签发时间。它说明出发前已经获准，但不足以为授权指定准确分钟。"
+        }
+      ],
+      "english_word_count": 80,
+      "translation_version": "r2-author-candidate-1",
+      "upstream_file": "content/source/part06-Puzzle_Materials_v0.1.json",
+      "upstream_paragraph_sha256": "51753e19b827ee822aac0cbd1ccb0d1414e50e1870ac85c823c70120fc90e2c1",
+      "family_id": "FAM-PZTIME-LOCAL-PUZZLE",
+      "upstream_review_status": "draft_target_65_not_human_accepted"
+    },
+    {
+      "id": "PZTIME-R-ARRIVAL",
+      "content_version": "0.1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "M-12接收与抄录记录",
+      "quest_ref": "Q-202",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.m12_arrival"
+      },
+      "source_root": "m12-receiving-officer-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "immutable_original_reuse_with_new_unreviewed_translation",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part06.json:$.units[5]",
+        "Puzzle_System_v0.1.md:373-405",
+        "part06-Puzzle_Materials_v0.1.json:PZTIME-R-ARRIVAL"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "PZTIME-R-ARRIVAL-p01",
+          "en": "The receiving desk recorded the vehicle’s arrival at 14:40. The entry was made by the receiving officer when the vehicle reached the site. At 16:05 the same day, an archive clerk copied the movement and arrival entries into the central ledger. The later ledger stamp marks the copying, not a second journey or a later physical arrival.",
+          "zh": "接收台记录车辆于14:40到达。这条记录由接收员在车辆抵达现场时写下。同日下午16:05，档案员把行程与到达条目抄入中央总账。较晚总账戳记标记的是抄录，并非第二次旅程或较晚的实际到达。"
+        },
+        {
+          "id": "PZTIME-R-ARRIVAL-p02",
+          "en": "A duplicate of the departure entry was attached to the ledger. It is a copy of the departure officer’s record, not another observer’s account. Nothing in these documents states what the central office knew before departure or why its ledger was updated later.",
+          "zh": "总账附有一份出发条目副本。它复制出发记录员记录，并非另一位观察者陈述。这些文件没有说明中央办公室在出发前知道什么，也没有解释为何较晚更新总账。"
+        }
+      ],
+      "english_word_count": 102,
+      "translation_version": "r2-author-candidate-1",
+      "upstream_file": "content/source/part06-Puzzle_Materials_v0.1.json",
+      "upstream_paragraph_sha256": "be9e64d2517ae5fa4d3ccc7f58c81bfb78fd010b91726a02e8675237cc1efff2",
+      "family_id": "FAM-PZTIME-LOCAL-PUZZLE",
+      "upstream_review_status": "draft_target_65_not_human_accepted"
+    },
+    {
+      "id": "R2-Q201-L-SERVER",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "值餐人的证词脚本",
+      "quest_ref": "Q-201",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R2-S03",
+        "spot": "R2-S03.witness_one"
+      },
+      "source_root": "r2-serving-witness-firsthand",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part05.json:$.curriculum[7]",
+        "World_Story_Bible_v0.1.md:449"
+      ],
+      "original_local_details": [
+        "serving memory has explicitly limited observation, not a fabricated definitive arrival time"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q201-L-SERVER-p01",
+          "en": "Serving witness: I remember the first meal because we had to borrow another pan. I served people from A and B, and I thought the whole group had arrived before the new labels appeared. That is how it felt at the time. I was not at the receiving desk, though. Someone else collected the portions for C, so I cannot say that I saw everyone that evening.",
+          "zh": "值餐人：我记得第一顿饭，因为我们还借了一个锅。我给A、B区的人分了饭，当时以为整组人都在新标签出现前到了。我那时确实这样想，但我不在接收台。C区的饭由别人代领，所以我不能说当晚见过每个人。"
+        },
+        {
+          "id": "R2-Q201-L-SERVER-p02",
+          "en": "When I said the group was complete, I meant that the kitchen had prepared the full number of portions. If you need the order of arrival, please compare the receiving record. I can tell you what happened at this counter. I cannot explain who changed the official labels, and I have not agreed to have my private address placed on a notice.",
+          "zh": "我说“组员齐了”时，指的是厨房按全部人数备了饭。要核查抵达次序，请比较接收记录。我能说明这个台前发生的事，不能解释是谁改了官方标签，也没有同意把私人地址写到告示上。"
+        }
+      ],
+      "english_word_count": 129,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "short_audio",
+      "estimated_duration_seconds_range": [
+        44,
+        55
+      ],
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R2-Q201-L-RECEIVER",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "接应人的证词脚本",
+      "quest_ref": "Q-201",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R2-S03",
+        "spot": "R2-S03.witness_two"
+      },
+      "source_root": "r2-residential-receiving-witness-firsthand",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part05.json:$.curriculum[7]",
+        "Exploration_Level_Design_v0.1.md:393"
+      ],
+      "original_local_details": [
+        "local stage ordering only; no hidden real-time deadline"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q201-L-RECEIVER-p01",
+          "en": "Receiving witness: I wrote the room assignments as each group came through the porch. A and B were already using their rooms when the kitchen began serving. C was assigned later in that work stage. I heard someone say the group was complete at the first meal, but I think they were counting portions. I kept the room sheet beside me, and that is the record I can check again.",
+          "zh": "接应人：每组人经过门廊时，我记下房间安排。厨房开始供餐时，A、B区已经使用房间，C区在这个工作阶段稍后才获分配。我听见有人说第一顿饭时“整组齐了”，但我认为对方是在数口粮。我把房间页放在身边，可以拿原记录再次核对。"
+        },
+        {
+          "id": "R2-Q201-L-RECEIVER-p02",
+          "en": "The later assignment does not tell us why an official entry says moved away. Those labels came from another register. I can let the custodian check my room codes and this observation for the local inquiry. Please keep the exact record version with the statement. A retelling of what I said will still come from me; it will not become another independent witness.",
+          "zh": "较晚分配房间不能解释官方记录为何写迁出；那些标签来自另一份名册。我可以让保管人为地方调查核对房间代码与这次观察。请把准确版本和陈述保存在一起。别人转述我的话，来源仍是我，不会变成另一个独立证人。"
+        }
+      ],
+      "english_word_count": 133,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "short_audio",
+      "estimated_duration_seconds_range": [
+        46,
+        57
+      ],
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R2-Q202-L-CLERK",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "阅览台说明脚本",
+      "quest_ref": "Q-202",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.access"
+      },
+      "source_root": "r2-archive-clerk-explanation",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part05.json:$.curriculum[8]",
+        "part06.json:$.units[5]"
+      ],
+      "original_local_details": [
+        "clerk explanation is an interpretation aid, not an independent movement witness"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q202-L-CLERK-p01",
+          "en": "Archive clerk: We have laid out the local M-12 papers on two stands. Start with either one, but keep the references attached when you make your notes. The departure officer's page and the receiving officer's page describe different observations. The ledger was prepared from those records later. If the departure entry appears twice, count its source once. The second copy is useful when a page cannot be handled; it does not add another person who saw the vehicle leave.",
+          "zh": "阅览台员：M-12地方文件摆在两个站位，可以从任一处开始，但记笔记时要保留来源编号。出发记录员和接收员记的是不同观察，总账稍后由这些记录编成。出发条目即使出现两次，来源也只算一次。另一份副本有助于无法触摸原页时查阅，没有增加看到车辆离开的人。"
+        },
+        {
+          "id": "R2-Q202-L-CLERK-p02",
+          "en": "You asked whether I could give you an exact minute for the authorisation. I can show you the sheet, including the damaged part of its time box, and the statement that it was checked before departure. I cannot read a reliable issue minute from that box. A report may state that a detail remains unknown. There is no need to fill the gap with a plausible-looking number.",
+          "zh": "你问能否给出授权的准确分钟。我可以展示时间框破损的原页，以及出发前核查过授权的陈述；无法从时间框读出可靠分钟。报告可以写某项细节仍未知，不必用貌似合理的数字填空。"
+        },
+        {
+          "id": "R2-Q202-L-CLERK-p03",
+          "en": "The D−1 custody extract is a separate file. We will inspect its identifier and its dated receiving entry under the scope you requested. It records Mara's condition at that handover and uses a facility code for the destination. Later files would be needed to establish what happened after that point. None are included in this extract.",
+          "zh": "D−1看管摘录是另一文件。我们会按所申请范围核查编号和有日期的接收条目。它记录玛拉在那次交接时的状态，以设施代码表示目的地。此后发生什么需要后续文件，本摘录不含那些记录。"
+        },
+        {
+          "id": "R2-Q202-L-CLERK-p04",
+          "en": "For the comparison report, use the local group table and the residence checks together. Describe what the columns measure and what the check can support. The room codes are enough for the public table. If you want an identity attachment, ask for that specific version and purpose at the scope desk. We can keep the public inquiry moving while such a request is considered.",
+          "zh": "比较报告请结合地方住区表和居住核查，说明两列衡量的内容及查验能够支持什么。公共表使用房间代码即可。查看身份附页时，请在范围台申请具体版本与用途。申请审议期间，公共调查仍可继续。"
+        }
+      ],
+      "english_word_count": 267,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "task_audio",
+      "estimated_duration_seconds_range": [
+        92,
+        114
+      ],
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R2-Q203-L-OPERATOR",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "地方检修员说明脚本",
+      "quest_ref": "Q-203",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R2-S07",
+        "spot": "R2-S07.local_panel"
+      },
+      "source_root": "r2-local-operator-explanation",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part05.json:$.curriculum[9]",
+        "World_Story_Bible_v0.1.md:427-429"
+      ],
+      "original_local_details": [
+        "no read-completion condition substitutes for physical encounter or station work"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q203-L-OPERATOR-p01",
+          "en": "Local operator: Before we open the machine-room work zone, show me the upper-floor checks. The isolation handle must still be in the state you inspected. We also need the stopped conveyor record, the fixed external clamp and the dry-route reading. A successful action from an older configuration will not cover a change you made afterwards. We can repeat the affected check without throwing away the clamp or drawing a second unique connector from the cabinet.",
+          "zh": "地方检修员：开放机房工作区前，请出示上层检查。隔离手柄必须保持核查时状态，还需要输送器停转记录、固定外部夹具和干燥通路读数。旧配置下的成功动作不能涵盖后来改动。可以重做受影响检查，不必丢掉夹具，也不用从料柜再领唯一连接头。"
+        },
+        {
+          "id": "R2-Q203-L-OPERATOR-p02",
+          "en": "At the branch valves, we will identify the two blocked returns before choosing a procedure. The sample procedure and the mechanical procedure both have a safe objective. I will work with the local crew if your travelling companions stay outside. Please read the visible hazard plan before entering. A method written in your notebook is a proposal until the actual work is carried out and its result is accepted.",
+          "zh": "在支路阀处，我们先识别两处受阻回流，再选择程序。取样和机械程序均有安全目标。若旅行同伴留在外面，我会与地方班组协作。进入前请读可见危险计划。笔记里选了方法，仍只是提案；须实际执行，取得被接受的结果。"
+        },
+        {
+          "id": "R2-Q203-L-OPERATOR-p03",
+          "en": "For the reserve test, keep the source isolated while seating the connector. The selector has positions for the kitchen, the wash pump and an alternating cycle. Read the load labels and trace the later interlock plate as well as the old drawing. We are not changing the tower outlet under this commission. If a trial is rejected, return the source to isolation, correct the selector and try again. The reserve is a fixed local facility, so this procedure does not take a tower provision pack from your account.",
+          "zh": "试验备用源时，应在隔离状态下座好连接头。选择器有厨房、洗水泵和交替档。阅读负荷标签，同时对照后加联锁牌与旧图。委托不包括改变塔站出口。试验被拒时，恢复隔离、修正档位再试。备用源是固定地方设施，本程序不从工程账扣塔站保障包。"
+        },
+        {
+          "id": "R2-Q203-L-OPERATOR-p04",
+          "en": "When the small station runs within its recorded limit, the kitchen crew can check their feed. We can then request an onsite visit to the tower duty layer. You will inspect the tower there, with its operator. Leave the return passage usable and record the equipment and load boundaries on the final receipt.",
+          "zh": "小站在记录限制内运行后，厨房人员可以验收回路。随后可申请到塔站值守层现场查验，须与塔站操作员一起在那里检查。保持返程通路，最终回执记清设备与负荷边界。"
+        }
+      ],
+      "english_word_count": 285,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "task_audio",
+      "estimated_duration_seconds_range": [
+        98,
+        122
+      ],
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R2-Q204-L-SCOPE",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "交接台范围讨论脚本",
+      "quest_ref": "Q-204",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R2-S02",
+        "spot": "R2-S02.delivery"
+      },
+      "source_root": "r2-review-desk-scope-discussion",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part05.json:$.curriculum[10]",
+        "World_Story_Bible_v0.1.md:441-445"
+      ],
+      "original_local_details": [
+        "multiple actual admissible scope choices; no fixed moral answer"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q204-L-SCOPE-p01",
+          "en": "Review desk: You have brought the transfer records, the residence check and the station boundary receipt. We can receive them in more than one form. A public summary can use room codes, dates and source references, while the protected originals remain available for controlled review. A delegated review package can instead go to a named review desk under its stated purpose. In either arrangement, the important public claims need a route by which someone can check the supporting records.",
+          "zh": "审查台：你带来了转移记录、居住核查和支站边界回执。可以用多种形式交付。公共摘要可用房间代码、日期和来源索引，受保护原稿保留受控查验；受托审查包也可按用途交给指定审查台。无论哪种安排，重要公共陈述都需要可检查支持记录的路径。"
+        },
+        {
+          "id": "R2-Q204-L-SCOPE-p02",
+          "en": "Please separate a decision about a person's identity from a decision about those claims. If the person gives explicit consent for a particular identity field to be published to a particular recipient, record that scope and version. Do not treat an archive reading permit or a custodian's signature as personal consent. If the requested permission is missing, revise the fields or request another scope before sending. The basic reading room will remain open while you do that.",
+          "zh": "请把个人身份决定与这些公共陈述分开。本人若明确同意向特定接收方公开某项身份字段，应记录范围与版本。阅读许可或保管人签字不能代替个人同意。缺少所需许可时，发送前修改字段或申请新范围；基础阅览室仍开放。"
+        },
+        {
+          "id": "R2-Q204-L-SCOPE-p03",
+          "en": "You may argue for wider public scrutiny, a controlled review, or a combination with a public summary and retained originals. State the practical benefits, the risks and the arrangement you intend to carry out. I will not infer that choice from a saved essay. At this desk, you will confirm the fields, the recipient, the purpose and the version, inspect the proposed handover, then explicitly send it.",
+          "zh": "你可以主张更广公开、受控审查，或公共摘要与保留原稿结合。请说明实际益处、风险与所选安排。保存文章不会让我推断交付选择。你须在此确认字段、接收方、用途和版本，查看交接预览，再明确发送。"
+        },
+        {
+          "id": "R2-Q204-L-SCOPE-p04",
+          "en": "The historical signature page also needs its limit recorded. Its early version is evidence of a connection to examine, and the missing change history remains part of the question. The mining batch index gives the next destination for checking that history. Our acknowledgement will state exactly what we received and what is still unverified; it will not report a mine visit that has not happened.",
+          "zh": "历史签名页也须保留限制。早期版本提供待查关联，缺失变更史仍是问题的一部分。矿区批次索引给出下一处核查方向。我们的确认会写明收到什么、哪些内容未核实，不会写成尚未发生的矿区访问。"
+        }
+      ],
+      "english_word_count": 288,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "task_audio",
+      "estimated_duration_seconds_range": [
+        99,
+        123
+      ],
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R2-CQMIRA01-R-W04",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "W-04：有限查验",
+      "quest_ref": "CQ-MIRA-01",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S03",
+        "spot": "R2-S03.w04"
+      },
+      "source_root": "r2-w04-individual-scope-original",
+      "access_class": "personal_invitation",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "NPC_Faction_System_v0.1.md:313-327",
+        "part09.json:$.personal_nodes[3]"
+      ],
+      "original_local_details": [
+        "W04-v1 separate optional source; no private address invented"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-CQMIRA01-R-W04-p01",
+          "en": "W-04 agrees to let the priory review desk check the observation time, the witness's duty and the version reference for a local note. The purpose is to verify that note's account. The agreement is for version W04-v1. It does not include a private address or general publication of identity.",
+          "zh": "W-04同意修院审查台核对一份地方便条的观察时间、证人职能和版本索引，用途为核验陈述。协议限定版本W04-v1，未包括私人地址或普遍公开身份。"
+        },
+        {
+          "id": "R2-CQMIRA01-R-W04-p02",
+          "en": "The witness accepts either a controlled copy containing the agreed fields or a check arranged through the custodian, with a receipt stating what the review desk actually inspected. If another recipient or a new purpose is proposed, ask for a new scope before handing over the record.",
+          "zh": "本人接受两种安排：交付仅含获准字段的受控副本，或经保管人安排查验，并记录审查台实际看了哪些内容。换接收方或用途时，交接前须申请新范围。"
+        },
+        {
+          "id": "R2-CQMIRA01-R-W04-p03",
+          "en": "This local note is separate from the chapter's essential evidence. Mira has offered a private invitation to consider the arrangement after the main archive agreement. The offer may be declined or left for another visit. The main transfer inquiry remains available.",
+          "zh": "这份便条与章节必需证据分开。米拉在主线档案协议完成后提供私人邀请，讨论该安排。可以拒绝或留待回访，主线转移核查仍可继续。"
+        }
+      ],
+      "english_word_count": 137
+    },
+    {
+      "id": "R2-Q201-R-OFFICIAL",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "现行名册公共摘录",
+      "quest_ref": "Q-201",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S02",
+        "spot": "R2-S02.public_board"
+      },
+      "source_root": "r2-official-roll-current-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:420",
+        "part04.json:$.quests[7]"
+      ],
+      "original_local_details": [
+        "CR-2 local administrative version; no blame conclusion"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q201-R-OFFICIAL-p01",
+          "en": "Current-roll extract, local cohort A–C, version CR-2. There are twenty-four entries: three marked deceased, five marked moved away, and sixteen carrying neither label. The entries are arranged here by public room-group code for the authorised comparison. Protected names remain in the original attachment.",
+          "zh": "现行名册摘录，地方A—C住区组，CR-2版。共有二十四项：三项标死亡、五项标迁出、十六项没有这两标签。此处按公开住区代码排列，供获准比较；受保护姓名仍在原附页。"
+        },
+        {
+          "id": "R2-Q201-R-OFFICIAL-p02",
+          "en": "The extract reproduces the administrative status that this roll currently carries. Its issue date precedes the present porch visits. It has no field confirming who is at the priory today. A duplicate in the room index has the same register source.",
+          "zh": "摘录复制的是名册当前行政状态，签发日期在本次门廊走访之前，没有确认今日谁在修院的字段。住区索引中的重复内容仍与名册同源。"
+        },
+        {
+          "id": "R2-Q201-R-OFFICIAL-p03",
+          "en": "If a present-stage visit disagrees with this classification, retain both records and state their purposes. The extract has no recorded explanation of motive. A request to correct delivery planning may cite the disagreement without releasing the protected attachment.",
+          "zh": "当前走访若与分类冲突，应保留两记录并说明用途。摘录未记录动机解释。申请更正配送规划可以引用差异，无需公开受保护附页。"
+        }
+      ],
+      "english_word_count": 123
+    },
+    {
+      "id": "R2-Q202-R-SENDING",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "D−1发送端交接记录",
+      "quest_ref": "Q-202",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.d1_handover"
+      },
+      "source_root": "r2-d1-sending-custody-original",
+      "access_class": "controlled_review",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:421,435",
+        "part04.json:$.quests[8]"
+      ],
+      "original_local_details": [
+        "TR-D1-7/MV local linking identifiers only; no present destination inference"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q202-R-SENDING-p01",
+          "en": "Sending-end record, custody transfer TR-D1-7, version 1. On D−1 the sending officer handed the person identified by protected reference MV to the named receiving duty. The sending observation records Mara Venn as alive at departure. The destination field contains facility code F-17. The public extract carries the transfer identifier and record version; the identity comparison is available under controlled review.",
+          "zh": "发送端记录，看管转移TR-D1-7，第1版。D−1，发送员将受保护索引MV指明的人移交给具名接收岗位。发送观察记录玛拉·维恩出发时活着，目的地字段为设施代码F-17。公共摘录保留转移编号与版本，身份比对可按受控范围查验。"
+        },
+        {
+          "id": "R2-Q202-R-SENDING-p02",
+          "en": "The receiving sheet bears the same transfer identifier and its own officer's dated handover observation. Check that both sheets concern the same person and transfer before linking the chain. A later archive copy of this sending page retains this page's source reference.",
+          "zh": "接收页带相同转移编号，另有接收员记下的有日期交接观察。连接证据链前，应核对两页指同一人、同一次转移。后来档案副本仍沿用本发送页来源。"
+        },
+        {
+          "id": "R2-Q202-R-SENDING-p03",
+          "en": "No time after D−1 appears in this record. The facility code has not been mapped to a present address in the local file.",
+          "zh": "本记录没有D−1之后的时间，地方文件尚未将设施代码映射为现行住址。"
+        }
+      ],
+      "english_word_count": 127
+    },
+    {
+      "id": "R2-Q204-R-ESSAY",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "让人能够核查，同时留下生活空间",
+      "quest_ref": "Q-204",
+      "kind": "extended_reading",
+      "location": {
+        "scene": "R2-S04",
+        "spot": "R2-S04.scope"
+      },
+      "source_root": "r2-priory-custodian-long-essay",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part05.json:$.material_specs",
+        "part05.json:$.curriculum[10]",
+        "World_Story_Bible_v0.1.md:431,441-445"
+      ],
+      "original_local_details": [
+        "original extended essay with no hidden-world fact or default policy solution"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-Q204-R-ESSAY-p01",
+          "en": "The first list on our kitchen wall was made to count meals. It had room letters and the number of portions to prepare. When a resident asked why the public register still said she had moved away, that kitchen list became useful for a different purpose. It showed a practical disagreement worth investigating. It did not tell us the whole history of her movements, and it did not turn a request for supper into an agreement to publish her name.",
+          "zh": "厨房墙上最初的名单用来数饭食，写着房间字母和应准备的份数。一位住民问，为什么公共名册仍说她迁出了，这张厨房名单便对另一用途有了帮助：它指出值得核查的实际差异。它没有叙述她全部迁移经历，也没有把领晚饭的请求变成同意公开姓名。"
+        },
+        {
+          "id": "R2-Q204-R-ESSAY-p02",
+          "en": "Records travel farther than their writers expect. A room code on a kitchen sheet may be harmless among people who already know the building. Add a private address, a family relationship and a public announcement, and the same account can expose someone to attention they never agreed to receive. Removing those details need not remove the events. A review can still retain an observation date, the duty of the observer, the version of a record and a route to the protected original. These fields let a reader ask whether the account has support.",
+          "zh": "记录会传得比作者预想更远。厨房页的房间代码，在熟悉建筑的人之间可能没有什么风险。加上私人住址、亲属关系和公共通告，同一陈述却可能让人受到从未同意的关注。去掉这些细节，无需去掉事件。审查仍可保留观察日期、记录员职能、版本及通向受保护原稿的查验路径，让读者判断陈述有无支持。"
+        },
+        {
+          "id": "R2-Q204-R-ESSAY-p03",
+          "en": "There is also a danger in using protection as a reason to keep every difficult fact out of reach. If an official label prevents food from reaching people who are here, a polite assurance that the files are private does not correct the problem. Someone must be able to check the classification and the evidence that challenges it. A custodian therefore has two kinds of work: keep unnecessary personal details within their agreed scope, and maintain a usable route for examining public decisions. The two duties require different records and sometimes different recipients.",
+          "zh": "以保护为由封闭所有难以面对的事实，也有危险。官方标签若使在此生活的人收不到食物，礼貌地说“档案私密”不能纠正问题。必须有人能检查分类及与之冲突的证据。保管人的工作包含两项：将不必要私人细节留在约定范围内，也为公共决定保留可用的检查途径。两项职责需要不同记录，有时需要不同接收方。"
+        },
+        {
+          "id": "R2-Q204-R-ESSAY-p04",
+          "en": "A public summary is one possible arrangement. It can describe the group checked, the disagreement found and the limits of the check. It can retain source references without reproducing every protected name. Readers then know what is claimed and how a review may be requested. The arrangement works only if the promised review route exists. A notice which says that evidence is available, while no one holds an accessible copy or a valid inspection mandate, offers very little protection against an unsupported claim.",
+          "zh": "公共摘要是一种安排，可以说明核查组、所见差异和查验限制，保留来源而不复制所有受保护姓名。读者因此知道主张什么、如何申请复核。但承诺的复核路径须真实存在。若告示声称可查证据，却无人保存可访问副本或有效查验委托，就很难约束缺乏依据的陈述。"
+        },
+        {
+          "id": "R2-Q204-R-ESSAY-p05",
+          "en": "A delegated review is another arrangement. The package goes to a specified desk for a stated purpose, and the receipt records the fields and versions that were delivered. This can allow a detailed check without immediately distributing personal details to everyone. It has costs. The reviewer may work slowly, or the public may have less opportunity to challenge an error. Keeping a short public account alongside a controlled package can make the process easier to question, provided neither account pretends that a pending review has already resolved the matter.",
+          "zh": "受托审查是另一种安排：资料交给指定工作台用于约定用途，回执记清交付字段与版本。这能支持详细核查，无需立即把私人细节分给所有人。它也有代价：审阅可能较慢，公众纠错机会可能较少。受控包旁保留简短公共说明，有助于对过程提出问题；两者均应保留审查尚未结束的状态。"
+        },
+        {
+          "id": "R2-Q204-R-ESSAY-p06",
+          "en": "Sometimes a person wants to be named. Their decision deserves the same care as a decision to remain private. Ask what they agree to release, to whom, for what use and in which version. A broad permission inferred from an earlier conversation may not fit a new publication. Equally, choosing the smallest possible package in every situation can remove the very detail that the person wants included or that the authorised review needs. Appropriate scope depends on the purpose and the permission, as well as on the risk of disclosure.",
+          "zh": "有时本人希望具名。这个决定与保持私密同样需要认真对待。请问清允许发布什么、给谁、为何使用及对应版本。旧交谈推断出的宽泛许可可能不适合新发布。每次都机械选择最少字段，也可能删去本人希望保留的内容，或获准审查真正需要的细节。适当范围取决于用途、许可和公开风险。"
+        },
+        {
+          "id": "R2-Q204-R-ESSAY-p07",
+          "en": "Copies help when an original is fragile or a room is closed. Their source still matters. Two copies of the same departure note show that an account has been preserved in two places; they do not show that two officers independently observed a departure. A receiving officer's entry can contribute a different observation. The comparison should identify who recorded what and when, rather than treating the number of pages as the strength of the evidence. Unknown details should stay visible. A later copying stamp may explain when a ledger was updated without explaining why it was updated then.",
+          "zh": "原稿脆弱或房间关闭时，副本便于查阅，来源仍然重要。同一出发便条的两副本说明记录保存在两处，未证明两名记录员各自看见出发。接收员记录能够提供另一观察。应比较谁在何时记录了什么，不应以页数代表证据强度。未知细节应保留可见；较晚抄录戳记可以说明更新总账的时间，未必解释为何那时更新。"
+        },
+        {
+          "id": "R2-Q204-R-ESSAY-p08",
+          "en": "Our present work has a limited end. The residence check can support a correction to local planning. A dated handover can support a statement about a person's condition at that handover. A small-station test can support a particular local load arrangement. Each result is useful when its scope is preserved. When we send the next package, we should leave its recipient able to inspect what happened, question our interpretation and see what remains open. That is how a record can carry an inquiry forward without carrying every part of a person's life with it.",
+          "zh": "本次工作有有限终点。居住查验可以支持更正地方规划；有日期交接可以支持交接时状态；小支站试验可以支持特定地方负荷配置。保留范围时，每项结果都有用。下一资料包应让接收方能够查验发生的事、质疑解释，并看见仍待解决的部分。这样，记录才带着调查前进，同时为个人生活保留空间。"
+        }
+      ],
+      "english_word_count": 720
+    },
+    {
+      "id": "R2-O01-R-LETTER",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "留在桌上的回信",
+      "quest_ref": "R2-O01",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-O01",
+        "spot": "R2-O01.letter"
+      },
+      "source_root": "r2-unsent-reply-individual",
+      "access_class": "individual_consent",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:769",
+        "Exploration_Level_Design_v0.1.md:399"
+      ],
+      "original_local_details": [
+        "unnamed local writer; no invented link to Lina brother"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-O01-R-LETTER-p01",
+          "en": "Draft, shared by its writer for help with this reply only.",
+          "zh": "作者本人分享的草稿，仅供协助本次回信。"
+        },
+        {
+          "id": "R2-O01-R-LETTER-p02",
+          "en": "Dear friend, your letter reached me after the move. I kept thinking that I should write when I had something definite to say, and the longer I waited, the harder a first sentence became. We have a room now. The roof needs another patch, but the kitchen is serving meals and someone has put a shelf beside the window for returned books. Those are small things I can tell you without promising more than I know.",
+          "zh": "亲爱的朋友，搬家之后我才收到你的信。我一直想等有确切消息再写，越等越难写出第一句。我们现在有房间，屋顶还要补一块，厨房已供餐，有人在窗边加了归还书本的书架。这些小事我可以说，不必承诺尚未了解的事。"
+        },
+        {
+          "id": "R2-O01-R-LETTER-p03",
+          "en": "I have crossed out the sentence saying that I will come next week. I cannot arrange that visit yet, and I do not want you to wait at the landing. What I would like is to begin writing again. If you are willing, send a short reply through the custodian, using the room code on the envelope. I would rather keep the street address off a public notice.",
+          "zh": "我划去了“下周来见你”。目前无法安排出行，不希望你在接驳站等候。我想先恢复通信。若你愿意，请经保管人寄一封短回复，信封用房间代码。我希望私人街道住址不出现在公共告示上。"
+        },
+        {
+          "id": "R2-O01-R-LETTER-p04",
+          "en": "The writer's note below the draft says: I want the invitation to write, but I am not ready to send this whole page. Please help me keep the meaning without turning it into a promise to visit. We can save a revised version for another day, or send a short acknowledgement after I have read it. The decision to send belongs to me.",
+          "zh": "作者注明：想保留通信邀请，但还不准备寄整页。请保留意思，不要写成来访承诺。可以暂存修订稿，也可由我读过后寄简短确认。是否寄出由我决定。"
+        }
+      ],
+      "english_word_count": 218
+    },
+    {
+      "id": "R2-O02-R-SEEDS",
+      "content_version": "r2-author-candidate-1",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "冬季试种：同一批床位的两种用途",
+      "quest_ref": "R2-O02",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R2-O02",
+        "spot": "R2-O02.seed_note"
+      },
+      "source_root": "r2-winter-trial-grower-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:770",
+        "Exploration_Level_Design_v0.1.md:400"
+      ],
+      "original_local_details": [
+        "six beds; Leaf4/2 expected8/4; Root2/4 expected4/8; not engineering resources"
+      ],
+      "paragraphs": [
+        {
+          "id": "R2-O02-R-SEEDS-p01",
+          "en": "The trial ground has six covered beds available for this work segment. The growers propose two arrangements. These are estimates for the fictional local trial, not a forecast for every winter or a promise of a fixed harvest. Both keep one walkway open and use the same existing tools.",
+          "zh": "本工作段试种地有六个覆棚床位，两种配置均保留通道、使用既有工具。数字是虚构地方试种估算，不代表每年预测或保证固定收成。"
+        },
+        {
+          "id": "R2-O02-R-SEEDS-p02",
+          "en": "Arrangement Leaf uses four beds for quick leaves and two for stored roots. It is expected to provide eight serving-baskets soon and four storage-baskets later. Arrangement Root uses two beds for quick leaves and four for stored roots. It is expected to provide four serving-baskets soon and eight storage-baskets later. The baskets are local planning measures; they do not become personal inventory or tower provision packs.",
+          "zh": "叶菜配置：四床快生叶菜、两床耐储根菜，预计较早八筐供餐、较晚四筐储藏。根菜配置：两床叶菜、四床根菜，预计较早四筐供餐、较晚八筐储藏。筐是地方规划单位，不变成个人背包或塔站保障包。"
+        },
+        {
+          "id": "R2-O02-R-SEEDS-p03",
+          "en": "The kitchen would welcome early leaves, while the store keeper wants a stronger later reserve. Neither request removes the other need. The group may choose either complete arrangement and record the trade-off, or ask for an agreed revision before planting. A proposal which uses more than six beds is not yet a feasible allocation.",
+          "zh": "厨房希望早有叶菜，仓管希望增强晚期储备。两类需求同时存在。可选任一完整配置并记录取舍，也可种植前申请共识修改。超过六床的提议尚不可执行。"
+        },
+        {
+          "id": "R2-O02-R-SEEDS-p04",
+          "en": "At the layout stand, mark the chosen beds and ask the growers to check the available space. Saving an allocation note preserves a proposal. Actual planting, once authorised and carried out, leaves a dated work record. Until there is an agreed allocation and that record, the trial remains planned. This work is optional and does not block the transfer investigation or require publishing anyone's identity.",
+          "zh": "在布局台标床位，由种植者核对空间。保存分配稿只留下提案；获准并实际种植后才有日期工作记录。未有共识与实际记录时，试种仍计划中。此工作可选，不阻断转移调查，也不要求公开身份。"
+        }
+      ],
+      "english_word_count": 234
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "R2-Q201-W-DIFFERENCE",
+      "quest_ref": "Q-201",
+      "kind": "short_world_work",
+      "workspace_spot": "R2-S02.june",
+      "prompt_en": "Write a brief difference report for June. Compare the kitchen count, room assignments, current roll and your actual porch visits. State the scope of the local group, the discrepancy and what remains unknown. Request basic archive review and the stated local inspection scope.",
+      "prompt_zh": "给琼写简短差异报告，比较厨房计数、安置索引、现行名册与实际门廊走访。说明地方组范围、差异与未知部分，并申请基础调阅和地方检修范围。",
+      "sources": [
+        "R2-Q201-R-RATION",
+        "R2-Q201-R-ROOMS",
+        "R2-Q201-R-OFFICIAL"
+      ],
+      "evaluation": "world meaning confirmation only; no Writing band from short work"
+    },
+    {
+      "id": "R2-Q202-W-VISUAL",
+      "quest_ref": "Q-202",
+      "kind": "full_visual_comparison",
+      "workspace_spot": "R2-S04.scope",
+      "prompt_en": "The table shows the administrative labels of 24 entries in a local priory group and the current residence confirmations collected for those entries. Summarise the information by selecting and reporting its main features, and make comparisons where relevant. Write at least 150 words. Identify the scope and the different measures represented by the columns.",
+      "prompt_zh": "表格展示修院地方组二十四项记录的行政标签，以及对相同记录取得的当前居住确认。选择主要特点进行概括，并作相关比较。写至少150个英文词，保留地方范围并说明两列衡量不同对象。",
+      "visual": {
+        "kind": "table",
+        "title_en": "Local priory audit, 24 entries",
+        "columns_en": [
+          "Current-roll label",
+          "Entries on current roll",
+          "Present-stage residence confirmations"
+        ],
+        "rows": [
+          [
+            "Deceased",
+            3,
+            3
+          ],
+          [
+            "Moved away",
+            5,
+            5
+          ],
+          [
+            "Neither label",
+            16,
+            16
+          ]
+        ],
+        "total": [
+          24,
+          24
+        ],
+        "source_material": "R2-Q202-R-COHORT",
+        "availability": "after Q201 actual three-porch verification; no prefilled completion state"
+      },
+      "sources": [
+        "R2-Q202-R-COHORT",
+        "R2-Q201-R-OFFICIAL"
+      ],
+      "evaluation": "full draft preserved; trained human rubric and 6.5 calibration pending; minimum length is task instruction, not quest reward gate; structured fallback is explicitly not a completed full Task1"
+    },
+    {
+      "id": "R2-Q203-W-PROCEDURE",
+      "quest_ref": "Q-203",
+      "kind": "short_world_work",
+      "workspace_spot": "R2-S08.boundary",
+      "prompt_en": "Record the local test configuration, observed load, equipment checked and current tower visit. Explain which supplies and operating permissions this work did and did not establish.",
+      "prompt_zh": "记录地方试验配置、实际负荷、检查设备与塔站当前查验，说明本工作形成的状态及仍需另行交付或授权的条件。",
+      "sources": [
+        "R2-Q203-R-OLD",
+        "R2-Q203-R-INTERLOCK",
+        "R2-Q203-R-PANEL",
+        "R2-Q203-R-TOWER"
+      ],
+      "evaluation": "world meaning confirmation only; no Writing band from short work"
+    },
+    {
+      "id": "R2-Q204-W-ARGUMENT",
+      "quest_ref": "Q-204",
+      "kind": "full_argument",
+      "workspace_spot": "R2-S02.delivery",
+      "prompt_en": "Some people argue that publishing records widely is the best way to make public decisions accountable. Others believe that a delegated review with controlled access can protect people while preserving scrutiny. Discuss both views and give your own opinion. Use the priory records to explain a workable access arrangement and its limits. Write at least 250 words.",
+      "prompt_zh": "有人认为广泛公开记录最有助于追究公共决定责任，另一些人认为受托审查与受控访问可同时保护个人和保留监督。讨论两种观点并给出意见，用修院记录说明可执行范围及限制。写至少250个英文词。",
+      "sources": [
+        "R2-Q204-R-ESSAY",
+        "R2-Q202-R-ACCESS",
+        "R2-Q204-R-SIGNATURE",
+        "R2-Q204-R-BATCH"
+      ],
+      "evaluation": "multiple supported stances admissible; full draft and revisions retained; no stance score; qualified human Task2 feedback and calibration pending; structured scope fallback is not a full argument assessment"
+    },
+    {
+      "id": "R2-CQMIRA01-W-SCOPE",
+      "quest_ref": "CQ-MIRA-01",
+      "kind": "short_world_work",
+      "workspace_spot": "R2-S04.w04_copy",
+      "prompt_en": "Propose the fields, recipient, purpose and version for the W-04 check. Ask for revised consent if the requested scope exceeds the individual agreement.",
+      "prompt_zh": "为W-04查验提出字段、接收方、用途和版本；若超出本人协议，请申请新范围。",
+      "sources": [
+        "R2-CQMIRA01-R-W04"
+      ],
+      "evaluation": "no main reward duplication or Writing band"
+    },
+    {
+      "id": "R2-O01-W-REPLY",
+      "quest_ref": "R2-O01",
+      "kind": "optional_short_reply",
+      "workspace_spot": "R2-O01.reply",
+      "prompt_en": "Help the writer preserve an invitation to correspond without promising a visit. The writer may approve a short acknowledgement, keep the revision, or pause.",
+      "prompt_zh": "协助保留通信邀请，不承诺来访；由作者选择发送短确认、保留修订稿或暂缓。",
+      "sources": [
+        "R2-O01-R-LETTER"
+      ],
+      "evaluation": "optional source candidate; unregistered side-quest reward pending"
+    },
+    {
+      "id": "R2-O02-W-ALLOCATION",
+      "quest_ref": "R2-O02",
+      "kind": "optional_comparison",
+      "workspace_spot": "R2-O02.allocation",
+      "prompt_en": "Compare the two feasible planting arrangements and propose one within the six-bed limit. Explain the early-food and later-storage trade-off.",
+      "prompt_zh": "比较两种可行配置，在六床限制内提出方案，说明早期供餐与后期储藏的取舍。",
+      "sources": [
+        "R2-O02-R-SEEDS"
+      ],
+      "evaluation": "optional source candidate; unregistered side-quest reward pending"
+    }
+  ],
+  "stations": [
+    {
+      "id": "R2-ARRIVAL",
+      "spot": "R2-S01.arrival",
+      "label_zh": "核对委托并登记实际登陆",
+      "action": "register_landing",
+      "world_reads": [
+        "vessel",
+        "Q-104:resolution",
+        "cross_district_commission"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-RECEPTION",
+      "spot": "R2-S02.june",
+      "label_zh": "联系琼并登记地方请求",
+      "action": "request_local_reception",
+      "world_reads": [
+        "R2:landing"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-VISIT-A",
+      "spot": "R2-S03.living_a",
+      "label_zh": "核验A区自愿居住确认",
+      "action": "inspect_residence_a",
+      "world_reads": [
+        "R2:local_request"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-VISIT-B",
+      "spot": "R2-S03.living_b",
+      "label_zh": "核验B区自愿居住确认",
+      "action": "inspect_residence_b",
+      "world_reads": [
+        "R2:local_request"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-VISIT-C",
+      "spot": "R2-S03.living_c",
+      "label_zh": "核验C区自愿居住确认",
+      "action": "inspect_residence_c",
+      "world_reads": [
+        "R2:local_request"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-BASIC-SCOPE",
+      "spot": "R2-S02.june",
+      "label_zh": "提交差异报告与基础工作申请",
+      "action": "submit_difference_request",
+      "world_reads": [
+        "R2:residence_checks",
+        "draft:R2-Q201-W-DIFFERENCE"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-REVIEW-SCOPE",
+      "spot": "R2-S04.scope",
+      "label_zh": "申请具体记录版本与查验范围",
+      "action": "request_controlled_review",
+      "world_reads": [
+        "R2:basic_archive_identity",
+        "draft:R2:review_request"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-M12-WORK",
+      "spot": "R2-S04.scope",
+      "label_zh": "保存M-12顺序与未知项说明",
+      "action": "confirm_m12_order",
+      "world_reads": [
+        "material:PZTIME-R-ORDER",
+        "material:PZTIME-R-ARRIVAL"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-TRANSFER-CHECK",
+      "spot": "R2-S04.d1_handover",
+      "label_zh": "核验两端交接编号与观察日期",
+      "action": "verify_d1_chain",
+      "world_reads": [
+        "R2:controlled_review_scope",
+        "material:R2-Q202-R-SENDING",
+        "material:R2-Q202-R-D1"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-Q202-REPORT",
+      "spot": "R2-S04.scope",
+      "label_zh": "交付转移核查与比较报告",
+      "action": "submit_transfer_report",
+      "world_reads": [
+        "R2:m12_order",
+        "R2:d1_chain",
+        "draft:R2-Q202-W-VISUAL"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-MIRA-INVITE",
+      "spot": "R2-S04.mira",
+      "label_zh": "联系米拉并选择协作方式",
+      "action": "decide_mira_invitation",
+      "world_reads": [
+        "Q-202:resolution"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-LOCAL-STOCK",
+      "spot": "R2-S05.stock",
+      "label_zh": "核对并领取本次唯一地方检修件",
+      "action": "collect_local_maintenance_items",
+      "world_reads": [
+        "R2:inspection_scope"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-ROOT-ROUTE",
+      "spot": "R2-S05.root_route",
+      "label_zh": "查看温室根道处置并确认进入",
+      "action": "begin_root_route_encounter",
+      "world_reads": [
+        "R2:inspection_scope"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-STAIR",
+      "spot": "R2-S05.maintenance",
+      "label_zh": "检查并开启检修梯工作范围",
+      "action": "inspect_stair_boundary",
+      "world_reads": [
+        "ENC-R2-01:result",
+        "R2:inspection_scope"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-CONVEYOR-ISOLATE",
+      "spot": "R2-S06.isolate",
+      "label_zh": "隔离输送器",
+      "action": "isolate_conveyor",
+      "world_reads": [
+        "R2:inspection_scope"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-CONVEYOR",
+      "spot": "R2-S06.conveyor",
+      "label_zh": "实际处置失控输送器",
+      "action": "begin_or_perform_conveyor_procedure",
+      "world_reads": [
+        "R2:conveyor_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-ROOT-CLAMP",
+      "spot": "R2-S06.root_clamp",
+      "label_zh": "固定或重置外部根系夹具",
+      "action": "set_external_clamp",
+      "world_reads": [
+        "R2:conveyor_configuration",
+        "item:R2-CLAMP-01"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-DRAIN",
+      "spot": "R2-S06.drain",
+      "label_zh": "使用手动排水装置",
+      "action": "drain_upper_floor",
+      "world_reads": [
+        "R2:conveyor_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-UPPER-CHECK",
+      "spot": "R2-S06.water_gauge",
+      "label_zh": "现场复查当前停转与水位",
+      "action": "inspect_upper_route",
+      "world_reads": [
+        "R2:conveyor_configuration",
+        "R2:drain",
+        "R2:external_clamp",
+        "ENC-R2-02:result"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-BRANCH-A",
+      "spot": "R2-S07.branch_a",
+      "label_zh": "检查A支路外侧阀",
+      "action": "inspect_branch_a",
+      "world_reads": [
+        "R2:upper_route_safe"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-BRANCH-B",
+      "spot": "R2-S07.branch_b",
+      "label_zh": "检查B支路外侧阀",
+      "action": "inspect_branch_b",
+      "world_reads": [
+        "R2:upper_route_safe"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-ROOT-CORE",
+      "spot": "R2-S07.core_entry",
+      "label_zh": "选择并实际执行核心处置",
+      "action": "begin_core_procedure",
+      "world_reads": [
+        "R2:branch_observations",
+        "R2:conveyor_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-LOCAL-ISOLATE",
+      "spot": "R2-S07.backup",
+      "label_zh": "隔离本地备用源",
+      "action": "isolate_local_reserve",
+      "world_reads": [
+        "R2:reserve_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-RESERVE-SEAT",
+      "spot": "R2-S07.backup",
+      "label_zh": "座好唯一备用连接头",
+      "action": "seat_local_connector",
+      "world_reads": [
+        "item:R2-CONNECTOR-01",
+        "R2:reserve_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-SELECTOR",
+      "spot": "R2-S07.selector",
+      "label_zh": "设置地方负荷档位",
+      "action": "set_local_selector",
+      "world_reads": [
+        "R2:reserve_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-LOCAL-POWER",
+      "spot": "R2-S07.backup",
+      "label_zh": "恢复本地备用源",
+      "action": "power_local_reserve",
+      "world_reads": [
+        "R2:reserve_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-LOCAL-TEST",
+      "spot": "R2-S07.test",
+      "label_zh": "执行当前配置负荷试验",
+      "action": "test_local_configuration",
+      "world_reads": [
+        "ENC-R2-03:result",
+        "R2:reserve_configuration",
+        "R2:upper_route_safe"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-INNER-LATCH",
+      "spot": "R2-S07.inner_latch",
+      "label_zh": "从机房开启住地回程门",
+      "action": "open_inner_latch",
+      "world_reads": [
+        "R2:upper_route_safe"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-KITCHEN-FEED",
+      "spot": "R2-S05.meal_feed",
+      "label_zh": "实际验收厨房回路",
+      "action": "inspect_kitchen_feed",
+      "world_reads": [
+        "R2:local_test"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-TOWER-PERMIT",
+      "spot": "R2-S02.june",
+      "label_zh": "申请塔站当前现场工作许可",
+      "action": "request_tower_work_permit",
+      "world_reads": [
+        "R2:local_test",
+        "R2:kitchen_feed"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-TOWER-DUTY",
+      "spot": "R2-S08.duty",
+      "label_zh": "核对实际当班岗位",
+      "action": "inspect_tower_duty",
+      "world_reads": [
+        "R2:tower_work_permit"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-TOWER-ISOLATION",
+      "spot": "R2-S08.isolation_check",
+      "label_zh": "核查塔站当前隔离与防护",
+      "action": "inspect_tower_isolation",
+      "world_reads": [
+        "R2:tower_current_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-TOWER-RETURN",
+      "spot": "R2-S08.return_check",
+      "label_zh": "核验实际返程通路",
+      "action": "inspect_tower_return_route",
+      "world_reads": [
+        "R2:tower_current_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-Q203-BOUNDARY",
+      "spot": "R2-S08.boundary",
+      "label_zh": "交付现场供能与安全边界回执",
+      "action": "submit_local_safety_report",
+      "world_reads": [
+        "R2:local_test",
+        "R2:kitchen_feed",
+        "R2:tower_current_checks",
+        "draft:R2-Q203-W-PROCEDURE"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-FUTURE-WORK",
+      "spot": "R2-S08.future_work",
+      "label_zh": "登记后续工程需求",
+      "action": "record_tower_future_requirements",
+      "world_reads": [
+        "readiness:TWR-R2"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-Q204-HANDOVER",
+      "spot": "R2-S02.delivery",
+      "label_zh": "确认范围并实际交付事实摘要",
+      "action": "submit_archive_handover",
+      "world_reads": [
+        "Q-202:resolution",
+        "Q-203:resolution",
+        "R2:disclosure_scopes",
+        "draft:R2-Q204-W-ARGUMENT"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-DINNER",
+      "spot": "R2-S02.dinner",
+      "label_zh": "参加实际供能后的晚餐",
+      "action": "attend_powered_dinner",
+      "world_reads": [
+        "R2:kitchen_feed"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-W04-INVITE",
+      "spot": "R2-S04.mira",
+      "label_zh": "接受、拒绝或暂缓私人工作邀请",
+      "action": "decide_w04_invitation",
+      "world_reads": [
+        "Q-204:resolution"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-W04-SCOPE",
+      "spot": "R2-S03.w04",
+      "label_zh": "核对W-04本人字段同意",
+      "action": "request_w04_scope",
+      "world_reads": [
+        "R2:w04_invitation"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-W04-HANDOVER",
+      "spot": "R2-S04.w04_copy",
+      "label_zh": "交付W-04获准副本或保管查验",
+      "action": "submit_w04_handover",
+      "world_reads": [
+        "R2:w04_scope",
+        "draft:R2-CQMIRA01-W-SCOPE"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-LETTER",
+      "spot": "R2-O01.reply",
+      "label_zh": "由作者确认回复或暂存",
+      "action": "propose_optional_reply",
+      "world_reads": [
+        "R2:letter_individual_scope",
+        "draft:R2-O01-W-REPLY"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    },
+    {
+      "id": "R2-SEEDS",
+      "spot": "R2-O02.allocation",
+      "label_zh": "保存并协商六床配置",
+      "action": "propose_optional_planting",
+      "world_reads": [
+        "R2:planting_public_scope",
+        "draft:R2-O02-W-ALLOCATION"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r2-author-candidate-1"
+    }
+  ],
+  "artifact_boundary": "Learner materials and visible work affordances only. Author answers, rewards and validators are in separate author-only files."
+}

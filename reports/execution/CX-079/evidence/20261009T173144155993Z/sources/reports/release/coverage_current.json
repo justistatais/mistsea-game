@@ -1,0 +1,39 @@
+{
+  "scope": "executed internal engineering candidate; full game is incomplete",
+  "suite": "reports/build/20261009T172300391165Z",
+  "executed_csharp_cases": 287,
+  "failed_csharp_cases": 0,
+  "actual_normal_route": "R0 rescue, QP01..QP03, Q101..Q104, three Glimmer spaces",
+  "actual_route_inputs": "engineering prose, meanings and combat actions; not a human playthrough",
+  "later_chapter_production": "incomplete; chapter-two author candidate is still under construction",
+  "final_route": "ending command predicates and storage use explicit late-game fixtures; no normal end-to-end final chapter yet",
+  "catalog_slots_are_not_completed_levels": true,
+  "online_model": false,
+  "human_signoff": null,
+  "formal_release": "blocked",
+  "missing": [
+    "actual later chapters and personal story producers",
+    "full native player route",
+    "real input-method and screen-reader acceptance",
+    "editorial, critical audio and target-band review",
+    "rights review and publisher signature",
+    "different clean Windows machine qualification"
+  ],
+  "windows_candidate": {
+    "path": "artifacts/windows/MistSea-internal-20261009T170834026583Z",
+    "zip": "artifacts/windows/MistSea-internal-20261009T170834026583Z.zip",
+    "sha256": "1d543c8071ca96ccb2aee237188b25b654cbfbf2f8e12ca94ceee7ace429c129",
+    "bundled_runtime_new_and_reopen": {
+      "release": "mistsea-internal-0.1",
+      "scope": "normal_first_entry_candidate",
+      "scene": "R0-S01",
+      "experience": 0,
+      "marks": 100,
+      "receipt_count": 2,
+      "debug_driver_absent": true,
+      "online_provider": "disabled",
+      "human_release_approval": "pending"
+    },
+    "different_clean_machine": "not_run"
+  }
+}

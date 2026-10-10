@@ -1,0 +1,228 @@
+[
+  {
+    "id": "JOB-011-Q102-TEXT",
+    "quest_ref": "Q-102",
+    "title": "Register frozen originals, verify proposition/segment mapping",
+    "target": {
+      "reference": "IELTS Academic",
+      "reading": 6.5,
+      "listening": 6.5,
+      "writing": 6.5,
+      "speaking": null,
+      "auto_escalate": false
+    },
+    "status": "sources_registered",
+    "source_assets": [
+      "Q102-R-NOTICE",
+      "Q102-R-B",
+      "Q102-R-VESSEL",
+      "Q102-R-BATTERY",
+      "Q102-L-REVISION"
+    ],
+    "source_hashes": {
+      "Q102-R-NOTICE": "649ab96ad986a42373f11f4f0fdacc150751f423d1cbd6dfd9ee7be07c44d847",
+      "Q102-R-B": "379d8afe48d34cf019c5198b9fa75d738443acf9c9beb6ae45a6e6edfbdc22b3",
+      "Q102-R-VESSEL": "e9d5ff64b01b5fd3a633feaa1180a4ca4e39a0b0126abf895962418250b20748",
+      "Q102-R-BATTERY": "28aea8a9a7ea6fe7a70d031c4e827bfdff291d29df84b4005ace561d290f2702",
+      "Q102-L-REVISION": "cee0b3f65e56ecc477af656159b774ac701dad290b9af9fd389a9159e9fdb5f7"
+    },
+    "constraints": "No rewriting version 0.1 text; alternative wording requires a new version.",
+    "may_create_global_facts": false,
+    "may_approve_self": false,
+    "retry_candidate_limit": 2,
+    "required_review_roles": [
+      "story",
+      "language",
+      "puzzle_or_learning"
+    ],
+    "output_contract": [
+      "candidate_payload",
+      "source_spans",
+      "assumptions_or_gaps",
+      "changed_dependencies"
+    ],
+    "done_definition": "approved version + dependent proofs + scoped human/test evidence; draft alone is not done"
+  },
+  {
+    "id": "JOB-011-Q102-AUDIO",
+    "quest_ref": "Q-102",
+    "title": "Produce and audit first genuine Q102 listening track",
+    "target": {
+      "reference": "IELTS Academic",
+      "reading": 6.5,
+      "listening": 6.5,
+      "writing": 6.5,
+      "speaking": null,
+      "auto_escalate": false
+    },
+    "status": "script_only",
+    "source_assets": [
+      "Q102-L-REVISION"
+    ],
+    "source_hashes": {
+      "Q102-L-REVISION": "cee0b3f65e56ecc477af656159b774ac701dad290b9af9fd389a9159e9fdb5f7"
+    },
+    "constraints": "Keep all corrections, negations and speaker turns; do not read author notes or answers aloud.",
+    "may_create_global_facts": false,
+    "may_approve_self": false,
+    "retry_candidate_limit": 2,
+    "required_review_roles": [
+      "story",
+      "language",
+      "puzzle_or_learning"
+    ],
+    "output_contract": [
+      "candidate_payload",
+      "source_spans",
+      "assumptions_or_gaps",
+      "changed_dependencies"
+    ],
+    "done_definition": "approved version + dependent proofs + scoped human/test evidence; draft alone is not done"
+  },
+  {
+    "id": "JOB-011-HOTEL",
+    "quest_ref": "SC-R1-001",
+    "title": "Complete the booking revision training packet",
+    "target": {
+      "reference": "IELTS Academic",
+      "reading": 6.5,
+      "listening": 6.5,
+      "writing": 6.5,
+      "speaking": null,
+      "auto_escalate": false
+    },
+    "status": "brief_ready",
+    "source_assets": [
+      "PZHOT-R-ORIGINAL",
+      "PZHOT-L-AMENDMENT",
+      "PZHOT-R-ROOMS"
+    ],
+    "source_hashes": {
+      "PZHOT-R-ORIGINAL": "6efc0f982192864e35077896fbcc4bd9c4a384240f92d47be5914935a20adec9",
+      "PZHOT-L-AMENDMENT": "c91cc9a84a8e35eab8d2aa3a5db7f82595b9b2ee4d0dd6c6a6b40b963d581f79",
+      "PZHOT-R-ROOMS": "68edd22ca91725052b31a7df622d9e924e79fcc4e97c322e207dfc2ff626b47b"
+    },
+    "constraints": "Date amendment does not erase the room requirements; identity is booking ID, not sheet count.",
+    "may_create_global_facts": false,
+    "may_approve_self": false,
+    "retry_candidate_limit": 2,
+    "required_review_roles": [
+      "story",
+      "language",
+      "puzzle_or_learning"
+    ],
+    "output_contract": [
+      "candidate_payload",
+      "source_spans",
+      "assumptions_or_gaps",
+      "changed_dependencies"
+    ],
+    "done_definition": "approved version + dependent proofs + scoped human/test evidence; draft alone is not done"
+  },
+  {
+    "id": "JOB-011-LAB",
+    "quest_ref": "Q-402",
+    "title": "Complete bounded trial evidence and feedback",
+    "target": {
+      "reference": "IELTS Academic",
+      "reading": 6.5,
+      "listening": 6.5,
+      "writing": 6.5,
+      "speaking": null,
+      "auto_escalate": false
+    },
+    "status": "brief_ready",
+    "source_assets": [
+      "PZLAB-R-PROTOCOL",
+      "LAB-R-001"
+    ],
+    "source_hashes": {
+      "PZLAB-R-PROTOCOL": "8f4a596de9612a6cc6e9a58776af24251bae303ad1aaf4f9d8607705cd963aec",
+      "LAB-R-001": "47af86b3b602d01d9c6e67b33a77fa7e1996dbe56a1de18e261fc3d99830fd40"
+    },
+    "constraints": "No invented 55-load result and no claim all six towers passed. Different sample families are not silently joined.",
+    "may_create_global_facts": false,
+    "may_approve_self": false,
+    "retry_candidate_limit": 2,
+    "required_review_roles": [
+      "story",
+      "language",
+      "puzzle_or_learning"
+    ],
+    "output_contract": [
+      "candidate_payload",
+      "source_spans",
+      "assumptions_or_gaps",
+      "changed_dependencies"
+    ],
+    "done_definition": "approved version + dependent proofs + scoped human/test evidence; draft alone is not done"
+  },
+  {
+    "id": "JOB-011-MIRA",
+    "quest_ref": "CQ-MIRA-02",
+    "title": "Publish scope-safe dialogue and localized support",
+    "target": {
+      "reference": "IELTS Academic",
+      "reading": 6.5,
+      "listening": 6.5,
+      "writing": 6.5,
+      "speaking": null,
+      "auto_escalate": false
+    },
+    "status": "brief_ready",
+    "source_assets": [
+      "NPC-MAT-04"
+    ],
+    "source_hashes": {
+      "NPC-MAT-04": "731cd611ec771b5ee31d48dc0b76fc9fdd686678e167a29689ffa1c79c28c927"
+    },
+    "constraints": "No witness address; request for review is not permission for public release.",
+    "may_create_global_facts": false,
+    "may_approve_self": false,
+    "retry_candidate_limit": 2,
+    "required_review_roles": [
+      "story",
+      "language",
+      "puzzle_or_learning"
+    ],
+    "output_contract": [
+      "candidate_payload",
+      "source_spans",
+      "assumptions_or_gaps",
+      "changed_dependencies"
+    ],
+    "done_definition": "approved version + dependent proofs + scoped human/test evidence; draft alone is not done"
+  },
+  {
+    "id": "JOB-011-LEX",
+    "quest_ref": "independent_review",
+    "title": "Author local teaching entry and transfer examples",
+    "target": {
+      "reference": "IELTS Academic",
+      "reading": 6.5,
+      "listening": 6.5,
+      "writing": 6.5,
+      "speaking": null,
+      "auto_escalate": false
+    },
+    "status": "brief_ready",
+    "source_assets": [],
+    "source_hashes": {},
+    "constraints": "subject to condition meaning; original wording and source review; no proprietary dictionary scraping.",
+    "may_create_global_facts": false,
+    "may_approve_self": false,
+    "retry_candidate_limit": 2,
+    "required_review_roles": [
+      "story",
+      "language",
+      "puzzle_or_learning"
+    ],
+    "output_contract": [
+      "candidate_payload",
+      "source_spans",
+      "assumptions_or_gaps",
+      "changed_dependencies"
+    ],
+    "done_definition": "approved version + dependent proofs + scoped human/test evidence; draft alone is not done"
+  }
+]

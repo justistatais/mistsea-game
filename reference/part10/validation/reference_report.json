@@ -1,0 +1,219 @@
+{
+  "python": "3.13.5",
+  "scope": "in-memory bounded UI contracts, not an engine or durable filesystem",
+  "run": 52,
+  "passed": 52,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_28_ready_requires_real_fixture_and_intent",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_29_no_wall_clock_in_preview",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_30_unrelated_settings_do_not_invalidate",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_31_disconnect_reconnect_invalidates_test",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_32_permission_change_invalidates",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_33_load_and_close_invalidate_preview",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_34_proposal_change_invalidates",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_35_repeated_command_has_one_receipt_and_reward",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_36_new_command_cannot_repeat_same_goal_reward",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_37_changed_payload_same_command_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_38_query_does_not_mutate_unknown_or_known",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_39_old_snapshot_can_legally_complete_once",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_40_loading_post_commit_cannot_repeat",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_51_changed_goal_same_command_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.ConfirmationTests.test_52_language_settings_cannot_change_world_qualification",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_20_save_requires_acknowledgement",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_21_old_save_ack_cannot_mark_new_draft_saved",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_22_storage_rejects_out_of_order_old_body",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_23_forged_document_or_generation_ack_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_24_save_failure_keeps_text",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_25_composition_not_sent_as_finished_body",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_26_edit_invalidates_intent_not_physical_work",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.DraftTests.test_27_no_revision_change_for_identical_body",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_41_hidden_preload_is_not_shown_support",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_42_help_scope_not_global",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_43_support_after_answer_does_not_change_snapshot",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_44_audio_missing_does_not_fake_playback",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_45_interrupt_keeps_audio_position",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_46_old_feedback_is_attached_to_old_revision",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_47_deleted_generation_cannot_repopulate",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_48_permissions_before_search_and_counts",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_49_protected_input_defers_notification",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.EvidenceFeedbackTests.test_50_duplicate_notification_not_repeated",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_09_letters_in_editor_do_not_navigate",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_10_search_and_quantity_fields_are_editable",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_11_ctrl_s_only_saves_draft",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_12_enter_and_ctrl_enter_do_not_send",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_13_composition_owns_enter_escape_even_in_dialog",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_14_mode_change_discards_queue_and_stale_input",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_15_key_repeat_does_not_confirm",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_16_pointer_release_cannot_cross_layers",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_17_transition_cannot_move",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_18_layers_pause_and_restore_focus",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.InputTests.test_19_missing_return_focus_has_safe_fallback",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_01_twenty_four_unique_views",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_02_eighteen_unique_shared_components",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_03_all_views_lock_65_and_keyboard",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_04_all_views_declare_owner_restore_empty_error",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_05_layout_rectangles_in_bounds_and_no_overlap",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_06_sample_materials_are_unscored_and_audio_missing",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_07_no_send_keyboard_shortcut_in_editable",
+      "status": "passed"
+    },
+    {
+      "id": "test_ui_reference.RegistryTests.test_08_large_font_reflows",
+      "status": "passed"
+    }
+  ]
+}

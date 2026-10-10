@@ -1,0 +1,71 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-R3-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 11,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CP-R3-03",
+      "name": "A bare actor region string cannot issue regional commissions or real arrival",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Actual regional voyage lands without granting any unvisited record, reward or rescue",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Three rescued workers actually travel through escort and local reception before Q301 awards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Current water configuration invalidates the old drainage proof and preserves independent ladder",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Independent tripartite records close Q302 without recruitment or confession and cannot change original raw text",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "A third qualified allocation is accepted while unlimited extraction and borrowed tower resources are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Finite watched transition closes with two duties; a real shift handoff invalidates current tower test",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Actual Q303 can close before Q302; formal Q304 remains locked until both and never auto braces the arm",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Actual tower handoff rewards once, grants second calibration only then and persists Safe without conversion",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Saved prose alone grants nothing; ready preview rejects actual draft CAS changes and continuation",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-03",
+      "name": "Non-recruited Oren repairs own auxiliary kit under an actual work post and another person reviews without absolution",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains no elements\r\n   at System.Linq.ThrowHelper.ThrowNoElementsException()\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Application.ChapterThree.ChapterThreeService.PreviewSubmissionAsync(String quest) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\ChapterThree\\ChapterThreeService.Submissions.cs:line 54\r\n   at Mist.Tests.Storage.StorageCases.Done[T](ValueTask\u00601 value) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Storage\\StorageCases.cs:line 19\r\n   at Mist.Tests.ChapterThree.ChapterThreeCases.Run.Submit(String quest) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterThree\\ChapterThreeCases.cs:line 76\r\n   at Mist.Tests.ChapterThree.ChapterThreeCases.Run.Auxiliary() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterThree\\ChapterThreeCases.cs:line 105\r\n   at Mist.Tests.ChapterThree.ChapterThreeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_11() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterThree\\ChapterThreeCases.cs:line 121\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

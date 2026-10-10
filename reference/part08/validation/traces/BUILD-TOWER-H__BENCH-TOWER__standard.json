@@ -1,0 +1,732 @@
+{
+  "result": {
+    "build": "BUILD-TOWER-H",
+    "scenario": "BENCH-TOWER",
+    "difficulty": "standard",
+    "outcome": "victory",
+    "rounds": 7,
+    "party_hp": 197,
+    "party_max_hp": 408,
+    "hp_damage": 310,
+    "shield_absorbed": 64,
+    "breaks": 0,
+    "aid_used": 1,
+    "focus_spent": 15,
+    "device_damage": 0,
+    "downs": 0,
+    "actions": 27
+  },
+  "scope": {
+    "full_story_balanced": false,
+    "language_calibrated": false,
+    "reference_simulation": "selected_actives_core_passives_fixed_auxiliaries_no_paid_items",
+    "gear_hooks_not_executed": [
+      "WP-04",
+      "AR-05",
+      "all_relics",
+      "all_modules"
+    ],
+    "not_implemented_in_simulator": [
+      "positions_and_range",
+      "companion_milestone_variants",
+      "ordinary_damage_over_time_ticks",
+      "all_status_visuals",
+      "full_core_battle",
+      "world_commit_storage",
+      "real_engine_saving"
+    ]
+  },
+  "log": [
+    {
+      "round": 1,
+      "kind": "declare",
+      "intents": {
+        "tower": {
+          "name": "臂扫",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 1,
+      "kind": "control",
+      "actor": "hero",
+      "control": "left"
+    },
+    {
+      "round": 1,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2200
+    },
+    {
+      "round": 1,
+      "kind": "control",
+      "actor": "guard",
+      "control": "right"
+    },
+    {
+      "round": 1,
+      "kind": "defend",
+      "actor": "guard",
+      "guard": 2250
+    },
+    {
+      "round": 1,
+      "kind": "control",
+      "actor": "support",
+      "control": "isolate"
+    },
+    {
+      "round": 1,
+      "kind": "defend",
+      "actor": "support",
+      "guard": 2150
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "tower",
+      "target": "hero",
+      "hp": 18,
+      "absorbed": 0,
+      "raw": 18,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "tower",
+      "target": "guard",
+      "hp": 18,
+      "absorbed": 0,
+      "raw": 18,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "tower",
+      "target": "support",
+      "hp": 18,
+      "absorbed": 0,
+      "raw": 18,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "enemy_action",
+      "enemy": "tower",
+      "name": "臂扫",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 2,
+      "kind": "declare",
+      "intents": {
+        "tower": {
+          "name": "定点压击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H02",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H01",
+      "targets": [
+        "tower"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "hero",
+      "target": "tower",
+      "hp": 40,
+      "absorbed": 0,
+      "raw": 40,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "tower"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "guard",
+      "target": "tower",
+      "hp": 22,
+      "absorbed": 0,
+      "raw": 22,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "tower"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "support",
+      "target": "tower",
+      "hp": 20,
+      "absorbed": 0,
+      "raw": 20,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "tower",
+      "target": "hero",
+      "hp": 41,
+      "absorbed": 0,
+      "raw": 41,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "enemy_action",
+      "enemy": "tower",
+      "name": "定点压击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 3,
+      "kind": "declare",
+      "intents": {
+        "tower": {
+          "name": "冷却甩击",
+          "target": "column",
+          "units": [
+            "hero"
+          ],
+          "slots": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "hero",
+      "target": "tower",
+      "hp": 30,
+      "absorbed": 0,
+      "raw": 30,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "tower"
+    },
+    {
+      "round": 3,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2700
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 13,
+      "added": 13
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "tower"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "support",
+      "target": "tower",
+      "hp": 20,
+      "absorbed": 0,
+      "raw": 20,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "tower",
+      "target": "hero",
+      "hp": 9,
+      "absorbed": 13,
+      "raw": 22,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "tower",
+      "target": "support",
+      "hp": 31,
+      "absorbed": 0,
+      "raw": 31,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "enemy_action",
+      "enemy": "tower",
+      "name": "冷却甩击",
+      "targets": [
+        "hero",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 4,
+      "kind": "declare",
+      "intents": {
+        "tower": {
+          "name": "臂扫",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H01",
+      "targets": [
+        "tower"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "hero",
+      "target": "tower",
+      "hp": 33,
+      "absorbed": 0,
+      "raw": 33,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2200
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "tower"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "guard",
+      "target": "tower",
+      "hp": 22,
+      "absorbed": 0,
+      "raw": 22,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 4,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 19,
+      "added": 19
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "tower",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 18,
+      "raw": 18,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "tower",
+      "target": "guard",
+      "hp": 23,
+      "absorbed": 0,
+      "raw": 23,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "tower",
+      "target": "support",
+      "hp": 23,
+      "absorbed": 0,
+      "raw": 23,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "enemy_action",
+      "enemy": "tower",
+      "name": "臂扫",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 5,
+      "kind": "declare",
+      "intents": {
+        "tower": {
+          "name": "定点压击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H02",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "hero",
+      "target": "tower",
+      "hp": 36,
+      "absorbed": 0,
+      "raw": 36,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "tower"
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "support"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "shield",
+      "source": "guard",
+      "target": "support",
+      "value": 13,
+      "added": 13
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "tower"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "support",
+      "target": "tower",
+      "hp": 20,
+      "absorbed": 0,
+      "raw": 20,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "tower",
+      "target": "hero",
+      "hp": 40,
+      "absorbed": 1,
+      "raw": 41,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "enemy_action",
+      "enemy": "tower",
+      "name": "定点压击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 6,
+      "kind": "declare",
+      "intents": {
+        "tower": {
+          "name": "冷却甩击",
+          "target": "column",
+          "units": [
+            "hero"
+          ],
+          "slots": [
+            0,
+            2
+          ]
+        }
+      }
+    },
+    {
+      "round": 6,
+      "kind": "aid",
+      "actor": "hero",
+      "target": "hero",
+      "hp": 68
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H01",
+      "targets": [
+        "tower"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "hero",
+      "target": "tower",
+      "hp": 33,
+      "absorbed": 0,
+      "raw": 33,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "tower"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "guard",
+      "target": "tower",
+      "hp": 22,
+      "absorbed": 0,
+      "raw": 22,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 6,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 19,
+      "added": 19
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "tower",
+      "target": "hero",
+      "hp": 12,
+      "absorbed": 19,
+      "raw": 31,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "tower",
+      "target": "support",
+      "hp": 18,
+      "absorbed": 13,
+      "raw": 31,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "enemy_action",
+      "enemy": "tower",
+      "name": "冷却甩击",
+      "targets": [
+        "hero",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 7,
+      "kind": "declare",
+      "intents": {
+        "tower": {
+          "name": "臂扫",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 7,
+      "kind": "damage",
+      "source": "hero",
+      "target": "tower",
+      "hp": 12,
+      "absorbed": 0,
+      "raw": 30,
+      "device": false
+    },
+    {
+      "round": 7,
+      "kind": "down",
+      "unit": "tower"
+    },
+    {
+      "round": 7,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "tower"
+    }
+  ]
+}

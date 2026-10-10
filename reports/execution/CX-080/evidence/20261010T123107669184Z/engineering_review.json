@@ -1,0 +1,92 @@
+{
+  "task_id": "CX-080",
+  "scope": "在实际获准后生成本地发行产物、版本说明和恢复教程；外部上传仍需用户明确授权。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "签名与版本可核对",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-080",
+            "name": "Unapproved local candidate cannot be promoted to formal handoff or external publication by readiness inspection",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "宣传不承诺通关IELTS总分",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-080",
+            "name": "Unapproved local candidate cannot be promoted to formal handoff or external publication by readiness inspection",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "无默认外发",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-080",
+            "name": "Unapproved local candidate cannot be promoted to formal handoff or external publication by readiness inspection",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "不自动发布到商店或第三方账户",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-080",
+            "name": "Unapproved local candidate cannot be promoted to formal handoff or external publication by readiness inspection",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-080",
+        "name": "Unapproved local candidate cannot be promoted to formal handoff or external publication by readiness inspection",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 578,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "G7"
+  ],
+  "not_run": [
+    "Human editorial and production acceptance of local producers and twelve optional encounter candidates",
+    "Complete 96-unit puzzle source/method/save register",
+    "Physical power/disk-full, IME, screen reader and different clean Windows machine",
+    "Human play, editorial/target-band calibration, audition, rights and publisher signature"
+  ]
+}

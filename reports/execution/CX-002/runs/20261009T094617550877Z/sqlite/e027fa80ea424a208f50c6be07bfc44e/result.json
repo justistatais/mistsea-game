@@ -1,0 +1,21 @@
+{
+  "scope": "CX-002 native toolchain probe, not production persistence validation",
+  "framework": ".NET 10.0.12",
+  "process_architecture": "X64",
+  "sqlite_version": "3.53.3",
+  "provider_assembly": "Microsoft.Data.Sqlite, Version=10.0.12.0, Culture=neutral, PublicKeyToken=adb9793829ddae60",
+  "journal_mode": "delete",
+  "synchronous": 2,
+  "rollback_verified": true,
+  "commit_verified": true,
+  "backup_verified": true,
+  "integrity_check": "ok",
+  "native_files": [
+    {
+      "path": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\SqliteProbe\\bin\\Release\\net10.0\\win-x64\\e_sqlite3.dll",
+      "sha256": "b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e"
+    }
+  ],
+  "database": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\sqlite\\e027fa80ea424a208f50c6be07bfc44e\\probe.sqlite",
+  "backup": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\sqlite\\e027fa80ea424a208f50c6be07bfc44e\\backup.sqlite"
+}

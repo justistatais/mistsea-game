@@ -1,0 +1,36 @@
+{
+  "version": "r4-r5-voyage-candidate-1",
+  "from": "R4",
+  "to": "R5",
+  "berth_spot": "R5-S01.berth",
+  "source_quest": "Q-404",
+  "source_action": "glasshaven_technical_handover_received",
+  "commission_purpose": "verify_north_station_and_legal_access",
+  "duty": "R5-LOCAL-BERTH-DUTY",
+  "authority_scope": "public_landing_only",
+  "review_status": "original_unreviewed_human_pending",
+  "sources": [
+    {
+      "path": "reference/part03/Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+      "section": "EXP-03 public travel; R5-S01 old-city public berth; shared Glimmer section 9.9"
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+      "section": "R4 Q404 bounded technical handover and north station verification; R5 legal access and actual rescue"
+    },
+    {
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+      "section": "functional public landing duty; old-city local access remains a separate authority"
+    }
+  ],
+  "original_local_details": [
+    "R5-LOCAL-BERTH-DUTY is an original bounded local public landing function, not a detention access permit, recruited character or tower operator.",
+    "The chart binds the actual single GLIMMER, Q404 typed TechnicalHandover, original bounded E-06/E-07/E-11 validation, old_city_north_station and the exact north-station/legal-access inquiry.",
+    "Issuance requires the actual source berth, three registered cabins, physical HUB-S02 chart stand and paired safe R5-S01 public route. No weather, tide, distance or fictional sailing task is added.",
+    "Registration gives no local archive, detention access, released person, rescue result, role responsibility, final policy, reward or future document.",
+    "The original R4 handover retains unknown current Mara status. The real R5 rescue and the separately sourced responsibilities remain actual later operations."
+  ]
+}

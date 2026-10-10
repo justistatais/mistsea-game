@@ -1,0 +1,84 @@
+{
+  "status": "internal_candidate_only",
+  "package_license_metadata": [
+    {
+      "id": "Godot.SourceGenerators",
+      "version": "4.7.2",
+      "license_metadata": "MIT",
+      "project_url": "https://github.com/godotengine/godot/tree/master/modules/mono/editor/Godot.NET.Sdk/Godot.SourceGenerators",
+      "nuspec_sha256": "386d36657854ffb4b55d273107cab7d49eab1ddb210fcd7144b2c4acffdfed91",
+      "legal_review": "pending"
+    },
+    {
+      "id": "GodotSharp",
+      "version": "4.7.2",
+      "license_metadata": "MIT",
+      "project_url": "https://github.com/godotengine/godot/tree/master/modules/mono/glue/GodotSharp/GodotSharp",
+      "nuspec_sha256": "03c15cbbec04194740ed4d6df11abcf8eb8157948be6ca19e54758349cf64b76",
+      "legal_review": "pending"
+    },
+    {
+      "id": "Microsoft.Data.Sqlite.Core",
+      "version": "10.0.12",
+      "license_metadata": "MIT",
+      "project_url": "https://docs.microsoft.com/dotnet/standard/data/sqlite/",
+      "nuspec_sha256": "56030907327ba858664e4c2cbc6547ad56d766d900bc323c14408fcd42fc46a0",
+      "legal_review": "pending"
+    },
+    {
+      "id": "SQLitePCLRaw.bundle_e_sqlite3",
+      "version": "2.1.12",
+      "license_metadata": "Apache-2.0",
+      "project_url": null,
+      "nuspec_sha256": "2faa9f418c3b8831efdf92df6aca8322ffa9f7a556e915b46e5daa8e1f8e3233",
+      "legal_review": "pending"
+    },
+    {
+      "id": "SQLitePCLRaw.core",
+      "version": "2.1.12",
+      "license_metadata": "Apache-2.0",
+      "project_url": null,
+      "nuspec_sha256": "8ab9189071aef856b12a9a3d68ac055a01ec6f8fc51b85ac1029e7c5ba12eecc",
+      "legal_review": "pending"
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.12",
+      "license_metadata": "Apache-2.0",
+      "project_url": null,
+      "nuspec_sha256": "0e82e5cda14ccb8c546596d39393a6a9ba94146ffeeac86069df29ce9d57a731",
+      "legal_review": "pending"
+    },
+    {
+      "id": "SQLitePCLRaw.provider.e_sqlite3",
+      "version": "2.1.12",
+      "license_metadata": "Apache-2.0",
+      "project_url": null,
+      "nuspec_sha256": "7e5b604b8ad8121fa75f01eec61f56989b717fadfd530188a57d35759d93f573",
+      "legal_review": "pending"
+    },
+    {
+      "id": "Microsoft.Data.Sqlite",
+      "version": "10.0.12",
+      "license_metadata": "MIT",
+      "project_url": "https://docs.microsoft.com/dotnet/standard/data/sqlite/",
+      "nuspec_sha256": "8e1c47c77197daaac1584979b7bb42a9a8f6deaff9f6d18029b3a689a2107c6c",
+      "legal_review": "pending"
+    },
+    {
+      "id": "SQLitePCLRaw.lib.e_sqlite3",
+      "version": "2.1.12",
+      "license_metadata": "Apache-2.0",
+      "project_url": null,
+      "nuspec_sha256": "0e82e5cda14ccb8c546596d39393a6a9ba94146ffeeac86069df29ce9d57a731",
+      "legal_review": "pending"
+    }
+  ],
+  "godot_license_source": "https://godotengine.org/license/",
+  "godot_source_commit": "ed1daf0bf001b61586d9930840f2f1394092c079",
+  "original_material_review": "pending",
+  "SAPI_generated_audio_redistribution_review": "pending",
+  "system_font_binaries_bundled": false,
+  "human_editorial_and_6_5_calibration": "pending",
+  "publisher_signature": null
+}

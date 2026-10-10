@@ -1,0 +1,81 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-RF-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 13,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CP-RF-03",
+      "name": "Core actual engine locks phase1 damage and rejects wrong device/stand without resources",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Core overflow is clamped before down; atomic phase change preserves actual resources and devices",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Core finite relays join next round with no immediate action and persist through serialization",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Core 35 percent gate waits for actual relays and verification; verification transitions without extra hit",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Core controlled stop at one is an actual control action; approval preserves verification and changes revoke it",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Core uses difficulty-derived floors and declared actual capacities",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Rook cannot bypass two actual points; result preserves custody semantics separate from core",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Rook combined intention names participants; guard control removes only declared portion and break cancels same attack",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Actual zero-XP finale H keeps 28-level resources and closes Central once",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Actual zero-XP finale M keeps 28-level resources and closes Island once",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Actual zero-XP finale S keeps 28-level resources and closes Distributed once",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: engineering core tempo outside 8\u201310: S / 11\r\n   at Mist.Tests.TestRegistry.Require(Boolean condition, String message) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 11\r\n   at Mist.Tests.Finale.FinaleCases.\u003C\u003Ec__DisplayClass11_0.\u003CRegister\u003Eb__11() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Finale\\FinaleCases.cs:line 117\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Actual zero-XP finale Mixed keeps 28-level resources and closes Central once",
+      "result": "passed"
+    },
+    {
+      "task": "CP-RF-03",
+      "name": "Actual RF draft CAS and checkpoint load invalidate a ready foreground preview before leasing",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T100947135499Z",
+  "selected_case": {
+    "index": 465,
+    "task": "CP-R1-03",
+    "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "f3a8aaa4e5f8112027dc2bdfa1474da639acec7afdf2cb6065efe90aced23f9b",
+  "source_active_database": "reports/build/20261010T100947135499Z/case_runs/0465/testdata/normal-r1-life-native-entry/recovery/inventory-v2-1cb91602-c7cb-4b6a-86ba-1c88e69464b8.sqlite",
+  "source_active_database_sha256": "c091ede30124c8db286065460026ab71274712b0e088f772c75a0289208f3c85",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T100947135499Z",
+  "source": "reports/build/20261010T100947135499Z/case_runs/0465/testdata/normal-r1-life-native-entry/entry_evidence.json",
+  "fixture": false,
+  "case": {
+    "index": 465,
+    "task": "CP-R1-03",
+    "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2dc693404ab314119494f2f66eabbac50d0e3b0cd2ccdc00cd5d83858396ef7d",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "8dad9fb62ec442bc71bdbf297ebb6988987cf7338e1af2f5775d6c67b8bc324b",
+  "case_command_sha256": "923918c6149a4dca0387c5ba1eaebe9d367e8f518a02b4e3d6706ce2f66ef40b",
+  "proof_sha256": "f3a8aaa4e5f8112027dc2bdfa1474da639acec7afdf2cb6065efe90aced23f9b",
+  "copied_profile_files": [
+    {
+      "path": "backups/6186c71c-381e-4df1-95d9-5f58595b3b8b.sqlite",
+      "sha256": "6b8311a940033e88bfe394fbf02665dbaa44683c48fd794dcd2e6725fa97007c"
+    },
+    {
+      "path": "control.sqlite",
+      "sha256": "7cef5394ac77ba77f1fc2a7e09b45cb716d7139d07bb1049271c3e3b18e10f18"
+    },
+    {
+      "path": "entry_evidence.json",
+      "sha256": "f3a8aaa4e5f8112027dc2bdfa1474da639acec7afdf2cb6065efe90aced23f9b"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "572ce75705164a6bbe6c4cb2cb22b17a052040d6b90fe80cdbe652834b4f0b85"
+    },
+    {
+      "path": "recovery/inventory-v2-1cb91602-c7cb-4b6a-86ba-1c88e69464b8.sqlite",
+      "sha256": "c091ede30124c8db286065460026ab71274712b0e088f772c75a0289208f3c85"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0465/testdata/normal-r1-life-native-entry/backups/6186c71c-381e-4df1-95d9-5f58595b3b8b.sqlite",
+      "sha256": "6b8311a940033e88bfe394fbf02665dbaa44683c48fd794dcd2e6725fa97007c",
+      "copied_before_native_sha256": "6b8311a940033e88bfe394fbf02665dbaa44683c48fd794dcd2e6725fa97007c"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0465/testdata/normal-r1-life-native-entry/control.sqlite",
+      "sha256": "7cef5394ac77ba77f1fc2a7e09b45cb716d7139d07bb1049271c3e3b18e10f18",
+      "copied_before_native_sha256": "7cef5394ac77ba77f1fc2a7e09b45cb716d7139d07bb1049271c3e3b18e10f18"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0465/testdata/normal-r1-life-native-entry/entry_evidence.json",
+      "sha256": "f3a8aaa4e5f8112027dc2bdfa1474da639acec7afdf2cb6065efe90aced23f9b",
+      "copied_before_native_sha256": "f3a8aaa4e5f8112027dc2bdfa1474da639acec7afdf2cb6065efe90aced23f9b"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0465/testdata/normal-r1-life-native-entry/profile.sqlite",
+      "sha256": "572ce75705164a6bbe6c4cb2cb22b17a052040d6b90fe80cdbe652834b4f0b85",
+      "copied_before_native_sha256": "572ce75705164a6bbe6c4cb2cb22b17a052040d6b90fe80cdbe652834b4f0b85"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0465/testdata/normal-r1-life-native-entry/recovery/inventory-v2-1cb91602-c7cb-4b6a-86ba-1c88e69464b8.sqlite",
+      "sha256": "c091ede30124c8db286065460026ab71274712b0e088f772c75a0289208f3c85",
+      "copied_before_native_sha256": "c091ede30124c8db286065460026ab71274712b0e088f772c75a0289208f3c85"
+    }
+  ]
+}

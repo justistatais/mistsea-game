@@ -1,0 +1,1269 @@
+{
+  "scope": "static_current_code_labels_and_historical_result_links",
+  "chapter": "R1",
+  "current_test_source_hashes": [
+    {
+      "path": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "sha256": "4f738e7ef4e240141ff5bc19e4f790a9e8c85519a89df292385a32bd7d1dfd5c",
+      "bytes": 23329
+    },
+    {
+      "path": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "sha256": "e6b80838bb4b536627e1a48e75a556d651a876418edaba71c98ecd3da73d53ee",
+      "bytes": 17167
+    },
+    {
+      "path": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "sha256": "47db7bcae3c6def3ad2cea2d37bf4033d298b1c63a637b318927249b61826aae",
+      "bytes": 23723
+    },
+    {
+      "path": "tests/Mist.Tests/Voyage/VoyageCases.cs",
+      "sha256": "102a115f4f20a9cbb10f4de17fdf565d85a88cdb4aed22a1a6b2351e2dd06850",
+      "bytes": 15268
+    }
+  ],
+  "named_case_index": [
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CX-065",
+      "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Normal new game has zero XP and no maintenance permission; repeat initialise grants nothing",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CP-R0-03",
+      "name": "All sixteen exits are reciprocal and each stand/interaction can be reached by the shared navigation",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "All sixteen exits are reciprocal and each stand/interaction can be reached by the shared navigation",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "All sixteen exits are reciprocal and each stand/interaction can be reached by the shared navigation",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "All sixteen exits are reciprocal and each stand/interaction can be reached by the shared navigation",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CP-R0-03",
+      "name": "Cabin exit, far pickup and premature mentor-record access preserve the unprepared world",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Cabin exit, far pickup and premature mentor-record access preserve the unprepared world",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Cabin exit, far pickup and premature mentor-record access preserve the unprepared world",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Cabin exit, far pickup and premature mentor-record access preserve the unprepared world",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CX-065",
+      "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Actual shore encounter uses two-level rescue cooperation and never formal recruitment or kill XP",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CP-R0-03",
+      "name": "Changing the receiving direction invalidates its check; unsafe line does not move or lose survivors",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Changing the receiving direction invalidates its check; unsafe line does not move or lose survivors",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Changing the receiving direction invalidates its check; unsafe line does not move or lose survivors",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Changing the receiving direction invalidates its check; unsafe line does not move or lose survivors",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CP-R0-03",
+      "name": "Saving and confirming meaning do not send; wrong rescue scope and a changed draft leave rewards untouched",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Saving and confirming meaning do not send; wrong rescue scope and a changed draft leave rewards untouched",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Saving and confirming meaning do not send; wrong rescue scope and a changed draft leave rewards untouched",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Saving and confirming meaning do not send; wrong rescue scope and a changed draft leave rewards untouched",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CP-R0-03",
+      "name": "Relay reconfiguration invalidates pickup while acquired originals remain; prologue closes from actual rescue",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Relay reconfiguration invalidates pickup while acquired originals remain; prologue closes from actual rescue",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Relay reconfiguration invalidates pickup while acquired originals remain; prologue closes from actual rescue",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Relay reconfiguration invalidates pickup while acquired originals remain; prologue closes from actual rescue",
+          "task": "CP-R0-03",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CX-065",
+      "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Missing closure evidence and a request outside Havel authority never create permission or ferry items",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CX-065",
+      "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Havel commission requires actual arrival and four sources; Q102 is level three from four once-only rewards",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CX-065",
+      "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Continue does not reseed; old pre-commission branch cannot execute its future preview or inherit ferry objects",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CX-065",
+      "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Normal campaign hands the same actor and unique ferry devices to the existing physical Q102 transaction",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Campaign/CampaignCases.cs",
+      "task": "CP-R0-01",
+      "name": "Original sources carry declared review gaps and chronology limits without a player answer-key",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Original sources carry declared review gaps and chronology limits without a player answer-key",
+          "task": "CP-R0-01",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Original sources carry declared review gaps and chronology limits without a player answer-key",
+          "task": "CP-R0-01",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Original sources carry declared review gaps and chronology limits without a player answer-key",
+          "task": "CP-R0-01",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-023",
+      "name": "Nested ownership, editing, IME and background input cannot execute world",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Nested ownership, editing, IME and background input cannot execute world",
+          "task": "CX-023",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Nested ownership, editing, IME and background input cannot execute world",
+          "task": "CX-023",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Nested ownership, editing, IME and background input cannot execute world",
+          "task": "CX-023",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-024",
+      "name": "Body radius, obstacles and screen transforms hold at five viewport sizes",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Body radius, obstacles and screen transforms hold at five viewport sizes",
+          "task": "CX-024",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Body radius, obstacles and screen transforms hold at five viewport sizes",
+          "task": "CX-024",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Body radius, obstacles and screen transforms hold at five viewport sizes",
+          "task": "CX-024",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-025",
+      "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+          "task": "CX-025",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+          "task": "CX-025",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+          "task": "CX-025",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-025",
+      "name": "Missing paired entry preserves source actor and sequence",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Missing paired entry preserves source actor and sequence",
+          "task": "CX-025",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Missing paired entry preserves source actor and sequence",
+          "task": "CX-025",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Missing paired entry preserves source actor and sequence",
+          "task": "CX-025",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-026",
+      "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+          "task": "CX-026",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+          "task": "CX-026",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+          "task": "CX-026",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-027",
+      "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+          "task": "CX-027",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+          "task": "CX-027",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+          "task": "CX-027",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-029",
+      "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+          "task": "CX-029",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+          "task": "CX-029",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Journal exposes only acquired IDs; dictionary does not disclose task solution",
+          "task": "CX-029",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-034",
+      "name": "One NPC lease spans locations and expires on new load context",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "One NPC lease spans locations and expires on new load context",
+          "task": "CX-034",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "One NPC lease spans locations and expires on new load context",
+          "task": "CX-034",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "One NPC lease spans locations and expires on new load context",
+          "task": "CX-034",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-033",
+      "name": "Local feedback locates original text and never inserts or estimates a band",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Local feedback locates original text and never inserts or estimates a band",
+          "task": "CX-033",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Local feedback locates original text and never inserts or estimates a band",
+          "task": "CX-033",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Local feedback locates original text and never inserts or estimates a band",
+          "task": "CX-033",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-032",
+      "name": "Partial order allows both install orders; unknown capacity and missing steps do not pass",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Partial order allows both install orders; unknown capacity and missing steps do not pass",
+          "task": "CX-032",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Partial order allows both install orders; unknown capacity and missing steps do not pass",
+          "task": "CX-032",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Partial order allows both install orders; unknown capacity and missing steps do not pass",
+          "task": "CX-032",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-033",
+      "name": "Six learning states require scoped reviewed successes, distinct families and real calendar delay",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Six learning states require scoped reviewed successes, distinct families and real calendar delay",
+          "task": "CX-033",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Six learning states require scoped reviewed successes, distinct families and real calendar delay",
+          "task": "CX-033",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Six learning states require scoped reviewed successes, distinct families and real calendar delay",
+          "task": "CX-033",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-030",
+      "name": "An available but unplayed audio cannot be independent listening",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "An available but unplayed audio cannot be independent listening",
+          "task": "CX-030",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "An available but unplayed audio cannot be independent listening",
+          "task": "CX-030",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "An available but unplayed audio cannot be independent listening",
+          "task": "CX-030",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-035",
+      "name": "B is not corrected to C; changed draft requires reconfirmation; blank support remains explicit",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "B is not corrected to C; changed draft requires reconfirmation; blank support remains explicit",
+          "task": "CX-035",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "B is not corrected to C; changed draft requires reconfirmation; blank support remains explicit",
+          "task": "CX-035",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "B is not corrected to C; changed draft requires reconfirmation; blank support remains explicit",
+          "task": "CX-035",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-036",
+      "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+          "task": "CX-036",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+          "task": "CX-036",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+          "task": "CX-036",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-037",
+      "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+          "task": "CX-037",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+          "task": "CX-037",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+          "task": "CX-037",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-037",
+      "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+          "task": "CX-037",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+          "task": "CX-037",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+          "task": "CX-037",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Q102/Q102Cases.cs",
+      "task": "CX-038",
+      "name": "Actual SQLite full noncombat route: ",
+      "static_label_may_be_dynamic_prefix": true,
+      "historical_passed_links": [],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-065",
+      "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Normal zero-XP rescue, commission, ferry, finding and tower handover persist continuously without fixtures",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CP-R1-03",
+      "name": "Three new grayboxes have paired exits and safe paths to every actual source/work station",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Three new grayboxes have paired exits and safe paths to every actual source/work station",
+          "task": "CP-R1-03",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Three new grayboxes have paired exits and safe paths to every actual source/work station",
+          "task": "CP-R1-03",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Three new grayboxes have paired exits and safe paths to every actual source/work station",
+          "task": "CP-R1-03",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-065",
+      "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Q103 preserves original versions and uncertainty, then awards 180XP once without hidden knowledge",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-065",
+      "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Q103 preview cannot execute after draft edit or revoked records authority",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-065",
+      "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "A prepared notice alone and an unsupported higher-intent interpretation never close Q103",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-049",
+      "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+          "task": "CX-049",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+          "task": "CX-049",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+          "task": "CX-049",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: ",
+      "static_label_may_be_dynamic_prefix": true,
+      "historical_passed_links": [],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-065",
+      "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+          "task": "CX-065",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+          "task": "CX-065",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Post-control inspection and physical berth handover create one Glimmer and one original reward set",
+          "task": "CX-065",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/ChapterOne/ChapterOneCases.cs",
+      "task": "CX-049",
+      "name": "Continue does not refill; explicit withdrawal preserves acquired records/draft and new retry attempt",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Continue does not refill; explicit withdrawal preserves acquired records/draft and new retry attempt",
+          "task": "CX-049",
+          "report": "reports/build/20261009T165621386421Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Continue does not refill; explicit withdrawal preserves acquired records/draft and new retry attempt",
+          "task": "CX-049",
+          "report": "reports/build/20261009T172300391165Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Continue does not refill; explicit withdrawal preserves acquired records/draft and new retry attempt",
+          "task": "CX-049",
+          "report": "reports/build/20261009T182406252977Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Voyage/VoyageCases.cs",
+      "task": "CX-060",
+      "name": "R1/R2 voyage source keeps public landing authority separate from unvisited learner records and verifies actual berth geometry",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "R1/R2 voyage source keeps public landing authority separate from unvisited learner records and verifies actual berth geometry",
+          "task": "CX-060",
+          "report": "reports/build/20261009T183717952794Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "R1/R2 voyage source keeps public landing authority separate from unvisited learner records and verifies actual berth geometry",
+          "task": "CX-060",
+          "report": "reports/build/20261010T041602587678Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "R1/R2 voyage source keeps public landing authority separate from unvisited learner records and verifies actual berth geometry",
+          "task": "CX-060",
+          "report": "reports/build/20261010T041905149768Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Voyage/VoyageCases.cs",
+      "task": "CX-060",
+      "name": "No new profile, map or explicitly gifted ship can issue the real voyage loan and cross-region arrival handoff",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "No new profile, map or explicitly gifted ship can issue the real voyage loan and cross-region arrival handoff",
+          "task": "CX-060",
+          "report": "reports/build/20261009T183717952794Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "No new profile, map or explicitly gifted ship can issue the real voyage loan and cross-region arrival handoff",
+          "task": "CX-060",
+          "report": "reports/build/20261010T041602587678Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "No new profile, map or explicitly gifted ship can issue the real voyage loan and cross-region arrival handoff",
+          "task": "CX-060",
+          "report": "reports/build/20261010T041905149768Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    },
+    {
+      "source": "tests/Mist.Tests/Voyage/VoyageCases.cs",
+      "task": "CX-060",
+      "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures",
+      "static_label_may_be_dynamic_prefix": false,
+      "historical_passed_links": [
+        {
+          "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures",
+          "task": "CX-060",
+          "report": "reports/build/20261009T183717952794Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures",
+          "task": "CX-060",
+          "report": "reports/build/20261010T041602587678Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        },
+        {
+          "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures",
+          "task": "CX-060",
+          "report": "reports/build/20261010T041905149768Z/test_results.json",
+          "build_scope": "executed C# code tests",
+          "human_signoff": null
+        }
+      ],
+      "current_reexecution": "not_run_by_author_index",
+      "human_playthrough": "not_claimed"
+    }
+  ],
+  "normal_continuity_reference": "ChapterOneCases.NormalComplete from actual zero-XP profile through Q104; no positive fixtures",
+  "not_run": [
+    "Tests not run by this index script",
+    "Human full chapter playthrough",
+    "Language 6.5 conditional calibration",
+    "Physical IME and screen reader",
+    "Audio human audition and rights signoff"
+  ],
+  "target_bands": {
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5,
+    "speaking": null
+  }
+}

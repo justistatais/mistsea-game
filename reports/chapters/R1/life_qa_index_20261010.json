@@ -1,0 +1,676 @@
+{
+  "generated_utc": "2026-10-10T05:13:32.356555+00:00",
+  "scope": "static_current_source_map_with_exact_historical_test_links",
+  "static_case_labels": [
+    {
+      "task": "CP-R1-03",
+      "name": "life_geometry_reuses_original_inn_approach_and_rejects_duplicate_targets_without_changing_main_ports",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_zero_XP_prologue_registration_then_optional_inn_produces_one_25XP_result_without_mainline_changes",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "two_real_optional_spaces_have_reciprocal_ports_full_bilingual_materials_and_no_encounter_inflation",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "undiscovered_optional_entry_and_remote_actions_do_not_move_or_grant_work",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "copies_dates_and_two_room_constraints_are_actual_checked_records_not_three_bookings",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "guest_and_room_inspection_cannot_be_replaced_by_only_opening_letters",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "script_first_or_letter_first_leads_to_same_real_room_allocation_without_audio_claim",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "inn_pause_continue_uses_same_instance_and_real_clock_never_evicts_guests",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "innkeeper_foreground_occupation_delays_acceptance_without_cloning_or_consuming_reward",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "inn_reward_replay_and_reopen_have_one_semantic_receipt_and_no_new_credit",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "changed_saved_confirmation_invalidates_preview_and_does_not_half_award",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "declining_inn_and_pausing_show_does_not_add_mainline_or_ending_requirements",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_theatre_",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "lamp_changes_invalidate_actual_test_and_cannot_power_without_own_brace_cell",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "props_transfer_once_and_duplicate_install_does_not_consume_or_create_items",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "one_actor_two_roles_wrong_time_or_unprepared_programme_is_rejected",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "restored_scene_is_unavailable_before_actual_programme_receipt",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "old_load_submission_preview_cannot_issue_inn_reward",
+      "source": "tests/Mist.Tests/R1Life/R1LifeCases.cs"
+    }
+  ],
+  "parameterised_case_note": "The FullIndoor/SmallDaylight loop expands one static Add label into two actual tests. Actual results determine execution count.",
+  "historical_results": [
+    {
+      "name": "life_geometry_reuses_original_inn_approach_and_rejects_duplicate_targets_without_changing_main_ports",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "actual_zero_XP_prologue_registration_then_optional_inn_produces_one_25XP_result_without_mainline_changes",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "two_real_optional_spaces_have_reciprocal_ports_full_bilingual_materials_and_no_encounter_inflation",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "undiscovered_optional_entry_and_remote_actions_do_not_move_or_grant_work",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "copies_dates_and_two_room_constraints_are_actual_checked_records_not_three_bookings",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "guest_and_room_inspection_cannot_be_replaced_by_only_opening_letters",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "script_first_or_letter_first_leads_to_same_real_room_allocation_without_audio_claim",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "inn_pause_continue_uses_same_instance_and_real_clock_never_evicts_guests",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "innkeeper_foreground_occupation_delays_acceptance_without_cloning_or_consuming_reward",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "inn_reward_replay_and_reopen_have_one_semantic_receipt_and_no_new_credit",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "changed_saved_confirmation_invalidates_preview_and_does_not_half_award",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "declining_inn_and_pausing_show_does_not_add_mainline_or_ending_requirements",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "lamp_changes_invalidate_actual_test_and_cannot_power_without_own_brace_cell",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "props_transfer_once_and_duplicate_install_does_not_consume_or_create_items",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "one_actor_two_roles_wrong_time_or_unprepared_programme_is_rejected",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "restored_scene_is_unavailable_before_actual_programme_receipt",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "old_load_submission_preview_cannot_issue_inn_reward",
+      "result": "passed",
+      "report": "reports/build/20261010T050938093259Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "life_geometry_reuses_original_inn_approach_and_rejects_duplicate_targets_without_changing_main_ports",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "actual_zero_XP_prologue_registration_then_optional_inn_produces_one_25XP_result_without_mainline_changes",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "two_real_optional_spaces_have_reciprocal_ports_full_bilingual_materials_and_no_encounter_inflation",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "undiscovered_optional_entry_and_remote_actions_do_not_move_or_grant_work",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "copies_dates_and_two_room_constraints_are_actual_checked_records_not_three_bookings",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "guest_and_room_inspection_cannot_be_replaced_by_only_opening_letters",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "script_first_or_letter_first_leads_to_same_real_room_allocation_without_audio_claim",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "inn_pause_continue_uses_same_instance_and_real_clock_never_evicts_guests",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "innkeeper_foreground_occupation_delays_acceptance_without_cloning_or_consuming_reward",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "inn_reward_replay_and_reopen_have_one_semantic_receipt_and_no_new_credit",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "changed_saved_confirmation_invalidates_preview_and_does_not_half_award",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "declining_inn_and_pausing_show_does_not_add_mainline_or_ending_requirements",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "lamp_changes_invalidate_actual_test_and_cannot_power_without_own_brace_cell",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "props_transfer_once_and_duplicate_install_does_not_consume_or_create_items",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "one_actor_two_roles_wrong_time_or_unprepared_programme_is_rejected",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "restored_scene_is_unavailable_before_actual_programme_receipt",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    },
+    {
+      "name": "old_load_submission_preview_cannot_issue_inn_reward",
+      "result": "passed",
+      "report": "reports/build/20261010T051036090105Z/test_results.json",
+      "scope": "executed C# code tests",
+      "human_signoff": null
+    }
+  ],
+  "current_reexecution": "not_run_by_index",
+  "source_hashes": [
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+      "bytes": 85846
+    },
+    {
+      "path": "docs/baseline/Quest_Event_System_v0.1.md",
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33",
+      "bytes": 64353
+    },
+    {
+      "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+      "bytes": 83759
+    },
+    {
+      "path": "content/source/part09.json",
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0",
+      "bytes": 56328
+    },
+    {
+      "path": "content/source/r1_life/learner_package.json",
+      "sha256": "5a6dc2e84452b79ace0ba2f31572f8850a18fbd6e3527cd91c10eceb88bdd1f0",
+      "bytes": 35696
+    },
+    {
+      "path": "content/source/r1_life/build.author_only.py",
+      "sha256": "c288aea58902a647b55776e16833678b2bfebf314b4208b66e8d39cf6bd1cd9a",
+      "bytes": 24482
+    },
+    {
+      "path": "content/source/r1_life/production_cards.author_only.md",
+      "sha256": "655ce029f95fd9023421aa91cbf98ecc684e0984b1154fc65de54bc2122ff286",
+      "bytes": 6319
+    },
+    {
+      "path": "content/source/r1_life/INTEGRATION.md",
+      "sha256": "0ea30374913c8d64c9cb7cf1b5edd144764cb58d8f43724c96cc078109832170",
+      "bytes": 2120
+    },
+    {
+      "path": "src/Mist.Core/R1Life/R1LifeModels.cs",
+      "sha256": "408df3e493122df4ebf71c993fdc5995f6ed6e3b07f1ec8d636309c21d5cf203",
+      "bytes": 9499
+    },
+    {
+      "path": "src/Mist.Application/R1Life/R1LifeService.cs",
+      "sha256": "c083756c095e72f89049c258a09b640ac5ced6990c0f74ca6440a1f4465569ea",
+      "bytes": 27515
+    },
+    {
+      "path": "tests/Mist.Tests/R1Life/R1LifeCases.cs",
+      "sha256": "147ec8606050af09fb6a76a7f5461364a9559eb65f6aa76176e09149fa489adb",
+      "bytes": 21977
+    },
+    {
+      "path": "game/UI/Shell/Root.R1Life.cs",
+      "sha256": "88cb1061c20a155194dd7246fe60cd7b77a72ce6e70981a7277b84a6d54e9f44",
+      "bytes": 14380
+    },
+    {
+      "path": "game/Diagnostics/Root.R1LifeClientTests.cs",
+      "sha256": "f798c0052ac98b8cfcb0f11de862b5ed10c361e4dd44719b7ded1514c3deb4fe",
+      "bytes": 11592
+    }
+  ],
+  "actual_entry_producer": "R1LifeCases.ActualEntry(ProfileStore) -> real zero-XP prologue/Q101/travel -> 340XP unaccepted local state",
+  "source_blocks": [
+    {
+      "material": "R1-ROOM-R-OLD",
+      "paragraph": "R1-ROOM-R-OLD.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 68,
+      "english_sha256": "d2fa11a2dfd3d30605745b59e9e4a6f4c75d1cd6caeb7f9d46ba6ecc52cf6f53",
+      "chinese_sha256": "20d7bc4270807cb18800b49395a74276a4d993f57f48a9dbd5bbcd43d9c701a0",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-OLD",
+      "paragraph": "R1-ROOM-R-OLD.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 60,
+      "english_sha256": "2346f2a5d3e2069d1c71da80be4575c6a54b6fb5c7beb8bdefb9f496a25d444b",
+      "chinese_sha256": "9954649bad20d86775bb14e94f81df54d59876be004790e7c7fe9e6117ce593d",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-AMEND",
+      "paragraph": "R1-ROOM-R-AMEND.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 81,
+      "english_sha256": "4af827db39b093bf9a6489bd2737c9f96bee55e3b9f25d14f2b0df6dde4ddcbe",
+      "chinese_sha256": "2db4e5818f94fcf585ae2abbd491650a2e469a4c194f46f5d68f7a36d4db84e2",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-AMEND",
+      "paragraph": "R1-ROOM-R-AMEND.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 68,
+      "english_sha256": "41f52ed3ecd4de6da04c602a6eabf975f30f2415616e659d82830871444267a0",
+      "chinese_sha256": "3d0d71e749f3cd1ed5685fe12f995004d39e537944e3c139512f0fde8544149b",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-SEPARATE",
+      "paragraph": "R1-ROOM-R-SEPARATE.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 65,
+      "english_sha256": "622a2ff15f457104d7f42db0e917b38f5d7c43d5e003cd4ff87a486c9f61ab9b",
+      "chinese_sha256": "232af706949d64d5000e7cbc28a43b3b829eadaa07d8b67d34fc159f23bc8a83",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-SEPARATE",
+      "paragraph": "R1-ROOM-R-SEPARATE.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 60,
+      "english_sha256": "c590a1d4f09a2f975d4bfbad5ebdb86d22dd4779ac4fc7091d4be3968996601c",
+      "chinese_sha256": "53767e0f4aef99a91ee7ebc816a2a792eca4d81ab7be6659887abab75011a158",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-L-GUESTS",
+      "paragraph": "R1-ROOM-L-GUESTS.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 74,
+      "english_sha256": "a052fbd9fad7745044642d936977480f40912b464da818742debdd753c13e8b9",
+      "chinese_sha256": "4dd32d579dce1f6883bb4374f2219c92e3646736cf21c787e7aa7b81c4c5e7ac",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-L-GUESTS",
+      "paragraph": "R1-ROOM-L-GUESTS.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 70,
+      "english_sha256": "daf971d89fd148e90a34ffbd42b6be1246216712f6a26e990017631b0d0197e6",
+      "chinese_sha256": "01e37607009026d1c0c8dc4dead50d78e2a65bf7fce66155099cfce77b4158b2",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-CARDS",
+      "paragraph": "R1-ROOM-R-CARDS.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 68,
+      "english_sha256": "16ce0a49243e87c4a9bab545250048599637ac77fbcc696e621e2c0090468a27",
+      "chinese_sha256": "7a32d5b5503e9e85662a858ade55f6c0bf9febfa8ccf81e20c548d071577f88b",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-CARDS",
+      "paragraph": "R1-ROOM-R-CARDS.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 64,
+      "english_sha256": "ae712e20b16db458bcd6c71541d91c015be8f9a882aab80a3fb6019ae4ede1f1",
+      "chinese_sha256": "a46cff2d8eeb2b8d94d6a9e16414e47cc3cf48cdf9d2dac9ddeae132ad6e6a3d",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-DESK",
+      "paragraph": "R1-ROOM-R-DESK.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 72,
+      "english_sha256": "f3e468fd9c5740ea305bbdff418c2bd5220ff438a23545e67025b604b5536cad",
+      "chinese_sha256": "844e6f6cb298733695c66ef960b415b338b90a1a59c07e400e873f2257922c2c",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-ROOM-R-DESK",
+      "paragraph": "R1-ROOM-R-DESK.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 74,
+      "english_sha256": "7986f813b192b5c03b7bece97fa7040a1046f18ad3ed6e658459e725594ac6e7",
+      "chinese_sha256": "2ab8aba1f728cdde4f24bda3d4775f5bd39d248579877c30cb6ac2c077bbf77f",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-OFFER",
+      "paragraph": "R1-SHOW-R-OFFER.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 74,
+      "english_sha256": "460804217424f11c3f93349c848b014fd8a8ae71036bd9dae6e78af8a50221ca",
+      "chinese_sha256": "84b13744b6a715f11c149771844ef772081b6eb5d3ac9937810063a9656d2921",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-OFFER",
+      "paragraph": "R1-SHOW-R-OFFER.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 74,
+      "english_sha256": "7e2e3ebc6f1297980ffeb8566f5eec2544d942208d25e9ceac7480fa861e87ff",
+      "chinese_sha256": "1d835a8a829c134f9d4eb98e51311c4bc1d97533dd19f2f77adc2f343473a255",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-EQUIPMENT",
+      "paragraph": "R1-SHOW-R-EQUIPMENT.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 75,
+      "english_sha256": "33da92e4f4f74c13e96cc27d0df1769108ea81951b07b483a1027628af1459e2",
+      "chinese_sha256": "6e1e351a2fcbe2ce77edee8df39844969207bb1baf570894fbc4682f6768b5c2",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-EQUIPMENT",
+      "paragraph": "R1-SHOW-R-EQUIPMENT.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 62,
+      "english_sha256": "e02005e2f172d676e0721667f999e25497991e4653d51607139baff08b7ccc60",
+      "chinese_sha256": "6705c00baa9f0282114b4c0ecfc792468ff83bb4260f7d396e990f8dfdf8aad4",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-L-CREW",
+      "paragraph": "R1-SHOW-L-CREW.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 74,
+      "english_sha256": "a3e34d0049e957874ff266f6f1610e78b588548dd572dcf42af2e33e62d8bda2",
+      "chinese_sha256": "31879b5db62181da853349592000e10700e294ceee8e4b3daf1f032ea3258fc0",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-L-CREW",
+      "paragraph": "R1-SHOW-L-CREW.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 78,
+      "english_sha256": "2bb705b64d8f12fcf6663e3b031a0d2ef633b5d065fdb957e5e9fa4592edba81",
+      "chinese_sha256": "17eb3a4c17ae610b4e37660da08df1c8fb59673834d53f4bd35b26f8c61debcf",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-STAGE",
+      "paragraph": "R1-SHOW-R-STAGE.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 71,
+      "english_sha256": "65e3c39bb3b58c6b8d9081b4a484944066d30e2e94ee03c169df8e9ef0750b6d",
+      "chinese_sha256": "e150d217d670a95e4774eeb8010175bc81a645d53c3f52fd6b19a3bb4ebc9ccb",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-STAGE",
+      "paragraph": "R1-SHOW-R-STAGE.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 60,
+      "english_sha256": "f493a59e09a2be8aeff78b6985789b714fa3c1ed23473d682738fdc0ff07832b",
+      "chinese_sha256": "3018a18517336e255482e6c38c6a0f237be388e5618dad2631e0a6576eaf1888",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-SCENE",
+      "paragraph": "R1-SHOW-R-SCENE.P1",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 75,
+      "english_sha256": "2ad75125148438e0847f660eff4d913f8e20fe97109742e0e987fb0567ed3a6d",
+      "chinese_sha256": "7b5a3ebbbeb7ea3862116a828fa4cec63fed45b6471123fe8bfa499ad683390d",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    },
+    {
+      "material": "R1-SHOW-R-SCENE",
+      "paragraph": "R1-SHOW-R-SCENE.P2",
+      "version": "R1-LIFE-20261010-v2",
+      "english_words": 62,
+      "english_sha256": "356de21c45f4c276aeefd255e2184925bcd539379bd99b1a0cd6de7131777fd0",
+      "chinese_sha256": "703dc84f823de0b0e654245fcce8960bddf07e745e93237553c345d6b771abe6",
+      "human_review": "human_pending",
+      "audio_asset": ""
+    }
+  ],
+  "independent_units": [
+    {
+      "id": "PZ-HOTEL-BOOKING",
+      "mechanism": "version/group/room constraints, actual inspections/allocation and receiver",
+      "quest": "SC-R1-001",
+      "reward": {
+        "xp": 25,
+        "marks": 0,
+        "parts": 0
+      }
+    },
+    {
+      "id": "PZ-R1-SHOW",
+      "mechanism": "finite installations/current lamp test or isolated daylight/actual people and times",
+      "quest": "SC-R1-002",
+      "reward": {
+        "xp": 0,
+        "marks": 0,
+        "parts": 0
+      }
+    }
+  ],
+  "not_run": [
+    "No tests run by index",
+    "Human whole chapter play",
+    "Human language calibration",
+    "Audio recording/audition/rights",
+    "Physical IME/screenreader"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "version": "0.1",
+    "status": "design_reference_not_production_runtime",
+    "part": 11
+  },
+  "target": {
+    "reference": "IELTS Academic",
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5,
+    "speaking": null,
+    "auto_escalate": false
+  },
+  "content_counts": {
+    "main_quest_containers": 32,
+    "exploration_spaces": 78,
+    "puzzle_budget": 96,
+    "combat_slots_budget": 44,
+    "core_npcs": 13,
+    "long_readings_budget": 16,
+    "key_audio_budget": 32,
+    "long_audio_subset": 12,
+    "long_writing_opportunities": 12,
+    "core_lexical_entries_budget": 360,
+    "extended_lexical_entries_budget": 360
+  },
+  "state_axes": {
+    "production": [
+      "registered",
+      "briefed",
+      "drafted",
+      "machine_checked",
+      "editorial_reviewed",
+      "field_tested",
+      "release_candidate",
+      "released"
+    ],
+    "calibration": [
+      "draft_target_65",
+      "editorial_reviewed",
+      "pilot_tested",
+      "calibrated_for_declared_conditions",
+      "monitored"
+    ],
+    "audio": [
+      "not_applicable",
+      "script_only",
+      "rendered",
+      "auditioned"
+    ],
+    "rights": [
+      "pending",
+      "reviewed",
+      "restricted",
+      "withdrawn"
+    ]
+  },
+  "human_gates": [
+    "story_and_scope",
+    "language",
+    "puzzle_and_information",
+    "audio_and_localization",
+    "rights",
+    "integration",
+    "calibration"
+  ],
+  "runtime_write_domains": [],
+  "band_output_enabled": false,
+  "max_primary_feedback_items": 3,
+  "max_expanded_feedback_items": 8,
+  "max_runtime_context_segments": 6,
+  "max_runtime_attempts": 2,
+  "max_generation_candidates_per_job_initial": 2,
+  "production_batch_initial": {
+    "first_full_packet": 1,
+    "next_each_stage": 3,
+    "scale_batch": 8,
+    "max_batch": 12
+  },
+  "cost_model": {
+    "formula": "sum(input_tokens*input_unit_price + output_tokens*output_unit_price) + audio_cost + storage + human_review",
+    "illustrative_usage_only": {
+      "requests": 1000,
+      "mean_input_tokens": 2000,
+      "mean_output_tokens": 700,
+      "input_tokens_total": 2000000,
+      "output_tokens_total": 700000
+    },
+    "provider": null,
+    "prices": null,
+    "not_a_bill_or_quote": true
+  }
+}

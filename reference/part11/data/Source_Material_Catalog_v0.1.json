@@ -1,0 +1,1624 @@
+{
+  "scope": "Part05/06/10 named material JSON collections + Part08/09 materials/*.md; writing prompts and lexicon counted separately",
+  "occurrence_count": 33,
+  "unique_count": 28,
+  "duplicate_reuse_count": 5,
+  "same_id_version_conflicts": [],
+  "materials": [
+    {
+      "asset_id": "Q102-R-NOTICE",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Current navigation restrictions",
+      "target_band": 6.5,
+      "content_hash": "649ab96ad986a42373f11f4f0fdacc150751f423d1cbd6dfd9ee7be07c44d847",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "Q102-R-NOTICE-p01",
+            "text": "All departures remain subject to the current navigation restrictions. Route A is closed until further notice. A previous journey through that channel is not evidence that it is safe to use today, and an older chart should not be treated as permission to enter it."
+          },
+          {
+            "id": "Q102-R-NOTICE-p02",
+            "text": "Route C remains open, but a vessel may enter it only if its navigation beacon is operational. The beacon must be checked in its installed configuration before departure. Permission to work on a vessel does not remove this requirement, nor does the fact that another vessel has already left the harbour."
+          },
+          {
+            "id": "Q102-R-NOTICE-p03",
+            "text": "A separate notice at the dispatch desk sets out the conditions for Route B. Crews should compare those conditions with the particulars of their own vessel rather than assume that a channel available to one boat is available to every boat. The departure plan must identify the chosen route and explain any equipment arrangements on which it depends."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "Q102-R-NOTICE",
+        "version": "0.1",
+        "title": "Current navigation restrictions",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "authored_target_not_empirically_calibrated",
+        "originality": "new_original_project_material",
+        "paragraphs": [
+          {
+            "id": "Q102-R-NOTICE-p01",
+            "text": "All departures remain subject to the current navigation restrictions. Route A is closed until further notice. A previous journey through that channel is not evidence that it is safe to use today, and an older chart should not be treated as permission to enter it."
+          },
+          {
+            "id": "Q102-R-NOTICE-p02",
+            "text": "Route C remains open, but a vessel may enter it only if its navigation beacon is operational. The beacon must be checked in its installed configuration before departure. Permission to work on a vessel does not remove this requirement, nor does the fact that another vessel has already left the harbour."
+          },
+          {
+            "id": "Q102-R-NOTICE-p03",
+            "text": "A separate notice at the dispatch desk sets out the conditions for Route B. Crews should compare those conditions with the particulars of their own vessel rather than assume that a channel available to one boat is available to every boat. The departure plan must identify the chosen route and explain any equipment arrangements on which it depends."
+          }
+        ],
+        "approx_word_count": 154,
+        "word_count_method": "production_estimate_regex_not_official_marking",
+        "goal_refs": [
+          "R03",
+          "R09",
+          "G04",
+          "G05"
+        ],
+        "audio_asset": "not_applicable",
+        "facts_locked": true,
+        "family_id": "FAM-Q102-HARBOUR-ROUTES",
+        "quest_ref": "Q-102"
+      },
+      "occurrences": [
+        {
+          "archive": "Part05_English_Learning_Design_v0.1.zip",
+          "member": "data/Original_Materials_v0.1.json",
+          "record_id": "Q102-R-NOTICE"
+        },
+        {
+          "archive": "Part10_UI_UX_Design_v0.1.zip",
+          "member": "data/Q102_Material_Reference_v0.1.json",
+          "record_id": "Q102-R-NOTICE"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "Q102-R-B",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Route B: pump and draught restriction",
+      "target_band": 6.5,
+      "content_hash": "379d8afe48d34cf019c5198b9fa75d738443acf9c9beb6ae45a6e6edfbdc22b3",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "Q102-R-B-p01",
+            "text": "Route B may be used only while the auxiliary pump is running and only by vessels with a draught of no more than 1.2 metres. Both conditions apply. The pump controls water in the dock facilities; it does not alter the draught limit printed in this notice."
+          },
+          {
+            "id": "Q102-R-B-p02",
+            "text": "An instruction to start the pump therefore concerns the operation of the facilities, not permission for a particular vessel to enter the channel. For this evacuation, use the vessel particulars recorded for the approved load. A change to that load is not an authorised alternative within the present operation. Keep this restriction with the departure record."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "Q102-R-B",
+        "version": "0.1",
+        "title": "Route B: pump and draught restriction",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "authored_target_not_empirically_calibrated",
+        "originality": "new_original_project_material",
+        "paragraphs": [
+          {
+            "id": "Q102-R-B-p01",
+            "text": "Route B may be used only while the auxiliary pump is running and only by vessels with a draught of no more than 1.2 metres. Both conditions apply. The pump controls water in the dock facilities; it does not alter the draught limit printed in this notice."
+          },
+          {
+            "id": "Q102-R-B-p02",
+            "text": "An instruction to start the pump therefore concerns the operation of the facilities, not permission for a particular vessel to enter the channel. For this evacuation, use the vessel particulars recorded for the approved load. A change to that load is not an authorised alternative within the present operation. Keep this restriction with the departure record."
+          }
+        ],
+        "approx_word_count": 104,
+        "word_count_method": "production_estimate_regex_not_official_marking",
+        "goal_refs": [
+          "R03",
+          "G04",
+          "G05"
+        ],
+        "audio_asset": "not_applicable",
+        "facts_locked": true,
+        "family_id": "FAM-Q102-HARBOUR-ROUTES",
+        "quest_ref": "Q-102"
+      },
+      "occurrences": [
+        {
+          "archive": "Part05_English_Learning_Design_v0.1.zip",
+          "member": "data/Original_Materials_v0.1.json",
+          "record_id": "Q102-R-B"
+        },
+        {
+          "archive": "Part10_UI_UX_Design_v0.1.zip",
+          "member": "data/Q102_Material_Reference_v0.1.json",
+          "record_id": "Q102-R-B"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "Q102-R-VESSEL",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Ferry particulars and equipment record",
+      "target_band": 6.5,
+      "content_hash": "e9d5ff64b01b5fd3a633feaa1180a4ca4e39a0b0126abf895962418250b20748",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "Q102-R-VESSEL-p01",
+            "text": "The ferry has a recorded draught of 1.4 metres under the approved evacuation load. These particulars apply to the vessel being prepared at this berth, not to the smaller service boats used elsewhere in the harbour."
+          },
+          {
+            "id": "Q102-R-VESSEL-p02",
+            "text": "The navigation beacon is present, but its mounting bracket is damaged. The boat also carries a charged backup battery reserved for the beacon. Repairs and connections must be completed before the installed beacon is tested. A check made before the configuration changes cannot certify the new configuration."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "Q102-R-VESSEL",
+        "version": "0.1",
+        "title": "Ferry particulars and equipment record",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "authored_target_not_empirically_calibrated",
+        "originality": "new_original_project_material",
+        "paragraphs": [
+          {
+            "id": "Q102-R-VESSEL-p01",
+            "text": "The ferry has a recorded draught of 1.4 metres under the approved evacuation load. These particulars apply to the vessel being prepared at this berth, not to the smaller service boats used elsewhere in the harbour."
+          },
+          {
+            "id": "Q102-R-VESSEL-p02",
+            "text": "The navigation beacon is present, but its mounting bracket is damaged. The boat also carries a charged backup battery reserved for the beacon. Repairs and connections must be completed before the installed beacon is tested. A check made before the configuration changes cannot certify the new configuration."
+          }
+        ],
+        "approx_word_count": 84,
+        "word_count_method": "production_estimate_regex_not_official_marking",
+        "goal_refs": [
+          "R02",
+          "R03",
+          "G02"
+        ],
+        "audio_asset": "not_applicable",
+        "facts_locked": true,
+        "family_id": "FAM-Q102-HARBOUR-ROUTES",
+        "quest_ref": "Q-102"
+      },
+      "occurrences": [
+        {
+          "archive": "Part05_English_Learning_Design_v0.1.zip",
+          "member": "data/Original_Materials_v0.1.json",
+          "record_id": "Q102-R-VESSEL"
+        },
+        {
+          "archive": "Part10_UI_UX_Design_v0.1.zip",
+          "member": "data/Q102_Material_Reference_v0.1.json",
+          "record_id": "Q102-R-VESSEL"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "Q102-R-BATTERY",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Backup battery: use record",
+      "target_band": 6.5,
+      "content_hash": "28aea8a9a7ea6fe7a70d031c4e827bfdff291d29df84b4005ace561d290f2702",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "Q102-R-BATTERY-p01",
+            "text": "This charged battery has sufficient reserve for the beacon during the planned evacuation. It is not intended to restore the harbour supply or power workshop machinery. Connect it to the repaired beacon and check the installed equipment before departure. If the connection is changed after that check, test the equipment again. The battery remains with the ferry once the evacuation begins."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "Q102-R-BATTERY",
+        "version": "0.1",
+        "title": "Backup battery: use record",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "authored_target_not_empirically_calibrated",
+        "originality": "new_original_project_material",
+        "paragraphs": [
+          {
+            "id": "Q102-R-BATTERY-p01",
+            "text": "This charged battery has sufficient reserve for the beacon during the planned evacuation. It is not intended to restore the harbour supply or power workshop machinery. Connect it to the repaired beacon and check the installed equipment before departure. If the connection is changed after that check, test the equipment again. The battery remains with the ferry once the evacuation begins."
+          }
+        ],
+        "approx_word_count": 61,
+        "word_count_method": "production_estimate_regex_not_official_marking",
+        "goal_refs": [
+          "R03",
+          "V03",
+          "G04"
+        ],
+        "audio_asset": "not_applicable",
+        "facts_locked": true,
+        "family_id": "FAM-Q102-HARBOUR-ROUTES",
+        "quest_ref": "Q-102"
+      },
+      "occurrences": [
+        {
+          "archive": "Part05_English_Learning_Design_v0.1.zip",
+          "member": "data/Original_Materials_v0.1.json",
+          "record_id": "Q102-R-BATTERY"
+        },
+        {
+          "archive": "Part10_UI_UX_Design_v0.1.zip",
+          "member": "data/Q102_Material_Reference_v0.1.json",
+          "record_id": "Q102-R-BATTERY"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "Q102-L-REVISION",
+      "version": "0.1",
+      "kind": "listening",
+      "title": "Revised dispatch recording",
+      "target_band": 6.5,
+      "content_hash": "cee0b3f65e56ecc477af656159b774ac701dad290b9af9fd389a9159e9fdb5f7",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "Q102-L-REVISION-p01",
+            "text": "Dispatcher: Before you collect any parts, there is a correction to the earlier message. We were told that the spare navigation beacon had been destroyed. The inspection does not support that account. The beacon itself still works; the damaged part is the bracket that holds it in place."
+          },
+          {
+            "id": "Q102-L-REVISION-p02",
+            "text": "Electrician: That distinction matters. Do not look for a replacement beacon when what you need is a replacement bracket. There is a suitable bracket in the west workshop. Access to the workshop has to be dealt with locally, so this recording is not permission to walk through a restricted work area."
+          },
+          {
+            "id": "Q102-L-REVISION-p03",
+            "text": "Dispatcher: And the main generator? Someone at the quay thought restarting it would make the repair easier."
+          },
+          {
+            "id": "Q102-L-REVISION-p04",
+            "text": "Electrician: Keep it off. The inspection team has not finished isolating the flooded cables. The ferry has its own charged backup battery, with enough reserve for the beacon during this evacuation. That supply is separate from the workshop equipment. Once the new bracket is fitted and the battery connected, check the beacon on the boat. A working light on a bench is not the same as a checked installation."
+          },
+          {
+            "id": "Q102-L-REVISION-p05",
+            "text": "Dispatcher: So the earlier report needs to be corrected, but we are not yet issuing a departure instruction."
+          },
+          {
+            "id": "Q102-L-REVISION-p06",
+            "text": "Electrician: Exactly. The route still has to be selected from the current notices and the ferry particulars. I am confirming the equipment arrangement, not saying that every channel is suitable. Write down the route, the restrictions that ruled out the alternatives, and what the crew must do before leaving. If you are not sure what an instruction means, ask for clarification rather than treating a guess as approval."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "Q102-L-REVISION",
+        "version": "0.1",
+        "title": "Revised dispatch recording",
+        "modality": "listening",
+        "target_band": 6.5,
+        "difficulty_status": "authored_target_not_empirically_calibrated",
+        "originality": "new_original_project_material",
+        "paragraphs": [
+          {
+            "id": "Q102-L-REVISION-p01",
+            "text": "Dispatcher: Before you collect any parts, there is a correction to the earlier message. We were told that the spare navigation beacon had been destroyed. The inspection does not support that account. The beacon itself still works; the damaged part is the bracket that holds it in place."
+          },
+          {
+            "id": "Q102-L-REVISION-p02",
+            "text": "Electrician: That distinction matters. Do not look for a replacement beacon when what you need is a replacement bracket. There is a suitable bracket in the west workshop. Access to the workshop has to be dealt with locally, so this recording is not permission to walk through a restricted work area."
+          },
+          {
+            "id": "Q102-L-REVISION-p03",
+            "text": "Dispatcher: And the main generator? Someone at the quay thought restarting it would make the repair easier."
+          },
+          {
+            "id": "Q102-L-REVISION-p04",
+            "text": "Electrician: Keep it off. The inspection team has not finished isolating the flooded cables. The ferry has its own charged backup battery, with enough reserve for the beacon during this evacuation. That supply is separate from the workshop equipment. Once the new bracket is fitted and the battery connected, check the beacon on the boat. A working light on a bench is not the same as a checked installation."
+          },
+          {
+            "id": "Q102-L-REVISION-p05",
+            "text": "Dispatcher: So the earlier report needs to be corrected, but we are not yet issuing a departure instruction."
+          },
+          {
+            "id": "Q102-L-REVISION-p06",
+            "text": "Electrician: Exactly. The route still has to be selected from the current notices and the ferry particulars. I am confirming the equipment arrangement, not saying that every channel is suitable. Write down the route, the restrictions that ruled out the alternatives, and what the crew must do before leaving. If you are not sure what an instruction means, ask for clarification rather than treating a guess as approval."
+          }
+        ],
+        "approx_word_count": 271,
+        "word_count_method": "production_estimate_regex_not_official_marking",
+        "goal_refs": [
+          "L01",
+          "L03",
+          "L08",
+          "L10",
+          "G05"
+        ],
+        "audio_asset": null,
+        "facts_locked": true,
+        "family_id": "FAM-Q102-AUDIO-CORRECTION",
+        "quest_ref": "Q-102",
+        "audio_plan": {
+          "speakers": 2,
+          "rate_wpm_draft": [
+            145,
+            165
+          ],
+          "rate_is_not_band_rule": true,
+          "clean_mix": true,
+          "subtitles_on_request": true,
+          "release_requires_human_listening_review": true
+        },
+        "items": [
+          {
+            "id": "Q102-L01",
+            "prompt": "What exactly is being corrected in the earlier account?",
+            "answer": "The beacon was reported destroyed, but the damaged component is its mounting bracket.",
+            "evidence_paragraphs": [
+              "Q102-L-REVISION-p01"
+            ],
+            "type": "meaning",
+            "prior_fact_warning": "若已从船内检查得知相同事实，不记此事实首次纯听觉理解"
+          },
+          {
+            "id": "Q102-L02",
+            "prompt": "Why must the main generator remain off?",
+            "answer": "The inspection team has not finished isolating the flooded cables.",
+            "evidence_paragraphs": [
+              "Q102-L-REVISION-p04"
+            ],
+            "type": "meaning"
+          },
+          {
+            "id": "Q102-L03",
+            "prompt": "Is the electrician issuing a departure instruction? Explain the distinction made.",
+            "answer": "No. The electrician confirms an equipment arrangement; route selection and departure still require the current notices, vessel particulars and confirmed instructions.",
+            "evidence_paragraphs": [
+              "Q102-L-REVISION-p05",
+              "Q102-L-REVISION-p06"
+            ],
+            "type": "meaning"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "archive": "Part05_English_Learning_Design_v0.1.zip",
+          "member": "data/Original_Materials_v0.1.json",
+          "record_id": "Q102-L-REVISION"
+        },
+        {
+          "archive": "Part10_UI_UX_Design_v0.1.zip",
+          "member": "data/Q102_Material_Reference_v0.1.json",
+          "record_id": "Q102-L-REVISION"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "LAB-R-001",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "When a timetable is not a guarantee",
+      "target_band": 6.5,
+      "content_hash": "47af86b3b602d01d9c6e67b33a77fa7e1996dbe56a1de18e261fc3d99830fd40",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "LAB-R-001-p01",
+            "text": "When the town of Alder introduced a new evening bus service, the announcement promised a better connection between its railway station and three residential districts. The published timetable showed a bus leaving ten minutes after each of the main evening trains. For passengers who had previously faced a long walk or an expensive taxi journey, the arrangement appeared straightforward. Yet during the first month, complaints arrived from people who had missed their connection even though their train had reached the station on time."
+          },
+          {
+            "id": "LAB-R-001-p02",
+            "text": "The transport office initially looked for mistakes in the timetable. None were found. The difficulty was that the ten-minute connection had been measured from the arrival of the train at the platform to the departure of the bus from its stop. It did not include the time passengers might need to leave a crowded carriage, reach the footbridge and collect a bicycle or a large bag. What looked like a generous interval on paper was not necessarily a usable interval for everyone."
+          },
+          {
+            "id": "LAB-R-001-p03",
+            "text": "To investigate, staff observed the route between the platform and the bus stop over five evenings. They also invited passengers to describe their journeys. The two sources did not provide identical information. Observation showed where groups slowed down, whereas the written accounts explained why some people needed to stop. A parent reported waiting for a child to use the station facilities; another passenger avoided the footbridge because the lift was unreliable. These were not errors in reading the timetable. They were conditions that the timetable alone did not reveal."
+          },
+          {
+            "id": "LAB-R-001-p04",
+            "text": "One proposal was simply to delay every bus by another ten minutes. Several passengers supported it, but the bus operators raised a practical concern. The same vehicles continued beyond the three districts to serve a small college. A later departure from the station could make those passengers late for the final class of the evening. Changing one connection could improve a journey for one group while making another journey less reliable. The question was therefore not whether additional waiting time was useful, but where and under what conditions it should be introduced."
+          },
+          {
+            "id": "LAB-R-001-p05",
+            "text": "The town tried a more limited change. For six weeks, the first bus after the busiest train waited an additional five minutes. The other services kept their published departure times. Staff placed signs along the walking route and asked the station to check the lift before the evening peak. This trial combined a timetable change with improvements to the connection itself. Consequently, a reduction in missed buses would not, on its own, show which part of the trial had produced the improvement."
+          },
+          {
+            "id": "LAB-R-001-p06",
+            "text": "At the end of the trial, fewer complaints had been received. The transport office treated this as encouraging rather than decisive. A complaint count depends not only on the number of problems but also on whether passengers know where to report them and believe that reporting is worthwhile. The number of rail passengers had also varied during the trial. The office therefore compared complaints with observed missed connections and passenger numbers. It did not publish the lower complaint count as proof that every user had benefited."
+          },
+          {
+            "id": "LAB-R-001-p07",
+            "text": "The final recommendation retained the extra wait after the busiest train and made responsibility for the lift checks explicit. It also proposed another review during the college term, when travel patterns might differ. Some residents regarded the continued review as unnecessary caution; others welcomed the acknowledgement that a useful arrangement could still need adjustment. The case suggests that a timetable is best understood as a statement of an intended service, rather than a guarantee that every person can make every connection. Assessing that service requires attention to the journey around the scheduled departure as well as to the time printed beside it."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "LAB-R-001",
+        "version": "0.1",
+        "title": "When a timetable is not a guarantee",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "authored_target_not_empirically_calibrated",
+        "originality": "new_original_project_material",
+        "paragraphs": [
+          {
+            "id": "LAB-R-001-p01",
+            "text": "When the town of Alder introduced a new evening bus service, the announcement promised a better connection between its railway station and three residential districts. The published timetable showed a bus leaving ten minutes after each of the main evening trains. For passengers who had previously faced a long walk or an expensive taxi journey, the arrangement appeared straightforward. Yet during the first month, complaints arrived from people who had missed their connection even though their train had reached the station on time."
+          },
+          {
+            "id": "LAB-R-001-p02",
+            "text": "The transport office initially looked for mistakes in the timetable. None were found. The difficulty was that the ten-minute connection had been measured from the arrival of the train at the platform to the departure of the bus from its stop. It did not include the time passengers might need to leave a crowded carriage, reach the footbridge and collect a bicycle or a large bag. What looked like a generous interval on paper was not necessarily a usable interval for everyone."
+          },
+          {
+            "id": "LAB-R-001-p03",
+            "text": "To investigate, staff observed the route between the platform and the bus stop over five evenings. They also invited passengers to describe their journeys. The two sources did not provide identical information. Observation showed where groups slowed down, whereas the written accounts explained why some people needed to stop. A parent reported waiting for a child to use the station facilities; another passenger avoided the footbridge because the lift was unreliable. These were not errors in reading the timetable. They were conditions that the timetable alone did not reveal."
+          },
+          {
+            "id": "LAB-R-001-p04",
+            "text": "One proposal was simply to delay every bus by another ten minutes. Several passengers supported it, but the bus operators raised a practical concern. The same vehicles continued beyond the three districts to serve a small college. A later departure from the station could make those passengers late for the final class of the evening. Changing one connection could improve a journey for one group while making another journey less reliable. The question was therefore not whether additional waiting time was useful, but where and under what conditions it should be introduced."
+          },
+          {
+            "id": "LAB-R-001-p05",
+            "text": "The town tried a more limited change. For six weeks, the first bus after the busiest train waited an additional five minutes. The other services kept their published departure times. Staff placed signs along the walking route and asked the station to check the lift before the evening peak. This trial combined a timetable change with improvements to the connection itself. Consequently, a reduction in missed buses would not, on its own, show which part of the trial had produced the improvement."
+          },
+          {
+            "id": "LAB-R-001-p06",
+            "text": "At the end of the trial, fewer complaints had been received. The transport office treated this as encouraging rather than decisive. A complaint count depends not only on the number of problems but also on whether passengers know where to report them and believe that reporting is worthwhile. The number of rail passengers had also varied during the trial. The office therefore compared complaints with observed missed connections and passenger numbers. It did not publish the lower complaint count as proof that every user had benefited."
+          },
+          {
+            "id": "LAB-R-001-p07",
+            "text": "The final recommendation retained the extra wait after the busiest train and made responsibility for the lift checks explicit. It also proposed another review during the college term, when travel patterns might differ. Some residents regarded the continued review as unnecessary caution; others welcomed the acknowledgement that a useful arrangement could still need adjustment. The case suggests that a timetable is best understood as a statement of an intended service, rather than a guarantee that every person can make every connection. Assessing that service requires attention to the journey around the scheduled departure as well as to the time printed beside it."
+          }
+        ],
+        "approx_word_count": 616,
+        "word_count_method": "production_estimate_regex_not_official_marking",
+        "goal_refs": [
+          "R01",
+          "R02",
+          "R05",
+          "R06",
+          "R07",
+          "R08",
+          "D03"
+        ],
+        "audio_asset": "not_applicable",
+        "facts_locked": true,
+        "family_id": "FAM-LAB-TIMETABLE-TRIAL",
+        "quest_ref": null,
+        "context_note": "独立训练的虚构现代案例；不新增雾海主线事实；不是官方IELTS试题",
+        "items": [
+          {
+            "id": "LR01",
+            "prompt": "What is the main reason given for looking beyond the printed timetable?",
+            "answer": "The complete connection includes practical conditions and time outside the scheduled arrival and departure.",
+            "evidence_paragraphs": [
+              "LAB-R-001-p02",
+              "LAB-R-001-p07"
+            ],
+            "type": "meaning"
+          },
+          {
+            "id": "LR02",
+            "prompt": "The initial complaints were caused by mistakes in the published times.",
+            "answer": "contradicted",
+            "evidence_paragraphs": [
+              "LAB-R-001-p02"
+            ],
+            "type": "three_way"
+          },
+          {
+            "id": "LR03",
+            "prompt": "All evening buses were delayed by ten minutes during the trial.",
+            "answer": "contradicted",
+            "evidence_paragraphs": [
+              "LAB-R-001-p05"
+            ],
+            "type": "three_way"
+          },
+          {
+            "id": "LR04",
+            "prompt": "The college paid for the additional waiting time.",
+            "answer": "not_stated",
+            "evidence_paragraphs": [
+              "LAB-R-001-p04",
+              "LAB-R-001-p05"
+            ],
+            "type": "three_way",
+            "note": "这些段落给出大学服务与等待安排，但整篇没有说明付款方；未说明不能伪造为某句反证"
+          },
+          {
+            "id": "LR05",
+            "prompt": "Why could fewer complaints not establish which change caused the improvement?",
+            "answer": "Several changes were made together, and complaints and passenger numbers can vary for other reasons.",
+            "evidence_paragraphs": [
+              "LAB-R-001-p05",
+              "LAB-R-001-p06"
+            ],
+            "type": "meaning"
+          },
+          {
+            "id": "LR06",
+            "prompt": "Contrast what observation and passenger accounts contributed to the investigation.",
+            "answer": "Observation identified where people slowed down; accounts helped explain why they stopped or chose a different route.",
+            "evidence_paragraphs": [
+              "LAB-R-001-p03"
+            ],
+            "type": "meaning"
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "archive": "Part05_English_Learning_Design_v0.1.zip",
+          "member": "data/Original_Materials_v0.1.json",
+          "record_id": "LAB-R-001"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "LAB-L-001",
+      "version": "0.1",
+      "kind": "listening",
+      "title": "A trial of later library opening",
+      "target_band": 6.5,
+      "content_hash": "a752832eb28cdff851e1c4b22716b7d11a81bb858ffb7beddfea95d0c644d102",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "LAB-L-001-p01",
+            "text": "Good afternoon. Today I want to explain how our college evaluated a trial of later library opening. You may have seen the announcement saying that the trial was successful. That description needs a little care. The library was used more often in the evening, but that does not answer every question about whether the change should become permanent. I will go through what changed, what we measured and what we still need to find out."
+          },
+          {
+            "id": "LAB-L-001-p02",
+            "text": "First, the practical arrangement. Before the trial, the library closed at six on weekdays. During the trial it stayed open until eight, but only on Tuesdays and Thursdays. We did not add weekend hours. The original proposal had included Monday as well, and some early notices referred to three evenings. However, there were not enough trained staff to cover all three. Anyone using those early notices would have had the wrong information, so the final timetable was placed beside the entrance and sent to students."
+          },
+          {
+            "id": "LAB-L-001-p03",
+            "text": "The aim was not simply to increase the total number of visits. Students on placement had told us that they often returned to campus too late to use specialist materials. Other students said their accommodation was too noisy for concentrated work. Those are different needs. A student might require access to a particular collection, or might only need a quiet desk. We wanted to know which need the extra hours were actually meeting before deciding how to use the available staff and space."
+          },
+          {
+            "id": "LAB-L-001-p04",
+            "text": "For eight weeks, the team recorded entrances during the extra hours. They also asked visitors to complete a short form when they left. I should stress that the entrance figures were visits, not separate individuals. Someone who came on six evenings appeared six times in the total. It would therefore be misleading to report the total as the number of students who had benefited. The forms helped us see patterns of use, although not everyone chose to complete one."
+          },
+          {
+            "id": "LAB-L-001-p05",
+            "text": "The most common reason given on the forms was the need for a quiet place to work. Access to specialist materials was mentioned less often. That finding led one member of the team to suggest opening a supervised study room instead of the whole library. It might meet much of the demand at a lower staffing cost. But another member pointed out that a less common need can still be important. A small group may depend on equipment or collections that cannot be moved into an ordinary room."
+          },
+          {
+            "id": "LAB-L-001-p06",
+            "text": "We also compared the two evenings. Thursday was usually busier than Tuesday, but the difference became smaller after the deadline for a major course assignment had passed. We cannot assume that students always prefer Thursday. Nor can we say that later opening improved examination results: the trial did not measure them. Increased use is useful evidence about access, not direct evidence about academic achievement. When you read the short report, keep that distinction in mind."
+          },
+          {
+            "id": "LAB-L-001-p07",
+            "text": "Our recommendation is to keep the two late evenings for one more term while testing a supervised study room on another day. This is a proposed next step, not an approved timetable, so students should not arrive next Monday expecting the new room to be open. Before it starts, the college needs to confirm staffing and access arrangements. We will compare costs, types of use and the experience of students who need specialist resources. We also plan to ask people who did not attend the trial, because a service can look popular while still failing to reach some of those it was intended to help. That wider review should give us a better basis for a permanent decision."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "LAB-L-001",
+        "version": "0.1",
+        "title": "A trial of later library opening",
+        "modality": "listening",
+        "target_band": 6.5,
+        "difficulty_status": "authored_target_not_empirically_calibrated",
+        "originality": "new_original_project_material",
+        "paragraphs": [
+          {
+            "id": "LAB-L-001-p01",
+            "text": "Good afternoon. Today I want to explain how our college evaluated a trial of later library opening. You may have seen the announcement saying that the trial was successful. That description needs a little care. The library was used more often in the evening, but that does not answer every question about whether the change should become permanent. I will go through what changed, what we measured and what we still need to find out."
+          },
+          {
+            "id": "LAB-L-001-p02",
+            "text": "First, the practical arrangement. Before the trial, the library closed at six on weekdays. During the trial it stayed open until eight, but only on Tuesdays and Thursdays. We did not add weekend hours. The original proposal had included Monday as well, and some early notices referred to three evenings. However, there were not enough trained staff to cover all three. Anyone using those early notices would have had the wrong information, so the final timetable was placed beside the entrance and sent to students."
+          },
+          {
+            "id": "LAB-L-001-p03",
+            "text": "The aim was not simply to increase the total number of visits. Students on placement had told us that they often returned to campus too late to use specialist materials. Other students said their accommodation was too noisy for concentrated work. Those are different needs. A student might require access to a particular collection, or might only need a quiet desk. We wanted to know which need the extra hours were actually meeting before deciding how to use the available staff and space."
+          },
+          {
+            "id": "LAB-L-001-p04",
+            "text": "For eight weeks, the team recorded entrances during the extra hours. They also asked visitors to complete a short form when they left. I should stress that the entrance figures were visits, not separate individuals. Someone who came on six evenings appeared six times in the total. It would therefore be misleading to report the total as the number of students who had benefited. The forms helped us see patterns of use, although not everyone chose to complete one."
+          },
+          {
+            "id": "LAB-L-001-p05",
+            "text": "The most common reason given on the forms was the need for a quiet place to work. Access to specialist materials was mentioned less often. That finding led one member of the team to suggest opening a supervised study room instead of the whole library. It might meet much of the demand at a lower staffing cost. But another member pointed out that a less common need can still be important. A small group may depend on equipment or collections that cannot be moved into an ordinary room."
+          },
+          {
+            "id": "LAB-L-001-p06",
+            "text": "We also compared the two evenings. Thursday was usually busier than Tuesday, but the difference became smaller after the deadline for a major course assignment had passed. We cannot assume that students always prefer Thursday. Nor can we say that later opening improved examination results: the trial did not measure them. Increased use is useful evidence about access, not direct evidence about academic achievement. When you read the short report, keep that distinction in mind."
+          },
+          {
+            "id": "LAB-L-001-p07",
+            "text": "Our recommendation is to keep the two late evenings for one more term while testing a supervised study room on another day. This is a proposed next step, not an approved timetable, so students should not arrive next Monday expecting the new room to be open. Before it starts, the college needs to confirm staffing and access arrangements. We will compare costs, types of use and the experience of students who need specialist resources. We also plan to ask people who did not attend the trial, because a service can look popular while still failing to reach some of those it was intended to help. That wider review should give us a better basis for a permanent decision."
+          }
+        ],
+        "approx_word_count": 603,
+        "word_count_method": "production_estimate_regex_not_official_marking",
+        "goal_refs": [
+          "L01",
+          "L03",
+          "L05",
+          "L07",
+          "L08",
+          "L10",
+          "D03"
+        ],
+        "audio_asset": null,
+        "facts_locked": true,
+        "family_id": "FAM-LAB-LIBRARY-HOURS",
+        "quest_ref": null,
+        "context_note": "独立训练虚构讲解，不改写学城剧情；音轨尚未制作",
+        "audio_plan": {
+          "speakers": 1,
+          "rate_wpm_draft": [
+            140,
+            165
+          ],
+          "clean_mix": true,
+          "release_requires_human_listening_review": true
+        },
+        "items": [
+          {
+            "id": "LL01",
+            "prompt": "Which two evenings were included in the actual trial?",
+            "answer": "Tuesday and Thursday",
+            "type": "meaning",
+            "evidence_paragraphs": [
+              "LAB-L-001-p02"
+            ]
+          },
+          {
+            "id": "LL02",
+            "prompt": "Why should the entrance total not be reported as a count of different students?",
+            "answer": "The same person could make several visits and be counted several times.",
+            "type": "meaning",
+            "evidence_paragraphs": [
+              "LAB-L-001-p04"
+            ]
+          },
+          {
+            "id": "LL03",
+            "prompt": "What was the most commonly reported need?",
+            "answer": "A quiet place to work",
+            "type": "meaning",
+            "evidence_paragraphs": [
+              "LAB-L-001-p05"
+            ]
+          },
+          {
+            "id": "LL04",
+            "prompt": "Does the trial demonstrate improved examination results?",
+            "answer": "No. Examination results were not measured.",
+            "type": "meaning",
+            "evidence_paragraphs": [
+              "LAB-L-001-p06"
+            ]
+          },
+          {
+            "id": "LL05",
+            "prompt": "What is the status of the additional study room?",
+            "answer": "It is a proposed next step; staffing and access still require confirmation.",
+            "type": "meaning",
+            "evidence_paragraphs": [
+              "LAB-L-001-p07"
+            ]
+          }
+        ]
+      },
+      "occurrences": [
+        {
+          "archive": "Part05_English_Learning_Design_v0.1.zip",
+          "member": "data/Original_Materials_v0.1.json",
+          "record_id": "LAB-L-001"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "PZ102-R-WORKSHOP",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "West workshop: local maintenance modes",
+      "target_band": 6.5,
+      "content_hash": "431ac9898ccc583c7bad66d65dad9968120a5d9f3a8fe24cbc4d9ccca01eaa04",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZ102-R-WORKSHOP-p01",
+            "text": "The workshop controller and the maintenance unit use a local reserve supply. They do not depend on the harbour main generator, and the ferry battery must remain on the ferry. The test lamp fixed to the workshop frame is part of this local system; it is not the navigation beacon needed for the evacuation."
+          },
+          {
+            "id": "PZ102-R-WORKSHOP-p02",
+            "text": "To use the inspection passage without crossing the front scan area, either isolate the maintenance unit at this controller or select Fixed Inspection. In Fixed Inspection, the unit continues examining the fixed lamp until the operator cancels the mode. There is no automatic return to normal operation. This mode releases the side-door interlock, but it does not make the front scan area safe."
+          },
+          {
+            "id": "PZ102-R-WORKSHOP-p03",
+            "text": "Isolation stops the unit and also releases the side-door interlock. Once the unit has been physically disabled, changing a switch cannot repair it. The inner bolt opens a separate return door to the square; that bolt is independent of the inspection-mode interlock. Leave the harbour generator off while its inspection is incomplete."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZ102-R-WORKSHOP",
+        "version": "0.1",
+        "title": "West workshop: local maintenance modes",
+        "quest_ref": "Q-102",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZ102-R-WORKSHOP-p01",
+            "text": "The workshop controller and the maintenance unit use a local reserve supply. They do not depend on the harbour main generator, and the ferry battery must remain on the ferry. The test lamp fixed to the workshop frame is part of this local system; it is not the navigation beacon needed for the evacuation."
+          },
+          {
+            "id": "PZ102-R-WORKSHOP-p02",
+            "text": "To use the inspection passage without crossing the front scan area, either isolate the maintenance unit at this controller or select Fixed Inspection. In Fixed Inspection, the unit continues examining the fixed lamp until the operator cancels the mode. There is no automatic return to normal operation. This mode releases the side-door interlock, but it does not make the front scan area safe."
+          },
+          {
+            "id": "PZ102-R-WORKSHOP-p03",
+            "text": "Isolation stops the unit and also releases the side-door interlock. Once the unit has been physically disabled, changing a switch cannot repair it. The inner bolt opens a separate return door to the square; that bolt is independent of the inspection-mode interlock. Leave the harbour generator off while its inspection is incomplete."
+          }
+        ],
+        "primary_goals": [
+          "R03",
+          "R04",
+          "W02"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZ102-LOCAL-PUZZLE",
+        "approx_word_count": 169
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZ102-R-WORKSHOP"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZ102-R-PANEL",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Main generator inspection tag",
+      "target_band": 6.5,
+      "content_hash": "058a253c34e8ef3e29c9dc2f7e9b31fdc4060c6dac5d86d4bc0bdc6df87d1a73",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZ102-R-PANEL-p01",
+            "text": "Inspection incomplete. The flooded cables have not yet been isolated. Do not start the harbour main generator. This restriction does not prevent the use of the workshop’s separate local maintenance controller. For work on the ferry beacon, use the charged battery already recorded on that vessel."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZ102-R-PANEL",
+        "version": "0.1",
+        "title": "Main generator inspection tag",
+        "quest_ref": "Q-102",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZ102-R-PANEL-p01",
+            "text": "Inspection incomplete. The flooded cables have not yet been isolated. Do not start the harbour main generator. This restriction does not prevent the use of the workshop’s separate local maintenance controller. For work on the ferry beacon, use the charged battery already recorded on that vessel."
+          }
+        ],
+        "primary_goals": [
+          "R03",
+          "R04"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZ102-LOCAL-PUZZLE",
+        "approx_word_count": 46
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZ102-R-PANEL"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZHOT-R-ORIGINAL",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Original confirmation: BKG-17",
+      "target_band": 6.5,
+      "content_hash": "6efc0f982192864e35077896fbcc4bd9c4a384240f92d47be5914935a20adec9",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZHOT-R-ORIGINAL-p01",
+            "text": "Booking BKG-17 was originally confirmed for two guests arriving on the 16th of the current booking month. The guests requested two separate beds in a quiet room. A copied confirmation is kept with this letter for the accounts desk; it does not represent an additional booking."
+          },
+          {
+            "id": "PZHOT-R-ORIGINAL-p02",
+            "text": "The room request and the arrival date are separate parts of the record. A later amendment may change one without changing the other. Please retain the earlier version so that the change can be checked."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZHOT-R-ORIGINAL",
+        "version": "0.1",
+        "title": "Original confirmation: BKG-17",
+        "quest_ref": "SC-R1-001",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZHOT-R-ORIGINAL-p01",
+            "text": "Booking BKG-17 was originally confirmed for two guests arriving on the 16th of the current booking month. The guests requested two separate beds in a quiet room. A copied confirmation is kept with this letter for the accounts desk; it does not represent an additional booking."
+          },
+          {
+            "id": "PZHOT-R-ORIGINAL-p02",
+            "text": "The room request and the arrival date are separate parts of the record. A later amendment may change one without changing the other. Please retain the earlier version so that the change can be checked."
+          }
+        ],
+        "primary_goals": [
+          "R09",
+          "R03"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZHOT-LOCAL-PUZZLE",
+        "approx_word_count": 81
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZHOT-R-ORIGINAL"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZHOT-L-AMENDMENT",
+      "version": "0.1",
+      "kind": "listening",
+      "title": "Guest confirmation of the date amendment",
+      "target_band": 6.5,
+      "content_hash": "c91cc9a84a8e35eab8d2aa3a5db7f82595b9b2ee4d0dd6c6a6b40b963d581f79",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZHOT-L-AMENDMENT-p01",
+            "text": "Clerk: I can see the original letter for the 16th and another confirmation for the 18th. Are these two groups travelling separately?"
+          },
+          {
+            "id": "PZHOT-L-AMENDMENT-p02",
+            "text": "Guest: No. We moved our arrival to the 18th, which is today in your booking register. We are still the same two guests under BKG-17. The revised confirmation replaces the arrival date, not the booking number. We still need separate beds and a quiet room."
+          },
+          {
+            "id": "PZHOT-L-AMENDMENT-p03",
+            "text": "Clerk: Thank you. I will retain the old letter as a previous version rather than enter it as another group. The other arrival, BKG-22, belongs to a different guest."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZHOT-L-AMENDMENT",
+        "version": "0.1",
+        "title": "Guest confirmation of the date amendment",
+        "quest_ref": "SC-R1-001",
+        "modality": "listening",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZHOT-L-AMENDMENT-p01",
+            "text": "Clerk: I can see the original letter for the 16th and another confirmation for the 18th. Are these two groups travelling separately?"
+          },
+          {
+            "id": "PZHOT-L-AMENDMENT-p02",
+            "text": "Guest: No. We moved our arrival to the 18th, which is today in your booking register. We are still the same two guests under BKG-17. The revised confirmation replaces the arrival date, not the booking number. We still need separate beds and a quiet room."
+          },
+          {
+            "id": "PZHOT-L-AMENDMENT-p03",
+            "text": "Clerk: Thank you. I will retain the old letter as a previous version rather than enter it as another group. The other arrival, BKG-22, belongs to a different guest."
+          }
+        ],
+        "primary_goals": [
+          "L03",
+          "L05"
+        ],
+        "audio_asset": null,
+        "family_id": "FAM-PZHOT-LOCAL-PUZZLE",
+        "approx_word_count": 96
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZHOT-L-AMENDMENT"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "PZHOT-R-ROOMS",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Current booking and room inspection sheet",
+      "target_band": 6.5,
+      "content_hash": "68edd22ca91725052b31a7df622d9e924e79fcc4e97c322e207dfc2ff626b47b",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZHOT-R-ROOMS-p01",
+            "text": "BKG-22 is an independent booking for one guest arriving on the 18th. The guest requires a room that can be reached without stairs. This booking has not replaced or amended BKG-17. Today’s arrivals are to be checked against booking identities, not the number of pieces of paper on the desk."
+          },
+          {
+            "id": "PZHOT-R-ROOMS-p02",
+            "text": "Room 2 has two separate beds and faces the quiet rear courtyard. A flight of stairs is the only access. Room 5 is a single room on the ground floor, reached without stairs; it faces the public square and is not offered as a quiet room. Both rooms have been inspected and are available for the current stay. The room cards and the current inspection refer to these same rooms."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZHOT-R-ROOMS",
+        "version": "0.1",
+        "title": "Current booking and room inspection sheet",
+        "quest_ref": "SC-R1-001",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZHOT-R-ROOMS-p01",
+            "text": "BKG-22 is an independent booking for one guest arriving on the 18th. The guest requires a room that can be reached without stairs. This booking has not replaced or amended BKG-17. Today’s arrivals are to be checked against booking identities, not the number of pieces of paper on the desk."
+          },
+          {
+            "id": "PZHOT-R-ROOMS-p02",
+            "text": "Room 2 has two separate beds and faces the quiet rear courtyard. A flight of stairs is the only access. Room 5 is a single room on the ground floor, reached without stairs; it faces the public square and is not offered as a quiet room. Both rooms have been inspected and are available for the current stay. The room cards and the current inspection refer to these same rooms."
+          }
+        ],
+        "primary_goals": [
+          "R03",
+          "R09"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZHOT-LOCAL-PUZZLE",
+        "approx_word_count": 120
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZHOT-R-ROOMS"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZTIME-R-ORDER",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Transfer M-12: authorisation and movement log",
+      "target_band": 6.5,
+      "content_hash": "5bf3964ca584a8d996fb2daa9a56ca3f43146aa992659c45164de6c7b2efa206",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZTIME-R-ORDER-p01",
+            "text": "This file concerns transfer M-12, not the detained engineer. Personal names are held in a restricted attachment and are unnecessary for establishing the sequence below. All times on these sheets refer to the same local day."
+          },
+          {
+            "id": "PZTIME-R-ORDER-p02",
+            "text": "The departure officer checked the authorisation before allowing the vehicle to leave at 14:10. The authorisation sheet does not carry a reliable issue time. It establishes that approval existed before departure, but it does not justify assigning an exact minute to that approval."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZTIME-R-ORDER",
+        "version": "0.1",
+        "title": "Transfer M-12: authorisation and movement log",
+        "quest_ref": "Q-202",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZTIME-R-ORDER-p01",
+            "text": "This file concerns transfer M-12, not the detained engineer. Personal names are held in a restricted attachment and are unnecessary for establishing the sequence below. All times on these sheets refer to the same local day."
+          },
+          {
+            "id": "PZTIME-R-ORDER-p02",
+            "text": "The departure officer checked the authorisation before allowing the vehicle to leave at 14:10. The authorisation sheet does not carry a reliable issue time. It establishes that approval existed before departure, but it does not justify assigning an exact minute to that approval."
+          }
+        ],
+        "primary_goals": [
+          "R05",
+          "R09",
+          "D03"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZTIME-LOCAL-PUZZLE",
+        "approx_word_count": 80
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZTIME-R-ORDER"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZTIME-R-ARRIVAL",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Receiving desk: arrival and copying record",
+      "target_band": 6.5,
+      "content_hash": "8e93d8a19d27337f6ec759ddd8366a0880f0a5e9d59b0ec51bf503089ba9bd5a",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZTIME-R-ARRIVAL-p01",
+            "text": "The receiving desk recorded the vehicle’s arrival at 14:40. The entry was made by the receiving officer when the vehicle reached the site. At 16:05 the same day, an archive clerk copied the movement and arrival entries into the central ledger. The later ledger stamp marks the copying, not a second journey or a later physical arrival."
+          },
+          {
+            "id": "PZTIME-R-ARRIVAL-p02",
+            "text": "A duplicate of the departure entry was attached to the ledger. It is a copy of the departure officer’s record, not another observer’s account. Nothing in these documents states what the central office knew before departure or why its ledger was updated later."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZTIME-R-ARRIVAL",
+        "version": "0.1",
+        "title": "Receiving desk: arrival and copying record",
+        "quest_ref": "Q-202",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZTIME-R-ARRIVAL-p01",
+            "text": "The receiving desk recorded the vehicle’s arrival at 14:40. The entry was made by the receiving officer when the vehicle reached the site. At 16:05 the same day, an archive clerk copied the movement and arrival entries into the central ledger. The later ledger stamp marks the copying, not a second journey or a later physical arrival."
+          },
+          {
+            "id": "PZTIME-R-ARRIVAL-p02",
+            "text": "A duplicate of the departure entry was attached to the ledger. It is a copy of the departure officer’s record, not another observer’s account. Nothing in these documents states what the central office knew before departure or why its ledger was updated later."
+          }
+        ],
+        "primary_goals": [
+          "R05",
+          "R09",
+          "D03"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZTIME-LOCAL-PUZZLE",
+        "approx_word_count": 102
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZTIME-R-ARRIVAL"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZMAP-R-HISTORY",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Old city route sheet and current inspection",
+      "target_band": 6.5,
+      "content_hash": "32f3c997f416bf83983990e04dbced7be2f36c7622cf1ecfb0ff5dc840cfdb7c",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZMAP-R-HISTORY-p01",
+            "text": "The old route sheet shows the main bridge as a direct crossing from the checkpoint towards North Station. That line describes the former route; it is not current permission to cross. The central bridge span is now closed following subsidence."
+          },
+          {
+            "id": "PZMAP-R-HISTORY-p02",
+            "text": "A separate controlled passage through the checkpoint remains available after the traveller’s current inspection credentials have been checked. It does not require crossing the closed span. Travellers unable to use that passage can reach the station through the existing service tunnel once its obstruction and local hazard have been dealt with. The tunnel work can be completed with the basic inspection tools provided for the mission."
+          },
+          {
+            "id": "PZMAP-R-HISTORY-p03",
+            "text": "Both routes reach the station’s duty hall, not the detention rooms. Entering the hall does not itself grant access to the detained people. No current route is made safe merely because it still appears on the older map."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZMAP-R-HISTORY",
+        "version": "0.1",
+        "title": "Old city route sheet and current inspection",
+        "quest_ref": "Q-501",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZMAP-R-HISTORY-p01",
+            "text": "The old route sheet shows the main bridge as a direct crossing from the checkpoint towards North Station. That line describes the former route; it is not current permission to cross. The central bridge span is now closed following subsidence."
+          },
+          {
+            "id": "PZMAP-R-HISTORY-p02",
+            "text": "A separate controlled passage through the checkpoint remains available after the traveller’s current inspection credentials have been checked. It does not require crossing the closed span. Travellers unable to use that passage can reach the station through the existing service tunnel once its obstruction and local hazard have been dealt with. The tunnel work can be completed with the basic inspection tools provided for the mission."
+          },
+          {
+            "id": "PZMAP-R-HISTORY-p03",
+            "text": "Both routes reach the station’s duty hall, not the detention rooms. Entering the hall does not itself grant access to the detained people. No current route is made safe merely because it still appears on the older map."
+          }
+        ],
+        "primary_goals": [
+          "R10",
+          "R09",
+          "R03"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZMAP-LOCAL-PUZZLE",
+        "approx_word_count": 144
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZMAP-R-HISTORY"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZMAP-L-DIRECTIONS",
+      "version": "0.1",
+      "kind": "listening",
+      "title": "Resident’s route clarification",
+      "target_band": 6.5,
+      "content_hash": "c2d3165bb0553203dc6e19a0de071387c9645c16d7a8651c75332a7bcfce97d6",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZMAP-L-DIRECTIONS-p01",
+            "text": "From the ferry landing, follow the inhabited street to the checkpoint. When I say the bridge is closed, I mean the old central crossing shown on the historic sheet, not every entrance at the checkpoint. Have your present inspection credentials checked for the controlled passage, or use the service tunnel after making it passable. Both bring you to the duty hall. Do not mark the detention rooms as accessible just because you have found a way to the station."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZMAP-L-DIRECTIONS",
+        "version": "0.1",
+        "title": "Resident’s route clarification",
+        "quest_ref": "Q-501",
+        "modality": "listening",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZMAP-L-DIRECTIONS-p01",
+            "text": "From the ferry landing, follow the inhabited street to the checkpoint. When I say the bridge is closed, I mean the old central crossing shown on the historic sheet, not every entrance at the checkpoint. Have your present inspection credentials checked for the controlled passage, or use the service tunnel after making it passable. Both bring you to the duty hall. Do not mark the detention rooms as accessible just because you have found a way to the station."
+          }
+        ],
+        "primary_goals": [
+          "L04",
+          "L03"
+        ],
+        "audio_asset": null,
+        "family_id": "FAM-PZMAP-LOCAL-PUZZLE",
+        "approx_word_count": 79
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZMAP-L-DIRECTIONS"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "PZLOAD-R-MANIFEST",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Supplementary load: packing list",
+      "target_band": 6.5,
+      "content_hash": "9dd5aebbbe8289fa2bbfdec8ad82aeda83ec030892d48f59d9dd8687c212c18e",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZLOAD-R-MANIFEST-p01",
+            "text": "The essential safety shipment and all supplies reserved for the six-tower programme have already been allocated separately. This plan concerns five additional packages and must not draw on those protected stocks. Each package must travel once, intact, in one of the two supplementary trips."
+          },
+          {
+            "id": "PZLOAD-R-MANIFEST-p02",
+            "text": "The installation-tool crate occupies three cargo spaces, and the mounting kit occupies one. The lighting module occupies four spaces. Weather panels occupy two spaces, as does the archive case. Each trip can carry at most six spaces. These numbers describe declared crate sizes, not weights that the crew may reduce by leaving contents behind."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZLOAD-R-MANIFEST",
+        "version": "0.1",
+        "title": "Supplementary load: packing list",
+        "quest_ref": "Q-603",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZLOAD-R-MANIFEST-p01",
+            "text": "The essential safety shipment and all supplies reserved for the six-tower programme have already been allocated separately. This plan concerns five additional packages and must not draw on those protected stocks. Each package must travel once, intact, in one of the two supplementary trips."
+          },
+          {
+            "id": "PZLOAD-R-MANIFEST-p02",
+            "text": "The installation-tool crate occupies three cargo spaces, and the mounting kit occupies one. The lighting module occupies four spaces. Weather panels occupy two spaces, as does the archive case. Each trip can carry at most six spaces. These numbers describe declared crate sizes, not weights that the crew may reduce by leaving contents behind."
+          }
+        ],
+        "primary_goals": [
+          "R03",
+          "R10",
+          "W02"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZLOAD-LOCAL-PUZZLE",
+        "approx_word_count": 98
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZLOAD-R-MANIFEST"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "PZLOAD-L-SEQUENCE",
+      "version": "0.1",
+      "kind": "listening",
+      "title": "Installer’s delivery condition",
+      "target_band": 6.5,
+      "content_hash": "9c6e74e78ca1836c46e0dafa6614777b162e107e2707acd9c9bab41a71b55f7d",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZLOAD-L-SEQUENCE-p01",
+            "text": "The tools and the mounting kit must arrive on an earlier trip than the lighting module, so that we can prepare the installation position before it gets here. Sending them on the same trip as the module will not meet that requirement. The weather panels and the archive case can go on either trip. Choose which of those two you would prefer to receive earlier, but keep both trips within their capacity. These are additional deliveries; the basic safety work is not waiting for this choice."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZLOAD-L-SEQUENCE",
+        "version": "0.1",
+        "title": "Installer’s delivery condition",
+        "quest_ref": "Q-603",
+        "modality": "listening",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZLOAD-L-SEQUENCE-p01",
+            "text": "The tools and the mounting kit must arrive on an earlier trip than the lighting module, so that we can prepare the installation position before it gets here. Sending them on the same trip as the module will not meet that requirement. The weather panels and the archive case can go on either trip. Choose which of those two you would prefer to receive earlier, but keep both trips within their capacity. These are additional deliveries; the basic safety work is not waiting for this choice."
+          }
+        ],
+        "primary_goals": [
+          "L08",
+          "L02"
+        ],
+        "audio_asset": null,
+        "family_id": "FAM-PZLOAD-LOCAL-PUZZLE",
+        "approx_word_count": 86
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZLOAD-L-SEQUENCE"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "PZLAB-R-PROTOCOL",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "Local-control trial: scope and recorded conditions",
+      "target_band": 6.5,
+      "content_hash": "8f4a596de9612a6cc6e9a58776af24251bae303ad1aaf4f9d8607705cd963aec",
+      "body": {
+        "paragraphs": [
+          {
+            "id": "PZLAB-R-PROTOCOL-p01",
+            "text": "These are short local trials of Controller A. Each run lasted ten minutes with the isolation check completed. The reported load is measured in the trial apparatus’s own units; no outside engineering calculation is required. “Stable” means the apparatus met the declared condition for those ten minutes, not that it has been approved for every tower or for permanent use."
+          },
+          {
+            "id": "PZLAB-R-PROTOCOL-p02",
+            "text": "Run T1 used load 40 with the reserve connected and remained stable. T2 used load 70 with the reserve connected and stopped. T3 used load 40 without the reserve and stopped. T4 repeated the T1 configuration and remained stable. No run tested load 55, and none tested full-scale operation across the six regional towers."
+          },
+          {
+            "id": "PZLAB-R-PROTOCOL-p03",
+            "text": "To compare the recorded effect of changing load while holding the listed configuration constant, compare T1 and T2. T1 and T3 address a different change. A careful report should describe which conditions have actually been observed and leave untested combinations open. Further trials and field checks remain necessary before any wider operating proposal can be accepted."
+          }
+        ]
+      },
+      "legacy_record": {
+        "id": "PZLAB-R-PROTOCOL",
+        "version": "0.1",
+        "title": "Local-control trial: scope and recorded conditions",
+        "quest_ref": "Q-402",
+        "modality": "reading",
+        "target_band": 6.5,
+        "difficulty_status": "draft_target_65",
+        "originality": "new_original_local_puzzle_draft",
+        "paragraphs": [
+          {
+            "id": "PZLAB-R-PROTOCOL-p01",
+            "text": "These are short local trials of Controller A. Each run lasted ten minutes with the isolation check completed. The reported load is measured in the trial apparatus’s own units; no outside engineering calculation is required. “Stable” means the apparatus met the declared condition for those ten minutes, not that it has been approved for every tower or for permanent use."
+          },
+          {
+            "id": "PZLAB-R-PROTOCOL-p02",
+            "text": "Run T1 used load 40 with the reserve connected and remained stable. T2 used load 70 with the reserve connected and stopped. T3 used load 40 without the reserve and stopped. T4 repeated the T1 configuration and remained stable. No run tested load 55, and none tested full-scale operation across the six regional towers."
+          },
+          {
+            "id": "PZLAB-R-PROTOCOL-p03",
+            "text": "To compare the recorded effect of changing load while holding the listed configuration constant, compare T1 and T2. T1 and T3 address a different change. A careful report should describe which conditions have actually been observed and leave untested combinations open. Further trials and field checks remain necessary before any wider operating proposal can be accepted."
+          }
+        ],
+        "primary_goals": [
+          "R07",
+          "R10",
+          "D03"
+        ],
+        "audio_asset": "not_applicable",
+        "family_id": "FAM-PZLAB-LOCAL-PUZZLE",
+        "approx_word_count": 170
+      },
+      "occurrences": [
+        {
+          "archive": "Part06_Puzzle_Design_v0.1.zip",
+          "member": "data/Puzzle_Materials_v0.1.json",
+          "record_id": "PZLAB-R-PROTOCOL"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "COM-MAT-01",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "# COM-MAT-01：西工坊观察记录",
+      "target_band": 6.5,
+      "content_hash": "af7f4548615f5197e754543592ab6fc225509401a4750a6f292cae643fe6b454",
+      "body": {
+        "markdown": "# COM-MAT-01：西工坊观察记录\n\n用途：既有工坊材料的可选现场补充，不覆盖Q-102已定正文。版本0.1，原创6.5目标制作稿，尚无试测。\n\nThe maintenance unit is still operating from its own reserve. Switching off the harbour generator will therefore not stop it. Its movements follow a short inspection cycle, but the direction of each attack should be checked before anyone enters the marked area.\n\nAn arm strike follows the person selected by the unit. Moving to another position does not, by itself, remove that person from danger. A scanning sweep is different: it covers the indicated section of the floor. Anyone outside that section is clear of the sweep, provided that no other warning applies.\n\nRepeated pressure may interrupt the unit, although it needs time to recover before the same method can work again. Do not assume that every hit will cancel an attack. A prepared device is useful only when the unit actually starts the action for which the device was set.\n\nThe replacement bracket remains on the inner shelf. Stopping the unit creates access; it does not collect the part or repair the ferry. The fixed inspection stand and the ferry's navigation beacon are separate pieces of equipment.\n\n制作边界：字幕/中文提示可用；没有语音成品；资料不宣称新的航道已开放。伤害数字由中文或双语战斗UI直接显示，不靠材料隐藏基础安全警告。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part08_Combat_Design_v0.1.zip",
+          "member": "materials/COM-MAT-01_Workshop_Observation.md",
+          "record_id": "COM-MAT-01"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "COM-MAT-02",
+      "version": "0.1",
+      "kind": "reading",
+      "title": "# COM-MAT-02：潮门塔检修程序",
+      "target_band": 6.5,
+      "content_hash": "3e996fae9cd31491f6fbac98b1d2780dfbebde33e140fd752fdd72eab3642c9b",
+      "body": {
+        "markdown": "# COM-MAT-02：潮门塔检修程序\n\n用途：Q-104本地虚构装置规则。原创6.5目标制作稿，未经外部标定。不是现实电气维修指南。\n\nBoth cooling valves must be closed before the local supply can be isolated. The order in which the valves are closed does not matter. However, isolating the supply is not a substitute for closing either valve.\n\nThe two valve controls are positioned at the front of the maintenance area. The isolation control is at the rear. A qualified member of the crew may operate a control after reaching the corresponding working position. No particular tool model is required for the normal procedure.\n\nOnce both valves are closed, the protective lock around the unit will release. The crew can then bring the unit under control. If the isolation step has not been completed, the system will remain in a holding state rather than register a safe shutdown.\n\nCheck the displayed positions instead of relying on an earlier confirmation. Changing a relevant connection makes the previous check insufficient. Ordinary protective equipment can reduce the risk to the crew, but it cannot change the valve settings or certify the installation.\n\nTake time to read the current warnings. The inspection record is not a test of how quickly a message can be read.\n\n答案边界：两阀可交换；隔离必须在两阀之后；净化/盾/暴露不代替设备动作；一切为本游戏受控虚构条件。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part08_Combat_Design_v0.1.zip",
+          "member": "materials/COM-MAT-02_Tower_Procedure.md",
+          "record_id": "COM-MAT-02"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "not_applicable"
+    },
+    {
+      "asset_id": "COM-MAT-03",
+      "version": "0.1",
+      "kind": "listening",
+      "title": "# COM-MAT-03：中央机组交接录音脚本",
+      "target_band": 6.5,
+      "content_hash": "8bfe091eacce7fd591e62a00a98cf8e6fe686823374fac4307df6e778e7a50ae",
+      "body": {
+        "markdown": "# COM-MAT-03：中央机组交接录音脚本\n\n状态：仅脚本；双人；建议作为暂停可重播的现场材料。原创6.5目标稿，实际语速/音质及任务负担需另测，无已完成音轨。\n\nTechnician: Rook no longer controls the command layer, but that does not mean the maintenance programme has stopped. The relays can restart it without another order from him.\n\nInspector: Then the first step is to isolate the two local links and verify their present configuration?\n\nTechnician: Correct. Either link can be dealt with first. Do not proceed on the basis of an old check if somebody has changed the connections.\n\nInspector: What happens after the unit reaches the first holding point?\n\nTechnician: We can address the automatic restart. Both relay assemblies have to be inactive before the bypass can be latched. Reaching the holding point alone does not prove that the relays are inactive.\n\nInspector: And the final stop?\n\nTechnician: Set the damping arrangement, verify it, and then authorise the controlled stop. Authorisation applies to that checked arrangement. It does not give us permission to alter the connections and keep using the same record.\n\nInspector: Understood. We will report that the central programme is stable once those steps are complete. We will not describe the entire network as converted.\n\nTechnician: Exactly. The regional preparations and the final operating decision remain separate matters.\n\n制作要求：录音不替代工程完成回执；可调音量和字幕；不能因为已读本稿便把最终政策或语言掌握置为完成。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part08_Combat_Design_v0.1.zip",
+          "member": "materials/COM-MAT-03_Core_Handover_Script.md",
+          "record_id": "COM-MAT-03"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "NPC-MAT-01",
+      "version": "0.1",
+      "kind": "dialogue_script",
+      "title": "# NPC-MAT-01：哈文核对行动",
+      "target_band": 6.5,
+      "content_hash": "45bc69b63370a37e94d7f46cc95f9eddc897414e33925c42da6c8ca74a719232",
+      "body": {
+        "markdown": "# NPC-MAT-01：哈文核对行动\n类型：对话脚本。目标：IELTS Academic 6.5；未校准，未配音。\n场景：R1-S03或R1-S04的合法通信入口。条件：玩家已经提交当前撤离提案；相关设备材料可见。\n用途：回应已提出的意图，不在首次接受任务时自动给出全部答案。任何方案、字段或设备配置改变后按QEV重新核对。\n允许影响：形成待玩家确认的行动摘要；不得仅因对白播放而离港。\n\n**Havel:** You have explained which route you want to use. Before I pass the instruction to the crew, I need to check that we mean the same thing by “ready”.\n\n**Player:** Which part is still unclear?\n\n**Havel:** The spare light can work, but that is not the same as having it fitted and tested on this ferry. Your note says the crew can leave after the bracket is replaced. Does that also include connecting the onboard battery and checking the complete arrangement?\n\n**Player:** Yes. They should complete those steps before departure, and repeat the check if a connection changes.\n\n**Havel:** That gives them a clear sequence. I will keep the main generator out of this plan. The inspection team has not yet confirmed that it is safe to use.\n\n**Player:** Please show me the final instruction before you send it.\n\n**Havel:** Of course. Nothing leaves this desk until you have confirmed the actual arrangement. A clear plan is useful; a plan that describes work as finished when it is not would cause a different problem.\n\n制作说明：玩家台词为可接受意图示例，不要求照抄。实际收尾由Q-102设备、提案与提交规则执行。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part09_NPC_Faction_Design_v0.1.zip",
+          "member": "materials/NPC-MAT-01_Havel_Plan_Review.md",
+          "record_id": "NPC-MAT-01"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "NPC-MAT-02",
+      "version": "0.1",
+      "kind": "dialogue_script",
+      "title": "# NPC-MAT-02：莉娜选择怎样联系家人",
+      "target_band": 6.5,
+      "content_hash": "0874376c5da11e1883e4892831efc8331a1d79deb727edff1de3377a9b1a52d6",
+      "body": {
+        "markdown": "# NPC-MAT-02：莉娜选择怎样联系家人\n类型：对话脚本。目标：IELTS Academic 6.5；未校准，未配音。\n场景：R6-S02或双方许可的HUB-S01中继。条件：CQ-LINA-02与本人回信核验完成；CQ-LINA-03正在进行。\n隐私：回信不自动向同伴全队公开；不在本脚本加入具体住址。\n\n**Lina:** I used to think that finding him would settle everything. It would at least tell me whether I should keep looking. Now there is a reply, and I am not sure what to ask first.\n\n**Player:** He has agreed to exchange letters. He has not agreed to a visit yet.\n\n**Lina:** I know. I do not want you to turn a small permission into a promise on his behalf. Please tell him that I received his message. He does not have to explain all those years in one letter.\n\n**Player:** Would you like to suggest meeting, or leave that for another reply?\n\n**Lina:** Suggest it as a possibility, not an arrangement. I would like to see him, but he has a life there. If he would rather continue writing for now, send me the answer as it is.\n\n制作说明：此为“希望询问见面可能性”的一条分支；其他可接受分支为继续通信或双方明确暂缓。不得将同意通信投影为同意见面。见面实际安排仍检查双方当前许可，不靠语气评分。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part09_NPC_Faction_Design_v0.1.zip",
+          "member": "materials/NPC-MAT-02_Lina_Contact.md",
+          "record_id": "NPC-MAT-02"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "NPC-MAT-03",
+      "version": "0.1",
+      "kind": "dialogue_script",
+      "title": "# NPC-MAT-03：修复不是免除责任",
+      "target_band": 6.5,
+      "content_hash": "134014de872fe2a25525c6d78c54b1485410b227aac854481d95605da467a1f7",
+      "body": {
+        "markdown": "# NPC-MAT-03：修复不是免除责任\n类型：三方对话脚本。目标：IELTS Academic 6.5；未校准，未配音。\n场景：R3-S03；CQ-OREN-02辅助警报器已实际修复，独立复核尚待完成。\n不改变：Q-302的签章事实、Q-304的主线结果。\n\n**Oren:** The signal now reaches both rooms. I replaced the damaged connection, and the spare parts are listed here. Someone other than me should test it before the residents rely on it.\n\n**Pera:** That is a useful repair. It does not answer why the earlier equipment was accepted with the safety check incomplete.\n\n**Oren:** I am not asking it to. I signed that record, and I should have refused. I can explain the pressure I was under, but that does not make the signature belong to someone else.\n\n**Player:** What can be agreed today without closing the wider review?\n\n**Pera:** We can appoint a reviewer for this repair and make the result available to the residents. His statement about the earlier check must remain separate. I will not write that everyone has forgiven him.\n\n**Oren:** Then record the repair and the remaining questions separately. I can also train someone to repeat the test. I will not always be here to do it.\n\n制作说明：修复件来自本支线工坊包，不挪用六塔主物资。玩家不需要说服佩拉“原谅”才能完成安全复核。此处不复制主线验收奖励。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part09_NPC_Faction_Design_v0.1.zip",
+          "member": "materials/NPC-MAT-03_Oren_Repair.md",
+          "record_id": "NPC-MAT-03"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "NPC-MAT-04",
+      "version": "0.1",
+      "kind": "dialogue_script",
+      "title": "# NPC-MAT-04：查验申请不等于公开许可",
+      "target_band": 6.5,
+      "content_hash": "731cd611ec771b5ee31d48dc0b76fc9fdd686678e167a29689ffa1c79c28c927",
+      "body": {
+        "markdown": "# NPC-MAT-04：查验申请不等于公开许可\n类型：受控审阅说明与对话。目标：IELTS Academic 6.5；未校准，未配音。\n场景：R4-S04；CQ-MIRA-02。局部证人使用W-04代号；不承载主线唯一证据。\n\n## Review request\nThe reviewer needs to confirm when the record was received, which role the witness held, and whether the copy matches the original. A home address is not required for this review. The permission already given applies to one named reviewer and to this purpose only. It does not permit publication on the notice board or forwarding to a wider group.\n\n## Dialogue\n**Mira:** We can send the relevant fields without pretending that the rest of the record has disappeared.\n\n**June:** Keep the original in controlled storage. The reviewer can receive the comparison sheet and a record of how it was prepared.\n\n**Player:** What happens if the reviewer asks for more information later?\n\n**Mira:** We check the new request. If it needs a different permission, we ask for that permission before sending anything. We should not describe the first agreement as consent to every future use.\n\n**June:** And if a copy has already been delivered, changing the permission does not make the recipient forget it. We can restrict future sharing and record the correction, but we must be honest about what has happened.\n\n制作说明：自由正文中的身份信息也受同样限制，不能只检查附件标签。参考模型仅检查结构化范围，不声称已能审查任意英文泄露。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part09_NPC_Faction_Design_v0.1.zip",
+          "member": "materials/NPC-MAT-04_Mira_Access.md",
+          "record_id": "NPC-MAT-04"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "NPC-MAT-05",
+      "version": "0.1",
+      "kind": "dialogue_script",
+      "title": "# NPC-MAT-05：不把意愿写成完成",
+      "target_band": 6.5,
+      "content_hash": "ae0f4309c590004bed02318289f6001853b0f79a03a73ce2bda710f19905d1d5",
+      "body": {
+        "markdown": "# NPC-MAT-05：不把意愿写成完成\n类型：三方交接脚本。目标：IELTS Academic 6.5；未校准，未配音。\n场景：R6-S08；CQ-TESS-03。只说明本地通知链，不新增六方协议或终局条件。\n\n**Finn:** The local team has accepted the next watch. The equipment is on the delivery record, but one handover has not been confirmed. Those are two separate facts.\n\n**Tess:** Then do not send a message saying that everything is ready. Tell the receiving team what has arrived, what still needs checking, and who can answer if something is missing.\n\n**Player:** We can keep the original contact and add a second person. Does the receiving team agree to that arrangement?\n\n**Finn:** They have agreed to the second contact, provided both people can see the same current record. I have their reply here.\n\n**Tess:** Good. I may still disagree with the decision about the wider network. That is not a reason to leave this handover unfinished. People will need a working arrangement under any of the plans we are considering.\n\n**Player:** I will confirm the local message separately from the final operating agreement.\n\n**Finn:** That is the right distinction. This reply closes a local communication task; it does not replace a trial, deliver another crate, or sign on behalf of all six regions.\n\n制作说明：角色的政治分歧不撤销已履行义务；设备、试验、协议依旧读取真实回执。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part09_NPC_Faction_Design_v0.1.zip",
+          "member": "materials/NPC-MAT-05_Tess_Handover.md",
+          "record_id": "NPC-MAT-05"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    },
+    {
+      "asset_id": "NPC-MAT-06",
+      "version": "0.1",
+      "kind": "dialogue_script",
+      "title": "# NPC-MAT-06：甲板上的椅子",
+      "target_band": 6.5,
+      "content_hash": "876157628c89c1333021b8c755a6490460c78faee0bf665817dbddb856fbb42c",
+      "body": {
+        "markdown": "# NPC-MAT-06：甲板上的椅子\n类型：生活对话。目标语境：6.5项目；日常句可自然简短，未校准，未配音。\n场景：HUB-S01；莉娜、奥伦已经招募且同时可用。无额外奖励，不携带主线秘密。\n\n**Lina:** I thought you fixed that chair yesterday.\n\n**Oren:** I did. Today I am making it quieter.\n\n**Lina:** It was perfectly quiet while nobody was sitting on it.\n\n**Oren:** That was not the condition I was testing.\n\n**Lina:** Then write a warning: safe for people who never sit down.\n\n**Oren:** Or you could hold this part while I tighten the other side.\n\n**Lina:** All right. But when it is finished, we are allowed to use it. You cannot keep every repaired object as an unfinished experiment.\n\n**Oren:** Agreed. Sit down after I put the last screw back.\n\n制作说明：一次安全节点展示；可以暂停。人物实际占用由QEV统一调度，不能因这段小场景挪走正在战斗或施工的人。\n"
+      },
+      "occurrences": [
+        {
+          "archive": "Part09_NPC_Faction_Design_v0.1.zip",
+          "member": "materials/NPC-MAT-06_Chair_Banter.md",
+          "record_id": "NPC-MAT-06"
+        }
+      ],
+      "calibration_evidence": "not_supplied_in_inspected_records",
+      "rights_review": "not_verified_by_this_inventory",
+      "audio_state": "script_only"
+    }
+  ]
+}

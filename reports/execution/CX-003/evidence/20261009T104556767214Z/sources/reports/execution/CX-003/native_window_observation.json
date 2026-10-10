@@ -1,0 +1,22 @@
+{
+  "scope": "Actual Windows window automation; no human signoff",
+  "window": {
+    "app": "process:C:\\Users\\20594\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64.exe",
+    "id": 1706682,
+    "title": "MistSea Native Input Probe (DEBUG)"
+  },
+  "accessibility": {
+    "document_text": "用\n第二行 / second line港口 harbour — café é — 船🚢 — 👩‍🔧 — don't — 引",
+    "focused_element": "17 编辑 草稿正文",
+    "tree": "Window: \"MistSea Native Input Probe (DEBUG)\", App: Godot_v4.7.2-stable_mono_win64.exe.\n\t0 区域 MistSea Native Input Probe (DEBUG) Secondary Actions: Raise\n\t\t1 标题栏 (settable, string) Value: MistSea Native Input Probe (DEBUG)\n\t\t\t2 菜单栏 系统 ID: MenuBar\n\t\t\t\t3 菜单项 系统\n\t\t\t4 按钮 最小化\n\t\t\t5 按钮 最大化\n\t\t\t6 按钮 关闭\n\t\t8 区域\n\t\t\t16 按钮 载入三千词压力样本: 载入 3000 词压力样本\n\t\t\t17 编辑 草稿正文\n\t\t\t18 文本 按钮可达。场景触发次数：0\n\t\t\t23 按钮 确认本次检查: 末行按钮 · 确认本次检查\n\t\t\t20 文本 真实输入法、撤销和读屏的逐项人工检查另行记录；合成输入只用于回归。\n\t\t\t21 滚动条 Value: 614\n\t\t22 文本\n\nDocument text: ```\n用\n第二行 / second line港口 harbour — café é — 船🚢 — 👩‍🔧 — don't — 引\n```"
+  },
+  "observed_actions": [
+    "TextEdit physical w and Return: scene counter remained 0",
+    "200% font: pressed Tab from the editor, then Return; final button activated and scene counter remained 0"
+  ],
+  "known_limitations": [
+    "Accessibility focused_element still reports editor after visual button activation; actual screen-reader validation remains pending"
+  ],
+  "real_ime": "not_run",
+  "real_screen_reader": "not_run"
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R3-04",
+      "name": "Shift work uses full original public materials and two finite alternatives without private household details",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-04",
+      "name": "Actual normal shift reassignment receives the same board and releases both posts once with zero rewards",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-04",
+      "name": "Extra named local afternoon help is an actual alternative and does not make the unselected person on duty",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R3-04",
+      "name": "Draft edits, current named availability and continuation invalidate only an uncommitted shift preview",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

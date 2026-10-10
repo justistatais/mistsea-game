@@ -1,0 +1,32 @@
+{
+  "scope": "actual read-only Python SQLite long Windows path URI diagnostic; no product acceptance",
+  "sqlite": "3.49.1",
+  "source": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\diagnostics\\sqlite-longpath-02604c3ea2b0426e98229254ccb04e85\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\Unicode资料 and rollback journal\\extended-longpath.sqlite",
+  "source_length": 339,
+  "results": [
+    {
+      "uri": "file:///C:/Users/20594/Documents/ChatGPT/%E8%AE%BE%E8%AE%A1%E6%B8%B8%E6%88%8F/MistSea_AllInOne_v0.1/reports/diagnostics/sqlite-longpath-02604c3ea2b0426e98229254ccb04e85/Unicode%E8%B5%84%E6%96%99%20and%20rollback%20journal/Unicode%E8%B5%84%E6%96%99%20and%20rollback%20journal/Unicode%E8%B5%84%E6%96%99%20and%20rollback%20journal/Unicode%E8%B5%84%E6%96%99%20and%20rollback%20journal/Unicode%E8%B5%84%E6%96%99%20and%20rollback%20journal/Unicode%E8%B5%84%E6%96%99%20and%20rollback%20journal/extended-longpath.sqlite?mode=ro",
+      "error": "unable to open database file"
+    },
+    {
+      "uri": "file:%5C%5C%3F%5CC%3A%5CUsers%5C20594%5CDocuments%5CChatGPT%5C%E8%AE%BE%E8%AE%A1%E6%B8%B8%E6%88%8F%5CMistSea_AllInOne_v0.1%5Creports%5Cdiagnostics%5Csqlite-longpath-02604c3ea2b0426e98229254ccb04e85%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5Cextended-longpath.sqlite?mode=ro",
+      "integrity": "ok",
+      "tables": [
+        [
+          "payload"
+        ]
+      ],
+      "error": null
+    },
+    {
+      "uri": "file:%5C%5C%3F%5CC%3A%5CUsers%5C20594%5CDocuments%5CChatGPT%5C%E8%AE%BE%E8%AE%A1%E6%B8%B8%E6%88%8F%5CMistSea_AllInOne_v0.1%5Creports%5Cdiagnostics%5Csqlite-longpath-02604c3ea2b0426e98229254ccb04e85%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5CUnicode%E8%B5%84%E6%96%99%20and%20rollback%20journal%5Cextended-longpath.sqlite?mode=ro&vfs=win32-longpath",
+      "integrity": "ok",
+      "tables": [
+        [
+          "payload"
+        ]
+      ],
+      "error": null
+    }
+  ]
+}

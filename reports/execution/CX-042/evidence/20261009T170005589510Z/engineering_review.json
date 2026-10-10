@@ -1,0 +1,170 @@
+{
+  "task_id": "CX-042",
+  "scope": "真实装备实例占用、校准、转移改件和独立个人账，基础型号免费持有。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "同遗物不能多人装备",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-042",
+            "name": "Schema-2 migration preserves original SHA and interrupted candidate cannot promote",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "A second live store cannot write the preserved old database after pointer promotion",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "SQLite module transfer is free, upgrade consumes original atomically, replay cannot double-pay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "Insufficient module resources leave ownership and balances unchanged",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "收藏不售换币",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-042",
+            "name": "Schema-2 migration preserves original SHA and interrupted candidate cannot promote",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "A second live store cannot write the preserved old database after pointer promotion",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "SQLite module transfer is free, upgrade consumes original atomically, replay cannot double-pay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "Insufficient module resources leave ownership and balances unchanged",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "改件消耗原件且可转移",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-042",
+            "name": "Schema-2 migration preserves original SHA and interrupted candidate cannot promote",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "A second live store cannot write the preserved old database after pointer promotion",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "SQLite module transfer is free, upgrade consumes original atomically, replay cannot double-pay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "Insufficient module resources leave ownership and balances unchanged",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "工程物资不能被个人购物耗尽",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-042",
+            "name": "Schema-2 migration preserves original SHA and interrupted candidate cannot promote",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "A second live store cannot write the preserved old database after pointer promotion",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "SQLite module transfer is free, upgrade consumes original atomically, replay cannot double-pay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-042",
+            "name": "Insufficient module resources leave ownership and balances unchanged",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-042",
+        "name": "Schema-2 migration preserves original SHA and interrupted candidate cannot promote",
+        "result": "passed"
+      },
+      {
+        "task": "CX-042",
+        "name": "A second live store cannot write the preserved old database after pointer promotion",
+        "result": "passed"
+      },
+      {
+        "task": "CX-042",
+        "name": "SQLite module transfer is free, upgrade consumes original atomically, replay cannot double-pay",
+        "result": "passed"
+      },
+      {
+        "task": "CX-042",
+        "name": "Insufficient module resources leave ownership and balances unchanged",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-040",
+    "CX-013"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

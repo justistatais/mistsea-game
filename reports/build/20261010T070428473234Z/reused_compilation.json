@@ -1,0 +1,93 @@
+{
+  "scope": "existing compiled artifacts; this run does not claim to compile current edited sources",
+  "binaries": [
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/GodotSharp.dll",
+      "sha256": "2afe2686aacfefac36da6601b59aeb05e560f06e4970cd5036100acd2ca4249d"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll",
+      "sha256": "195c81c1ccb7c05559fc79b4acbb9025154a74ad99ecb9bb3747b5fbfc2ed1d1"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/Microsoft.Data.Sqlite.dll",
+      "sha256": "b98d957462be432895b00dccca012d3c127e118d3d4262418014b92c7bbd66cf"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/Mist.Application.dll",
+      "sha256": "ee1759c1e9dcca1cb1fb1cecbe8f51ff0f4adc29c389b1db87770bf8deabf549"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/Mist.Core.dll",
+      "sha256": "fc29655d72f8df94f052c052152f374adddaa0081107181482b9531aaddc8dab"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/Mist.Infrastructure.dll",
+      "sha256": "23b6e366f3aaacd74ee1cde754adb5ba87dfd8f82c0dad9841dca8939d7a8fc6"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/MistSea.dll",
+      "sha256": "c2a5927065fc6a14df6390aa366913843151c8ec1fd107fc3d8248e2c139c1fe"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/SQLitePCLRaw.batteries_v2.dll",
+      "sha256": "815ce410c9eab531dd219318e3ba16c5e38e83d361cfbbdbb4bbca222c497b0b"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/SQLitePCLRaw.core.dll",
+      "sha256": "af340ac9eb9195795660d7fc1114f486b6ab63998f33176e2f24c8e0acb9aa84"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll",
+      "sha256": "df996bcae63c2cabcfe8d4b9c5110eb39a2a4706178b07d875665391c6eb3995"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/runtimes/win-arm64/native/e_sqlite3.dll",
+      "sha256": "4177542756bd94f75b55fb74367e0cf34e66a88ffaf95755489af14c6ca2f792"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/runtimes/win-x64/native/e_sqlite3.dll",
+      "sha256": "b7385d722c83fb52142a00477a726723745916d22a555711ee89834c1111fb2e"
+    },
+    {
+      "path": "game/.godot/mono/temp/bin/Debug/runtimes/win-x86/native/e_sqlite3.dll",
+      "sha256": "d13eb819d1353d98c684c88672868bbfcc6a52eb5987bdf2557ec02fabce4ea7"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll",
+      "sha256": "b98d957462be432895b00dccca012d3c127e118d3d4262418014b92c7bbd66cf"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/Mist.Application.dll",
+      "sha256": "b092d623a0ae180806b376cc7ef77824ce9ea84d195e50242267c973d6138439"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/Mist.ContentCli.dll",
+      "sha256": "a91d0462fc04a4e477cfa261e558f8638ceefdbf5b2f38fd9c940936e925ae04"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/Mist.Core.dll",
+      "sha256": "7310b0ccb2d932e8d7e2bfd822aab6ef63b5abff9a8c36bbfb9a0dd984b3d1ed"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/Mist.Infrastructure.dll",
+      "sha256": "bf4408051f2dde202ebeece72bc01f6504f291a4c86659a3c0fe8a77b9b149cb"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/Mist.Tests.dll",
+      "sha256": "f9532ea8ef680ea98e88343cfa94ac9f4da225ae09de76e87855a54c09e41e90"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll",
+      "sha256": "815ce410c9eab531dd219318e3ba16c5e38e83d361cfbbdbb4bbca222c497b0b"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/SQLitePCLRaw.core.dll",
+      "sha256": "af340ac9eb9195795660d7fc1114f486b6ab63998f33176e2f24c8e0acb9aa84"
+    },
+    {
+      "path": "tests/Mist.Tests/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll",
+      "sha256": "df996bcae63c2cabcfe8d4b9c5110eb39a2a4706178b07d875665391c6eb3995"
+    }
+  ]
+}

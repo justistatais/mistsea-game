@@ -1,0 +1,84 @@
+{
+  "task_id": "CX-070",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/reports/build/20261009T174428031315Z/test_results.json",
+      "sha256": "9c3c5b410245602e664e2da79db5dba1b36a07e41108cb0e4fe2f6731ec9e940",
+      "bytes": 2745,
+      "source_path_at_execution": "reports/build/20261009T174428031315Z/test_results.json"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335,
+      "source_path_at_execution": "reports/continuous/Scope_20261009.md"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/reports/continuous/finish_runtime_extensions.py",
+      "sha256": "b75a016dbb6275e9b1a0ace7be0a9c9cb7f1ca274e99f08d49d484ccbafa8458",
+      "bytes": 3834,
+      "source_path_at_execution": "reports/continuous/finish_runtime_extensions.py"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/src/Mist.Application/ReviewCalibration/OfflineAssessmentInventory.cs",
+      "sha256": "c4065725a1c0d095694702267b3f2b769df67cdfb395ec84a2d28fc6bf102c90",
+      "bytes": 6010,
+      "source_path_at_execution": "src/Mist.Application/ReviewCalibration/OfflineAssessmentInventory.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/src/Mist.Application/ReviewCalibration/ReadOnlyObservationExport.cs",
+      "sha256": "71c0aae733e7ba3892c94e1de71851f0a250e0990c726bd987dbe62e12a4e2bf",
+      "bytes": 1228,
+      "source_path_at_execution": "src/Mist.Application/ReviewCalibration/ReadOnlyObservationExport.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/src/Mist.Application/ReviewCalibration/ReadOnlyReviewService.cs",
+      "sha256": "b1d28f952c0eaf81a83a891f722587a5d520d290e15f0581953d5483c0d3e6db",
+      "bytes": 4131,
+      "source_path_at_execution": "src/Mist.Application/ReviewCalibration/ReadOnlyReviewService.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/src/Mist.Core/ReviewCalibration/CalibrationRules.cs",
+      "sha256": "b883c0a2ebf543a07c3c8440b7af2e99196b3217449a0be61d51ac72e928cc93",
+      "bytes": 8748,
+      "source_path_at_execution": "src/Mist.Core/ReviewCalibration/CalibrationRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/src/Mist.Core/ReviewCalibration/ReviewRules.cs",
+      "sha256": "ebcc02d9173e95f8100639ede55a32830a3251c13e42e0a7cdece93354167298",
+      "bytes": 12593,
+      "source_path_at_execution": "src/Mist.Core/ReviewCalibration/ReviewRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/src/Mist.Core/ReviewCalibration/WritingRatingRules.cs",
+      "sha256": "14f3259514c3878f5cb1450a2e9c0fc58f3a1e46fc82333fc56e8552a9cc2bc9",
+      "bytes": 2208,
+      "source_path_at_execution": "src/Mist.Core/ReviewCalibration/WritingRatingRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/tests/Mist.Tests/ReviewCalibration/ReviewCalibrationCases.cs",
+      "sha256": "604e6bf29b5a78592564979477c625aa68d9ee40bcb473d2ef68a400a217add7",
+      "bytes": 25606,
+      "source_path_at_execution": "tests/Mist.Tests/ReviewCalibration/ReviewCalibrationCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/tools/Mist.ReviewCalibration/AuditEntry.cs",
+      "sha256": "1db910443b222d5b8837d9d71b83ad993df57f5944c69d72106bf048d009273a",
+      "bytes": 1497,
+      "source_path_at_execution": "tools/Mist.ReviewCalibration/AuditEntry.cs"
+    },
+    {
+      "path": "reports/execution/CX-070/evidence/20261009T181120380768Z/sources/tools/Mist.ReviewCalibration/README.md",
+      "sha256": "75bc1c3f479db1ca51e8551c47690352bb311216c33254b6dc0f0df14487726e",
+      "bytes": 1558,
+      "source_path_at_execution": "tools/Mist.ReviewCalibration/README.md"
+    }
+  ],
+  "interface_schema_impact": {
+    "storage_schema": 2,
+    "new_modules": "read-only production/observation rules and exact original-source projection",
+    "human_approvals": "not granted"
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-10-10T12:25:28.769513+00:00",
+  "before_capture": "reports/continuous/wave_import_metadata_before_final_export_20261010.actual.json",
+  "before_capture_sha256": "7855c72145534f3c91778bb7c4a9deb8acb315a8316ae76d693df531475d00c3",
+  "actual_metadata_files_unchanged": 50,
+  "scope": "Actual generated metadata bytes before final export and after final exported UX; no inference about human audio review",
+  "human_signoff": null
+}

@@ -1,0 +1,81 @@
+{
+  "task_id": "CX-064",
+  "scope": "按24视图逐项测试空、失败、过期、只读、恢复与未知结果；不只做成功路径。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "六入口稳定",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Headless entry/focus/font checks exist; the full 24-state native accessibility matrix is not executed."
+      }
+    },
+    {
+      "criterion": "读屏不读隐藏秘密",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Headless entry/focus/font checks exist; the full 24-state native accessibility matrix is not executed."
+      }
+    },
+    {
+      "criterion": "按钮名明确保存/确认/执行",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Headless entry/focus/font checks exist; the full 24-state native accessibility matrix is not executed."
+      }
+    },
+    {
+      "criterion": "无模型音轨时不假成功",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Headless entry/focus/font checks exist; the full 24-state native accessibility matrix is not executed."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-033",
+    "CX-039",
+    "CX-061",
+    "CX-062",
+    "CX-063"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+    "Headless entry/focus/font checks exist; the full 24-state native accessibility matrix is not executed."
+  ]
+}

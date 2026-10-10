@@ -1,0 +1,60 @@
+{"argv": ["D:\\Python312\\python.exe", "-X", "utf8", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\run_native_sequence.py", "--suite", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T100947135499Z"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1"}
+BEGIN client-test
+{"action": "client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103323034045Z"}
+BEGIN campaign-client-test
+{"action": "campaign-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103341731967Z"}
+BEGIN vessel-client-test
+{"action": "vessel-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103348021616Z"}
+BEGIN chapter-two-client-test
+{"action": "chapter-two-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103359155581Z"}
+BEGIN chapter-three-client-test
+{"action": "chapter-three-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103456239174Z"}
+BEGIN chapter-four-client-test
+{"action": "chapter-four-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103612447440Z"}
+BEGIN chapter-five-client-test
+{"action": "chapter-five-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103743068248Z"}
+BEGIN chapter-six-client-test
+{"action": "chapter-six-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T103907230209Z"}
+BEGIN finale-client-test
+{"action": "finale-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104322520737Z"}
+BEGIN r1-life-client-test
+{"action": "r1-life-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104451768257Z"}
+BEGIN musicbox-client-test
+{"action": "musicbox-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104529864927Z"}
+BEGIN r2-life-client-test
+{"action": "r2-life-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104600681134Z"}
+BEGIN chapter-four-local-client-test
+{"action": "chapter-four-local-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104638162715Z"}
+BEGIN first-relay-client-test
+{"action": "first-relay-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104732111380Z"}
+BEGIN first-side-client-test
+{"action": "first-side-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104742823471Z"}
+BEGIN first-outer-client-test
+{"action": "first-outer-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104753621878Z"}
+BEGIN field-relay-client-test
+{"action": "field-relay-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104820033728Z"}
+BEGIN vessel-life-client-test
+{"action": "vessel-life-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104837790165Z"}
+BEGIN settlement-support-client-test
+{"action": "settlement-support-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104849575342Z"}
+BEGIN lina-personal-client-test
+{"action": "lina-personal-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T104945679695Z"}
+BEGIN r3-shift-client-test
+{"action": "r3-shift-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105011786490Z"}
+BEGIN old-city-local-life-client-test
+{"action": "old-city-local-life-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105037606713Z"}
+BEGIN scoped-personal-client-test
+{"action": "scoped-personal-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105115249680Z"}
+BEGIN optional-r1-client-test
+{"action": "optional-r1-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105207456714Z"}
+BEGIN optional-r2-client-test
+{"action": "optional-r2-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105248641312Z"}
+BEGIN optional-r3-client-test
+{"action": "optional-r3-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105335767394Z"}
+BEGIN optional-r4-client-test
+{"action": "optional-r4-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105423600864Z"}
+BEGIN optional-r5-client-test
+{"action": "optional-r5-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105516002687Z"}
+BEGIN optional-r6-client-test
+{"action": "optional-r6-client-test", "exit_code": 0, "result": "verified", "path": "reports/build/20261010T105615222733Z"}
+{"result": "all_selected_native_runs_verified", "report": "reports/continuous/native_sequence_20261010T103322953641Z", "runs": 29, "human_play": "not_run"}

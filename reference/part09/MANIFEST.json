@@ -1,0 +1,162 @@
+{
+  "part": 9,
+  "version": "0.1",
+  "files": [
+    {
+      "path": "Codex_Handoff_Part09_v0.1.md",
+      "bytes": 3106,
+      "sha256": "cb58ecca4f54273d27b64b4799db972aa66dc4cecd9ea2ac3a7ba371ebcbd07c"
+    },
+    {
+      "path": "NPC_Change_CR-NPC-009-001.md",
+      "bytes": 1864,
+      "sha256": "c6a2f3b7f624e5bf72587d753f1015e83e14eb4001f87810ae8c824e4519171c"
+    },
+    {
+      "path": "NPC_Faction_System_v0.1.md",
+      "bytes": 56895,
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+    },
+    {
+      "path": "NPC_Faction_Validation_v0.1.md",
+      "bytes": 2380,
+      "sha256": "2925c05ef4a6ad34c7d3ac2e2c3f4c2418eafac4b409fcbc3a4890dab22eb344"
+    },
+    {
+      "path": "README.md",
+      "bytes": 939,
+      "sha256": "3aa040d06da794b2893990e207df9bf0feaf9c1dcb2f028914fbd67b534e2b59"
+    },
+    {
+      "path": "data/NPC_Acceptance_v0.1.json",
+      "bytes": 8449,
+      "sha256": "fe3525ecb3cfb1757f70b366d198f83d06a9e53e73966c360aa02e240f65f2a7"
+    },
+    {
+      "path": "data/NPC_Faction_Reference_v0.1.json",
+      "bytes": 56328,
+      "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+    },
+    {
+      "path": "dependencies/Character_Progression_Reference_v0.1.json",
+      "bytes": 65966,
+      "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+    },
+    {
+      "path": "dependencies/Character_Progression_v0.1.md",
+      "bytes": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+    },
+    {
+      "path": "dependencies/Combat_Reference_v0.1.json",
+      "bytes": 56489,
+      "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+    },
+    {
+      "path": "dependencies/Combat_System_v0.1.md",
+      "bytes": 53850,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+    },
+    {
+      "path": "dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+      "bytes": 1898,
+      "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+    },
+    {
+      "path": "dependencies/English_Learning_System_v0.1.md",
+      "bytes": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+    },
+    {
+      "path": "dependencies/Exploration_Layout_Reference_v0.1.json",
+      "bytes": 51475,
+      "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+    },
+    {
+      "path": "dependencies/Exploration_Level_Design_v0.1.md",
+      "bytes": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+    },
+    {
+      "path": "dependencies/Game_Design_Core_v0.1.md",
+      "bytes": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+    },
+    {
+      "path": "dependencies/Puzzle_System_v0.1.md",
+      "bytes": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+    },
+    {
+      "path": "dependencies/Quest_Event_System_v0.1.md",
+      "bytes": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+    },
+    {
+      "path": "dependencies/World_Story_Bible_v0.1.md",
+      "bytes": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+    },
+    {
+      "path": "materials/NPC-MAT-01_Havel_Plan_Review.md",
+      "bytes": 1644,
+      "sha256": "328bb99b0876716bd760652b8fed0499b8b4220e0d384af30f3f06509317dad1"
+    },
+    {
+      "path": "materials/NPC-MAT-02_Lina_Contact.md",
+      "bytes": 1312,
+      "sha256": "23f6eab2a76ac9c02e0402ab91f89da47120a06ec81141a88f0a2c7373428db9"
+    },
+    {
+      "path": "materials/NPC-MAT-03_Oren_Repair.md",
+      "bytes": 1392,
+      "sha256": "65d732e417d5cd3e975c3ffb47a6a137469857c9b33b1b197c5fbf033a9f7926"
+    },
+    {
+      "path": "materials/NPC-MAT-04_Mira_Access.md",
+      "bytes": 1532,
+      "sha256": "32bdf2febab6b6513c5a22f58104ce8014f98aed49b76b69ead5e9a88ea25b77"
+    },
+    {
+      "path": "materials/NPC-MAT-05_Tess_Handover.md",
+      "bytes": 1432,
+      "sha256": "4fa7bba1f251f1ac4963655b8c40036c4b6466124441642699cde5bf2d348edf"
+    },
+    {
+      "path": "materials/NPC-MAT-06_Chair_Banter.md",
+      "bytes": 963,
+      "sha256": "704c0c2b8e5229d6f7b9938a1104672c298f6207f69194631f7a0914158be798"
+    },
+    {
+      "path": "validation/npc_reference.py",
+      "bytes": 14418,
+      "sha256": "71159c9b12345fb36f4a7af0c99019dc8493a87ad34adbceaae175fc4eb53b0a"
+    },
+    {
+      "path": "validation/run_log.txt",
+      "bytes": 6445,
+      "sha256": "c123ee7fd7e98e7cb251ced24315d2b08ad606c5b755ac03614f7661bc944b3b"
+    },
+    {
+      "path": "validation/run_validation.py",
+      "bytes": 1303,
+      "sha256": "84f878f8585282880c4161cf22f337390ee13ba819e9a285641c1df951a0d95e"
+    },
+    {
+      "path": "validation/scenario_traces.json",
+      "bytes": 2429,
+      "sha256": "a686715c4096a6d7e57cae0388af3b19c68e4400a6f5fa007f05345055bfc758"
+    },
+    {
+      "path": "validation/test_npc.py",
+      "bytes": 18585,
+      "sha256": "0c4365f254b0202ae7d78e8ffae54e08c702c27b81e2e0cea846b6a18f966ee5"
+    },
+    {
+      "path": "validation/validation_report.json",
+      "bytes": 635,
+      "sha256": "ba00d13acbc6a785b4f137326f69ed02fb7d6ce4244376e42edb3edc9f64147b"
+    }
+  ],
+  "validation": "50 stdlib checks; see scope and limitations; output logs may change on rerun"
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R6-03",
+      "name": "Committed physical procurement resumes after an actual after-commit failure and rejects a different finite batch",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R6-03",
+      "name": "Bare region actor and requirements do not initialize a real frontier commission",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R6-03",
+      "name": "Actual zero-XP prior voyage enters R6 without unvisited records, completed work or free engineering balance",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R6-03",
+      "name": "Actual current instrument changes expire its check; draft editing and closed preview cannot settle survey",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R6-03",
+      "name": "Normal R6 local escort closes Q603 while distant baseline and Q602 remain incomplete",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R6-03",
+      "name": "Tess invitation remains optional; current contacts and uncommitted supplement use original zero-reward node before actual local notice",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R6-03",
+      "name": "Normal 0 XP through six onsite baseline producers seals real checkpoint and launches one vessel atomically to RF",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R6-03",
+      "name": "Normal finite enhanced source chain and all six local permissions, tests and distinct signatures prepare distributed direction",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

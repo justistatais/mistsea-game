@@ -1,0 +1,761 @@
+{
+  "content_version": "R1-LIFE-20261010-v2",
+  "player_projection": true,
+  "scope": "authoring_candidate_not_runtime",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "target_bands": {
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5
+  },
+  "local_details": "Original candidate dates, room labels, finite theatre props, performers and programme times; no main history or mentor-status changes.",
+  "scenes": [
+    {
+      "id": "R1-O01",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 35,
+          "top": 40,
+          "right": 55,
+          "bottom": 55
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-O01.to.R1-S02",
+          "target_scene": "R1-S02",
+          "target_port": "R1-S02.to.R1-O01",
+          "stand": {
+            "x": 48,
+            "y": 90
+          },
+          "gate": "inn_discovered"
+        },
+        {
+          "id": "R1-O01.to_theatre",
+          "target_scene": "R1-O02",
+          "target_port": "R1-O02.to_inn",
+          "stand": {
+            "x": 88,
+            "y": 62
+          },
+          "gate": "theatre_discovered"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-O01.front_desk",
+          "stand": {
+            "x": 20,
+            "y": 38
+          },
+          "purpose_zh": "店主受理与最终住宿交接"
+        },
+        {
+          "id": "R1-O01.old_confirm",
+          "stand": {
+            "x": 20,
+            "y": 65
+          },
+          "purpose_zh": "旧信与独立订单"
+        },
+        {
+          "id": "R1-O01.amended",
+          "stand": {
+            "x": 40,
+            "y": 70
+          },
+          "purpose_zh": "已确认改期"
+        },
+        {
+          "id": "R1-O01.guest_confirmation",
+          "stand": {
+            "x": 65,
+            "y": 70
+          },
+          "purpose_zh": "实际到达住客的确认"
+        },
+        {
+          "id": "R1-O01.room_quiet",
+          "stand": {
+            "x": 68,
+            "y": 40
+          },
+          "purpose_zh": "静室双人间房牌及门口检查"
+        },
+        {
+          "id": "R1-O01.room_ground",
+          "stand": {
+            "x": 82,
+            "y": 40
+          },
+          "purpose_zh": "平层单人间房牌及门口检查"
+        },
+        {
+          "id": "R1-O01.ledger",
+          "stand": {
+            "x": 20,
+            "y": 48
+          },
+          "purpose_zh": "账本核对与分房实际登记"
+        },
+        {
+          "id": "R1-O01.writer",
+          "stand": {
+            "x": 20,
+            "y": 58
+          },
+          "purpose_zh": "简短住宿确认正文"
+        },
+        {
+          "id": "R1-O01.theatre_offer",
+          "stand": {
+            "x": 75,
+            "y": 80
+          },
+          "purpose_zh": "公开剧场来信"
+        }
+      ]
+    },
+    {
+      "id": "R1-O02",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 25,
+          "top": 25,
+          "right": 80,
+          "bottom": 43
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-O02.to_inn",
+          "target_scene": "R1-O01",
+          "target_port": "R1-O01.to_theatre",
+          "stand": {
+            "x": 10,
+            "y": 62
+          },
+          "gate": "theatre_discovered"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-O02.power",
+          "stand": {
+            "x": 82,
+            "y": 64
+          },
+          "purpose_zh": "独立灯具隔离安装接通和实际测试"
+        },
+        {
+          "id": "R1-O02.crew",
+          "stand": {
+            "x": 60,
+            "y": 64
+          },
+          "purpose_zh": "两名当地演员与时段确认"
+        },
+        {
+          "id": "R1-O02.stage_check",
+          "stand": {
+            "x": 48,
+            "y": 50
+          },
+          "purpose_zh": "舞台边缘与回程通道实际检查"
+        },
+        {
+          "id": "R1-O02.props",
+          "stand": {
+            "x": 20,
+            "y": 64
+          },
+          "purpose_zh": "剧场自身有限道具仓库"
+        },
+        {
+          "id": "R1-O02.writer",
+          "stand": {
+            "x": 68,
+            "y": 74
+          },
+          "purpose_zh": "简短节目说明正文"
+        },
+        {
+          "id": "R1-O02.programme",
+          "stand": {
+            "x": 48,
+            "y": 74
+          },
+          "purpose_zh": "组织者正式接收节目"
+        },
+        {
+          "id": "R1-O02.performance",
+          "stand": {
+            "x": 48,
+            "y": 82
+          },
+          "purpose_zh": "可观看或跳过的恢复短场景"
+        }
+      ]
+    }
+  ],
+  "street_extension": {
+    "scene": "R1-S02",
+    "spot": {
+      "id": "R1-S02.inn_notice",
+      "stand": {
+        "x": 22,
+        "y": 68
+      },
+      "purpose_zh": "公开旅舍门牌"
+    },
+    "port": {
+      "id": "R1-S02.to.R1-O01",
+      "target_scene": "R1-O01",
+      "target_port": "R1-O01.to.R1-S02",
+      "stand": {
+        "x": 92,
+        "y": 32
+      },
+      "gate": "inn_discovered"
+    }
+  },
+  "materials": [
+    {
+      "id": "R1-ROOM-R-OLD",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "旧住宿确认",
+      "quest_ref": "SC-R1-001",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O01",
+        "spot": "R1-O01.old_confirm"
+      },
+      "source_root": "R1-ROOM-R-OLD",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-ROOM-R-OLD.P1",
+          "en": "Tidal Inn — confirmation BKG-17, version 1. Dear travelling repairers, we have reserved two beds in Quiet Twin for Harbour Day 1. Your request for a quiet room is included in this confirmation. The room is reached by stairs. Please tell the desk if your ferry is delayed, because the date can be amended only after we receive your reply. Keeping this letter does not make a second reservation.",
+          "zh": "潮汐旅舍——BKG-17第1版确认。致结伴旅行的修理人员：我们为港日1保留了静室双人间的两张床，确认中包含你们对安静房间的要求。房间需要走楼梯。如果渡船延误，请告知柜台；收到回复后我们才能改期。保留此信不会产生第二笔预订。"
+        },
+        {
+          "id": "R1-ROOM-R-OLD.P2",
+          "en": "The booking number identifies the reservation; the names and the shape of the paper do not establish a revision by themselves. Keep any later amendment with this letter so that the desk can see both the original commitment and the authorised change. This confirmation concerns lodging, not passage on a vessel, an investigation permit, or access to anyone else's correspondence.",
+          "zh": "订房编号标识此项预订；姓名相同或纸张相同本身不能证明修订关系。请把后续改期与此信放在一起，便于柜台同时查看原承诺与获准变更。此确认只涉及住宿，不涉及船舶通行、调查许可或他人的通信。"
+        }
+      ]
+    },
+    {
+      "id": "R1-ROOM-R-AMEND",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "改期确认",
+      "quest_ref": "SC-R1-001",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O01",
+        "spot": "R1-O01.amended"
+      },
+      "source_root": "R1-ROOM-R-AMEND",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-ROOM-R-AMEND.P1",
+          "en": "Tidal Inn — amendment BKG-17, version 2. I have received the reply from the two repairers named in version 1. Their delayed arrival has moved their stay from Harbour Day 1 to Harbour Day 2. The number of guests remains two, and the request for a quiet room remains in force. I, the innkeeper at the front desk, confirm this date change. Version 2 replaces the date in version 1; it does not create another travelling group or cancel the quiet-room commitment.",
+          "zh": "潮汐旅舍——BKG-17第2版改期。我已收到第1版中两位修理人员的回复。他们的延误到达使住宿日期从港日1移到港日2。客人数仍为两人，安静房间要求仍有效。旅舍柜台店主确认此项日期变更。第2版替换第1版的日期，不产生另一组旅客，也不取消安静房间承诺。"
+        },
+        {
+          "id": "R1-ROOM-R-AMEND.P2",
+          "en": "Today's lodging period is Harbour Day 2, a local label used on every sheet in this booking check. Do not turn that label into the date of the harbour accident. Both letters are retained because a corrected ledger must show what changed and who confirmed it. If the task is paused, the innkeeper keeps these beds reserved; reading or writing slowly will not make the guests lose them.",
+          "zh": "本次住宿时段为港日2；此次订房核对的所有表单都使用这一当地标记。不要把它变成港口事故的日期。两封信都保留，因为更正后的账本须说明改了什么、由谁确认。任务暂停时店主继续保留床位，阅读或写作较慢不会使客人失去房间。"
+        }
+      ]
+    },
+    {
+      "id": "R1-ROOM-R-SEPARATE",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "另一笔独立订单",
+      "quest_ref": "SC-R1-001",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O01",
+        "spot": "R1-O01.old_confirm"
+      },
+      "source_root": "R1-ROOM-R-SEPARATE",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-ROOM-R-SEPARATE.P1",
+          "en": "Tidal Inn — BKG-22, version 1. One returning traveller will stay on Harbour Day 2. The traveller needs a single bed and an entrance on the ground level because stairs are unsuitable for this visit. Quietness is not part of this booking request. BKG-22 has its own confirmation and is not a revision of BKG-17. A similar date is insufficient reason to combine the two orders.",
+          "zh": "潮汐旅舍——BKG-22第1版。一位返港旅客将在港日2住宿。此次出行不适合走楼梯，因此旅客需要单人床和平层入口。这笔预订没有提出安静要求。BKG-22有独立确认，不是BKG-17的修订。日期相同不足以把两笔订单合并。"
+        },
+        {
+          "id": "R1-ROOM-R-SEPARATE.P2",
+          "en": "The guest has reached the inn and may repeat these requirements at the desk. The two repairers have also arrived. There are two actual groups and three people in total. A ledger containing three lines is not proof of three independent groups. Check the booking numbers, the dates, the revision relationship and the people who confirmed them before assigning rooms.",
+          "zh": "客人已到旅舍，可在柜台重述需求。两位修理人员也已到达。现场实际有两组，共三人。账本上有三行不能证明存在三组独立客人。分房前请核对编号、日期、修订关系与确认者。"
+        }
+      ]
+    },
+    {
+      "id": "R1-ROOM-L-GUESTS",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "柜台住客确认脚本",
+      "quest_ref": "SC-R1-001",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R1-O01",
+        "spot": "R1-O01.guest_confirmation"
+      },
+      "source_root": "R1-ROOM-L-GUESTS",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-ROOM-L-GUESTS.P1",
+          "en": "Repairer: We are the two people on BKG-17. The ferry delay changed our arrival, not the number of beds we requested. Innkeeper: I confirmed version 2 after your reply. It replaces the earlier date. Traveller: My booking is BKG-22. I am travelling alone and need to enter without stairs. I have not asked for a quiet upper room. Innkeeper: Then the old letter and its amendment belong together, while the single booking remains separate.",
+          "zh": "修理人员：我们就是BKG-17上的两个人。渡船延误改变的是到达日期，不是要求的床位数。店主：收到回复后我确认了第2版，它替换原日期。旅客：我的订单是BKG-22，我独自旅行，需要不用走楼梯的入口，并未要求安静的楼上房间。店主：因此旧信和改期信应归为一笔，单人预订仍保持独立。"
+        },
+        {
+          "id": "R1-ROOM-L-GUESTS.P2",
+          "en": "Repairer: Please keep the old promise visible when correcting the ledger. We do not want to receive the same compensation twice because you found two copies. Innkeeper: Once both groups have suitable rooms, I can record either a lodging discount in the inn's own account or one local information appointment. Neither option takes a main-task battery or another guest's bed. Choose the extra arrangement after the basic allocation is checked.",
+          "zh": "修理人员：更正账本时请保留旧承诺。不能因为找到两份记录就给我们两次补偿。店主：两组都有合适房间后，可以在旅舍自己的账上记一次住宿折让，或安排一次当地信息服务。两种方式都不使用主线电池或其他客人的床位。基本分房核对后再选择额外安排。"
+        }
+      ]
+    },
+    {
+      "id": "R1-ROOM-R-CARDS",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "两间房的公开房牌",
+      "quest_ref": "SC-R1-001",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O01",
+        "spot": "R1-O01.room_quiet"
+      },
+      "source_root": "R1-ROOM-R-CARDS",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-ROOM-R-CARDS.P1",
+          "en": "Quiet Twin, room QT-1: two separate beds, a quiet rear position, and stairs between the desk and the room. Ground Single, room GS-1: one bed and a level entrance from the desk, near the street. Both rooms are available for Harbour Day 2. These attributes can be checked from the two room signs and the accessible doorway inspection points; no new room map or timed movement is required.",
+          "zh": "静室双人间QT-1：两张独立床，位于安静的后侧，从柜台到房间须走楼梯。平层单人间GS-1：一张床，与柜台之间为平层入口，靠近街道。两间房都可用于港日2。可在两块房牌和可到达的门口检查点核对属性，不要求进入新的房间地图或限时移动。"
+        },
+        {
+          "id": "R1-ROOM-R-CARDS.P2",
+          "en": "A spare-looking space is not an extra bed unless the innkeeper has supplied it as one. Do not promise two travellers a one-bed room or describe a staircase as a level entrance. The room signs establish physical attributes; they do not establish which confirmation is current. The letters and the guests establish the bookings. Compare these different kinds of information before making the assignment.",
+          "zh": "看似空余的空间并不是额外床位，除非店主实际提供。不要向两位旅客承诺一张床的房间，也不要把楼梯描述为平层入口。房牌证明物理属性，不能证明哪份确认当前有效；信件和住客确认订单。分配前应比较这几类不同信息。"
+        }
+      ]
+    },
+    {
+      "id": "R1-ROOM-R-DESK",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "账本更正与留言",
+      "quest_ref": "SC-R1-001",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O01",
+        "spot": "R1-O01.ledger"
+      },
+      "source_root": "R1-ROOM-R-DESK",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-ROOM-R-DESK.P1",
+          "en": "The desk currently shows three lines: BKG-17 version 1, BKG-17 version 2 and BKG-22 version 1. Correct the ledger to two active orders for Harbour Day 2 while retaining the earlier letter as history. Assign each actual group a room meeting its requirements, and leave a short confirmation explaining the revision, the room allocation and the chosen extra arrangement. Clear writing may be brief; this is not a full Academic Writing task.",
+          "zh": "柜台当前有三行：BKG-17第1版、BKG-17第2版、BKG-22第1版。应更正为港日2的两个有效订单，保留旧信作为历史。为每个实际同行组分配满足要求的房间，并留下一段简短确认，说明修订、房间分配及额外安排。清楚的留言可以简短，这不是完整学术写作任务。"
+        },
+        {
+          "id": "R1-ROOM-R-DESK.P2",
+          "en": "You may check the letters first, ask the arrived guests to confirm the details, or inspect the room signs before returning to the records. Each method must still establish the number of valid orders and suitable room attributes. The innkeeper receives the final arrangement at the front desk. The local reward is paid once under SC-R1-001: 25 experience, no marks and no parts. Returning later or rereading the letter does not create another reward.",
+          "zh": "可以先核对信件、请已到住客确认详情，或先查看房牌再回查记录。各种方法仍须确认有效订单数及合适房间属性。最终安排由前台店主接收。地方奖励以SC-R1-001只结算一次：25经验，无刻币、无零件。以后返回或重读信件不会产生另一份奖励。"
+        }
+      ]
+    },
+    {
+      "id": "R1-SHOW-R-OFFER",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "剧场来信与公开小演出",
+      "quest_ref": "SC-R1-002",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O01",
+        "spot": "R1-O01.theatre_offer"
+      },
+      "source_root": "R1-SHOW-R-OFFER",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-SHOW-R-OFFER.P1",
+          "en": "The small theatre behind the inn cancelled its programme when its separate supply failed. The performers would like to reopen, but they can also give a shorter daylight show. Neither arrangement is a harbour emergency. Ask at the theatre before promising a performance: the crew, equipment and props have different availability. The audience should receive an honest description of the plan rather than a promise that every version of the old programme will return.",
+          "zh": "旅舍后的剧场因独立供给故障取消了节目。演员希望重新开放，也可以举办较短的白天小演出。两种安排都不是港口紧急任务。承诺演出前请到剧场询问；人员、设备和道具的可用性不同。应向观众如实说明计划，不要承诺旧节目所有版本都能恢复。"
+        },
+        {
+          "id": "R1-SHOW-R-OFFER.P2",
+          "en": "The route from the inn to the theatre is an ordinary public path. Declining or postponing the request leaves the main harbour work available. No actor has to join the patrol party, and the patrol technician is not asked to speak lines or perform for an audience. This local story has no experience, marks or parts payment; its result is a changed programme board and a short scene that can be watched or skipped.",
+          "zh": "旅舍至剧场是普通公共路线。拒绝或推迟不会影响港口主线。演员不必加入巡灯队伍，巡灯技术员也不必说台词或面对观众表演。此地方故事不发经验、刻币或零件；结果是节目牌变化和一段可观看或跳过的短场景。"
+        }
+      ]
+    },
+    {
+      "id": "R1-SHOW-R-EQUIPMENT",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "剧场设备与有限物料",
+      "quest_ref": "SC-R1-002",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O02",
+        "spot": "R1-O02.power"
+      },
+      "source_root": "R1-SHOW-R-EQUIPMENT",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-SHOW-R-EQUIPMENT.P1",
+          "en": "The theatre has one local brace and one local lamp cell in its own store, plus one canvas screen and one drum. These objects are not the ferry's battery, a patrol relic or later tower supplies. For the full indoor programme, first isolate the lamp supply, fit the brace, seat the lamp cell, reconnect and test the actual arrangement. A changed brace or supply requires a new test. A label saying repaired is not sufficient.",
+          "zh": "剧场自己的仓库有一个当地支架和一个灯用电芯，另有一块帆布屏风和一只鼓。这些物件不是渡轮电池、巡灯遗物或后续塔站物资。完整室内节目需要先隔离灯供给，安装支架，装好电芯，再接通并测试实际配置。更换支架或供给后须重新测试，仅有“已修好”标签不够。"
+        },
+        {
+          "id": "R1-SHOW-R-EQUIPMENT.P2",
+          "en": "The small daylight show leaves the lamp supply isolated. It uses the canvas screen and drum, with a speaker standing in the naturally lit area. It does not consume the brace or cell. The performers can therefore choose a smaller result without borrowing a main-task resource. Both arrangements require a checked stage, assigned people and a programme that matches the available time.",
+          "zh": "小型白天演出保持灯供给隔离，使用帆布屏风和鼓，讲述者站在自然采光区，不消耗支架或电芯。因此可以选择较小的结果，而不借用主线物资。两种安排都需要检查舞台、安排人员，并使节目符合可用时间。"
+        }
+      ]
+    },
+    {
+      "id": "R1-SHOW-L-CREW",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "演员与时段脚本",
+      "quest_ref": "SC-R1-002",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R1-O02",
+        "spot": "R1-O02.crew"
+      },
+      "source_root": "R1-SHOW-L-CREW",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-SHOW-L-CREW.P1",
+          "en": "Stage organiser: We have two local performers for this programme. I can take the speaker's role. My colleague can operate the lamp for an indoor show or play the drum outdoors; those roles cannot be performed together by the same person. The full programme lasts thirty minutes and uses the indoor period from 18:00 to 18:30. The daylight version lasts fifteen minutes in the public period from 16:00 to 16:15.",
+          "zh": "舞台组织者：这次节目有两位当地演员。我可以担任讲述者，同伴可在室内节目操作灯具，或在户外敲鼓；同一个人不能同时兼任这两个角色。完整节目持续30分钟，使用18:00至18:30的室内时段。白天版本持续15分钟，使用16:00至16:15的公共时段。"
+        },
+        {
+          "id": "R1-SHOW-L-CREW.P2",
+          "en": "Second performer: Please decide which programme we are actually preparing before moving the props. If you choose the daylight show, keep the lamp isolated and bring the screen and drum to the stage. If you choose the full show, finish the lamp test and put the screen in position. Stage organiser: A shorter performance is acceptable. Calling it the full indoor programme would be misleading. The audience can choose to stay without being required to answer a quiz.",
+          "zh": "第二位演员：移动道具前，请确定实际准备哪个节目。若选择白天演出，保持灯具隔离，把屏风和鼓搬到舞台。若选择完整演出，先完成灯具测试，再摆好屏风。舞台组织者：较短的演出是可接受的，但把它称为完整室内节目会误导观众。观众可以留下观看，无需回答测验。"
+        }
+      ]
+    },
+    {
+      "id": "R1-SHOW-R-STAGE",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "舞台检查与节目牌",
+      "quest_ref": "SC-R1-002",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O02",
+        "spot": "R1-O02.stage_check"
+      },
+      "source_root": "R1-SHOW-R-STAGE",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-SHOW-R-STAGE.P1",
+          "en": "Check the accessible edge of the stage, secure the screen and keep the return passage clear. Stage inspection is a local physical action, not an English test. The full indoor programme needs the tested lamp, the screen, one speaker and one lamp operator. The smaller daylight programme needs the isolated lamp, the screen, the drum, one speaker and one drummer. Only one programme can occupy this stage for the stated period.",
+          "zh": "检查可到达的舞台边缘，固定屏风并保持返程通道畅通。舞台检查是当地物理行动，不是英语测试。完整室内节目需要通过测试的灯具、屏风、一位讲述者和一位灯具操作员。小型白天节目需要已隔离的灯具、屏风、鼓、一位讲述者和一位鼓手。指定时段内舞台只能安排一个节目。"
+        },
+        {
+          "id": "R1-SHOW-R-STAGE.P2",
+          "en": "Write a brief programme note naming the chosen version, its time, the assigned roles and the equipment actually prepared. The organiser receives the note at the programme board after checking these conditions. You may use the equipment-first method, the schedule-first method or the prop-first method. None permits a promised object or a fictional operator to replace an actual prepared one.",
+          "zh": "写一段简短节目说明，列出所选版本、时段、分工及实际准备的设备。组织者核对这些条件后在节目牌接收说明。可以先处理设备、先安排时段或先准备道具；任何方法都不能用承诺的物件或虚构操作员代替实际准备。"
+        }
+      ]
+    },
+    {
+      "id": "R1-SHOW-R-SCENE",
+      "content_version": "R1-LIFE-20261010-v2",
+      "translation_version": "R1-LIFE-zh-v1",
+      "title_zh": "恢复后的短场景",
+      "quest_ref": "SC-R1-002",
+      "kind": "reading",
+      "location": {
+        "scene": "R1-O02",
+        "spot": "R1-O02.performance"
+      },
+      "source_root": "R1-SHOW-R-SCENE",
+      "access_class": "public_local_commission",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "audio_asset": "",
+      "paragraphs": [
+        {
+          "id": "R1-SHOW-R-SCENE.P1",
+          "en": "The speaker unfolds a letter that has been carried from one shore to another. A neighbour brings back a borrowed chair, and the two discover that they have been waiting for different replies. The scene ends when they decide to ask the sender instead of arguing about the envelope. In the full programme, the repaired lamp narrows onto the unopened letter. In the daylight version, the drum sounds once and the performers fold the screen.",
+          "zh": "讲述者展开一封从一岸带到另一岸的信。邻居送回借用的椅子，两人发现自己等的是不同的回复。最终他们决定询问寄信人，而不是争论信封。完整节目中，修好的灯光收束到尚未打开的信上；白天版本则敲一次鼓，由演员收起屏风。"
+        },
+        {
+          "id": "R1-SHOW-R-SCENE.P2",
+          "en": "This is a local fictional performance, not testimony about the harbour accident or the mentor's present situation. Watching it is optional and creates no further reward. The programme board keeps the actual version that was arranged; returning or skipping the scene does not change the earlier material transfers or the organiser's receipt. The theatre can be revisited while the broader adventure continues.",
+          "zh": "这是一段地方虚构演出，不是港口事故或导师现状的证词。观看可选，不会产生额外奖励。节目牌保留实际安排的版本；以后返回或跳过短场景不会改变此前物料交付或组织者回执。继续冒险时仍可返回剧场。"
+        }
+      ]
+    }
+  ],
+  "stations": [
+    {
+      "id": "R1-LIFE-ST-1",
+      "spot": "R1-S02.inn_notice",
+      "action": "discover_inn",
+      "label_zh": "发现公开旅舍入口"
+    },
+    {
+      "id": "R1-LIFE-ST-2",
+      "spot": "R1-O01.front_desk",
+      "action": "accept_rooms",
+      "label_zh": "接受既有SC-R1-001核对请求"
+    },
+    {
+      "id": "R1-LIFE-ST-3",
+      "spot": "R1-O01.guest_confirmation",
+      "action": "confirm_arrived_guests",
+      "label_zh": "核对实际到达的两组住客"
+    },
+    {
+      "id": "R1-LIFE-ST-4",
+      "spot": "R1-O01.room_quiet",
+      "action": "inspect_quiet_room",
+      "label_zh": "查看静室双人间实际房牌"
+    },
+    {
+      "id": "R1-LIFE-ST-5",
+      "spot": "R1-O01.room_ground",
+      "action": "inspect_ground_room",
+      "label_zh": "查看平层单人间实际房牌"
+    },
+    {
+      "id": "R1-LIFE-ST-6",
+      "spot": "R1-O01.ledger",
+      "action": "arrange_rooms",
+      "label_zh": "更正重复记录并实际分房"
+    },
+    {
+      "id": "R1-LIFE-ST-7",
+      "spot": "R1-O01.front_desk",
+      "action": "submit_rooms",
+      "label_zh": "店主接收留言与住宿安排"
+    },
+    {
+      "id": "R1-LIFE-ST-8",
+      "spot": "R1-O01.theatre_offer",
+      "action": "discover_theatre",
+      "label_zh": "来信揭示公共剧场路径"
+    },
+    {
+      "id": "R1-LIFE-ST-9",
+      "spot": "R1-O02.programme",
+      "action": "accept_show",
+      "label_zh": "接受可选剧场请求"
+    },
+    {
+      "id": "R1-LIFE-ST-10",
+      "spot": "R1-O02.stage_check",
+      "action": "inspect_stage",
+      "label_zh": "实际检查舞台与返程通道"
+    },
+    {
+      "id": "R1-LIFE-ST-11",
+      "spot": "R1-O02.power",
+      "action": "isolate_theatre_lamp",
+      "label_zh": "隔离剧场自身灯具"
+    },
+    {
+      "id": "R1-LIFE-ST-12",
+      "spot": "R1-O02.power",
+      "action": "install_theatre_brace",
+      "label_zh": "安装剧场仓库支架"
+    },
+    {
+      "id": "R1-LIFE-ST-13",
+      "spot": "R1-O02.power",
+      "action": "install_theatre_cell",
+      "label_zh": "安装剧场仓库电芯"
+    },
+    {
+      "id": "R1-LIFE-ST-14",
+      "spot": "R1-O02.power",
+      "action": "power_theatre_lamp",
+      "label_zh": "接通剧场灯具"
+    },
+    {
+      "id": "R1-LIFE-ST-15",
+      "spot": "R1-O02.power",
+      "action": "test_theatre_lamp",
+      "label_zh": "实际测试当前灯具配置"
+    },
+    {
+      "id": "R1-LIFE-ST-16",
+      "spot": "R1-O02.props",
+      "action": "place_screen",
+      "label_zh": "把实际屏风交付到舞台"
+    },
+    {
+      "id": "R1-LIFE-ST-17",
+      "spot": "R1-O02.props",
+      "action": "place_drum",
+      "label_zh": "把实际鼓交付到舞台"
+    },
+    {
+      "id": "R1-LIFE-ST-18",
+      "spot": "R1-O02.crew",
+      "action": "assign_show_roles",
+      "label_zh": "确认实际两演员分工和节目时段"
+    },
+    {
+      "id": "R1-LIFE-ST-19",
+      "spot": "R1-O02.programme",
+      "action": "submit_show",
+      "label_zh": "组织者接收实际节目与正文"
+    },
+    {
+      "id": "R1-LIFE-ST-20",
+      "spot": "R1-O02.performance",
+      "action": "watch_show",
+      "label_zh": "观看或跳过已恢复短场景"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "SC-R1-001:confirmation",
+      "quest_ref": "SC-R1-001",
+      "kind": "short_local_confirmation",
+      "workspace_spot": "R1-O01.writer",
+      "prompt_en": "Explain the current bookings, suitable rooms and agreed extra arrangement to the innkeeper.",
+      "prompt_zh": "向店主说明当前订单、合适房间和已约定额外安排。"
+    },
+    {
+      "id": "SC-R1-002:programme",
+      "quest_ref": "SC-R1-002",
+      "kind": "short_local_programme",
+      "workspace_spot": "R1-O02.writer",
+      "prompt_en": "State the actual performance version, time, people and prepared equipment.",
+      "prompt_zh": "说明实际演出版本、时间、人员和已准备设备。"
+    }
+  ],
+  "public_booking_records": [
+    {
+      "id": "BKG-17",
+      "version": 1,
+      "stay": "Harbour Day 1",
+      "beds": 2,
+      "quiet": true,
+      "level": false,
+      "supersedes": 0,
+      "confirmed_by": "N-INNKEEPER"
+    },
+    {
+      "id": "BKG-17",
+      "version": 2,
+      "stay": "Harbour Day 2",
+      "beds": 2,
+      "quiet": true,
+      "level": false,
+      "supersedes": 1,
+      "confirmed_by": "N-INNKEEPER"
+    },
+    {
+      "id": "BKG-22",
+      "version": 1,
+      "stay": "Harbour Day 2",
+      "beds": 1,
+      "quiet": false,
+      "level": true,
+      "supersedes": 0,
+      "confirmed_by": "N-INNKEEPER"
+    }
+  ],
+  "public_room_cards": [
+    {
+      "id": "QT-1",
+      "beds": 2,
+      "quiet": true,
+      "level": false
+    },
+    {
+      "id": "GS-1",
+      "beds": 1,
+      "quiet": false,
+      "level": true
+    }
+  ],
+  "rewards": [
+    {
+      "quest": "SC-R1-001",
+      "xp": 25,
+      "marks": 0,
+      "parts": 0,
+      "source": "part09.reward_budget.existing_hotel_xp"
+    },
+    {
+      "quest": "SC-R1-002",
+      "xp": 0,
+      "marks": 0,
+      "parts": 0,
+      "source": "new_local_story_no_economic_reward"
+    }
+  ]
+}

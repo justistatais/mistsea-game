@@ -1,0 +1,118 @@
+{
+  "review_kind": "readonly_static_ui_review_and_owned_campaign_repair_not_native_execution",
+  "generated_utc": "2026-10-10T08:02:48.509735+00:00",
+  "human_signoff": null,
+  "findings": [
+    {
+      "id": "R2-SIDEWELL-ARCHIVE-DISPATCH",
+      "severity": "P1",
+      "status": "root_source_fix_observed_native_pending",
+      "previous_issue": "Public acquired seed/observation material total archive routed into a second generic editor for the same task, then generic meaning/preview rejected unregistered optional quest. Two cached draft owners could diverge CAS heads.",
+      "affected": [
+        {
+          "path": "game/UI/Shell/Root.ChapterTwo.cs",
+          "json_pointer": null,
+          "sha256": "0b3855a421bae150b8020defe6e6be7339ac8d8b444ff198349bb1b903fc8db2"
+        },
+        {
+          "path": "game/UI/Shell/Root.ChapterThree.cs",
+          "json_pointer": null,
+          "sha256": "0836ea18b76bc6fc9db168c944b92424859b2189c0767c458e60a40a60b0a210"
+        }
+      ],
+      "fix_boundary": "Dispatch to the existing optional writer/meaning/preview; retain current source and physical submission permission."
+    },
+    {
+      "id": "R1-R2-DRAFT-ACK-BOUNDARY",
+      "severity": "P1",
+      "status": "root_source_fix_observed_native_fault_pending",
+      "previous_issue": "A saved prior generation could return true after newer edit; draft close lacked awaited save/IME boundary; permission withdrawal or pause could strand dirty drafts.",
+      "affected": [
+        {
+          "path": "game/UI/Shell/Root.R1Life.cs",
+          "json_pointer": null,
+          "sha256": "8112f091bbe1142d03420482acc11b82fbafb89650d879305e9fced48c35a64f"
+        },
+        {
+          "path": "game/UI/Shell/Root.R2Life.cs",
+          "json_pointer": null,
+          "sha256": "b9fe4d806d50971b1db5b80f65d376ffbb5c4ea3ee78a6af9e46ffd948b93993"
+        },
+        {
+          "path": "src/Mist.Application/Drafts/DraftEditor.cs",
+          "json_pointer": null,
+          "sha256": "91204e59338f4dc8bff81ec19348d986df38ffa1b9e3cc2a21d713ef9b025089"
+        }
+      ],
+      "observed_fix": "Single in-flight SaveTask, all editors IsSaved and current IME check, awaited writer back/export, save before pause/withdraw, global Escape awaits all adventure drafts."
+    },
+    {
+      "id": "R0-ALL-CACHED-DRAFT-BOUNDARY",
+      "severity": "P1",
+      "status": "owned_source_fix_frozen_root_build_native_pending",
+      "previous_issue": "Campaign Continue saved only active editor before clearing all cached drafts; automatic Q102 handoff also lacked all-cache drain. Mouse writer Back discarded IME preedit after rejected fire-and-forget save.",
+      "affected": [
+        {
+          "path": "game/UI/Campaign/CampaignClient.cs",
+          "json_pointer": null,
+          "sha256": "734e26c44689f13307ac7a609c63f330942bd8f3f78c91eb443a4b24a3673526"
+        }
+      ],
+      "observed_fix": "Single-flight SaveAllDrafts drains all cached draft CAS results, re-syncs current editor and requires !Composing + All(IsSaved). Continue/handoff/Back/Escape use it, only successful Continue clears caches; close callback no longer launches stale-load save."
+    }
+  ],
+  "withdrawn_findings": [
+    {
+      "id": "FIRST-APPROACH-MATERIAL-ENTRY",
+      "status": "withdrawn_false_alarm",
+      "reason": "Both R1 approach source spots are actually R1-S09.control_notice, not side_gate/outer_gate. Existing Root.OpenChapterMaterial adds source controls at material.Spot. No missing-source conclusion.",
+      "refs": [
+        {
+          "path": "content/source/first_approaches/learner_package.json",
+          "json_pointer": null,
+          "sha256": "dceccd547a848ef3c113d1ddbd04ed51a4cc6dde10777176018651a71e356a03"
+        },
+        {
+          "path": "game/UI/Shell/Root.ChapterOne.cs",
+          "json_pointer": null,
+          "sha256": "bcfa1255d92d22fe6bcbb322d38aff2b34d32296928966e993d9dae5c3e5622c"
+        }
+      ]
+    }
+  ],
+  "reviewed_safeguards": [
+    "Root close/manual/backup/Continue/Load await all adventure draft owners before clearing/resetting state.",
+    "Current source permissions are rechecked by material APIs and dictionary callbacks; private MusicBox material is intentionally not exposed through generic main archive.",
+    "R4 two local writers share the main R4 editor cache and dispatch exact producer meaning/preview; native local report has 62 checks, zero failures.",
+    "Main R6/Tess personal nodes route to their actual existing chapter closure and bridge records prior receipts without repeat transport or reward.",
+    "Current combat/event/transport and occupancy authority remain shared; source acquisition is not physical completion."
+  ],
+  "native_evidence": [
+    {
+      "path": "reports/build/20261010T054957141407Z/chapter_four_local_client_results.json",
+      "json_pointer": null,
+      "sha256": "a612b3dc5f29cf96fd699e9d49494c6cbeb2efec135fa65420e64ea5e75bd30a"
+    },
+    {
+      "path": "reports/build/20261010T074415381779Z/vessel_life_client_results.json",
+      "json_pointer": null,
+      "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+    },
+    {
+      "path": "reports/build/20261010T075112403838Z/r3_shift_work_client_results.json",
+      "json_pointer": null,
+      "sha256": "7f6f185e48e1ba25cb5be8e09999cd5aada95ca104b4ac38b6af3efac6f2ed48"
+    },
+    {
+      "path": "reports/build/20261010T074519262745Z/old_city_local_life_client_results.json",
+      "json_pointer": null,
+      "sha256": "0905f86013188e4a64684a25fc3331802eaa3e5d3d9c5d4c6d60b83dd4fa2025"
+    }
+  ],
+  "remaining": [
+    "Current final all-source build/regression/export remains Root-owned; prior reports certify only their actual named drivers.",
+    "Physical IME, screen reader, real user interruption and actual disk faults are not certified by this static author audit.",
+    "Full 24 expression branch coverage, all encounter alternatives and human language/audio review are not inferred from source inventory or native samples.",
+    "No blanket absence-of-bugs, human acceptance or execution ledger update is claimed."
+  ]
+}

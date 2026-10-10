@@ -1,0 +1,21 @@
+B01 页面装载、六入口、明确非游戏范围 passed
+B02 编辑器字母、数字和回车不导航或执行 passed
+B03 合成输入法事件优先处理Esc和Enter passed
+B04 受限存储时Ctrl+S明示失败并保留正文 passed
+B05 材料和任务两个入口共用同一草稿 passed
+B06 无音轨不模拟播放，脚本主动展开并记录 passed
+B07 词义弹窗取消焦点与关闭恢复 passed
+B08 准备、方案确认、预览不自动离港 passed
+B09 配置拔插使旧预览失效 passed
+B10 正文修改使旧预览失效 passed
+B11 字号变化不改变合法行动条件 passed
+B12 正常执行只生成一次演示回执 passed
+B13 1280窗口200%字重排且按钮可达 passed
+B14 900窗口材料与编辑切换保留正文 passed
+B15 1920窗口双栏显示且无整体横向溢出 passed
+B16 正文中的HTML不作为脚本执行 passed
+B17 确认弹窗键盘焦点不落入背景 passed
+B18 使用帮助及演示完成后仍不造语言分数 passed
+B19 另一写入者冲突变只读且不覆盖当前稿 passed
+B20 不可行航道不会被非空正文放行 passed
+TOTAL 20 PASSED 20 FAILED 0

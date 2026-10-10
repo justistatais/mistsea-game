@@ -1,0 +1,22 @@
+{
+  "part": 9,
+  "version": "0.1",
+  "run_at_utc": "2026-10-09T03:53:30.693335+00:00",
+  "python": "3.13.5",
+  "tests_run": 50,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "finite_cases": {
+    "companion_stance_and_recruitment_combinations": 1296,
+    "enhanced_readiness_combinations": 32
+  },
+  "scope": "in-memory reference contracts and metadata; not game, LLM, authentication or crash recovery",
+  "limitations": [
+    "No actual generated-dialogue safety test",
+    "No IELTS 6.5 human calibration",
+    "No actual audio",
+    "No full 12-level gameplay",
+    "No live scene navigation or real save-file crash test"
+  ]
+}

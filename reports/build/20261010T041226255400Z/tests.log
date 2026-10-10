@@ -1,0 +1,35 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-R5-04"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 4,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R5-04",
+      "name": "Personal record exercise keeps main custody and original history, withdraws before confirm, resumes same instance",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-04",
+      "name": "Both personal record participants must accept after actual four-step exercise",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-04",
+      "name": "Oren\u0027s accepted remote or local post cannot overlap battle and hands off without deleting responsibility",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R5-04",
+      "name": "Oren invitation withdrawal rejects a pending private confirmation while retaining actual accepted duty",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

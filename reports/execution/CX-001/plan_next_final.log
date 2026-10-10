@@ -1,0 +1,14 @@
+{"argv": ["D:\\Python312\\python.exe", "-B", "tools/plan.py", "next", "--limit", "10"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1", "started_at": "2026-10-09T15:57:51+08:00", "exit_code": 0}
+[stdout]
+CX-002 | 核实并锁定真实工具链 | engineering | planning/tasks/CX-002.md
+CP-R0-01 | 序章：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-R0-01.md
+CP-R1-01 | 盐雾港：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-R1-01.md
+CP-R2-01 | 苔林修院：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-R2-01.md
+CP-R3-01 | 沉钟矿区：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-R3-01.md
+CP-R4-01 | 玻璃学城：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-R4-01.md
+CP-R5-01 | 失名旧都：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-R5-01.md
+CP-R6-01 | 风暴边境：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-R6-01.md
+CP-RF-01 | 第七座灯塔：证据/动作完整制作卡与原创正文 | content_authoring | planning/tasks/CP-RF-01.md
+此工具只检查计划/证据形式；不证明日志真实或取代真人验收。
+
+[stderr]

@@ -1,0 +1,59 @@
+{
+  "task_id": "CX-075",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/game/Diagnostics/CampaignClient.PerformanceCandidate.cs",
+      "sha256": "edb691d39296b9dbdd52d081f7fd5d58a42b160dbbc8cf55b0d6370d1f6ca2b4",
+      "bytes": 329,
+      "source_path_at_execution": "game/Diagnostics/CampaignClient.PerformanceCandidate.cs"
+    },
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/game/Diagnostics/Root.PerformanceCandidate.cs",
+      "sha256": "8ed5f30c350262d3a9152cd0995684e2c7d408b78bb65ca66f25fbf97155249c",
+      "bytes": 5107,
+      "source_path_at_execution": "game/Diagnostics/Root.PerformanceCandidate.cs"
+    },
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/game/MistSea.csproj",
+      "sha256": "79596045ee7dc95a416b7ea2558cf89c3ccfd09dde3cb143b1df8fa09389256b",
+      "bytes": 682,
+      "source_path_at_execution": "game/MistSea.csproj"
+    },
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/game/Root.cs",
+      "sha256": "706efeaaa0c2d88b0953a161de8f98e3b2ba2c43ab485878438c68ad10a3bd56",
+      "bytes": 26047,
+      "source_path_at_execution": "game/Root.cs"
+    },
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335,
+      "source_path_at_execution": "reports/continuous/Scope_20261009.md"
+    },
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/reports/continuous/finish_runtime_extensions.py",
+      "sha256": "b75a016dbb6275e9b1a0ace7be0a9c9cb7f1ca274e99f08d49d484ccbafa8458",
+      "bytes": 3834,
+      "source_path_at_execution": "reports/continuous/finish_runtime_extensions.py"
+    },
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/reports/execution/CX-075/20261009T180052059860Z/native_performance.json",
+      "sha256": "976633442a30d6f6dbb5f894c66cc21e5c646c09166b49e8a55300000722b755",
+      "bytes": 2441,
+      "source_path_at_execution": "reports/execution/CX-075/20261009T180052059860Z/native_performance.json"
+    },
+    {
+      "path": "reports/execution/CX-075/evidence/20261009T181123145373Z/sources/tools/ci/native_performance.py",
+      "sha256": "55912f5c64191005cb6d24494b7516072af2624fc1253c0ffc5546e2c4ffcfee",
+      "bytes": 2063,
+      "source_path_at_execution": "tools/ci/native_performance.py"
+    }
+  ],
+  "interface_schema_impact": {
+    "runtime": "native Windows Debug candidate, first scene plus real 9000-word editor; twenty explicit fixture draft saves",
+    "release_configuration": "Diagnostics compile-excluded"
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

@@ -1,0 +1,22 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "build", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "-c", "Debug", "--no-restore"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+  Mist.Assist -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\services\Mist.Assist\bin\Debug\net10.0\Mist.Assist.dll
+  Mist.Core -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Core\bin\Debug\net10.0\Mist.Core.dll
+  Mist.ContentCli -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\Mist.ContentCli\bin\Debug\net10.0\Mist.ContentCli.dll
+  Mist.Application -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\bin\Debug\net10.0\Mist.Application.dll
+  Mist.ReviewCalibration -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\Mist.ReviewCalibration\bin\Debug\net10.0\Mist.ReviewCalibration.dll
+  Mist.Infrastructure -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Infrastructure\bin\Debug\net10.0\Mist.Infrastructure.dll
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\ScopedPersonalWorks\ScopedPersonalWorkCases.cs(40,42): error CS0119: “ScopedPersonalWorkCases.Run.Navigation()”是一个 方法，这在给定的上下文中无效 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\Mist.Tests.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\ScopedPersonalWorks\ScopedPersonalWorkCases.cs(41,38): error CS0119: “ScopedPersonalWorkCases.Run.Navigation()”是一个 方法，这在给定的上下文中无效 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\Mist.Tests.csproj]
+  MistSea -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\.godot\mono\temp\bin\Debug\MistSea.dll
+
+生成失败。
+
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\ScopedPersonalWorks\ScopedPersonalWorkCases.cs(40,42): error CS0119: “ScopedPersonalWorkCases.Run.Navigation()”是一个 方法，这在给定的上下文中无效 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\Mist.Tests.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\ScopedPersonalWorks\ScopedPersonalWorkCases.cs(41,38): error CS0119: “ScopedPersonalWorkCases.Run.Navigation()”是一个 方法，这在给定的上下文中无效 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\Mist.Tests.csproj]
+    0 个警告
+    2 个错误
+
+已用时间 00:00:06.24
+
+[stderr]

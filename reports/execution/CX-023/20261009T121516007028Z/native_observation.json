@@ -1,0 +1,20 @@
+{
+  "window": {
+    "app": "process:C:\\Users\\20594\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64.exe",
+    "id": 2755642,
+    "title": "雾海档案：第七座灯塔 (DEBUG)"
+  },
+  "accessibility": {
+    "focused_element": "68 组 探索场景",
+    "tree": "Window: \"雾海档案：第七座灯塔 (DEBUG)\", App: Godot_v4.7.2-stable_mono_win64.exe.\n\t0 区域 雾海档案：第七座灯塔 (DEBUG) Secondary Actions: Raise\n\t\t1 标题栏 (settable, string) Value: 雾海档案：第七座灯塔 (DEBUG)\n\t\t\t2 菜单栏 系统 ID: MenuBar\n\t\t\t\t3 菜单项 系统\n\t\t\t4 按钮 最小化\n\t\t\t5 按钮 最大化\n\t\t\t6 按钮 关闭\n\t\t7 区域\n\t\t\t8 文本 雾海档案\n\t\t\t9 按钮 地图\n\t\t\t10 按钮 任务\n\t\t\t11 按钮 档案\n\t\t\t12 按钮 队伍\n\t\t\t13 按钮 学习\n\t\t\t14 按钮 系统\n\t\t\t15 文本 港口篇 · 渡运广场 / 内部灰盒候选\n\t\t\t68 组 探索场景\n\t\t\t17 区域\n\t\t\t\t18 文本 最后一班渡轮\n\t\t\t\t19 文本 先与哈文交谈，接受授权检修委托。\n\t\t\t\t20 文本 出口与操作站位\n\t\t\t\t21 按钮 选择要走近的出口或物件\n\t\t\t\t22 按钮 走近选定站位\n\t\t\t\t27 按钮 当前状态帮助\n\t\t\t\t28 滚动条 Value: 0\n\t\t\t29 文本 港口灰盒 · 点击物件先走近，E或按钮交互。WASD/方向键移动。\n\t\t30 文本\n\nThe focused UI element is 68 组 探索场景."
+  },
+  "observations": [
+    "Native TextEdit preserved Chinese, emoji and combining mark; Return inserted visible second line",
+    "Q102 remained unaccepted after editor close",
+    "System settings at 200 percent fit the window and scroll",
+    "Exploration reflows into one column at 200 percent"
+  ],
+  "manual_ime": "not_run",
+  "screen_reader": "not_run",
+  "tts_auditory_review": "not_run"
+}

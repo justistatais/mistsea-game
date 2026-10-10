@@ -1,0 +1,55 @@
+{
+  "task_id": "CX-011",
+  "scope": "把预览与执行分开，记录真正相关的配置/正文/权限版本，三值与故障明确处理。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "查词不使预览失效",
+      "status": "passed",
+      "evidence": "Dictionary revision change does not invalidate relevant battery read-set"
+    },
+    {
+      "criterion": "电池改变使预览失效",
+      "status": "passed",
+      "evidence": "Battery revision and load-token changes invalidate preview"
+    },
+    {
+      "criterion": "未知不可视为安全",
+      "status": "passed",
+      "evidence": "Missing entity yields StateUnavailable"
+    },
+    {
+      "criterion": "空草稿不冒充独立写作",
+      "status": "passed",
+      "evidence": "Empty draft and structured fallback never count independent writing"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-011",
+        "name": "Relevant reads ignore dictionary but invalidate battery/load",
+        "result": "passed"
+      },
+      {
+        "task": "CX-011",
+        "name": "Unknown system state and empty evidence never imply readiness",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-008"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

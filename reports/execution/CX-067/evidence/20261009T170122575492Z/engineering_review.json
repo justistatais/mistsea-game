@@ -1,0 +1,258 @@
+{
+  "task_id": "CX-067",
+  "scope": "三个用途隔离，默认关闭实际模型；本地无服务仍完整推进。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "客户端无密钥",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-067",
+              "name": "Default provider stays disabled with null band and no world write port",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Opening/saving writing grants no upload consent; online and unlabelled fixture providers are never called",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Projection sends only selected discovered externally authorized source slices and specified draft",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "More than six contexts and oversized full draft are refused without silent truncation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Only transient/limited replies retry, at most twice; duplicate request does not charge twice",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Actual fixture-reported overrun is retained and stops new attempts; unknown metering never becomes zero billed",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Timeout and user cancellation stop waiting; a late complete response is never displayed",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Disabled gateway and read-only authorization ports exist; production authorization projection and optional native help UI are not connected."
+      }
+    },
+    {
+      "criterion": "打开写作不是同意上传",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-067",
+              "name": "Default provider stays disabled with null band and no world write port",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Opening/saving writing grants no upload consent; online and unlabelled fixture providers are never called",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Projection sends only selected discovered externally authorized source slices and specified draft",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "More than six contexts and oversized full draft are refused without silent truncation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Only transient/limited replies retry, at most twice; duplicate request does not charge twice",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Actual fixture-reported overrun is retained and stops new attempts; unknown metering never becomes zero billed",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Timeout and user cancellation stop waiting; a late complete response is never displayed",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Disabled gateway and read-only authorization ports exist; production authorization projection and optional native help UI are not connected."
+      }
+    },
+    {
+      "criterion": "没有世界工具端口",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-067",
+              "name": "Default provider stays disabled with null band and no world write port",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Opening/saving writing grants no upload consent; online and unlabelled fixture providers are never called",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Projection sends only selected discovered externally authorized source slices and specified draft",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "More than six contexts and oversized full draft are refused without silent truncation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Only transient/limited replies retry, at most twice; duplicate request does not charge twice",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Actual fixture-reported overrun is retained and stops new attempts; unknown metering never becomes zero billed",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Timeout and user cancellation stop waiting; a late complete response is never displayed",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Disabled gateway and read-only authorization ports exist; production authorization projection and optional native help UI are not connected."
+      }
+    },
+    {
+      "criterion": "未评估不是0分",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-067",
+              "name": "Default provider stays disabled with null band and no world write port",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Opening/saving writing grants no upload consent; online and unlabelled fixture providers are never called",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Projection sends only selected discovered externally authorized source slices and specified draft",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "More than six contexts and oversized full draft are refused without silent truncation",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Only transient/limited replies retry, at most twice; duplicate request does not charge twice",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Actual fixture-reported overrun is retained and stops new attempts; unknown metering never becomes zero billed",
+              "result": "passed"
+            },
+            {
+              "task": "CX-067",
+              "name": "Timeout and user cancellation stop waiting; a late complete response is never displayed",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Disabled gateway and read-only authorization ports exist; production authorization projection and optional native help UI are not connected."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-067",
+        "name": "Default provider stays disabled with null band and no world write port",
+        "result": "passed"
+      },
+      {
+        "task": "CX-067",
+        "name": "Opening/saving writing grants no upload consent; online and unlabelled fixture providers are never called",
+        "result": "passed"
+      },
+      {
+        "task": "CX-067",
+        "name": "Projection sends only selected discovered externally authorized source slices and specified draft",
+        "result": "passed"
+      },
+      {
+        "task": "CX-067",
+        "name": "More than six contexts and oversized full draft are refused without silent truncation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-067",
+        "name": "Only transient/limited replies retry, at most twice; duplicate request does not charge twice",
+        "result": "passed"
+      },
+      {
+        "task": "CX-067",
+        "name": "Actual fixture-reported overrun is retained and stops new attempts; unknown metering never becomes zero billed",
+        "result": "passed"
+      },
+      {
+        "task": "CX-067",
+        "name": "Timeout and user cancellation stop waiting; a late complete response is never displayed",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-033",
+    "CX-019"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+    "Disabled gateway and read-only authorization ports exist; production authorization projection and optional native help UI are not connected."
+  ]
+}

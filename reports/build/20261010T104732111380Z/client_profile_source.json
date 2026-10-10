@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T100947135499Z",
+  "selected_case": {
+    "index": 522,
+    "task": "CP-R0-03",
+    "name": "actual_zero_XP_relay_native_entry_retains_unresolved_defence_at_140XP_without_positive_fixtures"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "391acae1a2234ac9fd6e7a1b33dd0772bdf1b940fc6a3cdf3805dab1c1f738de",
+  "source_active_database": "reports/build/20261010T100947135499Z/case_runs/0522/testdata/normal-first-relay-native-entry/recovery/inventory-v2-71019683-dcc5-465a-8c0c-96947961b5bc.sqlite",
+  "source_active_database_sha256": "c28a87978bcd61d59443f2c006a4b6c55aced159502641b0a4c20bd7347d8191",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T100947135499Z",
+  "source": "reports/build/20261010T100947135499Z/case_runs/0522/testdata/normal-first-relay-native-entry/recovery/normal-first-relay-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 522,
+    "task": "CP-R0-03",
+    "name": "actual_zero_XP_relay_native_entry_retains_unresolved_defence_at_140XP_without_positive_fixtures"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2dc693404ab314119494f2f66eabbac50d0e3b0cd2ccdc00cd5d83858396ef7d",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "14fab69aca2e4d0d4d7c0d17b50eb3fd5d49f2372d09f71a5f5ee3e09db17740",
+  "case_command_sha256": "eda89e42b988f0788cb53ff0636fb2559bde616627ba5b7f285ad82add534937",
+  "proof_sha256": "391acae1a2234ac9fd6e7a1b33dd0772bdf1b940fc6a3cdf3805dab1c1f738de",
+  "copied_profile_files": [
+    {
+      "path": "backups/20f34115-f8c5-4269-aa17-b4e425622400.sqlite",
+      "sha256": "e6d2256086e45924f23c655ddfcc512b648799faa63cd0a745b7fa93dce7eecf"
+    },
+    {
+      "path": "control.sqlite",
+      "sha256": "47a229135a81da5741ec0aa43aa2d5914fcf3d45ce565eef7a214e47f8563a5b"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "919cb3e0657aa9f6a9c793b9ba1f5f65004823a0964941d75dc0262d997adb58"
+    },
+    {
+      "path": "recovery/inventory-v2-71019683-dcc5-465a-8c0c-96947961b5bc.sqlite",
+      "sha256": "c28a87978bcd61d59443f2c006a4b6c55aced159502641b0a4c20bd7347d8191"
+    },
+    {
+      "path": "recovery/normal-first-relay-native-entry.json",
+      "sha256": "391acae1a2234ac9fd6e7a1b33dd0772bdf1b940fc6a3cdf3805dab1c1f738de"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0522/testdata/normal-first-relay-native-entry/backups/20f34115-f8c5-4269-aa17-b4e425622400.sqlite",
+      "sha256": "e6d2256086e45924f23c655ddfcc512b648799faa63cd0a745b7fa93dce7eecf",
+      "copied_before_native_sha256": "e6d2256086e45924f23c655ddfcc512b648799faa63cd0a745b7fa93dce7eecf"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0522/testdata/normal-first-relay-native-entry/control.sqlite",
+      "sha256": "47a229135a81da5741ec0aa43aa2d5914fcf3d45ce565eef7a214e47f8563a5b",
+      "copied_before_native_sha256": "47a229135a81da5741ec0aa43aa2d5914fcf3d45ce565eef7a214e47f8563a5b"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0522/testdata/normal-first-relay-native-entry/profile.sqlite",
+      "sha256": "919cb3e0657aa9f6a9c793b9ba1f5f65004823a0964941d75dc0262d997adb58",
+      "copied_before_native_sha256": "919cb3e0657aa9f6a9c793b9ba1f5f65004823a0964941d75dc0262d997adb58"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0522/testdata/normal-first-relay-native-entry/recovery/inventory-v2-71019683-dcc5-465a-8c0c-96947961b5bc.sqlite",
+      "sha256": "c28a87978bcd61d59443f2c006a4b6c55aced159502641b0a4c20bd7347d8191",
+      "copied_before_native_sha256": "c28a87978bcd61d59443f2c006a4b6c55aced159502641b0a4c20bd7347d8191"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0522/testdata/normal-first-relay-native-entry/recovery/normal-first-relay-native-entry.json",
+      "sha256": "391acae1a2234ac9fd6e7a1b33dd0772bdf1b940fc6a3cdf3805dab1c1f738de",
+      "copied_before_native_sha256": "391acae1a2234ac9fd6e7a1b33dd0772bdf1b940fc6a3cdf3805dab1c1f738de"
+    }
+  ]
+}

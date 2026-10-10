@@ -1,0 +1,17 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "build", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "-c", "Debug", "--no-restore"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+  Mist.Assist -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\services\Mist.Assist\bin\Debug\net10.0\Mist.Assist.dll
+  Mist.Core -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Core\bin\Debug\net10.0\Mist.Core.dll
+  Mist.ContentCli -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\Mist.ContentCli\bin\Debug\net10.0\Mist.ContentCli.dll
+  Mist.Application -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\bin\Debug\net10.0\Mist.Application.dll
+  Mist.Infrastructure -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Infrastructure\bin\Debug\net10.0\Mist.Infrastructure.dll
+  MistSea -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\.godot\mono\temp\bin\Debug\MistSea.dll
+  Mist.Tests -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\bin\Debug\net10.0\Mist.Tests.dll
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.83
+
+[stderr]

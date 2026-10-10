@@ -1,0 +1,4042 @@
+{
+  "content_version": "r3-author-candidate-1",
+  "title": "第三章：地下的代价 / The Cost Below",
+  "scope": "authoring_candidate_not_runtime",
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "runtime_status": "not_integrated_not_playable",
+  "player_projection": true,
+  "target_bands": {
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5
+  },
+  "target_band_status": "authoring_target_human_calibration_pending",
+  "scenes": [
+    {
+      "id": "R3-S01",
+      "name_zh": "货运站",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R3-S01.to.R3-S02",
+          "target_scene": "R3-S02",
+          "target_port": "R3-S02.to.R3-S01",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_freight_path"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S01.berth",
+          "stand": {
+            "x": 48,
+            "y": 90
+          },
+          "purpose_zh": "同一微光号的真实泊位"
+        },
+        {
+          "id": "R3-S01.guide",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "货运到港说明"
+        },
+        {
+          "id": "R3-S01.arrival",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "合法到港登记台"
+        },
+        {
+          "id": "R3-S01.sample_handover",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "样本与版本实际装包交接"
+        },
+        {
+          "id": "R3-S01.route_chart",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "下一航路查验台"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S02",
+      "name_zh": "矿镇广场",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R3-S02.to.R3-S01",
+          "target_scene": "R3-S01",
+          "target_port": "R3-S01.to.R3-S02",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_freight_path"
+        },
+        {
+          "id": "R3-S02.to.R3-S03",
+          "target_scene": "R3-S03",
+          "target_port": "R3-S03.to.R3-S02",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "local_inspection_or_public_negotiation"
+        },
+        {
+          "id": "R3-S02.to.R3-S04",
+          "target_scene": "R3-S04",
+          "target_port": "R3-S04.to.R3-S02",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "mine_briefing_and_basic_kit"
+        },
+        {
+          "id": "R3-S02.to.R3-S08",
+          "target_scene": "R3-S08",
+          "target_port": "R3-S08.to.R3-S02",
+          "stand": {
+            "x": 90,
+            "y": 25
+          },
+          "gate": "public_dispatch"
+        },
+        {
+          "id": "R3-S02.to.R3-O01",
+          "target_scene": "R3-O01",
+          "target_port": "R3-O01.to.R3-S02",
+          "stand": {
+            "x": 50,
+            "y": 90
+          },
+          "gate": "public_musicbox_shop"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S02.pera",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "佩拉的本地委托"
+        },
+        {
+          "id": "R3-S02.households",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "住区需求现场查验"
+        },
+        {
+          "id": "R3-S02.shelter",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "基本物资与安全装备领取"
+        },
+        {
+          "id": "R3-S02.basic_handover",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "三名工人和基本物资实际接收"
+        },
+        {
+          "id": "R3-S02.provision_notice",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "公共资源讨论长读"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S03",
+      "name_zh": "检修工坊",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R3-S03.to.R3-S02",
+          "target_scene": "R3-S02",
+          "target_port": "R3-S02.to.R3-S03",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "local_inspection_or_public_negotiation"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S03.workshop_copy",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "MC2工坊留存副本"
+        },
+        {
+          "id": "R3-S03.signed_record",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "正式验收与签章查验"
+        },
+        {
+          "id": "R3-S03.oren",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "奥伦责任说明与独立招募决定"
+        },
+        {
+          "id": "R3-S03.comparison",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "三来源比对与完整视觉写作"
+        },
+        {
+          "id": "R3-S03.alarm_invite",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "本人可撤回的辅助工作邀请"
+        },
+        {
+          "id": "R3-S03.alarm_check",
+          "stand": {
+            "x": 20,
+            "y": 50
+          },
+          "purpose_zh": "辅助警报器缺陷实际检查"
+        },
+        {
+          "id": "R3-S03.alarm_repair",
+          "stand": {
+            "x": 80,
+            "y": 50
+          },
+          "purpose_zh": "独立工坊包修复"
+        },
+        {
+          "id": "R3-S03.alarm_review",
+          "stand": {
+            "x": 50,
+            "y": 78
+          },
+          "purpose_zh": "维修者以外的实际复核"
+        },
+        {
+          "id": "R3-S03.toolframe",
+          "stand": {
+            "x": 50,
+            "y": 35
+          },
+          "purpose_zh": "修复的装饰工具框"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S04",
+      "name_zh": "矿井升降站",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R3-S04.to.R3-S02",
+          "target_scene": "R3-S02",
+          "target_port": "R3-S02.to.R3-S04",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "mine_briefing_and_basic_kit"
+        },
+        {
+          "id": "R3-S04.to.R3-S05",
+          "target_scene": "R3-S05",
+          "target_port": "R3-S05.to.R3-S04",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "verified_ladder_or_verified_lift"
+        },
+        {
+          "id": "R3-S04.to.R3-S07",
+          "target_scene": "R3-S07",
+          "target_port": "R3-S07.to.R3-S04",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "tested_freight_return_loop"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S04.shift_board",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "班表、进入说明与基础装备"
+        },
+        {
+          "id": "R3-S04.ladder",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "固定梯道说明"
+        },
+        {
+          "id": "R3-S04.ladder_check",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "独立梯道当前实际检查"
+        },
+        {
+          "id": "R3-S04.lift_control",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "升降机实际检查"
+        },
+        {
+          "id": "R3-S04.rescue_note",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "信号员更正脚本与救援指令草稿"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S05",
+      "name_zh": "下层轨道",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R3-S05.rail_obstruction",
+          "area": {
+            "left": 35,
+            "top": 48,
+            "right": 65,
+            "bottom": 70
+          },
+          "active_until_receipt": "ENC-R3-01:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R3-S05.to.R3-S04",
+          "target_scene": "R3-S04",
+          "target_port": "R3-S04.to.R3-S05",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "verified_ladder_or_verified_lift"
+        },
+        {
+          "id": "R3-S05.to.R3-S06",
+          "target_scene": "R3-S06",
+          "target_port": "R3-S06.to.R3-S05",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "public_pump_passage"
+        },
+        {
+          "id": "R3-S05.to.R3-O02",
+          "target_scene": "R3-O02",
+          "target_port": "R3-O02.to.R3-S05",
+          "stand": {
+            "x": 10,
+            "y": 25
+          },
+          "gate": "optional_sidewell_safe"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S05.route_notice",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "轨道作业说明"
+        },
+        {
+          "id": "R3-S05.rail_clear",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "轨道清障安全操作位"
+        },
+        {
+          "id": "R3-S05.worker_signal",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "求援信号实际确认"
+        },
+        {
+          "id": "R3-S05.escort",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "同组救援实际返程护送"
+        },
+        {
+          "id": "R3-S05.bypass_copy",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "旁路检查标记查验"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S06",
+      "name_zh": "排水泵房",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R3-S06.wet_drive",
+          "area": {
+            "left": 35,
+            "top": 48,
+            "right": 65,
+            "bottom": 70
+          },
+          "active_until_receipt": "R3:current_drainage_check"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R3-S06.to.R3-S05",
+          "target_scene": "R3-S05",
+          "target_port": "R3-S05.to.R3-S06",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_pump_passage"
+        },
+        {
+          "id": "R3-S06.to.R3-S07",
+          "target_scene": "R3-S07",
+          "target_port": "R3-S07.to.R3-S06",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "current_drainage_and_equipment_safe"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S06.pump_plate",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "泵房当前隔离说明"
+        },
+        {
+          "id": "R3-S06.isolation",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "受损局部线路实际隔离"
+        },
+        {
+          "id": "R3-S06.drain_control",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "排水控制实际操作"
+        },
+        {
+          "id": "R3-S06.water_check",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "水位与配置复查"
+        },
+        {
+          "id": "R3-S06.pump_entrance",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "泵房入口威胁安全站位"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S07",
+      "name_zh": "采掘面",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R3-S07.instrument_guard",
+          "area": {
+            "left": 35,
+            "top": 48,
+            "right": 65,
+            "bottom": 70
+          },
+          "active_until_receipt": "ENC-R3-03:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R3-S07.to.R3-S06",
+          "target_scene": "R3-S06",
+          "target_port": "R3-S06.to.R3-S07",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "current_drainage_and_equipment_safe"
+        },
+        {
+          "id": "R3-S07.to.R3-S04",
+          "target_scene": "R3-S04",
+          "target_port": "R3-S04.to.R3-S07",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "tested_freight_return_loop"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S07.crew_call",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "避护处当前求援脚本"
+        },
+        {
+          "id": "R3-S07.rescue",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "W1 W2 W3实际定位救援"
+        },
+        {
+          "id": "R3-S07.raw_gauge",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "原始仪表和版本读取"
+        },
+        {
+          "id": "R3-S07.instrument_guard",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "仪表支路处置站位"
+        },
+        {
+          "id": "R3-S07.freight_lift",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "货运升降支路修复"
+        },
+        {
+          "id": "R3-S07.lift_test",
+          "stand": {
+            "x": 20,
+            "y": 50
+          },
+          "purpose_zh": "当前货运支路测试"
+        },
+        {
+          "id": "R3-S07.environment",
+          "stand": {
+            "x": 80,
+            "y": 50
+          },
+          "purpose_zh": "现场环境记录与原样本"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S08",
+      "name_zh": "配给调度所",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R3-S08.to.R3-S02",
+          "target_scene": "R3-S02",
+          "target_port": "R3-S02.to.R3-S08",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_dispatch"
+        },
+        {
+          "id": "R3-S08.to.R3-S09",
+          "target_scene": "R3-S09",
+          "target_port": "R3-S09.to.R3-S08",
+          "stand": {
+            "x": 90,
+            "y": 88
+          },
+          "gate": "basic_rescue_and_tower_permission"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S08.demand_board",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "基本负荷和额外需求"
+        },
+        {
+          "id": "R3-S08.stores",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "六地方工包实际库存"
+        },
+        {
+          "id": "R3-S08.allocation",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "有条件资源论证工作台"
+        },
+        {
+          "id": "R3-S08.delivery",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "工包唯一归属交付"
+        },
+        {
+          "id": "R3-S08.policy",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "早降载或限期过渡确认"
+        },
+        {
+          "id": "R3-S08.shift_duty",
+          "stand": {
+            "x": 20,
+            "y": 50
+          },
+          "purpose_zh": "两不同岗位接受与窗口实际交班"
+        },
+        {
+          "id": "R3-S08.auxiliary_receipt",
+          "stand": {
+            "x": 80,
+            "y": 50
+          },
+          "purpose_zh": "辅助工作另账接收"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-S09",
+      "name_zh": "深井塔控制层",
+      "classification": "main",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [
+        {
+          "id": "R3-S09.extraction_machine",
+          "area": {
+            "left": 35,
+            "top": 48,
+            "right": 65,
+            "bottom": 70
+          },
+          "active_until_receipt": "ENC-R3-05:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "R3-S09.to.R3-S08",
+          "target_scene": "R3-S08",
+          "target_port": "R3-S08.to.R3-S09",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "basic_rescue_and_tower_permission"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-S09.intake_stop",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "开采机送料实际停止"
+        },
+        {
+          "id": "R3-S09.arm_brace",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "吊臂实际固定"
+        },
+        {
+          "id": "R3-S09.machine",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "失控开采机处置站位"
+        },
+        {
+          "id": "R3-S09.tower_control",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "当前受限负荷配置"
+        },
+        {
+          "id": "R3-S09.load_test",
+          "stand": {
+            "x": 50,
+            "y": 26
+          },
+          "purpose_zh": "本配置真实负荷测试"
+        },
+        {
+          "id": "R3-S09.return_check",
+          "stand": {
+            "x": 20,
+            "y": 50
+          },
+          "purpose_zh": "塔层安全返程检查"
+        },
+        {
+          "id": "R3-S09.duty",
+          "stand": {
+            "x": 80,
+            "y": 50
+          },
+          "purpose_zh": "塔站当前当班检查"
+        },
+        {
+          "id": "R3-S09.handover",
+          "stand": {
+            "x": 50,
+            "y": 78
+          },
+          "purpose_zh": "降载稿与实际塔站交接"
+        },
+        {
+          "id": "R3-S09.future_work",
+          "stand": {
+            "x": 50,
+            "y": 35
+          },
+          "purpose_zh": "后续工程需求登记"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-O01",
+      "name_zh": "音乐盒修理铺",
+      "classification": "optional",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R3-O01.to.R3-S02",
+          "target_scene": "R3-S02",
+          "target_port": "R3-S02.to.R3-O01",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "public_musicbox_shop"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-O01.owner",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "音乐盒主人范围邀请"
+        },
+        {
+          "id": "R3-O01.parts",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "十二齿与十四齿规格"
+        },
+        {
+          "id": "R3-O01.musicbox",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "同一音乐盒实际试修"
+        },
+        {
+          "id": "R3-O01.note",
+          "stand": {
+            "x": 74,
+            "y": 65
+          },
+          "purpose_zh": "可选维修便条"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    },
+    {
+      "id": "R3-O02",
+      "name_zh": "观测侧井",
+      "classification": "optional",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R3-O02.to.R3-S05",
+          "target_scene": "R3-S05",
+          "target_port": "R3-S05.to.R3-O02",
+          "stand": {
+            "x": 10,
+            "y": 88
+          },
+          "gate": "optional_sidewell_safe"
+        }
+      ],
+      "spots": [
+        {
+          "id": "R3-O02.record",
+          "stand": {
+            "x": 26,
+            "y": 35
+          },
+          "purpose_zh": "附条件侧井观察"
+        },
+        {
+          "id": "R3-O02.sample",
+          "stand": {
+            "x": 74,
+            "y": 35
+          },
+          "purpose_zh": "可选观察的原始标牌"
+        },
+        {
+          "id": "R3-O02.side_route",
+          "stand": {
+            "x": 26,
+            "y": 65
+          },
+          "purpose_zh": "安全侧井观察工作台"
+        }
+      ],
+      "art_status": "greybox_original_unreviewed"
+    }
+  ],
+  "connections": [
+    {
+      "a": "R3-S01",
+      "b": "R3-S02",
+      "paired_ports": [
+        "R3-S01.to.R3-S02",
+        "R3-S02.to.R3-S01"
+      ],
+      "gate": "public_freight_path",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S02",
+      "b": "R3-S03",
+      "paired_ports": [
+        "R3-S02.to.R3-S03",
+        "R3-S03.to.R3-S02"
+      ],
+      "gate": "local_inspection_or_public_negotiation",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S02",
+      "b": "R3-S04",
+      "paired_ports": [
+        "R3-S02.to.R3-S04",
+        "R3-S04.to.R3-S02"
+      ],
+      "gate": "mine_briefing_and_basic_kit",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S04",
+      "b": "R3-S05",
+      "paired_ports": [
+        "R3-S04.to.R3-S05",
+        "R3-S05.to.R3-S04"
+      ],
+      "gate": "verified_ladder_or_verified_lift",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S05",
+      "b": "R3-S06",
+      "paired_ports": [
+        "R3-S05.to.R3-S06",
+        "R3-S06.to.R3-S05"
+      ],
+      "gate": "public_pump_passage",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S06",
+      "b": "R3-S07",
+      "paired_ports": [
+        "R3-S06.to.R3-S07",
+        "R3-S07.to.R3-S06"
+      ],
+      "gate": "current_drainage_and_equipment_safe",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S07",
+      "b": "R3-S04",
+      "paired_ports": [
+        "R3-S07.to.R3-S04",
+        "R3-S04.to.R3-S07"
+      ],
+      "gate": "tested_freight_return_loop",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S02",
+      "b": "R3-S08",
+      "paired_ports": [
+        "R3-S02.to.R3-S08",
+        "R3-S08.to.R3-S02"
+      ],
+      "gate": "public_dispatch",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S08",
+      "b": "R3-S09",
+      "paired_ports": [
+        "R3-S08.to.R3-S09",
+        "R3-S09.to.R3-S08"
+      ],
+      "gate": "basic_rescue_and_tower_permission",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S02",
+      "b": "R3-O01",
+      "paired_ports": [
+        "R3-S02.to.R3-O01",
+        "R3-O01.to.R3-S02"
+      ],
+      "gate": "public_musicbox_shop",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    },
+    {
+      "a": "R3-S05",
+      "b": "R3-O02",
+      "paired_ports": [
+        "R3-S05.to.R3-O02",
+        "R3-O02.to.R3-S05"
+      ],
+      "gate": "optional_sidewell_safe",
+      "source": "Exploration_Level_Design_v0.1.md:443-453"
+    }
+  ],
+  "safe_anchor_candidates": [
+    {
+      "scene": "R3-S01",
+      "spot": "R3-S01.berth",
+      "stand": {
+        "x": 48,
+        "y": 90
+      },
+      "unlock": "actual_legal_freight_landing"
+    },
+    {
+      "scene": "R3-S02",
+      "spot": "R3-S02.basic_handover",
+      "unlock": "actual_town_receiving"
+    },
+    {
+      "scene": "R3-S09",
+      "spot": "R3-S09.return_check",
+      "unlock": "actual_current_tower_safety"
+    }
+  ],
+  "materials": [
+    {
+      "id": "R3-Q301-R-LANDING",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "货运站：到港与下一份委托",
+      "quest_ref": "Q-301",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S01",
+        "spot": "R3-S01.guide"
+      },
+      "source_root": "r3-freight-arrival-notice",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "MC-2 alias continues R2-Q204-R-BATCH; no new acceptance finding at landing"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-LANDING-p01",
+          "en": "Berth the Glimmer at the marked landing and let the freight clerk check the vessel-use record, the completed priory handover and your commission. Register the arrival here before entering the mine. This desk keeps the route back to the vessel available; it does not issue permission to operate underground machinery.",
+          "zh": "请把微光号停在标记泊位，让货运员核对船只使用记录、已完成的修院交接与核查委托。进入矿井前在此登记到港。此台保留返回船只的通路；地下设备操作另需许可。"
+        },
+        {
+          "id": "R3-Q301-R-LANDING-p02",
+          "en": "The priory index names maintenance batch MC-2. Its destination is this district's workshop. Pera, the mine forewoman, can define a local inspection and rescue assignment. The documents already carried from the priory remain useful as references, but they do not contain the workshop's original checks or a completed finding about its signatory.",
+          "zh": "修院索引指向检修批次MC-2，目的地是本区工坊。矿区领班佩拉可说明本地查验与救援工作范围。带来的修院文件可以作为索引，却没有工坊原始检查，也没有关于签章人的完整核查结论。"
+        }
+      ],
+      "english_word_count": 102
+    },
+    {
+      "id": "R3-Q301-R-COMMISSION",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "佩拉的矿井工作委托",
+      "quest_ref": "Q-301",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S02",
+        "spot": "R3-S02.pera"
+      },
+      "source_root": "r3-pera-local-work-assignment",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "W1/W2/W3 local rescue group; 12 meal portions, 3 first-aid packs and one-shift local wage cover; not player reward or engineering supply"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-COMMISSION-p01",
+          "en": "Pera's assignment covers the public mine route, the damaged drainage equipment, the three workers awaiting rescue and the checks needed to bring them back safely. The workers are identified on the work board as W1, W2 and W3. These are local rescue codes, not permission to publish their addresses or medical details. Record who has actually reached the receiving point.",
+          "zh": "佩拉的委托包括矿井公共通路、受损排水设备、三名待救工人与安全返程检查。工作板以W1、W2、W3标记三人。这些是救援代号，公开住址或病情另需范围。应记录谁实际到了接收点。"
+        },
+        {
+          "id": "R3-Q301-R-COMMISSION-p02",
+          "en": "Start with a return route that remains usable if electrical power is lost. Check the fixed inspection ladder at the lift station. A working lift may save effort, but the ladder is the basic exit. Then clear the rail route, isolate the damaged pump feed and lower the local water level. No one should be sent through an unchecked wet electrical area just because a message says that help is waiting beyond it.",
+          "zh": "先建立断电后仍可使用的返程路。到升降站检查固定检修梯。可用升降机能省力，梯道才是基本出口。随后清理轨道，隔离损坏的泵房供电并降低局部水位。不能因前方传来求援消息，就把人送进未经检查的潮湿电气区域。"
+        },
+        {
+          "id": "R3-Q301-R-COMMISSION-p03",
+          "en": "The town's emergency stock provides twelve meal portions, three first-aid packs and one declared shift of wage cover. Take and deliver these local supplies through the receiving desk; a draft request cannot create them. Their use is part of basic protection. Extra workshop packages will be allocated separately after the rescue. Personal equipment parts and the six-tower engineering cargo remain in their own accounts.",
+          "zh": "矿镇应急库存提供十二份暖食、三包急救用品与一班工资保障凭据。应通过接收台实际领取和交付，写申请不能生成物资。这是基本保障；救援后另行分配额外工包。个人装备零件和六塔工程货仍在各自账内。"
+        },
+        {
+          "id": "R3-Q301-R-COMMISSION-p04",
+          "en": "Bring back the current instrument sheet as well as the workers. It can establish what was observed in the mine today. Keep the sampling stage, load setting and limitations in the report. The mine is operating at a high extraction setting and dangerous changes have been observed. The present rescue does not establish the full cause of those changes.",
+          "zh": "除接回工人，也要带回当前仪表记录，说明今日矿内所见。报告保留取样阶段、负荷设置与限制。矿井目前以高强度抽取，现场出现危险变化；本次救援尚不能证明变化的完整原因。"
+        },
+        {
+          "id": "R3-Q301-R-COMMISSION-p05",
+          "en": "For the controlled batch records, apply at the workshop comparison stand to the local record desk, R3-local-record-desk. The available fields are check_status, acceptance_status, signatory_scope and version_source. The recipient is patrol_technician; the purpose is verify_original_instruments_and_acceptance; the requested source set is MC2-current-source-set. The desk must issue this actual scoped permission before the protected pages are opened. A mine work assignment does not grant unrelated names or a private interview.",
+          "zh": "受控批次记录须到工坊比较站位向地方记录台R3-local-record-desk申请。可用字段为check_status、acceptance_status、signatory_scope、version_source；接收方patrol_technician，用途verify_original_instruments_and_acceptance，请求来源集合MC2-current-source-set。保护页开启前，记录台须实际签发这项有限许可；矿井委托不会开放无关姓名或私人访谈。"
+        }
+      ],
+      "english_word_count": 332
+    },
+    {
+      "id": "R3-Q301-R-SHIFT",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "升降站班表与缺席记录",
+      "quest_ref": "Q-301",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S04",
+        "spot": "R3-S04.shift_board"
+      },
+      "source_root": "r3-current-mine-shift-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Three-worker shift is a new local candidate, not an existing hidden completed-rescue state"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-SHIFT-p01",
+          "en": "Current shift board: W1, W2 and W3 were assigned to the cutting face. Their return boxes remain blank. A blank box means that this desk has not confirmed their return; it is not a death record. The signal clerk received a call from the cutting-face shelter after the lower route became blocked. Mark a return only when the receiving desk sees the person or verifies an actual escorted handover.",
+          "zh": "本班工作板：W1、W2、W3分派至采掘面，返程栏仍空白。空白表示此台尚未确认返回，并非死亡记录。下层通路受阻后，信号员接到采掘面避护处呼叫。接收台实际见到本人或核对护送交接后，才能登记返回。"
+        },
+        {
+          "id": "R3-Q301-R-SHIFT-p02",
+          "en": "Visitors must receive the mine safety briefing and the available basic kit before entering. The fixed ladder is listed separately from the powered lift. Tell the surface desk which route has been checked, and leave its access clear while any worker remains below.",
+          "zh": "访客进入前应取得矿井安全说明与可领取的基础装备。固定梯道与电动升降机分列登记。请向地面台说明实际检查的通路；地下仍有人时保持出口畅通。"
+        }
+      ],
+      "english_word_count": 112
+    },
+    {
+      "id": "R3-Q301-R-LADDER",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "固定梯道：独立返程检查",
+      "quest_ref": "Q-301",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S04",
+        "spot": "R3-S04.ladder"
+      },
+      "source_root": "r3-fixed-ladder-inspection-plate",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-LADDER-p01",
+          "en": "The fixed ladder links the lift station and the lower rail landing. Its support brackets and resting platform require a physical check. This inspection uses the installed ladder and the mine's basic safety kit; the optional portable clamp is not needed to reach the mine. Close the gate beside the moving lift while checking, and keep the ladder entry open to returning workers.",
+          "zh": "固定梯道连接升降站和下层轨道平台，应现场检查支架及休息台。检查使用已装梯道和矿区基础安全装备，无需可选便携固定钳才能进入。检查时关闭活动升降机旁的门，给返程工人保留梯道入口。"
+        },
+        {
+          "id": "R3-Q301-R-LADDER-p02",
+          "en": "A later freight-lift repair can create a shorter return loop from the cutting face. It supplements this route. Reducing extraction power must not lock the ladder or remove its verified access. If the lift is unavailable, the checked ladder remains the safe route back.",
+          "zh": "后来修复采掘面的货运升降支路，可形成更短回环，它补充此路。降低抽取供电不能锁梯或撤去已核查通路。升降机不可用时，已检查梯道继续提供安全返程。"
+        }
+      ],
+      "english_word_count": 107
+    },
+    {
+      "id": "R3-Q301-R-RAIL",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "下层轨道清障作业告示",
+      "quest_ref": "Q-301",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S05",
+        "spot": "R3-S05.route_notice"
+      },
+      "source_root": "r3-lower-rail-route-board",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-RAIL-p01",
+          "en": "Scrap and an active feeder obstruct the lower track. Check the marked work area from the safe platform before engaging the threat. The rail clearance is a separate work result from the later escort: removing the obstruction does not mean that the waiting workers have travelled through the route. Keep the fixed ladder and its landing accessible throughout both jobs.",
+          "zh": "下层轨道有废料和活动送料装置阻挡。处置威胁前，从安全平台检查标记区域。清障与稍后的护送是不同工作结果；清除障碍尚不表示工人已经通过。两项工作期间均保留固定梯道和平台通路。"
+        },
+        {
+          "id": "R3-Q301-R-RAIL-p02",
+          "en": "The pump-room inspection passage branches from this track. The bypass label is readable from the maintenance stand, but handling its machinery needs the local assignment. A copy of the gauge sheet placed here retains the gauge's source reference. It does not become a second independent measurement just because it has been moved to this board.",
+          "zh": "泵房检修通路从轨道分出。可从维护站位读取旁路标签，操作设备需要本地委托。此板上的仪表页副本保留仪表来源；放到另一块板上，不会成为第二次独立测量。"
+        }
+      ],
+      "english_word_count": 115
+    },
+    {
+      "id": "R3-Q301-R-PUMP",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "泵房隔离、排水与复查",
+      "quest_ref": "Q-301",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S06",
+        "spot": "R3-S06.pump_plate"
+      },
+      "source_root": "r3-damaged-pump-feed-plate",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-PUMP-p01",
+          "en": "The damaged feed supplies the pump-room drive. Identify that feed at the labelled isolation point and separate it from the wet work area. The isolation is local: it does not switch off the town's whole supply or the port generator. Deal with the threat at the pump entrance from the marked safe stand. A cleared entrance and an isolated feed are both required before the drainage controls may be handled.",
+          "zh": "损坏线路给泵房驱动供电。应在标记隔离点确认这条线路，将它与潮湿作业区分离。该隔离只针对本地，不关闭整个矿镇供电或港口发电机。从安全站位处置泵房入口威胁；入口安全且线路隔离后才能操作排水控制。"
+        },
+        {
+          "id": "R3-Q301-R-PUMP-p02",
+          "en": "Drain the local pool, then inspect its level and the equipment again. The recorded check belongs to the actual configuration that was tested. Reconnecting the damaged feed or changing the pump arrangement requires a new inspection. Reading an older maintenance note can explain the equipment, but it cannot certify the present water level or a changed connection.",
+          "zh": "排除局部积水，再复查水位和设备。检查记录对应实际受检配置。重新接入损坏线路或改变泵房安排，都须再次检查。旧维修便条能够说明设备，却不能认证当前水位或变更后的接线。"
+        },
+        {
+          "id": "R3-Q301-R-PUMP-p03",
+          "en": "When drainage and the present safety check are complete, the route to the cutting face can open. Retreat through the checked rail-and-ladder path if a new fault is found. A failed attempt leaves the people already received in the town safe and preserves any unrelated repair; it does not refill the pump room so that the same rescue can pay again.",
+          "zh": "排水与当前安全复查完成后，可开放前往采掘面的通路。发现新故障时，沿已检查轨道和梯道退回。尝试失败不会危及已接到矿镇的人，也不撤去无关修复，更不会重新注满泵房来重复领取救援奖励。"
+        }
+      ],
+      "english_word_count": 188
+    },
+    {
+      "id": "R3-Q301-R-RESCUE",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "采掘面：接应与货运回环",
+      "quest_ref": "Q-301",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S07",
+        "spot": "R3-S07.crew_call"
+      },
+      "source_root": "r3-cutting-face-shelter-board",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-RESCUE-p01",
+          "en": "W1, W2 and W3 are waiting at the cutting-face shelter. Locate each person and agree the return arrangement at the work stand. The shelter call describes where help is needed; it does not confirm a surface arrival. The lower-track escort must actually bring the group to the receiving route, and the town desk must receive them before the rescue report can be closed.",
+          "zh": "W1、W2、W3在采掘面避护处等候。到工作站位逐一确认，并商定返程。求援呼叫说明哪里需要帮助，没有确认地面到达。下层轨道护送应实际把三人带到接收路线，矿镇台接收后，救援报告才能收束。"
+        },
+        {
+          "id": "R3-Q301-R-RESCUE-p02",
+          "en": "The freight-lift branch can be repaired from this side and tested before use. Keep its repair and test records distinct. This creates an optional quicker loop to the lift station; the fixed inspection ladder remains available even if production is reduced. A repaired branch carries the same people, not a replacement group or a second rescue reward.",
+          "zh": "货运升降支路可从此侧修复并在使用前测试。修复与测试各留记录；支路形成返回升降站的较短回环，减产后固定检修梯仍可使用。回环运送同一批人，不产生替代工人或第二份救援奖励。"
+        }
+      ],
+      "english_word_count": 120
+    },
+    {
+      "id": "R3-Q301-R-ENVIRONMENT",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "现场观察：负荷与异常的范围",
+      "quest_ref": "Q-301",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S07",
+        "spot": "R3-S07.environment"
+      },
+      "source_root": "r3-current-environment-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Local comparative stages A/B/C: extraction1/2/3, indicator4/7/9; descriptive candidate, no causal proof or measured player performance"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-ENVIRONMENT-p01",
+          "en": "The local observation sheet records three successive work stages. At stages A, B and C, the extraction settings were 1, 2 and 3 load units. The associated disturbance readings were 4, 7 and 9 on the same local indicator. The indicator's numbers are relative readings for comparison, not a medical scale or a complete measurement of the mist sea. The instrument and its setting must be recorded with the sample.",
+          "zh": "地方观察页记录三个连续工作阶段。A、B、C阶段抽取设置分别为1、2、3负荷单位，同一本地指示器的扰动读数为4、7、9。数值是用于比较的相对读数，并非医疗尺度或对整个雾海的完整测量。样本须附仪器与设置。"
+        },
+        {
+          "id": "R3-Q301-R-ENVIRONMENT-p02",
+          "en": "Extraction and disturbance rose together in this short record. Pump operation, nearby machines and sampling conditions also need checking. The sheet provides a traceable question for the academic review: which factors can explain the pattern, and under what conditions could it be reproduced? It cannot by itself show that mining created the mist, that every district has the same response, or that a shutdown will clear the weather immediately.",
+          "zh": "这份短记录里，抽取与扰动同时上升。泵房运作、附近机械和采样条件也需核查。资料为学城提出可追查问题：哪些因素能够解释此模式，怎样的条件下可以复现？仅凭它尚不能说明开采创造了雾海、每个地区反应相同，或停机会立即放晴。"
+        },
+        {
+          "id": "R3-Q301-R-ENVIRONMENT-p03",
+          "en": "Inspect the present gauges and retain the original reference before packing a sample. A copied sheet carries the same observation. Keep any later repair record dated separately so that a corrected instrument is not described as having worked correctly throughout the earlier period.",
+          "zh": "装样本前应查当前仪表，并保留原始索引。抄录页承载同一次观察。后来的维修记录另记阶段，修正后的仪表不能被写成此前始终正常。"
+        }
+      ],
+      "english_word_count": 182
+    },
+    {
+      "id": "R3-Q301-L-ROUTE",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "信号员的返程更正脚本",
+      "quest_ref": "Q-301",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R3-S04",
+        "spot": "R3-S04.rescue_note"
+      },
+      "source_root": "r3-signal-clerk-firsthand",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-L-ROUTE-p01",
+          "en": "Signal clerk: I first told the surface desk that the freight lift could carry the return group. Please change that note. The lift branch has not been tested from the cutting-face side, so it is not our present exit. The fixed inspection ladder beside the main lift is the route we can check now. It stays available when the power setting changes.",
+          "zh": "信号员：我最初向地面台说，货运升降支路能运送返程人员。请更正这条便条。采掘面一侧尚未完成支路测试，所以它目前不是出口。现在可检查主升降机旁的固定梯道；供电设置变化后，这条路仍在。"
+        },
+        {
+          "id": "R3-Q301-L-ROUTE-p02",
+          "en": "The last call used the codes W1, W2 and W3. I heard all three reply, but I was at this station, not beside them. I can confirm the call and the route instruction. The rescue team must confirm the people at the shelter, and the receiving desk must confirm their arrival. Do not mark those later steps from my message.",
+          "zh": "上一呼叫用了W1、W2、W3代号，我听到三人回应，但我在此站，没有站在他们身旁。我能确认呼叫与通路指示。救援队须到避护处确认本人，接收台须确认到达；不能用我的消息填写后来步骤。"
+        },
+        {
+          "id": "R3-Q301-L-ROUTE-p03",
+          "en": "Before sending anyone through, tell us which return route was inspected and whether the wet pump area has a current safety check. If a check fails, keep the group at the safe shelter and repair the local fault. There is no reason to erase the town's earlier receipts or ask people to return below after they have already been received.",
+          "zh": "派人通过前，请说明哪条返程路已检查、潮湿泵房区域是否有当前安全记录。检查失败时，让人员留在安全避护处，修复本地故障。无需删除矿镇先前回执，也不能要求已接收的人重新下井。"
+        }
+      ],
+      "english_word_count": 182,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "short_audio",
+      "estimated_duration_seconds_range": [
+        62,
+        78
+      ],
+      "duration_status": "word_count_estimate_only_not_measured_audio",
+      "actual_duration_seconds": null,
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R3-Q301-L-WORKER",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "避护处呼叫脚本",
+      "quest_ref": "Q-301",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R3-S07",
+        "spot": "R3-S07.crew_call"
+      },
+      "source_root": "r3-shelter-worker-firsthand",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Worker assistance and shelter dialogue are original local details, no actual audio or human voice rights"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-L-WORKER-p01",
+          "en": "Worker W2: We are together in the marked shelter. W1 can walk with assistance, and W3 is keeping the return packs ready. The rail route was blocked when we came here. We have heard the pump fall quiet, but none of us has inspected its wet controls. Please check the water and the feed before asking us to move.",
+          "zh": "工人W2：我们都在标记避护处。W1在帮助下能够行走，W3正整理返程用品。我们到这里时轨道受阻。听见泵停下来，但没人检查过潮湿控制器。请先查水位与线路，再安排我们移动。"
+        },
+        {
+          "id": "R3-Q301-L-WORKER-p02",
+          "en": "We need a route, a receiving person and the supplies at the far end. A faster lift would help if its present test is complete. If it is not, use the fixed ladder and the checked rest platform. Please tell the receiving desk that three people are expected; the expectation must stay open until it sees us arrive.",
+          "zh": "我们需要通路、接收人和另一端的物资。如果货运升降支路当前测试完成，它能帮忙省力；否则请使用固定梯道和受检休息台。请通知接收台预计有三人，实际见到到达前保留待接收状态。"
+        },
+        {
+          "id": "R3-Q301-L-WORKER-p03",
+          "en": "We can describe the changes we noticed during work. We cannot say what the instrument measured while we were away from it, or why the accepted repair sheet differs from the check sheet. Bring those sheets to the workshop. Our rescue should not depend on choosing a position in that argument.",
+          "zh": "我们能说明工作时注意到的变化，却不能说明离开后仪器测到什么，也不知道为何合格验收页和检查页不同。请把两份记录带到工坊；救援不该取决于我们在争议中选择哪种立场。"
+        }
+      ],
+      "english_word_count": 168,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "short_audio",
+      "estimated_duration_seconds_range": [
+        58,
+        72
+      ],
+      "duration_status": "word_count_estimate_only_not_measured_audio",
+      "actual_duration_seconds": null,
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R3-Q302-R-RAW",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "MC-2原始仪表与旁路检查页",
+      "quest_ref": "Q-302",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S07",
+        "spot": "R3-S07.raw_gauge"
+      },
+      "source_root": "r3-mc2-instrument-original",
+      "access_class": "controlled_review",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Six MC2 checks and MC2-05/06 aliases are original local candidate data"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q302-R-RAW-p01",
+          "en": "Document identity: MC-2.instrument.I@1. Original check sheet, batch MC-2, inspection stage I. Six listed checks belong to this local batch. Four are marked complete. Checks MC-2-05 and MC-2-06, covering the safety bypass, are marked incomplete. The sheet records the test configuration and the observing instrument. A later official acceptance must be compared with this version; a recently repaired bypass cannot change what this earlier sheet recorded.",
+          "zh": "文书身份：MC-2.instrument.I@1。原始检查页，批次MC-2，检查阶段I。本地批次列六项检查，四项完成。涉及安全旁路的MC-2-05与MC-2-06标为未完成。页面记录测试配置及观察仪表，应与后来的正式验收版本比较；近日修好的旁路不能改变早页记录。"
+        },
+        {
+          "id": "R3-Q302-R-RAW-p02",
+          "en": "The original instrument can be read from the inspected maintenance stand after the branch hazard is controlled. Record its plate, version and present reading. A workshop transcription of these entries preserves their source. It may confirm the chain of copying, but it is still this instrument record rather than an independent second observation.",
+          "zh": "支路危险处置后，可从受检维护站位读取原仪表。请记标牌、版本与当前读数。工坊抄录保留来源，可以核对传递链，但承载的仍是此仪表记录，并非第二次独立观察。"
+        },
+        {
+          "id": "R3-Q302-R-RAW-p03",
+          "en": "The two incomplete checks describe a safety function that had not been restored at stage I. Keep that scope in a finding. This sheet alone does not name every decision maker, explain the later supply quota, or resolve the wider cause of dangerous changes. Those questions require additional records and technical review.",
+          "zh": "两项未完成检查说明，阶段I的安全功能尚未恢复。核查结论保留这个范围。仅此页尚未识别全部决策者，无法解释后来供给配额，也未解决危险变化的广泛原因；那些问题需要更多记录与技术核验。"
+        }
+      ],
+      "english_word_count": 173,
+      "document_identity": "MC-2.instrument.I@1"
+    },
+    {
+      "id": "R3-Q302-R-COPY",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "工坊留存副本与修订页",
+      "quest_ref": "Q-302",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.workshop_copy"
+      },
+      "source_root": "r3-mc2-instrument-original",
+      "access_class": "controlled_review",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Copy shares raw source_root; a present repair is a separate dated version"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q302-R-COPY-p01",
+          "en": "Document identity: MC-2.retained.I@1. Workshop retained copy, source MC-2 instrument sheet, stage I. This transcription retains the original plate reference and the entries for checks 05 and 06: incomplete. The copy was filed before the final acceptance form. Inspect its copying reference and compare the actual fields. Two sheets repeating this entry preserve a source in two places; they do not count as two observers of the test.",
+          "zh": "文书身份：MC-2.retained.I@1。工坊留存副本，来源为阶段I的MC-2仪表页。抄录保留原标牌索引，05、06项仍为未完成。副本先于最终验收表入档，应检查抄录索引并比较实际字段。两张纸复述同项记录，表示一来源保存在两处，没有增加两名测试观察者。"
+        },
+        {
+          "id": "R3-Q302-R-COPY-p02",
+          "en": "A separate present repair line may be added when a repair is actually carried out. It must name the new work stage, parts and reviewer. Preserve the retained copy as the earlier version. Do not cross out the incomplete entries, replace the old signature, or call an intended repair a completed check.",
+          "zh": "实际维修后，可以另加当前维修条目，注明新阶段、零件与复核人。保留副本仍代表早版本；不能涂掉未完成条目、替换旧签名，或把拟做维修写成完成检查。"
+        },
+        {
+          "id": "R3-Q302-R-COPY-p03",
+          "en": "The local inspection assignment permits this batch comparison. It does not permit the release of unrelated household details or the alteration of priory records. If the original instrument remains temporarily inaccessible, the retained copy can guide preparation, while the final finding keeps the missing inspection explicit.",
+          "zh": "本地查验委托允许这项批次比较，没有许可发布无关住户细节或改写修院记录。原仪表暂时无法到达时，可用副本准备工作；最终结论仍明确缺少哪项现场查验。"
+        }
+      ],
+      "english_word_count": 168,
+      "document_identity": "MC-2.retained.I@1"
+    },
+    {
+      "id": "R3-Q302-R-SIGNED",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "正式验收v3：奥伦签章",
+      "quest_ref": "Q-302",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.signed_record"
+      },
+      "source_root": "r3-mc2-formal-acceptance-v3",
+      "access_class": "controlled_review",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Formal v3 and checks05/06 are original local aliases of locked unsafe-acceptance fact"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q302-R-SIGNED-p01",
+          "en": "Document identity: MC-2.acceptance@3. Formal acceptance, MC-2 version 3: all six listed checks are marked accepted, including the safety-bypass entries 05 and 06. The authorised signatory field bears Oren's signature. The workshop custodian retains the signature reference and the version used for delivery. Compare these fields with the stage-I check sheet and its retained copy.",
+          "zh": "文书身份：MC-2.acceptance@3。正式验收，MC-2版本3：六项列为合格，包括安全旁路05、06项。授权签章栏为奥伦签名，工坊保管人留有签名索引与交付版本。请与阶段I检查页及留存副本比较这些字段。"
+        },
+        {
+          "id": "R3-Q302-R-SIGNED-p02",
+          "en": "Acceptance and physical completion are different record fields. Establish which work the signature accepted, which condition the instrument documented and whether a later repair belongs to a later stage. The public finding can identify the signed unsafe acceptance while preserving questions about wider instructions and the later network decisions.",
+          "zh": "合格验收与物理完成是不同字段。应核对签名验收什么工作、仪表记载什么状态，以及后来的维修是否属于后阶段。公共核查可说明不安全验收及其签章，同时保留关于广泛指示和后来网络决定的问题。"
+        }
+      ],
+      "english_word_count": 105,
+      "document_identity": "MC-2.acceptance@3"
+    },
+    {
+      "id": "R3-Q302-R-BATCHES",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "四批记录的统计比较",
+      "quest_ref": "Q-302",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.comparison"
+      },
+      "source_root": "r3-workshop-four-batch-comparison",
+      "access_class": "controlled_review",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original visual data: four batches ×6, incomplete0/2/1/0, accepted6/6/5/6; calibration pending"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q302-R-BATCHES-p01",
+          "en": "The comparison covers four local batches, MC-1 to MC-4, with six listed checks in each batch: twenty-four checks altogether. The on-site incomplete counts are 0, 2, 1 and 0 respectively. The official accepted counts are 6, 6, 5 and 6. These columns describe different fields for the same group of checks, not two groups of workers or all equipment in the district.",
+          "zh": "比较包括MC-1至MC-4四个本地批次，每批六项，共二十四项。现场未完成数依次为0、2、1、0，正式合格数依次为6、6、5、6。两列衡量同组检查的不同字段，不是两组工人，也不是本区全部设备。"
+        },
+        {
+          "id": "R3-Q302-R-BATCHES-p02",
+          "en": "MC-2 has two incomplete on-site checks although its acceptance form marks all six accepted. MC-3 leaves one official acceptance open alongside an incomplete check. To explain the MC-2 discrepancy, inspect its particular fields, source versions and signature. The aggregate table helps locate a disagreement; it cannot identify the cause of every accident from a total alone.",
+          "zh": "MC-2有两项现场未完成，验收表却把六项全部列为合格。MC-3的一项正式验收与未完成检查均仍待处理。解释MC-2差异须查具体字段、来源版本和签章。汇总表帮助定位冲突，不能仅凭总数识别每次事故的原因。"
+        },
+        {
+          "id": "R3-Q302-R-BATCHES-p03",
+          "en": "The displayed comparison becomes available after a lawful inspection of the original instrument, retained copy and formal form. A written summary should state its local scope, compare the main patterns and identify the records needed to examine a discrepancy. Preserve the counts as recorded; explain an uncertainty rather than filling it with an assumed event.",
+          "zh": "依法检查原始仪表、留存副本与正式表后，才提供此比较。书面摘要应注明本地范围、比较主要模式，并说明检查差异需要哪些记录。保留所记数值；解释未知，不用假定事件填空。"
+        }
+      ],
+      "english_word_count": 173
+    },
+    {
+      "id": "R3-Q302-R-STATEMENT",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "奥伦：责任说明与可核验安排",
+      "quest_ref": "Q-302",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.oren"
+      },
+      "source_root": "r3-oren-own-statement",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "New dialogue elaborates locked admission; no recruitment-required evidence"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q302-R-STATEMENT-p01",
+          "en": "Oren: I signed the MC-2 acceptance. The check sheet beside it still said that the safety bypass was incomplete. I should have refused to sign it as complete. I can describe the pressure during that handover, and I will answer questions about my own actions. My account should be compared with the instrument, workshop copy and formal version rather than used in their place.",
+          "zh": "奥伦：MC-2验收是我签的，旁边的检查页仍写安全旁路未完成。我本该拒绝签为完成。我可以说明交接时受到的压力，也会回答关于本人行动的问题。请把陈述与仪表、工坊副本和正式版本比较，而不要拿它代替那些记录。"
+        },
+        {
+          "id": "R3-Q302-R-STATEMENT-p02",
+          "en": "You may request a public statement within an agreed scope, a supervised period of specific repair followed by a statement, or a regional review. None of those arrangements deletes the signed record. If you ask me to repair something, identify the equipment, supplies, person checking it and end of the assignment. An apology cannot fill those fields.",
+          "zh": "可以要求在约定范围公开证言，安排有监督的具体限期维修后补交说明，或交由地区核查。这些安排均不删除签章记录。若让我修理，应列设备、物资、复核人和工作结束边界；一句道歉填不出这些条件。"
+        },
+        {
+          "id": "R3-Q302-R-STATEMENT-p03",
+          "en": "An invitation to join your travelling crew can be discussed after this batch finding is complete. Accepting, declining or delaying that invitation leaves the documents available under the inspection assignment. I cannot work a local duty post and take a travelling combat position at the same time.",
+          "zh": "这项批次核查完成后，可以另谈加入出行队伍的邀请。接受、拒绝或暂缓都保留委托范围内的文件。本人不能同时占用本地当班岗位与出行战斗位置。"
+        }
+      ],
+      "english_word_count": 168
+    },
+    {
+      "id": "R3-Q302-R-HISTORY",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "长读：修好之后，记录还说明什么",
+      "quest_ref": "Q-302",
+      "kind": "extended_reading",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.comparison"
+      },
+      "source_root": "r3-workshop-records-essay-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original complete essay about record scope; not a new causal or later-chapter finding"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q302-R-HISTORY-p01",
+          "en": "A repaired warning device changes what people can safely do tomorrow. It may allow a worker to hear a signal from another room, or let a supervisor repeat a check without standing beside the machine. That practical value should be recorded clearly. The repair also leaves a question about yesterday. If the earlier form said that the device had passed a check which was never completed, the new result cannot tell us that the old form was accurate. A useful account has room for both the present improvement and the earlier disagreement.",
+          "zh": "修好的警报装置会改变明日能够安全做的事。工人也许能在另一个房间听到信号，主管也许能在机器旁之外重复检查，这些实用价值应记清。维修同时留下关于昨日的问题：早表若写着通过一项从未完成的检查，新结果无法证明早表准确。可用记录应容纳当前改善与早先差异。"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-p02",
+          "en": "This distinction matters when an inspection has several stages. One person observes the instrument, another makes a workshop copy, and a signatory accepts the delivered work. Those actions are connected, but they have different responsibilities. The observer records a condition under stated settings. The copy preserves that observation and its source. The acceptance records a decision about whether the work meets a requirement. Placing the three pages together makes it possible to ask where their claims agree and where a decision went beyond the evidence available at that stage.",
+          "zh": "检查有多个阶段时，这一区分格外有用。一人观察仪表，另一人抄成工坊副本，签章人验收交付。行动相连，职责各异：观察者在注明设置下记状态；副本保存观察及来源；验收页记录工作是否符合要求的判断。并列三页，就能比较主张在哪些地方一致、何处决定超出了当时证据。"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-p03",
+          "en": "Copies are often necessary. An instrument sheet may remain underground while a surface team needs to arrange supplies. A carefully referenced transcription lets that team work without carrying away the only original. Yet two copies of a single observation do not make the observation independent. Counting documents can conceal this weakness. A stronger comparison identifies the original, follows the copying path and then seeks a genuinely different record, such as the acceptance decision. The purpose is to understand what each source contributes, rather than to collect the largest pile of paper.",
+          "zh": "副本常有必要：仪表页可能留在井下，地面人员却要安排供给。有清楚索引的抄录让团队开展工作，也避免拿走唯一原稿。不过，同一观察的两份副本没有使观察变为独立。数文件容易掩盖这一点。更稳妥的比较会识别原稿、追溯抄录路径，再查真正不同的记录，例如验收决定；目的在于理解各来源的作用。"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-p04",
+          "en": "A signature also has a scope. It can identify the person who accepted a particular version, without showing that this person invented every instruction attached to the wider system. Equally, uncertainty about wider instructions does not make the signature disappear. A signatory can explain a deadline, a shortage or pressure from a supervisor, and that explanation may help a review. It should remain separate from the check of what was signed. Otherwise an account of difficult circumstances can quietly replace the evidence of an action which still needs to be addressed.",
+          "zh": "签名也有范围：它可识别某一版本的验收者，未必说明此人设计了整个系统的所有指示。对于广泛指示的未知，也不会让签名消失。签章人可以说明期限、短缺或主管压力，帮助核查；这些说明应与签了什么分开。否则，关于困难处境的叙述可能悄悄替换仍需处理的行动证据。"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-p05",
+          "en": "Workers have practical reasons to want a repair accepted quickly. A closed route may stop wages, delay a meal delivery or leave a household waiting for someone to return. Treating every request for continued production as greed misses those conditions. Accepting an unsafe system without a limit can expose the same people to another danger. A responsible repair plan therefore needs more than a declaration of good intention: it needs a usable exit, a real supply arrangement, people assigned to the work and a point at which its conditions will be checked again.",
+          "zh": "工人有实际理由希望迅速完成验收。通路关闭可能影响工资、拖延供餐，也让住户等不到家人回来。把每项继续生产请求都解释为贪婪，会漏掉这些条件；无限制接受不安全系统，又会把同一批人置于危险。负责的维修方案需要可用出口、实际供给、明确人员和再次核查边界，而非只有善意宣言。"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-p06",
+          "en": "Some of the next steps can be agreed before a wider inquiry ends. A local team can isolate a damaged connection, replace a part and ask someone other than the repairer to repeat the test. It can record that result without writing that all previous decisions were justified. A resident may appreciate the new signal and still have questions about the earlier acceptance. Requiring forgiveness as the price of a safety receipt would give that receipt a purpose it cannot serve. The condition tested, the observer and the remaining disagreement can all stay visible.",
+          "zh": "广泛核查结束前，仍可商定下一些工作。本地队能隔离损坏接线、换件，并请维修者之外的人重复测试；记录结果时无需宣称此前决定都合理。住民可能感谢新的信号，仍质疑早先验收。若把原谅当安全回执的代价，就赋予回执无法承担的作用。受检状态、观察人和余下分歧可以同时保留。"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-p07",
+          "en": "The records themselves need suitable access. A public finding can describe the batch, incomplete function and signed decision while unnecessary household details remain protected. A controlled reviewer may need the full technical fields and a route to the original. These arrangements should specify a recipient, purpose and version. They should also explain how a challenge can reach the reviewer. A promise that evidence exists is of little help if the promised source cannot be inspected or if an old permission has been stretched to cover a new use.",
+          "zh": "记录需要合适访问范围。公共结论可以说明批次、未完成功能与签章决定，同时保护无关住户信息。受控复核人也许需要完整技术字段及查原稿的通路。这些安排应注明接收方、用途、版本，并说明如何提出质疑。若承诺来源无法查阅，或把旧许可扩成新用途，仅声称有证据并没有多大帮助。"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-p08",
+          "en": "The mine comparison has a useful, limited end. It can establish that an unrestored safety bypass was accepted as completed work and connect that decision to a verified signature. It can also preserve the observed changes in extraction and disturbance for further testing. The academic review will need to examine settings, instruments and other possible explanations before making a broader technical claim. Carrying forward those open questions does not weaken the local finding. It gives the next team a clear account of what is supported, what has changed and what still needs evidence.",
+          "zh": "矿区比较具有有限而有用的终点：它能核实未修好的安全旁路曾按完成验收，并把决定与已核验签章联系起来，也能保留抽取和扰动变化供进一步试验。学城须查设置、仪表与其他解释，再形成广泛技术主张。带着未解决问题继续调查，不会削弱地方结论，而会让下一队知道哪些有依据、哪些改变了、哪些仍缺证据。"
+        }
+      ],
+      "english_word_count": 731,
+      "questions": [
+        {
+          "id": "R3-Q302-R-HISTORY-q01",
+          "prompt_en": "What is the main purpose of keeping the earlier record after a repair?",
+          "prompt_zh": "修理后保留旧记录的主要目的是什么？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-q02",
+          "prompt_en": "Which different responsibilities belong to observation, copying and acceptance?",
+          "prompt_zh": "观察、抄录和验收各承担什么职责？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-q03",
+          "prompt_en": "Does the article state that every deadline pressure explains who wrote all later network instructions? Identify the limit of that claim.",
+          "prompt_zh": "文章是否说每项期限压力都能说明后来全部网络指示由谁写？指出该说法的范围限制。",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-q04",
+          "prompt_en": "Why might two copies fail to provide two independent observations?",
+          "prompt_zh": "为什么两副本未必提供两项独立观察？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-q05",
+          "prompt_en": "What can a local repair review establish while forgiveness remains unsettled?",
+          "prompt_zh": "原谅仍有分歧时，地方维修复核可以核实什么？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-R-HISTORY-q06",
+          "prompt_en": "Which information does the next academic review still need, and why?",
+          "prompt_zh": "下一学城核验仍需要什么资料，为什么？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        }
+      ]
+    },
+    {
+      "id": "R3-Q302-L-CHECK",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "长听脚本：三份记录，三个问题",
+      "quest_ref": "Q-302",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.comparison"
+      },
+      "source_root": "r3-workshop-comparison-discussion",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original eight-turn long discussion; three document business versions are visible; no real recording"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q302-L-CHECK-p01",
+          "en": "Pera: Before we decide what to send, I want the three records kept on the table. The instrument sheet describes the local check at stage I. The workshop copy follows that sheet, and the final acceptance is version three. People have been calling them three separate witnesses. That wording worries me. We have three documents, but one repeats another. Please explain what each can establish, and keep the current rescue apart from the earlier acceptance. The workers need to come home whether or not they want to discuss who signed a form.",
+          "zh": "佩拉：决定送什么之前，我希望三份记录都留在台上。仪表页记阶段I检查，工坊副本承接该页，最终验收是第三版。有人把它们叫三名独立证人，这个说法让我担心。我们有三份文件，其中一份复述另一份。请说明各自能核实什么，把当前救援与早验收分开；工人无论是否愿意谈签章，都需要回家。"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-p02",
+          "en": "Workshop custodian: The source reference on the copy leads back to the instrument sheet, MC-2.instrument.I@1. Its retained-copy identity is MC-2.retained.I@1. Both record checks zero five and zero six as incomplete. I checked that the transcription preserves those fields. That is a copying check, rather than a new observation of the machine. The final form, MC-2.acceptance@3, marks all six accepted. We should compare the exact fields and the work they describe, rather than treating a large stamp as more reliable than a small handwritten line.",
+          "zh": "工坊保管人：副本来源指向MC-2.instrument.I@1，留存副本身份为MC-2.retained.I@1。两页均把05、06项列为未完成。我核对抄录保留了这些字段；这是抄录检查，并非对机器的新观察。最终表MC-2.acceptance@3把六项全部列为合格。应比较具体字段与对应工作，不能因大印章就认为比小手写条目可靠。"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-p03",
+          "en": "Oren: I signed that final form. I had seen the unfinished entries, and I should have refused to accept the bypass as complete. There was pressure to release the equipment for the next shift. I can give an account of that pressure and the instructions I received, but I will keep it separate from my signature. I cannot make the earlier check complete by repairing the device today. If I undertake a repair now, its parts, test and reviewer must be entered as new work, while the signed form remains available.",
+          "zh": "奥伦：最终表是我签的。我看到了未完成条目，本该拒绝把旁路验收为完成。当时受到放行设备给下一班的压力。我会说明压力与收到的指示，但要把这些与本人签名分开。今天修理不能完成早先检查。若现在承接维修，应把零件、测试和复核人记成新工作，同时保留旧签章表。"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-p04",
+          "en": "Pera: I am willing to discuss that new work, but it must have an end we can inspect. Naming a repairer is not enough. Tell us which device is included, where its supplies come from and who can repeat the check. The household auxiliary alarm may be a suitable separate job. It is not the flooded pump room again. I also want the town's wage cover and meals recorded before extra packages are allocated. A person asked to bear the cost of a shutdown needs to know what is actually waiting at the receiving desk.",
+          "zh": "佩拉：我愿意谈新工作，但它要有可检查的终点。仅列维修人不足，还应说明设备、物资来源与复查者。住区辅助警报器可以成为另一项工作，不是再次把泵房注满。额外分配前，也要记清矿镇工资保障与暖食。被要求承担停产代价的人，需要知道接收台究竟准备了什么。"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-p05",
+          "en": "Custodian: The four-batch table can help us present the records, as long as we state its denominator. Each batch has six listed checks. The incomplete counts are zero, two, one and zero; the official accepted counts are six, six, five and six. Those are two different measures of the same twenty-four entries. The table makes MC-2 worth examining closely. It does not tell us the history of every machine, or prove that every observed disturbance came from the same cause. The original fields are still needed for the particular finding.",
+          "zh": "保管人：四批表可以帮助呈现记录，前提是保留分母。每批六项，未完成数为零、二、一、零；正式合格数为六、六、五、六。两列衡量同一组二十四项的不同方面。表格提示细查MC-2，但没有叙述全部机器历史，也未证明所有扰动来自同一原因。具体结论仍需要原字段。"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-p06",
+          "en": "Oren: If a public statement is requested, agree its fields and purpose with me. I can speak about my own action, including the signature, without guessing the intentions of people whose later decisions I did not see. A supervised repair followed by a statement is another arrangement, and a regional review is also possible. Please do not call a delayed statement a missing signature. The verified record remains. Joining a travelling crew is a further decision, and I can decline that invitation without taking the workshop file away from the inquiry.",
+          "zh": "奥伦：若要求公共证言，请与我商定字段和用途。我能说明本人行动，包括签名，不能猜测后来未亲见决定的动机。也可以先做监督维修再补证言，或交地区核查。请勿把延后陈述说成签名不存在。已核验记录仍在；加入出行队是另一决定，我拒绝邀请也不会拿走工坊档案。"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-p07",
+          "en": "Pera: My response to a repair can stay narrower than forgiveness. I can accept a tested alarm and still object to the way the old equipment was delivered. Another qualified person can repeat the test if the arrangement is agreed; the repairer cannot sign both the work and its independent review. We should give residents a result they can use and a way to report a new fault. No one has to write that everyone is satisfied before the safety work can be recorded. The disagreement deserves its own line.",
+          "zh": "佩拉：我对维修的回应可以小于原谅。我能接受受检警报器，仍反对早先交付方式。安排获准后，可请另一合格人员重复测试；维修者不能同时签工作及独立复核。住民应得到可用结果和报告新故障的途径。安全工作登记无需先写所有人满意；分歧自有一栏。"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-p08",
+          "en": "Custodian: Then the outgoing package should retain the stage-I instrument reference, its copying chain and the acceptance version. Add the current environment readings with their settings and sampling conditions. List what this local comparison establishes and what the academic team still needs to test. The receiving desk must acknowledge the actual package and sample; an address written at the top of a draft does not deliver them. We can carry the inquiry forward while leaving the later cause, wider instructions and current whereabouts of people outside this inspection explicitly open.",
+          "zh": "保管人：送出包应保留阶段I仪表索引、抄录链和验收版本，再附当前环境读数、设置与取样条件。列明地方比较核实什么、学城仍需试验什么。接收台应确认实际资料与样本；在草稿顶写地址并未完成交付。调查能够继续，同时把后来原因、广泛指示与此查验之外人物现址保留为未知。"
+        }
+      ],
+      "english_word_count": 731,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "long_audio",
+      "estimated_duration_seconds_range": [
+        251,
+        313
+      ],
+      "duration_status": "word_count_estimate_only_not_measured_audio",
+      "actual_duration_seconds": null,
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending",
+      "questions": [
+        {
+          "id": "R3-Q302-L-CHECK-q01",
+          "prompt_en": "What correction does Pera make about the three records?",
+          "prompt_zh": "佩拉更正了关于三份记录的什么说法？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-q02",
+          "prompt_en": "Match the raw, retained-copy and acceptance identities to their roles.",
+          "prompt_zh": "将原稿、留存副本、验收身份与用途对应。",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-q03",
+          "prompt_en": "What action does Oren accept responsibility for, and what does he keep separate?",
+          "prompt_zh": "奥伦承认什么行动责任，又将什么说明分开？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-q04",
+          "prompt_en": "Which condition must hold for a repair review to be independent?",
+          "prompt_zh": "维修复核独立需要什么条件？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q302-L-CHECK-q05",
+          "prompt_en": "Which later claims remain open when the outgoing package is prepared?",
+          "prompt_zh": "准备发出包时，哪些后来主张仍未解决？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        }
+      ]
+    },
+    {
+      "id": "R3-Q301-R-BASIC",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "基本救援库存与住区接收",
+      "quest_ref": "Q-301",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S02",
+        "spot": "R3-S02.shelter"
+      },
+      "source_root": "r3-town-basic-protection-inventory",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "New local physical basic kit and emergency stock; no unique optional equipment requirement or player-stat bonus"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q301-R-BASIC-p01",
+          "en": "The emergency receiving desk holds twelve meal portions, three first-aid packs and a voucher covering one declared wage shift. The mine briefing also makes a basic safety kit available: a helmet, lamp and assistance line for the inspected route. These belong to the local rescue assignment. Collect them at the desk and record their actual delivery; listing them in a request is not a receipt.",
+          "zh": "应急接收台有十二份暖食、三包急救物资和保障一班工资的凭据。矿井说明另提供基本安全包：用于受检通路的头盔、照明和辅助绳。这些属地方救援委托；应到台领取、登记实际交付，申请清单不是回执。"
+        },
+        {
+          "id": "R3-Q301-R-BASIC-p02",
+          "en": "W1, W2 and W3 must be received after the real escort. Confirm the checked exit, receiving person and basic provisions. Extra work packages remain unallocated until this protection is in place. A later change in production may alter the extra arrangement, but it does not withdraw meals or send received workers below again.",
+          "zh": "W1、W2、W3须在实际护送后接收。核对受检出口、接收人和基本物资。保障成立前，额外工包仍待分配；后来生产变更可以改变额外安排，但不能撤回暖食或让已接收工人再次下井。"
+        }
+      ],
+      "english_word_count": 118
+    },
+    {
+      "id": "R3-Q303-R-DEMAND",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "基本负荷与额外需求板",
+      "quest_ref": "Q-303",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S08",
+        "spot": "R3-S08.demand_board"
+      },
+      "source_root": "r3-dispatch-load-and-needs-board",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original public constraints: capacity10/essential7, six extra kits, shelter>=2 retrofit>=1 production0..3 and sum6"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q303-R-DEMAND-p01",
+          "en": "The local supply has a capacity of ten load units. Basic protection uses seven: two for drainage, two for ventilation, two for the warm room and one for signals. Keep those services available after the rescue. Extraction uses a separate setting of zero to three additional units. At three, the combined load reaches ten. The unit is a local planning measure, not an engineering component or a currency.",
+          "zh": "地方供电容量为十负荷单位。基本保障用七：排水二、通风二、暖房二、信号一。救援后继续保留这些服务。抽取设置另为零至三附加单位；设为三时总负荷达十。单位用于地方规划，并非工程组件或货币。"
+        },
+        {
+          "id": "R3-Q303-R-DEMAND-p02",
+          "en": "The six extra work packages can support shelter improvement, retrofit work or limited production support. At least two must go to shelter and at least one to retrofit. Production support may receive zero to three, and the three allocations must total six. The packages are counted separately from the twelve basic meals, first aid and wage voucher already delivered.",
+          "zh": "六个额外工包可用于安置改善、改造或有限生产支持。安置至少二包，改造至少一包；生产支持可获零至三包，三项合计为六。工包与已交付的十二份基本暖食、急救物资和工资凭据分别计数。"
+        },
+        {
+          "id": "R3-Q303-R-DEMAND-p03",
+          "en": "A delivery plan should identify the recipients and retain an actual stores-to-work receipt. Compare the opportunity costs: a package used now for production support is unavailable for the same stage's shelter improvement. A package set aside for retrofit will help only when the work and its responsible people are arranged. State what is being postponed as well as what is being provided.",
+          "zh": "交付计划应注明接收方，并保留库存到工作的实际回执。请比较机会代价：此阶段用于生产支持的工包，不能同时改善安置。改造工包也须配合真实工作与负责人员才有作用。说明提供什么，也说明推迟什么。"
+        }
+      ],
+      "english_word_count": 189
+    },
+    {
+      "id": "R3-Q303-R-STOCK",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "调度所：六工包实际归属",
+      "quest_ref": "Q-303",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S08",
+        "spot": "R3-S08.stores"
+      },
+      "source_root": "r3-extra-local-work-package-stock",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Six local unique package IDs and separate ownership; no new global reward economy"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q303-R-STOCK-p01",
+          "en": "Six extra packages, LOCAL-R3-01 to LOCAL-R3-06, are held in the dispatch store for this assignment. They contain local work supplies rather than personal upgrade parts. Each package must have one recorded owner or receiving work group at a time. Reserving a package for an agreed arrangement does not deliver it, and the same package cannot be listed against both shelter and production.",
+          "zh": "六个额外工包LOCAL-R3-01至06由调度库为本委托保管，内为地方作业用品，不是个人改件零件。每包同一时刻只有一项归属或接收工作组。为约定安排预留尚未交付，同包不能同时列于安置和生产。"
+        },
+        {
+          "id": "R3-Q303-R-STOCK-p02",
+          "en": "Before confirmation, an allocation can be revised while the packages remain in the store. After actual delivery, record their current destination and any work already done. Revising a draft cannot pull installed material back out or print a second copy of a spent package. An arrangement that needs a package no longer available must be changed or supplied through a lawful new source.",
+          "zh": "确认前，工包仍在库内时可以修改分配。实际交付后，要保留当前位置及已做工作。改草稿不能拔回安装材料，或复制已使用工包。新安排若需要已不存在的工包，须修改方案或通过合法新来源补足。"
+        },
+        {
+          "id": "R3-Q303-R-STOCK-p03",
+          "en": "The six-tower ledger has different cargo and later work orders. Local packages do not satisfy TWR-R3's isolator, backup source, provision or enhanced-control requirements. The auxiliary alarm repair also uses its own workshop parts. Keep all three accounts distinct when describing a feasible plan.",
+          "zh": "六塔工程账有不同货物和后续工单。地方工包不能满足TWR-R3隔离器、备用源、供给或增强控制需求；辅助警报器又使用自己的工坊零件。可行方案应保留这三项独立账目。"
+        }
+      ],
+      "english_word_count": 168
+    },
+    {
+      "id": "R3-Q303-R-CHOICES",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "降载与一班过渡的公开约束",
+      "quest_ref": "Q-303",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S08",
+        "spot": "R3-S08.policy"
+      },
+      "source_root": "r3-public-local-policy-limits",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "early_reduce/time_limited_transition and one world-work shift; two distinct duty occupants; close_transition_shift actual handover invalidates old test"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q303-R-CHOICES-p01",
+          "en": "Choose a load policy explicitly. Under early_reduce, set extraction to zero and retain the seven basic service units. More of the extra packages can then go directly to shelter and retrofit, though the present extraction output is lost. A feasible example allocates four packages to shelter, two to retrofit and none to production support. Other allocations within the public limits can be proposed.",
+          "zh": "请明确选择负荷政策。early_reduce把抽取设为零，保留七单位基本服务；更多工包可立即用于安置与改造，代价是失去当前抽取产出。可行例为安置四、改造二、生产支持零；也可提出满足公开约束的其他分配。"
+        },
+        {
+          "id": "R3-Q303-R-CHOICES-p02",
+          "en": "Under time_limited_transition, extraction may use one to three units, with the total never above ten. The window lasts one declared work shift. Two different local duty people must actually accept the operating and safety-watch posts. A feasible allocation is shelter two, retrofit one and production support three. It preserves limited output for transfer work, with less immediate improvement elsewhere. An open-ended continuation is outside the safe arrangement.",
+          "zh": "time_limited_transition允许抽取一至三单位，总量不超过十，窗口仅一班明确工作。两名不同本地人员须实际承接操作和安全观察岗。安置二、改造一、生产支持三是一例：保留有限产出用于转移工作，同时减少其他方面的即时改善。无限期延续超出安全安排。"
+        },
+        {
+          "id": "R3-Q303-R-CHOICES-p03",
+          "en": "At the dispatch duty stand, close_transition_shift performs the handover and sets extraction back to zero before the next shift. This is a world-work boundary, not a countdown while someone reads or writes. A load change invalidates the previous configuration test. Recheck the actual new setting. The tower handover needs a current bounded policy, real duty records and the relevant test; saving the policy text alone does none of those jobs.",
+          "zh": "在调度值守站位，close_transition_shift实际交班，并在下一班前把抽取降回零。这是世界工作边界，不是阅读或写作时的倒计时。负荷变更使旧配置测试失效，应复查新设置。塔站交接需要当前受限政策、真实值守和对应测试；仅保存政策文字没有完成这些工作。"
+        }
+      ],
+      "english_word_count": 205
+    },
+    {
+      "id": "R3-Q303-R-ESSAY",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "长读：矿镇需要怎样的过渡",
+      "quest_ref": "Q-303",
+      "kind": "extended_reading",
+      "location": {
+        "scene": "R3-S02",
+        "spot": "R3-S02.provision_notice"
+      },
+      "source_root": "r3-pera-public-resource-essay",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original complete resource essay; wage cover is task supply not player marks; eligible stances do not select an ending"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q303-R-ESSAY-p01",
+          "en": "The request to reduce extraction reached the town while the rescue desk was still preparing its receiving space. It sounded simple from a distance: stop the dangerous work and send everyone home. At the desk, several questions followed. Which room would be warm? How would water be kept out of the lower route? Who would cover the next wage shift, and where would the supplies for a different kind of work come from? Those questions did not make safety less urgent. They described the work required to make a safer decision possible.",
+          "zh": "减抽取请求来到矿镇时，救援台仍在准备接收空间。从远处听，事情似乎简单：停危险工作，让大家回家。台前却接着出现问题：哪间屋能保暖？如何防止下层通路进水？谁保障下一班工资？另一类工作的物资从哪里来？这些问题没有降低安全紧迫性，它们说明让更安全决定成为可能的实际工作。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p02",
+          "en": "The first distinction is between basic protection and the extra choices which remain afterwards. A person needing first aid should not compete with a workshop project for the same promised packet. The checked exit, meals, warm room and agreed wage cover belong to the basic arrangement. Once those are actually provided, the extra packages can be discussed. Keeping separate records helps people see whether a proposal improves something additional or merely renames a service that should already be present. It also makes a shortage harder to hide behind a broad description of support.",
+          "zh": "第一项区分是基本保障与后来额外选择。需要急救的人不该与工坊项目争夺同一份已承诺用品。受检出口、暖食、暖房和约定工资保障属于基本安排，实际落实后才谈额外工包。独立记录让人看清提案是新增改善，还是换名描述本就应提供的服务，也更难用宽泛支持措辞掩盖短缺。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p03",
+          "en": "Early reduction has a clear attraction. It removes the extra extraction load immediately and leaves more work supplies available for shelter and retrofit. Residents can see improvements begin, while the mine team checks what a lower setting changes. The cost is also real. Output expected from the current work period will be absent, and a transfer which depended on that output needs another arrangement. A responsible argument for early reduction should explain that substitution. It should not imply that stopping one process automatically provides transport, different employment or every part needed for a future tower conversion.",
+          "zh": "尽早降载有明显吸引力：立即撤去额外抽取负荷，留下更多作业物资用于安置和改造。住民可看到改善开始，矿队同时检查低设置的变化。代价也真实：本工作期预期产出缺失，依赖该产出的转移需要替代安排。支持早降载的论证应说明如何替代，不能暗示停一道工序就自动提供运输、新工作和后续塔改造所有部件。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p04",
+          "en": "A limited transition may preserve enough output to support a particular transfer. It can be useful when the equipment and people must move in an order that cannot be changed at once. Its conditions are more demanding than the words 'for a short time' suggest. The load must have a cap, the window must have an end and two real people must accept the operating and safety-watch posts. There must also be a usable response when a check fails. Without those details, the temporary arrangement can quietly become ordinary production under a more reassuring name.",
+          "zh": "有限过渡可能保留完成特定转移所需的产出，适用于设备与人员必须按难以立即改变的顺序移动时。其条件比“短时间”四个字更严格：负荷有上限，窗口有终点，两名真实人员承接操作与安全观察岗，检查失败时也有可用处置。缺少这些细节，临时安排可能悄悄以更令人放心的名称变为日常生产。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p05",
+          "en": "Allocation makes the trade-off visible. The district has six extra packages for this work stage, and a package cannot be delivered twice. Giving one to production support means it is unavailable for a shelter improvement during the same stage. Holding one for retrofit may improve a later arrangement, but only if someone can perform that work. Different groups may value those outcomes differently. A useful discussion compares what is delayed, who carries that delay and which conditions can be checked. It need not describe one eligible allocation as the only compassionate choice.",
+          "zh": "分配让取舍可见。本阶段有六个额外工包，同包不能交付两次。交给生产支持，就无法在同阶段改善安置；留作改造也须有人实际执行才会改善后来安排。不同群体可能重视不同结果。可用讨论应比较推迟什么、谁承担推迟、哪些条件可检查，不必把某一种合格分配写成唯一有同情心的选择。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p06",
+          "en": "The account must include wages without confusing them with a traveller's reward. Local wage protection belongs to the town's emergency arrangement. The coins or equipment parts earned for a completed commission have another owner and purpose. Asking a resident to wait for food until an investigator writes a better paragraph would confuse these responsibilities. Equally, an investigator cannot solve the shortage by listing imaginary stock. A receipt from the actual store and receiving group provides a firmer basis for discussion than either a polished promise or a large number written without a source.",
+          "zh": "记录须包含工资，并与出行者奖励分清。本地工资保障属于矿镇应急安排，完成委托取得的刻币和装备零件有另一归属与用途。让住民等调查者写好段落才领食物，会混淆职责；调查者也不能靠列虚构库存解决短缺。实际库存与接收组的回执，比漂亮承诺或没有来源的大数字更能支持讨论。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p07",
+          "en": "A decision can be revised, but revision has physical limits. Before delivery, the team can change the distribution while the packages remain available. After a connection has been installed or supplies used, a new plan must acknowledge that state. Writing a different destination does not return the old package to the store. The same principle applies to duty. A person who leaves for a travelling assignment needs a local replacement before taking a new post. Clear revision rules let people change their minds without pretending that completed work and existing commitments vanish with the previous draft.",
+          "zh": "决定可以修改，修改也有物理边界。交付前，物资仍在时可改分配；接线已安装或用品已消耗后，新计划应承认现状。另写目的地不能让旧工包回库。值守同理：某人离开参加出行工作前，需要本地接替。清楚的修订规则允许改变主意，也无需假装完成工作和已有承诺随旧稿消失。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p08",
+          "en": "The end of a transition should be an action people can recognise. The duty team hands over, extraction falls to the agreed lower setting and the changed configuration is checked again. There is no benefit in making that boundary a penalty for reading slowly. It belongs to the actual work schedule. Recording its result gives the next shift something more useful than a statement that the plan once sounded reasonable. The safety route stays open, and the basic services continue while the team decides whether further work can be authorised.",
+          "zh": "过渡终点应成为人们能辨认的行动：值守组交班，抽取降至约定低设置，再检查变更配置。把边界变成慢读惩罚毫无帮助，它属于实际工作安排。记录结果，才能让下一班获得比“计划曾听来合理”更有用的信息。安全返程继续开放，基本服务继续运行，再决定是否可授权后续工作。"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-p09",
+          "en": "These local choices do not settle the whole network's future. They create a safer present stage and supply evidence for the next inquiry. The academic team will still need to examine how load, extraction and observed disturbance relate under controlled conditions. Residents should be able to inspect the local costs without being asked to endorse a technical conclusion that has not been tested. A good arrangement leaves them with protection, an accountable receiving chain and an honest explanation of the work which remains. Its value comes from those results, not from the elegance of the argument used to propose it.",
+          "zh": "地方选择尚未决定整个网络未来，而是建立更安全的当前阶段，并为下一调查提供证据。学城仍需在受控条件下核查负荷、抽取和扰动的关系。住民应能查地方代价，无需被要求认可尚未试验的技术结论。好的安排留下保障、可追责接收链，以及对未完成工作的诚实说明；价值来自结果，而非提案论证的漂亮程度。"
+        }
+      ],
+      "english_word_count": 847,
+      "questions": [
+        {
+          "id": "R3-Q303-R-ESSAY-q01",
+          "prompt_en": "How does the author distinguish basic protection from extra allocation?",
+          "prompt_zh": "作者如何区分基本保障与额外分配？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-q02",
+          "prompt_en": "Explain one benefit and one practical cost of early reduction.",
+          "prompt_zh": "说明早降载一项好处与一项实际代价。",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-q03",
+          "prompt_en": "Which conditions make a transition bounded rather than open-ended?",
+          "prompt_zh": "哪些条件让过渡有界，而非无限延续？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-q04",
+          "prompt_en": "Why does the article require an actual receiving chain?",
+          "prompt_zh": "文章为什么要求真实接收链？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-q05",
+          "prompt_en": "What physical limit applies to revising an allocation after delivery?",
+          "prompt_zh": "交付后修改分配受到什么物理限制？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-R-ESSAY-q06",
+          "prompt_en": "Does the local choice resolve the whole network's future? State the supported scope.",
+          "prompt_zh": "地方选择是否解决整个网络未来？说明有依据的范围。",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        }
+      ]
+    },
+    {
+      "id": "R3-Q303-L-MEETING",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "长听脚本：调度桌上的两条路",
+      "quest_ref": "Q-303",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R3-S08",
+        "spot": "R3-S08.allocation"
+      },
+      "source_root": "r3-local-resource-meeting-original",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original eight-turn long meeting; anonymous duty roles not two copies of one actor; no real audio"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q303-L-MEETING-p01",
+          "en": "Pera: The receiving desk has confirmed the three workers and the basic provisions. We can now discuss the extra six packages. I want the discussion to start from what is in the store, rather than what we hope a later shipment may bring. The basic services use seven of the ten load units: drainage two, ventilation two, warm room two and signals one. Keep that line separate. Reducing extraction must leave those services and the inspected ladder available. We are choosing an extra arrangement, not reopening the question of whether rescued people receive first aid.",
+          "zh": "佩拉：接收台已确认三名工人与基本物资，现在可以谈六个额外工包。请从实际库存开始，不从希望后来有的船货开始。基本服务占十单位中的七：排水二、通风二、暖房二、信号一。这一行独立保留。减抽取须保留这些服务和受检梯道；现在选择额外安排，不重新争论被救者能否领急救用品。"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-p02",
+          "en": "Stores clerk: Every extra package has one local identifier. If four go to shelter and two to retrofit, all six are allocated and none remain for production support. That is a feasible early-reduction distribution. Two to shelter, one to retrofit and three to production also meets the allocation limits. It supports a limited transition with less immediate improvement in the other two uses. We can consider a different distribution within the same limits. What I cannot sign is a list of seven packages, or a list which sends the same package to two groups.",
+          "zh": "库管员：每个额外工包有独立地方编号。安置四、改造二就用完六包，不剩生产支持，这是一种可行早降载分配。安置二、改造一、生产三也符合限制，可支持有限过渡，但其他两项即时改善较少。还可考虑同限额内的别种分配。我不能签七包清单，也不能把同一包送给两个组。"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-p03",
+          "en": "Local operator: I can take the operating post for the declared transition shift, if another person accepts the safety-watch post. Those must be different occupants. Extraction can be set from one to three units while the basic seven remain. Three reaches the total capacity of ten; four would exceed it. My acceptance covers this shift, not a permanent permission to keep the machine at the highest setting. At handover we will close the window and lower extraction to zero before the next shift begins. The changed setting will require a new test.",
+          "zh": "地方操作员：若另一人承接安全观察岗，我可承担这班明确过渡的操作岗，两岗须是不同人员。保留基本七单位时，抽取可以为一至三；三恰达总容量十，四就超量。我的承诺只覆盖本班，没有永久允许机器保持最高设置。交班时我们结束窗口，在下一班前把抽取降到零，并重新测试变更设置。"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-p04",
+          "en": "Resident representative: The warmer shelter matters now, but so does the transfer which some households are waiting for. I would like the proposal to say which work is postponed under each distribution. If we choose the transition, when will the materials used for production support become unavailable for shelter improvement? If we reduce immediately, who will replace the expected output in the transfer plan? We should be able to disagree about those costs without losing the meals and wage cover already agreed. Please record the conditions, rather than writing that every resident shares one preference.",
+          "zh": "住民代表：更暖的安置处现在重要，一些住户等待的转移也重要。我希望提案说明各分配推迟什么工作。选择过渡后，生产支持物资何时不再可用于安置？立刻减产时，转移计划的预期产出由什么替代？讨论这些代价不应失去已约定暖食和工资保障。请记条件，不写所有住民同一偏好。"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-p05",
+          "en": "Pera: The delivery is the point at which the packages move from the store to the named work. Before that, a draft may be revised while the stock remains. Afterwards we must retain the real destination and whatever has already been used. A new paragraph cannot return installed material. The town's emergency wage voucher is also separate from the travelling commission's reward. I will not ask someone to fund the agreed basic protection from personal upgrade parts, and I will not describe the six-tower cargo as if it were already in this store.",
+          "zh": "佩拉：交付使工包从库内转到具名工作。此前，库存仍在时可以改草稿；此后须保留真实去向及已用材料，新段落不能返还已安装物资。矿镇应急工资凭据也与出行委托奖励分开。我不会要求用个人改件零件填已约定基本保障，也不会把六塔货物说成已在本库。"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-p06",
+          "en": "Safety watcher: I can accept the separate watch post and record the checks for the current configuration. If a connection or load setting changes, the earlier pass does not remain current. A fault needs a safe response, and the fixed return route must stay usable. The written handover should identify me and the operator, the setting tested and the window's end. It can acknowledge uncertainty about the wider disturbance pattern. Our work establishes a local bounded operation; it does not certify the cause of every mine hazard or authorise a future central-network policy.",
+          "zh": "安全观察员：我可承接独立观察岗，记录当前配置检查。接线或负荷变化后，旧通过不能继续算当前有效。故障须有安全处置，固定返程保持可用。书面交接应列我与操作员、受检设置和窗口终点，也可说明广泛扰动模式仍不确定。我们建立本地有界运行，尚未认证所有危险原因，也未授权未来中央政策。"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-p07",
+          "en": "Stores clerk: I have one further correction to the draft. It says the auxiliary alarm parts will come out of these six packages. They will not. The workshop offers a separate repair pack for that invited job, and the engineering ledger holds different tower components. Please keep the three accounts named. A repair can be useful without being a tower upgrade. If the proposed recipients change before delivery, show me the new distribution and check the stock again. If the packages have already moved, start from their actual current ownership instead of the old reservation.",
+          "zh": "库管员：草稿还需更正一处：它说辅助警报器零件来自这六包，实际并非如此。工坊为获邀工作另备维修包，工程账又有不同塔部件，请分列三账。维修可以有用，无需把它叫成塔升级。交付前接收方改变时，请带新分配复查库存；已经转移后，从当前归属开始，不从旧预留开始。"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-p08",
+          "en": "Pera: Then state the chosen policy and the allocation you want confirmed. Explain the costs you accept and the limits you will keep. We will check the real stock, receiving group, load and duty arrangement before the work is submitted. Saving the draft lets us keep your reasoning; the separate confirmation and delivery create the result. When the transition is closed, record the handover and retest the lower load. The next team should inherit a usable route and an honest record, not a reassuring phrase whose conditions no longer match the equipment.",
+          "zh": "佩拉：请注明要确认的政策与分配，说明接受的代价及保留限制。提交前会查真实库存、接收组、负荷和值守。保存稿件保留推理，另行确认和交付才形成结果。过渡结束时，登记交班并复查低负荷。下一队应接到可用通路和诚实记录，而非条件已与设备不符的安心措辞。"
+        }
+      ],
+      "english_word_count": 749,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "long_audio",
+      "estimated_duration_seconds_range": [
+        257,
+        321
+      ],
+      "duration_status": "word_count_estimate_only_not_measured_audio",
+      "actual_duration_seconds": null,
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending",
+      "questions": [
+        {
+          "id": "R3-Q303-L-MEETING-q01",
+          "prompt_en": "Record the local total capacity and the four basic-service loads.",
+          "prompt_zh": "记下总容量与四项基本服务负荷。",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-q02",
+          "prompt_en": "Compare the two example package distributions without ranking their supporters.",
+          "prompt_zh": "比较两项例示工包分配，不给支持者道德排名。",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-q03",
+          "prompt_en": "What limits the transition window, and what happens at its actual end?",
+          "prompt_zh": "什么限制过渡窗口，实际结束时发生什么？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-q04",
+          "prompt_en": "Which three supply accounts does the clerk ask to keep separate?",
+          "prompt_zh": "库管员要求分开哪三种物资账？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        },
+        {
+          "id": "R3-Q303-L-MEETING-q05",
+          "prompt_en": "Which changes make a previous test no longer current?",
+          "prompt_zh": "哪些变化让旧测试不再当前有效？",
+          "answer_state": "unanswered",
+          "assessment_status": "unassessed"
+        }
+      ]
+    },
+    {
+      "id": "R3-Q304-R-SEQUENCE",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "深井塔：开采机的停机次序",
+      "quest_ref": "Q-304",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S09",
+        "spot": "R3-S09.machine"
+      },
+      "source_root": "r3-deepwell-machine-safe-stop-plate",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q304-R-SEQUENCE-p01",
+          "en": "The uncontrolled extraction machine has a moving feed and an unsecured lifting arm. Stop the feed at the marked intake point, then physically secure the arm before dealing with the main machine. Pressure can weaken the machine's impact; it cannot fasten an arm which has not been secured. The portable clamp earned after this commission is not needed to complete it: this work stand provides the declared fixed brace interface and local securing equipment.",
+          "zh": "失控开采机有活动送料与未固定吊臂。先在标记入口停送料，再实际固定吊臂，随后制止主机。压力可以减弱冲击，无法自动固定没有固定的吊臂。本委托之后获得的便携固定钳不是完成前置；站位提供已声明的固定接口和本地固定设备。"
+        },
+        {
+          "id": "R3-Q304-R-SEQUENCE-p02",
+          "en": "A successful threat result establishes a stop condition for this particular machine. Check its present supply and the tower load afterwards. It does not choose the town's allocation, appoint duty people or execute a network policy. Those decisions and the current configuration test remain separate work.",
+          "zh": "成功处置为这台机器建立停机条件。随后检查当前供电与塔负荷。它没有替矿镇选择分配、任命值守或执行网络政策；这些决定及当前配置测试仍是独立工作。"
+        },
+        {
+          "id": "R3-Q304-R-SEQUENCE-p03",
+          "en": "An attempt can be withdrawn to the safe stand and prepared again. Keep the installed brace, the actual feed state and unrelated rescue progress. Returning for a new attempt does not recreate consumed supplies or issue an extra task reward.",
+          "zh": "可以撤回安全站位，重新整备尝试。保留已装固定件、真实送料状态与无关救援进展。重试不重新生成已耗物资，也不额外发任务奖励。"
+        }
+      ],
+      "english_word_count": 160
+    },
+    {
+      "id": "R3-Q304-R-LOAD",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "塔站当前配置与交班",
+      "quest_ref": "Q-304",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S09",
+        "spot": "R3-S09.tower_control"
+      },
+      "source_root": "r3-current-deepwell-load-configuration",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Current local load and phase boundary, not six-tower completed engineering flags"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q304-R-LOAD-p01",
+          "en": "The current bounded arrangement retains seven basic-service units within a local capacity of ten. With early_reduce, extraction is zero. With time_limited_transition, extraction is one to three only during the one declared shift, and two distinct local people must actually hold the operating and safety-watch posts. Check the applied setting, not just the policy saved at the dispatch desk.",
+          "zh": "当前有界安排在容量十内保留七单位基本服务。early_reduce抽取零；time_limited_transition仅在一班明确窗口内允许抽取一至三，并由两名不同本地人员实际承担操作与安全观察。检查已应用设置，而非只查调度台保存的政策。"
+        },
+        {
+          "id": "R3-Q304-R-LOAD-p02",
+          "en": "At the end of that shift, close_transition_shift at the dispatch duty stand records a real handover and returns extraction to zero before the next shift. Reading, translating, composing or using the dictionary does not advance that work boundary. Every change in feed, securing state or load creates a new configuration that needs its own relevant test.",
+          "zh": "该班结束时，在调度值守站位执行close_transition_shift，记录真实交班，在下一班前把抽取降回零。阅读、翻译、写作或查词典不推进这项工作边界。送料、固定状态或负荷变化均形成新配置，需要对应测试。"
+        },
+        {
+          "id": "R3-Q304-R-LOAD-p03",
+          "en": "Inspect the tower return route, present isolation and current duty before issuing the local safety handover. A past test remains readable, but a different configuration cannot use its pass. Local safety here is one limited result. Baseline conversion, enhanced controls and later common operating agreements require their own equipment, posts and work receipts.",
+          "zh": "地方安全交接前，检查塔站返程、当前隔离与当班岗位。旧测试可以回看，但另一配置不能沿用其通过。本地安全只是有限结果；基础改造、增强控制和后来共同运行协议，各需自己的设备、岗位与工作回执。"
+        }
+      ],
+      "english_word_count": 172
+    },
+    {
+      "id": "R3-Q304-R-DUTY",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "值守登记：两个人，两项职责",
+      "quest_ref": "Q-304",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S09",
+        "spot": "R3-S09.duty"
+      },
+      "source_root": "r3-deepwell-current-duty-board",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q304-R-DUTY-p01",
+          "en": "The operating post applies the agreed local load. The safety-watch post records checks and can request a safe stop. They must be held by two different local people who have accepted this assignment. A name on a draft is a proposal. Inspect the actual duty entries and their declared shift before relying on the arrangement.",
+          "zh": "操作岗应用约定地方负荷，安全观察岗记录检查并可要求安全停机。须由两名不同本地人员实际承接委托。草稿上的姓名只是提案，应核对真实岗位条目与明确班次。"
+        },
+        {
+          "id": "R3-Q304-R-DUTY-p02",
+          "en": "Oren may give a statement, undertake supervised repair or join a travelling crew after the batch finding. Those choices do not appoint him to two simultaneous posts. A local replacement must be accepted before a duty occupant departs. The later ROLE-R3-OP and ROLE-R3-REP protocol mandates also have separate operating and representative scopes; this current shift does not sign them automatically.",
+          "zh": "批次核查后，奥伦可作证、承担监督维修或加入出行队伍。这些选择不能同时占两岗。值守人员离开前须有获准接替。后来ROLE-R3-OP与ROLE-R3-REP协议又有独立操作和代表范围，本班不会自动签署那些委托。"
+        }
+      ],
+      "english_word_count": 115
+    },
+    {
+      "id": "R3-Q304-R-HANDOVER",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "送往学城的资料与样本清单",
+      "quest_ref": "Q-304",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S01",
+        "spot": "R3-S01.sample_handover"
+      },
+      "source_root": "r3-academic-verification-dispatch-note",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Academic destination is a next-direction/custody candidate, not arrival or validated technical cause"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q304-R-HANDOVER-p01",
+          "en": "The proposed technical package contains the MC-2 instrument reference, retained-copy chain and formal acceptance version, with the current environment readings and their settings. Label the sample with the same observation stage and a lawful receiving purpose: academic verification of the recorded load, extraction and disturbance relationship. Include the known limits and any changed configuration.",
+          "zh": "拟送技术包包括MC-2仪表索引、留存抄录链、正式验收版本，以及当前环境读数与设置。样本注明同一观察阶段，并列合法接收用途：学城核验所记录负荷、抽取和扰动关系。保留已知限制及变更配置。"
+        },
+        {
+          "id": "R3-Q304-R-HANDOVER-p02",
+          "en": "At the freight desk, pack the actual sample and authorised fields, name the academic receiving desk and obtain an outgoing handover receipt. A prepared draft does not create a sample or deliver it. Do not attach unrelated household details or copy a private repair conversation without its scope. Keep the original references so that the next reviewer can request the protected sources.",
+          "zh": "到货运台实际包装样本及获准字段，列学城接收台并取得发出交接回执。准备好草稿不会生成样本或完成交付。不要附无关住户细节，也不要无范围复制私人维修谈话。保留原索引，让下一复核人可申请受保护来源。"
+        },
+        {
+          "id": "R3-Q304-R-HANDOVER-p03",
+          "en": "An outgoing receipt establishes custody of the stated package at this work boundary. It does not mean that the Glimmer has sailed, that the academic team has completed a test, or that the disturbance has been explained. Record the lawful next inquiry direction without claiming those later results. This package gives no current location or present condition for Mara.",
+          "zh": "发出回执说明此工作边界的具名资料保管，不表示微光号已航行、学城已完成试验或扰动已解释。记录合法下一方向，不宣称后来结果。这份资料没有玛拉当前所在或目前状态。"
+        }
+      ],
+      "english_word_count": 175
+    },
+    {
+      "id": "R3-Q304-R-TOWER",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "后续深井塔工程需求",
+      "quest_ref": "Q-304",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S09",
+        "spot": "R3-S09.future_work"
+      },
+      "source_root": "r3-deepwell-future-work-checklist",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "part07.json:$.engineering.towers[2]",
+        "Character_Progression_v0.1.md:engineering requirements",
+        "NPC_Faction_Reference_v0.1.json:regional_mandates.R3"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q304-R-TOWER-p01",
+          "en": "The later baseline work order for TWR-R3 requires one base isolator, one local backup source and two base provisions. Enhanced work calls for one controller, two couplers, three transition crates and one trial fixture, with two operator posts and the actual installation crew arrangement. These are engineering-ledger requirements, not items supplied by reading this checklist.",
+          "zh": "TWR-R3后续基础工单要求一隔离器、一地方备用源、二份基础供给。增强工作要求一控制器、二耦合器、三过渡箱、一试运行工装，并落实两操作岗及真实安装队安排。这些属于工程账需求，阅读清单不会交付物品。"
+        },
+        {
+          "id": "R3-Q304-R-TOWER-p02",
+          "en": "The local Q-304 result records current safety and a bounded operating handover. It does not fill every baseline, trial, protocol or enhanced requirement. The auxiliary alarm parts, six local work packages, personal equipment and vessel batteries remain separate sources with separate owners.",
+          "zh": "本地Q-304结果记录当前安全与有界运行交接，没有填完全部基础、试运行、协议或增强条件。辅助警报器零件、六个地方工包、个人装备和船电池，仍是各有归属的不同来源。"
+        }
+      ],
+      "english_word_count": 97
+    },
+    {
+      "id": "R3-Q304-L-TRANSFER",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "货运员的样本交接脚本",
+      "quest_ref": "Q-304",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R3-S09",
+        "spot": "R3-S09.handover"
+      },
+      "source_root": "r3-freight-transfer-instruction",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [],
+      "paragraphs": [
+        {
+          "id": "R3-Q304-L-TRANSFER-p01",
+          "en": "Freight clerk: Bring the sample to the actual packing stand, with the observation stage and the three document versions. I can acknowledge the authorised outgoing package and keep its custody reference. I cannot acknowledge a sample which has only been named in a draft. The academic receiving desk will still need to inspect what reaches it, and the voyage requires its own vessel and route checks.",
+          "zh": "货运员：请带样本到真实包装站位，附观察阶段与三份文书版本。我能确认获准发出包，保留保管索引，不能确认仅写在稿中的样本。学城接收台仍要查实际收到什么，航行也另需船只与航路检查。"
+        },
+        {
+          "id": "R3-Q304-L-TRANSFER-p02",
+          "en": "If the local load has changed since the record was made, keep both the old observation settings and the current configuration. Do not alter the earlier numbers to make the package look consistent. Say which relationship is being tested and which questions remain. The present data can direct a technical inquiry without pretending that it has already found the whole cause.",
+          "zh": "记录完成后地方负荷若变动，请同时保留旧观察设置与当前配置。不要为资料看起来一致而修改旧数值。说明待试验的关系与余下问题；当前数据可以引导技术调查，无需假装已经查明全部原因。"
+        },
+        {
+          "id": "R3-Q304-L-TRANSFER-p03",
+          "en": "For the tower handover, confirm the safe return, duty occupants, applied bounded load and current test. If a condition has changed, return to its check before sending. Once the proper work is received, replaying this instruction does not send another sample, appoint another operator or pay the same commission again.",
+          "zh": "塔站交接须确认安全返程、值守人员、已应用受限负荷及当前测试。条件变更时，请回到相应检查再交。正确工作接收后，重复这段指示不会再寄一份样本、再任命一名操作员或再次支付同项委托。"
+        }
+      ],
+      "english_word_count": 177,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "short_audio",
+      "estimated_duration_seconds_range": [
+        61,
+        76
+      ],
+      "duration_status": "word_count_estimate_only_not_measured_audio",
+      "actual_duration_seconds": null,
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R3-Q304-R-REQUEST",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "沃斯的正式技术核验要求",
+      "quest_ref": "Q-304",
+      "kind": "short_notice",
+      "location": {
+        "scene": "R3-S09",
+        "spot": "R3-S09.handover"
+      },
+      "source_root": "r3-voss-formal-academic-verification-request",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:489-496",
+        "NPC_Faction_System_v0.1.md:knowledge boundaries"
+      ],
+      "original_local_details": [
+        "Original wording of locked Story6.4 Voss formal verification request; no future motive conclusion or current Mara knowledge"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-Q304-R-REQUEST-p01",
+          "en": "Formal request through the Beacon Office, authorised by Voss: send the local instrument versions, extraction settings and associated disturbance observations to the academic receiving desk for verification. Retain the current safety conditions while the relationship is examined. The receiving inquiry should distinguish an observed association from a tested explanation, and preserve relevant counterexamples or alternative conditions.",
+          "zh": "灯署正式渠道要求，由沃斯授权：将地方仪表版本、抽取设置及对应扰动观察送到学城接收台核验。关系核查期间保留当前安全条件。接收调查应区分所见关联与经过试验的解释，并保留相关反例或其他条件。"
+        },
+        {
+          "id": "R3-Q304-R-REQUEST-p02",
+          "en": "This request specifies a technical purpose and an official receiving route. It does not replace the local batch finding, erase a verified signature or give authority to rewrite the source numbers. The record desk must retain the actual fields and custody versions. A formal request may shape how an inquiry proceeds; its existence is not evidence that every question has been settled.",
+          "zh": "要求列明技术用途与正式接收路线，不替代地方批次结论，不抹去已核验签章，也不授权重写来源数值。记录台应保留实际字段与保管版本。正式要求可以影响调查推进方式，其存在尚未证明所有问题已经解决。"
+        }
+      ],
+      "english_word_count": 118
+    },
+    {
+      "id": "R3-CQOREN01-R-AUX",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "辅助警报器：另一个有范围的工作",
+      "quest_ref": "CQ-OREN-01",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.alarm_check"
+      },
+      "source_root": "r3-residential-auxiliary-alarm-check",
+      "access_class": "individual_permission",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "A2 two-room auxiliary device, separate from main pump/bypass and protected by withdrawable invitation"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-CQOREN01-R-AUX-p01",
+          "en": "Private work invitation, auxiliary alarm A2. The alarm serves two workshop residential rooms. After the main batch finding, Oren may invite help to inspect its damaged connection and define a repair commitment. Accept, decline or pause the invitation; it may later be withdrawn. Accepting an invitation is distinct from permission to publish a conversation or from a decision to recruit him.",
+          "zh": "私人工作邀请：辅助警报器A2，服务工坊住区两房。主线批次核查后，奥伦可邀请协助检查损坏接线，并界定维修承诺。可接受、拒绝或暂缓，后来也可撤回；接受邀请与发布谈话许可、招募决定各不相同。"
+        },
+        {
+          "id": "R3-CQOREN01-R-AUX-p02",
+          "en": "At the actual device, inspect the defect, the local workshop repair pack and the agreed scope. Record whether Oren undertakes the work directly or with local help, who will review it and what is still pending. A work list completes this first commitment only when it follows the real inspection. It does not claim that the alarm is repaired or repeat the main mine rescue.",
+          "zh": "到真实装置检查缺陷、地方工坊维修包和约定范围。注明奥伦独立承接还是与本地人共同补修、谁复核、哪些仍待做。工作清单须承接真实检查才能形成本节点承诺，尚未宣称警报器修好，也不重复矿井救援。"
+        }
+      ],
+      "english_word_count": 126
+    },
+    {
+      "id": "R3-CQOREN02-R-PARTS",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "工坊辅助维修包与独立复核",
+      "quest_ref": "CQ-OREN-02",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.alarm_repair"
+      },
+      "source_root": "r3-auxiliary-alarm-workshop-pack",
+      "access_class": "individual_permission",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "AUX-R3-A2 workshop-supplied repair part, two rooms and versioned independent review; decorative tool frame"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-CQOREN02-R-PARTS-p01",
+          "en": "After Q-304 and the agreed A2 commitment, the workshop can release repair pack AUX-R3-A2 for the invited job. Its connection part is held for this auxiliary device and is separate from personal upgrade parts, the six local extra packages and the tower engineering cargo. The part must actually move from its pack to the device. A saved promise cannot install it.",
+          "zh": "Q-304及A2约定承诺之后，工坊可为获邀工作释放AUX-R3-A2维修包。接线件归此辅助设备专用，与个人改件零件、六地方工包和塔工程货分开。零件须实际从包转到装置；保存承诺不能安装。"
+        },
+        {
+          "id": "R3-CQOREN02-R-PARTS-p02",
+          "en": "Test the repaired signal in both rooms, then ask another qualified person to repeat the check. Pera may perform or designate that independent review; Oren cannot review his own repair as the second person. Record the actual reviewer and result under the current device version. If the check finds a fault, retain the work done and reopen the remaining defect. Residents may accept the useful repair and still dispute the earlier acceptance.",
+          "zh": "在两房测试修复信号，再请另一名合格人员重复检查。佩拉可亲自或指定独立复核；奥伦不能作为第二人复核自己的维修。记录实际复核人与当前装置版本下的结果。检查发现故障时，保留已做工作，继续处理余下缺陷。住民可以接受有用维修，仍质疑早验收。"
+        },
+        {
+          "id": "R3-CQOREN02-R-PARTS-p03",
+          "en": "The repaired old tool frame is a personal-line keepsake, with no combat-stat bonus. Keep the historical signature and remaining questions visible. If the private work invitation is withdrawn before confirmation, pause the private work and its outgoing discussion; the already completed main commission and public evidence remain.",
+          "zh": "修好的旧工具框是个人线纪念物，没有战斗属性。保留历史签章和余下问题。私人邀请若在确认前撤回，暂停私人工作及对外谈话；已完成主线与公共证据继续保留。"
+        }
+      ],
+      "english_word_count": 180
+    },
+    {
+      "id": "R3-CQOREN02-L-REPAIR",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "修复不是免除责任：原件对话脚本",
+      "quest_ref": "CQ-OREN-02",
+      "kind": "listening_script",
+      "location": {
+        "scene": "R3-S03",
+        "spot": "R3-S03.alarm_review"
+      },
+      "source_root": "npc-mat-03-oren-repair-original",
+      "access_class": "individual_permission",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "reference_dialogue_preserved_translation_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "reference/part09/materials/NPC-MAT-03_Oren_Repair.md",
+        "NPC_Faction_System_v0.1.md:333-347"
+      ],
+      "original_local_details": [
+        "Reference English preserved with speaker prefixes; new Chinese translation candidate; only after real auxiliary repair, independent review still pending"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-CQOREN02-L-REPAIR-p01",
+          "en": "Oren: The signal now reaches both rooms. I replaced the damaged connection, and the spare parts are listed here. Someone other than me should test it before the residents rely on it.",
+          "zh": "奥伦：信号现在能到两间房。我替换了损坏接线，备用零件列在这里。住民依赖它之前，应该由我之外的人测试。"
+        },
+        {
+          "id": "R3-CQOREN02-L-REPAIR-p02",
+          "en": "Pera: That is a useful repair. It does not answer why the earlier equipment was accepted with the safety check incomplete.",
+          "zh": "佩拉：这项维修有用，但它尚未回答，为什么早先设备在安全检查未完成时就按合格验收。"
+        },
+        {
+          "id": "R3-CQOREN02-L-REPAIR-p03",
+          "en": "Oren: I am not asking it to. I signed that record, and I should have refused. I can explain the pressure I was under, but that does not make the signature belong to someone else.",
+          "zh": "奥伦：我没有要求它回答。我签了那份记录，本该拒绝。我可以说明当时受到的压力，但签名仍然属于我。"
+        },
+        {
+          "id": "R3-CQOREN02-L-REPAIR-p04",
+          "en": "Player: What can be agreed today without closing the wider review?",
+          "zh": "玩家：广泛复核仍未结束，今天可以商定什么？"
+        },
+        {
+          "id": "R3-CQOREN02-L-REPAIR-p05",
+          "en": "Pera: We can appoint a reviewer for this repair and make the result available to the residents. His statement about the earlier check must remain separate. I will not write that everyone has forgiven him.",
+          "zh": "佩拉：我们可为此维修指定复核人，让住民看到结果。他关于早检查的陈述另行保留。我不会写所有人已经原谅他。"
+        },
+        {
+          "id": "R3-CQOREN02-L-REPAIR-p06",
+          "en": "Oren: Then record the repair and the remaining questions separately. I can also train someone to repeat the test. I will not always be here to do it.",
+          "zh": "奥伦：那就分记维修和余下问题。我也能教另一人重复测试；我不会一直在这里执行。"
+        }
+      ],
+      "english_word_count": 162,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "listening_experience_status": "script_only_not_listening_accepted",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "planned_audio_class": "short_audio",
+      "estimated_duration_seconds_range": [
+        56,
+        69
+      ],
+      "duration_status": "word_count_estimate_only_not_measured_audio",
+      "actual_duration_seconds": null,
+      "transcript_access": "available_without_score_or_reward_penalty",
+      "source_channel_available": "written_transcript_only",
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending"
+    },
+    {
+      "id": "R3-O01-R-MUSIC",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "修理铺：音乐盒的齿轮与回忆",
+      "quest_ref": "R3-O01",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-O01",
+        "spot": "R3-O01.parts"
+      },
+      "source_root": "r3-owner-musicbox-repair-note",
+      "access_class": "individual_permission",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original MBOX12 twelve-tooth vs fourteen-tooth local optional repair; owner consent separate from publication; no rewards registered"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-O01-R-MUSIC-p01",
+          "en": "The owner invites a repair of the music box and permits inspection of its mechanism. A note supplied with this box specifies a twelve-tooth replacement wheel, MBOX-12. The store also holds a fourteen-tooth wheel for another device. Read the specification before asking the owner to approve the chosen part. The small box belongs to the owner; it is not a reward item or a main-line key.",
+          "zh": "主人邀请修音乐盒，允许检查机构。随盒说明要求十二齿替换轮MBOX-12，铺内另有给别装置用的十四齿轮。请求主人批准选件前，请核对规格。盒子属于主人，不是奖励物品或主线钥匙。"
+        },
+        {
+          "id": "R3-O01-R-MUSIC-p02",
+          "en": "The owner remembers hearing it at a family meal and may choose to describe that memory privately. Their permission to repair the mechanism does not publish the memory. Ask separately before copying a personal account into a notice. The repair can be paused if permission changes, and the owner may keep the original note without telling the story.",
+          "zh": "主人记得家庭聚餐时听过它，可以选择私下讲回忆。维修机构许可不会公开回忆。把个人叙述抄进告示前需另问。许可改变时可以暂停维修，主人也能保留原便条、不讲故事。"
+        },
+        {
+          "id": "R3-O01-R-MUSIC-p03",
+          "en": "After fitting an approved part, inspect the turning mechanism and return the same box. A written repair note can state the part used, check performed and limits of the work. The owner can keep that note with the original specification and leave the family memory private. A useful repair does not require a public story.",
+          "zh": "安装获准件后，检查旋转机构并归还同一个盒子。书面记录可列所用零件、检查和工作限制。主人可将记录与原规格一同保存，保留家庭回忆私密；有用维修无需一个公开故事。"
+        }
+      ],
+      "english_word_count": 179
+    },
+    {
+      "id": "R3-O02-R-OBSERVE",
+      "content_version": "r3-author-candidate-1",
+      "translation_version": "r3-author-candidate-1-zh",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "title_zh": "侧井观察：一条记录的条件",
+      "quest_ref": "R3-O02",
+      "kind": "mission_document",
+      "location": {
+        "scene": "R3-O02",
+        "spot": "R3-O02.record"
+      },
+      "source_root": "r3-sidewell-optional-observation",
+      "access_class": "public",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "originality": "new_original_bilingual_candidate",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "World_Story_Bible_v0.1.md:461-489",
+        "English_Learning_System_v0.1.md:790-793",
+        "Exploration_Level_Design_v0.1.md:421-454"
+      ],
+      "original_local_details": [
+        "Original optional reading5 at extraction1; contextual comparison not controlled-cause proof; no unique main evidence"
+      ],
+      "paragraphs": [
+        {
+          "id": "R3-O02-R-OBSERVE-p01",
+          "en": "This safe observation point is optional. Its sheet records a sheltered side-well stage with extraction at one local unit and disturbance reading five. The main cutting-face sheet records a reading of four at a one-unit stage elsewhere. The two observations differ in place and sampling conditions. Keep those differences rather than treating the matching extraction settings as a controlled experiment.",
+          "zh": "此安全观察点为可选。页面记录避护侧井一阶段：抽取一地方单位、扰动五。主采掘面另一处一单位阶段读数为四。两次观察地点与取样条件不同，应保留差异，不能把相同抽取设置当受控试验。"
+        },
+        {
+          "id": "R3-O02-R-OBSERVE-p02",
+          "en": "A comparison note may propose what another observer should record next, such as the instrument, pump state and stage. Do not write that this extra sheet proves the final cause of the mist or unlocks a hidden ending condition. The necessary chapter samples and instrument evidence remain on the main route whether this point is visited or not.",
+          "zh": "比较便条可以提出下一观察要记录什么，例如仪表、泵状态与阶段。不能写这页证明雾的最终原因或开启隐藏结局条件。无论访问此点与否，必需章节样本和仪表证据均在主路。"
+        },
+        {
+          "id": "R3-O02-R-OBSERVE-p03",
+          "en": "Keep to the marked observation stand unless a separate safe sampling assignment is given. A note can be useful even when no additional sample is taken. Retain the sheet's place, stage and instrument reference so that a later reviewer can compare conditions. If a condition is unknown, leave it unknown rather than copying the main site's setting into this record.",
+          "zh": "另有安全取样委托前，请留在标记观察站位。没有追加样本，便条仍可有用。保留此页地点、阶段与仪表索引，让后来复核者能比较条件。条件未知时保留未知，不把主采点设置抄来填入此记录。"
+        }
+      ],
+      "english_word_count": 178
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "R3-Q301-W-RESCUE",
+      "quest_ref": "Q-301",
+      "kind": "short_world_work",
+      "workspace_spot": "R3-S04.rescue_note",
+      "prompt_en": "Write a brief rescue instruction for the surface receiving desk. Identify the three-worker group, actual route checked, pump conditions, escort and basic receiving supplies. Keep a proposed arrival separate from a received group. State any condition that still needs a check.",
+      "prompt_zh": "给地面接收台写简短救援指令，注明三人工组、真实受检路线、泵房条件、护送与基本接收物资。区分预计到达与实际接收，说明仍需检查的条件。",
+      "sources": [
+        "R3-Q301-R-COMMISSION",
+        "R3-Q301-R-LADDER",
+        "R3-Q301-R-PUMP",
+        "R3-Q301-R-BASIC"
+      ],
+      "evaluation": "meaning confirmation only; micro work has no full Writing band"
+    },
+    {
+      "id": "R3-Q302-W-VISUAL",
+      "quest_ref": "Q-302",
+      "kind": "full_visual_comparison",
+      "workspace_spot": "R3-S03.comparison",
+      "prompt_en": "The table compares incomplete on-site checks and accepted official forms for four local maintenance batches. Each batch contains six listed checks. Summarise the main features and make relevant comparisons. Explain the different measures and preserve the local scope. Write at least 150 English words.",
+      "prompt_zh": "表格比较四个本地检修批次的现场未完成检查与正式合格表，每批六项。概括主要特点并作相关比较，说明两种衡量与本地范围。写至少150个英文词。",
+      "sources": [
+        "R3-Q302-R-BATCHES",
+        "R3-Q302-R-RAW",
+        "R3-Q302-R-COPY",
+        "R3-Q302-R-SIGNED"
+      ],
+      "evaluation": "full draft retained; calibrated trained-human Task1 feedback pending; word minimum is writing instruction not main reward gate; structured fallback not full visual writing assessed",
+      "visual": {
+        "kind": "table",
+        "title_en": "Four local maintenance batches, six checks each",
+        "columns_en": [
+          "Batch",
+          "On-site checks marked incomplete",
+          "Official forms marked accepted"
+        ],
+        "rows": [
+          [
+            "MC-1",
+            0,
+            6
+          ],
+          [
+            "MC-2",
+            2,
+            6
+          ],
+          [
+            "MC-3",
+            1,
+            5
+          ],
+          [
+            "MC-4",
+            0,
+            6
+          ]
+        ],
+        "total": [
+          3,
+          23
+        ],
+        "source_material": "R3-Q302-R-BATCHES",
+        "availability": "after lawful actual instrument, retained-copy and formal-version inspection; no prefilled findings"
+      }
+    },
+    {
+      "id": "R3-Q303-W-ARGUMENT",
+      "quest_ref": "Q-303",
+      "kind": "full_argument",
+      "workspace_spot": "R3-S08.allocation",
+      "prompt_en": "Some people favour reducing hazardous production as soon as basic protection is secured. Others favour one bounded transition period to support the transfer of people and equipment. Discuss both views and give your opinion. Propose a feasible local allocation and load policy, explaining its costs, safeguards and end. Write at least 250 English words.",
+      "prompt_zh": "有人主张基本保障落实后尽早降低危险生产，另一些人主张用一段有界过渡支持人员与设备转移。讨论双方并提出意见，说明一项可行地方分配及负荷政策的代价、保障和结束安排。写至少250个英文词。",
+      "sources": [
+        "R3-Q303-R-DEMAND",
+        "R3-Q303-R-STOCK",
+        "R3-Q303-R-CHOICES",
+        "R3-Q303-R-ESSAY"
+      ],
+      "evaluation": "multiple supported feasible stances accepted; full draft/revisions retained; no stance reward or ending gate; trained-human Task2 evaluation and calibration pending; structured policy confirmation is not a full argument assessment"
+    },
+    {
+      "id": "R3-Q304-W-HANDOVER",
+      "quest_ref": "Q-304",
+      "kind": "short_world_work",
+      "workspace_spot": "R3-S09.handover",
+      "prompt_en": "Write the local tower handover: machine stop, actual bounded load, current test, two duty posts, safe return and the authorised outgoing sample. Preserve the original document versions and the limits of the observed relationship. Identify what the academic review still needs to test.",
+      "prompt_zh": "写地方塔站交接：机器停机、实际受限负荷、当前测试、两值守岗、安全返程与获准发出样本。保留原文书版本及观察关系限制，说明学城仍需核验什么。",
+      "sources": [
+        "R3-Q304-R-SEQUENCE",
+        "R3-Q304-R-LOAD",
+        "R3-Q304-R-DUTY",
+        "R3-Q304-R-HANDOVER"
+      ],
+      "evaluation": "short instruction: no full Writing band, no policy or cause invented from prose"
+    },
+    {
+      "id": "R3-CQOREN01-W-SCOPE",
+      "quest_ref": "CQ-OREN-01",
+      "kind": "short_world_work",
+      "workspace_spot": "R3-S03.alarm_check",
+      "prompt_en": "Record the inspected A2 defect, supplied parts, direct or joint repair commitment, permitted scope and proposed independent review. Keep actual inspection separate from the repair still to be done.",
+      "prompt_zh": "记录实际检查的A2缺陷、供给零件、独立或共同维修承诺、获准范围与拟定独立复核。区分已检查与尚待维修。",
+      "sources": [
+        "R3-CQOREN01-R-AUX"
+      ],
+      "evaluation": "separate invited work; no main rescue/signature reward duplication or Writing band"
+    },
+    {
+      "id": "R3-CQOREN02-W-REVIEW",
+      "quest_ref": "CQ-OREN-02",
+      "kind": "short_world_work",
+      "workspace_spot": "R3-S03.alarm_review",
+      "prompt_en": "Describe the actual auxiliary repair, current device version, other qualified reviewer and result in both rooms. Retain the earlier acceptance and any disagreement. Ask for a renewed scope if the invitation has changed.",
+      "prompt_zh": "说明实际辅助维修、当前装置版本、另一合格复核人与两房结果。保留早验收和分歧；邀请变化时申请新范围。",
+      "sources": [
+        "R3-CQOREN02-R-PARTS",
+        "R3-CQOREN02-L-REPAIR"
+      ],
+      "evaluation": "repair and historical responsibility separate; no compulsory forgiveness or Writing band"
+    },
+    {
+      "id": "R3-O01-W-REPAIRNOTE",
+      "quest_ref": "R3-O01",
+      "kind": "optional_short_reply",
+      "workspace_spot": "R3-O01.note",
+      "prompt_en": "Write an owner-approved repair note describing the chosen wheel, actual check and box returned. Preserve the owner's decision about whether the family memory may be shared.",
+      "prompt_zh": "写获主人批准的维修便条，注明所选齿轮、实际检查与归还盒子，保留主人对家庭回忆是否公开的决定。",
+      "sources": [
+        "R3-O01-R-MUSIC"
+      ],
+      "evaluation": "optional source candidate; reward contract not registered; no full band or required ending condition"
+    },
+    {
+      "id": "R3-O02-W-CONTEXT",
+      "quest_ref": "R3-O02",
+      "kind": "optional_comparison",
+      "workspace_spot": "R3-O02.side_route",
+      "prompt_en": "Compare the side-well and cutting-face observations. State their different locations and conditions, the limited pattern and what a later controlled check would need to record.",
+      "prompt_zh": "比较侧井与采掘面观察，说明不同地点和条件、有限模式，以及后来受控核验应记录什么。",
+      "sources": [
+        "R3-O02-R-OBSERVE",
+        "R3-Q301-R-ENVIRONMENT"
+      ],
+      "evaluation": "optional source candidate; no causal verdict, unregistered reward or hidden ending requirement"
+    }
+  ],
+  "stations": [
+    {
+      "id": "R3-ARRIVAL",
+      "spot": "R3-S01.arrival",
+      "label_zh": "核对真实船路并登记到港",
+      "action": "register_landing",
+      "world_reads": [
+        "Q-204:resolution",
+        "vessel",
+        "R3-LOCAL-BERTH-DUTY"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-LOCAL-WORK",
+      "spot": "R3-S02.pera",
+      "label_zh": "取得具体矿井与批次查验委托",
+      "action": "request_local_work",
+      "world_reads": [
+        "R3:landing"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-HOUSEHOLDS",
+      "spot": "R3-S02.households",
+      "label_zh": "实际查看住区基本需求",
+      "action": "inspect_households",
+      "world_reads": [
+        "R3:local_assignment"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-BASIC-SUPPLIES",
+      "spot": "R3-S02.shelter",
+      "label_zh": "实际领取基本物资与基础安全包",
+      "action": "receive_basic_supplies",
+      "world_reads": [
+        "R3:basic_local_inventory"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-LADDER",
+      "spot": "R3-S04.ladder_check",
+      "label_zh": "现场检查独立固定梯道",
+      "action": "inspect_ladder",
+      "world_reads": [
+        "R3:mine_briefing",
+        "R3:basic_kit"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-LIFT",
+      "spot": "R3-S04.lift_control",
+      "label_zh": "检查当前主升降装置",
+      "action": "inspect_lift",
+      "world_reads": [
+        "R3:local_assignment",
+        "R3:lift_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-RAIL-ENCOUNTER",
+      "spot": "R3-S05.rail_clear",
+      "label_zh": "预览并实际处理轨道清障遭遇",
+      "action": "clear_rail_encounter",
+      "world_reads": [
+        "ENC-R3-01:current_attempt",
+        "R3:return_route"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-WORKER-SIGNAL",
+      "spot": "R3-S05.worker_signal",
+      "label_zh": "确认求援信号与来源范围",
+      "action": "inspect_worker_signal",
+      "world_reads": [
+        "R3:local_assignment"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-PUMP-ISOLATION",
+      "spot": "R3-S06.isolation",
+      "label_zh": "实际隔离受损泵房线路",
+      "action": "isolate_pump",
+      "world_reads": [
+        "R3:pump_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-PUMP-ENCOUNTER",
+      "spot": "R3-S06.pump_entrance",
+      "label_zh": "预览并实际处理泵房入口遭遇",
+      "action": "clear_pump_encounter",
+      "world_reads": [
+        "ENC-R3-02:current_attempt"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-PUMP-DRAIN",
+      "spot": "R3-S06.drain_control",
+      "label_zh": "在安全前置下实际排水",
+      "action": "drain_pump",
+      "world_reads": [
+        "R3:pump_isolation",
+        "ENC-R3-02:result"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-PUMP-RECHECK",
+      "spot": "R3-S06.water_check",
+      "label_zh": "复查当前水位与接线",
+      "action": "inspect_water",
+      "world_reads": [
+        "R3:pump_configuration",
+        "R3:drainage"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-LOCATE-WORKERS",
+      "spot": "R3-S07.rescue",
+      "label_zh": "现场定位同组W1 W2 W3",
+      "action": "locate_workers",
+      "world_reads": [
+        "R3:current_drainage_check"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-RESCUE-WORKERS",
+      "spot": "R3-S07.rescue",
+      "label_zh": "与三名工人实际商定安全返程",
+      "action": "rescue_workers",
+      "world_reads": [
+        "R3:located_workers",
+        "R3:return_route"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-ESCORT",
+      "spot": "R3-S05.escort",
+      "label_zh": "实际护送原组工人返程",
+      "action": "escort_workers",
+      "world_reads": [
+        "ENC-R3-04:current_attempt",
+        "R3:rescued_workers"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-RECEIVE-WORKERS",
+      "spot": "R3-S02.basic_handover",
+      "label_zh": "实际接收三人工组和基本保障",
+      "action": "receive_workers",
+      "world_reads": [
+        "ENC-R3-04:result",
+        "R3:basic_supply_delivery"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-RAW-GAUGES",
+      "spot": "R3-S07.raw_gauge",
+      "label_zh": "检查原始仪表、版本与环境",
+      "action": "inspect_raw_gauges",
+      "world_reads": [
+        "R3:instrument_access",
+        "R3:local_assignment"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-BYPASS",
+      "spot": "R3-S05.bypass_copy",
+      "label_zh": "实际核验旁路标牌与来源",
+      "action": "inspect_bypass",
+      "world_reads": [
+        "R3:local_assignment"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-FREIGHT-REPAIR",
+      "spot": "R3-S07.freight_lift",
+      "label_zh": "修复可选货运返程支路",
+      "action": "repair_freight_lift",
+      "world_reads": [
+        "R3:freight_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-FREIGHT-TEST",
+      "spot": "R3-S07.lift_test",
+      "label_zh": "测试当前货运支路",
+      "action": "test_freight_lift",
+      "world_reads": [
+        "R3:freight_repair"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-Q301-REPORT",
+      "spot": "R3-S02.pera",
+      "label_zh": "确认并交付完整救援报告",
+      "action": "submit_rescue_report",
+      "world_reads": [
+        "R3:worker_receiving",
+        "R3:instrument_observation",
+        "draft:R3-Q301-W-RESCUE"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-WORKSHOP-COPY",
+      "spot": "R3-S03.workshop_copy",
+      "label_zh": "查验同根工坊副本及版本",
+      "action": "inspect_workshop_copy",
+      "world_reads": [
+        "R3:local_assignment"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-BATCH-SCOPE",
+      "spot": "R3-S03.comparison",
+      "label_zh": "申请四字段批次受控查验范围",
+      "action": "request_batch_record_scope",
+      "world_reads": [
+        "R3:local_assignment",
+        "R3-local-record-desk",
+        "R3:current_source_scope"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-SIGNED-FORM",
+      "spot": "R3-S03.signed_record",
+      "label_zh": "核查正式版本与奥伦签章",
+      "action": "inspect_signed_acceptance",
+      "world_reads": [
+        "R3:local_assignment"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-BATCH-COMPARISON",
+      "spot": "R3-S03.comparison",
+      "label_zh": "确认三方比较与具体责任范围",
+      "action": "compare_batch_records",
+      "world_reads": [
+        "R3:raw_and_copy_and_form",
+        "Q-301:resolution",
+        "draft:R3-Q302-W-VISUAL"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-OREN-ACCOUNTABILITY",
+      "spot": "R3-S03.oren",
+      "label_zh": "决定有范围证言、监督维修或地区核查",
+      "action": "decide_oren_accountability",
+      "world_reads": [
+        "R3:verified_batch_finding"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-OREN-INVITATION",
+      "spot": "R3-S03.oren",
+      "label_zh": "核查完成后另行接受、拒绝或暂缓招募",
+      "action": "decide_oren_recruitment",
+      "world_reads": [
+        "Q-302:resolution",
+        "roster:CP-OREN"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-INSTRUMENT-BRANCH",
+      "spot": "R3-S07.instrument_guard",
+      "label_zh": "选择真实处置或隔离固定零能核验",
+      "action": "clear_instrument_guard",
+      "world_reads": [
+        "ENC-R3-03:current_attempt",
+        "R3:instrument_branch_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-LOCAL-STOCK",
+      "spot": "R3-S08.stores",
+      "label_zh": "核验六工包实际库存",
+      "action": "inspect_local_stores",
+      "world_reads": [
+        "Q-301:resolution",
+        "R3:local_package_owners"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-ALLOCATE",
+      "spot": "R3-S08.allocation",
+      "label_zh": "提出满足公开约束的六包分配",
+      "action": "allocate_extra_packages",
+      "world_reads": [
+        "R3:local_package_owners",
+        "draft:R3-Q303-W-ARGUMENT"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-DELIVER",
+      "spot": "R3-S08.delivery",
+      "label_zh": "实际交付唯一归属工包",
+      "action": "deliver_extra_packages",
+      "world_reads": [
+        "R3:allocation",
+        "R3:local_package_owners"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-SHIFT-DUTY",
+      "spot": "R3-S08.shift_duty",
+      "label_zh": "让两个不同本地岗位实际承接当班",
+      "action": "appoint_shift_duty",
+      "world_reads": [
+        "R3:available_local_duty",
+        "roster:duty_conflicts"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-LOAD-POLICY",
+      "spot": "R3-S08.policy",
+      "label_zh": "明确确认早降载或一班有限过渡",
+      "action": "confirm_load_policy",
+      "world_reads": [
+        "R3:allocation",
+        "R3:duty",
+        "R3:local_load"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-CLOSE-TRANSITION-SHIFT",
+      "spot": "R3-S08.shift_duty",
+      "label_zh": "真实交班并将抽取归零使旧测试失效",
+      "action": "close_transition_shift",
+      "world_reads": [
+        "R3:transition_window",
+        "R3:current_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-Q303-ARRANGEMENT",
+      "spot": "R3-S08.delivery",
+      "label_zh": "实际交付有条件资源安排",
+      "action": "submit_resource_arrangement",
+      "world_reads": [
+        "R3:package_delivery",
+        "R3:bounded_policy",
+        "draft:R3-Q303-W-ARGUMENT"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-MACHINE-FEED",
+      "spot": "R3-S09.intake_stop",
+      "label_zh": "实际停止开采机送料",
+      "action": "stop_machine_feed",
+      "world_reads": [
+        "R3:machine_configuration",
+        "R3:tower_permission"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-MACHINE-BRACE",
+      "spot": "R3-S09.arm_brace",
+      "label_zh": "实际固定吊臂",
+      "action": "brace_machine_arm",
+      "world_reads": [
+        "R3:machine_feed_stopped",
+        "R3:declared_local_brace"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-MACHINE-ENCOUNTER",
+      "spot": "R3-S09.machine",
+      "label_zh": "在停料固定后预览并处置主机",
+      "action": "begin_extraction_machine_encounter",
+      "world_reads": [
+        "ENC-R3-05:current_attempt",
+        "R3:machine_arm_fixed"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-TOWER-LOAD",
+      "spot": "R3-S09.tower_control",
+      "label_zh": "实际应用当前受限负荷",
+      "action": "configure_tower_load",
+      "world_reads": [
+        "Q-302:resolution",
+        "Q-303:resolution",
+        "ENC-R3-05:result"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-TOWER-TEST",
+      "spot": "R3-S09.load_test",
+      "label_zh": "测试当前配置而非旧true",
+      "action": "test_tower_load",
+      "world_reads": [
+        "R3:tower_current_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-TOWER-RETURN",
+      "spot": "R3-S09.return_check",
+      "label_zh": "实际检查塔层返程",
+      "action": "inspect_tower_return",
+      "world_reads": [
+        "R3:tower_current_configuration"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-TOWER-DUTY",
+      "spot": "R3-S09.duty",
+      "label_zh": "实际核对当前不同值守岗位",
+      "action": "inspect_tower_duty",
+      "world_reads": [
+        "R3:duty",
+        "R3:transition_window"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-PACK-SAMPLE",
+      "spot": "R3-S01.sample_handover",
+      "label_zh": "依法装包真实样本与三版本引用",
+      "action": "pack_verification_sample",
+      "world_reads": [
+        "R3:original_sample",
+        "R3:handover_fields_and_recipient"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-Q304-HANDOVER",
+      "spot": "R3-S09.handover",
+      "label_zh": "确认并实际交付地方安全和技术包范围",
+      "action": "submit_tower_handover",
+      "world_reads": [
+        "R3:current_tower_test",
+        "R3:current_duty_and_return",
+        "R3:sample_custody",
+        "draft:R3-Q304-W-HANDOVER"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-FUTURE-WORK",
+      "spot": "R3-S09.future_work",
+      "label_zh": "登记后续工程缺项",
+      "action": "record_tower_future_requirements",
+      "world_reads": [
+        "readiness:TWR-R3"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-AUX-INVITE",
+      "spot": "R3-S03.alarm_invite",
+      "label_zh": "本人接受、拒绝、暂缓或撤回辅助邀请",
+      "action": "invite_auxiliary_alarm_work",
+      "world_reads": [
+        "Q-302:resolution",
+        "R3:auxiliary_invitation"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-AUX-CHECK",
+      "spot": "R3-S03.alarm_check",
+      "label_zh": "在有效邀请下检查真实辅助装置",
+      "action": "inspect_auxiliary_alarm",
+      "world_reads": [
+        "R3:auxiliary_invitation",
+        "R3:auxiliary_device"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-AUX-SCOPE",
+      "spot": "R3-S03.alarm_check",
+      "label_zh": "确认直接或共同补修实际范围",
+      "action": "commit_auxiliary_repair_scope",
+      "world_reads": [
+        "R3:auxiliary_check",
+        "draft:R3-CQOREN01-W-SCOPE"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-AUX-REPAIR",
+      "spot": "R3-S03.alarm_repair",
+      "label_zh": "实际使用独立维修包安装接线",
+      "action": "repair_auxiliary_alarm",
+      "world_reads": [
+        "Q-304:resolution",
+        "CQ-OREN-01:resolution",
+        "R3:auxiliary_invitation",
+        "R3:workshop_aux_part"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-AUX-REVIEW-REQUEST",
+      "spot": "R3-S03.alarm_review",
+      "label_zh": "提出另一合格人的具体复核范围",
+      "action": "request_independent_alarm_review",
+      "world_reads": [
+        "R3:auxiliary_repair",
+        "R3:auxiliary_invitation"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-AUX-REVIEW",
+      "spot": "R3-S03.alarm_review",
+      "label_zh": "核验真实独立复核并另项接收",
+      "action": "confirm_independent_alarm_review",
+      "world_reads": [
+        "R3:auxiliary_current_version",
+        "R3:independent_reviewer",
+        "draft:R3-CQOREN02-W-REVIEW"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-MUSICBOX",
+      "spot": "R3-O01.musicbox",
+      "label_zh": "向主人确认规格与维修公开范围",
+      "action": "propose_musicbox_repair",
+      "world_reads": [
+        "R3:musicbox_owner_permission",
+        "draft:R3-O01-W-REPAIRNOTE"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    },
+    {
+      "id": "R3-SIDEWELL",
+      "spot": "R3-O02.side_route",
+      "label_zh": "保留附条件比较便条",
+      "action": "propose_sidewell_observation",
+      "world_reads": [
+        "R3:sidewell_safe_access",
+        "draft:R3-O02-W-CONTEXT"
+      ],
+      "execution": "explicit_action_at_actual_stand",
+      "content_version": "r3-author-candidate-1"
+    }
+  ],
+  "lexical_candidates": [
+    {
+      "id": "R3-LEX-01",
+      "headword": "bypass",
+      "gloss_zh": "旁路",
+      "definition_en": "a route or connection which avoids part of a system",
+      "collocation": "safety bypass",
+      "source_material": "R3-Q302-R-RAW",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-02",
+      "headword": "retained copy",
+      "gloss_zh": "留存副本",
+      "definition_en": "a copy kept for later inspection",
+      "collocation": "retain a source reference",
+      "source_material": "R3-Q302-R-COPY",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-03",
+      "headword": "signatory",
+      "gloss_zh": "签章人",
+      "definition_en": "a person who signs a document",
+      "collocation": "authorised signatory",
+      "source_material": "R3-Q302-R-SIGNED",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-04",
+      "headword": "acceptance",
+      "gloss_zh": "验收",
+      "definition_en": "a decision that delivered work meets stated requirements",
+      "collocation": "formal acceptance",
+      "source_material": "R3-Q302-R-SIGNED",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-05",
+      "headword": "allocation",
+      "gloss_zh": "分配",
+      "definition_en": "a decision about how available resources are shared",
+      "collocation": "revise an allocation",
+      "source_material": "R3-Q303-R-STOCK",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-06",
+      "headword": "provision",
+      "gloss_zh": "供给",
+      "definition_en": "a supply or arrangement made for a need",
+      "collocation": "basic provisions",
+      "source_material": "R3-Q301-R-BASIC",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-07",
+      "headword": "bounded",
+      "gloss_zh": "有边界的",
+      "definition_en": "limited by stated conditions or an end",
+      "collocation": "bounded operation",
+      "source_material": "R3-Q304-R-LOAD",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-08",
+      "headword": "handover",
+      "gloss_zh": "交接",
+      "definition_en": "a transfer of work or custody to another person",
+      "collocation": "actual handover receipt",
+      "source_material": "R3-Q304-R-HANDOVER",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-09",
+      "headword": "isolate",
+      "gloss_zh": "隔离",
+      "definition_en": "separate a damaged supply from a work area",
+      "collocation": "isolate the feed",
+      "source_material": "R3-Q301-R-PUMP",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-10",
+      "headword": "brace",
+      "gloss_zh": "固定支撑",
+      "definition_en": "secure a moving part using a support",
+      "collocation": "secure the arm",
+      "source_material": "R3-Q304-R-SEQUENCE",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-11",
+      "headword": "denominator",
+      "gloss_zh": "分母/统计范围",
+      "definition_en": "the total group to which a count or proportion refers",
+      "collocation": "state the denominator",
+      "source_material": "R3-Q302-L-CHECK",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-12",
+      "headword": "retrofit",
+      "gloss_zh": "改造",
+      "definition_en": "change existing equipment to serve an altered requirement",
+      "collocation": "retrofit work",
+      "source_material": "R3-Q303-R-DEMAND",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-13",
+      "headword": "scope",
+      "gloss_zh": "范围",
+      "definition_en": "the stated extent of an action or claim",
+      "collocation": "agreed scope",
+      "source_material": "R3-CQOREN01-R-AUX",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-14",
+      "headword": "custody",
+      "gloss_zh": "保管",
+      "definition_en": "responsibility for holding and transferring an item",
+      "collocation": "custody reference",
+      "source_material": "R3-Q304-L-TRANSFER",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-15",
+      "headword": "independent review",
+      "gloss_zh": "独立复核",
+      "definition_en": "a check by another suitable person",
+      "collocation": "repeat the test",
+      "source_material": "R3-CQOREN02-R-PARTS",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    },
+    {
+      "id": "R3-LEX-16",
+      "headword": "disturbance",
+      "gloss_zh": "扰动",
+      "definition_en": "a change recorded by the local indicator",
+      "collocation": "disturbance reading",
+      "source_material": "R3-Q301-R-ENVIRONMENT",
+      "review_status": "original_unreviewed",
+      "rights_status": "original_definition_human_pending",
+      "pronunciation_asset": "",
+      "pronunciation_status": "not_recorded"
+    }
+  ],
+  "artifact_boundary": "Learner materials, unfilled questions and visible work affordances only. Author answers, reward tables and validators are separate author-only files."
+}

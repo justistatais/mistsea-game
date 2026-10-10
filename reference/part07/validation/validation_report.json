@@ -1,0 +1,154 @@
+{
+  "tests_run": 79,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "success": true,
+  "elapsed_seconds": 0.007,
+  "counts": {
+    "talents": 36,
+    "core_equipment": 28,
+    "module_definitions": 8,
+    "main_reward_rows": 32
+  },
+  "main_only_levels": [
+    {
+      "chapter": "序章",
+      "cumulative_xp": 240,
+      "level": 3
+    },
+    {
+      "chapter": "盐雾港",
+      "cumulative_xp": 900,
+      "level": 6
+    },
+    {
+      "chapter": "苔林",
+      "cumulative_xp": 1920,
+      "level": 9
+    },
+    {
+      "chapter": "沉钟矿区",
+      "cumulative_xp": 3840,
+      "level": 13
+    },
+    {
+      "chapter": "玻璃学城",
+      "cumulative_xp": 6400,
+      "level": 17
+    },
+    {
+      "chapter": "失名旧都",
+      "cumulative_xp": 10500,
+      "level": 22
+    },
+    {
+      "chapter": "风暴边境",
+      "cumulative_xp": 16740,
+      "level": 28
+    },
+    {
+      "chapter": "终章",
+      "cumulative_xp": 19140,
+      "level": 30
+    }
+  ],
+  "build_statistics": [
+    {
+      "build": "BUILD-H",
+      "level": 30,
+      "hp": 384,
+      "focus": 6,
+      "initiative": 18,
+      "A": 132.4,
+      "T": 115.6,
+      "armor_bp": 2000,
+      "scope": "before conditional passive, relic and module effects"
+    },
+    {
+      "build": "BUILD-M",
+      "level": 30,
+      "hp": 384,
+      "focus": 11,
+      "initiative": 15,
+      "A": 134.0,
+      "T": 134.0,
+      "armor_bp": 2000,
+      "scope": "before conditional passive, relic and module effects"
+    },
+    {
+      "build": "BUILD-S",
+      "level": 30,
+      "hp": 432,
+      "focus": 11,
+      "initiative": 11,
+      "A": 134.0,
+      "T": 134.0,
+      "armor_bp": 1800,
+      "scope": "before conditional passive, relic and module effects"
+    },
+    {
+      "build": "BUILD-HM",
+      "level": 30,
+      "hp": 408,
+      "focus": 9,
+      "initiative": 16,
+      "A": 121.2,
+      "T": 126.0,
+      "armor_bp": 1800,
+      "scope": "before conditional passive, relic and module effects"
+    },
+    {
+      "build": "BUILD-Q102-H",
+      "level": 4,
+      "hp": 116,
+      "focus": 6,
+      "initiative": 11,
+      "A": 30.8,
+      "T": 26.4,
+      "armor_bp": 800,
+      "scope": "before conditional passive, relic and module effects"
+    },
+    {
+      "build": "BUILD-Q102-M",
+      "level": 4,
+      "hp": 116,
+      "focus": 7,
+      "initiative": 10,
+      "A": 31.2,
+      "T": 31.2,
+      "armor_bp": 800,
+      "scope": "before conditional passive, relic and module effects"
+    },
+    {
+      "build": "BUILD-Q102-ENTRY-H",
+      "level": 3,
+      "hp": 108,
+      "focus": 6,
+      "initiative": 10,
+      "A": 27.6,
+      "T": 24.4,
+      "armor_bp": 800,
+      "scope": "before conditional passive, relic and module effects"
+    },
+    {
+      "build": "BUILD-Q102-ENTRY-M",
+      "level": 3,
+      "hp": 108,
+      "focus": 7,
+      "initiative": 10,
+      "A": 28.0,
+      "T": 28.0,
+      "armor_bp": 800,
+      "scope": "before conditional passive, relic and module effects"
+    }
+  ],
+  "scope_limits": [
+    "no engine execution",
+    "no enemy or companion balance validated",
+    "no full economic policy proof",
+    "no hardware crash tests",
+    "no actual English grading or 6.5 calibration"
+  ],
+  "note": "Tests of declared constants are contract checks, not engine behavior validation. No claim that every listed talent proc has been executed."
+}

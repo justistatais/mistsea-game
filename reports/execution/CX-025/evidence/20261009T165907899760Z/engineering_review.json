@@ -1,0 +1,120 @@
+{
+  "task_id": "CX-025",
+  "scope": "用既有R1-S02至S07真实ID与灰盒几何建立六场景，不另造文字菜单版。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "14方向出口正确",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-025",
+            "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+            "result": "passed"
+          },
+          {
+            "task": "CX-025",
+            "name": "Missing paired entry preserves source actor and sequence",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "不可达站位有原因",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-025",
+            "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+            "result": "passed"
+          },
+          {
+            "task": "CX-025",
+            "name": "Missing paired entry preserves source actor and sequence",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "开内闩保持捷径",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-025",
+            "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+            "result": "passed"
+          },
+          {
+            "task": "CX-025",
+            "name": "Missing paired entry preserves source actor and sequence",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "加载失败留在安全状态",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-025",
+            "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+            "result": "passed"
+          },
+          {
+            "task": "CX-025",
+            "name": "Missing paired entry preserves source actor and sequence",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-025",
+        "name": "All fourteen directed exits walk, pair and restore the registered stand point",
+        "result": "passed"
+      },
+      {
+        "task": "CX-025",
+        "name": "Missing paired entry preserves source actor and sequence",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-024",
+    "CX-009"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

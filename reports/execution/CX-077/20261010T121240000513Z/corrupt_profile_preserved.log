@@ -1,0 +1,11 @@
+{"argv": ["C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe", "--headless", "--", "--release-probe"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 5}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+
+[stderr]
+WARNING: 'res://Main.tscn': In external resource #0, invalid UID: 'uid://bnj8cat1cbdbx' - using text path instead: 'res://Root.cs'.
+   at: open (core/io/resource_format_binary.cpp:1028)
+MISTSEA_BOOT_ERROR Mist.Application.Storage.MissingControlException: 删除控制库缺失。停止写入；请恢复原 control.sqlite，不能自动重建为世代零。
+   at Mist.Infrastructure.Storage.ProfileStore..ctor(String root, String releaseId, Action`1 fault, String recoveryBackupId)
+   at Root._Ready()

@@ -1,0 +1,97 @@
+{
+  "task_id": "CX-071",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/audit.json",
+      "sha256": "ff11b0e32adbfd89bf30ceafe0833c47bb57d2cc1a572b14c3008087654cd48b",
+      "bytes": 324385,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/audit.json"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0018.py",
+      "sha256": "f20b2bde8611463bb2c907672cbc86e6b073a5f68a22acd9337dd0efab8bf0ed",
+      "bytes": 31107,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0018.py"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0023.cs",
+      "sha256": "c4065725a1c0d095694702267b3f2b769df67cdfb395ec84a2d28fc6bf102c90",
+      "bytes": 6010,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0023.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0024.cs",
+      "sha256": "71c0aae733e7ba3892c94e1de71851f0a250e0990c726bd987dbe62e12a4e2bf",
+      "bytes": 1228,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0024.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0025.cs",
+      "sha256": "b1d28f952c0eaf81a83a891f722587a5d520d290e15f0581953d5483c0d3e6db",
+      "bytes": 4131,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0025.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0033.cs",
+      "sha256": "b883c0a2ebf543a07c3c8440b7af2e99196b3217449a0be61d51ac72e928cc93",
+      "bytes": 8748,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0033.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0034.cs",
+      "sha256": "ebcc02d9173e95f8100639ede55a32830a3251c13e42e0a7cdece93354167298",
+      "bytes": 12593,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0034.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0035.cs",
+      "sha256": "14f3259514c3878f5cb1450a2e9c0fc58f3a1e46fc82333fc56e8552a9cc2bc9",
+      "bytes": 2208,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0035.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0044.cs",
+      "sha256": "604e6bf29b5a78592564979477c625aa68d9ee40bcb473d2ef68a400a217add7",
+      "bytes": 25606,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0044.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0045.cs",
+      "sha256": "1db910443b222d5b8837d9d71b83ad993df57f5944c69d72106bf048d009273a",
+      "bytes": 1497,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0045.cs"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0046.md",
+      "sha256": "75bc1c3f479db1ca51e8551c47690352bb311216c33254b6dc0f0df14487726e",
+      "bytes": 1558,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0046.md"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0047.json",
+      "sha256": "1ed04b8ebda665e57fa2ca6cdb72f29b788b6d67c71692061260bb6023419174",
+      "bytes": 271,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0047.json"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/f0051.py",
+      "sha256": "19f1ee39577c5be5f5d0dd0b3bf0ae69e0add60ea231800f0f3d74d7af5e7114",
+      "bytes": 4539,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/f0051.py"
+    },
+    {
+      "path": "reports/execution/CX-071/evidence/20261010T123128449270Z/sources/reports/continuous/rt/a51c4333e5ad/origins.json",
+      "sha256": "148c9274810f6f312574b1f51f4c1186bf42bc8aa173b0f341847eccdb1efcdf",
+      "bytes": 20367,
+      "source_path_at_execution": "reports/continuous/rt/a51c4333e5ad/origins.json"
+    }
+  ],
+  "interface_schema_impact": {
+    "data_migration_needed": false,
+    "candidate_input_fingerprint": "a51c4333e5ad",
+    "short_source_origin_manifest": "reports/continuous/rt/a51c4333e5ad/origins.json",
+    "no_human_signature": true
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

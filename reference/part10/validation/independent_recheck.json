@@ -1,0 +1,22 @@
+{
+  "independent_extraction": true,
+  "manifest_checked_before_execution": true,
+  "reference": {
+    "run": 52,
+    "passed": 52,
+    "failures": 0,
+    "errors": 0
+  },
+  "browser": {
+    "run": 20,
+    "passed": 20,
+    "failed": 0,
+    "loader": "Playwright set_content; no navigation; opaque origin"
+  },
+  "source_hashes": {
+    "prototype/UI_Wireframe_v0.1.html": "46c0841c3616fab778d2711626962c19d97b94f9f07af7cafcc1a4563822b68a",
+    "validation/ui_reference.py": "4ae2c6e0410dfbfdad9c12f1bace955959bad8a63690f545f7d064bfb89abda8",
+    "validation/test_ui_reference.py": "d162f405fc0bcead256eabebd0ded6d102e6fe74743a56bb7d07c2fdcf4af941",
+    "validation/test_browser.py": "6c2d14c6859c92193a7dd3e1a098d316e4f6a4538d01e6d404b9c4c01932ed1c"
+  }
+}

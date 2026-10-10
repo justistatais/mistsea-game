@@ -1,0 +1,8 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "restore", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "--configfile", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config", "--locked-mode"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+  正在确定要还原的项目…
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj : error NU1004: 在锁定文件中找不到项目目标框架 net8.0。包锁定文件与项目依赖项不一致，因此无法在锁定模式下运行还原。请禁用 RestoreLockedMode MSBuild 属性或传递显式 --force-evaluate 选项，运行还原来更新锁定文件。 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\MistSea.sln]
+  未能还原 C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj (用时 1.37 秒)。
+  6 个项目(共 7 个)是最新的，无法还原。
+
+[stderr]

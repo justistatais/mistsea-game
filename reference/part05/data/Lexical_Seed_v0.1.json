@@ -1,0 +1,254 @@
+[
+  {
+    "id": "LEX-001",
+    "entry": "no more than",
+    "sense_zh": "数量不超过",
+    "paraphrase": "a maximum of",
+    "example": "The load must be no more than two tonnes.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-002",
+    "entry": "exceed",
+    "sense_zh": "超过允许数值",
+    "paraphrase": "go beyond",
+    "example": "The ferry exceeds the stated limit.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-003",
+    "entry": "provided that",
+    "sense_zh": "只要／条件是",
+    "paraphrase": "on condition that",
+    "example": "The room can be used provided that an attendant is present.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-004",
+    "entry": "subject to",
+    "sense_zh": "受某条件或限制约束",
+    "paraphrase": "dependent on the stated conditions",
+    "example": "The visit is subject to final approval.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-005",
+    "entry": "operational",
+    "sense_zh": "能正常工作的",
+    "paraphrase": "in working order",
+    "example": "The receiver is operational, but the cable is damaged.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-006",
+    "entry": "out of service",
+    "sense_zh": "暂停使用或不可用",
+    "paraphrase": "not available for use",
+    "example": "The lift is out of service.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-007",
+    "entry": "adequate",
+    "sense_zh": "足以满足特定需要的",
+    "paraphrase": "sufficient for the purpose",
+    "example": "The available storage is adequate for this shipment.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-008",
+    "entry": "revise",
+    "sense_zh": "根据新信息修订",
+    "paraphrase": "update or change",
+    "example": "Please revise the schedule after the inspection.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-009",
+    "entry": "contradict",
+    "sense_zh": "与陈述相冲突",
+    "paraphrase": "conflict with",
+    "example": "The dated record contradicts that account.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-010",
+    "entry": "carry out",
+    "sense_zh": "执行某项工作",
+    "paraphrase": "perform",
+    "example": "The crew will carry out the inspection.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-011",
+    "entry": "hold off",
+    "sense_zh": "暂缓行动",
+    "paraphrase": "wait before acting",
+    "example": "Hold off until the route has been checked.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-012",
+    "entry": "until",
+    "sense_zh": "直到所述时点；在本否定句例子中，限制持续到该时点",
+    "paraphrase": "up to the point when",
+    "example": "Do not leave until the check is complete.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-013",
+    "entry": "whereas",
+    "sense_zh": "对比两种情况",
+    "paraphrase": "while, in contrast",
+    "example": "The first plan reduces cost, whereas the second saves time.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-014",
+    "entry": "account for",
+    "sense_zh": "解释某结果的原因这一义项",
+    "paraphrase": "explain",
+    "example": "The damaged bridge may account for the delay.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-015",
+    "entry": "capacity",
+    "sense_zh": "可容纳或处理的最大量这一义项",
+    "paraphrase": "maximum amount that can be held or handled",
+    "example": "The hall has a capacity of eighty people.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-016",
+    "entry": "allocation",
+    "sense_zh": "资源分配这一义项",
+    "paraphrase": "assignment of resources",
+    "example": "The allocation should reflect local needs.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-017",
+    "entry": "consistent with",
+    "sense_zh": "与现有证据相符但不等于证明",
+    "paraphrase": "compatible with",
+    "example": "The result is consistent with the earlier report.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  },
+  {
+    "id": "LEX-018",
+    "entry": "clarify",
+    "sense_zh": "使含义或要求更清楚",
+    "paraphrase": "make clear",
+    "example": "Ask the supervisor to clarify the instruction.",
+    "modalities_tracked_separately": [
+      "reading",
+      "listening",
+      "writing"
+    ],
+    "band_assignment": "teaching_selection_not_official_word_band",
+    "origin": "original_editorial_entry"
+  }
+]

@@ -1,0 +1,26 @@
+{"argv": ["D:\\Python312\\python.exe", "-X", "utf8", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py", "chapter-six-client-test"], "exit_code": 1}
+[stdout]
+RUN sdk_version
+EXIT 0
+RUN godot_import
+EXIT 0
+RUN client_tests
+EXIT 1
+
+[stderr]
+Traceback (most recent call last):
+  File "C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\ci\build.py", line 155, in <module>
+    if __name__ == "__main__": main()
+                               ^^^^^^
+  File "C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\ci\build.py", line 136, in main
+    output = run("client_smoke" if action == "smoke" else "client_tests", [godot, "--headless", "--path", str(ROOT / "game"), "--", "--"+action])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\ci\build.py", line 69, in run
+    elif r.returncode != 0 or "ERROR:" in stderr: raise RuntimeError("Command failed: "+label+"; full output: "+str(log)+"\n"+(stdout+stderr)[-8000:])
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Command failed: client_tests; full output: C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\reports\build\20261010T093135956002Z\client_tests.log
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+MISTSEA_CLIENT_BOOT 0.1-internal
+MISTSEA_CHAPTER_SIX_CLIENT_TESTS 59 failures=3
+

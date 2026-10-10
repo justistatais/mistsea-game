@@ -1,0 +1,116 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 21,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-R1-03",
+      "name": "Three new grayboxes have paired exits and safe paths to every actual source/work station",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "life_geometry_reuses_original_inn_approach_and_rejects_duplicate_targets_without_changing_main_ports",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_zero_XP_prologue_registration_then_optional_inn_produces_one_25XP_result_without_mainline_changes",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "two_real_optional_spaces_have_reciprocal_ports_full_bilingual_materials_and_no_encounter_inflation",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "undiscovered_optional_entry_and_remote_actions_do_not_move_or_grant_work",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "copies_dates_and_two_room_constraints_are_actual_checked_records_not_three_bookings",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "guest_and_room_inspection_cannot_be_replaced_by_only_opening_letters",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "script_first_or_letter_first_leads_to_same_real_room_allocation_without_audio_claim",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "inn_pause_continue_uses_same_instance_and_real_clock_never_evicts_guests",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "innkeeper_foreground_occupation_delays_acceptance_without_cloning_or_consuming_reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "inn_reward_replay_and_reopen_have_one_semantic_receipt_and_no_new_credit",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "changed_saved_confirmation_invalidates_preview_and_does_not_half_award",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "declining_inn_and_pausing_show_does_not_add_mainline_or_ending_requirements",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_theatre_FullIndoor_has_finite_local_objects_roles_programme_and_zero_reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_theatre_SmallDaylight_has_finite_local_objects_roles_programme_and_zero_reward",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "lamp_changes_invalidate_actual_test_and_cannot_power_without_own_brace_cell",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "props_transfer_once_and_duplicate_install_does_not_consume_or_create_items",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "one_actor_two_roles_wrong_time_or_unprepared_programme_is_rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "restored_scene_is_unavailable_before_actual_programme_receipt",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "old_load_submission_preview_cannot_issue_inn_reward",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

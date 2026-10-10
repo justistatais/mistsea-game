@@ -1,0 +1,858 @@
+{
+  "schema_version": "0.1",
+  "task_id": "CX-076",
+  "result": "implemented",
+  "source_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "working_tree_manifest": "reports/execution/CX-076/evidence/20261010T123135647829Z/working_tree.json",
+  "build_id": "20261010T123135647829Z",
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "architecture": "AMD64",
+    "godot": "4.7.2.stable.mono.official.ed1daf0bf",
+    "dotnet": "10.0.401 / net10.0",
+    "sqlite_native": "3.53.3"
+  },
+  "artifacts": [
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/planning/plan.json",
+      "sha256": "9f5e000cd2298026f0e9189b3cabb2c8b17c6cf51d9ae3057fd9b353b4d54afa",
+      "bytes": 242610,
+      "source_path_at_execution": "planning/plan.json"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/reports/continuous/finish_recovery_candidate.py",
+      "sha256": "160f6d9d87064f91e15d639215357778bf84806268199acf0e87d2ce9e84bcfb",
+      "bytes": 16130,
+      "source_path_at_execution": "reports/continuous/finish_recovery_candidate.py"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/reports/continuous/finish_release_candidates.py",
+      "sha256": "a09275cb70990b8138db8698efcbb5efd9cc1dee5ec7c416d5cc02154ccdac6f",
+      "bytes": 35178,
+      "source_path_at_execution": "reports/continuous/finish_release_candidates.py"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/reports/release/ev/41260df631aefa33.json",
+      "sha256": "62f332d2585942be8e6ec45b6472920ac78330156dfe10b2711e1bc053f330bb",
+      "bytes": 271655,
+      "source_path_at_execution": "reports/release/ev/41260df631aefa33.json"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/tests/Mist.Tests/WindowsRecovery/WindowsRecoveryCases.cs",
+      "sha256": "b3168f9c8035101e3c0060d4ffc6583539823b1735384968c916b7835916a066",
+      "bytes": 38714,
+      "source_path_at_execution": "tests/Mist.Tests/WindowsRecovery/WindowsRecoveryCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/tools/recovery/AuditRecoverySource.ps1",
+      "sha256": "d7803f98e035535366d074c9f69190c1fc0d079120841cfb6f8022a516c71bb7",
+      "bytes": 2653,
+      "source_path_at_execution": "tools/recovery/AuditRecoverySource.ps1"
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/sources/tools/recovery/README.md",
+      "sha256": "5bf6e9119927f6aec0e3b8177fce9c230eeba10bd3955506427517f80e3d488c",
+      "bytes": 3305,
+      "source_path_at_execution": "tools/recovery/README.md"
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/sdk_version.log",
+      "sha256": "d41e92c7df29dc63fe1a843e1d49b30cf5574975c79569683dc6ce323b95bdb9",
+      "bytes": 254
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/restore.log",
+      "sha256": "b5de1101e3308a411aa1adbaae5f134a5801dfa92fccb2e7a453f0e683f3fcd0",
+      "bytes": 1160
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/build.log",
+      "sha256": "f97c612afd26c747da31acfcddf9a196e265e59ca6646da57c9ef0d1720fd798",
+      "bytes": 1634
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/tests.log",
+      "sha256": "5db2a08e03001031c668033234e61b0fccb91f98e0d1549ec6a8451353ed28ea",
+      "bytes": 106125
+    },
+    {
+      "path": "reports/build/20261010T111545212936Z/runner_failure_probe.log",
+      "sha256": "e146882fc208373069730ac8b4c31e62353c268b55431aa37be12c2ac8bdbe11",
+      "bytes": 425
+    },
+    {
+      "path": "reports/execution/CX-077/20261010T121240000513Z/godot_import.log",
+      "sha256": "05b6bb036418a7365b06bc3194f61e2eb66c69f0b6b81ee46eed652b95c7c0d0",
+      "bytes": 1323
+    },
+    {
+      "path": "reports/execution/CX-077/20261010T121240000513Z/windows_export.log",
+      "sha256": "494fa6b329e0480821fdc4d3779769ba65083509d35c5e6a554ec2ed843fa94e",
+      "bytes": 17913
+    },
+    {
+      "path": "reports/execution/CX-077/20261010T121240000513Z/bundled_runtime_new_game.log",
+      "sha256": "fe6491b951bea86f5e106de8d99e0daad117d438494523892145103024e78acd",
+      "bytes": 1168
+    },
+    {
+      "path": "reports/execution/CX-077/20261010T121240000513Z/bundled_runtime_reopen.log",
+      "sha256": "fe6491b951bea86f5e106de8d99e0daad117d438494523892145103024e78acd",
+      "bytes": 1168
+    },
+    {
+      "path": "reports/execution/CX-077/20261010T121240000513Z/corrupt_profile_preserved.log",
+      "sha256": "43a7fa25af0fed88cab0bb27c255597fa2e0fbecfc173fd83091330b2fce1830",
+      "bytes": 952
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/git_head.log",
+      "sha256": "ba842fd68fd4207e51a84b719285fffbca73ae9842ec40ef27163708f04d926a",
+      "bytes": 41
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/state_before.json",
+      "sha256": "a97d7b8e12e3d5b09377f0716b3ef0994c0de952c42b97b743d8dc5bc2fb64ef",
+      "bytes": 33149
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/state_after.json",
+      "sha256": "a97d7b8e12e3d5b09377f0716b3ef0994c0de952c42b97b743d8dc5bc2fb64ef",
+      "bytes": 33149
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/engineering_review.json",
+      "sha256": "e574fa003098ae8c556bceb1989323b3f2daecf1332edabb52a63a217e556289",
+      "bytes": 24556
+    },
+    {
+      "path": "reports/execution/CX-076/evidence/20261010T123135647829Z/working_tree.json",
+      "sha256": "9fd4df40f4d25c1234006080e59a1e5db4249b56ebe9411d1dc0e07060d3291d",
+      "bytes": 2683
+    }
+  ],
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T111545212936Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--locked-mode"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T111545212936Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "-c",
+        "Debug",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T111545212936Z/build.log"
+    },
+    {
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\full_suite.py",
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T111545212936Z/tests.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+        "--fail-probe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 7,
+      "output_path": "reports/build/20261010T111545212936Z/runner_failure_probe.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "Expected refusal or explicit failure probe: intentional test runner failure"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/godot_import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--export-release",
+        "Windows Desktop",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/windows_export.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe",
+        "--headless",
+        "--",
+        "--release-probe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/bundled_runtime_new_game.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe",
+        "--headless",
+        "--",
+        "--release-probe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/bundled_runtime_reopen.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe",
+        "--headless",
+        "--",
+        "--release-probe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 5,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/corrupt_profile_preserved.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "MISTSEA_BOOT_ERROR"
+    }
+  ],
+  "acceptance_results": [
+    {
+      "criterion": "原库不被坏迁移覆盖",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-076",
+            "name": "Windows deep Unicode profile migrates backups restores and reopens with rollback journals beyond MAX_PATH",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Windows deep migration interruption preserves original bytes and active pointer with valid unpromoted candidate",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/41260df631aefa33.json",
+        "limitations": [
+          "Physical power interruption; actual child termination remains a separate isolated check",
+          "Physical system disk-full; SQLite max-page quota is a narrower actual service failure",
+          "Different clean Windows machine, physical IME, screen reader and human recovery validation",
+          "Complete exported native UX matrix for all fault types; named lock/save/export/retry checks do not cover every type"
+        ]
+      }
+    },
+    {
+      "criterion": "旧稿和学习范围正确",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-076",
+            "name": "Windows deep Unicode profile migrates backups restores and reopens with rollback journals beyond MAX_PATH",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Windows deep migration interruption preserves original bytes and active pointer with valid unpromoted candidate",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/41260df631aefa33.json",
+        "limitations": [
+          "Physical power interruption; actual child termination remains a separate isolated check",
+          "Physical system disk-full; SQLite max-page quota is a narrower actual service failure",
+          "Different clean Windows machine, physical IME, screen reader and human recovery validation",
+          "Complete exported native UX matrix for all fault types; named lock/save/export/retry checks do not cover every type"
+        ]
+      }
+    },
+    {
+      "criterion": "进程终止与物理断电分开",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-076",
+            "name": "Windows deep Unicode profile migrates backups restores and reopens with rollback journals beyond MAX_PATH",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Windows deep migration interruption preserves original bytes and active pointer with valid unpromoted candidate",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/41260df631aefa33.json",
+        "limitations": [
+          "Physical power interruption; actual child termination remains a separate isolated check",
+          "Physical system disk-full; SQLite max-page quota is a narrower actual service failure",
+          "Different clean Windows machine, physical IME, screen reader and human recovery validation",
+          "Complete exported native UX matrix for all fault types; named lock/save/export/retry checks do not cover every type"
+        ]
+      }
+    },
+    {
+      "criterion": "无法验证明确not_run",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-076",
+            "name": "Windows deep Unicode profile migrates backups restores and reopens with rollback journals beyond MAX_PATH",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Windows deep migration interruption preserves original bytes and active pointer with valid unpromoted candidate",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/41260df631aefa33.json",
+        "limitations": [
+          "Physical power interruption; actual child termination remains a separate isolated check",
+          "Physical system disk-full; SQLite max-page quota is a narrower actual service failure",
+          "Different clean Windows machine, physical IME, screen reader and human recovery validation",
+          "Complete exported native UX matrix for all fault types; named lock/save/export/retry checks do not cover every type"
+        ]
+      }
+    }
+  ],
+  "not_run": [
+    "Physical power interruption; actual child termination remains a separate isolated check",
+    "Physical system disk-full; SQLite max-page quota is a narrower actual service failure",
+    "Different clean Windows machine, physical IME, screen reader and human recovery validation",
+    "Complete exported native UX matrix for all fault types; named lock/save/export/retry checks do not cover every type"
+  ],
+  "blocked_reasons": [],
+  "review": {
+    "required_role": "Codex工程实现",
+    "reviewer": "Codex /root（工程自检，无真人签核）",
+    "decision": "partial",
+    "is_synthetic": false,
+    "evidence": [
+      "reports/execution/CX-076/evidence/20261010T123135647829Z/engineering_review.json"
+    ]
+  },
+  "data_migration": {
+    "needed": false,
+    "record": null
+  },
+  "language_calibration": {
+    "status": "not_performed",
+    "evidence": null
+  },
+  "notes": "真实工程检查与产物快照；尚缺任务验收项记implemented，全部工程项通过但缺依赖记verified。未声明任何真人或正式发布验收。source_commit定位既有父仓库，当前MistSea源码由快照标识。",
+  "test_results": {
+    "executed": 16,
+    "failed": 0,
+    "results": [
+      {
+        "task": "CX-076",
+        "name": "Windows deep Unicode profile migrates backups restores and reopens with rollback journals beyond MAX_PATH",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Windows deep migration interruption preserves original bytes and active pointer with valid unpromoted candidate",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+        "result": "passed"
+      }
+    ],
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "native_ux": [
+      {
+        "directory": "reports/execution/CX-076/native-ux-20261010T121658185119Z",
+        "missing": [],
+        "run_input_binding": {
+          "status": "passed"
+        },
+        "actual_source_sqlite_binding": {
+          "status": "passed",
+          "source_case": {
+            "index": 465,
+            "task": "CP-R1-03",
+            "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts"
+          },
+          "source_profile": "reports/build/20261010T111545212936Z/case_runs/0465/testdata/normal-r1-life-native-entry",
+          "active_database": "reports/execution/CX-076/native-ux-20261010T121658185119Z/profile/recovery/inventory-v2-843db32c-b4ba-4ed2-a62c-adba9e809735.sqlite",
+          "exact_saved_heads": [
+            {
+              "task": "Q-102:departure-plan",
+              "revision": 3,
+              "body_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c"
+            }
+          ],
+          "zero_xp_normal_creation": true,
+          "scope": "Actual full-suite entry summary plus pointer-selected source/current SQLite; no summary receipts required"
+        },
+        "executable_kind": "exported_release",
+        "initial_process": 29036,
+        "reopened_process": 16600,
+        "exported_exe_save_failure_export_retry": "passed",
+        "exported_exe_reopen_exact_document": "passed",
+        "recovery_ux_check": "passed",
+        "document_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c",
+        "export_file": {
+          "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\app_userdata\\雾海档案：第七座灯塔\\draft-exports\\Q102-20261010122318400.txt",
+          "sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c",
+          "bytes": 231
+        },
+        "actual_database_audit": {
+          "integrity": "ok",
+          "world_and_rewards_unchanged": true,
+          "saved_body_exact_after_process_exit": true,
+          "world_comparison": {
+            "entities": {
+              "before": {
+                "rows": 36,
+                "sha256": "86d476800946038ce3d5782c632b8a1fb90d455bd935e9b66f91e9f823628cb8"
+              },
+              "after": {
+                "rows": 36,
+                "sha256": "86d476800946038ce3d5782c632b8a1fb90d455bd935e9b66f91e9f823628cb8"
+              }
+            },
+            "balances": {
+              "before": {
+                "rows": 3,
+                "sha256": "c7026fe7253713cff7899e7618fe86c677597d3ca44327c5db68588146dc172b"
+              },
+              "after": {
+                "rows": 3,
+                "sha256": "c7026fe7253713cff7899e7618fe86c677597d3ca44327c5db68588146dc172b"
+              }
+            },
+            "items": {
+              "before": {
+                "rows": 12,
+                "sha256": "55d16bbacd5377c35f07242a1b6c012a2d435787fb1f4c7bba1cb3812fb2f5f6"
+              },
+              "after": {
+                "rows": 12,
+                "sha256": "55d16bbacd5377c35f07242a1b6c012a2d435787fb1f4c7bba1cb3812fb2f5f6"
+              }
+            },
+            "receipts": {
+              "before": {
+                "rows": 120,
+                "sha256": "b648de82c380792c97a405f64e727efbae7670c7e246bc1c8fc7ff538fae1835"
+              },
+              "after": {
+                "rows": 120,
+                "sha256": "b648de82c380792c97a405f64e727efbae7670c7e246bc1c8fc7ff538fae1835"
+              }
+            }
+          },
+          "matching_saved_heads": [
+            {
+              "task": "Q-102:departure-plan",
+              "revision": 3,
+              "body_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c"
+            }
+          ]
+        },
+        "scope": "Only actual named lock/save/export/retry/reopen checks; not the whole exported recovery fault matrix.",
+        "physical_power": "not_run",
+        "physical_disk_full": "not_run",
+        "physical_ime": "not_run",
+        "screen_reader": "not_run",
+        "clean_machine": "not_run",
+        "human_signoff": null
+      }
+    ]
+  },
+  "pending_dependencies": [
+    "CX-072",
+    "CX-075"
+  ],
+  "executed_at": "2026-10-10T12:31:36.135858+00:00"
+}

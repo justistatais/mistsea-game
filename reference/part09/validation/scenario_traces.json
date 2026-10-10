@@ -1,0 +1,116 @@
+{
+  "scope": "structured finite fixtures, not actual English understanding or complete quest execution",
+  "disclosure": [
+    {
+      "step": "preview",
+      "messages": 0
+    },
+    {
+      "step": "change_recipient",
+      "result": "disclosure_scope_not_permitted",
+      "messages": 0
+    },
+    {
+      "step": "confirmed_scoped_delivery",
+      "result": {
+        "receipt": "review-W04@1",
+        "payload_digest": "9e5836a5ccb6ec6c04ff5b3e7f4a893afd70218fde2b726c97504919d487af0a",
+        "recipients": [
+          "reviewer"
+        ],
+        "fields": [
+          "statement"
+        ],
+        "purpose": "review",
+        "consent_revision": 1
+      }
+    },
+    {
+      "step": "new_command_same_delivery",
+      "messages": 1
+    }
+  ],
+  "relationship": [
+    {
+      "event": "work_accepted",
+      "view": {
+        "work": "working",
+        "private": "not_invited",
+        "positions": {},
+        "unresolved": [],
+        "repairs": {}
+      }
+    },
+    {
+      "event": "ongoing_agreement",
+      "view": {
+        "work": "ongoing",
+        "private": "not_invited",
+        "positions": {},
+        "unresolved": [],
+        "repairs": {}
+      }
+    },
+    {
+      "event": "issue_position",
+      "view": {
+        "work": "ongoing",
+        "private": "not_invited",
+        "positions": {
+          "policy": "oppose"
+        },
+        "unresolved": [],
+        "repairs": {}
+      }
+    },
+    {
+      "event": "promise_accepted",
+      "view": {
+        "work": "ongoing",
+        "private": "not_invited",
+        "positions": {
+          "policy": "oppose"
+        },
+        "unresolved": [],
+        "repairs": {}
+      }
+    },
+    {
+      "event": "promise_breached",
+      "view": {
+        "work": "repair_pending",
+        "private": "not_invited",
+        "positions": {
+          "policy": "oppose"
+        },
+        "unresolved": [
+          "private-note"
+        ],
+        "repairs": {}
+      }
+    },
+    {
+      "event": "repair_accepted",
+      "view": {
+        "work": "ongoing",
+        "private": "not_invited",
+        "positions": {
+          "policy": "oppose"
+        },
+        "unresolved": [],
+        "repairs": {
+          "private-note": "verified-hand-over"
+        }
+      }
+    }
+  ],
+  "ending_baseline": [
+    "limited_central",
+    "local_disconnect"
+  ],
+  "ending_prepared": [
+    "limited_central",
+    "local_disconnect",
+    "distributed"
+  ]
+}

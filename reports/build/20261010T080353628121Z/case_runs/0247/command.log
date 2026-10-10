@@ -1,0 +1,21 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--case-index=247"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1", "exit_code": 1, "scope": "one exact compiled registry case with its own disposable profiles"}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CX-049",
+      "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: \u5148\u5B9E\u9645\u5B8C\u6210\u4FA7\u95F8\u6216\u5916\u95F8\u7684\u4E00\u6761\u5854\u57FA\u901A\u884C\u5904\u7F6E\uFF1B\u5B83\u4E0D\u4EE3\u66FF\u5854\u4E3B\u673A\u5B89\u5168\u3002\r\n   at Mist.Application.ChapterOne.ChapterOneService.EnterPortAsync(String portId) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\ChapterOne\\ChapterOneService.cs:line 80\r\n   at Mist.Tests.Storage.StorageCases.Done[T](ValueTask\u00601 value) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Storage\\StorageCases.cs:line 19\r\n   at Mist.Tests.ChapterOne.ChapterOneCases.Run.Exit(String scene) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterOne\\ChapterOneCases.cs:line 42\r\n   at Mist.Tests.ChapterOne.ChapterOneCases.\u003C\u003Ec.\u003CRegister\u003Eb__10_5() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterOne\\ChapterOneCases.cs:line 140\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 34"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

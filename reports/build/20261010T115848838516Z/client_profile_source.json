@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T111545212936Z",
+  "selected_case": {
+    "index": 546,
+    "task": "CP-NPC-LIFE",
+    "name": "Normal native-entry profile has actual recruited crew and no opened life scene"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "fcfb0f243e7e231f328c20f2bdadd9309b113f779dc3ab68fcf4cbd16883b289",
+  "source_active_database": "reports/build/20261010T111545212936Z/case_runs/0546/testdata/vessel-life-native-entry-e584c072-287c-4beb-b983-1e4ca6083a68/recovery/inventory-v2-0b14bb21-d628-4d37-90cd-d1a58fd8b39b.sqlite",
+  "source_active_database_sha256": "7b430e582201bfca5d2e64fba7c03da9e1846ddd41dfa2f6054880a4ff726bd9",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T111545212936Z",
+  "source": "reports/build/20261010T111545212936Z/case_runs/0546/testdata/vessel-life-native-entry-e584c072-287c-4beb-b983-1e4ca6083a68/recovery/normal-vessel-life-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 546,
+    "task": "CP-NPC-LIFE",
+    "name": "Normal native-entry profile has actual recruited crew and no opened life scene"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "796fbd70c76151cc5b941658004969d5c00f8f8e3767f940853af36e4151e664",
+  "case_command_sha256": "0caa947e0080c11d1446f5d5b6f78378708326d7814025951125f1a898736ca3",
+  "proof_sha256": "fcfb0f243e7e231f328c20f2bdadd9309b113f779dc3ab68fcf4cbd16883b289",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "46afcc52cf4a2b4f8fdb38a41cad33f855fd67417c84c7d54a9c4efbd0b9868e"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "2c5835c26632a3966d05725158ec1fca192811f5fcf30094f631abf529096abf"
+    },
+    {
+      "path": "recovery/inventory-v2-0b14bb21-d628-4d37-90cd-d1a58fd8b39b.sqlite",
+      "sha256": "7b430e582201bfca5d2e64fba7c03da9e1846ddd41dfa2f6054880a4ff726bd9"
+    },
+    {
+      "path": "recovery/normal-r2-main.json",
+      "sha256": "3ee4e98866cb6ec1491a03cc95b8310c21b610ec586774b64051133743235cd1"
+    },
+    {
+      "path": "recovery/normal-vessel-life-native-entry.json",
+      "sha256": "fcfb0f243e7e231f328c20f2bdadd9309b113f779dc3ab68fcf4cbd16883b289"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0546/testdata/vessel-life-native-entry-e584c072-287c-4beb-b983-1e4ca6083a68/control.sqlite",
+      "sha256": "46afcc52cf4a2b4f8fdb38a41cad33f855fd67417c84c7d54a9c4efbd0b9868e",
+      "copied_before_native_sha256": "46afcc52cf4a2b4f8fdb38a41cad33f855fd67417c84c7d54a9c4efbd0b9868e"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0546/testdata/vessel-life-native-entry-e584c072-287c-4beb-b983-1e4ca6083a68/profile.sqlite",
+      "sha256": "2c5835c26632a3966d05725158ec1fca192811f5fcf30094f631abf529096abf",
+      "copied_before_native_sha256": "2c5835c26632a3966d05725158ec1fca192811f5fcf30094f631abf529096abf"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0546/testdata/vessel-life-native-entry-e584c072-287c-4beb-b983-1e4ca6083a68/recovery/inventory-v2-0b14bb21-d628-4d37-90cd-d1a58fd8b39b.sqlite",
+      "sha256": "7b430e582201bfca5d2e64fba7c03da9e1846ddd41dfa2f6054880a4ff726bd9",
+      "copied_before_native_sha256": "7b430e582201bfca5d2e64fba7c03da9e1846ddd41dfa2f6054880a4ff726bd9"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0546/testdata/vessel-life-native-entry-e584c072-287c-4beb-b983-1e4ca6083a68/recovery/normal-r2-main.json",
+      "sha256": "3ee4e98866cb6ec1491a03cc95b8310c21b610ec586774b64051133743235cd1",
+      "copied_before_native_sha256": "3ee4e98866cb6ec1491a03cc95b8310c21b610ec586774b64051133743235cd1"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0546/testdata/vessel-life-native-entry-e584c072-287c-4beb-b983-1e4ca6083a68/recovery/normal-vessel-life-native-entry.json",
+      "sha256": "fcfb0f243e7e231f328c20f2bdadd9309b113f779dc3ab68fcf4cbd16883b289",
+      "copied_before_native_sha256": "fcfb0f243e7e231f328c20f2bdadd9309b113f779dc3ab68fcf4cbd16883b289"
+    }
+  ]
+}

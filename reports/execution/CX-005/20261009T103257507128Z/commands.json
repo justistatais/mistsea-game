@@ -1,0 +1,51 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+      "--headless",
+      "--path",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\exports\\OfflineCandidate",
+      "--export-release",
+      "Windows Desktop",
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103257507128Z\\export\\OfflineCandidate.exe"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-005/20261009T103257507128Z/export.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103257507128Z\\export\\OfflineCandidate.exe",
+      "--headless",
+      "--",
+      "--candidate-save"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-005/20261009T103257507128Z/export_runtime.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103257507128Z\\export\\OfflineCandidate.exe",
+      "--headless",
+      "--",
+      "--candidate-read"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 0,
+    "output_path": "reports/execution/CX-005/20261009T103257507128Z/reopen_saved_draft.log"
+  },
+  {
+    "argv": [
+      "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-005\\20261009T103257507128Z\\export\\OfflineCandidate.exe",
+      "--headless",
+      "--",
+      "--candidate-read"
+    ],
+    "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+    "exit_code": 4,
+    "output_path": "reports/execution/CX-005/20261009T103257507128Z/corrupt_database_diagnostic.log",
+    "expected_nonzero_proven": true,
+    "expected_failure_reason": "Existing database contains invalid bytes; must diagnose without resetting it."
+  }
+]

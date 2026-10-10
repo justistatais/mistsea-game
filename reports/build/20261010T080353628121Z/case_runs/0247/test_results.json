@@ -1,0 +1,17 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CX-049",
+      "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: 先实际完成侧闸或外闸的一条塔基通行处置；它不代替塔主机安全。\r\n   at Mist.Application.ChapterOne.ChapterOneService.EnterPortAsync(String portId) in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\ChapterOne\\ChapterOneService.cs:line 80\r\n   at Mist.Tests.Storage.StorageCases.Done[T](ValueTask`1 value) in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Storage\\StorageCases.cs:line 19\r\n   at Mist.Tests.ChapterOne.ChapterOneCases.Run.Exit(String scene) in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterOne\\ChapterOneCases.cs:line 42\r\n   at Mist.Tests.ChapterOne.ChapterOneCases.<>c.<Register>b__10_5() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\ChapterOne\\ChapterOneCases.cs:line 140\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 34"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

@@ -1,0 +1,25 @@
+{
+  "version": "rf-balance-3",
+  "previous_version": "rf-balance-2",
+  "strategy_version": "rf-controller-2",
+  "review_status": "original_unreviewed_human_pending",
+  "player_projection": false,
+  "task": "CX-073",
+  "previous_actual_report": "reports/build/20261010T052306626026Z",
+  "previous_actual_execution": { "executed": 13, "failed": 1, "failure": "S core 11 rounds outside the unchanged 8–10 engineering window" },
+  "previous_actual_rounds": {
+    "H": { "rook": 6, "core": 9 },
+    "M": { "rook": 6, "core": 9 },
+    "S": { "rook": 7, "core": 11 },
+    "Mixed": { "rook": 6, "core": 10 }
+  },
+  "change": { "subject": "rf-central", "field": "standard_max_hp", "v1": 1900, "v2": 1500, "v3": 1400 },
+  "reason": "Three real legal 28-level builds meet both tempo windows and the mixed margin threshold. S completes the actual controlled-stop encounter with HP174/339/269 and one unused aid, but takes eleven rounds. Reduce only the central resistance capacity by 100; no style-specific damage bonus or threshold relaxation.",
+  "preserved": [ "rf-controller-2", "Rook1000 and two guards180", "two finite relays180", "all enemy damage", "all armor and pressure thresholds", "all controls and per-slot limits", "70/35/1 capacity-derived floors", "same-attempt resources", "difficulty multiplier", "actual 28-level party", "Rook5–8 and core8–10 assertions", "mixed two-seat and20percent engineering threshold", "world rewards and ending eligibility" ],
+  "standard_phase_floors": [980, 490, 1],
+  "version_access": "FinaleEncounterFactory.Attach retains explicit rf-balance-1 and rf-balance-2; fresh default entries use rf-balance-3 and persist the version in their actual entry receipt. Existing loaded encounters keep their saved capacities.",
+  "candidate_result": null,
+  "human_play_seconds": null,
+  "next_execution": "Root serial CP-RF-03 actual zero-XP four-build routes plus original mechanism regressions, then native and full integration; no execution by this subagent.",
+  "pending": [ "v3 actual run", "human 6–10 minute experience", "other difficulties and recruitment/equipment variants", "language and audio rights review" ]
+}

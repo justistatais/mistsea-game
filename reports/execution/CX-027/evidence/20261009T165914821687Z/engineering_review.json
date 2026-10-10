@@ -1,0 +1,94 @@
+{
+  "task_id": "CX-027",
+  "scope": "实现active/focused/isolated/disabled与双向扫描风险，保留内闩捷径。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "阅读不取消保持",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-027",
+            "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "无需拆船电池",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-027",
+            "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "潜入返回不穿扫描",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-027",
+            "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "改变方法不重置物品或奖励",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-027",
+            "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-027",
+        "name": "Focused side route avoids bidirectional scan; latch remains open after reactivation",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-026"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

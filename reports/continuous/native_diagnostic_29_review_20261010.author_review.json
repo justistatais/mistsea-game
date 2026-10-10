@@ -1,0 +1,3846 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-10T10:05:15.637040+00:00",
+  "scope": "Author read-only review of the actual pre-fix 29-action native diagnostic chronology: 26 passed, 3 failed, with all failed named checks retained. No test, native run, build, source edit, ledger update or acceptance occurs in this report generation.",
+  "summary": {
+    "actual_unique_actions": 29,
+    "passed_actions": 26,
+    "failed_actions": 3,
+    "failed_named_checks": 7,
+    "all_29_passed": false,
+    "three_original_failures_preserved": true,
+    "combined_from_completed_unique_actual_actions_only": true,
+    "first_sweep_25_completed": false
+  },
+  "segments": [
+    {
+      "directory": "reports/continuous/native_sequence_20261010T092413026504Z",
+      "progress": {
+        "path": "reports/continuous/native_sequence_20261010T092413026504Z/progress.json",
+        "bytes": 2319,
+        "sha256": "48735dcd8ed1c4ebb1f50236eadc1ea8bda6d5ebed41772d906c10f0708be68a"
+      },
+      "scope": "actual serial native probes; no human acceptance",
+      "recorded_runs": 4,
+      "passed": 3,
+      "failed": 1,
+      "actions": [
+        "client-test",
+        "campaign-client-test",
+        "vessel-client-test",
+        "chapter-two-client-test"
+      ],
+      "termination_boundary": "stopped_on_first_failed_action",
+      "twenty_five_completion_claim": null
+    },
+    {
+      "directory": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z",
+      "progress": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/progress.json",
+        "bytes": 3925,
+        "sha256": "f8c08e650cdcc4d47c15cebee39c0e8e3ebfdcad35304577358d6ee33466dd76"
+      },
+      "scope": "actual diagnostic sweep; failures preserved; no final qualification or human signoff",
+      "recorded_runs": 4,
+      "passed": 2,
+      "failed": 2,
+      "actions": [
+        "chapter-three-client-test",
+        "chapter-four-client-test",
+        "chapter-five-client-test",
+        "chapter-six-client-test"
+      ],
+      "termination_boundary": "only_four_completed_records_before_orchestrator_reported_provider_reset",
+      "twenty_five_completion_claim": false
+    },
+    {
+      "directory": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z",
+      "progress": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/progress.json",
+        "bytes": 3646,
+        "sha256": "57dfc45a247cbf588a07815e8a483eb0d55148a4ad7f251aea860c68a7737638"
+      },
+      "scope": "actual diagnostic sweep; failures preserved; no final qualification or human signoff",
+      "recorded_runs": 21,
+      "passed": 21,
+      "failed": 0,
+      "actions": [
+        "finale-client-test",
+        "r1-life-client-test",
+        "musicbox-client-test",
+        "r2-life-client-test",
+        "chapter-four-local-client-test",
+        "first-relay-client-test",
+        "first-side-client-test",
+        "first-outer-client-test",
+        "field-relay-client-test",
+        "vessel-life-client-test",
+        "settlement-support-client-test",
+        "lina-personal-client-test",
+        "r3-shift-client-test",
+        "old-city-local-life-client-test",
+        "scoped-personal-client-test",
+        "optional-r1-client-test",
+        "optional-r2-client-test",
+        "optional-r3-client-test",
+        "optional-r4-client-test",
+        "optional-r5-client-test",
+        "optional-r6-client-test"
+      ],
+      "termination_boundary": "resumed_remaining_twenty_one_completed_actions",
+      "twenty_five_completion_claim": null
+    }
+  ],
+  "runs": [
+    {
+      "action": "client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_sequence_20261010T092413026504Z/client-test.log",
+        "bytes": 385,
+        "sha256": "b928a64878cf94bc4909f8721dd0d1c736f987ee272382556ed3df624dada16a"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T092413350272Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T092413350272Z/client_results.json",
+        "bytes": 2121,
+        "sha256": "595e488355f413317c5476c589c1781da5e0e5f60a94f2701e765145b2aa0725"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T092413350272Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T092413350272Z/client_tests.log",
+        "bytes": 591,
+        "sha256": "9835f1fc461f29a389e6668e91d5e95f3cccde90de1167ec8ccbe8075743b47d"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 36,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T092413350272Z/result.json",
+        "bytes": 1690,
+        "sha256": "60907bb9ce62b39ec6422720df596ef2147e5f923245c4c7ba60d780a667044c"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T092413350272Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T092413350272Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": null,
+      "driver_reported_scope": null,
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "campaign-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_sequence_20261010T092413026504Z/campaign-client-test.log",
+        "bytes": 403,
+        "sha256": "12b2d690d84b8e859679d7be4af5dac3b78b79277ca47ea2fc045a03a71ff3ac"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "campaign-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T092449010243Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T092449010243Z/campaign_client_results.json",
+        "bytes": 842,
+        "sha256": "f7f0ebcd283d3710dbae2d8dee9a2f6ec4ec38417c204c7b2c884eb35dde1a5c"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--campaign-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T092449010243Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T092449010243Z/client_tests.log",
+        "bytes": 633,
+        "sha256": "3455b7d71a777c16c8615007599a53c9efd1bd55674cbbd915e816af90a7dbf9"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 13,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T092449010243Z/result.json",
+        "bytes": 1708,
+        "sha256": "c3e1cb1de56996125990da0f53666b43b36ce8222bae84427f807d8ddcb06e14"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T092449010243Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T092449010243Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": null,
+      "driver_reported_scope": null,
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "vessel-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_sequence_20261010T092413026504Z/vessel-client-test.log",
+        "bytes": 399,
+        "sha256": "9ab9daf494f9cadef5d039c17abefad8dadd7afd55baa7b885d7f81ac703b8c2"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "vessel-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T092455140604Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T092455140604Z/vessel_client_results.json",
+        "bytes": 959,
+        "sha256": "006b6aa5bf2990544e5e6a752f90e96965efc1b96b60815c757e5d565e449e9b"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--vessel-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T092455140604Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T092455140604Z/client_tests.log",
+        "bytes": 605,
+        "sha256": "6f55f313d54a18f92d67b5710308937ebb7c788a61d36ede47653c5aa521f5c9"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 12,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T092455140604Z/result.json",
+        "bytes": 1704,
+        "sha256": "fe4bf16fc707b37bc32f1e875b8bb5cabccc8a64aa8668bf1b538fba6ac9560a"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T092455140604Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T092455140604Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T092455140604Z/client_profile_source.json",
+          "bytes": 4317,
+          "sha256": "dbcb089b6c3eeb601f74acac14ab73a6d0a9c39f862658c246657c65f4724076"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 260,
+          "task": "CX-060",
+          "name": "Actual normal Q104 handover, physical berth inspection, three ship spaces and original workspaces share one persisted vessel"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0260/testdata/vessel-interior-actual-board-1170904b-c163-4ce2-9209-008753fd9368/recovery/inventory-v2-df4fa48d-c311-41fb-9b7f-77472760ed15.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual normal Q104 service route copied from named C# test profile; engineering input",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "chapter-two-client-test",
+      "status": "failed",
+      "wrapper": {
+        "path": "reports/continuous/native_sequence_20261010T092413026504Z/chapter-two-client-test.log",
+        "bytes": 1721,
+        "sha256": "e14d78d7bfd214952956598a6ecb6e7e65bdc85ca0065e02d4868fdedbb55a80"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "chapter-two-client-test"
+      ],
+      "wrapper_exit_code": 1,
+      "actual_build_directory": "reports/build/20261010T092506079500Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T092506079500Z/chapter_two_client_results.json",
+        "bytes": 1368,
+        "sha256": "9fb39dc9d39406606b1ebcdc5195d1ce84aaab50a0ea4be6a6f3c813dd995341"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--chapter-two-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 1,
+        "output_path": "reports/build/20261010T092506079500Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T092506079500Z/client_tests.log",
+        "bytes": 614,
+        "sha256": "55e0945a6355875b671f73985d5903fa4140aa184df9f21deddb3f7173fa8b86"
+      },
+      "actual_client_exit_code": 1,
+      "checks_executed": 3,
+      "failed_check_count": 1,
+      "failed_checks": [
+        {
+          "name": "chapter_two_client_exception",
+          "passed": false,
+          "error": "System.InvalidOperationException: Sequence contains no matching element\r\n   at System.Linq.ThrowHelper.ThrowNoMatchException()\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at Root.<>c__DisplayClass5_0.<<RunChapterTwoClientTests>g__Material|11>d.MoveNext() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterTwoClientTests.cs:line 26\r\n--- End of stack trace from previous location ---\r\n   at Root.RunChapterTwoClientTests() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterTwoClientTests.cs:line 82"
+        }
+      ],
+      "outcome_record": {
+        "path": "reports/build/20261010T092506079500Z/failure.json",
+        "bytes": 1896,
+        "sha256": "342e0dd78d8dfc2ee591cea40938c02110ec43e51f352d702f848e10b7991ce7"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T092506079500Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T092506079500Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T092506079500Z/client_profile_source.json",
+          "bytes": 4274,
+          "sha256": "2f7504f44c9b859ea278ada7145527aac2122040ed2cd9fd58d38f1aa9c9d0d4"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 355,
+          "task": "CX-060",
+          "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0355/testdata/voyage-normal-r2-72bca14d-d257-456d-a853-b4434cc81d0e/recovery/inventory-v2-2cc3ed1a-2691-4339-9bcf-85c99151c256.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual no-fixture Voyage normal-r2 copied SQLite profile; native station/material/editor/meaning/submission buttons and actual safe paths; battle choices supplied by engineering controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "chapter-three-client-test",
+      "status": "failed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-three-client-test.log",
+        "bytes": 1740,
+        "sha256": "8e01f30adb9ad3a0f31e59f36381d2005573f4290046248f4af4a3b24a4fb9d2"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "chapter-three-client-test"
+      ],
+      "wrapper_exit_code": 1,
+      "actual_build_directory": "reports/build/20261010T092727982836Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T092727982836Z/chapter_three_client_results.json",
+        "bytes": 4525,
+        "sha256": "665c463b1336593efa6371ccf811ac2177d05a731c03b1784d5c3840881255cb"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--chapter-three-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 1,
+        "output_path": "reports/build/20261010T092727982836Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T092727982836Z/client_tests.log",
+        "bytes": 619,
+        "sha256": "04427579f5b73fe953bf477450ec80d757b24646a74ce2d3d1c56fc6a582af6d"
+      },
+      "actual_client_exit_code": 1,
+      "checks_executed": 53,
+      "failed_check_count": 3,
+      "failed_checks": [
+        {
+          "name": "regional_audio_speed_changes_player",
+          "passed": false
+        },
+        {
+          "name": "regional_audio_retains_full_original_script",
+          "passed": false
+        },
+        {
+          "name": "chapter_three_client_exception",
+          "passed": false,
+          "error": "System.InvalidOperationException: Sequence contains no matching element\r\n   at System.Linq.ThrowHelper.ThrowNoMatchException()\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at Root.<>c__DisplayClass4_0.<<RunChapterThreeClientTests>g__ActualRegionalAudio|19>d.MoveNext() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterThreeClientTests.cs:line 93\r\n--- End of stack trace from previous location ---\r\n   at Root.RunChapterThreeClientTests() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterThreeClientTests.cs:line 112"
+        }
+      ],
+      "outcome_record": {
+        "path": "reports/build/20261010T092727982836Z/failure.json",
+        "bytes": 1901,
+        "sha256": "9cd8ed602e855f49034afbee2a5be92acb9fa1baf8f653eb150f71a9ee167770"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T092727982836Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T092727982836Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T092727982836Z/client_profile_source.json",
+          "bytes": 4811,
+          "sha256": "e5fd22883d9797dadbe920fd77a7342cc19879de304aafe493651ded97322a09"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 368,
+          "task": "CP-R3-05",
+          "name": "Normal zero-XP actual R3 arrival preserves untouched local state for native client entry"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0368/testdata/chapter-three-normal-native-entry-01ebb44e-2d81-4d17-adce-580ec001e0e9/recovery/inventory-v2-568a0322-b9b4-4d9d-af0d-11e083142f8e.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual normal zero-XP through Q204 and typed R2/R3 voyage, copied untouched R3 SQLite arrival profile; native station/material/editor/meaning/submission controls with actual safe navigation commands; combat requests supplied by engineering controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "chapter-four-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-four-client-test.log",
+        "bytes": 425,
+        "sha256": "ad3b710a534ec7e2d8c922947acf275d4e80d81e10a0725f633bec1c5c98f73a"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "chapter-four-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T092846627975Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T092846627975Z/chapter_four_client_results.json",
+        "bytes": 2903,
+        "sha256": "adafd03e7b7efd12caa88f59e9d638738655349dd86e0749d872ee40bc3c4fa0"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--chapter-four-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T092846627975Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T092846627975Z/client_tests.log",
+        "bytes": 617,
+        "sha256": "8a569c2443c3af45e57da037fc558d2812d4e512697519a6308fe154df52e110"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 45,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T092846627975Z/result.json",
+        "bytes": 1716,
+        "sha256": "26f22119e32a7b5cacb1a210c0b7ca095e0ad3255543be00a432b48dd3368baf"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T092846627975Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T092846627975Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T092846627975Z/client_profile_source.json",
+          "bytes": 4781,
+          "sha256": "e47e86f3c3d429f96dd5d5c17903d5194cdce3a63d1aad0646acfd288469d494"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 385,
+          "task": "CP-R4-05",
+          "name": "Normal zero-XP native-entry profile reaches R4 by actual source-bound voyage without regional actions"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0385/testdata/chapter-four-native-entry-866c456c-604b-4edd-b10a-2767e115d980/recovery/inventory-v2-ec97d94d-f6b1-4948-a2c3-65a2284cec81.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP normal-r4-native-entry copied SQLite profile; native source/station/editor/meaning/configuration/experiment/submission controls and actual safe paths; shared combat actions chosen by engineering controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "chapter-five-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-five-client-test.log",
+        "bytes": 425,
+        "sha256": "6a7a404cade906dfe97aa0e8a4e2f0f0bc41a6360c65c2478f1ca09f8fd039d8"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "chapter-five-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T093015107967Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T093015107967Z/chapter_five_client_results.json",
+        "bytes": 3701,
+        "sha256": "09bf18ae6eefffd8a0c3a8bce9148f3ee00a291eb47329041d04a36d8275f278"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--chapter-five-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T093015107967Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T093015107967Z/client_tests.log",
+        "bytes": 617,
+        "sha256": "aa6536639f28962b485055862581a26ae0d49468eef5413216f2cb1dab057e7a"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 52,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T093015107967Z/result.json",
+        "bytes": 1716,
+        "sha256": "0f645602dc265b9bc9270286891b3c196dbb51721b4ce54d939c6714786db1e0"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T093015107967Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T093015107967Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T093015107967Z/client_profile_source.json",
+          "bytes": 4733,
+          "sha256": "a7641c9c044672f2644e7d05cfd6a098cf7c7324b568088a3106d81266aaf8e5"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 407,
+          "task": "CP-R5-05",
+          "name": "Actual zero-XP R4R5 arrival produces a native entry with local work untouched"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0407/testdata/chapter-five-native-entry-f68936dc-f6f7-4288-89c9-21e66d11171b/recovery/inventory-v2-bebb09ca-fd34-4d5c-bdbb-89aa8a50d2ef.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP normal-r5-native-entry copied SQLite profile; native materials/stations/editor/meaning/scope/rescue/review/custody/tower/submission controls and actual safe paths; shared combat actions selected by explicit engineering controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "chapter-six-client-test",
+      "status": "failed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-six-client-test.log",
+        "bytes": 1736,
+        "sha256": "35b7c3be82b21208e5e298c744a7c08c4d0fb38a7ac84154d5480c13afcc267f"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "chapter-six-client-test"
+      ],
+      "wrapper_exit_code": 1,
+      "actual_build_directory": "reports/build/20261010T093135956002Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T093135956002Z/chapter_six_client_results.json",
+        "bytes": 4828,
+        "sha256": "c195c2ef36f546998bf9c3e1271bb8b0e0254686ab4f0caa04ef15e9bd32c410"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--chapter-six-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 1,
+        "output_path": "reports/build/20261010T093135956002Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T093135956002Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "61cec1d812d48f7a7c848009f96431d942b815248c6fa1affedce6b132010c19"
+      },
+      "actual_client_exit_code": 1,
+      "checks_executed": 59,
+      "failed_check_count": 3,
+      "failed_checks": [
+        {
+          "name": "regional_audio_speed_changes_player",
+          "passed": false
+        },
+        {
+          "name": "regional_audio_retains_full_original_script",
+          "passed": false
+        },
+        {
+          "name": "chapter_six_client_exception",
+          "passed": false,
+          "error": "System.InvalidOperationException: Sequence contains no matching element\r\n   at System.Linq.ThrowHelper.ThrowNoMatchException()\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at Root.<>c__DisplayClass3_0.<<RunChapterSixClientTests>g__ActualRegionalAudio|18>d.MoveNext() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterSixClientTests.cs:line 98\r\n--- End of stack trace from previous location ---\r\n   at Root.RunChapterSixClientTests() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterSixClientTests.cs:line 148"
+        }
+      ],
+      "outcome_record": {
+        "path": "reports/build/20261010T093135956002Z/failure.json",
+        "bytes": 1897,
+        "sha256": "fa004f5c2236b5c5fbdb212684ebee1d2003ffd3da303c6ff02fa49ab76a9ef4"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T093135956002Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T093135956002Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T093135956002Z/client_profile_source.json",
+          "bytes": 4790,
+          "sha256": "345b3189e15c5761b43c00e3a224af17dc4a662adcd7403dc2842ec2c408580e"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 418,
+          "task": "CP-R6-05",
+          "name": "Actual zero-XP predecessor and R5R6 arrival produce an untouched native entry with persistent normal receipts"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0418/testdata/chapter-six-native-entry-89d97221-0037-42b4-82f9-6eb17c2053ca/recovery/inventory-v2-1e291f48-0195-42dd-b8c6-54f92fb04acc.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "copied untouched actual 0XP through Q504 and typed R5/R6 arrival SQLite profile; native material/station/editor/meaning/submission/onsite procurement/work/boarding/sailing/seal/launch controls; safe navigation and combat requests supplied by engineering controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "finale-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/finale-client-test.log",
+        "bytes": 459,
+        "sha256": "2fc855606a83acca2d75a8129a140116480c6f8567214e09209c5d2e167659a0"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "finale-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094356048694Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094356048694Z/finale_client_results.json",
+        "bytes": 148016,
+        "sha256": "bf739c0c20a3bf0ba1a66d4f79a41a6f6c306b27224f99f8f5bfc24782708da2"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--finale-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094356048694Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094356048694Z/client_tests.log",
+        "bytes": 605,
+        "sha256": "f4761e197460a661756248fb6e96a40fa1a4976cfd7372ffd0d6c6f23223753b"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 94,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094356048694Z/result.json",
+        "bytes": 2215,
+        "sha256": "04a4cae00d44bfbc4016770f668f0ccdac4f667df332a090ae0b75eb4ffdb675"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094356048694Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094356048694Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094356048694Z/client_profile_source.json",
+          "bytes": 4717,
+          "sha256": "6aec53fc9669a01b306a8123361ce2e0111c5ad68055170af66bd6f94c679da0"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 428,
+          "task": "CP-RF-05",
+          "name": "Actual zero-XP through Q604 leaves untouched RF native entry and real protected checkpoint"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0428/testdata/finale-native-entry-b3336450-ea2b-4ad2-b566-4e417f82f2e0/recovery/inventory-v2-db359bc1-b178-475e-bbc8-82b3c5e32d5b.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP normal-rf-native-entry copied SQLite/checkpoint profile; native learner reader, stations, draft CAS, unknown-default explicit meaning, preview cancellation, actual paired paths; one actual native CONTROL preview/cancel/execute per mechanism phase, other shared battle actions supplied by engineering controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "r1-life-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/r1-life-client-test.log",
+        "bytes": 461,
+        "sha256": "8980fb747cf283eb7019847d038a9cb5172278286241e4db2ac4770af2a7d892"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "r1-life-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094530032782Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094530032782Z/r1_life_client_results.json",
+        "bytes": 2667,
+        "sha256": "4146da9991c2c39806a73ad31c7a0f290c1d1532a4475e33dc0c51dc9fa8d355"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--r1-life-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094530032782Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094530032782Z/client_tests.log",
+        "bytes": 607,
+        "sha256": "de6c62e173b5b24a810c9fe020f6042bd446e241ad7cd5c0ba4b798f17fa924d"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 33,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094530032782Z/result.json",
+        "bytes": 2217,
+        "sha256": "ffb4e5680bf7173a1b4506ebd7b15a597d9ea269d6096d7b5357d0e93bfb1b6d"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094530032782Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094530032782Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094530032782Z/client_profile_source.json",
+          "bytes": 4499,
+          "sha256": "4bc1ef7cc5cad921786ef24755f0725fba81d5b18a88e7aa023568c2d7385838"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 465,
+          "task": "CP-R1-03",
+          "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0465/testdata/normal-r1-life-native-entry/recovery/inventory-v2-edfac830-28fc-4293-a5e4-5b2717183155.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP prologue/Q101 340XP copied entry; actual native optional ports, materials, room allocation, finite local theatre installations, roles, editor, submission and restored scene controls",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "musicbox-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/musicbox-client-test.log",
+        "bytes": 417,
+        "sha256": "05e24cbcc236bc0cf237260bade83f9f125c9935a4c4846a80d24faca73083c0"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "musicbox-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094555788627Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094555788627Z/musicbox_client_results.json",
+        "bytes": 1470,
+        "sha256": "e0adda6e9a553901ccf9c6ee7b6891b5ea8173f6298d82dcbbeba06a4421a10c"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--musicbox-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094555788627Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094555788627Z/client_tests.log",
+        "bytes": 609,
+        "sha256": "f2ba2f92bf83f263834a402a9f4fadb7b3b0610aa36e7f3f7a4de6683bbf8f80"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 16,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094555788627Z/result.json",
+        "bytes": 1708,
+        "sha256": "114197c36cd53f436443414b8a1c0d886a6e5b8abb57c6fa5982c97edb7c5def"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094555788627Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094555788627Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094555788627Z/client_profile_source.json",
+          "bytes": 4822,
+          "sha256": "e4004cf95991ec149aa468676ea5ecdee090a40b65b49f34ab804ea42e7f5343"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 370,
+          "task": "CP-OPTIONAL-MUSICBOX-05",
+          "name": "Actual normal arrival exports an untouched SQLite profile for native music-box controls"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0370/testdata/musicbox-normal-native-entry-f14a337e-7c71-436e-a9bd-432c45963152/recovery/inventory-v2-a2336ab5-3ab9-455a-8a58-3e78185fca40.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual normal zero-XP prior chapters and typed R2R3 arrival copied SQLite input; native invitation/specification/part/repair/editor/meaning/preview/receipt controls; actual safe command navigation",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "r2-life-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/r2-life-client-test.log",
+        "bytes": 461,
+        "sha256": "d63a663be4310a56a8de0487c4dbc11a77468563da7da50dba6710f13de37eb9"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "r2-life-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094616853101Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094616853101Z/r2_life_client_results.json",
+        "bytes": 2565,
+        "sha256": "24a2ee2a5a80c391dfefcf67bcc455a951f231db71815f0fe9c10553dea16161"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--r2-life-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094616853101Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094616853101Z/client_tests.log",
+        "bytes": 607,
+        "sha256": "16ca16c07bccfe8477b5a4656212b4cba96f517ef745d85cf718f59aa915b5c3"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 34,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094616853101Z/result.json",
+        "bytes": 2217,
+        "sha256": "b2d327d5d990e7704e6f9b3a95ba6fa30d5efffaf6610ed2761d2ab72eb5056c"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094616853101Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094616853101Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094616853101Z/client_profile_source.json",
+          "bytes": 4546,
+          "sha256": "c48fe11a275934fda6d48ba7d617946702fd8b76f987e172704f6739bb80836a"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 494,
+          "task": "CP-R2-03",
+          "name": "actual_zero_XP_R2_optional_entry_uses_same_GLIMMER_and_landing_without_mainline_or_local_awards"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0494/testdata/normal-r2-life-native-entry/recovery/inventory-v2-8baf94e6-22fb-4993-bd6e-5c289456a7b6.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP 900XP same-vessel R1R2 normal arrival; native existing optional ports, sources, permission, editor, author review, custody, six inspections/planting and read-only submission controls",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "chapter-four-local-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/chapter-four-local-client-test.log",
+        "bytes": 437,
+        "sha256": "038772dcd392fc075e7b1bf4ccfd8a4eff63ac2ce34b55dceab0b8e8832ac814"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "chapter-four-local-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094641790735Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094641790735Z/chapter_four_local_client_results.json",
+        "bytes": 4262,
+        "sha256": "a612b3dc5f29cf96fd699e9d49494c6cbeb2efec135fa65420e64ea5e75bd30a"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--chapter-four-local-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094641790735Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094641790735Z/client_tests.log",
+        "bytes": 629,
+        "sha256": "40937aae3ea6ee41f2e419e2763056b7032898f693a8602c37e43ee42e07e63d"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 62,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094641790735Z/result.json",
+        "bytes": 1728,
+        "sha256": "c26c2d78ed6220aa6e1e3a27a48a0acc8ab8b93ed87e388fb00bc1f69000ea2f"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094641790735Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094641790735Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094641790735Z/client_profile_source.json",
+          "bytes": 4781,
+          "sha256": "e47e86f3c3d429f96dd5d5c17903d5194cdce3a63d1aad0646acfd288469d494"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 385,
+          "task": "CP-R4-05",
+          "name": "Normal zero-XP native-entry profile reaches R4 by actual source-bound voyage without regional actions"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0385/testdata/chapter-four-native-entry-866c456c-604b-4edd-b10a-2767e115d980/recovery/inventory-v2-ec97d94d-f6b1-4948-a2c3-65a2284cec81.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "Copied actual zero-XP normal-r4-native-entry SQLite profile; real native reader/editor/meaning/commission/physical production/recovery/delivery/receipt/archive controls; permitted safe geometry paths; no optional progress seed",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "first-relay-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/first-relay-client-test.log",
+        "bytes": 469,
+        "sha256": "547e911b6c2c2c190a9abec97da02f442110fdd3a0a9c4d0672f049e8f81a04d"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "first-relay-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094721523060Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094721523060Z/first_relay_client_results.json",
+        "bytes": 2196,
+        "sha256": "5c321f81d36b0f147ce8967a416493f7bdf0d0b925617c49d61752a92b2622b3"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--first-relay-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094721523060Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094721523060Z/client_tests.log",
+        "bytes": 639,
+        "sha256": "f55fba83019296a4c5a4aaf385f206feb12b1e22ce0c762b3553c79ca44c568d"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 28,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094721523060Z/result.json",
+        "bytes": 2225,
+        "sha256": "cf8dd5149e6ffa1ed0eb31f5e8ac8fbf76bc97c52e71795c76f5661608cb4da9"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094721523060Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094721523060Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094721523060Z/client_profile_source.json",
+          "bytes": 4625,
+          "sha256": "261c4eca316091867c320e74d9299d370fc66fb368dd59b88f0635030074a9f8"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 522,
+          "task": "CP-R0-03",
+          "name": "actual_zero_XP_relay_native_entry_retains_unresolved_defence_at_140XP_without_positive_fixtures"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0522/testdata/normal-first-relay-native-entry/recovery/inventory-v2-53307be9-f39f-4300-a253-609af01277ce.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP to 140XP normal-first-relay-native-entry; native full source, begin/action/preview/cancel/continue/withdraw/retry and real repair buttons; action choices supplied by engineering controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "first-side-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/first-side-client-test.log",
+        "bytes": 467,
+        "sha256": "378db06eddf4898f5596861865f9ade91ec4cee659fb776a3ac34c92336fef47"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "first-side-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094732578287Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094732578287Z/first_side_client_results.json",
+        "bytes": 1148,
+        "sha256": "353744a480311b83f7c33f7669a4eef014c828fa848d61663337dbc33c3a06ca"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--first-side-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094732578287Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094732578287Z/client_tests.log",
+        "bytes": 624,
+        "sha256": "31b71ebafd90395e9be8aeb27e2e79d2b09abaf526bbd3aed6d186f0ba3d990c"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 10,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094732578287Z/result.json",
+        "bytes": 2223,
+        "sha256": "01726d860c58cd87c3825f315bbc91c3e0aadca132d726c936cbe38fa473e24f"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094732578287Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094732578287Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094732578287Z/client_profile_source.json",
+          "bytes": 4621,
+          "sha256": "92cec4cccfdbbf6ce0b5e2b8fdb279001845cc01349dc89952475087f4ce23c0"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 523,
+          "task": "CP-R1-03",
+          "name": "actual_zero_XP_tower_base_native_entry_has_real_680XP_permission_supply_and_no_access_or_ship"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0523/testdata/normal-first-tower-native-entry/recovery/inventory-v2-43d328f1-697a-4c5e-b217-d54071ff643e.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP through real relay/Q101/Q102/Q103 to untouched 680XP current Q104 permit and supply; native source/station/manual or full shared combat/preview/cancel/continue/withdraw/retry/paired port controls; engineering action controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "first-outer-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/first-outer-client-test.log",
+        "bytes": 469,
+        "sha256": "581e7a89597c41541472cfe27042f76c436145be64932199eb7f5f49377e0e6e"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "first-outer-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094743112100Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094743112100Z/first_outer_client_results.json",
+        "bytes": 3668,
+        "sha256": "5a52c96e91e466a8e6d356b06333ff6de4c63859e07e3b0750139367db2b9af6"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--first-outer-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094743112100Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094743112100Z/client_tests.log",
+        "bytes": 625,
+        "sha256": "93350052128183b80e9943b253ee056850c20f4cc2443ba27b0534c42c2205b2"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 50,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094743112100Z/result.json",
+        "bytes": 2225,
+        "sha256": "17643e2c9023f3911cc28b3deb6c72d121e9dd30aeb611f1884da336f3c034ea"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094743112100Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094743112100Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094743112100Z/client_profile_source.json",
+          "bytes": 4621,
+          "sha256": "92cec4cccfdbbf6ce0b5e2b8fdb279001845cc01349dc89952475087f4ce23c0"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 523,
+          "task": "CP-R1-03",
+          "name": "actual_zero_XP_tower_base_native_entry_has_real_680XP_permission_supply_and_no_access_or_ship"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0523/testdata/normal-first-tower-native-entry/recovery/inventory-v2-43d328f1-697a-4c5e-b217-d54071ff643e.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual zero-XP through real relay/Q101/Q102/Q103 to untouched 680XP current Q104 permit and supply; native source/station/manual or full shared combat/preview/cancel/continue/withdraw/retry/paired port controls; engineering action controller",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "field-relay-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/field-relay-client-test.log",
+        "bytes": 423,
+        "sha256": "d03eb21ef52b6cc127960f3fb71f88f4a0805a15a9e6d4ccf5a8038a8ec9c882"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "field-relay-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094809671821Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094809671821Z/field_relay_client_results.json",
+        "bytes": 1745,
+        "sha256": "c815ac2d799c7418c74ba449a7658c371f95840e3a48a31754f5b159f0951ebf"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--field-relay-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094809671821Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094809671821Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "4ef80ad7cbdf766673ee9faf45c335444225075b6fd1703701e9c605e7e81e81"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 18,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094809671821Z/result.json",
+        "bytes": 1714,
+        "sha256": "4ed4e18bfc574cdae75ca6cae9f8980eda3fc1134e84a0418d2bf72af9b38a9b"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094809671821Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094809671821Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094809671821Z/client_profile_source.json",
+          "bytes": 4929,
+          "sha256": "55f3a29129ffe813baa6072889cc43839d7fb453edff885c84b1c5c31fdbe67d"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 538,
+          "task": "CP-FIELD-RELAY-05",
+          "name": "Actual zero-XP predecessors and protected Q603 closure export a native auxiliary work entry without local permission, devices or optional results"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0538/testdata/field-relay-normal-native-entry-4eac4c64-0d49-4db8-a4e3-1f527752ac90/recovery/inventory-v2-12e0f2a6-ed06-4419-b8b6-1575a7419e29.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual normal zero-XP predecessors plus protected Q603 closure copied SQLite input; rendered source/scope/auxiliary battle preview cancel/withdraw/switch/pin/channel/refit/return/receipt UI controls",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "vessel-life-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/vessel-life-client-test.log",
+        "bytes": 469,
+        "sha256": "84805bce29e7671e8a04b7936939e10f3e595ebf0eb69130c17ff51ab7f22afb"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "vessel-life-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094827443845Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094827443845Z/vessel_life_client_results.json",
+        "bytes": 779,
+        "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--vessel-life-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094827443845Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094827443845Z/client_tests.log",
+        "bytes": 566,
+        "sha256": "5071fafe82e8fcf4f950376e6b621e4a4c52c9439156265a3d35040ae852dc06"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 11,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094827443845Z/result.json",
+        "bytes": 2225,
+        "sha256": "32db1c4eac42e3bdd87810738df976566d9081ab8b8acb729cc5e5efba4e380a"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094827443845Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094827443845Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094827443845Z/client_profile_source.json",
+          "bytes": 4761,
+          "sha256": "fab727a8485030af414ce57fbc41548bcdac3a78b2f58e6b427351306ba869f3"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 546,
+          "task": "CP-NPC-LIFE",
+          "name": "Normal native-entry profile has actual recruited crew and no opened life scene"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0546/testdata/vessel-life-native-entry-c1df98fc-2485-41e6-8c5a-fd099d0c7125/recovery/inventory-v2-cc417c64-767e-498d-a8bf-83ce6c27cae4.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual native buttons on copied normal zero-XP route profile; no private source seeded",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "settlement-support-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/settlement-support-client-test.log",
+        "bytes": 437,
+        "sha256": "090ee7fa989a69e4644e41936a559905efdaaac30e2589e804b31a00758657ec"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "settlement-support-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094839294753Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094839294753Z/settlement_support_client_results.json",
+        "bytes": 2387,
+        "sha256": "053460f43faa7f48db65b01cdc18b4e2601da5bf7224fb0cded40deb9c6bba58"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--settlement-support-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094839294753Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094839294753Z/client_tests.log",
+        "bytes": 621,
+        "sha256": "05d8284937c9942099ae6bb4b5ed81a71c3c7f4bdd0235dd896ecbd9e4acba71"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 27,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094839294753Z/result.json",
+        "bytes": 1728,
+        "sha256": "838dd3b408c5dd6ca30506ca9b9962b65f23224875fc8047587b9d07ba5eefe2"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094839294753Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094839294753Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094839294753Z/client_profile_source.json",
+          "bytes": 4891,
+          "sha256": "1485f9ace5edb00bb1c88ea3df15f631ff3a4bdcc086b81c40cc5073fec7ac28"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 559,
+          "task": "CP-SETTLEMENT-05",
+          "name": "Actual zero-XP prior chapters and Q603 export a native settlement entry with no local permission, finite stock or completion fixture"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0559/testdata/settlement-normal-native-entry-9bbd3a49-6762-45bd-a2bf-0a3768e6ebe8/recovery/inventory-v2-cb2f01c6-38da-4020-8998-a0299f134ad9.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "Copied actual normal zero-XP through Q603 SQLite entry; native public original, choices, finite stock, current mechanical checks, editor CAS, meaning, read-only cancelled preview and once delivery controls; actual safe paired command navigation",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "lina-personal-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/lina-personal-client-test.log",
+        "bytes": 473,
+        "sha256": "e23e82e73a744a461f2db34468e6ab982b216812e99a742988c22536c651df5d"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "lina-personal-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094934190703Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094934190703Z/lina_personal_client_results.json",
+        "bytes": 2225,
+        "sha256": "99318adfbe3714201024a08441f90633991fc1fe1d003c92c2f60f01f0cafffa"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--lina-personal-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094934190703Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094934190703Z/client_tests.log",
+        "bytes": 568,
+        "sha256": "103245652bdddcbc5123e321403d2ff8404d3f2be8542e31a7bc70d26a560c8d"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 32,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094934190703Z/result.json",
+        "bytes": 2229,
+        "sha256": "2ae5baafe3541cf52f282fe24f7b117add9030e387e6115962cc0690dbd895f8"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094934190703Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094934190703Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094934190703Z/client_profile_source.json",
+          "bytes": 4750,
+          "sha256": "58048ece67b62de4e7c78cf24fa0f4f51c1e0a90d67ab6a589d15239d479bede"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 564,
+          "task": "CP-LINA-PERSONAL-05",
+          "name": "actual_zero_XP_Lina_native_entry_without_invitation_private_sources_or_work_result"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0564/testdata/lina-work-native-entry-811b93e0-aa59-4e4e-a815-15f09f76ca8d/recovery/inventory-v2-1aa19d21-6751-4fb1-baf7-b07a923d5925.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual native UI from untouched normal zero-XP through Q601 entry; source acquisition, exact draft, Continue, readonly preview/cancel, original result and current private scope",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "r3-shift-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/r3-shift-client-test.log",
+        "bytes": 463,
+        "sha256": "7a4be29bd165851e797ed836ef49b74be929450537e05b4c308ca6cf69bc42b9"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "r3-shift-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T094957650042Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T094957650042Z/r3_shift_work_client_results.json",
+        "bytes": 1264,
+        "sha256": "7f6f185e48e1ba25cb5be8e09999cd5aada95ca104b4ac38b6af3efac6f2ed48"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--r3-shift-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T094957650042Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T094957650042Z/client_tests.log",
+        "bytes": 614,
+        "sha256": "953309cc55cb294e7e1922bff2fdd332ead4f1fecd1a4ed06d5bf6fd84332829"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 17,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T094957650042Z/result.json",
+        "bytes": 2219,
+        "sha256": "672a9a7196e6ffb3f9a7b60a027c692d68000a0fbe88922867ea31e0ab643f43"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T094957650042Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T094957650042Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T094957650042Z/client_profile_source.json",
+          "bytes": 4741,
+          "sha256": "43efcb7c1ec0720e463e224076aa2de765e7e3f7bd77439826a41cf57b92f0ce"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 569,
+          "task": "CP-R3-05",
+          "name": "Shift native entry has actual zero-XP through Q301, 2340XP and untouched optional work"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0569/testdata/r3-shift-native-entry-4010dfbb-04fe-4e23-a747-7c82ba4e791b/recovery/inventory-v2-60f148d4-884b-486f-8d5d-481768e367a5.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual normal zero-XP through Q301 and original dispatcher spots; native full source/availability/unknown meaning/draft/preview/physical handover/recovery/reader dispatch; no shift seed",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "old-city-local-life-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/old-city-local-life-client-test.log",
+        "bytes": 439,
+        "sha256": "a1e28363060eced25dc68bd8f4d695be0a22b66333b6f345241a212ceb2794e1"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "old-city-local-life-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095021019701Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095021019701Z/old_city_local_life_client_results.json",
+        "bytes": 1838,
+        "sha256": "0905f86013188e4a64684a25fc3331802eaa3e5d3d9c5d4c6d60b83dd4fa2025"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--old-city-local-life-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095021019701Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095021019701Z/client_tests.log",
+        "bytes": 624,
+        "sha256": "3f68bf6699bcedf92d52c1b9787e8be39097dc2e9f52912cfb21c46b3d35679b"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 19,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095021019701Z/result.json",
+        "bytes": 1730,
+        "sha256": "b06dc9e139e6b7d26310598af981ba6e0d5f73b831191952d0fefdfbc2a0c9c6"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095021019701Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095021019701Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095021019701Z/client_profile_source.json",
+          "bytes": 4929,
+          "sha256": "b21fc2a23c3d2b8bdd428f973f055e074e2864d5a3b5ff3750687238eec5b0f2"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 573,
+          "task": "CP-R5-LIFE-05",
+          "name": "Actual normal prior chapters and registered R5 landing export a native local-life entry with no local object, permission or completion seed"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0573/testdata/old-city-life-normal-native-entry-0feb5d0b-9ba1-463f-8999-2b8ad9895bdc/recovery/inventory-v2-4a8756f4-f865-41f4-82b4-20c875151961.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "Copied actual zero-XP preceding four chapters, R4R5 voyage and registered local landing SQLite input; actual original reader, invitation, name choice, one physical sign, supervised ownership, current permission, real CAS note, explicit meaning, read-only cancelled preview and once handover UI; safe paired command navigation",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "scoped-personal-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/scoped-personal-client-test.log",
+        "bytes": 477,
+        "sha256": "9bead9695c39815fdd45dc995987e9aa37039a397921930c8f58edbcd03826a6"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "scoped-personal-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095058950173Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095058950173Z/scoped_personal_client_results.json",
+        "bytes": 3135,
+        "sha256": "9b0d63af63cbd8f116f7c223572571dd0f9e98da9b959ab0a569a6bd2e28dd18"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--scoped-personal-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095058950173Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095058950173Z/client_tests.log",
+        "bytes": 623,
+        "sha256": "3c63d4477910bcfb8c31bc787d9eb1af7fa2502cb1109ed36255feeeafc43bf8"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 36,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095058950173Z/result.json",
+        "bytes": 2233,
+        "sha256": "d10a809248caa06bda4632278a4b8cda0322f019588e677b4d33ab239ac499de"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095058950173Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095058950173Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095058950173Z/client_profile_source.json",
+          "bytes": 4837,
+          "sha256": "d31de41a74900c03f76091d43b50de66b29436aee053cd166e5c56fa6eb03ae4"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 577,
+          "task": "CP-PERSONAL-DETAIL",
+          "name": "Normal source-backed prior nodes produce a native entry with last personal work untouched"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0577/testdata/scoped-personal-native-entry-ba80b8b3-30c6-4f68-abf7-3b293f0aa732/recovery/inventory-v2-cde6e58d-3dee-4cb6-ad28-1b46b53835bf.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual normal 10620XP prior-source entry, native current response access, same finite copies, real policy operations, explicit unknown meaning, same drafts, cancel, fixed old rewards, independent handover, continuation and withdrawal; no positive fixture",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "optional-r1-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r1-client-test.log",
+        "bytes": 469,
+        "sha256": "5f235f2bfc9f1a90335025a9b2b13980bfc00439e9dd5d44956419250447601c"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "optional-r1-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095151978471Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095151978471Z/optional_r1_client_results.json",
+        "bytes": 5884,
+        "sha256": "8d865bdbe33a3e4b22604ba7a74008896128e200ade0b0817480f1c19bbc92a4"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--optional-r1-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095151978471Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095151978471Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "7dfee5e7aa2f7fef76dd487d17051b383844c9e41dfbb7a021ed12fce5642d17"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 83,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095151978471Z/result.json",
+        "bytes": 2225,
+        "sha256": "08e70fc37c3a35cd8424c51efb439216dbd1cb31efcf5f263745beec60951722"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095151978471Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095151978471Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095151978471Z/client_profile_source.json",
+          "bytes": 4604,
+          "sha256": "b130fcb6d877bd17c93f10dfa166b9ef6a77d90031e2de46ba4612f5e137f6b2"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 549,
+          "task": "CP-R1-03",
+          "name": "normal_zero_XP_R1_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0549/testdata/normal-optional-r1-native-entry/recovery/inventory-v2-8cafd577-2689-4a7c-a52c-59cf2780b7a9.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual exported zero-XP production route and original local gates; both complete original sources, explicit contract permissions, actual shared native battle controls, preview/cancel/Continue/withdraw/revoke/new-attempt and separate target inspection",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "optional-r2-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r2-client-test.log",
+        "bytes": 469,
+        "sha256": "b84827c6f09e7d1a893ee9394084b6381c04c5067876a6133ec898120d80d98b"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "optional-r2-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095232871965Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095232871965Z/optional_r2_client_results.json",
+        "bytes": 5644,
+        "sha256": "3a422c595d11a6729fbf1e67e26427c78f29c0ad7f846d4b7b44650a8dd09b73"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--optional-r2-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095232871965Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095232871965Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "f48a0455e4722019d21c1134eeb316a4d5c61d8e9570939e41fa93fa22d9e069"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 79,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095232871965Z/result.json",
+        "bytes": 2225,
+        "sha256": "6ef1aebd6e399365b2a2cdf47f5515f019aa6f883f5b19e90c0ae835dc5b4242"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095232871965Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095232871965Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095232871965Z/client_profile_source.json",
+          "bytes": 5097,
+          "sha256": "ae82d4f406a568a75ed93cb17da3337a4a57078fa0477207a281880ed9ec738d"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 550,
+          "task": "CP-R2-03",
+          "name": "normal_zero_XP_R2_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0550/testdata/normal-optional-r2-native-entry/recovery/inventory-v2-fc085dea-ef97-4bd7-abe6-05012065a420.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual exported zero-XP production route and original local gates; both complete original sources, explicit contract permissions, actual shared native battle controls, preview/cancel/Continue/withdraw/revoke/new-attempt and separate target inspection",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "optional-r3-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r3-client-test.log",
+        "bytes": 469,
+        "sha256": "8acba29fe65b7e1461c09f0f42f29ae4ea33410c06def949895225a831349f08"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "optional-r3-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095318864678Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095318864678Z/optional_r3_client_results.json",
+        "bytes": 5824,
+        "sha256": "b84ba39d86718efc6866216a00dc8d00cb5ecb6db0a9edec575dabb5b66f33bb"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--optional-r3-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095318864678Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095318864678Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "e7d5e31c1961b94b2bda99a391248bebaf0af1da5ca808e468ec7c0b38f25f78"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 82,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095318864678Z/result.json",
+        "bytes": 2225,
+        "sha256": "fdf4473fed96a892e59345411aafabba9d3ed0cd92003e3e990f756bc56fade5"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095318864678Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095318864678Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095318864678Z/client_profile_source.json",
+          "bytes": 5097,
+          "sha256": "239a4337c05296c3ee18c2cd5774fd4def1d6a1cbfc5fbae1b56528444fb296e"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 551,
+          "task": "CP-R3-03",
+          "name": "normal_zero_XP_R3_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0551/testdata/normal-optional-r3-native-entry/recovery/inventory-v2-9736a755-9ac6-45b8-8e22-325627243a39.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual exported zero-XP production route and original local gates; both complete original sources, explicit contract permissions, actual shared native battle controls, preview/cancel/Continue/withdraw/revoke/new-attempt and separate target inspection",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "optional-r4-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r4-client-test.log",
+        "bytes": 469,
+        "sha256": "ebd1a0f33f5395ee7be63f34fd7d4d21551b2150c4658695e79fcf1d6d9631e6"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "optional-r4-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095408155288Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095408155288Z/optional_r4_client_results.json",
+        "bytes": 4984,
+        "sha256": "5c8b0983ad2d9024df9d3ebda38c69036f18494f6a89879594dc83f3cc8d2e78"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--optional-r4-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095408155288Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095408155288Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "276e3fc18d958f632ddac485a4ec3525a9beaa42fe0780e4362d21b647ba30d4"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 68,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095408155288Z/result.json",
+        "bytes": 2225,
+        "sha256": "de6272611935b270469620665a195d60490c2ecb93e2c15e287d74ce52c2cdff"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095408155288Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095408155288Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095408155288Z/client_profile_source.json",
+          "bytes": 5097,
+          "sha256": "5f66cfd3f38d5baf26e23b33833cc809d53a85ef5680f1b9a9bdbca6ac0f6cd7"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 552,
+          "task": "CP-R4-03",
+          "name": "normal_zero_XP_R4_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0552/testdata/normal-optional-r4-native-entry/recovery/inventory-v2-76274e79-e21d-4758-9e0a-4e798a7f32fe.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual exported zero-XP production route and original local gates; both complete original sources, explicit contract permissions, actual shared native battle controls, preview/cancel/Continue/withdraw/revoke/new-attempt and separate target inspection",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "optional-r5-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r5-client-test.log",
+        "bytes": 469,
+        "sha256": "4c3ca87d37825df3ef0f324d871c7949296d47b96a56e29dc12de93d57135203"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "optional-r5-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095459772323Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095459772323Z/optional_r5_client_results.json",
+        "bytes": 5524,
+        "sha256": "6b7b3a219f228f218ac6be67cce5896ce2484ce010d925845e25ce63fcbb047f"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--optional-r5-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095459772323Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095459772323Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "5a2b02cdd667d7c6046c8beb6169e2e2bb90193af39ce2a17f6245bc60f2f884"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 77,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095459772323Z/result.json",
+        "bytes": 2225,
+        "sha256": "f3eb10a23cd78e24a27fc8e83b73f36700a9a51531a08f1b31f51e65c053068e"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095459772323Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095459772323Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095459772323Z/client_profile_source.json",
+          "bytes": 5097,
+          "sha256": "de0359fc06346d4030d75de282867ea18a2c709e0dfb53ec08e3ebeb6c104913"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 553,
+          "task": "CP-R5-03",
+          "name": "normal_zero_XP_R5_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0553/testdata/normal-optional-r5-native-entry/recovery/inventory-v2-0dddaf47-f4f0-417f-8d61-f73eecf43075.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual exported zero-XP production route and original local gates; both complete original sources, explicit contract permissions, actual shared native battle controls, preview/cancel/Continue/withdraw/revoke/new-attempt and separate target inspection",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    },
+    {
+      "action": "optional-r6-client-test",
+      "status": "passed",
+      "wrapper": {
+        "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r6-client-test.log",
+        "bytes": 469,
+        "sha256": "ca923cd7aea222642ad2b5ae2999c8b2fbfd0974f2a4b54851956371c22aa128"
+      },
+      "wrapper_argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py",
+        "optional-r6-client-test"
+      ],
+      "wrapper_exit_code": 0,
+      "actual_build_directory": "reports/build/20261010T095558755778Z",
+      "actual_client_report": {
+        "path": "reports/build/20261010T095558755778Z/optional_r6_client_results.json",
+        "bytes": 5524,
+        "sha256": "d28dd9fc3be6cd80100d51d8e7739bc3c57c90a7c8270e360d752d3840a8751c"
+      },
+      "actual_client_command": {
+        "argv": [
+          "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+          "--headless",
+          "--path",
+          "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+          "--",
+          "--optional-r6-client-test"
+        ],
+        "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+        "exit_code": 0,
+        "output_path": "reports/build/20261010T095558755778Z/client_tests.log"
+      },
+      "actual_client_command_log": {
+        "path": "reports/build/20261010T095558755778Z/client_tests.log",
+        "bytes": 615,
+        "sha256": "39f5665726372879cbb709b0af9bf955e7cd708922b87d684b4910549c3bfb40"
+      },
+      "actual_client_exit_code": 0,
+      "checks_executed": 77,
+      "failed_check_count": 0,
+      "failed_checks": [],
+      "outcome_record": {
+        "path": "reports/build/20261010T095558755778Z/result.json",
+        "bytes": 2225,
+        "sha256": "1e245c250e435e5eb8b8b4910732235577d4153718b3f488f3c3f121d7ecd3c7"
+      },
+      "execution_inputs": {
+        "path": "reports/build/20261010T095558755778Z/run_inputs.json",
+        "bytes": 89502,
+        "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+      },
+      "same_pre_fix_inputs": true,
+      "compiled_artifacts": {
+        "path": "reports/build/20261010T095558755778Z/compiled_artifacts.json",
+        "bytes": 3925,
+        "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+      },
+      "same_pre_fix_recorded_binaries": true,
+      "profile_copy_binding": {
+        "evidence": {
+          "path": "reports/build/20261010T095558755778Z/client_profile_source.json",
+          "bytes": 5097,
+          "sha256": "89ea2995ee95fe3ab2c61bae615f8ff6fbdcea602b720b48fd069efc87ef287c"
+        },
+        "source_mode": "final_full_suite_case_copy",
+        "suite": "reports/build/20261010T085230712857Z",
+        "selected_case": {
+          "index": 554,
+          "task": "CP-R6-03",
+          "name": "normal_zero_XP_R6_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards"
+        },
+        "source_active_database": "reports/build/20261010T085230712857Z/case_runs/0554/testdata/normal-optional-r6-native-entry/recovery/inventory-v2-d609eefc-e668-4fa5-91a3-1cd2c5655a72.sqlite",
+        "fixture": false,
+        "fixture_receipts": 0,
+        "scope": "Recorded native copy provenance; this summary does not rerun the source-cache or SQLite audit."
+      },
+      "driver_reported_scope": "actual exported zero-XP production route and original local gates; both complete original sources, explicit contract permissions, actual shared native battle controls, preview/cancel/Continue/withdraw/revoke/new-attempt and separate target inspection",
+      "human_native_play": "not_run",
+      "screen_reader": "not_run",
+      "physical_ime": "not_run",
+      "language_calibration": "human_pending"
+    }
+  ],
+  "baseline_suite": {
+    "path": "reports/build/20261010T085230712857Z",
+    "test_results": {
+      "path": "reports/build/20261010T085230712857Z/test_results.json",
+      "bytes": 102628,
+      "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418"
+    },
+    "executed": 578,
+    "failed": 0,
+    "registry_count": 578,
+    "scope": "Actually passed 578/0 on pre-fix inputs; historical diagnostic source and binary baseline only. Current three changed diagnostics invalidate a current full-suite-pass claim.",
+    "is_current_input_final_suite": false
+  },
+  "current_input_comparison": {
+    "baseline_build_inputs": {
+      "path": "reports/build/20261010T085230712857Z/build_inputs.json",
+      "bytes": 89497,
+      "sha256": "7bd84c67448cd71a0640df88c7387488ecf92891da8da6f4d1d488c19a25b437"
+    },
+    "method": "Read-only current_inputs() from frozen tools/ci/build_inputs.py; compare complete path/bytes/SHA256 dictionaries.",
+    "baseline_input_count": 473,
+    "current_input_count": 473,
+    "added": [],
+    "removed": [],
+    "changed_files": [
+      {
+        "path": "game/Diagnostics/Root.ChapterSixClientTests.cs",
+        "before": {
+          "path": "game/Diagnostics/Root.ChapterSixClientTests.cs",
+          "bytes": 27035,
+          "sha256": "c97f8fdda2d7e28df0689a1e3ed56a6ee7bbee12f1e22f2e1b5e97ac6c064348"
+        },
+        "after": {
+          "path": "game/Diagnostics/Root.ChapterSixClientTests.cs",
+          "bytes": 27050,
+          "sha256": "041ef7dd39822714fc370633f154fe45f587a5e19dd1f6f48be52322479703d8"
+        }
+      },
+      {
+        "path": "game/Diagnostics/Root.ChapterThreeClientTests.cs",
+        "before": {
+          "path": "game/Diagnostics/Root.ChapterThreeClientTests.cs",
+          "bytes": 21644,
+          "sha256": "1f8b423e1c7eb114b3d1a590b8db7994005c6bbbd8f2f82f484af7c74ac28426"
+        },
+        "after": {
+          "path": "game/Diagnostics/Root.ChapterThreeClientTests.cs",
+          "bytes": 21659,
+          "sha256": "7bf027bcd20f78eccc5da670dc16a1cd6f049f4641d22c0ff8ea75b766433f6c"
+        }
+      },
+      {
+        "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+        "before": {
+          "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+          "bytes": 19071,
+          "sha256": "7147698b25977b4fbb103568d34a24cfe087aac141846c559ee55fd42fe0f449"
+        },
+        "after": {
+          "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+          "bytes": 19494,
+          "sha256": "d992cf6dd3e295f72ae6c4348c055ebfa67cc119e2bfd7d62eb16ca27b93029b"
+        }
+      }
+    ],
+    "only_three_diagnostics_changed": true,
+    "production_content_ci_inputs_unchanged": true,
+    "current_full_suite_pass_claim": false
+  },
+  "applied_fix_scope": {
+    "source_changes_are_root_applied": true,
+    "chapter_two": "Explicit actual R2-S03.address public-room wrapper click before material button; retain actual station, source permissions and exact original display.",
+    "chapter_two_three_six_audio": "Wait for actual asynchronous speed-change event to settle before checking player and clicking script controls.",
+    "focused_retests": "Running independently under Root; not read, counted or promoted by this pre-fix chronology report.",
+    "fresh_unfiltered_current_suite": "Pending independent Root run; historical 578/0 is not transferred."
+  },
+  "limitations": [
+    "Actual headless Godot native diagnostic controllers; not a human playthrough or visual/manual acceptance.",
+    "client-test includes explicitly scoped internal Q102 engineering checks; this report does not claim all 29 inputs are the same normal zero-XP campaign profile.",
+    "First diagnostic sweep has only four completed actions and was interrupted before the remaining actions; the resumed 21 are counted from their own actual wrapper/files.",
+    "Failing original R2/R3/R6 reports remain failed after source patches; only fresh actual runs can establish repaired behavior.",
+    "No exported release, physical IME, screen reader, clean-machine, human language or 6.5 calibration claim."
+  ],
+  "human_signoff": null,
+  "formal_acceptance": "pending",
+  "ledger_mutation": false,
+  "evidence_files": [
+    {
+      "path": "reports/build/20261010T085230712857Z/build_inputs.json",
+      "bytes": 89497,
+      "sha256": "7bd84c67448cd71a0640df88c7387488ecf92891da8da6f4d1d488c19a25b437"
+    },
+    {
+      "path": "reports/build/20261010T085230712857Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T085230712857Z/test_results.json",
+      "bytes": 102628,
+      "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418"
+    },
+    {
+      "path": "reports/build/20261010T085230712857Z/full_suite_inventory.json",
+      "bytes": 98753,
+      "sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a"
+    },
+    {
+      "path": "tools/ci/build_inputs.py",
+      "bytes": 1270,
+      "sha256": "1401972f0a32c21d96b516a41d8a7792aaea4662a66c1c460ad479c6b6a8cabc"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterThreeClientTests.cs",
+      "bytes": 21659,
+      "sha256": "7bf027bcd20f78eccc5da670dc16a1cd6f049f4641d22c0ff8ea75b766433f6c"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterSixClientTests.cs",
+      "bytes": 27050,
+      "sha256": "041ef7dd39822714fc370633f154fe45f587a5e19dd1f6f48be52322479703d8"
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+      "bytes": 19494,
+      "sha256": "d992cf6dd3e295f72ae6c4348c055ebfa67cc119e2bfd7d62eb16ca27b93029b"
+    },
+    {
+      "path": "reports/continuous/native_sequence_20261010T092413026504Z/progress.json",
+      "bytes": 2319,
+      "sha256": "48735dcd8ed1c4ebb1f50236eadc1ea8bda6d5ebed41772d906c10f0708be68a"
+    },
+    {
+      "path": "reports/build/20261010T092413350272Z/client_results.json",
+      "bytes": 2121,
+      "sha256": "595e488355f413317c5476c589c1781da5e0e5f60a94f2701e765145b2aa0725"
+    },
+    {
+      "path": "reports/build/20261010T092413350272Z/commands.json",
+      "bytes": 1429,
+      "sha256": "df021ab54f8306b3f115bc48b7006d7560c5652e914cb570f019d3a1fd72de95"
+    },
+    {
+      "path": "reports/build/20261010T092413350272Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T092413350272Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T092413350272Z/result.json",
+      "bytes": 1690,
+      "sha256": "60907bb9ce62b39ec6422720df596ef2147e5f923245c4c7ba60d780a667044c"
+    },
+    {
+      "path": "reports/continuous/native_sequence_20261010T092413026504Z/client-test.log",
+      "bytes": 385,
+      "sha256": "b928a64878cf94bc4909f8721dd0d1c736f987ee272382556ed3df624dada16a"
+    },
+    {
+      "path": "reports/build/20261010T092413350272Z/client_tests.log",
+      "bytes": 591,
+      "sha256": "9835f1fc461f29a389e6668e91d5e95f3cccde90de1167ec8ccbe8075743b47d"
+    },
+    {
+      "path": "reports/build/20261010T092449010243Z/campaign_client_results.json",
+      "bytes": 842,
+      "sha256": "f7f0ebcd283d3710dbae2d8dee9a2f6ec4ec38417c204c7b2c884eb35dde1a5c"
+    },
+    {
+      "path": "reports/build/20261010T092449010243Z/commands.json",
+      "bytes": 1438,
+      "sha256": "72cde90bdfff54399d963903348e628897540e080027789873da63e5d5532c92"
+    },
+    {
+      "path": "reports/build/20261010T092449010243Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T092449010243Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T092449010243Z/result.json",
+      "bytes": 1708,
+      "sha256": "c3e1cb1de56996125990da0f53666b43b36ce8222bae84427f807d8ddcb06e14"
+    },
+    {
+      "path": "reports/continuous/native_sequence_20261010T092413026504Z/campaign-client-test.log",
+      "bytes": 403,
+      "sha256": "12b2d690d84b8e859679d7be4af5dac3b78b79277ca47ea2fc045a03a71ff3ac"
+    },
+    {
+      "path": "reports/build/20261010T092449010243Z/client_tests.log",
+      "bytes": 633,
+      "sha256": "3455b7d71a777c16c8615007599a53c9efd1bd55674cbbd915e816af90a7dbf9"
+    },
+    {
+      "path": "reports/build/20261010T092455140604Z/vessel_client_results.json",
+      "bytes": 959,
+      "sha256": "006b6aa5bf2990544e5e6a752f90e96965efc1b96b60815c757e5d565e449e9b"
+    },
+    {
+      "path": "reports/build/20261010T092455140604Z/commands.json",
+      "bytes": 1436,
+      "sha256": "ed17082cd0f7e28b622088e522b9d8959f64ec51c02a0265e6a16ab4dd1204ea"
+    },
+    {
+      "path": "reports/build/20261010T092455140604Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T092455140604Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T092455140604Z/result.json",
+      "bytes": 1704,
+      "sha256": "fe4bf16fc707b37bc32f1e875b8bb5cabccc8a64aa8668bf1b538fba6ac9560a"
+    },
+    {
+      "path": "reports/build/20261010T092455140604Z/client_profile_source.json",
+      "bytes": 4317,
+      "sha256": "dbcb089b6c3eeb601f74acac14ab73a6d0a9c39f862658c246657c65f4724076"
+    },
+    {
+      "path": "reports/continuous/native_sequence_20261010T092413026504Z/vessel-client-test.log",
+      "bytes": 399,
+      "sha256": "9ab9daf494f9cadef5d039c17abefad8dadd7afd55baa7b885d7f81ac703b8c2"
+    },
+    {
+      "path": "reports/build/20261010T092455140604Z/client_tests.log",
+      "bytes": 605,
+      "sha256": "6f55f313d54a18f92d67b5710308937ebb7c788a61d36ede47653c5aa521f5c9"
+    },
+    {
+      "path": "reports/build/20261010T092506079500Z/chapter_two_client_results.json",
+      "bytes": 1368,
+      "sha256": "9fb39dc9d39406606b1ebcdc5195d1ce84aaab50a0ea4be6a6f3c813dd995341"
+    },
+    {
+      "path": "reports/build/20261010T092506079500Z/commands.json",
+      "bytes": 1441,
+      "sha256": "8fd1ed843024c86bd835b1413014a8ab2b20286939e05be22b99a58c3e5f5255"
+    },
+    {
+      "path": "reports/build/20261010T092506079500Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T092506079500Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T092506079500Z/failure.json",
+      "bytes": 1896,
+      "sha256": "342e0dd78d8dfc2ee591cea40938c02110ec43e51f352d702f848e10b7991ce7"
+    },
+    {
+      "path": "reports/build/20261010T092506079500Z/client_profile_source.json",
+      "bytes": 4274,
+      "sha256": "2f7504f44c9b859ea278ada7145527aac2122040ed2cd9fd58d38f1aa9c9d0d4"
+    },
+    {
+      "path": "reports/continuous/native_sequence_20261010T092413026504Z/chapter-two-client-test.log",
+      "bytes": 1721,
+      "sha256": "e14d78d7bfd214952956598a6ecb6e7e65bdc85ca0065e02d4868fdedbb55a80"
+    },
+    {
+      "path": "reports/build/20261010T092506079500Z/client_tests.log",
+      "bytes": 614,
+      "sha256": "55e0945a6355875b671f73985d5903fa4140aa184df9f21deddb3f7173fa8b86"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/progress.json",
+      "bytes": 3925,
+      "sha256": "f8c08e650cdcc4d47c15cebee39c0e8e3ebfdcad35304577358d6ee33466dd76"
+    },
+    {
+      "path": "reports/build/20261010T092727982836Z/chapter_three_client_results.json",
+      "bytes": 4525,
+      "sha256": "665c463b1336593efa6371ccf811ac2177d05a731c03b1784d5c3840881255cb"
+    },
+    {
+      "path": "reports/build/20261010T092727982836Z/commands.json",
+      "bytes": 1443,
+      "sha256": "0c9567b81abaaca017ffa75cc56db279fcb1e21662ed2ef93a7a94d1c22470c4"
+    },
+    {
+      "path": "reports/build/20261010T092727982836Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T092727982836Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T092727982836Z/failure.json",
+      "bytes": 1901,
+      "sha256": "9cd8ed602e855f49034afbee2a5be92acb9fa1baf8f653eb150f71a9ee167770"
+    },
+    {
+      "path": "reports/build/20261010T092727982836Z/client_profile_source.json",
+      "bytes": 4811,
+      "sha256": "e5fd22883d9797dadbe920fd77a7342cc19879de304aafe493651ded97322a09"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-three-client-test.log",
+      "bytes": 1740,
+      "sha256": "8e01f30adb9ad3a0f31e59f36381d2005573f4290046248f4af4a3b24a4fb9d2"
+    },
+    {
+      "path": "reports/build/20261010T092727982836Z/client_tests.log",
+      "bytes": 619,
+      "sha256": "04427579f5b73fe953bf477450ec80d757b24646a74ce2d3d1c56fc6a582af6d"
+    },
+    {
+      "path": "reports/build/20261010T092846627975Z/chapter_four_client_results.json",
+      "bytes": 2903,
+      "sha256": "adafd03e7b7efd12caa88f59e9d638738655349dd86e0749d872ee40bc3c4fa0"
+    },
+    {
+      "path": "reports/build/20261010T092846627975Z/commands.json",
+      "bytes": 1442,
+      "sha256": "3e7344be40280f6788574fb992980dbbeb756b48365403f244936aeba6147add"
+    },
+    {
+      "path": "reports/build/20261010T092846627975Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T092846627975Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T092846627975Z/result.json",
+      "bytes": 1716,
+      "sha256": "26f22119e32a7b5cacb1a210c0b7ca095e0ad3255543be00a432b48dd3368baf"
+    },
+    {
+      "path": "reports/build/20261010T092846627975Z/client_profile_source.json",
+      "bytes": 4781,
+      "sha256": "e47e86f3c3d429f96dd5d5c17903d5194cdce3a63d1aad0646acfd288469d494"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-four-client-test.log",
+      "bytes": 425,
+      "sha256": "ad3b710a534ec7e2d8c922947acf275d4e80d81e10a0725f633bec1c5c98f73a"
+    },
+    {
+      "path": "reports/build/20261010T092846627975Z/client_tests.log",
+      "bytes": 617,
+      "sha256": "8a569c2443c3af45e57da037fc558d2812d4e512697519a6308fe154df52e110"
+    },
+    {
+      "path": "reports/build/20261010T093015107967Z/chapter_five_client_results.json",
+      "bytes": 3701,
+      "sha256": "09bf18ae6eefffd8a0c3a8bce9148f3ee00a291eb47329041d04a36d8275f278"
+    },
+    {
+      "path": "reports/build/20261010T093015107967Z/commands.json",
+      "bytes": 1442,
+      "sha256": "dc878da3bf9f55b63ff610dfc921d18ed5671213b630cf092062fbc753123bb1"
+    },
+    {
+      "path": "reports/build/20261010T093015107967Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T093015107967Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T093015107967Z/result.json",
+      "bytes": 1716,
+      "sha256": "0f645602dc265b9bc9270286891b3c196dbb51721b4ce54d939c6714786db1e0"
+    },
+    {
+      "path": "reports/build/20261010T093015107967Z/client_profile_source.json",
+      "bytes": 4733,
+      "sha256": "a7641c9c044672f2644e7d05cfd6a098cf7c7324b568088a3106d81266aaf8e5"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-five-client-test.log",
+      "bytes": 425,
+      "sha256": "6a7a404cade906dfe97aa0e8a4e2f0f0bc41a6360c65c2478f1ca09f8fd039d8"
+    },
+    {
+      "path": "reports/build/20261010T093015107967Z/client_tests.log",
+      "bytes": 617,
+      "sha256": "aa6536639f28962b485055862581a26ae0d49468eef5413216f2cb1dab057e7a"
+    },
+    {
+      "path": "reports/build/20261010T093135956002Z/chapter_six_client_results.json",
+      "bytes": 4828,
+      "sha256": "c195c2ef36f546998bf9c3e1271bb8b0e0254686ab4f0caa04ef15e9bd32c410"
+    },
+    {
+      "path": "reports/build/20261010T093135956002Z/commands.json",
+      "bytes": 1441,
+      "sha256": "73b48597acb69a5f9eb1e2e215509d4ed44ccc9e1e842868c88d73ad777428fc"
+    },
+    {
+      "path": "reports/build/20261010T093135956002Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T093135956002Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T093135956002Z/failure.json",
+      "bytes": 1897,
+      "sha256": "fa004f5c2236b5c5fbdb212684ebee1d2003ffd3da303c6ff02fa49ab76a9ef4"
+    },
+    {
+      "path": "reports/build/20261010T093135956002Z/client_profile_source.json",
+      "bytes": 4790,
+      "sha256": "345b3189e15c5761b43c00e3a224af17dc4a662adcd7403dc2842ec2c408580e"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T092727842579Z/chapter-six-client-test.log",
+      "bytes": 1736,
+      "sha256": "35b7c3be82b21208e5e298c744a7c08c4d0fb38a7ac84154d5480c13afcc267f"
+    },
+    {
+      "path": "reports/build/20261010T093135956002Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "61cec1d812d48f7a7c848009f96431d942b815248c6fa1affedce6b132010c19"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/progress.json",
+      "bytes": 3646,
+      "sha256": "57dfc45a247cbf588a07815e8a483eb0d55148a4ad7f251aea860c68a7737638"
+    },
+    {
+      "path": "reports/build/20261010T094356048694Z/finale_client_results.json",
+      "bytes": 148016,
+      "sha256": "bf739c0c20a3bf0ba1a66d4f79a41a6f6c306b27224f99f8f5bfc24782708da2"
+    },
+    {
+      "path": "reports/build/20261010T094356048694Z/commands.json",
+      "bytes": 1927,
+      "sha256": "adf674cf3c409e8de1840c548964e7781e175aac6c41baf1cd7e3062786131cf"
+    },
+    {
+      "path": "reports/build/20261010T094356048694Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094356048694Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094356048694Z/result.json",
+      "bytes": 2215,
+      "sha256": "04a4cae00d44bfbc4016770f668f0ccdac4f667df332a090ae0b75eb4ffdb675"
+    },
+    {
+      "path": "reports/build/20261010T094356048694Z/client_profile_source.json",
+      "bytes": 4717,
+      "sha256": "6aec53fc9669a01b306a8123361ce2e0111c5ad68055170af66bd6f94c679da0"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/finale-client-test.log",
+      "bytes": 459,
+      "sha256": "2fc855606a83acca2d75a8129a140116480c6f8567214e09209c5d2e167659a0"
+    },
+    {
+      "path": "reports/build/20261010T094356048694Z/client_tests.log",
+      "bytes": 605,
+      "sha256": "f4761e197460a661756248fb6e96a40fa1a4976cfd7372ffd0d6c6f23223753b"
+    },
+    {
+      "path": "reports/build/20261010T094530032782Z/r1_life_client_results.json",
+      "bytes": 2667,
+      "sha256": "4146da9991c2c39806a73ad31c7a0f290c1d1532a4475e33dc0c51dc9fa8d355"
+    },
+    {
+      "path": "reports/build/20261010T094530032782Z/commands.json",
+      "bytes": 1928,
+      "sha256": "94ee43c129a4c078006dfaa804ea24e5632b0799df6f0f741ac2dd0b6eeee374"
+    },
+    {
+      "path": "reports/build/20261010T094530032782Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094530032782Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094530032782Z/result.json",
+      "bytes": 2217,
+      "sha256": "ffb4e5680bf7173a1b4506ebd7b15a597d9ea269d6096d7b5357d0e93bfb1b6d"
+    },
+    {
+      "path": "reports/build/20261010T094530032782Z/client_profile_source.json",
+      "bytes": 4499,
+      "sha256": "4bc1ef7cc5cad921786ef24755f0725fba81d5b18a88e7aa023568c2d7385838"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/r1-life-client-test.log",
+      "bytes": 461,
+      "sha256": "8980fb747cf283eb7019847d038a9cb5172278286241e4db2ac4770af2a7d892"
+    },
+    {
+      "path": "reports/build/20261010T094530032782Z/client_tests.log",
+      "bytes": 607,
+      "sha256": "de6c62e173b5b24a810c9fe020f6042bd446e241ad7cd5c0ba4b798f17fa924d"
+    },
+    {
+      "path": "reports/build/20261010T094555788627Z/musicbox_client_results.json",
+      "bytes": 1470,
+      "sha256": "e0adda6e9a553901ccf9c6ee7b6891b5ea8173f6298d82dcbbeba06a4421a10c"
+    },
+    {
+      "path": "reports/build/20261010T094555788627Z/commands.json",
+      "bytes": 1438,
+      "sha256": "84ee2052b1b135fb3e1d1a4a1b8252e7a10c8387cccaf126d655d962ab9639c1"
+    },
+    {
+      "path": "reports/build/20261010T094555788627Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094555788627Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094555788627Z/result.json",
+      "bytes": 1708,
+      "sha256": "114197c36cd53f436443414b8a1c0d886a6e5b8abb57c6fa5982c97edb7c5def"
+    },
+    {
+      "path": "reports/build/20261010T094555788627Z/client_profile_source.json",
+      "bytes": 4822,
+      "sha256": "e4004cf95991ec149aa468676ea5ecdee090a40b65b49f34ab804ea42e7f5343"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/musicbox-client-test.log",
+      "bytes": 417,
+      "sha256": "05e24cbcc236bc0cf237260bade83f9f125c9935a4c4846a80d24faca73083c0"
+    },
+    {
+      "path": "reports/build/20261010T094555788627Z/client_tests.log",
+      "bytes": 609,
+      "sha256": "f2ba2f92bf83f263834a402a9f4fadb7b3b0610aa36e7f3f7a4de6683bbf8f80"
+    },
+    {
+      "path": "reports/build/20261010T094616853101Z/r2_life_client_results.json",
+      "bytes": 2565,
+      "sha256": "24a2ee2a5a80c391dfefcf67bcc455a951f231db71815f0fe9c10553dea16161"
+    },
+    {
+      "path": "reports/build/20261010T094616853101Z/commands.json",
+      "bytes": 1928,
+      "sha256": "b7f0a44655775a990ddeec61a6143ce4c5de78d774d257f92dc1b04d8266eb29"
+    },
+    {
+      "path": "reports/build/20261010T094616853101Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094616853101Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094616853101Z/result.json",
+      "bytes": 2217,
+      "sha256": "b2d327d5d990e7704e6f9b3a95ba6fa30d5efffaf6610ed2761d2ab72eb5056c"
+    },
+    {
+      "path": "reports/build/20261010T094616853101Z/client_profile_source.json",
+      "bytes": 4546,
+      "sha256": "c48fe11a275934fda6d48ba7d617946702fd8b76f987e172704f6739bb80836a"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/r2-life-client-test.log",
+      "bytes": 461,
+      "sha256": "d63a663be4310a56a8de0487c4dbc11a77468563da7da50dba6710f13de37eb9"
+    },
+    {
+      "path": "reports/build/20261010T094616853101Z/client_tests.log",
+      "bytes": 607,
+      "sha256": "16ca16c07bccfe8477b5a4656212b4cba96f517ef745d85cf718f59aa915b5c3"
+    },
+    {
+      "path": "reports/build/20261010T094641790735Z/chapter_four_local_client_results.json",
+      "bytes": 4262,
+      "sha256": "a612b3dc5f29cf96fd699e9d49494c6cbeb2efec135fa65420e64ea5e75bd30a"
+    },
+    {
+      "path": "reports/build/20261010T094641790735Z/commands.json",
+      "bytes": 1448,
+      "sha256": "07698ddb2fd61b5df64f9416ff43da84f45ce9da105dc38fc730b623e8f8e9b8"
+    },
+    {
+      "path": "reports/build/20261010T094641790735Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094641790735Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094641790735Z/result.json",
+      "bytes": 1728,
+      "sha256": "c26c2d78ed6220aa6e1e3a27a48a0acc8ab8b93ed87e388fb00bc1f69000ea2f"
+    },
+    {
+      "path": "reports/build/20261010T094641790735Z/client_profile_source.json",
+      "bytes": 4781,
+      "sha256": "e47e86f3c3d429f96dd5d5c17903d5194cdce3a63d1aad0646acfd288469d494"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/chapter-four-local-client-test.log",
+      "bytes": 437,
+      "sha256": "038772dcd392fc075e7b1bf4ccfd8a4eff63ac2ce34b55dceab0b8e8832ac814"
+    },
+    {
+      "path": "reports/build/20261010T094641790735Z/client_tests.log",
+      "bytes": 629,
+      "sha256": "40937aae3ea6ee41f2e419e2763056b7032898f693a8602c37e43ee42e07e63d"
+    },
+    {
+      "path": "reports/build/20261010T094721523060Z/first_relay_client_results.json",
+      "bytes": 2196,
+      "sha256": "5c321f81d36b0f147ce8967a416493f7bdf0d0b925617c49d61752a92b2622b3"
+    },
+    {
+      "path": "reports/build/20261010T094721523060Z/commands.json",
+      "bytes": 1932,
+      "sha256": "37c99a7f69df9daabf9337a3255ab5f33f90edb60ee6123cc8a9bf706c5379e0"
+    },
+    {
+      "path": "reports/build/20261010T094721523060Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094721523060Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094721523060Z/result.json",
+      "bytes": 2225,
+      "sha256": "cf8dd5149e6ffa1ed0eb31f5e8ac8fbf76bc97c52e71795c76f5661608cb4da9"
+    },
+    {
+      "path": "reports/build/20261010T094721523060Z/client_profile_source.json",
+      "bytes": 4625,
+      "sha256": "261c4eca316091867c320e74d9299d370fc66fb368dd59b88f0635030074a9f8"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/first-relay-client-test.log",
+      "bytes": 469,
+      "sha256": "547e911b6c2c2c190a9abec97da02f442110fdd3a0a9c4d0672f049e8f81a04d"
+    },
+    {
+      "path": "reports/build/20261010T094721523060Z/client_tests.log",
+      "bytes": 639,
+      "sha256": "f55fba83019296a4c5a4aaf385f206feb12b1e22ce0c762b3553c79ca44c568d"
+    },
+    {
+      "path": "reports/build/20261010T094732578287Z/first_side_client_results.json",
+      "bytes": 1148,
+      "sha256": "353744a480311b83f7c33f7669a4eef014c828fa848d61663337dbc33c3a06ca"
+    },
+    {
+      "path": "reports/build/20261010T094732578287Z/commands.json",
+      "bytes": 1931,
+      "sha256": "fdde5bf44395239687c4ca936171086f0d990cc7c99ee5e56003a48e695ac847"
+    },
+    {
+      "path": "reports/build/20261010T094732578287Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094732578287Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094732578287Z/result.json",
+      "bytes": 2223,
+      "sha256": "01726d860c58cd87c3825f315bbc91c3e0aadca132d726c936cbe38fa473e24f"
+    },
+    {
+      "path": "reports/build/20261010T094732578287Z/client_profile_source.json",
+      "bytes": 4621,
+      "sha256": "92cec4cccfdbbf6ce0b5e2b8fdb279001845cc01349dc89952475087f4ce23c0"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/first-side-client-test.log",
+      "bytes": 467,
+      "sha256": "378db06eddf4898f5596861865f9ade91ec4cee659fb776a3ac34c92336fef47"
+    },
+    {
+      "path": "reports/build/20261010T094732578287Z/client_tests.log",
+      "bytes": 624,
+      "sha256": "31b71ebafd90395e9be8aeb27e2e79d2b09abaf526bbd3aed6d186f0ba3d990c"
+    },
+    {
+      "path": "reports/build/20261010T094743112100Z/first_outer_client_results.json",
+      "bytes": 3668,
+      "sha256": "5a52c96e91e466a8e6d356b06333ff6de4c63859e07e3b0750139367db2b9af6"
+    },
+    {
+      "path": "reports/build/20261010T094743112100Z/commands.json",
+      "bytes": 1932,
+      "sha256": "b3766602463499b21cdcb9c689f09e9be720a8efa8639c4e3d092bebc7f64d06"
+    },
+    {
+      "path": "reports/build/20261010T094743112100Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094743112100Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094743112100Z/result.json",
+      "bytes": 2225,
+      "sha256": "17643e2c9023f3911cc28b3deb6c72d121e9dd30aeb611f1884da336f3c034ea"
+    },
+    {
+      "path": "reports/build/20261010T094743112100Z/client_profile_source.json",
+      "bytes": 4621,
+      "sha256": "92cec4cccfdbbf6ce0b5e2b8fdb279001845cc01349dc89952475087f4ce23c0"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/first-outer-client-test.log",
+      "bytes": 469,
+      "sha256": "581e7a89597c41541472cfe27042f76c436145be64932199eb7f5f49377e0e6e"
+    },
+    {
+      "path": "reports/build/20261010T094743112100Z/client_tests.log",
+      "bytes": 625,
+      "sha256": "93350052128183b80e9943b253ee056850c20f4cc2443ba27b0534c42c2205b2"
+    },
+    {
+      "path": "reports/build/20261010T094809671821Z/field_relay_client_results.json",
+      "bytes": 1745,
+      "sha256": "c815ac2d799c7418c74ba449a7658c371f95840e3a48a31754f5b159f0951ebf"
+    },
+    {
+      "path": "reports/build/20261010T094809671821Z/commands.json",
+      "bytes": 1441,
+      "sha256": "d6d04347d655fc0cda405c89f7f4486ac0b8d0d326a56ac69803b9fa70565afd"
+    },
+    {
+      "path": "reports/build/20261010T094809671821Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094809671821Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094809671821Z/result.json",
+      "bytes": 1714,
+      "sha256": "4ed4e18bfc574cdae75ca6cae9f8980eda3fc1134e84a0418d2bf72af9b38a9b"
+    },
+    {
+      "path": "reports/build/20261010T094809671821Z/client_profile_source.json",
+      "bytes": 4929,
+      "sha256": "55f3a29129ffe813baa6072889cc43839d7fb453edff885c84b1c5c31fdbe67d"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/field-relay-client-test.log",
+      "bytes": 423,
+      "sha256": "d03eb21ef52b6cc127960f3fb71f88f4a0805a15a9e6d4ccf5a8038a8ec9c882"
+    },
+    {
+      "path": "reports/build/20261010T094809671821Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "4ef80ad7cbdf766673ee9faf45c335444225075b6fd1703701e9c605e7e81e81"
+    },
+    {
+      "path": "reports/build/20261010T094827443845Z/vessel_life_client_results.json",
+      "bytes": 779,
+      "sha256": "5c6594e0100e8a50ede9e78d1fa9aa2c8db6f77a6209da323e9a026dc9412adf"
+    },
+    {
+      "path": "reports/build/20261010T094827443845Z/commands.json",
+      "bytes": 1932,
+      "sha256": "4f24e93ce6c801b1832f08b837fbd0000b109371db9dc2d6f08a98d073ffb93a"
+    },
+    {
+      "path": "reports/build/20261010T094827443845Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094827443845Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094827443845Z/result.json",
+      "bytes": 2225,
+      "sha256": "32db1c4eac42e3bdd87810738df976566d9081ab8b8acb729cc5e5efba4e380a"
+    },
+    {
+      "path": "reports/build/20261010T094827443845Z/client_profile_source.json",
+      "bytes": 4761,
+      "sha256": "fab727a8485030af414ce57fbc41548bcdac3a78b2f58e6b427351306ba869f3"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/vessel-life-client-test.log",
+      "bytes": 469,
+      "sha256": "84805bce29e7671e8a04b7936939e10f3e595ebf0eb69130c17ff51ab7f22afb"
+    },
+    {
+      "path": "reports/build/20261010T094827443845Z/client_tests.log",
+      "bytes": 566,
+      "sha256": "5071fafe82e8fcf4f950376e6b621e4a4c52c9439156265a3d35040ae852dc06"
+    },
+    {
+      "path": "reports/build/20261010T094839294753Z/settlement_support_client_results.json",
+      "bytes": 2387,
+      "sha256": "053460f43faa7f48db65b01cdc18b4e2601da5bf7224fb0cded40deb9c6bba58"
+    },
+    {
+      "path": "reports/build/20261010T094839294753Z/commands.json",
+      "bytes": 1448,
+      "sha256": "98a91ada51a1cabcf504bea801413eae78757d8f9351d3a345671d926ed1c444"
+    },
+    {
+      "path": "reports/build/20261010T094839294753Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094839294753Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094839294753Z/result.json",
+      "bytes": 1728,
+      "sha256": "838dd3b408c5dd6ca30506ca9b9962b65f23224875fc8047587b9d07ba5eefe2"
+    },
+    {
+      "path": "reports/build/20261010T094839294753Z/client_profile_source.json",
+      "bytes": 4891,
+      "sha256": "1485f9ace5edb00bb1c88ea3df15f631ff3a4bdcc086b81c40cc5073fec7ac28"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/settlement-support-client-test.log",
+      "bytes": 437,
+      "sha256": "090ee7fa989a69e4644e41936a559905efdaaac30e2589e804b31a00758657ec"
+    },
+    {
+      "path": "reports/build/20261010T094839294753Z/client_tests.log",
+      "bytes": 621,
+      "sha256": "05d8284937c9942099ae6bb4b5ed81a71c3c7f4bdd0235dd896ecbd9e4acba71"
+    },
+    {
+      "path": "reports/build/20261010T094934190703Z/lina_personal_client_results.json",
+      "bytes": 2225,
+      "sha256": "99318adfbe3714201024a08441f90633991fc1fe1d003c92c2f60f01f0cafffa"
+    },
+    {
+      "path": "reports/build/20261010T094934190703Z/commands.json",
+      "bytes": 1934,
+      "sha256": "bf1bb5f70f147317d01bd542360341a6f1c01506fc47453f12434656951d02e5"
+    },
+    {
+      "path": "reports/build/20261010T094934190703Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094934190703Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094934190703Z/result.json",
+      "bytes": 2229,
+      "sha256": "2ae5baafe3541cf52f282fe24f7b117add9030e387e6115962cc0690dbd895f8"
+    },
+    {
+      "path": "reports/build/20261010T094934190703Z/client_profile_source.json",
+      "bytes": 4750,
+      "sha256": "58048ece67b62de4e7c78cf24fa0f4f51c1e0a90d67ab6a589d15239d479bede"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/lina-personal-client-test.log",
+      "bytes": 473,
+      "sha256": "e23e82e73a744a461f2db34468e6ab982b216812e99a742988c22536c651df5d"
+    },
+    {
+      "path": "reports/build/20261010T094934190703Z/client_tests.log",
+      "bytes": 568,
+      "sha256": "103245652bdddcbc5123e321403d2ff8404d3f2be8542e31a7bc70d26a560c8d"
+    },
+    {
+      "path": "reports/build/20261010T094957650042Z/r3_shift_work_client_results.json",
+      "bytes": 1264,
+      "sha256": "7f6f185e48e1ba25cb5be8e09999cd5aada95ca104b4ac38b6af3efac6f2ed48"
+    },
+    {
+      "path": "reports/build/20261010T094957650042Z/commands.json",
+      "bytes": 1929,
+      "sha256": "7987d5952773a15528f6b1d3f22e8536bcd0b2c630662d88f34a71523e0ee79a"
+    },
+    {
+      "path": "reports/build/20261010T094957650042Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T094957650042Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T094957650042Z/result.json",
+      "bytes": 2219,
+      "sha256": "672a9a7196e6ffb3f9a7b60a027c692d68000a0fbe88922867ea31e0ab643f43"
+    },
+    {
+      "path": "reports/build/20261010T094957650042Z/client_profile_source.json",
+      "bytes": 4741,
+      "sha256": "43efcb7c1ec0720e463e224076aa2de765e7e3f7bd77439826a41cf57b92f0ce"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/r3-shift-client-test.log",
+      "bytes": 463,
+      "sha256": "7a4be29bd165851e797ed836ef49b74be929450537e05b4c308ca6cf69bc42b9"
+    },
+    {
+      "path": "reports/build/20261010T094957650042Z/client_tests.log",
+      "bytes": 614,
+      "sha256": "953309cc55cb294e7e1922bff2fdd332ead4f1fecd1a4ed06d5bf6fd84332829"
+    },
+    {
+      "path": "reports/build/20261010T095021019701Z/old_city_local_life_client_results.json",
+      "bytes": 1838,
+      "sha256": "0905f86013188e4a64684a25fc3331802eaa3e5d3d9c5d4c6d60b83dd4fa2025"
+    },
+    {
+      "path": "reports/build/20261010T095021019701Z/commands.json",
+      "bytes": 1449,
+      "sha256": "95465183859b33bf4596fe07b1c130fcc98f765b3f126d0cce14b49764f2c74d"
+    },
+    {
+      "path": "reports/build/20261010T095021019701Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095021019701Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095021019701Z/result.json",
+      "bytes": 1730,
+      "sha256": "b06dc9e139e6b7d26310598af981ba6e0d5f73b831191952d0fefdfbc2a0c9c6"
+    },
+    {
+      "path": "reports/build/20261010T095021019701Z/client_profile_source.json",
+      "bytes": 4929,
+      "sha256": "b21fc2a23c3d2b8bdd428f973f055e074e2864d5a3b5ff3750687238eec5b0f2"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/old-city-local-life-client-test.log",
+      "bytes": 439,
+      "sha256": "a1e28363060eced25dc68bd8f4d695be0a22b66333b6f345241a212ceb2794e1"
+    },
+    {
+      "path": "reports/build/20261010T095021019701Z/client_tests.log",
+      "bytes": 624,
+      "sha256": "3f68bf6699bcedf92d52c1b9787e8be39097dc2e9f52912cfb21c46b3d35679b"
+    },
+    {
+      "path": "reports/build/20261010T095058950173Z/scoped_personal_client_results.json",
+      "bytes": 3135,
+      "sha256": "9b0d63af63cbd8f116f7c223572571dd0f9e98da9b959ab0a569a6bd2e28dd18"
+    },
+    {
+      "path": "reports/build/20261010T095058950173Z/commands.json",
+      "bytes": 1936,
+      "sha256": "7b5ac184f3a6ff108f17c68c9ab58e62c2bbde7f70801c26d7d407d6e342e027"
+    },
+    {
+      "path": "reports/build/20261010T095058950173Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095058950173Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095058950173Z/result.json",
+      "bytes": 2233,
+      "sha256": "d10a809248caa06bda4632278a4b8cda0322f019588e677b4d33ab239ac499de"
+    },
+    {
+      "path": "reports/build/20261010T095058950173Z/client_profile_source.json",
+      "bytes": 4837,
+      "sha256": "d31de41a74900c03f76091d43b50de66b29436aee053cd166e5c56fa6eb03ae4"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/scoped-personal-client-test.log",
+      "bytes": 477,
+      "sha256": "9bead9695c39815fdd45dc995987e9aa37039a397921930c8f58edbcd03826a6"
+    },
+    {
+      "path": "reports/build/20261010T095058950173Z/client_tests.log",
+      "bytes": 623,
+      "sha256": "3c63d4477910bcfb8c31bc787d9eb1af7fa2502cb1109ed36255feeeafc43bf8"
+    },
+    {
+      "path": "reports/build/20261010T095151978471Z/optional_r1_client_results.json",
+      "bytes": 5884,
+      "sha256": "8d865bdbe33a3e4b22604ba7a74008896128e200ade0b0817480f1c19bbc92a4"
+    },
+    {
+      "path": "reports/build/20261010T095151978471Z/commands.json",
+      "bytes": 1932,
+      "sha256": "fc2d38c54863f646707841e482da850ac69a1a909951acb977de24e74eea3e51"
+    },
+    {
+      "path": "reports/build/20261010T095151978471Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095151978471Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095151978471Z/result.json",
+      "bytes": 2225,
+      "sha256": "08e70fc37c3a35cd8424c51efb439216dbd1cb31efcf5f263745beec60951722"
+    },
+    {
+      "path": "reports/build/20261010T095151978471Z/client_profile_source.json",
+      "bytes": 4604,
+      "sha256": "b130fcb6d877bd17c93f10dfa166b9ef6a77d90031e2de46ba4612f5e137f6b2"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r1-client-test.log",
+      "bytes": 469,
+      "sha256": "5f235f2bfc9f1a90335025a9b2b13980bfc00439e9dd5d44956419250447601c"
+    },
+    {
+      "path": "reports/build/20261010T095151978471Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "7dfee5e7aa2f7fef76dd487d17051b383844c9e41dfbb7a021ed12fce5642d17"
+    },
+    {
+      "path": "reports/build/20261010T095232871965Z/optional_r2_client_results.json",
+      "bytes": 5644,
+      "sha256": "3a422c595d11a6729fbf1e67e26427c78f29c0ad7f846d4b7b44650a8dd09b73"
+    },
+    {
+      "path": "reports/build/20261010T095232871965Z/commands.json",
+      "bytes": 1932,
+      "sha256": "39520aa467f597192b1d8a951b4735ef26a0b65894e55b5c4b5fded308ebe301"
+    },
+    {
+      "path": "reports/build/20261010T095232871965Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095232871965Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095232871965Z/result.json",
+      "bytes": 2225,
+      "sha256": "6ef1aebd6e399365b2a2cdf47f5515f019aa6f883f5b19e90c0ae835dc5b4242"
+    },
+    {
+      "path": "reports/build/20261010T095232871965Z/client_profile_source.json",
+      "bytes": 5097,
+      "sha256": "ae82d4f406a568a75ed93cb17da3337a4a57078fa0477207a281880ed9ec738d"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r2-client-test.log",
+      "bytes": 469,
+      "sha256": "b84827c6f09e7d1a893ee9394084b6381c04c5067876a6133ec898120d80d98b"
+    },
+    {
+      "path": "reports/build/20261010T095232871965Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "f48a0455e4722019d21c1134eeb316a4d5c61d8e9570939e41fa93fa22d9e069"
+    },
+    {
+      "path": "reports/build/20261010T095318864678Z/optional_r3_client_results.json",
+      "bytes": 5824,
+      "sha256": "b84ba39d86718efc6866216a00dc8d00cb5ecb6db0a9edec575dabb5b66f33bb"
+    },
+    {
+      "path": "reports/build/20261010T095318864678Z/commands.json",
+      "bytes": 1932,
+      "sha256": "6fb21fccae9f1846cfd572e54115da088c5dfd3ab3b33db7e7aa5f5621b05b97"
+    },
+    {
+      "path": "reports/build/20261010T095318864678Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095318864678Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095318864678Z/result.json",
+      "bytes": 2225,
+      "sha256": "fdf4473fed96a892e59345411aafabba9d3ed0cd92003e3e990f756bc56fade5"
+    },
+    {
+      "path": "reports/build/20261010T095318864678Z/client_profile_source.json",
+      "bytes": 5097,
+      "sha256": "239a4337c05296c3ee18c2cd5774fd4def1d6a1cbfc5fbae1b56528444fb296e"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r3-client-test.log",
+      "bytes": 469,
+      "sha256": "8acba29fe65b7e1461c09f0f42f29ae4ea33410c06def949895225a831349f08"
+    },
+    {
+      "path": "reports/build/20261010T095318864678Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "e7d5e31c1961b94b2bda99a391248bebaf0af1da5ca808e468ec7c0b38f25f78"
+    },
+    {
+      "path": "reports/build/20261010T095408155288Z/optional_r4_client_results.json",
+      "bytes": 4984,
+      "sha256": "5c8b0983ad2d9024df9d3ebda38c69036f18494f6a89879594dc83f3cc8d2e78"
+    },
+    {
+      "path": "reports/build/20261010T095408155288Z/commands.json",
+      "bytes": 1932,
+      "sha256": "8c4fcb1094804cb5ba65ad884d90ab5abf49d2417bcd37fab09d21d22d6ccf77"
+    },
+    {
+      "path": "reports/build/20261010T095408155288Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095408155288Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095408155288Z/result.json",
+      "bytes": 2225,
+      "sha256": "de6272611935b270469620665a195d60490c2ecb93e2c15e287d74ce52c2cdff"
+    },
+    {
+      "path": "reports/build/20261010T095408155288Z/client_profile_source.json",
+      "bytes": 5097,
+      "sha256": "5f66cfd3f38d5baf26e23b33833cc809d53a85ef5680f1b9a9bdbca6ac0f6cd7"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r4-client-test.log",
+      "bytes": 469,
+      "sha256": "ebd1a0f33f5395ee7be63f34fd7d4d21551b2150c4658695e79fcf1d6d9631e6"
+    },
+    {
+      "path": "reports/build/20261010T095408155288Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "276e3fc18d958f632ddac485a4ec3525a9beaa42fe0780e4362d21b647ba30d4"
+    },
+    {
+      "path": "reports/build/20261010T095459772323Z/optional_r5_client_results.json",
+      "bytes": 5524,
+      "sha256": "6b7b3a219f228f218ac6be67cce5896ce2484ce010d925845e25ce63fcbb047f"
+    },
+    {
+      "path": "reports/build/20261010T095459772323Z/commands.json",
+      "bytes": 1932,
+      "sha256": "0272a384591b813daa08a75da21d58d2e0010cd2e06509207dcb4a810c1e9a59"
+    },
+    {
+      "path": "reports/build/20261010T095459772323Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095459772323Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095459772323Z/result.json",
+      "bytes": 2225,
+      "sha256": "f3eb10a23cd78e24a27fc8e83b73f36700a9a51531a08f1b31f51e65c053068e"
+    },
+    {
+      "path": "reports/build/20261010T095459772323Z/client_profile_source.json",
+      "bytes": 5097,
+      "sha256": "de0359fc06346d4030d75de282867ea18a2c709e0dfb53ec08e3ebeb6c104913"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r5-client-test.log",
+      "bytes": 469,
+      "sha256": "4c3ca87d37825df3ef0f324d871c7949296d47b96a56e29dc12de93d57135203"
+    },
+    {
+      "path": "reports/build/20261010T095459772323Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "5a2b02cdd667d7c6046c8beb6169e2e2bb90193af39ce2a17f6245bc60f2f884"
+    },
+    {
+      "path": "reports/build/20261010T095558755778Z/optional_r6_client_results.json",
+      "bytes": 5524,
+      "sha256": "d28dd9fc3be6cd80100d51d8e7739bc3c57c90a7c8270e360d752d3840a8751c"
+    },
+    {
+      "path": "reports/build/20261010T095558755778Z/commands.json",
+      "bytes": 1932,
+      "sha256": "1d4e2a592a99c401031ccac1026ed8bfbd07666e5ac7a9fc415f6a44186df6cb"
+    },
+    {
+      "path": "reports/build/20261010T095558755778Z/run_inputs.json",
+      "bytes": 89502,
+      "sha256": "cb1efdd258d4a68b0735cfd9298947ec7e26651676be58f6afa2364f86489d3b"
+    },
+    {
+      "path": "reports/build/20261010T095558755778Z/compiled_artifacts.json",
+      "bytes": 3925,
+      "sha256": "9a676b6ca32e4825dacf6aad30046e4f3bbc852378f03bcd9da079ba5488845e"
+    },
+    {
+      "path": "reports/build/20261010T095558755778Z/result.json",
+      "bytes": 2225,
+      "sha256": "1e245c250e435e5eb8b8b4910732235577d4153718b3f488f3c3f121d7ecd3c7"
+    },
+    {
+      "path": "reports/build/20261010T095558755778Z/client_profile_source.json",
+      "bytes": 5097,
+      "sha256": "89ea2995ee95fe3ab2c61bae615f8ff6fbdcea602b720b48fd069efc87ef287c"
+    },
+    {
+      "path": "reports/continuous/native_diagnostic_sweep_20261010T094355937692Z/optional-r6-client-test.log",
+      "bytes": 469,
+      "sha256": "ca923cd7aea222642ad2b5ae2999c8b2fbfd0974f2a4b54851956371c22aa128"
+    },
+    {
+      "path": "reports/build/20261010T095558755778Z/client_tests.log",
+      "bytes": 615,
+      "sha256": "39f5665726372879cbb709b0af9bf955e7cd708922b87d684b4910549c3bfb40"
+    }
+  ]
+}

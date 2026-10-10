@@ -1,0 +1,105 @@
+{
+  "version": "0.1",
+  "target": {
+    "exam": "IELTS Academic",
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5,
+    "speaking": null
+  },
+  "modules": [
+    {
+      "id": "Content",
+      "name": "内容与只读定义",
+      "owns": "目录、精确版本、事实定义、发布集合",
+      "forbidden": "不得把作者答案放入展示或外发视图"
+    },
+    {
+      "id": "Adventure",
+      "name": "任务与剧情",
+      "owns": "任务生命周期、授权、选择、目标回执",
+      "forbidden": "不评判英语掌握"
+    },
+    {
+      "id": "Exploration",
+      "name": "探索与机关",
+      "owns": "合法空间、装置状态、检查配置、访问",
+      "forbidden": "UI焦点不是实际空间到达"
+    },
+    {
+      "id": "Combat",
+      "name": "战斗",
+      "owns": "遭遇尝试、角色槽、资源、状态、结果",
+      "forbidden": "不直接发任务奖励或判人死亡"
+    },
+    {
+      "id": "Progression",
+      "name": "成长与物品",
+      "owns": "等级、点数、收藏、装备槽、个人物资",
+      "forbidden": "不读取语言成绩"
+    },
+    {
+      "id": "People",
+      "name": "人物与关系",
+      "owns": "知识来源、角色位置、承诺反应、许可",
+      "forbidden": "不是全世界真相副本"
+    },
+    {
+      "id": "WorkOrders",
+      "name": "工程与协作",
+      "owns": "预留、运输、安装、班组容量、验收",
+      "forbidden": "与个人金币和急救分池"
+    },
+    {
+      "id": "Learning",
+      "name": "学习证据",
+      "owns": "观察、帮助、材料家族、延迟验证",
+      "forbidden": "不写任何世界状态"
+    },
+    {
+      "id": "Drafts",
+      "name": "正文与工作区",
+      "owns": "草稿族、不可变修订、分支头、删文标记",
+      "forbidden": "已保存不等于已发送"
+    },
+    {
+      "id": "AI",
+      "name": "在线帮助",
+      "owns": "最小上下文、请求范围、版本、反馈路由",
+      "forbidden": "无世界命令工具"
+    },
+    {
+      "id": "Persistence",
+      "name": "本地持久化",
+      "owns": "事务、检查点、备份、迁移、控制记录",
+      "forbidden": "保存数据不重新执行历史剧情"
+    },
+    {
+      "id": "Presentation",
+      "name": "画面与输入",
+      "owns": "路由、焦点、动画、声音、可见投影",
+      "forbidden": "只发类型化意图，不直接改表"
+    }
+  ],
+  "architecture": "single_process_modular_monolith",
+  "world_writer": "one bounded serial queue per open profile",
+  "authority": "typed domain transitions + local SQLite transaction",
+  "render_authority": false,
+  "database": {
+    "profile": "profile.sqlite",
+    "journal": "DELETE",
+    "synchronous": "FULL",
+    "foreign_keys": true,
+    "busy_timeout_ms": 5000,
+    "privacy_control": "control.sqlite; never rewound with adventure"
+  },
+  "checkpoints": {
+    "manual": 6,
+    "auto": 5,
+    "protected": "separate; never replaced by rolling auto-save",
+    "plain_draft_body": false,
+    "learning_rollback": false
+  },
+  "content_version_policy": "campaign base release pinned; approved explicit migration only; practice packs may update independently without rewriting story",
+  "reference_runtime": "Python sqlite3; not C# or Godot implementation"
+}

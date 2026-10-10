@@ -1,0 +1,35 @@
+{
+  "task_id": "CX-077",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-077/evidence/20261010T123104449462Z/sources/planning/plan.json",
+      "sha256": "9f5e000cd2298026f0e9189b3cabb2c8b17c6cf51d9ae3057fd9b353b4d54afa",
+      "bytes": 242610,
+      "source_path_at_execution": "planning/plan.json"
+    },
+    {
+      "path": "reports/execution/CX-077/evidence/20261010T123104449462Z/sources/reports/continuous/finish_release_candidates.py",
+      "sha256": "a09275cb70990b8138db8698efcbb5efd9cc1dee5ec7c416d5cc02154ccdac6f",
+      "bytes": 35178,
+      "source_path_at_execution": "reports/continuous/finish_release_candidates.py"
+    },
+    {
+      "path": "reports/execution/CX-077/evidence/20261010T123104449462Z/sources/reports/release/coverage_current.json",
+      "sha256": "12412d2a6250f2c9fad0a7e23a8ad78b88c0d125f8ba3f8e724a4685c36ab8f4",
+      "bytes": 279357,
+      "source_path_at_execution": "reports/release/coverage_current.json"
+    },
+    {
+      "path": "reports/execution/CX-077/evidence/20261010T123104449462Z/sources/reports/release/ev/07acaa49361cb04c.json",
+      "sha256": "5c07143352b2c968843a90e56d109a3b4e10925377d8cef379f2a05214834203",
+      "bytes": 639897,
+      "source_path_at_execution": "reports/release/ev/07acaa49361cb04c.json"
+    }
+  ],
+  "interface_schema_impact": {
+    "storage_schema": 2,
+    "release_scope": "internal candidate; no external upload or human signoff"
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

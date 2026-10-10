@@ -1,0 +1,6 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "restore", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke\\GodotSmoke.csproj", "--configfile", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config", "--force-evaluate"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+  正在确定要还原的项目…
+  已还原 C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\spikes\toolchain\GodotSmoke\GodotSmoke.csproj (用时 2.43 秒)。
+
+[stderr]

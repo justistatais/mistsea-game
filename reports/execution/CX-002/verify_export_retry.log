@@ -1,0 +1,27 @@
+RUN godot_solution_create
+RESULT godot_solution_create: 0
+RUN godot_solution_add
+RESULT godot_solution_add: 0
+RUN windows_export
+RESULT windows_export: 0
+RUN windows_export_runtime
+RESULT windows_export_runtime: 0
+RUN godot_post_export_vulnerability_audit
+RESULT godot_post_export_vulnerability_audit: 0
+{
+  "verified": true,
+  "run_path": "reports/execution/CX-002/runs/20261009T095257923535Z",
+  "checks": {
+    "exact_sdk": true,
+    "matching_dotnet_editor": true,
+    "sqlite_native_x64": true,
+    "sqlite_commit_rollback_backup": true,
+    "csharp_build_and_runtime": true,
+    "dependency_locks_generated": true,
+    "vulnerability_audits_run": true,
+    "cached_offline_restore": true,
+    "empty_cache_offline_failure_explained": true,
+    "matching_windows_export": true,
+    "export_runs_with_sdk_environment_removed": true
+  }
+}

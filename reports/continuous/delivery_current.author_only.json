@@ -1,0 +1,170 @@
+{
+  "utc": "2026-10-10T12:44:53.641624+00:00",
+  "result": "verified_local_internal_graybox_candidate_delivered",
+  "project": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+  "executable": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe",
+  "zip": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z.zip",
+  "zip_sha256": "ae3b82c555d51e73157531bca1bac6d2a969883552a0ccea7d3f1677f20668cb",
+  "full_suite": "reports/build/20261010T111545212936Z",
+  "csharp_cases": {
+    "executed": 578,
+    "failed": 0
+  },
+  "native_scene_drivers": {
+    "actual_executed": 29,
+    "scope": "automated headless scene/control checks; not 29 human play sessions"
+  },
+  "actual_exported_window_recovery": {
+    "directory": "reports/execution/CX-076/native-ux-20261010T121658185119Z",
+    "missing": [],
+    "run_input_binding": {
+      "status": "passed"
+    },
+    "actual_source_sqlite_binding": {
+      "status": "passed",
+      "source_case": {
+        "index": 465,
+        "task": "CP-R1-03",
+        "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts"
+      },
+      "source_profile": "reports/build/20261010T111545212936Z/case_runs/0465/testdata/normal-r1-life-native-entry",
+      "active_database": "reports/execution/CX-076/native-ux-20261010T121658185119Z/profile/recovery/inventory-v2-843db32c-b4ba-4ed2-a62c-adba9e809735.sqlite",
+      "exact_saved_heads": [
+        {
+          "task": "Q-102:departure-plan",
+          "revision": 3,
+          "body_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c"
+        }
+      ],
+      "zero_xp_normal_creation": true,
+      "scope": "Actual full-suite entry summary plus pointer-selected source/current SQLite; no summary receipts required"
+    },
+    "executable_kind": "exported_release",
+    "initial_process": 29036,
+    "reopened_process": 16600,
+    "exported_exe_save_failure_export_retry": "passed",
+    "exported_exe_reopen_exact_document": "passed",
+    "recovery_ux_check": "passed",
+    "document_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c",
+    "export_file": {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\app_userdata\\雾海档案：第七座灯塔\\draft-exports\\Q102-20261010122318400.txt",
+      "sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c",
+      "bytes": 231
+    },
+    "actual_database_audit": {
+      "integrity": "ok",
+      "world_and_rewards_unchanged": true,
+      "saved_body_exact_after_process_exit": true,
+      "world_comparison": {
+        "entities": {
+          "before": {
+            "rows": 36,
+            "sha256": "86d476800946038ce3d5782c632b8a1fb90d455bd935e9b66f91e9f823628cb8"
+          },
+          "after": {
+            "rows": 36,
+            "sha256": "86d476800946038ce3d5782c632b8a1fb90d455bd935e9b66f91e9f823628cb8"
+          }
+        },
+        "balances": {
+          "before": {
+            "rows": 3,
+            "sha256": "c7026fe7253713cff7899e7618fe86c677597d3ca44327c5db68588146dc172b"
+          },
+          "after": {
+            "rows": 3,
+            "sha256": "c7026fe7253713cff7899e7618fe86c677597d3ca44327c5db68588146dc172b"
+          }
+        },
+        "items": {
+          "before": {
+            "rows": 12,
+            "sha256": "55d16bbacd5377c35f07242a1b6c012a2d435787fb1f4c7bba1cb3812fb2f5f6"
+          },
+          "after": {
+            "rows": 12,
+            "sha256": "55d16bbacd5377c35f07242a1b6c012a2d435787fb1f4c7bba1cb3812fb2f5f6"
+          }
+        },
+        "receipts": {
+          "before": {
+            "rows": 120,
+            "sha256": "b648de82c380792c97a405f64e727efbae7670c7e246bc1c8fc7ff538fae1835"
+          },
+          "after": {
+            "rows": 120,
+            "sha256": "b648de82c380792c97a405f64e727efbae7670c7e246bc1c8fc7ff538fae1835"
+          }
+        }
+      },
+      "matching_saved_heads": [
+        {
+          "task": "Q-102:departure-plan",
+          "revision": 3,
+          "body_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c"
+        }
+      ]
+    },
+    "scope": "Only actual named lock/save/export/retry/reopen checks; not the whole exported recovery fault matrix.",
+    "physical_power": "not_run",
+    "physical_disk_full": "not_run",
+    "physical_ime": "not_run",
+    "screen_reader": "not_run",
+    "clean_machine": "not_run",
+    "human_signoff": null
+  },
+  "delivery_reports": {
+    "path": "reports/continuous/delivery_reports_20261010T122732237771Z/result.json",
+    "sha256": "f973685a34b9d4405b2b9f7a1b73ced01c823443780f10b6e4f2074f353e8e28",
+    "bytes": 27789
+  },
+  "independent_readonly_audits": [
+    {
+      "path": "reports/continuous/final_full_578_review_final111545_20261010.author_review.json",
+      "sha256": "51543249a106c1606dc742845747f7fdfa1648790cb88252270de3dcc09cad5e",
+      "bytes": 871919
+    },
+    {
+      "path": "reports/continuous/final_native_29_review_final111545_20261010.author_review.json",
+      "sha256": "e023577d60317a0e4fadf1842e8862de404e6e496671a34dc1f9619560a87ae8",
+      "bytes": 615195
+    },
+    {
+      "path": "reports/continuous/main_encounter_methods_20261010.final111545_author_review.json",
+      "sha256": "a6fdf2ace149dd10a06628614e60646cce1fd86eda47082b5e0d458d02d5e0ed",
+      "bytes": 185394
+    }
+  ],
+  "handoff_integrity": {
+    "passed": 15,
+    "failed": 0,
+    "scope": "planning_integrity_not_production_game_validation",
+    "command": {
+      "path": "reports/continuous/delivery_reports_20261010T122732237771Z/verify_handoff.command.json",
+      "sha256": "c570530494dbb7c1b72c0d95673fce3e27294d7b5bdac3bf6adc6accefff16d7",
+      "bytes": 621
+    },
+    "actual_output": {
+      "path": "reports/continuous/delivery_reports_20261010T122732237771Z/verify_handoff.stdout.json",
+      "sha256": "bc30d26e20da674f1bf9f5ec6609d96205020e835b04a90e60bcac3bba4347b6",
+      "bytes": 1784
+    }
+  },
+  "coverage": {
+    "path": "reports/release/coverage_current.json",
+    "sha256": "12412d2a6250f2c9fad0a7e23a8ad78b88c0d125f8ba3f8e724a4685c36ab8f4",
+    "bytes": 279357
+  },
+  "limitations": [
+    "Human editorial and production acceptance of local producers and twelve optional encounter candidates",
+    "Complete 96-unit puzzle source/method/save register",
+    "Physical power/disk-full, IME, screen reader and different clean Windows machine",
+    "Human play, editorial/target-band calibration, audition, rights and publisher signature"
+  ],
+  "formal_release": "pending_human_and_production_gates",
+  "human_signoff": null,
+  "parent_repository": {
+    "unchanged_HEAD": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+    "tracked_changes_at_final_inspection": []
+  }
+}

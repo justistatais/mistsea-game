@@ -1,0 +1,2261 @@
+{
+  "meta": {
+    "version": "0.1",
+    "status": "design_reference_not_game_engine",
+    "language_target": "IELTS_Academic_R_L_W_6.5",
+    "change_record": "CR-COM-008-001",
+    "date": "2026-10-09"
+  },
+  "turn": {
+    "team_phases": [
+      "ally",
+      "enemy"
+    ],
+    "initiative": "descending_within_side_then_persistent_actor_id",
+    "hero_ap": 3,
+    "helper_ap": 2,
+    "helper_basic_coefficient_bp": 6500,
+    "enemy_declared_actions": 1,
+    "aid_charges": 2,
+    "player_slots": 4,
+    "maximum_player_actors": 3,
+    "maximum_enemy_actors": 4,
+    "real_time_deadline": false,
+    "revive_action_eligible": "next_round",
+    "focus_regen_at_living_turn_start": 1
+  },
+  "difficulty": [
+    {
+      "id": "relaxed",
+      "enemy_hp_bp": 8500,
+      "enemy_damage_bp": 7500
+    },
+    {
+      "id": "standard",
+      "enemy_hp_bp": 10000,
+      "enemy_damage_bp": 10000
+    },
+    {
+      "id": "challenge",
+      "enemy_hp_bp": 11000,
+      "enemy_damage_bp": 12000
+    }
+  ],
+  "actions": [
+    {
+      "id": "H01",
+      "name": "探隙击",
+      "ap": 2,
+      "focus": 2,
+      "cd": 1,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "A",
+      "coefficient_bp": 11000,
+      "pressure": 0,
+      "expose_after": true
+    },
+    {
+      "id": "H02",
+      "name": "稳步架势",
+      "ap": 1,
+      "focus": 1,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "stance"
+    },
+    {
+      "id": "H04",
+      "name": "双段突击",
+      "ap": 2,
+      "focus": 3,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "A",
+      "coefficient_bp": 13000,
+      "pressure": 0,
+      "multi_hit_visual": 2
+    },
+    {
+      "id": "H06",
+      "name": "掩护步",
+      "ap": 1,
+      "focus": 1,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "step_shield",
+      "shield_bp": 2500
+    },
+    {
+      "id": "H07",
+      "name": "断势斩",
+      "ap": 2,
+      "focus": 3,
+      "cd": 3,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "A",
+      "coefficient_bp": 13500,
+      "pressure": 0,
+      "pressure_if_exposed": 2
+    },
+    {
+      "id": "H10",
+      "name": "破晓连击",
+      "ap": 3,
+      "focus": 4,
+      "cd": 4,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "A",
+      "coefficient_bp": 19000,
+      "pressure": 2
+    },
+    {
+      "id": "M01",
+      "name": "晶钉",
+      "ap": 2,
+      "focus": 2,
+      "cd": 1,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 9500,
+      "pressure": 1
+    },
+    {
+      "id": "M02",
+      "name": "布设阻滞",
+      "ap": 1,
+      "focus": 2,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "trap",
+      "power": "T",
+      "coefficient_bp": 4500,
+      "pressure": 1
+    },
+    {
+      "id": "M04",
+      "name": "收束脉冲",
+      "ap": 2,
+      "focus": 3,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 7000,
+      "pressure": 0,
+      "max_targets": 2
+    },
+    {
+      "id": "M06",
+      "name": "维修补片",
+      "ap": 2,
+      "focus": 2,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "shield",
+      "shield_bp": 7000
+    },
+    {
+      "id": "M07",
+      "name": "牵引锚",
+      "ap": 2,
+      "focus": 3,
+      "cd": 3,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 11500,
+      "pressure": 2
+    },
+    {
+      "id": "M10",
+      "name": "磁场围栏",
+      "ap": 3,
+      "focus": 4,
+      "cd": 4,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 9000,
+      "pressure": 0,
+      "max_targets": 3,
+      "weaken_after_bp": 1500
+    },
+    {
+      "id": "S01",
+      "name": "共鸣护幕",
+      "ap": 2,
+      "focus": 2,
+      "cd": 1,
+      "source": "Part07",
+      "kind": "shield",
+      "shield_bp": 7500
+    },
+    {
+      "id": "S02",
+      "name": "光隙冲击",
+      "ap": 2,
+      "focus": 2,
+      "cd": 1,
+      "source": "Part07",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 9500,
+      "pressure": 0
+    },
+    {
+      "id": "S04",
+      "name": "共振援护",
+      "ap": 1,
+      "focus": 2,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "empower",
+      "bonus_bp": 2000
+    },
+    {
+      "id": "S06",
+      "name": "净化波",
+      "ap": 2,
+      "focus": 2,
+      "cd": 2,
+      "source": "Part07",
+      "kind": "cleanse_shield",
+      "shield_bp": 3000
+    },
+    {
+      "id": "S07",
+      "name": "分担结界",
+      "ap": 2,
+      "focus": 3,
+      "cd": 3,
+      "source": "Part07",
+      "kind": "shield",
+      "shield_bp": 4000,
+      "max_targets": 3
+    },
+    {
+      "id": "S10",
+      "name": "稳态领域",
+      "ap": 3,
+      "focus": 4,
+      "cd": 4,
+      "source": "Part07",
+      "kind": "shield",
+      "shield_bp": 6000,
+      "max_targets": 3,
+      "guard_bp": 1500
+    },
+    {
+      "id": "CP-LINA-1",
+      "name": "标线射击",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "damage",
+      "power": "A",
+      "coefficient_bp": 7500,
+      "pressure": 0,
+      "expose_after": true
+    },
+    {
+      "id": "CP-LINA-2",
+      "name": "掩护指示",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "shield",
+      "shield_bp": 3500,
+      "guard_bp": 1000
+    },
+    {
+      "id": "CP-OREN-1",
+      "name": "敲定检查",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 7500,
+      "pressure": 1
+    },
+    {
+      "id": "CP-OREN-2",
+      "name": "检修绊索",
+      "ap": 1,
+      "focus": 2,
+      "cd": 2,
+      "source": "Part08-companion",
+      "kind": "trap",
+      "power": "T",
+      "coefficient_bp": 3500,
+      "pressure": 1
+    },
+    {
+      "id": "CP-MIRA-1",
+      "name": "折光脉冲",
+      "ap": 2,
+      "focus": 0,
+      "cd": 0,
+      "source": "Part08-companion",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 8000,
+      "pressure": 0
+    },
+    {
+      "id": "CP-MIRA-2",
+      "name": "校正护幕",
+      "ap": 2,
+      "focus": 2,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "cleanse_shield",
+      "shield_bp": 5500
+    },
+    {
+      "id": "CP-TESS-1",
+      "name": "定足打击",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "damage",
+      "power": "A",
+      "coefficient_bp": 8500,
+      "pressure": 1
+    },
+    {
+      "id": "CP-TESS-2",
+      "name": "避险绳",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "step_ally_shield",
+      "shield_bp": 3000
+    },
+    {
+      "id": "AUX-GUARD-1",
+      "name": "压制击",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "damage",
+      "power": "A",
+      "coefficient_bp": 8000,
+      "pressure": 1
+    },
+    {
+      "id": "AUX-GUARD-2",
+      "name": "协防",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "shield",
+      "shield_bp": 4500,
+      "guard_bp": 1000
+    },
+    {
+      "id": "AUX-SUPPORT-1",
+      "name": "脉冲",
+      "ap": 2,
+      "focus": 0,
+      "cd": 0,
+      "source": "Part08-companion",
+      "kind": "damage",
+      "power": "T",
+      "coefficient_bp": 7500,
+      "pressure": 0
+    },
+    {
+      "id": "AUX-SUPPORT-2",
+      "name": "保护膜",
+      "ap": 2,
+      "focus": 1,
+      "cd": 1,
+      "source": "Part08-companion",
+      "kind": "shield",
+      "shield_bp": 6000
+    }
+  ],
+  "companions": [
+    {
+      "id": "CP-LINA",
+      "name": "莉娜",
+      "available": "序章协作，Q-104正式邀请",
+      "profile": {
+        "body": 2,
+        "strength": 1,
+        "agility": 4,
+        "perception": 3,
+        "focus": 1
+      },
+      "role": "远程标记与掩护",
+      "kit_contract": "两项基础行动；等级12、20、24各开放一个战术变体选择，不由关系分数解锁必需能力。",
+      "ap": 2,
+      "weapon": "WP-03",
+      "armor": "AR-01",
+      "native": [
+        "CP-LINA-1",
+        "CP-LINA-2"
+      ]
+    },
+    {
+      "id": "CP-OREN",
+      "name": "奥伦",
+      "available": "第三章正式邀请",
+      "profile": {
+        "body": 3,
+        "strength": 2,
+        "agility": 1,
+        "perception": 3,
+        "focus": 4
+      },
+      "role": "装置与失衡压力",
+      "kit_contract": "两项基础行动；等级12、20、24各开放一个战术变体选择，不自动修塔。",
+      "ap": 2,
+      "weapon": "WP-05",
+      "armor": "AR-01",
+      "native": [
+        "CP-OREN-1",
+        "CP-OREN-2"
+      ]
+    },
+    {
+      "id": "CP-MIRA",
+      "name": "米拉",
+      "available": "第二章正式邀请",
+      "profile": {
+        "body": 3,
+        "strength": 1,
+        "agility": 1,
+        "perception": 3,
+        "focus": 4
+      },
+      "role": "防护与净化",
+      "kit_contract": "两项基础行动；等级12、20、24各开放一个战术变体选择，不自动整理证据。",
+      "ap": 2,
+      "weapon": "WP-05",
+      "armor": "AR-01",
+      "native": [
+        "CP-MIRA-1",
+        "CP-MIRA-2"
+      ]
+    },
+    {
+      "id": "CP-TESS",
+      "name": "泰丝",
+      "available": "第六章正式邀请",
+      "profile": {
+        "body": 3,
+        "strength": 2,
+        "agility": 4,
+        "perception": 3,
+        "focus": 1
+      },
+      "role": "环境适应与打击",
+      "kit_contract": "按加入时共享等级直接补齐可用变体，不要求先刷低级战斗。",
+      "ap": 2,
+      "weapon": "WP-03",
+      "armor": "AR-01",
+      "native": [
+        "CP-TESS-1",
+        "CP-TESS-2"
+      ]
+    },
+    {
+      "id": "AUX-GUARD",
+      "name": "地方援勤·护卫",
+      "available": "Q-101后在合法出发点补足空队席",
+      "profile": {
+        "body": 4,
+        "strength": 3,
+        "agility": 1,
+        "perception": 1,
+        "focus": 2
+      },
+      "role": "通用前排",
+      "kit_contract": "简化固定行动，不带私人剧情或额外学习评分。",
+      "ap": 2,
+      "weapon": "WP-01",
+      "armor": "AR-01",
+      "native": [
+        "AUX-GUARD-1",
+        "AUX-GUARD-2"
+      ]
+    },
+    {
+      "id": "AUX-SUPPORT",
+      "name": "地方援勤·支援",
+      "available": "Q-101后在合法出发点补足空队席",
+      "profile": {
+        "body": 3,
+        "strength": 1,
+        "agility": 1,
+        "perception": 3,
+        "focus": 4
+      },
+      "role": "通用防护",
+      "kit_contract": "简化固定行动，不提供四名同伴独有的叙事经历。",
+      "ap": 2,
+      "weapon": "WP-05",
+      "armor": "AR-01",
+      "native": [
+        "AUX-SUPPORT-1",
+        "AUX-SUPPORT-2"
+      ]
+    }
+  ],
+  "companion_variants": [
+    {
+      "companion": "CP-LINA",
+      "level": 12,
+      "left": "标线伤害系数+0.10A",
+      "right": "掩护护盾系数+0.10T",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-LINA",
+      "level": 20,
+      "left": "标线命中后本人临时减伤10%，到下次自身开始",
+      "right": "掩护允许目标在合法位置移动一次，不产生额外回合",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-LINA",
+      "level": 24,
+      "left": "标线冷却1变0，仍至下个自身回合才可再用",
+      "right": "掩护额外移除目标一项普通可驱散状态",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-OREN",
+      "level": 12,
+      "left": "敲定检查伤害系数+0.10T",
+      "right": "绊索伤害系数+0.10T",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-OREN",
+      "level": 20,
+      "left": "敲定检查基础压力1变2",
+      "right": "绊索触发后对事先指定友方提供0.20T盾",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-OREN",
+      "level": 24,
+      "left": "敲定检查冷却1变0",
+      "right": "个人装置容量1变2，同一敌方动作仍只触发一件",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-MIRA",
+      "level": 12,
+      "left": "折光脉冲系数+0.10T",
+      "right": "校正护幕系数+0.10T",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-MIRA",
+      "level": 20,
+      "left": "折光脉冲命中后自身获得0.15T盾",
+      "right": "护幕普通驱散1项变2项",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-MIRA",
+      "level": 24,
+      "left": "折光脉冲附加1点基础压力",
+      "right": "护幕可选两个不同友方，各0.40T基础盾，仍各驱散1项",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-TESS",
+      "level": 12,
+      "left": "定足伤害系数+0.10A",
+      "right": "避险绳护盾系数+0.10T",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-TESS",
+      "level": 20,
+      "left": "定足目标本动作开始时已暴露则基础压力额外+1",
+      "right": "避险绳额外驱散一项普通束缚",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    },
+    {
+      "companion": "CP-TESS",
+      "level": 24,
+      "left": "定足冷却1变0",
+      "right": "避险绳给目标15%临时减伤，至泰丝下次自身开始",
+      "choose": 1,
+      "changes_native_action": true,
+      "scope": "design_only_not_simulated"
+    }
+  ],
+  "archetypes": [
+    {
+      "id": "mist_scraper",
+      "name": "雾蚀爬兽",
+      "family": "生物",
+      "role": "追击一名角色",
+      "pressure_threshold": 3,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "scrap_feeder",
+      "name": "食屑群",
+      "family": "生物",
+      "role": "弱个体、群体压力",
+      "pressure_threshold": 3,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "gust_ray",
+      "name": "风鳍兽",
+      "family": "生物",
+      "role": "指定列攻击",
+      "pressure_threshold": 4,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "relay_drone",
+      "name": "巡检浮机",
+      "family": "机械",
+      "role": "轮换单体与准备",
+      "pressure_threshold": 3,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "braced_warden",
+      "name": "固守机卫",
+      "family": "机械",
+      "role": "前排保护",
+      "pressure_threshold": 5,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "coil_sentry",
+      "name": "线圈哨机",
+      "family": "机械",
+      "role": "远程点名",
+      "pressure_threshold": 4,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "field_projector",
+      "name": "护场器",
+      "family": "机械",
+      "role": "有限护盾、保护队友",
+      "pressure_threshold": 4,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "barricade_guard",
+      "name": "封锁队护卫",
+      "family": "人类",
+      "role": "护卫后排、非致命制服",
+      "pressure_threshold": 5,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "signal_runner",
+      "name": "信号兵",
+      "family": "人类",
+      "role": "增援一次、不得无限召唤",
+      "pressure_threshold": 3,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    },
+    {
+      "id": "wound_spreader",
+      "name": "雾蚀投射体",
+      "family": "生物",
+      "role": "普通持续伤害、可净化",
+      "pressure_threshold": 4,
+      "boss": false,
+      "available_response": "basic_actions_or_local_objectives",
+      "unavoidable_party_stun": false
+    }
+  ],
+  "encounters": [
+    {
+      "id": "ENC-R0-01",
+      "region": "R0",
+      "quest_id": "Q-P01",
+      "scene_id": "R0-S02",
+      "name": "近岸脱困",
+      "kind": "tutorial",
+      "template": "mist_scraper",
+      "entry": {
+        "xp": 0,
+        "level": 1,
+        "grade": 0,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "prologue_specific"
+    },
+    {
+      "id": "ENC-R0-02",
+      "region": "R0",
+      "quest_id": "Q-P03",
+      "scene_id": "R0-S05",
+      "name": "中继防卫",
+      "kind": "ordinary",
+      "template": "relay_drone",
+      "entry": {
+        "xp": 140,
+        "level": 2,
+        "grade": 0,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "prologue_specific"
+    },
+    {
+      "id": "ENC-R1-01",
+      "region": "R1",
+      "quest_id": "Q-102",
+      "scene_id": "R1-S05",
+      "name": "西工坊维护机械",
+      "kind": "elite_method",
+      "template": "workshop",
+      "entry": {
+        "xp": 340,
+        "level": 3,
+        "grade": 0,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R1-02",
+      "region": "R1",
+      "quest_id": "Q-104",
+      "scene_id": "R1-S09",
+      "name": "塔基侧闸替代入口",
+      "kind": "method",
+      "template": "relay_drone",
+      "entry": {
+        "xp": 680,
+        "level": 5,
+        "grade": 0,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers",
+      "exclusive_route_group": "tower_base_access"
+    },
+    {
+      "id": "ENC-R1-03",
+      "region": "R1",
+      "quest_id": "Q-104",
+      "scene_id": "R1-S09",
+      "name": "塔基外闸",
+      "kind": "ordinary",
+      "template": "braced_warden",
+      "entry": {
+        "xp": 680,
+        "level": 5,
+        "grade": 0,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers",
+      "exclusive_route_group": "tower_base_access"
+    },
+    {
+      "id": "ENC-R1-04",
+      "region": "R1",
+      "quest_id": "Q-104",
+      "scene_id": "R1-S10",
+      "name": "塔站维护者",
+      "kind": "boss",
+      "template": "tower",
+      "entry": {
+        "xp": 680,
+        "level": 5,
+        "grade": 0,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R2-01",
+      "region": "R2",
+      "quest_id": "Q-203",
+      "scene_id": "R2-S05",
+      "name": "温室根道",
+      "kind": "ordinary",
+      "template": "mist_scraper",
+      "entry": {
+        "xp": 1380,
+        "level": 7,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R2-02",
+      "region": "R2",
+      "quest_id": "Q-203",
+      "scene_id": "R2-S06",
+      "name": "失控输送器",
+      "kind": "method",
+      "template": "relay_drone",
+      "entry": {
+        "xp": 1380,
+        "level": 7,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R2-03",
+      "region": "R2",
+      "quest_id": "Q-203",
+      "scene_id": "R2-S07",
+      "name": "转供站缠根核心",
+      "kind": "boss",
+      "template": "grove",
+      "entry": {
+        "xp": 1380,
+        "level": 7,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R3-01",
+      "region": "R3",
+      "quest_id": "Q-301",
+      "scene_id": "R3-S05",
+      "name": "轨道清障",
+      "kind": "ordinary",
+      "template": "scrap_feeder",
+      "entry": {
+        "xp": 1920,
+        "level": 9,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R3-02",
+      "region": "R3",
+      "quest_id": "Q-301",
+      "scene_id": "R3-S06",
+      "name": "泵房入口",
+      "kind": "ordinary",
+      "template": "mist_scraper",
+      "entry": {
+        "xp": 1920,
+        "level": 9,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R3-03",
+      "region": "R3",
+      "quest_id": "Q-302",
+      "scene_id": "R3-S07",
+      "name": "仪表检修支路",
+      "kind": "method",
+      "template": "braced_warden",
+      "entry": {
+        "xp": 2340,
+        "level": 10,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R3-04",
+      "region": "R3",
+      "quest_id": "Q-301",
+      "scene_id": "R3-S05",
+      "name": "救援回程",
+      "kind": "escort",
+      "template": "signal_runner",
+      "entry": {
+        "xp": 1920,
+        "level": 9,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R3-05",
+      "region": "R3",
+      "quest_id": "Q-304",
+      "scene_id": "R3-S09",
+      "name": "失控开采机",
+      "kind": "boss",
+      "template": "drill",
+      "entry": {
+        "xp": 3280,
+        "level": 11,
+        "grade": 1,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R4-01",
+      "region": "R4",
+      "quest_id": "Q-402",
+      "scene_id": "R4-S05",
+      "name": "试验残件",
+      "kind": "ordinary",
+      "template": "relay_drone",
+      "entry": {
+        "xp": 4400,
+        "level": 13,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R4-02",
+      "region": "R4",
+      "quest_id": "Q-402",
+      "scene_id": "R4-S05",
+      "name": "备用段清理",
+      "kind": "method",
+      "template": "coil_sentry",
+      "entry": {
+        "xp": 4400,
+        "level": 13,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R4-03",
+      "region": "R4",
+      "quest_id": "Q-403",
+      "scene_id": "R4-S06",
+      "name": "校准防卫",
+      "kind": "ordinary",
+      "template": "field_projector",
+      "entry": {
+        "xp": 5000,
+        "level": 14,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R4-04",
+      "region": "R4",
+      "quest_id": "Q-403",
+      "scene_id": "R4-S07",
+      "name": "试验执行机",
+      "kind": "boss",
+      "template": "trial",
+      "entry": {
+        "xp": 5000,
+        "level": 14,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R5-01",
+      "region": "R5",
+      "quest_id": "Q-501",
+      "scene_id": "R5-S03",
+      "name": "北站查验冲突",
+      "kind": "method",
+      "template": "barricade_guard",
+      "entry": {
+        "xp": 6400,
+        "level": 17,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R5-02",
+      "region": "R5",
+      "quest_id": "Q-501",
+      "scene_id": "R5-S04",
+      "name": "检修隧道威胁",
+      "kind": "method",
+      "template": "scrap_feeder",
+      "entry": {
+        "xp": 6400,
+        "level": 17,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R5-03",
+      "region": "R5",
+      "quest_id": "Q-502",
+      "scene_id": "R5-S06",
+      "name": "北站看守组",
+      "kind": "boss",
+      "template": "warden",
+      "entry": {
+        "xp": 7300,
+        "level": 18,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R5-04",
+      "region": "R5",
+      "quest_id": "Q-504",
+      "scene_id": "R5-S08",
+      "name": "归档继电防卫",
+      "kind": "ordinary",
+      "template": "field_projector",
+      "entry": {
+        "xp": 9320,
+        "level": 20,
+        "grade": 2,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R6-01",
+      "region": "R6",
+      "quest_id": "Q-601",
+      "scene_id": "R6-S03",
+      "name": "山口风群",
+      "kind": "ordinary",
+      "template": "gust_ray",
+      "entry": {
+        "xp": 10500,
+        "level": 22,
+        "grade": 3,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R6-02",
+      "region": "R6",
+      "quest_id": "Q-601",
+      "scene_id": "R6-S04",
+      "name": "测站防卫",
+      "kind": "ordinary",
+      "template": "coil_sentry",
+      "entry": {
+        "xp": 10500,
+        "level": 22,
+        "grade": 3,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R6-03",
+      "region": "R6",
+      "quest_id": "Q-603",
+      "scene_id": "R6-S05",
+      "name": "首段货载",
+      "kind": "escort",
+      "template": "signal_runner",
+      "entry": {
+        "xp": 13500,
+        "level": 25,
+        "grade": 3,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R6-04",
+      "region": "R6",
+      "quest_id": "Q-603",
+      "scene_id": "R6-S06",
+      "name": "外线第二段",
+      "kind": "escort",
+      "template": "barricade_guard",
+      "entry": {
+        "xp": 13500,
+        "level": 25,
+        "grade": 3,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R6-05",
+      "region": "R6",
+      "quest_id": "Q-603",
+      "scene_id": "R6-S07",
+      "name": "风脊封锁平台",
+      "kind": "boss",
+      "template": "frontier",
+      "entry": {
+        "xp": 13500,
+        "level": 25,
+        "grade": 3,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R6-06",
+      "region": "R6",
+      "quest_id": "Q-603",
+      "scene_id": "R6-S06",
+      "name": "可选现场检修冲突",
+      "kind": "method",
+      "template": "relay_drone",
+      "entry": {
+        "xp": 13500,
+        "level": 25,
+        "grade": 3,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-RF-01",
+      "region": "RF",
+      "quest_id": "Q-F01",
+      "scene_id": "RF-S03",
+      "name": "竖井接近",
+      "kind": "method",
+      "template": "coil_sentry",
+      "entry": {
+        "xp": 16740,
+        "level": 28,
+        "grade": 4,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-RF-02",
+      "region": "RF",
+      "quest_id": "Q-F02",
+      "scene_id": "RF-S04",
+      "name": "鲁克的指挥链",
+      "kind": "boss",
+      "template": "rook",
+      "entry": {
+        "xp": 17240,
+        "level": 28,
+        "grade": 4,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-RF-03",
+      "region": "RF",
+      "quest_id": "Q-F03",
+      "scene_id": "RF-S05",
+      "name": "继电隔离组",
+      "kind": "ordinary",
+      "template": "field_projector",
+      "entry": {
+        "xp": 17740,
+        "level": 28,
+        "grade": 4,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-RF-04",
+      "region": "RF",
+      "quest_id": "Q-F03",
+      "scene_id": "RF-S06",
+      "name": "镇潮机组",
+      "kind": "boss",
+      "template": "core",
+      "entry": {
+        "xp": 17740,
+        "level": 28,
+        "grade": 4,
+        "scope": "published_main_order_lower_floor_requires_dependency_check"
+      },
+      "mandatory_language_check": false,
+      "kill_xp": 0,
+      "repeat_rewards": false,
+      "numeric_status": "candidate_not_engine_tested",
+      "planned_roster": "hero_plus_two_legal_helpers"
+    },
+    {
+      "id": "ENC-R1-O01",
+      "region": "R1",
+      "quest_id": null,
+      "scene_id": "R1-S09",
+      "name": "地区1独立可选处置1",
+      "kind": "optional_contract_slot",
+      "template": "braced_warden",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R1-O02",
+      "region": "R1",
+      "quest_id": null,
+      "scene_id": "R1-S09",
+      "name": "地区1独立可选处置2",
+      "kind": "optional_contract_slot",
+      "template": "coil_sentry",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R2-O01",
+      "region": "R2",
+      "quest_id": null,
+      "scene_id": "R2-S06",
+      "name": "地区2独立可选处置1",
+      "kind": "optional_contract_slot",
+      "template": "braced_warden",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R2-O02",
+      "region": "R2",
+      "quest_id": null,
+      "scene_id": "R2-S06",
+      "name": "地区2独立可选处置2",
+      "kind": "optional_contract_slot",
+      "template": "coil_sentry",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R3-O01",
+      "region": "R3",
+      "quest_id": null,
+      "scene_id": "R3-O02",
+      "name": "地区3独立可选处置1",
+      "kind": "optional_contract_slot",
+      "template": "braced_warden",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R3-O02",
+      "region": "R3",
+      "quest_id": null,
+      "scene_id": "R3-O02",
+      "name": "地区3独立可选处置2",
+      "kind": "optional_contract_slot",
+      "template": "coil_sentry",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R4-O01",
+      "region": "R4",
+      "quest_id": null,
+      "scene_id": "R4-S07",
+      "name": "地区4独立可选处置1",
+      "kind": "optional_contract_slot",
+      "template": "braced_warden",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R4-O02",
+      "region": "R4",
+      "quest_id": null,
+      "scene_id": "R4-S07",
+      "name": "地区4独立可选处置2",
+      "kind": "optional_contract_slot",
+      "template": "coil_sentry",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R5-O01",
+      "region": "R5",
+      "quest_id": null,
+      "scene_id": "R5-S04",
+      "name": "地区5独立可选处置1",
+      "kind": "optional_contract_slot",
+      "template": "braced_warden",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R5-O02",
+      "region": "R5",
+      "quest_id": null,
+      "scene_id": "R5-S04",
+      "name": "地区5独立可选处置2",
+      "kind": "optional_contract_slot",
+      "template": "coil_sentry",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R6-O01",
+      "region": "R6",
+      "quest_id": null,
+      "scene_id": "R6-S06",
+      "name": "地区6独立可选处置1",
+      "kind": "optional_contract_slot",
+      "template": "braced_warden",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    },
+    {
+      "id": "ENC-R6-O02",
+      "region": "R6",
+      "quest_id": null,
+      "scene_id": "R6-S06",
+      "name": "地区6独立可选处置2",
+      "kind": "optional_contract_slot",
+      "template": "coil_sentry",
+      "kill_xp": 0,
+      "reward_budget": "existing_optional_quest_budget_no_new_kill_reward",
+      "prerequisite": "registered_safe_arena_contract_not_respawn",
+      "mandatory_language_check": false,
+      "numeric_status": "slot_only_no_finished_content"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "BENCH-WORKSHOP",
+      "name": "西工坊低等级实测模型",
+      "level": 3,
+      "grade": 0,
+      "source_encounter": "ENC-R1-01",
+      "mechanism": null,
+      "enemies": [
+        {
+          "id": "maintenance",
+          "hp": 190,
+          "armor_bp": 1000,
+          "pressure_threshold": 4,
+          "pattern": [
+            {
+              "name": "臂击",
+              "damage": 38,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "扫描扫击",
+              "damage": 24,
+              "target": "column",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "蓄力压击",
+              "damage": 64,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            }
+          ],
+          "boss": false,
+          "slot": 0,
+          "initiative": 10
+        }
+      ]
+    },
+    {
+      "id": "BENCH-ELITE",
+      "name": "单体精英",
+      "level": 30,
+      "grade": 4,
+      "mechanism": null,
+      "enemies": [
+        {
+          "id": "elite",
+          "hp": 1500,
+          "armor_bp": 1800,
+          "pressure_threshold": 5,
+          "pattern": [
+            {
+              "name": "重击",
+              "damage": 165,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "散射",
+              "damage": 85,
+              "target": "all",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "蓄力击",
+              "damage": 245,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            }
+          ],
+          "boss": false,
+          "slot": 0,
+          "initiative": 10
+        }
+      ]
+    },
+    {
+      "id": "BENCH-GROUP",
+      "name": "三目标群体",
+      "level": 30,
+      "grade": 4,
+      "mechanism": null,
+      "enemies": [
+        {
+          "id": "g1",
+          "hp": 480,
+          "armor_bp": 1000,
+          "pressure_threshold": 3,
+          "pattern": [
+            {
+              "name": "前列击",
+              "damage": 75,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "扫列",
+              "damage": 40,
+              "target": "column",
+              "attack": true,
+              "interruptible": true
+            }
+          ],
+          "boss": false,
+          "slot": 0,
+          "initiative": 10
+        },
+        {
+          "id": "g2",
+          "hp": 400,
+          "armor_bp": 800,
+          "pressure_threshold": 3,
+          "pattern": [
+            {
+              "name": "点名",
+              "damage": 65,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "三连视觉",
+              "damage": 65,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            }
+          ],
+          "boss": false,
+          "slot": 1,
+          "initiative": 10
+        },
+        {
+          "id": "g3",
+          "hp": 400,
+          "armor_bp": 800,
+          "pressure_threshold": 3,
+          "pattern": [
+            {
+              "name": "散射",
+              "damage": 35,
+              "target": "all",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "点名",
+              "damage": 65,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            }
+          ],
+          "boss": false,
+          "slot": 3,
+          "initiative": 10
+        }
+      ]
+    },
+    {
+      "id": "BENCH-LONG",
+      "name": "持久且不可完全打断",
+      "level": 30,
+      "grade": 4,
+      "mechanism": null,
+      "enemies": [
+        {
+          "id": "heavy",
+          "hp": 2450,
+          "armor_bp": 1400,
+          "pressure_threshold": 8,
+          "pattern": [
+            {
+              "name": "压击",
+              "damage": 210,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "全场脉冲",
+              "damage": 95,
+              "target": "all",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "重压",
+              "damage": 265,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            }
+          ],
+          "boss": true,
+          "slot": 0,
+          "initiative": 10
+        }
+      ]
+    },
+    {
+      "id": "BENCH-TOWER",
+      "name": "塔站三项安全操作",
+      "level": 5,
+      "grade": 0,
+      "source_encounter": "ENC-R1-04",
+      "mechanism": "tower",
+      "enemies": [
+        {
+          "id": "tower",
+          "hp": 310,
+          "armor_bp": 1500,
+          "pressure_threshold": 8,
+          "pattern": [
+            {
+              "name": "臂扫",
+              "damage": 26,
+              "target": "all",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "定点压击",
+              "damage": 50,
+              "target": "unit",
+              "attack": true,
+              "interruptible": true
+            },
+            {
+              "name": "冷却甩击",
+              "damage": 34,
+              "target": "column",
+              "attack": true,
+              "interruptible": true
+            }
+          ],
+          "boss": true,
+          "slot": 0,
+          "initiative": 10
+        }
+      ]
+    }
+  ],
+  "builds": [
+    {
+      "id": "BUILD-H",
+      "name": "巡猎主修",
+      "level": 30,
+      "stats": {
+        "body": 17,
+        "strength": 25,
+        "agility": 21,
+        "perception": 19,
+        "focus": 5
+      },
+      "skills": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "H09",
+        "H10",
+        "H11",
+        "H12",
+        "S01",
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "active": [
+        "H01",
+        "H07",
+        "H10",
+        "S01"
+      ],
+      "weapon": "WP-01",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-M",
+      "name": "机巧主修",
+      "level": 30,
+      "stats": {
+        "body": 17,
+        "strength": 5,
+        "agility": 15,
+        "perception": 25,
+        "focus": 25
+      },
+      "skills": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "H01",
+        "H02",
+        "H03",
+        "H04"
+      ],
+      "active": [
+        "M02",
+        "M04",
+        "M07",
+        "M10"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-04"
+    },
+    {
+      "id": "BUILD-S",
+      "name": "契印主修",
+      "level": 30,
+      "stats": {
+        "body": 25,
+        "strength": 5,
+        "agility": 7,
+        "perception": 25,
+        "focus": 25
+      },
+      "skills": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "M01",
+        "M02",
+        "M03",
+        "M04"
+      ],
+      "active": [
+        "S01",
+        "S04",
+        "S07",
+        "S10"
+      ],
+      "weapon": "WP-06",
+      "armor": "AR-06"
+    },
+    {
+      "id": "BUILD-HM",
+      "name": "巡猎机巧混合",
+      "level": 30,
+      "stats": {
+        "body": 21,
+        "strength": 17,
+        "agility": 13,
+        "perception": 17,
+        "focus": 19
+      },
+      "skills": [
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H07",
+        "H08",
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08"
+      ],
+      "active": [
+        "H01",
+        "H07",
+        "M02",
+        "M04"
+      ],
+      "weapon": "WP-03",
+      "armor": "AR-03"
+    },
+    {
+      "id": "BUILD-Q102-H",
+      "name": "渡轮结算后巡猎示例",
+      "level": 4,
+      "stats": {
+        "body": 7,
+        "strength": 10,
+        "agility": 7,
+        "perception": 6,
+        "focus": 5
+      },
+      "skills": [
+        "H01",
+        "H02",
+        "H03"
+      ],
+      "active": [
+        "H01",
+        "H02"
+      ],
+      "weapon": "WP-01",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-Q102-M",
+      "name": "渡轮结算后机巧示例",
+      "level": 4,
+      "stats": {
+        "body": 7,
+        "strength": 5,
+        "agility": 5,
+        "perception": 8,
+        "focus": 10
+      },
+      "skills": [
+        "M01",
+        "M02",
+        "M03"
+      ],
+      "active": [
+        "M01",
+        "M02"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-Q102-ENTRY-H",
+      "name": "渡轮任务开始时巡猎",
+      "level": 3,
+      "stats": {
+        "body": 7,
+        "strength": 9,
+        "agility": 6,
+        "perception": 6,
+        "focus": 5
+      },
+      "skills": [
+        "H01",
+        "H02"
+      ],
+      "active": [
+        "H01",
+        "H02"
+      ],
+      "weapon": "WP-01",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-Q102-ENTRY-M",
+      "name": "渡轮任务开始时机巧",
+      "level": 3,
+      "stats": {
+        "body": 7,
+        "strength": 5,
+        "agility": 5,
+        "perception": 7,
+        "focus": 9
+      },
+      "skills": [
+        "M01",
+        "M02"
+      ],
+      "active": [
+        "M01",
+        "M02"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-Q102-ENTRY-S",
+      "name": "渡轮开始契印",
+      "level": 3,
+      "stats": {
+        "body": 9,
+        "strength": 5,
+        "agility": 5,
+        "perception": 5,
+        "focus": 9
+      },
+      "skills": [
+        "S01",
+        "S02"
+      ],
+      "active": [
+        "S01",
+        "S02"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-TOWER-H",
+      "name": "塔站前H",
+      "level": 5,
+      "stats": {
+        "body": 9,
+        "strength": 11,
+        "agility": 7,
+        "perception": 5,
+        "focus": 5
+      },
+      "skills": [
+        "H01",
+        "H02",
+        "H03"
+      ],
+      "active": [
+        "H01",
+        "H02"
+      ],
+      "weapon": "WP-01",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-TOWER-M",
+      "name": "塔站前M",
+      "level": 5,
+      "stats": {
+        "body": 9,
+        "strength": 5,
+        "agility": 5,
+        "perception": 7,
+        "focus": 11
+      },
+      "skills": [
+        "M01",
+        "M02",
+        "M03"
+      ],
+      "active": [
+        "M01",
+        "M02"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-TOWER-S",
+      "name": "塔站前S",
+      "level": 5,
+      "stats": {
+        "body": 11,
+        "strength": 5,
+        "agility": 5,
+        "perception": 5,
+        "focus": 11
+      },
+      "skills": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "active": [
+        "S01",
+        "S02"
+      ],
+      "weapon": "WP-05",
+      "armor": "AR-01"
+    },
+    {
+      "id": "BUILD-S-ATTACKBAR",
+      "name": "契印同点数进攻主动栏",
+      "level": 30,
+      "stats": {
+        "body": 25,
+        "strength": 5,
+        "agility": 7,
+        "perception": 25,
+        "focus": 25
+      },
+      "skills": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "M01",
+        "M02",
+        "M03",
+        "M04"
+      ],
+      "active": [
+        "S01",
+        "S02",
+        "S04",
+        "M04"
+      ],
+      "weapon": "WP-06",
+      "armor": "AR-06"
+    }
+  ],
+  "core": {
+    "id": "BOSS-CORE",
+    "quest_id": "Q-F03",
+    "scene_id": "RF-S06",
+    "entry_reference": {
+      "xp": 17740,
+      "level": 28,
+      "grade": 4,
+      "scope": "published_main_order_lower_floor_requires_dependency_check"
+    },
+    "candidate_hp": 1900,
+    "armor_bp": 1800,
+    "pressure_threshold": 8,
+    "phases": [
+      {
+        "id": "link",
+        "health_floor_percent": 70,
+        "local_gates": [
+          "isolate_left",
+          "isolate_right",
+          "verify_link"
+        ],
+        "damage_before_gate": "zero",
+        "transition": "at_atomic_action_end"
+      },
+      {
+        "id": "renewal",
+        "health_floor_percent": 35,
+        "local_gates": [
+          "disable_relay_a",
+          "disable_relay_b",
+          "latch_bypass",
+          "verify_bypass"
+        ],
+        "damage_before_gate": "clamp_to_phase_floor",
+        "adds": [
+          {
+            "id": "relay_a",
+            "hp": 240
+          },
+          {
+            "id": "relay_b",
+            "hp": 240
+          }
+        ],
+        "transition": "at_atomic_action_end"
+      },
+      {
+        "id": "damping",
+        "health_floor_hp": 1,
+        "local_gates": [
+          "set_damping",
+          "verify_damping",
+          "arm_controlled_stop"
+        ],
+        "damage_before_gate": "clamp_to_one",
+        "transition": "all_gates_and_stability_zero_then_safe_stop"
+      }
+    ],
+    "reset_on_phase": false,
+    "spawn_join": "next_round",
+    "phase_transition_enemy_replacement": "non_damaging_recalibration_declared",
+    "outcome": "program_stable_not_policy_chosen",
+    "free_supplies_total": 2,
+    "authority": "local_encounter_transaction_then_quest_receipt"
+  },
+  "limits": {
+    "full_story_balanced": false,
+    "language_calibrated": false,
+    "reference_simulation": "selected_actives_core_passives_fixed_auxiliaries_no_paid_items",
+    "gear_hooks_not_executed": [
+      "WP-04",
+      "AR-05",
+      "all_relics",
+      "all_modules"
+    ],
+    "not_implemented_in_simulator": [
+      "positions_and_range",
+      "companion_milestone_variants",
+      "ordinary_damage_over_time_ticks",
+      "all_status_visuals",
+      "full_core_battle",
+      "world_commit_storage",
+      "real_engine_saving"
+    ]
+  },
+  "inherited": {
+    "no_kill_xp": true,
+    "no_language_stat_gates": true,
+    "free_respec_at_safe_point": true,
+    "no_random_base_miss_or_crit": true,
+    "no_phase_resource_reset": true
+  }
+}

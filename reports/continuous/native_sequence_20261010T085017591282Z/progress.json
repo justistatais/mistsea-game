@@ -1,0 +1,23 @@
+{
+  "scope": "actual serial native probes; no human acceptance",
+  "suite": "reports/build/20261010T082235061985Z",
+  "runs": [
+    {
+      "action": "client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T085017669835Z"
+    },
+    {
+      "action": "campaign-client-test",
+      "exit_code": 0,
+      "result": "verified",
+      "path": "reports/build/20261010T085036141788Z"
+    },
+    {
+      "action": "vessel-client-test",
+      "exit_code": 1,
+      "error_tail": "RUN sdk_version\r\nEXIT 0\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\20594\\Documents\\ChatGPT\\�����Ϸ\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py\", line 155, in <module>\r\n    if __name__ == \"__main__\": main()\r\n                               ^^^^^^\r\n  File \"C:\\Users\\20594\\Documents\\ChatGPT\\�����Ϸ\\MistSea_AllInOne_v0.1\\tools\\ci\\build.py\", line 117, in main\r\n    copy_current_suite_entry(os.environ[\"MISTSEA_NATIVE_SOURCE_SUITE\"],out,source_task,source_marker,source_name,current_inputs(),compiled_binaries())\r\n  File \"C:\\Users\\20594\\Documents\\ChatGPT\\�����Ϸ\\MistSea_AllInOne_v0.1\\tools\\ci\\native_source_cache.py\", line 21, in copy_current_suite_entry\r\n    assert [(c['task'],c['name'],'passed') for c in inventory]==[(c['task'],c['name'],c['result']) for c in results['results']]\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError\r\n"
+    }
+  ]
+}

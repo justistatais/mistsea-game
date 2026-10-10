@@ -1,0 +1,1795 @@
+{
+  "meta": {
+    "version": "0.1",
+    "part": 9,
+    "language_target": "IELTS-A-6.5",
+    "production_schema": false,
+    "source_of_truth": "eight inherited documents plus scoped NPC-09 additions",
+    "mechanical_relationship_bonus": false
+  },
+  "factions": [
+    {
+      "id": "F-DIR",
+      "name": "灯署",
+      "name_en": "Beacon Directorate",
+      "inherited": true,
+      "resources": [
+        "维护岗位",
+        "技术档案",
+        "中央设施操作授权"
+      ],
+      "fear": "跨区供给失控",
+      "positions": [
+        "中央协调",
+        "技术改革",
+        "遵守程序但反对滥权"
+      ],
+      "boundary": "不以捐款或政治赞同换取事实承认",
+      "contact": "N-VOSS",
+      "fallback": "Q-504共同处置授权下的具名技术与交接岗位；保留责任审查"
+    },
+    {
+      "id": "F-HAR",
+      "name": "港盟",
+      "name_en": "Harbour League",
+      "inherited": true,
+      "resources": [
+        "运输",
+        "仓储",
+        "航路登记"
+      ],
+      "fear": "航路中断与贸易失序",
+      "positions": [
+        "公共运输",
+        "商业垄断"
+      ],
+      "boundary": "不能双重预留同一货载与船期",
+      "contact": "N-HAVEL",
+      "fallback": "公开运输合同与共同调度席，不改变真实容量"
+    },
+    {
+      "id": "F-ARC",
+      "name": "公共档案院",
+      "name_en": "Common Archive",
+      "inherited": true,
+      "resources": [
+        "可信副本",
+        "限阅核验",
+        "证人中继"
+      ],
+      "fear": "原始记录失去可核验性或证人暴露",
+      "positions": [
+        "公开问责",
+        "保护性限阅"
+      ],
+      "boundary": "查验权不等于公开身份权",
+      "contact": "N-JUNE",
+      "fallback": "登记保管人、受托核验或脱敏摘要；不是销毁原件"
+    },
+    {
+      "id": "F-GLA",
+      "name": "玻璃学会",
+      "name_en": "Glass Institute",
+      "inherited": true,
+      "resources": [
+        "验证",
+        "定额制造",
+        "校准"
+      ],
+      "fear": "未经验证的方案被当成承诺",
+      "positions": [
+        "开放研究",
+        "机构控制",
+        "审慎复核"
+      ],
+      "boundary": "支持玩家不能替代反例与失败记录",
+      "contact": "N-SIAN",
+      "fallback": "独立复核程序与已有定额合同，实际条件仍要完成"
+    },
+    {
+      "id": "F-BOR",
+      "name": "边地互助会",
+      "name_en": "Border Compact",
+      "inherited": true,
+      "resources": [
+        "地方值守",
+        "运输互助",
+        "环境记录"
+      ],
+      "fear": "最低保障再次被忽略",
+      "positions": [
+        "完全自主",
+        "有条件互助"
+      ],
+      "boundary": "口号不能替代物资、岗位与责任",
+      "contact": "N-FINN",
+      "fallback": "逐地可核验协议与合法代表，不强制招募泰丝"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "CP-LINA",
+      "name": "莉娜",
+      "name_en": "Lina",
+      "core": true,
+      "role": "companion",
+      "faction": "F-HAR",
+      "recruit_gate": "Q-104",
+      "home_scene": "R1-S02",
+      "standby_scene": "HUB-S01",
+      "job": "领航员；序章临时协作，Q-104后正式邀请",
+      "goal": "查清家人的转移，学会核验而非完全否定所有记录",
+      "voice": "简洁，注意方向与更正；有干燥幽默，不使用生僻航海行话",
+      "sample_line": "You can change your mind about the route. Just tell me before we leave.",
+      "boundary": "私下联系不是公开住址的许可",
+      "known_topics": [
+        "K-FERRY-STATUS",
+        "K-LINA-TRANSFER"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "CP-MIRA",
+      "name": "米拉",
+      "name_en": "Mira",
+      "core": true,
+      "role": "companion",
+      "faction": "F-ARC",
+      "recruit_gate": "Q-202",
+      "home_scene": "R2-S04",
+      "standby_scene": "HUB-S02",
+      "job": "档案官；第二章完成相应核查后邀请",
+      "goal": "保留公共问责，同时保护具体的人",
+      "voice": "习惯指出说话者与范围；逐渐不把每句话说成条款",
+      "sample_line": "The record can remain available without making every name public.",
+      "boundary": "受托阅读不能自动扩大接收者",
+      "known_topics": [
+        "K-ARCHIVE-RULES",
+        "K-W04-IDENTITY"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "CP-OREN",
+      "name": "奥伦",
+      "name_en": "Oren",
+      "core": true,
+      "role": "companion",
+      "faction": "F-DIR",
+      "recruit_gate": "Q-302",
+      "home_scene": "R3-S03",
+      "standby_scene": "HUB-S03",
+      "job": "机匠；签章证据已核验后邀请",
+      "goal": "面对责任并完成可核验修复，不求一次道歉清零",
+      "voice": "先谈可检查的动作；谈责任时从被动句改为明确主语",
+      "sample_line": "I signed it. The repair matters, but it does not replace the record.",
+      "boundary": "不要求伪造报告或替本人承认一项未知事实",
+      "known_topics": [
+        "K-OREN-SIGNATURE",
+        "K-WORKSHOP-CONTROL"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "CP-TESS",
+      "name": "泰丝",
+      "name_en": "Tess",
+      "core": true,
+      "role": "companion",
+      "faction": "F-BOR",
+      "recruit_gate": "Q-601",
+      "home_scene": "R6-S02",
+      "standby_scene": "HUB-S01",
+      "job": "向导；测站核查后、护送前邀请",
+      "goal": "把边地最低保障写成有人执行的安排",
+      "voice": "具体、直接、有地形比喻；不同意也说明可以接受的条件",
+      "sample_line": "Show me who takes the second watch, not just who signs the first page.",
+      "boundary": "不能把明确承诺当成只需写下的安慰",
+      "known_topics": [
+        "K-BORDER-NEEDS"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-MARA",
+      "name": "玛拉·维恩",
+      "name_en": "Mara Venn",
+      "core": true,
+      "role": "cross_chapter",
+      "faction": "F-DIR",
+      "recruit_gate": null,
+      "home_scene": "R5-S06",
+      "standby_scene": "HUB-S03",
+      "job": "导师；Q-502获救前不能进行实时自由通信",
+      "goal": "修正方案并承担自己的设计责任",
+      "voice": "先给工程判断，也愿意承认不知道；不替主角决策",
+      "sample_line": "That is what the old design allowed. It is not proof that every tower is ready now.",
+      "boundary": "不以信任导师替代独立核验",
+      "known_topics": [
+        "K-MARA-SIGNATURE",
+        "K-MARA-DESIGN-LIMIT",
+        "K-TECH-LIMITS"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-VOSS",
+      "name": "伊莱娅·沃斯",
+      "name_en": "Elia Voss",
+      "core": true,
+      "role": "cross_chapter",
+      "faction": "F-DIR",
+      "recruit_gate": null,
+      "home_scene": "R4-S08",
+      "standby_scene": "R5-S07",
+      "job": "灯署总监；第四章首次完整交涉",
+      "goal": "维持供给并为其政策辩护，仍须接受已核验责任",
+      "voice": "完整、克制、有范围；反问供给与维护，不讥讽语法",
+      "sample_line": "You have explained the change. You have not yet shown who will maintain it.",
+      "boundary": "赞同中央协作不能抹掉压制报告的责任",
+      "known_topics": [
+        "K-VOSS-AUTHORIZATION",
+        "K-NETWORK-DEPENDENCE"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-ROOK",
+      "name": "加伦·鲁克",
+      "name_en": "Galen Rook",
+      "core": true,
+      "role": "cross_chapter",
+      "faction": "F-DIR",
+      "recruit_gate": null,
+      "home_scene": "RF-S04",
+      "standby_scene": "RF-S04",
+      "job": "封锁队指挥官；不是第六个阵营",
+      "goal": "扩张应急指挥权；终章被制止并受看管",
+      "voice": "命令明确，强调授权；不靠口音或语法暗示邪恶",
+      "sample_line": "The transfer is not authorised under the order I have been given.",
+      "boundary": "不能靠高关系说服后跳过固定接管结果",
+      "known_topics": [
+        "K-ROOK-OVERRIDE",
+        "K-NORTH-STATION"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-HAVEL",
+      "name": "哈文",
+      "name_en": "Havel",
+      "core": true,
+      "role": "regional",
+      "faction": "F-HAR",
+      "recruit_gate": null,
+      "home_scene": "R1-S03",
+      "standby_scene": "R1-S03",
+      "job": "港口调度负责人",
+      "goal": "在合法、安全条件下恢复撤离与运输",
+      "voice": "先问执行条件，语气务实，不要求华丽表达",
+      "sample_line": "A promise is useful only if the crew can act on it.",
+      "boundary": "不能被好感说服放宽已公布航道限制",
+      "known_topics": [
+        "K-FERRY-STATUS",
+        "K-WORKSHOP-CONTROL"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-JUNE",
+      "name": "琼·艾什",
+      "name_en": "June Ash",
+      "core": true,
+      "role": "regional",
+      "faction": "F-ARC",
+      "recruit_gate": null,
+      "home_scene": "R2-S04",
+      "standby_scene": "R2-S04",
+      "job": "修院记录保管人",
+      "goal": "使人能被找到，同时不使他们被任意暴露",
+      "voice": "温和但具体，解释访问范围，不无故卖关子",
+      "sample_line": "I can pass on a request. I cannot promise an answer for someone else.",
+      "boundary": "持有名单不等于拥有替本人同意的权力",
+      "known_topics": [
+        "K-MARA-D1-ALIVE",
+        "K-LINA-TRANSFER",
+        "K-ARCHIVE-RULES",
+        "K-W04-IDENTITY"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-PERA",
+      "name": "佩拉·里德",
+      "name_en": "Pera Reed",
+      "core": true,
+      "role": "regional",
+      "faction": null,
+      "recruit_gate": null,
+      "home_scene": "R3-S08",
+      "standby_scene": "R3-S08",
+      "job": "矿工领班；地方群体，不增加全局声望条",
+      "goal": "安全、生计和清楚的责任同时保留",
+      "voice": "指向人和实际班次；不会因一句道歉自动原谅",
+      "sample_line": "We still need the repair. We also need to know why the earlier check was signed.",
+      "boundary": "维修不等于责任免除",
+      "known_topics": [
+        "K-OREN-SIGNATURE"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-SIAN",
+      "name": "西安·卢恩",
+      "name_en": "Sian Lune",
+      "core": true,
+      "role": "regional",
+      "faction": "F-GLA",
+      "recruit_gate": null,
+      "home_scene": "R4-S06",
+      "standby_scene": "R4-S06",
+      "job": "试验负责人",
+      "goal": "让结论与已验证范围相匹配",
+      "voice": "指出条件与反例，接受不确定性，不刻意高深",
+      "sample_line": "The result supports this configuration. It does not remove the need for a local trial.",
+      "boundary": "技术判断不因政治立场改变",
+      "known_topics": [
+        "K-TECH-LIMITS"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-ADA",
+      "name": "阿妲·凯恩",
+      "name_en": "Ada Kane",
+      "core": true,
+      "role": "regional",
+      "faction": null,
+      "recruit_gate": null,
+      "home_scene": "R5-S02",
+      "standby_scene": "R5-S07",
+      "job": "旧城代表；地方委托范围明确",
+      "goal": "让住民参与重建，而非被当作遗址背景",
+      "voice": "从具体街道和生活说起，有锋利但不羞辱的质问",
+      "sample_line": "People still live behind the names that disappeared from your map.",
+      "boundary": "代表本地范围，不自动代替六地做决定",
+      "known_topics": [
+        "K-OLDCITY-ROUTES",
+        "K-NORTH-STATION"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    },
+    {
+      "id": "N-FINN",
+      "name": "芬·罗文",
+      "name_en": "Finn Rowan",
+      "core": true,
+      "role": "regional",
+      "faction": "F-BOR",
+      "recruit_gate": null,
+      "home_scene": "R6-S08",
+      "standby_scene": "R6-S08",
+      "job": "边地物资协调员",
+      "goal": "让供给、队伍和协议成为真实交付",
+      "voice": "条理清楚，喜欢核对数量与交接；不是只会报表",
+      "sample_line": "The team has agreed to go. The equipment has not arrived yet.",
+      "boundary": "意愿、资源预留与交付分开",
+      "known_topics": [
+        "K-BORDER-NEEDS",
+        "K-READINESS"
+      ],
+      "language_target": "IELTS-A-6.5",
+      "scope": "profile_contract_not_all_dialogue_written"
+    }
+  ],
+  "supporting_profiles": [
+    {
+      "id": "N-LINA-BROTHER",
+      "name": "莉娜的弟弟（本版不新增姓名）",
+      "role": "supporting",
+      "scene": "R6-S02",
+      "privacy": "具体接触方式只在本人许可范围内使用；不将幕后存活事实提前显示"
+    },
+    {
+      "id": "N-W04",
+      "name": "证人W-04",
+      "role": "supporting",
+      "scene": "R2-S03",
+      "privacy": "受保护标识；正式姓名与住址本版不制作成可任意发布字段"
+    },
+    {
+      "id": "N-INNKEEPER",
+      "name": "潮汐旅舍店主",
+      "role": "service",
+      "scene": "R1-O01",
+      "privacy": "使用既有SC-R1-001，不新建重复奖励"
+    },
+    {
+      "id": "N-DECKWATCH",
+      "name": "微光号值守船员",
+      "role": "service",
+      "scene": "HUB-S01",
+      "privacy": "独立的船务岗位，不等于任一同伴或六塔工程人员"
+    },
+    {
+      "id": "N-AUX-GUARD",
+      "name": "地方援勤·护卫",
+      "role": "service",
+      "scene": "HUB-S01",
+      "combat_template": "AUX-GUARD",
+      "privacy": "实际出战占用与工程岗位分开；Q-101起也可在R1-S01登记"
+    },
+    {
+      "id": "N-AUX-SUPPORT",
+      "name": "地方援勤·支援",
+      "role": "service",
+      "scene": "HUB-S01",
+      "combat_template": "AUX-SUPPORT",
+      "privacy": "实际出战占用与工程岗位分开；Q-101起也可在R1-S01登记"
+    }
+  ],
+  "arcs": [
+    {
+      "id": "ARC-LINA",
+      "companion": "CP-LINA",
+      "nodes": [
+        "CQ-LINA-01",
+        "CQ-LINA-02",
+        "CQ-LINA-03"
+      ],
+      "souvenir": "甲板地图上的两枚普通标记",
+      "mechanical_bonus": false,
+      "optional": true,
+      "ending_requirement": false
+    },
+    {
+      "id": "ARC-MIRA",
+      "companion": "CP-MIRA",
+      "nodes": [
+        "CQ-MIRA-01",
+        "CQ-MIRA-02",
+        "CQ-MIRA-03"
+      ],
+      "souvenir": "可切换的档案封套样式",
+      "mechanical_bonus": false,
+      "optional": true,
+      "ending_requirement": false
+    },
+    {
+      "id": "ARC-OREN",
+      "companion": "CP-OREN",
+      "nodes": [
+        "CQ-OREN-01",
+        "CQ-OREN-02",
+        "CQ-OREN-03"
+      ],
+      "souvenir": "修复过的旧工具框",
+      "mechanical_bonus": false,
+      "optional": true,
+      "ending_requirement": false
+    },
+    {
+      "id": "ARC-TESS",
+      "companion": "CP-TESS",
+      "nodes": [
+        "CQ-TESS-01",
+        "CQ-TESS-02",
+        "CQ-TESS-03"
+      ],
+      "souvenir": "带双方回执的路线信箱",
+      "mechanical_bonus": false,
+      "optional": true,
+      "ending_requirement": false
+    }
+  ],
+  "personal_nodes": [
+    {
+      "id": "CQ-LINA-01",
+      "companion": "CP-LINA",
+      "chapter_budget": 1,
+      "main_gate": "Q-104",
+      "personal_prerequisite": null,
+      "title": "名册之外的那一行",
+      "scenes": [
+        "R1-S08",
+        "HUB-S01"
+      ],
+      "xp": 20,
+      "marks": 20,
+      "parts": 0,
+      "action": "取得莉娜对私人查询的许可；比较一份未计入原事故核查目标的转移附页",
+      "fixed_boundary": "仅确认失联者被转移，不确认当前住址或存活",
+      "completion": "转移附页核验与本人确认查询范围",
+      "accepted_outcomes": [
+        "继续限域查询",
+        "暂存副本，不向外发送"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-LINA-02",
+      "companion": "CP-LINA",
+      "chapter_budget": 2,
+      "main_gate": "Q-202",
+      "personal_prerequisite": "CQ-LINA-01",
+      "title": "只转交，不公开",
+      "scenes": [
+        "R2-S04",
+        "R2-O01",
+        "HUB-S02"
+      ],
+      "xp": 25,
+      "marks": 20,
+      "parts": 0,
+      "action": "通过琼的受保护中继登记一封询问信，核对接收范围与回信方式",
+      "fixed_boundary": "保留原始记录；中继可转交并不保证收件人同意见面",
+      "completion": "请求按许可送出，并收到接收或退回的明确回执",
+      "accepted_outcomes": [
+        "经保管人中继",
+        "本人同意的直接书信"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-LINA-03",
+      "companion": "CP-LINA",
+      "chapter_budget": 6,
+      "main_gate": "Q-601",
+      "personal_prerequisite": "CQ-LINA-02",
+      "title": "他仍然有自己的生活",
+      "scenes": [
+        "R6-S02",
+        "HUB-S01"
+      ],
+      "xp": 40,
+      "marks": 30,
+      "parts": 0,
+      "action": "核验边地回信来自本人；分别确认双方愿意书信或见面",
+      "fixed_boundary": "弟弟在边境生活是既定真相；玩家不能替两人承诺团聚",
+      "completion": "完成双方接受的联系安排；不见面也可完成",
+      "accepted_outcomes": [
+        "继续通信",
+        "双方同意后见面",
+        "明确暂缓联系并保存转交方式"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-MIRA-01",
+      "companion": "CP-MIRA",
+      "chapter_budget": 2,
+      "main_gate": "Q-204",
+      "personal_prerequisite": null,
+      "title": "摘要里的空白",
+      "scenes": [
+        "R2-S04",
+        "R2-S03"
+      ],
+      "xp": 25,
+      "marks": 20,
+      "parts": 0,
+      "action": "W-04是新增局部查验样例；为既有主线访问规则做一次不重复主线结算的实际交接",
+      "fixed_boundary": "公开事实不含私人地址；主线关键事实另有公共副本",
+      "completion": "建立字段、接收方、用途和版本明确的局部访问清单",
+      "accepted_outcomes": [
+        "保管人中继",
+        "限阅核验件"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-MIRA-02",
+      "companion": "CP-MIRA",
+      "chapter_budget": 4,
+      "main_gate": "Q-404",
+      "personal_prerequisite": "CQ-MIRA-01",
+      "title": "谁收到了这一页",
+      "scenes": [
+        "R4-S03",
+        "R4-S04",
+        "HUB-S02"
+      ],
+      "xp": 35,
+      "marks": 25,
+      "parts": 0,
+      "action": "核对请求所要的角色数量与原记录身份字段；实际生成脱敏审阅件，不重复试验报告任务",
+      "fixed_boundary": "审阅请求不是公开身份许可；复制件不是独立来源",
+      "completion": "完成一份正确范围的审阅件与交付回执",
+      "accepted_outcomes": [
+        "只送所需字段",
+        "向本人申请扩大范围后再决定"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-MIRA-03",
+      "companion": "CP-MIRA",
+      "chapter_budget": 5,
+      "main_gate": "Q-504",
+      "personal_prerequisite": "CQ-MIRA-02",
+      "title": "能够再次查验的记录",
+      "scenes": [
+        "R5-S07",
+        "HUB-S02"
+      ],
+      "xp": 40,
+      "marks": 30,
+      "parts": 0,
+      "action": "为局部个人材料进行保管与查验演练；确定退出、纠错和限阅复核路径",
+      "fixed_boundary": "不销毁证据；不改变Q-504原来的主线保管选择",
+      "completion": "访问演练通过，相关人接受新的长期安排",
+      "accepted_outcomes": [
+        "独立受托查验",
+        "双份受控保管与交叉审查"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-OREN-01",
+      "companion": "CP-OREN",
+      "chapter_budget": 3,
+      "main_gate": "Q-302",
+      "personal_prerequisite": null,
+      "title": "签名之后",
+      "scenes": [
+        "R3-S03",
+        "R3-S08"
+      ],
+      "xp": 25,
+      "marks": 20,
+      "parts": 1,
+      "action": "在已核验验收责任之外，检查工坊住区的一件辅助警报器，写实际范围清单",
+      "fixed_boundary": "补充维修与主线救援/签章证据是不同工作",
+      "completion": "登记辅助设备缺陷、材料与承诺的可执行范围",
+      "accepted_outcomes": [
+        "现场补修",
+        "与本地人员共同补修"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-OREN-02",
+      "companion": "CP-OREN",
+      "chapter_budget": 3,
+      "main_gate": "Q-304",
+      "personal_prerequisite": "CQ-OREN-01",
+      "title": "修好，不等于没发生",
+      "scenes": [
+        "R3-S03",
+        "R3-S08"
+      ],
+      "xp": 35,
+      "marks": 30,
+      "parts": 1,
+      "action": "使用工坊提供且独立于六塔主物资的零件实际修复辅助警报器；由另一人复核",
+      "fixed_boundary": "不重新淹水或复位救援，不抹掉验收记录",
+      "completion": "修复与独立复核实际完成；意见可保留",
+      "accepted_outcomes": [
+        "佩拉指定的现场复核",
+        "另一名合格技术员复核"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-OREN-03",
+      "companion": "CP-OREN",
+      "chapter_budget": 5,
+      "main_gate": "Q-504",
+      "personal_prerequisite": "CQ-OREN-02",
+      "title": "留下可以执行的安排",
+      "scenes": [
+        "R5-S07",
+        "R3-S08",
+        "HUB-S03"
+      ],
+      "xp": 40,
+      "marks": 30,
+      "parts": 0,
+      "action": "提交与原证据一致的证言，安排明确的后续维护职责，不以一句道歉销案",
+      "fixed_boundary": "现场值守、远程技术答复与出战不能冲突占用",
+      "completion": "交接被接受且岗位安排有效；事实责任仍保留",
+      "accepted_outcomes": [
+        "轮换现场维护",
+        "受监督远程答复并由本地队执行"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-TESS-01",
+      "companion": "CP-TESS",
+      "chapter_budget": 6,
+      "main_gate": "Q-601",
+      "personal_prerequisite": null,
+      "title": "地图边缘也有人",
+      "scenes": [
+        "R6-S02",
+        "R6-S05"
+      ],
+      "xp": 25,
+      "marks": 20,
+      "parts": 0,
+      "action": "补充了解两个接收点的沟通与收货条件，形成可见的本地联系页",
+      "fixed_boundary": "不新增终局必需聚落，也不创造无记录物资",
+      "completion": "联系页经接收方确认，实际提出非强制附加工作",
+      "accepted_outcomes": [
+        "现场交接窗口",
+        "经集散所转交"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-TESS-02",
+      "companion": "CP-TESS",
+      "chapter_budget": 6,
+      "main_gate": "Q-603",
+      "personal_prerequisite": "CQ-TESS-01",
+      "title": "两趟之间",
+      "scenes": [
+        "R6-S05",
+        "R6-S08"
+      ],
+      "xp": 0,
+      "marks": 0,
+      "parts": 0,
+      "action": "复用PZ-Q603-LOAD已有选择与交付回执，增加人物对先后取舍的回应",
+      "fixed_boundary": "不要求再运输一遍，不重复Q-603工作奖励",
+      "completion": "若实际完成补充运输则引用回执；未选该补充内容则记录未承诺，不伪造交付",
+      "accepted_outcomes": [
+        "面板先到",
+        "档案先到",
+        "未承担补充运输"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    },
+    {
+      "id": "CQ-TESS-03",
+      "companion": "CP-TESS",
+      "chapter_budget": 6,
+      "main_gate": "Q-603",
+      "personal_prerequisite": "CQ-TESS-02",
+      "title": "谁来接下一班",
+      "scenes": [
+        "R6-S08",
+        "HUB-S01"
+      ],
+      "xp": 40,
+      "marks": 30,
+      "parts": 0,
+      "action": "完成本地通知链与维护联系人核对，取得具体接收回执",
+      "fixed_boundary": "这里不再签六方协议；不得增加分布式结局条件",
+      "completion": "通知与本地交接闭环成立；泰丝可以继续与政策分歧共处",
+      "accepted_outcomes": [
+        "本人轮换值守",
+        "具名本地交接并保持联络"
+      ],
+      "parent_reward": 0,
+      "requires_recruitment": false,
+      "requires_private_invitation": true,
+      "stage": "pre_final_departure",
+      "late_resume": "在当前合法场景/通信入口恢复同一实例，不按读取存档次数结算",
+      "state": "contract_not_full_level_implemented"
+    }
+  ],
+  "main_reactions": [
+    {
+      "quest": "Q-P01",
+      "actors": [
+        "CP-LINA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-P02",
+      "actors": [
+        "CP-LINA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-P03",
+      "actors": [
+        "CP-LINA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-101",
+      "actors": [
+        "N-HAVEL"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-102",
+      "actors": [
+        "N-HAVEL",
+        "CP-LINA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-103",
+      "actors": [
+        "N-HAVEL"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-104",
+      "actors": [
+        "N-HAVEL",
+        "CP-LINA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-201",
+      "actors": [
+        "N-JUNE"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-202",
+      "actors": [
+        "N-JUNE",
+        "CP-MIRA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-203",
+      "actors": [
+        "N-JUNE",
+        "CP-MIRA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-204",
+      "actors": [
+        "N-JUNE",
+        "CP-MIRA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-301",
+      "actors": [
+        "N-PERA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-302",
+      "actors": [
+        "N-PERA",
+        "CP-OREN"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-303",
+      "actors": [
+        "N-PERA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-304",
+      "actors": [
+        "N-PERA",
+        "CP-OREN"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-401",
+      "actors": [
+        "N-SIAN"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-402",
+      "actors": [
+        "N-SIAN"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-403",
+      "actors": [
+        "N-SIAN"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-404",
+      "actors": [
+        "N-SIAN",
+        "N-VOSS"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-501",
+      "actors": [
+        "N-ADA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-502",
+      "actors": [
+        "N-ADA",
+        "N-MARA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-503",
+      "actors": [
+        "N-MARA",
+        "N-VOSS"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-504",
+      "actors": [
+        "N-ADA",
+        "N-VOSS"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-601",
+      "actors": [
+        "N-FINN",
+        "CP-TESS"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-602",
+      "actors": [
+        "N-FINN"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-603",
+      "actors": [
+        "N-FINN",
+        "CP-TESS"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-604",
+      "actors": [
+        "N-FINN",
+        "N-MARA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-F01",
+      "actors": [
+        "N-MARA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-F02",
+      "actors": [
+        "N-ROOK"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-F03",
+      "actors": [
+        "N-MARA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-F04",
+      "actors": [
+        "N-MARA"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    },
+    {
+      "quest": "Q-F05",
+      "actors": [
+        "N-MARA",
+        "CP-LINA",
+        "CP-MIRA",
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "knowledge_delivery": "只能使用实际在场所见或已送达的回执；表中列名不是自动获取所有事实",
+      "scope": "反应绑定，不是完整对白或额外任务",
+      "extra_reward": 0
+    }
+  ],
+  "facts": [
+    {
+      "id": "K-FERRY-STATUS",
+      "text": "当前许可、船舶载况和设备限制需要一并核对。",
+      "release": [
+        "Q-101"
+      ],
+      "privacy": "public",
+      "source": "Q102-R-NOTICE",
+      "time_scope": "current_notice",
+      "kind": "fact"
+    },
+    {
+      "id": "K-WORKSHOP-CONTROL",
+      "text": "工坊检修控制使用独立储备，不依赖船内备用电池。",
+      "release": [
+        "EV-WORKSHOP-NOTICE-ACQUIRED"
+      ],
+      "privacy": "public",
+      "source": "PZ-Q102-ACCESS",
+      "time_scope": "current_configuration",
+      "kind": "fact"
+    },
+    {
+      "id": "K-MARA-D1-ALIVE",
+      "text": "转移交接记录证明玛拉在D-1仍然活着。",
+      "release": [
+        "Q-202"
+      ],
+      "privacy": "public",
+      "source": "E-03",
+      "time_scope": "D-1_only",
+      "kind": "fact"
+    },
+    {
+      "id": "K-MARA-SIGNATURE",
+      "text": "早期方案中存在玛拉的签名，需要继续核验其范围。",
+      "release": [
+        "Q-204"
+      ],
+      "privacy": "public",
+      "source": "E-08-preliminary",
+      "time_scope": "historical_signature",
+      "kind": "fact"
+    },
+    {
+      "id": "K-MARA-DESIGN-LIMIT",
+      "text": "原始方案未建立足够的退出保障，后来的修订另有责任。",
+      "release": [
+        "Q-503"
+      ],
+      "privacy": "public",
+      "source": "E-08",
+      "time_scope": "historical_verified_scope",
+      "kind": "fact"
+    },
+    {
+      "id": "K-NORTH-STATION",
+      "text": "现有定位材料将扣押设施代号对应到旧都北站。",
+      "release": [
+        "Q-404"
+      ],
+      "privacy": "public",
+      "source": "STORY-Q404-LOCATION",
+      "time_scope": "verified_location",
+      "kind": "fact"
+    },
+    {
+      "id": "K-LINA-TRANSFER",
+      "text": "莉娜的家人在船队改派后被列为失踪；当前去向尚未由这份资料证明。",
+      "release": [
+        "CQ-LINA-01"
+      ],
+      "privacy": "public",
+      "source": "CQ-LINA-01-ANNEX",
+      "time_scope": "historical_transfer",
+      "kind": "fact"
+    },
+    {
+      "id": "K-BROTHER-CONTACT",
+      "text": "本人已经回复中继询问信，允许按指定方式继续联系。",
+      "release": [
+        "CQ-LINA-02",
+        "EV-BROTHER-REPLY-VERIFIED"
+      ],
+      "privacy": "personal",
+      "source": "N-LINA-BROTHER",
+      "time_scope": "current_reply",
+      "kind": "fact"
+    },
+    {
+      "id": "K-ARCHIVE-RULES",
+      "text": "查验公共事实不自动授权公开相关人的私人身份。",
+      "release": [
+        "Q-201"
+      ],
+      "privacy": "public",
+      "source": "ARCHIVE-ACCESS-RULE",
+      "time_scope": "current_policy",
+      "kind": "fact"
+    },
+    {
+      "id": "K-W04-PUBLIC",
+      "text": "W-04的查验材料支持一项公开工作事实，不需要公开私人地址。",
+      "release": [
+        "CQ-MIRA-01"
+      ],
+      "privacy": "public",
+      "source": "CQ-MIRA-W04-PUBLIC",
+      "time_scope": "scoped_claim",
+      "kind": "fact"
+    },
+    {
+      "id": "K-W04-IDENTITY",
+      "text": "仅限当前受托审阅所需的身份字段；此参考资料不提供实际姓名和地址。",
+      "release": [
+        "CQ-MIRA-01"
+      ],
+      "privacy": "personal",
+      "source": "N-W04",
+      "time_scope": "consented_version",
+      "kind": "fact"
+    },
+    {
+      "id": "K-OREN-SIGNATURE",
+      "text": "奥伦签署过相关验收；补修设备不能抹去签章事实。",
+      "release": [
+        "Q-302"
+      ],
+      "privacy": "public",
+      "source": "E-05",
+      "time_scope": "historical_verified",
+      "kind": "fact"
+    },
+    {
+      "id": "K-TECH-LIMITS",
+      "text": "局部试验只支持已说明的配置与范围；六塔还需实际准备和核验。",
+      "release": [
+        "Q-404"
+      ],
+      "privacy": "public",
+      "source": "E-06/E-11",
+      "time_scope": "current_validated_scope",
+      "kind": "fact"
+    },
+    {
+      "id": "K-VOSS-AUTHORIZATION",
+      "text": "核验资料支持沃斯的相关授权与信息压制责任。",
+      "release": [
+        "Q-503"
+      ],
+      "privacy": "public",
+      "source": "E-09",
+      "time_scope": "historical_verified",
+      "kind": "fact"
+    },
+    {
+      "id": "K-NETWORK-DEPENDENCE",
+      "text": "地区依赖跨区供给；替代安排要说明过渡维护与物资。",
+      "release": [
+        "Q-404"
+      ],
+      "privacy": "public",
+      "source": "Q404-EXCHANGE",
+      "time_scope": "present_dependencies",
+      "kind": "claim_attributed"
+    },
+    {
+      "id": "K-ROOK-OVERRIDE",
+      "text": "核验资料支持鲁克取消复核、扩大扣押与阻碍移交的责任。",
+      "release": [
+        "Q-503"
+      ],
+      "privacy": "public",
+      "source": "E-10",
+      "time_scope": "historical_verified",
+      "kind": "fact"
+    },
+    {
+      "id": "K-OLDCITY-ROUTES",
+      "text": "旧桥与当前核查通道不是同一通路，仍有住民在街区生活。",
+      "release": [
+        "EV-OLDCITY-ARRIVED"
+      ],
+      "privacy": "public",
+      "source": "PZ-Q501-MAP",
+      "time_scope": "current_observation",
+      "kind": "fact"
+    },
+    {
+      "id": "K-BORDER-NEEDS",
+      "text": "边地接收物资、值守岗位与运输安排需要实际交接。",
+      "release": [
+        "Q-601"
+      ],
+      "privacy": "public",
+      "source": "Q601-LOCAL-NEEDS",
+      "time_scope": "current_needs",
+      "kind": "fact"
+    },
+    {
+      "id": "K-READINESS",
+      "text": "六塔基础保全与分布式增强准备是不同的实际清单。",
+      "release": [
+        "Q-404"
+      ],
+      "privacy": "public",
+      "source": "E-11",
+      "time_scope": "current_requirements",
+      "kind": "fact"
+    }
+  ],
+  "banter_seeds": [
+    {
+      "id": "BAN-LINA-1",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "修好一块普通海图压板",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-2",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "听过家人回信后如何折起信纸",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-3",
+      "actors": [
+        "CP-LINA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "从船头判断风向，不提供关卡答案",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-OREN-1",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scene": "HUB-S03",
+      "premise": "把一件旧工具放回自己修好的框里",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-OREN-2",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scene": "HUB-S03",
+      "premise": "在公共饭桌承认这次不是只换一个螺钉",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-OREN-3",
+      "actors": [
+        "CP-OREN"
+      ],
+      "scene": "HUB-S03",
+      "premise": "修一只不含主线钥匙的杯把",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-MIRA-1",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S02",
+      "premise": "给公共书架留下可改写的书目卡",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-MIRA-2",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S02",
+      "premise": "承认自己也喜欢没有注释的故事",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-MIRA-3",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S02",
+      "premise": "把旧档案封套改成不暴露姓名的标签",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-TESS-1",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "解释地图边缘的一条日常小路",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-TESS-2",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "为陌生船员留一份天气留言",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-TESS-3",
+      "actors": [
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "讨论谁把甲板绳结打得太紧",
+      "requires": "该人物可用且话题所需事实实际可见；私人场景须邀约",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-OREN-1",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "scene": "HUB-S01",
+      "premise": "谁把修好的椅子又拆开了",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-OREN-2",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "scene": "HUB-S01",
+      "premise": "坏掉的指南针并不让每条航线都变假",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-MIRA-1",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "海图上的手写备注应放在哪里",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-MIRA-2",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "回信可以保留原话，不必改成公告",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-TESS-1",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "海风与山口风的不同判断",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-LINA-TESS-2",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "路线图上没有画出的休息点",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-OREN-MIRA-1",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "说明书旁边能不能画一只猫",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-OREN-MIRA-2",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "scene": "HUB-S01",
+      "premise": "承认错误不等于删除记录",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-OREN-TESS-1",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "工具收纳与现场携带争论",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-OREN-TESS-2",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "别给每个紧急请求都写永久承诺",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-MIRA-TESS-1",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "路牌的旧名字与住民的新叫法",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    },
+    {
+      "id": "BAN-MIRA-TESS-2",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "scene": "HUB-S01",
+      "premise": "一条规则应该让使用者看得懂",
+      "requires": "双方实际同地且未冲突占用；仅用已有可见事实",
+      "reward": 0,
+      "status": "seed_not_full_script"
+    }
+  ],
+  "regional_mandates": [
+    {
+      "region": "R1",
+      "operator": "ROLE-R1-OP",
+      "representative": "ROLE-R1-REP",
+      "operator_scope": "operate:R1",
+      "representative_scope": "represent:R1",
+      "protocol_version": "protocol-d3-v1"
+    },
+    {
+      "region": "R2",
+      "operator": "ROLE-R2-OP",
+      "representative": "ROLE-R2-REP",
+      "operator_scope": "operate:R2",
+      "representative_scope": "represent:R2",
+      "protocol_version": "protocol-d3-v1"
+    },
+    {
+      "region": "R3",
+      "operator": "ROLE-R3-OP",
+      "representative": "ROLE-R3-REP",
+      "operator_scope": "operate:R3",
+      "representative_scope": "represent:R3",
+      "protocol_version": "protocol-d3-v1"
+    },
+    {
+      "region": "R4",
+      "operator": "ROLE-R4-OP",
+      "representative": "ROLE-R4-REP",
+      "operator_scope": "operate:R4",
+      "representative_scope": "represent:R4",
+      "protocol_version": "protocol-d3-v1"
+    },
+    {
+      "region": "R5",
+      "operator": "ROLE-R5-OP",
+      "representative": "ROLE-R5-REP",
+      "operator_scope": "operate:R5",
+      "representative_scope": "represent:R5",
+      "protocol_version": "protocol-d3-v1"
+    },
+    {
+      "region": "R6",
+      "operator": "ROLE-R6-OP",
+      "representative": "ROLE-R6-REP",
+      "operator_scope": "operate:R6",
+      "representative_scope": "represent:R6",
+      "protocol_version": "protocol-d3-v1"
+    }
+  ],
+  "cooperation_scopes": [
+    {
+      "id": "SCOPE-ARCHIVE",
+      "faction": "F-ARC",
+      "required_receipts": [
+        "archive_request_registered",
+        "source_scope_verified"
+      ],
+      "required_capacity": [],
+      "result": "allowed_to_review_not_publicise"
+    },
+    {
+      "id": "SCOPE-TRANSPORT",
+      "faction": "F-HAR",
+      "required_receipts": [
+        "route_legal",
+        "cargo_manifest_confirmed"
+      ],
+      "required_capacity": [
+        "vessel_slot_reserved"
+      ],
+      "result": "allowed_to_dispatch_not_delivered"
+    },
+    {
+      "id": "SCOPE-MANUFACTURE",
+      "faction": "F-GLA",
+      "required_receipts": [
+        "technical_package_valid",
+        "manufacture_contract_accepted"
+      ],
+      "required_capacity": [
+        "manufacture_batch_reserved"
+      ],
+      "result": "allowed_to_build_not_installed"
+    },
+    {
+      "id": "SCOPE-HANDOVER",
+      "faction": "F-DIR",
+      "required_receipts": [
+        "Q-504",
+        "handover_scope_valid"
+      ],
+      "required_capacity": [],
+      "result": "scoped_access_not_absolution"
+    },
+    {
+      "id": "SCOPE-LOCAL-DUTY",
+      "faction": "F-BOR",
+      "required_receipts": [
+        "local_maintenance_terms",
+        "local_mandate_valid"
+      ],
+      "required_capacity": [
+        "local_staff_reserved"
+      ],
+      "result": "allowed_to_schedule_not_work_complete"
+    }
+  ],
+  "relationship": {
+    "work_states": [
+      "unestablished",
+      "working",
+      "ongoing",
+      "repair_pending"
+    ],
+    "private_states": [
+      "not_invited",
+      "invited",
+      "paused"
+    ],
+    "issue_states": [
+      "unknown",
+      "support",
+      "reserved",
+      "oppose"
+    ],
+    "numeric_total": null,
+    "gift_grinding": false,
+    "combat_buff": false
+  },
+  "recruitment": {
+    "temporary_lina": "prologue_only_or_explicit_scene_cooperation",
+    "party_slots": 2,
+    "shared_levels": true,
+    "tactic_levels": [
+      12,
+      20,
+      24
+    ],
+    "safe_departure_only": true,
+    "mandatory_companion_for_main": false
+  },
+  "reward_budget": {
+    "personal_xp": 350,
+    "marks": 275,
+    "parts": 2,
+    "existing_hotel_xp": 25,
+    "optional_total_cap": 2400
+  },
+  "ownership": {
+    "npc": "知识、说法、邀约、已见证的关系回执与意愿",
+    "quest": "任务与世界结果",
+    "combat": "已冻结队伍行动",
+    "inventory": "物品唯一所有权",
+    "engineering": "真实班组与物资",
+    "learning": "实际语言证据，不能更改关系/世界"
+  }
+}

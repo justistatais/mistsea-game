@@ -1,0 +1,10 @@
+{
+  "pid": 16600,
+  "argv": [
+    "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe"
+  ],
+  "profile": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-076\\native-ux-20261010T121658185119Z\\profile",
+  "same_exported_executable_sha256": "27fc0a42f8bddbaffc6a58e629102f2155e9ff78a7f04cf906cff6cfaeef36bd",
+  "original_process_closed": true,
+  "human_signoff": null
+}

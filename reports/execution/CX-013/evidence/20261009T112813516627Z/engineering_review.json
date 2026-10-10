@@ -1,0 +1,61 @@
+{
+  "task_id": "CX-013",
+  "scope": "所有持久世界写入经单写队列，短事务一起应用经验证变更。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "写入中途异常全部回滚",
+      "status": "passed",
+      "evidence": "Injected exception after balances rolls back entities, balances, receipts, commands and outbox"
+    },
+    {
+      "criterion": "数据库忙不冻结编辑器",
+      "status": "passed",
+      "evidence": "Real competing BEGIN IMMEDIATE returns Busy while enqueue stays under 250ms"
+    },
+    {
+      "criterion": "不在线程中直接改Godot节点",
+      "status": "passed",
+      "evidence": "Infrastructure has no Godot assembly reference and writer returns immutable DTOs"
+    },
+    {
+      "criterion": "失败不半扣物品",
+      "status": "passed",
+      "evidence": "Insufficient-balance fixture restores earlier item ownership through rollback"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-013",
+        "name": "Mid-write exception rolls back all world changes",
+        "result": "passed"
+      },
+      {
+        "task": "CX-013",
+        "name": "Insufficient balance rolls back earlier item transfer",
+        "result": "passed"
+      },
+      {
+        "task": "CX-013",
+        "name": "Busy competing connection does not block caller thread",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-011",
+    "CX-012"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "scope": "CI export repair under the existing continuous development authorization; no schema or catalog changes",
+  "changed_input": {
+    "path": "tools/ci/package_windows.py",
+    "sha256": "89e8e584ff3810126d6f2c02633df482072d5e9198995e2c57cf9a7b74247dd9"
+  },
+  "actual_failure": "reports/execution/CX-077/20261010T105734640553Z/failure.json",
+  "actual_partial_trial": "reports/execution/CX-077/20261010T111436076548Z/failure.json",
+  "review": "reports/continuous/raw_wave_export_fix_20261010.author_review.json",
+  "fresh_suite": "reports/build/20261010T111545212936Z",
+  "replacement_required": [
+    "complete full suite",
+    "all 29 native drivers",
+    "current performance capture",
+    "fresh package runtime probes",
+    "actual exported editor recovery"
+  ],
+  "human_signoff": null
+}

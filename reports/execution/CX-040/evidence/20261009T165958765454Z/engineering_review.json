@@ -1,0 +1,108 @@
+{
+  "task_id": "CX-040",
+  "scope": "导入30级曲线、五属性、阶位与32奖励，关联任务回执而非击杀/答题。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "起步3级工坊/5级塔站/28级终章",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-040",
+              "name": "Threshold edges, 62 attributes and 16 skills; Q102 result level differs from entry",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Frozen XP, attributes and exact thresholds pass; actual level-28 final chapter is not produced."
+      }
+    },
+    {
+      "criterion": "19140主线总经验",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-040",
+              "name": "Threshold edges, 62 attributes and 16 skills; Q102 result level differs from entry",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Frozen XP, attributes and exact thresholds pass; actual level-28 final chapter is not produced."
+      }
+    },
+    {
+      "criterion": "辅助使用不改变奖励",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-040",
+              "name": "Threshold edges, 62 attributes and 16 skills; Q102 result level differs from entry",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Frozen XP, attributes and exact thresholds pass; actual level-28 final chapter is not produced."
+      }
+    },
+    {
+      "criterion": "击杀经验0",
+      "status": "pending",
+      "evidence": {
+        "implemented_evidence": {
+          "named_cases": [
+            {
+              "task": "CX-040",
+              "name": "Threshold edges, 62 attributes and 16 skills; Q102 result level differs from entry",
+              "result": "passed"
+            }
+          ],
+          "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+          "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+          "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+        },
+        "remaining": "Frozen XP, attributes and exact thresholds pass; actual level-28 final chapter is not produced."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-040",
+        "name": "Threshold edges, 62 attributes and 16 skills; Q102 result level differs from entry",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-009",
+    "CX-013"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed.",
+    "Frozen XP, attributes and exact thresholds pass; actual level-28 final chapter is not produced."
+  ]
+}

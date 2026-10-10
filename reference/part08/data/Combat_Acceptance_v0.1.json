@@ -1,0 +1,314 @@
+[
+  {
+    "id": "COM-AT-01",
+    "topic": "进入条件",
+    "expected": "Q-102以3级/校准0、两合法援助进入；不能借用结算后奖励",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-02",
+    "topic": "塔站入口",
+    "expected": "Q-104以5级/校准0进入；第一校准与新防具只在结果后取得",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-03",
+    "topic": "固定6.5",
+    "expected": "战斗模式、等级、失败次数不修改材料、语言目标或基本奖励",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-04",
+    "topic": "阵营顺序",
+    "expected": "我方/敌方阶段与同先手持久ID顺序确定且可显示",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-05",
+    "topic": "AP预算",
+    "expected": "主角3、援助2，无敏捷额外回合、遗物返AP或未用AP累积",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-06",
+    "topic": "冷却",
+    "expected": "CD1隔一个个人计划槽；恢复存档和跳过槽不重置",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-07",
+    "topic": "计划槽",
+    "expected": "倒地源仍推进时钟，不让其护盾永远不消失",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-08",
+    "topic": "救起资格",
+    "expected": "目标当前轮原槽前后被救起，都只能下一轮行动",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-09",
+    "topic": "主角倒地",
+    "expected": "其他成员仍能操作并救起；不提前失败",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-10",
+    "topic": "同时结果",
+    "expected": "完整动作结算后检查全队与目标，不半途发奖",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-11",
+    "topic": "前排保护",
+    "expected": "近战不能直接选受活前排保护的后排，远程/技术规则明确",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-12",
+    "topic": "换位",
+    "expected": "1AP、相邻、合法空位或交换、预算一次；无瞬移穿墙",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-13",
+    "topic": "移动技能",
+    "expected": "H06或援护没有合法移位时仍按定义护盾，不生成行动",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-14",
+    "topic": "人物锁定",
+    "expected": "目标移位仍被追踪，倒地后默认取消不暗中转火",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-15",
+    "topic": "列攻击",
+    "expected": "只影响预告的列，合法移动能规避",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-16",
+    "topic": "全场范围",
+    "expected": "包括声明时空位，不能用移入空位躲全场",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-17",
+    "topic": "目标消失",
+    "expected": "无合法目标时先取消，不能消费攻击开始类装置",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-18",
+    "topic": "意图可信",
+    "expected": "玩家防御后敌人不能临时改招、改目标或追加秘密倍率",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-19",
+    "topic": "增援",
+    "expected": "提前声明且有上限，下一轮才行动，不超过四敌",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-20",
+    "topic": "费用原子性",
+    "expected": "无效目标、过期版本、未学技能不先扣AP/专注/物品",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-21",
+    "topic": "多段",
+    "expected": "同根同目标先合并系数，暴露与一次触发只算一次",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-22",
+    "topic": "减伤",
+    "expected": "同池上限正确，弱长减伤不延续强短减伤",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-23",
+    "topic": "护盾",
+    "expected": "max不相加，50%上限、正确期限、倒地清理有效",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-24",
+    "topic": "暴露",
+    "expected": "H01后置；旧暴露单充能；不通过检查预览消耗",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-25",
+    "topic": "压力",
+    "expected": "基础来源先合并，上限6，无来源不凭空产生",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-26",
+    "topic": "普通失衡",
+    "expected": "取消一次；再完成非失衡取消槽之前不重新积条",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-27",
+    "topic": "首领失衡",
+    "expected": "只减弱/取消明确附带，不跳过安全机关或阶段",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-28",
+    "topic": "装置预算",
+    "expected": "同一敌方动作同一源最多触发一件，不递归攻击链",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-29",
+    "topic": "装置回收",
+    "expected": "真实付费未触发装置才能返还；遵守两级返还上限",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-30",
+    "topic": "普通状态",
+    "expected": "两次蚀伤按计划槽而非现实时间；净化不解除剧情锁",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-31",
+    "topic": "补给",
+    "expected": "全队2次基础、最多2份增强；每人每槽一次",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-32",
+    "topic": "阶段连续",
+    "expected": "首领阶段不刷新HP、专注、配发、冷却、首击与遗物次数",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-33",
+    "topic": "阶段公告",
+    "expected": "新阶段不插入未预告伤害，新增实体下一轮才出手",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-34",
+    "topic": "过量伤害",
+    "expected": "不能一次跨多个锁护和阶段底线",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-35",
+    "topic": "补齐机关",
+    "expected": "已到阶段底线后完成核验直接转段，不强迫空打",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-36",
+    "topic": "最后停止",
+    "expected": "1点失控度且当前配置已验，受控停止可完成，无需继续攻击",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-37",
+    "topic": "工坊替代",
+    "expected": "战斗、停机、潜入取得同一支架，奖励与语言支持无差别",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-38",
+    "topic": "工坊独立",
+    "expected": "它的结果不关闭Q-104、不动船内电池、不直接发船",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-39",
+    "topic": "塔站协作",
+    "expected": "不同角色/不同操作顺序可完成两阀，隔离只在之后",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-40",
+    "topic": "实验边界",
+    "expected": "试验执行机胜利不篡改T1—T4记录或标为全网有效",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-41",
+    "topic": "鲁克结果",
+    "expected": "制止并看管，不让战斗AI决定处决、赦免或重写责任",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-42",
+    "topic": "终章结果",
+    "expected": "机组稳定只提供Q-F04条件，不自动选择政策或发英语等级",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-43",
+    "topic": "安全撤回",
+    "expected": "恢复当前战前入口资源及局部状态，不携带半场收益",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-44",
+    "topic": "继续保存",
+    "expected": "途中保存按原局面继续，不等同新遭遇与回满",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-45",
+    "topic": "断电故障",
+    "expected": "真实存储中模拟关键中断，无半扣物/重复奖励/错误复活",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-46",
+    "topic": "分支回档",
+    "expected": "结算前分支可正常重做一次，结算后不会再领奖",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-47",
+    "topic": "晚到消息",
+    "expected": "过期语言/点击/AI建议不能改当前战斗与已确认世界结果",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-48",
+    "topic": "界面与声音",
+    "expected": "键盘、缩放、减闪、音量、字幕有效，写作不误触攻击",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-49",
+    "topic": "援助替代",
+    "expected": "不带任意指定同伴仍有主线可行配队，不复制工程人员",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-50",
+    "topic": "相同实例",
+    "expected": "地方援勤、遗物、改件、物品只有一个合法持有与次数",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-51",
+    "topic": "全阶段平衡",
+    "expected": "28级/校准4、无稀有装备与增强补给完成真实终章基准",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  },
+  {
+    "id": "COM-AT-52",
+    "topic": "节奏验收",
+    "expected": "人类试玩检查普通/首领时长，11—16轮压力台不当合格主线",
+    "status": "engine_or_playtest_required_not_claimed_passed"
+  }
+]

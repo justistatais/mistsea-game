@@ -1,0 +1,2 @@
+Mist.Core.Content.ContentException: Audio/text version binding mismatch.
+   at Mist.Infrastructure.Content.PackageInstaller.Install(String zipPath, Boolean allowUnsignedInternal) in C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Infrastructure\Content\PackageInstaller.cs:line 75

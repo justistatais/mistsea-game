@@ -1,0 +1,143 @@
+{
+  "task_id": "CX-074",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/Directory.Build.props",
+      "sha256": "e39b6b4dc997d94aa2b33de75d9debd50cf16a135ad6e74b18d156089c9e813c",
+      "bytes": 545,
+      "source_path_at_execution": "Directory.Build.props"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/artifacts/windows/MistSea-internal-20261009T170834026583Z/PACKAGE_MANIFEST.json",
+      "sha256": "37f10e6b0f19685746d341bd2ebf8e642178ba3c1cfd31b17264f9c1066bfdc6",
+      "bytes": 40610,
+      "source_path_at_execution": "artifacts/windows/MistSea-internal-20261009T170834026583Z/PACKAGE_MANIFEST.json"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/artifacts/windows/MistSea-internal-20261009T170834026583Z/README_中文.txt",
+      "sha256": "62916ff194168a89ca5aac37f9a9089775c377531c2981049c9bf28148b9435d",
+      "bytes": 993,
+      "source_path_at_execution": "artifacts/windows/MistSea-internal-20261009T170834026583Z/README_中文.txt"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/artifacts/windows/MistSea-internal-20261009T170834026583Z/RIGHTS_AND_DEPENDENCIES.json",
+      "sha256": "c749151d019c8123bf081acca6ae62d9bf47ba737139330b7f92c6609508fe2b",
+      "bytes": 3206,
+      "source_path_at_execution": "artifacts/windows/MistSea-internal-20261009T170834026583Z/RIGHTS_AND_DEPENDENCIES.json"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/game/MistSea.csproj",
+      "sha256": "78f5e5b42fb9a252fec3440cd2ae7c3cca2f9b6f99c187afad389048589dfbf9",
+      "bytes": 637,
+      "source_path_at_execution": "game/MistSea.csproj"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/game/UI/Campaign/CampaignClient.ReleaseProbe.cs",
+      "sha256": "b883ab9be91877fd75dd45418551a341fbbd721debd7d5e6771a7d32fde99a11",
+      "bytes": 1074,
+      "source_path_at_execution": "game/UI/Campaign/CampaignClient.ReleaseProbe.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/game/export_presets.cfg",
+      "sha256": "892a60d95339cab4328175cfee6c90600ab406f146aec25cb7d139e78641f2a2",
+      "bytes": 686,
+      "source_path_at_execution": "game/export_presets.cfg"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/planning/plan.json",
+      "sha256": "9f5e000cd2298026f0e9189b3cabb2c8b17c6cf51d9ae3057fd9b353b4d54afa",
+      "bytes": 242610,
+      "source_path_at_execution": "planning/plan.json"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/reports/build/20261009T172300391165Z/test_results.json",
+      "sha256": "89255299236b010ae7359fe0b2229e2e70dcfe296b99e3b3237370aa8f039dc6",
+      "bytes": 48147,
+      "source_path_at_execution": "reports/build/20261009T172300391165Z/test_results.json"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335,
+      "source_path_at_execution": "reports/continuous/Scope_20261009.md"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/reports/execution/CX-077/20261009T170834026583Z/package_result.json",
+      "sha256": "810b64ebdfadd072b9e344c72fbdb6eabbd4f28f1c48467d3b59b5810d942e45",
+      "bytes": 3711,
+      "source_path_at_execution": "reports/execution/CX-077/20261009T170834026583Z/package_result.json"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/reports/release/coverage_current.json",
+      "sha256": "3e7fb114cbbd78d7582157630ee1cf27c85409f5cea3a083873058dcee09299c",
+      "bytes": 1741,
+      "source_path_at_execution": "reports/release/coverage_current.json"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Application/ReleaseReadiness/FinalReadinessService.cs",
+      "sha256": "d468d0b314b4d7b9926d961dc954bdb5866c80e628a1647ce8cb7e2e0ec9914f",
+      "bytes": 17841,
+      "source_path_at_execution": "src/Mist.Application/ReleaseReadiness/FinalReadinessService.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Application/ReleaseReadiness/ReleaseEvidenceInspection.cs",
+      "sha256": "1928ec7924f7200369e49a8d4a04ea476ef1b9400152e067d90a3bf2be943a3a",
+      "bytes": 2720,
+      "source_path_at_execution": "src/Mist.Application/ReleaseReadiness/ReleaseEvidenceInspection.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Application/ReleaseReadiness/WorldPreparationProjection.cs",
+      "sha256": "e86229ce8053fb1573c08bb76d27f98da6ad3f3bd71da36f6f5dab11fa785196",
+      "bytes": 9401,
+      "source_path_at_execution": "src/Mist.Application/ReleaseReadiness/WorldPreparationProjection.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Core/ReleaseReadiness/EndingRules.cs",
+      "sha256": "e7e57632dc99af84b801e3a9ce41d8a091e4365146dbfd59e513a9ded949166d",
+      "bytes": 5285,
+      "source_path_at_execution": "src/Mist.Core/ReleaseReadiness/EndingRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Core/ReleaseReadiness/FinalActionModels.cs",
+      "sha256": "ce82b7ebac3891df267cab5441e6e3c109de6e56bc51429d8647c04ed451f11e",
+      "bytes": 897,
+      "source_path_at_execution": "src/Mist.Core/ReleaseReadiness/FinalActionModels.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Core/ReleaseReadiness/PackagePreflightRules.cs",
+      "sha256": "00e3e4ecac6ec3c34490d8c79927d11ee7364c27304b6872fb940d3bd73c6270",
+      "bytes": 3149,
+      "source_path_at_execution": "src/Mist.Core/ReleaseReadiness/PackagePreflightRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Core/ReleaseReadiness/PerformanceEvidenceRules.cs",
+      "sha256": "d35362e43d23fd80245a1e532cde7c9ae4503a5ffc09a9d74510a0264bc9027a",
+      "bytes": 2309,
+      "source_path_at_execution": "src/Mist.Core/ReleaseReadiness/PerformanceEvidenceRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/src/Mist.Core/ReleaseReadiness/ReleaseGateRules.cs",
+      "sha256": "17d6d176076efb7fd174bc6db5902d3f4850b1e65faec370c403119888e53c65",
+      "bytes": 3671,
+      "source_path_at_execution": "src/Mist.Core/ReleaseReadiness/ReleaseGateRules.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/tests/Mist.Tests/ReleaseReadiness/ReleaseReadinessCases.cs",
+      "sha256": "21df5be6a1c374824a41b5c349289294aa43e33216a9260161360c2718d9927c",
+      "bytes": 40619,
+      "source_path_at_execution": "tests/Mist.Tests/ReleaseReadiness/ReleaseReadinessCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-074/evidence/20261009T173138714576Z/sources/tools/ci/package_windows.py",
+      "sha256": "29556d3f025c4fc5a272874d48ec953e9fdc5284ac76ab0aae07680d5d380a9d",
+      "bytes": 9180,
+      "source_path_at_execution": "tools/ci/package_windows.py"
+    }
+  ],
+  "interface_schema_impact": {
+    "storage_schema": 2,
+    "release_scope": "internal candidate only; no publisher key or signature; no external upload"
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

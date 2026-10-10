@@ -1,0 +1,255 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Restricted candidate reply, not a world command",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "mode",
+    "status",
+    "items"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "mode": {
+      "enum": [
+        "explain",
+        "feedback",
+        "intent_candidate"
+      ]
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "unassessed",
+        "needs_clarification"
+      ]
+    },
+    "items": {
+      "type": "array",
+      "maxItems": 8
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "explain"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "items": {
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "text",
+                "citation"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "maxLength": 1800,
+                  "minLength": 1
+                },
+                "citation": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "asset_id",
+                    "version",
+                    "segment_id",
+                    "start",
+                    "end",
+                    "quote"
+                  ],
+                  "properties": {
+                    "start": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "end": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "quote": {
+                      "type": "string",
+                      "maxLength": 1800
+                    },
+                    "asset_id": {
+                      "type": "string"
+                    },
+                    "version": {
+                      "type": "string"
+                    },
+                    "segment_id": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "feedback"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "items": {
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "start",
+                "end",
+                "quote",
+                "category",
+                "certainty",
+                "explanation",
+                "suggestion"
+              ],
+              "properties": {
+                "start": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "end": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "quote": {
+                  "type": "string",
+                  "maxLength": 1800
+                },
+                "category": {
+                  "enum": [
+                    "meaning",
+                    "organization",
+                    "vocabulary",
+                    "grammar",
+                    "spelling",
+                    "style"
+                  ]
+                },
+                "certainty": {
+                  "enum": [
+                    "issue",
+                    "possible",
+                    "preference"
+                  ]
+                },
+                "explanation": {
+                  "type": "string",
+                  "maxLength": 1800
+                },
+                "suggestion": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "maxLength": 1800
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "mode": {
+            "const": "intent_candidate"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "items": {
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "route",
+                "main_generator",
+                "beacon_plan",
+                "unresolved"
+              ],
+              "properties": {
+                "route": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C",
+                    "unknown"
+                  ]
+                },
+                "main_generator": {
+                  "enum": [
+                    "off",
+                    "on",
+                    "unspecified"
+                  ]
+                },
+                "beacon_plan": {
+                  "enum": [
+                    "repair_then_test",
+                    "test_before_departure",
+                    "already_tested_claim",
+                    "unspecified"
+                  ]
+                },
+                "unresolved": {
+                  "type": "array",
+                  "maxItems": 8,
+                  "items": {
+                    "type": "string",
+                    "maxLength": 400
+                  }
+                }
+              }
+            },
+            "maxItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "candidate"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "items": {
+            "minItems": 1
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "items": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ]
+}

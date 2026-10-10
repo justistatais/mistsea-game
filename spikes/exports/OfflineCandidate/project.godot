@@ -1,0 +1,17 @@
+config_version=5
+[application]
+config/name="MistSea Offline Native Candidate"
+run/main_scene="res://Candidate.tscn"
+config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
+[display]
+window/size/viewport_width=1080
+window/size/viewport_height=760
+window/stretch/mode="canvas_items"
+[dotnet]
+project/assembly_name="OfflineCandidate"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.055, 0.078, 0.1, 1)
+[accessibility]
+general/accessibility_support=1

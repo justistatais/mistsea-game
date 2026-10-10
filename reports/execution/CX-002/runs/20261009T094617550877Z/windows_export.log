@@ -1,0 +1,47 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe", "--headless", "--path", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\GodotSmoke", "--export-release", "Windows Desktop", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-002\\runs\\20261009T094617550877Z\\export\\MistSeaToolchainSmoke.exe"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started 项目初始化 (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | 正在扫描文件结构……[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | 正在加载全局类名……[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | 正在校验 GDExtension……[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | 正在创建自动加载脚本……[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | 正在初始化插件……[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | 正在启动文件扫描……[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started 打包中 (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | 正在保存文件：res://packages.lock.json[39m[0m
+[  33% ] [90m[1msavepack[22m | 正在保存文件：res://Smoke.cs[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/exported/133200997/export-767c3cd1b3339443193596e916d76bb1-Smoke.scn[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://Smoke.tscn.remap[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/global_script_class_cache.cfg[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://.godot/uid_cache.bin[39m[0m
+[  66% ] [90m[1msavepack[22m | 正在保存文件：res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m
+
+[stderr]
+ERROR: Export .NET Project: This project contains C# files but no solution file was found at the following path: C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\spikes\toolchain\GodotSmoke\GodotSmoke.sln
+A solution file is required for projects with C# files. Please ensure that the solution file exists in the specified location and try again.
+   at: add_message (./editor/export/editor_export_platform.h:270)
+   C# backtrace (most recent call first):
+       [0] void Godot.EditorNativeCalls.godot_icall_3_490(nint, nint, int, string, string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharpEditor/Generated/EditorNativeCalls.cs:145)
+       [1] void Godot.EditorExportPlatform.AddMessage(Godot.EditorExportPlatform+ExportMessageType, string, string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharpEditor/Generated/GodotObjects/EditorExportPlatform.cs:295)
+       [2] void GodotTools.Export.ExportPlugin._ExportFile(string, string, System.String[]) (/root/godot/modules/mono/editor/GodotTools/GodotTools/Export/ExportPlugin.cs:134)
+       [3] bool Godot.EditorExportPlugin.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharpEditor/Generated/GodotObjects/EditorExportPlugin.cs:734)
+       [4] bool GodotTools.Export.ExportPlugin.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/editor/GodotTools/GodotTools/Godot.SourceGenerators/Godot.SourceGenerators.ScriptMethodsGenerator/GodotTools.Export.ExportPlugin_ScriptMethods.generated.cs:140)
+       [5] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)
+ERROR: System.InvalidOperationException: res://Smoke.cs is a C# file but no solution file exists.
+   at GodotTools.Export.ExportPlugin._ExportFile(String path, String type, String[] features) in /root/godot/modules/mono/editor/GodotTools/GodotTools/Export/ExportPlugin.cs:line 136
+   at Godot.EditorExportPlugin.InvokeGodotClassMethod(godot_string_name& method, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharpEditor/Generated/GodotObjects/EditorExportPlugin.cs:line 734
+   at GodotTools.Export.ExportPlugin.InvokeGodotClassMethod(godot_string_name& method, NativeVariantPtrArgs args, godot_variant& ret) in /root/godot/modules/mono/editor/GodotTools/GodotTools/Godot.SourceGenerators/Godot.SourceGenerators.ScriptMethodsGenerator/GodotTools.Export.ExportPlugin_ScriptMethods.generated.cs:line 140
+   at Godot.Bridge.CSharpInstanceBridge.Call(IntPtr godotObjectGCHandle, godot_string_name* method, godot_variant** args, Int32 argCount, godot_variant_call_error* refCallError, godot_variant* ret) in /root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:line 24
+   at: void Godot.NativeInterop.ExceptionUtils.LogException(System.Exception) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/NativeInterop/ExceptionUtils.cs:113)
+   C# backtrace (most recent call first):
+       [0] void Godot.GD.PushError(string) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GD.cs:366)
+       [1] void Godot.NativeInterop.ExceptionUtils.LogException(System.Exception) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/NativeInterop/ExceptionUtils.cs:113)
+       [2] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)
+WARNING: Project export for preset "Windows Desktop" completed with warnings.
+   at: _fs_changed (editor/editor_node.cpp:1422)

@@ -1,0 +1,791 @@
+{
+  "result": {
+    "build": "BUILD-HM",
+    "scenario": "BENCH-ELITE",
+    "difficulty": "standard",
+    "outcome": "victory",
+    "rounds": 7,
+    "party_hp": 766,
+    "party_max_hp": 1248,
+    "hp_damage": 1500,
+    "shield_absorbed": 312,
+    "breaks": 0,
+    "aid_used": 1,
+    "focus_spent": 25,
+    "device_damage": 100,
+    "downs": 0,
+    "actions": 27
+  },
+  "scope": {
+    "full_story_balanced": false,
+    "language_calibrated": false,
+    "reference_simulation": "selected_actives_core_passives_fixed_auxiliaries_no_paid_items",
+    "gear_hooks_not_executed": [
+      "WP-04",
+      "AR-05",
+      "all_relics",
+      "all_modules"
+    ],
+    "not_implemented_in_simulator": [
+      "positions_and_range",
+      "companion_milestone_variants",
+      "ordinary_damage_over_time_ticks",
+      "all_status_visuals",
+      "full_core_battle",
+      "world_commit_storage",
+      "real_engine_saving"
+    ]
+  },
+  "log": [
+    {
+      "round": 1,
+      "kind": "declare",
+      "intents": {
+        "elite": {
+          "name": "重击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M02",
+      "targets": [
+        "elite"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 1,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 25,
+      "added": 25
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M04",
+      "targets": [
+        "elite"
+      ],
+      "focus": 3
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 78,
+      "absorbed": 0,
+      "raw": 78,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "guard",
+      "target": "elite",
+      "hp": 83,
+      "absorbed": 0,
+      "raw": 83,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "support",
+      "target": "elite",
+      "hp": 81,
+      "absorbed": 0,
+      "raw": 81,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 50,
+      "absorbed": 0,
+      "raw": 50,
+      "device": true
+    },
+    {
+      "round": 1,
+      "kind": "damage",
+      "source": "elite",
+      "target": "hero",
+      "hp": 110,
+      "absorbed": 25,
+      "raw": 135,
+      "device": false
+    },
+    {
+      "round": 1,
+      "kind": "enemy_action",
+      "enemy": "elite",
+      "name": "重击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 2,
+      "kind": "declare",
+      "intents": {
+        "elite": {
+          "name": "散射",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H07",
+      "targets": [
+        "elite"
+      ],
+      "focus": 3
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 144,
+      "absorbed": 0,
+      "raw": 144,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2800
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 2,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 54
+    },
+    {
+      "round": 2,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "support",
+      "target": "elite",
+      "hp": 81,
+      "absorbed": 0,
+      "raw": 81,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "elite",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 50,
+      "raw": 50,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "elite",
+      "target": "guard",
+      "hp": 68,
+      "absorbed": 0,
+      "raw": 68,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "damage",
+      "source": "elite",
+      "target": "support",
+      "hp": 68,
+      "absorbed": 0,
+      "raw": 68,
+      "device": false
+    },
+    {
+      "round": 2,
+      "kind": "enemy_action",
+      "enemy": "elite",
+      "name": "散射",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 3,
+      "kind": "declare",
+      "intents": {
+        "elite": {
+          "name": "蓄力击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H01",
+      "targets": [
+        "elite"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 118,
+      "absorbed": 0,
+      "raw": 118,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2800
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "guard",
+      "target": "elite",
+      "hp": 92,
+      "absorbed": 0,
+      "raw": 92,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 3,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 79,
+      "added": 75
+    },
+    {
+      "round": 3,
+      "kind": "damage",
+      "source": "elite",
+      "target": "hero",
+      "hp": 65,
+      "absorbed": 79,
+      "raw": 144,
+      "device": false
+    },
+    {
+      "round": 3,
+      "kind": "enemy_action",
+      "enemy": "elite",
+      "name": "蓄力击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 4,
+      "kind": "declare",
+      "intents": {
+        "elite": {
+          "name": "重击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "M02",
+      "targets": [
+        "elite"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 4,
+      "kind": "shield",
+      "source": "hero",
+      "target": "hero",
+      "value": 25,
+      "added": 25
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 122,
+      "absorbed": 0,
+      "raw": 122,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "elite"
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 4,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 29
+    },
+    {
+      "round": 4,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "support",
+      "target": "elite",
+      "hp": 81,
+      "absorbed": 0,
+      "raw": 81,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 50,
+      "absorbed": 0,
+      "raw": 50,
+      "device": true
+    },
+    {
+      "round": 4,
+      "kind": "damage",
+      "source": "elite",
+      "target": "hero",
+      "hp": 67,
+      "absorbed": 54,
+      "raw": 121,
+      "device": false
+    },
+    {
+      "round": 4,
+      "kind": "enemy_action",
+      "enemy": "elite",
+      "name": "重击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 5,
+      "kind": "declare",
+      "intents": {
+        "elite": {
+          "name": "散射",
+          "target": "all",
+          "units": [
+            "hero",
+            "guard",
+            "support"
+          ],
+          "slots": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H01",
+      "targets": [
+        "elite"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 118,
+      "absorbed": 0,
+      "raw": 118,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2800
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "guard",
+      "target": "elite",
+      "hp": 92,
+      "absorbed": 0,
+      "raw": 92,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 5,
+      "kind": "shield",
+      "source": "support",
+      "target": "hero",
+      "value": 79,
+      "added": 79
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "elite",
+      "target": "hero",
+      "hp": 0,
+      "absorbed": 50,
+      "raw": 50,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "elite",
+      "target": "guard",
+      "hp": 68,
+      "absorbed": 0,
+      "raw": 68,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "damage",
+      "source": "elite",
+      "target": "support",
+      "hp": 68,
+      "absorbed": 0,
+      "raw": 68,
+      "device": false
+    },
+    {
+      "round": 5,
+      "kind": "enemy_action",
+      "enemy": "elite",
+      "name": "散射",
+      "targets": [
+        "hero",
+        "guard",
+        "support"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 6,
+      "kind": "declare",
+      "intents": {
+        "elite": {
+          "name": "蓄力击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 107,
+      "absorbed": 0,
+      "raw": 107,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "basic",
+      "actor": "hero",
+      "target": "elite"
+    },
+    {
+      "round": 6,
+      "kind": "defend",
+      "actor": "hero",
+      "guard": 2800
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-2",
+      "targets": [
+        "hero"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 6,
+      "kind": "shield",
+      "source": "guard",
+      "target": "hero",
+      "value": 54,
+      "added": 25
+    },
+    {
+      "round": 6,
+      "kind": "skill",
+      "actor": "support",
+      "skill": "AUX-SUPPORT-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 0
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "support",
+      "target": "elite",
+      "hp": 81,
+      "absorbed": 0,
+      "raw": 81,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "damage",
+      "source": "elite",
+      "target": "hero",
+      "hp": 90,
+      "absorbed": 54,
+      "raw": 144,
+      "device": false
+    },
+    {
+      "round": 6,
+      "kind": "enemy_action",
+      "enemy": "elite",
+      "name": "蓄力击",
+      "targets": [
+        "hero"
+      ],
+      "boss_weakened": false
+    },
+    {
+      "round": 7,
+      "kind": "declare",
+      "intents": {
+        "elite": {
+          "name": "重击",
+          "target": "unit",
+          "units": [
+            "hero"
+          ],
+          "slots": []
+        }
+      }
+    },
+    {
+      "round": 7,
+      "kind": "aid",
+      "actor": "hero",
+      "target": "hero",
+      "hp": 198
+    },
+    {
+      "round": 7,
+      "kind": "skill",
+      "actor": "hero",
+      "skill": "H01",
+      "targets": [
+        "elite"
+      ],
+      "focus": 2
+    },
+    {
+      "round": 7,
+      "kind": "damage",
+      "source": "hero",
+      "target": "elite",
+      "hp": 118,
+      "absorbed": 0,
+      "raw": 118,
+      "device": false
+    },
+    {
+      "round": 7,
+      "kind": "skill",
+      "actor": "guard",
+      "skill": "AUX-GUARD-1",
+      "targets": [
+        "elite"
+      ],
+      "focus": 1
+    },
+    {
+      "round": 7,
+      "kind": "damage",
+      "source": "guard",
+      "target": "elite",
+      "hp": 4,
+      "absorbed": 0,
+      "raw": 92,
+      "device": false
+    },
+    {
+      "round": 7,
+      "kind": "down",
+      "unit": "elite"
+    }
+  ]
+}

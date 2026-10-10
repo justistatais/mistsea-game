@@ -1,0 +1,123 @@
+{
+  "task_id": "CX-038",
+  "scope": "在Godot六场景中走停机和潜入，使用实际存储、自由草稿及辅助确认。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "不通过debug直接完成",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Isolated",
+            "result": "passed"
+          },
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Focused",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "可暂缺音轨但明确未验证听力",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Isolated",
+            "result": "passed"
+          },
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Focused",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "不假造band",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Isolated",
+            "result": "passed"
+          },
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Focused",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "从场景回草稿再离港仍一致",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Isolated",
+            "result": "passed"
+          },
+          {
+            "task": "CX-038",
+            "name": "Actual SQLite full noncombat route: Focused",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-038",
+        "name": "Actual SQLite full noncombat route: Isolated",
+        "result": "passed"
+      },
+      {
+        "task": "CX-038",
+        "name": "Actual SQLite full noncombat route: Focused",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-030",
+    "CX-032",
+    "CX-033",
+    "CX-034",
+    "CX-037"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

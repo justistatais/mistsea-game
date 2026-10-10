@@ -1,0 +1,16 @@
+{
+  "id": "AI-Q102-LOCAL-NOTE",
+  "version": "0.1",
+  "target_band": 6.5,
+  "calibration": "draft_target_65",
+  "source_asset": "Q102-R-NOTICE",
+  "source_version": "0.1",
+  "source_paragraph": "Q102-R-NOTICE-p02",
+  "support_kind": "language_sentence",
+  "original_authored_here": true,
+  "explanation_zh": "only if 引出必要条件：不满足这个条件，就不能做前面的事。这一句本身并不说明除此之外没有其他条件。读许可时还需要保留原文的对象与适用范围。",
+  "example_en": "A visitor may enter the storage room only if a staff member is present.",
+  "example_note_zh": "例句只说明必须有工作人员在场；它没有声明在场就是全部进入条件。此例不新增游戏世界权限。",
+  "not_included": "No route choice, no undiscovered workshop shortcut, no dialogue outcome.",
+  "review_status": "draft_not_human_reviewed"
+}

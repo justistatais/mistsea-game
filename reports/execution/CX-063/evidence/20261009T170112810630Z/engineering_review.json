@@ -1,0 +1,346 @@
+{
+  "task_id": "CX-063",
+  "scope": "十二里程碑作为有依赖的个人工作，复用地图、许可与已有物流回执。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "运输复用不重奖",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-063",
+            "name": "Twelve scoped milestones award exactly 350XP/275marks/2parts once; reload preserves four decorative souvenirs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Late local/communication resume uses the same accepted instance without recruitment or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Missing gate/previous result or a relay person's invitation cannot start private work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Invitation withdrawal before confirmation blocks reward; new permission resumes the same work instance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "A withdrawal between validation and SQLite commit invalidates the invitation read stamp",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Earlier unrelated work, wrong node, wrong instance and altered outcomes cannot serve as completion evidence",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Lina correspondence is accepted without meeting authority; correspondence authority cannot authorize meeting",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting requires both current personal consents; a withdrawn consent invalidates already prepared work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting consent from a relay, another node or another instance is refused; explicit defer is a valid result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Tess reuses Q603 delivery once without transport or parent rewards and rejects unrelated transport instances",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Unaccepted supplemental transport records no fabricated delivery and still permits the next local handover",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "联系与见面分别同意",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-063",
+            "name": "Twelve scoped milestones award exactly 350XP/275marks/2parts once; reload preserves four decorative souvenirs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Late local/communication resume uses the same accepted instance without recruitment or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Missing gate/previous result or a relay person's invitation cannot start private work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Invitation withdrawal before confirmation blocks reward; new permission resumes the same work instance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "A withdrawal between validation and SQLite commit invalidates the invitation read stamp",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Earlier unrelated work, wrong node, wrong instance and altered outcomes cannot serve as completion evidence",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Lina correspondence is accepted without meeting authority; correspondence authority cannot authorize meeting",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting requires both current personal consents; a withdrawn consent invalidates already prepared work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting consent from a relay, another node or another instance is refused; explicit defer is a valid result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Tess reuses Q603 delivery once without transport or parent rewards and rejects unrelated transport instances",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Unaccepted supplemental transport records no fabricated delivery and still permits the next local handover",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "过去责任不被礼物删除",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-063",
+            "name": "Twelve scoped milestones award exactly 350XP/275marks/2parts once; reload preserves four decorative souvenirs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Late local/communication resume uses the same accepted instance without recruitment or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Missing gate/previous result or a relay person's invitation cannot start private work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Invitation withdrawal before confirmation blocks reward; new permission resumes the same work instance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "A withdrawal between validation and SQLite commit invalidates the invitation read stamp",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Earlier unrelated work, wrong node, wrong instance and altered outcomes cannot serve as completion evidence",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Lina correspondence is accepted without meeting authority; correspondence authority cannot authorize meeting",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting requires both current personal consents; a withdrawn consent invalidates already prepared work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting consent from a relay, another node or another instance is refused; explicit defer is a valid result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Tess reuses Q603 delivery once without transport or parent rewards and rejects unrelated transport instances",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Unaccepted supplemental transport records no fabricated delivery and still permits the next local handover",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "不独占主线材料或结局资格",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-063",
+            "name": "Twelve scoped milestones award exactly 350XP/275marks/2parts once; reload preserves four decorative souvenirs",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Late local/communication resume uses the same accepted instance without recruitment or reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Missing gate/previous result or a relay person's invitation cannot start private work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Invitation withdrawal before confirmation blocks reward; new permission resumes the same work instance",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "A withdrawal between validation and SQLite commit invalidates the invitation read stamp",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Earlier unrelated work, wrong node, wrong instance and altered outcomes cannot serve as completion evidence",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Lina correspondence is accepted without meeting authority; correspondence authority cannot authorize meeting",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting requires both current personal consents; a withdrawn consent invalidates already prepared work",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Meeting consent from a relay, another node or another instance is refused; explicit defer is a valid result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Tess reuses Q603 delivery once without transport or parent rewards and rejects unrelated transport instances",
+            "result": "passed"
+          },
+          {
+            "task": "CX-063",
+            "name": "Unaccepted supplemental transport records no fabricated delivery and still permits the next local handover",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-063",
+        "name": "Twelve scoped milestones award exactly 350XP/275marks/2parts once; reload preserves four decorative souvenirs",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Late local/communication resume uses the same accepted instance without recruitment or reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Missing gate/previous result or a relay person's invitation cannot start private work",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Invitation withdrawal before confirmation blocks reward; new permission resumes the same work instance",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "A withdrawal between validation and SQLite commit invalidates the invitation read stamp",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Earlier unrelated work, wrong node, wrong instance and altered outcomes cannot serve as completion evidence",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Lina correspondence is accepted without meeting authority; correspondence authority cannot authorize meeting",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Meeting requires both current personal consents; a withdrawn consent invalidates already prepared work",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Meeting consent from a relay, another node or another instance is refused; explicit defer is a valid result",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Tess reuses Q603 delivery once without transport or parent rewards and rejects unrelated transport instances",
+        "result": "passed"
+      },
+      {
+        "task": "CX-063",
+        "name": "Unaccepted supplemental transport records no fabricated delivery and still permits the next local handover",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-056",
+    "CX-057",
+    "CX-055"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

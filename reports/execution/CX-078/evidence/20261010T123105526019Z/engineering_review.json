@@ -1,0 +1,93 @@
+{
+  "task_id": "CX-078",
+  "scope": "使用最终候选核对预算、主线32任务、可选个人线与世界分支；按真实路线测试。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "槽位不当成完成关卡",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-078",
+            "name": "Thirty-two registered tasks and offline fixture evidence do not constitute a played release route",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "不叠加Python测试数充覆盖",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-078",
+            "name": "Thirty-two registered tasks and offline fixture evidence do not constitute a played release route",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "缺项和阻断缺陷不可隐藏",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-078",
+            "name": "Thirty-two registered tasks and offline fixture evidence do not constitute a played release route",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    },
+    {
+      "criterion": "使用提示和离线也有完整路线",
+      "status": "pending",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-078",
+            "name": "Thirty-two registered tasks and offline fixture evidence do not constitute a played release route",
+            "result": "passed"
+          }
+        ],
+        "summary": "reports/release/ev/07acaa49361cb04c.json",
+        "scope_limit": "Engineering evidence does not sign missing production, human UX, rights or calibration."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-078",
+        "name": "Thirty-two registered tasks and offline fixture evidence do not constitute a played release route",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 578,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-077",
+    "G5"
+  ],
+  "not_run": [
+    "Human editorial and production acceptance of local producers and twelve optional encounter candidates",
+    "Complete 96-unit puzzle source/method/save register",
+    "Physical power/disk-full, IME, screen reader and different clean Windows machine",
+    "Human play, editorial/target-band calibration, audition, rights and publisher signature"
+  ]
+}

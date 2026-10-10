@@ -1,0 +1,82 @@
+{
+  "task_id": "CX-004",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/reports/execution/CX-004/20261009T102623148803Z/result.json",
+      "sha256": "deb1e4fbd269cfcd71021e4e56dbb6fff3d1999a62bc81244e8df143c8c50193",
+      "bytes": 3836,
+      "source_path_at_execution": "reports/execution/CX-004/20261009T102623148803Z/result.json"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/reports/execution/CX-004/20261009T102637309265Z/export_result.json",
+      "sha256": "75d58d67e411867ffb2eaa15b26146318a0464da9a3561bc578fed57c45aa8ff",
+      "bytes": 54823,
+      "source_path_at_execution": "reports/execution/CX-004/20261009T102637309265Z/export_result.json"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/Storage.tscn",
+      "sha256": "0f64ad8611b96503a04d2300d1b829d1aadae58a028260a04b4ae46a59cf062a",
+      "bytes": 155,
+      "source_path_at_execution": "spikes/storage/Storage.tscn"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageHarness.cs",
+      "sha256": "09719fb2e2ab8678503e5186735c900b8fcdbcec60a83c49b28a338d6a881b00",
+      "bytes": 6233,
+      "source_path_at_execution": "spikes/storage/StorageHarness.cs"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageHarness.cs.uid",
+      "sha256": "810e62ecfb3281800d332462433e0b62ce402822f6c31e6f51e577d6b5eba030",
+      "bytes": 20,
+      "source_path_at_execution": "spikes/storage/StorageHarness.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageNode.cs",
+      "sha256": "519c240abb248d7be52d10312009ff8d5b7c04a14a618b2971b31326c91c0f1b",
+      "bytes": 1235,
+      "source_path_at_execution": "spikes/storage/StorageNode.cs"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageNode.cs.uid",
+      "sha256": "875253f41d31c8e56272478a3bc5bf51a91dcc79ddb6458e99917a7429f7bd00",
+      "bytes": 19,
+      "source_path_at_execution": "spikes/storage/StorageNode.cs.uid"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageProbe.csproj",
+      "sha256": "fc02cf7a718219464676df557ba78b1696962b18c594a7b1ba9c4d5f608ff2c8",
+      "bytes": 331,
+      "source_path_at_execution": "spikes/storage/StorageProbe.csproj"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/StorageProbe.sln",
+      "sha256": "9bb57fb1e3bbeb3c6b4b77b57ab2790f439b90c53d13750766b0f9497a0a2f35",
+      "bytes": 1727,
+      "source_path_at_execution": "spikes/storage/StorageProbe.sln"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/export_presets.cfg",
+      "sha256": "f2499e639e9295f31ed2945c80129ed9fe6c3d2fc8957060eacaf847b79ff086",
+      "bytes": 483,
+      "source_path_at_execution": "spikes/storage/export_presets.cfg"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/packages.lock.json",
+      "sha256": "6320b2f345526f50b13cc53a6d3e5e46318cdf6afd1968ce3b24a963b975fc1a",
+      "bytes": 2698,
+      "source_path_at_execution": "spikes/storage/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-004/evidence/20261009T104558463628Z/sources/spikes/storage/project.godot",
+      "sha256": "f79b7baf462dbd938b74c753c39ccc7388b8059bd28ac70a38ecde78a8cde94d",
+      "bytes": 324,
+      "source_path_at_execution": "spikes/storage/project.godot"
+    }
+  ],
+  "interface_schema_impact": {
+    "data_migration_needed": false
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

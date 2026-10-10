@@ -1,0 +1,22 @@
+# These original files are all preserved in the complete private Release snapshot.
+/artifacts/
+**/.godot/
+**/bin/
+**/obj/
+**/__pycache__/
+*.pyc
+*.sqlite
+*.sqlite3
+*.db
+*.dll
+*.exe
+*.pck
+*.pdb
+*.sample
+*.so
+*.dylib
+
+# New local credentials are never part of the game backup.
+.env
+.env.local
+*.pem

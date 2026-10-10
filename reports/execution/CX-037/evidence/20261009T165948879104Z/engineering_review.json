@@ -1,0 +1,121 @@
+{
+  "task_id": "CX-037",
+  "scope": "按现行奖励和物品归属提交离港；动画通过outbox播放。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "任一点中断原态或新态",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-037",
+            "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-037",
+            "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "同工作只结算一次",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-037",
+            "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-037",
+            "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "支架电池随船",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-037",
+            "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-037",
+            "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "不提前移交微光号或关闭Q104",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-037",
+            "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+            "result": "passed"
+          },
+          {
+            "task": "CX-037",
+            "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-037",
+        "name": "Departure rollback is complete before commit and receipt resolves uncertain after-commit result",
+        "result": "passed"
+      },
+      {
+        "task": "CX-037",
+        "name": "SQLite draft CAS rejects a draft changed between read preview and transaction",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-036",
+    "CX-014",
+    "CX-042"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

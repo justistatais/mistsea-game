@@ -1,0 +1,23 @@
+{
+  "scope": "actual native Windows inspection of isolated normal command-route profile through Q204",
+  "observed": [
+    "R2 courtyard HUD with current safety and unknown present mentor state",
+    "visible navigation and archived-material controls",
+    "D-1 original read-only English record",
+    "Chinese assistance appended without rewriting English"
+  ],
+  "actual_actions": [
+    "click Archive",
+    "scroll own archive list",
+    "click second-chapter archive",
+    "click D-1 record",
+    "click Chinese assistance"
+  ],
+  "human_acceptance": null,
+  "not_run": [
+    "physical IME",
+    "screen-reader human trial",
+    "audio audition",
+    "different clean Windows machine"
+  ]
+}

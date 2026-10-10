@@ -1,0 +1,252 @@
+{
+  "scope": "actual local SAPI candidate rendering/reuse and exact WAVE byte/frame inspection",
+  "tracks": [
+    {
+      "material_id": "R2-Q201-L-SERVER",
+      "material_version": "r2-author-candidate-1",
+      "audio_path": "audio/regional/R2-Q201-L-SERVER-r2-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "7e1dda4eece9aa2359b008c7e57f2a95820e4fe6df3c07c78981000c59cd8eba",
+      "bytes": 1887834,
+      "text_sha256": "22ae57225ceae3bf3e9f3a8f5e77b86e08dc1c4aa813d301c81c50f9217856be",
+      "speech_sha256": "1906c5f196ee979c4263b5ae2b51c00a192cac80fc212dfdde08b48264d531b9",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 943894,
+        "duration_seconds": 42.806984126984126
+      }
+    },
+    {
+      "material_id": "R2-Q201-L-RECEIVER",
+      "material_version": "r2-author-candidate-1",
+      "audio_path": "audio/regional/R2-Q201-L-RECEIVER-r2-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "c585a2c4b829b0b4f64f2e33ffe3553e895a0f44ecccc538138a72f1595b2a70",
+      "bytes": 1989898,
+      "text_sha256": "9b9b389cd473b8d1c6a8cf9a9f23d8d2de2fc21f2d61a96f1d8dfbc96e11994c",
+      "speech_sha256": "d5c8ba06804d27443413621beec91637bd3d506a94c00aca14e77d1ee9126b56",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 994926,
+        "duration_seconds": 45.12136054421769
+      }
+    },
+    {
+      "material_id": "R2-Q202-L-CLERK",
+      "material_version": "r2-author-candidate-1",
+      "audio_path": "audio/regional/R2-Q202-L-CLERK-r2-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "9841820d9f104bc9be391ad66e755d0cc8171e977b43a6d3083274311c27ea10",
+      "bytes": 4338192,
+      "text_sha256": "92f2f03255cf6c1e7ff524dd9b57aa0955e5e36f84856202167f9baf0ae4cf2a",
+      "speech_sha256": "71cd1442b5004f9215c270840514c13e050abbd31665cad400b122901e3885ec",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 2169073,
+        "duration_seconds": 98.37065759637188
+      }
+    },
+    {
+      "material_id": "R2-Q203-L-OPERATOR",
+      "material_version": "r2-author-candidate-1",
+      "audio_path": "audio/regional/R2-Q203-L-OPERATOR-r2-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "185b4b1d9747c9871b6e8e113d4b2310159e09b1ff861297d75bb4f46bb28443",
+      "bytes": 4599418,
+      "text_sha256": "2864b18170ca3fdd6b5adfb4a729edfb34892f7f8db39bdec8db5f89a0130a0b",
+      "speech_sha256": "cba51761ba85009eeb9b70a8daa0c236d884fa8fe862060ff98e573720fc2a5d",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 2299686,
+        "duration_seconds": 104.29414965986395
+      }
+    },
+    {
+      "material_id": "R2-Q204-L-SCOPE",
+      "material_version": "r2-author-candidate-1",
+      "audio_path": "audio/regional/R2-Q204-L-SCOPE-r2-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "cb4b31c9e75d0e78df39b2db03335c70c4c4f4465512c1e6d69afab9dda0432d",
+      "bytes": 4815008,
+      "text_sha256": "d84553b7f99eb6a2be4c208932594c0d82a07736ba2900899b45169a1bbe1279",
+      "speech_sha256": "7de215895f2476338bc12eaa5677bf8cd1858dc452fe52ec55a3f8be485f8a65",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 2407481,
+        "duration_seconds": 109.18281179138322
+      }
+    },
+    {
+      "material_id": "R3-Q301-L-ROUTE",
+      "material_version": "r3-author-candidate-1",
+      "audio_path": "audio/regional/R3-Q301-L-ROUTE-r3-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "0eb4f524b0fe39c08966ee5b98a280dca4f4d3484e9f4d1ae5be4ddbf048e7ab",
+      "bytes": 2840872,
+      "text_sha256": "fde9a2dc1dd83003ef3f395fe60bc917744ee8c8beab10c70a11f702114fd205",
+      "speech_sha256": "43d7a2349542c17c7b8ec0a9dbbb6f4bc731c183f46d7d28ea3ae75ee9692d1f",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1420413,
+        "duration_seconds": 64.4178231292517
+      }
+    },
+    {
+      "material_id": "R3-Q301-L-WORKER",
+      "material_version": "r3-author-candidate-1",
+      "audio_path": "audio/regional/R3-Q301-L-WORKER-r3-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "fc7c3432fd4656a50e385269d1fdae0ed56c2fce055cbc19c1e46ef2379c4fd7",
+      "bytes": 2685436,
+      "text_sha256": "eb4cf97fdb8d08ae8739ed445fc3b5641ad62ab1a74d87d725955e183e1d525e",
+      "speech_sha256": "eb4cf97fdb8d08ae8739ed445fc3b5641ad62ab1a74d87d725955e183e1d525e",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1342695,
+        "duration_seconds": 60.893197278911565
+      }
+    },
+    {
+      "material_id": "R3-Q302-L-CHECK",
+      "material_version": "r3-author-candidate-1",
+      "audio_path": "audio/regional/R3-Q302-L-CHECK-r3-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "85b581c47cfb56a4ec8386d531cf2c28ddd43f78a94f2faafe5409190bc13ada",
+      "bytes": 12019614,
+      "text_sha256": "4c9f2f515e3f8241e621f51b1411d8e49f082f170e520fc18a005fd57d28815f",
+      "speech_sha256": "e81e66b3a622726d1c9e858fd91724ae9bf7b3b34594e6b5d8014954bd34f15b",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 6009784,
+        "duration_seconds": 272.55256235827665
+      }
+    },
+    {
+      "material_id": "R3-Q303-L-MEETING",
+      "material_version": "r3-author-candidate-1",
+      "audio_path": "audio/regional/R3-Q303-L-MEETING-r3-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "954edf60e2fece84909eb3996681b625e6776ba71971c614d68b2b0d1accce45",
+      "bytes": 12448576,
+      "text_sha256": "3e93eb1c068bf4773ba7d241b3ee6cd79eede33aba3a75f9903e3ff8672fc5f9",
+      "speech_sha256": "326247e77d173358eb1a0d1216f9f906fad8dd4083281aae0276a62315af57cb",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 6224265,
+        "duration_seconds": 282.2795918367347
+      }
+    },
+    {
+      "material_id": "R3-Q304-L-TRANSFER",
+      "material_version": "r3-author-candidate-1",
+      "audio_path": "audio/regional/R3-Q304-L-TRANSFER-r3-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "3370cab949bce451062ecfebffc7ac0b3cc1ce1147f26559931a2d1cbf245ea8",
+      "bytes": 2990526,
+      "text_sha256": "54ba56ae675a985470dbb947079a108a322b57452cb7b6bb2503bc7c6849db7a",
+      "speech_sha256": "32c3ad52662ffeb1d9948101d8ee86da74e062081601ff664bde7ae58ac6a713",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1495240,
+        "duration_seconds": 67.81133786848072
+      }
+    },
+    {
+      "material_id": "R3-CQOREN02-L-REPAIR",
+      "material_version": "r3-author-candidate-1",
+      "audio_path": "audio/regional/R3-CQOREN02-L-REPAIR-r3-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "6819b4c26f68a0e383e03042d399c048546f31cf156e3e6f509232bc90dce6cd",
+      "bytes": 2504872,
+      "text_sha256": "b2864b39ca04bbba42023ea847e94cc2b5c0303b2d9de2903dc6c6425624538d",
+      "speech_sha256": "c9192416cb858bc09fe1ab912a67c904c02704bb69b6cf486cb5aedb6fcdd999",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1252413,
+        "duration_seconds": 56.79877551020408
+      }
+    },
+    {
+      "material_id": "R4-Q401-L-SIAN",
+      "material_version": "r4-author-candidate-1",
+      "audio_path": "audio/regional/R4-Q401-L-SIAN-r4-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "756b9ccf0f303388241c58a0c67c6c081babf5198e48ca6f2de77785b6565c66",
+      "bytes": 2118620,
+      "text_sha256": "1f8c4d43bd2777edd402541a21c2a50a859f5b61113658d2299ab685845b8110",
+      "speech_sha256": "de3a349d8d49ddc32c7e3695cabdbf9586d7b81869b0b5ba6b47063b852c65d9",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1059287,
+        "duration_seconds": 48.04022675736962
+      }
+    },
+    {
+      "material_id": "R4-Q402-L-TECHNICIAN",
+      "material_version": "r4-author-candidate-1",
+      "audio_path": "audio/regional/R4-Q402-L-TECHNICIAN-r4-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "b60eb1f65c5ddfce6c1fb5dbad1d5301a6013e3a0aa71828d4881f59ec788d68",
+      "bytes": 2052720,
+      "text_sha256": "d94f1cc7567657f5df6fa18245c19235d32c42e775bb0e351eae1d0899b5ecaa",
+      "speech_sha256": "36506bf92e39f55cb81217c317d9f507ea401c739a74631fcab5326c4f4ead4c",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1026337,
+        "duration_seconds": 46.54589569160998
+      }
+    },
+    {
+      "material_id": "R4-Q403-L-OBSERVER",
+      "material_version": "r4-author-candidate-1",
+      "audio_path": "audio/regional/R4-Q403-L-OBSERVER-r4-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "ec0b71346ac848e1ce6e22e2a039eca17d51d1cc1371968541417025cb6b3e34",
+      "bytes": 2279358,
+      "text_sha256": "63aa698f5b58d0a664ebbbd7025ce443ea9ae3174d6b0e9f6e6917755f8a23db",
+      "speech_sha256": "b0fbb44195be49dd3b2988b3067d0750dbac5c727045601455a136caf78954f7",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1139656,
+        "duration_seconds": 51.68507936507937
+      }
+    },
+    {
+      "material_id": "R4-Q404-L-VOSS",
+      "material_version": "r4-author-candidate-1",
+      "audio_path": "audio/regional/R4-Q404-L-VOSS-r4-author-candidate-1-local-tts-1.wav",
+      "audio_sha256": "e9041b909caeee5ea280b8913211cc73624e3f193fde57903f1f88d426eef181",
+      "bytes": 2440688,
+      "text_sha256": "3c6e12328be64d34ea89e8c4be301ed87d45fece05af2c01de9e98764ab0047a",
+      "speech_sha256": "be75561ede07ca5cfa3fd2560b13c6619fd0429094cf3dd57238fb83a5e24fb4",
+      "measured": {
+        "sample_rate": 22050,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "frames": 1220321,
+        "duration_seconds": 55.3433560090703
+      }
+    }
+  ],
+  "count": 15,
+  "voice": "Microsoft Zira Desktop - English (United States)",
+  "human_audition": null,
+  "subtitle_timecodes": null,
+  "target_calibration": "pending",
+  "voice_redistribution_rights": "pending_HV-004",
+  "distinct_dialogue_voices": "pending"
+}

@@ -1,0 +1,43 @@
+{
+  "scope": "actual isolated native startup, system, 100/200 percent font selection and manual checkpoint; no complete native player route",
+  "owned_console_pid": 22544,
+  "native_window_id": 591852,
+  "window_closed_by_owned_AltF4": true,
+  "database_sha256_after_close": "d9fad741319064b1d7c91247b3b3321cd827d7a5c5c4f807b80738089e9af9b8",
+  "actor": {
+    "scene": "R0-S01",
+    "position": {
+      "x": 20,
+      "y": 84
+    },
+    "action_clock": 0
+  },
+  "balances": [
+    [
+      "marks",
+      100
+    ]
+  ],
+  "receipts": [
+    [
+      "starter:collection",
+      "initialize_starter_collection"
+    ],
+    [
+      "campaign:new:first-entry-candidate-1",
+      "normal_campaign_created"
+    ]
+  ],
+  "slots": [
+    [
+      "manual:0",
+      "manual"
+    ]
+  ],
+  "observed_defect": "200% body/headings enlarge but button captions remain at default size; repair pending at this observation",
+  "normal_new_game_verified": true,
+  "native_full_route": "not_run",
+  "human_ime": "not_run",
+  "screen_reader": "not_run",
+  "language_calibration": "not_run"
+}

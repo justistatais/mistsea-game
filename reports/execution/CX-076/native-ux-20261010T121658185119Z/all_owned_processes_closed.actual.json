@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-10T12:24:56.8762776Z",
+  "normal_close": "Alt_L+F4 on both actual observed owned windows",
+  "process_observations": [
+    {
+      "pid": 29036,
+      "actual_CIM_process_count": 0
+    },
+    {
+      "pid": 16600,
+      "actual_CIM_process_count": 0
+    }
+  ],
+  "lock_session": 44478,
+  "lock_session_exit_code": 0,
+  "lock_release_record": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-076\\native-ux-20261010T121658185119Z\\lock_attempts\\20261010T122203444491Z\\lock_released.json"
+}

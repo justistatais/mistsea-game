@@ -1,0 +1,50 @@
+{
+  "scope": "author_only_source_provenance_and_unrun_engineering_case_index",
+  "source_package": "content/source/chapter_two/learner_package.json",
+  "source_file_sha256": "470e4d4d8cb96e4395e438e96135c33d2ef52ca6c9fa2fd824cb2eb58c1d3905",
+  "contract_sha256": "6e666d58bb2010f91c084aae49bc81a4e796351572d75e1b54a5826d90d15cc7",
+  "sources": [
+    {
+      "id": "R2-O01-R-LETTER",
+      "version": "r2-author-candidate-1",
+      "source_root": "r2-unsent-reply-individual",
+      "paragraphs": 4,
+      "english_sha256": "296a172ea4ba096b95f1e99b59a0588c59da64ff224a875292a2d01ce807bae2",
+      "english_words": 218
+    },
+    {
+      "id": "R2-O02-R-SEEDS",
+      "version": "r2-author-candidate-1",
+      "source_root": "r2-winter-trial-grower-original",
+      "paragraphs": 4,
+      "english_sha256": "99b9b53efc8127b6fd2795810427b702042041b5a5da2a61e0c0f5fd47994f7e",
+      "english_words": 234
+    }
+  ],
+  "static_case_labels": [
+    "r2_optional_contract_preserves_original_complete_sources_and_ports_with_pending_human_gates",
+    "actual_zero_XP_R2_optional_entry_uses_same_GLIMMER_and_landing_without_mainline_or_local_awards",
+    "bare_R2_actor_cannot_fabricate_optional_entry_or_local_quest_instances",
+    "private_reply_requires_exact_current_person_scope_and_does_not_leak_unread_sources",
+    "withdrawal_preserves_saved_private_draft_blocks_new_work_and_keeps_safe_exit_open",
+    "meaning_confirmation_cannot_replace_writer_current_draft_review_or_promise_a_visit",
+    "old_writer_review_cannot_send_a_new_saved_draft_and_new_review_binds_exact_hash",
+    "withdrawal_before_ready_confirm_rejects_atomic_private_delivery_without_closing_quest",
+    "busy_local_writer_and_post_custodian_do_not_clone_roles_or_half_commit_a_letter",
+    "pause_and_continue_preserve_private_instance_and_require_new_foreground_current_review",
+    "private_reply_",
+    "six_bed_layout_rejects_duplicate_unknown_excess_and_unagreed_three_three_arrangements",
+    "five_inspections_and_saved_note_do_not_replace_six_spaces_grower_approval_or_planting",
+    "six_bed_",
+    "changed_layout_invalidates_approval_and_planted_beds_cannot_be_reset_or_counted_twice",
+    "revision_request_remains_pending_and_five_actual_beds_cannot_submit_a_six_bed_result",
+    "six_bed_ready_preview_is_read_only_and_rejects_current_draft_edit_or_old_load",
+    "declining_two_optional_stories_preserves_mainline_recruitment_ending_and_legal_vessel",
+    "completed_trial_survives_continue_without_replanting_or_renewing_instances"
+  ],
+  "build": "not_run_by_author_agent",
+  "human_language_review": "pending",
+  "human_full_play": "not_run",
+  "audio": "no_new_listening_asset",
+  "rights_review": "pending"
+}

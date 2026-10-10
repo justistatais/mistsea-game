@@ -1,0 +1,16 @@
+{"argv": ["D:\\Python312\\python.exe", "-B", "-X", "utf8", "tools/plan.py", "status"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+工程/内容/人工任务：136；实际接受：2；开放Gate：0/8
+现在可开始：CX-003, CX-004, CP-R0-01, CP-R1-01, CP-R2-01, CP-R3-01, CP-R4-01, CP-R5-01, CP-R6-01, CP-RF-01
+默认关闭特性（不等于通过）：CX-069, HV-008
+G0 CLOSED 候选工具链实际可用
+G1 CLOSED 数据与恢复基础可用
+G2 CLOSED Q102内部机制样章
+G3 CLOSED 首章内容与体验获得相应实证
+G4 CLOSED 共享系统可供后续地区复用
+G5 CLOSED 全部章节内部连续可通
+G6 CLOSED 发布质量证据齐备
+G7 CLOSED 本地正式交付得到批准
+此工具只检查计划/证据形式；不证明日志真实或取代真人验收。
+
+[stderr]

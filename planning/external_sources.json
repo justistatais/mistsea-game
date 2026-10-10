@@ -1,0 +1,31 @@
+[
+  {
+    "id": "S1",
+    "title": "Godot 4.7.2 stable archive",
+    "url": "https://godotengine.org/download/archive/4.7.2-stable/",
+    "checked_at": "2026-10-09",
+    "use": "所选.NET编辑器与模板版本存在；未证明本项目运行兼容"
+  },
+  {
+    "id": "S2",
+    "title": ".NET downloads",
+    "url": "https://dotnet.microsoft.com/en-us/download",
+    "checked_at": "2026-10-09",
+    "use": "SDK10.0.401版本存在；未证明本项目构建"
+  },
+  {
+    "id": "S3",
+    "title": "Microsoft.Data.Sqlite 10.0.12",
+    "url": "https://www.nuget.org/packages/Microsoft.Data.Sqlite/10.0.12",
+    "checked_at": "2026-10-09",
+    "use": "提供者版本和依赖列表；原生SQLite仍需实装记录"
+  },
+  {
+    "id": "S4",
+    "title": "OpenAI Codex AGENTS.md official entry",
+    "url": "https://developers.openai.com/codex/guides/agents-md",
+    "resolved_url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+    "checked_at": "2026-10-09",
+    "use": "项目级工作约定入口；本文的任务拆法是本项目方案，不是官方要求"
+  }
+]

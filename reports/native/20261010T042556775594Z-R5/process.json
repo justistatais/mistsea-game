@@ -1,0 +1,17 @@
+{
+  "pid": 16312,
+  "argv": [
+    "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+    "--path",
+    "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game"
+  ],
+  "evidence": "reports/native/20261010T042556775594Z-R5",
+  "source_verified_run": "reports/build/20261010T041340000083Z",
+  "source_entry": {
+    "source": "reports/build/20261010T041340000083Z/testdata/chapter-five-native-entry-f2b11028-4784-47c8-9734-96905ce7488b/recovery/normal-r5-native-entry.json",
+    "fixture": false,
+    "scope": "actual zero-XP command route through all prior main chapters and the selected native entry voyage; engineering input, not a human playthrough"
+  },
+  "scope": "isolated actual completed chapter profile for native window inspection; no human playthrough, language or audition approval",
+  "human_signoff": null
+}

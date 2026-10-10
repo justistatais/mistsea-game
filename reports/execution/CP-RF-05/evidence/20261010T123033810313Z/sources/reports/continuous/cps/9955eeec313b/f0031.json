@@ -1,0 +1,1861 @@
+{
+  "content_version": "rf-author-candidate-1",
+  "scope": "authoring_candidate_not_runtime",
+  "player_projection": true,
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "target_bands": {
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5
+  },
+  "scenes": [
+    {
+      "id": "RF-S01",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 44,
+          "top": 45,
+          "right": 56,
+          "bottom": 55
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "RF-S01.to-RF-S02",
+          "target_scene": "RF-S02",
+          "target_port": "RF-S02.to-RF-S01",
+          "stand": {
+            "x": 10,
+            "y": 35
+          },
+          "gate": "formal_recognised"
+        },
+        {
+          "id": "RF-S01.to-RF-S03",
+          "target_scene": "RF-S03",
+          "target_port": "RF-S03.to-RF-S01",
+          "stand": {
+            "x": 90,
+            "y": 35
+          },
+          "gate": "basic_maintenance"
+        }
+      ],
+      "spots": [
+        {
+          "id": "RF-S01.berth",
+          "stand": {
+            "x": 48,
+            "y": 90
+          },
+          "purpose_zh": "实际唯一巡灯船登陆"
+        },
+        {
+          "id": "RF-S01.scope",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose_zh": "核对范围"
+        },
+        {
+          "id": "RF-S01.routes",
+          "stand": {
+            "x": 34,
+            "y": 28
+          },
+          "purpose_zh": "双入口"
+        },
+        {
+          "id": "RF-S01.checkpoint",
+          "stand": {
+            "x": 62,
+            "y": 28
+          },
+          "purpose_zh": "实际检查点索引"
+        },
+        {
+          "id": "RF-S01.writer",
+          "stand": {
+            "x": 22,
+            "y": 40
+          },
+          "purpose_zh": "进入联络短稿"
+        }
+      ],
+      "geometry_status": "original_graybox_unreviewed",
+      "visual_and_collision_review": "human_pending"
+    },
+    {
+      "id": "RF-S02",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 44,
+          "top": 45,
+          "right": 56,
+          "bottom": 55
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "RF-S02.to-RF-S01",
+          "target_scene": "RF-S01",
+          "target_port": "RF-S01.to-RF-S02",
+          "stand": {
+            "x": 10,
+            "y": 35
+          },
+          "gate": "formal_recognised"
+        },
+        {
+          "id": "RF-S02.to-RF-S04",
+          "target_scene": "RF-S04",
+          "target_port": "RF-S04.to-RF-S02",
+          "stand": {
+            "x": 90,
+            "y": 35
+          },
+          "gate": "formal_released"
+        }
+      ],
+      "spots": [
+        {
+          "id": "RF-S02.duty",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose_zh": "临时授权交接"
+        },
+        {
+          "id": "RF-S02.terminal",
+          "stand": {
+            "x": 34,
+            "y": 28
+          },
+          "purpose_zh": "本地走廊阻拦"
+        },
+        {
+          "id": "RF-S02.call",
+          "stand": {
+            "x": 62,
+            "y": 28
+          },
+          "purpose_zh": "值守联络书面脚本"
+        }
+      ],
+      "geometry_status": "original_graybox_unreviewed",
+      "visual_and_collision_review": "human_pending"
+    },
+    {
+      "id": "RF-S03",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 44,
+          "top": 45,
+          "right": 56,
+          "bottom": 55
+        }
+      ],
+      "danger": [
+        {
+          "id": "ENC-RF-01.danger",
+          "area": {
+            "left": 70,
+            "top": 74,
+            "right": 94,
+            "bottom": 94
+          },
+          "active_until_receipt": "RF:ENC-RF-01:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "RF-S03.to-RF-S01",
+          "target_scene": "RF-S01",
+          "target_port": "RF-S01.to-RF-S03",
+          "stand": {
+            "x": 10,
+            "y": 35
+          },
+          "gate": "basic_maintenance"
+        },
+        {
+          "id": "RF-S03.to-RF-S04",
+          "target_scene": "RF-S04",
+          "target_port": "RF-S04.to-RF-S03",
+          "stand": {
+            "x": 90,
+            "y": 35
+          },
+          "gate": "shaft_safe"
+        }
+      ],
+      "spots": [
+        {
+          "id": "RF-S03.manual",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose_zh": "基础检修原文"
+        },
+        {
+          "id": "RF-S03.coil",
+          "stand": {
+            "x": 34,
+            "y": 28
+          },
+          "purpose_zh": "SH-M隔离"
+        },
+        {
+          "id": "RF-S03.tool",
+          "stand": {
+            "x": 62,
+            "y": 28
+          },
+          "purpose_zh": "固定普通手柄"
+        },
+        {
+          "id": "RF-S03.inspection",
+          "stand": {
+            "x": 22,
+            "y": 40
+          },
+          "purpose_zh": "实际指示与返程"
+        }
+      ],
+      "geometry_status": "original_graybox_unreviewed",
+      "visual_and_collision_review": "human_pending"
+    },
+    {
+      "id": "RF-S04",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 44,
+          "top": 45,
+          "right": 56,
+          "bottom": 55
+        }
+      ],
+      "danger": [
+        {
+          "id": "ENC-RF-02.danger",
+          "area": {
+            "left": 70,
+            "top": 74,
+            "right": 94,
+            "bottom": 94
+          },
+          "active_until_receipt": "RF:ENC-RF-02:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "RF-S04.to-RF-S02",
+          "target_scene": "RF-S02",
+          "target_port": "RF-S02.to-RF-S04",
+          "stand": {
+            "x": 10,
+            "y": 35
+          },
+          "gate": "formal_released"
+        },
+        {
+          "id": "RF-S04.to-RF-S03",
+          "target_scene": "RF-S03",
+          "target_port": "RF-S03.to-RF-S04",
+          "stand": {
+            "x": 90,
+            "y": 35
+          },
+          "gate": "shaft_safe"
+        },
+        {
+          "id": "RF-S04.to-RF-S05",
+          "target_scene": "RF-S05",
+          "target_port": "RF-S05.to-RF-S04",
+          "stand": {
+            "x": 10,
+            "y": 80
+          },
+          "gate": "command_released"
+        }
+      ],
+      "spots": [
+        {
+          "id": "RF-S04.command",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose_zh": "两转接原理"
+        },
+        {
+          "id": "RF-S04.rook",
+          "stand": {
+            "x": 34,
+            "y": 28
+          },
+          "purpose_zh": "鲁克实际指挥遭遇"
+        },
+        {
+          "id": "RF-S04.audit",
+          "stand": {
+            "x": 62,
+            "y": 28
+          },
+          "purpose_zh": "独立运行核查"
+        },
+        {
+          "id": "RF-S04.safe",
+          "stand": {
+            "x": 22,
+            "y": 40
+          },
+          "purpose_zh": "独立遭遇间整备"
+        },
+        {
+          "id": "RF-S04.writer",
+          "stand": {
+            "x": 62,
+            "y": 40
+          },
+          "purpose_zh": "接管结果短稿"
+        }
+      ],
+      "geometry_status": "original_graybox_unreviewed",
+      "visual_and_collision_review": "human_pending"
+    },
+    {
+      "id": "RF-S05",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 44,
+          "top": 45,
+          "right": 56,
+          "bottom": 55
+        }
+      ],
+      "danger": [
+        {
+          "id": "ENC-RF-03.danger",
+          "area": {
+            "left": 70,
+            "top": 74,
+            "right": 94,
+            "bottom": 94
+          },
+          "active_until_receipt": "RF:ENC-RF-03:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "RF-S05.to-RF-S04",
+          "target_scene": "RF-S04",
+          "target_port": "RF-S04.to-RF-S05",
+          "stand": {
+            "x": 10,
+            "y": 35
+          },
+          "gate": "command_released"
+        },
+        {
+          "id": "RF-S05.to-RF-S06",
+          "target_scene": "RF-S06",
+          "target_port": "RF-S06.to-RF-S05",
+          "stand": {
+            "x": 90,
+            "y": 35
+          },
+          "gate": "current_isolation"
+        }
+      ],
+      "spots": [
+        {
+          "id": "RF-S05.log",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose_zh": "自动续启原始日志"
+        },
+        {
+          "id": "RF-S05.isolator",
+          "stand": {
+            "x": 34,
+            "y": 28
+          },
+          "purpose_zh": "本层两选择器"
+        },
+        {
+          "id": "RF-S05.relay",
+          "stand": {
+            "x": 62,
+            "y": 28
+          },
+          "purpose_zh": "独立继电层遭遇"
+        },
+        {
+          "id": "RF-S05.check",
+          "stand": {
+            "x": 22,
+            "y": 40
+          },
+          "purpose_zh": "当前隔离版本检查"
+        }
+      ],
+      "geometry_status": "original_graybox_unreviewed",
+      "visual_and_collision_review": "human_pending"
+    },
+    {
+      "id": "RF-S06",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 44,
+          "top": 45,
+          "right": 56,
+          "bottom": 55
+        }
+      ],
+      "danger": [
+        {
+          "id": "ENC-RF-04.danger",
+          "area": {
+            "left": 70,
+            "top": 74,
+            "right": 94,
+            "bottom": 94
+          },
+          "active_until_receipt": "RF:ENC-RF-04:result"
+        }
+      ],
+      "ports": [
+        {
+          "id": "RF-S06.to-RF-S05",
+          "target_scene": "RF-S05",
+          "target_port": "RF-S05.to-RF-S06",
+          "stand": {
+            "x": 10,
+            "y": 35
+          },
+          "gate": "current_isolation"
+        },
+        {
+          "id": "RF-S06.to-RF-S07",
+          "target_scene": "RF-S07",
+          "target_port": "RF-S07.to-RF-S06",
+          "stand": {
+            "x": 90,
+            "y": 35
+          },
+          "gate": "central_stable"
+        }
+      ],
+      "spots": [
+        {
+          "id": "RF-S06.link",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose_zh": "强制联络资料"
+        },
+        {
+          "id": "RF-S06.renewal",
+          "stand": {
+            "x": 34,
+            "y": 28
+          },
+          "purpose_zh": "续启组件资料"
+        },
+        {
+          "id": "RF-S06.damping",
+          "stand": {
+            "x": 62,
+            "y": 28
+          },
+          "purpose_zh": "阻尼资料"
+        },
+        {
+          "id": "RF-S06.control",
+          "stand": {
+            "x": 22,
+            "y": 40
+          },
+          "purpose_zh": "同一尝试机组遭遇"
+        },
+        {
+          "id": "RF-S06.clock",
+          "stand": {
+            "x": 62,
+            "y": 40
+          },
+          "purpose_zh": "资源与暂停"
+        },
+        {
+          "id": "RF-S06.writer",
+          "stand": {
+            "x": 22,
+            "y": 60
+          },
+          "purpose_zh": "检修步骤微写作"
+        },
+        {
+          "id": "RF-S06.operator",
+          "stand": {
+            "x": 34,
+            "y": 70
+          },
+          "purpose_zh": "检修书面脚本"
+        }
+      ],
+      "geometry_status": "original_graybox_unreviewed",
+      "visual_and_collision_review": "human_pending"
+    },
+    {
+      "id": "RF-S07",
+      "walk": {
+        "left": 5,
+        "top": 20,
+        "right": 95,
+        "bottom": 95
+      },
+      "blocked": [
+        {
+          "left": 44,
+          "top": 45,
+          "right": 56,
+          "bottom": 55
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "RF-S07.to-RF-S06",
+          "target_scene": "RF-S06",
+          "target_port": "RF-S06.to-RF-S07",
+          "stand": {
+            "x": 10,
+            "y": 35
+          },
+          "gate": "central_stable"
+        }
+      ],
+      "spots": [
+        {
+          "id": "RF-S07.policies",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose_zh": "三方案与实际缺项"
+        },
+        {
+          "id": "RF-S07.control",
+          "stand": {
+            "x": 34,
+            "y": 28
+          },
+          "purpose_zh": "最终明确提交"
+        },
+        {
+          "id": "RF-S07.epilogue",
+          "stand": {
+            "x": 62,
+            "y": 28
+          },
+          "purpose_zh": "快照尾声"
+        },
+        {
+          "id": "RF-S07.dispatch",
+          "stand": {
+            "x": 22,
+            "y": 40
+          },
+          "purpose_zh": "值守核对脚本"
+        },
+        {
+          "id": "RF-S07.archive",
+          "stand": {
+            "x": 62,
+            "y": 40
+          },
+          "purpose_zh": "责任与学习记录"
+        }
+      ],
+      "geometry_status": "original_graybox_unreviewed",
+      "visual_and_collision_review": "human_pending"
+    }
+  ],
+  "materials": [
+    {
+      "id": "RF-QF01-R-SCOPE",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "登陆范围与准备封存",
+      "quest_ref": "Q-F01",
+      "kind": "mission_document",
+      "location": {
+        "scene": "RF-S01",
+        "spot": "RF-S01.scope"
+      },
+      "source_root": "rf-landing-receiving-desk",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-R-SCOPE-p01",
+          "en": "This landing receives the vessel and the preparation sealed before departure. Match the vessel instance, checkpoint reference and current assignment to the actual arrival receipt. The receiving work concerns entry to the seventh tower and a bounded intervention in its dangerous programme. It does not select a permanent policy. Keep the six districts' preparation records attached; a local officer cannot replace a district's operator or representative signature.",
+          "zh": "此登陆台接收船与出发前封存的准备。请按实际抵达回执核对船实例、检查点与当前任务。本次接收涉及进入第七塔及对危险程序的有限处置，没有选定永久政策。六地准备记录随附，本地值守不能替代某地区操作方或代表的签字。"
+        },
+        {
+          "id": "RF-QF01-R-SCOPE-p02",
+          "en": "The formal passage and maintenance shaft meet at the takeover floor. A recognised temporary authorisation can change how you reach it, but it cannot settle the machine's operating condition. If a formal handover is unavailable, inspect the basic maintenance path. Access must not depend on expressing support for a faction, an English grade, or having recruited a particular companion. External travel remains suspended during this intervention.",
+          "zh": "正式通道和检修竖井在接管层汇合。获认可的临时授权可改变进入方法，不能裁定机器状态。正式交接暂不可用时，请查基础检修路径。进入不能取决于阵营立场、英语分数或某位同伴是否招募。本次处置期间暂停外区旅行。"
+        }
+      ],
+      "english_word_count": 133,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF01-R-ROUTES",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "两个入口，同一接管层",
+      "quest_ref": "Q-F01",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S01",
+        "spot": "RF-S01.routes"
+      },
+      "source_root": "rf-landing-route-plate",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-R-ROUTES-p01",
+          "en": "Route F leads through the duty desk and formal corridor. The desk first checks the intervention's actual authorisation; the corridor stop must then be released at its own terminal. Route M uses the maintenance shaft, its installed handle and a checked return path. A coil sentry still controls the lower approach. Neither route leads straight to the dispatch console.",
+          "zh": "F路经值守台与正式走廊，值守先核实际处置授权，走廊阻拦再由本地终端解除。M路经检修竖井、固定手柄与已查返程，下段仍有线圈哨卫。两路均不能直达调度台。"
+        },
+        {
+          "id": "RF-QF01-R-ROUTES-p02",
+          "en": "The local devices are different objects. A corridor release is not the command relay at the takeover floor. A shaft isolation is not the central machine's restart bypass. Follow the labels and keep the completed result of each operation. Retracing a safe route does not collect another reward or refill the same battle attempt.",
+          "zh": "这些是不同实体。走廊放行不是接管层指挥转接，竖井隔离也不是机组续启旁路。请按标牌保存每个操作结果。回走安全路线不会再发奖励，也不会回满同一战斗尝试。"
+        }
+      ],
+      "english_word_count": 113,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF01-R-CHECKPOINT",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "出发前存档的用途",
+      "quest_ref": "Q-F01",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S01",
+        "spot": "RF-S01.checkpoint"
+      },
+      "source_root": "rf-checkpoint-index",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-R-CHECKPOINT-p01",
+          "en": "The protected pre-final checkpoint belongs to the actual sealed preparation and departure. Register its reference at the landing desk, without replacing it with an empty save made after arrival. Inside the tower, encounter retries restore their declared entry state and retain source-reading and draft history. They do not reopen regional shipping or rewrite an earlier ending snapshot.",
+          "zh": "受保护终局前检查点对应实际封存准备与出发。在登陆台登记索引，不能以抵达后空白保存替代。塔内重试按遭遇入口恢复，保留材料接触与草稿历史，没有重开地区航运，也没有改写较早结局快照。"
+        }
+      ],
+      "english_word_count": 57,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF01-L-DUTY",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "值守联络脚本：确认进入对象",
+      "quest_ref": "Q-F01",
+      "kind": "listening_script",
+      "location": {
+        "scene": "RF-S02",
+        "spot": "RF-S02.call"
+      },
+      "source_root": "rf-formal-duty-desk-exchange",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-L-DUTY-p01",
+          "en": "Duty officer: Before we release the corridor, please identify the vessel and the scope of this visit. I can receive the temporary intervention authorisation and its actual preparation references. I cannot sign for all six districts or choose what they should operate after the dangerous programme is stopped. The corridor release covers this passage only. It is not an instruction to disconnect the city's rescue communication.",
+          "zh": "值守：放开走廊前，请确认船和本次范围。我可接收临时处置授权及实际准备索引，不能代六地签字，也不能决定停止危险程序后的运行安排。走廊放行仅覆盖这条通道，不是断开城市救援通信的命令。"
+        },
+        {
+          "id": "RF-QF01-L-DUTY-p02",
+          "en": "Visitor: We will register the checkpoint and keep the source references. If the corridor cannot be accepted now, we will check the maintenance shaft rather than insist that a political preference opens the door. That route still requires its own physical checks. Reaching the takeover floor will establish our approach; it will not establish that Rook's command relay is released or that the central loop has stopped.",
+          "zh": "访客：我们登记检查点并保留来源索引。走廊暂不接受时，就核验检修竖井，而不要求政治偏好开门。另路仍需实体检查。到接管层只建立接近结果，没有证明鲁克转接已解除或中央循环已停。"
+        },
+        {
+          "id": "RF-QF01-L-DUTY-p03",
+          "en": "Duty officer: Use the installed terminal after the handover is recognised. If a displayed condition changes, stop and check that condition again. You can revise your short entry message before submitting it. A translator or a structured confirmation may help us identify the intended action; neither reports that your free English has been independently assessed. This is a written transcript until an actual recording is played through its separate audio entry.",
+          "zh": "值守：交接获认可后再使用固定终端。显示条件改变，就停下重查该条件。提交前可改短联络稿。译文或结构化确认可帮助明确动作，两者都没有声称自由英文已独立评估。这是书面脚本，听力需从另一个音轨入口实际播放。"
+        }
+      ],
+      "english_word_count": 204,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "estimated_duration_seconds_range": [
+        70,
+        87
+      ],
+      "duration_status": "word_count_estimate_not_measured_audio",
+      "listening_experience_status": "script_only"
+    },
+    {
+      "id": "RF-QF01-R-AUTHORITY",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "正式通道的临时授权范围",
+      "quest_ref": "Q-F01",
+      "kind": "mission_document",
+      "location": {
+        "scene": "RF-S01",
+        "spot": "RF-S01.scope"
+      },
+      "source_root": "rf-formal-authorisation-register",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-R-AUTHORITY-p01",
+          "en": "The desk recognises the sealed intervention after matching its actual departure and preparation. The receiving scope is entry, the release of the local command chain, and safe intervention in the central programme. Recognition must be recorded here. Possessing a copy of this description is not the same as an accepted handover. The desk may also record that formal entry is unavailable, leaving the maintenance path usable.",
+          "zh": "值守台匹配实际出发与准备后，认可封存处置。接收范围为进入、解除本地指挥链及安全处置中央程序，须在此实际登记。持有这份说明副本不等于交接已接受。台可明确记录正式入口不可用，同时保留检修路径。"
+        },
+        {
+          "id": "RF-QF01-R-AUTHORITY-p02",
+          "en": "The recognition grants no private historical fields and no permanent authority over district maintenance. An accepted corridor handover prevents an unnecessary entry alarm; it does not remove Rook's guards, complete relay isolation, or stop the machine. Those domains keep separate results.",
+          "zh": "认可不授私人历史字段，也不授地区维护永久权力。走廊交接可避免多余接近警报，没有移除鲁克护卫、完成继电隔离或停止机组。各领域分别保存结果。"
+        }
+      ],
+      "english_word_count": 107,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF01-R-CORRIDOR",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "走廊阻拦终端",
+      "quest_ref": "Q-F01",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S02",
+        "spot": "RF-S02.terminal"
+      },
+      "source_root": "rf-corridor-local-controller",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-R-CORRIDOR-p01",
+          "en": "Release COR-F only after this desk's recognised temporary handover is current. Check the local interlock and return passage before opening it. A release appears in the corridor status and permits passage to the takeover floor. It gives no instruction to the separate command relays or rescue network. If an interlock changes before confirmation, the earlier preview must be checked again.",
+          "zh": "仅在本站临时交接当前获认可后解除COR-F。开放前核本地联锁及返程。放行写入走廊状态，允许到接管层，对独立指挥转接或救援网络没有指令。确认前联锁变更，需重查旧预览。"
+        }
+      ],
+      "english_word_count": 60,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF01-R-SHAFT",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "检修竖井：基础操作与工具替代",
+      "quest_ref": "Q-F01",
+      "kind": "procedure",
+      "location": {
+        "scene": "RF-S03",
+        "spot": "RF-S03.manual"
+      },
+      "source_root": "rf-shaft-installed-maintenance-manual",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-R-SHAFT-p01",
+          "en": "The shaft's ordinary maintenance handle is installed at the marked stand. Inspect its coupling and the return landing, then secure the handle before approaching the lower coil sentry. A folding lever may provide a declared alternate grip; the ordinary handle and careful cooperation remain available. A route reel can mark a checked return anchor, but it does not reveal an unknown passage or make an unsafe floor safe.",
+          "zh": "竖井常规手柄固定在标记站位。先查连接与返程落台，再固定手柄，随后接近下段线圈哨卫。折叠撬柄可提供声明的替代握点，普通手柄和协作仍可用。路径绳盘可标已查返程锚点，不能发现未知通道或使危险地面安全。"
+        },
+        {
+          "id": "RF-QF01-R-SHAFT-p02",
+          "en": "Do not isolate every labelled circuit. Use SH-M, the shaft approach circuit, and check the local indicator after the sentry has been controlled. The action does not isolate the central machine's left and right branches. Keep the shaft result when moving back to the landing; it is a completed local operation rather than a universal tower permission.",
+          "zh": "不能隔离每个带标牌回路。使用SH-M竖井接近回路，制止哨卫后查本地指示器。这动作没有隔离机组左右支路。返回登陆时保留竖井结果，它是完成的本地操作，而非全塔通行权。"
+        }
+      ],
+      "english_word_count": 125,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF01-R-COIL",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "SH-M隔离与检查牌",
+      "quest_ref": "Q-F01",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S03",
+        "spot": "RF-S03.coil"
+      },
+      "source_root": "rf-shaft-coil-local-plate",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF01-R-COIL-p01",
+          "en": "SH-M serves the lower shaft approach. Control the coil sentry, isolate SH-M at this stand, inspect the indicator and verify the physical return path. All four results belong to the maintenance approach. Reading this plate or selecting a method does not produce the controlled-sentry result. Control does not award kill experience.",
+          "zh": "SH-M仅服务竖井下段接近区。先制止线圈哨卫，再在本站隔离SH-M、检查指示并核实体返程。四结果属于检修接近。读牌或选方法不会产生制止结果，制止不发击杀经验。"
+        }
+      ],
+      "english_word_count": 51,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF02-R-COMMAND",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "两处作战转接与救援联络",
+      "quest_ref": "Q-F02",
+      "kind": "mission_document",
+      "location": {
+        "scene": "RF-S04",
+        "spot": "RF-S04.command"
+      },
+      "source_root": "rf-takeover-command-schematic",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF02-R-COMMAND-p01",
+          "en": "CMD-L and CMD-R carry Rook's local combat orders at the takeover floor. Shut each named transfer point, then control Rook and the two guards. These points do not carry the city's rescue communication. The left point is reachable from the front-left ally station; the right point from front-right. Each operation costs one action point and occupies that actor's control allowance for the current personal turn.",
+          "zh": "CMD-L与CMD-R传递接管层鲁克本地作战命令。分别关闭标明转接点，再制止鲁克和两护卫。这两点不承载城市救援联络。左点由友方前左站位操作，右点由前右操作，各耗1AP并占本角色当前个人回合控制额度。"
+        },
+        {
+          "id": "RF-QF02-R-COMMAND-p02",
+          "en": "Until both points are confirmed closed, force can reduce resistance but cannot bypass the remaining command chain. The combined attack announces its participants and targets. Controlling a named guard removes only that guard's announced contribution. A stability break on Rook weakens his next attack and cancels the current interruptible combination; it does not remove a complete boss stage or trigger an unannounced substitute attack.",
+          "zh": "两点未共同确认关闭前，打击可降抵抗，不能跳过残余指挥链。合击公布参与者和目标，制止某护卫仅移除其已声明部分。鲁克失衡减弱下次攻击并取消当前可中断合击，没有删除整段首领阶段，也不触发未公布替补攻击。"
+        },
+        {
+          "id": "RF-QF02-R-COMMAND-p03",
+          "en": "The controlled result places Rook under custody and releases his command authority. It does not kill him or settle a different historical dispute. The running machine must still be examined independently. Use the safe preparation stand after the command encounter; the machine's internal stages later share one attempt and do not have this refill boundary.",
+          "zh": "制止结果把鲁克置于看管并解除指挥权，没有杀死他或裁定别的历史争议。仍运行机组需独立检查。指挥遭遇后可用安全整备站；后续机组内部各阶段共用一次尝试，没有这个回满边界。"
+        }
+      ],
+      "english_word_count": 184,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF02-L-ROOK",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "接管层现场通信脚本",
+      "quest_ref": "Q-F02",
+      "kind": "listening_script",
+      "location": {
+        "scene": "RF-S04",
+        "spot": "RF-S04.rook"
+      },
+      "source_root": "rf-rook-onsite-command-exchange",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF02-L-ROOK-p01",
+          "en": "Rook: This floor has two combat transfer points. They are local to my command chain. Do not pretend that taking them down is the same as operating the city network. My guards will act with me when the combined intention is declared. You can see which guard participates and who is targeted before choosing your response. There will be no replacement strike from a guard whose participation was already removed.",
+          "zh": "鲁克：本层有两个作战转接点，属于我的本地指挥链。别把关闭它们等同于操作城市网络。合击意图公布时，护卫会参与；你在选择回应前可看到谁参与、目标是谁。已经移除参与的护卫不会再补一次替代攻击。"
+        },
+        {
+          "id": "RF-QF02-L-ROOK-p02",
+          "en": "Receiving officer: Control and custody remain separate from the historical archive. The reviewed records from the old capital remain unchanged by this confrontation. We will record that Rook's command authority is released when the actual points and combat condition are met. We will not record that the central machinery has stopped merely because a person has been restrained. Its indicator is still visible from the audit stand.",
+          "zh": "接收值守：制止与看管和历史档案分开。旧都已审记录不会因这次对峙改变。实际转接和战斗条件成立后，登记鲁克指挥权解除；不会因一人受约束就登记中央机组停止。核验台仍能看到机组指示。"
+        },
+        {
+          "id": "RF-QF02-L-ROOK-p03",
+          "en": "Rook: A warning is not a cancellation instruction. The maintained loop has its own fixed clauses and physical inertia. You will need the restart log and the local control instructions. If you choose the formal corridor or the shaft, this condition is the same. Receiving officer: We will keep that attributed statement with the independent indicator record. Neither speaker supplies all missing facts simply by appearing in this exchange.",
+          "zh": "鲁克：警告不是取消指令，维护循环有固化条款及硬件惯性。你还需续启日志与本地操作说明。无论经正式走廊或竖井，这条件相同。接收值守：此说法注明发言者，与独立指示记录并存。两位说话者都不会仅因参与对话而提供全部缺失事实。"
+        }
+      ],
+      "english_word_count": 206,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "estimated_duration_seconds_range": [
+        71,
+        88
+      ],
+      "duration_status": "word_count_estimate_not_measured_audio",
+      "listening_experience_status": "script_only"
+    },
+    {
+      "id": "RF-QF02-R-AUDIT",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "独立状态：指挥解除后程序仍运行",
+      "quest_ref": "Q-F02",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S04",
+        "spot": "RF-S04.audit"
+      },
+      "source_root": "rf-takeover-independent-indicator",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF02-R-AUDIT-p01",
+          "en": "The local audit indicator distinguishes CMD-L / CMD-R from the maintained central loop. Closing both command points releases the combat chain. The loop's current status must still be read after the encounter. A custody receipt is evidence about a person's command authority; it is not a measurement of the machine. Preserve both records without changing earlier evidence.",
+          "zh": "本地核验指示区分CMD-L/R与中央维护循环。两转接关闭解除作战链，遭遇后仍需实际读循环当前状态。看管回执证明人物指挥权限，不是机器测量。两记录并存，不改较早证据。"
+        }
+      ],
+      "english_word_count": 56,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF03-R-RESTART",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "自动续启日志与本段隔离",
+      "quest_ref": "Q-F03",
+      "kind": "mission_document",
+      "location": {
+        "scene": "RF-S05",
+        "spot": "RF-S05.log"
+      },
+      "source_root": "rf-central-restart-instrument-log",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF03-R-RESTART-p01",
+          "en": "The maintained programme repeatedly reconnects after an ordinary stop request. Its behaviour comes from conflicting fixed safety clauses, raised thresholds and remaining hardware motion, rather than a new intention or personality. The log records the sequence, not a permission to destroy the installation. Keep the danger loop separate from the policy that the dispatch desk will later execute.",
+          "zh": "维护程序收到普通停止请求后反复重连。行为来自冲突的固化安全条款、提高的阈值及硬件运动惯性，并非新产生的意图或人格。日志记录顺序，没有许可破坏设施。危险循环与以后调度台执行的政策分开。"
+        },
+        {
+          "id": "RF-QF03-R-RESTART-p02",
+          "en": "At the relay isolation layer, control the field projector before isolating the two local feed selectors. Check this layer's current indicators after both selectors are placed. This establishes safe access to the machine hall. It does not perform the hall's separate branch verification, disable its two internal renewal components, or authorise controlled stop. Configuration changes invalidate the check for the changed object.",
+          "zh": "继电隔离层先制止护场投射器，再隔离两个本地供给选择器，两者放好后查本层当前指示。这建立到机组大厅安全通行，没有完成大厅独立支路核验、停用两续启组件或批准受控停止。改变对象配置，使该对象原检查失效。"
+        }
+      ],
+      "english_word_count": 120,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF03-R-ISOLATION",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "继电层供给选择器",
+      "quest_ref": "Q-F03",
+      "kind": "procedure",
+      "location": {
+        "scene": "RF-S05",
+        "spot": "RF-S05.isolator"
+      },
+      "source_root": "rf-relay-layer-isolation-plate",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF03-R-ISOLATION-p01",
+          "en": "Place ISO-L and ISO-R in their isolated positions, then inspect the current revision at the separate check stand. They control the corridor feed for this layer. Reconnecting either selector cancels the corridor isolation check until it is performed again. A preserved earlier check remains a historical record but cannot authorise entry under a changed configuration. The internal renewal relays are different components in the next hall.",
+          "zh": "将ISO-L/R置隔离位，再在独立检查站核当前版本。它们控制本层通道供给。任一重连会取消通道隔离有效检查，须重查；旧检查仍是历史记录，不能许可变配置后进入。内部续启继电器是下一厅另两组件。"
+        }
+      ],
+      "english_word_count": 66,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF03-R-LINK",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "第一段：隔离左右支路",
+      "quest_ref": "Q-F03",
+      "kind": "procedure",
+      "location": {
+        "scene": "RF-S06",
+        "spot": "RF-S06.link"
+      },
+      "source_root": "rf-machine-link-service-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF03-R-LINK-p01",
+          "en": "The forced-link stage shields the central progress meter until both branches are isolated and the current configuration is verified. The left branch stand is front-left; the right branch is front-right. Verification belongs to the rear-left station. Operations cost one action point each. You may isolate left or right first. Reconnecting a branch changes the revision and cancels the old verification.",
+          "zh": "强制联络段在两支路隔离且当前配置核验前锁护中央进度。左支路站为前左，右为前右，核验为后左。每项1AP，左右先后可换。重连支路改变版本，撤销旧核验。"
+        },
+        {
+          "id": "RF-QF03-R-LINK-p02",
+          "en": "After the verified link work, control can reduce resistance to seventy per cent of this encounter's actual starting capacity. Any excess in that action is discarded at this boundary. The phase changes only at the complete action's end. Existing damaging intentions are replaced by a visible non-damaging recalibration, and two finite renewal components are scheduled for the next round. They do not act immediately in this decision slot.",
+          "zh": "联络工作核验后，可将抵抗降到本次实际起始容量70%。此动作超出边界部分舍弃，仅完整动作末切段。旧伤害意图换为可见无伤害重校准，两有限续启组件排到下一轮，不在当前决策槽立刻行动。"
+        }
+      ],
+      "english_word_count": 128,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF03-R-RENEWAL",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "第二段：两组件、旁路锁与当前核验",
+      "quest_ref": "Q-F03",
+      "kind": "procedure",
+      "location": {
+        "scene": "RF-S06",
+        "spot": "RF-S06.renewal"
+      },
+      "source_root": "rf-machine-renewal-service-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF03-R-RENEWAL-p01",
+          "en": "The renewal phase has exactly two declared relay components. Each has its own resistance meter and next-round arrival. Control both actual components before latching the bypass from front-left. Then verify the current bypass revision from rear-left. A finite schedule is not a completed relay result, and a component that has not arrived cannot be reported stopped. No extra component replaces an already declared participant.",
+          "zh": "续启段恰有两台声明组件，各有抵抗计量并在下一轮加入。先制止两实体，再由前左扣旁路锁，后左核当前版本。有限排程不是组件完成结果，未到场组件不能报告停用。没有新组件替代已声明参与者。"
+        },
+        {
+          "id": "RF-QF03-R-RENEWAL-p02",
+          "en": "Before that work is complete, attacks may reduce central resistance only to thirty-five per cent of the actual starting capacity. The boundary is visible. If resistance is already at the boundary, completing the current verification changes the phase at that action's end; an empty extra attack is unnecessary. Releasing the bypass invalidates its old check. The ordinary stop request is still insufficient here.",
+          "zh": "工作齐备前，攻击只能降中央抵抗到实际起始容量35%，边界可见。若已到边界，补齐当前核验即在动作末切段，无需再空打一拳。放开旁路会使旧检查失效。此段普通停止请求仍不足。"
+        }
+      ],
+      "english_word_count": 127,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF03-R-DAMPING",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "第三段：核验后批准受控停止",
+      "quest_ref": "Q-F03",
+      "kind": "procedure",
+      "location": {
+        "scene": "RF-S06",
+        "spot": "RF-S06.damping"
+      },
+      "source_root": "rf-machine-damping-service-original",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF03-R-DAMPING-p01",
+          "en": "Set the damping arrangement from front-right and verify its current revision from rear-left. Front-left then approves controlled stop for that same verified arrangement. Approval does not change the configuration it approves. Changing damping afterwards does change the configuration and cancels both check and approval. The earlier check remains visible as history, rather than becoming a current authority.",
+          "zh": "由前右设置阻尼，后左核当前版本，前左随后批准同一已核配置的受控停止。批准不会改它批准的配置。之后改阻尼则改变配置，同时撤销检查和批准。旧检查作为历史可见，没有变成当前权限。"
+        },
+        {
+          "id": "RF-QF03-R-DAMPING-p02",
+          "en": "Until ready, the machine retains at least one unit of resistance. If one remains when controlled stop is approved, that operation can safely conclude the encounter; do not strike the facility merely to satisfy an empty attack requirement. A safe-stop receipt states that automatic restart is disabled and the dangerous programme is stable. It leaves the policy decision to the dispatch desk.",
+          "zh": "未就绪时机组至少留1抵抗。批准时若仅剩1，该操作即可安全收束，不要为满足空攻击要求打设施。安全停止回执说明自动续启禁用、危险程序稳定，政策方向留给调度台。"
+        }
+      ],
+      "english_word_count": 119,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF03-R-CLOCK",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "同一尝试的资源与暂停",
+      "quest_ref": "Q-F03",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S06",
+        "spot": "RF-S06.clock"
+      },
+      "source_root": "rf-machine-attempt-boundary-notice",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF03-R-CLOCK-p01",
+          "en": "All three internal phases share this attempt's life, focus, action points, carried supplies, aid allotment, cooldowns, relic uses and placed devices. A phase transition replenishes none of them. Reading, writing, translation, clarification and actual audio playback pause the plan slots, without providing recovery or executing a queued click on return. Withdrawing retries the whole declared encounter entry, not a free refill between phases.",
+          "zh": "三内部阶段共用本次生命、专注、AP、携带补给、配发、冷却、遗物次数和放置装置。切段没有补满。阅读、写作、翻译、澄清与实际播放音轨暂停计划槽，不提供恢复，也不在返回时补执行排队点击。撤退重试整个声明入口，没有内部阶段免费回满。"
+        }
+      ],
+      "english_word_count": 63,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF03-L-OPERATOR",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "机组检修说明脚本",
+      "quest_ref": "Q-F03",
+      "kind": "listening_script",
+      "location": {
+        "scene": "RF-S06",
+        "spot": "RF-S06.operator"
+      },
+      "source_root": "rf-machine-local-service-record",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF03-L-OPERATOR-p01",
+          "en": "Service record: A stop request by itself did not prevent reconnection. We marked the left and right forced-link branches, the finite renewal components and the damping check as separate objects. First isolate both forced-link branches and verify the current configuration. Either branch may be isolated first. Before verification, force against the main resistance meter has no effect. Do not interpret this as an instruction to attack a different, unlabelled facility.",
+          "zh": "检修记录：单独停止请求没有阻止重连。我们分别标明左右强制联络支路、有限续启组件与阻尼检查。先隔离两支路并核当前配置，左右先后可换。核验前对主抵抗计量施力无效，不能据此攻击另一未标设施。"
+        },
+        {
+          "id": "RF-QF03-L-OPERATOR-p02",
+          "en": "At the first boundary, the full action ends before the next stage begins. The old damaging intention becomes a visible recalibration with no damage. Two renewal components can arrive in the next round. When they are actually stopped, latch the bypass and verify it. If you have already reached the second boundary, that verification is enough to move on. Excess force is not stored for the next phase. These stages preserve the same party resources and temporary devices.",
+          "zh": "首边界在完整动作结束后进入下一段，旧伤害意图成为可见无伤害重校准。两续启组件下一轮可到场。实际停用后扣旁路锁并核验，若已达第二边界，这次核验便可推进。超量施力没有留给下一段。各段保留同一队伍资源与临时装置。"
+        },
+        {
+          "id": "RF-QF03-L-OPERATOR-p03",
+          "en": "Finally, set damping, verify the revision and approve controlled stop. Approval preserves the check because it approves that configuration; an actual subsequent change cancels it. The machine's resistance is not a measure of how much of the tower to demolish. After safe stop, the dispatch desk can present the prepared choices without battle pressure. The record does not choose among them. This script must be read as a transcript unless its actual candidate audio is separately played.",
+          "zh": "最后设置阻尼、核版本并批准受控停止。批准同一配置所以保留检查，后续实际改变才撤销。抵抗不衡量应拆掉多少塔。安全停止后，调度台可无战斗压力显示准备好的选择，记录没有替你选。这份脚本是书面稿，除非另行实际播放候选音轨。"
+        }
+      ],
+      "english_word_count": 225,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "estimated_duration_seconds_range": [
+        77,
+        96
+      ],
+      "duration_status": "word_count_estimate_not_measured_audio",
+      "listening_experience_status": "script_only"
+    },
+    {
+      "id": "RF-QF04-R-OPTIONS",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "最后的命令：三个可执行方向",
+      "quest_ref": "Q-F04",
+      "kind": "extended_reading",
+      "location": {
+        "scene": "RF-S07",
+        "spot": "RF-S07.policies"
+      },
+      "source_root": "rf-public-final-policy-explanation",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF04-R-OPTIONS-p01",
+          "en": "Stopping the dangerous programme gives room for a decision; it does not make the decision for you. The sealed preparation keeps six distinct towers and their actual duties, supplies and local preservation records. Central and island arrangements share those base requirements. The distributed arrangement also needs the verified technical package, six actual enhanced installations, transition supplies, a common protocol accepted by the relevant operators and district representatives, and current field trials. A report describing an item is not its completion receipt.",
+          "zh": "停止危险程序给决策空间，没有替你决策。封存准备保留六座独立塔及实际岗位、供给和本地保全。中央与孤网共需基础条件，分布还需验证技术包、六塔实际增强安装、过渡供给、实际操作方和地区代表接受的共同协议，以及当前现场试运行。描述某项的报告不是完成回执。"
+        },
+        {
+          "id": "RF-QF04-R-OPTIONS-p02",
+          "en": "Restricted central coordination retains cross-region balancing and much of the existing transport capacity. It can help a weaker district through a difficult period without requiring immediate full conversion. It must retain a checked limit, disable unlimited renewal and identify continuing supervision. Some services will still be rationed, and the old equipment requires maintenance. Concentrated authority remains a practical risk. A new person at the desk does not by itself prevent the next temporary exception from becoming permanent.",
+          "zh": "受限中央协调保留跨区调峰及较多现有运输能力，可使较弱地区渡过困难，不要求立刻全转换。须保受检上限、禁无限续启并明确持续监督。仍需轮流限供，旧设备也需维护，集权仍有现实风险。换一位值守，不能自行阻止下次临时例外变永久。"
+        },
+        {
+          "id": "RF-QF04-R-OPTIONS-p03",
+          "en": "An orderly island arrangement removes central forced dispatch and the main cross-region links according to the prepared sequence. It preserves local protection and duty rather than demolishing towers or switching off every supply. Local operators gain more direct control over the limits they accept. The cost is less cross-region balancing and some lost assistance. Certain protection areas may shrink, outer residents may need relocation and shipping may become more expensive. Independence for a wealthy district does not automatically provide resources to a poorer one.",
+          "zh": "有序孤网按准备顺序解除中央强制调度与主要跨区联络，保本地保护及值守，而非拆塔或关闭所有供给。地区操作方更直接决定可承受上限。代价为减少跨区调峰与部分互助，有的保护范围收缩，外缘住民需安置，航运成本上升。富裕地区独立不会自动给贫弱地区资源。"
+        },
+        {
+          "id": "RF-QF04-R-OPTIONS-p04",
+          "en": "A distributed arrangement keeps bounded assistance while placing local control, fault isolation and shared review under the accepted protocol. It uses the actual enhanced equipment and trained duties through the verified transition. The seventh tower becomes a constrained hub rather than an unlimited command source. This preparation is expensive and can temporarily reduce service during changeover. Maintenance, standards and disputes continue to require cooperation. A passed field trial supports its stated conditions, not a promise that every later failure has been removed.",
+          "zh": "分布安排在已接受协议下结合本地控制、故障隔离和共同复核，保留有限互助。转换使用实际增强设备与受训岗位，第七塔成为受约束枢纽，而非无限命令源。准备成本高，切换暂减部分服务，维护、标准及争议仍需合作。试运行支持声明条件，没有承诺今后永无失败。"
+        },
+        {
+          "id": "RF-QF04-R-OPTIONS-p05",
+          "en": "The option display must name each missing qualification now, using the sealed version and current physical safety. Choosing a preferred description does not install a device or make a different protocol current. If the distributed work is incomplete, central and island remain legitimate prepared decisions when the base and central safety conditions hold. Revisiting the protected pre-final adventure later may produce another result, but it cannot change the ending snapshot that has already been committed.",
+          "zh": "方案显示应按封存版本和当前实体安全列出每个缺项。选择偏好说明不会安装装置，也不会使另一协议成为当前。分布工作未齐时，只要基础及中央安全成立，中央与孤网仍是正当准备方向。后来回访终局前冒险可另产结果，不能改已提交结局快照。"
+        },
+        {
+          "id": "RF-QF04-R-OPTIONS-p06",
+          "en": "Historical responsibility remains attached to the reviewed actions. Retaining coordination does not erase Voss's responsibility, and a distributed preference does not excuse a missing supply or unsafe operation. Rook's custody is not a replacement for the old-capital review. Keep the provenance and access limits of earlier records. A private name or an uncompleted companion reconciliation cannot be added to the public account merely to make an ending scene more satisfying.",
+          "zh": "历史责任仍附已审行为。保协调不会抹去沃斯责任，偏好分布也不会使缺供给或危险操作免责。鲁克看管不替代旧都审查。保留较早记录来源与范围，不能只为尾声更圆满就向公共档案添私人身份或未完成同伴和解。"
+        },
+        {
+          "id": "RF-QF04-R-OPTIONS-p07",
+          "en": "Your short final instruction should identify the chosen prepared direction and acknowledge its operating boundary. You may write freely and then explicitly confirm the action that the system proposes. A structured fallback is available when language interpretation is uncertain or unavailable. It records a deliberate choice while leaving the writing assessment pending. Word count, subtitles, translation, hints, companions, combat difficulty and political vocabulary do not add or remove a technical qualification.",
+          "zh": "最后短指令须明确准备好的方向及运行边界。可自由写后逐项确认系统呈现的动作，语言解释不确定或不可用时有结构化后备。它记录明确选择，写作评价仍待审。字数、字幕、翻译、提示、同伴、战斗难度或政治用词都不会增减技术资格。"
+        },
+        {
+          "id": "RF-QF04-R-OPTIONS-p08",
+          "en": "The mist was present before the present overload. Reducing extraction and preventing dangerous forced renewal will not clear the sea at once or remove accumulated damage. Six months is a limited follow-up window, with different benefits, costs and continuing duties under each decision. The result can show whether people have kept records, supplied a shift and managed a fault. It cannot certify permanent recovery or a learner's English ability simply because the final command has been executed.",
+          "zh": "雾原在本轮超载前已存在。降抽取、防危险强制续启，不会立刻清雾或消除累积损伤。六个月是有限跟进窗，各方向所得、代价及持续岗位不同。结果可显示人们是否保记录、供班次、管故障，不能因最后命令执行便认证永久恢复或学习者英语能力。"
+        }
+      ],
+      "english_word_count": 617,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF04-R-COMMAND",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "调度台短指令与确认",
+      "quest_ref": "Q-F04",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S07",
+        "spot": "RF-S07.control"
+      },
+      "source_root": "rf-dispatch-final-instruction-notice",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF04-R-COMMAND-p01",
+          "en": "State the direction you intend to execute: restricted central coordination, orderly island operation, or the prepared distributed arrangement. Retain the checked operating boundaries and public responsibility record. Review the current qualification display and explicit action preview before confirming. Cancelling a preview returns to the same draft and world state. An unclear sentence may be clarified without reopening completed combat.",
+          "zh": "明确要执行方向：受限中央协调、有序孤网或已准备分布安排，保受检运行边界与公共责任记录。确认前读当前资格及明确动作预览。取消预览回到同一草稿和世界。句子不清楚可澄清，无需重打已完成战斗。"
+        }
+      ],
+      "english_word_count": 59,
+      "audio_asset": ""
+    },
+    {
+      "id": "RF-QF04-L-DISPATCH",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "最后提交前的值守核对脚本",
+      "quest_ref": "Q-F04",
+      "kind": "listening_script",
+      "location": {
+        "scene": "RF-S07",
+        "spot": "RF-S07.dispatch"
+      },
+      "source_root": "rf-dispatch-confirmation-desk-exchange",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF04-L-DISPATCH-p01",
+          "en": "Dispatch officer: The dangerous programme has a current safe-stop receipt, and this desk now has the actual decision-node permission. We will show the sealed preparation and every missing qualification before you choose. Restricted central and orderly island arrangements depend on base preservation and current safety. Distribution needs the additional actual work that has been visible since the glass city. A statement of support cannot complete that work.",
+          "zh": "调度值守：危险程序有当前安全停止回执，此台也已有实际决策节点许可。选择前显示封存准备及每项缺项。受限中央与有序孤网需基础保全和当前安全，分布需学城起已公开的额外实体工作，表态支持不能完成工作。"
+        },
+        {
+          "id": "RF-QF04-L-DISPATCH-p02",
+          "en": "Visitor: My short instruction identifies a direction, not a claim that the mist will disappear. I want to see the proposed action and its limits before committing it. If the system cannot reliably interpret my wording, I will confirm the structured action explicitly. That assistance should not be recorded as an assessed free-writing result. Dispatch officer: The preview is read-only. Closing it does not consume the sealed resources or issue another reward.",
+          "zh": "访客：短指令明确方向，没有声称雾会消失。提交前我要看拟执行动作及限制。系统不能可靠解释措辞时，我逐项确认结构化动作，该辅助不能登记为已评价自由写作。值守：预览只读，关闭不会消耗封存资源或发另一奖励。"
+        },
+        {
+          "id": "RF-QF04-L-DISPATCH-p03",
+          "en": "Dispatch officer: On confirmation, we commit the actual decision and an ending snapshot together. Later presentations read that snapshot rather than rewriting the six districts. A six-month card is a bounded account, not a guarantee. Earlier responsibility and the natural mist remain part of the result. You may skip the presentation without losing the committed ending, and you are not required to write another long essay to finish. Companion letters must match what actually happened in their own stories.",
+          "zh": "调度值守：确认把实际决定与结局快照一同提交，后续表现读快照，没有重写六地。六个月卡是有限记录，并非保证。较早责任与自然雾仍在结果中。可跳过表现而不丢已提交结局，不需另写长作文才算完成。同伴信件必须符合各自实际故事。"
+        }
+      ],
+      "english_word_count": 218,
+      "audio_asset": "",
+      "audio_status": "not_recorded",
+      "actual_duration_seconds": null,
+      "voice_performer": "human_pending",
+      "performance_and_voice_rights": "human_pending",
+      "planned_rate_wpm": [
+        140,
+        175
+      ],
+      "estimated_duration_seconds_range": [
+        75,
+        93
+      ],
+      "duration_status": "word_count_estimate_not_measured_audio",
+      "listening_experience_status": "script_only"
+    },
+    {
+      "id": "RF-QF05-R-AFTER",
+      "content_version": "rf-author-candidate-1",
+      "translation_version": "rf-author-candidate-1-zh",
+      "title_zh": "六个月后的阶段性记录",
+      "quest_ref": "Q-F05",
+      "kind": "short_notice",
+      "location": {
+        "scene": "RF-S07",
+        "spot": "RF-S07.epilogue"
+      },
+      "source_root": "rf-ending-presentation-method",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending",
+      "target_band": 6.5,
+      "calibration_status": "human_pending_not_a_score",
+      "rights_status": "original_text_candidate_human_pending",
+      "source_refs": [
+        "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+        "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+        "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+        "docs/baseline/Combat_System_v0.1.md:312-365",
+        "docs/baseline/English_Learning_System_v0.1.md:806-810",
+        "docs/baseline/Puzzle_System_v0.1.md:758-762",
+        "content/source/part04.json:Q-F01..Q-F05",
+        "content/source/part07.json:Q-F01..Q-F05",
+        "content/source/part08.json:ENC-RF-01..04/core",
+        "content/source/part09.json:Q-F reaction bindings"
+      ],
+      "paragraphs": [
+        {
+          "id": "RF-QF05-R-AFTER-p01",
+          "en": "The immediate action, six regional follow-up cards, compatible companion notes and public archive account read the committed ending snapshot. A companion who did not join, or whose private work was not completed, receives only a note compatible with the recorded facts. It does not invent a reunion or disclose a private identity. The archive keeps responsibility and current access limits under every direction.",
+          "zh": "即时动作、六地区跟进卡、兼容同伴近况和公共档案读已提交快照。未招募或私人工作未完成的同伴，仅显示符合记录事实的近况，不编团聚或公开私人身份。各方向均保留责任和当前访问范围。"
+        },
+        {
+          "id": "RF-QF05-R-AFTER-p02",
+          "en": "This is a six-month stage of continuing work. Natural mist remains. You may review your actual learning record or enter an optional later verification task when one is genuinely produced. Neither is a new compulsory puzzle, an extra ending reward, or proof that your English has reached a particular level. Continuing from a clearly labelled pre-final adventure belongs to another result branch.",
+          "zh": "这是持续工作中的六个月阶段，自然雾仍在。可看真实学习记录，或在后续验证实际制作后进入可选复核；两者均不是新强制谜题、额外结局奖励，也不证明英语达某等级。明确标记的终局前冒险继续属于另一个结果分支。"
+        }
+      ],
+      "english_word_count": 125,
+      "audio_asset": ""
+    }
+  ],
+  "stations": [
+    {
+      "id": "RF-ST-01",
+      "spot": "RF-S01.checkpoint",
+      "label_zh": "登记实际终局前检查点",
+      "action": "register_checkpoint"
+    },
+    {
+      "id": "RF-ST-02",
+      "spot": "RF-S01.scope",
+      "label_zh": "在通道边界接受临时交接／明确检修入口",
+      "action": "formal_handover"
+    },
+    {
+      "id": "RF-ST-03",
+      "spot": "RF-S02.terminal",
+      "label_zh": "查联锁并开放本地走廊",
+      "action": "release_corridor"
+    },
+    {
+      "id": "RF-ST-04",
+      "spot": "RF-S03.tool",
+      "label_zh": "检查并固定普通检修手柄",
+      "action": "secure_shaft_handle"
+    },
+    {
+      "id": "RF-ST-05",
+      "spot": "RF-S03.coil",
+      "label_zh": "隔离竖井SH-M",
+      "action": "isolate_shaft"
+    },
+    {
+      "id": "RF-ST-06",
+      "spot": "RF-S03.inspection",
+      "label_zh": "核指示与实际安全返程",
+      "action": "inspect_shaft"
+    },
+    {
+      "id": "RF-ST-07",
+      "spot": "RF-S04.rook",
+      "label_zh": "进入独立指挥遭遇",
+      "action": "begin_rook"
+    },
+    {
+      "id": "RF-ST-08",
+      "spot": "RF-S04.audit",
+      "label_zh": "核仍运行程序／看管交接",
+      "action": "audit_command_result"
+    },
+    {
+      "id": "RF-ST-09",
+      "spot": "RF-S04.safe",
+      "label_zh": "安全整备点",
+      "action": "safe_preparation"
+    },
+    {
+      "id": "RF-ST-10",
+      "spot": "RF-S05.relay",
+      "label_zh": "进入独立继电层遭遇",
+      "action": "begin_relay"
+    },
+    {
+      "id": "RF-ST-11",
+      "spot": "RF-S05.isolator",
+      "label_zh": "分别操作ISO-L/R",
+      "action": "configure_layer_isolation"
+    },
+    {
+      "id": "RF-ST-12",
+      "spot": "RF-S05.check",
+      "label_zh": "核当前继电隔离",
+      "action": "verify_layer_isolation"
+    },
+    {
+      "id": "RF-ST-13",
+      "spot": "RF-S06.control",
+      "label_zh": "进入同一尝试三阶段机组",
+      "action": "begin_core"
+    },
+    {
+      "id": "RF-ST-14",
+      "spot": "RF-S06.writer",
+      "label_zh": "交付实际稳定检修记录",
+      "action": "deliver_stability"
+    },
+    {
+      "id": "RF-ST-15",
+      "spot": "RF-S07.control",
+      "label_zh": "核当前决策权限与只读方案",
+      "action": "verify_final_control"
+    },
+    {
+      "id": "RF-ST-16",
+      "spot": "RF-S07.epilogue",
+      "label_zh": "按已提交快照呈现／跳过尾声",
+      "action": "present_epilogue"
+    }
+  ],
+  "writing_tasks": [
+    {
+      "id": "Q-F01:entry-message",
+      "quest_ref": "Q-F01",
+      "kind": "micro",
+      "workspace_spot": "RF-S01.writer",
+      "prompt_en": "State your intended approach and the limits of the entry handover. After physically reaching the takeover floor, confirm which route was actually used. A structured fallback is explicit; it is not a free-writing score.",
+      "prompt_zh": "写拟走入口及交接范围；实际抵达接管层后明确确认已走路线。结构化后备须明选，没有自由写作分数。",
+      "submission_spot": "RF-S04.writer"
+    },
+    {
+      "id": "Q-F02:takeover-summary",
+      "quest_ref": "Q-F02",
+      "kind": "short",
+      "workspace_spot": "RF-S04.writer",
+      "prompt_en": "Summarise the actual two-point release, Rook's custody and the independent running-loop check. Distinguish command control from machine stability.",
+      "prompt_zh": "概述实际两点解除、鲁克看管及独立运行检查，分清指挥制止和机组稳定。"
+    },
+    {
+      "id": "Q-F03:service-steps",
+      "quest_ref": "Q-F03",
+      "kind": "micro",
+      "workspace_spot": "RF-S06.writer",
+      "prompt_en": "Record the actual isolation and safe-stop sequence and the scope of its result. Preserve one attempt's phase continuity; do not select the final policy here.",
+      "prompt_zh": "记录实际隔离及安全停止顺序和结果范围，保留同一尝试阶段连续，此处不选最终政策。"
+    },
+    {
+      "id": "Q-F04:final-command",
+      "quest_ref": "Q-F04",
+      "kind": "short",
+      "workspace_spot": "RF-S07.control",
+      "prompt_en": "Name the prepared direction you intend to execute and confirm its operating boundary after reviewing the actual qualification preview. No exact word count or political password is required.",
+      "prompt_zh": "读实际资格预览后，明确要执行的已准备方向与运行边界，不设精确字数或政治口令。"
+    }
+  ],
+  "optional_reflection": {
+    "required": false,
+    "reward": 0,
+    "status": "later_unfamiliar_verification_not_produced"
+  },
+  "entry": {
+    "scene": "RF-S01",
+    "spot": "RF-S01.berth",
+    "stand": {
+      "x": 48,
+      "y": 90
+    },
+    "authority": "actual_network_finale_departure_with_frozen_preparation",
+    "seed_xp": null
+  },
+  "runtime_status": "not_integrated_not_playtested",
+  "author_answers": "production_cards.author_only.md",
+  "audio_binding_status": "separate_actual_binding_only_no_audio_assertion",
+  "source_refs": [
+    "docs/baseline/World_Story_Bible_v0.1.md:637-684,856-945",
+    "docs/baseline/Exploration_Level_Design_v0.1.md:569-599",
+    "docs/baseline/Quest_Event_System_v0.1.md:852-856",
+    "docs/baseline/Combat_System_v0.1.md:312-365",
+    "docs/baseline/English_Learning_System_v0.1.md:806-810",
+    "docs/baseline/Puzzle_System_v0.1.md:758-762",
+    "content/source/part04.json:Q-F01..Q-F05",
+    "content/source/part07.json:Q-F01..Q-F05",
+    "content/source/part08.json:ENC-RF-01..04/core",
+    "content/source/part09.json:Q-F reaction bindings"
+  ]
+}

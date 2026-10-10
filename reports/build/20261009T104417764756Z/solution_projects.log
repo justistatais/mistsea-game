@@ -1,0 +1,11 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "sln", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "add", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\src\\Mist.Core\\Mist.Core.csproj", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\Mist.Application.csproj", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Mist.Infrastructure.csproj", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\game\\MistSea.csproj", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tools\\Mist.ContentCli\\Mist.ContentCli.csproj", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\Mist.Tests.csproj", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\services\\Mist.Assist\\Mist.Assist.csproj"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+已将项目“src\Mist.Core\Mist.Core.csproj”添加到解决方案中。
+已将项目“src\Mist.Application\Mist.Application.csproj”添加到解决方案中。
+已将项目“src\Mist.Infrastructure\Mist.Infrastructure.csproj”添加到解决方案中。
+已将项目“game\MistSea.csproj”添加到解决方案中。
+已将项目“tools\Mist.ContentCli\Mist.ContentCli.csproj”添加到解决方案中。
+已将项目“tests\Mist.Tests\Mist.Tests.csproj”添加到解决方案中。
+已将项目“services\Mist.Assist\Mist.Assist.csproj”添加到解决方案中。
+
+[stderr]

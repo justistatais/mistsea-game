@@ -1,0 +1,20 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--case-index=563"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1", "exit_code": 0, "scope": "one exact compiled registry case with its own disposable profiles"}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CP-LINA-PERSONAL-03",
+      "name": "actual_zero_XP_Lina_three_producers_\u660E\u786E\u6682\u7F13\u8054\u7CFB\u5E76\u4FDD\u5B58\u8F6C\u4EA4\u65B9\u5F0F_once_original_rewards_current_permission_and_private_custody",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

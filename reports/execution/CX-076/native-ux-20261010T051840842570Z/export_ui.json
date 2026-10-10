@@ -1,0 +1,8 @@
+{
+  "export_path": "C:/Users/20594/AppData/Roaming/Godot/app_userdata/雾海档案：第七座灯塔/draft-exports/Q102-20261010052219810.txt",
+  "exact_visible_document": true,
+  "export_body": "Native recovery candidate: keep this entire draft after a real SQLite writer conflict. 中文 é 😀\nDo not award a world action for saving this note.\nBlocked revision must remain exportable until the writer lock is released.",
+  "sqlite_failure_visible": true,
+  "scope": "actual UI export while a real active-profile SQLite writer lock is held",
+  "human_signoff": null
+}

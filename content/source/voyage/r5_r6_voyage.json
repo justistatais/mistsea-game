@@ -1,0 +1,36 @@
+{
+  "version": "r5-r6-voyage-candidate-1",
+  "from": "R5",
+  "to": "R6",
+  "berth_spot": "R6-S01.berth",
+  "source_quest": "Q-504",
+  "source_action": "old_city_joint_handover_received",
+  "commission_purpose": "verify_current_network_risk_and_preparation",
+  "duty": "R6-LOCAL-BERTH-DUTY",
+  "authority_scope": "public_landing_only",
+  "review_status": "original_unreviewed_human_pending",
+  "sources": [
+    {
+      "path": "reference/part03/Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+      "section": "EXP-03 public travel; R6-S01 joint public berth; shared Glimmer section 9.9"
+    },
+    {
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+      "section": "Q504 actual rescue and separately verified responsibilities; Q601 current network risk and Q602/Q603 parallel preparation"
+    },
+    {
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+      "section": "functional public landing duty and bounded temporary joint emergency authority"
+    }
+  ],
+  "original_local_details": [
+    "R6-LOCAL-BERTH-DUTY is an original public landing function; it is not a recruited character, engineering work team or final policy vote.",
+    "The chart binds the same actual GLIMMER to Q504's typed OldCityHandover, real rescued_alive_directly_verified Mara state, separate design/policy/execution responsibility findings, current TWR-R5 configuration and its selected bounded custody/publication.",
+    "Issuance requires the actual R5 berth, three current registered cabins, physical HUB-S02 chart stand and paired safe R6-S01 public route. No weather, tide, distance or fictional sailing task is added.",
+    "Public landing does not produce six upgraded towers, technical verification, engineering supply, jointly signed protocol, checkpoint seal, final departure, combat result, policy decision or reward.",
+    "Rook's recorded refusal and move into the seventh tower remain unchanged; public landing is not detention, surrender or final resolution."
+  ]
+}

@@ -1,0 +1,110 @@
+Window: "雾海档案：第七座灯塔 (DEBUG)", App: Godot_v4.7.2-stable_mono_win64.exe.
+	0 区域 雾海档案：第七座灯塔 (DEBUG) Secondary Actions: Raise
+		1 标题栏 (settable, string) Value: 雾海档案：第七座灯塔 (DEBUG)
+			2 菜单栏 系统 ID: MenuBar
+				31 菜单项 系统
+			4 按钮 最小化
+			5 按钮 最大化
+			6 按钮 关闭
+		7 区域
+			8 文本 雾海档案
+			9 按钮 地图
+			10 按钮 任务
+			11 按钮 档案
+			12 按钮 队伍
+			13 按钮 学习
+			14 按钮 系统
+			15 文本 苔灯修院 · 修院庭院 / 内部灰盒候选
+			17 区域
+				18 文本 苔灯修院核查
+				19 文本 修院事实交接已完成，矿区批次方向已登记。可继续个人工作与回访。
+				20 文本 出口与操作站位
+				21 按钮 选择要走近的出口或物件
+				22 按钮 走近选定站位
+				23 按钮 交互 / E
+				24 文本 本地登陆：已登记 上层通路：当前复核有效 备用配置：当前测试有效 导师当前状态：未知
+				25 按钮 继续当前战斗
+				26 按钮 编辑当前工作正文
+				27 按钮 当前状态帮助
+				28 滚动条 Value: 0
+			29 文本 微光号移交与已有进度已恢复。走近当前工位后交互；WASD/方向键移动。
+		32 区域
+			35 按钮 Current navigation restrictions
+			36 按钮 Route B: pump and draught restriction
+			37 按钮 Ferry particulars and equipment record
+			38 按钮 Backup battery: use record
+			39 按钮 Revised dispatch recording
+			40 按钮 West workshop: local maintenance modes
+			41 按钮 Main generator inspection tag
+			42 按钮 Transfer M-12: authorisation and movement log
+			43 按钮 Receiving desk: arrival and copying record
+			44 按钮 序章与首章原始记录
+			45 按钮 第二章已得档案
+			46 按钮 撤离草稿
+			47 滚动条 Value: 110
+		48 区域
+			49 文本 第二章已得档案
+			50 按钮 返回
+			51 按钮 接驳台：到港另有记录
+			52 按钮 修院请求：饭食、住处与记录
+			53 按钮 厨房领取页
+			54 按钮 公共住区索引
+			55 按钮 阅览室访问条款
+			56 按钮 D−1看管交接摘录
+			57 按钮 地方住区组核查前后
+			58 按钮 温室供给与检修梯
+			59 按钮 旧图：两条本地支路
+			60 按钮 后加标牌：标明工作边界
+			61 按钮 机房试验记录页
+			62 按钮 工作与当前状态
+			63 滚动条 Value: 0
+		64 区域
+			65 文本 第二章材料 · D−1看管交接摘录
+			66 按钮 返回
+			67 文本 R2-S04 · r2-author-candidate-1 · 原创未人审
+			68 编辑 D−1看管交接摘录英文原文
+				69 滚动条 Value: 0
+			70 文本 取得原文与得出结论分别记录；当前来源不能扩展为未知人物现状。
+			71 按钮 查看中文辅助
+			72 按钮 编辑对应的同一份正文
+			73 文本 转移TR-D1-7，第1版。接收员看管交接原稿的受控摘录，日期为开场熄灯前一天D−1。摘录用阅览台核对过的受保护身份索引识别玛拉·维恩。接收员记下她在看管交接时仍然活着。目的地写作设施代码F-17，本摘录没有公开地点名称或现行地址。 接收端记录了交接时状态。后来附上的出发副本记录同一次转移的发送端；两张记录都没有D−1之后的观察。阅览台核对了记录编号、日期以及摘录与受限原稿关系。保管人可安排受控复核，无需分发身份附页。 这是有日期的现场观察。写作时应保留日期、来源和观察环节。摘录没有玛拉此后的获释记录、访谈或实时消息。设施代码为进一步调查提供方向，尚不能确认目前所在地点。 用于排序练习的地方转移M-12另有编号和接收台，记录另一件转移。即使共用练习工作表，也应把两套文件分开。档案提供查验副本，副本保留原始来源，不增加证人数量。
+			74 滚动条 Value: 0
+		30 文本
+
+Document text: ```
+code F-17. No public site name or current address is supplied on this extract.
+
+custodian can arrange a controlled recheck without distributing the identity attachment.
+
+direction for further investigation, not a verified present location.
+
+than adding new witnesses.arrival and copying. The archive has supplied copies for examination; these copies preserve their original sources rather 
+another transfer. Keep those files separate even when the same worksheet is used to practise distinguishing departure, 
+M-12, the separate local transfer used in the ordering exercise, has its own reference and receiving desk. It concerns 
+observation was made. The extract contains no later release, interview or live message from Mara. The facility code is a 
+This record provides a dated observation. When writing about it, retain the date, the source and the point at which the 
+checked the record identifier, the dated handover and the relationship between the extract and its restricted original. A 
+transfer from the sending end, but the two sheets do not establish any observation after D−1. The archive desk has 
+The arrival condition was entered at the receiving end of the handover. A departure copy attached later records the same 
+archive desk. The receiving officer recorded her as alive when custody was handed over. The destination is written as facility 
+D−1 relative to the opening blackout. It identifies Mara Venn by the protected identification reference checked at the 
+Transfer TR-D1-7, version 1. Controlled extract from the receiving officer's custody handover record. The record is dated
+```
+
+code F-17. No public site name or current address is supplied on this extract.
+
+custodian can arrange a controlled recheck without distributing the identity attachment.
+
+direction for further investigation, not a verified present location.
+
+than adding new witnesses.arrival and copying. The archive has supplied copies for examination; these copies preserve their original sources rather 
+another transfer. Keep those files separate even when the same worksheet is used to practise distinguishing departure, 
+M-12, the separate local transfer used in the ordering exercise, has its own reference and receiving desk. It concerns 
+observation was made. The extract contains no later release, interview or live message from Mara. The facility code is a 
+This record provides a dated observation. When writing about it, retain the date, the source and the point at which the 
+checked the record identifier, the dated handover and the relationship between the extract and its restricted original. A 
+transfer from the sending end, but the two sheets do not establish any observation after D−1. The archive desk has 
+The arrival condition was entered at the receiving end of the handover. A departure copy attached later records the same 
+archive desk. The receiving officer recorded her as alive when custody was handed over. The destination is written as facility 
+D−1 relative to the opening blackout. It identifies Mara Venn by the protected identification reference checked at the 
+Transfer TR-D1-7, version 1. Controlled extract from the receiving officer's custody handover record. The record is dated

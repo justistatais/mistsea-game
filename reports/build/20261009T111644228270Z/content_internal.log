@@ -1,0 +1,5 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tools\\Mist.ContentCli\\bin\\Debug\\net10.0\\Mist.ContentCli.dll", "compile", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\game\\content"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+{"status":"internal_candidate","release_id":"mistsea-internal-0.1","errors":[],"formal_blockers":["critical_audio_missing:Q102-L-REVISION@0.1","critical_audio_missing:LAB-L-001@0.1","human_editorial_and_listening_review_missing","empirical_6.5_calibration_missing","publisher_signature_and_rights_review_missing"]}
+
+[stderr]

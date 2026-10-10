@@ -1,0 +1,50 @@
+{
+  "task_id": "CX-006",
+  "scope": "建立Core、Application、Infrastructure、Godot客户端及可选网关空壳，规定单向依赖。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "Core无需Godot/SQL/HTTP可编译",
+      "status": "passed",
+      "evidence": "Core assembly dependency test and actual solution build"
+    },
+    {
+      "criterion": "AI接口没有世界写端口",
+      "status": "passed",
+      "evidence": "IAssistanceProvider/DisabledProvider capability test"
+    },
+    {
+      "criterion": "不将参考Python作为正式运行依赖",
+      "status": "passed",
+      "evidence": "Godot managed smoke boots C# composition; runtime projects contain no Python execution dependency"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-006",
+        "name": "Core assembly has no Godot, SQLite or HTTP dependency",
+        "result": "passed"
+      },
+      {
+        "task": "CX-006",
+        "name": "Assistance capability cannot execute world commands",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "G0"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

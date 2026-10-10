@@ -1,0 +1,1472 @@
+{
+  "task_id": "CX-075",
+  "scope": "在标明硬件和构建版本下测试长文、78场景按需加载、分支库增长和多稿切换。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "不把容器脚本耗时当游戏FPS",
+      "status": "passed",
+      "evidence": {
+        "actual_current_named_cases": [
+          {
+            "result": {
+              "task": "CX-075",
+              "name": "Performance distributions require full metadata and never turn scripts or offline fixture durations into native FPS",
+              "result": "passed"
+            },
+            "index": 285,
+            "report": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0285/test_results.json",
+              "sha256": "3c77433e090c2e07dcbd41f7700c03b91741218618ac8a2a32c366e0731808cd",
+              "bytes": 419
+            },
+            "actual_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0285/command.log",
+              "sha256": "c282ba23c99e814874104bc52e60b83bed736d7bee1b52041bf96fb6d22d057f",
+              "bytes": 886
+            }
+          }
+        ],
+        "actual_native_measurement": {
+          "actual_measurement": {
+            "path": "reports/execution/CX-075/20261010T120806751059Z/native_performance.json",
+            "sha256": "4639ef0b92d425f00f77b98f0945cddcf3a2832848fff10229c924062baf5770",
+            "bytes": 2439
+          },
+          "data": {
+            "scope": "native first scene and 9000-word editor with 20 acknowledged SQLite fixture draft revisions; candidate measurement",
+            "build": "0.1-internal",
+            "platform": "Windows",
+            "renderer": "Windows",
+            "processor_count": 20,
+            "runtime": "10.0.12",
+            "frames": 1302,
+            "mean_frame_interval_ms": 6.138421582181269,
+            "p95_frame_interval_ms": 6.6297,
+            "p99_frame_interval_ms": 8.6096,
+            "observed_frame_cadence_fps": 162.90832856818108,
+            "working_set_bytes": 363659264,
+            "managed_heap_bytes": 4674280,
+            "sqlite_bytes": 1855488,
+            "writes": [
+              {
+                "task": 0,
+                "revision": 1,
+                "enqueue_ms": 0.0309,
+                "total_ack_ms": 8.4531,
+                "body_chars": 69010
+              },
+              {
+                "task": 0,
+                "revision": 2,
+                "enqueue_ms": 0.1434,
+                "total_ack_ms": 13.4626,
+                "body_chars": 69010
+              },
+              {
+                "task": 1,
+                "revision": 1,
+                "enqueue_ms": 0.0219,
+                "total_ack_ms": 11.9774,
+                "body_chars": 69010
+              },
+              {
+                "task": 1,
+                "revision": 2,
+                "enqueue_ms": 0.029,
+                "total_ack_ms": 17.9576,
+                "body_chars": 69010
+              },
+              {
+                "task": 2,
+                "revision": 1,
+                "enqueue_ms": 0.0288,
+                "total_ack_ms": 17.9348,
+                "body_chars": 69010
+              },
+              {
+                "task": 2,
+                "revision": 2,
+                "enqueue_ms": 0.0265,
+                "total_ack_ms": 18.1104,
+                "body_chars": 69010
+              },
+              {
+                "task": 3,
+                "revision": 1,
+                "enqueue_ms": 0.1215,
+                "total_ack_ms": 17.5692,
+                "body_chars": 69010
+              },
+              {
+                "task": 3,
+                "revision": 2,
+                "enqueue_ms": 0.0351,
+                "total_ack_ms": 11.8953,
+                "body_chars": 69010
+              },
+              {
+                "task": 4,
+                "revision": 1,
+                "enqueue_ms": 0.0345,
+                "total_ack_ms": 18.0099,
+                "body_chars": 69010
+              },
+              {
+                "task": 4,
+                "revision": 2,
+                "enqueue_ms": 0.0391,
+                "total_ack_ms": 11.7832,
+                "body_chars": 69010
+              },
+              {
+                "task": 5,
+                "revision": 1,
+                "enqueue_ms": 0.0322,
+                "total_ack_ms": 11.8893,
+                "body_chars": 69010
+              },
+              {
+                "task": 5,
+                "revision": 2,
+                "enqueue_ms": 0.027,
+                "total_ack_ms": 11.9649,
+                "body_chars": 69010
+              },
+              {
+                "task": 6,
+                "revision": 1,
+                "enqueue_ms": 0.0235,
+                "total_ack_ms": 11.9922,
+                "body_chars": 69010
+              },
+              {
+                "task": 6,
+                "revision": 2,
+                "enqueue_ms": 0.2361,
+                "total_ack_ms": 17.8498,
+                "body_chars": 69010
+              },
+              {
+                "task": 7,
+                "revision": 1,
+                "enqueue_ms": 0.0242,
+                "total_ack_ms": 18.0077,
+                "body_chars": 69010
+              },
+              {
+                "task": 7,
+                "revision": 2,
+                "enqueue_ms": 0.0246,
+                "total_ack_ms": 12.0288,
+                "body_chars": 69010
+              },
+              {
+                "task": 8,
+                "revision": 1,
+                "enqueue_ms": 0.0257,
+                "total_ack_ms": 11.8848,
+                "body_chars": 69010
+              },
+              {
+                "task": 8,
+                "revision": 2,
+                "enqueue_ms": 0.0233,
+                "total_ack_ms": 12.0019,
+                "body_chars": 69010
+              },
+              {
+                "task": 9,
+                "revision": 1,
+                "enqueue_ms": 0.0277,
+                "total_ack_ms": 11.96,
+                "body_chars": 69010
+              },
+              {
+                "task": 9,
+                "revision": 2,
+                "enqueue_ms": 0.0242,
+                "total_ack_ms": 18.1696,
+                "body_chars": 69010
+              }
+            ],
+            "retained_fixture_heads": 10,
+            "experience": 0,
+            "not_run": [
+              "78 playable scenes on-demand loading",
+              "long native NPC lease session",
+              "final release build benchmark",
+              "physical power loss",
+              "human performance acceptance"
+            ],
+            "human_signoff": null
+          },
+          "actual_commands": {
+            "path": "reports/execution/CX-075/20261010T120806751059Z/commands.json",
+            "sha256": "db2a34750224df3257547f00ff4bf7081b51e31957fd9c78cce839bffbf0ad1b",
+            "bytes": 545
+          },
+          "actual_native_log": {
+            "path": "reports/execution/CX-075/20261010T120806751059Z/native_runtime.log",
+            "sha256": "6247c6b3447aee067e06931966542922aae4c8b4cfc0877024ab0ea02b12b92c",
+            "bytes": 628
+          },
+          "pre_native_capture": {
+            "path": "reports/continuous/performance_capture_20261010T120803002382Z.json",
+            "sha256": "3da35cd3846a883aa459a99dcd746ea1ea4c6aae5d4a6ca9b49f368dd6bf3cf0",
+            "bytes": 94633
+          },
+          "installed_toolchain": {
+            "path": "toolchain/installed.windows-x64.json",
+            "sha256": "f8d3df7708df67cbe301da24b3b2395b7565c4036a7486650a2f91ce52406b46",
+            "bytes": 2141
+          },
+          "hardware_details": {
+            "gpu": [
+              {
+                "Name": "Intel(R) UHD Graphics",
+                "DriverVersion": "32.0.101.5972"
+              },
+              {
+                "Name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+                "DriverVersion": "32.0.15.9282"
+              }
+            ],
+            "cpu": "13th Gen Intel(R) Core(TM) i5-13500HX",
+            "os": "Microsoft Windows 11 Home 10.0.26200 build 26200",
+            "memory_mib": 16077,
+            "storage": [
+              {
+                "Model": "MTFDKBA512TFH-1BC1AABHA",
+                "InterfaceType": "SCSI",
+                "Size": 512105932800
+              }
+            ]
+          },
+          "hardware_labels_missing": [],
+          "actual_draft_retention": {
+            "control": {
+              "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/control.sqlite",
+              "sha256": "3a9894f51216e09ae1f2b28286ecde21993903aa99da0871fb189d9202d5f2aa",
+              "bytes": 40960
+            },
+            "actual_current_database": {
+              "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/recovery/inventory-v2-bbc2d245-0c9d-4855-931c-7cf77d3fa8ee.sqlite",
+              "sha256": "bee239f9d3120c412c562318879a7b5ac5582a7bae3ef170e202625d2dd05649",
+              "bytes": 1638400
+            },
+            "current_branch": "e7083d31-8132-4dc0-b299-7b5e0d9f4538",
+            "experience": 0,
+            "drafts": [
+              {
+                "task": "performance-fixture:0",
+                "draft": "1e98ccc8-9fd1-4961-aa8a-9004a26c9afc",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:1",
+                "draft": "90bace26-050e-4b93-9fc7-9bae10109829",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:2",
+                "draft": "e80234ca-7422-4612-bdb8-6caa06767d10",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:3",
+                "draft": "3f49aef5-cb57-4746-b20b-bb1b0d674ff6",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:4",
+                "draft": "166685a6-b8da-4cc3-b684-fc64736b1d03",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:5",
+                "draft": "debeda1b-846a-4ff6-b38f-5168a37345c2",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:6",
+                "draft": "b4f6d5e7-f659-4811-b10e-fddee1c77bbd",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:7",
+                "draft": "a304666c-5d2c-4e31-aefa-faa2de277096",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:8",
+                "draft": "43952418-fe1b-4ee9-8a8f-8dbee0579b60",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              },
+              {
+                "task": "performance-fixture:9",
+                "draft": "03933457-57be-42e1-b089-9214a0e35a87",
+                "retained_revisions": 2,
+                "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+              }
+            ],
+            "scope": "Twenty real neutral benchmark draft revisions retained; these are explicit engineering drafts, not world task or participant writing results."
+          },
+          "scope": "Current Debug first scene/9000-word editor and 20 declared fixture draft revisions; real process frame cadence, no 78-scene, long NPC session, release-build or clean-machine claim."
+        }
+      },
+      "note": "Actual nonheadless Windows Godot frame intervals and local operation timings, never shell-script duration as FPS."
+    },
+    {
+      "criterion": "长会话不漏NPC占用",
+      "status": "pending",
+      "evidence": {
+        "actual_current_named_cases": []
+      },
+      "note": "This eight-second first-scene fixture probe does not exercise a long native NPC occupancy session."
+    },
+    {
+      "criterion": "主线程不卡持久写",
+      "status": "pending",
+      "evidence": {
+        "actual_current_named_cases": []
+      },
+      "note": "Real enqueue/ack/frame observations are retained. Twenty writes do not establish all-screen, long-session main-thread latency guarantees."
+    },
+    {
+      "criterion": "不为性能删除合法草稿",
+      "status": "passed",
+      "evidence": {
+        "actual_current_named_cases": [],
+        "actual_draft_retention": {
+          "control": {
+            "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/control.sqlite",
+            "sha256": "3a9894f51216e09ae1f2b28286ecde21993903aa99da0871fb189d9202d5f2aa",
+            "bytes": 40960
+          },
+          "actual_current_database": {
+            "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/recovery/inventory-v2-bbc2d245-0c9d-4855-931c-7cf77d3fa8ee.sqlite",
+            "sha256": "bee239f9d3120c412c562318879a7b5ac5582a7bae3ef170e202625d2dd05649",
+            "bytes": 1638400
+          },
+          "current_branch": "e7083d31-8132-4dc0-b299-7b5e0d9f4538",
+          "experience": 0,
+          "drafts": [
+            {
+              "task": "performance-fixture:0",
+              "draft": "1e98ccc8-9fd1-4961-aa8a-9004a26c9afc",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:1",
+              "draft": "90bace26-050e-4b93-9fc7-9bae10109829",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:2",
+              "draft": "e80234ca-7422-4612-bdb8-6caa06767d10",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:3",
+              "draft": "3f49aef5-cb57-4746-b20b-bb1b0d674ff6",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:4",
+              "draft": "166685a6-b8da-4cc3-b684-fc64736b1d03",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:5",
+              "draft": "debeda1b-846a-4ff6-b38f-5168a37345c2",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:6",
+              "draft": "b4f6d5e7-f659-4811-b10e-fddee1c77bbd",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:7",
+              "draft": "a304666c-5d2c-4e31-aefa-faa2de277096",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:8",
+              "draft": "43952418-fe1b-4ee9-8a8f-8dbee0579b60",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            },
+            {
+              "task": "performance-fixture:9",
+              "draft": "03933457-57be-42e1-b089-9214a0e35a87",
+              "retained_revisions": 2,
+              "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+            }
+          ],
+          "scope": "Twenty real neutral benchmark draft revisions retained; these are explicit engineering drafts, not world task or participant writing results."
+        }
+      },
+      "note": "Actual readonly current SQLite retains all ten declared neutral heads and both exact acknowledged revisions. Scope is this native benchmark, not all future sessions."
+    }
+  ],
+  "test_results": {
+    "scope": "Current runtime engineering candidates only, no whole-GDD or human acceptance",
+    "executed": 1,
+    "failed": 0,
+    "actual_current_cases": [
+      {
+        "result": {
+          "task": "CX-075",
+          "name": "Performance distributions require full metadata and never turn scripts or offline fixture durations into native FPS",
+          "result": "passed"
+        },
+        "index": 285,
+        "report": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0285/test_results.json",
+          "sha256": "3c77433e090c2e07dcbd41f7700c03b91741218618ac8a2a32c366e0731808cd",
+          "bytes": 419
+        },
+        "actual_command": {
+          "path": "reports/build/20261010T111545212936Z/case_runs/0285/command.log",
+          "sha256": "c282ba23c99e814874104bc52e60b83bed736d7bee1b52041bf96fb6d22d057f",
+          "bytes": 886
+        }
+      }
+    ],
+    "suite": {
+      "path": "reports/build/20261010T111545212936Z/test_results.json",
+      "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+      "bytes": 102628
+    },
+    "actual_native": [
+      {
+        "result": {
+          "path": "reports/build/20261010T114212706185Z/chapter_two_client_results.json",
+          "sha256": "02f3785c4ec8024a5da0a2bf212d134d3a3baa75a4d06453282b544f8fce1482",
+          "bytes": 3194
+        },
+        "checks": [
+          {
+            "name": "normal_voyage_source_without_positive_fixture",
+            "passed": true
+          },
+          {
+            "name": "arrival_does_not_grant_local_sources",
+            "passed": true
+          },
+          {
+            "name": "public_room_wrapper_R2-Q201-R-ROOMS_is_readonly",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-201_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-201_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-201_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-201_readonly",
+            "passed": true
+          },
+          {
+            "name": "closed_Q-201_preview_cancelled",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-201_once",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-202_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-202_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-202_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-202_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-202_once",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-01_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-01_actual_control",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-03_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R2-03_actual_control",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-203_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-203_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-203_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-203_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-203_once",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-204_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-204_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-204_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-204_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-204_once",
+            "passed": true
+          },
+          {
+            "name": "main_rewards_exact_once",
+            "passed": true
+          },
+          {
+            "name": "tower_safe_is_not_full_conversion",
+            "passed": true
+          },
+          {
+            "name": "three_independent_actual_dispositions",
+            "passed": true
+          },
+          {
+            "name": "no_fabricated_current_mara",
+            "passed": true
+          },
+          {
+            "name": "script_R2-Q204-L-SCOPE_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_actual_decode_and_no_autoplay",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_real_playback_position",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_pause_preserves_position",
+            "passed": true
+          },
+          {
+            "name": "five_audio_channels_and_content_route",
+            "passed": true
+          },
+          {
+            "name": "focus_loss_retains_actual_paused_audio",
+            "passed": true
+          },
+          {
+            "name": "explicit_resume_retains_actual_position",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_speed_changes_actual_player",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_original_transcript_unchanged",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_learning_does_not_reward_world",
+            "passed": true
+          },
+          {
+            "name": "regional_audio_close_releases_player",
+            "passed": true
+          },
+          {
+            "name": "audio_independent_volume_saved_without_world_reward",
+            "passed": true
+          },
+          {
+            "name": "audio_preferences_reload_actual_bus",
+            "passed": true
+          },
+          {
+            "name": "archive_contains_only_actual_learner_materials",
+            "passed": true
+          },
+          {
+            "name": "native_candidate_keeps_single_vessel",
+            "passed": true
+          }
+        ],
+        "route": {
+          "profile_source": {
+            "path": "reports/build/20261010T114212706185Z/client_profile_source.json",
+            "sha256": "982f780124de0485e18e793cd57abf6317a4f5e2f93f6477eb85fb79e02dd430",
+            "bytes": 4274
+          },
+          "actual_entry": {
+            "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/normal-r1-r2-voyage.json",
+            "sha256": "c76e10234cee4f5b413ce4c0c7c536fb39e40419d3d4f5e2d30493701885a38b",
+            "bytes": 138295
+          },
+          "positive_fixture_receipts": 0,
+          "full_suite_copy_proof": {
+            "source_mode": "final_full_suite_case_copy",
+            "selected_case": {
+              "index": 355,
+              "task": "CX-060",
+              "name": "Actual normal zero-XP rescue through Q104 walks to ship chart, registers real R2 route/berth, sails once and enters ChapterTwo without fixtures"
+            },
+            "suite": {
+              "path": "reports/build/20261010T111545212936Z/test_results.json",
+              "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+              "bytes": 102628
+            },
+            "registry": {
+              "path": "reports/build/20261010T111545212936Z/full_suite_inventory.json",
+              "sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+              "bytes": 98753
+            },
+            "exact_isolated_case": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0355/test_results.json",
+              "sha256": "f02268ce505ccd53615758cf66d141457de4217df0aecae16d9c9f3e6c15a313",
+              "bytes": 447
+            },
+            "actual_case_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0355/command.log",
+              "sha256": "1d26cb8c20de8b48d728d71fe2266404e584670cd5fe2cced4e970877c8fbbee",
+              "bytes": 914
+            },
+            "suite_current_inputs": {
+              "path": "reports/build/20261010T111545212936Z/run_inputs.json",
+              "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+              "bytes": 89502
+            },
+            "compiled_artifacts": {
+              "path": "reports/build/20261010T111545212936Z/compiled_artifacts.json",
+              "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+              "bytes": 3925
+            },
+            "active_world_database": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/inventory-v2-13fb27ce-984d-44e4-b094-9981d4ebf5d9.sqlite",
+              "sha256": "3b08206fabd9b122635e3e25d826ca997b6950dde55de9bd5961b5b595e684fa",
+              "bytes": 831488
+            },
+            "actual_receipt_history": {
+              "source": "validated control current_path active SQLite receipts table",
+              "active_branch": "3775ba0f-cd0a-49af-97d0-07a23482acbe",
+              "actual_receipt_count": 287,
+              "active_branch_receipt_count": 287,
+              "positive_fixture_receipts": 0,
+              "receipt_columns": [
+                "branch_id",
+                "semantic_key",
+                "receipt_id",
+                "action_type",
+                "effect_hash",
+                "result_json",
+                "commit_sequence"
+              ],
+              "ordered_receipts_sha256": "27cba857f77fb09c507a405ee18ffe15af9f144c1e4b0f337ba968acf35648ca",
+              "normal_campaign_creation": {
+                "branch_id": "3775ba0f-cd0a-49af-97d0-07a23482acbe",
+                "semantic_key": "campaign:new:first-entry-candidate-1",
+                "action_type": "normal_campaign_created",
+                "receipt_id": "363ba4c7-f2ec-4348-9974-c2cb66142bcb",
+                "commit_sequence": 2
+              },
+              "normal_creation_experience_awarded": 0,
+              "entry_json_receipt_count": 287,
+              "entry_json_role": "receipt history cross-checked against active SQLite"
+            },
+            "copied_files": [
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/control.sqlite",
+                "sha256": "7991f8799f8da6133954b742517772056910ba56c1ce6b1e9254303e20122ccd",
+                "bytes": 40960,
+                "copied_before_native_sha256": "7991f8799f8da6133954b742517772056910ba56c1ce6b1e9254303e20122ccd",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/profile.sqlite",
+                "sha256": "91babfa16c38388de501b0c977f694f3fb207ee20ed54128a36463f987d30980",
+                "bytes": 176128,
+                "copied_before_native_sha256": "91babfa16c38388de501b0c977f694f3fb207ee20ed54128a36463f987d30980",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/inventory-v2-13fb27ce-984d-44e4-b094-9981d4ebf5d9.sqlite",
+                "sha256": "3b08206fabd9b122635e3e25d826ca997b6950dde55de9bd5961b5b595e684fa",
+                "bytes": 831488,
+                "copied_before_native_sha256": "3b08206fabd9b122635e3e25d826ca997b6950dde55de9bd5961b5b595e684fa",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0355/testdata/voyage-normal-r2-f3466b8a-21a6-444b-a60a-21c67ce3f5e4/recovery/normal-r1-r2-voyage.json",
+                "sha256": "c76e10234cee4f5b413ce4c0c7c536fb39e40419d3d4f5e2d30493701885a38b",
+                "bytes": 138295,
+                "copied_before_native_sha256": "c76e10234cee4f5b413ce4c0c7c536fb39e40419d3d4f5e2d30493701885a38b",
+                "frozen_copy": null
+              }
+            ],
+            "scope": "Actual earlier producer commands executed once in the final suite; native uses their untouched entry copy. No fixture or second normal-route execution is inferred."
+          },
+          "actual_receipt_count": 287,
+          "receipt_history_source": "validated actual active SQLite, not entry JSON summary"
+        },
+        "compilation_reuse": {
+          "path": "reports/build/20261010T114212706185Z/reused_compilation.json",
+          "sha256": "6188d0473ca98e786be06fbe70e9b8dac4040a1d1778a1658561692b611d8c29",
+          "bytes": 3977
+        },
+        "runtime_input_capture": {
+          "path": "reports/build/20261010T114212706185Z/run_inputs.json",
+          "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+          "bytes": 89502
+        },
+        "actual_commands_manifest": {
+          "path": "reports/build/20261010T114212706185Z/commands.json",
+          "sha256": "e4e08dc05bf875e86c0522e9498449c97b5bf67cfb8c81a822bdfa51c3d0b43d",
+          "bytes": 1441
+        },
+        "compiled_artifacts": {
+          "path": "reports/build/20261010T114212706185Z/compiled_artifacts.json",
+          "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+          "bytes": 3925
+        },
+        "scope": "actual no-fixture Voyage normal-r2 copied SQLite profile; native station/material/editor/meaning/submission buttons and actual safe paths; battle choices supplied by engineering controller",
+        "human_native_play": "not_run",
+        "language_calibration": "human_pending"
+      },
+      {
+        "result": {
+          "path": "reports/build/20261010T114742501030Z/chapter_five_client_results.json",
+          "sha256": "09bf18ae6eefffd8a0c3a8bce9148f3ee00a291eb47329041d04a36d8275f278",
+          "bytes": 3701
+        },
+        "checks": [
+          {
+            "name": "actual_normal_entry_has_real_voyage_no_positive_fixture",
+            "passed": true
+          },
+          {
+            "name": "R5_entry_no_local_progress_or_current_mara",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q501-L-DIRECTIONS_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "local_unique_basic_tools_no_engineering_stock",
+            "passed": true
+          },
+          {
+            "name": "credential_route_actual_duty_hall_not_rescue",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-501_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-501_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-501_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-501_readonly",
+            "passed": true
+          },
+          {
+            "name": "closed_Q-501_preview_cancelled",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-501_once",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-03_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-03_actual_control",
+            "passed": true
+          },
+          {
+            "name": "guard_control_does_not_open_cell_or_award",
+            "passed": true
+          },
+          {
+            "name": "direct_mara_contact_alive_before_receiving",
+            "passed": true
+          },
+          {
+            "name": "inner_port_actual_escort_not_teleport",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q502-L-RECEPTION_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-502_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-502_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-502_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-502_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-502_once",
+            "passed": true
+          },
+          {
+            "name": "actual_mentor_alive_received",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q503-L-HEARING_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-503_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-503_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-503_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-503_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-503_once",
+            "passed": true
+          },
+          {
+            "name": "three_sources_responsibilities_preserved",
+            "passed": true
+          },
+          {
+            "name": "script_R5-Q504-L-COUNCIL_does_not_claim_audio",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-04_native_shared_controls",
+            "passed": true
+          },
+          {
+            "name": "encounter_ENC-R5-04_actual_control",
+            "passed": true
+          },
+          {
+            "name": "draft_Q-504_actual_ack",
+            "passed": true
+          },
+          {
+            "name": "writer_Q-504_200_percent",
+            "passed": true
+          },
+          {
+            "name": "meaning_Q-504_has_no_default_answer",
+            "passed": true
+          },
+          {
+            "name": "preview_Q-504_readonly",
+            "passed": true
+          },
+          {
+            "name": "submission_Q-504_once",
+            "passed": true
+          },
+          {
+            "name": "fixed_R5_main_rewards_once",
+            "passed": true
+          },
+          {
+            "name": "one_original_case_in_actual_joint_custody",
+            "passed": true
+          },
+          {
+            "name": "local_safe_does_not_grant_network_conversion",
+            "passed": true
+          },
+          {
+            "name": "bounded_Q504_R6_permission_not_arrival_or_final_policy",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_720_entries_and_distinct_senses",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_panel_blocks_world_without_mutating_draft",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_actual_permitted_context_is_shown",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_future_private_contexts_remain_absent",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_lookup_does_not_change_world_or_rewards",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_reader_close_restores_same_editor_focus",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_dictionary_200_percent_font",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_due_review_is_explicit_no_first_day_mastery",
+            "passed": true
+          },
+          {
+            "name": "lexicon_native_review_menu_is_world_read_only",
+            "passed": true
+          },
+          {
+            "name": "archive_displays_acquired_learner_source",
+            "passed": true
+          }
+        ],
+        "route": {
+          "profile_source": {
+            "path": "reports/build/20261010T114742501030Z/client_profile_source.json",
+            "sha256": "9c3e5e0c4fcf2733b4f15f3fdd87346318cea17a70458d793ea5fb2e2f653aa6",
+            "bytes": 4733
+          },
+          "actual_entry": {
+            "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/normal-r5-native-entry.json",
+            "sha256": "bd7d8b45bda3306b3887b141be81341b458e7a05345b5a517a0c998477ae4261",
+            "bytes": 666775
+          },
+          "positive_fixture_receipts": 0,
+          "full_suite_copy_proof": {
+            "source_mode": "final_full_suite_case_copy",
+            "selected_case": {
+              "index": 407,
+              "task": "CP-R5-05",
+              "name": "Actual zero-XP R4R5 arrival produces a native entry with local work untouched"
+            },
+            "suite": {
+              "path": "reports/build/20261010T111545212936Z/test_results.json",
+              "sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+              "bytes": 102628
+            },
+            "registry": {
+              "path": "reports/build/20261010T111545212936Z/full_suite_inventory.json",
+              "sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+              "bytes": 98753
+            },
+            "exact_isolated_case": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0407/test_results.json",
+              "sha256": "ce4cc3447c59c325160f0e7ccbd88cc109a18dcf84ab70c8a1b1b3e609cb478a",
+              "bytes": 383
+            },
+            "actual_case_command": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0407/command.log",
+              "sha256": "870604a81ef624648c89d6e06691c984db68b129f4a017dbb222f7fd5e2e0c2d",
+              "bytes": 850
+            },
+            "suite_current_inputs": {
+              "path": "reports/build/20261010T111545212936Z/run_inputs.json",
+              "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+              "bytes": 89502
+            },
+            "compiled_artifacts": {
+              "path": "reports/build/20261010T111545212936Z/compiled_artifacts.json",
+              "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+              "bytes": 3925
+            },
+            "active_world_database": {
+              "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/inventory-v2-1388a0f9-3917-43c7-a91d-b3b46e4be647.sqlite",
+              "sha256": "bb7bf147d243ddfd2bcfff2e42c423ed5bab1f54f38a7af7ca487913679a6485",
+              "bytes": 4161536
+            },
+            "actual_receipt_history": {
+              "source": "validated control current_path active SQLite receipts table",
+              "active_branch": "4bd29fd2-65dd-418e-85c2-84b2020b09e7",
+              "actual_receipt_count": 1158,
+              "active_branch_receipt_count": 1158,
+              "positive_fixture_receipts": 0,
+              "receipt_columns": [
+                "branch_id",
+                "semantic_key",
+                "receipt_id",
+                "action_type",
+                "effect_hash",
+                "result_json",
+                "commit_sequence"
+              ],
+              "ordered_receipts_sha256": "1465c2838044adbbaf8625e1c93441acde941425a3bcd54d36ca20f0e02a3da4",
+              "normal_campaign_creation": {
+                "branch_id": "4bd29fd2-65dd-418e-85c2-84b2020b09e7",
+                "semantic_key": "campaign:new:first-entry-candidate-1",
+                "action_type": "normal_campaign_created",
+                "receipt_id": "ef1e9f45-3610-402f-8a05-8825150ef3e6",
+                "commit_sequence": 2
+              },
+              "normal_creation_experience_awarded": 0,
+              "entry_json_receipt_count": 1158,
+              "entry_json_role": "receipt history cross-checked against active SQLite"
+            },
+            "copied_files": [
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/control.sqlite",
+                "sha256": "8f405f20d4ea21bbc622025c4516ddd8e95597b633bd726fbd4293465300a2f0",
+                "bytes": 40960,
+                "copied_before_native_sha256": "8f405f20d4ea21bbc622025c4516ddd8e95597b633bd726fbd4293465300a2f0",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/profile.sqlite",
+                "sha256": "618a1740a09e12907011d07ae4d55f1092185562325c0660b97e5c0a5131c98d",
+                "bytes": 176128,
+                "copied_before_native_sha256": "618a1740a09e12907011d07ae4d55f1092185562325c0660b97e5c0a5131c98d",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/inventory-v2-1388a0f9-3917-43c7-a91d-b3b46e4be647.sqlite",
+                "sha256": "bb7bf147d243ddfd2bcfff2e42c423ed5bab1f54f38a7af7ca487913679a6485",
+                "bytes": 4161536,
+                "copied_before_native_sha256": "bb7bf147d243ddfd2bcfff2e42c423ed5bab1f54f38a7af7ca487913679a6485",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/normal-r2-main.json",
+                "sha256": "8cecc4005d94db80add458703fd284a1275ac4598c382eb119961826a3b98ab6",
+                "bytes": 274882,
+                "copied_before_native_sha256": "8cecc4005d94db80add458703fd284a1275ac4598c382eb119961826a3b98ab6",
+                "frozen_copy": null
+              },
+              {
+                "path": "reports/build/20261010T111545212936Z/case_runs/0407/testdata/chapter-five-native-entry-3b0dd61a-0485-435b-98ca-ebc99fc1f12e/recovery/normal-r5-native-entry.json",
+                "sha256": "bd7d8b45bda3306b3887b141be81341b458e7a05345b5a517a0c998477ae4261",
+                "bytes": 666775,
+                "copied_before_native_sha256": "bd7d8b45bda3306b3887b141be81341b458e7a05345b5a517a0c998477ae4261",
+                "frozen_copy": null
+              }
+            ],
+            "scope": "Actual earlier producer commands executed once in the final suite; native uses their untouched entry copy. No fixture or second normal-route execution is inferred."
+          },
+          "actual_receipt_count": 1158,
+          "receipt_history_source": "validated actual active SQLite, not entry JSON summary"
+        },
+        "compilation_reuse": {
+          "path": "reports/build/20261010T114742501030Z/reused_compilation.json",
+          "sha256": "6188d0473ca98e786be06fbe70e9b8dac4040a1d1778a1658561692b611d8c29",
+          "bytes": 3977
+        },
+        "runtime_input_capture": {
+          "path": "reports/build/20261010T114742501030Z/run_inputs.json",
+          "sha256": "3aefb0c7698affc8f717876b7fff91259d692f007096550a7fba63c9a087d6db",
+          "bytes": 89502
+        },
+        "actual_commands_manifest": {
+          "path": "reports/build/20261010T114742501030Z/commands.json",
+          "sha256": "4912ce778893529c86edad0865f63018b276310ea389edccd324d49830716a56",
+          "bytes": 1442
+        },
+        "compiled_artifacts": {
+          "path": "reports/build/20261010T114742501030Z/compiled_artifacts.json",
+          "sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+          "bytes": 3925
+        },
+        "scope": "actual zero-XP normal-r5-native-entry copied SQLite profile; native materials/stations/editor/meaning/scope/rescue/review/custody/tower/submission controls and actual safe paths; shared combat actions selected by explicit engineering controller",
+        "human_native_play": "not_run",
+        "language_calibration": "human_pending"
+      }
+    ],
+    "actual_performance": {
+      "actual_measurement": {
+        "path": "reports/execution/CX-075/20261010T120806751059Z/native_performance.json",
+        "sha256": "4639ef0b92d425f00f77b98f0945cddcf3a2832848fff10229c924062baf5770",
+        "bytes": 2439
+      },
+      "data": {
+        "scope": "native first scene and 9000-word editor with 20 acknowledged SQLite fixture draft revisions; candidate measurement",
+        "build": "0.1-internal",
+        "platform": "Windows",
+        "renderer": "Windows",
+        "processor_count": 20,
+        "runtime": "10.0.12",
+        "frames": 1302,
+        "mean_frame_interval_ms": 6.138421582181269,
+        "p95_frame_interval_ms": 6.6297,
+        "p99_frame_interval_ms": 8.6096,
+        "observed_frame_cadence_fps": 162.90832856818108,
+        "working_set_bytes": 363659264,
+        "managed_heap_bytes": 4674280,
+        "sqlite_bytes": 1855488,
+        "writes": [
+          {
+            "task": 0,
+            "revision": 1,
+            "enqueue_ms": 0.0309,
+            "total_ack_ms": 8.4531,
+            "body_chars": 69010
+          },
+          {
+            "task": 0,
+            "revision": 2,
+            "enqueue_ms": 0.1434,
+            "total_ack_ms": 13.4626,
+            "body_chars": 69010
+          },
+          {
+            "task": 1,
+            "revision": 1,
+            "enqueue_ms": 0.0219,
+            "total_ack_ms": 11.9774,
+            "body_chars": 69010
+          },
+          {
+            "task": 1,
+            "revision": 2,
+            "enqueue_ms": 0.029,
+            "total_ack_ms": 17.9576,
+            "body_chars": 69010
+          },
+          {
+            "task": 2,
+            "revision": 1,
+            "enqueue_ms": 0.0288,
+            "total_ack_ms": 17.9348,
+            "body_chars": 69010
+          },
+          {
+            "task": 2,
+            "revision": 2,
+            "enqueue_ms": 0.0265,
+            "total_ack_ms": 18.1104,
+            "body_chars": 69010
+          },
+          {
+            "task": 3,
+            "revision": 1,
+            "enqueue_ms": 0.1215,
+            "total_ack_ms": 17.5692,
+            "body_chars": 69010
+          },
+          {
+            "task": 3,
+            "revision": 2,
+            "enqueue_ms": 0.0351,
+            "total_ack_ms": 11.8953,
+            "body_chars": 69010
+          },
+          {
+            "task": 4,
+            "revision": 1,
+            "enqueue_ms": 0.0345,
+            "total_ack_ms": 18.0099,
+            "body_chars": 69010
+          },
+          {
+            "task": 4,
+            "revision": 2,
+            "enqueue_ms": 0.0391,
+            "total_ack_ms": 11.7832,
+            "body_chars": 69010
+          },
+          {
+            "task": 5,
+            "revision": 1,
+            "enqueue_ms": 0.0322,
+            "total_ack_ms": 11.8893,
+            "body_chars": 69010
+          },
+          {
+            "task": 5,
+            "revision": 2,
+            "enqueue_ms": 0.027,
+            "total_ack_ms": 11.9649,
+            "body_chars": 69010
+          },
+          {
+            "task": 6,
+            "revision": 1,
+            "enqueue_ms": 0.0235,
+            "total_ack_ms": 11.9922,
+            "body_chars": 69010
+          },
+          {
+            "task": 6,
+            "revision": 2,
+            "enqueue_ms": 0.2361,
+            "total_ack_ms": 17.8498,
+            "body_chars": 69010
+          },
+          {
+            "task": 7,
+            "revision": 1,
+            "enqueue_ms": 0.0242,
+            "total_ack_ms": 18.0077,
+            "body_chars": 69010
+          },
+          {
+            "task": 7,
+            "revision": 2,
+            "enqueue_ms": 0.0246,
+            "total_ack_ms": 12.0288,
+            "body_chars": 69010
+          },
+          {
+            "task": 8,
+            "revision": 1,
+            "enqueue_ms": 0.0257,
+            "total_ack_ms": 11.8848,
+            "body_chars": 69010
+          },
+          {
+            "task": 8,
+            "revision": 2,
+            "enqueue_ms": 0.0233,
+            "total_ack_ms": 12.0019,
+            "body_chars": 69010
+          },
+          {
+            "task": 9,
+            "revision": 1,
+            "enqueue_ms": 0.0277,
+            "total_ack_ms": 11.96,
+            "body_chars": 69010
+          },
+          {
+            "task": 9,
+            "revision": 2,
+            "enqueue_ms": 0.0242,
+            "total_ack_ms": 18.1696,
+            "body_chars": 69010
+          }
+        ],
+        "retained_fixture_heads": 10,
+        "experience": 0,
+        "not_run": [
+          "78 playable scenes on-demand loading",
+          "long native NPC lease session",
+          "final release build benchmark",
+          "physical power loss",
+          "human performance acceptance"
+        ],
+        "human_signoff": null
+      },
+      "actual_commands": {
+        "path": "reports/execution/CX-075/20261010T120806751059Z/commands.json",
+        "sha256": "db2a34750224df3257547f00ff4bf7081b51e31957fd9c78cce839bffbf0ad1b",
+        "bytes": 545
+      },
+      "actual_native_log": {
+        "path": "reports/execution/CX-075/20261010T120806751059Z/native_runtime.log",
+        "sha256": "6247c6b3447aee067e06931966542922aae4c8b4cfc0877024ab0ea02b12b92c",
+        "bytes": 628
+      },
+      "pre_native_capture": {
+        "path": "reports/continuous/performance_capture_20261010T120803002382Z.json",
+        "sha256": "3da35cd3846a883aa459a99dcd746ea1ea4c6aae5d4a6ca9b49f368dd6bf3cf0",
+        "bytes": 94633
+      },
+      "installed_toolchain": {
+        "path": "toolchain/installed.windows-x64.json",
+        "sha256": "f8d3df7708df67cbe301da24b3b2395b7565c4036a7486650a2f91ce52406b46",
+        "bytes": 2141
+      },
+      "hardware_details": {
+        "gpu": [
+          {
+            "Name": "Intel(R) UHD Graphics",
+            "DriverVersion": "32.0.101.5972"
+          },
+          {
+            "Name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+            "DriverVersion": "32.0.15.9282"
+          }
+        ],
+        "cpu": "13th Gen Intel(R) Core(TM) i5-13500HX",
+        "os": "Microsoft Windows 11 Home 10.0.26200 build 26200",
+        "memory_mib": 16077,
+        "storage": [
+          {
+            "Model": "MTFDKBA512TFH-1BC1AABHA",
+            "InterfaceType": "SCSI",
+            "Size": 512105932800
+          }
+        ]
+      },
+      "hardware_labels_missing": [],
+      "actual_draft_retention": {
+        "control": {
+          "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/control.sqlite",
+          "sha256": "3a9894f51216e09ae1f2b28286ecde21993903aa99da0871fb189d9202d5f2aa",
+          "bytes": 40960
+        },
+        "actual_current_database": {
+          "path": "reports/execution/CX-075/20261010T120806751059Z/isolated_profile/recovery/inventory-v2-bbc2d245-0c9d-4855-931c-7cf77d3fa8ee.sqlite",
+          "sha256": "bee239f9d3120c412c562318879a7b5ac5582a7bae3ef170e202625d2dd05649",
+          "bytes": 1638400
+        },
+        "current_branch": "e7083d31-8132-4dc0-b299-7b5e0d9f4538",
+        "experience": 0,
+        "drafts": [
+          {
+            "task": "performance-fixture:0",
+            "draft": "1e98ccc8-9fd1-4961-aa8a-9004a26c9afc",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:1",
+            "draft": "90bace26-050e-4b93-9fc7-9bae10109829",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:2",
+            "draft": "e80234ca-7422-4612-bdb8-6caa06767d10",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:3",
+            "draft": "3f49aef5-cb57-4746-b20b-bb1b0d674ff6",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:4",
+            "draft": "166685a6-b8da-4cc3-b684-fc64736b1d03",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:5",
+            "draft": "debeda1b-846a-4ff6-b38f-5168a37345c2",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:6",
+            "draft": "b4f6d5e7-f659-4811-b10e-fddee1c77bbd",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:7",
+            "draft": "a304666c-5d2c-4e31-aefa-faa2de277096",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:8",
+            "draft": "43952418-fe1b-4ee9-8a8f-8dbee0579b60",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          },
+          {
+            "task": "performance-fixture:9",
+            "draft": "03933457-57be-42e1-b089-9214a0e35a87",
+            "retained_revisions": 2,
+            "current_body_sha256": "fae225a741d9b0c36be1ec0ac7cdf9090035eb6572f46d1d09cf494e4971fb99"
+          }
+        ],
+        "scope": "Twenty real neutral benchmark draft revisions retained; these are explicit engineering drafts, not world task or participant writing results."
+      },
+      "scope": "Current Debug first scene/9000-word editor and 20 declared fixture draft revisions; real process frame cadence, no 78-scene, long NPC session, release-build or clean-machine claim."
+    },
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-064",
+    "CX-074",
+    "G5"
+  ],
+  "not_run": [
+    "Human final mixed speech/critical negation-number audition, pronunciation recordings/review and redistribution rights",
+    "Actual target-band participant pilots, real human blind raters, canon/semantic calibration and unfamiliar full language assessment",
+    "Physical IME/screen reader, clean second machine, release-build performance, physical power loss and full 78-scene long NPC occupancy load",
+    "Hardware labels supplied; no independent physical-machine certification"
+  ]
+}

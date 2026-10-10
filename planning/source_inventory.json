@@ -1,0 +1,1870 @@
+{
+  "date": "2026-10-09",
+  "scope": "12 provided Markdown documents + 10 provided design archives; hashes only, no production execution",
+  "documents": [
+    {
+      "part": 1,
+      "path": "docs/baseline/Game_Design_Core_v0.1.md",
+      "bytes": 36156,
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1",
+      "line_count": 547,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 2,
+      "path": "docs/baseline/World_Story_Bible_v0.1.md",
+      "bytes": 85846,
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+      "line_count": 1076,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 3,
+      "path": "docs/baseline/Exploration_Level_Design_v0.1.md",
+      "bytes": 83759,
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+      "line_count": 1168,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 4,
+      "path": "docs/baseline/Quest_Event_System_v0.1.md",
+      "bytes": 64353,
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33",
+      "line_count": 881,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 5,
+      "path": "docs/baseline/English_Learning_System_v0.1.md",
+      "bytes": 55785,
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b",
+      "line_count": 824,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 6,
+      "path": "docs/baseline/Puzzle_System_v0.1.md",
+      "bytes": 59878,
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5",
+      "line_count": 796,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 7,
+      "path": "docs/baseline/Character_Progression_v0.1.md",
+      "bytes": 54639,
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c",
+      "line_count": 624,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 8,
+      "path": "docs/baseline/Combat_System_v0.1.md",
+      "bytes": 53850,
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88",
+      "line_count": 629,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 9,
+      "path": "docs/baseline/NPC_Faction_System_v0.1.md",
+      "bytes": 56895,
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+      "line_count": 864,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 10,
+      "path": "docs/baseline/UI_UX_Spec_v0.1.md",
+      "bytes": 53334,
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7",
+      "line_count": 641,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 11,
+      "path": "docs/baseline/Content_AI_Pipeline_v0.1.md",
+      "bytes": 45924,
+      "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738",
+      "line_count": 574,
+      "status": "frozen_design_not_game_implementation"
+    },
+    {
+      "part": 12,
+      "path": "docs/baseline/Technical_Architecture_v0.1.md",
+      "bytes": 52384,
+      "sha256": "93b80938c2bf37313d96c1f6eaee2f54bcfb9d5344d78f572619d6754168f8c2",
+      "line_count": 686,
+      "status": "frozen_design_not_game_implementation"
+    }
+  ],
+  "archives": [
+    {
+      "part": 3,
+      "original_archive": "Part03_Exploration_Design_v0.1.zip",
+      "archive_sha256": "43ca8e14603835e4bdec993059b7c82213036c1864474f2331e928f048a2fa3a",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part03",
+      "member_count": 9,
+      "members": [
+        {
+          "path": "reference/part03/Exploration_Layout_Reference_v0.1.json",
+          "archive_member": "Exploration_Layout_Reference_v0.1.json",
+          "bytes": 51475,
+          "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+        },
+        {
+          "path": "reference/part03/Exploration_Level_Design_v0.1.md",
+          "archive_member": "Exploration_Level_Design_v0.1.md",
+          "bytes": 83759,
+          "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+        },
+        {
+          "path": "reference/part03/Exploration_Validation_v0.1.md",
+          "archive_member": "Exploration_Validation_v0.1.md",
+          "bytes": 3692,
+          "sha256": "17400a8daeab4c29e3e98b0bd5ab5c47215d8fb7df0b184649326fa25256e906"
+        },
+        {
+          "path": "reference/part03/MANIFEST.json",
+          "archive_member": "MANIFEST.json",
+          "bytes": 1160,
+          "sha256": "dc77a43e3e447357b9af9183947f0193b38e4cb1f33b09e97ac729edc7737481"
+        },
+        {
+          "path": "reference/part03/README.md",
+          "archive_member": "README.md",
+          "bytes": 1495,
+          "sha256": "01f35fb6149ae56497a479b82e52623e29ed701757fdb413f8de6596e37f46a5"
+        },
+        {
+          "path": "reference/part03/dependencies/Game_Design_Core_v0.1.md",
+          "archive_member": "dependencies/Game_Design_Core_v0.1.md",
+          "bytes": 36156,
+          "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+        },
+        {
+          "path": "reference/part03/dependencies/World_Story_Bible_v0.1.md",
+          "archive_member": "dependencies/World_Story_Bible_v0.1.md",
+          "bytes": 85846,
+          "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+        },
+        {
+          "path": "reference/part03/validation/validate_reference.py",
+          "archive_member": "validation/validate_reference.py",
+          "bytes": 10735,
+          "sha256": "4caecd4061b084643cbe6d081c58d48bc64a67a43f381ad488435ca9aa8a71a0"
+        },
+        {
+          "path": "reference/part03/validation/validation_summary.json",
+          "archive_member": "validation/validation_summary.json",
+          "bytes": 212,
+          "sha256": "55c9e5fd2315b9e9ad6616c95fe962ed162c5f497bd4e002fd610a82866c0804"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "original_archive": "Part04_Quest_Event_Design_v0.1.zip",
+      "archive_sha256": "f08e6658a9c6a9e89022a00aed5554eb2e69005d863833c22dc1da3905f4548a",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part04",
+      "member_count": 15,
+      "members": [
+        {
+          "path": "reference/part04/Codex_Handoff_Part04_v0.1.md",
+          "archive_member": "Codex_Handoff_Part04_v0.1.md",
+          "bytes": 2170,
+          "sha256": "c14a61ab71eebb3a9b38deeb2b9e9d5466c546b0059ca40863dc2ba3e4b77670"
+        },
+        {
+          "path": "reference/part04/MANIFEST.json",
+          "archive_member": "MANIFEST.json",
+          "bytes": 2494,
+          "sha256": "33e782f101a3a27238d1c9baf4830cb448a383a111dd8ef7199addb588e0f13b"
+        },
+        {
+          "path": "reference/part04/Quest_Event_System_v0.1.md",
+          "archive_member": "Quest_Event_System_v0.1.md",
+          "bytes": 64353,
+          "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+        },
+        {
+          "path": "reference/part04/Quest_Event_Validation_v0.1.md",
+          "archive_member": "Quest_Event_Validation_v0.1.md",
+          "bytes": 1831,
+          "sha256": "bcb1bef37307e723c5b61d5a760125d4d1d88fc55a1a05535554bcc230462e49"
+        },
+        {
+          "path": "reference/part04/README.md",
+          "archive_member": "README.md",
+          "bytes": 1835,
+          "sha256": "07d6a70bbc1c118c41becd0edce8f79de56ae2c93ebca01d80209e2d27f76a4a"
+        },
+        {
+          "path": "reference/part04/data/Quest_Event_Reference_v0.1.json",
+          "archive_member": "data/Quest_Event_Reference_v0.1.json",
+          "bytes": 30359,
+          "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+        },
+        {
+          "path": "reference/part04/dependencies/Exploration_Layout_Reference_v0.1.json",
+          "archive_member": "dependencies/Exploration_Layout_Reference_v0.1.json",
+          "bytes": 51475,
+          "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+        },
+        {
+          "path": "reference/part04/dependencies/Exploration_Level_Design_v0.1.md",
+          "archive_member": "dependencies/Exploration_Level_Design_v0.1.md",
+          "bytes": 83759,
+          "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+        },
+        {
+          "path": "reference/part04/dependencies/Game_Design_Core_v0.1.md",
+          "archive_member": "dependencies/Game_Design_Core_v0.1.md",
+          "bytes": 36156,
+          "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+        },
+        {
+          "path": "reference/part04/dependencies/World_Story_Bible_v0.1.md",
+          "archive_member": "dependencies/World_Story_Bible_v0.1.md",
+          "bytes": 85846,
+          "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+        },
+        {
+          "path": "reference/part04/validation/build_reference.py",
+          "archive_member": "validation/build_reference.py",
+          "bytes": 14579,
+          "sha256": "36663e183bd09bedd535910e1495dd72c2f589f8dfec1b2661cf59d9ec66819d"
+        },
+        {
+          "path": "reference/part04/validation/reference_model.py",
+          "archive_member": "validation/reference_model.py",
+          "bytes": 10447,
+          "sha256": "1fed7238c028c994d86e945354162ddb68f6913445f5bea46baf8589b224887e"
+        },
+        {
+          "path": "reference/part04/validation/run_log.txt",
+          "archive_member": "validation/run_log.txt",
+          "bytes": 6135,
+          "sha256": "fd6839f33302d86f8f226e889b15a81822719bcb50c02a81e29940d8f1f2f38a"
+        },
+        {
+          "path": "reference/part04/validation/validate_design.py",
+          "archive_member": "validation/validate_design.py",
+          "bytes": 12147,
+          "sha256": "d87aa3bc0c5ce60f89731105009887afbf9848d624330d4ec16a6524d393894f"
+        },
+        {
+          "path": "reference/part04/validation/validation_summary.json",
+          "archive_member": "validation/validation_summary.json",
+          "bytes": 704,
+          "sha256": "35550186009aa64d94036744797518e794df304758db76914b05cebc9014ea3c"
+        }
+      ]
+    },
+    {
+      "part": 5,
+      "original_archive": "Part05_English_Learning_Design_v0.1.zip",
+      "archive_sha256": "6beba58473a10697914bc4701f3d5f2cafbcc7ebaec2ebe01c8cd99ca0476496",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part05",
+      "member_count": 19,
+      "members": [
+        {
+          "path": "reference/part05/Codex_Handoff_Part05_v0.1.md",
+          "archive_member": "Codex_Handoff_Part05_v0.1.md",
+          "bytes": 2047,
+          "sha256": "2354a5c74ad2ce9ddf7afcdd7c5ecdc8a2cfd406effd9f197721d5101c7d0f59"
+        },
+        {
+          "path": "reference/part05/Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "archive_member": "Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "bytes": 1898,
+          "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+        },
+        {
+          "path": "reference/part05/English_Learning_System_v0.1.md",
+          "archive_member": "English_Learning_System_v0.1.md",
+          "bytes": 55785,
+          "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+        },
+        {
+          "path": "reference/part05/English_Learning_Validation_v0.1.md",
+          "archive_member": "English_Learning_Validation_v0.1.md",
+          "bytes": 793,
+          "sha256": "b77bec396e0c08b6cd9a38e20a67937386ea74014474881cf4474dbfedee4d98"
+        },
+        {
+          "path": "reference/part05/MANIFEST.json",
+          "archive_member": "MANIFEST.json",
+          "bytes": 3199,
+          "sha256": "c04703ff4238fa97c3d4c8a76b6c0613c100cb42acb098ab4df9854b070b22f9"
+        },
+        {
+          "path": "reference/part05/README.md",
+          "archive_member": "README.md",
+          "bytes": 931,
+          "sha256": "13d7399891f8dd220211114b1c1f64e5a9fd6c5ddb31fb121a8c8661a3cde42b"
+        },
+        {
+          "path": "reference/part05/data/English_Learning_Reference_v0.1.json",
+          "archive_member": "data/English_Learning_Reference_v0.1.json",
+          "bytes": 62574,
+          "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+        },
+        {
+          "path": "reference/part05/data/Lexical_Seed_v0.1.json",
+          "archive_member": "data/Lexical_Seed_v0.1.json",
+          "bytes": 7442,
+          "sha256": "c55ef95aa82d592a2d2b9d9e6209b10b37007cf25c1c6030ccd6c7f281e566a4"
+        },
+        {
+          "path": "reference/part05/data/Original_Materials_v0.1.json",
+          "archive_member": "data/Original_Materials_v0.1.json",
+          "bytes": 27750,
+          "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+        },
+        {
+          "path": "reference/part05/dependencies/Exploration_Level_Design_v0.1.md",
+          "archive_member": "dependencies/Exploration_Level_Design_v0.1.md",
+          "bytes": 83759,
+          "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+        },
+        {
+          "path": "reference/part05/dependencies/Game_Design_Core_v0.1.md",
+          "archive_member": "dependencies/Game_Design_Core_v0.1.md",
+          "bytes": 36156,
+          "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+        },
+        {
+          "path": "reference/part05/dependencies/Quest_Event_Reference_v0.1.json",
+          "archive_member": "dependencies/Quest_Event_Reference_v0.1.json",
+          "bytes": 30359,
+          "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+        },
+        {
+          "path": "reference/part05/dependencies/Quest_Event_System_v0.1.md",
+          "archive_member": "dependencies/Quest_Event_System_v0.1.md",
+          "bytes": 64353,
+          "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+        },
+        {
+          "path": "reference/part05/dependencies/World_Story_Bible_v0.1.md",
+          "archive_member": "dependencies/World_Story_Bible_v0.1.md",
+          "bytes": 85846,
+          "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+        },
+        {
+          "path": "reference/part05/materials/Original_Sample_Pack_v0.1.md",
+          "archive_member": "materials/Original_Sample_Pack_v0.1.md",
+          "bytes": 17929,
+          "sha256": "05a3a30e273e0c69aae3262beb895b57c468b4f22d7bcb962c99431788bf6198"
+        },
+        {
+          "path": "reference/part05/validation/learning_reference.py",
+          "archive_member": "validation/learning_reference.py",
+          "bytes": 8885,
+          "sha256": "54a28dec7f170c75151c28bff9d30654bde23801fe5d3785bf19b587181f712f"
+        },
+        {
+          "path": "reference/part05/validation/run_log.txt",
+          "archive_member": "validation/run_log.txt",
+          "bytes": 5851,
+          "sha256": "dd9ccccbe7d3f10aea23980aa307ffe2d886d88fe95d249aee12146fae297a57"
+        },
+        {
+          "path": "reference/part05/validation/validate_design.py",
+          "archive_member": "validation/validate_design.py",
+          "bytes": 12466,
+          "sha256": "5ae306e957c338e11a5ae33e4889ff9be30764af04504a30a1d785555504ff7b"
+        },
+        {
+          "path": "reference/part05/validation/validation_report.json",
+          "archive_member": "validation/validation_report.json",
+          "bytes": 574,
+          "sha256": "6530262f48725315f3ee11ff49f4d7cb7db424a67fa5afcfd354642572b91a7d"
+        }
+      ]
+    },
+    {
+      "part": 6,
+      "original_archive": "Part06_Puzzle_Design_v0.1.zip",
+      "archive_sha256": "438543f395fc43950f2c7e27ef6e7e9e0c9cb53fda8a8af7ba8bd611aeba4868",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part06",
+      "member_count": 24,
+      "members": [
+        {
+          "path": "reference/part06/Codex_Handoff_Part06_v0.1.md",
+          "archive_member": "Codex_Handoff_Part06_v0.1.md",
+          "bytes": 4614,
+          "sha256": "353d9976cb79ee2e499425f96370a3313ba34aff1c253c2e1e5387cfc35a43a8"
+        },
+        {
+          "path": "reference/part06/MANIFEST.json",
+          "archive_member": "MANIFEST.json",
+          "bytes": 4107,
+          "sha256": "d498cd70cc2a27e0867cd178e3e62e0da278dc2a85d475e1f31eb9d21871ab02"
+        },
+        {
+          "path": "reference/part06/Puzzle_System_v0.1.md",
+          "archive_member": "Puzzle_System_v0.1.md",
+          "bytes": 59878,
+          "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+        },
+        {
+          "path": "reference/part06/Puzzle_Validation_v0.1.md",
+          "archive_member": "Puzzle_Validation_v0.1.md",
+          "bytes": 2326,
+          "sha256": "13a78bce06379f64c827ddc4e81cc1499cb9c307e17c762e608a24f2ed5b57e2"
+        },
+        {
+          "path": "reference/part06/README.md",
+          "archive_member": "README.md",
+          "bytes": 2432,
+          "sha256": "07e7ef945fd3218ca209b3dde04e7adae70558180f07e7f8361229753fb18f1f"
+        },
+        {
+          "path": "reference/part06/data/Puzzle_Materials_v0.1.json",
+          "archive_member": "data/Puzzle_Materials_v0.1.json",
+          "bytes": 16760,
+          "sha256": "44bc61f8f40391e32037e7b1c0fa172215e373982677ea07d3c0d93c5e00f319"
+        },
+        {
+          "path": "reference/part06/data/Puzzle_Reference_v0.1.json",
+          "archive_member": "data/Puzzle_Reference_v0.1.json",
+          "bytes": 42061,
+          "sha256": "9d02d02e969f26ab1112fa58c65e92e4dfbb7cddb455b59d14296038ae732e19"
+        },
+        {
+          "path": "reference/part06/data/Worked_Logic_Fixtures_v0.1.json",
+          "archive_member": "data/Worked_Logic_Fixtures_v0.1.json",
+          "bytes": 4327,
+          "sha256": "8592245c4cb3469613d0d91e4182481a6768117222e12dc2e6834faccc6939b7"
+        },
+        {
+          "path": "reference/part06/dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "archive_member": "dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "bytes": 1898,
+          "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+        },
+        {
+          "path": "reference/part06/dependencies/English_Learning_Reference_v0.1.json",
+          "archive_member": "dependencies/English_Learning_Reference_v0.1.json",
+          "bytes": 62574,
+          "sha256": "ed4788dc57878addbcd520128b0b236abdab46e7a6225f978f6e5a1bd166496a"
+        },
+        {
+          "path": "reference/part06/dependencies/English_Learning_System_v0.1.md",
+          "archive_member": "dependencies/English_Learning_System_v0.1.md",
+          "bytes": 55785,
+          "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+        },
+        {
+          "path": "reference/part06/dependencies/Exploration_Layout_Reference_v0.1.json",
+          "archive_member": "dependencies/Exploration_Layout_Reference_v0.1.json",
+          "bytes": 51475,
+          "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+        },
+        {
+          "path": "reference/part06/dependencies/Exploration_Level_Design_v0.1.md",
+          "archive_member": "dependencies/Exploration_Level_Design_v0.1.md",
+          "bytes": 83759,
+          "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+        },
+        {
+          "path": "reference/part06/dependencies/Game_Design_Core_v0.1.md",
+          "archive_member": "dependencies/Game_Design_Core_v0.1.md",
+          "bytes": 36156,
+          "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+        },
+        {
+          "path": "reference/part06/dependencies/Original_Materials_v0.1.json",
+          "archive_member": "dependencies/Original_Materials_v0.1.json",
+          "bytes": 27750,
+          "sha256": "57e0c7ffab551f4fdc34454b07e81b7c1ebc04b6702045c59c531abe8bb232ad"
+        },
+        {
+          "path": "reference/part06/dependencies/Quest_Event_Reference_v0.1.json",
+          "archive_member": "dependencies/Quest_Event_Reference_v0.1.json",
+          "bytes": 30359,
+          "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+        },
+        {
+          "path": "reference/part06/dependencies/Quest_Event_System_v0.1.md",
+          "archive_member": "dependencies/Quest_Event_System_v0.1.md",
+          "bytes": 64353,
+          "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+        },
+        {
+          "path": "reference/part06/dependencies/World_Story_Bible_v0.1.md",
+          "archive_member": "dependencies/World_Story_Bible_v0.1.md",
+          "bytes": 85846,
+          "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+        },
+        {
+          "path": "reference/part06/materials/Worked_Puzzle_Materials_v0.1.md",
+          "archive_member": "materials/Worked_Puzzle_Materials_v0.1.md",
+          "bytes": 13335,
+          "sha256": "d67124e5e35ecdbeb14833a0cd5e09433de4d948543052c0b0867d2ee59f5ac7"
+        },
+        {
+          "path": "reference/part06/validation/puzzle_reference.py",
+          "archive_member": "validation/puzzle_reference.py",
+          "bytes": 18578,
+          "sha256": "b0e1a34b1bc2d5a7de5d92da5f4d84a4fa4bff1c87b06ea126bc81af74d48fa1"
+        },
+        {
+          "path": "reference/part06/validation/run_log.txt",
+          "archive_member": "validation/run_log.txt",
+          "bytes": 10711,
+          "sha256": "7b194c78f3ed7c5a23649094d692793facdc4a4599e9692351c230940e68da8e"
+        },
+        {
+          "path": "reference/part06/validation/test_puzzles.py",
+          "archive_member": "validation/test_puzzles.py",
+          "bytes": 18397,
+          "sha256": "f207c52c8a0621a587541ba50502eb80de40f3ed308cb23ca6755c66ea9d0e78"
+        },
+        {
+          "path": "reference/part06/validation/validate_package.py",
+          "archive_member": "validation/validate_package.py",
+          "bytes": 1920,
+          "sha256": "31e9ea2ff1a77b7390c638e2ea99201e44ef0de534db90848a8bd64f3fd6e7a9"
+        },
+        {
+          "path": "reference/part06/validation/validation_report.json",
+          "archive_member": "validation/validation_report.json",
+          "bytes": 1954,
+          "sha256": "370c36c63843327766dab8496c594c173dceabca4314c9326271fc1b1ad94f1a"
+        }
+      ]
+    },
+    {
+      "part": 7,
+      "original_archive": "Part07_Character_Progression_Design_v0.1.zip",
+      "archive_sha256": "7e566f43f3853b936e4fc8acccd6daeabe5a1c317100bcc22803c76744e90d30",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part07",
+      "member_count": 20,
+      "members": [
+        {
+          "path": "reference/part07/Character_Progression_Validation_v0.1.md",
+          "archive_member": "Character_Progression_Validation_v0.1.md",
+          "bytes": 1896,
+          "sha256": "0c734fc21d1ce6893ae2892fc76abc606b96b6fc634089bbce655f03abb88be1"
+        },
+        {
+          "path": "reference/part07/Character_Progression_v0.1.md",
+          "archive_member": "Character_Progression_v0.1.md",
+          "bytes": 54639,
+          "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+        },
+        {
+          "path": "reference/part07/Codex_Handoff_Part07_v0.1.md",
+          "archive_member": "Codex_Handoff_Part07_v0.1.md",
+          "bytes": 4812,
+          "sha256": "8728c65fe263fafacaf4014bfc8b01f10d6b0957e98cd74e7b3e1b5a9e04602d"
+        },
+        {
+          "path": "reference/part07/Growth_Baseline_Change_CR-RPG-007-001.md",
+          "archive_member": "Growth_Baseline_Change_CR-RPG-007-001.md",
+          "bytes": 2441,
+          "sha256": "de61cf8791df7ef0252e450b5d99e15c33be4c944c363ad0a821aa0775411f67"
+        },
+        {
+          "path": "reference/part07/MANIFEST.json",
+          "archive_member": "MANIFEST.json",
+          "bytes": 3479,
+          "sha256": "dac11ddde26d24fb4a116d6131d053dca5ec84cd24e518be969fe0d9991cb64f"
+        },
+        {
+          "path": "reference/part07/README.md",
+          "archive_member": "README.md",
+          "bytes": 1374,
+          "sha256": "d0fc547fcc364cb2a3d7b561b03ef0b7246693349701e7db86febd3b94a4a1b3"
+        },
+        {
+          "path": "reference/part07/data/Character_Progression_Reference_v0.1.json",
+          "archive_member": "data/Character_Progression_Reference_v0.1.json",
+          "bytes": 65966,
+          "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+        },
+        {
+          "path": "reference/part07/dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "archive_member": "dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "bytes": 1898,
+          "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+        },
+        {
+          "path": "reference/part07/dependencies/English_Learning_System_v0.1.md",
+          "archive_member": "dependencies/English_Learning_System_v0.1.md",
+          "bytes": 55785,
+          "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+        },
+        {
+          "path": "reference/part07/dependencies/Exploration_Level_Design_v0.1.md",
+          "archive_member": "dependencies/Exploration_Level_Design_v0.1.md",
+          "bytes": 83759,
+          "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+        },
+        {
+          "path": "reference/part07/dependencies/Game_Design_Core_v0.1.md",
+          "archive_member": "dependencies/Game_Design_Core_v0.1.md",
+          "bytes": 36156,
+          "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+        },
+        {
+          "path": "reference/part07/dependencies/Puzzle_System_v0.1.md",
+          "archive_member": "dependencies/Puzzle_System_v0.1.md",
+          "bytes": 59878,
+          "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+        },
+        {
+          "path": "reference/part07/dependencies/Quest_Event_Reference_v0.1.json",
+          "archive_member": "dependencies/Quest_Event_Reference_v0.1.json",
+          "bytes": 30359,
+          "sha256": "f260b842b20ee3735b9f053419ea0f7fe7fb3a44adaa7f1ee254f2aa8a9874c7"
+        },
+        {
+          "path": "reference/part07/dependencies/Quest_Event_System_v0.1.md",
+          "archive_member": "dependencies/Quest_Event_System_v0.1.md",
+          "bytes": 64353,
+          "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+        },
+        {
+          "path": "reference/part07/dependencies/World_Story_Bible_v0.1.md",
+          "archive_member": "dependencies/World_Story_Bible_v0.1.md",
+          "bytes": 85846,
+          "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+        },
+        {
+          "path": "reference/part07/validation/rpg_reference.py",
+          "archive_member": "validation/rpg_reference.py",
+          "bytes": 9384,
+          "sha256": "60f67f2f08b34945c0e686f044dc3e07374c2cadad1e9952376957c40a6d34cc"
+        },
+        {
+          "path": "reference/part07/validation/run_log.txt",
+          "archive_member": "validation/run_log.txt",
+          "bytes": 7970,
+          "sha256": "565479c95ff3f527f188762caceb8d177d28d3fd97eaea10002b62969b8ddcef"
+        },
+        {
+          "path": "reference/part07/validation/run_validation.py",
+          "archive_member": "validation/run_validation.py",
+          "bytes": 1955,
+          "sha256": "ea0641970534ec343d5d1252714186b4b3beff45dfb03b6aa8c08eea9a9fd8fe"
+        },
+        {
+          "path": "reference/part07/validation/test_progression.py",
+          "archive_member": "validation/test_progression.py",
+          "bytes": 13680,
+          "sha256": "46132983b4f50eefeae69aaede0557bfa36e5b374971178cdddff24470e9dce3"
+        },
+        {
+          "path": "reference/part07/validation/validation_report.json",
+          "archive_member": "validation/validation_report.json",
+          "bytes": 3379,
+          "sha256": "20defdb6014d9d869506b6b35682441c3c5fb73826d9a3260c0a557dd023669f"
+        }
+      ]
+    },
+    {
+      "part": 8,
+      "original_archive": "Part08_Combat_Design_v0.1.zip",
+      "archive_sha256": "e0d66ae2af47c2fe200528f59a457c123e575edaeb2f1cc5bc198c56e46ac32a",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part08",
+      "member_count": 57,
+      "members": [
+        {
+          "path": "reference/part08/Codex_Handoff_Part08_v0.1.md",
+          "archive_member": "Codex_Handoff_Part08_v0.1.md",
+          "bytes": 3920,
+          "sha256": "f789c6e53169094fc699ea194cc557958a65afead94cafc7469bdee4f4a5d16b"
+        },
+        {
+          "path": "reference/part08/Combat_Change_CR-COM-008-001.md",
+          "archive_member": "Combat_Change_CR-COM-008-001.md",
+          "bytes": 1747,
+          "sha256": "b3c6bbe989ccbc46dc25501ad551f5680e6a94c59eb97d4ff0d3d39d35cc0cb5"
+        },
+        {
+          "path": "reference/part08/Combat_System_v0.1.md",
+          "archive_member": "Combat_System_v0.1.md",
+          "bytes": 53850,
+          "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+        },
+        {
+          "path": "reference/part08/Combat_Validation_v0.1.md",
+          "archive_member": "Combat_Validation_v0.1.md",
+          "bytes": 4170,
+          "sha256": "b3d2d0e8192d128d6e20a8d0b0f84650a9ae1f71b49b436bbcf88e197ce3c327"
+        },
+        {
+          "path": "reference/part08/MANIFEST.json",
+          "archive_member": "MANIFEST.json",
+          "bytes": 10374,
+          "sha256": "db01d1d6139dc1f91e023c25da597f73f8099c13d0a1d0a89cd72904879ed52d"
+        },
+        {
+          "path": "reference/part08/README.md",
+          "archive_member": "README.md",
+          "bytes": 1543,
+          "sha256": "a8d54be6a3f6652eb542fd9e8022e4db3c86f827c16c20c2738eaae81e5e6285"
+        },
+        {
+          "path": "reference/part08/data/Character_Progression_Reference_v0.1.json",
+          "archive_member": "data/Character_Progression_Reference_v0.1.json",
+          "bytes": 65966,
+          "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+        },
+        {
+          "path": "reference/part08/data/Combat_Acceptance_v0.1.json",
+          "archive_member": "data/Combat_Acceptance_v0.1.json",
+          "bytes": 10850,
+          "sha256": "61abd45679c57cf8dd0a897e9800137e7e2fde58944f002bb13d64d4702e63b2"
+        },
+        {
+          "path": "reference/part08/data/Combat_Reference_v0.1.json",
+          "archive_member": "data/Combat_Reference_v0.1.json",
+          "bytes": 56489,
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        {
+          "path": "reference/part08/dependencies/Character_Progression_v0.1.md",
+          "archive_member": "dependencies/Character_Progression_v0.1.md",
+          "bytes": 54639,
+          "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+        },
+        {
+          "path": "reference/part08/dependencies/English_Learning_System_v0.1.md",
+          "archive_member": "dependencies/English_Learning_System_v0.1.md",
+          "bytes": 55785,
+          "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+        },
+        {
+          "path": "reference/part08/dependencies/Exploration_Layout_Reference_v0.1.json",
+          "archive_member": "dependencies/Exploration_Layout_Reference_v0.1.json",
+          "bytes": 51475,
+          "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+        },
+        {
+          "path": "reference/part08/dependencies/Exploration_Level_Design_v0.1.md",
+          "archive_member": "dependencies/Exploration_Level_Design_v0.1.md",
+          "bytes": 83759,
+          "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+        },
+        {
+          "path": "reference/part08/dependencies/Game_Design_Core_v0.1.md",
+          "archive_member": "dependencies/Game_Design_Core_v0.1.md",
+          "bytes": 36156,
+          "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+        },
+        {
+          "path": "reference/part08/dependencies/Puzzle_System_v0.1.md",
+          "archive_member": "dependencies/Puzzle_System_v0.1.md",
+          "bytes": 59878,
+          "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+        },
+        {
+          "path": "reference/part08/dependencies/Quest_Event_System_v0.1.md",
+          "archive_member": "dependencies/Quest_Event_System_v0.1.md",
+          "bytes": 64353,
+          "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+        },
+        {
+          "path": "reference/part08/dependencies/World_Story_Bible_v0.1.md",
+          "archive_member": "dependencies/World_Story_Bible_v0.1.md",
+          "bytes": 85846,
+          "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+        },
+        {
+          "path": "reference/part08/materials/COM-MAT-01_Workshop_Observation.md",
+          "archive_member": "materials/COM-MAT-01_Workshop_Observation.md",
+          "bytes": 1441,
+          "sha256": "872239e3468666fb1446b19e16261b3cbbffc4b3268e13673adde4a6e42b61ef"
+        },
+        {
+          "path": "reference/part08/materials/COM-MAT-02_Tower_Procedure.md",
+          "archive_member": "materials/COM-MAT-02_Tower_Procedure.md",
+          "bytes": 1448,
+          "sha256": "3af04084dc79d58be6bb68b87187b739b18661d4b5801d645fff4079bb61f9df"
+        },
+        {
+          "path": "reference/part08/materials/COM-MAT-03_Core_Handover_Script.md",
+          "archive_member": "materials/COM-MAT-03_Core_Handover_Script.md",
+          "bytes": 1595,
+          "sha256": "a833d56dcbd9e07b358c1270ddf6a7f72d4882bf3a71118cffc852018a75a03f"
+        },
+        {
+          "path": "reference/part08/validation/build_data.py",
+          "archive_member": "validation/build_data.py",
+          "bytes": 15384,
+          "sha256": "17add39932306a08922a02651d5f2ca229b9a5838ca972df42927d74dfcb127a"
+        },
+        {
+          "path": "reference/part08/validation/build_documents.py",
+          "archive_member": "validation/build_documents.py",
+          "bytes": 7500,
+          "sha256": "18ab621a25aced84d026db479b087130ccd769b310678355e4bfd95f0b62f4de"
+        },
+        {
+          "path": "reference/part08/validation/combat_reference.py",
+          "archive_member": "validation/combat_reference.py",
+          "bytes": 31118,
+          "sha256": "6b5689191db497282a6efb565857f2d594679fcdec2974ba58d13724cb2474b0"
+        },
+        {
+          "path": "reference/part08/validation/initial_tower_observation.json",
+          "archive_member": "validation/initial_tower_observation.json",
+          "bytes": 1431,
+          "sha256": "872139f2b9211eabcede74a49621ae146c0bf9dfb6af39e21bd5e790aed498d5"
+        },
+        {
+          "path": "reference/part08/validation/progression_reference.py",
+          "archive_member": "validation/progression_reference.py",
+          "bytes": 9384,
+          "sha256": "60f67f2f08b34945c0e686f044dc3e07374c2cadad1e9952376957c40a6d34cc"
+        },
+        {
+          "path": "reference/part08/validation/run_log.txt",
+          "archive_member": "validation/run_log.txt",
+          "bytes": 9944,
+          "sha256": "bb674598203c4ec1a9aee10b686677c306fdabb06814c8a4d3db92f4e457e123"
+        },
+        {
+          "path": "reference/part08/validation/run_validation.py",
+          "archive_member": "validation/run_validation.py",
+          "bytes": 4810,
+          "sha256": "ac9a5fb6de447fe543ffafb0ce5bd2069dd609b5049f96db7c209ce9c6854ae0"
+        },
+        {
+          "path": "reference/part08/validation/test_combat.py",
+          "archive_member": "validation/test_combat.py",
+          "bytes": 17587,
+          "sha256": "46d369050898f78b2276d07905ebb25b4da567f4453e17c586d357b896811889"
+        },
+        {
+          "path": "reference/part08/validation/tower_parameter_sweep.json",
+          "archive_member": "validation/tower_parameter_sweep.json",
+          "bytes": 6956,
+          "sha256": "98f10484ba9e85309517e68de900421619829a7acae8ce15785c2a4c09429640"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-HM__BENCH-ELITE__standard.json",
+          "archive_member": "validation/traces/BUILD-HM__BENCH-ELITE__standard.json",
+          "bytes": 14044,
+          "sha256": "77f5c77b5a5cb2f2c14ac8f4c1a4e1b1cac17539cb04ef5a283de345b58e8151"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-HM__BENCH-GROUP__standard.json",
+          "archive_member": "validation/traces/BUILD-HM__BENCH-GROUP__standard.json",
+          "bytes": 12817,
+          "sha256": "cb0bfa2e29f0f18f7a33832a6423cad254016adca4877f0593fc4703053394c8"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-HM__BENCH-LONG__standard.json",
+          "archive_member": "validation/traces/BUILD-HM__BENCH-LONG__standard.json",
+          "bytes": 24893,
+          "sha256": "51ba3bf1bf819f01785f0c080ded89de5607e83b844349e36821a96c70efeac1"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-H__BENCH-ELITE__standard.json",
+          "archive_member": "validation/traces/BUILD-H__BENCH-ELITE__standard.json",
+          "bytes": 13084,
+          "sha256": "bf9f4b87800419e0da90f5ac653fd600d8ee8a23c41088f7f34f61a19791caa9"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-H__BENCH-GROUP__standard.json",
+          "archive_member": "validation/traces/BUILD-H__BENCH-GROUP__standard.json",
+          "bytes": 12521,
+          "sha256": "2e7b4e0b60e4858779d1941d64a9b10d2ed10df0c759ad7f7b2574add6adfd82"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-H__BENCH-LONG__standard.json",
+          "archive_member": "validation/traces/BUILD-H__BENCH-LONG__standard.json",
+          "bytes": 21963,
+          "sha256": "9cffb7731d1c421fac205f711c09ad510220bf0097a10e430084d39c72c491b0"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-M__BENCH-ELITE__standard.json",
+          "archive_member": "validation/traces/BUILD-M__BENCH-ELITE__standard.json",
+          "bytes": 13699,
+          "sha256": "8a03acac86cd284bc0b70d90212a88d3e738f7dd68a957a8a0494718c1ace136"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-M__BENCH-GROUP__standard.json",
+          "archive_member": "validation/traces/BUILD-M__BENCH-GROUP__standard.json",
+          "bytes": 11913,
+          "sha256": "7b6be15e6fbf09e415ae51ecce0db2f9ea72ee7bf103db131b52d7daeb859a16"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-M__BENCH-LONG__standard.json",
+          "archive_member": "validation/traces/BUILD-M__BENCH-LONG__standard.json",
+          "bytes": 21892,
+          "sha256": "cf75d2f3a41cca8789b5f311dc406c9c684e6a5ca2f1f886c94ff41ca82fcbe3"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__challenge.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__challenge.json",
+          "bytes": 9121,
+          "sha256": "37b88c8933c788e5ebce552be5008eea04b10791f10f65f76d784e72097041b9"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__relaxed.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__relaxed.json",
+          "bytes": 6204,
+          "sha256": "6cf0785cd18ff6a5e7045f3895f6b467ecb0e734505048b708b631082e68f0ef"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__standard.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-H__BENCH-WORKSHOP__standard.json",
+          "bytes": 7979,
+          "sha256": "8773c4b1a33f7eac40f1599eaba8d1b4e182ff0a3dff8fe92e0abb3ae77b8e94"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__challenge.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__challenge.json",
+          "bytes": 8013,
+          "sha256": "944eaeacf0e8cbda9151327e3c0d03c17ea2713348239b615f91106be77ae77e"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__relaxed.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__relaxed.json",
+          "bytes": 7182,
+          "sha256": "9ac53934d62daf0c2c782eb2a096b93cb343032702b7d54ff3b0d4f1802c3682"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__standard.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-M__BENCH-WORKSHOP__standard.json",
+          "bytes": 7477,
+          "sha256": "34c02c7bd9a6e20a4fd314a84b606de8fc0d99213575e51e012259a87aa4881d"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__challenge.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__challenge.json",
+          "bytes": 13050,
+          "sha256": "fc7468adc8ecc20b401e102010f5b3e441ae0ee23f99aa7649bef47b62810998"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__relaxed.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__relaxed.json",
+          "bytes": 7135,
+          "sha256": "257e7cca085e600f357b9b85fc5ff68b24ce3757cea6a24b1cf5222c5c186872"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__standard.json",
+          "archive_member": "validation/traces/BUILD-Q102-ENTRY-S__BENCH-WORKSHOP__standard.json",
+          "bytes": 8950,
+          "sha256": "44cbf709b8fe6175e4b93e068ad994748edbd5bbf5dce8b457c65b7d81cad457"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-S-ATTACKBAR__BENCH-ELITE__standard.json",
+          "archive_member": "validation/traces/BUILD-S-ATTACKBAR__BENCH-ELITE__standard.json",
+          "bytes": 17042,
+          "sha256": "159cca1eacb597d5e302e1e91e7d0ee4af1dc27b2800000ad3d6b536951af006"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-S-ATTACKBAR__BENCH-GROUP__standard.json",
+          "archive_member": "validation/traces/BUILD-S-ATTACKBAR__BENCH-GROUP__standard.json",
+          "bytes": 14990,
+          "sha256": "f93bce6af675882fc75265943574d8d9ace385a8c65e6928e80ac584f13bc46f"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-S-ATTACKBAR__BENCH-LONG__standard.json",
+          "archive_member": "validation/traces/BUILD-S-ATTACKBAR__BENCH-LONG__standard.json",
+          "bytes": 28569,
+          "sha256": "4360debcbe299a249e5b12d1cd3ad19ade8b265627e1ce26bf587dd89dfe1bda"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-S__BENCH-ELITE__standard.json",
+          "archive_member": "validation/traces/BUILD-S__BENCH-ELITE__standard.json",
+          "bytes": 15503,
+          "sha256": "91fce114e7fa7fc5c6dc47ec416a3217b44390bfd60a0fc53d0c70fb0574ddf3"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-S__BENCH-GROUP__standard.json",
+          "archive_member": "validation/traces/BUILD-S__BENCH-GROUP__standard.json",
+          "bytes": 18312,
+          "sha256": "f15f77717bfeebe34945ec0c3097cd10b4a2835bc8d5d6a594405f9a4c8159f1"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-S__BENCH-LONG__standard.json",
+          "archive_member": "validation/traces/BUILD-S__BENCH-LONG__standard.json",
+          "bytes": 25854,
+          "sha256": "0e5061ab553d3e534b78b6e6d376bda06587686bc40f53a3a3b0e66f07f54560"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-TOWER-H__BENCH-TOWER__standard.json",
+          "archive_member": "validation/traces/BUILD-TOWER-H__BENCH-TOWER__standard.json",
+          "bytes": 13033,
+          "sha256": "ec75ab326e493590720c774dd6e9b4d207807091277de539b229b75cd49f1747"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-TOWER-M__BENCH-TOWER__standard.json",
+          "archive_member": "validation/traces/BUILD-TOWER-M__BENCH-TOWER__standard.json",
+          "bytes": 13794,
+          "sha256": "c8421e5d84f21a26db4b5c2dac62238649109c7e37fbf2a0749bd3488853db14"
+        },
+        {
+          "path": "reference/part08/validation/traces/BUILD-TOWER-S__BENCH-TOWER__standard.json",
+          "archive_member": "validation/traces/BUILD-TOWER-S__BENCH-TOWER__standard.json",
+          "bytes": 15964,
+          "sha256": "dbb415ec3df8f132c380af2ad423d3345faa555705a860fec21a06829eeba1fe"
+        },
+        {
+          "path": "reference/part08/validation/validation_report.json",
+          "archive_member": "validation/validation_report.json",
+          "bytes": 11620,
+          "sha256": "c2874a4cb284158db5bffc983e8299581efc2bbe3ae0b5d65b316f22d7da0326"
+        }
+      ]
+    },
+    {
+      "part": 9,
+      "original_archive": "Part09_NPC_Faction_Design_v0.1.zip",
+      "archive_sha256": "6db0b0a99ef774aa7d1259e28b68c0ebe133c2129c684b15d0ee16ef38259c97",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part09",
+      "member_count": 32,
+      "members": [
+        {
+          "path": "reference/part09/Codex_Handoff_Part09_v0.1.md",
+          "archive_member": "Codex_Handoff_Part09_v0.1.md",
+          "bytes": 3106,
+          "sha256": "cb58ecca4f54273d27b64b4799db972aa66dc4cecd9ea2ac3a7ba371ebcbd07c"
+        },
+        {
+          "path": "reference/part09/MANIFEST.json",
+          "archive_member": "MANIFEST.json",
+          "bytes": 5428,
+          "sha256": "ae0574cd607f25d27e399f8257dec0b7b96173dd444edcb87be1b9ef76bdfee4"
+        },
+        {
+          "path": "reference/part09/NPC_Change_CR-NPC-009-001.md",
+          "archive_member": "NPC_Change_CR-NPC-009-001.md",
+          "bytes": 1864,
+          "sha256": "c6a2f3b7f624e5bf72587d753f1015e83e14eb4001f87810ae8c824e4519171c"
+        },
+        {
+          "path": "reference/part09/NPC_Faction_System_v0.1.md",
+          "archive_member": "NPC_Faction_System_v0.1.md",
+          "bytes": 56895,
+          "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325"
+        },
+        {
+          "path": "reference/part09/NPC_Faction_Validation_v0.1.md",
+          "archive_member": "NPC_Faction_Validation_v0.1.md",
+          "bytes": 2380,
+          "sha256": "2925c05ef4a6ad34c7d3ac2e2c3f4c2418eafac4b409fcbc3a4890dab22eb344"
+        },
+        {
+          "path": "reference/part09/README.md",
+          "archive_member": "README.md",
+          "bytes": 939,
+          "sha256": "3aa040d06da794b2893990e207df9bf0feaf9c1dcb2f028914fbd67b534e2b59"
+        },
+        {
+          "path": "reference/part09/data/NPC_Acceptance_v0.1.json",
+          "archive_member": "data/NPC_Acceptance_v0.1.json",
+          "bytes": 8449,
+          "sha256": "fe3525ecb3cfb1757f70b366d198f83d06a9e53e73966c360aa02e240f65f2a7"
+        },
+        {
+          "path": "reference/part09/data/NPC_Faction_Reference_v0.1.json",
+          "archive_member": "data/NPC_Faction_Reference_v0.1.json",
+          "bytes": 56328,
+          "sha256": "129a2ff1719da4afb4159b0c09791d04b8c2ddf48d517d7ae2adcb9da557ada0"
+        },
+        {
+          "path": "reference/part09/dependencies/Character_Progression_Reference_v0.1.json",
+          "archive_member": "dependencies/Character_Progression_Reference_v0.1.json",
+          "bytes": 65966,
+          "sha256": "7d621367e75b9cde7ac89b6bc22ba50ad4b53427c36d32b27f7426cc9e7426a6"
+        },
+        {
+          "path": "reference/part09/dependencies/Character_Progression_v0.1.md",
+          "archive_member": "dependencies/Character_Progression_v0.1.md",
+          "bytes": 54639,
+          "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c"
+        },
+        {
+          "path": "reference/part09/dependencies/Combat_Reference_v0.1.json",
+          "archive_member": "dependencies/Combat_Reference_v0.1.json",
+          "bytes": 56489,
+          "sha256": "7d8bcd8ea5451c7a2fbf89a8e3b68aa4bb447230997bab3370a28fe119c583b8"
+        },
+        {
+          "path": "reference/part09/dependencies/Combat_System_v0.1.md",
+          "archive_member": "dependencies/Combat_System_v0.1.md",
+          "bytes": 53850,
+          "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88"
+        },
+        {
+          "path": "reference/part09/dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "archive_member": "dependencies/Difficulty_Baseline_Change_CR-EN-005-001.md",
+          "bytes": 1898,
+          "sha256": "b00aff7a8b9b1bee55f84096151842a1289e602fb836114817cf00e82c61e745"
+        },
+        {
+          "path": "reference/part09/dependencies/English_Learning_System_v0.1.md",
+          "archive_member": "dependencies/English_Learning_System_v0.1.md",
+          "bytes": 55785,
+          "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b"
+        },
+        {
+          "path": "reference/part09/dependencies/Exploration_Layout_Reference_v0.1.json",
+          "archive_member": "dependencies/Exploration_Layout_Reference_v0.1.json",
+          "bytes": 51475,
+          "sha256": "1fdbdb0aa5aaa75279c3fd5ee4d355d7f1a401fdc47b28547c4b35e287357ae1"
+        },
+        {
+          "path": "reference/part09/dependencies/Exploration_Level_Design_v0.1.md",
+          "archive_member": "dependencies/Exploration_Level_Design_v0.1.md",
+          "bytes": 83759,
+          "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310"
+        },
+        {
+          "path": "reference/part09/dependencies/Game_Design_Core_v0.1.md",
+          "archive_member": "dependencies/Game_Design_Core_v0.1.md",
+          "bytes": 36156,
+          "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1"
+        },
+        {
+          "path": "reference/part09/dependencies/Puzzle_System_v0.1.md",
+          "archive_member": "dependencies/Puzzle_System_v0.1.md",
+          "bytes": 59878,
+          "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5"
+        },
+        {
+          "path": "reference/part09/dependencies/Quest_Event_System_v0.1.md",
+          "archive_member": "dependencies/Quest_Event_System_v0.1.md",
+          "bytes": 64353,
+          "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33"
+        },
+        {
+          "path": "reference/part09/dependencies/World_Story_Bible_v0.1.md",
+          "archive_member": "dependencies/World_Story_Bible_v0.1.md",
+          "bytes": 85846,
+          "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d"
+        },
+        {
+          "path": "reference/part09/materials/NPC-MAT-01_Havel_Plan_Review.md",
+          "archive_member": "materials/NPC-MAT-01_Havel_Plan_Review.md",
+          "bytes": 1644,
+          "sha256": "328bb99b0876716bd760652b8fed0499b8b4220e0d384af30f3f06509317dad1"
+        },
+        {
+          "path": "reference/part09/materials/NPC-MAT-02_Lina_Contact.md",
+          "archive_member": "materials/NPC-MAT-02_Lina_Contact.md",
+          "bytes": 1312,
+          "sha256": "23f6eab2a76ac9c02e0402ab91f89da47120a06ec81141a88f0a2c7373428db9"
+        },
+        {
+          "path": "reference/part09/materials/NPC-MAT-03_Oren_Repair.md",
+          "archive_member": "materials/NPC-MAT-03_Oren_Repair.md",
+          "bytes": 1392,
+          "sha256": "65d732e417d5cd3e975c3ffb47a6a137469857c9b33b1b197c5fbf033a9f7926"
+        },
+        {
+          "path": "reference/part09/materials/NPC-MAT-04_Mira_Access.md",
+          "archive_member": "materials/NPC-MAT-04_Mira_Access.md",
+          "bytes": 1532,
+          "sha256": "32bdf2febab6b6513c5a22f58104ce8014f98aed49b76b69ead5e9a88ea25b77"
+        },
+        {
+          "path": "reference/part09/materials/NPC-MAT-05_Tess_Handover.md",
+          "archive_member": "materials/NPC-MAT-05_Tess_Handover.md",
+          "bytes": 1432,
+          "sha256": "4fa7bba1f251f1ac4963655b8c40036c4b6466124441642699cde5bf2d348edf"
+        },
+        {
+          "path": "reference/part09/materials/NPC-MAT-06_Chair_Banter.md",
+          "archive_member": "materials/NPC-MAT-06_Chair_Banter.md",
+          "bytes": 963,
+          "sha256": "704c0c2b8e5229d6f7b9938a1104672c298f6207f69194631f7a0914158be798"
+        },
+        {
+          "path": "reference/part09/validation/npc_reference.py",
+          "archive_member": "validation/npc_reference.py",
+          "bytes": 14418,
+          "sha256": "71159c9b12345fb36f4a7af0c99019dc8493a87ad34adbceaae175fc4eb53b0a"
+        },
+        {
+          "path": "reference/part09/validation/run_log.txt",
+          "archive_member": "validation/run_log.txt",
+          "bytes": 6445,
+          "sha256": "c123ee7fd7e98e7cb251ced24315d2b08ad606c5b755ac03614f7661bc944b3b"
+        },
+        {
+          "path": "reference/part09/validation/run_validation.py",
+          "archive_member": "validation/run_validation.py",
+          "bytes": 1303,
+          "sha256": "84f878f8585282880c4161cf22f337390ee13ba819e9a285641c1df951a0d95e"
+        },
+        {
+          "path": "reference/part09/validation/scenario_traces.json",
+          "archive_member": "validation/scenario_traces.json",
+          "bytes": 2429,
+          "sha256": "a686715c4096a6d7e57cae0388af3b19c68e4400a6f5fa007f05345055bfc758"
+        },
+        {
+          "path": "reference/part09/validation/test_npc.py",
+          "archive_member": "validation/test_npc.py",
+          "bytes": 18585,
+          "sha256": "0c4365f254b0202ae7d78e8ffae54e08c702c27b81e2e0cea846b6a18f966ee5"
+        },
+        {
+          "path": "reference/part09/validation/validation_report.json",
+          "archive_member": "validation/validation_report.json",
+          "bytes": 635,
+          "sha256": "ba00d13acbc6a785b4f137326f69ed02fb7d6ce4244376e42edb3edc9f64147b"
+        }
+      ]
+    },
+    {
+      "part": 10,
+      "original_archive": "Part10_UI_UX_Design_v0.1.zip",
+      "archive_sha256": "665c4a83d7a20407bc685ea3f5d0b99549f9ab3f659ef0a41d82150dd76789c1",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part10",
+      "member_count": 26,
+      "members": [
+        {
+          "path": "reference/part10/CR-UI-010-001.md",
+          "archive_member": "CR-UI-010-001.md",
+          "bytes": 1351,
+          "sha256": "4a243401eaeae67b155291364a5bca71ef1b09e2e8f8690bc9c172e0f41cf7cc"
+        },
+        {
+          "path": "reference/part10/Codex_Handoff_Part10_v0.1.md",
+          "archive_member": "Codex_Handoff_Part10_v0.1.md",
+          "bytes": 3888,
+          "sha256": "058a659b666e1a9138d71f40cad634bd6dd3d52a2c68252696f34e598290495b"
+        },
+        {
+          "path": "reference/part10/Codex_UI_Task_Cards_v0.1.md",
+          "archive_member": "Codex_UI_Task_Cards_v0.1.md",
+          "bytes": 4506,
+          "sha256": "fcbacbe059931613aca8b8afd2fac723fee8b14bd5de396256ee37907760cb85"
+        },
+        {
+          "path": "reference/part10/FILE_MANIFEST.json",
+          "archive_member": "FILE_MANIFEST.json",
+          "bytes": 3540,
+          "sha256": "33c013eee2524f9add3947451b9ae310b89cf2563920a81f3423de11f24e9f17"
+        },
+        {
+          "path": "reference/part10/README.md",
+          "archive_member": "README.md",
+          "bytes": 2454,
+          "sha256": "41ad9a521969baafd31471efddff97e35e4913a5417c55dc6b79404a868ac60e"
+        },
+        {
+          "path": "reference/part10/UI_UX_Spec_v0.1.md",
+          "archive_member": "UI_UX_Spec_v0.1.md",
+          "bytes": 53334,
+          "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7"
+        },
+        {
+          "path": "reference/part10/UI_UX_Validation_v0.1.md",
+          "archive_member": "UI_UX_Validation_v0.1.md",
+          "bytes": 3406,
+          "sha256": "e8a35e79b71c72180447ac5c95a2b1f5b01353ea060e5e023524308e255a238b"
+        },
+        {
+          "path": "reference/part10/data/Codex_UI_Tasks_v0.1.json",
+          "archive_member": "data/Codex_UI_Tasks_v0.1.json",
+          "bytes": 6670,
+          "sha256": "cd2338d756f4020343b4465bbec960deb8ff2687e71ef247160ad1136e9d1a1a"
+        },
+        {
+          "path": "reference/part10/data/Q102_Material_Reference_v0.1.json",
+          "archive_member": "data/Q102_Material_Reference_v0.1.json",
+          "bytes": 10362,
+          "sha256": "7ae3d513a9a541a7522c680fe945813c65c680c610b3d8ea7e60ac23c752df36"
+        },
+        {
+          "path": "reference/part10/data/UI_Acceptance_v0.1.json",
+          "archive_member": "data/UI_Acceptance_v0.1.json",
+          "bytes": 12200,
+          "sha256": "8350a44e2736f2fe9d16f4d1fbccf742536deefa0ee52c7561fd8850456a24a6"
+        },
+        {
+          "path": "reference/part10/data/UI_UX_Reference_v0.1.json",
+          "archive_member": "data/UI_UX_Reference_v0.1.json",
+          "bytes": 20151,
+          "sha256": "b3c78b2955371fb8479954ab07bd53f81e0ed1a9ab930f077556ba1cec209489"
+        },
+        {
+          "path": "reference/part10/prototype/UI_Wireframe_v0.1.html",
+          "archive_member": "prototype/UI_Wireframe_v0.1.html",
+          "bytes": 39680,
+          "sha256": "46c0841c3616fab778d2711626962c19d97b94f9f07af7cafcc1a4563822b68a"
+        },
+        {
+          "path": "reference/part10/references/Source_Manifest_v0.1.json",
+          "archive_member": "references/Source_Manifest_v0.1.json",
+          "bytes": 1371,
+          "sha256": "0d995d2b99fae8d570b0471b76a3373af7d1770edd1de9e0185baa7e713600a2"
+        },
+        {
+          "path": "reference/part10/validation/browser_report.json",
+          "archive_member": "validation/browser_report.json",
+          "bytes": 2915,
+          "sha256": "43c13f9a1127e8270da03da9d5aa787886676addd4fc94e02bba3bf2e1223c36"
+        },
+        {
+          "path": "reference/part10/validation/browser_test_log.txt",
+          "archive_member": "validation/browser_test_log.txt",
+          "bytes": 1126,
+          "sha256": "ca4cb4593fba501af062c029926a8f6f82a5ffd3834703564cca64642baf8ea2"
+        },
+        {
+          "path": "reference/part10/validation/independent_recheck.json",
+          "archive_member": "validation/independent_recheck.json",
+          "bytes": 755,
+          "sha256": "680bb3628a59220859723c529562bf5f9a6121ef4ac1c5d1c5b9d083fb6d1ca4"
+        },
+        {
+          "path": "reference/part10/validation/qa_writing_1280.png",
+          "archive_member": "validation/qa_writing_1280.png",
+          "bytes": 266151,
+          "sha256": "64d0846e068f884177051f95c29de0b3caa7791468f19be660667961da90dfe8"
+        },
+        {
+          "path": "reference/part10/validation/qa_writing_1920.png",
+          "archive_member": "validation/qa_writing_1920.png",
+          "bytes": 284610,
+          "sha256": "12de02d149ed2fe2340ac9afd9b9fbecc194b83b91624519cebb381842fd3bf6"
+        },
+        {
+          "path": "reference/part10/validation/qa_writing_200.png",
+          "archive_member": "validation/qa_writing_200.png",
+          "bytes": 332040,
+          "sha256": "6c7e5fbea6e2711b9c5a66586df4171c4069957812c62f658bf0eb726f30eb86"
+        },
+        {
+          "path": "reference/part10/validation/reference_report.json",
+          "archive_member": "validation/reference_report.json",
+          "bytes": 6986,
+          "sha256": "dba4259ce79e4971714a1b9d4b28d1c728abed84c3a06746d85960a908147474"
+        },
+        {
+          "path": "reference/part10/validation/run_reference_checks.py",
+          "archive_member": "validation/run_reference_checks.py",
+          "bytes": 1353,
+          "sha256": "2107fdf89978d63690732bc3c33a069e5bab80e21011696a78cbb7f1d56a0539"
+        },
+        {
+          "path": "reference/part10/validation/summary.json",
+          "archive_member": "validation/summary.json",
+          "bytes": 634,
+          "sha256": "ae42d95f788c61ada2d9b72090fc730902c80e8c29ce826e7c86f6918a45cd00"
+        },
+        {
+          "path": "reference/part10/validation/test_browser.py",
+          "archive_member": "validation/test_browser.py",
+          "bytes": 11988,
+          "sha256": "6c2d14c6859c92193a7dd3e1a098d316e4f6a4538d01e6d404b9c4c01932ed1c"
+        },
+        {
+          "path": "reference/part10/validation/test_ui_reference.py",
+          "archive_member": "validation/test_ui_reference.py",
+          "bytes": 12121,
+          "sha256": "d162f405fc0bcead256eabebd0ded6d102e6fe74743a56bb7d07c2fdcf4af941"
+        },
+        {
+          "path": "reference/part10/validation/ui_reference.py",
+          "archive_member": "validation/ui_reference.py",
+          "bytes": 10566,
+          "sha256": "4ae2c6e0410dfbfdad9c12f1bace955959bad8a63690f545f7d064bfb89abda8"
+        },
+        {
+          "path": "reference/part10/validation/unit_test_log.txt",
+          "archive_member": "validation/unit_test_log.txt",
+          "bytes": 6878,
+          "sha256": "db74cbc949f616959b9381bbe1abbd2162e2e02c48165cca0b8777636acee03e"
+        }
+      ]
+    },
+    {
+      "part": 11,
+      "original_archive": "Part11_Content_AI_Design_v0.1.zip",
+      "archive_sha256": "00719b08447fa7bb29c8fd09f4b56ce17a5eeba9cd4fe4662820e8dbca757e4a",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part11",
+      "member_count": 46,
+      "members": [
+        {
+          "path": "reference/part11/Codex_Handoff_Part11_v0.1.md",
+          "archive_member": "Codex_Handoff_Part11_v0.1.md",
+          "bytes": 3298,
+          "sha256": "4000256f941cba7f61600aa661394f70ebfa170ccf513b70695db527a6ed1501"
+        },
+        {
+          "path": "reference/part11/Content_AI_Pipeline_v0.1.md",
+          "archive_member": "Content_AI_Pipeline_v0.1.md",
+          "bytes": 45924,
+          "sha256": "9e9824c49e75a4fe3c8c3aae8ac6b843017cfe3f19f1face64a9b70a4229a738"
+        },
+        {
+          "path": "reference/part11/Content_AI_Validation_v0.1.md",
+          "archive_member": "Content_AI_Validation_v0.1.md",
+          "bytes": 2581,
+          "sha256": "a07622f07e613ea21302b9e55d4e6ce481436eda2beed72a9bbd62e159e7884b"
+        },
+        {
+          "path": "reference/part11/PACKAGE_MANIFEST.json",
+          "archive_member": "PACKAGE_MANIFEST.json",
+          "bytes": 7637,
+          "sha256": "0d3a70361809e7b5d9fdb2238fd9d0f9062a99ccb8e4d4f5cd2dacfffa472a39"
+        },
+        {
+          "path": "reference/part11/README.md",
+          "archive_member": "README.md",
+          "bytes": 1797,
+          "sha256": "d0ab7f432f8d71a41dce9fa7e424b8cb17acb11c7d0c633eb6d55e424de043a0"
+        },
+        {
+          "path": "reference/part11/References_v0.1.md",
+          "archive_member": "References_v0.1.md",
+          "bytes": 1461,
+          "sha256": "1e87a23f225550bbbb93eda21761d2d07430d86b1ab4bd79a1be614d4d6115ec"
+        },
+        {
+          "path": "reference/part11/data/Audio_Production_Card_v0.1.json",
+          "archive_member": "data/Audio_Production_Card_v0.1.json",
+          "bytes": 1484,
+          "sha256": "2cd3cbdb33115e4397e0f7e686398824d819c896ff6dd200a249e612477be96a"
+        },
+        {
+          "path": "reference/part11/data/Codex_Content_AI_Tasks_v0.1.json",
+          "archive_member": "data/Codex_Content_AI_Tasks_v0.1.json",
+          "bytes": 4654,
+          "sha256": "8270f32663ea5c0ed6785430cbd06fb9f084067f38e852596db1d41dad4ab68e"
+        },
+        {
+          "path": "reference/part11/data/Content_AI_Acceptance_v0.1.json",
+          "archive_member": "data/Content_AI_Acceptance_v0.1.json",
+          "bytes": 13270,
+          "sha256": "6f39c8398e7165621ccc246e7a255b376dd16a75de0f1dd07c5608d7d1b34d9c"
+        },
+        {
+          "path": "reference/part11/data/Content_AI_Reference_v0.1.json",
+          "archive_member": "data/Content_AI_Reference_v0.1.json",
+          "bytes": 2225,
+          "sha256": "044973db4b29cf7f714bb12b87858616a79efcfbc67aeaa63d95da0462f12513"
+        },
+        {
+          "path": "reference/part11/data/Dependency_Graph_v0.1.json",
+          "archive_member": "data/Dependency_Graph_v0.1.json",
+          "bytes": 780,
+          "sha256": "b75237715469cf4ed5130297537b55f44438c141bc35830d3632773df84373c1"
+        },
+        {
+          "path": "reference/part11/data/Golden_Semantic_Cases_v0.1.json",
+          "archive_member": "data/Golden_Semantic_Cases_v0.1.json",
+          "bytes": 2004,
+          "sha256": "fe68ae9a295a641ac4c95484408660ed397eb74767dc64637cbb67cd861129f9"
+        },
+        {
+          "path": "reference/part11/data/Production_Jobs_v0.1.json",
+          "archive_member": "data/Production_Jobs_v0.1.json",
+          "bytes": 7190,
+          "sha256": "43619aa4f9199844b3aa3673a795ead9fbe57825d1fa6c2481dbd7b44ca28b2d"
+        },
+        {
+          "path": "reference/part11/data/Projected_Request_Example_v0.1.json",
+          "archive_member": "data/Projected_Request_Example_v0.1.json",
+          "bytes": 1424,
+          "sha256": "daf432ddab68812945691264ba87ca1924561a5dacb83403c5e5210bc10e9719"
+        },
+        {
+          "path": "reference/part11/data/Prompt_Registry_v0.1.json",
+          "archive_member": "data/Prompt_Registry_v0.1.json",
+          "bytes": 2097,
+          "sha256": "ecc0ca2ddffac8febf34c1378f771f8865d98986ec7d541b1d654c45aa2ee551"
+        },
+        {
+          "path": "reference/part11/data/Q102_Canonical_Input_v0.1.json",
+          "archive_member": "data/Q102_Canonical_Input_v0.1.json",
+          "bytes": 11757,
+          "sha256": "994573b7ea9fe2df9142db9975bf2978932d1ec9285cdb98da613d59d81cddc8"
+        },
+        {
+          "path": "reference/part11/data/Q102_Production_Bundle_v0.1.json",
+          "archive_member": "data/Q102_Production_Bundle_v0.1.json",
+          "bytes": 3168,
+          "sha256": "e9a3dd4ccb5ee0c8af7f60e7ac3dda6f8ac8888bae2500dff3306646428f0800"
+        },
+        {
+          "path": "reference/part11/data/Runtime_Features_v0.1.json",
+          "archive_member": "data/Runtime_Features_v0.1.json",
+          "bytes": 1367,
+          "sha256": "b087673ed003463dc91fcada4e2acb176ba8bf945d14167fc38c360c037f7b95"
+        },
+        {
+          "path": "reference/part11/data/Source_Material_Catalog_v0.1.json",
+          "archive_member": "data/Source_Material_Catalog_v0.1.json",
+          "bytes": 99132,
+          "sha256": "1d2312a3a03b8b10e83f90a11278651087cf548335df58a36a32fd131ef3962f"
+        },
+        {
+          "path": "reference/part11/data/Upstream_Manifest_v0.1.json",
+          "archive_member": "data/Upstream_Manifest_v0.1.json",
+          "bytes": 3432,
+          "sha256": "5d683aae5d503c64ac46ae0be13ccd5b03d015cd77e85f0d8db9ffc4dc9c0f47"
+        },
+        {
+          "path": "reference/part11/materials/AI-Q102-LOCAL-NOTE_v0.1.json",
+          "archive_member": "materials/AI-Q102-LOCAL-NOTE_v0.1.json",
+          "bytes": 899,
+          "sha256": "60a5251f130612edf874c7dc6423ccfdc60f27fab9c777af30be8eb69bb7624b"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-01.md",
+          "archive_member": "prompts/PR-CAI-01.md",
+          "bytes": 1240,
+          "sha256": "3ca87c9691e7886d340b5a81e01de353c77917640025474e8923c9de84b03f42"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-02.md",
+          "archive_member": "prompts/PR-CAI-02.md",
+          "bytes": 1153,
+          "sha256": "3eaf8ca1bb191479ad794c688ae052393dceec8f4d7a366f08a846c580e8b653"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-03.md",
+          "archive_member": "prompts/PR-CAI-03.md",
+          "bytes": 1174,
+          "sha256": "c5cec8e1c33cc3d96b5fe9f48245e17d26c7bfa5156b9bfb9c9d0915e2a7a989"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-04.md",
+          "archive_member": "prompts/PR-CAI-04.md",
+          "bytes": 1094,
+          "sha256": "39b53a20cf1f9143ea592bc92c7f2311452a1c2f30d9288c8565f1f5f7adc5d1"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-05.md",
+          "archive_member": "prompts/PR-CAI-05.md",
+          "bytes": 1148,
+          "sha256": "fee850fb485ca822000eae6abeb9979283e8b61b4b0cdbbe48b07c08b909ea05"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-06.md",
+          "archive_member": "prompts/PR-CAI-06.md",
+          "bytes": 1118,
+          "sha256": "3c8af6ddf06791a3120ba016e2ae93fa98531e22c71f2de863aedb63e4464f3a"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-07.md",
+          "archive_member": "prompts/PR-CAI-07.md",
+          "bytes": 1155,
+          "sha256": "1351da75858699be8e310115db7746418af93949ba6467315e9dad720d12a971"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-08.md",
+          "archive_member": "prompts/PR-CAI-08.md",
+          "bytes": 1093,
+          "sha256": "f004a412b369032525e4b41435e74642b38f83140c00edbe4d9c85334a455fac"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-09.md",
+          "archive_member": "prompts/PR-CAI-09.md",
+          "bytes": 1150,
+          "sha256": "7e666263a9d9b263129f532aac550e6831b42da913678716782c5b718b4699db"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-10.md",
+          "archive_member": "prompts/PR-CAI-10.md",
+          "bytes": 1107,
+          "sha256": "b25718b828fd295597f364e5fb598a66367fbfa21b1cdda4376d0cf087561c85"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-11.md",
+          "archive_member": "prompts/PR-CAI-11.md",
+          "bytes": 1176,
+          "sha256": "2745e67d020fe9f7bdea41a1e40d28f4578a8b428c4df41dac803cee76845110"
+        },
+        {
+          "path": "reference/part11/prompts/PR-CAI-12.md",
+          "archive_member": "prompts/PR-CAI-12.md",
+          "bytes": 1179,
+          "sha256": "5bd0f67719032ac89ac96399309e96f624f9ea0a8e1a4633fda66383c0463fc0"
+        },
+        {
+          "path": "reference/part11/requirements.txt",
+          "archive_member": "requirements.txt",
+          "bytes": 19,
+          "sha256": "756cc9e506ae4ee1a6f6c0507088b5cfc0dc8ba350fb2d2d46f1ffa72033adb6"
+        },
+        {
+          "path": "reference/part11/schemas/Runtime_Reply_v0.1.schema.json",
+          "archive_member": "schemas/Runtime_Reply_v0.1.schema.json",
+          "bytes": 6019,
+          "sha256": "04ad089b44fed0c74adb38ebb8e05af8f91a41f77ac58491a15798d0c0c44881"
+        },
+        {
+          "path": "reference/part11/tools/build_design_data.py",
+          "archive_member": "tools/build_design_data.py",
+          "bytes": 14027,
+          "sha256": "c58f62d244496cec596238f42112209d15579b0a8893dfc4763821d9d021c850"
+        },
+        {
+          "path": "reference/part11/tools/build_inventory.py",
+          "archive_member": "tools/build_inventory.py",
+          "bytes": 7193,
+          "sha256": "27b1ea42f99094fbd6656edee50b683d68d668887c9d35518c10c703d73e2077"
+        },
+        {
+          "path": "reference/part11/tools/build_prompts.py",
+          "archive_member": "tools/build_prompts.py",
+          "bytes": 9096,
+          "sha256": "a2e00822ba5ec8a468ee345dbb92795d1e3d86d71def60d868f268ff84138fee"
+        },
+        {
+          "path": "reference/part11/tools/finalize_docs.py",
+          "archive_member": "tools/finalize_docs.py",
+          "bytes": 13309,
+          "sha256": "1f9036f912f18d2e764856624dc0ca97e61a0073a8e18a4f0c2aeffe5787db16"
+        },
+        {
+          "path": "reference/part11/tools/preview_q102_request.py",
+          "archive_member": "tools/preview_q102_request.py",
+          "bytes": 1863,
+          "sha256": "d39583eb8b6baa6e6c97c8d8d37add7140e732882c223ff2b5d74d627ed6f1c8"
+        },
+        {
+          "path": "reference/part11/tools/verify_package.py",
+          "archive_member": "tools/verify_package.py",
+          "bytes": 684,
+          "sha256": "e6158fda0d1e0d97770a00e41905296f9fc6915329aa09a50b444ae32bd331c4"
+        },
+        {
+          "path": "reference/part11/validation/pipeline_reference.py",
+          "archive_member": "validation/pipeline_reference.py",
+          "bytes": 15595,
+          "sha256": "593d7c5e6a06e66afe4e5f8609f4f7cba26cc90b28cc9ce5e9d86ed96fb3ed6f"
+        },
+        {
+          "path": "reference/part11/validation/run_checks.py",
+          "archive_member": "validation/run_checks.py",
+          "bytes": 2027,
+          "sha256": "4a36f99b80285debdc1e7ccafaae517b608354d09dcb6012b31ccca51d36a554"
+        },
+        {
+          "path": "reference/part11/validation/test_log.txt",
+          "archive_member": "validation/test_log.txt",
+          "bytes": 9083,
+          "sha256": "eaeb91b8bdad8bfd267541048d5ba96a4fa34bb889ee6d83ba44ebdc438448f2"
+        },
+        {
+          "path": "reference/part11/validation/test_pipeline.py",
+          "archive_member": "validation/test_pipeline.py",
+          "bytes": 18884,
+          "sha256": "818ff8a41be4e92aea5d47855a396d82b0e2ca8cf5fb2cb3e5b642bdfb091077"
+        },
+        {
+          "path": "reference/part11/validation/validation_report.json",
+          "archive_member": "validation/validation_report.json",
+          "bytes": 10437,
+          "sha256": "59ca32ba50f79da4eb45514fe6f528e89abd35895fa05e8eadb152ad564f5b0a"
+        }
+      ]
+    },
+    {
+      "part": 12,
+      "original_archive": "Part12_Technical_Architecture_v0.1.zip",
+      "archive_sha256": "e0c23512a805c65f783d56eaa4e04737a8a5e9a420f8aa53a0a3c1d66047e6ba",
+      "original_archive_not_redistributed": true,
+      "extracted_root": "reference/part12",
+      "member_count": 29,
+      "members": [
+        {
+          "path": "reference/part12/PACKAGE_MANIFEST.json",
+          "archive_member": "PACKAGE_MANIFEST.json",
+          "bytes": 4654,
+          "sha256": "50c17d415276382fc2abd67e9eed40ca7919cd40d62badfedf3efd7451a9b7a8"
+        },
+        {
+          "path": "reference/part12/README.md",
+          "archive_member": "README.md",
+          "bytes": 1730,
+          "sha256": "cb0566759237c87a703dc86cecbe1b9a76ca1b9cb131cc80ee8a6d35a85a7f1a"
+        },
+        {
+          "path": "reference/part12/Technical_Architecture_v0.1.md",
+          "archive_member": "Technical_Architecture_v0.1.md",
+          "bytes": 52384,
+          "sha256": "93b80938c2bf37313d96c1f6eaee2f54bcfb9d5344d78f572619d6754168f8c2"
+        },
+        {
+          "path": "reference/part12/Technical_Validation_v0.1.md",
+          "archive_member": "Technical_Validation_v0.1.md",
+          "bytes": 3921,
+          "sha256": "0949f9d61ac698b67c45d22ad0d8a457c5a047bc4e92c5ef3c3ca0205cb65b10"
+        },
+        {
+          "path": "reference/part12/csharp/Contracts.cs",
+          "archive_member": "csharp/Contracts.cs",
+          "bytes": 3920,
+          "sha256": "0fe1423f61dd66f44e9fbb56078dcca81676538b2dd46c94229dbff4aad486e5"
+        },
+        {
+          "path": "reference/part12/csharp/Mist.Contracts.csproj",
+          "archive_member": "csharp/Mist.Contracts.csproj",
+          "bytes": 297,
+          "sha256": "130166e6d0776367866804aace706396f6ac6db96f2973375e02b2ca5b869cff"
+        },
+        {
+          "path": "reference/part12/csharp/global.json",
+          "archive_member": "csharp/global.json",
+          "bytes": 79,
+          "sha256": "289e45aafd6eb59adcc4b7dda4d6fe5f1924065345aa8ab75be4a0c2b9cb00db"
+        },
+        {
+          "path": "reference/part12/data/acceptance_cases.json",
+          "archive_member": "data/acceptance_cases.json",
+          "bytes": 11474,
+          "sha256": "5cc54e5ed85db9a4d4f2e93e7f4557c32a8641c1c29679be69002df36020f33e"
+        },
+        {
+          "path": "reference/part12/data/adapter_inventory.json",
+          "archive_member": "data/adapter_inventory.json",
+          "bytes": 5015,
+          "sha256": "7e124d0f851678bf09fd28d24e456b2559ec2c9d48dd1777142a5143bdd6b187"
+        },
+        {
+          "path": "reference/part12/data/architecture_reference.json",
+          "archive_member": "data/architecture_reference.json",
+          "bytes": 3326,
+          "sha256": "0c0841fc10327cee812322d4eeb7a35cf320b7a9b0e4194b86b12d1e3cb07357"
+        },
+        {
+          "path": "reference/part12/data/sources.json",
+          "archive_member": "data/sources.json",
+          "bytes": 1419,
+          "sha256": "805cc5b247288a941e97d4c44537f77e657bc494c270cbd1a1ccdf494ae891a8"
+        },
+        {
+          "path": "reference/part12/data/toolchain_selection.json",
+          "archive_member": "data/toolchain_selection.json",
+          "bytes": 1129,
+          "sha256": "81e6e9b054cf9780d5df1b84593ab2ad9e10cc49b763bcb303e5a84933d7e361"
+        },
+        {
+          "path": "reference/part12/data/upstream_manifest.json",
+          "archive_member": "data/upstream_manifest.json",
+          "bytes": 1862,
+          "sha256": "dc8e5dbfdcc9b08efe6f38b7302a71d3a8797cb817018e712a00e7ef9cab8af8"
+        },
+        {
+          "path": "reference/part12/data/upstream_quest_ids.json",
+          "archive_member": "data/upstream_quest_ids.json",
+          "bytes": 2274,
+          "sha256": "cd3e9ccd1575703eca00a088b13e4fe15c627eb55bc2fb63cde48c8d9155eb32"
+        },
+        {
+          "path": "reference/part12/docs/Codex_Handoff_Part12_v0.1.md",
+          "archive_member": "docs/Codex_Handoff_Part12_v0.1.md",
+          "bytes": 5738,
+          "sha256": "b63ce14d8bab374e6ac670ac578894cadb776258006b1ae8d912167c01afe5de"
+        },
+        {
+          "path": "reference/part12/docs/Sources.md",
+          "archive_member": "docs/Sources.md",
+          "bytes": 1518,
+          "sha256": "876ffb27eede297d57c9869b89a597d3609e7ee4a7938dc3b593ecf81075044c"
+        },
+        {
+          "path": "reference/part12/examples/depart_command.json",
+          "archive_member": "examples/depart_command.json",
+          "bytes": 498,
+          "sha256": "344b62764c0439b8c38103cdfc91ca3fa96d754d70ebff817e4334e5b1c9e093"
+        },
+        {
+          "path": "reference/part12/reference/content_reference.py",
+          "archive_member": "reference/content_reference.py",
+          "bytes": 3738,
+          "sha256": "5fe776b9f0f92d2f32d4a3619890508cec75fbfde718ca36e5f71820bb1d52b0"
+        },
+        {
+          "path": "reference/part12/reference/run_checks.py",
+          "archive_member": "reference/run_checks.py",
+          "bytes": 1953,
+          "sha256": "8648b8ee85535c25d4361caf1bf4c9e1e48c7b4c656203644cd988d442c10b96"
+        },
+        {
+          "path": "reference/part12/reference/storage_reference.py",
+          "archive_member": "reference/storage_reference.py",
+          "bytes": 20123,
+          "sha256": "0970e7fb77ed23106d247b625396f57e2e0d7960f47b60be4f176b89115db8a0"
+        },
+        {
+          "path": "reference/part12/reference/test_reference.py",
+          "archive_member": "reference/test_reference.py",
+          "bytes": 19323,
+          "sha256": "2b9640ceb1cd70bd13d6ef1c1013d04de44240a948b4d1bdc8b8c1e3cc55fb62"
+        },
+        {
+          "path": "reference/part12/schemas/checkpoint.schema.json",
+          "archive_member": "schemas/checkpoint.schema.json",
+          "bytes": 4895,
+          "sha256": "d7cf7f73c9c488800cccb3de1798fdb1b1d7637753a1be3d42ce2ddfe4921b4a"
+        },
+        {
+          "path": "reference/part12/schemas/command.schema.json",
+          "archive_member": "schemas/command.schema.json",
+          "bytes": 2352,
+          "sha256": "84a7bcff36d02dbbc98df95e599b3edeb33b0dbb9e504caccd996e9f6b1ac1b7"
+        },
+        {
+          "path": "reference/part12/schemas/content_release.schema.json",
+          "archive_member": "schemas/content_release.schema.json",
+          "bytes": 1717,
+          "sha256": "1e43ea74e7b5c01f7599484b6d47ec8c8bf8fa05ee5b20adb87c239a6891d3ef"
+        },
+        {
+          "path": "reference/part12/sql/001_privacy_control.sql",
+          "archive_member": "sql/001_privacy_control.sql",
+          "bytes": 572,
+          "sha256": "a2bbc6ae0d82e5a029f1941b78b7393fd723089027bc53f4be2fd19145373181"
+        },
+        {
+          "path": "reference/part12/sql/001_profile.sql",
+          "archive_member": "sql/001_profile.sql",
+          "bytes": 4253,
+          "sha256": "3088061ab3153445534510de4b52667632f017d5377ed92b3a1a7cf13f77ef0c"
+        },
+        {
+          "path": "reference/part12/validation/independent_extract.json",
+          "archive_member": "validation/independent_extract.json",
+          "bytes": 282,
+          "sha256": "74e320c71d602e6e9cc89d63aa2afc937a8c36bbdc35b407f88f12591025ce0c"
+        },
+        {
+          "path": "reference/part12/validation/run.log",
+          "archive_member": "validation/run.log",
+          "bytes": 6199,
+          "sha256": "c86824ddde891edee0e0118a983904e47e9a37105f4c7cf591c81c56cf10ff7f"
+        },
+        {
+          "path": "reference/part12/validation/validation_report.json",
+          "archive_member": "validation/validation_report.json",
+          "bytes": 6957,
+          "sha256": "9e6250311768b4281e056208f01f7a45ef66d2480738944a4ff551dd94fee649"
+        }
+      ]
+    }
+  ],
+  "manifest_entries_checked": 267,
+  "archive_members_checked": 277,
+  "canonical_markdown_conflicts": [],
+  "fonts_included": false
+}

@@ -1,0 +1,85 @@
+#if DEBUG
+using System.Collections.Immutable;
+using Godot;
+using Mist.Application.ChapterFive;
+using Mist.Application.Contracts;
+using Mist.Core.ChapterFive;
+using Mist.Core.Combat;
+using Mist.Core.Contracts;
+using Mist.Core.Engineering;
+using Mist.Core.Exploration;
+using Mist.DebugCandidates;
+
+public partial class Root
+{
+    private async Task RunChapterFiveClientTests()
+    {
+        var checks=new List<object>();int failures=0;void Check(string name,bool ok){checks.Add(new{name,passed=ok});if(!ok)failures++;}
+        async Task Frame(){await ToSignal(GetTree(),SceneTree.SignalName.ProcessFrame);await ToSignal(GetTree(),SceneTree.SignalName.ProcessFrame);}
+        async Task Settle(){await Frame();for(int i=0;_busy&&i<3000;i++)await ToSignal(GetTree(),SceneTree.SignalName.ProcessFrame);if(_busy)throw new TimeoutException("R5 UI command did not settle.");await Frame();}
+        IEnumerable<Node> Nodes(Node root){foreach(var node in root.GetChildren()){yield return node;foreach(var child in Nodes(node))yield return child;}}
+        async Task Click(string caption){var buttons=Nodes(_panels.Peek()).OfType<Button>().Where(b=>b.Text==caption).ToArray();if(buttons.Length!=1)throw new InvalidOperationException("Expected single actual UI button: "+caption+"; got "+buttons.Length);buttons[0].EmitSignal(BaseButton.SignalName.Pressed);await Settle();}
+        OptionButton Choice(string name)=>Nodes(_panels.Peek()).OfType<OptionButton>().Single(o=>o.AccessibilityName==name);
+        void Pick(string name,int index)=>Choice(name).Select(index);
+        void Fields(params string[] captions){foreach(var checkbox in Nodes(_panels.Peek()).OfType<CheckBox>())checkbox.ButtonPressed=captions.Contains(checkbox.Text);}
+        async Task Walk(Point2 point){CloseAllPanels();var view=await _chapterFive!.ViewAsync();var path=new NavigationGrid(view.Geometry[view.Actor.Scene]).FindPath(view.Actor.Position,point,true);if(path.Length==0)throw new InvalidOperationException("Actual safe R5 UI route absent.");await _chapterFive.TraverseAsync(path);await Refresh();}
+        async Task Spot(string id){var view=await _chapterFive!.ViewAsync();await Walk(view.Geometry[view.Actor.Scene].Spots.Single(s=>s.Id==id).Stand);_selected=id;InteractSelected();await Settle();}
+        async Task Exit(string scene){var view=await _chapterFive!.ViewAsync();var port=view.Geometry[view.Actor.Scene].Ports.Single(p=>p.TargetScene==scene);await Walk(port.Stand);_selected=port.Id;InteractSelected();await Settle();if((await _chapterFive!.ViewAsync()).Actor.Scene!=scene)throw new InvalidOperationException("Actual R5 UI port failed: "+scene+"; "+_status.Text);}
+        async Task Material(string id){var material=_chapterFive!.Package.Materials.Single(m=>m.Id==id);await Spot(material.Spot);var button=Nodes(_panels.Peek()).OfType<Button>().Single(b=>b.Text.EndsWith(material.Title,StringComparison.Ordinal));button.EmitSignal(BaseButton.SignalName.Pressed);await Settle();if(!Nodes(_panels.Peek()).OfType<TextEdit>().Any(t=>!t.Editable&&t.Text==material.English))throw new InvalidOperationException("Acquired learner original not displayed: "+id);if(material.Kind=="listening_script")Check("script_"+id+"_does_not_claim_audio",_activeAudioId is null);CloseAllPanels();}
+        async Task Act(string action){var station=_chapterFive!.Package.Stations.Single(s=>s.Action==action);await Spot(station.Spot);await Click(station.Label);CloseAllPanels();}
+        async Task Meaning(string quest,int[] indices)
+        {
+            var task=_chapterFive!.Package.WritingTasks.Single(t=>t.Quest==quest);await Spot(task.Spot);CloseAllPanels();await OpenChapterFiveWriter(quest);await Frame();if(_chapterFiveWriter is null)throw new InvalidOperationException("Actual R5 writer absent.");
+            _chapterFiveWriter.Text="Engineering UI candidate prose for "+quest+". The explicit choices below are supplied by this controller and are not automatic English understanding.";_chapterFiveWriter.EmitSignal(TextEdit.SignalName.TextChanged);await Click("保存第五章正文");Check("draft_"+quest+"_actual_ack",(await _store.GetDraftAsync(task.Id))?.Body==_chapterFiveWriter.Text);
+            ApplyScale(200);await Frame();Check("writer_"+quest+"_200_percent",_split.Vertical&&_chapterFiveWriter.GetThemeFontSize("font_size")==40);ApplyScale(100);
+            await Click("明确使用结构化辅助");var choices=Nodes(_panels.Peek()).OfType<OptionButton>().ToArray();Check("meaning_"+quest+"_has_no_default_answer",choices.Length==indices.Length&&choices.All(c=>c.Selected==0));if(choices.Length!=indices.Length)throw new InvalidOperationException("Explicit meaning row count mismatch.");for(int i=0;i<choices.Length;i++)choices[i].Select(indices[i]);await Click("明确记录当前第五章提议");CloseAllPanels();
+        }
+        async Task Submit(string quest,bool checkCancellation=false)
+        {
+            await At(_chapterFive!.SubmissionSpot(quest));CloseAllPanels();long before=(await _store.SnapshotAsync()).Sequence;await OpenChapterFiveSubmission(quest);await Frame();Check("preview_"+quest+"_readonly",(await _store.SnapshotAsync()).Sequence==before);string title="第五章提交预览 · "+quest;if(!_chapterFiveUiPreviews.TryGetValue(title,out var stack)||stack.Count==0)throw new InvalidOperationException("Actual R5 submission not ready: "+quest);
+            if(checkCancellation){var token=stack.Peek();CloseAllPanels();Check("closed_"+quest+"_preview_cancelled",(await _chapterFive!.ConfirmPreviewAsync(token)).Status==CommitStatus.Rejected);await OpenChapterFiveSubmission(quest);await Frame();}
+            await Click("明确提交第五章当前结果");Check("submission_"+quest+"_once",(await _store.SnapshotAsync()).Receipts.Count(r=>r.SemanticKey==quest+":resolution")==1);
+        }
+        async Task Battle(string id,string stationAction)
+        {
+            var station=_chapterFive!.Package.Stations.Single(s=>s.Action==stationAction);await Spot(station.Spot);await Click(station.Label);await Click("明确进入第五章所选遭遇");Check("encounter_"+id+"_native_shared_controls",_routing.Owner==Mist.Application.UI.InputOwner.CombatDecision&&_battleCards.Count==8&&_battleCards.All(c=>c.Size.X>120));
+            // The controller supplies actions; UI visibility is observed, engine transitions remain actual.
+            // This is explicitly not a claim that a human selected every native combat action.
+            for(int i=0;i<800&&(await _chapterFive.EncounterAsync(id))!.Battle.Outcome==CombatOutcome.Active;i++){var battle=(await _chapterFive.EncounterAsync(id))!.Battle;var request=BattleCandidate.Choose(new(_chapterFive.BattleDefinitions,battle));var preview=await PreviewEncounter(request);if(!preview.Action.Legal)throw new InvalidOperationException(preview.Description);CheckCommit(await ConfirmEncounter(preview.Token));}
+            Check("encounter_"+id+"_actual_control",(await _chapterFive.EncounterAsync(id))!.Battle.Outcome==CombatOutcome.Controlled);CloseAllPanels();await Refresh();
+        }
+        async Task Goto(string destination)
+        {
+            var v=await _chapterFive!.ViewAsync();var queue=new Queue<string>();queue.Enqueue(v.Actor.Scene);var previous=new Dictionary<string,string?>{{v.Actor.Scene,null}};
+            while(queue.TryDequeue(out string? scene)){if(scene==destination)break;foreach(var p in v.Geometry[scene].Ports){var scoped=v.Snapshot with{Entities=v.Snapshot.Entities.Select(e=>e.Id=="actor"?e with{Json=StrictJson.Serialize(v.Actor with{Scene=scene})}:e).ToImmutableArray()};if(_chapterFive.PortIssue(scoped,p) is not null||previous.ContainsKey(p.TargetScene))continue;previous.Add(p.TargetScene,scene);queue.Enqueue(p.TargetScene);}}
+            if(!previous.ContainsKey(destination))throw new InvalidOperationException("No permitted actual native R5 route to "+destination);var path=new List<string>();for(string? scene=destination;previous[scene!] is{} from;scene=from)path.Add(scene!);path.Reverse();foreach(string scene in path)await Exit(scene);
+        }
+        async Task At(string spot){await Goto(spot.Split('.')[0]);await Spot(spot);}
+        async Task GetMaterial(string id){await Goto(_chapterFive!.Package.Materials.Single(m=>m.Id==id).Scene);await Material(id);}
+        async Task Do(string action){await Goto(_chapterFive!.Package.Stations.Single(s=>s.Action==action).Spot.Split('.')[0]);await Act(action);}
+        async Task Menu(string action){var st=_chapterFive!.Package.Stations.Single(s=>s.Action==action);await At(st.Spot);await Click(st.Label);}
+        async Task DraftMeaning(string quest,params int[] selected)
+        {var task=_chapterFive!.Package.WritingTasks.Single(t=>t.Quest==quest);await Goto(task.Spot.Split('.')[0]);await Meaning(quest,selected.Length==0?Enumerable.Repeat(1,ChapterFiveMeaningRows(quest).Length).ToArray():selected);}
+        try
+        {
+            if(_chapterFive is null)throw new InvalidOperationException("Native R5 requires the copied actual zero-XP normal-r5-native-entry SQLite profile.");var start=await _store.SnapshotAsync();long marks=start.Balances.GetValueOrDefault("marks"),parts=start.Balances.GetValueOrDefault("parts");Check("actual_normal_entry_has_real_voyage_no_positive_fixture",start.Balances["experience"]==6400&&start.Receipts.Any(r=>r.SemanticKey=="Q-404:resolution"&&r.ActionType=="glasshaven_technical_handover_received")&&start.Receipts.Any(r=>r.ActionType=="sail_shared_glimmer")&&start.Receipts.All(r=>!r.SemanticKey.StartsWith("fixture:",StringComparison.Ordinal)&&r.ActionType is not("explicit_engineering_fixture" or "internal_slice_initialization")));
+            var initial=await _chapterFive.ViewAsync();Check("R5_entry_no_local_progress_or_current_mara",initial.Actor.Scene=="R5-S01"&&initial.Materials.Length==0&&!initial.State.Landing&&!initial.State.MaraReleased&&!initial.State.ResponsibilityScope);
+            await GetMaterial("R5-Q501-R-LANDING");await Do("register_landing");foreach(string id in new[]{"R5-Q501-R-STREET","R5-Q501-R-ESSAY","R5-Q501-L-DIRECTIONS"})await GetMaterial(id);await Do("receive_basic_kit");var withKit=await _store.SnapshotAsync();Check("local_unique_basic_tools_no_engineering_stock",new[]{"R5-basic-kit","R5-basic-lamp","R5-basic-line"}.All(id=>withKit.Items.Count(i=>i.Id==id&&i.OwnerKind=="player"&&i.OwnerId=="hero")==1));await GetMaterial("R5-Q501-R-MAP");await Menu("compare_current_map");Pick("历史桥线",1);Pick("当前路线",1);Pick("入口止境",1);await Click("明确记录当前路线比较");CloseAllPanels();await GetMaterial("R5-Q501-R-CREDENTIAL");await Do("check_current_credentials");await Do("inspect_checkpoint_passage");await Goto("R5-S05");Check("credential_route_actual_duty_hall_not_rescue",(await _chapterFive.ViewAsync()).State.UsedRoute=="CHECKPOINT-DUTY-PASSAGE"&&!(await _chapterFive.ViewAsync()).State.MaraReleased);await DraftMeaning("Q-501");await Submit("Q-501",true);
+
+            await GetMaterial("R5-Q502-R-DUTY");await Menu("request_rescue_scope");Fields("门控状态","值守安排","返程路线状态","来源版本");await Click("明确申请本次必要字段");CloseAllPanels();foreach(string action in new[]{"inspect_detention_records","isolate_detention_drive","clear_duty_obstruction"})await Do(action);await GetMaterial("R5-Q502-R-RESCUE");await Battle("ENC-R5-03","begin_guard_group_encounter");Check("guard_control_does_not_open_cell_or_award",!(await _chapterFive.ViewAsync()).State.MaraReleased&&(await _store.SnapshotAsync()).Balances["experience"]==7300);
+            foreach(string action in new[]{"inspect_detention_door","release_mara","open_inner_evacuation","inspect_inner_evacuation"})await Do(action);Check("direct_mara_contact_alive_before_receiving",(await _chapterFive.ViewAsync()).State.MaraReleased&&!(await _chapterFive.ViewAsync()).State.MaraReceived);await Exit("R5-S02");Check("inner_port_actual_escort_not_teleport",(await _chapterFive.ViewAsync()).State.MaraEscorted&&!(await _chapterFive.ViewAsync()).State.MaraReceived);await GetMaterial("R5-Q502-L-RECEPTION");await Do("receive_mara");await DraftMeaning("Q-502");await Submit("Q-502");Check("actual_mentor_alive_received",StrictJson.Deserialize<MaraRescue>((await _store.SnapshotAsync()).Entities.Single(e=>e.Id=="R5:mara").Json) is{Status:"received_alive",Scene:"R5-S02"});
+
+            await GetMaterial("R5-Q503-R-SCOPE");await Menu("request_responsibility_scope");Fields("设计限制","纠正历史","政策授权","执行指令","来源版本");await Click("明确申请本次必要字段");CloseAllPanels();foreach(string id in new[]{"R5-Q503-R-DESIGN","R5-Q503-R-REVISION","R5-Q503-R-POLICY","R5-Q503-R-EXECUTION","R5-Q503-R-ESSAY","R5-Q503-R-HEARING","R5-Q503-L-HEARING"})await GetMaterial(id);
+            await Menu("compare_responsibilities");foreach(string name in new[]{"来源版本链","执行副本来源","设计责任","政策责任","执行责任"})Pick(name,1);await Click("明确记录各自来源责任");CloseAllPanels();await Menu("choose_review_procedure");Pick("审查程序",2);await Click("明确选择本次审查程序");CloseAllPanels();for(int party=1;party<=3;party++){await Menu("record_response_opportunity");Pick("反证当事方",party);await Click("实际记录本方反证机会");CloseAllPanels();}await DraftMeaning("Q-503");await Submit("Q-503");var review=await _store.SnapshotAsync();Check("three_sources_responsibilities_preserved",new[]{"K-MARA-SIGNATURE","K-MARA-DESIGN-LIMIT","K-VOSS-AUTHORIZATION","K-ROOK-OVERRIDE"}.All(k=>review.Entities.Any(e=>e.Id=="finding:"+k))&&(await _chapterFive.ViewAsync()).State.ResponseParties.Length==3);
+
+            await GetMaterial("R5-Q504-R-OPTIONS");await GetMaterial("R5-Q504-L-COUNCIL");await Menu("choose_temporary_custody");Pick("原件保管",2);Pick("脱敏公开",2);Pick("沃斯有限岗位",1);await Click("明确选择临时保管安排");CloseAllPanels();for(int role=1;role<=3;role++){await Menu("accept_joint_supervision");Pick("接受监督岗位",role);await Click("实际记录本岗接受");CloseAllPanels();}await Do("request_tower_takeover");await GetMaterial("R5-Q504-R-TOWER");await Do("isolate_archive_relay");await Do("secure_archive_rack");await Battle("ENC-R5-04","begin_archive_relay_encounter");await Menu("configure_archive_load");foreach(string name in new[]{"保护负荷","保存负荷","非必要复制"})Pick(name,1);await Click("实际设置本次归档负荷");CloseAllPanels();foreach(string action in new[]{"appoint_archive_operator","test_archive_configuration","inspect_archive_return","verify_archive_safety","record_tower_future_requirements","preserve_original_case","send_transfer_demand"})await Do(action);await GetMaterial("R5-Q504-R-TRANSFER");await DraftMeaning("Q-504",2,2,1,1,1,1,1,1);await Submit("Q-504");
+
+            var final=await _store.SnapshotAsync();Check("fixed_R5_main_rewards_once",final.Balances["experience"]==10500&&final.Balances["marks"]-marks==800&&final.Balances["parts"]-parts==10&&ChapterFiveService.MainQuests.All(q=>final.Receipts.Count(r=>r.SemanticKey==q+":resolution")==1));Check("one_original_case_in_actual_joint_custody",final.Items.Count(i=>i.Id==ChapterFiveService.OriginalCase)==1&&final.Items.Single(i=>i.Id==ChapterFiveService.OriginalCase) is{OwnerKind:"installed",OwnerId:"R5-joint-sealed-vault"});var tower=StrictJson.Deserialize<TowerReadiness>(final.Entities.Single(e=>e.Id=="readiness:TWR-R5").Json);Check("local_safe_does_not_grant_network_conversion",tower.Safe&&!tower.Baseline&&!tower.Operators&&!tower.Transition&&!tower.Trial&&tower.EnhancedVersion is null);var hand=StrictJson.Deserialize<OldCityHandover>(final.Entities.Single(e=>e.Id=="R5:actual_handover").Json);Check("bounded_Q504_R6_permission_not_arrival_or_final_policy",hand is{Destination:"R6",MaraCurrentStatus:"rescued_alive_directly_verified",RookStatus:"refused_transfer_entered_seventh_tower",PolicyDecision:"not_selected"}&&final.Entities.All(e=>e.Id!="chapter6")&&(await _chapterFive.ViewAsync()).Actor.Scene=="R5-S08");
+            await VerifyRegionalLearningClientCandidate(Check);
+            await OpenChapterFiveArchive();await Frame();Check("archive_displays_acquired_learner_source",_routing.Top=="第五章已得档案"&&Nodes(_panels.Peek()).OfType<Button>().Any(b=>b.Text==_chapterFive.Package.Materials.Single(m=>m.Id=="R5-Q503-R-ESSAY").Title));CloseAllPanels();await SaveChapterFiveDraft();await _store.CreateCheckpointAsync("manual");
+        }
+        catch(Exception error){failures++;checks.Add(new{name="chapter_five_client_exception",passed=false,error=error.ToString()});}
+        CloseAllPanels();ReleaseAudio(ref _lessonAudio);ReleaseAudio(ref _lookupAudio);await Frame();string output=System.Environment.GetEnvironmentVariable("MISTSEA_CLIENT_TEST_OUTPUT")??ProjectSettings.GlobalizePath("user://client-test");Directory.CreateDirectory(output);File.WriteAllText(Path.Combine(output,"chapter_five_client_results.json"),StrictJson.Serialize(new{checks,failures,source="actual zero-XP normal-r5-native-entry copied SQLite profile; native materials/stations/editor/meaning/scope/rescue/review/custody/tower/submission controls and actual safe paths; shared combat actions selected by explicit engineering controller",human_native_play="not_run",physical_ime="not_run",screen_reader="not_run",language_calibration="human_pending",audio_playback="not_asserted_by_transcript_read"}));GD.Print("MISTSEA_CHAPTER_FIVE_CLIENT_TESTS "+checks.Count+" failures="+failures);GetTree().Quit(failures==0?0:1);
+    }
+}
+#endif

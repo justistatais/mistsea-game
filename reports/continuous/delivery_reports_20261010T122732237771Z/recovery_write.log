@@ -1,0 +1,5 @@
+{"stage": "recovery_write", "argv": ["D:\\Python312\\python.exe", "-X", "utf8", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\finish_recovery_candidate.py", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T111545212936Z", "--package", "artifacts/windows/latest.json", "--native-ux", "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-076\\native-ux-20261010T121658185119Z"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1", "exit_code": 0, "log": "reports/continuous/delivery_reports_20261010T122732237771Z/recovery_write.log"}
+[stdout]
+{"task_id": "CX-076", "status": "implemented", "pending_dependencies": ["CX-072", "CX-075"], "accepted_task_count": 5}
+
+[stderr]

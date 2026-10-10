@@ -1,0 +1,51 @@
+{
+  "version": "r4-exhibition-credit-candidate-1",
+  "player_projection": true,
+  "review_status": "original_unreviewed",
+  "human_review": "human_pending",
+  "draft_task": "R4-R4OPTIONALCREDIT-W",
+  "recipient": "ROLE-R4-EXHIBITION-ORGANISER",
+  "permit_version": "CR-REVISION-01",
+  "card_definition": "R4-LOCAL-EXHIBITION-CARD",
+  "materials": [
+    {
+      "id": "R4-O02-CREDIT-R-LABEL",
+      "title": "留存原展签 CR-LABEL-v1",
+      "version": "r4-exhibition-credit-candidate-1",
+      "scene": "R4-O02",
+      "spot": "R4-O02.label",
+      "source_root": "r4-exhibition-retained-label",
+      "english": "Retained display label, CR-LABEL-v1. Instrument housing: workshop team. Presentation: presenter. The label identifies the work on the housing and the person who explained the exhibit. It has no separate line for the reference checks. That omission is a reason to consult the contribution book; it does not establish that no checks were made.\n\nThis is the original display copy. Keep it with the exhibit record when proposing a revision. A contribution label describes who did which work. It is not a report of trial output, a certificate that an apparatus is safe, or a statement about the present condition of a distant tower. A new public card may be placed beside this retained copy after the organiser has checked its sources.",
+      "chinese": "留存展签 CR-LABEL-v1：仪表外壳由工坊团队制作，介绍由介绍人承担。原签没有单列参考检查，这意味着应查贡献簿，不能据此说没有检查。修订时保留原签。展签只说明谁做了哪种工作，不是试验输出、安全证书或远方塔站当前状况说明；组织岗位核对来源后可在原件旁陈列新公开卡。",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "R4-O02-CREDIT-R-BOOK",
+      "title": "公共贡献簿 CR-BOOK-v1",
+      "version": "r4-exhibition-credit-candidate-1",
+      "scene": "R4-O02",
+      "spot": "R4-O02.revision",
+      "source_root": "r4-exhibition-contribution-book",
+      "english": "Contribution book, CR-BOOK-v1, public role extract. Construction: the workshop team made the instrument housing. Calibration work for this display: two students checked its reference marks. Presentation: the presenter explained the result to visitors. The entries concern different tasks; presenting the exhibit does not make the speaker the only contributor. The public extract records roles and the number of reference checkers. It does not authorise publication of personal names, addresses or unrelated course records.\n\nThe book is retained separately from the display label. Read both rather than treating a revised label as a new witness to the work. If you want to credit an additional task, leave it as a question for the organiser until a source can be supplied. Correcting a contribution line must not change a measured output or imply that a failed trial succeeded. The trial records remain in their own custody and keep their original results.",
+      "chinese": "CR-BOOK-v1 公共岗位摘录：工坊团队制作仪表外壳；两名学生检查参考标；介绍人向观众说明结果。三种任务不同，发言者不是唯一贡献者。摘录允许岗位和参考检查人数，不允许公开姓名、住址或无关课程记录。贡献簿与原签分别保留，修订签不是另一名见证人。新增贡献未经来源核实应留作询问；修订不能改测量输出或把失败试验说成成功，试验记录保留原结果与保管方。",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    },
+    {
+      "id": "R4-O02-CREDIT-R-PERMIT",
+      "title": "本地展签修订范围 CR-REVISION-01",
+      "version": "r4-exhibition-credit-candidate-1",
+      "scene": "R4-O02",
+      "spot": "R4-O02.revision",
+      "source_root": "r4-exhibition-local-revision-scope",
+      "english": "Public exhibition revision desk, CR-REVISION-01. The organiser's local duty post can receive a proposal about the housing, reference checks and presentation recorded in the two retained sources. Ask for this specific revision commission at the desk. Reading this notice, saving a proposal or knowing the organiser's role does not issue the commission. The permission names the patrol technician as recipient and permits public contribution roles only.\n\nFor an accepted commission, one blank display card is held at this desk. It is local work stock, not a reward or a spare engineering part. Collect that card, compare the sources and explicitly confirm the meaning of your saved proposal. The lettering frame prepares a public role card from those confirmed fields; it does not evaluate your English. Carry the same card to the exhibit, mount it beside the retained label and check it there against the book. Return to this desk for the organiser's actual receipt. Before receipt, you may remove the candidate and reuse that same card for a revision. The old label, book and trial records remain available. This activity awards no experience, marks or parts and supplies no main-line or ending permission.",
+      "chinese": "CR-REVISION-01：本地组织岗位可接收涉及外壳、参考检查及介绍岗位的提议，须在工作台实际申请限定委托；读通知、保存提议或知道岗位名称都不等于取得许可。许可接收人为检修员，只公开贡献岗位。获委托后工作台提供一张唯一空白展示卡，它是工作用料，不是奖励或工程零件。实际取卡、比来源并明确确认已存提议的意思；刻字框按明确字段制成岗位卡，不评价英文。将同一卡带到展位、挂在保留原签旁、对照贡献簿检查，再回台获得实际接收。接收前可取下同一卡重做。原签、贡献簿和试验记录保留。本活动不给经验、刻币、零件或主线结局许可。",
+      "access_class": "public",
+      "review_status": "original_unreviewed",
+      "human_review": "human_pending"
+    }
+  ]
+}

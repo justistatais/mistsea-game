@@ -1,0 +1,95 @@
+{
+  "task_id": "CX-026",
+  "scope": "让支架、电池与灯本体拥有稳定实例和唯一位置，场景不复制权威字段。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "安装后背包不留副本",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-026",
+            "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "关键物不可误售",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-026",
+            "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "读档不重生",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-026",
+            "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "主发电机与工坊储备分开",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-026",
+            "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-026",
+        "name": "Across-wall pickup rejected; installed unique item survives continue and old branch",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-025",
+    "CX-013"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

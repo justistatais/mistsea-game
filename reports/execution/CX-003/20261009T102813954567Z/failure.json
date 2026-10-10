@@ -1,0 +1,57 @@
+{
+  "error": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\n\r\nMISTSEA_UI_RESULTS {\"scope\":\"Godot native controls with synthetic event checks\",\"checks\":{\"3000_word_fixture_loaded\":true,\"unicode_roundtrip\":true,\"editing_does_not_trigger_world\":true,\"synthetic_composition_blocks_scene\":true,\"last_button_reachable_100\":true,\"last_button_reachable_200\":true,\"accessible_names_present\":true},\"real_ime\":\"not_run\",\"real_screen_reader\":\"not_run\"}\r\n\nERROR: IME or NOTIFICATION_WM_IME_UPDATE not supported by this display server.\r\n   at: ime_get_text (servers/display/display_server.cpp:1121)\r\n   C# backtrace (most recent call first):\r\n       [0] string Godot.NativeCalls.godot_icall_0_58(nint, nint) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:510)\r\n       [1] string Godot.DisplayServer.ImeGetText() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/DisplayServer.cs:4376)\r\n       [2] bool UiProbe.Composing() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\UiProbe.cs:82)\r\n       [3] void UiProbe._Input(Godot.InputEvent) (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\UiProbe.cs:99)\r\n       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2642)\r\n       [5] bool Godot.CanvasItem.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/CanvasItem.cs:1845)\r\n       [6] bool Godot.Control.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Control.cs:4029)\r\n       [7] bool UiProbe.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\.godot\\mono\\temp\\obj\\Debug\\Godot.SourceGenerators\\Godot.SourceGenerators.ScriptMethodsGenerator\\UiProbe_ScriptMethods.generated.cs:138)\r\n       [8] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)\r\nERROR: IME or NOTIFICATION_WM_IME_UPDATE not supported by this display server.\r\n   at: ime_get_text (servers/display/display_server.cpp:1121)\r\n   C# backtrace (most recent call first):\r\n       [0] string Godot.NativeCalls.godot_icall_0_58(nint, nint) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:510)\r\n       [1] string Godot.DisplayServer.ImeGetText() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/DisplayServer.cs:4376)\r\n       [2] bool UiProbe.Composing() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\UiProbe.cs:82)\r\n       [3] void UiProbe._Input(Godot.InputEvent) (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\UiProbe.cs:99)\r\n       [4] bool Godot.Node.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Node.cs:2642)\r\n       [5] bool Godot.CanvasItem.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/CanvasItem.cs:1845)\r\n       [6] bool Godot.Control.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/Control.cs:4029)\r\n       [7] bool UiProbe.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name&, Godot.NativeInterop.NativeVariantPtrArgs, Godot.NativeInterop.godot_variant&) (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\.godot\\mono\\temp\\obj\\Debug\\Godot.SourceGenerators\\Godot.SourceGenerators.ScriptMethodsGenerator\\UiProbe_ScriptMethods.generated.cs:138)\r\n       [8] Godot.NativeInterop.godot_bool Godot.Bridge.CSharpInstanceBridge.Call(nint, Godot.NativeInterop.godot_string_name*, Godot.NativeInterop.godot_variant**, int, Godot.NativeInterop.godot_variant_call_error*, Godot.NativeInterop.godot_variant*) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/CSharpInstanceBridge.cs:24)\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\UiProbe.csproj",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-003/20261009T102813954567Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui\\UiProbe.csproj",
+        "--no-restore",
+        "-c",
+        "Debug"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-003/20261009T102813954567Z/build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-003/20261009T102813954567Z/import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\ui",
+        "--",
+        "--ui-test"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-003/20261009T102813954567Z/runtime.log"
+    }
+  ]
+}

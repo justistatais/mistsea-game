@@ -1,0 +1,13 @@
+{
+  "scope": "actual native UI plus read-only SQLite verification",
+  "native_attack_damage": 15,
+  "guard_ap": 0,
+  "enemy_hp": 175,
+  "round": 1,
+  "actor_stayed_at_entry": true,
+  "saved_body": "Combat pause draft 中文😀é WASD\n",
+  "drafting_did_not_refill": true,
+  "native_ime_candidate": "not_run",
+  "screen_reader": "not_run",
+  "human_signoff": null
+}

@@ -1,0 +1,435 @@
+{
+  "task_id": "CX-076",
+  "scope": "对实际发行候选检查权限拒写、满盘、库损坏、旧包与删除恢复、提交丢响应。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "原库不被坏迁移覆盖",
+      "status": "passed",
+      "evidence": {
+        "named_actual_cases": [
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "scope": "isolated Windows SQLite service/process/DACL matrix; no user profile mutation",
+        "not_run": [
+          "Physical power interruption (child process kill is recorded separately)",
+          "Physical system disk-full (the actual SQLite max-page quota failure is a narrower isolated test)",
+          "Complete matrix through the exported executable and native failure UX",
+          "A different clean Windows machine and human recovery/IME/screen-reader validation"
+        ]
+      }
+    },
+    {
+      "criterion": "旧稿和学习范围正确",
+      "status": "passed",
+      "evidence": {
+        "named_actual_cases": [
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "scope": "isolated Windows SQLite service/process/DACL matrix; no user profile mutation",
+        "not_run": [
+          "Physical power interruption (child process kill is recorded separately)",
+          "Physical system disk-full (the actual SQLite max-page quota failure is a narrower isolated test)",
+          "Complete matrix through the exported executable and native failure UX",
+          "A different clean Windows machine and human recovery/IME/screen-reader validation"
+        ]
+      }
+    },
+    {
+      "criterion": "进程终止与物理断电分开",
+      "status": "passed",
+      "evidence": {
+        "named_actual_cases": [
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "scope": "isolated Windows SQLite service/process/DACL matrix; no user profile mutation",
+        "not_run": [
+          "Physical power interruption (child process kill is recorded separately)",
+          "Physical system disk-full (the actual SQLite max-page quota failure is a narrower isolated test)",
+          "Complete matrix through the exported executable and native failure UX",
+          "A different clean Windows machine and human recovery/IME/screen-reader validation"
+        ]
+      }
+    },
+    {
+      "criterion": "无法验证明确not_run",
+      "status": "passed",
+      "evidence": {
+        "named_actual_cases": [
+          {
+            "task": "CX-076",
+            "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+            "result": "passed"
+          },
+          {
+            "task": "CX-076",
+            "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+            "result": "passed"
+          }
+        ],
+        "scope": "isolated Windows SQLite service/process/DACL matrix; no user profile mutation",
+        "not_run": [
+          "Physical power interruption (child process kill is recorded separately)",
+          "Physical system disk-full (the actual SQLite max-page quota failure is a narrower isolated test)",
+          "Complete matrix through the exported executable and native failure UX",
+          "A different clean Windows machine and human recovery/IME/screen-reader validation"
+        ]
+      }
+    }
+  ],
+  "test_results": {
+    "executed": 14,
+    "failed": 0,
+    "results": [
+      {
+        "task": "CX-076",
+        "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+        "result": "passed"
+      }
+    ]
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-072",
+    "CX-075"
+  ],
+  "not_run": [
+    "Physical power interruption (child process kill is recorded separately)",
+    "Physical system disk-full (the actual SQLite max-page quota failure is a narrower isolated test)",
+    "Complete matrix through the exported executable and native failure UX",
+    "A different clean Windows machine and human recovery/IME/screen-reader validation"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "task_id": "CX-015",
+  "scope": "实现6手动5滚动与保护点；继续与显式读旧档使用不同语义。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "离港前读档能在新分支领奖一次",
+      "status": "passed",
+      "evidence": "Pre-departure snapshot creates new branch with one reward opportunity"
+    },
+    {
+      "criterion": "离港后不能重领",
+      "status": "passed",
+      "evidence": "Post-departure snapshot inherits receipt and returns AlreadyCommitted"
+    },
+    {
+      "criterion": "学习不回退",
+      "status": "passed",
+      "evidence": "Observation count persists through both old-world loads"
+    },
+    {
+      "criterion": "继续不新增遭遇实例",
+      "status": "passed",
+      "evidence": "Continue preserves same encounter entity and branch, changes only loading token"
+    },
+    {
+      "criterion": "自动槽不覆盖保护点",
+      "status": "passed",
+      "evidence": "Seven automatic writes retain five rolling slots and protected checkpoint alongside six manual slots"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-015",
+        "name": "Before/after reward checkpoints branch correctly and learning persists",
+        "result": "passed"
+      },
+      {
+        "task": "CX-015",
+        "name": "Continue preserves encounter instance; automatic slots preserve protected point",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-014"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

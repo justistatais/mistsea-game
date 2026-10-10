@@ -1,0 +1,479 @@
+{
+  "task_id": "CX-070",
+  "scope": "按真实能力与支持记录选已验证同档内容，保留家族与主题多样性。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "partial_implementation",
+  "acceptance": [
+    {
+      "criterion": "拒绝不反复弹",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-070",
+            "name": "Unbound real review sources yield an honest empty advisory report with no reward or adventure penalty",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Known facts, current access, release, 6.5 target and training partition filter before any title is returned",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Uncalibrated, unavailable, synthetic-authority and regression-only assets cannot masquerade as verified practice",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "At most three recommendations preserve distinct family, goal and topic; an explicit request has first priority",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Refusal survives the next safe opportunity and uncertain clock; only a deliberate new request overrides it",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Protected input and unsafe windows suppress all suggestions, including explicit requests",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Automatic practice excludes exposed families; deliberate repetition remains practice and never a new transfer source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Intervals advance only once per independently successful new family; repeats and unassessed outcomes cannot postpone indefinitely",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Clock anomalies leave outcome history intact and timing unverified, without offline-day decay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Supports bind submission time and target; text paths and structured confirmation remain distinct from independent language",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Canonical families defeat renaming and hashes; delayed transfer requires three families and verified real elapsed time",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Two distinct recent confirmed difficulties suggest review without erasing successes; one-family retries do not",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Actual privacy erasure or load change while projecting suggestions discards output with no world transaction",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    },
+    {
+      "criterion": "剧情未知不入题",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-070",
+            "name": "Unbound real review sources yield an honest empty advisory report with no reward or adventure penalty",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Known facts, current access, release, 6.5 target and training partition filter before any title is returned",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Uncalibrated, unavailable, synthetic-authority and regression-only assets cannot masquerade as verified practice",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "At most three recommendations preserve distinct family, goal and topic; an explicit request has first priority",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Refusal survives the next safe opportunity and uncertain clock; only a deliberate new request overrides it",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Protected input and unsafe windows suppress all suggestions, including explicit requests",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Automatic practice excludes exposed families; deliberate repetition remains practice and never a new transfer source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Intervals advance only once per independently successful new family; repeats and unassessed outcomes cannot postpone indefinitely",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Clock anomalies leave outcome history intact and timing unverified, without offline-day decay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Supports bind submission time and target; text paths and structured confirmation remain distinct from independent language",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Canonical families defeat renaming and hashes; delayed transfer requires three families and verified real elapsed time",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Two distinct recent confirmed difficulties suggest review without erasing successes; one-family retries do not",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Actual privacy erasure or load change while projecting suggestions discards output with no world transaction",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    },
+    {
+      "criterion": "同模板换名不算迁移",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-070",
+            "name": "Unbound real review sources yield an honest empty advisory report with no reward or adventure penalty",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Known facts, current access, release, 6.5 target and training partition filter before any title is returned",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Uncalibrated, unavailable, synthetic-authority and regression-only assets cannot masquerade as verified practice",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "At most three recommendations preserve distinct family, goal and topic; an explicit request has first priority",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Refusal survives the next safe opportunity and uncertain clock; only a deliberate new request overrides it",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Protected input and unsafe windows suppress all suggestions, including explicit requests",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Automatic practice excludes exposed families; deliberate repetition remains practice and never a new transfer source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Intervals advance only once per independently successful new family; repeats and unassessed outcomes cannot postpone indefinitely",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Clock anomalies leave outcome history intact and timing unverified, without offline-day decay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Supports bind submission time and target; text paths and structured confirmation remain distinct from independent language",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Canonical families defeat renaming and hashes; delayed transfer requires three families and verified real elapsed time",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Two distinct recent confirmed difficulties suggest review without erasing successes; one-family retries do not",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Actual privacy erasure or load change while projecting suggestions discards output with no world transaction",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    },
+    {
+      "criterion": "不通过经验诱导无限刷题",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-070",
+            "name": "Unbound real review sources yield an honest empty advisory report with no reward or adventure penalty",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Known facts, current access, release, 6.5 target and training partition filter before any title is returned",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Uncalibrated, unavailable, synthetic-authority and regression-only assets cannot masquerade as verified practice",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "At most three recommendations preserve distinct family, goal and topic; an explicit request has first priority",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Refusal survives the next safe opportunity and uncertain clock; only a deliberate new request overrides it",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Protected input and unsafe windows suppress all suggestions, including explicit requests",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Automatic practice excludes exposed families; deliberate repetition remains practice and never a new transfer source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Intervals advance only once per independently successful new family; repeats and unassessed outcomes cannot postpone indefinitely",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Clock anomalies leave outcome history intact and timing unverified, without offline-day decay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Supports bind submission time and target; text paths and structured confirmation remain distinct from independent language",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Canonical families defeat renaming and hashes; delayed transfer requires three families and verified real elapsed time",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Two distinct recent confirmed difficulties suggest review without erasing successes; one-family retries do not",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Actual privacy erasure or load change while projecting suggestions discards output with no world transaction",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    },
+    {
+      "criterion": "离线天数不扣属性",
+      "status": "pending",
+      "evidence": {
+        "executed_named_cases": [
+          {
+            "task": "CX-070",
+            "name": "Unbound real review sources yield an honest empty advisory report with no reward or adventure penalty",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Known facts, current access, release, 6.5 target and training partition filter before any title is returned",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Uncalibrated, unavailable, synthetic-authority and regression-only assets cannot masquerade as verified practice",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "At most three recommendations preserve distinct family, goal and topic; an explicit request has first priority",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Refusal survives the next safe opportunity and uncertain clock; only a deliberate new request overrides it",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Protected input and unsafe windows suppress all suggestions, including explicit requests",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Automatic practice excludes exposed families; deliberate repetition remains practice and never a new transfer source",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Intervals advance only once per independently successful new family; repeats and unassessed outcomes cannot postpone indefinitely",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Clock anomalies leave outcome history intact and timing unverified, without offline-day decay",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Supports bind submission time and target; text paths and structured confirmation remain distinct from independent language",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Canonical families defeat renaming and hashes; delayed transfer requires three families and verified real elapsed time",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Two distinct recent confirmed difficulties suggest review without erasing successes; one-family retries do not",
+            "result": "passed"
+          },
+          {
+            "task": "CX-070",
+            "name": "Actual privacy erasure or load change while projecting suggestions discards output with no world transaction",
+            "result": "passed"
+          }
+        ],
+        "remaining": [
+          "Native review/practice entry and actual reviewed full offline material routes",
+          "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+        ]
+      }
+    }
+  ],
+  "test_results": {
+    "scope": "executed C# code tests",
+    "executed": 13,
+    "failed": 0,
+    "results": [
+      {
+        "task": "CX-070",
+        "name": "Unbound real review sources yield an honest empty advisory report with no reward or adventure penalty",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Known facts, current access, release, 6.5 target and training partition filter before any title is returned",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Uncalibrated, unavailable, synthetic-authority and regression-only assets cannot masquerade as verified practice",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "At most three recommendations preserve distinct family, goal and topic; an explicit request has first priority",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Refusal survives the next safe opportunity and uncertain clock; only a deliberate new request overrides it",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Protected input and unsafe windows suppress all suggestions, including explicit requests",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Automatic practice excludes exposed families; deliberate repetition remains practice and never a new transfer source",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Intervals advance only once per independently successful new family; repeats and unassessed outcomes cannot postpone indefinitely",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Clock anomalies leave outcome history intact and timing unverified, without offline-day decay",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Supports bind submission time and target; text paths and structured confirmation remain distinct from independent language",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Canonical families defeat renaming and hashes; delayed transfer requires three families and verified real elapsed time",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Two distinct recent confirmed difficulties suggest review without erasing successes; one-family retries do not",
+        "result": "passed"
+      },
+      {
+        "task": "CX-070",
+        "name": "Actual privacy erasure or load change while projecting suggestions discards output with no world transaction",
+        "result": "passed"
+      }
+    ],
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "process_architecture": "X64",
+    "human_signoff": null,
+    "cli_scope": "source/protocol audit only; no real participant, band, external provider or human signature"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-033",
+    "CX-066"
+  ],
+  "not_run": [
+    "Native review/practice entry and actual reviewed full offline material routes",
+    "Human target-band calibration, unfamiliar tests and recorded listening tracks"
+  ]
+}

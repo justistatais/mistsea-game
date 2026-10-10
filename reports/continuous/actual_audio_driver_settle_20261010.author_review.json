@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-10T09:32:51.957827+00:00",
+  "scope": "Read-only diagnosis and unapplied driver-only candidate patch; no native retest or production source mutation",
+  "actual_failure_result": {
+    "path": "reports/build/20261010T092727982836Z/chapter_three_client_results.json",
+    "sha256": "665c463b1336593efa6371ccf811ac2177d05a731c03b1784d5c3840881255cb",
+    "checks": 53,
+    "failures": 3,
+    "failed_checks": [
+      {
+        "name": "regional_audio_speed_changes_player",
+        "passed": false
+      },
+      {
+        "name": "regional_audio_retains_full_original_script",
+        "passed": false
+      },
+      {
+        "name": "chapter_three_client_exception",
+        "passed": false,
+        "error": "System.InvalidOperationException: Sequence contains no matching element\r\n   at System.Linq.ThrowHelper.ThrowNoMatchException()\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)\r\n   at Root.<>c__DisplayClass4_0.<<RunChapterThreeClientTests>g__ActualRegionalAudio|19>d.MoveNext() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterThreeClientTests.cs:line 93\r\n--- End of stack trace from previous location ---\r\n   at Root.RunChapterThreeClientTests() in C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\Diagnostics\\Root.ChapterThreeClientTests.cs:line 112"
+      }
+    ]
+  },
+  "actual_failure_profile": {
+    "current_path": "recovery/inventory-v2-568a0322-b9b4-4d9d-af0d-11e083142f8e.sqlite",
+    "active_database": "reports/build/20261010T092727982836Z/client_profile/recovery/inventory-v2-568a0322-b9b4-4d9d-af0d-11e083142f8e.sqlite",
+    "active_database_sha256": "d32d1b56673a602f8cd6fca81559deb3f25b2b7c014010a9f56192402573fca2",
+    "actor": {
+      "scene": "R3-S09",
+      "position": {
+        "x": 50,
+        "y": 78
+      },
+      "action_clock": 319
+    },
+    "active_branch": "5d68bbec-0e6b-4d56-9771-b5a32b12225d",
+    "last_actual_receipts": [
+      {
+        "semantic_key": "material:R3-Q304-L-TRANSFER:acquired",
+        "action_type": "chapter_three_material_acquired",
+        "sequence": 841
+      },
+      {
+        "semantic_key": "R3:action:9723dc0a-4ad2-4a05-9086-17cba98613bd",
+        "action_type": "chapter_three_walk",
+        "sequence": 840
+      },
+      {
+        "semantic_key": "Q-304:resolution",
+        "action_type": "chapter_three_tower_handover_received",
+        "sequence": 839
+      },
+      {
+        "semantic_key": "R3:action:f6553995-2081-466e-bf2f-58df16d3335c",
+        "action_type": "chapter_three_walk",
+        "sequence": 838
+      },
+      {
+        "semantic_key": "R3:action:68b1bda4-329c-4879-8fba-fd1b68d9b883",
+        "action_type": "chapter_three_meaning_confirmed",
+        "sequence": 837
+      },
+      {
+        "semantic_key": "R3:action:7d530511-de5f-4ff2-bfcd-dc96ae8c0fbd",
+        "action_type": "chapter_three_walk",
+        "sequence": 836
+      },
+      {
+        "semantic_key": "R3:tower_future_requirements",
+        "action_type": "chapter_three_station_action",
+        "sequence": 835
+      },
+      {
+        "semantic_key": "R3:action:80bf3068-30b8-4d29-8a6b-bd53fd24c0a3",
+        "action_type": "chapter_three_walk",
+        "sequence": 834
+      }
+    ],
+    "observation_count": 0
+  },
+  "diagnosis": "ItemSelected invokes Execute with an awaited permissionQuery. Existing R2/R3/R6 drivers inspect PitchScale immediately and emit the script button while _busy can remain true. Execute returns early when busy; the script panel then never opens. Closing the still-active audio panel releases the player and leaves a read-only material panel, so editable note Single() throws. This is a driver synchronization defect inferred from production and actual failure chronology; only a fresh Root native run can verify the candidate fix.",
+  "production_audio_file": {
+    "path": "game/UI/Shell/Root.RegionalAudio.cs",
+    "sha256": "0922602bbfcaeacff4a80f2647ed489a5700a4c8553a48886f54f3a33964708d"
+  },
+  "driver_sources": [
+    {
+      "path": "game/Diagnostics/Root.ChapterTwoClientTests.cs",
+      "original_sha256": "7147698b25977b4fbb103568d34a24cfe087aac141846c559ee55fd42fe0f449",
+      "candidate_utf8_lf_sha256": "423f9f1408e5886e106dcc5e4ef45e5e226f1accec2617e2a2666b10edcd8bdb",
+      "exact_replacements": 1,
+      "changed_behavior": "Wait for actual asynchronous UI speed command before verifying pitch or pressing next native UI button."
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterThreeClientTests.cs",
+      "original_sha256": "1f8b423e1c7eb114b3d1a590b8db7994005c6bbbd8f2f82f484af7c74ac28426",
+      "candidate_utf8_lf_sha256": "abf765f5c494e4e1c8ddd10e96271dd32aa71e6d3dbde29944cd6f71a62469a9",
+      "exact_replacements": 1,
+      "changed_behavior": "Wait for actual asynchronous UI speed command before verifying pitch or pressing next native UI button."
+    },
+    {
+      "path": "game/Diagnostics/Root.ChapterSixClientTests.cs",
+      "original_sha256": "c97f8fdda2d7e28df0689a1e3ed56a6ee7bbee12f1e22f2e1b5e97ac6c064348",
+      "candidate_utf8_lf_sha256": "700d2ff76121d03c2f3f348e81339a78971959705f0021db2e4aa0f1cabdced4",
+      "exact_replacements": 1,
+      "changed_behavior": "Wait for actual asynchronous UI speed command before verifying pitch or pressing next native UI button."
+    }
+  ],
+  "pending_patch": {
+    "path": "reports/continuous/actual_audio_driver_settle_20261010.patch.pending",
+    "sha256": "5518b284bee3baf0689ff0fd8d5eeecacc0bec34c4bdacfac1f98ebf53759d59"
+  },
+  "unchanged_assertions": [
+    "PitchScale must actually equal1.25",
+    "Read-only script must equal the entire exact learner English",
+    "Editable evidence note must exist in actual audio panel",
+    "Note save must leave world sequence/balances unchanged",
+    "Close releases actual player/id"
+  ],
+  "chapter_four_five_scope": "No ActualRegionalAudio/speed-emission helper exists in current R4/R5 native driver; both use common production audio reader but current drivers only inspect script-reading boundaries. No unexecuted playback coverage invented.",
+  "berth_scope": "Actual R2-R6 learner packages each have zero materials/stations/writing tasks at S01.berth. R2 actual ROOM source is S03.address and has an existing explicit public material menu under R2Life; travel owns that separate driver wrapper patch. No berth patch prepared.",
+  "not_run": [
+    "Fresh compiled/native verification of this unapplied candidate",
+    "Human hearing, final mix/source alignment, voice rights or language calibration"
+  ],
+  "source_content_ci_or_ledger_changed": false
+}

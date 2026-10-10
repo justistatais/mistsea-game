@@ -1,0 +1,77 @@
+{
+  "error": "Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org\r\n\r\nMISTSEA_CLIENT_BOOT 0.1-internal\r\nMISTSEA_CHAPTER_THREE_CLIENT_TESTS 49 failures=2\r\nERROR: No loader found for resource: res://content/audio/regional/R3-Q304-L-TRANSFER-r3-author-candidate-1-local-tts-1.wav (expected type: unknown)\r\n   at: _load (core/io/resource_loader.cpp:332)\r\n   C# backtrace (most recent call first):\r\n       [0] Godot.GodotObject Godot.NativeCalls.godot_icall_3_1268(nint, nint, string, string, int) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:11611)\r\n       [1] Godot.Resource Godot.ResourceLoader.Load(string, string, Godot.ResourceLoader+CacheMode) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/ResourceLoader.cs:120)\r\n       [2] T Godot.ResourceLoader.Load<T>(string, string, Godot.ResourceLoader+CacheMode) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Extensions/ResourceLoaderExtensions.cs:27)\r\n       [3] void Root+<OpenRegionalAudio>d__268.MoveNext() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\UI\\Shell\\Root.RegionalAudio.cs:32)\r\n       [4] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)\r\n       [5] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)\r\n       [6] void System.Threading.Tasks.Task.RunContinuations(object)\r\n       [7] void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)\r\n       [8] void Mist.Application.ChapterThree.ChapterThreeService+<OpenMaterialAsync>d__51.MoveNext() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\ChapterThree\\ChapterThreeService.cs:141)\r\n       [9] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)\r\n       [10] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()\r\n       [11] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)\r\n       [12] void System.Threading.Tasks.Task.RunContinuations(object)\r\n       [13] void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)\r\n       [14] void Mist.Application.ChapterThree.ChapterThreeService+<ViewAsync>d__42.MoveNext() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\ChapterThree\\ChapterThreeService.cs:105)\r\n       [15] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)\r\n       [16] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)\r\n       [17] void Godot.GodotSynchronizationContext.ExecutePendingContinuations() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GodotSynchronizationContext.cs:51)\r\n       [18] void Godot.GodotTaskScheduler.Activate() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GodotTaskScheduler.cs:76)\r\n       [19] void Godot.Bridge.ScriptManagerBridge.FrameCallback() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/ScriptManagerBridge.cs:84)\r\nERROR: Error loading resource: 'res://content/audio/regional/R3-Q304-L-TRANSFER-r3-author-candidate-1-local-tts-1.wav'.\r\n   at: load (core/core_bind.cpp:82)\r\n   C# backtrace (most recent call first):\r\n       [0] Godot.GodotObject Godot.NativeCalls.godot_icall_3_1268(nint, nint, string, string, int) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/NativeCalls.cs:11611)\r\n       [1] Godot.Resource Godot.ResourceLoader.Load(string, string, Godot.ResourceLoader+CacheMode) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Generated/GodotObjects/ResourceLoader.cs:120)\r\n       [2] T Godot.ResourceLoader.Load<T>(string, string, Godot.ResourceLoader+CacheMode) (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Extensions/ResourceLoaderExtensions.cs:27)\r\n       [3] void Root+<OpenRegionalAudio>d__268.MoveNext() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game\\UI\\Shell\\Root.RegionalAudio.cs:32)\r\n       [4] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)\r\n       [5] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)\r\n       [6] void System.Threading.Tasks.Task.RunContinuations(object)\r\n       [7] void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)\r\n       [8] void Mist.Application.ChapterThree.ChapterThreeService+<OpenMaterialAsync>d__51.MoveNext() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\ChapterThree\\ChapterThreeService.cs:141)\r\n       [9] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)\r\n       [10] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext()\r\n       [11] void System.Threading.Tasks.AwaitTaskContinuation.RunCallback(System.Threading.ContextCallback, object, System.Threading.Tasks.Task&)\r\n       [12] void System.Threading.Tasks.Task.RunContinuations(object)\r\n       [13] void System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder`1.SetResult(TResult)\r\n       [14] void Mist.Application.ChapterThree.ChapterThreeService+<ViewAsync>d__42.MoveNext() (C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\src\\Mist.Application\\ChapterThree\\ChapterThreeService.cs:105)\r\n       [15] void System.Threading.ExecutionContext.RunInternal(System.Threading.ExecutionContext, System.Threading.ContextCallback, object)\r\n       [16] void System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1.MoveNext(System.Threading.Thread)\r\n       [17] void Godot.GodotSynchronizationContext.ExecutePendingContinuations() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GodotSynchronizationContext.cs:51)\r\n       [18] void Godot.GodotTaskScheduler.Activate() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/GodotTaskScheduler.cs:76)\r\n       [19] void Godot.Bridge.ScriptManagerBridge.FrameCallback() (/root/godot/modules/mono/glue/GodotSharp/GodotSharp/Core/Bridge/ScriptManagerBridge.cs:84)\r\n",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "--version"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T025414941053Z/sdk_version.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "restore",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "--configfile",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\spikes\\toolchain\\NuGet.Config",
+        "--locked-mode"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T025414941053Z/restore.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "build",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\MistSea.sln",
+        "-c",
+        "Debug",
+        "--no-restore"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T025414941053Z/build.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll",
+        "--task=CP-R3-05"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T025414941053Z/actual_vessel_route_source.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/build/20261010T025414941053Z/godot_import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--",
+        "--chapter-three-client-test"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 1,
+      "output_path": "reports/build/20261010T025414941053Z/client_tests.log"
+    }
+  ]
+}

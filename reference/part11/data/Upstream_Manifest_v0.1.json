@@ -1,0 +1,100 @@
+{
+  "version": "0.1",
+  "source_root_hint": "sibling /mnt/data/game_design; runtime may use another path",
+  "upstream_documents": [
+    {
+      "path": "Game_Design_Core_v0.1.md",
+      "sha256": "ca4b92310b53e63a5bab65262c5f9751729b1e7e340cb3d709c2901650d555f1",
+      "size_bytes": 36156
+    },
+    {
+      "path": "World_Story_Bible_v0.1.md",
+      "sha256": "823cc676ef67faf566513161f6095899d19867d2094eac3478f6e083450b7d6d",
+      "size_bytes": 85846
+    },
+    {
+      "path": "Exploration_Level_Design_v0.1.md",
+      "sha256": "39ec346979fdb6af07cdacb538dea62f5b553dcae3545fd7c7ead077688da310",
+      "size_bytes": 83759
+    },
+    {
+      "path": "Quest_Event_System_v0.1.md",
+      "sha256": "a40281f4239f22f8301247d0793913c9bdc129634ad2cbcfa451f5259bbd3d33",
+      "size_bytes": 64353
+    },
+    {
+      "path": "English_Learning_System_v0.1.md",
+      "sha256": "668adb29b9c4b964a653519e885dfdbceda0613791c592eec8df681a56cae07b",
+      "size_bytes": 55785
+    },
+    {
+      "path": "Puzzle_System_v0.1.md",
+      "sha256": "3295231f6ee01d0e5d5713c900a12dcf9568b88a011b74e1d26e4e3da280bea5",
+      "size_bytes": 59878
+    },
+    {
+      "path": "Character_Progression_v0.1.md",
+      "sha256": "92a821412bc49a2a6e8ba9cb949f68ad0e51c7074afc08108fe08d8358cd278c",
+      "size_bytes": 54639
+    },
+    {
+      "path": "Combat_System_v0.1.md",
+      "sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88",
+      "size_bytes": 53850
+    },
+    {
+      "path": "NPC_Faction_System_v0.1.md",
+      "sha256": "16138fd5887e1c9f6e1b76d7677ec7bf9bcee7352394fa6bec3dafaae69fa325",
+      "size_bytes": 56895
+    },
+    {
+      "path": "UI_UX_Spec_v0.1.md",
+      "sha256": "e9f88533ebc5e6fe9c88c0e7cf05221f5edddecffd8352a806ab3ab8c7cdacb7",
+      "size_bytes": 53334
+    }
+  ],
+  "upstream_archives": [
+    {
+      "path": "Part03_Exploration_Design_v0.1.zip",
+      "sha256": "43ca8e14603835e4bdec993059b7c82213036c1864474f2331e928f048a2fa3a",
+      "size_bytes": 108333
+    },
+    {
+      "path": "Part04_Quest_Event_Design_v0.1.zip",
+      "sha256": "f08e6658a9c6a9e89022a00aed5554eb2e69005d863833c22dc1da3905f4548a",
+      "size_bytes": 156968
+    },
+    {
+      "path": "Part05_English_Learning_Design_v0.1.zip",
+      "sha256": "6beba58473a10697914bc4701f3d5f2cafbcc7ebaec2ebe01c8cd99ca0476496",
+      "size_bytes": 190234
+    },
+    {
+      "path": "Part06_Puzzle_Design_v0.1.zip",
+      "sha256": "438543f395fc43950f2c7e27ef6e7e9e0c9cb53fda8a8af7ba8bd611aeba4868",
+      "size_bytes": 248733
+    },
+    {
+      "path": "Part07_Character_Progression_Design_v0.1.zip",
+      "sha256": "7e566f43f3853b936e4fc8acccd6daeabe5a1c317100bcc22803c76744e90d30",
+      "size_bytes": 234161
+    },
+    {
+      "path": "Part08_Combat_Design_v0.1.zip",
+      "sha256": "e0d66ae2af47c2fe200528f59a457c123e575edaeb2f1cc5bc198c56e46ac32a",
+      "size_bytes": 342271
+    },
+    {
+      "path": "Part09_NPC_Faction_Design_v0.1.zip",
+      "sha256": "6db0b0a99ef774aa7d1259e28b68c0ebe133c2129c684b15d0ee16ef38259c97",
+      "size_bytes": 315693
+    },
+    {
+      "path": "Part10_UI_UX_Design_v0.1.zip",
+      "sha256": "665c4a83d7a20407bc685ea3f5d0b99549f9ab3f659ef0a41d82150dd76789c1",
+      "size_bytes": 924982
+    }
+  ],
+  "audio_files_detected_in_archives": [],
+  "material_inventory_scope": "Part05/06/10 named material JSON collections + Part08/09 materials/*.md; writing prompts and lexicon counted separately"
+}

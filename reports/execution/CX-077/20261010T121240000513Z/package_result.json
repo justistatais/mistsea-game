@@ -1,0 +1,96 @@
+{
+  "result": "internal_candidate_verified",
+  "package": "artifacts/windows/MistSea-internal-20261010T121240000513Z",
+  "zip": "artifacts/windows/MistSea-internal-20261010T121240000513Z.zip",
+  "zip_sha256": "ae3b82c555d51e73157531bca1bac6d2a969883552a0ccea7d3f1677f20668cb",
+  "bundled_runtime_new_and_reopen": {
+    "release": "mistsea-internal-0.1",
+    "scope": "normal_first_entry_candidate",
+    "scene": "R0-S01",
+    "experience": 0,
+    "marks": 100,
+    "receipt_count": 2,
+    "debug_driver_absent": true,
+    "content": {
+      "manifest_sha256": "4837ccd848773a86bccf1ccf5f52c43b71e339bfeef227ba42f98b66f2fad71a",
+      "verified_assets": 80,
+      "decoded_wave_tracks": 50,
+      "chapter_packages": 8,
+      "regional_voyages": 5,
+      "coverage": "packaged_bytes_and_decode_only"
+    },
+    "online_provider": "disabled",
+    "human_release_approval": "pending"
+  },
+  "corrupt_profile_preserved": true,
+  "debug_dependency_locks_preserved": true,
+  "export_lock": "game/packages.ExportRelease.win-x64.lock.json",
+  "commands": [
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--editor",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--quit-after",
+        "2"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/godot_import.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\godot\\4.7.2-mono\\Godot_v4.7.2-stable_mono_win64\\Godot_v4.7.2-stable_mono_win64_console.exe",
+        "--headless",
+        "--path",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\game",
+        "--export-release",
+        "Windows Desktop",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/windows_export.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe",
+        "--headless",
+        "--",
+        "--release-probe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/bundled_runtime_new_game.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe",
+        "--headless",
+        "--",
+        "--release-probe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/bundled_runtime_reopen.log"
+    },
+    {
+      "argv": [
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z\\MistSea-internal.exe",
+        "--headless",
+        "--",
+        "--release-probe"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 5,
+      "output_path": "reports/execution/CX-077/20261010T121240000513Z/corrupt_profile_preserved.log",
+      "expected_nonzero_proven": true,
+      "expected_failure_reason": "MISTSEA_BOOT_ERROR"
+    }
+  ],
+  "formal_release": "blocked",
+  "different_clean_windows_machine": "not_run",
+  "human_signoff": null
+}

@@ -1,0 +1,59 @@
+# CP-RF-04 — 第七座灯塔：地方/同伴/生活支线与可选预算
+
+阶段：CONTENT｜类型：content_integration｜责任：Codex＋内容负责人
+初始状态：未开始。
+
+## 目标
+填充第七座灯塔声明的可选空间与个人线里程碑，使用地区预算；普通生活不全部挂中央阴谋。
+
+## 前置条件
+CP-RF-03, CX-063
+所有前置必须实际验收；Gate通过由其依赖证据派生，不手写passed。
+
+## 先读
+- AGENTS.md
+- docs/integration/MASTER_GDD_v0.1.md
+- docs/integration/Integration_Decisions_v0.1.md
+- docs/baseline/World_Story_Bible_v0.1.md
+- docs/baseline/Exploration_Level_Design_v0.1.md
+- docs/baseline/Quest_Event_System_v0.1.md
+- docs/baseline/English_Learning_System_v0.1.md
+- docs/baseline/Puzzle_System_v0.1.md
+- docs/baseline/Character_Progression_v0.1.md
+- docs/baseline/Combat_System_v0.1.md
+- docs/baseline/NPC_Faction_System_v0.1.md
+- docs/baseline/UI_UX_Spec_v0.1.md
+- docs/baseline/Content_AI_Pipeline_v0.1.md
+
+涉及任务：Q-F01, Q-F02, Q-F03, Q-F04, Q-F05
+涉及场景：RF-S01, RF-S02, RF-S03, RF-S04, RF-S05, RF-S06, RF-S07
+
+## 允许修改范围
+- `content/source/RF/`
+- `content/source/companions/`
+- `tests/Chapters/RF/`
+- `reports/content/RF/`
+
+## 必须交付
+- 本地区支线与纪念物
+- 生活内容种子转成脚本
+- 经验/场景/事件占用清单
+
+## 验收
+- 复用物流不重奖
+- 可选不藏必需结局条件
+- 同一物品/人不复制
+- 没有本区个人线则说明不适用，不虚增任务
+
+## 上位验收责任
+按本卡条款与本阶段集成验收；不得据此称上位全部验收已通过。
+
+## 禁止与遇阻处理
+不得编辑 docs/baseline/ 或 reference/ 原件；不得删除用户代码、强制重置Git、安装未声明付费服务、上传正文或发布产品。跨出允许范围时先登记依赖/变更并停止相关修改。
+不得把未实现分支返回true、把SYNTHETIC当真实、把脚本当音轨、把结构化选择当自由英文理解；不得擅改6.5目标、奖励、事实、结局和资源所有权。
+本卡过大或发现缺失制作条件时，保留已完成可检验内容并登记blocked；先提出有范围的子卡，不直接扩大到全游戏。没有原生Windows/真人/模型权限时如实保留未执行项目。
+
+## 交付证据
+写入 `reports/execution/CP-RF-04.json`，采用 planning/templates/Task_Report.template.json。记录真实提交/工作树差异、命令、退出码、环境、测试名称、未执行项和来源版本；不能填写估计的通过数。
+
+任务状态只有在产物、证据和所需复核均成立后才改为accepted。代码已编写不等于已验证；Gate、模型评价与真人签核不能自行伪造。

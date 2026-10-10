@@ -1,0 +1,36 @@
+{
+  "Q102-R-NOTICE@0.1": [],
+  "Q102-R-B@0.1": [],
+  "Q102-R-VESSEL@0.1": [],
+  "Q102-R-BATTERY@0.1": [],
+  "Q102-L-REVISION@0.1": [],
+  "Q102-W-PLAN@0.1": [],
+  "Q102-RULES@ref04": [
+    "Q102-R-NOTICE@0.1",
+    "Q102-R-B@0.1",
+    "Q102-R-VESSEL@0.1",
+    "Q102-R-BATTERY@0.1",
+    "Q102-L-REVISION@0.1"
+  ],
+  "Q102-AUDIO@pending": [
+    "Q102-L-REVISION@0.1"
+  ],
+  "Q102-SUBTITLES@pending": [
+    "Q102-AUDIO@pending",
+    "Q102-L-REVISION@0.1"
+  ],
+  "Q102-HINTS@pending": [
+    "Q102-RULES@ref04"
+  ],
+  "Q102-CALIBRATION@pending": [
+    "Q102-RULES@ref04",
+    "Q102-W-PLAN@0.1",
+    "Q102-AUDIO@pending",
+    "Q102-SUBTITLES@pending",
+    "Q102-HINTS@pending"
+  ],
+  "Q102-PLAYER-BUNDLE@candidate": [
+    "Q102-CALIBRATION@pending"
+  ],
+  "UI-FONT-TOKENS@cosmetic": []
+}

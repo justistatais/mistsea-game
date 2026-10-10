@@ -1,0 +1,79 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T111545212936Z",
+  "selected_case": {
+    "index": 370,
+    "task": "CP-OPTIONAL-MUSICBOX-05",
+    "name": "Actual normal arrival exports an untouched SQLite profile for native music-box controls"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "997154b93ff7bca53c705de6123cd759c8a0b3adee41f6777e9c2585b5082dec",
+  "source_active_database": "reports/build/20261010T111545212936Z/case_runs/0370/testdata/musicbox-normal-native-entry-d339fda0-ad3e-419f-afa0-0e722271d9b4/recovery/inventory-v2-50147547-5037-43cf-942d-21e2c8f41630.sqlite",
+  "source_active_database_sha256": "c0a072f715502fcc0387db187efe783e985562b6296ab6c5b4b1e344a793b6cf",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T111545212936Z",
+  "source": "reports/build/20261010T111545212936Z/case_runs/0370/testdata/musicbox-normal-native-entry-d339fda0-ad3e-419f-afa0-0e722271d9b4/recovery/normal-musicbox-native-entry.json",
+  "fixture": false,
+  "case": {
+    "index": 370,
+    "task": "CP-OPTIONAL-MUSICBOX-05",
+    "name": "Actual normal arrival exports an untouched SQLite profile for native music-box controls"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2f048165e9b15618b5cbba5a1dc455f47488c478e00023c48a26a3faba6f9499",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "fcbc96d9a7ff669ede2114aac902057e0bab93f493fbc690ccd5b8f27e553371",
+  "case_command_sha256": "30c44994dad5b3edb41ea30a3c6d4f9fe26cf269e0011a82996ba4c4eb8b5de2",
+  "proof_sha256": "997154b93ff7bca53c705de6123cd759c8a0b3adee41f6777e9c2585b5082dec",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "b8f34cd8d283e4f0fe40f1667f4803a82ffddbe0c0f05667c25b9ca8a506beef"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "3719ac8342379d3c698b14cfdaae5bad665caa2c4c0fbb279a0f9822aef58d01"
+    },
+    {
+      "path": "recovery/inventory-v2-50147547-5037-43cf-942d-21e2c8f41630.sqlite",
+      "sha256": "c0a072f715502fcc0387db187efe783e985562b6296ab6c5b4b1e344a793b6cf"
+    },
+    {
+      "path": "recovery/normal-musicbox-native-entry.json",
+      "sha256": "997154b93ff7bca53c705de6123cd759c8a0b3adee41f6777e9c2585b5082dec"
+    },
+    {
+      "path": "recovery/normal-r2-main.json",
+      "sha256": "a29e503c6be60b5f6915e47c57b599e7a87e43c0e5c96cc6c67bc6f0f27809ae"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0370/testdata/musicbox-normal-native-entry-d339fda0-ad3e-419f-afa0-0e722271d9b4/control.sqlite",
+      "sha256": "b8f34cd8d283e4f0fe40f1667f4803a82ffddbe0c0f05667c25b9ca8a506beef",
+      "copied_before_native_sha256": "b8f34cd8d283e4f0fe40f1667f4803a82ffddbe0c0f05667c25b9ca8a506beef"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0370/testdata/musicbox-normal-native-entry-d339fda0-ad3e-419f-afa0-0e722271d9b4/profile.sqlite",
+      "sha256": "3719ac8342379d3c698b14cfdaae5bad665caa2c4c0fbb279a0f9822aef58d01",
+      "copied_before_native_sha256": "3719ac8342379d3c698b14cfdaae5bad665caa2c4c0fbb279a0f9822aef58d01"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0370/testdata/musicbox-normal-native-entry-d339fda0-ad3e-419f-afa0-0e722271d9b4/recovery/inventory-v2-50147547-5037-43cf-942d-21e2c8f41630.sqlite",
+      "sha256": "c0a072f715502fcc0387db187efe783e985562b6296ab6c5b4b1e344a793b6cf",
+      "copied_before_native_sha256": "c0a072f715502fcc0387db187efe783e985562b6296ab6c5b4b1e344a793b6cf"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0370/testdata/musicbox-normal-native-entry-d339fda0-ad3e-419f-afa0-0e722271d9b4/recovery/normal-musicbox-native-entry.json",
+      "sha256": "997154b93ff7bca53c705de6123cd759c8a0b3adee41f6777e9c2585b5082dec",
+      "copied_before_native_sha256": "997154b93ff7bca53c705de6123cd759c8a0b3adee41f6777e9c2585b5082dec"
+    },
+    {
+      "source": "reports/build/20261010T111545212936Z/case_runs/0370/testdata/musicbox-normal-native-entry-d339fda0-ad3e-419f-afa0-0e722271d9b4/recovery/normal-r2-main.json",
+      "sha256": "a29e503c6be60b5f6915e47c57b599e7a87e43c0e5c96cc6c67bc6f0f27809ae",
+      "copied_before_native_sha256": "a29e503c6be60b5f6915e47c57b599e7a87e43c0e5c96cc6c67bc6f0f27809ae"
+    }
+  ]
+}

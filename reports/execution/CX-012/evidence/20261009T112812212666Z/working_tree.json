@@ -1,0 +1,324 @@
+{
+  "task_id": "CX-012",
+  "parent_commit": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "source_files": [
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/Directory.Build.props",
+      "sha256": "3ec56ea78dd394617b6cd22bbf36d1d8482fa2519b68b11d8493df90659bebef",
+      "bytes": 313,
+      "source_path_at_execution": "Directory.Build.props"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/Directory.Packages.props",
+      "sha256": "1029c7f73624809b963ad1ef8c327c6432ee48b9566cbbe83900207990c58803",
+      "bytes": 420,
+      "source_path_at_execution": "Directory.Packages.props"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/MistSea.sln",
+      "sha256": "75efbd97b56da0eb8aacf15ead00b729be5317e605d5d1e6365dd34af0fda59f",
+      "bytes": 9777,
+      "source_path_at_execution": "MistSea.sln"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/docs/contracts/Runtime_Contracts.md",
+      "sha256": "ecc21eb0304cbf74a7f16365e2d9015fc93f28d30b72251deee0b1a196e90c92",
+      "bytes": 2927,
+      "source_path_at_execution": "docs/contracts/Runtime_Contracts.md"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/docs/contracts/Storage_Recovery.md",
+      "sha256": "83f10d96978d1c132011830cd1017cf6f95fda9d74ef54812d26b84d544f857e",
+      "bytes": 1492,
+      "source_path_at_execution": "docs/contracts/Storage_Recovery.md"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/global.json",
+      "sha256": "4e7d5022b2a5a8d02bb951bb264a4c8613eabc332572a0af5f9743d23f23d84e",
+      "bytes": 105,
+      "source_path_at_execution": "global.json"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/reports/build/20261009T112610537402Z/test_results.json",
+      "sha256": "092af4327580470efd86e0410c8cc04c570e5b1eb0782f1010f1f293c142667a",
+      "bytes": 6652,
+      "source_path_at_execution": "reports/build/20261009T112610537402Z/test_results.json"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/reports/continuous/Scope_20261009.md",
+      "sha256": "72122934ecec9742d2c86b85cdda8f3dc3bdc7d899d92e974691295dea5a1557",
+      "bytes": 1335,
+      "source_path_at_execution": "reports/continuous/Scope_20261009.md"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/schemas/sql/001_control.sql",
+      "sha256": "d5e2fd89794a45e3bfdb4767e60deaa0b6c237fb772a0317bcda15e8415289ea",
+      "bytes": 1032,
+      "source_path_at_execution": "schemas/sql/001_control.sql"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/schemas/sql/001_profile.sql",
+      "sha256": "686a4fcc0fd2d06d08fc393d12f8c232f36b7c5cc4d6fa6a941618808e65fa95",
+      "bytes": 4788,
+      "source_path_at_execution": "schemas/sql/001_profile.sql"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/Assistance/DisabledProvider.cs",
+      "sha256": "79698d2f9452eb34da235a8dbd9d4e6039b6ffb491ba7dd61727640925ff89fe",
+      "bytes": 438,
+      "source_path_at_execution": "src/Mist.Application/Assistance/DisabledProvider.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/BuildIdentity.cs",
+      "sha256": "f1c1baf895ff5b32ecf20040f7e89ff341a9889ff2625a383568d1e571aa0160",
+      "bytes": 169,
+      "source_path_at_execution": "src/Mist.Application/BuildIdentity.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/Commands/Preview.cs",
+      "sha256": "a9c56523e44a6ee387c34713c7215cba9fcf004c2672c63eedaa0464833802fd",
+      "bytes": 1860,
+      "source_path_at_execution": "src/Mist.Application/Commands/Preview.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/Contracts/Commands.cs",
+      "sha256": "bc6ead94a3fa0c7e17a75c209de02811eb1ed9de4ef4c82bbf0223b75630cbef",
+      "bytes": 2217,
+      "source_path_at_execution": "src/Mist.Application/Contracts/Commands.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/Drafts/DraftEditor.cs",
+      "sha256": "91204e59338f4dc8bff81ec19348d986df38ffa1b9e3cc2a21d713ef9b025089",
+      "bytes": 1518,
+      "source_path_at_execution": "src/Mist.Application/Drafts/DraftEditor.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/EncounterRetry/RetryBoundary.cs",
+      "sha256": "2f4aa778e81a78e3719599e95c404df8472a851a928477ded400f15ddc5d36a5",
+      "bytes": 1138,
+      "source_path_at_execution": "src/Mist.Application/EncounterRetry/RetryBoundary.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/EncounterRetry/RetryPlanFactory.cs",
+      "sha256": "6714d097b910502b24a039327e2608cef21ad86e69c63df8a49258be27a0c4d2",
+      "bytes": 1617,
+      "source_path_at_execution": "src/Mist.Application/EncounterRetry/RetryPlanFactory.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/Mist.Application.csproj",
+      "sha256": "330a351332e72d8933d8c9515204efdbca8c73630368bf305ae0d2eccfc1c43d",
+      "bytes": 131,
+      "source_path_at_execution": "src/Mist.Application/Mist.Application.csproj"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/Storage/Models.cs",
+      "sha256": "10b9b19c68597154674f571d51cfb0872aee3082643d0fe4642a0940480ca210",
+      "bytes": 2718,
+      "source_path_at_execution": "src/Mist.Application/Storage/Models.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Application/packages.lock.json",
+      "sha256": "1e5d945b0653dc49f6b021eba12df12ba4287e290a10c87b83459ef0cca988af",
+      "bytes": 130,
+      "source_path_at_execution": "src/Mist.Application/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/Conditions/Conditions.cs",
+      "sha256": "816600973efa2eeea094cb836b0205f5e0d0e94aef8613ea30d9921e94480e4d",
+      "bytes": 3009,
+      "source_path_at_execution": "src/Mist.Core/Conditions/Conditions.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/Content/Catalog.cs",
+      "sha256": "f542faeb7d5a927ed3373df64720f83af6bce08d995b86769a2903bf89e8db9f",
+      "bytes": 2371,
+      "source_path_at_execution": "src/Mist.Core/Content/Catalog.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/Contracts/Identity.cs",
+      "sha256": "9f892dc67204e35dcbd9bc4b538d6365b5497e0c6d0d0a5e2a430bdd8149ea9a",
+      "bytes": 4007,
+      "source_path_at_execution": "src/Mist.Core/Contracts/Identity.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/Contracts/Quantities.cs",
+      "sha256": "8d40c30c4cf173f4423c81182d489c6ff20cf876f9716fdfd69cc3d31d2978ee",
+      "bytes": 503,
+      "source_path_at_execution": "src/Mist.Core/Contracts/Quantities.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/Contracts/StrictJson.cs",
+      "sha256": "734dca5bea7713a5c659718462ba03ff85c11f638ada2777707dab1764fbf983",
+      "bytes": 2602,
+      "source_path_at_execution": "src/Mist.Core/Contracts/StrictJson.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/Learning/Observation.cs",
+      "sha256": "cc92d165eeea4ccf0c533d69a158df9b7a33e13f344e4db2c4311086aa02074d",
+      "bytes": 2258,
+      "source_path_at_execution": "src/Mist.Core/Learning/Observation.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/Mist.Core.csproj",
+      "sha256": "8d654c44b7bebb6b31a9f2f606927f45b5072193adc4eef8cce3f3cf3b278df3",
+      "bytes": 36,
+      "source_path_at_execution": "src/Mist.Core/Mist.Core.csproj"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Core/packages.lock.json",
+      "sha256": "2241481b7e74dcdcd600303146b730ecc12cbd8e49aa55755ef95ee499fe229a",
+      "bytes": 66,
+      "source_path_at_execution": "src/Mist.Core/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Content/PackageInstaller.cs",
+      "sha256": "12884b175362f3f411938782362c88140c13d9bc82599b171c3f690cc00023bb",
+      "bytes": 9369,
+      "source_path_at_execution": "src/Mist.Infrastructure/Content/PackageInstaller.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Mist.Infrastructure.csproj",
+      "sha256": "7d4d73cfd7975616b84c1111f1934949f3faf7ab24b1cf340d39c39f45bd3b2c",
+      "bytes": 297,
+      "source_path_at_execution": "src/Mist.Infrastructure/Mist.Infrastructure.csproj"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Drafts.cs",
+      "sha256": "3bedca99261fcc03f22390b9a7beed7fc550d74ce829d8c85986241e281fad87",
+      "bytes": 3030,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Drafts.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Privacy.cs",
+      "sha256": "758cafbd06ab579d1b81a4129c2138fb67c92bf25c409ffd891940ad0d582cd4",
+      "bytes": 8551,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Privacy.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Recovery.cs",
+      "sha256": "acfab76efaa9f4d42141a383d093e506cb209eb98b80ee57ae34cb177e321487",
+      "bytes": 5368,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Recovery.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.Saves.cs",
+      "sha256": "3f26a3d816dde3a5e3795d7f2628896ea9590f013a970af529456defe0f1098a",
+      "bytes": 9024,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.Saves.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Storage/ProfileStore.cs",
+      "sha256": "731ac0685c69affd484c059835ecada76ea75ca91c32f680261f849a95f6ea88",
+      "bytes": 15847,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/ProfileStore.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Storage/SingleWriter.cs",
+      "sha256": "8e56f2cbabaaa977a2ee705e56ba2413423c3149609e36b19160e22e998464ac",
+      "bytes": 1362,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/SingleWriter.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/Storage/SqliteSupport.cs",
+      "sha256": "0b7a27a91efcf5072a1a514dca72557f184869757333d35ba9e689f50ae04992",
+      "bytes": 2284,
+      "source_path_at_execution": "src/Mist.Infrastructure/Storage/SqliteSupport.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/src/Mist.Infrastructure/packages.lock.json",
+      "sha256": "96a28f0631df112ad422df68a81e4fe8cbf66306b500d57305ca758bdc8b1ada",
+      "bytes": 2147,
+      "source_path_at_execution": "src/Mist.Infrastructure/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tests/Mist.Tests/Content/ContentCases.cs",
+      "sha256": "b9d4b3e9e62068bc1e8b4d77420aef52221c092d05747698b39c1df7360a5af8",
+      "bytes": 11260,
+      "source_path_at_execution": "tests/Mist.Tests/Content/ContentCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tests/Mist.Tests/Contracts/ContractCases.cs",
+      "sha256": "7efc87bf3abf129f60e65a878a840a0366a5a63efeab0ca6f4b5c83940b88ff4",
+      "bytes": 3551,
+      "source_path_at_execution": "tests/Mist.Tests/Contracts/ContractCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tests/Mist.Tests/Mist.Tests.csproj",
+      "sha256": "47b829a6e1b987da82bb348c1db04bd66e7bb351b8f3a6c9cc7b5c329067d560",
+      "bytes": 421,
+      "source_path_at_execution": "tests/Mist.Tests/Mist.Tests.csproj"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tests/Mist.Tests/Program.cs",
+      "sha256": "689adc4057a7e44c1aa68cef426ed7752a20add0c367a333fb5fa02f3726d07d",
+      "bytes": 277,
+      "source_path_at_execution": "tests/Mist.Tests/Program.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tests/Mist.Tests/Storage/StorageCases.cs",
+      "sha256": "bb737fca646f1012a33b7d88e3717e4ca8ede784b42fdf2d58c60017b7a3f0b2",
+      "bytes": 28618,
+      "source_path_at_execution": "tests/Mist.Tests/Storage/StorageCases.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tests/Mist.Tests/TestRegistry.cs",
+      "sha256": "5fa0748f44d9e77cf5067f9ca2dbf4099533d6ba113b14431a506ca662e273d3",
+      "bytes": 1970,
+      "source_path_at_execution": "tests/Mist.Tests/TestRegistry.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tests/Mist.Tests/packages.lock.json",
+      "sha256": "d63779ce7f050501a6c2ce7a552be4d9970d6081e09973fc080139f28a75b7bf",
+      "bytes": 2500,
+      "source_path_at_execution": "tests/Mist.Tests/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tools/Mist.ContentCli/Import/SourceAdapters.cs",
+      "sha256": "ebafb158ffd700be66eb516800d563eccd34b409ca5d9fa34840bca71a99ea82",
+      "bytes": 12758,
+      "source_path_at_execution": "tools/Mist.ContentCli/Import/SourceAdapters.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tools/Mist.ContentCli/Mist.ContentCli.csproj",
+      "sha256": "5f925deb88a87f60759af68784572e03b119b7a51d3368437225fafeb7774640",
+      "bytes": 200,
+      "source_path_at_execution": "tools/Mist.ContentCli/Mist.ContentCli.csproj"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tools/Mist.ContentCli/Program.cs",
+      "sha256": "92e5c755f2a48d0746363a39eb90890aab6e105fff89bc05a92ac9a04649ab78",
+      "bytes": 608,
+      "source_path_at_execution": "tools/Mist.ContentCli/Program.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tools/Mist.ContentCli/Validation/ContentCompiler.cs",
+      "sha256": "b8f1c9fd059445fab225d3c5b3b7166805e7a2b0fe9e7f1e2b4078ac697cddcc",
+      "bytes": 6748,
+      "source_path_at_execution": "tools/Mist.ContentCli/Validation/ContentCompiler.cs"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tools/Mist.ContentCli/packages.lock.json",
+      "sha256": "1e5d945b0653dc49f6b021eba12df12ba4287e290a10c87b83459ef0cca988af",
+      "bytes": 130,
+      "source_path_at_execution": "tools/Mist.ContentCli/packages.lock.json"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tools/ci/README.md",
+      "sha256": "acd931d2db91744e33e120b0c8523d4293edea5639a722c31c0238f771853d98",
+      "bytes": 846,
+      "source_path_at_execution": "tools/ci/README.md"
+    },
+    {
+      "path": "reports/execution/CX-012/evidence/20261009T112812212666Z/sources/tools/ci/build.py",
+      "sha256": "4e51299454f1bdb2744ee0cabb1714eef191518c55acef3c36975f85b0a0da7e",
+      "bytes": 6472,
+      "source_path_at_execution": "tools/ci/build.py"
+    }
+  ],
+  "interface_schema_impact": {
+    "storage_schema": 1,
+    "format": "typed contracts and explicit new production schema; no existing production-profile upgrade claimed",
+    "caller_updates": "Core, Application, Infrastructure, Godot, CLI and actual C# tests built together"
+  },
+  "snapshot_reason": "Preserve actual source bytes while later authorized tasks evolve the working tree."
+}

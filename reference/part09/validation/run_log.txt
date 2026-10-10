@@ -1,0 +1,55 @@
+test_48_existing_auxiliary_not_duplicated_when_filling (test_npc.AdditionalConsistencyTests.test_48_existing_auxiliary_not_duplicated_when_filling) ... ok
+test_49_same_acceptance_receipt_cannot_sign_all_regions (test_npc.AdditionalConsistencyTests.test_49_same_acceptance_receipt_cannot_sign_all_regions) ... ok
+test_50_mara_dated_survival_keeps_correct_source (test_npc.AdditionalConsistencyTests.test_50_mara_dated_survival_keeps_correct_source) ... ok
+test_18_valid_preview_is_read_only_and_commit_once (test_npc.ConsentTests.test_18_valid_preview_is_read_only_and_commit_once) ... ok
+test_19_new_command_same_delivery_still_one_message (test_npc.ConsentTests.test_19_new_command_same_delivery_still_one_message) ... ok
+test_20_recipient_and_purpose_scope_cannot_expand (test_npc.ConsentTests.test_20_recipient_and_purpose_scope_cannot_expand) ... ok
+test_21_source_version_change_invalidates (test_npc.ConsentTests.test_21_source_version_change_invalidates) ... ok
+test_22_revocation_after_preview_blocks_new_delivery (test_npc.ConsentTests.test_22_revocation_after_preview_blocks_new_delivery) ... ok
+test_23_delivered_message_is_not_erased_by_revocation (test_npc.ConsentTests.test_23_delivered_message_is_not_erased_by_revocation) ... ok
+test_24_edited_draft_and_old_context_rejected (test_npc.ConsentTests.test_24_edited_draft_and_old_context_rejected) ... ok
+test_25_confirmation_required_and_command_conflict (test_npc.ConsentTests.test_25_confirmation_required_and_command_conflict) ... ok
+test_11_knowing_does_not_release_future_fact (test_npc.KnowledgeTests.test_11_knowing_does_not_release_future_fact) ... ok
+test_12_stage_does_not_teach_all_npcs (test_npc.KnowledgeTests.test_12_stage_does_not_teach_all_npcs) ... ok
+test_13_allowed_source_preserves_time_and_attribution (test_npc.KnowledgeTests.test_13_allowed_source_preserves_time_and_attribution) ... ok
+test_14_private_fact_not_in_generation_context (test_npc.KnowledgeTests.test_14_private_fact_not_in_generation_context) ... ok
+test_15_permission_alone_does_not_bypass_story_gate (test_npc.KnowledgeTests.test_15_permission_alone_does_not_bypass_story_gate) ... ok
+test_16_guess_does_not_confirm_or_echo_spoiler (test_npc.KnowledgeTests.test_16_guess_does_not_confirm_or_echo_spoiler) ... ok
+test_17_knowledge_view_does_not_mutate_source (test_npc.KnowledgeTests.test_17_knowledge_view_does_not_mutate_source) ... ok
+test_01_counts_and_unique_ids (test_npc.MetadataTests.test_01_counts_and_unique_ids) ... ok
+test_02_language_stays_65 (test_npc.MetadataTests.test_02_language_stays_65) ... ok
+test_03_all_scenes_exist (test_npc.MetadataTests.test_03_all_scenes_exist) ... ok
+test_04_main_binding_is_complete_not_new_main (test_npc.MetadataTests.test_04_main_binding_is_complete_not_new_main) ... ok
+test_05_companion_identity_and_tactics_inherited (test_npc.MetadataTests.test_05_companion_identity_and_tactics_inherited) ... ok
+test_06_arc_dependencies_acyclic (test_npc.MetadataTests.test_06_arc_dependencies_acyclic) ... ok
+test_07_regional_optional_budgets (test_npc.MetadataTests.test_07_regional_optional_budgets) ... ok
+test_08_reused_transport_has_no_double_reward (test_npc.MetadataTests.test_08_reused_transport_has_no_double_reward) ... ok
+test_09_life_scenes_and_known_topic_refs (test_npc.MetadataTests.test_09_life_scenes_and_known_topic_refs) ... ok
+test_10_factions_are_not_six_signatories (test_npc.MetadataTests.test_10_factions_are_not_six_signatories) ... ok
+test_26_political_disagreement_not_professional_breach (test_npc.RelationTests.test_26_political_disagreement_not_professional_breach) ... ok
+test_27_same_work_cannot_farm_trust (test_npc.RelationTests.test_27_same_work_cannot_farm_trust) ... ok
+test_28_gift_learning_grade_and_tone_have_no_effect_authority (test_npc.RelationTests.test_28_gift_learning_grade_and_tone_have_no_effect_authority) ... ok
+test_29_explicit_mutual_agreement_not_hidden_point_threshold (test_npc.RelationTests.test_29_explicit_mutual_agreement_not_hidden_point_threshold) ... ok
+test_30_pause_is_not_breach (test_npc.RelationTests.test_30_pause_is_not_breach) ... ok
+test_31_renegotiation_not_breach (test_npc.RelationTests.test_31_renegotiation_not_breach) ... ok
+test_32_repair_requires_specific_work_and_acceptance (test_npc.RelationTests.test_32_repair_requires_specific_work_and_acceptance) ... ok
+test_33_repeat_and_conflict_receipts (test_npc.RelationTests.test_33_repeat_and_conflict_receipts) ... ok
+test_34_unconfirmed_text_does_not_create_breach (test_npc.RelationTests.test_34_unconfirmed_text_does_not_create_breach) ... ok
+test_35_claims_are_all_or_none (test_npc.RosterAndScopeTests.test_35_claims_are_all_or_none) ... ok
+test_36_protected_writing_defers_foreground (test_npc.RosterAndScopeTests.test_36_protected_writing_defers_foreground) ... ok
+test_37_departure_is_safe_and_equipment_has_one_owner (test_npc.RosterAndScopeTests.test_37_departure_is_safe_and_equipment_has_one_owner) ... ok
+test_38_rerecruit_legal_but_not_without_consent (test_npc.RosterAndScopeTests.test_38_rerecruit_legal_but_not_without_consent) ... ok
+test_39_same_actor_not_fighting_and_working (test_npc.RosterAndScopeTests.test_39_same_actor_not_fighting_and_working) ... ok
+test_40_late_tess_gets_all_level_tiers (test_npc.RosterAndScopeTests.test_40_late_tess_gets_all_level_tiers) ... ok
+test_41_service_requires_facts_and_capacity_not_social_score (test_npc.RosterAndScopeTests.test_41_service_requires_facts_and_capacity_not_social_score) ... ok
+test_42_dual_mandates_six_regions_current_terms (test_npc.RosterAndScopeTests.test_42_dual_mandates_six_regions_current_terms) ... ok
+test_43_fixed_readiness_ignores_all_companion_positions_and_rosters (test_npc.RosterAndScopeTests.test_43_fixed_readiness_ignores_all_companion_positions_and_rosters) ... ok
+test_44_all_enhanced_requirements_really_required (test_npc.RosterAndScopeTests.test_44_all_enhanced_requirements_really_required) ... ok
+test_45_rewards_once_and_old_branch_can_reearn (test_npc.RosterAndScopeTests.test_45_rewards_once_and_old_branch_can_reearn) ... ok
+test_46_rewards_need_real_completion_receipt (test_npc.RosterAndScopeTests.test_46_rewards_need_real_completion_receipt) ... ok
+test_47_relation_snapshot_does_not_copy_future_history_backward (test_npc.RosterAndScopeTests.test_47_relation_snapshot_does_not_copy_future_history_backward) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 0.033s
+
+OK

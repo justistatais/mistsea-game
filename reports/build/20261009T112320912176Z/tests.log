@@ -1,0 +1,215 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 0}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 40,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-006",
+      "name": "Core assembly has no Godot, SQLite or HTTP dependency",
+      "result": "passed"
+    },
+    {
+      "task": "CX-006",
+      "name": "Assistance capability cannot execute world commands",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Duplicate JSON fields are rejected recursively",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Unknown enum and integer enum are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Typed identity serialization preserves its exact GUID",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Unicode scalar ranges preserve emoji, combining marks and Chinese",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Wall time observations cannot advance action or combat clocks",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Language target cannot silently rise or introduce speaking scores",
+      "result": "passed"
+    },
+    {
+      "task": "CX-008",
+      "name": "Integer rewards use exact floor basis points",
+      "result": "passed"
+    },
+    {
+      "task": "CX-011",
+      "name": "Relevant reads ignore dictionary but invalidate battery/load",
+      "result": "passed"
+    },
+    {
+      "task": "CX-011",
+      "name": "Unknown system state and empty evidence never imply readiness",
+      "result": "passed"
+    },
+    {
+      "task": "CX-012",
+      "name": "Real profile schema enforces foreign keys and unique ownership slots",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Mid-write exception rolls back all world changes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Insufficient balance rolls back earlier item transfer",
+      "result": "passed"
+    },
+    {
+      "task": "CX-013",
+      "name": "Busy competing connection does not block caller thread",
+      "result": "passed"
+    },
+    {
+      "task": "CX-014",
+      "name": "Request and semantic work deduplicate; outbox display grants nothing",
+      "result": "passed"
+    },
+    {
+      "task": "CX-014",
+      "name": "Two actual stores serialize concurrent work without double reward",
+      "result": "passed"
+    },
+    {
+      "task": "CX-015",
+      "name": "Before/after reward checkpoints branch correctly and learning persists",
+      "result": "passed"
+    },
+    {
+      "task": "CX-015",
+      "name": "Continue preserves encounter instance; automatic slots preserve protected point",
+      "result": "passed"
+    },
+    {
+      "task": "CX-016",
+      "name": "Local retry preserves external state and refuses successful reward rewind",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Unicode drafts CAS globally and old branch heads keep their version",
+      "result": "passed"
+    },
+    {
+      "task": "CX-016",
+      "name": "Actual retry transaction preserves latest draft, collected material and delivered transport",
+      "result": "passed"
+    },
+    {
+      "task": "CX-017",
+      "name": "Failed draft write never acknowledges saved text",
+      "result": "passed"
+    },
+    {
+      "task": "CX-018",
+      "name": "Playback/subtitles/repeat/support are distinct from independent evidence",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Draft erasure preserves world receipts and prevents old backup resurrection",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Learning tombstone survives cleanup interruption and old restore",
+      "result": "passed"
+    },
+    {
+      "task": "CX-019",
+      "name": "Assistance routes current/old draft/archived branch/discarded and requires consent",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Failed migration preserves live database; high schema refuses all writes",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Missing deletion control halts without touching main file",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Corrupt backups are rejected and managed cleanup preserves outside file",
+      "result": "passed"
+    },
+    {
+      "task": "CX-022",
+      "name": "Real child process kill before commit recovers original complete state",
+      "result": "passed"
+    },
+    {
+      "task": "CX-020",
+      "name": "Actual corrupt main is preserved while validated recovery switches candidate",
+      "result": "passed"
+    },
+    {
+      "task": "CX-022",
+      "name": "Real child process kill after commit recovers new complete state",
+      "result": "passed"
+    },
+    {
+      "task": "CX-009",
+      "name": "Nine source adapters preserve English text and real reward mapping",
+      "result": "passed"
+    },
+    {
+      "task": "CX-009",
+      "name": "Unknown source fields and unmapped legacy rewards are rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-010",
+      "name": "Compiler refuses changed same-version text, broken graph and SYNTHETIC",
+      "result": "passed"
+    },
+    {
+      "task": "CX-010",
+      "name": "Formal build is blocked by missing audio, editorial/calibration and signature",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Unsigned internal package requires explicit allowance; hashes are not signatures",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Actual RSA test signature is verified and wrong key rejected",
+      "result": "passed"
+    },
+    {
+      "task": "CX-021",
+      "name": "Traversal, executable assets, hash changes and absent audio binding are rejected",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

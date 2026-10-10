@@ -1,0 +1,77 @@
+{
+  "generated_utc": "2026-10-08T14:30:09.054033+00:00",
+  "python": "3.13.5",
+  "tests_run": 92,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "metadata": {
+    "puzzle_units": 9,
+    "families": 8,
+    "parent_task_bindings": 32,
+    "constraint_source_records": 27,
+    "local_materials": 12,
+    "local_reading_materials": 9,
+    "local_audio_scripts": 3,
+    "rendered_audio_assets": 0,
+    "product_acceptance_cases": 44
+  },
+  "bounded_models": {
+    "all": {
+      "states": 46,
+      "transitions": 191,
+      "states_without_goal_path": 0
+    },
+    "combat_only": {
+      "states": 14,
+      "transitions": 50,
+      "states_without_goal_path": 0
+    },
+    "isolate_only": {
+      "states": 22,
+      "transitions": 83,
+      "states_without_goal_path": 0
+    },
+    "focus_only": {
+      "states": 22,
+      "transitions": 75,
+      "states_without_goal_path": 0
+    },
+    "beacon_finite": {
+      "states": 5,
+      "transitions": 14,
+      "states_without_goal_path": 0
+    },
+    "enumerations": {
+      "hotel_candidates": 2,
+      "hotel_solutions": 1,
+      "timeline_candidates": 24,
+      "timeline_orders": 1,
+      "cargo_candidates": 32,
+      "cargo_solutions": 2,
+      "current_map_routes": 2,
+      "comparable_load_pairs": [
+        [
+          "T1",
+          "T2"
+        ],
+        [
+          "T2",
+          "T4"
+        ]
+      ]
+    },
+    "limits": "Finite contracts only. No geometry, full combat, resource transaction, NLP, audio, IELTS calibration or real save/crash implementation."
+  },
+  "excluded": [
+    "game_engine",
+    "collision_and_actual_paths",
+    "full_combat_and_economy",
+    "world_transactions_and_real_disk_crashes",
+    "free_text_semantic_parser",
+    "audio_quality",
+    "IELTS_6_5_empirical_calibration",
+    "learning_effectiveness"
+  ],
+  "interpretation": "Passing checks establish only the encoded reference contracts. They are not a full-game or language-level certificate."
+}

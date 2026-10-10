@@ -1,0 +1,21 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--case-index=550"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 1,
+  "failed": 1,
+  "results": [
+    {
+      "task": "CP-R4-03",
+      "name": "normal_zero_XP_R4_both_independent_optional_contracts_actual_control_inspection_CAS_and_no_rewards",
+      "result": "failed",
+      "detail": "System.IO.InvalidDataException: Recovery pointer target is missing; original is preserved.\r\n   at Mist.Infrastructure.Storage.ProfileStore..ctor(String root, String releaseId, Action\u00601 fault, String recoveryBackupId) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\src\\Mist.Infrastructure\\Storage\\ProfileStore.cs:line 51\r\n   at Mist.Tests.OptionalEncounterContracts.OptionalEncounterCases.ExportEntry(ProfileStore s, Entry entry, String region) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\OptionalEncounterContracts\\OptionalEncounterCases.cs:line 69\r\n   at Mist.Tests.OptionalEncounterContracts.OptionalEncounterCases.NormalRegion(String region) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\OptionalEncounterContracts\\OptionalEncounterCases.cs:line 83\r\n   at Mist.Tests.OptionalEncounterContracts.OptionalEncounterCases.\u003C\u003Ec__DisplayClass14_2.\u003CRegister\u003Eb__25() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\OptionalEncounterContracts\\OptionalEncounterCases.cs:line 79\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 34"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

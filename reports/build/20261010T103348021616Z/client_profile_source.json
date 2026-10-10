@@ -1,0 +1,70 @@
+{
+  "scope": "copied untouched actual normal-route profile from exact current fresh unfiltered full-suite case; no fixture or seeded entry",
+  "source_mode": "final_full_suite_case_copy",
+  "suite_dir": "reports/build/20261010T100947135499Z",
+  "selected_case": {
+    "index": 260,
+    "task": "CX-060",
+    "name": "Actual normal Q104 handover, physical berth inspection, three ship spaces and original workspaces share one persisted vessel"
+  },
+  "suite_test_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inventory_sha256": "b8b3fec5014a2be7e362849278837108863bbaacf7d2f6b202896c26ef0ee45a",
+  "source_sha256": "0fd11027f41e1883ad81e695b32e9f9570b5c6d23603dc4e62399534a25f1d4c",
+  "source_active_database": "reports/build/20261010T100947135499Z/case_runs/0260/testdata/vessel-interior-actual-board-7b7f435d-d520-468d-9a47-3664293dbd34/recovery/inventory-v2-e354d2de-73fc-4060-b2ec-9312cc50aa66.sqlite",
+  "source_active_database_sha256": "a8435f996b74c11484f502291071281e5abe288c06103014356d2b5855845e01",
+  "fixture_receipts": 0,
+  "suite": "reports/build/20261010T100947135499Z",
+  "source": "reports/build/20261010T100947135499Z/case_runs/0260/testdata/vessel-interior-actual-board-7b7f435d-d520-468d-9a47-3664293dbd34/recovery/actual-vessel-interior.json",
+  "fixture": false,
+  "case": {
+    "index": 260,
+    "task": "CX-060",
+    "name": "Actual normal Q104 handover, physical berth inspection, three ship spaces and original workspaces share one persisted vessel"
+  },
+  "suite_results_sha256": "8ea41011915951ad2048fdc59bf1e58f3f53d7d322cd618a06b3966599733418",
+  "suite_inputs_sha256": "2dc693404ab314119494f2f66eabbac50d0e3b0cd2ccdc00cd5d83858396ef7d",
+  "compiled_artifacts_sha256": "c3f622dece5d1ed3509a98df26b97617cea8bcf355db6c24d33924cc248999eb",
+  "case_results_sha256": "592851e6bd5d69bcdb7ef717bb2722e184f41400557be029cbe61562fe37173c",
+  "case_command_sha256": "a4a75fdc35975afbee7bb6948462f97b5e98d926699be7f033166c43c63bf18d",
+  "proof_sha256": "0fd11027f41e1883ad81e695b32e9f9570b5c6d23603dc4e62399534a25f1d4c",
+  "copied_profile_files": [
+    {
+      "path": "control.sqlite",
+      "sha256": "94cfabb3e858ab4e548f27a7d818e2869adc5b2137e5bcb0646afebcb5aba4ba"
+    },
+    {
+      "path": "profile.sqlite",
+      "sha256": "79082999fb2c15cdb76d49c32b266b5a6eb8bce660fb41cdbb5717571c698a22"
+    },
+    {
+      "path": "recovery/actual-vessel-interior.json",
+      "sha256": "0fd11027f41e1883ad81e695b32e9f9570b5c6d23603dc4e62399534a25f1d4c"
+    },
+    {
+      "path": "recovery/inventory-v2-e354d2de-73fc-4060-b2ec-9312cc50aa66.sqlite",
+      "sha256": "a8435f996b74c11484f502291071281e5abe288c06103014356d2b5855845e01"
+    }
+  ],
+  "copied_files": [
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0260/testdata/vessel-interior-actual-board-7b7f435d-d520-468d-9a47-3664293dbd34/control.sqlite",
+      "sha256": "94cfabb3e858ab4e548f27a7d818e2869adc5b2137e5bcb0646afebcb5aba4ba",
+      "copied_before_native_sha256": "94cfabb3e858ab4e548f27a7d818e2869adc5b2137e5bcb0646afebcb5aba4ba"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0260/testdata/vessel-interior-actual-board-7b7f435d-d520-468d-9a47-3664293dbd34/profile.sqlite",
+      "sha256": "79082999fb2c15cdb76d49c32b266b5a6eb8bce660fb41cdbb5717571c698a22",
+      "copied_before_native_sha256": "79082999fb2c15cdb76d49c32b266b5a6eb8bce660fb41cdbb5717571c698a22"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0260/testdata/vessel-interior-actual-board-7b7f435d-d520-468d-9a47-3664293dbd34/recovery/actual-vessel-interior.json",
+      "sha256": "0fd11027f41e1883ad81e695b32e9f9570b5c6d23603dc4e62399534a25f1d4c",
+      "copied_before_native_sha256": "0fd11027f41e1883ad81e695b32e9f9570b5c6d23603dc4e62399534a25f1d4c"
+    },
+    {
+      "source": "reports/build/20261010T100947135499Z/case_runs/0260/testdata/vessel-interior-actual-board-7b7f435d-d520-468d-9a47-3664293dbd34/recovery/inventory-v2-e354d2de-73fc-4060-b2ec-9312cc50aa66.sqlite",
+      "sha256": "a8435f996b74c11484f502291071281e5abe288c06103014356d2b5855845e01",
+      "copied_before_native_sha256": "a8435f996b74c11484f502291071281e5abe288c06103014356d2b5855845e01"
+    }
+  ]
+}

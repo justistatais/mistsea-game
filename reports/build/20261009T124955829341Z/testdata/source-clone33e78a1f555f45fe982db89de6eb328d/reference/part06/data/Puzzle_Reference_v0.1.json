@@ -1,0 +1,1595 @@
+{
+  "meta": {
+    "version": "0.1",
+    "date": "2026-10-08",
+    "kind": "design_reference_not_production_engine",
+    "difficulty_change": "CR-EN-005-001",
+    "no_claim_of_calibrated_band": true
+  },
+  "target": {
+    "test": "IELTS Academic",
+    "reading": 6.5,
+    "listening": 6.5,
+    "writing": 6.5,
+    "auto_escalation": false,
+    "mainline_world_gate_by_language": false
+  },
+  "families": [
+    {
+      "id": "A",
+      "name": "版本与来源整合",
+      "design": "核对身份、适用范围与修订关系；不是最新日期自动取胜",
+      "ui": "版本板／比较架"
+    },
+    {
+      "id": "B",
+      "name": "时间与顺序重建",
+      "design": "区分发生、记录与预定时间，允许偏序和未知",
+      "ui": "时间轨道／步骤卡"
+    },
+    {
+      "id": "C",
+      "name": "空间与路线判断",
+      "design": "把语言条件对应地标、历史线条与当前通路",
+      "ui": "证据地图／路径草案"
+    },
+    {
+      "id": "D",
+      "name": "约束与资源安排",
+      "design": "把容量、先后、对象与例外合成可行安排，不要求唯一最优",
+      "ui": "分配板／行程表"
+    },
+    {
+      "id": "E",
+      "name": "设备与状态操作",
+      "design": "根据说明改变真实设备，检查状态和配置版本",
+      "ui": "实体机关／状态检查"
+    },
+    {
+      "id": "F",
+      "name": "主张与证据审查",
+      "design": "区分支持、矛盾与不足，不凭身份判断诚实",
+      "ui": "证据板／可说明范围"
+    },
+    {
+      "id": "G",
+      "name": "图表与试验推理",
+      "design": "比较条件与结果、提出有限结论，不把相关当无限推广",
+      "ui": "试验台／图表板"
+    },
+    {
+      "id": "H",
+      "name": "沟通与澄清",
+      "design": "让真实接收者得到可执行意思，开放表达不开放改写事实",
+      "ui": "现有通信与写作工作区"
+    }
+  ],
+  "units": [
+    {
+      "id": "PZ-Q102-NAV",
+      "title": "选择可行航道",
+      "quest": "Q-102",
+      "family": "A",
+      "secondary": [
+        "D",
+        "F"
+      ],
+      "scenes": [
+        "R1-S02",
+        "R1-S03",
+        "R1-S04"
+      ],
+      "skills": [
+        "R03",
+        "R09",
+        "L03"
+      ],
+      "materials": [
+        "Q102-R-NOTICE",
+        "Q102-R-B",
+        "Q102-R-VESSEL",
+        "Q102-L-REVISION"
+      ],
+      "solution_policy": "unique_route_multiple_valid_expressions",
+      "player_action": "比较限制并形成条件式航道计划；不在此发船",
+      "validator": "ferry_route",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q102-NAV",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    },
+    {
+      "id": "PZ-Q102-ACCESS",
+      "title": "西工坊的三种进入方法",
+      "quest": "Q-102",
+      "family": "E",
+      "secondary": [
+        "C"
+      ],
+      "scenes": [
+        "R1-S05",
+        "R1-S06",
+        "R1-S07"
+      ],
+      "skills": [
+        "R03",
+        "R04",
+        "W02"
+      ],
+      "materials": [
+        "PZ102-R-WORKSHOP",
+        "PZ102-R-PANEL"
+      ],
+      "solution_policy": "multiple_methods",
+      "player_action": "选择现场处置、隔离或固定检查；实际进入并取件",
+      "validator": "workshop_model",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q102-ACCESS",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    },
+    {
+      "id": "PZ-Q102-TEST",
+      "title": "修复并验证当前配置",
+      "quest": "Q-102",
+      "family": "E",
+      "secondary": [
+        "B"
+      ],
+      "scenes": [
+        "R1-S04"
+      ],
+      "skills": [
+        "R03",
+        "L08",
+        "W02"
+      ],
+      "materials": [
+        "Q102-R-VESSEL",
+        "Q102-R-BATTERY",
+        "Q102-L-REVISION"
+      ],
+      "solution_policy": "partial_order_with_state_revalidation",
+      "player_action": "安装、接电、测试；更改配置使旧证明失效",
+      "validator": "beacon_certificate",
+      "complexity": "L1",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q102-TEST",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    },
+    {
+      "id": "PZ-Q102-BRIEF",
+      "title": "将撤离安排传达给执行者",
+      "quest": "Q-102",
+      "family": "H",
+      "secondary": [
+        "F"
+      ],
+      "scenes": [
+        "R1-S03",
+        "R1-S04"
+      ],
+      "skills": [
+        "W02",
+        "W11",
+        "D06"
+      ],
+      "materials": [
+        "Q102-R-NOTICE",
+        "Q102-R-B",
+        "Q102-R-VESSEL",
+        "Q102-R-BATTERY",
+        "Q102-L-REVISION"
+      ],
+      "solution_policy": "open_expression_fixed_action_constraints",
+      "player_action": "同一草稿写作、澄清、确认；不追加第二篇作文",
+      "validator": "confirmed_meaning_contract_only",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q102-BRIEF",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    },
+    {
+      "id": "PZ-HOTEL-BOOKING",
+      "title": "两份确认，一笔订房",
+      "quest": "SC-R1-001",
+      "family": "A",
+      "secondary": [
+        "D",
+        "H"
+      ],
+      "scenes": [
+        "R1-O01"
+      ],
+      "skills": [
+        "R09",
+        "L03",
+        "W01"
+      ],
+      "materials": [
+        "PZHOT-R-ORIGINAL",
+        "PZHOT-L-AMENDMENT",
+        "PZHOT-R-ROOMS"
+      ],
+      "solution_policy": "unique_assignment_multiple_confirmation_texts",
+      "player_action": "识别修订关系、核对房间、分配房间；沿用支线确认留言",
+      "validator": "hotel_assignment",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-HOTEL-BOOKING",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    },
+    {
+      "id": "PZ-Q202-TIME",
+      "title": "记录时间不是事件时间",
+      "quest": "Q-202",
+      "family": "B",
+      "secondary": [
+        "F"
+      ],
+      "scenes": [
+        "R2-S03",
+        "R2-S04"
+      ],
+      "skills": [
+        "R05",
+        "R09",
+        "D03"
+      ],
+      "materials": [
+        "PZTIME-R-ORDER",
+        "PZTIME-R-ARRIVAL"
+      ],
+      "solution_policy": "unique_relative_order_unknown_exact_time",
+      "player_action": "安排四张事件卡并保留授权时刻未知；不暴露私人名单",
+      "validator": "timeline_order",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q202-TIME",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    },
+    {
+      "id": "PZ-Q501-MAP",
+      "title": "旧线条与当前通路",
+      "quest": "Q-501",
+      "family": "C",
+      "secondary": [
+        "A"
+      ],
+      "scenes": [
+        "R5-S01",
+        "R5-S02",
+        "R5-S03",
+        "R5-S04"
+      ],
+      "skills": [
+        "R10",
+        "L04",
+        "R09"
+      ],
+      "materials": [
+        "PZMAP-R-HISTORY",
+        "PZMAP-L-DIRECTIONS"
+      ],
+      "solution_policy": "multiple_current_routes",
+      "player_action": "区分历史边与当前路；实际核查或清障，不直接传送",
+      "validator": "old_city_paths",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q501-MAP",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    },
+    {
+      "id": "PZ-Q603-LOAD",
+      "title": "两次补充运输",
+      "quest": "Q-603",
+      "family": "D",
+      "secondary": [
+        "B",
+        "H"
+      ],
+      "scenes": [
+        "R6-S05"
+      ],
+      "skills": [
+        "R03",
+        "L08",
+        "W02"
+      ],
+      "materials": [
+        "PZLOAD-R-MANIFEST",
+        "PZLOAD-L-SEQUENCE"
+      ],
+      "solution_policy": "two_feasible_schedules_no_hidden_optimum",
+      "player_action": "将五箱分为两趟并选择先到的非关键物资；由工作单提交",
+      "validator": "cargo_schedules",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q603-LOAD",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。",
+      "completion_scope": "Q-603补充安排；不追加到基础关闭或任何结局资格条件，跳过不取消原任务读听写机会"
+    },
+    {
+      "id": "PZ-Q402-TRIAL",
+      "title": "能说明什么，不能说明什么",
+      "quest": "Q-402",
+      "family": "G",
+      "secondary": [
+        "F"
+      ],
+      "scenes": [
+        "R4-S05",
+        "R4-S06"
+      ],
+      "skills": [
+        "R07",
+        "R10",
+        "D03"
+      ],
+      "materials": [
+        "PZLAB-R-PROTOCOL"
+      ],
+      "solution_policy": "bounded_evidence_claims",
+      "player_action": "比较试验、选取可比记录、写有范围的摘要；不授予六塔资格",
+      "validator": "trial_claims",
+      "complexity": "L2",
+      "detail": "worked_reference",
+      "target_band": 6.5,
+      "difficulty_status": "draft_target_65",
+      "design_family_id": "DESIGN-PZ-Q402-TRIAL",
+      "world_effect_policy": "puzzle_returns_proposal_or_receipt_request_to_existing_owner",
+      "hints_required": [
+        "operation",
+        "language",
+        "logic"
+      ],
+      "logic_hint_levels": 4,
+      "learning_gate": false,
+      "real_time_limit": false,
+      "reset_policy": "local_explicit_scope_no_history_deletion",
+      "content_version": "0.1",
+      "observation_note": "目标为有对应产出时可观测的机会；移动、点选或状态成功不自动记写作/听力成功。相同草稿和事实不复制独立证据。"
+    }
+  ],
+  "chapter_bindings": [
+    {
+      "quest_id": "Q-P01",
+      "quest_title": "断开的航线",
+      "family_refs": [
+        "C",
+        "E"
+      ],
+      "scene_refs": [
+        "R0-S01",
+        "R0-S02"
+      ],
+      "parent_primary_goals": [
+        "R03",
+        "L04",
+        "W02"
+      ],
+      "writing_form_preserved": "micro",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-P02",
+      "quest_title": "有人还在岸上",
+      "family_refs": [
+        "D",
+        "H"
+      ],
+      "scene_refs": [
+        "R0-S02",
+        "R0-S03",
+        "R0-S04"
+      ],
+      "parent_primary_goals": [
+        "R10",
+        "L02",
+        "W01"
+      ],
+      "writing_form_preserved": "micro",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-P03",
+      "quest_title": "第二个记录器",
+      "family_refs": [
+        "B",
+        "F"
+      ],
+      "scene_refs": [
+        "R0-S05"
+      ],
+      "parent_primary_goals": [
+        "R05",
+        "L03",
+        "W03"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-101",
+      "quest_title": "封港令之外",
+      "family_refs": [
+        "A",
+        "H"
+      ],
+      "scene_refs": [
+        "R1-S01",
+        "R1-S02",
+        "R1-S03"
+      ],
+      "parent_primary_goals": [
+        "R02",
+        "L06",
+        "W01"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-102",
+      "quest_title": "最后一班渡轮",
+      "family_refs": [
+        "A",
+        "E",
+        "H"
+      ],
+      "scene_refs": [
+        "R1-S02",
+        "R1-S03",
+        "R1-S04",
+        "R1-S05",
+        "R1-S06",
+        "R1-S07"
+      ],
+      "parent_primary_goals": [
+        "R03",
+        "L03",
+        "W02"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [
+        "PZ-Q102-NAV",
+        "PZ-Q102-ACCESS",
+        "PZ-Q102-TEST",
+        "PZ-Q102-BRIEF"
+      ],
+      "status": "worked_subset",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-103",
+      "quest_title": "预先写好的事故",
+      "family_refs": [
+        "B",
+        "F"
+      ],
+      "scene_refs": [
+        "R1-S02",
+        "R1-S03",
+        "R1-S06",
+        "R1-S08"
+      ],
+      "parent_primary_goals": [
+        "R07",
+        "L05",
+        "W07"
+      ],
+      "writing_form_preserved": "argument",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-104",
+      "quest_title": "潮门塔重启",
+      "family_refs": [
+        "E",
+        "G"
+      ],
+      "scene_refs": [
+        "R1-S09",
+        "R1-S10"
+      ],
+      "parent_primary_goals": [
+        "R10",
+        "L07",
+        "W04"
+      ],
+      "writing_form_preserved": "visual",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-201",
+      "quest_title": "没有登记的住民",
+      "family_refs": [
+        "A",
+        "F"
+      ],
+      "scene_refs": [
+        "R2-S01",
+        "R2-S02",
+        "R2-S03"
+      ],
+      "parent_primary_goals": [
+        "R02",
+        "L01",
+        "W03"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-202",
+      "quest_title": "第二份撤离名单",
+      "family_refs": [
+        "A",
+        "B"
+      ],
+      "scene_refs": [
+        "R2-S03",
+        "R2-S04"
+      ],
+      "parent_primary_goals": [
+        "R08",
+        "L05",
+        "W04"
+      ],
+      "writing_form_preserved": "visual",
+      "worked_units": [
+        "PZ-Q202-TIME"
+      ],
+      "status": "worked_subset",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-203",
+      "quest_title": "林下的转供站",
+      "family_refs": [
+        "E",
+        "C"
+      ],
+      "scene_refs": [
+        "R2-S05",
+        "R2-S06",
+        "R2-S07",
+        "R2-S08"
+      ],
+      "parent_primary_goals": [
+        "R04",
+        "L09",
+        "W06"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-204",
+      "quest_title": "谁可以知道这些名字",
+      "family_refs": [
+        "F",
+        "H"
+      ],
+      "scene_refs": [
+        "R2-S02",
+        "R2-S04",
+        "R2-S08"
+      ],
+      "parent_primary_goals": [
+        "R06",
+        "L06",
+        "W09"
+      ],
+      "writing_form_preserved": "argument",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-301",
+      "quest_title": "钟声以下",
+      "family_refs": [
+        "C",
+        "E"
+      ],
+      "scene_refs": [
+        "R3-S01",
+        "R3-S02",
+        "R3-S04",
+        "R3-S05",
+        "R3-S06",
+        "R3-S07"
+      ],
+      "parent_primary_goals": [
+        "R10",
+        "L04",
+        "W02"
+      ],
+      "writing_form_preserved": "micro",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-302",
+      "quest_title": "最后一道检修章",
+      "family_refs": [
+        "A",
+        "B"
+      ],
+      "scene_refs": [
+        "R3-S03",
+        "R3-S05",
+        "R3-S07"
+      ],
+      "parent_primary_goals": [
+        "R09",
+        "L08",
+        "W04"
+      ],
+      "writing_form_preserved": "visual",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-303",
+      "quest_title": "三炉一线",
+      "family_refs": [
+        "D",
+        "H"
+      ],
+      "scene_refs": [
+        "R3-S02",
+        "R3-S08"
+      ],
+      "parent_primary_goals": [
+        "R06",
+        "L05",
+        "W08"
+      ],
+      "writing_form_preserved": "argument",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-304",
+      "quest_title": "停止超采",
+      "family_refs": [
+        "E",
+        "H"
+      ],
+      "scene_refs": [
+        "R3-S08",
+        "R3-S09"
+      ],
+      "parent_primary_goals": [
+        "R03",
+        "L10",
+        "W02"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-401",
+      "quest_title": "相同的曲线",
+      "family_refs": [
+        "G",
+        "F"
+      ],
+      "scene_refs": [
+        "R4-S01",
+        "R4-S02",
+        "R4-S03",
+        "R4-S04"
+      ],
+      "parent_primary_goals": [
+        "R10",
+        "L01",
+        "W04"
+      ],
+      "writing_form_preserved": "visual",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-402",
+      "quest_title": "在场的反例",
+      "family_refs": [
+        "G",
+        "F"
+      ],
+      "scene_refs": [
+        "R4-S05",
+        "R4-S06"
+      ],
+      "parent_primary_goals": [
+        "R07",
+        "L09",
+        "W03"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [
+        "PZ-Q402-TRIAL"
+      ],
+      "status": "worked_subset",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-403",
+      "quest_title": "孤网试验",
+      "family_refs": [
+        "E",
+        "G"
+      ],
+      "scene_refs": [
+        "R4-S06",
+        "R4-S07"
+      ],
+      "parent_primary_goals": [
+        "R08",
+        "L08",
+        "W06"
+      ],
+      "writing_form_preserved": "visual",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-404",
+      "quest_title": "不完整的答案",
+      "family_refs": [
+        "F",
+        "H"
+      ],
+      "scene_refs": [
+        "R4-S02",
+        "R4-S04",
+        "R4-S08"
+      ],
+      "parent_primary_goals": [
+        "R06",
+        "L10",
+        "W07"
+      ],
+      "writing_form_preserved": "argument",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-501",
+      "quest_title": "从地图上消失的街道",
+      "family_refs": [
+        "C",
+        "A"
+      ],
+      "scene_refs": [
+        "R5-S01",
+        "R5-S02",
+        "R5-S03",
+        "R5-S04"
+      ],
+      "parent_primary_goals": [
+        "R10",
+        "L04",
+        "W03"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [
+        "PZ-Q501-MAP"
+      ],
+      "status": "worked_subset",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-502",
+      "quest_title": "灯下的人",
+      "family_refs": [
+        "C",
+        "E"
+      ],
+      "scene_refs": [
+        "R5-S04",
+        "R5-S05",
+        "R5-S06"
+      ],
+      "parent_primary_goals": [
+        "R04",
+        "L03",
+        "W02"
+      ],
+      "writing_form_preserved": "micro",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-503",
+      "quest_title": "十八年前的签名",
+      "family_refs": [
+        "A",
+        "F"
+      ],
+      "scene_refs": [
+        "R5-S02",
+        "R5-S07"
+      ],
+      "parent_primary_goals": [
+        "R09",
+        "L05",
+        "W03"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-504",
+      "quest_title": "谁来接管",
+      "family_refs": [
+        "F",
+        "H"
+      ],
+      "scene_refs": [
+        "R5-S02",
+        "R5-S07",
+        "R5-S08"
+      ],
+      "parent_primary_goals": [
+        "R06",
+        "L06",
+        "W09"
+      ],
+      "writing_form_preserved": "argument",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-601",
+      "quest_title": "最后的测站",
+      "family_refs": [
+        "G",
+        "F"
+      ],
+      "scene_refs": [
+        "R6-S01",
+        "R6-S02",
+        "R6-S03",
+        "R6-S04"
+      ],
+      "parent_primary_goals": [
+        "R07",
+        "L07",
+        "W03"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-602",
+      "quest_title": "六个答复",
+      "family_refs": [
+        "D",
+        "A"
+      ],
+      "scene_refs": [
+        "R6-S02",
+        "R6-S05",
+        "R6-S08"
+      ],
+      "parent_primary_goals": [
+        "R09",
+        "L02",
+        "W04"
+      ],
+      "writing_form_preserved": "visual",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-603",
+      "quest_title": "风脊线",
+      "family_refs": [
+        "D",
+        "C"
+      ],
+      "scene_refs": [
+        "R6-S05",
+        "R6-S06",
+        "R6-S07"
+      ],
+      "parent_primary_goals": [
+        "R03",
+        "L08",
+        "W07"
+      ],
+      "writing_form_preserved": "argument",
+      "worked_units": [
+        "PZ-Q603-LOAD"
+      ],
+      "status": "worked_subset",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-604",
+      "quest_title": "起航之前",
+      "family_refs": [
+        "D",
+        "H"
+      ],
+      "scene_refs": [
+        "R6-S01",
+        "R6-S08"
+      ],
+      "parent_primary_goals": [
+        "R08",
+        "L10",
+        "W02"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-F01",
+      "quest_title": "进入第七塔",
+      "family_refs": [
+        "C",
+        "H"
+      ],
+      "scene_refs": [
+        "RF-S01",
+        "RF-S02",
+        "RF-S03"
+      ],
+      "parent_primary_goals": [
+        "R02",
+        "L04",
+        "W01"
+      ],
+      "writing_form_preserved": "micro",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-F02",
+      "quest_title": "接管层",
+      "family_refs": [
+        "F",
+        "H"
+      ],
+      "scene_refs": [
+        "RF-S04"
+      ],
+      "parent_primary_goals": [
+        "R06",
+        "L06",
+        "W03"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-F03",
+      "quest_title": "不可取消的维护",
+      "family_refs": [
+        "E",
+        "B"
+      ],
+      "scene_refs": [
+        "RF-S05",
+        "RF-S06"
+      ],
+      "parent_primary_goals": [
+        "R03",
+        "L09",
+        "W02"
+      ],
+      "writing_form_preserved": "micro",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-F04",
+      "quest_title": "最后一份命令",
+      "family_refs": [
+        "D",
+        "H"
+      ],
+      "scene_refs": [
+        "RF-S07"
+      ],
+      "parent_primary_goals": [
+        "R09",
+        "L10",
+        "W02"
+      ],
+      "writing_form_preserved": "short",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "家族绑定不是新增目标已完成；不替代父任务的读听写预算"
+    },
+    {
+      "quest_id": "Q-F05",
+      "quest_title": "之后还有灯",
+      "family_refs": [],
+      "scene_refs": [
+        "RF-S07"
+      ],
+      "parent_primary_goals": [
+        "R01",
+        "L01",
+        "W11"
+      ],
+      "writing_form_preserved": "reflection",
+      "worked_units": [],
+      "status": "binding_plan_only",
+      "note": "Q-F05不设置新强制谜题；回顾与复核保留自愿性"
+    }
+  ],
+  "complexity_levels": [
+    {
+      "id": "L1",
+      "name": "局部",
+      "sources": [
+        1,
+        2
+      ],
+      "live_constraints": [
+        2,
+        3
+      ],
+      "inference_steps": [
+        1,
+        2
+      ],
+      "minutes": [
+        3,
+        6
+      ]
+    },
+    {
+      "id": "L2",
+      "name": "标准",
+      "sources": [
+        2,
+        4
+      ],
+      "live_constraints": [
+        3,
+        5
+      ],
+      "inference_steps": [
+        2,
+        3
+      ],
+      "minutes": [
+        6,
+        12
+      ]
+    },
+    {
+      "id": "L3",
+      "name": "复合",
+      "sources": [
+        3,
+        5
+      ],
+      "live_constraints": [
+        4,
+        6
+      ],
+      "inference_steps": [
+        3,
+        4
+      ],
+      "minutes": [
+        12,
+        20
+      ]
+    }
+  ],
+  "complexity_note": "待试玩的单阶段负担初值，不是IELTS官方标准；组合任务分段保存，不累加成英语升档",
+  "budget": {
+    "main_by_chapter": {
+      "R0": 5,
+      "R1": 9,
+      "R2": 8,
+      "R3": 9,
+      "R4": 9,
+      "R5": 8,
+      "R6": 10,
+      "RF": 6
+    },
+    "main_total": 64,
+    "optional_total": 32,
+    "total": 96,
+    "worked_units_now": 9,
+    "note": "同一模块多方法只算一个；材料、提示、复习变体不独立充数；不表示已制作96个"
+  },
+  "outcome_categories": [
+    "feasible",
+    "incomplete",
+    "contradicted",
+    "needs_clarification",
+    "out_of_scope",
+    "stale",
+    "data_unavailable",
+    "content_conflict"
+  ],
+  "support": {
+    "operation": "navigation_and_controls_without_answer",
+    "language": "scoped_word_syntax_transcript_translation",
+    "logic": [
+      "goal",
+      "relevant_relation",
+      "next_inference",
+      "full_current_plan"
+    ],
+    "full_solution_on_request": true,
+    "reward_penalty": false,
+    "exposure_requires_scope": true
+  },
+  "banned_gates": [
+    "english_score",
+    "hint_count",
+    "subtitle_setting",
+    "materials_opened_count",
+    "writing_word_count",
+    "model_confidence",
+    "real_elapsed_reading_time",
+    "specific_companion_required",
+    "random_unique_item"
+  ],
+  "exports": [
+    "candidate_solution",
+    "constraint_report",
+    "versioned_action_request",
+    "scoped_learning_observation"
+  ],
+  "not_exports": [
+    "grant_xp",
+    "write_quest_closed",
+    "grant_ending",
+    "spawn_unique_item",
+    "invent_evidence"
+  ],
+  "constraint_registry": [
+    {
+      "id": "NAV-A",
+      "puzzle_id": "PZ-Q102-NAV",
+      "claim": "A当前关闭",
+      "evidence_spans": [
+        "Q102-R-NOTICE-p01"
+      ],
+      "design_implication": "不能选A；不依赖历史航线"
+    },
+    {
+      "id": "NAV-B",
+      "puzzle_id": "PZ-Q102-NAV",
+      "claim": "B同时要求开泵和吃水≤1200mm",
+      "evidence_spans": [
+        "Q102-R-B-p01"
+      ],
+      "design_implication": "必要条件是合取而非任选"
+    },
+    {
+      "id": "NAV-VESSEL",
+      "puzzle_id": "PZ-Q102-NAV",
+      "claim": "本次载况1400mm且不支持卸载改船",
+      "evidence_spans": [
+        "Q102-R-VESSEL-p01",
+        "Q102-R-B-p02"
+      ],
+      "design_implication": "不能把不同船只或许可外变更作为同一方案"
+    },
+    {
+      "id": "NAV-C",
+      "puzzle_id": "PZ-Q102-NAV",
+      "claim": "C开放但导航灯必须在当前配置核查",
+      "evidence_spans": [
+        "Q102-R-NOTICE-p02"
+      ],
+      "design_implication": "可计划使用不等于现在可离港"
+    },
+    {
+      "id": "ACCESS-RESERVE",
+      "puzzle_id": "PZ-Q102-ACCESS",
+      "claim": "工坊独立储备与船内电池/主发电机分离",
+      "evidence_spans": [
+        "PZ102-R-WORKSHOP-p01"
+      ],
+      "design_implication": "不能要求耗用救援唯一电池"
+    },
+    {
+      "id": "ACCESS-FOCUS",
+      "puzzle_id": "PZ-Q102-ACCESS",
+      "claim": "固定检查持续到显式取消且不消除前侧扫描",
+      "evidence_spans": [
+        "PZ102-R-WORKSHOP-p02"
+      ],
+      "design_implication": "阅读不推进计时；风险边双向"
+    },
+    {
+      "id": "ACCESS-LATCH",
+      "puzzle_id": "PZ-Q102-ACCESS",
+      "claim": "内闩与模式联锁独立",
+      "evidence_spans": [
+        "PZ102-R-WORKSHOP-p03"
+      ],
+      "design_implication": "已开捷径不随active重新锁死"
+    },
+    {
+      "id": "TEST-INSTALL",
+      "puzzle_id": "PZ-Q102-TEST",
+      "claim": "修复和连接都完成后才可核验",
+      "evidence_spans": [
+        "Q102-R-VESSEL-p02"
+      ],
+      "design_implication": "安装与接电可以交换顺序"
+    },
+    {
+      "id": "TEST-REVISION",
+      "puzzle_id": "PZ-Q102-TEST",
+      "claim": "配置变化后重测",
+      "evidence_spans": [
+        "Q102-R-BATTERY-p01"
+      ],
+      "design_implication": "恢复相同外观不能复用旧证书"
+    },
+    {
+      "id": "BRIEF-GENERATOR",
+      "puzzle_id": "PZ-Q102-BRIEF",
+      "claim": "未完成安全隔离，主发电机保持关闭",
+      "evidence_spans": [
+        "Q102-L-REVISION-p04",
+        "PZ102-R-PANEL-p01"
+      ],
+      "design_implication": "各来源同事实暴露不重复计独立听力"
+    },
+    {
+      "id": "BRIEF-AUTHORITY",
+      "puzzle_id": "PZ-Q102-BRIEF",
+      "claim": "设备说明不等于离港命令",
+      "evidence_spans": [
+        "Q102-L-REVISION-p05",
+        "Q102-L-REVISION-p06"
+      ],
+      "design_implication": "意图确认、现场准备、执行确认三者分开"
+    },
+    {
+      "id": "HOT-ID",
+      "puzzle_id": "PZ-HOTEL-BOOKING",
+      "claim": "BKG-17修改到店日期而非新增订单",
+      "evidence_spans": [
+        "PZHOT-R-ORIGINAL-p01",
+        "PZHOT-L-AMENDMENT-p02"
+      ],
+      "design_implication": "保留两床与安静要求"
+    },
+    {
+      "id": "HOT-INDEPENDENT",
+      "puzzle_id": "PZ-HOTEL-BOOKING",
+      "claim": "BKG-22是独立单人平层订单",
+      "evidence_spans": [
+        "PZHOT-R-ROOMS-p01"
+      ],
+      "design_implication": "相同到店日期不代表同一订单"
+    },
+    {
+      "id": "HOT-ROOMS",
+      "puzzle_id": "PZ-HOTEL-BOOKING",
+      "claim": "2号两床安静有楼梯；5号单人平层非安静",
+      "evidence_spans": [
+        "PZHOT-R-ROOMS-p02"
+      ],
+      "design_implication": "唯一房间分配；床数满足至少所需数"
+    },
+    {
+      "id": "TIME-AUTH",
+      "puzzle_id": "PZ-Q202-TIME",
+      "claim": "批准先于14:10离开，批准具体时刻未知",
+      "evidence_spans": [
+        "PZTIME-R-ORDER-p02"
+      ],
+      "design_implication": "不能填猜测的13:50"
+    },
+    {
+      "id": "TIME-COPY",
+      "puzzle_id": "PZ-Q202-TIME",
+      "claim": "14:40到达；16:05抄录",
+      "evidence_spans": [
+        "PZTIME-R-ARRIVAL-p01"
+      ],
+      "design_implication": "发生时间与记录时间分离"
+    },
+    {
+      "id": "TIME-UNKNOWN",
+      "puzzle_id": "PZ-Q202-TIME",
+      "claim": "未说明中央事先知情与晚录原因",
+      "evidence_spans": [
+        "PZTIME-R-ARRIVAL-p02"
+      ],
+      "design_implication": "材料不足不是事实已否定"
+    },
+    {
+      "id": "MAP-HISTORIC",
+      "puzzle_id": "PZ-Q501-MAP",
+      "claim": "历史桥跨现已关闭",
+      "evidence_spans": [
+        "PZMAP-R-HISTORY-p01"
+      ],
+      "design_implication": "拒绝历史边，不关闭同端点所有通路"
+    },
+    {
+      "id": "MAP-PASSAGE",
+      "puzzle_id": "PZ-Q501-MAP",
+      "claim": "当前身份核查通道可用",
+      "evidence_spans": [
+        "PZMAP-R-HISTORY-p02"
+      ],
+      "design_implication": "实际核查才通行，不让方案自动给权限"
+    },
+    {
+      "id": "MAP-TUNNEL",
+      "puzzle_id": "PZ-Q501-MAP",
+      "claim": "基础工具路线需实际处置阻碍和危险",
+      "evidence_spans": [
+        "PZMAP-R-HISTORY-p02"
+      ],
+      "design_implication": "替代路线不需要同伴或随机钥匙"
+    },
+    {
+      "id": "MAP-SCOPE",
+      "puzzle_id": "PZ-Q501-MAP",
+      "claim": "只到值守厅，不等于扣押区可进入",
+      "evidence_spans": [
+        "PZMAP-R-HISTORY-p03"
+      ],
+      "design_implication": "不提前完成Q-502"
+    },
+    {
+      "id": "LOAD-CAPACITY",
+      "puzzle_id": "PZ-Q603-LOAD",
+      "claim": "两趟每趟容量6，五包不可拆，每包运一次",
+      "evidence_spans": [
+        "PZLOAD-R-MANIFEST-p01",
+        "PZLOAD-R-MANIFEST-p02"
+      ],
+      "design_implication": "运输与资源分配由工作单核验"
+    },
+    {
+      "id": "LOAD-PRECEDENCE",
+      "puzzle_id": "PZ-Q603-LOAD",
+      "claim": "工具与安装件严格早于灯具",
+      "evidence_spans": [
+        "PZLOAD-L-SEQUENCE-p01"
+      ],
+      "design_implication": "同趟不满足earlier trip"
+    },
+    {
+      "id": "LOAD-PREFERENCE",
+      "puzzle_id": "PZ-Q603-LOAD",
+      "claim": "面板和档案箱先后任选，不读结局资格",
+      "evidence_spans": [
+        "PZLOAD-L-SEQUENCE-p01",
+        "PZLOAD-R-MANIFEST-p01"
+      ],
+      "design_implication": "两种可行结果均接受，无隐藏最优"
+    },
+    {
+      "id": "LAB-DOMAIN",
+      "puzzle_id": "PZ-Q402-TRIAL",
+      "claim": "单控制器、十分钟与明确条件范围",
+      "evidence_spans": [
+        "PZLAB-R-PROTOCOL-p01"
+      ],
+      "design_implication": "禁止外推永久安全或所有塔可用"
+    },
+    {
+      "id": "LAB-OBSERVATIONS",
+      "puzzle_id": "PZ-Q402-TRIAL",
+      "claim": "T1/T4稳定，T2/T3停止；未测55",
+      "evidence_spans": [
+        "PZLAB-R-PROTOCOL-p02"
+      ],
+      "design_implication": "未测项保持未知"
+    },
+    {
+      "id": "LAB-COMPARABLE",
+      "puzzle_id": "PZ-Q402-TRIAL",
+      "claim": "比较负荷时其它记录条件须相同",
+      "evidence_spans": [
+        "PZLAB-R-PROTOCOL-p03",
+        "PZLAB-R-PROTOCOL-p02"
+      ],
+      "design_implication": "T1/T2与T2/T4都接受，不只允许参考对"
+    }
+  ],
+  "constraint_registry_note": "制作期明示约束及依据；不是可自动推导任意英文的求解器。运行时玩家只能查看有权限且已经获得的材料。",
+  "worked_hint_example": {
+    "puzzle": "PZ-Q102-NAV",
+    "operation": "导航至已经发现的公告或档案，教会比较操作；不揭示C",
+    "language": {
+      "sample": "only if引出必要条件；解释范围要保留原文",
+      "scope": [
+        "R03",
+        "G04"
+      ]
+    },
+    "logic": [
+      {
+        "level": 1,
+        "text": "比较航道条件与本船资料。",
+        "reveal": "方向"
+      },
+      {
+        "level": 2,
+        "text": "开泵和吃水限制要同时成立；一项成立不能代替另一项。",
+        "reveal": "关键关系",
+        "scope": [
+          "R03"
+        ]
+      },
+      {
+        "level": 3,
+        "text": "本船吃水1.4米超过B的1.2米上限，所以开泵也不能使B适用。",
+        "reveal": "局部结论",
+        "scope": [
+          "R03",
+          "R09"
+        ]
+      },
+      {
+        "level": 4,
+        "text": "在当前许可和载况下，修复并核验导航灯后选C；A关闭，B超限。主发电机保持关闭，用船内备用电池。",
+        "reveal": "完整计划；实际步骤按当前设备状态展开",
+        "scope": [
+          "R03",
+          "R09",
+          "W02"
+        ]
+      }
+    ],
+    "no_requirement_to_fail_before_help": true,
+    "read_hint_is_not_execute": true
+  }
+}

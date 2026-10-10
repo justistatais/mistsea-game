@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Production release manifest contract v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "release_id",
+    "rules_version",
+    "engine_contract",
+    "target",
+    "assets",
+    "calibration_records",
+    "publisher_key_id"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "release_id": {
+      "type": "string"
+    },
+    "rules_version": {
+      "type": "string"
+    },
+    "engine_contract": {
+      "type": "string"
+    },
+    "target": {
+      "const": {
+        "exam": "IELTS Academic",
+        "reading": 6.5,
+        "listening": 6.5,
+        "writing": 6.5,
+        "speaking": null
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "bytes",
+          "kind"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 33554432
+          },
+          "kind": {
+            "enum": [
+              "material",
+              "audio",
+              "image",
+              "runtime_rules",
+              "localization",
+              "hints"
+            ]
+          }
+        }
+      }
+    },
+    "calibration_records": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publisher_key_id": {
+      "type": "string"
+    }
+  }
+}

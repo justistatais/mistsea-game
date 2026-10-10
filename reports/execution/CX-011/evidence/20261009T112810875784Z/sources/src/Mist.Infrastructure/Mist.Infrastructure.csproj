@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../Mist.Application/Mist.Application.csproj" />
+    <PackageReference Include="Microsoft.Data.Sqlite" />
+  </ItemGroup>
+  <ItemGroup><EmbeddedResource Include="../../schemas/sql/*.sql" /></ItemGroup>
+</Project>

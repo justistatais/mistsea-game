@@ -1,0 +1,65 @@
+{
+  "task_id": "CX-020",
+  "scope": "用一致备份API生成候选副本，校验后切换；保留正常副本与损坏原件。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "迁移失败原库可用",
+      "status": "passed",
+      "evidence": "Failed migration candidate preserves original database SHA"
+    },
+    {
+      "criterion": "高版本拒写",
+      "status": "passed",
+      "evidence": "Actual schema 999 denies opening for write and keeps SHA"
+    },
+    {
+      "criterion": "不直接复制活库主文件充当备份",
+      "status": "passed",
+      "evidence": "BackupDatabase creates checked copies; corrupt active main recovers to separate candidate and preserves original"
+    },
+    {
+      "criterion": "清理受管理备份不误删用户外部文件",
+      "status": "passed",
+      "evidence": "Registered outside-path cleanup rejects and leaves external user file bytes unchanged"
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-020",
+        "name": "Failed migration preserves live database; high schema refuses all writes",
+        "result": "passed"
+      },
+      {
+        "task": "CX-020",
+        "name": "Missing deletion control halts without touching main file",
+        "result": "passed"
+      },
+      {
+        "task": "CX-020",
+        "name": "Corrupt backups are rejected and managed cleanup preserves outside file",
+        "result": "passed"
+      },
+      {
+        "task": "CX-020",
+        "name": "Actual corrupt main is preserved while validated recovery switches candidate",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 43,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12"
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-019"
+  ],
+  "not_run": [
+    "G0/HV-001 human dependency remains pending; internal development verification is not formal task acceptance",
+    "Clean-machine, human IME/screen-reader, empirical language calibration and publisher rights/signatures are not run",
+    "No real online provider or power-loss experiment"
+  ]
+}

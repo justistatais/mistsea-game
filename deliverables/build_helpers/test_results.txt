@@ -1,0 +1,37 @@
+test_01_real_source_integrity (test_planning.PlanTests.test_01_real_source_integrity) ... ok
+test_02_current_plan_valid (test_planning.PlanTests.test_02_current_plan_valid) ... ok
+test_03_exact_counts (test_planning.PlanTests.test_03_exact_counts) ... ok
+test_04_only_first_task_ready (test_planning.PlanTests.test_04_only_first_task_ready) ... ok
+test_05_default_disabled_not_passed (test_planning.PlanTests.test_05_default_disabled_not_passed) ... ok
+test_06_language_raise_rejected (test_planning.PlanTests.test_06_language_raise_rejected) ... ok
+test_07_speaking_score_rejected (test_planning.PlanTests.test_07_speaking_score_rejected) ... ok
+test_08_auto_raise_rejected (test_planning.PlanTests.test_08_auto_raise_rejected) ... ok
+test_09_unknown_dependency_rejected (test_planning.PlanTests.test_09_unknown_dependency_rejected) ... ok
+test_10_cycle_rejected (test_planning.PlanTests.test_10_cycle_rejected) ... ok
+test_11_duplicate_id_rejected (test_planning.PlanTests.test_11_duplicate_id_rejected) ... ok
+test_12_unsafe_write_scope_rejected (test_planning.PlanTests.test_12_unsafe_write_scope_rejected) ... ok
+test_13_absolute_and_windows_paths_rejected (test_planning.PlanTests.test_13_absolute_and_windows_paths_rejected) ... ok
+test_14_fake_initial_done_rejected (test_planning.PlanTests.test_14_fake_initial_done_rejected) ... ok
+test_15_unknown_trace_owner_rejected (test_planning.PlanTests.test_15_unknown_trace_owner_rejected) ... ok
+test_16_fake_product_pass_rejected (test_planning.PlanTests.test_16_fake_product_pass_rejected) ... ok
+test_17_all_chapters_require_human_calibration (test_planning.PlanTests.test_17_all_chapters_require_human_calibration) ... ok
+test_18_28_level_gate_has_specific_owner (test_planning.PlanTests.test_18_28_level_gate_has_specific_owner) ... ok
+test_19_g0_needs_actual_human (test_planning.PlanTests.test_19_g0_needs_actual_human) ... ok
+test_20_claimed_task_without_dependencies_not_done (test_planning.PlanTests.test_20_claimed_task_without_dependencies_not_done) ... ok
+test_21_enabled_online_adds_real_gate_dependencies (test_planning.PlanTests.test_21_enabled_online_adds_real_gate_dependencies) ... ok
+test_22_all_other_work_cannot_pass_enabled_online (test_planning.PlanTests.test_22_all_other_work_cannot_pass_enabled_online) ... ok
+test_23_missing_evidence_rejected (test_planning.PlanTests.test_23_missing_evidence_rejected) ... ok
+test_24_synthetic_review_rejected (test_planning.PlanTests.test_24_synthetic_review_rejected) ... ok
+test_25_pending_review_rejected (test_planning.PlanTests.test_25_pending_review_rejected) ... ok
+test_26_human_evidence_cannot_be_empty (test_planning.PlanTests.test_26_human_evidence_cannot_be_empty) ... ok
+test_27_wrong_artifact_hash_rejected (test_planning.PlanTests.test_27_wrong_artifact_hash_rejected) ... ok
+test_28_failed_command_rejected (test_planning.PlanTests.test_28_failed_command_rejected) ... ok
+test_29_duplicate_json_keys_rejected (test_planning.PlanTests.test_29_duplicate_json_keys_rejected) ... ok
+test_30_trace_source_locations_unchanged (test_planning.PlanTests.test_30_trace_source_locations_unchanged) ... ok
+test_31_cards_have_bounded_outputs (test_planning.PlanTests.test_31_cards_have_bounded_outputs) ... ok
+test_32_no_current_evidence_created_by_planning (test_planning.PlanTests.test_32_no_current_evidence_created_by_planning) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.253s
+
+OK

@@ -1,0 +1,131 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\bin\\Debug\\net10.0\\Mist.Tests.dll", "--task=CP-R1-03"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+{
+  "scope": "executed C# code tests",
+  "executed": 20,
+  "failed": 16,
+  "results": [
+    {
+      "task": "CP-R1-03",
+      "name": "Three new grayboxes have paired exits and safe paths to every actual source/work station",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_zero_XP_prologue_registration_then_optional_inn_produces_one_25XP_result_without_mainline_changes",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.NormalRooms(ProfileStore s) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 93\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_1() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 109\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "two_real_optional_spaces_have_reciprocal_ports_full_bilingual_materials_and_no_encounter_inflation",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "undiscovered_optional_entry_and_remote_actions_do_not_move_or_grant_work",
+      "result": "passed"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "copies_dates_and_two_room_constraints_are_actual_checked_records_not_three_bookings",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_4() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 124\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "guest_and_room_inspection_cannot_be_replaced_by_only_opening_letters",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_5() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 130\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "script_first_or_letter_first_leads_to_same_real_room_allocation_without_audio_claim",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_6() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 135\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "inn_pause_continue_uses_same_instance_and_real_clock_never_evicts_guests",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_7() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 140\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "innkeeper_foreground_occupation_delays_acceptance_without_cloning_or_consuming_reward",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_8() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 144\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "inn_reward_replay_and_reopen_have_one_semantic_receipt_and_no_new_credit",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_9() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 150\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "changed_saved_confirmation_invalidates_preview_and_does_not_half_award",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_10() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 154\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "declining_inn_and_pausing_show_does_not_add_mainline_or_ending_requirements",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_11() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 158\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_theatre_FullIndoor_has_finite_local_objects_roles_programme_and_zero_reward",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec__DisplayClass13_5.\u003CRegister\u003Eb__36() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 166\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "actual_theatre_SmallDaylight_has_finite_local_objects_roles_programme_and_zero_reward",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec__DisplayClass13_5.\u003CRegister\u003Eb__36() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 166\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "lamp_changes_invalidate_actual_test_and_cannot_power_without_own_brace_cell",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_12() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 173\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "props_transfer_once_and_duplicate_install_does_not_consume_or_create_items",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_13() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 177\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "one_actor_two_roles_wrong_time_or_unprepared_programme_is_rejected",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_14() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 181\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "restored_scene_is_unavailable_before_actual_programme_receipt",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_15() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 186\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    },
+    {
+      "task": "CP-R1-03",
+      "name": "old_load_submission_preview_cannot_issue_inn_reward",
+      "result": "failed",
+      "detail": "System.InvalidOperationException: Sequence contains more than one element\r\n   at System.Linq.ThrowHelper.ThrowMoreThanOneElementException()\r\n   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable\u00601 source, Boolean\u0026 found)\r\n   at System.Linq.Enumerable.Single[TSource](IEnumerable\u00601 source)\r\n   at System.Linq.ImmutableArrayExtensions.Single[T](ImmutableArray\u00601 immutableArray, Func\u00602 predicate)\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Exit(String target) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 44\r\n   at Mist.Tests.R1Life.R1LifeCases.Run.Inn() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 48\r\n   at Mist.Tests.R1Life.R1LifeCases.\u003C\u003Ec.\u003CRegister\u003Eb__13_16() in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\R1Life\\R1LifeCases.cs:line 190\r\n   at Mist.Tests.TestRegistry.Run(String[] args) in C:\\Users\\20594\\Documents\\ChatGPT\\\u8BBE\u8BA1\u6E38\u620F\\MistSea_AllInOne_v0.1\\tests\\Mist.Tests\\TestRegistry.cs:line 27"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}
+
+[stderr]

@@ -1,0 +1,580 @@
+{
+  "content_version": "vessel-life-1",
+  "source": "content/source/part09.json#/banter_seeds",
+  "original_count": 24,
+  "full_original_reused": 1,
+  "original_candidates": 23,
+  "permissions": [
+    {
+      "id": "BAN-LINA-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "lina_reply_folding",
+      "progress": "",
+      "private_dependency": "actual_collected_current_Lina_reply_and_current_per_recipient_disclosure_grant",
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-3",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-OREN-1",
+      "scene": "HUB-S03",
+      "spot": "HUB-S03.workbench",
+      "actors": [
+        "CP-OREN"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "CQ-OREN-02",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-OREN-2",
+      "scene": "HUB-S03",
+      "spot": "HUB-S03.workbench",
+      "actors": [
+        "CP-OREN"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-OREN-3",
+      "scene": "HUB-S03",
+      "spot": "HUB-S03.workbench",
+      "actors": [
+        "CP-OREN"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-MIRA-1",
+      "scene": "HUB-S02",
+      "spot": "HUB-S02.archive",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-MIRA-2",
+      "scene": "HUB-S02",
+      "spot": "HUB-S02.archive",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-MIRA-3",
+      "scene": "HUB-S02",
+      "spot": "HUB-S02.archive",
+      "actors": [
+        "CP-MIRA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-TESS-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-TESS-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-TESS-3",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-OREN-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-OREN-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-OREN"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-MIRA-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-MIRA-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-MIRA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "lina_reply_retention",
+      "progress": "",
+      "private_dependency": "actual_collected_current_Lina_reply_and_current_per_recipient_disclosure_grant",
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-TESS-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-LINA-TESS-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-LINA",
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-OREN-MIRA-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-OREN-MIRA-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-MIRA"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-OREN-TESS-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-OREN-TESS-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-OREN",
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-MIRA-TESS-1",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    },
+    {
+      "id": "BAN-MIRA-TESS-2",
+      "scene": "HUB-S01",
+      "spot": "HUB-S01.harbor_view",
+      "actors": [
+        "CP-MIRA",
+        "CP-TESS"
+      ],
+      "current_actor_requirements": [
+        "actual_accept_invitation_receipt",
+        "Joined",
+        "ShipStandby",
+        "not_work_post",
+        "not_operator_duty",
+        "actual_safe_walk_to_original_scene",
+        "all_actor_and_foreground_leases"
+      ],
+      "source_scope": "public",
+      "progress": "",
+      "private_dependency": null,
+      "unknown_policy": "deny_instead_of_infer",
+      "presentation": "manual_next_line_only; pause checkpoint; complete once per version; one new scene per actual boarding return; replay readonly with current scope recheck",
+      "world_reward": 0
+    }
+  ],
+  "chair_original_sha256": "704c0c2b8e5229d6f7b9938a1104672c298f6207f69194631f7a0914158be798",
+  "remaining": [
+    "human language 6.5 review",
+    "human timing 30–90sec",
+    "actor voice and recording rights",
+    "native IME/accessibility human review"
+  ]
+}

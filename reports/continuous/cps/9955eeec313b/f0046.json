@@ -1,0 +1,37 @@
+{
+  "version": "R3-SHIFT-20261010-v1",
+  "source": "docs/baseline/World_Story_Bible_v0.1.md:772",
+  "canonical_seed": "换班的人",
+  "original_scene": "R3-S08 public dispatcher",
+  "new_local_roles_are_original_candidates": true,
+  "solutions": [
+    {
+      "morning": "ROLE-R3-SHIFT-SELA",
+      "afternoon": "ROLE-R3-SHIFT-TOBIN",
+      "path": "reassign"
+    },
+    {
+      "morning": "ROLE-R3-SHIFT-SELA",
+      "afternoon": "ROLE-R3-SHIFT-NIA",
+      "path": "extra_help"
+    }
+  ],
+  "reward": {
+    "experience": 0,
+    "marks": 0,
+    "parts": 0
+  },
+  "recovery": [
+    "cancel preview has no posting",
+    "draft CAS edits invalidate previous meaning",
+    "new person availability generation invalidates preview",
+    "continue invalidates preview but retains draft, current posted original and received shift",
+    "finite completion releases both actual posts; next watch is not registered"
+  ],
+  "remaining": [
+    "language6.5 human calibration",
+    "human accessibility and IME",
+    "NPC audio and voice rights",
+    "art animation human review"
+  ]
+}

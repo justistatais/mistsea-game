@@ -1,0 +1,37 @@
+{
+  "scope": "actual read-only sqlite verification before native confirmation",
+  "round": 1,
+  "actor": "guard",
+  "units": [
+    {
+      "id": "hero",
+      "hp": 96,
+      "ap": 0,
+      "focus": 6
+    },
+    {
+      "id": "guard",
+      "hp": 120,
+      "ap": 2,
+      "focus": 6
+    },
+    {
+      "id": "support",
+      "hp": 114,
+      "ap": 0,
+      "focus": 6
+    },
+    {
+      "id": "maintenance",
+      "hp": 190,
+      "ap": 0,
+      "focus": 0
+    }
+  ],
+  "balance": [
+    [
+      "experience",
+      340
+    ]
+  ]
+}

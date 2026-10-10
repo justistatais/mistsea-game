@@ -1,0 +1,96 @@
+{
+  "task_id": "CX-036",
+  "scope": "当前配置证书与精确读取集；查阅帮助不使预览无意义失效。",
+  "reviewer": "Codex /root（工程自检，无真人签核）",
+  "decision": "engineering_checks_passed",
+  "acceptance": [
+    {
+      "criterion": "拔插后重测",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-036",
+            "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "未修好不能出发",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-036",
+            "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "预览过期不扣物",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-036",
+            "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    },
+    {
+      "criterion": "读档/关闭预览后旧令牌不可执行",
+      "status": "passed",
+      "evidence": {
+        "named_cases": [
+          {
+            "task": "CX-036",
+            "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+            "result": "passed"
+          }
+        ],
+        "test_report": "reports/build/20261009T165621386421Z/test_results.json",
+        "client_checks": "Only the exact checks in the supplied client result files are claimed.",
+        "review_scope": "Current C# rules and named executed runtime/SQLite cases; future content and human performance are excluded."
+      }
+    }
+  ],
+  "test_results": {
+    "task_cases": [
+      {
+        "task": "CX-036",
+        "name": "Disconnect/reconnect invalidates certificate and cancelled preview cannot execute",
+        "result": "passed"
+      }
+    ],
+    "suite_executed": 256,
+    "suite_failed": 0,
+    "sqlite_version": "3.53.3",
+    "dotnet_runtime": "10.0.12",
+    "human_signoff": null
+  },
+  "human_signoff": null,
+  "pending_dependencies": [
+    "CX-026",
+    "CX-027",
+    "CX-035"
+  ],
+  "not_run": [
+    "Human HV gates, editorial/listening review, actual IELTS-style target calibration, rights approval and final publisher signature remain pending.",
+    "No real online supplier, final chapter player run, clean-machine qualification or physical power-loss experiment is claimed."
+  ]
+}

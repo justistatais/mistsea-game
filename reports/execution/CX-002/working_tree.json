@@ -1,0 +1,81 @@
+{
+  "parent_git_head": "a3107b44269b7a83820767ad040eb3a9ec4893ae",
+  "mistsea_has_own_git": false,
+  "change_scope": {
+    "task_id": "CX-002",
+    "authorization": "用户本轮明确允许自行安装工具；继续处理已解锁的工具链任务。",
+    "source_scope": [
+      "spikes/",
+      "toolchain/",
+      "reports/",
+      "global.json",
+      "Directory.Packages.props"
+    ],
+    "workflow_metadata_exception": {
+      "path": "planning/state/execution.json",
+      "reason": "共同交付约定要求真实任务状态和证据；只更新CX-002条目与账本说明，不变更计划、依赖或其他任务。"
+    },
+    "external_installations": {
+      "paths": [
+        "%LOCALAPPDATA%/MistSeaToolchain",
+        "%APPDATA%/Godot/export_templates/4.7.2.stable.mono"
+      ],
+      "reason": "用户明确授权的软件安装目录；保留现有系统工具，新增指定版本。"
+    },
+    "evidence_maintenance": {
+      "reason": "将持续更新的执行账产物改为接管时的不可变快照，避免后续合法进度更新使CX-001证据失效。",
+      "snapshot_sha256": "9ee81ac8a170b3c9611a46032907e588d6dcd8b6bd24dbaa9afd74093c9e4bf1",
+      "maintained_at_utc": "2026-10-09T09:37:12.872080+00:00",
+      "original_evidence_content_preserved": true
+    }
+  },
+  "parent_tracked_files_unchanged": 48,
+  "new_source_files": [
+    {
+      "path": "toolchain/install_windows.py",
+      "sha256": "51ed5e74e21c5d5dd627408eb65173bf017b7a7a8d6d5a6f5c5fe9513d2902f1",
+      "bytes": 8027
+    },
+    {
+      "path": "toolchain/installed.windows-x64.json",
+      "sha256": "f8d3df7708df67cbe301da24b3b2395b7565c4036a7486650a2f91ce52406b46",
+      "bytes": 2141
+    },
+    {
+      "path": "toolchain/NuGet.offline.config",
+      "sha256": "964302159308872b9729e1828a1ba897f30634f7bd751cde11ea8e6fed8cfb97",
+      "bytes": 117
+    },
+    {
+      "path": "toolchain/README.md",
+      "sha256": "fabe384e7e645ed5d3bf0063dfa89109cb2d84255db71f4ec3e9dd279a6498e9",
+      "bytes": 2636
+    },
+    {
+      "path": "toolchain/retry_export.py",
+      "sha256": "ffc41f033daa2e4cdd3971499e2d38bb98ba2a25ab94416c94065eef23ff9861",
+      "bytes": 3448
+    },
+    {
+      "path": "toolchain/toolchain.lock.json",
+      "sha256": "ae027d1cd60233648ae4bb1c26807d54ba1c6ba4e642d11ebe0eff1984491bb1",
+      "bytes": 63634
+    },
+    {
+      "path": "toolchain/Use-MistSeaToolchain.ps1",
+      "sha256": "15e360ca69bdd197ab16f9ad7799cf2021dd08fd8761936eced7c3874c5311f4",
+      "bytes": 511
+    },
+    {
+      "path": "toolchain/verify_windows.py",
+      "sha256": "0a50c8d45b444d1b730397b778891a59654897825943b67289e3a2604e646ef4",
+      "bytes": 9267
+    }
+  ],
+  "ledger_snapshot": {
+    "path": "reports/execution/CX-002/state_after.json",
+    "sha256": "f6e1f832254dce305718c32b98f39350b5933517f3577d724596711eb6f806d5",
+    "bytes": 14790
+  },
+  "source_commit_meaning": "Existing parent repository snapshot; no MistSea implementation commit was created."
+}

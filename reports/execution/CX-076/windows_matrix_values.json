@@ -1,0 +1,611 @@
+{
+  "run": "reports/build/20261009T182406252977Z",
+  "evidence": [
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-acl-denial-57c324fd7b8647a7928fe7c2648c8478/acl-denial-attempt.evidence.json",
+      "sha256": "ed1d28bac9bf5972856168ec695de56f225290e02d18cee9d18d0c6cd14819d0",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "acl-denial-attempt",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "acl_applied": true,
+          "deny_rights": "WriteData|AppendData",
+          "fixture_file": "profile.sqlite",
+          "draft_error_type": "SqliteException",
+          "world_error_type": "SqliteException",
+          "draft_sqlite_error": 8,
+          "world_sqlite_error": 8,
+          "original_dacl_restored": true
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-acl-denial-57c324fd7b8647a7928fe7c2648c8478/acl-denial.evidence.json",
+      "sha256": "0f233e5549cbfb90d78d2eb4b05224ee79ed88dc67ae80ada94fa7a3b7dc39b0",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "acl-denial",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "original_draft_preserved_before_retry": true,
+          "retry_committed_after_dacl_restore": true,
+          "actual_draft_error": "SqliteException"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-bad-registered-source-f14ad3ad707c4966897a9e29fdb07e0c/bad-registered-source.evidence.json",
+      "sha256": "d9c011907979f9feb20fa89827e5a5ebdcfa8e78b83fdca92a8ca7825095726e",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "bad-registered-source",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "registered_sha256": "3b2c4168ddc7125e2c3ebc0fbe2a865df6d47d7274153260b036d6f247d38094",
+          "actual_corrupted_sha256": "b047912af63aae0335fa5abd34b700f6d60a3bf2ca5e96bebb5585c11a8451dd",
+          "active_original_unchanged": true,
+          "source_kind": "registered recovery backup; no upgrade was attempted"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-capacity-quota-14a7d0363d3644ed8e021001fc6f6f91/capacity-quota.evidence.json",
+      "sha256": "3f99f139a4b767f26af7fba608334a17ae6b985712655aff954cd78cdea150b3",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "capacity-quota",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "sqlite_error": 13,
+          "original_pages": 44,
+          "page_size": 4096,
+          "quota_pages": 45,
+          "attempted_blob_bytes": 8388608,
+          "fixture_sql_transaction_rolled_back": true,
+          "original_draft_hash": "f5fb3fea8cfe89713121a3fc75f917e6b9307d2cf3f1de1c3ac3c1c8255eb00f",
+          "fault_scope": "SQLite connection max_page_count; not actual system-volume full; fixture table removed",
+          "world_command_executed": false
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-corrupt-original-cccb4a1507d742acbe57af441fb75c90/corrupt-original-loss-range.evidence.json",
+      "sha256": "610171a461bdc9198a4d2ffa0d6660917286d82c221db909769688a2b5819269",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "corrupt-original-loss-range",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "preserved_corrupt_original_sha256": "cb880a64816395a9f1230eea5526432122d3c3277b85b72febd72727e53d016f",
+          "selected_backup_sequence": 1,
+          "last_known_live_sequence": 2,
+          "world_commits_missing": 1,
+          "newer_draft_hash_not_in_selected_backup": "7566cbc228477567a4d836140f0bd69157a8a70f7dbf6213d9bcd73caa2ef5ab",
+          "restored_draft_hash": "f5fb3fea8cfe89713121a3fc75f917e6b9307d2cf3f1de1c3ac3c1c8255eb00f",
+          "observations_before_corruption": 2,
+          "observations_in_selected_backup": 1,
+          "loss_explanation": "Full database backup restoration lacks newer world commit, newer draft and newer profile observation; not world-checkpoint rollback and not zero-loss recovery.",
+          "native_recovery_ui_explanation": "not_run"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-deleted-generation-af134b97290d426586fcf48aecd3e7df/deleted-generation.evidence.json",
+      "sha256": "1132fbc2d092ac2d3cff7ff9dd86afd27d048c6361bb15eca449813df27f40b1",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "deleted-generation",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "actual_old_backup_sequence": 1,
+          "current_epoch": 2,
+          "interrupted_deletion_replayed": true,
+          "deleted_body_or_learning_resurrected": false,
+          "late_response_route": "discarded",
+          "new_draft_identity_created": true,
+          "world_receipt_preserved": true,
+          "backup_physical_secure_erasure": "not_run"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-failed-migration-61e53825bedf4c2287c2755215973645/failed-migration.evidence.json",
+      "sha256": "64f1c4bb0e82721242640493b89b3c6ea0730952d6926af889db7b41fd64ce50",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "failed-migration",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "original_sha256": "a55989fc6c0950cf265324d5543aa8e05d4788ba3814beefbf2b71d1f3cd7a15",
+          "retained_candidate": "migration-8b7ef41f-2701-46aa-a458-ea7b8da842f1.sqlite",
+          "candidate_sha256": "5e5cdc4f9fa4151c26c36d668b47268a320af83a98a9d305d39f77eff6540323",
+          "candidate_transaction_rolled_back": true
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-interrupted-recovery-a866626c134d4b9a8006c7fa94faaf58/interrupted-recovery.evidence.json",
+      "sha256": "5cf87818b0fcb6e46b59c3de82e642f51ec0abf3bde72363a8988a229febe90d",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "interrupted-recovery",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "interrupted_candidate_retained": "candidate-6944d02b-b650-438a-b0da-3145bc4b60ce.sqlite",
+          "original_sha256": "be260d9ed6b7356075a658142890ff5dc98161febedc1b2e0b4a0dc11bb06f71",
+          "later_explicit_restore_promoted_a_different_candidate": true,
+          "experiment": "in-process injected exception, not process kill or power loss"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-invalid-migration-schema-d977d6b79d0946bd8ef8550f323ac3ac/invalid-migration-schema.evidence.json",
+      "sha256": "8c62132f74d7a91e2cc5ea81047739e4104189ee855752023c7650026eddb314",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "invalid-migration-schema",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "retained_candidate": "migration-d8354c8f-e6bb-44a5-b510-9ed31ff928e2.sqlite",
+          "actual_candidate_schema": 999,
+          "original_not_promoted_or_overwritten": true
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-lost-response-9705bef3bd2a4841bb4d09c69bdb5e8e/lost-response.evidence.json",
+      "sha256": "021b66a211d53609dffdf990ca1ef1cc48e01d12db89335b421f2603cb93bb6a",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "lost-response",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "observed_after_commit_io_failure": true,
+          "command_id": "c809bbad-4f8f-491f-a5fb-8a8e883b3ae4",
+          "queried_receipt": "7cfb6720-7a7f-410f-b6f3-fccf41135b90",
+          "retry_status": "AlreadyCommitted",
+          "reward_delta_once": 11,
+          "committed_sequence": 2
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-missing-control-60fbc23701b24d039facc7947f2f380f/missing-control.evidence.json",
+      "sha256": "100f74b22889af43266b8b81c1ad66b523215c1f54eb25b48424172b37271540",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "missing-control",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "missing_control_rejected": true,
+          "same_original_control_restored": true,
+          "restored_learning_epoch": 1,
+          "restored_consent_version": 1,
+          "reset_to_epoch_zero": false
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-process-after_balances-6ac6c71b2ea8439488085a4b16a06baf/process-after_balances.evidence.json",
+      "sha256": "49d1a9092272ee21b1a25e890cf50683f0b8151ca075cc559f56403e94b2b0c6",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "process-after_balances",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "observed_marker": "FAULT_READY:after_balances",
+          "child_pid": 14348,
+          "child_exit_code": -1,
+          "phase": "after_balances",
+          "committed_before_termination": false,
+          "semantic_retry_status": "Committed",
+          "original_saved_draft_learning_and_checkpoint_preserved": true,
+          "reward_once": 10,
+          "experiment": "actual operating-system process termination; not physical power loss"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-process-after_commit-987ed55194c547d1b89494207e0b43b2/process-after_commit.evidence.json",
+      "sha256": "3804ed7f6e91af19b9f9a32eddd19538e38f9c83dc99eea03fac5b114ae96db3",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "process-after_commit",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "observed_marker": "FAULT_READY:after_commit",
+          "child_pid": 27164,
+          "child_exit_code": -1,
+          "phase": "after_commit",
+          "committed_before_termination": true,
+          "semantic_retry_status": "AlreadyCommitted",
+          "original_saved_draft_learning_and_checkpoint_preserved": true,
+          "reward_once": 10,
+          "experiment": "actual operating-system process termination; not physical power loss"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-release-schema-mismatch-5869ba6b8f6742e2ae01f25a0148b219/release-schema-mismatch.evidence.json",
+      "sha256": "c117d9da994de866ccb8072cbd210b364d48f9ec5b59f83df3b4d9245c8ab884",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "release-schema-mismatch",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "mismatched_release_rejected": true,
+          "actual_newer_fixture_schema": 999,
+          "high_schema_original_sha256": "d435ad935cb34c3dddb1a66fce7e0337b94a3a67b984a6f4073e04e273252f75",
+          "high_schema_original_unchanged": true,
+          "actual_older_distributed_game_executable": "not_run",
+          "scope": "current executable release binding/schema guard; no content substitution"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-upgrade-source-audit-323e8c4f97104abe85ed82111611c35f/upgrade-source-audit-valid-attempt.evidence.json",
+      "sha256": "03f2aa655d6e34b313a890109718a8e3d8c3f5a2bcf78f09b829dbfb1c55c9c8",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "upgrade-source-audit-valid-attempt",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "source_audit_exit": 0,
+          "source_audit": {
+            "task": "CX-076",
+            "result": "source_checksum_matches",
+            "source_file": "declared-upgrade-source.sqlite",
+            "source_bytes": 176128,
+            "expected_sha256": "82f3ad7db6b548256f23e061be837ea47481f86e2cf59b78fca69c3e1917700b",
+            "actual_sha256": "82f3ad7db6b548256f23e061be837ea47481f86e2cf59b78fca69c3e1917700b",
+            "checksum_matches": true,
+            "source_scope": "read-only actual file checksum preflight; source bytes are not uploaded or rewritten",
+            "database_validation": "not_run",
+            "trusted_signature_validation": "not_run",
+            "migration_execution": "not_run",
+            "promotion_authorized": false,
+            "human_signoff": null,
+            "release_gate_accepted": false
+          }
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    },
+    {
+      "path": "reports/build/20261009T182406252977Z/testdata/windows-recovery-upgrade-source-audit-323e8c4f97104abe85ed82111611c35f/upgrade-source-audit.evidence.json",
+      "sha256": "283d906b12653951c63e44d1f2527366286bb97eed99a4102e0a981422b47ba7",
+      "evidence": {
+        "task": "CX-076",
+        "case_name": "upgrade-source-audit",
+        "result": "executed",
+        "source_scope": "offline engineering fixture; actual local SQLite/files/processes when executed",
+        "operating_system": "Microsoft Windows NT 10.0.26200.0",
+        "runtime": "10.0.12",
+        "architecture": "X64",
+        "details": {
+          "valid_exit": 0,
+          "altered_exit": 3,
+          "altered_audit": {
+            "task": "CX-076",
+            "result": "source_checksum_mismatch",
+            "source_file": "declared-upgrade-source.sqlite",
+            "source_bytes": 176167,
+            "expected_sha256": "82f3ad7db6b548256f23e061be837ea47481f86e2cf59b78fca69c3e1917700b",
+            "actual_sha256": "651e6bbcbd4a46cb79e44d871a48abbe2d640da6ce71e77d865950269a3d485a",
+            "checksum_matches": false,
+            "source_scope": "read-only actual file checksum preflight; source bytes are not uploaded or rewritten",
+            "database_validation": "not_run",
+            "trusted_signature_validation": "not_run",
+            "migration_execution": "not_run",
+            "promotion_authorized": false,
+            "human_signoff": null,
+            "release_gate_accepted": false
+          },
+          "tool": "AuditRecoverySource.ps1",
+          "scope": "actual read-only declared upgrade input preflight; storage migration launcher not integrated"
+        },
+        "not_run": [
+          "physical_power_loss",
+          "system_volume_physically_full",
+          "another_machine",
+          "installed_formal_distribution",
+          "native_editor_failure_ux",
+          "input_method_preedit_recovery"
+        ],
+        "human_signoff": null,
+        "release_gate_accepted": false
+      }
+    }
+  ],
+  "scope": {
+    "named_actual_cases": [
+      {
+        "task": "CX-076",
+        "name": "Actual isolated Windows file DACL denies writes and is restored in finally",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "SQLite max_page_count quota rolls back draft and wallet mutations without a partial transaction",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual after_commit lost response is resolved by receipt query and exact command retry without another reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual corrupted registered recovery source SHA refuses pointer replacement",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Read-only upgrade source audit checks actual bytes and refuses an altered source",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Failed migration transaction leaves a real migration copy and preserves live original bytes",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Committed invalid migration schema is rejected on a separate copy without promoting original",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actually missing control file stops writes and restoring that same control retains deletion generation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Old-generation backup re-applies learning and draft deletions and discards an actual registered late response",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Recovery interruption before pointer promotion preserves live state and leaves candidate for inspection",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Actual corrupt original recovery reports backup sequence and missing newer draft and observation",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Real child termination before commit preserves saved draft learning checkpoint and original reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Real child termination after commit preserves new transaction and retry does not duplicate its reward",
+        "result": "passed"
+      },
+      {
+        "task": "CX-076",
+        "name": "Mismatched content release and newer schema refuse writes without overwriting original database",
+        "result": "passed"
+      }
+    ],
+    "scope": "isolated Windows SQLite service/process/DACL matrix; no user profile mutation",
+    "not_run": [
+      "Physical power interruption (child process kill is recorded separately)",
+      "Physical system disk-full (the actual SQLite max-page quota failure is a narrower isolated test)",
+      "Complete matrix through the exported executable and native failure UX",
+      "A different clean Windows machine and human recovery/IME/screen-reader validation"
+    ]
+  }
+}

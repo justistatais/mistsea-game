@@ -1,0 +1,216 @@
+{
+  "result": "actual_candidate_readonly_preflight_verified",
+  "suite": "reports/build/20261010T111545212936Z",
+  "directory": "reports/continuous/delivery_reports_20261010T122528754995Z",
+  "package": "artifacts/windows/MistSea-internal-20261010T121240000513Z",
+  "zip": "artifacts/windows/MistSea-internal-20261010T121240000513Z.zip",
+  "zip_sha256": "ae3b82c555d51e73157531bca1bac6d2a969883552a0ccea7d3f1677f20668cb",
+  "recovery": {
+    "directory": "reports/execution/CX-076/native-ux-20261010T121658185119Z",
+    "missing": [],
+    "run_input_binding": {
+      "status": "passed"
+    },
+    "actual_source_sqlite_binding": {
+      "status": "passed",
+      "source_case": {
+        "index": 465,
+        "task": "CP-R1-03",
+        "name": "actual_zero_XP_R1_native_entry_preserves_unaccepted_life_work_and_real_340XP_receipts"
+      },
+      "source_profile": "reports/build/20261010T111545212936Z/case_runs/0465/testdata/normal-r1-life-native-entry",
+      "active_database": "reports/execution/CX-076/native-ux-20261010T121658185119Z/profile/recovery/inventory-v2-843db32c-b4ba-4ed2-a62c-adba9e809735.sqlite",
+      "exact_saved_heads": [
+        {
+          "task": "Q-102:departure-plan",
+          "revision": 3,
+          "body_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c"
+        }
+      ],
+      "zero_xp_normal_creation": true,
+      "scope": "Actual full-suite entry summary plus pointer-selected source/current SQLite; no summary receipts required"
+    },
+    "executable_kind": "exported_release",
+    "initial_process": 29036,
+    "reopened_process": 16600,
+    "exported_exe_save_failure_export_retry": "passed",
+    "exported_exe_reopen_exact_document": "passed",
+    "recovery_ux_check": "passed",
+    "document_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c",
+    "export_file": {
+      "path": "C:\\Users\\20594\\AppData\\Roaming\\Godot\\app_userdata\\雾海档案：第七座灯塔\\draft-exports\\Q102-20261010122318400.txt",
+      "sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c",
+      "bytes": 231
+    },
+    "actual_database_audit": {
+      "integrity": "ok",
+      "world_and_rewards_unchanged": true,
+      "saved_body_exact_after_process_exit": true,
+      "world_comparison": {
+        "entities": {
+          "before": {
+            "rows": 36,
+            "sha256": "86d476800946038ce3d5782c632b8a1fb90d455bd935e9b66f91e9f823628cb8"
+          },
+          "after": {
+            "rows": 36,
+            "sha256": "86d476800946038ce3d5782c632b8a1fb90d455bd935e9b66f91e9f823628cb8"
+          }
+        },
+        "balances": {
+          "before": {
+            "rows": 3,
+            "sha256": "c7026fe7253713cff7899e7618fe86c677597d3ca44327c5db68588146dc172b"
+          },
+          "after": {
+            "rows": 3,
+            "sha256": "c7026fe7253713cff7899e7618fe86c677597d3ca44327c5db68588146dc172b"
+          }
+        },
+        "items": {
+          "before": {
+            "rows": 12,
+            "sha256": "55d16bbacd5377c35f07242a1b6c012a2d435787fb1f4c7bba1cb3812fb2f5f6"
+          },
+          "after": {
+            "rows": 12,
+            "sha256": "55d16bbacd5377c35f07242a1b6c012a2d435787fb1f4c7bba1cb3812fb2f5f6"
+          }
+        },
+        "receipts": {
+          "before": {
+            "rows": 120,
+            "sha256": "b648de82c380792c97a405f64e727efbae7670c7e246bc1c8fc7ff538fae1835"
+          },
+          "after": {
+            "rows": 120,
+            "sha256": "b648de82c380792c97a405f64e727efbae7670c7e246bc1c8fc7ff538fae1835"
+          }
+        }
+      },
+      "matching_saved_heads": [
+        {
+          "task": "Q-102:departure-plan",
+          "revision": 3,
+          "body_sha256": "5a61ecaa1ca1b7cc157f7b2f46f72079eeb2b423ccbb669b3bb224a414e4db2c"
+        }
+      ]
+    },
+    "scope": "Only actual named lock/save/export/retry/reopen checks; not the whole exported recovery fault matrix.",
+    "physical_power": "not_run",
+    "physical_disk_full": "not_run",
+    "physical_ime": "not_run",
+    "screen_reader": "not_run",
+    "clean_machine": "not_run",
+    "human_signoff": null
+  },
+  "actual_native_runs": 29,
+  "human_signoff": null,
+  "formal_release": "pending_human_and_production_gates",
+  "commands": [
+    {
+      "stage": "chapter_readonly",
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\finish_chapter_candidates.py",
+        "--suite-dir",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T111545212936Z",
+        "--compiled-build-dir",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T111545212936Z",
+        "--package",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\artifacts\\windows\\MistSea-internal-20261010T121240000513Z",
+        "--output",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\delivery_reports_20261010T122528754995Z\\chapter_preflight.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114138130657Z\\client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114155225308Z\\campaign_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114201754053Z\\vessel_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114212706185Z\\chapter_two_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114313394591Z\\chapter_three_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114452451631Z\\chapter_four_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114742501030Z\\chapter_five_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114956819384Z\\chapter_six_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115424130345Z\\finale_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115555020861Z\\r1_life_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115620352300Z\\musicbox_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115641323047Z\\r2_life_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115705127711Z\\chapter_four_local_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115742829445Z\\first_relay_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115753959243Z\\first_side_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115805122501Z\\first_outer_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115830958607Z\\field_relay_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115848838516Z\\vessel_life_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115901027281Z\\settlement_support_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T115954521307Z\\lina_personal_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120017959227Z\\r3_shift_work_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120042692660Z\\old_city_local_life_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120117194719Z\\scoped_personal_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120206636229Z\\optional_r1_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120248034615Z\\optional_r2_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120333419743Z\\optional_r3_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120424081542Z\\optional_r4_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120516678493Z\\optional_r5_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T120615710185Z\\optional_r6_client_results.json"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "log": "reports/continuous/delivery_reports_20261010T122528754995Z/chapter_readonly.log"
+    },
+    {
+      "stage": "runtime_readonly",
+      "argv": [
+        "D:\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\finish_current_runtime_candidates.py",
+        "--suite-dir",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T111545212936Z",
+        "--compiled-build-dir",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T111545212936Z",
+        "--performance-dir",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\execution\\CX-075\\20261010T120806751059Z",
+        "--performance-capture",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\performance_capture_20261010T120803002382Z.json",
+        "--output",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\continuous\\delivery_reports_20261010T122528754995Z\\runtime_preflight.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114212706185Z\\chapter_two_client_results.json",
+        "--native",
+        "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1\\reports\\build\\20261010T114742501030Z\\chapter_five_client_results.json"
+      ],
+      "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\设计游戏\\MistSea_AllInOne_v0.1",
+      "exit_code": 0,
+      "log": "reports/continuous/delivery_reports_20261010T122528754995Z/runtime_readonly.log"
+    }
+  ]
+}

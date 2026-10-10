@@ -1,0 +1,9 @@
+
+An existing audio version has different or unregistered bytes; use a new version, never silently overwrite.
+At C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\audio\Generate-RegionalSpeech.ps1:25 char:256
++ ... dio_sha256){throw 'An existing audio version has different or unregis ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (An existing aud...ntly overwrite.:String) [], RuntimeException
+    + FullyQualifiedErrorId : An existing audio version has different or unregistered bytes; use a new version, never  
+   silently overwrite.
+ 

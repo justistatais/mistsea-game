@@ -1,0 +1,33 @@
+--- a/game/Diagnostics/Root.ChapterTwoClientTests.cs
++++ b/game/Diagnostics/Root.ChapterTwoClientTests.cs
+@@ -63,7 +63,7 @@
+             Check("five_audio_channels_and_content_route",MistAudioChannels.Names.Length==5&&MistAudioChannels.Names.All(n=>AudioServer.GetBusIndex(n)>=0)&&_lessonAudio!.Bus==MistAudioChannels.Content);
+             _Notification((int)NotificationApplicationFocusOut);Check("focus_loss_retains_actual_paused_audio",_lessonAudio is{StreamPaused:true}&&_audioPositions.GetValueOrDefault(id)>0);
+             double pausedPosition=_lessonAudio!.GetPlaybackPosition();await Click("播放 / 暂停候选音轨");await ToSignal(GetTree().CreateTimer(.2),SceneTreeTimer.SignalName.Timeout);Check("explicit_resume_retains_actual_position",_lessonAudio is{Playing:true,StreamPaused:false}&&_lessonAudio.GetPlaybackPosition()>=pausedPosition);await Click("播放 / 暂停候选音轨");
+-            var speed=Choice("候选音轨播放速度");speed.Select(2);speed.EmitSignal(OptionButton.SignalName.ItemSelected,2L);
++            var speed=Choice("候选音轨播放速度");speed.Select(2);speed.EmitSignal(OptionButton.SignalName.ItemSelected,2L);await Settle();
+             Check("regional_audio_speed_changes_actual_player",_lessonAudio is not null&&Math.Abs(_lessonAudio.PitchScale-1.25f)<.001);
+             await Click("查看原文脚本 / 字幕");Check("regional_audio_original_transcript_unchanged",Nodes(_panels.Peek()).OfType<TextEdit>().Any(t=>!t.Editable&&t.Text==_chapterTwo!.Package.Materials.Single(m=>m.Id==id).English));ClosePanel();
+             var notes=Nodes(_panels.Peek()).OfType<TextEdit>().Single(t=>t.Editable);notes.Text="Engineering playback observation; no human audition or language score.";
+--- a/game/Diagnostics/Root.ChapterThreeClientTests.cs
++++ b/game/Diagnostics/Root.ChapterThreeClientTests.cs
+@@ -89,7 +89,7 @@
+             const string id="R3-Q304-L-TRANSFER";await Material(id);await OpenChapterThreeMaterial(id);await Frame();var before=await _store.SnapshotAsync();await Click("听力音轨与脚本");
+             Check("regional_audio_actual_decode_and_no_autoplay",_activeAudioId==id&&_lessonAudio?.Stream is not null&&_lessonAudio.Stream.GetLength()>1&&!_lessonAudio.Playing);
+             await Click("播放 / 暂停候选音轨");await ToSignal(GetTree().CreateTimer(.4),SceneTreeTimer.SignalName.Timeout);Check("regional_audio_actual_playback_position",_lessonAudio is{Playing:true}&&_lessonAudio.GetPlaybackPosition()>0);
+-            await Click("播放 / 暂停候选音轨");Check("regional_audio_pause_preserves_position",_lessonAudio is{StreamPaused:true}&&_lessonAudio.GetPlaybackPosition()>0);var speed=Choice("候选音轨播放速度");speed.Select(2);speed.EmitSignal(OptionButton.SignalName.ItemSelected,2L);Check("regional_audio_speed_changes_player",_lessonAudio is not null&&Math.Abs(_lessonAudio.PitchScale-1.25f)<.001);
++            await Click("播放 / 暂停候选音轨");Check("regional_audio_pause_preserves_position",_lessonAudio is{StreamPaused:true}&&_lessonAudio.GetPlaybackPosition()>0);var speed=Choice("候选音轨播放速度");speed.Select(2);speed.EmitSignal(OptionButton.SignalName.ItemSelected,2L);await Settle();Check("regional_audio_speed_changes_player",_lessonAudio is not null&&Math.Abs(_lessonAudio.PitchScale-1.25f)<.001);
+             await Click("查看原文脚本 / 字幕");Check("regional_audio_retains_full_original_script",Nodes(_panels.Peek()).OfType<TextEdit>().Any(t=>!t.Editable&&t.Text==_chapterThree!.Package.Materials.Single(m=>m.Id==id).English));ClosePanel();var notes=Nodes(_panels.Peek()).OfType<TextEdit>().Single(t=>t.Editable);notes.Text="Engineering playback observation; human audition, speaker review and language scoring remain pending.";await Click("保存当前听力证据笔记");var after=await _store.SnapshotAsync();Check("regional_audio_notes_do_not_reward_world",before.Sequence==after.Sequence&&before.Balances.OrderBy(p=>p.Key).SequenceEqual(after.Balances.OrderBy(p=>p.Key)));CloseAllPanels();await Frame();Check("regional_audio_close_releases_player",_lessonAudio is null&&_activeAudioId is null);
+         }
+         try
+--- a/game/Diagnostics/Root.ChapterSixClientTests.cs
++++ b/game/Diagnostics/Root.ChapterSixClientTests.cs
+@@ -94,7 +94,7 @@
+             const string id="R6-Q604-L-HANDOVER";await Material(id);await OpenChapterSixMaterial(id);await Frame();var before=await _store.SnapshotAsync();await Click("听力音轨与脚本");
+             Check("regional_audio_actual_decode_and_no_autoplay",_activeAudioId==id&&_lessonAudio?.Stream is not null&&_lessonAudio.Stream.GetLength()>1&&!_lessonAudio.Playing);
+             await Click("播放 / 暂停候选音轨");await ToSignal(GetTree().CreateTimer(.4),SceneTreeTimer.SignalName.Timeout);Check("regional_audio_actual_playback_position",_lessonAudio is{Playing:true}&&_lessonAudio.GetPlaybackPosition()>0);
+-            await Click("播放 / 暂停候选音轨");Check("regional_audio_pause_preserves_position",_lessonAudio is{StreamPaused:true}&&_lessonAudio.GetPlaybackPosition()>0);var speed=Choice("候选音轨播放速度");speed.Select(2);speed.EmitSignal(OptionButton.SignalName.ItemSelected,2L);Check("regional_audio_speed_changes_player",_lessonAudio is not null&&Math.Abs(_lessonAudio.PitchScale-1.25f)<.001);
++            await Click("播放 / 暂停候选音轨");Check("regional_audio_pause_preserves_position",_lessonAudio is{StreamPaused:true}&&_lessonAudio.GetPlaybackPosition()>0);var speed=Choice("候选音轨播放速度");speed.Select(2);speed.EmitSignal(OptionButton.SignalName.ItemSelected,2L);await Settle();Check("regional_audio_speed_changes_player",_lessonAudio is not null&&Math.Abs(_lessonAudio.PitchScale-1.25f)<.001);
+             await Click("查看原文脚本 / 字幕");Check("regional_audio_retains_full_original_script",Nodes(_panels.Peek()).OfType<TextEdit>().Any(t=>!t.Editable&&t.Text==_chapterSix!.Package.Materials.Single(m=>m.Id==id).English));ClosePanel();var notes=Nodes(_panels.Peek()).OfType<TextEdit>().Single(t=>t.Editable);notes.Text="Engineering playback observation; human audition, speaker review and language scoring remain pending.";await Click("保存当前听力证据笔记");var after=await _store.SnapshotAsync();Check("regional_audio_notes_do_not_reward_world",before.Sequence==after.Sequence&&before.Balances.OrderBy(p=>p.Key).SequenceEqual(after.Balances.OrderBy(p=>p.Key)));CloseAllPanels();await Frame();Check("regional_audio_close_releases_player",_lessonAudio is null&&_activeAudioId is null);
+         }
+         async Task ReadQuest(string quest){foreach(var material in _chapterSix!.Package.Materials.Where(m=>m.Quest==quest&&m.Kind!="listening_script"))await Material(material.Id);}

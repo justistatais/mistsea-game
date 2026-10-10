@@ -1,0 +1,288 @@
+{
+  "version": "candidate-1",
+  "scope": "first_chapter_extension_candidate",
+  "scenes": [
+    {
+      "id": "R1-S08",
+      "walk": {
+        "left": 5,
+        "top": 18,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 38,
+          "top": 36,
+          "right": 62,
+          "bottom": 64
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-S08.to.R1-S03",
+          "target_scene": "R1-S03",
+          "target_port": "R1-S03.to.R1-S08",
+          "stand": {
+            "x": 8,
+            "y": 86
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-S08.notice",
+          "stand": {
+            "x": 21,
+            "y": 28
+          },
+          "purpose": "未签发通报原副本"
+        },
+        {
+          "id": "R1-S08.plan",
+          "stand": {
+            "x": 76,
+            "y": 29
+          },
+          "purpose": "已批准测试计划"
+        },
+        {
+          "id": "R1-S08.duty",
+          "stand": {
+            "x": 78,
+            "y": 73
+          },
+          "purpose": "值班更改与执行事件"
+        },
+        {
+          "id": "R1-S08.recorder_copy",
+          "stand": {
+            "x": 23,
+            "y": 75
+          },
+          "purpose": "实际海岸记录器比较封套"
+        }
+      ]
+    },
+    {
+      "id": "R1-S09",
+      "walk": {
+        "left": 5,
+        "top": 18,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 37,
+          "top": 37,
+          "right": 62,
+          "bottom": 63
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-S09.to.R1-S02",
+          "target_scene": "R1-S02",
+          "target_port": "R1-S02.to.R1-S09",
+          "stand": {
+            "x": 8,
+            "y": 86
+          }
+        },
+        {
+          "id": "R1-S09.to.R1-S10",
+          "target_scene": "R1-S10",
+          "target_port": "R1-S10.to.R1-S09",
+          "stand": {
+            "x": 86,
+            "y": 26
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-S09.warden",
+          "stand": {
+            "x": 22,
+            "y": 28
+          },
+          "purpose": "塔基工作许可"
+        },
+        {
+          "id": "R1-S09.supply_indicator",
+          "stand": {
+            "x": 77,
+            "y": 72
+          },
+          "purpose": "本塔局部供给现场检查"
+        },
+        {
+          "id": "R1-S09.control_notice",
+          "stand": {
+            "x": 23,
+            "y": 76
+          },
+          "purpose": "双阀隔离说明"
+        },
+        {
+          "id": "R1-S09.handover_terms",
+          "stand": {
+            "x": 75,
+            "y": 27
+          },
+          "purpose": "船务与核查委托条款"
+        }
+      ]
+    },
+    {
+      "id": "R1-S10",
+      "walk": {
+        "left": 5,
+        "top": 18,
+        "right": 95,
+        "bottom": 94
+      },
+      "blocked": [
+        {
+          "left": 38,
+          "top": 36,
+          "right": 62,
+          "bottom": 56
+        }
+      ],
+      "danger": [],
+      "ports": [
+        {
+          "id": "R1-S10.to.R1-S09",
+          "target_scene": "R1-S09",
+          "target_port": "R1-S09.to.R1-S10",
+          "stand": {
+            "x": 50,
+            "y": 90
+          }
+        }
+      ],
+      "spots": [
+        {
+          "id": "R1-S10.encounter_entry",
+          "stand": {
+            "x": 50,
+            "y": 86
+          },
+          "purpose": "潮门维护者遭遇入口"
+        },
+        {
+          "id": "R1-S10.safety_console",
+          "stand": {
+            "x": 24,
+            "y": 30
+          },
+          "purpose": "制止后核验安全结果"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "Q103-R-NOTICE",
+      "title": "An unissued harbour notice",
+      "scene": "R1-S08",
+      "spot": "R1-S08.notice",
+      "modality": "reading",
+      "english": "Draft contingency notice, prepared on D0 at 20:50. This copy was stored with the evening dispatch papers; its issue box is blank. The text describes a possible interruption of the harbour light and tells receiving crews to wait for a revised route message. A handwritten heading calls it an accident notice, but the heading does not identify a cause. Preparing a notice in advance may indicate planning for a risk. It does not, by itself, show that somebody intended a grounding. Preserve the draft label and the empty issue box when citing this document. The approval and execution records are held separately. Do not replace them with a conclusion drawn from the title.",
+      "chinese": "D0 20:50准备、尚未签发的应急通知。事故字样不说明原因，预先准备通知不能单独证明故意搁浅；引用时保留草稿标签及空白签发栏，另查批准与执行记录。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q103-R-TEST",
+      "title": "Approved interruption test schedule",
+      "scene": "R1-S08",
+      "spot": "R1-S08.plan",
+      "modality": "reading",
+      "english": "Controlled copy of the interruption schedule. Approval was entered on D-1 at 18:00. The specified window begins at 21:14 on D0 and lasts only for the locally declared interval. The schedule requires a second check of traffic still within the affected approach before the output is interrupted. A completion box records whether that check was carried out; it is not a decorative signature. This schedule establishes that an interruption had been planned before the accident. It does not establish which later instruction was followed. Compare the actual control log, the duty handover and the independent instrument record. Keep the scheduled window distinct from the time at which the coast instrument first recorded a missing signal.",
+      "chinese": "D-1 18:00批准，D0 21:14开始的局部断供测试计划，要求断供前第二次检查受影响进场区的人船。计划证明动作预定，不独自证明后来实际执行何种指令。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q103-R-DUTY",
+      "title": "Duty handover and control event copy",
+      "scene": "R1-S08",
+      "spot": "R1-S08.duty",
+      "modality": "reading",
+      "english": "Evening duty handover, retained copy. At 21:05 on D0, a later work instruction removed the second traffic check from this test. The receiving operator recorded the change rather than marking the check as completed. A routine comparison at 20:40 placed the control clock within one second of the ship clock. The local control event copy lists the output interruption at 21:14:10, on the control clock. The instruction identifier and its issuing office are retained for further examination. This copy is not sufficient to establish what every officer knew or intended. The output event and the removed check should be recorded as separate findings: one concerns what the equipment did, the other concerns which protection was omitted. The independent coast clock was not set from this control clock.",
+      "chinese": "D0 21:05的后续工作指令移除了第二次人船复核，接班者没有把它标作已做。控制钟记录21:14:10断供；签发标识保留待后续核验，不能据此判定所有人员的知情与意图。 20:40常规比对记控制钟与船钟相差不超过一秒。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q103-R-CLOCK",
+      "title": "Coast recorder comparison envelope",
+      "scene": "R1-S08",
+      "spot": "R1-S08.recorder_copy",
+      "modality": "reading",
+      "english": "Comparison envelope for the coast recorder collected after the shore rescue. The original instrument label reports loss of the observed light signal at 21:14:12. Its last routine comparison with the ship clock had an uncertainty of approximately two seconds. The harbour control event is labelled 21:14:10 on a different clock. The handover copy reports a separate control-to-ship comparison within one second. The combined comparisons therefore allow a three-second interval between the two labelled clocks. These readings are consistent within that recorded interval; they are not evidence that every clock displayed an identical second. Together with the approved window and the duty handover, the records support a planned interruption with a required protection removed. Keep the original extract attached. Nothing in this envelope certifies the sender of the inspection mail as currently alive, safe or present at a particular destination.",
+      "chinese": "救援后实际取得的海岸记录器副本保留原标21:14:12，与船钟最近比对约有两秒不确定。控制钟21:14:10与其在已记不确定范围内相符，不是所有钟秒数完全一致；不证明导师当前存活、安全或去向。 值班记录另证控制钟与船钟相差一秒以内；合并两次比对界限允许两仪器标签有三秒差。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q104-R-CONTROLS",
+      "title": "Tidegate local control procedure",
+      "scene": "R1-S09",
+      "spot": "R1-S09.control_notice",
+      "modality": "reading",
+      "english": "Tidegate maintenance procedure. The tower unit is separate from the west workshop machine and from the civil ferry supply. Confirm the local supply indication at the tower base before entering the control level. During the encounter, the left cooling valve is worked from the left front position and the right valve from the right front position. Either valve may be closed first. Local supply isolation is operated from the left rear position after both valves are closed. The interlock refuses an early isolation request without spending its operating allowance. Each person may operate one work point in a personal turn. Reducing the unit to its last reserve of stopping progress does not establish safety: both valves, isolation and a controlled threat are all required. Ordinary shields and cleansing cannot substitute for this sequence.",
+      "chinese": "潮门塔机械独立于工坊及民用渡轮。进控制层前在塔基查本地供给。左前左阀、右前右阀，次序不限；左后隔离需双阀完成，每人每个人回合最多一个现场操作。打至最低制止进度不等于安全，仍需两阀、隔离和制止。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    },
+    {
+      "id": "Q104-R-HANDOVER",
+      "title": "Local inspection and vessel handover terms",
+      "scene": "R1-S09",
+      "spot": "R1-S09.handover_terms",
+      "modality": "reading",
+      "english": "Harbour loan and cross-region inspection terms. Once the Tidegate local safety record has been verified, return to the receiving berth to acknowledge the loan of the sealed inspection vessel Glimmer. Its watch officer maintains the basic ship service; accepting a companion invitation is not a condition of using the vessel. The deck, archive cabin and shared maintenance compartment are three spaces of this one ship, not separate ships at each harbour. The loan does not transfer the civil ferry or its installed equipment. The next inspection commission points to the grove receiving records. It does not certify the current whereabouts of the missing mentor. Basic sailing along an opened route does not require a fuel ticket. The vessel still needs its ordinary gradual repairs; the handover does not turn it into a fully upgraded ship.",
+      "chinese": "塔站实际安全核验后回接应泊位明确接收封存旧巡灯船微光号及跨区核查委托。船务值守不依赖接受莉娜邀请，三空间是同一船。民用渡轮及船上设备不转移，不证明导师当前去向，不收死锁燃料门票。",
+      "review_status": "original_unreviewed",
+      "calibration_status": "human_pending",
+      "audio_asset": "",
+      "version": "candidate-1"
+    }
+  ],
+  "source_rules": [
+    "WORLD-STORY-06.2",
+    "EXP-09.2",
+    "QEV-Q103-close-contract",
+    "COM-14",
+    "RPG-Q104-reward",
+    "NPC-CP-LINA-Q104"
+  ],
+  "original_local_details": [
+    "D0 contingency draft 20:50, approved D-1 18:00 window D0 21:14, removal logged D0 21:05, control clock 21:14:10; these are original candidate local timestamps consistent with the actual coast extract 21:14:12 +/- approximately two seconds.",
+    "Three new internal graybox scene geometries and bounded source/work stations; art and usability remain pending.",
+    "Issuing office/identifier retained without prematurely attributing higher intent or releasing Mara current-state knowledge.",
+    "Duty copy adds a control-to-ship routine comparison within one second; combined with the original coast-to-ship two-second uncertainty this gives a declared three-second comparison interval, never perfect clock equality."
+  ],
+  "remaining": [
+    "human language review and 6.5 calibration",
+    "native accessibility and player tower balance testing",
+    "final visual art/audio performance",
+    "subsequent region content and ship placement integration"
+  ]
+}

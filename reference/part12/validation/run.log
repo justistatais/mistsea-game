@@ -1,0 +1,57 @@
+test_case_collision_rejected (test_reference.ContentTests.test_case_collision_rejected) ... ok
+test_claimed_review_not_enough_without_actual_audio (test_reference.ContentTests.test_claimed_review_not_enough_without_actual_audio) ... ok
+test_content_hash_rejects_changed_same_version (test_reference.ContentTests.test_content_hash_rejects_changed_same_version) ... ok
+test_duplicate_json_keys_rejected (test_reference.ContentTests.test_duplicate_json_keys_rejected) ... ok
+test_fixed_target_rejects_7 (test_reference.ContentTests.test_fixed_target_rejects_7) ... ok
+test_nonfinite_json_rejected (test_reference.ContentTests.test_nonfinite_json_rejected) ... ok
+test_public_missing_qualification_is_blocked (test_reference.ContentTests.test_public_missing_qualification_is_blocked) ... ok
+test_source_dependency_hashes_match (test_reference.ContentTests.test_source_dependency_hashes_match) ... ok
+test_traversal_drive_and_active_code_rejected (test_reference.ContentTests.test_traversal_drive_and_active_code_rejected) ... ok
+test_unknown_file_rejected (test_reference.ContentTests.test_unknown_file_rejected) ... ok
+test_valid_internal_candidate (test_reference.ContentTests.test_valid_internal_candidate) ... ok
+test_process_termination_recovery_at_five_boundaries (test_reference.CrashTests.test_process_termination_recovery_at_five_boundaries) ... ok
+test_atomic_depart_and_vessel_ownership (test_reference.StoreTests.test_atomic_depart_and_vessel_ownership) ... ok
+test_backup_actual_sqlite_integrity (test_reference.StoreTests.test_backup_actual_sqlite_integrity) ... ok
+test_checkpoint_after_no_second_award (test_reference.StoreTests.test_checkpoint_after_no_second_award) ... ok
+test_checkpoint_before_reaward_after_fork (test_reference.StoreTests.test_checkpoint_before_reaward_after_fork) ... ok
+test_context_rotation_rejects_uncommitted_click (test_reference.StoreTests.test_context_rotation_rejects_uncommitted_click) ... ok
+test_corrupt_checkpoint_blocks_load (test_reference.StoreTests.test_corrupt_checkpoint_blocks_load) ... ok
+test_current_invalid_configuration (test_reference.StoreTests.test_current_invalid_configuration) ... ok
+test_delete_draft_all_branches_and_late_feedback (test_reference.StoreTests.test_delete_draft_all_branches_and_late_feedback) ... ok
+test_delete_learning_not_world_or_canonical_draft (test_reference.StoreTests.test_delete_learning_not_world_or_canonical_draft) ... ok
+test_draft_bound_to_load_context (test_reference.StoreTests.test_draft_bound_to_load_context) ... ok
+test_draft_old_branch_head_without_destroying_newer_text (test_reference.StoreTests.test_draft_old_branch_head_without_destroying_newer_text) ... ok
+test_draft_same_canonical_head_and_cas (test_reference.StoreTests.test_draft_same_canonical_head_and_cas) ... ok
+test_exception_rollback_all_writes (test_reference.StoreTests.test_exception_rollback_all_writes) ... ok
+test_existing_profile_without_privacy_control_requires_explicit_recovery (test_reference.StoreTests.test_existing_profile_without_privacy_control_requires_explicit_recovery) ... ok
+test_feedback_after_consent_revoke_discarded (test_reference.StoreTests.test_feedback_after_consent_revoke_discarded) ... ok
+test_feedback_after_rewind_archived_not_world_command (test_reference.StoreTests.test_feedback_after_rewind_archived_not_world_command) ... ok
+test_feedback_current_and_old_draft (test_reference.StoreTests.test_feedback_current_and_old_draft) ... ok
+test_foreign_keys_and_nonnegative_balance (test_reference.StoreTests.test_foreign_keys_and_nonnegative_balance) ... ok
+test_foreign_profile_checkpoint_rejected (test_reference.StoreTests.test_foreign_profile_checkpoint_rejected) ... ok
+test_future_snapshot_schema_blocks_load (test_reference.StoreTests.test_future_snapshot_schema_blocks_load) ... ok
+test_interrupted_privacy_erasure_resumes_on_open (test_reference.StoreTests.test_interrupted_privacy_erasure_resumes_on_open) ... ok
+test_learning_not_in_world_snapshot (test_reference.StoreTests.test_learning_not_in_world_snapshot) ... ok
+test_leases_all_or_none (test_reference.StoreTests.test_leases_all_or_none) ... ok
+test_load_reclaims_ephemeral_leases_only (test_reference.StoreTests.test_load_reclaims_ephemeral_leases_only) ... ok
+test_loading_does_not_leak_future_world_fact (test_reference.StoreTests.test_loading_does_not_leak_future_world_fact) ... ok
+test_migration_failure_preserves_copy_and_original (test_reference.StoreTests.test_migration_failure_preserves_copy_and_original) ... ok
+test_migration_success_is_on_candidate_only (test_reference.StoreTests.test_migration_success_is_on_candidate_only) ... ok
+test_missing_boolean_not_truthy (test_reference.StoreTests.test_missing_boolean_not_truthy) ... ok
+test_missing_release_blocks_load_without_fork (test_reference.StoreTests.test_missing_release_blocks_load_without_fork) ... ok
+test_new_command_same_semantic_slot (test_reference.StoreTests.test_new_command_same_semantic_slot) ... ok
+test_old_backup_does_not_resurrect_erased_learning (test_reference.StoreTests.test_old_backup_does_not_resurrect_erased_learning) ... ok
+test_repeat_same_command (test_reference.StoreTests.test_repeat_same_command) ... ok
+test_repeated_observation_not_new_attempt (test_reference.StoreTests.test_repeated_observation_not_new_attempt) ... ok
+test_same_id_different_payload_conflicts (test_reference.StoreTests.test_same_id_different_payload_conflicts) ... ok
+test_same_semantic_different_effect_conflicts (test_reference.StoreTests.test_same_semantic_different_effect_conflicts) ... ok
+test_stale_entity_precondition (test_reference.StoreTests.test_stale_entity_precondition) ... ok
+test_two_connections_one_semantic_award (test_reference.StoreTests.test_two_connections_one_semantic_award) ... ok
+test_ui_failure_after_commit_keeps_authoritative_result (test_reference.StoreTests.test_ui_failure_after_commit_keeps_authoritative_result) ... ok
+test_unique_item_slot (test_reference.StoreTests.test_unique_item_slot) ... ok
+test_unrelated_ui_setting_does_not_invalidate (test_reference.StoreTests.test_unrelated_ui_setting_does_not_invalidate) ... ok
+
+----------------------------------------------------------------------
+Ran 52 tests in 2.626s
+
+OK

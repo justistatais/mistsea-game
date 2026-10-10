@@ -1,0 +1,24 @@
+{
+  "binding": {
+    "material": "LAB-R-001",
+    "version": "0.1",
+    "modality": "reading",
+    "task_kind": "long_reading",
+    "text_hash": "85e87c2dff493993d32db238b7f3711b74491dd5899107d98eaede9353a7af34",
+    "questions_hash": "a02dc048271d332fb8b9e80ed65d224a5040737b5a789175e6bd4acd5fa2333e",
+    "audio_hash": "not_applicable",
+    "support_hash": "f83e08e576b1f45dd1712a56e9a648c7036f92789ea55dd1605969861bb71e57",
+    "viewing_order_hash": "cfcc5bf81482c15b291a41da0b12dd46382332bdcada22349645989f53fae274",
+    "time_and_tools_hash": "763edb76125c3e30395c90d096b55a6ed8e76d32485025cd4b45287952de6894",
+    "skills_version": "source-part05-v0.1",
+    "evaluator_version": "disabled-no-calibrated-evaluator",
+    "rules_version": "mist-rules-1",
+    "target": 6.5
+  },
+  "exam_reference": "IELTS Academic",
+  "exam_reference_version": "baseline-v0.1-official-reference-confirmation-pending",
+  "relevant_section": "reading",
+  "participant_stratification": "Planned relevant reading section 6.0/6.5/7.0; no actual participants registered.",
+  "exclusion_rules": "Draft: no unconsented, overall-only, incomplete or prior-family-exposed responses in a primary comparison.",
+  "conditions_note": "Draft local planning only; two actual editors, real target-group pilot, monitoring and a calibration decision are missing."
+}

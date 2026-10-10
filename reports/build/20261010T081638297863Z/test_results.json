@@ -1,0 +1,61 @@
+{
+  "scope": "executed C# code tests",
+  "executed": 10,
+  "failed": 0,
+  "results": [
+    {
+      "task": "CX-049",
+      "name": "Three actual level-5 tower candidates, both valve orders, no grade-1 advance",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Tower damage stays zero before valves and 1HP before isolation; cleansing cannot unlock it",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Tower entry requires actual inspection/configuration and does not receive its result gear early",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: H / right-first=False",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: H / right-first=True",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: M / right-first=False",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: M / right-first=True",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: S / right-first=False",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Real SQLite L5 grade0 tower controls and resolution: S / right-first=True",
+      "result": "passed"
+    },
+    {
+      "task": "CX-049",
+      "name": "Continue does not refill; explicit withdrawal preserves acquired records/draft and new retry attempt",
+      "result": "passed"
+    }
+  ],
+  "sqlite_version": "3.53.3",
+  "dotnet_runtime": "10.0.12",
+  "process_architecture": "X64",
+  "human_signoff": null
+}

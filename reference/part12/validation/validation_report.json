@@ -1,0 +1,238 @@
+{
+  "executed_at_utc": "2026-10-09T06:02:31.737388+00:00",
+  "python": "3.13.5",
+  "sqlite": "3.46.1",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "tests_run": 52,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "process_termination_hook_scenarios": 5,
+  "real_files": true,
+  "reference_language": "Python",
+  "journal_mode": "DELETE",
+  "synchronous": "FULL",
+  "not_tested": [
+    "Godot",
+    "C# compilation",
+    "Windows export",
+    "physical power loss",
+    "real IME",
+    "screen reader",
+    "provider request",
+    "full combat",
+    "IELTS calibration",
+    "publisher signature verification",
+    "managed backup purge / secure physical deletion"
+  ],
+  "cases": [
+    {
+      "id": "test_reference.ContentTests.test_case_collision_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_claimed_review_not_enough_without_actual_audio",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_content_hash_rejects_changed_same_version",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_duplicate_json_keys_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_fixed_target_rejects_7",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_nonfinite_json_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_public_missing_qualification_is_blocked",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_source_dependency_hashes_match",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_traversal_drive_and_active_code_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_unknown_file_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.ContentTests.test_valid_internal_candidate",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.CrashTests.test_process_termination_recovery_at_five_boundaries",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_atomic_depart_and_vessel_ownership",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_backup_actual_sqlite_integrity",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_checkpoint_after_no_second_award",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_checkpoint_before_reaward_after_fork",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_context_rotation_rejects_uncommitted_click",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_corrupt_checkpoint_blocks_load",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_current_invalid_configuration",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_delete_draft_all_branches_and_late_feedback",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_delete_learning_not_world_or_canonical_draft",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_draft_bound_to_load_context",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_draft_old_branch_head_without_destroying_newer_text",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_draft_same_canonical_head_and_cas",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_exception_rollback_all_writes",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_existing_profile_without_privacy_control_requires_explicit_recovery",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_feedback_after_consent_revoke_discarded",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_feedback_after_rewind_archived_not_world_command",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_feedback_current_and_old_draft",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_foreign_keys_and_nonnegative_balance",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_foreign_profile_checkpoint_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_future_snapshot_schema_blocks_load",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_interrupted_privacy_erasure_resumes_on_open",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_learning_not_in_world_snapshot",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_leases_all_or_none",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_load_reclaims_ephemeral_leases_only",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_loading_does_not_leak_future_world_fact",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_migration_failure_preserves_copy_and_original",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_migration_success_is_on_candidate_only",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_missing_boolean_not_truthy",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_missing_release_blocks_load_without_fork",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_new_command_same_semantic_slot",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_old_backup_does_not_resurrect_erased_learning",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_repeat_same_command",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_repeated_observation_not_new_attempt",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_same_id_different_payload_conflicts",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_same_semantic_different_effect_conflicts",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_stale_entity_precondition",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_two_connections_one_semantic_award",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_ui_failure_after_commit_keeps_authoritative_result",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_unique_item_slot",
+      "status": "passed"
+    },
+    {
+      "id": "test_reference.StoreTests.test_unrelated_ui_setting_does_not_invalidate",
+      "status": "passed"
+    }
+  ]
+}

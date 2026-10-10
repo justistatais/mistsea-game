@@ -1,0 +1,22 @@
+{"argv": ["C:\\Users\\20594\\AppData\\Local\\MistSeaToolchain\\dotnet\\10.0.401\\dotnet.exe", "build", "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1\\MistSea.sln", "-c", "Debug", "--no-restore"], "cwd": "C:\\Users\\20594\\Documents\\ChatGPT\\\u8bbe\u8ba1\u6e38\u620f\\MistSea_AllInOne_v0.1", "exit_code": 1}
+[stdout]
+  Mist.Core -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Core\bin\Debug\net10.0\Mist.Core.dll
+  Mist.ContentCli -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tools\Mist.ContentCli\bin\Debug\net10.0\Mist.ContentCli.dll
+  Mist.Assist -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\services\Mist.Assist\bin\Debug\net10.0\Mist.Assist.dll
+  Mist.Application -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Application\bin\Debug\net10.0\Mist.Application.dll
+  Mist.Infrastructure -> C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\src\Mist.Infrastructure\bin\Debug\net10.0\Mist.Infrastructure.dll
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\ReleaseReadiness\ReleaseReadinessCases.cs(29,224): error CS8604: “EntityChange NpcCases.Entity(ProfileStore store, string id, string kind, object value)”中的形参“value”可能传入 null 引用实参。 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\Mist.Tests.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\Root.cs(218,202): error CS1503: 参数 1: 无法从“void”转换为“Mist.Application.Contracts.CommandResult” [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\Root.cs(218,270): error CS1503: 参数 1: 无法从“void”转换为“Mist.Application.Contracts.CommandResult” [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+
+生成失败。
+
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\ReleaseReadiness\ReleaseReadinessCases.cs(29,224): error CS8604: “EntityChange NpcCases.Entity(ProfileStore store, string id, string kind, object value)”中的形参“value”可能传入 null 引用实参。 [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\tests\Mist.Tests\Mist.Tests.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\Root.cs(218,202): error CS1503: 参数 1: 无法从“void”转换为“Mist.Application.Contracts.CommandResult” [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\Root.cs(218,270): error CS1503: 参数 1: 无法从“void”转换为“Mist.Application.Contracts.CommandResult” [C:\Users\20594\Documents\ChatGPT\设计游戏\MistSea_AllInOne_v0.1\game\MistSea.csproj]
+    0 个警告
+    3 个错误
+
+已用时间 00:00:06.13
+
+[stderr]

@@ -1,0 +1,26 @@
+{
+  "version": "OPTIONAL-ENCOUNTERS-20261010-v1",
+  "player_projection": false,
+  "baseline_file": "docs/baseline/Combat_System_v0.1.md",
+  "baseline_sha256": "fe52cf240711a1245fed64b0ef69f0bc9960d74c48cd3bb246f670f12743ec88",
+  "baseline_slots_only": true,
+  "new_authorship": "all detailed targets, local keepers, safe stands, source prose, numeric configurations are new unreviewed candidates",
+  "learner_sha256": "b289e026c6649bd7c92970821e48bd0e33e35157390d12837955a6ba850cefd1",
+  "source_word_counts": {
+    "R1-OPT-O01-R-CONTRACT": 245,
+    "R1-OPT-O02-R-CONTRACT": 230,
+    "R2-OPT-O01-R-CONTRACT": 238,
+    "R2-OPT-O02-R-CONTRACT": 226,
+    "R3-OPT-O01-R-CONTRACT": 228,
+    "R3-OPT-O02-R-CONTRACT": 229,
+    "R4-OPT-O01-R-CONTRACT": 219,
+    "R4-OPT-O02-R-CONTRACT": 235,
+    "R5-OPT-O01-R-CONTRACT": 226,
+    "R5-OPT-O02-R-CONTRACT": 223,
+    "R6-OPT-O01-R-CONTRACT": 235,
+    "R6-OPT-O02-R-CONTRACT": 218
+  },
+  "calibration": "not_run",
+  "human_signature": null,
+  "rights_review": "pending"
+}
